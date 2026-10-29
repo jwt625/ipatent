@@ -24,7 +24,12 @@
 ## TODO
 - [x] Copy + verify checksums
 - [x] Standalone files
-- [ ] Create repo, push, enable Pages
-- [ ] Verify live URL (root, a patent page, interactions)
-- [ ] PlayGround readme entry + screenshot
-- [ ] Blog projects.yml entry + thumbnail
+- [x] Create repo, push, enable Pages (legacy build `built`)
+- [x] Verify live URL: 200 on `/`, `p/4128880.html`, `p/5061049.html` (9.6 MB), `LICENSE`; no X-Frame-Options;
+  in-page `?selftest` PASS live on `index.html`, `p/4128880.html`, `p/2524035.html`
+- [x] PlayGround readme entry + `assets/ipatent.png` (PlayGround 53694fd)
+- [x] Blog projects.yml entry + `assets/images/projects/ipatent.png`, iframe `embed_url` (jwt625.github.io 9d78176)
+
+## Progress
+- 2026-10-28: spun off, deployed, listed. Cloudflare injects its challenge-platform script into served HTML (~0.9 kB);
+  harmless, site-wide.
