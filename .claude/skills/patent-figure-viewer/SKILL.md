@@ -6,9 +6,9 @@ description: Turn scanned patent PDFs into a self-contained interactive gallery 
 # Patent figure viewer
 
 Pipeline and viewer live in this repo (`ipatent`, deployed at outside5sigma.com/ipatent/). Every patent goes through the same
-stages and produces the same files; `pipeline/build.py` turns all of `data/*` into one `index.html`.
-Read before working: `README.md`, `pipeline/DATA_SCHEMA.md`, `pipeline/TRACE_SCHEMA.md`, and the
-user's `~/.claude/VIZ-STYLE-GUIDE.md` (dark default, sharp corners, no explainer copy, self-contained).
+stages and produces the same files; `pipeline/build.py` turns all of `data/*` into the gallery `index.html` and one `p/<pn>.html` per patent.
+Read before working: `README.md`, `pipeline/DATA_SCHEMA.md`, `pipeline/TRACE_SCHEMA.md`.
+Viewer style: dark default, sharp corners, no explainer copy, self-contained pages.
 
 ## Stages
 

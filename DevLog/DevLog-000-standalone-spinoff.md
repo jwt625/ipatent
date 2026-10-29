@@ -9,7 +9,7 @@
 
 ## Decisions
 - Name: product "Interactive Patents"; repo, folder and URL subroute `ipatent`.
-- Fresh history: `git archive` of PlayGround commit 4a81d73 (folder `20261027_cray`), 295 files, sha1 identical.
+- Fresh history: `git archive` of PlayGround commit 4a81d73 (folder `20261027_cray`), 295 files, sha1 identical (before the changes below).
 - PlayGround folder frozen at 4a81d73; this repo is canonical from now on.
 - Repo created with `gh repo create` (public); license GPL-3.0.
 - Pages: legacy branch build from `main` `/`, `.nojekyll`, no CNAME (inherits outside5sigma.com from the user site).
