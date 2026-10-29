@@ -20,6 +20,9 @@
   `index.html` and `p/*.html`; no rebuild needed, `work/` is not shipped).
 - Standalone `.gitignore` (dropped the negations that only beat the PlayGround root ignores), `LICENSE`, `.nojekyll`,
   README header / Deploy / License sections, repo-local skill path note.
+- Header brand link "Patents" -> "Interactive Patents"; 20px footer bar matching the atlases ("Created by Wentao Jiang |
+  homepage | GitHub", links to outside5sigma.com and github.com/jwt625/ipatent). Edited `viewer/template.html` +
+  `viewer/app.css`; the same exact strings patched into the built `index.html` and `p/*.html` (no `work/` to rebuild).
 
 ## TODO
 - [x] Copy + verify checksums
@@ -33,3 +36,4 @@
 ## Progress
 - 2026-10-28: spun off, deployed, listed. Cloudflare injects its challenge-platform script into served HTML (~0.9 kB);
   harmless, site-wide.
+- 2026-10-28: header brand + atlas-style footer. Selftest PASS on index, 4128880, 2524035; screenshots checked.
