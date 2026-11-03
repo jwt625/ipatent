@@ -1,0 +1,72 @@
+{
+ "patent": "Filed 2019-08-29 by Airbus Operations GmbH (priority DE 10 2018 215 356.6, 2018-09-10), issued 2023-04-04, eight claims, all to the method. Crossing stiffeners are printed directly onto a composite fuselage skin by material extrusion: a head deposits continuous fibre bundles sheathed in thermoplastic, layer by layer. Where the two stiffeners cross, some layers of each run through without a break while others stop against them and fuse, so both keep continuous fibres across the intersection. The description also treats the fuselage component and the aircraft named in the title; no granted claim is directed to them. Claim 1 has each stiffener's layers applied only along its own longitudinal direction; compare 8:31-35, which allows layers with transverse filaments. No link to a specific aircraft or program is documented.",
+ "figs": {
+  "1": "Starting state: the bare curved shell part with the concave first surface 1a facing up against gravity G. The convex surface 1b becomes the outside of the fuselage.",
+  "2": "First stage of the build, repeated on the front page. A robot manipulator, drawn as a schematic linkage, moves head 300 along surface 1a while filament 4 is laid along V2. The two profiles are still shallow and already form a cross at 5. Figs. 2, 4, 5 and 6 are successive stages.",
+  "3": "Head and deposit in section. Thermoplastic P comes off reel 341 and fibre bundle F off reel 342, entering through feed portions 331 and 332. Cooling device 345 keeps P solid in the feed; heating device 320 melts it around nozzle 310. In the filament, the dashed line is F and the outer lines are the P sheath. One layer 20 is complete and a second is being laid on it. The 5 at bottom centre belongs to Fig. 4.",
+  "4": "Later stage: both profiles have grown into T-sections with flared feet on the skin. V2 runs along L1 and V3 along C1, which is the stringer and rib layout of 5:57-62. The Fig. 3 label at top left belongs to the figure above.",
+  "5": "Both profiles at equal height, h2 and h3. The dashed line marks one continuous filament of a stabilising layer 41, running the whole length of the first profile; the double arrow gives that length.",
+  "6": "Finished component. The second profile is now taller than the first (h3 greater than h2), and its top layers pass over the first profile as web-like area 7, with one continuous filament dashed along its length. Line B-B gives the sections of Figs. 7 and 8; arrow A gives the views of Figs. 9 and 10.",
+  "7": "Section B-B along the second profile; V2 goes into the page. Dashed bands are filaments cut lengthwise, along V3. Square cells are filaments of the first profile cut end-on; the four circles in each are the four fibre filaments of the bundle, by way of example (7:32-34). All four lower rows of the first profile are stabilising layers 41 running through, so the second profile's rows at that level are substrate layers 31 that stop against the block. Only the two top rows 42 of the second profile are continuous. The filaments actually fuse together; the cell outlines are explanatory (7:34-36).",
+  "8": "Same section with alternating layers. From the bottom: 41 with 31, then 21 with 42, then 41 with 31, then 21 with 42, then two more rows 42 in web-like area 7. In the rows marked 20, 21 the first profile's filaments stop at the crossing, and the dotted cell outlines stand where the second profile's filaments pass through. Both profiles thus carry continuous fibres through the height of the crossing; in Fig. 7 the second profile has them only in the top rows.",
+  "9": "View along arrow A of Fig. 6, looking along L1. The first profile is an I-section under the taller second profile, with web-like area 7 above it. h2 and h3 are measured from the skin.",
+  "10": "Same view with an Ω-section first profile. Side webs 2A and 2B enclose area 6, into which the second profile can be continued. The text at 8:40-46 attributes this to FIG. 9, but 2A, 2B and 6 are drawn only here.",
+  "11": "Plan view of a generic twin-engine aircraft; no type is named. Components 100 are outlined near the nose as adjoining panels around the circumference, with L1 parallel to axis L200 and 1b as the outer surface."
+ },
+ "parts": {
+  "2": "Called a stringer at 5:58: a longitudinal fuselage stiffener.",
+  "3": "Called a rib at 5:61. Circumferential fuselage stiffeners are more usually called frames.",
+  "4": "A composite strand, not a single fibre: fibre bundle F sheathed in thermoplastic P. The patent's fibre filaments (6:6-7, 7:34) are the fibres inside F.",
+  "12": "Printed as the numeral 12 in col 8 and in the list, where it sits between L1 and P. Fig. 5 letters it with a bare vertical stroke, apparently l2, for length.",
+  "13": "Printed as the numeral 13 in col 8 and in the list, where it sits between L1 and P. Fig. 6 letters it with a bare vertical stroke, apparently l3, for length.",
+  "300": "The patent's term for what is now usually called a print head or extrusion head.",
+  "331": "Feed for thermoplastic P in Fig. 3.",
+  "332": "Feed for fibre bundle F in Fig. 3."
+ },
+ "glossary": [
+  {
+   "term": "material extrusion",
+   "def": "Additive manufacturing category (ISO/ASTM 52900) in which material is selectively dispensed through a nozzle or orifice; FDM/FFF printing is the common form. The term appears only in claim 1."
+  },
+  {
+   "term": "generative manufacturing",
+   "def": "Term common in German engineering usage for additive manufacturing."
+  },
+  {
+   "term": "fibre composite material",
+   "def": "Reinforcing fibres embedded in a resin or matrix; the patent gives its own definition at 3:63-4:4."
+  },
+  {
+   "term": "thermoplastic matrix",
+   "def": "A polymer matrix that softens when heated and solidifies on cooling, so it can be re-melted and fused, unlike a cured thermoset."
+  },
+  {
+   "term": "cohesive material connection",
+   "def": "A joint in which the materials themselves fuse into one body, as opposed to a bolted or form-fit joint."
+  },
+  {
+   "term": "stringer",
+   "def": "Longitudinal stiffener attached to an aircraft skin."
+  },
+  {
+   "term": "rib",
+   "def": "Used here for the circumferential stiffener. On fuselages this member is usually called a frame; rib more often means a chordwise wing member."
+  },
+  {
+   "term": "skin",
+   "def": "The outer load-bearing sheet of an aircraft structure; here shell part 1."
+  },
+  {
+   "term": "AFP",
+   "def": "Automated fibre placement: a robot head lays narrow fibre tows onto a tool. Named in the background, 1:31-32."
+  },
+  {
+   "term": "Ω-shaped cross section",
+   "def": "A closed-top hat section with two sloped webs and feet on the skin, as in Fig. 10."
+  },
+  {
+   "term": "undercut",
+   "def": "A cross-section region hidden behind other material, which a straight-pull tool cannot reach or release from."
+  }
+ ]
+}

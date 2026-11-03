@@ -1,0 +1,187 @@
+{
+ "patent": "Published application US 2022/0106338 A1, CBN Nano Technologies, filed 2021-11-22, published 2022-04-07; later granted as US 11,708,384 B2. Proposes atomically precise tips made in bulk by solution chemistry and bonded to a surface, in place of tips built by mechanosynthesis, so a scanning probe can use many pre-loaded tips once each. FIG. 1-17 show the tips; FIG. 18-43, 46 and 50-53 synthetic routes; FIG. 44-45 cap removal; FIG. 47-49 apparatus. Experiments in the document itself: deposition of the FIG. 51-53 molecules on Si(100), with X-ray photoelectron spectroscopy indicating 50% of legs bonded, 86% after one anneal to 200 C, from which the text infers at least 19% of tips with all three legs bonded ([0203]-[0204]). It reports no mechanosynthetic reaction performed with these tips and does not say which of the other routes were run; [0198] cites molecular modeling for bromine passivation.",
+ "figs": {
+  "1": "Abstraction tip, modules labelled. Plain adamantane cage, three CH2 legs each ending in S, bonded to a blank surface box. The dot on top of the triple bond marks the unpaired electron [0104]. No feedstock is drawn.",
+  "2": "Hydrogen donation tip. Against FIG. 1 every module changes: Ge replaces the apex carbon and holds H as feedstock, legs are trifluorophenyl rings, linkers are O.",
+  "3": "AbstractO. Carbon cage with a C2 radical on top; trifluorophenyl legs; O linkers; Si. Set FIG. 3-7 changes only what sits on top of the cage.",
+  "4": "HDonationO. Ge at the cage apex holds H.",
+  "5": "C2DonationO. Same C2 radical as FIG. 3, but on Ge: here it is feedstock [0137]; on carbon in FIG. 3 it is the abstraction site.",
+  "6": "MeDonationO. Ge holds a CH2 radical.",
+  "7": "One drawing for four tips: the printed key M = Si, Ge and R = -H, -CH3 gives SiH3, GeH3, SiMe3 or GeMe3 feedstock.",
+  "8": "AbstractNH (\"AbstractionNH\" in [0138]). FIG. 3 with each O linker replaced by NH. Set FIG. 8-12 mirrors FIG. 3-7.",
+  "9": "HDonationNH. FIG. 4 with NH linkers.",
+  "10": "C2DonationNH. FIG. 5 with NH linkers.",
+  "11": "MeDonationNH. FIG. 6 with NH linkers.",
+  "12": "FIG. 7 with NH linkers; same M and R key.",
+  "13": "AbstractS (\"AbstractionS\" in [0139]). The aryl legs are gone: CH2 legs and S linkers on Au. Set FIG. 13-17 mirrors FIG. 3-7. [0136]: Au has weaker intra-surface bonds than Si, which limits pulling forces.",
+  "14": "HDonationS. Ge-H on the short CH2-S legs.",
+  "15": "C2DonationS. C2 radical on Ge.",
+  "16": "MeDonationS. CH2 radical on Ge.",
+  "17": "Repeated on the front page. M and R key as FIG. 7. Brief description [0034] says \"on Silicon\"; the drawing and [0139] show gold.",
+  "18": "AbstractO route, OFA-1 to OFA-9. Triol plus trifluorophenol builds the three legs; the remaining bridgehead then runs OH, CO2H, ester, CH2OH, CHO, iodoalkyne. Phenols stay TBS-protected from OFA-5 to OFA-8. OFA-9 has free OH for binding and an I cap (removal in FIG. 44).",
+  "19": "HDonationO route from FHD-104X (FIG. 42). Ge-X to Ge-H (FHD-105), then TBDPS removal gives FHD-106.",
+  "20": "C2DonationO route from FHD-104X. Terminal alkyne FC2D-101, iodoalkyne FC2D-102, deprotected FC2D-103. The drawn product carries an I cap.",
+  "21": "MeDonationO route from FHD-104X. Product FMeD-102 is drawn as Ge-CH2-I: the CH2 radical of FIG. 6 with an I cap.",
+  "22": "SiH3DonationO route. Starts from FHD-106 (FIG. 19), not FHD-104X. Mes esters replace free phenols (FSiHD-101), Si(OEt)3 is added at Ge (FSiHD-102), LiAlH4 ends at SiH3 with free phenols (FSiHD-103).",
+  "23": "GeH3DonationO route from FHD-104X. Ge-GeH2Ph (FGeHD-101), then acid and LiAlH4 give GeH3 with free phenols (FGeHD-102).",
+  "24": "SiMe3DonationO route. Same Mes protection as FIG. 22, then ClSiMe3 instead of ClSi(OEt)3; LiAlH4 only frees the phenols.",
+  "25": "GeMe3DonationO route from FHD-104X. One step to install GeMe3, one to remove TBDPS.",
+  "26": "AbstractNH route, NFA-1 to NFA-9. FIG. 18 with an aniline in place of the phenol: same bridgehead sequence, HBF4 salt before oxidation, Boc on N instead of TBS on O. Drawn reductant for NFA-5 is diisobutylaluminum hydride; [0150] names LiAlH4 for that step. The figure prints Pr_{3}NRuO_{4}; FIG. 18 prints Pr_{4} and [0142] has Pr4N.",
+  "27": "HDonationNH route from NHD-103X (FIG. 43). Ge-H (NHD-104), then deprotection (NHD-105). Legs drawn N(PMB)2, then NH2 after Pd(OH)2/H2; no O leg group appears.",
+  "28": "C2DonationNH route. TIPS-protected alkyne first; PMB comes off, then the silyl group, and iodination is last; FIG. 20 iodinates before removing its O protection. Legs drawn N(PMB)2, then NH2 after Pd(OH)2/H2; no O leg group appears.",
+  "29": "MeDonationNH route. Product NMeD-102 is drawn as Ge-CH2-I. Legs drawn N(PMB)2, then NH2 after Pd(OH)2/H2; no O leg group appears.",
+  "30": "SiH3DonationNH route. Si(OEt)3 on Ge, reduced to SiH3, then deprotection. Legs drawn N(PMB)2, then NH2 after Pd(OH)2/H2; no O leg group appears.",
+  "31": "GeH3DonationNH route. Ge-GeH2Ph, then GeH3, then deprotection. Legs drawn N(PMB)2, then NH2 after Pd(OH)2/H2; no O leg group appears.",
+  "32": "SiMe3DonationNH route. Legs drawn N(PMB)2, then NH2 after Pd(OH)2/H2; no O leg group appears.",
+  "33": "GeMe3DonationNH route. Legs drawn N(PMB)2, then NH2 after Pd(OH)2/H2; no O leg group appears.",
+  "34": "AbstractS route, SHA-1 to SHA-8. Phenyl rings are temporary: added to the cage, then oxidized to CO2H (SHA-3) and carried to the CH2-S legs through CH2OH and triflate. SHA-8 has free SH and an iodoalkyne cap. SHA-2 is reused in FIG. 50.",
+  "35": "HDonationS route. Same phenyl-to-CH2S leg sequence as FIG. 34, on the Ge cage RHD-101 (FIG. 42). The methyl on Ge survives until SHD-106X, where it becomes Ge-X, then Ge-H in SHD-107.",
+  "36": "C2DonationS route from SHD-106X (FIG. 35). Grignard installs the alkyne; iodination gives SC2D-102.",
+  "37": "MeDonationS route from SHD-105. Acetyl thiol protection is swapped for S-tBu before the Ge-X and Ge-CH2-I steps. The label SMeD-104 is \"SMeDon-104\" in the text [0161].",
+  "38": "SiH3DonationS route from SMeD-102X (FIG. 37). Figures 38-41 differ in the group put on Ge.",
+  "39": "GeH3DonationS route from SMeD-102X. Ge-GeH2Ph, then GeH3 with free SH.",
+  "40": "SiMe3DonationS route from SMeD-102X.",
+  "41": "GeMe3DonationS route from SMeD-102X.",
+  "42": "Common O-series intermediate FHD-104X. Starts from a printed \"Commercially Available\" cis-cyclohexane triacid. Ge enters at HD-3 and the cage closes at HD-4; RHD-101 is the branch point reused in FIG. 35 and FIG. 43, and HD-4 in FIG. 53.",
+  "43": "Common NH-series intermediate NHD-103X, from RHD-101 (FIG. 42) via an aniline coupling and PMB protection. Start point for FIG. 27-33.",
+  "44": "Photo-activation after mounting. 254 nm removes the I cap from the drawn tip, leaving the C2 radical of FIG. 3 plus an I radical.",
+  "45": "Photo-activation of the Barton ester cap at 365 nm. Byproducts drawn: CO2 and the pyrithiyl radical [0181]. The bound tip that remains is the same as in FIG. 44.",
+  "46": "Barton ester version of AbstractO. Branches from OFA-7 (FIG. 18). OFAB-1 adds the propynoic acid, OFAB-2 the ester, OFAB-3 frees the phenols under buffered conditions. Input to FIG. 45.",
+  "47": "Inverted mode [0087]. The workpiece, on the handle, moves between many fixed tips. Diagrammatic and not to scale [0183]. The four tips carry different end symbols (circle, triangle, two bare stubs) that the text does not key individually.",
+  "48": "Meta-tip [0091]. FIG. 47 turned over: the tips sit on the handle side and the workpiece stays on the lower surface. The positional means is not shown.",
+  "49": "Six interferometer beams for six degrees of freedom [0195]-[0196]. Beam pairs set the rotations: Z1-Z2 about x, Z2-Z3 about y, Y1-Y2 about z; the drawn pair spacings run roughly along y, x and x. Beam 4907 appears to pass behind mirror 4903, giving the two parallel lines under it.",
+  "50": "AdamRad-Br route from SHA-2 (FIG. 34). Iodination, Sonogashira coupling, TIPS removal, then formaldehyde gives AdBr-4, also called AdamRad-Br. New leg: phenylpropargyl alcohol [0199]. Br on the plain cage is the feedstock.",
+  "51": "Abstraction tip with propanol legs. Printed label is \"PAO HAbst\"; the text uses \"PAO-AbstI\" [0200] and \"PAO-HAbstI\" ([0068], Table 1). Step yields are printed. Used in the deposition experiments of [0203]-[0204].",
+  "52": "Methyl donation tool with CH2OH legs. Ge enters through Ge(CH2Cl)4 and the cage closes in one step (MG-110). Printed labels: MAO-GeRad-CH2I, \"MAO-MeDonI\". Step yields are printed. Used in the deposition experiments of [0203]-[0204].",
+  "53": "C2 donation tool with CH2CH2OH legs, from HD-4 (FIG. 42). A tert-butylphenyl group occupies Ge until BD-21. Printed product label is EAO-GeHAbstI; [0202] gives both EAO-C2DonI and EAO-GeHAbstI. Equivalents are printed, yields are not. Used in the deposition experiments of [0203]-[0204]."
+ },
+ "parts": {
+  "101": "The dot in the drawing is the unpaired electron.",
+  "4702": "Optional per [0183]; the workpiece can bind directly to the handle.",
+  "4802": "Optional per [0185]; the tips can mount directly on the handle.",
+  "4913": "Not named in the description. Drawn as a rectangular block where the six beams end.",
+  "4914": "Not named in the description. Drawn as a triangular point under block 4913."
+ },
+ "glossary": [
+  {
+   "term": "mechanosynthesis",
+   "def": "Use of positional control and mechanical force to drive site-specific chemical reactions; voltage bias is neither required nor excluded [0089]."
+  },
+  {
+   "term": "tip",
+   "def": "Here a designed molecule, not the bare apex of a probe: active atoms that change bonding, plus support atoms that do not [0100]."
+  },
+  {
+   "term": "synthetic tip",
+   "def": "Atomically precise tip made by bulk chemistry instead of by mechanosynthesis [0097]."
+  },
+  {
+   "term": "modular tip",
+   "def": "Tip described as active site, body, legs, linkers and feedstock, so parts can be swapped [0092]."
+  },
+  {
+   "term": "active site",
+   "def": "The atom or atoms that bind the group being moved [0121]."
+  },
+  {
+   "term": "body",
+   "def": "Rigid core holding active site and legs, adamantane-based here; also isolates the active site chemically [0124]."
+  },
+  {
+   "term": "leg / linker",
+   "def": "Leg attaches body to surface; linker is the end group that forms the surface bond: O, NH or S here [0125], [0127]."
+  },
+  {
+   "term": "feedstock",
+   "def": "Atoms carried by a tip for adding to a workpiece; also atoms removed from one [0084]."
+  },
+  {
+   "term": "abstraction",
+   "def": "Reaction removing an atom, typically hydrogen, from a workpiece onto the tip's radical site [0121], [0131]."
+  },
+  {
+   "term": "donation",
+   "def": "Reaction transferring feedstock from tip to workpiece. Tip names give the feedstock: H, C2, Me, SiH3, GeH3, SiMe3, GeMe3 [0134]."
+  },
+  {
+   "term": "tip name suffix",
+   "def": "O, NH or S gives the linker: AbstractO, HDonationNH, MeDonationS."
+  },
+  {
+   "term": "radical",
+   "def": "Atom with an unpaired electron, highly reactive. Drawn as a dot [0104]."
+  },
+  {
+   "term": "protective cap",
+   "def": "Group that blocks a reactive active site during synthesis and mounting, removed afterwards, here by light [0123], [0179]."
+  },
+  {
+   "term": "Barton ester",
+   "def": "Thiohydroxamic ester cap that fragments under about 355-365 nm light into a carbon radical, CO2 and a pyrithiyl radical [0181]."
+  },
+  {
+   "term": "adamantane",
+   "def": "C10H16 cage, the smallest unit cage of diamond [0072]."
+  },
+  {
+   "term": "germaadamantane",
+   "def": "Adamantane with one cage carbon replaced by Ge, the donation tips' active site. Drawn with Ge at the apex."
+  },
+  {
+   "term": "bridgehead",
+   "def": "Cage atom bonded to three other cage atoms; the legs and apex groups attach at these sites [0076]."
+  },
+  {
+   "term": "presentation surface",
+   "def": "Surface holding tips or feedstock, or supporting the workpiece [0094]."
+  },
+  {
+   "term": "workpiece",
+   "def": "The object being built [0103]."
+  },
+  {
+   "term": "handle",
+   "def": "Structure holding a tip or workpiece for the positional device [0085]."
+  },
+  {
+   "term": "positional means / device",
+   "def": "Device providing atomically precise positioning, e.g. a scanning probe microscope [0093]."
+  },
+  {
+   "term": "conventional / inverted mode",
+   "def": "Tip moves to a stationary workpiece, or workpiece moves to the tips [0080], [0087]."
+  },
+  {
+   "term": "meta-tip",
+   "def": "Tool carrying several tips [0091]."
+  },
+  {
+   "term": "build sequence",
+   "def": "Ordered list of reactions that makes a workpiece [0077]."
+  },
+  {
+   "term": "bootstrap",
+   "def": "Making atomically precise tips from imprecise ones by mechanosynthesis, the step these tips aim to avoid [0009], [0106]."
+  },
+  {
+   "term": "SPM / AFM / STM",
+   "def": "Scanning probe, atomic force and scanning tunneling microscope."
+  },
+  {
+   "term": "qPlus sensor",
+   "def": "Quartz tuning-fork force sensor used in low-temperature atomic force microscopes, named in [0197]."
+  },
+  {
+   "term": "Abbe error",
+   "def": "Position error from small rotations when the measured point is offset from the working point [0194]."
+  },
+  {
+   "term": "protecting groups",
+   "def": "Temporary blocks on reactive groups during synthesis: TBS and TBDPS (silyl, on O), PMB and Boc (on N), Mes (mesitoate ester, on O), Ac (on S), S-tBu. Some are defined in the drawings."
+  },
+  {
+   "term": "compound labels",
+   "def": "OFA-1, FHD-105, NHD-103X and similar name intermediates and are used the same way in the text. X = Cl, Br, I. The document does not spell out the prefixes; in the drawings F and OFA mark phenol series, N and NFA aniline series, S and SHA thiol series."
+  }
+ ]
+}

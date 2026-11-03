@@ -1,0 +1,573 @@
+{
+ "pn": "9593740",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 2,
+   "crop": [
+    365,
+    968,
+    2128,
+    2529
+   ],
+   "rotate": 270,
+   "front_page": true
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 2,
+   "page": 3,
+   "crop": [
+    405,
+    1312,
+    2129,
+    2190
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 3,
+   "page": 4,
+   "crop": [
+    403,
+    626,
+    2122,
+    2819
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 4,
+   "page": 5,
+   "crop": [
+    393,
+    1179,
+    2126,
+    2293
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 5,
+   "page": 6,
+   "crop": [
+    390,
+    1179,
+    2163,
+    2310
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 6,
+   "page": 7,
+   "crop": [
+    586,
+    919,
+    1956,
+    2546
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "FIG. 7",
+   "sheet": 7,
+   "page": 8,
+   "crop": [
+    395,
+    1364,
+    2126,
+    2088
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "8",
+   "label": "FIG. 8",
+   "sheet": 8,
+   "page": 9,
+   "crop": [
+    403,
+    667,
+    2118,
+    2843
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "9",
+   "label": "FIG. 9",
+   "sheet": 9,
+   "page": 10,
+   "crop": [
+    391,
+    522,
+    2113,
+    2948
+   ],
+   "rotate": 270,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "10",
+   "name": "energy absorbing composite tension-shear fitting",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "band",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "12'",
+   "name": "bands",
+   "figs": [
+    "3",
+    "4",
+    "5",
+    "7"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "panel",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "14'",
+   "name": "panels",
+   "figs": [
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "sheet",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "16'",
+   "name": "wider sheet",
+   "figs": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "flat first surface",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "first or interior surface"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "flat second surface",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "second or exterior surface"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "first end edge",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "second end edge",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "26",
+   "name": "front edge",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "28",
+   "name": "rear edge",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "30",
+   "name": "intermediate portion",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "first end portion",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "34",
+   "name": "second end portion",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "36",
+   "name": "space",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "38",
+   "name": "flat first surface",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "front surface"
+   ]
+  },
+  {
+   "ref": "40",
+   "name": "flat second surface",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "rear surface",
+    "second or rear surface"
+   ]
+  },
+  {
+   "ref": "42",
+   "name": "first end edge",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "44",
+   "name": "second end edge",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "second or top end edge"
+   ]
+  },
+  {
+   "ref": "46",
+   "name": "first side edge",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "48",
+   "name": "second side edge",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "50",
+   "name": "intermediate portion",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "52",
+   "name": "first side portion",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "54",
+   "name": "second side portion",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "58",
+   "name": "flat first surface",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "front surface",
+    "first or front surface"
+   ]
+  },
+  {
+   "ref": "60",
+   "name": "flat second surface",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "rear surface"
+   ]
+  },
+  {
+   "ref": "60'",
+   "name": "sheet second surface",
+   "figs": []
+  },
+  {
+   "ref": "62",
+   "name": "first end edge",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "64",
+   "name": "second end edge",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "66",
+   "name": "first side edge",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "68",
+   "name": "second side edge",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "70",
+   "name": "bend",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "72",
+   "name": "first end portion",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "72'",
+   "name": "first end portion",
+   "figs": []
+  },
+  {
+   "ref": "74",
+   "name": "second end portion",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "74'",
+   "name": "sheet second end portion",
+   "figs": []
+  },
+  {
+   "ref": "80",
+   "name": "first cavity",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "82",
+   "name": "second cavity",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "84",
+   "name": "blocks of material",
+   "figs": [
+    "2",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "84'",
+   "name": "",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "86",
+   "name": "blocks of material",
+   "figs": [
+    "2",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "86'",
+   "name": "",
+   "figs": [
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "90",
+   "name": "fitting",
+   "figs": [
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "92",
+   "name": "structural members or I beams",
+   "figs": [
+    "8",
+    "9"
+   ],
+   "alt": [
+    "first composite beam",
+    "first beam"
+   ]
+  },
+  {
+   "ref": "94",
+   "name": "structural members or I beams",
+   "figs": [
+    "8"
+   ],
+   "alt": [
+    "second composite beam",
+    "second beam"
+   ]
+  },
+  {
+   "ref": "96",
+   "name": "intersection or joint",
+   "figs": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "98",
+   "name": "cargo tie-down",
+   "figs": [
+    "8",
+    "9"
+   ],
+   "alt": [
+    "tie-down"
+   ]
+  },
+  {
+   "ref": "100",
+   "name": "web",
+   "figs": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "102",
+   "name": "flange",
+   "figs": [
+    "8",
+    "9"
+   ],
+   "alt": [
+    "upper flange"
+   ]
+  },
+  {
+   "ref": "104",
+   "name": "web",
+   "figs": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "106",
+   "name": "fasteners",
+   "figs": [
+    "9"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1246 @@
+{
+ "pn": "7527222",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 3,
+   "crop": [
+    460,
+    390,
+    2040,
+    3020
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "2A",
+   "label": "FIG. 2A",
+   "sheet": 2,
+   "page": 4,
+   "crop": [
+    364,
+    471,
+    2152,
+    2985
+   ],
+   "rotate": 270
+  },
+  {
+   "id": "2B",
+   "label": "FIG. 2B",
+   "sheet": 3,
+   "page": 5,
+   "crop": [
+    430,
+    414,
+    2111,
+    3076
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "3A",
+   "label": "FIG. 3A",
+   "sheet": 4,
+   "page": 6,
+   "crop": [
+    562,
+    386,
+    2020,
+    1412
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3B",
+   "label": "FIG. 3B",
+   "sheet": 4,
+   "page": 6,
+   "crop": [
+    650,
+    1400,
+    2028,
+    1707
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4A",
+   "label": "FIG. 4A",
+   "sheet": 4,
+   "page": 6,
+   "crop": [
+    595,
+    1742,
+    1995,
+    2785
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4B",
+   "label": "FIG. 4B",
+   "sheet": 4,
+   "page": 6,
+   "crop": [
+    628,
+    2775,
+    2004,
+    3076
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5A",
+   "label": "FIG. 5A",
+   "sheet": 5,
+   "page": 7,
+   "crop": [
+    397,
+    521,
+    1236,
+    2977
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "5B",
+   "label": "FIG. 5B",
+   "sheet": 5,
+   "page": 7,
+   "crop": [
+    1330,
+    471,
+    2160,
+    2977
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 6,
+   "page": 8,
+   "crop": [
+    463,
+    364,
+    2004,
+    3068
+   ],
+   "rotate": 270,
+   "front_page": true
+  },
+  {
+   "id": "7A",
+   "label": "FIG. 7A",
+   "sheet": 7,
+   "page": 9,
+   "crop": [
+    455,
+    485,
+    2144,
+    1682
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7B",
+   "label": "FIG. 7B",
+   "sheet": 7,
+   "page": 9,
+   "crop": [
+    430,
+    1800,
+    2111,
+    2944
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8",
+   "label": "FIG. 8",
+   "sheet": 8,
+   "page": 10,
+   "crop": [
+    496,
+    397,
+    2086,
+    1800
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9",
+   "label": "FIG. 9",
+   "sheet": 8,
+   "page": 10,
+   "crop": [
+    554,
+    1800,
+    2028,
+    3035
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10",
+   "label": "FIG. 10",
+   "sheet": 9,
+   "page": 11,
+   "crop": [
+    364,
+    521,
+    2102,
+    1982
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11",
+   "label": "FIG. 11",
+   "sheet": 9,
+   "page": 11,
+   "crop": [
+    719,
+    1918,
+    2030,
+    2980
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12",
+   "label": "FIG. 12",
+   "sheet": 10,
+   "page": 12,
+   "crop": [
+    579,
+    538,
+    1970,
+    1640
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "13",
+   "label": "FIG. 13",
+   "sheet": 10,
+   "page": 12,
+   "crop": [
+    381,
+    1706,
+    2122,
+    2919
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "14A",
+   "label": "FIG. 14A",
+   "sheet": 11,
+   "page": 13,
+   "crop": [
+    389,
+    513,
+    2102,
+    1212
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "14B",
+   "label": "FIG. 14B",
+   "sheet": 11,
+   "page": 13,
+   "crop": [
+    381,
+    1362,
+    2028,
+    1896
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "14C",
+   "label": "FIG. 14C",
+   "sheet": 11,
+   "page": 13,
+   "crop": [
+    356,
+    2088,
+    2086,
+    2969
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "100",
+   "name": "aircraft",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "102",
+   "name": "fuselage",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "104",
+   "name": "passenger cabin",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "106",
+   "name": "passenger seats",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "110",
+   "name": "barrel sections",
+   "figs": [
+    "1",
+    "2A",
+    "2B",
+    "13"
+   ]
+  },
+  {
+   "ref": "112",
+   "name": "circumferential joints",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "220",
+   "name": "skin",
+   "figs": [
+    "2A",
+    "2B"
+   ]
+  },
+  {
+   "ref": "230",
+   "name": "stiffeners",
+   "figs": []
+  },
+  {
+   "ref": "230a",
+   "name": "stiffeners",
+   "figs": [
+    "2A",
+    "2B"
+   ]
+  },
+  {
+   "ref": "230b",
+   "name": "stiffeners",
+   "figs": [
+    "2A",
+    "2B"
+   ]
+  },
+  {
+   "ref": "230c",
+   "name": "stiffeners",
+   "figs": [
+    "2A",
+    "2B"
+   ]
+  },
+  {
+   "ref": "230d",
+   "name": "stiffeners",
+   "figs": [
+    "2A",
+    "2B"
+   ]
+  },
+  {
+   "ref": "231",
+   "name": "flange portions",
+   "figs": []
+  },
+  {
+   "ref": "231a",
+   "name": "first flange portions",
+   "figs": [
+    "2A"
+   ]
+  },
+  {
+   "ref": "231b",
+   "name": "second flange portions",
+   "figs": [
+    "2A"
+   ]
+  },
+  {
+   "ref": "233a",
+   "name": "first outer edge",
+   "figs": [
+    "2A"
+   ]
+  },
+  {
+   "ref": "233b",
+   "name": "second outer edge",
+   "figs": [
+    "2A"
+   ]
+  },
+  {
+   "ref": "234",
+   "name": "raised portion",
+   "figs": [
+    "2A"
+   ]
+  },
+  {
+   "ref": "235",
+   "name": "continuous support surfaces",
+   "figs": [
+    "2A"
+   ]
+  },
+  {
+   "ref": "240",
+   "name": "support members or frames",
+   "figs": []
+  },
+  {
+   "ref": "240a",
+   "name": "first frame",
+   "figs": [
+    "2A",
+    "2B"
+   ]
+  },
+  {
+   "ref": "240b",
+   "name": "second frame",
+   "figs": [
+    "2A",
+    "2B"
+   ]
+  },
+  {
+   "ref": "241",
+   "name": "first frame section",
+   "figs": [
+    "2A"
+   ]
+  },
+  {
+   "ref": "242",
+   "name": "second frame section",
+   "figs": [
+    "2A"
+   ]
+  },
+  {
+   "ref": "243",
+   "name": "mating surfaces",
+   "figs": [
+    "2A"
+   ]
+  },
+  {
+   "ref": "244",
+   "name": "base portion",
+   "figs": [
+    "2A",
+    "2B"
+   ]
+  },
+  {
+   "ref": "246",
+   "name": "upstanding portion",
+   "figs": [
+    "2A"
+   ]
+  },
+  {
+   "ref": "248",
+   "name": "“mouse holes”",
+   "figs": [
+    "2A"
+   ]
+  },
+  {
+   "ref": "250",
+   "name": "suitable fasteners",
+   "figs": [
+    "2A"
+   ]
+  },
+  {
+   "ref": "252",
+   "name": "suitable fasteners",
+   "figs": [
+    "2B"
+   ]
+  },
+  {
+   "ref": "D",
+   "name": "distance",
+   "figs": [
+    "2A"
+   ]
+  },
+  {
+   "ref": "310",
+   "name": "barrel section",
+   "figs": [
+    "3A"
+   ]
+  },
+  {
+   "ref": "320",
+   "name": "skin",
+   "figs": [
+    "3A",
+    "3B"
+   ]
+  },
+  {
+   "ref": "331",
+   "name": "flange portions",
+   "figs": []
+  },
+  {
+   "ref": "331a",
+   "name": "first flange portions",
+   "figs": [
+    "3A"
+   ]
+  },
+  {
+   "ref": "331b",
+   "name": "second flange portions",
+   "figs": [
+    "3A"
+   ]
+  },
+  {
+   "ref": "334",
+   "name": "raised portion",
+   "figs": [
+    "3A",
+    "3B"
+   ]
+  },
+  {
+   "ref": "336",
+   "name": "first stiffeners",
+   "figs": [
+    "3A",
+    "3B"
+   ]
+  },
+  {
+   "ref": "337",
+   "name": "flange portions",
+   "figs": []
+  },
+  {
+   "ref": "337a",
+   "name": "first flange portion",
+   "figs": [
+    "3A"
+   ]
+  },
+  {
+   "ref": "337b",
+   "name": "second flange portion",
+   "figs": [
+    "3A"
+   ]
+  },
+  {
+   "ref": "338",
+   "name": "second stiffeners",
+   "figs": [
+    "3A",
+    "3B"
+   ]
+  },
+  {
+   "ref": "410",
+   "name": "barrel section",
+   "figs": [
+    "4A"
+   ]
+  },
+  {
+   "ref": "420",
+   "name": "skin",
+   "figs": [
+    "4A",
+    "4B"
+   ]
+  },
+  {
+   "ref": "431",
+   "name": "first flange portions",
+   "figs": [
+    "4A",
+    "4B"
+   ]
+  },
+  {
+   "ref": "434",
+   "name": "raised portion",
+   "figs": [
+    "4A",
+    "4B"
+   ]
+  },
+  {
+   "ref": "437",
+   "name": "second flange portion",
+   "figs": [
+    "4A"
+   ]
+  },
+  {
+   "ref": "450",
+   "name": "asymmetric stiffeners",
+   "figs": [
+    "4A",
+    "4B"
+   ]
+  },
+  {
+   "ref": "510a",
+   "name": "barrel sections",
+   "figs": [
+    "5A"
+   ]
+  },
+  {
+   "ref": "510b",
+   "name": "barrel sections",
+   "figs": [
+    "5B"
+   ]
+  },
+  {
+   "ref": "520a",
+   "name": "skin",
+   "figs": [
+    "5A"
+   ]
+  },
+  {
+   "ref": "520b",
+   "name": "skin",
+   "figs": [
+    "5B"
+   ]
+  },
+  {
+   "ref": "530a",
+   "name": "I-section stiffeners",
+   "figs": [
+    "5A"
+   ]
+  },
+  {
+   "ref": "530b",
+   "name": "C-section stiffeners",
+   "figs": [
+    "5B"
+   ]
+  },
+  {
+   "ref": "531",
+   "name": "flange portions",
+   "figs": [
+    "5B"
+   ]
+  },
+  {
+   "ref": "531a",
+   "name": "first flange portions",
+   "figs": [
+    "5A"
+   ]
+  },
+  {
+   "ref": "531b",
+   "name": "second flange portions",
+   "figs": [
+    "5A"
+   ]
+  },
+  {
+   "ref": "540",
+   "name": "frames",
+   "figs": []
+  },
+  {
+   "ref": "540a",
+   "name": "frame",
+   "figs": [
+    "5A"
+   ]
+  },
+  {
+   "ref": "540b",
+   "name": "frame",
+   "figs": [
+    "5B"
+   ]
+  },
+  {
+   "ref": "600",
+   "name": "barrel section manufacturing system",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "602",
+   "name": "factory floor",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "610",
+   "name": "stiffener loading station",
+   "figs": [
+    "6",
+    "7A",
+    "7B"
+   ]
+  },
+  {
+   "ref": "620",
+   "name": "skin laminating station",
+   "figs": [
+    "6",
+    "8"
+   ],
+   "alt": [
+    "laminating station"
+   ]
+  },
+  {
+   "ref": "630",
+   "name": "vacuum station",
+   "figs": [
+    "6",
+    "9",
+    "10"
+   ]
+  },
+  {
+   "ref": "640",
+   "name": "curing station",
+   "figs": [
+    "6",
+    "10"
+   ]
+  },
+  {
+   "ref": "650",
+   "name": "inspection station",
+   "figs": [
+    "6",
+    "11"
+   ]
+  },
+  {
+   "ref": "660",
+   "name": "trimming station",
+   "figs": [
+    "6",
+    "12"
+   ]
+  },
+  {
+   "ref": "670",
+   "name": "assembly station",
+   "figs": [
+    "6",
+    "13"
+   ],
+   "alt": [
+    "final assembly station"
+   ]
+  },
+  {
+   "ref": "700",
+   "name": "barrel section tool assembly",
+   "figs": [
+    "7A",
+    "7B",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13"
+   ],
+   "alt": [
+    "tool assembly"
+   ]
+  },
+  {
+   "ref": "702",
+   "name": "rotatable tool fixture",
+   "figs": [
+    "7A",
+    "7B"
+   ],
+   "alt": [
+    "tool fixture"
+   ]
+  },
+  {
+   "ref": "704",
+   "name": "tool support structure",
+   "figs": [
+    "7B",
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "705",
+   "name": "rollers",
+   "figs": [
+    "7B"
+   ]
+  },
+  {
+   "ref": "706",
+   "name": "tool segments",
+   "figs": []
+  },
+  {
+   "ref": "706a",
+   "name": "tool segments",
+   "figs": [
+    "7A",
+    "7B"
+   ]
+  },
+  {
+   "ref": "706b",
+   "name": "tool segments",
+   "figs": [
+    "7A",
+    "7B"
+   ]
+  },
+  {
+   "ref": "706c",
+   "name": "tool segments",
+   "figs": [
+    "7A",
+    "7B"
+   ]
+  },
+  {
+   "ref": "706d",
+   "name": "tool segments",
+   "figs": [
+    "7A",
+    "7B"
+   ]
+  },
+  {
+   "ref": "706e",
+   "name": "tool segments",
+   "figs": [
+    "7A",
+    "7B"
+   ]
+  },
+  {
+   "ref": "706f",
+   "name": "tool segments",
+   "figs": [
+    "7A",
+    "7B"
+   ]
+  },
+  {
+   "ref": "707",
+   "name": "longitudinal axis",
+   "figs": [
+    "7B",
+    "8",
+    "11",
+    "12",
+    "13"
+   ]
+  },
+  {
+   "ref": "708",
+   "name": "stiffener grooves",
+   "figs": [
+    "7A"
+   ]
+  },
+  {
+   "ref": "712",
+   "name": "floor tracks",
+   "figs": [
+    "7B",
+    "8",
+    "9",
+    "12"
+   ],
+   "alt": [
+    "tracks"
+   ]
+  },
+  {
+   "ref": "721",
+   "name": "innermost ply",
+   "figs": [
+    "7B",
+    "8"
+   ]
+  },
+  {
+   "ref": "730",
+   "name": "stiffeners",
+   "figs": [
+    "7A",
+    "7B",
+    "13"
+   ]
+  },
+  {
+   "ref": "814",
+   "name": "fiber placement machine",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "816",
+   "name": "track beam",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "818",
+   "name": "fiber tows",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "820",
+   "name": "continuous cylindrical skin or laminate",
+   "figs": [
+    "8",
+    "9",
+    "11",
+    "12",
+    "13"
+   ],
+   "alt": [
+    "laminate"
+   ]
+  },
+  {
+   "ref": "822",
+   "name": "work platform",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "912",
+   "name": "overhead gantry beam",
+   "figs": [
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "alt": [
+    "gantry beam"
+   ]
+  },
+  {
+   "ref": "924",
+   "name": "opposing pressure pad supports",
+   "figs": []
+  },
+  {
+   "ref": "924a",
+   "name": "first pressure pad support",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "924b",
+   "name": "second pressure pad support",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "926",
+   "name": "pressure pad",
+   "figs": []
+  },
+  {
+   "ref": "926a",
+   "name": "first pressure pad",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "926b",
+   "name": "second pressure pad",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "1013",
+   "name": "gate section",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "1050",
+   "name": "autoclave",
+   "figs": [
+    "10",
+    "11"
+   ]
+  },
+  {
+   "ref": "1051",
+   "name": "door",
+   "figs": []
+  },
+  {
+   "ref": "1051a",
+   "name": "first door",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "1051b",
+   "name": "second door",
+   "figs": [
+    "10",
+    "11"
+   ]
+  },
+  {
+   "ref": "1104",
+   "name": "tool support structure",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "1105",
+   "name": "rollers",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "1160",
+   "name": "inspection machine",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "1204",
+   "name": "tool support structure",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "1205",
+   "name": "rollers",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "1228",
+   "name": "window cutouts",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "1270",
+   "name": "CNC (computer numerically controlled) router",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "1272",
+   "name": "CNC drill fixture",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "1340",
+   "name": "frame sections",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "1380",
+   "name": "internal work platform",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "1406",
+   "name": "tool",
+   "figs": [
+    "14A",
+    "14B",
+    "14C"
+   ],
+   "alt": [
+    "tooling segment"
+   ]
+  },
+  {
+   "ref": "1420",
+   "name": "laminate",
+   "figs": [
+    "14B",
+    "14C"
+   ],
+   "alt": [
+    "skin"
+   ]
+  },
+  {
+   "ref": "1430",
+   "name": "stiffener",
+   "figs": [
+    "14A",
+    "14B",
+    "14C"
+   ]
+  },
+  {
+   "ref": "1431",
+   "name": "flange portions",
+   "figs": []
+  },
+  {
+   "ref": "1431a",
+   "name": "opposing flange portions",
+   "figs": [
+    "14A",
+    "14B"
+   ]
+  },
+  {
+   "ref": "1431b",
+   "name": "opposing flange portions",
+   "figs": [
+    "14A",
+    "14B"
+   ]
+  },
+  {
+   "ref": "1432",
+   "name": "interior surface",
+   "figs": [
+    "14A"
+   ]
+  },
+  {
+   "ref": "1480",
+   "name": "tubular bladder",
+   "figs": [
+    "14A",
+    "14B",
+    "14C"
+   ],
+   "alt": [
+    "bladder"
+   ]
+  },
+  {
+   "ref": "1482",
+   "name": "fabric",
+   "figs": [
+    "14A",
+    "14B",
+    "14C"
+   ]
+  },
+  {
+   "ref": "1490",
+   "name": "compressible pad or caul sheet",
+   "figs": [
+    "14C"
+   ],
+   "alt": [
+    "caul sheet"
+   ]
+  },
+  {
+   "ref": "1492",
+   "name": "vacuum bag",
+   "figs": [
+    "14C"
+   ]
+  }
+ ]
+}

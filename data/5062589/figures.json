@@ -1,0 +1,223 @@
+{
+ "pn": "5062589",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    761,
+    703,
+    1792,
+    2680
+   ],
+   "rotate": 0,
+   "front_page": true
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    316,
+    623,
+    1190,
+    2917
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3a",
+   "label": "FIG. 3a",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    1021,
+    809,
+    2055,
+    1719
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3b",
+   "label": "FIG. 3b",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    534,
+    395,
+    2059,
+    1262
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    370,
+    1232,
+    1912,
+    2126
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    570,
+    2321,
+    2063,
+    3093
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "1",
+   "name": "fuselage",
+   "figs": [
+    "1",
+    "4",
+    "5"
+   ],
+   "alt": [
+    "craft"
+   ]
+  },
+  {
+   "ref": "2",
+   "name": "bulkhead element",
+   "figs": [
+    "1",
+    "3b"
+   ],
+   "alt": [
+    "bulkhead",
+    "elements"
+   ]
+  },
+  {
+   "ref": "2a",
+   "name": "edge portions",
+   "figs": [
+    "1",
+    "2"
+   ],
+   "alt": [
+    "edge parts",
+    "edge portion"
+   ]
+  },
+  {
+   "ref": "2b",
+   "name": "central and major portion",
+   "figs": [
+    "1",
+    "2"
+   ],
+   "alt": [
+    "center of the bulkhead",
+    "calotte"
+   ]
+  },
+  {
+   "ref": "4",
+   "name": "fleece or foam material or honeycomb or other similar hollow reinforcements",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "transition piece",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "23a",
+   "name": "taper",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "23b",
+   "name": "other portion",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "25",
+   "name": "bulkhead",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "panel or internal partition",
+    "calotte"
+   ]
+  },
+  {
+   "ref": "27",
+   "name": "bulkhead",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "A",
+   "name": "part A",
+   "figs": [
+    "3b"
+   ],
+   "alt": [
+    "AREA A"
+   ]
+  },
+  {
+   "ref": "B",
+   "name": "area B",
+   "figs": [
+    "3b"
+   ]
+  },
+  {
+   "ref": "C",
+   "name": "area C",
+   "figs": [
+    "3b"
+   ]
+  },
+  {
+   "ref": "d",
+   "name": "thickness",
+   "figs": [
+    "3b"
+   ]
+  },
+  {
+   "ref": "d'",
+   "name": "thickness",
+   "figs": [
+    "3b"
+   ]
+  }
+ ]
+}

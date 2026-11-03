@@ -1,0 +1,50 @@
+{
+ "patent": "Filed 1927-06-29 (Germany 1926-07-09) and issued 1931-09-15 to Herbert Wagner, assigned to Rohrbach Metall-Flugzeugbau of Berlin. The web of a plate girder is made thin enough to fold under transverse load, leaving a panel of tensile diagonals between the flanges and closely spaced transverse compression members. Embodiments: flying-boat hull (Figs. 1 to 3), wing box (Figs. 4, 5), lower bulkhead (Figs. 6 to 8), round hollow body (Figs. 9 to 11). The text gives two fold angles, 35 to 50 degrees generally (p.1:65) and 35 to 45 degrees for the hull (p.2:112), and two member spacings, 1/8 to 1/12 of girder height in the description (p.2:3) and one-eighth to three-quarters of girder depth in the claims. Inference, not stated in the patent: it matches the diagonal-tension beam credited to Wagner (NACA TN 469 abstract: \"beams with very thin webs, as developed by Professor Wagner of Germany\"), judging from the inventor, the Rohrbach assignment and the wording \"closed diagonal panel with transverse folds\". No specific aircraft is documented for this patent.",
+ "figs": {
+  "1": "Side elevation with one length of hull broken out near the right end. The chain-dash line g is a single fold running from upper girder b down to the chime, crossing several bulkheads f (dashed verticals). III-III marks the section of Fig. 3 and II-II that of Fig. 2. The aerofoil-shaped outline above the hull is not lettered. The crop also catches the top of Fig. 3.",
+  "2": "Horizontal section on II-II. Dashed pairs are the closely spaced bulkheads f; the band lettered f^{1} and the similar dark bands are watertight bulkheads. The outline is skin e. The crop also catches the bottom of Fig. 3.",
+  "3": "Cross section on III-III. Angle girders b at the upper corners, skin e on the sides, chime girders c and keel girder d at the bottom. The text does not describe the hatched bottom region.",
+  "4": "Plan view with the top skin removed. Web girders i run along the top and bottom of the view, heavier ties j divide it into three full bays, and each bay holds four lighter push bars n. The chain-dash line g is a fold crossing several n. V-V marks the section of Fig. 5.",
+  "5": "Section on V-V. Waisted walls j join the top and bottom skin m; the small sections n sit inside both skins here. The text says manufacture differs from the drawing, with n on the bottom side of both skins (p.3:11-14).",
+  "6": "Only the lower part, between o and the bent girder p, is the plate wall girder: thin plate q carrying members r. Dashed and solid r appear to be the two sides of the plate. The diagonal struts above are not lettered. VIII-VIII marks the section of Fig. 8.",
+  "7": "Second bulkhead form. Between o and the straight parts of s the centre is an open framework; only the end portions above the curves have thin plating with members r. Printed label sits to the right of the drawing, so the crop also holds parts of Figs. 10 and 11.",
+  "8": "Section on VIII-VIII of Fig. 6. Plate q is the central line, with small U-shaped members r on both sides and some opposite pairs, as in claims 3 and 12. Letter r is shared with Fig. 6, its leaders going to both figures.",
+  "9": "Cross section of the round body. Skin t outside, ring members u inside, heavy longitudinals v at top and bottom, lighter v^{1} at four side points of which three are lettered. X-X and XI-XI mark the sections of Figs. 10 and 11.",
+  "10": "Section on X-X. Rings u cross the longitudinals v and v^{1}; the doubled members u^{1} are the reinforced ones of p.3:45-50. No fold line is drawn in Figs. 9 to 11.",
+  "11": "Section on XI-XI, with the wall broken out at lower right. Rings u and doubled members u^{1} are the same as in Fig. 10. The two long-dash horizontal lines are not lettered."
+ },
+ "parts": {
+  "h": "Printed in Fig. 4 only, leader to the left edge bay; the text never uses h. The hand-lettered glyph may be the description's k (outer skin), which no drawing otherwise shows.",
+  "k": "Named in the text (p.2:129) but not found as a printed letter in the drawings; see h."
+ },
+ "glossary": [
+  {
+   "term": "diagonal tension field",
+   "def": "A thin web that has buckled carries shear mainly as tension along its inclined folds, instead of as shear in a flat sheet; flanges and transverse members react the resulting compression. The patent's wording is \"closed diagonal panel\" and \"closed panel of tensile diagonals\"."
+  },
+  {
+   "term": "web buckling",
+   "def": "Out-of-plane waves in a thin web once in-plane shear or compression exceeds its critical load. Here it is the working state, not failure: the text says the folds vanish on unloading up to 2/3 of breaking load (p.1:55-57)."
+  },
+  {
+   "term": "plate wall girder",
+   "def": "Plate girder: two flanges (the patent's girder members) joined by a sheet web (web plate, vertical plate, tension plate). Also \"sheet wall girder\" in the claims."
+  },
+  {
+   "term": "compression members",
+   "def": "Transverse stiffeners between the flanges; the text also calls them cross members, push bars, force transmitting members and cross ties."
+  },
+  {
+   "term": "bumping",
+   "def": "Patent's word for what the tension plate protects thin flanges against (p.1:86); reads as local buckling."
+  },
+  {
+   "term": "chime",
+   "def": "Hull line where side meets bottom."
+  },
+  {
+   "term": "duralumin",
+   "def": "Age-hardenable aluminium-copper alloy, a common aircraft sheet material of the period."
+  }
+ ]
+}

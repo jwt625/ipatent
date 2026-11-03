@@ -1,0 +1,1060 @@
+{
+ "pn": "20170106964",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    534,
+    700,
+    2028,
+    2662
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    448,
+    905,
+    2090,
+    2546
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    513,
+    908,
+    2092,
+    2524
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    460,
+    920,
+    2098,
+    2541
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 5,
+   "page": 5,
+   "crop": [
+    636,
+    2123,
+    1953,
+    2753
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 5,
+   "page": 5,
+   "crop": [
+    403,
+    594,
+    2092,
+    2084
+   ],
+   "rotate": 270,
+   "front_page": true
+  },
+  {
+   "id": "7",
+   "label": "FIG. 7",
+   "sheet": 6,
+   "page": 6,
+   "crop": [
+    531,
+    1749,
+    2055,
+    2708
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "8",
+   "label": "FIG. 8",
+   "sheet": 6,
+   "page": 6,
+   "crop": [
+    554,
+    643,
+    2055,
+    1722
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "9",
+   "label": "FIG. 9",
+   "sheet": 7,
+   "page": 7,
+   "crop": [
+    644,
+    1651,
+    1790,
+    2805
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "10",
+   "label": "FIG. 10",
+   "sheet": 7,
+   "page": 7,
+   "crop": [
+    650,
+    577,
+    1932,
+    1650
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "11",
+   "label": "FIG. 11",
+   "sheet": 8,
+   "page": 8,
+   "crop": [
+    494,
+    865,
+    2093,
+    2594
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "12",
+   "label": "FIG. 12",
+   "sheet": 9,
+   "page": 9,
+   "crop": [
+    584,
+    660,
+    2089,
+    2827
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "13",
+   "label": "FIG. 13",
+   "sheet": 10,
+   "page": 10,
+   "crop": [
+    706,
+    1914,
+    2007,
+    2689
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "14",
+   "label": "FIG. 14",
+   "sheet": 10,
+   "page": 10,
+   "crop": [
+    535,
+    643,
+    2079,
+    1828
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "15",
+   "label": "FIG. 15",
+   "sheet": 11,
+   "page": 11,
+   "crop": [
+    621,
+    1747,
+    1964,
+    2828
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "16",
+   "label": "FIG. 16",
+   "sheet": 11,
+   "page": 11,
+   "crop": [
+    544,
+    643,
+    1964,
+    1756
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "17",
+   "label": "FIG. 17",
+   "sheet": 12,
+   "page": 12,
+   "crop": [
+    612,
+    1614,
+    1790,
+    2805
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "18",
+   "label": "FIG. 18",
+   "sheet": 12,
+   "page": 12,
+   "crop": [
+    602,
+    577,
+    1949,
+    1656
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "19",
+   "label": "FIG. 19",
+   "sheet": 13,
+   "page": 13,
+   "crop": [
+    560,
+    544,
+    1859,
+    2739
+   ],
+   "rotate": 270,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "20",
+   "name": "",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "100",
+   "name": "aircraft",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "102",
+   "name": "fuselage",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "104",
+   "name": "wings",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "106",
+   "name": "propulsion units",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "108",
+   "name": "empennage",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "110",
+   "name": "horizontal tails",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "112",
+   "name": "vertical tail",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "114",
+   "name": "passenger cabin",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "116",
+   "name": "passenger seats",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "118",
+   "name": "seat posts",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "120",
+   "name": "cargo hold",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "122",
+   "name": "floor",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "150",
+   "name": "structural assembly",
+   "figs": [
+    "2",
+    "3",
+    "4",
+    "9",
+    "10",
+    "11",
+    "12",
+    "17",
+    "18"
+   ]
+  },
+  {
+   "ref": "152",
+   "name": "beam assembly",
+   "figs": [
+    "2",
+    "3",
+    "4",
+    "9",
+    "10",
+    "11",
+    "17",
+    "18"
+   ]
+  },
+  {
+   "ref": "154",
+   "name": "structural assembly corners",
+   "figs": [
+    "2",
+    "3",
+    "4",
+    "9",
+    "10",
+    "11",
+    "12",
+    "17",
+    "18"
+   ]
+  },
+  {
+   "ref": "156",
+   "name": "corner interior angle",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "158",
+   "name": "floor beams",
+   "figs": [
+    "2",
+    "3",
+    "4",
+    "9",
+    "10",
+    "12",
+    "17",
+    "18"
+   ],
+   "alt": [
+    "beams"
+   ]
+  },
+  {
+   "ref": "160",
+   "name": "vertical web",
+   "figs": [
+    "2",
+    "3",
+    "4",
+    "10",
+    "11",
+    "12",
+    "17",
+    "18"
+   ],
+   "alt": [
+    "webs"
+   ]
+  },
+  {
+   "ref": "162",
+   "name": "upper and lower flanges",
+   "figs": [
+    "2",
+    "3",
+    "4",
+    "9",
+    "10",
+    "11",
+    "12",
+    "17",
+    "18"
+   ],
+   "alt": [
+    "flange"
+   ]
+  },
+  {
+   "ref": "164",
+   "name": "beam caps",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "166",
+   "name": "beam shims",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "168",
+   "name": "cruciform",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "170",
+   "name": "beam angle segments",
+   "figs": [
+    "11",
+    "12",
+    "17"
+   ]
+  },
+  {
+   "ref": "172",
+   "name": "pad-ups",
+   "figs": [
+    "9",
+    "11",
+    "12",
+    "17"
+   ]
+  },
+  {
+   "ref": "180",
+   "name": "external fitting",
+   "figs": [
+    "3",
+    "4",
+    "9",
+    "17"
+   ]
+  },
+  {
+   "ref": "182",
+   "name": "bathtub fitting",
+   "figs": [
+    "3",
+    "4",
+    "9",
+    "17"
+   ]
+  },
+  {
+   "ref": "184",
+   "name": "bathtub fitting base wall",
+   "figs": [
+    "4",
+    "9"
+   ]
+  },
+  {
+   "ref": "186",
+   "name": "bathtub fitting side wall",
+   "figs": [
+    "4",
+    "9"
+   ]
+  },
+  {
+   "ref": "188",
+   "name": "threaded central hole",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "190",
+   "name": "cargo tie-down rings",
+   "figs": [
+    "2",
+    "3"
+   ],
+   "alt": [
+    "tie-down ring"
+   ]
+  },
+  {
+   "ref": "192",
+   "name": "threaded stud",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "cargo tie-down ring"
+   ]
+  },
+  {
+   "ref": "194",
+   "name": "tension fastener holes",
+   "figs": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16"
+   ]
+  },
+  {
+   "ref": "196",
+   "name": "tension fastener",
+   "figs": [
+    "4",
+    "9",
+    "17"
+   ]
+  },
+  {
+   "ref": "198",
+   "name": "head or a nut",
+   "figs": [
+    "4",
+    "9",
+    "17"
+   ],
+   "alt": [
+    "nut"
+   ]
+  },
+  {
+   "ref": "200",
+   "name": "corner fittings",
+   "figs": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18"
+   ]
+  },
+  {
+   "ref": "202",
+   "name": "elongate strap",
+   "figs": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17"
+   ],
+   "alt": [
+    "strap"
+   ]
+  },
+  {
+   "ref": "204",
+   "name": "strap radius portion",
+   "figs": [
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "11",
+    "12",
+    "14",
+    "15",
+    "16"
+   ]
+  },
+  {
+   "ref": "206",
+   "name": "strap planar portions",
+   "figs": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18"
+   ]
+  },
+  {
+   "ref": "208",
+   "name": "strap end edge",
+   "figs": [
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "11",
+    "13",
+    "14",
+    "15",
+    "17"
+   ]
+  },
+  {
+   "ref": "210",
+   "name": "strap inner side edge",
+   "figs": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "212",
+   "name": "strap outer side edge",
+   "figs": [
+    "6",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "214",
+   "name": "strap planar portion length",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "216",
+   "name": "strap planar portion width",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "218",
+   "name": "strap thickness",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "220",
+   "name": "strap interior surface",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "222",
+   "name": "strap exterior surface",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "224",
+   "name": "strap interior angle",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "226",
+   "name": "unidirectional composite plies",
+   "figs": [
+    "5",
+    "6",
+    "7",
+    "8",
+    "11",
+    "13",
+    "15"
+   ],
+   "alt": [
+    "composite plies"
+   ]
+  },
+  {
+   "ref": "228",
+   "name": "reinforcing fibers",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "230",
+   "name": "orientation",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "300",
+   "name": "wrap",
+   "figs": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "9",
+    "10"
+   ]
+  },
+  {
+   "ref": "302",
+   "name": "wrap bend radius",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "304",
+   "name": "wrap planar portions",
+   "figs": [
+    "5",
+    "6",
+    "10"
+   ]
+  },
+  {
+   "ref": "306",
+   "name": "wrap interior angle",
+   "figs": [
+    "4",
+    "6"
+   ]
+  },
+  {
+   "ref": "400",
+   "name": "male fitting",
+   "figs": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17"
+   ]
+  },
+  {
+   "ref": "402",
+   "name": "convex portion",
+   "figs": [
+    "4",
+    "6",
+    "7",
+    "8",
+    "9",
+    "11",
+    "13",
+    "14",
+    "15",
+    "16"
+   ]
+  },
+  {
+   "ref": "404",
+   "name": "circumferential ends",
+   "figs": [
+    "6",
+    "8"
+   ]
+  },
+  {
+   "ref": "406",
+   "name": "male fitting end face",
+   "figs": [
+    "6",
+    "7",
+    "8",
+    "14",
+    "15",
+    "16"
+   ]
+  },
+  {
+   "ref": "408",
+   "name": "male fitting interior surface",
+   "figs": [
+    "6",
+    "7"
+   ]
+  },
+  {
+   "ref": "410",
+   "name": "male fitting exterior surface",
+   "figs": [
+    "6",
+    "7",
+    "8",
+    "14",
+    "16"
+   ]
+  },
+  {
+   "ref": "500",
+   "name": "female fitting",
+   "figs": [
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17"
+   ]
+  },
+  {
+   "ref": "502",
+   "name": "concave portion",
+   "figs": [
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "13",
+    "14",
+    "15",
+    "16"
+   ]
+  },
+  {
+   "ref": "504",
+   "name": "circumferential ends",
+   "figs": [
+    "6",
+    "8"
+   ]
+  },
+  {
+   "ref": "506",
+   "name": "female fitting end face",
+   "figs": [
+    "5",
+    "6",
+    "7",
+    "8",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17"
+   ]
+  },
+  {
+   "ref": "508",
+   "name": "female fitting side surfaces",
+   "figs": [
+    "5",
+    "6",
+    "7",
+    "8",
+    "13",
+    "15"
+   ]
+  },
+  {
+   "ref": "600",
+   "name": "tension loads",
+   "figs": [
+    "2",
+    "3",
+    "6"
+   ],
+   "alt": [
+    "tension load"
+   ]
+  },
+  {
+   "ref": "602",
+   "name": "hoop load",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "604",
+   "name": "shear load",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "606",
+   "name": "compression load",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "608",
+   "name": "high-strain-rate compression load",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "700",
+   "name": "method",
+   "figs": [
+    "19"
+   ]
+  },
+  {
+   "ref": "702",
+   "name": "Step 702",
+   "figs": [
+    "19"
+   ]
+  },
+  {
+   "ref": "704",
+   "name": "Step 704",
+   "figs": [
+    "19"
+   ]
+  },
+  {
+   "ref": "706",
+   "name": "Step 706",
+   "figs": [
+    "19"
+   ]
+  },
+  {
+   "ref": "708",
+   "name": "Step 708",
+   "figs": [
+    "19"
+   ]
+  }
+ ]
+}

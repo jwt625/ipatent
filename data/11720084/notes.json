@@ -1,0 +1,222 @@
+{
+ "patent": "CBN Nano Technologies patent (inventors Ryley III, Jobes, MacArthur, Semprebon), provisionals filed 2020-09-25, PCT filed 2021-09-22, issued 2023-08-08. A catalogue of mechanical logic gates in which input positions decide whether the displacement of a driven (clock) element reaches an output. Schemes run from aligned knob rows and deflected flexible rods through moved guides, constrained hinges, link-and-pivot axis alignment, shaped plates coupled by non-contact forces and rotary tabs, then adder, flip-flop and grid-memory compositions. The text gives scales from macroscopic models to mechanosynthesized parts. Its molecular-scale figures are stated as modeling or expectation: molecular modeling for a 30 nm cube gate, molecular dynamics for actuation below 100 pN or 10 pN. The document reports no fabricated or tested device. It names US 10,481,866 and related filings as earlier designs for reduced energy consumption, and states no energy figure of its own.",
+ "figs": {
+  "1A": "Inputs (0, 0), driven element 108 not yet moved. Two looped cables run over end pulleys and carry the knobs. The dashed line through the front knobs is the aligned row from 108 to output 110. The front page repeats this figure.",
+  "1B": "Same inputs after 108 moves. The knobs in the aligned row lean and push 110; arrows mark the drive and the output motion. Output 112 stays in place because its rows have a gap.",
+  "1C": "Inputs (0, 1): cable 104 has shifted its knobs. The dashed row now leads to 0-value output 112, and the row to 110 has a gap.",
+  "1D": "Inputs (1, 0): cable 102 has shifted instead. The path still ends at 112; only the knobs forming it differ.",
+  "1E": "Inputs (1, 1), both cables shifted. Third state with output 112 selected, which completes the NOR table with FIG. 1A.",
+  "1F": "Straight rods in place of looped cables, so no pulleys. Each input is a pair, A0/A1 and B0/B1, and one rod of each pair moves. State (1, 1), comparable to FIG. 1E.",
+  "2": "Hardware of FIG. 1F with the knobs relocated: NAND instead of NOR. The bar and stub outputs swap values against FIG. 1F: the long bar 212 is the 1 output and the stub 210 the 0 output. Rod order also differs (A1, A0, B1, B0).",
+  "3A": "One rod and one knob row per input, undisplaced for 0 and displaced for 1: state (0, 0), compare FIG. 1A. Only A and B are printed on the rods; values come from the text.",
+  "3B": "State (1, 0), compare FIG. 1D. The dashed row now leads to output 310.",
+  "3C": "State (0, 1), compare FIG. 1C. A different knob pair forms the path to 310.",
+  "3D": "Single-rail version: the 0 output 310 and its knobs are removed, leaving only 312. No motion now means 0, so the next stage cannot be pushed to a 0 value without inversion.",
+  "3E": "Inversion by orientation: 312 drives through connector 332 into input 334 of a second mechanism 330 built in reverse. Extending 312 places 334 at its 0 value. The text numbers driven element 336 and output 338; they are not printed here.",
+  "3F": "Gate-symbol view of FIG. 3E. Output 312 wires to input 334 of gate 330, which is drawn facing the opposite way.",
+  "3G": "Inversion by a lever: beam 356 pivots on axis 358 (chain line), so 354 moves opposite to 352. Col. 13 cites inverters as FIGS. 3F-3H; the inverters are drawn in FIGS. 3G-3I.",
+  "3H": "Pinion 378 sits between racks 380 and 382, so 372 and 374 move in opposite directions.",
+  "3I": "Belt 396 loops over rollers 398. Input and output arms attach to opposite belt runs, which travel in opposite directions.",
+  "4": "Schematic plan view of a full adder. Array 404 (Clk 1) has three vertical series A, B and C_{IN} across seven rows; each row output runs right into one series of array 406 (Clk2), which produces C_{OUT} and Sum. Dashed boxes bound gates; ovals marked 1 and 0 are knobs. Per the text, the 0-output knobs push nothing and are shown for illustration.",
+  "5A": "Inputs (0, 0). Two opposed inputs 508 hold hinge 510 level, so cylinder 502 lies on the line from 504 to 506. Tracks 512 on 504 and 506 stand parallel to the travel of 502.",
+  "5B": "Same inputs after 504 moves; phantom lines show the start. 502 is pushed along, 510 pivots, and 506 moves.",
+  "5C": "One input at 1. Hinge 510 tilts and carries 502 off the line. 504 and 506 turn in guides 514 so tracks 512 still lie along the path of 502, which is how the patent keeps the van der Waals force constant.",
+  "5D": "Input state of FIG. 5C after 504 moves; phantom lines at upper left show the start. Track 512 on 504 slides past 502, so 506 does not move.",
+  "5E": "The other input at 1. 510 tilts the opposite way, a second misaligned position of 502.",
+  "5F": "Both inputs at 1. The hinge is displaced without tilting, a third misaligned position. Number 500 is not printed on this figure.",
+  "6A": "Inputs (0, 0). 606 is straight and in line with 608 through flared guide 612. Right-hand labels read upper 604, lower 602, then Clk. Hatched parts are fixed: guides 610, 612 and ramp 614.",
+  "6B": "604 at 1. Ramp 614 turns its ball end down onto 602, which pushes 606 clear of 612. Phantom circles show the retracted position.",
+  "6C": "602 at 1. Its ball end meets 606 directly. 606 is deflected again; the text stresses that its exact position does not matter once it misses 612.",
+  "6D": "Both at 1. 606 is again clear of 612; output 608 is in the same state as in FIGS. 6B and 6C.",
+  "7A": "Inputs (0, 0). Inputs 702 and 704 are the two ends of one U-shaped part 706, sliding in guides 708. The bend clears 710, which lines up with output 714 through 716.",
+  "7B": "704 pushed, printed value 1. The bend of 706 shifts and tilts, deflecting 710 out of line with 716. Dashed lines show the straight path.",
+  "7C": "702 pushed, printed value 1, the mirror of FIG. 7B. 710 ends up deflected past 716.",
+  "7D": "Both pushed. The whole bend advances and deflects 710. All of FIGS. 7B-7D leave 714 undriven.",
+  "7E": "Three gates of FIG. 7A arranged as AND. 700A and 700B sit at the top; their driven elements 710A and 710B press inputs 702C and 704C of 700C below, whose driven element 710C runs horizontally. With (0, 0) on 704A and 704B, 710C is deflected from 714C. 702A and 702B stay at 0.",
+  "7F": "704B at 1 deflects 710B, so 704C is left unpressed. 710A still presses 702C, so 710C is still deflected.",
+  "7G": "704A at 1, the mirror of FIG. 7F. 710B now does the deflecting through 704C.",
+  "7H": "Both at 1. 710A and 710B bend toward the center and miss 702C and 704C, so 710C stays straight and reaches 714C.",
+  "7I": "Half adder of the FIG. 7A type, drawn schematically with parallel guide lines along each rod. Clk1 drives three gates, Clk2 one, Clk3 one; splitters 774 fan one signal to several rods. This is five gates: col. 13 says five, the brief description in col. 4 says four.",
+  "7J": "Conventional circuit for comparison, marked PRIOR ART on the sheet. Five NOR gates; dashed lines map them to clock phases Clk1, Clk2, Clk3, the same grouping as FIG. 7I.",
+  "8A": "Inputs (0, 0). Two curved rotating guides, drawn with collars at their outer ends, meet at the center, so rod 810 passes into 808 and pushes 812. Double dashed lines are the rods inside the guides; the dashed extension at lower right is 812 displaced.",
+  "8B": "804 at 1 swings 808 away. 810 extends out of its guide without engaging 812. The gap makes the output 0.",
+  "8C": "Same parts as FIG. 8A, assembled offset. (0, 0) leaves the guides misaligned; the phantom outline past 860 is the rod extending into nothing.",
+  "8D": "854 at 1 aligns the guides, so 862 is driven: dashed extension at lower right.",
+  "8E": "852 at 1 instead. The guides align at a different angle, yet the output result matches FIG. 8D.",
+  "8F": "Both at 1. The guides pass the aligned position and misalign the other way; the phantom outline is 860 extending. This completes XOR.",
+  "9A": "Inputs (0, 0, 0). Moving guides 912, 914 and 916 sit on inputs and alternate with fixed guides 918, 924, 926 and 928. All are in line, so 908, 920, 922 and 910 form one straight row. The dashed end at right is 910 displaced.",
+  "9B": "904 at 1 lifts 914 and bends 920 upward, breaking the row at that joint. 922 and 910 do not move; the loop of phantom line is 920 extended.",
+  "10A": "Section, inputs (0, 0). Two balls 1012 sit between 1010 and 1018. Tube 1006 is retracted, so it and housing 1008 hold them in line. The inputs act through the unnumbered vertical bar at right. Hatching marks cut solids.",
+  "10B": "1004 at 1, phantom at its retracted end. Tube 1006 is pushed away from the chamber, so magnets 1016 draw the balls outward and they no longer align to carry motion to 1018.",
+  "10C": "1034 at 1. The unconstrained single element 1042 flexes and takes up the motion of 1040; 1046 stays. The chain lines show the bar's start position.",
+  "10D": "(0, 0). The tube confines 1042 so it cannot flex enough, and the motion of 1040 reaches 1046.",
+  "10E": "Hinge 1052 replaces the flexing element. Constraint element 1054 is drawn holding the hinge on two sides, inputs printed 0, 0. No released state is drawn.",
+  "10F": "(0, 0). Fluid 1082 (stippled) fills a small chamber between sealed ends 1088, so moving 1080 raises pressure and moves 1086.",
+  "10G": "Tube displaced, chamber enlarged: the fluid has room and 1086 stays. The text says an input has moved, and 1074 is drawn advanced against the bar, but the value printed beside it is 0. FIG. 10B prints 1 for the same state.",
+  "11A": "Input at 0, before driving. Pin 1110 on hinge 1108 rides in slot 1112, which is parallel to the travel of 1106.",
+  "11B": "After driving. The pin slides along the slot, the hinge keeps its angle and translates, and 1104 reaches 1.",
+  "11C": "Input at 1, before driving. The slot now lies along the arc the pin follows when the hinge bends. Note the plate angle versus FIG. 11A.",
+  "11D": "After driving. The hinge folds and absorbs the motion of 1106; 1104 stays at 0.",
+  "11E": "Same hinge logic with no slot. Plate 1134 in its low position at input 0: edge 1136 is close to pin 1130 and stops the hinge from bending further. Pins are held to the plate by non-contact force per the text.",
+  "11F": "After driving. The hinge translates and 1124 reaches 1. Dashed outlines are the pins behind the plate; 1140 and 1142 are not labeled in this view.",
+  "11G": "Input at 1 raises the plate. Edge 1136 clears 1130, and third edge 1140 stops pin 1132 and so blocks the output.",
+  "11H": "After driving. The hinge bends instead; 1124 stays at 0. Ramp edge 1142 is what returns 1132 when the plate rises.",
+  "11I": "Links and pivots only. Chain lines mark axes; input axis 1164 and output hinge axis 1166 are apart, before driving. Driven element 1156 is the lower bar; 1160 and 1158 pivot with it about common drive axis 1162.",
+  "11J": "Driven element 1156 moved. With 1164 and 1166 apart, the linkage cannot fold, so 1154 is forced to move.",
+  "11K": "Input displaced: 1164 now falls on 1166, one chain line through the top row, before driving.",
+  "11L": "After driving. 1160 and 1158 swing together about the shared axis and 1154 stays. Base axis 1168 is visible here because 1156 has moved away from it.",
+  "11M": "Variant 1150' with a two-bar driven element 1156'. State matches FIG. 11J.",
+  "11N": "Variant 1150'' with input 1152 hung from a remote axis 1168'. Phantom lines show its other position. The text notes this arc causes some motion of 1158 and 1154.",
+  "12A": "Input printed 1. Cutout 1208 is clear of the path of 1210, so the attractive element slides across the plate and the plate stays. Double arrow: input travel; the short arrow gives the drive direction.",
+  "12B": "Input printed 0. Cutout 1208 now straddles the path, so 1210 cannot cross an edge without overcoming the attraction, and drags the plate. Phantom shows the plate and 1206 moved.",
+  "12C": "Three gates of FIG. 12A in series, each with its own input: output of one is the driven element of the next. Any input raised breaks the chain, giving 3-input NOR.",
+  "12D": "Plate outline reshaped for mounting on a pivot pin on input 1214'.",
+  "12E": "Rear-mounted pivot version aimed at nano-scale parts; driven pin 1264 and output pin 1268 ride on the graphene face 1254. Dashed outlines are parts behind the plate, including socket 1256 and input pin 1258.",
+  "12F": "Second view of the gate: socket 1256 and input pin 1258 appear in solid line, not dashed as in FIG. 12E. The label 1274 here sits on the plate face where FIG. 12E prints 1254.",
+  "12G": "Two opposed gates on one input 1276 and one driven frame 1282. Here 1272 conveys motion to its output while 1274 accommodates it. Arrows mark input and drive travel.",
+  "12H": "Input at its other position: roles swap, and motion goes to the 1274 output. Motion is routed, not blocked.",
+  "12I": "Channels 1290 and 1292 in the plate engage pins 1264 and 1268, giving more engagement force than the non-contact forces alone.",
+  "13A": "Gate drawn as nanotube parts on three diamond or diamondoid anchors 1324. Supports 1322 carry paired sleeves 1320. A dashed parallelogram joins the input assembly, drawn apart below, to the plate; the text does not explain it. The 30 nm size in the text comes from molecular modeling.",
+  "13B": "Simpler form: one sleeve 1370 and support 1374 per sliding element, plus guide pin 1376 riding in track 1378 on block 1372. The input assembly is drawn apart at lower right, joined by a dashed parallelogram.",
+  "14": "Plate 1406 pivots at the input 1408. Output 1402 engages farther from the pivot than driven element 1404, so its displacement is larger: the text's example is twice the distance, twice the displacement. Edge 1410 and path region 1412 are the two plate regions.",
+  "15A": "Input printed 0. Unlike FIGS. 12-14, the input moves connector 1508, and plates sit on 1502 and 1504. Enlarged ends 1520 sit on both plates; edge 1514 of L-shaped 1510 catches the end when the plate moves. Phantom lines show the plates and connector moved.",
+  "15B": "Input printed 1. The connector sits over path region 1516, so plate 1510 passes without moving it and 1512 stays.",
+  "15C": "Balance 1534 combines two inputs (printed 1 and 0) into one connector position. Only the position with both inputs at 1 reaches path region 1544, which yields NAND. Plate shape sets the function: the text notes alternatives for XOR and NOR.",
+  "15D": "Mechanism of FIG. 15A with output plate 1552 stacked partly over 1510, sandwiching one enlarged end 1554. Reuses driven plate 1510 and saves volume.",
+  "16A": "Cylindrical inputs 1602 and 1604 are concentric around driven element 1610. Tabs 1606 and 1608 lined up with 1612 (inputs at 0). Curved arrows: input rotation. Straight arrow: drive. Dashed lines show hidden shells. No values printed.",
+  "16B": "Driven element advanced. 1612 slides along both tabs with no change in attractive force.",
+  "16C": "1604 rotated: tab 1608 is off 1612. Now 1612 would have to pass the edge of input 1604, so attraction resists the move. Reading displacement as the output gives NOR.",
+  "16D": "Larger-scale analog, cut lengthwise. Magnets 1662 in the driven element 1660 run along ferromagnetic tabs 1656 and 1658. Double arrow: translation.",
+  "16E": "1652 rotated, tab 1656 shown off-line against the magnet. Drive is impeded.",
+  "16F": "1654 rotated instead, tab 1658 off-line. Same result as FIG. 16E for the other input.",
+  "17A": "Latch at rest: lock position, free position, input 0, output 0. Read left to right: input pin 1708 on 1702 at the triangular copy plate 1718, copy element 1706 running to output 1704, copy pin 1710 at lock plate 1712.",
+  "17B": "Unlocked, copy element pivoted by 1716: plate edges 1720 and 1722 straddle the pin. Input 0 already matches output 0, so nothing translates.",
+  "17C": "Locked, free position, input changed to 1. Output still holds 0, which is the stored value independent of the input.",
+  "17D": "Unlocked and pivoted with input 1. Edge 1722 cams the copy element across, and output 1704 now reads 1.",
+  "17E": "Two FIG. 17A latches cross-coupled: each output 1704 drives the other's data input by the long rods. Locks are stepped in sequence. The label 1708-1 sits where FIG. 17A has 1702; col. 29 calls this first data input 1702-1.",
+  "17F": "Portion of a grid memory: 2 of 4 columns, break marks at right. Latches sit along data lines 1754, 0 and 1 positions marked. Address bars 1756-0 and 1756-1 set transmission gates 1752. Dashed box is cell selector 1762. As drawn, both bars are at 0, so address 00 is active."
+ },
+ "parts": {
+  "336": "Named in col. 10 for mechanism 330; no numeral is printed on FIG. 3E.",
+  "338": "Named in col. 10 for mechanism 330; no numeral is printed on FIG. 3E.",
+  "376": "Spelled \"rack-and-pinon\" at its first use in col. 11 and \"rack-and-pinion\" after.",
+  "308'": "Col. 10 first calls it \"the input 308'\", then driven element.",
+  "750": "Col. 23 compares gates 1272 and 1274 to \"the transmission gate 750\". 750 is the AND mechanism of FIGS. 7E-7H, so the number looks misprinted.",
+  "1164": "Col. 20 prints \"input axis 1564\" once; the input axis is 1164 everywhere else.",
+  "1274": "The text uses it only for a gate of FIGS. 12G-12H. FIG. 12F also prints it on the plate face where FIG. 12E prints 1254.",
+  "1254": "Graphene surface, per text. FIG. 12F labels this spot 1274.",
+  "1310": "Col. 24 lists \"(1610, 1312, and 1316)\" as sliding elements; 1610 stands for input 1310.",
+  "1502": "Col. 25 also prints \"output plate 1502\" once; the output plate is 1512.",
+  "1512": "First printed as \"output plate 1502\" in col. 25.",
+  "1538": "Col. 26 prints \"driven plate 1538\" twice; the driven plate is 1540.",
+  "1540": "Col. 26 prints \"driven plate 1538\" twice for this part.",
+  "1614": "Printed only on FIG. 16C and absent from the description. The leader ends next to driven tab 1612.",
+  "1700-2": "Printed on FIG. 17E. The description gives no noun phrase with this number.",
+  "1702-1": "Named in col. 29; FIG. 17E prints 1708-1 at this position.",
+  "1708-1": "Printed on FIG. 17E and absent from the description. The arrow points at the input where FIG. 17A has 1702.",
+  "1756": "The drawing prints only 1756-0 and 1756-1.",
+  "1534": "Pivoted bar whose position, set by two inputs together, sets the connector position. See glossary."
+ },
+ "glossary": [
+  {
+   "term": "balance",
+   "def": "Here, part 1534: a bar pinned to two inputs that positions a connector link by their combined positions (FIG. 15C). Hinge 510 in FIG. 5 plays a similar role under a different name. \"Lock-and-balance\" in col. 23 names a scheme the patent only refers to, in US 10,481,866 and related filings."
+  },
+  {
+   "term": "flexure",
+   "def": "The word does not appear in this description. Compliance comes from elements it calls resiliently flexible (606), flexible (706, 810, 1042), and from hinges and pivots."
+  },
+  {
+   "term": "reversible logic",
+   "def": "Computing that does not erase information, so Landauer's bound of kT ln 2 per erased bit need not apply. The word appears here only in cited titles on the reference pages, such as Merkle's \"Two Types of Mechanical Reversible Logic\". The description says only \"reduced energy consumption\", and of the earlier filings."
+  },
+  {
+   "term": "adiabatic logic",
+   "def": "Logic driven slowly enough that dissipation falls as operation slows, with energy recovered from the drive. The word does not appear in this description, which claims no such behavior for these gates."
+  },
+  {
+   "term": "driven element",
+   "def": "The part the mechanism tries to move, often the mechanical clock. The text counts it as an optional extra input. Its motion reaches an output only if inputs provide a path."
+  },
+  {
+   "term": "clock signal",
+   "def": "Mechanical displacement applied in phases, Clk1, Clk2, Clk3. Generators are out of scope here; the text refers to US 10,683,924 and PCT/US2020/031645."
+  },
+  {
+   "term": "single rail / dual rail",
+   "def": "Single rail: one line per signal, moved or not moved. Dual rail: a separate line per value (A=0, A=1). FIGS. 1A-3C are dual rail at the output; FIG. 3D is single rail."
+  },
+  {
+   "term": "knob",
+   "def": "Block on an input that pushes its neighbor. A complete row of knobs is the motion path; a gap breaks it."
+  },
+  {
+   "term": "motion-accommodating / motion-transmitting",
+   "def": "The claim terms: the two configurations of the control structure, in which the driven element's motion is absorbed without output motion, or transmitted to the output."
+  },
+  {
+   "term": "transmission gate",
+   "def": "Mechanical pass gate: one input decides whether motion passes from driven element to output. Same name as the CMOS (complementary metal-oxide-semiconductor) pass device; no electrical meaning here."
+  },
+  {
+   "term": "switch gate",
+   "def": "Two opposed transmission gates on one input and one driven element: motion goes to one of two outputs."
+  },
+  {
+   "term": "universal gate",
+   "def": "NOR or NAND: any Boolean function can be built from it alone."
+  },
+  {
+   "term": "half adder / full adder",
+   "def": "Half adder: sum and carry of two bits. Full adder: same with a carry-in."
+  },
+  {
+   "term": "D-type flip flop",
+   "def": "One-bit store that takes its data input when clocked. Here two latches of FIG. 17A in a loop with sequenced locks."
+  },
+  {
+   "term": "non-volatile",
+   "def": "Here: holds the value when input and clock are released, because the lock plate blocks the copy pin."
+  },
+  {
+   "term": "non-contact force (NCF)",
+   "def": "Coupling without touching surfaces: magnetic, electrostatic or van der Waals. A part held by NCF resists leaving the plate at an edge, and that resistance acts as a detent. Pins may also be in contact, as the text allows."
+  },
+  {
+   "term": "van der Waals (VDW)",
+   "def": "Short-range attraction between neutral atoms or surfaces, dominant at nanometer gaps. It scales with overlap area, which is why edges act as barriers and why tracks 512 keep overlap constant."
+  },
+  {
+   "term": "complimentary",
+   "def": "The patent's spelling of complementary: an output carrying the opposite value."
+  },
+  {
+   "term": "CNT n-0",
+   "def": "Carbon nanotube with chiral indices (n, 0), zigzag type. 10-0, 18-0 and 9-0 in col. 24 set diameter and how sections nest or bond. 18-0 sleeves fit around 10-0 rods."
+  },
+  {
+   "term": "diamondoid / lonsdaleite",
+   "def": "Diamondoid: diamond-like sp3 carbon structures. Lonsdaleite: hexagonal polymorph of diamond, used here as the anchor surface matched by 9-0 tubes."
+  },
+  {
+   "term": "polyyne",
+   "def": "Linear carbon chain with alternating single and triple bonds, proposed in col. 12 for flexible parts."
+  },
+  {
+   "term": "mechanosynthesis",
+   "def": "Building a structure atom by atom using mechanically positioned tips. The text names patents for it; it reports no use of it for these gates."
+  },
+  {
+   "term": "MEMS / NEMS",
+   "def": "Micro- and nanoelectromechanical systems: machines made with lithographic fabrication. The text lists these as alternative routes to fabricate these mechanisms."
+  },
+  {
+   "term": "rod logic",
+   "def": "Drexler's 1992 nanotechnology design: sliding rods block one another. The background cites it as prior context."
+  },
+  {
+   "term": "mechanical gain",
+   "def": "Output displacement larger than driven displacement, from a lever ratio on the plate (FIG. 14)."
+  }
+ ]
+}

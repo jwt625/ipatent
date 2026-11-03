@@ -1,0 +1,86 @@
+{
+ "patent": "Parallel link robot with delta-type legs, assigned to Fanuc Ltd; priority 2009-10-26, filed 2010-07-16, issued 2012-11-13. The patent names no product. Problem: adding rotational axes to a delta. The two prior-art routes each cost something: a telescoping center shaft from a base-mounted motor (FIG. 12) limits travel by its stroke and joint angle; a motor on the plate (FIG. 13, which the description attributes to US 4,976,582, Clavel) adds moving mass. Here the added actuator rides between the two parallel driven links of a leg, preferably next to the drive link, and drives a fixed-length shaft to a posture changing mechanism at the plate. One leg gives four axes; all three legs give six (FIG. 6). Further embodiments: a breakaway slip coupling in the shaft (FIG. 8) and a through hole for tubing (FIGS. 9, 10). Independent claims 1 and 5 also require the universal joint on the line between the two driven-link attachment points at the moving part.",
+ "figs": {
+  "1": "Full robot, four-axis version. Three legs run from base 11, inside dashed housing 18, to plate 12; each is one drive link plus a pair of driven links. Only leg 20b carries 13d and 39, drawn small between 22b and 23b. The dashed leader to 15 marks a mechanism inside the plate.",
+  "2": "Leg 20b alone, larger. 13d hangs from shaft 32 at the center of auxiliary link 31; 39 runs from it to universal joint 38 in a notch in the plate rim, between bearings 44b and 45b. Shaft 14 continues into dashed mechanism 15.",
+  "3": "Alternative actuator mount. Two plates, one numeral 31 with two leaders, bridge the driven links on rods 33a and 33b. Rod 33c passes through both plates and lug 13d', so 13d swings about 33c.",
+  "4A": "Leg as a line diagram, plate at rest. Rows of circles, top to bottom: drive-link bearings, auxiliary-link bearings with 32 at center, plate bearings with 38 at center.",
+  "4B": "Same leg with the plate displaced. The rectangle shears, 31 and 12 stay level, and 22b, 23b and 39 stay parallel at unchanged length, so 39 needs no telescoping section. Compare 250 in FIG. 12.",
+  "5": "Kinematic diagram of the one-axis wrist. Short ticks are gear rims seen edge-on: 51 across shaft 14, 52 across the vertical shaft to 19. The double tick is their mesh. The arrows show 19 turning about the vertical axis.",
+  "6": "Three-axis wrist with three input trains. 13d through 51, 52 turns 16 (A1); 13e through 53 to 56 turns 17 (A2); 13f through 57 to 62 turns 19 (A3). Only the 13d train labels its shaft, joint and stub. Gears 52, 54 and 58 are nested on the axis of 16. The A2 axis is horizontal in this pose; the A1 and A3 axes are vertical.",
+  "7": "Section at the top of the driven links; hatching is on 22b and 23b only. Ball ends 66b, 67b of rod 65 sit in sockets 42b, 43b, which open toward each other. Spring 29 holds the sockets on the balls, so an overload pulls the joint apart instead of breaking it.",
+  "8A": "Parts separated, with 22b and 23b not drawn. 21b is clear of the 31 and 13d assembly. Outside tube 72 stays with joint 38 on the plate; the free arrow between it and the end of 39 marks the axis of separation.",
+  "8B": "Keyed slip coupling inside 39, enlarged and pulled apart: key 73 on 71 fits groove 74 in the bore of 72. It carries torque and releases axially.",
+  "8C": "Same coupling with splines, 75 on 71 and 76 in 72.",
+  "9A": "FIG. 1 layout with 13d and its related members omitted, as the description states. Hole 12a shows as a small opening at the center of the plate; FIG. 9B shows it in section.",
+  "9B": "19 is a flanged sleeve in hole 12a, turned by gear 52 on its outside. Dashed tube 79 passes through bore 28 and out below the flange. No rotary joint is drawn, so the tube takes the rotation as twist.",
+  "10A": "Through-hole robot with suction pad 78 over workpiece W and unit 80 on top of the plate. Heavy line 79 runs down the outside of leg 20c toward the plate. Compare FIG. 16A, where the unit sits below 190.",
+  "10B": "Air path: 79, joint 83, unit 80, bore 28, then pad 78. Unit 80 caps the top of 19, with seal 81 at the mouth of the bore. Nothing sits between 19 and the pad, so 78a is short; compare the stem in FIG. 16B.",
+  "11": "Three-axis baseline: FIG. 1 without 13d and 39, numerals multiplied by ten (13a becomes 130a). The dashed cylinder has no numeral here.",
+  "12": "Prior-art fourth axis from the base: 130d drives telescoping shaft 250 through a joint at each end, the lower one numbered 251, down to plate 120. Base actuators 130a to 130c are omitted.",
+  "13": "Prior-art fourth axis on the plate: same diagram as FIG. 12, with 130d on plate 120 and no shaft 250, so its mass moves with the plate.",
+  "14": "Joint 251 in detail: two yokes and a center block. Chain lines are the shaft axes; α is the angle between them. The description cites a part enclosed by a one-dot chain line, but the printed figure has only the axis lines and no enclosure.",
+  "15A": "From the related-art discussion: intermediate member 160 between plate 120 and 190. Arrows mark two added rotations. No drive for them is drawn.",
+  "15B": "As FIG. 15A with a second intermediate member 170; arrows mark three rotations. No drive for them is drawn.",
+  "16A": "Prior-art suction setup: 130d on plate 120, unit 800 below 190 and above pad 780. Heavy line 790 runs down the outside of leg 200c to 800.",
+  "16B": "Section of the FIG. 16A wrist. Unit 800 rings the stem of pad 780, and 790 enters it from the side. The stem has to be long enough to carry 800; compare FIG. 10B."
+ },
+ "parts": {
+  "12": "The abstract and claims call this the moving part.",
+  "19": "The abstract calls this an element (19) attached to the moving part.",
+  "13d'": "Col 6 line 2 prints the same part once as 13d, without the prime.",
+  "21a": "Not named in the description; the abstract has drive link (21a to 21c).",
+  "21c": "Not named in the description; the abstract has drive link (21a to 21c).",
+  "21b": "Named drive link in col 5. Col 6 line 42 and col 8 print driven link or driven links for the same numeral.",
+  "52": "Named at col 7. The FIG. 5 passage at col 6 line 26 prints helical gear 5; the drawings label 52.",
+  "71": "Named inside tube, but drawn with a solid end in FIGS. 8B and 8C.",
+  "210b": "Not named in the description; col 1 says only that the other links 200b, 200c are similarly configured to 200a.",
+  "210c": "Not named in the description; col 1 says only that the other links 200b, 200c are similarly configured to 200a.",
+  "220b": "Not named in the description; col 1 says only that the other links 200b, 200c are similarly configured to 200a.",
+  "220c": "Not named in the description; col 1 says only that the other links 200b, 200c are similarly configured to 200a.",
+  "230b": "Not named in the description; col 1 says only that the other links 200b, 200c are similarly configured to 200a.",
+  "230c": "Not named in the description; col 1 says only that the other links 200b, 200c are similarly configured to 200a."
+ },
+ "glossary": [
+  {
+   "term": "delta robot",
+   "def": "Parallel robot with three rotary-driven upper arms, each joined to the platform by a parallelogram forearm, so the platform translates in three axes without tilting."
+  },
+  {
+   "term": "drive link, driven links",
+   "def": "The patent's terms for the upper arm and the pair of forearm rods of a delta leg."
+  },
+  {
+   "term": "parallel quadrilateral",
+   "def": "The patent's term (col 5) for a parallelogram."
+  },
+  {
+   "term": "axis",
+   "def": "In robotics, one independently driven degree of freedom."
+  },
+  {
+   "term": "end effector",
+   "def": "The tool at the end of a robot, such as a gripper or suction pad."
+  },
+  {
+   "term": "universal joint",
+   "def": "Joint that transmits rotation between two shafts at an angle to each other."
+  },
+  {
+   "term": "helical gear",
+   "def": "Gear with teeth set at an angle to its axis; crossed pairs can connect non-parallel shafts."
+  },
+  {
+   "term": "key, key groove",
+   "def": "Bar on a shaft and matching slot in a bore; they lock relative rotation and still allow axial sliding."
+  },
+  {
+   "term": "spline",
+   "def": "Multiple axial teeth on a shaft mating with matching grooves in a bore; a multi-key form of the same coupling."
+  },
+  {
+   "term": "rotation absorption unit",
+   "def": "The patent's term for a freely rotating connection that keeps tubing from winding up; the common name for such a fluid coupling is rotary union."
+  }
+ ]
+}

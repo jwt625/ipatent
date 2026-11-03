@@ -55,6 +55,16 @@ Every patent goes through the same stages and produces the same files under `dat
 - Pages outside the column numbering (certificates of correction, reexamination certificates): their
   paras/claims carry `"page": <0-based page index>`; citations then open that page. `col`/`line` as
   printed on the certificate, or null.
+- Documents without printed columns (pre-grant publications, older EP publications): every para, claim and
+  `brief_drawings` entry has `"page"` (0-based) plus `"cite"`, the printed locator: `"[0012]"` for numbered
+  paragraphs, `"p.3:15"` for printed page and gutter line. `col`/`line` are null. The printed paragraph number is
+  the locator, not text. Top level: `"cite_scheme"`, e.g. `"[paragraph]"` or `"printed page:line"`. Claims in numbered
+  publications print no paragraph numbers: their `cite` is `"[claims]"`, with `n` and `page` giving the place.
+- A bare claims lead-in line ("What is claimed is:") is omitted, since each claim is shown with its number; a sentence
+  that merely ends in such a lead-in stays.
+- Documents other than US grants, top level: `"doc"`, the label shown in place of `US <number>`
+  (`"US 2022/0106338 A1"`, `"EP 0 200 202 A2"`); `"date_label"`, e.g. `"Published"` (`issued` holds that date);
+  `"scan_source"`, e.g. `"EPO"` (default USPTO). The directory name `pn` is `[0-9A-Z]+` (`20220106338`, `EP0200202`).
 
 ## figures.json
 

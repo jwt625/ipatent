@@ -1,0 +1,61 @@
+{
+ "patent": "Barnes Neville Wallis's patent, assigned to Vickers (Aviation) Limited, on a fuselage frame of four tubular booms joined by bowed channel-section bracing members whose axes follow geodesics of the outer surface. Every panel is cross braced and the two members are fixed together where they cross, so the frame itself takes the rounded contour, without separate formers or a stressed skin. The Barnes Wallis Foundation credits Wallis with geodesic airframe construction pioneered in the Wellesley and Wellington. It does not cite this patent number, and this note does not state that the patent covers those aircraft.",
+ "figs": {
+  "1": "Tail end with the nose to the left and bays A to E tapering to the right. The X shapes are the side panel; the arcs above and below the booms are the top and bottom panels seen edge-on. Each crossing carries a fitting d and each panel corner an end fitting e. The chain-dotted outlines are unnumbered except g; the pointed outline, the large rounded outline and the circle at the lower right are not named in the text.",
+  "2": "Horizontal strips are stringers: f outside the bracing, f1 inside. The far side panel is omitted. Shading on the arcs is the curved web of the channel. Arrows 3 at the top and bottom mark the section of Fig. 3, through the end fittings.",
+  "3": "Looking along the fuselage at a boom joint. The white annulus shows the radial web depth of the bracing members. The four boom tubes sit inside this annulus rather than on a smaller inscribed square. Small notched profiles on the outer and inner circles are stringers f and f1; the dashed outer circle is the fabric g.",
+  "4": "Crossing joint with four half members. c and c1 lie in line, as do c2 and c3. Extensions c4 are bent to lie flat against plate d1 and share rivet d4; rivets d5 hold the flanges to star plates d2 and d3. Dashed lines mark edges hidden by another layer.",
+  "5": "Joint at a boom, with the left half of the boom in exterior view and the right half cut open. Gusset parts e1 and e2 carry the flanges (rivets e3) and are riveted to the boom (e4). Key plate h, with flange e7, joins the two boom ends and seats the fitting through hole e6. Each web is cut back to wrap the boom as part c5, held by rivet c6."
+ },
+ "parts": {
+  "c": "c, c1, c2 and c3 are the four half bracing members meeting at one crossing; c and c1 are in line, c2 and c3 in line.",
+  "d": "Fig. 1 labels the whole fitting d; Figs. 2 to 4 label its plates and rivets d1 to d5.",
+  "e": "Fig. 1 labels the whole fitting e; Figs. 2, 3 and 5 label its parts e1 to e7."
+ },
+ "glossary": [
+  {
+   "term": "geodesic, geodetic",
+   "def": "A locally shortest path along a surface; on a cylinder, generally a helix. The patent uses both words. A geodesic's principal normal is the surface normal, so a taut string on a smooth surface follows one."
+  },
+  {
+   "term": "osculating plane",
+   "def": "The plane containing a curve's tangent and principal normal at a point. For a geodesic it contains the surface normal."
+  },
+  {
+   "term": "stressed skin",
+   "def": "Construction in which the outer skin itself carries the loads, instead of a separate frame carrying them."
+  },
+  {
+   "term": "analytical structure",
+   "def": "The patent's term for a framework of longitudinal members and diagonal bracing, as opposed to a stressed skin."
+  },
+  {
+   "term": "former",
+   "def": "A shaped frame that gives the covering its outer contour. The patent's structure omits these."
+  },
+  {
+   "term": "boom",
+   "def": "A main longitudinal load-carrying member; also called a longeron in a fuselage."
+  },
+  {
+   "term": "stringer",
+   "def": "A light longitudinal member supporting a skin or covering."
+  },
+  {
+   "term": "bay, panel",
+   "def": "As used here: a bay is one length of the fuselage between boom joints; each bay has four panels, one for each pair of adjacent booms."
+  },
+  {
+   "term": "gusset plate",
+   "def": "A plate that joins members meeting at a point by being fastened to each."
+  },
+  {
+   "term": "channel section",
+   "def": "A U-shaped cross-section: a web with a flange on each edge."
+  },
+  {
+   "term": "quilting",
+   "def": "Fabric covering sagging into the gaps between its supports."
+  }
+ ]
+}

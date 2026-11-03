@@ -1,0 +1,997 @@
+{
+ "pn": "20220106338",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    739,
+    635,
+    1844,
+    1479
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    583,
+    1664,
+    1932,
+    2828
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    456,
+    409,
+    1173,
+    1237
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    1336,
+    467,
+    2053,
+    1237
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    454,
+    1255,
+    1174,
+    2103
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    1347,
+    1333,
+    2068,
+    2103
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "FIG. 7",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    449,
+    2159,
+    1445,
+    3054
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8",
+   "label": "FIG. 8",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    466,
+    404,
+    1188,
+    1241
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9",
+   "label": "FIG. 9",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    1314,
+    459,
+    2029,
+    1241
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10",
+   "label": "FIG. 10",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    467,
+    1280,
+    1182,
+    2107
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11",
+   "label": "FIG. 11",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    1335,
+    1336,
+    2050,
+    2107
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12",
+   "label": "FIG. 12",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    467,
+    2147,
+    1436,
+    3058
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "13",
+   "label": "FIG. 13",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    508,
+    501,
+    1104,
+    1213
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "14",
+   "label": "FIG. 14",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    1403,
+    550,
+    2003,
+    1213
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "15",
+   "label": "FIG. 15",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    507,
+    1310,
+    1103,
+    2037
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "16",
+   "label": "FIG. 16",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    1403,
+    1363,
+    2008,
+    2037
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "17",
+   "label": "FIG. 17",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    511,
+    2195,
+    1364,
+    2961
+   ],
+   "rotate": 0,
+   "front_page": true
+  },
+  {
+   "id": "18",
+   "label": "FIG. 18",
+   "sheet": 5,
+   "page": 5,
+   "crop": [
+    454,
+    378,
+    2062,
+    3084
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "19",
+   "label": "FIG. 19",
+   "sheet": 6,
+   "page": 6,
+   "crop": [
+    307,
+    575,
+    2220,
+    2888
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "20",
+   "label": "FIG. 20",
+   "sheet": 7,
+   "page": 7,
+   "crop": [
+    315,
+    420,
+    2196,
+    3042
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "21",
+   "label": "FIG. 21",
+   "sheet": 8,
+   "page": 8,
+   "crop": [
+    310,
+    504,
+    2206,
+    2958
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "22",
+   "label": "FIG. 22",
+   "sheet": 9,
+   "page": 9,
+   "crop": [
+    306,
+    531,
+    2218,
+    2932
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "23",
+   "label": "FIG. 23",
+   "sheet": 10,
+   "page": 10,
+   "crop": [
+    307,
+    486,
+    2207,
+    2976
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "24",
+   "label": "FIG. 24",
+   "sheet": 11,
+   "page": 11,
+   "crop": [
+    308,
+    427,
+    2217,
+    3036
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "25",
+   "label": "FIG. 25",
+   "sheet": 12,
+   "page": 12,
+   "crop": [
+    307,
+    571,
+    2220,
+    2900
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "26",
+   "label": "FIG. 26",
+   "sheet": 13,
+   "page": 13,
+   "crop": [
+    473,
+    381,
+    2042,
+    3084
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "27",
+   "label": "FIG. 27",
+   "sheet": 14,
+   "page": 14,
+   "crop": [
+    307,
+    555,
+    2218,
+    2905
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "28",
+   "label": "FIG. 28",
+   "sheet": 15,
+   "page": 15,
+   "crop": [
+    306,
+    513,
+    2220,
+    2949
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "29",
+   "label": "FIG. 29",
+   "sheet": 16,
+   "page": 16,
+   "crop": [
+    306,
+    611,
+    2220,
+    2852
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "30",
+   "label": "FIG. 30",
+   "sheet": 17,
+   "page": 17,
+   "crop": [
+    306,
+    523,
+    2219,
+    2940
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "31",
+   "label": "FIG. 31",
+   "sheet": 18,
+   "page": 18,
+   "crop": [
+    306,
+    531,
+    2219,
+    2928
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "32",
+   "label": "FIG. 32",
+   "sheet": 19,
+   "page": 19,
+   "crop": [
+    306,
+    490,
+    2220,
+    2980
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "33",
+   "label": "FIG. 33",
+   "sheet": 20,
+   "page": 20,
+   "crop": [
+    306,
+    527,
+    2219,
+    2934
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "34",
+   "label": "FIG. 34",
+   "sheet": 21,
+   "page": 21,
+   "crop": [
+    306,
+    479,
+    2220,
+    2984
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "35",
+   "label": "FIG. 35",
+   "sheet": 22,
+   "page": 22,
+   "crop": [
+    306,
+    507,
+    2220,
+    2956
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "36",
+   "label": "FIG. 36",
+   "sheet": 23,
+   "page": 23,
+   "crop": [
+    307,
+    486,
+    2192,
+    1320
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "37",
+   "label": "FIG. 37",
+   "sheet": 23,
+   "page": 23,
+   "crop": [
+    315,
+    1403,
+    2219,
+    2980
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "38",
+   "label": "FIG. 38",
+   "sheet": 24,
+   "page": 24,
+   "crop": [
+    319,
+    643,
+    2220,
+    1484
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "39",
+   "label": "FIG. 39",
+   "sheet": 24,
+   "page": 24,
+   "crop": [
+    306,
+    2145,
+    2181,
+    2820
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "40",
+   "label": "FIG. 40",
+   "sheet": 25,
+   "page": 25,
+   "crop": [
+    306,
+    643,
+    2208,
+    1532
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "41",
+   "label": "FIG. 41",
+   "sheet": 25,
+   "page": 25,
+   "crop": [
+    315,
+    1928,
+    2219,
+    2819
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "42",
+   "label": "FIG. 42",
+   "sheet": 26,
+   "page": 26,
+   "crop": [
+    305,
+    523,
+    2220,
+    2940
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "43",
+   "label": "FIG. 43",
+   "sheet": 27,
+   "page": 27,
+   "crop": [
+    306,
+    548,
+    2220,
+    2916
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "44",
+   "label": "FIG. 44",
+   "sheet": 28,
+   "page": 28,
+   "crop": [
+    306,
+    545,
+    2140,
+    1476
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "45",
+   "label": "FIG. 45",
+   "sheet": 28,
+   "page": 28,
+   "crop": [
+    306,
+    1859,
+    2220,
+    2920
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "46",
+   "label": "FIG. 46",
+   "sheet": 29,
+   "page": 29,
+   "crop": [
+    306,
+    445,
+    2220,
+    3020
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "47",
+   "label": "FIG. 47",
+   "sheet": 30,
+   "page": 30,
+   "crop": [
+    507,
+    388,
+    2055,
+    1540
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "48",
+   "label": "FIG. 48",
+   "sheet": 30,
+   "page": 30,
+   "crop": [
+    443,
+    1895,
+    2076,
+    3076
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "49",
+   "label": "FIG. 49",
+   "sheet": 31,
+   "page": 31,
+   "crop": [
+    306,
+    607,
+    2220,
+    2854
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "50",
+   "label": "FIG. 50",
+   "sheet": 32,
+   "page": 32,
+   "crop": [
+    303,
+    631,
+    2220,
+    2832
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "51",
+   "label": "Fig. 51",
+   "sheet": 33,
+   "page": 33,
+   "crop": [
+    311,
+    504,
+    2205,
+    2958
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "52",
+   "label": "Fig. 52",
+   "sheet": 34,
+   "page": 34,
+   "crop": [
+    349,
+    456,
+    2165,
+    3006
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "53",
+   "label": "Fig. 53",
+   "sheet": 35,
+   "page": 35,
+   "crop": [
+    314,
+    495,
+    2201,
+    2969
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "101",
+   "name": "Radical",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "active site"
+   ]
+  },
+  {
+   "ref": "102",
+   "name": "body",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "103",
+   "name": "leg",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "104",
+   "name": "linker",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "105",
+   "name": "surface",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "201",
+   "name": "Active site",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "202",
+   "name": "substituted adamantane body",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "203",
+   "name": "leg",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "204",
+   "name": "oxygen linker",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "205",
+   "name": "surface",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "206",
+   "name": "Feedstock",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "4701",
+   "name": "handle",
+   "figs": [
+    "47"
+   ]
+  },
+  {
+   "ref": "4702",
+   "name": "surface",
+   "figs": [
+    "47"
+   ]
+  },
+  {
+   "ref": "4703",
+   "name": "workpiece",
+   "figs": [
+    "47"
+   ]
+  },
+  {
+   "ref": "4704",
+   "name": "tip",
+   "figs": [
+    "47"
+   ]
+  },
+  {
+   "ref": "4705",
+   "name": "surface",
+   "figs": [
+    "47"
+   ]
+  },
+  {
+   "ref": "4801",
+   "name": "handle",
+   "figs": [
+    "48"
+   ]
+  },
+  {
+   "ref": "4802",
+   "name": "(optional) surface",
+   "figs": [
+    "48"
+   ]
+  },
+  {
+   "ref": "4803",
+   "name": "workpiece",
+   "figs": [
+    "48"
+   ]
+  },
+  {
+   "ref": "4804",
+   "name": "tip",
+   "figs": [
+    "48"
+   ]
+  },
+  {
+   "ref": "4805",
+   "name": "surface",
+   "figs": [
+    "48"
+   ]
+  },
+  {
+   "ref": "4901",
+   "name": "Reflective mirrors",
+   "figs": [
+    "49"
+   ]
+  },
+  {
+   "ref": "4902",
+   "name": "Reflective mirrors",
+   "figs": [
+    "49"
+   ]
+  },
+  {
+   "ref": "4903",
+   "name": "Reflective mirrors",
+   "figs": [
+    "49"
+   ]
+  },
+  {
+   "ref": "4904",
+   "name": "Reflective mirrors",
+   "figs": [
+    "49"
+   ]
+  },
+  {
+   "ref": "4905",
+   "name": "Reflective mirrors",
+   "figs": [
+    "49"
+   ]
+  },
+  {
+   "ref": "4906",
+   "name": "Reflective mirrors",
+   "figs": [
+    "49"
+   ]
+  },
+  {
+   "ref": "4907",
+   "name": "BeamZ1",
+   "figs": [
+    "49"
+   ]
+  },
+  {
+   "ref": "4908",
+   "name": "BeamZ2",
+   "figs": [
+    "49"
+   ]
+  },
+  {
+   "ref": "4909",
+   "name": "BeamZ3",
+   "figs": [
+    "49"
+   ]
+  },
+  {
+   "ref": "4910",
+   "name": "BeamX1",
+   "figs": [
+    "49"
+   ]
+  },
+  {
+   "ref": "4911",
+   "name": "BeamY1",
+   "figs": [
+    "49"
+   ]
+  },
+  {
+   "ref": "4912",
+   "name": "Beam Y2",
+   "figs": [
+    "49"
+   ]
+  },
+  {
+   "ref": "4913",
+   "name": "",
+   "figs": [
+    "49"
+   ]
+  },
+  {
+   "ref": "4914",
+   "name": "",
+   "figs": [
+    "49"
+   ]
+  }
+ ]
+}

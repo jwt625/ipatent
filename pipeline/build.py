@@ -28,14 +28,18 @@ UNIT_WORDS = {
 PREV_BLOCK = {"fig.", "figs.", "fig", "figs", "claim", "claims", "column", "columns", "page",
               "no.", "nos.", "ser.", "patent", "about", "approximately", "of", "than", "from", "by", "only"}
 ABBREV = ["FIGS.", "FIG.", "Figs.", "Fig.", "No.", "Nos.", "et al.", "e.g.", "i.e.", "U.S.", "approx.", "Inc.", "vs."]
-FIG_RE = re.compile(r"\b(FIGS?|Figs?)\.?\s*(\d+[A-Z]?)((?:\s*(?:,|and|through|to|-)\s*\d+[A-Z]?)*)")
-NUM_RE = re.compile(r"(?<![\w.,/-])(\d{1,3}[a-zA-Z]?['\u2032\u2033\u2034]{0,3})(?![\w/]|\.\d|,\d)")  # primes: 3', 4'', 320′
+FIG_RE = re.compile(r"\b(FIGURES?|Figures?|FIGS?|Figs?)\.?\s*(\d+[A-Z]?)((?:\s*(?:,|and|through|to|-)\s*\d+[A-Z]?)*)")
+NUM_RE = re.compile(r"(?<![\w.,/-])(\d{1,4}[a-zA-Z]?['\u2032\u2033\u2034]{0,3})(?![\w/]|\.\d|,\d)")  # primes: 3', 4'', 320′
 PRIMES = "'\u2032\u2033\u2034"
 PRIME_ASCII = str.maketrans({"\u2032": "'", "\u2033": "''", "\u2034": "'''"})  # parts use ASCII primes
 # "pump sources 42,48" (no space) and "areas 51-54": every member must be a known numeral; a 3-digit
 # group after a comma reads as a thousands separator ("1,000") and is left alone
 LIST_RE = re.compile(r"(?<![\w.,/-])\d{1,3}[a-zA-Z]?(?:,\d{1,2}[a-zA-Z]?|,\d{4,}|,\d{1,3}[a-zA-Z])+(?![\w/.]\d|,\d)")
-RANGE_RE = re.compile(r"(?<![\w.,/-])(\d{1,3}[a-zA-Z]?)-(\d{1,3}[a-zA-Z]?)(?![\w/]|\.\d|,\d)")
+RANGE_RE = re.compile(r"(?<![\w.,/-])(\d{1,4}[a-zA-Z]?)-(\d{1,4}[a-zA-Z]?)(?![\w/]|\.\d|,\d)")
+# prior-art citations, "DE 10 2009 057 006 A1", "FR 3 025 491 A1": their digit groups are not reference numerals
+DOC_RE = re.compile(r"\b(?:AT|CH|CN|DD|DE|EP|FR|GB|JP|KR|US|WO)\s+\d[\d /,]*(?:\s?[A-Z]\d?)?(?![\w])")
+LETTER_RE = re.compile(r"(?<![\w'^{.-])([a-z])(?:\^\{(\d)\}|(\d))?(?![\w}'-])")
+HYPHEN_RE = re.compile(r"(?<![\w.,/-])\d{1,4}-\d{1,4}(?![\w/]|\.\d|,\d)")
 
 
 def b64png(im: Image.Image) -> str:
@@ -68,6 +72,11 @@ def sentences(text: str) -> list[tuple[int, int]]:
     return out
 
 
+def lettered(refs: set[str]) -> bool:
+    """Early patents that letter their parts (booms a, a^{1}) instead of numbering them."""
+    return sum(bool(re.fullmatch(r"[a-z]\d?", r)) for r in refs) * 2 > len(refs)
+
+
 def link_spans(text: str, refs: set[str], fig_ids: set[str]) -> list[list]:
     """[start, end, 'fig'|'ref', key] spans, non-overlapping, sorted."""
     spans, taken = [], []
@@ -82,11 +91,17 @@ def link_spans(text: str, refs: set[str], fig_ids: set[str]) -> list[list]:
             if sm.group() in fig_ids:
                 spans.append([s, s + len(sm.group()), "fig", sm.group()])
         taken.append((m.start(), m.end()))
+    for m in DOC_RE.finditer(text):
+        taken.append((m.start(), m.end()))
     for m in LIST_RE.finditer(text):
         items = list(re.finditer(r"\d+[a-zA-Z]?", m.group()))
         if len(items) > 1 and all(i.group() in refs for i in items):
             for i in items:
                 spans.append([m.start() + i.start(), m.start() + i.end(), "ref", i.group()])
+            taken.append((m.start(), m.end()))
+    for m in HYPHEN_RE.finditer(text):  # "transmission member 54-1" when the patent numbers it that way
+        if m.group() in refs and not any(a <= m.start() < b for a, b in taken):
+            spans.append([m.start(), m.end(), "ref", m.group()])
             taken.append((m.start(), m.end()))
     for m in RANGE_RE.finditer(text):
         if m.group(1) in refs and m.group(2) in refs and not any(a <= m.start() < b for a, b in taken):
@@ -107,9 +122,20 @@ def link_spans(text: str, refs: set[str], fig_ids: set[str]) -> list[list]:
             continue
         if prev == "to" and re.search(r"\d\s+to$", before):  # numeric range "0 to 63"
             continue
-        if not re.search(r"[A-Za-z(),]$", before):  # must follow a word, a paren or a list comma
+        if not re.search(r"[A-Za-z(),]$|[A-Za-z]\d+$", before):  # a word, a paren, a list comma, or a name like "BeamZ1"
             continue
         spans.append([m.start(), end, "ref", ref])
+    if lettered(refs):
+        for m in LETTER_RE.finditer(text):
+            ref = m.group(1) + (m.group(2) or m.group(3) or "")
+            if ref not in refs or any(a <= m.start() < b for a, b in taken):
+                continue
+            rest = text[m.end():]
+            if ref in ("a", "i") and not re.match(r"\s*(?:[,.;:)]|and\b)", rest):  # the article, the numeral i
+                continue
+            if rest.startswith((".g", ". g", ".e", ". e")):  # e.g., i.e.
+                continue
+            spans.append([m.start(), m.end(), "ref", ref])
     spans.sort()
     return spans
 
@@ -129,8 +155,10 @@ def load_patent(pdir: Path) -> dict:
         sections.append({"heading": sec["heading"], "first": len(paras)})
         for p in sec["paras"]:
             q = {"id": len(paras), "sec": si, "col": p.get("col"), "line": p.get("line")}
-            if p.get("page") is not None:  # certificate pages outside the column numbering
+            if p.get("page") is not None:  # pages outside the column numbering: certificates, publications
                 q["page"] = p["page"]
+            if p.get("cite"):  # printed locator when there are no columns: "[0012]", "p.3:15"
+                q["cite"] = p["cite"]
             if "table" in p:
                 q["table"] = p["table"]
                 q["text"] = ""
@@ -184,13 +212,13 @@ def load_patent(pdir: Path) -> dict:
             "front": bool(f.get("front_page")), "w": im.width, "h": im.height, "img": b64png(im),
             "thumb": b64png(as_bilevel(png, 220 / im.width)),
             "card": b64png(as_bilevel(png, min(1.0, 480 / max(im.width, im.height)))),
-            "brief": {"text": b.get("text", ""), "col": b.get("col"), "line": b.get("line")},
+            "brief": {"text": b.get("text", ""), "col": b.get("col"), "line": b.get("line"), "page": b.get("page"), "cite": b.get("cite")},
             "trace": trace, "paras": fig_paras[f["id"]], "refs": fig_refs,
         })
     page_files = sorted((ROOT / "work" / pn / "pages").glob("p-*.png"))
     pages = [b64png(as_bilevel(p)) for p in page_files]
     page_wh = [list(Image.open(p).size) for p in page_files]
-    keep = ["number", "title", "inventors", "assignee", "filed", "issued", "appl_no", "int_cl", "us_cl",
+    keep = ["number", "doc", "date_label", "cite_scheme", "scan_source", "title", "inventors", "assignee", "filed", "issued", "appl_no", "int_cl", "us_cl",
             "refs_patents", "refs_other", "examiners", "claims_count", "drawing_figures", "abstract"]
     return {
         "pn": pn, **{k: text.get(k) for k in keep}, "google": meta.get("google"), "col1_page": meta["col1_page"],
@@ -200,7 +228,8 @@ def load_patent(pdir: Path) -> dict:
     }
 
 
-GROUPS = ["Cray", "Impact and royalties", "Classic products", "Industry legends"]
+GROUPS = ["Cray", "Impact and royalties", "Classic products", "Industry legends",
+          "Robot wrists", "Mechanosynthesis and mechanical computing", "Aircraft structures"]
 
 
 def place(e: dict) -> str:
@@ -212,7 +241,7 @@ def place(e: dict) -> str:
 def light(p: dict) -> dict:
     """Gallery record: bibliography, people and places, counts, search text, front-page figure only."""
     fig = next((f for f in p["figures"] if f["front"]), p["figures"][0])
-    keep = ["pn", "number", "title", "filed", "issued", "group", "abstract", "status"]
+    keep = ["pn", "number", "doc", "title", "filed", "issued", "group", "abstract", "status"]
     ent = p.get("entities") or {}
     inv = ent.get("inventors") or [{"name": n} for n in p.get("inventors") or []]
     asg = ent.get("assignees") or ([{"name": p["assignee"], "printed": p["assignee"]}] if p.get("assignee") else [])

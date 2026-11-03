@@ -106,5 +106,22 @@ open the scanned page. About tab: note, bibliography, glossary, parts index, ref
 - Tracer wishlist (not built): hatch phase/offset, centred hatch line, text skew/weight/outline for hand
   lettering, arrowhead length/width, dash offset, hit-only fill, multi-ref elements, ignore-mask in
   coverage.py for neighbouring-figure ink. Hand lettering vs Helvetica is the main residual off-scan ink.
+- Google Patents answers 503 to bursts and to `xhr/query` searches, for over an hour. Use `pipeline/fetch.py` (paced, stops on
+  403/429/503, `--uspto` fetches PDFs from image-ppubs.uspto.gov, which stayed up), and keep research agents off `xhr/query`.
+- Non-US and pre-grant documents: `doc`, `date_label`, `cite_scheme`, `scan_source`, per-para `cite` + `page` (DATA_SCHEMA).
+  `pn` may be `[0-9A-Z]+`. pre-1971 layouts usually print page and line, no column numbers: use `p.<page>:<line>`.
+- 2026 grants: 2560x3300 scans. CAD-clean figures reach 99~100 % quickly; figure-table agents count sub-figures (one patent had
+  94 figures on 40 sheets), so size by their report, not by sheet count.
+- Repeated structures: pilot one group with shared helpers in `work/<pn>/tmp/trace-common/` plus a README, then pack 8~12 figures per
+  tracer. Cost fell from ~100k tokens per figure to ~20k; rigid parts in pose series move by pure translation.
+- Lettered patents (Wallis, Wagner): `lettered()` links a, b, c^{1} from the text when most refs are letters; bare `a` only before
+  punctuation or "and". Never block lowercase "figure": Cray prints "Curved figure 101", a real numeral.
+- Crops that overlap neighbours lower raw `coverage.py`; tracers mask neighbour ink and report net %. Tighten crops before tracing
+  starts, because changing a crop invalidates its traces.
+- Tell every agent "do NOT run build.py": it rewrites index.html and pages from partial data. After `--only` builds keep unrelated
+  `p/*.html` out of the commit (Pillow re-encodes their PNGs; pixels are identical).
+- Citation counts: distinct publicationNumber across Google's overlapping tables, not rows (160 rows was 109).
+- Run a fresh-context audit per group after tracing: they caught wrong dates, an unsupported priority claim, a truncated quote and
+  overcounted citations that no per-patent agent caught. `coverage.py` misses fragmented hatch and solid-for-dashed lines.
 - Certificates (correction, reexamination) are appended pages, sometimes a different page size
   (2560x3300): text paras carry `page`; the scan modal reads per-page sizes (`page_wh`).

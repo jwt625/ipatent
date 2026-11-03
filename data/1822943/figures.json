@@ -1,0 +1,374 @@
+{
+ "pn": "1822943",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    437,
+    763,
+    1874,
+    1240
+   ],
+   "rotate": 0,
+   "front_page": true
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    471,
+    1250,
+    1840,
+    1545
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    533,
+    1000,
+    820,
+    1382
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    437,
+    1553,
+    1860,
+    2352
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    494,
+    2325,
+    1830,
+    2695
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    356,
+    695,
+    1140,
+    1650
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "FIG. 7",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    392,
+    1740,
+    1240,
+    2810
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8",
+   "label": "FIG. 8",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    417,
+    1560,
+    1076,
+    1771
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9",
+   "label": "FIG. 9",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    1065,
+    685,
+    1765,
+    1500
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10",
+   "label": "FIG. 10",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    1075,
+    1380,
+    1744,
+    2210
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11",
+   "label": "FIG. 11",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    1060,
+    2160,
+    1736,
+    2786
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "a",
+   "name": "main body or float",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "b",
+   "name": "upper angle girders",
+   "figs": [
+    "1",
+    "3"
+   ]
+  },
+  {
+   "ref": "c",
+   "name": "chime girders",
+   "figs": [
+    "1",
+    "3"
+   ]
+  },
+  {
+   "ref": "d",
+   "name": "keel girder",
+   "figs": [
+    "1",
+    "3"
+   ]
+  },
+  {
+   "ref": "e",
+   "name": "thin plate covering skin",
+   "figs": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "ref": "f",
+   "name": "bulkheads",
+   "alt": [
+    "cross bulkheads"
+   ],
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "f1",
+   "name": "watertight bulkheads",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "g",
+   "name": "one of these folds",
+   "alt": [
+    "dotted line",
+    "another tension diagonal or fold"
+   ],
+   "figs": [
+    "1",
+    "4"
+   ]
+  },
+  {
+   "ref": "h",
+   "name": "",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "i",
+   "name": "longitudinal web girders",
+   "alt": [
+    "web girders"
+   ],
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "j",
+   "name": "transverse connecting ties",
+   "alt": [
+    "walls"
+   ],
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "k",
+   "name": "outer skin",
+   "figs": []
+  },
+  {
+   "ref": "m",
+   "name": "thin walled plates",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "n",
+   "name": "connecting sections",
+   "alt": [
+    "push bars",
+    "members"
+   ],
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "o",
+   "name": "straight girder members",
+   "alt": [
+    "straight girders",
+    "straight girder"
+   ],
+   "figs": [
+    "6",
+    "7"
+   ]
+  },
+  {
+   "ref": "p",
+   "name": "straight girder members",
+   "alt": [
+    "lower girder"
+   ],
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "q",
+   "name": "thin vertical plate",
+   "figs": [
+    "6",
+    "8"
+   ]
+  },
+  {
+   "ref": "r",
+   "name": "transverse force transmitting members",
+   "alt": [
+    "cross connecting members"
+   ],
+   "figs": [
+    "6",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "s",
+   "name": "partly straight and partly curved girder members",
+   "alt": [
+    "girder"
+   ],
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "t",
+   "name": "plating with thin walls",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "u",
+   "name": "curved connecting members",
+   "figs": [
+    "9",
+    "10",
+    "11"
+   ]
+  },
+  {
+   "ref": "u1",
+   "name": "connecting members",
+   "figs": [
+    "10",
+    "11"
+   ]
+  },
+  {
+   "ref": "v",
+   "name": "longitudinal girders",
+   "figs": [
+    "9",
+    "10"
+   ]
+  },
+  {
+   "ref": "v1",
+   "name": "longitudinal girders",
+   "figs": [
+    "9",
+    "10"
+   ]
+  }
+ ]
+}

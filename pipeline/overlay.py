@@ -9,6 +9,9 @@ Read both: grey not covered by red = missing geometry; red off grey = misplaced 
 import argparse
 import base64
 import json
+import os
+import shutil
+import signal
 import subprocess
 import tempfile
 from pathlib import Path
@@ -39,9 +42,25 @@ def shot(html: str, w: int, h: int, out: Path) -> None:
     with tempfile.NamedTemporaryFile("w", suffix=".html", delete=False) as f:
         f.write(html)
         src = f.name
-    subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1",
-                    f"--window-size={w},{h}", f"--screenshot={out}", "--default-background-color=ffffffff",
-                    "--virtual-time-budget=2000", f"file://{src}"], check=True, capture_output=True)
+    profile = tempfile.mkdtemp(prefix="overlay-chrome-")  # own profile: concurrent runs must not share one
+    cmd = [CHROME, "--headless=new", "--disable-gpu", "--hide-scrollbars", "--force-device-scale-factor=1",
+           f"--user-data-dir={profile}", f"--window-size={w},{h}", f"--screenshot={out}",
+           "--default-background-color=ffffffff", "--virtual-time-budget=2000", f"file://{src}"]
+    try:
+        for attempt in (1, 2):  # Chrome occasionally hangs for good; retry once rather than wait forever
+            # no pipes and its own process group: Chrome's children would keep a pipe open past a timeout
+            proc = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, start_new_session=True)
+            try:
+                if proc.wait(timeout=120):
+                    raise subprocess.CalledProcessError(proc.returncode, CHROME)
+                break
+            except subprocess.TimeoutExpired:
+                os.killpg(proc.pid, signal.SIGKILL)
+                proc.wait()
+                if attempt == 2:
+                    raise
+    finally:
+        shutil.rmtree(profile, ignore_errors=True)
     Path(src).unlink()
 
 

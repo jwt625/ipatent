@@ -1,0 +1,2294 @@
+{
+ "pn": "10481866",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 2,
+   "crop": [
+    475,
+    591,
+    2082,
+    2911
+   ],
+   "rotate": 0,
+   "front_page": true
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 2,
+   "page": 3,
+   "crop": [
+    574,
+    623,
+    1928,
+    1583
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 2,
+   "page": 3,
+   "crop": [
+    653,
+    1618,
+    1800,
+    2935
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 3,
+   "page": 4,
+   "crop": [
+    444,
+    525,
+    2116,
+    2934
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 4,
+   "page": 5,
+   "crop": [
+    439,
+    615,
+    2122,
+    2836
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 5,
+   "page": 6,
+   "crop": [
+    421,
+    492,
+    2114,
+    2931
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "FIG. 7",
+   "sheet": 6,
+   "page": 7,
+   "crop": [
+    456,
+    584,
+    2085,
+    1739
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8",
+   "label": "FIG. 8",
+   "sheet": 6,
+   "page": 7,
+   "crop": [
+    458,
+    1783,
+    2075,
+    2886
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9",
+   "label": "FIG. 9",
+   "sheet": 7,
+   "page": 8,
+   "crop": [
+    420,
+    492,
+    2079,
+    1741
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10",
+   "label": "FIG. 10",
+   "sheet": 7,
+   "page": 8,
+   "crop": [
+    423,
+    1811,
+    2092,
+    2974
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11",
+   "label": "FIG. 11",
+   "sheet": 8,
+   "page": 9,
+   "crop": [
+    607,
+    484,
+    1895,
+    1956
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12",
+   "label": "FIG. 12",
+   "sheet": 8,
+   "page": 9,
+   "crop": [
+    785,
+    2426,
+    1778,
+    3011
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "13",
+   "label": "FIG. 13",
+   "sheet": 9,
+   "page": 10,
+   "crop": [
+    636,
+    569,
+    1945,
+    1991
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "14",
+   "label": "FIG. 14",
+   "sheet": 9,
+   "page": 10,
+   "crop": [
+    817,
+    2285,
+    1785,
+    3016
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "15",
+   "label": "FIG. 15",
+   "sheet": 10,
+   "page": 11,
+   "crop": [
+    622,
+    498,
+    1861,
+    1958
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "16",
+   "label": "FIG. 16",
+   "sheet": 10,
+   "page": 11,
+   "crop": [
+    815,
+    2398,
+    1776,
+    3011
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "17",
+   "label": "FIG. 17",
+   "sheet": 11,
+   "page": 12,
+   "crop": [
+    704,
+    549,
+    1665,
+    1765
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "18",
+   "label": "FIG. 18",
+   "sheet": 11,
+   "page": 12,
+   "crop": [
+    679,
+    1851,
+    1938,
+    3015
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "19",
+   "label": "FIG. 19",
+   "sheet": 12,
+   "page": 13,
+   "crop": [
+    744,
+    1148,
+    1710,
+    2198
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "20",
+   "label": "FIG. 20",
+   "sheet": 13,
+   "page": 14,
+   "crop": [
+    472,
+    806,
+    2094,
+    1526
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "21",
+   "label": "FIG. 21",
+   "sheet": 13,
+   "page": 14,
+   "crop": [
+    475,
+    1973,
+    2059,
+    2683
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "22",
+   "label": "FIG. 22",
+   "sheet": 14,
+   "page": 15,
+   "crop": [
+    508,
+    602,
+    2011,
+    2838
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "23",
+   "label": "FIG. 23",
+   "sheet": 15,
+   "page": 16,
+   "crop": [
+    563,
+    688,
+    2025,
+    2800
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "24",
+   "label": "FIG. 24",
+   "sheet": 16,
+   "page": 17,
+   "crop": [
+    423,
+    628,
+    2068,
+    2853
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "25",
+   "label": "FIG. 25",
+   "sheet": 17,
+   "page": 18,
+   "crop": [
+    595,
+    721,
+    2037,
+    2739
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "26",
+   "label": "FIG. 26",
+   "sheet": 18,
+   "page": 19,
+   "crop": [
+    540,
+    626,
+    2066,
+    2811
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "27",
+   "label": "FIG. 27",
+   "sheet": 19,
+   "page": 20,
+   "crop": [
+    576,
+    601,
+    2039,
+    2805
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "28a",
+   "label": "FIG. 28a",
+   "sheet": 20,
+   "page": 21,
+   "crop": [
+    454,
+    822,
+    2032,
+    2716
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "28b",
+   "label": "FIG. 28b",
+   "sheet": 21,
+   "page": 22,
+   "crop": [
+    457,
+    785,
+    2056,
+    2663
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "29",
+   "label": "FIG. 29",
+   "sheet": 22,
+   "page": 23,
+   "crop": [
+    553,
+    494,
+    1697,
+    1836
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "30",
+   "label": "FIG. 30",
+   "sheet": 22,
+   "page": 23,
+   "crop": [
+    492,
+    1840,
+    2047,
+    3033
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "31",
+   "label": "FIG. 31",
+   "sheet": 23,
+   "page": 24,
+   "crop": [
+    793,
+    805,
+    1706,
+    1606
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "32",
+   "label": "FIG. 32",
+   "sheet": 23,
+   "page": 24,
+   "crop": [
+    939,
+    2195,
+    1628,
+    2832
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "33a",
+   "label": "FIG. 33a",
+   "sheet": 24,
+   "page": 25,
+   "crop": [
+    826,
+    692,
+    1705,
+    1356
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "33b",
+   "label": "FIG. 33b",
+   "sheet": 24,
+   "page": 25,
+   "crop": [
+    849,
+    1475,
+    1752,
+    2147
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "33c",
+   "label": "FIG. 33c",
+   "sheet": 24,
+   "page": 25,
+   "crop": [
+    817,
+    2335,
+    1685,
+    3020
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "34",
+   "label": "FIG. 34",
+   "sheet": 25,
+   "page": 26,
+   "crop": [
+    739,
+    635,
+    1886,
+    1468
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "35",
+   "label": "FIG. 35",
+   "sheet": 25,
+   "page": 26,
+   "crop": [
+    738,
+    1839,
+    1886,
+    2838
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "36",
+   "label": "FIG. 36",
+   "sheet": 26,
+   "page": 27,
+   "crop": [
+    627,
+    535,
+    1813,
+    1549
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "37",
+   "label": "FIG. 37",
+   "sheet": 26,
+   "page": 27,
+   "crop": [
+    670,
+    1976,
+    1950,
+    2996
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "38",
+   "label": "FIG. 38",
+   "sheet": 27,
+   "page": 28,
+   "crop": [
+    552,
+    616,
+    1967,
+    1488
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "39",
+   "label": "FIG. 39",
+   "sheet": 27,
+   "page": 28,
+   "crop": [
+    568,
+    1921,
+    1984,
+    2902
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "40",
+   "label": "FIG. 40",
+   "sheet": 28,
+   "page": 29,
+   "crop": [
+    596,
+    623,
+    2012,
+    1514
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "41",
+   "label": "FIG. 41",
+   "sheet": 28,
+   "page": 29,
+   "crop": [
+    594,
+    1947,
+    2012,
+    2928
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "42",
+   "label": "FIG. 42",
+   "sheet": 29,
+   "page": 30,
+   "crop": [
+    584,
+    922,
+    1965,
+    2742
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "101",
+   "name": "upper support structure",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "102",
+   "name": "lower support structure",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "103",
+   "name": "rotating member",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "104",
+   "name": "upper carbon-carbon single bond",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "105",
+   "name": "upper carbon-carbon single bond",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "106",
+   "name": "upper carbon-carbon triple bond",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "107",
+   "name": "lower top carbon-carbon single bond",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "108",
+   "name": "lower bottom carbon-carbon single bond",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "109",
+   "name": "lower carbon-carbon triple bond",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "110",
+   "name": "upper oxygen atom",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "111",
+   "name": "lower oxygen atom",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "201",
+   "name": "upper left rotary joint",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "202",
+   "name": "left support link",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "203",
+   "name": "left anchored rotary joint",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "204",
+   "name": "data link",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "205",
+   "name": "anchor block",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "206",
+   "name": "right anchored rotary joint",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "207",
+   "name": "right support link",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "208",
+   "name": "upper right rotary joint",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "301",
+   "name": "Anchor",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "302",
+   "name": "linear slide",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "303",
+   "name": "Anchor",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "304",
+   "name": "linear slide",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "305",
+   "name": "Anchored rotary joints",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "306",
+   "name": "rotary joint",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "307",
+   "name": "rotary joint",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "308",
+   "name": "unanchored rotary joints",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "309",
+   "name": "Anchored rotary joints",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "310",
+   "name": "AND output",
+   "alt": [
+    "unanchored rotary joints"
+   ],
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "311",
+   "name": "NAND output",
+   "alt": [
+    "unanchored rotary joints"
+   ],
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "401",
+   "name": "linear slide anchor",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "402",
+   "name": "",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "403",
+   "name": "linear slide anchor",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "404",
+   "name": "linear slide",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "405",
+   "name": "inverter",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "406",
+   "name": "inverter",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "407",
+   "name": "upper right portion of the mechanism",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "408",
+   "name": "lower right portion of the mechanism",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "409",
+   "name": "output",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "501",
+   "name": "anchored rotary joint",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "502",
+   "name": "linear slide",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "503",
+   "name": "linear slide",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "504",
+   "name": "anchored rotary joint",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "505",
+   "name": "output",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "601",
+   "name": "inputs to the gate",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "602",
+   "name": "inputs to the gate",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "603",
+   "name": "inputs to the gate",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "604",
+   "name": "outputs",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "605",
+   "name": "outputs",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "606",
+   "name": "outputs",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "701",
+   "name": "Top input",
+   "figs": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "702",
+   "name": "bottom input",
+   "figs": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "703",
+   "name": "links",
+   "figs": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "704",
+   "name": "links",
+   "figs": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "705",
+   "name": "links",
+   "figs": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "706",
+   "name": "links",
+   "figs": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "707",
+   "name": "diagonal links",
+   "figs": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "708",
+   "name": "diagonal links",
+   "figs": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "709",
+   "name": "additional link",
+   "alt": [
+    "link"
+   ],
+   "figs": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "710",
+   "name": "diagonal links",
+   "figs": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "711",
+   "name": "diagonal links",
+   "figs": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "712",
+   "name": "links",
+   "figs": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "713",
+   "name": "links",
+   "figs": [
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "901",
+   "name": "inputs",
+   "figs": [
+    "9",
+    "10"
+   ]
+  },
+  {
+   "ref": "902",
+   "name": "inputs",
+   "figs": [
+    "9",
+    "10"
+   ]
+  },
+  {
+   "ref": "1101",
+   "name": "link",
+   "alt": [
+    "Link1"
+   ],
+   "figs": [
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16"
+   ]
+  },
+  {
+   "ref": "1102",
+   "name": "link",
+   "alt": [
+    "Link2"
+   ],
+   "figs": [
+    "11",
+    "13",
+    "15",
+    "16"
+   ]
+  },
+  {
+   "ref": "1103",
+   "name": "link",
+   "alt": [
+    "Link3"
+   ],
+   "figs": [
+    "11",
+    "13",
+    "14",
+    "15",
+    "16"
+   ]
+  },
+  {
+   "ref": "1104",
+   "name": "space",
+   "alt": [
+    "OpenJoint4"
+   ],
+   "figs": [
+    "11",
+    "13",
+    "15"
+   ]
+  },
+  {
+   "ref": "1105",
+   "name": "space",
+   "alt": [
+    "OpenJoint5"
+   ],
+   "figs": [
+    "11",
+    "13",
+    "15"
+   ]
+  },
+  {
+   "ref": "1106",
+   "name": "space",
+   "alt": [
+    "OpenJoint6"
+   ],
+   "figs": [
+    "11",
+    "13",
+    "15"
+   ]
+  },
+  {
+   "ref": "1107",
+   "name": "space",
+   "alt": [
+    "OpenJoint7"
+   ],
+   "figs": [
+    "11",
+    "13",
+    "15"
+   ]
+  },
+  {
+   "ref": "1108",
+   "name": "rotary joint",
+   "alt": [
+    "Joint1"
+   ],
+   "figs": [
+    "11",
+    "13",
+    "15"
+   ]
+  },
+  {
+   "ref": "1109",
+   "name": "rotary joint",
+   "alt": [
+    "Joint2"
+   ],
+   "figs": [
+    "11",
+    "13",
+    "15"
+   ]
+  },
+  {
+   "ref": "1110",
+   "name": "rotary joint",
+   "alt": [
+    "Joint3"
+   ],
+   "figs": [
+    "11",
+    "13",
+    "15"
+   ]
+  },
+  {
+   "ref": "1111",
+   "name": "rotary joint",
+   "alt": [
+    "Joint4"
+   ],
+   "figs": [
+    "11",
+    "13",
+    "15"
+   ]
+  },
+  {
+   "ref": "1112",
+   "name": "anchor block",
+   "alt": [
+    "Anchor Block"
+   ],
+   "figs": [
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16"
+   ]
+  },
+  {
+   "ref": "1701",
+   "name": "input",
+   "figs": [
+    "17",
+    "18",
+    "19"
+   ]
+  },
+  {
+   "ref": "1702",
+   "name": "link",
+   "figs": [
+    "17",
+    "18",
+    "19"
+   ]
+  },
+  {
+   "ref": "1703",
+   "name": "rotary joint",
+   "figs": [
+    "17",
+    "18",
+    "19"
+   ]
+  },
+  {
+   "ref": "1704",
+   "name": "Upper rotary joint",
+   "figs": [
+    "17",
+    "18",
+    "19"
+   ]
+  },
+  {
+   "ref": "1705",
+   "name": "lower rotary joint",
+   "figs": [
+    "17",
+    "18",
+    "19"
+   ]
+  },
+  {
+   "ref": "1706",
+   "name": "upper output",
+   "figs": [
+    "17",
+    "18",
+    "19"
+   ]
+  },
+  {
+   "ref": "1707",
+   "name": "lower output",
+   "figs": [
+    "17",
+    "18",
+    "19"
+   ]
+  },
+  {
+   "ref": "2001",
+   "name": "Inputs",
+   "figs": [
+    "20",
+    "21"
+   ]
+  },
+  {
+   "ref": "2002",
+   "name": "Inputs",
+   "figs": [
+    "20",
+    "21"
+   ]
+  },
+  {
+   "ref": "2003",
+   "name": "outputs",
+   "figs": [
+    "20",
+    "21"
+   ]
+  },
+  {
+   "ref": "2004",
+   "name": "outputs",
+   "figs": [
+    "20",
+    "21"
+   ]
+  },
+  {
+   "ref": "2005",
+   "name": "link",
+   "figs": [
+    "20",
+    "21"
+   ]
+  },
+  {
+   "ref": "2006",
+   "name": "link",
+   "figs": [
+    "20",
+    "21"
+   ]
+  },
+  {
+   "ref": "2007",
+   "name": "link",
+   "figs": [
+    "20",
+    "21"
+   ]
+  },
+  {
+   "ref": "2201",
+   "name": "top input",
+   "figs": [
+    "22"
+   ]
+  },
+  {
+   "ref": "2202",
+   "name": "bottom input",
+   "figs": [
+    "22"
+   ]
+  },
+  {
+   "ref": "2203",
+   "name": "center input",
+   "alt": [
+    "middle input"
+   ],
+   "figs": [
+    "22"
+   ]
+  },
+  {
+   "ref": "2204",
+   "name": "top output",
+   "figs": [
+    "22"
+   ]
+  },
+  {
+   "ref": "2205",
+   "name": "bottom output",
+   "figs": [
+    "22"
+   ]
+  },
+  {
+   "ref": "2301",
+   "name": "Clock input",
+   "figs": [
+    "23"
+   ]
+  },
+  {
+   "ref": "2302",
+   "name": "balance",
+   "figs": [
+    "23"
+   ]
+  },
+  {
+   "ref": "2303",
+   "name": "balance",
+   "figs": [
+    "23"
+   ]
+  },
+  {
+   "ref": "2304",
+   "name": "balance",
+   "figs": [
+    "23"
+   ]
+  },
+  {
+   "ref": "2305",
+   "name": "balances",
+   "figs": [
+    "23"
+   ]
+  },
+  {
+   "ref": "2306",
+   "name": "balances",
+   "figs": [
+    "23"
+   ]
+  },
+  {
+   "ref": "2307",
+   "name": "input",
+   "alt": [
+    "A0"
+   ],
+   "figs": [
+    "23"
+   ]
+  },
+  {
+   "ref": "2308",
+   "name": "input",
+   "alt": [
+    "B0"
+   ],
+   "figs": [
+    "23"
+   ]
+  },
+  {
+   "ref": "2309",
+   "name": "input",
+   "alt": [
+    "A1"
+   ],
+   "figs": [
+    "23"
+   ]
+  },
+  {
+   "ref": "2310",
+   "name": "input",
+   "alt": [
+    "B1"
+   ],
+   "figs": [
+    "23"
+   ]
+  },
+  {
+   "ref": "2311",
+   "name": "lower output",
+   "alt": [
+    "bottom output"
+   ],
+   "figs": [
+    "23"
+   ]
+  },
+  {
+   "ref": "2312",
+   "name": "upper output",
+   "alt": [
+    "top output"
+   ],
+   "figs": [
+    "23"
+   ]
+  },
+  {
+   "ref": "2401",
+   "name": "rotary joint",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2402",
+   "name": "rotary joint",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2403",
+   "name": "rotary joint",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2404",
+   "name": "rotary joint",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2405",
+   "name": "rotary joint",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2406",
+   "name": "rotary joint",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2407",
+   "name": "rotary joint",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2408",
+   "name": "rotary joint",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2409",
+   "name": "rotary joint",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2410",
+   "name": "rotary joint",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2411",
+   "name": "rotary joint",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2412",
+   "name": "X1 output",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2413",
+   "name": "X0 output",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2414",
+   "name": "Y1 output",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2415",
+   "name": "Y0 output",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2416",
+   "name": "Z1 output",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2417",
+   "name": "Z0 output",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2418",
+   "name": "links",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2419",
+   "name": "links",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2420",
+   "name": "Black triangles",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2421",
+   "name": "Black triangles",
+   "figs": [
+    "24"
+   ]
+  },
+  {
+   "ref": "2501",
+   "name": "0 input",
+   "figs": [
+    "25",
+    "26",
+    "27"
+   ]
+  },
+  {
+   "ref": "2502",
+   "name": "1 input",
+   "figs": [
+    "25",
+    "26",
+    "27"
+   ]
+  },
+  {
+   "ref": "2503",
+   "name": "Clock signal",
+   "figs": [
+    "25",
+    "26",
+    "27"
+   ]
+  },
+  {
+   "ref": "2504",
+   "name": "balance",
+   "figs": [
+    "25",
+    "26",
+    "27"
+   ]
+  },
+  {
+   "ref": "2505",
+   "name": "lock",
+   "figs": [
+    "25",
+    "26",
+    "27"
+   ]
+  },
+  {
+   "ref": "2506",
+   "name": "lock",
+   "figs": [
+    "25",
+    "26",
+    "27"
+   ]
+  },
+  {
+   "ref": "2507",
+   "name": "outputs",
+   "figs": [
+    "25",
+    "26",
+    "27"
+   ]
+  },
+  {
+   "ref": "2508",
+   "name": "outputs",
+   "figs": [
+    "25",
+    "26",
+    "27"
+   ]
+  },
+  {
+   "ref": "2801",
+   "name": "cell 1",
+   "figs": [
+    "28a"
+   ]
+  },
+  {
+   "ref": "2802",
+   "name": "cell 2",
+   "figs": [
+    "28b"
+   ]
+  },
+  {
+   "ref": "2803",
+   "name": "link",
+   "figs": [
+    "28a"
+   ]
+  },
+  {
+   "ref": "2804",
+   "name": "Links",
+   "figs": [
+    "28a",
+    "28b"
+   ]
+  },
+  {
+   "ref": "2805",
+   "name": "Links",
+   "figs": [
+    "28a",
+    "28b"
+   ]
+  },
+  {
+   "ref": "2806",
+   "name": "link",
+   "figs": [
+    "28b"
+   ]
+  },
+  {
+   "ref": "2901",
+   "name": "groups",
+   "figs": [
+    "29"
+   ]
+  },
+  {
+   "ref": "2902",
+   "name": "groups",
+   "figs": [
+    "29"
+   ]
+  },
+  {
+   "ref": "2903",
+   "name": "member",
+   "figs": [
+    "29"
+   ]
+  },
+  {
+   "ref": "2904",
+   "name": "member",
+   "figs": [
+    "29"
+   ]
+  },
+  {
+   "ref": "2905",
+   "name": "members",
+   "figs": [
+    "29"
+   ]
+  },
+  {
+   "ref": "2906",
+   "name": "members",
+   "figs": [
+    "29"
+   ]
+  },
+  {
+   "ref": "3001",
+   "name": "Link ends",
+   "figs": [
+    "30"
+   ]
+  },
+  {
+   "ref": "3002",
+   "name": "Link ends",
+   "figs": [
+    "30"
+   ]
+  },
+  {
+   "ref": "3003",
+   "name": "links",
+   "figs": [
+    "30"
+   ]
+  },
+  {
+   "ref": "3004",
+   "name": "links",
+   "figs": [
+    "30"
+   ]
+  },
+  {
+   "ref": "3005",
+   "name": "semi-circular cutouts",
+   "figs": [
+    "30"
+   ]
+  },
+  {
+   "ref": "3006",
+   "name": "semi-circular cutouts",
+   "figs": [
+    "30"
+   ]
+  },
+  {
+   "ref": "3007",
+   "name": "Anchored link ends",
+   "figs": [
+    "30"
+   ]
+  },
+  {
+   "ref": "3008",
+   "name": "Anchored link ends",
+   "figs": [
+    "30"
+   ]
+  },
+  {
+   "ref": "3009",
+   "name": "Link",
+   "figs": [
+    "30"
+   ]
+  },
+  {
+   "ref": "3010",
+   "name": "triangular links",
+   "figs": [
+    "30"
+   ]
+  },
+  {
+   "ref": "3011",
+   "name": "triangular links",
+   "figs": [
+    "30"
+   ]
+  },
+  {
+   "ref": "3012",
+   "name": "link ends",
+   "figs": [
+    "30"
+   ]
+  },
+  {
+   "ref": "3013",
+   "name": "link ends",
+   "figs": [
+    "30"
+   ]
+  },
+  {
+   "ref": "3101",
+   "name": "Anchor block",
+   "figs": [
+    "31",
+    "32"
+   ]
+  },
+  {
+   "ref": "3102",
+   "name": "Pulley",
+   "figs": [
+    "31",
+    "32"
+   ]
+  },
+  {
+   "ref": "3103",
+   "name": "axle",
+   "figs": [
+    "31",
+    "32"
+   ]
+  },
+  {
+   "ref": "3104",
+   "name": "channel",
+   "figs": [
+    "31",
+    "32"
+   ]
+  },
+  {
+   "ref": "3105",
+   "name": "Actuating cable",
+   "figs": [
+    "31"
+   ]
+  },
+  {
+   "ref": "3301",
+   "name": "first cable",
+   "figs": [
+    "33a",
+    "33b",
+    "33c"
+   ]
+  },
+  {
+   "ref": "3302",
+   "name": "second cable",
+   "figs": [
+    "33a",
+    "33b",
+    "33c"
+   ]
+  },
+  {
+   "ref": "3303",
+   "name": "knobs",
+   "figs": [
+    "33a",
+    "33b",
+    "33c"
+   ]
+  },
+  {
+   "ref": "3304",
+   "name": "knobs",
+   "figs": [
+    "33a",
+    "33b",
+    "33c"
+   ]
+  },
+  {
+   "ref": "3305",
+   "name": "knobs",
+   "figs": [
+    "33a",
+    "33b",
+    "33c"
+   ]
+  },
+  {
+   "ref": "3306",
+   "name": "knobs",
+   "figs": [
+    "33a",
+    "33b",
+    "33c"
+   ]
+  },
+  {
+   "ref": "3401",
+   "name": "knob",
+   "figs": [
+    "34"
+   ]
+  },
+  {
+   "ref": "3501",
+   "name": "knobs",
+   "figs": [
+    "35",
+    "36",
+    "37"
+   ]
+  },
+  {
+   "ref": "3502",
+   "name": "knobs",
+   "figs": [
+    "35",
+    "36",
+    "37"
+   ]
+  },
+  {
+   "ref": "3801",
+   "name": "closed loop of cable",
+   "alt": [
+    "logic cable"
+   ],
+   "figs": [
+    "38"
+   ]
+  },
+  {
+   "ref": "3802",
+   "name": "knob",
+   "figs": [
+    "38"
+   ]
+  },
+  {
+   "ref": "3803",
+   "name": "pulley",
+   "figs": [
+    "38"
+   ]
+  },
+  {
+   "ref": "3804",
+   "name": "track",
+   "figs": [
+    "38"
+   ]
+  },
+  {
+   "ref": "3805",
+   "name": "cable",
+   "figs": [
+    "38"
+   ]
+  },
+  {
+   "ref": "3806",
+   "name": "housing",
+   "figs": [
+    "38"
+   ]
+  },
+  {
+   "ref": "3807",
+   "name": "input/output cables",
+   "alt": [
+    "cable"
+   ],
+   "figs": [
+    "38"
+   ]
+  },
+  {
+   "ref": "3808",
+   "name": "input/output cables",
+   "alt": [
+    "cable"
+   ],
+   "figs": [
+    "38"
+   ]
+  },
+  {
+   "ref": "3901",
+   "name": "logic cable",
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "ref": "3902",
+   "name": "pulley",
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "ref": "3903",
+   "name": "tracks",
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "ref": "3904",
+   "name": "Clock line",
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "ref": "3905",
+   "name": "knobs",
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "ref": "3906",
+   "name": "knobs",
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "ref": "3907",
+   "name": "knobs",
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "ref": "3908",
+   "name": "knobs",
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "ref": "3909",
+   "name": "Cables 0",
+   "alt": [
+    "cable",
+    "zero input line"
+   ],
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "ref": "3910",
+   "name": "cable 1",
+   "alt": [
+    "cable"
+   ],
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "ref": "3911",
+   "name": "knobs",
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "ref": "3912",
+   "name": "knobs",
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "ref": "3913",
+   "name": "knobs",
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "ref": "3914",
+   "name": "knobs",
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "ref": "3915",
+   "name": "Triangular knobs",
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "ref": "3916",
+   "name": "Triangular knobs",
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "ref": "3917",
+   "name": "1 output line",
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  },
+  {
+   "ref": "3918",
+   "name": "0 output line",
+   "figs": [
+    "39",
+    "40",
+    "41",
+    "42"
+   ]
+  }
+ ]
+}

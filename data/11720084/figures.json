@@ -1,0 +1,4305 @@
+{
+ "pn": "11720084",
+ "figures": [
+  {
+   "id": "1A",
+   "label": "FIG. 1A",
+   "sheet": 1,
+   "page": 2,
+   "crop": [
+    359,
+    636,
+    2157,
+    1741
+   ],
+   "rotate": 0,
+   "front_page": true
+  },
+  {
+   "id": "1B",
+   "label": "FIG. 1B",
+   "sheet": 1,
+   "page": 2,
+   "crop": [
+    492,
+    1747,
+    2088,
+    2826
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "1C",
+   "label": "FIG. 1C",
+   "sheet": 2,
+   "page": 3,
+   "crop": [
+    363,
+    587,
+    2153,
+    1717
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "1D",
+   "label": "FIG. 1D",
+   "sheet": 2,
+   "page": 3,
+   "crop": [
+    402,
+    1771,
+    1998,
+    2875
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "1E",
+   "label": "FIG. 1E",
+   "sheet": 3,
+   "page": 4,
+   "crop": [
+    363,
+    605,
+    2152,
+    1735
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "1F",
+   "label": "FIG. 1F",
+   "sheet": 3,
+   "page": 4,
+   "crop": [
+    402,
+    1781,
+    2091,
+    2858
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 4,
+   "page": 5,
+   "crop": [
+    335,
+    562,
+    1899,
+    1537
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3A",
+   "label": "FIG. 3A",
+   "sheet": 4,
+   "page": 5,
+   "crop": [
+    1280,
+    1263,
+    2175,
+    2086
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3B",
+   "label": "FIG. 3B",
+   "sheet": 4,
+   "page": 5,
+   "crop": [
+    341,
+    1743,
+    1236,
+    2729
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3C",
+   "label": "FIG. 3C",
+   "sheet": 4,
+   "page": 5,
+   "crop": [
+    1105,
+    2178,
+    2180,
+    2901
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3D",
+   "label": "FIG. 3D",
+   "sheet": 5,
+   "page": 6,
+   "crop": [
+    326,
+    542,
+    1126,
+    1335
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3E",
+   "label": "FIG. 3E",
+   "sheet": 5,
+   "page": 6,
+   "crop": [
+    1304,
+    536,
+    2189,
+    1612
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3F",
+   "label": "FIG. 3F",
+   "sheet": 5,
+   "page": 6,
+   "crop": [
+    346,
+    1380,
+    916,
+    2161
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3G",
+   "label": "FIG. 3G",
+   "sheet": 5,
+   "page": 6,
+   "crop": [
+    977,
+    1636,
+    2186,
+    2285
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3H",
+   "label": "FIG. 3H",
+   "sheet": 5,
+   "page": 6,
+   "crop": [
+    374,
+    2246,
+    1289,
+    2893
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3I",
+   "label": "FIG. 3I",
+   "sheet": 5,
+   "page": 6,
+   "crop": [
+    1260,
+    2361,
+    2186,
+    2927
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 6,
+   "page": 7,
+   "crop": [
+    330,
+    628,
+    2185,
+    2835
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5A",
+   "label": "FIG. 5A",
+   "sheet": 7,
+   "page": 8,
+   "crop": [
+    372,
+    557,
+    2095,
+    1763
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5B",
+   "label": "FIG. 5B",
+   "sheet": 7,
+   "page": 8,
+   "crop": [
+    659,
+    1751,
+    2144,
+    2906
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5C",
+   "label": "FIG. 5C",
+   "sheet": 8,
+   "page": 9,
+   "crop": [
+    402,
+    586,
+    2081,
+    1731
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5D",
+   "label": "FIG. 5D",
+   "sheet": 8,
+   "page": 9,
+   "crop": [
+    645,
+    1733,
+    2114,
+    2877
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5E",
+   "label": "FIG. 5E",
+   "sheet": 9,
+   "page": 10,
+   "crop": [
+    457,
+    571,
+    1948,
+    1698
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5F",
+   "label": "FIG. 5F",
+   "sheet": 9,
+   "page": 10,
+   "crop": [
+    601,
+    1787,
+    2059,
+    2892
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6A",
+   "label": "FIG. 6A",
+   "sheet": 10,
+   "page": 11,
+   "crop": [
+    402,
+    578,
+    2114,
+    1306
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6B",
+   "label": "FIG. 6B",
+   "sheet": 10,
+   "page": 11,
+   "crop": [
+    402,
+    1316,
+    2108,
+    2088
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6C",
+   "label": "FIG. 6C",
+   "sheet": 10,
+   "page": 11,
+   "crop": [
+    402,
+    2109,
+    2067,
+    2884
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6D",
+   "label": "FIG. 6D",
+   "sheet": 11,
+   "page": 12,
+   "crop": [
+    446,
+    685,
+    2117,
+    1446
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7A",
+   "label": "FIG. 7A",
+   "sheet": 11,
+   "page": 12,
+   "crop": [
+    340,
+    1553,
+    1252,
+    2778
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7B",
+   "label": "FIG. 7B",
+   "sheet": 11,
+   "page": 12,
+   "crop": [
+    1301,
+    1542,
+    2175,
+    2778
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7C",
+   "label": "FIG. 7C",
+   "sheet": 12,
+   "page": 13,
+   "crop": [
+    352,
+    573,
+    1271,
+    1588
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7D",
+   "label": "FIG. 7D",
+   "sheet": 12,
+   "page": 13,
+   "crop": [
+    1314,
+    573,
+    2210,
+    1588
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7E",
+   "label": "FIG. 7E",
+   "sheet": 12,
+   "page": 13,
+   "crop": [
+    307,
+    1716,
+    1258,
+    2889
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7F",
+   "label": "FIG. 7F",
+   "sheet": 12,
+   "page": 13,
+   "crop": [
+    1251,
+    1716,
+    2201,
+    2889
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7G",
+   "label": "FIG. 7G",
+   "sheet": 13,
+   "page": 14,
+   "crop": [
+    311,
+    500,
+    1261,
+    1635
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7H",
+   "label": "FIG. 7H",
+   "sheet": 13,
+   "page": 14,
+   "crop": [
+    1254,
+    518,
+    2205,
+    1635
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7I",
+   "label": "FIG. 7I",
+   "sheet": 13,
+   "page": 14,
+   "crop": [
+    330,
+    1645,
+    1954,
+    2645
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7J",
+   "label": "FIG. 7J",
+   "sheet": 13,
+   "page": 14,
+   "crop": [
+    831,
+    2477,
+    2138,
+    2963
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8A",
+   "label": "FIG. 8A",
+   "sheet": 14,
+   "page": 15,
+   "crop": [
+    491,
+    470,
+    2183,
+    1512
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8B",
+   "label": "FIG. 8B",
+   "sheet": 14,
+   "page": 15,
+   "crop": [
+    332,
+    1222,
+    2032,
+    2197
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8C",
+   "label": "FIG. 8C",
+   "sheet": 14,
+   "page": 15,
+   "crop": [
+    340,
+    1854,
+    2147,
+    2992
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8D",
+   "label": "FIG. 8D",
+   "sheet": 15,
+   "page": 16,
+   "crop": [
+    442,
+    467,
+    2175,
+    1482
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8E",
+   "label": "FIG. 8E",
+   "sheet": 15,
+   "page": 16,
+   "crop": [
+    341,
+    1151,
+    1963,
+    2155
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8F",
+   "label": "FIG. 8F",
+   "sheet": 15,
+   "page": 16,
+   "crop": [
+    349,
+    1969,
+    1911,
+    2995
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9A",
+   "label": "FIG. 9A",
+   "sheet": 16,
+   "page": 17,
+   "crop": [
+    455,
+    556,
+    2153,
+    1844
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9B",
+   "label": "FIG. 9B",
+   "sheet": 16,
+   "page": 17,
+   "crop": [
+    361,
+    1743,
+    2154,
+    2907
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10A",
+   "label": "FIG. 10A",
+   "sheet": 17,
+   "page": 18,
+   "crop": [
+    441,
+    639,
+    2160,
+    1667
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10B",
+   "label": "FIG. 10B",
+   "sheet": 17,
+   "page": 18,
+   "crop": [
+    356,
+    1802,
+    2085,
+    2824
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10C",
+   "label": "FIG. 10C",
+   "sheet": 18,
+   "page": 19,
+   "crop": [
+    379,
+    633,
+    2136,
+    1678
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10D",
+   "label": "FIG. 10D",
+   "sheet": 18,
+   "page": 19,
+   "crop": [
+    398,
+    1803,
+    2136,
+    2829
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10E",
+   "label": "FIG. 10E",
+   "sheet": 19,
+   "page": 20,
+   "crop": [
+    399,
+    645,
+    2151,
+    1640
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10F",
+   "label": "FIG. 10F",
+   "sheet": 19,
+   "page": 20,
+   "crop": [
+    364,
+    1795,
+    2122,
+    2818
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10G",
+   "label": "FIG. 10G",
+   "sheet": 20,
+   "page": 21,
+   "crop": [
+    375,
+    727,
+    2140,
+    1742
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11A",
+   "label": "FIG. 11A",
+   "sheet": 20,
+   "page": 21,
+   "crop": [
+    421,
+    1999,
+    2014,
+    2736
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11B",
+   "label": "FIG. 11B",
+   "sheet": 21,
+   "page": 22,
+   "crop": [
+    537,
+    800,
+    2048,
+    1583
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11C",
+   "label": "FIG. 11C",
+   "sheet": 21,
+   "page": 22,
+   "crop": [
+    441,
+    1877,
+    2074,
+    2662
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11D",
+   "label": "FIG. 11D",
+   "sheet": 22,
+   "page": 23,
+   "crop": [
+    575,
+    730,
+    2074,
+    1563
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11E",
+   "label": "FIG. 11E",
+   "sheet": 22,
+   "page": 23,
+   "crop": [
+    441,
+    1741,
+    1997,
+    2733
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11F",
+   "label": "FIG. 11F",
+   "sheet": 23,
+   "page": 24,
+   "crop": [
+    588,
+    698,
+    2032,
+    1655
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11G",
+   "label": "FIG. 11G",
+   "sheet": 23,
+   "page": 24,
+   "crop": [
+    480,
+    1791,
+    2036,
+    2765
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11H",
+   "label": "FIG. 11H",
+   "sheet": 24,
+   "page": 25,
+   "crop": [
+    424,
+    648,
+    1949,
+    1593
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11I",
+   "label": "FIG. 11I",
+   "sheet": 24,
+   "page": 25,
+   "crop": [
+    469,
+    1673,
+    2091,
+    2814
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11J",
+   "label": "FIG. 11J",
+   "sheet": 25,
+   "page": 26,
+   "crop": [
+    463,
+    534,
+    2122,
+    1709
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11K",
+   "label": "FIG. 11K",
+   "sheet": 25,
+   "page": 26,
+   "crop": [
+    393,
+    1783,
+    2109,
+    2929
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11L",
+   "label": "FIG. 11L",
+   "sheet": 26,
+   "page": 27,
+   "crop": [
+    453,
+    612,
+    1869,
+    1730
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11M",
+   "label": "FIG. 11M",
+   "sheet": 26,
+   "page": 27,
+   "crop": [
+    425,
+    1817,
+    2090,
+    2851
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11N",
+   "label": "FIG. 11N",
+   "sheet": 27,
+   "page": 28,
+   "crop": [
+    334,
+    481,
+    2186,
+    1623
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12A",
+   "label": "FIG. 12A",
+   "sheet": 27,
+   "page": 28,
+   "crop": [
+    330,
+    1668,
+    1247,
+    2981
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12B",
+   "label": "FIG. 12B",
+   "sheet": 27,
+   "page": 28,
+   "crop": [
+    1165,
+    1636,
+    2178,
+    2848
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12C",
+   "label": "FIG. 12C",
+   "sheet": 28,
+   "page": 29,
+   "crop": [
+    325,
+    595,
+    2191,
+    1741
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12D",
+   "label": "FIG. 12D",
+   "sheet": 28,
+   "page": 29,
+   "crop": [
+    460,
+    1820,
+    1086,
+    2845
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12I",
+   "label": "FIG. 12I",
+   "sheet": 28,
+   "page": 29,
+   "crop": [
+    1220,
+    1840,
+    2107,
+    2867
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12E",
+   "label": "FIG. 12E",
+   "sheet": 29,
+   "page": 30,
+   "crop": [
+    497,
+    580,
+    2017,
+    1703
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12F",
+   "label": "FIG. 12F",
+   "sheet": 29,
+   "page": 30,
+   "crop": [
+    451,
+    1780,
+    2065,
+    2882
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12G",
+   "label": "FIG. 12G",
+   "sheet": 30,
+   "page": 31,
+   "crop": [
+    344,
+    600,
+    1862,
+    1805
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12H",
+   "label": "FIG. 12H",
+   "sheet": 30,
+   "page": 31,
+   "crop": [
+    750,
+    1554,
+    2171,
+    2862
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "13A",
+   "label": "FIG. 13A",
+   "sheet": 31,
+   "page": 32,
+   "crop": [
+    312,
+    608,
+    2204,
+    2855
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "13B",
+   "label": "FIG. 13B",
+   "sheet": 32,
+   "page": 33,
+   "crop": [
+    337,
+    629,
+    2179,
+    2834
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "14",
+   "label": "FIG. 14",
+   "sheet": 32,
+   "page": 33,
+   "crop": [
+    453,
+    1909,
+    1229,
+    2755
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "15A",
+   "label": "FIG. 15A",
+   "sheet": 33,
+   "page": 34,
+   "crop": [
+    377,
+    603,
+    2177,
+    1712
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "15B",
+   "label": "FIG. 15B",
+   "sheet": 33,
+   "page": 34,
+   "crop": [
+    339,
+    1781,
+    2127,
+    2859
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "15C",
+   "label": "FIG. 15C",
+   "sheet": 34,
+   "page": 35,
+   "crop": [
+    315,
+    582,
+    2044,
+    2103
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "15D",
+   "label": "FIG. 15D",
+   "sheet": 34,
+   "page": 35,
+   "crop": [
+    953,
+    1749,
+    2200,
+    2880
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "16A",
+   "label": "FIG. 16A",
+   "sheet": 35,
+   "page": 36,
+   "crop": [
+    509,
+    599,
+    2105,
+    1363
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "16B",
+   "label": "FIG. 16B",
+   "sheet": 35,
+   "page": 36,
+   "crop": [
+    438,
+    1358,
+    2084,
+    2084
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "16C",
+   "label": "FIG. 16C",
+   "sheet": 35,
+   "page": 36,
+   "crop": [
+    403,
+    2104,
+    2113,
+    2864
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "16D",
+   "label": "FIG. 16D",
+   "sheet": 36,
+   "page": 37,
+   "crop": [
+    379,
+    564,
+    2071,
+    1401
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "16E",
+   "label": "FIG. 16E",
+   "sheet": 36,
+   "page": 37,
+   "crop": [
+    556,
+    1411,
+    2160,
+    2231
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "16F",
+   "label": "FIG. 16F",
+   "sheet": 36,
+   "page": 37,
+   "crop": [
+    355,
+    2161,
+    1949,
+    2899
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "17A",
+   "label": "FIG. 17A",
+   "sheet": 37,
+   "page": 38,
+   "crop": [
+    321,
+    674,
+    2188,
+    1794
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "17B",
+   "label": "FIG. 17B",
+   "sheet": 37,
+   "page": 38,
+   "crop": [
+    331,
+    1644,
+    2194,
+    2789
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "17C",
+   "label": "FIG. 17C",
+   "sheet": 38,
+   "page": 39,
+   "crop": [
+    410,
+    689,
+    2193,
+    1780
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "17D",
+   "label": "FIG. 17D",
+   "sheet": 38,
+   "page": 39,
+   "crop": [
+    323,
+    1669,
+    2190,
+    2774
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "17E",
+   "label": "FIG. 17E",
+   "sheet": 39,
+   "page": 40,
+   "crop": [
+    313,
+    713,
+    2202,
+    2749
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "17F",
+   "label": "FIG. 17F",
+   "sheet": 40,
+   "page": 41,
+   "crop": [
+    335,
+    585,
+    2180,
+    2877
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "100",
+   "name": "logic mechanism",
+   "figs": [
+    "1A",
+    "1B",
+    "1C",
+    "1D",
+    "1E"
+   ]
+  },
+  {
+   "ref": "102",
+   "name": "input cables",
+   "figs": [
+    "1A",
+    "1B",
+    "1C",
+    "1D",
+    "1E"
+   ]
+  },
+  {
+   "ref": "104",
+   "name": "input cables",
+   "figs": [
+    "1A",
+    "1B",
+    "1C",
+    "1D",
+    "1E"
+   ]
+  },
+  {
+   "ref": "106",
+   "name": "knobs",
+   "figs": [
+    "1A",
+    "1B",
+    "1C",
+    "1D",
+    "1E",
+    "1F"
+   ]
+  },
+  {
+   "ref": "108",
+   "name": "driven element",
+   "figs": [
+    "1A",
+    "1B",
+    "1C",
+    "1D",
+    "1E",
+    "1F"
+   ]
+  },
+  {
+   "ref": "110",
+   "name": "1-value output",
+   "figs": [
+    "1A",
+    "1B",
+    "1C",
+    "1D",
+    "1E",
+    "1F"
+   ]
+  },
+  {
+   "ref": "112",
+   "name": "0-value output",
+   "figs": [
+    "1A",
+    "1B",
+    "1C",
+    "1D",
+    "1E",
+    "1F"
+   ]
+  },
+  {
+   "ref": "150",
+   "name": "mechanism",
+   "figs": [
+    "1F"
+   ]
+  },
+  {
+   "ref": "152",
+   "name": "pair of A inputs",
+   "figs": [
+    "1F"
+   ]
+  },
+  {
+   "ref": "154",
+   "name": "pair of B inputs",
+   "figs": [
+    "1F"
+   ]
+  },
+  {
+   "ref": "200",
+   "name": "gate mechanism",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "202",
+   "name": "input rods",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "204",
+   "name": "input rods",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "206",
+   "name": "knobs",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "208",
+   "name": "driven element",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "210",
+   "name": "0-value output",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "212",
+   "name": "1-value output",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "300",
+   "name": "gate mechanism",
+   "figs": [
+    "3A",
+    "3B",
+    "3C"
+   ]
+  },
+  {
+   "ref": "302",
+   "name": "single inputs",
+   "figs": [
+    "3A",
+    "3B",
+    "3C",
+    "3D",
+    "3E",
+    "3G"
+   ]
+  },
+  {
+   "ref": "304",
+   "name": "single inputs",
+   "figs": [
+    "3A",
+    "3B",
+    "3C",
+    "3D",
+    "3E",
+    "3G"
+   ]
+  },
+  {
+   "ref": "306",
+   "name": "knobs",
+   "figs": [
+    "3A",
+    "3B",
+    "3C",
+    "3D",
+    "3E",
+    "3G"
+   ]
+  },
+  {
+   "ref": "308",
+   "name": "driven element",
+   "figs": [
+    "3A",
+    "3B",
+    "3C"
+   ]
+  },
+  {
+   "ref": "310",
+   "name": "0-value output",
+   "figs": [
+    "3A",
+    "3B",
+    "3C"
+   ]
+  },
+  {
+   "ref": "312",
+   "name": "1-value output",
+   "figs": [
+    "3A",
+    "3B",
+    "3C",
+    "3D",
+    "3E",
+    "3G",
+    "3F"
+   ]
+  },
+  {
+   "ref": "300'",
+   "name": "logic mechanism",
+   "figs": [
+    "3D",
+    "3E",
+    "3G",
+    "3F"
+   ]
+  },
+  {
+   "ref": "308'",
+   "name": "input",
+   "figs": [
+    "3D",
+    "3E",
+    "3G"
+   ],
+   "alt": [
+    "driven element"
+   ]
+  },
+  {
+   "ref": "330",
+   "name": "subsequent mechanism",
+   "figs": [
+    "3E",
+    "3F"
+   ]
+  },
+  {
+   "ref": "332",
+   "name": "sliding connector",
+   "figs": [
+    "3E"
+   ]
+  },
+  {
+   "ref": "334",
+   "name": "A input",
+   "figs": [
+    "3E",
+    "3F"
+   ]
+  },
+  {
+   "ref": "336",
+   "name": "driven element",
+   "figs": []
+  },
+  {
+   "ref": "338",
+   "name": "output",
+   "figs": []
+  },
+  {
+   "ref": "350",
+   "name": "beam inverter",
+   "figs": [
+    "3G"
+   ]
+  },
+  {
+   "ref": "352",
+   "name": "inverter input",
+   "figs": [
+    "3G"
+   ]
+  },
+  {
+   "ref": "354",
+   "name": "inverter output",
+   "figs": [
+    "3G"
+   ]
+  },
+  {
+   "ref": "356",
+   "name": "beam",
+   "figs": [
+    "3G"
+   ]
+  },
+  {
+   "ref": "358",
+   "name": "pivot axis",
+   "figs": [
+    "3G"
+   ]
+  },
+  {
+   "ref": "360",
+   "name": "input",
+   "figs": [
+    "3G"
+   ]
+  },
+  {
+   "ref": "370",
+   "name": "inverter",
+   "figs": [
+    "3H"
+   ]
+  },
+  {
+   "ref": "372",
+   "name": "inverter input",
+   "figs": [
+    "3H"
+   ]
+  },
+  {
+   "ref": "374",
+   "name": "inverter output",
+   "figs": [
+    "3H"
+   ]
+  },
+  {
+   "ref": "376",
+   "name": "rack-and-pinon mechanism",
+   "figs": [
+    "3H"
+   ]
+  },
+  {
+   "ref": "378",
+   "name": "pinion gear",
+   "figs": [
+    "3H"
+   ]
+  },
+  {
+   "ref": "380",
+   "name": "input rack",
+   "figs": [
+    "3H"
+   ]
+  },
+  {
+   "ref": "382",
+   "name": "output rack",
+   "figs": [
+    "3H"
+   ]
+  },
+  {
+   "ref": "390",
+   "name": "inverter",
+   "figs": [
+    "3I"
+   ]
+  },
+  {
+   "ref": "392",
+   "name": "inverter input",
+   "figs": [
+    "3I"
+   ]
+  },
+  {
+   "ref": "394",
+   "name": "inverter output",
+   "figs": [
+    "3I"
+   ]
+  },
+  {
+   "ref": "396",
+   "name": "belt",
+   "figs": [
+    "3I"
+   ]
+  },
+  {
+   "ref": "398",
+   "name": "rollers",
+   "figs": [
+    "3I"
+   ]
+  },
+  {
+   "ref": "400",
+   "name": "mechanism",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "402",
+   "name": "gates",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "404",
+   "name": "first array",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "406",
+   "name": "second array",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "500",
+   "name": "mechanism",
+   "figs": [
+    "5A",
+    "5B",
+    "5C",
+    "5D",
+    "5E"
+   ]
+  },
+  {
+   "ref": "502",
+   "name": "single motion-transmitting element",
+   "figs": [
+    "5A",
+    "5B",
+    "5C",
+    "5D",
+    "5E",
+    "5F"
+   ]
+  },
+  {
+   "ref": "504",
+   "name": "driven element",
+   "figs": [
+    "5A",
+    "5B",
+    "5C",
+    "5D",
+    "5E",
+    "5F"
+   ]
+  },
+  {
+   "ref": "506",
+   "name": "output",
+   "figs": [
+    "5A",
+    "5B",
+    "5C",
+    "5D",
+    "5E",
+    "5F"
+   ]
+  },
+  {
+   "ref": "508",
+   "name": "inputs",
+   "figs": [
+    "5A",
+    "5B",
+    "5C",
+    "5D",
+    "5E",
+    "5F"
+   ]
+  },
+  {
+   "ref": "510",
+   "name": "hinge",
+   "figs": [
+    "5A",
+    "5B",
+    "5C",
+    "5D",
+    "5E",
+    "5F"
+   ]
+  },
+  {
+   "ref": "512",
+   "name": "track elements",
+   "figs": [
+    "5A",
+    "5B",
+    "5C",
+    "5D",
+    "5E",
+    "5F"
+   ]
+  },
+  {
+   "ref": "514",
+   "name": "guides",
+   "figs": [
+    "5A",
+    "5B",
+    "5C",
+    "5D",
+    "5E",
+    "5F"
+   ]
+  },
+  {
+   "ref": "600",
+   "name": "NOR gate",
+   "figs": [
+    "6A",
+    "6B",
+    "6C",
+    "6D"
+   ]
+  },
+  {
+   "ref": "602",
+   "name": "inputs",
+   "figs": [
+    "6A",
+    "6B",
+    "6C",
+    "6D"
+   ]
+  },
+  {
+   "ref": "604",
+   "name": "inputs",
+   "figs": [
+    "6A",
+    "6B",
+    "6C",
+    "6D"
+   ]
+  },
+  {
+   "ref": "606",
+   "name": "driven element",
+   "figs": [
+    "6A",
+    "6B",
+    "6C",
+    "6D"
+   ]
+  },
+  {
+   "ref": "608",
+   "name": "output",
+   "figs": [
+    "6A",
+    "6B",
+    "6C",
+    "6D"
+   ]
+  },
+  {
+   "ref": "610",
+   "name": "clock guide",
+   "figs": [
+    "6A",
+    "6B",
+    "6C",
+    "6D"
+   ]
+  },
+  {
+   "ref": "612",
+   "name": "output guide",
+   "figs": [
+    "6A",
+    "6B",
+    "6C",
+    "6D"
+   ]
+  },
+  {
+   "ref": "614",
+   "name": "ramp",
+   "figs": [
+    "6A",
+    "6B",
+    "6C",
+    "6D"
+   ]
+  },
+  {
+   "ref": "700",
+   "name": "NOR gate",
+   "figs": [
+    "7A",
+    "7B",
+    "7C",
+    "7D"
+   ]
+  },
+  {
+   "ref": "702",
+   "name": "inputs",
+   "figs": [
+    "7A",
+    "7B",
+    "7C",
+    "7D"
+   ]
+  },
+  {
+   "ref": "704",
+   "name": "inputs",
+   "figs": [
+    "7A",
+    "7B",
+    "7C",
+    "7D"
+   ]
+  },
+  {
+   "ref": "706",
+   "name": "flexible U-shaped element",
+   "figs": [
+    "7A",
+    "7B",
+    "7C",
+    "7D"
+   ]
+  },
+  {
+   "ref": "708",
+   "name": "fixed guides",
+   "figs": [
+    "7A",
+    "7B",
+    "7C",
+    "7D"
+   ]
+  },
+  {
+   "ref": "710",
+   "name": "driven element",
+   "figs": [
+    "7A",
+    "7B",
+    "7C",
+    "7D"
+   ]
+  },
+  {
+   "ref": "712",
+   "name": "fixed guide",
+   "figs": [
+    "7A",
+    "7B",
+    "7C",
+    "7D"
+   ]
+  },
+  {
+   "ref": "714",
+   "name": "output",
+   "figs": [
+    "7A",
+    "7B",
+    "7C",
+    "7D"
+   ]
+  },
+  {
+   "ref": "716",
+   "name": "fixed guide",
+   "figs": [
+    "7A",
+    "7B",
+    "7C",
+    "7D"
+   ]
+  },
+  {
+   "ref": "700A",
+   "name": "gates",
+   "figs": [
+    "7E",
+    "7F",
+    "7G",
+    "7H"
+   ]
+  },
+  {
+   "ref": "700B",
+   "name": "gates",
+   "figs": [
+    "7E",
+    "7F",
+    "7G",
+    "7H"
+   ]
+  },
+  {
+   "ref": "700C",
+   "name": "gates",
+   "figs": [
+    "7E",
+    "7F",
+    "7G",
+    "7H"
+   ]
+  },
+  {
+   "ref": "750",
+   "name": "AND logic mechanism",
+   "figs": [
+    "7E",
+    "7F",
+    "7G",
+    "7H"
+   ]
+  },
+  {
+   "ref": "710A",
+   "name": "driven elements",
+   "figs": [
+    "7E",
+    "7F",
+    "7G",
+    "7H"
+   ]
+  },
+  {
+   "ref": "710B",
+   "name": "driven elements",
+   "figs": [
+    "7E",
+    "7F",
+    "7G",
+    "7H"
+   ]
+  },
+  {
+   "ref": "710C",
+   "name": "driven elements",
+   "figs": [
+    "7E",
+    "7F",
+    "7G",
+    "7H"
+   ]
+  },
+  {
+   "ref": "702A",
+   "name": "inputs",
+   "figs": [
+    "7E",
+    "7F",
+    "7G",
+    "7H"
+   ]
+  },
+  {
+   "ref": "702B",
+   "name": "inputs",
+   "figs": [
+    "7E",
+    "7F",
+    "7G",
+    "7H"
+   ]
+  },
+  {
+   "ref": "702C",
+   "name": "inputs",
+   "figs": [
+    "7E",
+    "7F",
+    "7G",
+    "7H"
+   ]
+  },
+  {
+   "ref": "704A",
+   "name": "inputs",
+   "figs": [
+    "7E",
+    "7F",
+    "7G",
+    "7H"
+   ]
+  },
+  {
+   "ref": "704B",
+   "name": "inputs",
+   "figs": [
+    "7E",
+    "7F",
+    "7G",
+    "7H"
+   ]
+  },
+  {
+   "ref": "704C",
+   "name": "inputs",
+   "figs": [
+    "7E",
+    "7F",
+    "7G",
+    "7H"
+   ]
+  },
+  {
+   "ref": "714C",
+   "name": "output",
+   "figs": [
+    "7E",
+    "7F",
+    "7G",
+    "7H"
+   ]
+  },
+  {
+   "ref": "770",
+   "name": "half adder",
+   "figs": [
+    "7I"
+   ]
+  },
+  {
+   "ref": "772",
+   "name": "NOR gates",
+   "figs": [
+    "7I"
+   ]
+  },
+  {
+   "ref": "774",
+   "name": "signal splitters",
+   "figs": [
+    "7I"
+   ]
+  },
+  {
+   "ref": "776",
+   "name": "clock inputs",
+   "figs": [
+    "7I"
+   ]
+  },
+  {
+   "ref": "778",
+   "name": "data inputs",
+   "figs": [
+    "7I"
+   ]
+  },
+  {
+   "ref": "780",
+   "name": "sum output",
+   "figs": [
+    "7I"
+   ]
+  },
+  {
+   "ref": "782",
+   "name": "carry output",
+   "figs": [
+    "7I"
+   ]
+  },
+  {
+   "ref": "790",
+   "name": "conventional logic circuit",
+   "figs": [
+    "7J"
+   ]
+  },
+  {
+   "ref": "792",
+   "name": "conventional NOR gates",
+   "figs": [
+    "7J"
+   ]
+  },
+  {
+   "ref": "800",
+   "name": "logic mechanism",
+   "figs": [
+    "8A",
+    "8B"
+   ]
+  },
+  {
+   "ref": "802",
+   "name": "inputs",
+   "figs": [
+    "8A",
+    "8B"
+   ]
+  },
+  {
+   "ref": "804",
+   "name": "inputs",
+   "figs": [
+    "8A",
+    "8B"
+   ]
+  },
+  {
+   "ref": "806",
+   "name": "rotating guides",
+   "figs": [
+    "8A",
+    "8B"
+   ]
+  },
+  {
+   "ref": "808",
+   "name": "rotating guides",
+   "figs": [
+    "8A",
+    "8B"
+   ]
+  },
+  {
+   "ref": "810",
+   "name": "flexible driven element",
+   "figs": [
+    "8A",
+    "8B"
+   ]
+  },
+  {
+   "ref": "812",
+   "name": "flexible output",
+   "figs": [
+    "8A",
+    "8B"
+   ]
+  },
+  {
+   "ref": "850",
+   "name": "mechanism",
+   "figs": [
+    "8C",
+    "8D",
+    "8E",
+    "8F"
+   ]
+  },
+  {
+   "ref": "852",
+   "name": "inputs",
+   "figs": [
+    "8C",
+    "8D",
+    "8E",
+    "8F"
+   ]
+  },
+  {
+   "ref": "854",
+   "name": "inputs",
+   "figs": [
+    "8C",
+    "8D",
+    "8E",
+    "8F"
+   ]
+  },
+  {
+   "ref": "856",
+   "name": "guides",
+   "figs": [
+    "8C",
+    "8D",
+    "8E",
+    "8F"
+   ]
+  },
+  {
+   "ref": "858",
+   "name": "guides",
+   "figs": [
+    "8C",
+    "8D",
+    "8E",
+    "8F"
+   ]
+  },
+  {
+   "ref": "860",
+   "name": "driven element",
+   "figs": [
+    "8C",
+    "8D",
+    "8E",
+    "8F"
+   ]
+  },
+  {
+   "ref": "862",
+   "name": "output",
+   "figs": [
+    "8C",
+    "8D",
+    "8E",
+    "8F"
+   ]
+  },
+  {
+   "ref": "900",
+   "name": "3-input NOR gate",
+   "figs": [
+    "9A",
+    "9B"
+   ]
+  },
+  {
+   "ref": "902",
+   "name": "inputs",
+   "figs": [
+    "9A",
+    "9B"
+   ]
+  },
+  {
+   "ref": "904",
+   "name": "inputs",
+   "figs": [
+    "9A",
+    "9B"
+   ]
+  },
+  {
+   "ref": "906",
+   "name": "inputs",
+   "figs": [
+    "9A",
+    "9B"
+   ]
+  },
+  {
+   "ref": "908",
+   "name": "driven element",
+   "figs": [
+    "9A",
+    "9B"
+   ]
+  },
+  {
+   "ref": "910",
+   "name": "output",
+   "figs": [
+    "9A",
+    "9B"
+   ]
+  },
+  {
+   "ref": "912",
+   "name": "guide",
+   "figs": [
+    "9A",
+    "9B"
+   ]
+  },
+  {
+   "ref": "914",
+   "name": "guide",
+   "figs": [
+    "9A",
+    "9B"
+   ]
+  },
+  {
+   "ref": "916",
+   "name": "guide",
+   "figs": [
+    "9A",
+    "9B"
+   ]
+  },
+  {
+   "ref": "918",
+   "name": "fixed guide",
+   "figs": [
+    "9A",
+    "9B"
+   ]
+  },
+  {
+   "ref": "920",
+   "name": "motion-transmitting elements",
+   "figs": [
+    "9A",
+    "9B"
+   ]
+  },
+  {
+   "ref": "922",
+   "name": "motion-transmitting elements",
+   "figs": [
+    "9A",
+    "9B"
+   ]
+  },
+  {
+   "ref": "924",
+   "name": "fixed guide",
+   "figs": [
+    "9A",
+    "9B"
+   ]
+  },
+  {
+   "ref": "926",
+   "name": "fixed guide",
+   "figs": [
+    "9A",
+    "9B"
+   ]
+  },
+  {
+   "ref": "928",
+   "name": "fixed guide",
+   "figs": [
+    "9A",
+    "9B"
+   ]
+  },
+  {
+   "ref": "1000",
+   "name": "gate mechanism",
+   "figs": [
+    "10A",
+    "10B"
+   ]
+  },
+  {
+   "ref": "1002",
+   "name": "inputs",
+   "figs": [
+    "10A",
+    "10B"
+   ]
+  },
+  {
+   "ref": "1004",
+   "name": "inputs",
+   "figs": [
+    "10A",
+    "10B"
+   ]
+  },
+  {
+   "ref": "1006",
+   "name": "constraint tube",
+   "figs": [
+    "10A",
+    "10B"
+   ]
+  },
+  {
+   "ref": "1008",
+   "name": "constraint housing",
+   "figs": [
+    "10A",
+    "10B"
+   ]
+  },
+  {
+   "ref": "1010",
+   "name": "driven element",
+   "figs": [
+    "10A",
+    "10B"
+   ]
+  },
+  {
+   "ref": "1012",
+   "name": "pair of motion-transmitting elements",
+   "figs": [
+    "10A",
+    "10B"
+   ]
+  },
+  {
+   "ref": "1014",
+   "name": "chamber",
+   "figs": [
+    "10A",
+    "10B"
+   ]
+  },
+  {
+   "ref": "1016",
+   "name": "magnets",
+   "figs": [
+    "10A",
+    "10B"
+   ]
+  },
+  {
+   "ref": "1018",
+   "name": "output",
+   "figs": [
+    "10A",
+    "10B"
+   ]
+  },
+  {
+   "ref": "1030",
+   "name": "NOR gate",
+   "figs": [
+    "10C",
+    "10D"
+   ]
+  },
+  {
+   "ref": "1032",
+   "name": "inputs",
+   "figs": [
+    "10C",
+    "10D"
+   ]
+  },
+  {
+   "ref": "1034",
+   "name": "inputs",
+   "figs": [
+    "10C",
+    "10D"
+   ]
+  },
+  {
+   "ref": "1036",
+   "name": "constraint tube",
+   "figs": [
+    "10C",
+    "10D"
+   ]
+  },
+  {
+   "ref": "1038",
+   "name": "constraint housing",
+   "figs": [
+    "10C",
+    "10D"
+   ]
+  },
+  {
+   "ref": "1040",
+   "name": "driven element",
+   "figs": [
+    "10C",
+    "10D"
+   ]
+  },
+  {
+   "ref": "1042",
+   "name": "single motion-transmitting element",
+   "figs": [
+    "10C",
+    "10D"
+   ]
+  },
+  {
+   "ref": "1044",
+   "name": "chamber",
+   "figs": [
+    "10C",
+    "10D"
+   ]
+  },
+  {
+   "ref": "1046",
+   "name": "output",
+   "figs": [
+    "10C",
+    "10D"
+   ]
+  },
+  {
+   "ref": "1050",
+   "name": "NOR gate",
+   "figs": [
+    "10E"
+   ]
+  },
+  {
+   "ref": "1052",
+   "name": "hinge",
+   "figs": [
+    "10E"
+   ]
+  },
+  {
+   "ref": "1054",
+   "name": "constraint element",
+   "figs": [
+    "10E"
+   ]
+  },
+  {
+   "ref": "1056",
+   "name": "driven element",
+   "figs": [
+    "10E"
+   ]
+  },
+  {
+   "ref": "1058",
+   "name": "output",
+   "figs": [
+    "10E"
+   ]
+  },
+  {
+   "ref": "1070",
+   "name": "NOR gate",
+   "figs": [
+    "10F",
+    "10G"
+   ]
+  },
+  {
+   "ref": "1072",
+   "name": "inputs",
+   "figs": [
+    "10F",
+    "10G"
+   ]
+  },
+  {
+   "ref": "1074",
+   "name": "inputs",
+   "figs": [
+    "10F",
+    "10G"
+   ]
+  },
+  {
+   "ref": "1076",
+   "name": "constraint tube",
+   "figs": [
+    "10F",
+    "10G"
+   ]
+  },
+  {
+   "ref": "1078",
+   "name": "constraint housing",
+   "figs": [
+    "10F",
+    "10G"
+   ]
+  },
+  {
+   "ref": "1080",
+   "name": "driven element",
+   "figs": [
+    "10F",
+    "10G"
+   ]
+  },
+  {
+   "ref": "1082",
+   "name": "fluid",
+   "figs": [
+    "10F",
+    "10G"
+   ]
+  },
+  {
+   "ref": "1084",
+   "name": "chamber",
+   "figs": [
+    "10F",
+    "10G"
+   ]
+  },
+  {
+   "ref": "1086",
+   "name": "output",
+   "figs": [
+    "10F",
+    "10G"
+   ]
+  },
+  {
+   "ref": "1088",
+   "name": "seals",
+   "figs": [
+    "10F",
+    "10G"
+   ]
+  },
+  {
+   "ref": "1090",
+   "name": "seal",
+   "figs": [
+    "10F",
+    "10G"
+   ]
+  },
+  {
+   "ref": "1100",
+   "name": "mechanism",
+   "figs": [
+    "11A",
+    "11B",
+    "11C",
+    "11D"
+   ]
+  },
+  {
+   "ref": "1102",
+   "name": "input",
+   "figs": [
+    "11A",
+    "11B",
+    "11C",
+    "11D"
+   ]
+  },
+  {
+   "ref": "1104",
+   "name": "output",
+   "figs": [
+    "11A",
+    "11B",
+    "11C",
+    "11D"
+   ]
+  },
+  {
+   "ref": "1106",
+   "name": "driven element",
+   "figs": [
+    "11A",
+    "11B",
+    "11C",
+    "11D"
+   ]
+  },
+  {
+   "ref": "1108",
+   "name": "hinge",
+   "figs": [
+    "11A",
+    "11B",
+    "11C",
+    "11D"
+   ]
+  },
+  {
+   "ref": "1110",
+   "name": "extending pin",
+   "figs": [
+    "11A",
+    "11B",
+    "11C",
+    "11D"
+   ]
+  },
+  {
+   "ref": "1112",
+   "name": "slot",
+   "figs": [
+    "11A",
+    "11B",
+    "11C",
+    "11D"
+   ]
+  },
+  {
+   "ref": "1120",
+   "name": "mechanism",
+   "figs": [
+    "11E",
+    "11F",
+    "11G",
+    "11H"
+   ]
+  },
+  {
+   "ref": "1122",
+   "name": "input",
+   "figs": [
+    "11E",
+    "11F",
+    "11G",
+    "11H"
+   ]
+  },
+  {
+   "ref": "1124",
+   "name": "output",
+   "figs": [
+    "11E",
+    "11F",
+    "11G",
+    "11H"
+   ]
+  },
+  {
+   "ref": "1126",
+   "name": "driven element",
+   "figs": [
+    "11E",
+    "11F",
+    "11G",
+    "11H"
+   ]
+  },
+  {
+   "ref": "1128",
+   "name": "hinge",
+   "figs": [
+    "11E",
+    "11F",
+    "11G",
+    "11H"
+   ]
+  },
+  {
+   "ref": "1130",
+   "name": "extending pins",
+   "figs": [
+    "11E",
+    "11F",
+    "11G",
+    "11H"
+   ]
+  },
+  {
+   "ref": "1132",
+   "name": "extending pins",
+   "figs": [
+    "11E",
+    "11F",
+    "11G",
+    "11H"
+   ]
+  },
+  {
+   "ref": "1134",
+   "name": "shaped plate",
+   "figs": [
+    "11E",
+    "11F",
+    "11G",
+    "11H"
+   ]
+  },
+  {
+   "ref": "1136",
+   "name": "plate first edge",
+   "figs": [
+    "11E",
+    "11F",
+    "11G",
+    "11H"
+   ]
+  },
+  {
+   "ref": "1138",
+   "name": "plate second edge",
+   "figs": [
+    "11E",
+    "11F",
+    "11G",
+    "11H"
+   ]
+  },
+  {
+   "ref": "1140",
+   "name": "plate third edge",
+   "figs": [
+    "11E",
+    "11G",
+    "11H"
+   ]
+  },
+  {
+   "ref": "1142",
+   "name": "plate ramp edge",
+   "figs": [
+    "11E",
+    "11G",
+    "11H"
+   ]
+  },
+  {
+   "ref": "1150",
+   "name": "mechanism",
+   "figs": [
+    "11I",
+    "11J",
+    "11K",
+    "11L"
+   ]
+  },
+  {
+   "ref": "1152",
+   "name": "input",
+   "figs": [
+    "11I",
+    "11J",
+    "11K",
+    "11L",
+    "11M",
+    "11N"
+   ]
+  },
+  {
+   "ref": "1154",
+   "name": "output",
+   "figs": [
+    "11I",
+    "11J",
+    "11K",
+    "11L",
+    "11M",
+    "11N"
+   ]
+  },
+  {
+   "ref": "1156",
+   "name": "driven element",
+   "figs": [
+    "11I",
+    "11J",
+    "11K",
+    "11L",
+    "11N"
+   ]
+  },
+  {
+   "ref": "1158",
+   "name": "hinge link",
+   "figs": [
+    "11I",
+    "11J",
+    "11K",
+    "11L",
+    "11M",
+    "11N"
+   ]
+  },
+  {
+   "ref": "1160",
+   "name": "control link",
+   "figs": [
+    "11I",
+    "11J",
+    "11K",
+    "11L",
+    "11M",
+    "11N"
+   ]
+  },
+  {
+   "ref": "1162",
+   "name": "common drive axis",
+   "figs": [
+    "11I",
+    "11J",
+    "11K",
+    "11N"
+   ]
+  },
+  {
+   "ref": "1164",
+   "name": "input axis",
+   "figs": [
+    "11I",
+    "11J",
+    "11K",
+    "11L",
+    "11M",
+    "11N"
+   ]
+  },
+  {
+   "ref": "1166",
+   "name": "output hinge axis",
+   "figs": [
+    "11I",
+    "11J",
+    "11K",
+    "11L",
+    "11M",
+    "11N"
+   ]
+  },
+  {
+   "ref": "1168",
+   "name": "input base axis",
+   "figs": [
+    "11L"
+   ]
+  },
+  {
+   "ref": "1150'",
+   "name": "alternative mechanism",
+   "figs": [
+    "11M"
+   ]
+  },
+  {
+   "ref": "1156'",
+   "name": "driven element",
+   "figs": [
+    "11M"
+   ]
+  },
+  {
+   "ref": "1150''",
+   "name": "alternative mechanism",
+   "figs": [
+    "11N"
+   ]
+  },
+  {
+   "ref": "1168'",
+   "name": "input base axis",
+   "figs": [
+    "11N"
+   ]
+  },
+  {
+   "ref": "1200",
+   "name": "transmission gate",
+   "figs": [
+    "12A",
+    "12B"
+   ]
+  },
+  {
+   "ref": "1202",
+   "name": "shaped plate",
+   "figs": [
+    "12A",
+    "12B"
+   ]
+  },
+  {
+   "ref": "1204",
+   "name": "driven element",
+   "figs": [
+    "12A",
+    "12B"
+   ]
+  },
+  {
+   "ref": "1206",
+   "name": "output",
+   "figs": [
+    "12A",
+    "12B"
+   ]
+  },
+  {
+   "ref": "1208",
+   "name": "cutout",
+   "figs": [
+    "12A",
+    "12B"
+   ]
+  },
+  {
+   "ref": "1210",
+   "name": "driven element attractive element",
+   "figs": [
+    "12A",
+    "12B"
+   ]
+  },
+  {
+   "ref": "1212",
+   "name": "output attractive element",
+   "figs": [
+    "12A",
+    "12B"
+   ]
+  },
+  {
+   "ref": "1214",
+   "name": "input",
+   "figs": [
+    "12A",
+    "12B"
+   ]
+  },
+  {
+   "ref": "1230",
+   "name": "3-input NOR gate",
+   "figs": [
+    "12C"
+   ]
+  },
+  {
+   "ref": "1200A",
+   "name": "transmission gates",
+   "figs": [
+    "12C"
+   ]
+  },
+  {
+   "ref": "1200B",
+   "name": "transmission gates",
+   "figs": [
+    "12C"
+   ]
+  },
+  {
+   "ref": "1200C",
+   "name": "transmission gates",
+   "figs": [
+    "12C"
+   ]
+  },
+  {
+   "ref": "1214A",
+   "name": "input",
+   "figs": [
+    "12C"
+   ]
+  },
+  {
+   "ref": "1214B",
+   "name": "input",
+   "figs": [
+    "12C"
+   ]
+  },
+  {
+   "ref": "1214C",
+   "name": "input",
+   "figs": [
+    "12C"
+   ]
+  },
+  {
+   "ref": "1204A",
+   "name": "driven element",
+   "figs": [
+    "12C"
+   ]
+  },
+  {
+   "ref": "1206C",
+   "name": "output",
+   "figs": [
+    "12C"
+   ]
+  },
+  {
+   "ref": "1200'",
+   "name": "alternative transmission gate",
+   "figs": [
+    "12D"
+   ]
+  },
+  {
+   "ref": "1202'",
+   "name": "plate",
+   "figs": [
+    "12D"
+   ]
+  },
+  {
+   "ref": "1208'",
+   "name": "cutout",
+   "figs": [
+    "12D"
+   ]
+  },
+  {
+   "ref": "1214'",
+   "name": "input",
+   "figs": [
+    "12D"
+   ]
+  },
+  {
+   "ref": "1250",
+   "name": "transmission gate",
+   "figs": [
+    "12E",
+    "12F"
+   ]
+  },
+  {
+   "ref": "1252",
+   "name": "shaped plate",
+   "figs": [
+    "12E",
+    "12F"
+   ]
+  },
+  {
+   "ref": "1254",
+   "name": "graphene surface",
+   "figs": [
+    "12E"
+   ]
+  },
+  {
+   "ref": "1256",
+   "name": "cylindrical socket",
+   "figs": [
+    "12E",
+    "12F"
+   ]
+  },
+  {
+   "ref": "1258",
+   "name": "input pin",
+   "figs": [
+    "12E",
+    "12F"
+   ]
+  },
+  {
+   "ref": "1260",
+   "name": "input",
+   "figs": [
+    "12E",
+    "12F"
+   ]
+  },
+  {
+   "ref": "1262",
+   "name": "driven element",
+   "figs": [
+    "12E",
+    "12F"
+   ]
+  },
+  {
+   "ref": "1264",
+   "name": "driven pin",
+   "figs": [
+    "12E",
+    "12F",
+    "12I"
+   ]
+  },
+  {
+   "ref": "1266",
+   "name": "output",
+   "figs": [
+    "12E",
+    "12F"
+   ]
+  },
+  {
+   "ref": "1268",
+   "name": "output pin",
+   "figs": [
+    "12E",
+    "12F",
+    "12I"
+   ]
+  },
+  {
+   "ref": "1270",
+   "name": "switch gate",
+   "figs": [
+    "12G",
+    "12H"
+   ]
+  },
+  {
+   "ref": "1272",
+   "name": "transmission gates",
+   "figs": [
+    "12G",
+    "12H"
+   ]
+  },
+  {
+   "ref": "1274",
+   "name": "transmission gates",
+   "figs": [
+    "12G",
+    "12H",
+    "12F"
+   ]
+  },
+  {
+   "ref": "1276",
+   "name": "common input",
+   "figs": [
+    "12G",
+    "12H"
+   ]
+  },
+  {
+   "ref": "1278",
+   "name": "shaped plate",
+   "figs": [
+    "12G",
+    "12H"
+   ]
+  },
+  {
+   "ref": "1280",
+   "name": "output",
+   "figs": [
+    "12G",
+    "12H"
+   ]
+  },
+  {
+   "ref": "1282",
+   "name": "driven element",
+   "figs": [
+    "12G",
+    "12H"
+   ]
+  },
+  {
+   "ref": "1250'",
+   "name": "transmission gate",
+   "figs": [
+    "12I"
+   ]
+  },
+  {
+   "ref": "1252'",
+   "name": "plate",
+   "figs": [
+    "12I"
+   ]
+  },
+  {
+   "ref": "1290",
+   "name": "channels",
+   "figs": [
+    "12I"
+   ]
+  },
+  {
+   "ref": "1292",
+   "name": "channels",
+   "figs": [
+    "12I"
+   ]
+  },
+  {
+   "ref": "1300",
+   "name": "transmission gate",
+   "figs": [
+    "13A"
+   ]
+  },
+  {
+   "ref": "1302",
+   "name": "shaped plate",
+   "figs": [
+    "13A"
+   ]
+  },
+  {
+   "ref": "1304",
+   "name": "graphene surface",
+   "figs": [
+    "13A"
+   ]
+  },
+  {
+   "ref": "1306",
+   "name": "cylindrical socket",
+   "figs": [
+    "13A"
+   ]
+  },
+  {
+   "ref": "1308",
+   "name": "input pin",
+   "figs": [
+    "13A"
+   ]
+  },
+  {
+   "ref": "1310",
+   "name": "input",
+   "figs": [
+    "13A"
+   ]
+  },
+  {
+   "ref": "1312",
+   "name": "driven element",
+   "figs": [
+    "13A"
+   ]
+  },
+  {
+   "ref": "1314",
+   "name": "driven pin",
+   "figs": [
+    "13A"
+   ]
+  },
+  {
+   "ref": "1316",
+   "name": "output",
+   "figs": [
+    "13A"
+   ]
+  },
+  {
+   "ref": "1318",
+   "name": "output pin",
+   "figs": [
+    "13A"
+   ]
+  },
+  {
+   "ref": "1320",
+   "name": "guide sleeves",
+   "figs": [
+    "13A"
+   ]
+  },
+  {
+   "ref": "1322",
+   "name": "supports",
+   "figs": [
+    "13A"
+   ]
+  },
+  {
+   "ref": "1324",
+   "name": "anchors",
+   "figs": [
+    "13A"
+   ]
+  },
+  {
+   "ref": "1326",
+   "name": "base sections",
+   "figs": [
+    "13A"
+   ]
+  },
+  {
+   "ref": "1328",
+   "name": "transition section",
+   "figs": [
+    "13A"
+   ]
+  },
+  {
+   "ref": "1330",
+   "name": "sleeve-mounting section",
+   "figs": [
+    "13A"
+   ]
+  },
+  {
+   "ref": "1350",
+   "name": "transmission gate",
+   "figs": [
+    "13B"
+   ]
+  },
+  {
+   "ref": "1352",
+   "name": "shaped plate",
+   "figs": [
+    "13B"
+   ]
+  },
+  {
+   "ref": "1354",
+   "name": "graphene surface",
+   "figs": [
+    "13B"
+   ]
+  },
+  {
+   "ref": "1356",
+   "name": "cylindrical socket",
+   "figs": [
+    "13B"
+   ]
+  },
+  {
+   "ref": "1358",
+   "name": "input",
+   "figs": [
+    "13B"
+   ]
+  },
+  {
+   "ref": "1360",
+   "name": "input pin",
+   "figs": [
+    "13B"
+   ]
+  },
+  {
+   "ref": "1362",
+   "name": "driven element",
+   "figs": [
+    "13B"
+   ]
+  },
+  {
+   "ref": "1364",
+   "name": "driven pin",
+   "figs": [
+    "13B"
+   ]
+  },
+  {
+   "ref": "1366",
+   "name": "output",
+   "figs": [
+    "13B"
+   ]
+  },
+  {
+   "ref": "1368",
+   "name": "output pin",
+   "figs": [
+    "13B"
+   ]
+  },
+  {
+   "ref": "1370",
+   "name": "single guide sleeve",
+   "figs": [
+    "13B"
+   ]
+  },
+  {
+   "ref": "1372",
+   "name": "anchor",
+   "figs": [
+    "13B"
+   ]
+  },
+  {
+   "ref": "1374",
+   "name": "support",
+   "figs": [
+    "13B"
+   ]
+  },
+  {
+   "ref": "1376",
+   "name": "guide pin",
+   "figs": [
+    "13B"
+   ]
+  },
+  {
+   "ref": "1378",
+   "name": "track",
+   "figs": [
+    "13B"
+   ]
+  },
+  {
+   "ref": "1380",
+   "name": "graphene surface",
+   "figs": [
+    "13B"
+   ]
+  },
+  {
+   "ref": "1400",
+   "name": "transmission gate",
+   "figs": [
+    "14"
+   ]
+  },
+  {
+   "ref": "1402",
+   "name": "output",
+   "figs": [
+    "14"
+   ]
+  },
+  {
+   "ref": "1404",
+   "name": "driven element",
+   "figs": [
+    "14"
+   ]
+  },
+  {
+   "ref": "1406",
+   "name": "plate",
+   "figs": [
+    "14"
+   ]
+  },
+  {
+   "ref": "1408",
+   "name": "input",
+   "figs": [
+    "14"
+   ]
+  },
+  {
+   "ref": "1410",
+   "name": "edge",
+   "figs": [
+    "14"
+   ]
+  },
+  {
+   "ref": "1412",
+   "name": "path region",
+   "figs": [
+    "14"
+   ]
+  },
+  {
+   "ref": "1500",
+   "name": "mechanism",
+   "figs": [
+    "15A",
+    "15B"
+   ]
+  },
+  {
+   "ref": "1502",
+   "name": "driven element",
+   "figs": [
+    "15A",
+    "15B"
+   ]
+  },
+  {
+   "ref": "1504",
+   "name": "output",
+   "figs": [
+    "15A",
+    "15B"
+   ]
+  },
+  {
+   "ref": "1506",
+   "name": "input",
+   "figs": [
+    "15A",
+    "15B"
+   ]
+  },
+  {
+   "ref": "1508",
+   "name": "connector",
+   "figs": [
+    "15A",
+    "15B"
+   ]
+  },
+  {
+   "ref": "1510",
+   "name": "driven plate",
+   "figs": [
+    "15A",
+    "15B",
+    "15D"
+   ]
+  },
+  {
+   "ref": "1512",
+   "name": "output plate",
+   "figs": [
+    "15A",
+    "15B"
+   ]
+  },
+  {
+   "ref": "1514",
+   "name": "edge",
+   "figs": [
+    "15A",
+    "15B"
+   ]
+  },
+  {
+   "ref": "1516",
+   "name": "path region",
+   "figs": [
+    "15A",
+    "15B"
+   ]
+  },
+  {
+   "ref": "1518",
+   "name": "connector sleeve",
+   "figs": [
+    "15A",
+    "15B"
+   ]
+  },
+  {
+   "ref": "1520",
+   "name": "enlarged ends",
+   "figs": [
+    "15A",
+    "15B"
+   ]
+  },
+  {
+   "ref": "1530",
+   "name": "mechanism",
+   "figs": [
+    "15C"
+   ]
+  },
+  {
+   "ref": "1532",
+   "name": "inputs",
+   "figs": [
+    "15C"
+   ]
+  },
+  {
+   "ref": "1534",
+   "name": "balance",
+   "figs": [
+    "15C"
+   ]
+  },
+  {
+   "ref": "1536",
+   "name": "connector link",
+   "figs": [
+    "15C"
+   ]
+  },
+  {
+   "ref": "1538",
+   "name": "connector",
+   "figs": [
+    "15C"
+   ]
+  },
+  {
+   "ref": "1540",
+   "name": "driven plate",
+   "figs": [
+    "15C"
+   ]
+  },
+  {
+   "ref": "1542",
+   "name": "edge",
+   "figs": [
+    "15C"
+   ]
+  },
+  {
+   "ref": "1544",
+   "name": "path region",
+   "figs": [
+    "15C"
+   ]
+  },
+  {
+   "ref": "1546",
+   "name": "output plate",
+   "figs": [
+    "15C"
+   ]
+  },
+  {
+   "ref": "1550",
+   "name": "mechanism",
+   "figs": [
+    "15D"
+   ]
+  },
+  {
+   "ref": "1552",
+   "name": "output plate",
+   "figs": [
+    "15D"
+   ]
+  },
+  {
+   "ref": "1554",
+   "name": "enlarged end",
+   "figs": [
+    "15D"
+   ]
+  },
+  {
+   "ref": "1556",
+   "name": "connector",
+   "figs": [
+    "15D"
+   ]
+  },
+  {
+   "ref": "1600",
+   "name": "logic mechanism",
+   "figs": [
+    "16A",
+    "16B",
+    "16C"
+   ]
+  },
+  {
+   "ref": "1602",
+   "name": "inputs",
+   "figs": [
+    "16A",
+    "16B",
+    "16C"
+   ]
+  },
+  {
+   "ref": "1604",
+   "name": "inputs",
+   "figs": [
+    "16A",
+    "16B",
+    "16C"
+   ]
+  },
+  {
+   "ref": "1606",
+   "name": "extending input tab",
+   "figs": [
+    "16A",
+    "16B",
+    "16C"
+   ]
+  },
+  {
+   "ref": "1608",
+   "name": "extending input tab",
+   "figs": [
+    "16A",
+    "16B",
+    "16C"
+   ]
+  },
+  {
+   "ref": "1610",
+   "name": "cylindrical driven element",
+   "figs": [
+    "16A",
+    "16B",
+    "16C"
+   ]
+  },
+  {
+   "ref": "1612",
+   "name": "driven tab",
+   "figs": [
+    "16A",
+    "16B",
+    "16C"
+   ]
+  },
+  {
+   "ref": "1614",
+   "name": "",
+   "figs": [
+    "16C"
+   ]
+  },
+  {
+   "ref": "1650",
+   "name": "logic mechanism",
+   "figs": [
+    "16D",
+    "16E",
+    "16F"
+   ]
+  },
+  {
+   "ref": "1652",
+   "name": "inputs",
+   "figs": [
+    "16D",
+    "16E",
+    "16F"
+   ]
+  },
+  {
+   "ref": "1654",
+   "name": "inputs",
+   "figs": [
+    "16D",
+    "16E",
+    "16F"
+   ]
+  },
+  {
+   "ref": "1656",
+   "name": "extending tab",
+   "figs": [
+    "16D",
+    "16E",
+    "16F"
+   ]
+  },
+  {
+   "ref": "1658",
+   "name": "extending tab",
+   "figs": [
+    "16D",
+    "16E",
+    "16F"
+   ]
+  },
+  {
+   "ref": "1660",
+   "name": "driven element",
+   "figs": [
+    "16D",
+    "16E",
+    "16F"
+   ]
+  },
+  {
+   "ref": "1662",
+   "name": "attractive elements",
+   "figs": [
+    "16D",
+    "16E",
+    "16F"
+   ]
+  },
+  {
+   "ref": "1700",
+   "name": "logic mechanism",
+   "figs": [
+    "17A",
+    "17B",
+    "17C",
+    "17D",
+    "17F"
+   ]
+  },
+  {
+   "ref": "1702",
+   "name": "first input",
+   "figs": [
+    "17A",
+    "17B",
+    "17C",
+    "17D",
+    "17F"
+   ]
+  },
+  {
+   "ref": "1704",
+   "name": "output",
+   "figs": [
+    "17A",
+    "17B",
+    "17C",
+    "17D",
+    "17F"
+   ]
+  },
+  {
+   "ref": "1706",
+   "name": "copy element",
+   "figs": [
+    "17A",
+    "17B",
+    "17C",
+    "17D",
+    "17F"
+   ]
+  },
+  {
+   "ref": "1708",
+   "name": "input pin",
+   "figs": [
+    "17A",
+    "17B",
+    "17C",
+    "17D"
+   ]
+  },
+  {
+   "ref": "1710",
+   "name": "copy pin",
+   "figs": [
+    "17A",
+    "17B",
+    "17C",
+    "17D"
+   ]
+  },
+  {
+   "ref": "1712",
+   "name": "lock plate",
+   "figs": [
+    "17A",
+    "17B",
+    "17C",
+    "17D",
+    "17F"
+   ]
+  },
+  {
+   "ref": "1714",
+   "name": "lock actuator",
+   "figs": [
+    "17A",
+    "17B",
+    "17C",
+    "17D"
+   ]
+  },
+  {
+   "ref": "1716",
+   "name": "second input",
+   "figs": [
+    "17A",
+    "17B",
+    "17C",
+    "17D"
+   ]
+  },
+  {
+   "ref": "1718",
+   "name": "copy plate",
+   "figs": [
+    "17A",
+    "17B",
+    "17C",
+    "17D"
+   ]
+  },
+  {
+   "ref": "1720",
+   "name": "edges",
+   "figs": [
+    "17A",
+    "17B",
+    "17C",
+    "17D"
+   ]
+  },
+  {
+   "ref": "1722",
+   "name": "edges",
+   "figs": [
+    "17A",
+    "17B",
+    "17C",
+    "17D"
+   ]
+  },
+  {
+   "ref": "1730",
+   "name": "D-type flip flop",
+   "figs": [
+    "17E"
+   ]
+  },
+  {
+   "ref": "1700-1",
+   "name": "first logic mechanism",
+   "figs": [
+    "17E"
+   ]
+  },
+  {
+   "ref": "1700-2",
+   "name": "",
+   "figs": [
+    "17E"
+   ]
+  },
+  {
+   "ref": "1702-1",
+   "name": "first data input",
+   "figs": []
+  },
+  {
+   "ref": "1702-2",
+   "name": "second data input",
+   "figs": [
+    "17E"
+   ]
+  },
+  {
+   "ref": "1704-1",
+   "name": "first output",
+   "figs": [
+    "17E"
+   ]
+  },
+  {
+   "ref": "1704-2",
+   "name": "second output",
+   "figs": [
+    "17E"
+   ]
+  },
+  {
+   "ref": "1706-1",
+   "name": "first copy element",
+   "figs": [
+    "17E"
+   ]
+  },
+  {
+   "ref": "1706-2",
+   "name": "second copy element",
+   "figs": [
+    "17E"
+   ]
+  },
+  {
+   "ref": "1708-1",
+   "name": "",
+   "figs": [
+    "17E"
+   ]
+  },
+  {
+   "ref": "1712-1",
+   "name": "lock plate",
+   "figs": [
+    "17E"
+   ]
+  },
+  {
+   "ref": "1712-2",
+   "name": "second lock plate",
+   "figs": [
+    "17E"
+   ]
+  },
+  {
+   "ref": "1716-1",
+   "name": "first actuator input",
+   "figs": [
+    "17E"
+   ]
+  },
+  {
+   "ref": "1716-2",
+   "name": "second actuator input",
+   "figs": [
+    "17E"
+   ]
+  },
+  {
+   "ref": "1750",
+   "name": "grid memory",
+   "figs": [
+    "17F"
+   ]
+  },
+  {
+   "ref": "1752",
+   "name": "transmission gates",
+   "figs": [
+    "17F"
+   ]
+  },
+  {
+   "ref": "1754",
+   "name": "data lines",
+   "figs": [
+    "17F"
+   ]
+  },
+  {
+   "ref": "1756",
+   "name": "address bars",
+   "figs": []
+  },
+  {
+   "ref": "1756-0",
+   "name": "address bar",
+   "figs": [
+    "17F"
+   ]
+  },
+  {
+   "ref": "1756-1",
+   "name": "address bar",
+   "figs": [
+    "17F"
+   ]
+  },
+  {
+   "ref": "1758",
+   "name": "transmission plate",
+   "figs": [
+    "17F"
+   ]
+  },
+  {
+   "ref": "1760",
+   "name": "memory select bar",
+   "figs": [
+    "17F"
+   ]
+  },
+  {
+   "ref": "1762",
+   "name": "cell selector",
+   "figs": [
+    "17F"
+   ]
+  },
+  {
+   "ref": "1764",
+   "name": "memory select link",
+   "figs": [
+    "17F"
+   ]
+  },
+  {
+   "ref": "1766",
+   "name": "unlock bar",
+   "figs": [
+    "17F"
+   ]
+  },
+  {
+   "ref": "1768",
+   "name": "copy bar",
+   "figs": [
+    "17F"
+   ]
+  },
+  {
+   "ref": "1770",
+   "name": "unlock link",
+   "figs": [
+    "17F"
+   ]
+  },
+  {
+   "ref": "1772",
+   "name": "copy link",
+   "figs": [
+    "17F"
+   ]
+  },
+  {
+   "ref": "1774",
+   "name": "data locks",
+   "figs": [
+    "17F"
+   ]
+  }
+ ]
+}

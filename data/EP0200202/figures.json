@@ -1,0 +1,779 @@
+{
+ "pn": "EP0200202",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 23,
+   "crop": [
+    392,
+    380,
+    2200,
+    3393
+   ],
+   "rotate": 0,
+   "front_page": true
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 2,
+   "page": 24,
+   "crop": [
+    264,
+    396,
+    2290,
+    2265
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 3,
+   "page": 25,
+   "crop": [
+    340,
+    388,
+    1216,
+    3412
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 3,
+   "page": 25,
+   "crop": [
+    1338,
+    1156,
+    1963,
+    1925
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 3,
+   "page": 25,
+   "crop": [
+    1335,
+    2227,
+    2141,
+    3203
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 2,
+   "page": 24,
+   "crop": [
+    1120,
+    2408,
+    1545,
+    3324
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "FIG. 7",
+   "sheet": 2,
+   "page": 24,
+   "crop": [
+    556,
+    2404,
+    1094,
+    3345
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8",
+   "label": "FIG. 8",
+   "sheet": 2,
+   "page": 24,
+   "crop": [
+    1545,
+    2411,
+    2042,
+    3360
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9",
+   "label": "FIG. 9",
+   "sheet": 4,
+   "page": 26,
+   "crop": [
+    338,
+    469,
+    2026,
+    2182
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10",
+   "label": "FIG. 10",
+   "sheet": 4,
+   "page": 26,
+   "crop": [
+    292,
+    2414,
+    2181,
+    3291
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11",
+   "label": "FIG. 11",
+   "sheet": 5,
+   "page": 27,
+   "crop": [
+    292,
+    386,
+    1546,
+    3417
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12",
+   "label": "FIG. 12",
+   "sheet": 5,
+   "page": 27,
+   "crop": [
+    1606,
+    757,
+    2142,
+    1328
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "1",
+   "name": "drive shaft 1 for rotating the third wrist member",
+   "figs": [
+    "1",
+    "3",
+    "9"
+   ],
+   "alt": [
+    "motor"
+   ]
+  },
+  {
+   "ref": "2",
+   "name": "drive shaft 2 for rotating the second wrist member",
+   "figs": [
+    "1",
+    "3",
+    "9"
+   ]
+  },
+  {
+   "ref": "3",
+   "name": "first wrist member",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "9",
+    "11"
+   ],
+   "alt": [
+    "rotary shaft",
+    "drive shaft"
+   ]
+  },
+  {
+   "ref": "4",
+   "name": "second wrist member",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "9"
+   ]
+  },
+  {
+   "ref": "5",
+   "name": "third wrist member",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "9"
+   ]
+  },
+  {
+   "ref": "6",
+   "name": "first universal joint",
+   "figs": [
+    "1",
+    "3",
+    "4",
+    "5",
+    "9"
+   ]
+  },
+  {
+   "ref": "6a",
+   "name": "intermediate shaft",
+   "figs": [
+    "1",
+    "5"
+   ]
+  },
+  {
+   "ref": "7",
+   "name": "second universal joint",
+   "figs": [
+    "1",
+    "3",
+    "9"
+   ]
+  },
+  {
+   "ref": "7a",
+   "name": "intermediate shaft",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "9",
+   "name": "third universal joint",
+   "figs": [
+    "1",
+    "3",
+    "9"
+   ]
+  },
+  {
+   "ref": "9a",
+   "name": "intermediate shaft",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "10",
+   "name": "center",
+   "figs": [
+    "1",
+    "2",
+    "9"
+   ],
+   "alt": [
+    "rotational center",
+    "rotational center line"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "inclined center",
+   "figs": [
+    "1",
+    "2",
+    "9"
+   ],
+   "alt": [
+    "center line",
+    "center",
+    "rotational center line"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "rotational center",
+   "figs": [
+    "1",
+    "9"
+   ],
+   "alt": [
+    "center",
+    "rotational center line"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "base",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "center line",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "upper arm",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "shaft",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "17",
+   "name": "fore arm",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "9",
+    "11"
+   ],
+   "alt": [
+    "robot arm"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "shaft",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "19",
+   "name": "rotational body",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "motor",
+   "figs": [
+    "2",
+    "3",
+    "11"
+   ]
+  },
+  {
+   "ref": "21",
+   "name": "ball screw",
+   "figs": [
+    "3",
+    "11"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "pulley",
+   "figs": [
+    "3",
+    "11"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "timing belt",
+   "figs": [
+    "3",
+    "11"
+   ],
+   "alt": [
+    "belt"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "pulley",
+   "figs": [
+    "3",
+    "11"
+   ]
+  },
+  {
+   "ref": "25",
+   "name": "reduction gear",
+   "figs": [
+    "3",
+    "11"
+   ]
+  },
+  {
+   "ref": "26",
+   "name": "motor",
+   "figs": [
+    "2",
+    "3",
+    "11"
+   ]
+  },
+  {
+   "ref": "27",
+   "name": "ball screw",
+   "figs": [
+    "3",
+    "11"
+   ]
+  },
+  {
+   "ref": "28",
+   "name": "reduction gear",
+   "figs": [
+    "1",
+    "3",
+    "9"
+   ],
+   "alt": [
+    "reducing gear",
+    "gear"
+   ]
+  },
+  {
+   "ref": "29",
+   "name": "motor",
+   "figs": [
+    "2",
+    "3",
+    "11"
+   ]
+  },
+  {
+   "ref": "30",
+   "name": "reduction gear",
+   "figs": [
+    "1",
+    "3",
+    "9"
+   ]
+  },
+  {
+   "ref": "31",
+   "name": "input shaft",
+   "figs": [
+    "1",
+    "4"
+   ],
+   "alt": [
+    "drive shaft"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "cruciform joint",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "33",
+   "name": "cruciform joint",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "34",
+   "name": "intermediate drive shaft",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "35",
+   "name": "input shaft",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "36",
+   "name": "cruciform joint",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "37",
+   "name": "intermediate shaft",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "38",
+   "name": "cruciform joint",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "39",
+   "name": "output shaft",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "40",
+   "name": "rotational center line",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "41",
+   "name": "rotational center line",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "42",
+   "name": "rotational center line",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "44",
+   "name": "input shaft",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "45",
+   "name": "input shaft",
+   "figs": [
+    "1",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "46",
+   "name": "cruciform joint",
+   "figs": [
+    "1",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "47",
+   "name": "cruciform joint",
+   "figs": [
+    "1",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "48",
+   "name": "output shaft",
+   "figs": [
+    "1",
+    "5"
+   ]
+  },
+  {
+   "ref": "49",
+   "name": "input shaft",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "50",
+   "name": "cam",
+   "figs": [
+    "6",
+    "7",
+    "8"
+   ],
+   "alt": [
+    "inputting cam"
+   ]
+  },
+  {
+   "ref": "51",
+   "name": "resilient tooth member",
+   "figs": [
+    "6",
+    "7",
+    "8"
+   ],
+   "alt": [
+    "resilient member",
+    "resilient teeth"
+   ]
+  },
+  {
+   "ref": "52",
+   "name": "circular member",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "53",
+   "name": "circular member",
+   "figs": [
+    "6",
+    "8"
+   ],
+   "alt": [
+    "circular teeth",
+    "outputting circular member"
+   ]
+  },
+  {
+   "ref": "54",
+   "name": "flange",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "55",
+   "name": "coupling",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "58",
+   "name": "coupling",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "64",
+   "name": "switch",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "67",
+   "name": "ball bush",
+   "figs": [
+    "11"
+   ],
+   "alt": [
+    "potentiometer"
+   ]
+  },
+  {
+   "ref": "73",
+   "name": "stopper",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "76",
+   "name": "potentiometer",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "79",
+   "name": "piece",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "84",
+   "name": "shaft",
+   "figs": []
+  },
+  {
+   "ref": "86",
+   "name": "",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "89",
+   "name": "nut",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "93",
+   "name": "input shaft",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "94",
+   "name": "connecting rod",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "97",
+   "name": "shaft",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "98",
+   "name": "vector",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "99",
+   "name": "shaft",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "100",
+   "name": "ball screw",
+   "figs": [
+    "3",
+    "11"
+   ]
+  }
+ ]
+}

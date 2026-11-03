@@ -1,0 +1,153 @@
+{
+ "pn": "1425113",
+ "figures": [
+  {
+   "id": "1",
+   "label": "Fig. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    341,
+    887,
+    1768,
+    1785
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "Fig. 2",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    348,
+    2161,
+    1807,
+    2642
+   ],
+   "rotate": 0,
+   "front_page": true
+  }
+ ],
+ "parts": [
+  {
+   "ref": "1",
+   "name": "surface",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "2",
+   "name": "mold or form",
+   "alt": [
+    "mold"
+   ],
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "3",
+   "name": "strips",
+   "alt": [
+    "first layer",
+    "layer"
+   ],
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "4",
+   "name": "tacking strip",
+   "alt": [
+    "tacking-strip"
+   ],
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "5",
+   "name": "second layer",
+   "alt": [
+    "strips",
+    "layer"
+   ],
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "6",
+   "name": "Strips of tissue paper or thin cloth",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "7",
+   "name": "third layer",
+   "alt": [
+    "layer",
+    "strips"
+   ],
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "8",
+   "name": "form",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "9",
+   "name": "binding strips",
+   "alt": [
+    "strips"
+   ],
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "10",
+   "name": "layer of fabric",
+   "alt": [
+    "fabric"
+   ],
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "fabric",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "line",
+   "figs": [
+    "1",
+    "2"
+   ]
+  }
+ ]
+}

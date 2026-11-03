@@ -1,0 +1,68 @@
+{
+ "patent": "European patent application by Hitachi, Ltd. (inventors Tatenori Jinriki and Fusaaki Kozawa), filed 1986-04-29 with Japanese priority of 1985-04-30, published 1986-11-05, designating DE, FR and GB. This application was never granted: Google Patents lists it as withdrawn 1988-06-22, event published 1988-08-17 (checked 2026-11-02), and lists a family member US 4,696,202. The embodiment is a three-member robot wrist with all three motors at the rear of the fore arm. Power reaches the wrist through nested drive shafts and double universal joints, then reduction gears, one of which (28) is described as similar in structure to a HARMONIC DRIVE gear. Each wrist member turns about its own axis, at a fixed angle to the previous one, rather than bending, so the angle across each universal joint does not change as the wrist moves. No link to a Hitachi product is claimed here.",
+ "figs": {
+  "1": "Read the three axes first: 12 (vertical, lower right), 11 (inclined, middle), 10 (vertical, top). Two power paths nest. Solid shaft 1 feeds joint 7, shaft 34 along axis 11, joint 9 and gear 30, turning member 5. Tube 2 feeds joint 6 around joint 7, then sleeve 48 and 49 around shaft 34 and gear 28, turning member 4 through flange 54. Underlined 6, 7 and 9 mark whole composite joints. Arrow A is the viewing direction of FIG. 4. The front page repeats this figure, with a handwritten caption.",
+  "2": "The wrist is the small assembly at the right end of fore arm 17, with axes 11 and 10 drawn through it. Motors 26, 29 and 20 sit at the opposite end, behind shaft 18. The column with coil-like shading left of upper arm 15 carries no numerals and the text does not describe it.",
+  "3": "Drawn with the wrist at the top and the rear of the arm at the bottom; FIG. 1 and FIG. 11 enlarge the two ends. Across the long middle, from the center out: shaft 1, tube 2, tube 3, fore arm 17. At the bottom, three parallel ball-screw units: 27 with motor 26, 100 with motor 29, 21 with motor 20. Screws 27 and 21 reach the central stack through belt stages (22, 23, 24 for the right-hand unit); 100 runs straight up the center.",
+  "4": "Looking down axis 12 at joint 6. The octagon is cruciform joint 46 and the hatched circle is input shaft 31 of joint 7, cut where it passes through the hole bored in 46. The lugs are led 45 (left) and 47 (bottom), with matching lugs opposite. The numerals are those of joint 6, although the text cites FIGS. 4 and 5 for the details of joint 7.",
+  "5": "Axis 12 runs horizontally here. The left assembly is 45 with 46, the tilted right assembly 48 with 47, and the tilt is the joint's fixed bend. The diagonal link joins a pin in each assembly; the bar crossing it is intermediate shaft 6a, whose lower end carries the leader of 6.",
+  "6": "Section with the gear seen edge-on; the axis runs left to right through the central bore. Cam 50 is in the middle, a ball bearing around it, thin resilient member 51 outside that, and the two toothed rings at the rim: 52 on the left and 53 on the right. The rim appears at top and bottom. Per the text, 52 has two teeth more than 51 and 53 has the same number.",
+  "7": "Half view with the center line at the right, placed to flank the section of FIG. 6. A ring of small elements lies around cam 50, whose bore has a keyway. The text calls the cam oval, but it is drawn circular. The outer flange has no numeral here; by position in FIG. 6 it is 52.",
+  "8": "Half view with the center line at the left, the mirror partner of FIG. 7. Here the outer flange is 53, the output ring that the text couples to member 4.",
+  "9": "Compare directly with FIG. 1. Axis 12, shafts 1 and 2, tube 3, joints 6 and 7 and axis 11 are in the same place. Member 4 and all it carries have turned about axis 11, so joint 9's output leg, gear 30 and member 5 now point to the lower left, and axis 10 is inclined to axis 12. Here the leader of 6 ends on the hatched block at the lower left of joint 7, which FIG. 1 leaves unlabeled. Only the wrist moved; the bend across each universal joint did not.",
+  "10": "Schematic, not hardware: yokes are drawn as half rings and crosses as thin X shapes. Input 35, intermediate 37 and output 39 run left to right with axes 41, 40 and 42. The two α° marks turn the same way, so axis 42 ends 2α from axis 41. The curved arrows δ1, δ2 and δ3 are the angles the typed text writes as σ1, σ2 and σ3. At cross 36, line 99 is the Y-axis and the inclined line led by 97 the X-axis; 98 has no leader.",
+  "11": "The three parallel units are the same layout; only the right-hand one carries the detail numerals. Read it from the bottom: motor 20, coupling 55, screw 21, nut 89 on it, coupling 58, then pulley 22, belt 23 (stippled) and pulley 24 on input shaft 93, into gear 25. Nut 89 with piece 79 carries bush 67 along the vertical member 86, between switch 64 and stopper 73, with stub 94 on the bush's outer side. A second stippled belt at a lower level serves the left unit.",
+  "12": "External appearance only, with no numeral; the text identifies it as switch 64, the small rectangle beside screw 21 in FIG. 11. Lever with a roller on top, two terminals below. The stipple is surface shading, not a section."
+ },
+ "parts": {
+  "1": "Printed pages 16 and 17 say 'the motor 1', apparently a slip, since the passage concerns motor 20. Claim 1 prints (1) for a drive shaft rotating the second wrist member, which the description calls drive shaft 2.",
+  "3": "The description also calls this tube 'the rotary shaft 3' and 'the drive shaft 3'. It is the first wrist member.",
+  "50": "In current strain wave terminology, part of the wave generator.",
+  "51": "In current strain wave terminology, the flexspline.",
+  "52": "In current strain wave terminology for this flat form, the circular spline.",
+  "64": "The numeral appears only in FIG. 11. FIG. 12 shows the switch's appearance without a numeral.",
+  "67": "Printed page 16 also says 'a potentiometer 67 is connected with the ball bush 67'. Printed page 17 gives potentiometer 76, so 67 there is an apparent slip.",
+  "76": "Named only on printed page 17. In FIG. 11 the leader ends on the outermost vertical line of the right-hand unit.",
+  "84": "Named in the description; no numeral 84 appears in the drawings.",
+  "86": "Not named in the text. Drawn as the vertical member that carries stopper 73 and passes through the block at 67.",
+  "98": "No leader in FIG. 10. The text defines it as a vector fixed to cruciform joint 36."
+ },
+ "glossary": [
+  {
+   "term": "cruciform joint",
+   "def": "The patent's name for the cross, or spider, at the center of a Cardan joint. Its two pin axes connect the two yokes."
+  },
+  {
+   "term": "Cardan joint",
+   "def": "Also Hooke's joint, the common universal joint. At a nonzero joint angle a constant input speed gives an output speed that fluctuates within each revolution."
+  },
+  {
+   "term": "double Cardan joint",
+   "def": "Two Cardan joints in series on an intermediate shaft. Equal joint angles and correct phasing cancel the fluctuation between the outer shafts. Each composite joint here is of this kind."
+  },
+  {
+   "term": "three-roll wrist",
+   "def": "Robotics term, not used in the patent, for a wrist of three successive rotary joints with mutually inclined axes, with no joint that bends. In this embodiment the axes do not all meet at one point."
+  },
+  {
+   "term": "strain wave gear",
+   "def": "Generic name for HARMONIC DRIVE gearing, invented by C. Walton Musser in the 1950s. An oval wave generator flexes a thin toothed ring into a rigid ring with slightly more teeth, giving a high ratio in one stage with little backlash."
+  },
+  {
+   "term": "backlash",
+   "def": "Free play between meshing gear teeth, felt as lost motion when the drive reverses."
+  },
+  {
+   "term": "ball screw",
+   "def": "Screw and nut running on recirculating balls. Here it also works as a rotating shaft: the nut's travel measures the turns of the drive."
+  },
+  {
+   "term": "ball bush",
+   "def": "Linear ball bearing, a sleeve that slides along a round shaft on balls."
+  },
+  {
+   "term": "vertical multi-joint type robot",
+   "def": "In current usage, a vertically articulated robot arm with a waist, shoulder and elbow."
+  }
+ ]
+}

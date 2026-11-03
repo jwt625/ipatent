@@ -2,7 +2,8 @@
 
 Templates for the three delegated stages. Fill `<pn>`, `<number>`, `<title>`, page ranges and figure
 ids. Project root: the folder holding `pipeline/` and `viewer/`. All agents: write only their own
-output files plus scratch under `work/<pn>/tmp/`, no git commits, run Python with `python3 -I`.
+output files plus scratch under `work/<pn>/tmp/`, no git commits, do NOT run `pipeline/build.py` or `selftest.sh`,
+run commands in the foreground, run Python with `python3 -I` (via `PATH=$PWD/work/.venv/bin:$PATH` for numpy and scipy).
 
 ## Text agent (stage 2, one per patent)
 

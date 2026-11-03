@@ -1,0 +1,118 @@
+{
+ "patent": "Boeing patent (inventors Biornstad, Blankinship, George and Ingram). Provisional filed 2004-04-06, application filed 2004-05-20, issued 2009-05-05, certificate of correction 2018-10-16. It describes a fuselage section built as one composite shell running 360 degrees about its axis. The background sets this against the honeycomb sandwich shells of the Raytheon Premier I and Hawker Horizon, and against fuselage halves or quarter-panels joined along longitudinal seams. Stiffeners sit in grooves of a rotating tool, tows or tape go on over them, and the two are cocured in an autoclave. A second idea concerns the frame joint: stiffener flanges reach toward each other to form a nearly continuous surface, so the frame needs no joggles. Claim 34 recites a one-piece barrel with a cross-sectional dimension of at least 12 feet; claim 35 adds a skin with no longitudinal joint. The patent names no Boeing aircraft. CompositesWorld describes Spirit AeroSystems' 787 fuselage section as a one-piece barrel made by fiber/tape placement with co-cured stringers, but no source found says this patent covers those barrels. US 8,182,628 is in the same family.",
+ "figs": {
+  "1": "Whole aircraft with the structure drawn over it. Dashed rings are the circumferential joints 112 between barrels 110. The dashed crosses and boxes over the wing root are seats 106 in cabin 104.",
+  "2A": "Interior view of a curved skin panel, skin side down. Frame 240a is exploded into its two pieces, 241 with the mouse holes and C-section 242 above it; frame 240b is assembled. Arrows drop each frame onto the flange surfaces 235. D is the gap between facing flange edges 233a and 233b. The long curved lines are numeral leaders.",
+  "2B": "Same panel with both frames seated. The rounded outlines in each bay are the skin left exposed between flange portions. Compare the row of fasteners 252 through base portion 244 with fasteners 250 in FIG. 2A, which join the two frame pieces.",
+  "3A": "Looking down on the inside of the skin. Stiffeners alternate: 336 has straight flanges 337a and 337b, while 338 has tabs 331a and 331b that reach across the bay at each frame station to meet them.",
+  "3B": "End view of FIG. 3A. The raised portions 334 sit on a nearly flat line of flanges and skin 320.",
+  "4A": "Single stiffener type 450. Each has tabs 431 on one side only and a straight flange 437 on the other, so the tabs of one reach the straight flange of its neighbor.",
+  "4B": "End view of FIG. 4A, with the tab 431 lying on skin 420.",
+  "5A": "Section through a frame station. Hatched areas are cut material: two I-section stiffeners 530a and skin 520a. Frame 540a is unhatched and arches over each stiffener. The small box between 531b and 531a marks where two flanges nearly meet.",
+  "5B": "Same section with C-section stiffeners 530b. The flanges 531 extend from one side of each stiffener only, as in FIG. 4A.",
+  "6": "The full line on factory floor 602, read from lower left: stiffener loading 610, laminating 620, vacuum-bagging 630, autoclave cure 640, inspection 650, trimming 660, assembly 670. Brackets mark each station. The tool moves on floor tracks between some stations and on an overhead beam between others.",
+  "7A": "Tool segments 706a-e are on the floor being filled; the dashed box shows stiffeners 730 lowered into grooves 708 of 706a. 706f is already on rotating fixture 702, whose rings and bars are visible.",
+  "7B": "Later stage: segments 706a, b, c and f are on the fixture, 706d and e still on the floor. Innermost ply 721 is partly wrapped, with a wavy edge showing the stiffeners beneath. The text does not explain the dark irregular patches on the ply.",
+  "8": "Fiber placement machine 814 runs along track beam 816 (double arrow) while the tool turns on axis 707. Tows 818 feed onto the shell, over ply 721, dashed under laminate 820. The portal frame is unnumbered; 822 is the deck beside the tool.",
+  "9": "Pressure pads 926a and 926b, on supports 924a and 924b, close on the laminate from both sides (double arrow). 926a is on the laminate. Gantry beam 912 overhead will carry the tool to the autoclave.",
+  "10": "Autoclave 1050 with door 1051a retracted to the left and door 1051b at the far end. Gate section 1013 of beam 912 moves aside so the door can close; the dashed lines continue the beam inside. Vacuum station 630 is at lower left. The fragments of 1051b and 650 at the bottom edge belong to FIG. 11.",
+  "11": "Door 1051b retracted, tool out of the autoclave and set on support 1104 with rollers 1105. Inspection machine 1160 sits on the long base beside the tool. The outline at upper left belongs to FIG. 10.",
+  "12": "CNC router 1270 and drill fixture 1272 on the base beside the tool. Laminate 820 now has the row of window cutouts 1228. Stripes inside the bore are the loaded tool segments and stiffeners.",
+  "13": "The laminate is on the tool 700 here, as barrel 110 nears completion. Frame sections 1340 wait on the floor in three groups; the nearest group is drawn with a lattice web, which the text does not distinguish. Platform 1380 sits inside the bore.",
+  "14A": "Stiffener 1430 lies in a groove of tool 1406, with flanges 1431a and 1431b in the recesses. Bladder 1480 wrapped with fabric 1482 is lowered in.",
+  "14B": "Bladder and fabric now fill the hat, deformed to its trapezoid, and skin 1420 is laid across the flanges and the fabric. The fabric bridges from the inside of the hat to the skin; that is the inner doubler of col. 12.",
+  "14C": "Exploded stack before cure: caul 1490 above skin 1420, and vacuum bag 1492 above and below the whole tool (arrows)."
+ },
+ "parts": {
+  "242": "Col. 6 line 32 prints \"first frame section 242\" once; the first frame section is 241 everywhere else.",
+  "1420": "Called laminate, then skin, in the same passage.",
+  "1406": "Called tool, then tooling segment, in the same passage.",
+  "818": "Also \"collimated fiber tows\" at col. 9 line 10."
+ },
+ "glossary": [
+  {
+   "term": "barrel section",
+   "def": "A closed fuselage shell segment, joined to its neighbors at circumferential joints."
+  },
+  {
+   "term": "tow",
+   "def": "Untwisted bundle of continuous fibers, here supplied impregnated with resin."
+  },
+  {
+   "term": "prepreg",
+   "def": "Fiber already impregnated with partly reacted resin; the patent writes \"preimpregnated\". Stays tacky until cured."
+  },
+  {
+   "term": "fiber placement",
+   "def": "Automated lay-up in which a head collimates several prepreg tows, presses them on with a roller, and can cut and restart each tow."
+  },
+  {
+   "term": "tape laying",
+   "def": "Automated lay-up of wider prepreg tape. Common usage now reserves it for flat or gently curved parts and uses fiber placement on complex contours, unlike the wording at col. 2 line 48."
+  },
+  {
+   "term": "filament winding",
+   "def": "Continuous fiber wound under tension onto a rotating mandrel, without the cut and restart of fiber placement."
+  },
+  {
+   "term": "mandrel",
+   "def": "Form that sets the inner shape of the part during lay-up. The tool assembly 700 serves this role."
+  },
+  {
+   "term": "cocure",
+   "def": "Curing two uncured parts together so the resin itself forms the bond, as opposed to secondary bonding of a cured part with adhesive."
+  },
+  {
+   "term": "hat stiffener",
+   "def": "Longitudinal stiffener with a closed-top hat cross-section and two flat flanges. Aircraft usage often says stringer."
+  },
+  {
+   "term": "frame",
+   "def": "Circumferential ring stiffener that keeps the fuselage shape and crosses the stringers."
+  },
+  {
+   "term": "mouse hole",
+   "def": "Cutout in a frame that lets a stringer pass through."
+  },
+  {
+   "term": "joggle",
+   "def": "Small step formed in a part so it can pass over another part's edge."
+  },
+  {
+   "term": "doubler",
+   "def": "Extra local material added to carry load across a joint or around a feature."
+  },
+  {
+   "term": "peel stress",
+   "def": "Through-thickness tension that lifts a bonded flange off a skin; bonded joints are weak in it."
+  },
+  {
+   "term": "hoop load",
+   "def": "Circumferential tension in the shell, chiefly from cabin pressure."
+  },
+  {
+   "term": "caul sheet",
+   "def": "Plate laid on a laminate under the bag to spread pressure and give a smooth surface."
+  },
+  {
+   "term": "vacuum bag",
+   "def": "Sealed film over a lay-up; evacuating it presses the plies together and removes trapped air."
+  },
+  {
+   "term": "autoclave",
+   "def": "Heated pressure vessel for curing. 350 F is the usual cure temperature for aerospace epoxy."
+  },
+  {
+   "term": "invar",
+   "def": "Low-expansion iron-nickel alloy used for tooling because its thermal expansion is close to carbon fiber laminate."
+  },
+  {
+   "term": "pulse-echo inspection",
+   "def": "Ultrasonic check in which one transducer sends a pulse and reads reflections from voids or disbonds."
+  },
+  {
+   "term": "determinate assembly",
+   "def": "Locating parts by features or holes in the parts themselves rather than by hard fixtures."
+  }
+ ]
+}

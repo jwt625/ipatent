@@ -1,0 +1,549 @@
+{
+ "pn": "8047093",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    417,
+    555,
+    2128,
+    2841
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    361,
+    546,
+    2175,
+    2845
+   ],
+   "rotate": 0,
+   "front_page": true
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    419,
+    892,
+    2129,
+    2554
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4A",
+   "label": "FIG. 4A",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    440,
+    445,
+    2164,
+    1820
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4B",
+   "label": "FIG. 4B",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    432,
+    1789,
+    2068,
+    3069
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 5,
+   "page": 5,
+   "crop": [
+    426,
+    566,
+    2141,
+    2887
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 6,
+   "page": 6,
+   "crop": [
+    442,
+    487,
+    2054,
+    3010
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "10",
+   "name": "parallel robot",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "base section",
+   "figs": [
+    "1",
+    "2",
+    "5"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "movable section",
+   "figs": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "movable-section drive mechanism",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "wrist section",
+   "figs": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "ref": "18a",
+   "name": "fourth rotation axis",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "wrist-section drive mechanism",
+   "figs": [
+    "1",
+    "2",
+    "4A",
+    "5"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "arcuate standing wall",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "cover",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "26",
+   "name": "assembled-link structures",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "28",
+   "name": "prime movers (or servo motors)",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "30",
+   "name": "driving link",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "parallel pair of driven links",
+   "figs": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "ref": "34",
+   "name": "center through hole",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "36",
+   "name": "joint parts",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "38",
+   "name": "rotational bearing unit",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "40",
+   "name": "rotary member",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "42",
+   "name": "attachment surface",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "44",
+   "name": "outer holder",
+   "figs": [
+    "4A",
+    "4B",
+    "5"
+   ],
+   "alt": [
+    "first rotation axis"
+   ]
+  },
+  {
+   "ref": "44a",
+   "name": "first rotation axis",
+   "figs": [
+    "4A",
+    "4B",
+    "5"
+   ]
+  },
+  {
+   "ref": "46",
+   "name": "intermediate holder",
+   "figs": [
+    "4A",
+    "4B",
+    "5"
+   ]
+  },
+  {
+   "ref": "46a",
+   "name": "second rotation axis",
+   "figs": [
+    "4A",
+    "4B"
+   ]
+  },
+  {
+   "ref": "48",
+   "name": "inner holder",
+   "figs": [
+    "4A",
+    "4B",
+    "5"
+   ]
+  },
+  {
+   "ref": "48a",
+   "name": "third rotation axis",
+   "figs": [
+    "4A",
+    "4B"
+   ]
+  },
+  {
+   "ref": "50",
+   "name": "holder assembly",
+   "figs": [
+    "2",
+    "4A",
+    "4B",
+    "5"
+   ]
+  },
+  {
+   "ref": "52",
+   "name": "prime mover (or a servo motor)",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "54",
+   "name": "rod-shaped transmission member",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4A",
+    "4B",
+    "5"
+   ]
+  },
+  {
+   "ref": "54-1",
+   "name": "first transmission member",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "54-2",
+   "name": "second transmission member",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "54-3",
+   "name": "third transmission member",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "54a",
+   "name": "linear-motion axis",
+   "figs": [
+    "4A",
+    "4B",
+    "5"
+   ]
+  },
+  {
+   "ref": "56",
+   "name": "hollow cylindrical seat portion",
+   "figs": [
+    "2",
+    "5"
+   ]
+  },
+  {
+   "ref": "58",
+   "name": "rotational bearing unit",
+   "figs": [
+    "4A",
+    "5"
+   ]
+  },
+  {
+   "ref": "60",
+   "name": "hollow cylindrical attachment member",
+   "figs": [
+    "4A",
+    "5"
+   ]
+  },
+  {
+   "ref": "62",
+   "name": "spindles",
+   "figs": [
+    "4A"
+   ]
+  },
+  {
+   "ref": "64",
+   "name": "spindle holes",
+   "figs": [
+    "4A"
+   ]
+  },
+  {
+   "ref": "66",
+   "name": "rotational bearing units",
+   "figs": [
+    "4A"
+   ]
+  },
+  {
+   "ref": "68",
+   "name": "spindles",
+   "figs": [
+    "4B"
+   ]
+  },
+  {
+   "ref": "70",
+   "name": "spindle holes",
+   "figs": [
+    "4B"
+   ]
+  },
+  {
+   "ref": "72",
+   "name": "rotational bearing units",
+   "figs": [
+    "4B"
+   ]
+  },
+  {
+   "ref": "74",
+   "name": "gear",
+   "figs": [
+    "4A",
+    "4B",
+    "5"
+   ]
+  },
+  {
+   "ref": "76",
+   "name": "output shaft",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "78",
+   "name": "linear bearing member",
+   "figs": [
+    "4A",
+    "4B",
+    "5"
+   ]
+  },
+  {
+   "ref": "80",
+   "name": "universal joint",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "80-1",
+   "name": "first universal joint",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "80-2",
+   "name": "second universal joint",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "80-3",
+   "name": "third universal joint",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "100",
+   "name": "movable section",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "102",
+   "name": "wrist section",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "104",
+   "name": "joint parts",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "106",
+   "name": "first rotary member",
+   "figs": [
+    "6"
+   ],
+   "alt": [
+    "second rotary member"
+   ]
+  },
+  {
+   "ref": "106a",
+   "name": "fourth rotation axis",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "108",
+   "name": "second rotary member",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "108a",
+   "name": "fifth rotation axis",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "110",
+   "name": "third rotary member",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "110a",
+   "name": "sixth rotation axis",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "112",
+   "name": "attachment surface",
+   "figs": [
+    "6"
+   ]
+  }
+ ]
+}

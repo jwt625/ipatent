@@ -1,0 +1,179 @@
+{
+ "patent": "CBN Nano Technologies patent, filed 2015-12-31, issued 2019-11-19; inventors Merkle, Freitas, Ryley, Moses and Hogg. It sets out mechanical computers built from very few part types: links and rotary joints (MLL), links and flexures (MFL), or cables, pulleys and knobs (MCL). Locks and balances are the central mechanisms; driven by a multi-phase clock they form logic gates and shift registers, which the text argues is enough for a Turing-complete system. It also sorts mechanical computers into Types 1-4 by how they store and release potential energy. Energy and speed figures are simulation results and estimates for a molecular-scale, diamond-based embodiment (below 1x10E-25 J for a one-radian link rotation at 1x10E9 radians/sec and 180K; switching times of 1 ns to 10 ns). The document describes designs and simulations and reports no built device; it says its figures are didactic sub-assemblies, not complete working mechanisms. Claims 1 and 10 cover lock-and-balance structures. Family, from Google Patents data checked 2026-11-02: continuations US 10,664,233 and US 10,942,704 carry the same drawing captions; continuation-in-part US 10,949,166 adds FIG. 43-55.",
+ "figs": {
+  "1": "Ball-and-stick model of one joint, also shown on the front page. Member 103 is held between supports 101 and 102 by two collinear chains, each single bond, triple bond, single bond, and it turns about their shared vertical axis. The dark spheres are oxygen, as leaders 110 and 111 show. The description calls the shapes representative and cites molecular dynamics simulation for the low drag.",
+  "2": "The unit behind most later figures: data link 204 on parallel support links 202 and 207. Leaning left is defined as 0 and leaning right as 1. The circle, triangle and hatched base mark an anchored joint from here on. The numeral at the upper right joint prints as 205 where the description has 208.",
+  "3": "Slides 302 and 304 push joints 306 and 307 of a diamond pivoted at 305. Corner 308, and so AND output 310, ends up displaced only if both inputs are pushed. The lever pivoted at 309 reverses that motion at NAND output 311. Slides here and in later figures are simulation drivers that stand in for data lines.",
+  "4": "Read left to right: slides, inverters 405 and 406, then the AND core formed by 407 and 408 with output 409. The drawn position is both inputs 0, output 1. The description notes the variants: drop the inverters for AND, also invert the output for NAND, or keep the inverters and invert the output for OR.",
+  "5": "Inputs enter at upper left and lower right; the output lever chain rises to 505. The description gives no link-by-link account, only that motion at 505 follows the XOR truth table.",
+  "6": "Three matching clusters (top left, top right, lower right) and a central diamond; the description says the gate is three XOR gates and an AND gate plus forked data lines. Matching clusters to gates is our reading, as is taking 603 as the control line: it reaches 606 by the long outer route, which fits a Fredkin gate passing its control through.",
+  "7": "Blank state. Each half is a 4-bar (703, 705, 712 above; 704, 706, 713 below). Link 709 joins them through diagonals 707, 710, 708 and 711. It has the length and angle of the support links, so it can follow whichever half moves first.",
+  "8": "Top input 701 has moved: 703, 712 and 709 lean together. Link 709 is no longer parallel to 704 and 713, so the lower half would have to follow two arcs at once and is locked. The only allowed motion returns 701 to 0.",
+  "9": "Alternate lock with both inputs 0. Crossed links pivot on one anchored joint at the center. The description says the torque changes gradually, so locking is more gradual than in FIG. 7.",
+  "10": "Input 901 at 1. Input 902 is driven slightly backward; the description says the system can allow this or absorb it internally, for example with springs. Compare the angle of the 902 slide with FIG. 9.",
+  "11": "Non-co-planar lock, unlocked, links moving perpendicular to the face of block 1112. Joints 1108 and 1110 share one axis and 1109 and 1111 another, so 1101 or 1103 can pivot; once one pivots, the other pair is out of line and locks. Bracketed spaces 1104 and 1106 (on 1103) and 1105 and 1107 (on 1101) are connection points for inputs, in pairs so that a line can continue past the lock.",
+  "12": "Top view of FIG. 11, where only link 1101 and block 1112 are visible. The numeral 1101 is printed three times.",
+  "13": "State (1,0). Link 1101 has pivoted on 1108 and 1110, so 1109 and 1111 are no longer coaxial and 1103 cannot rotate. The roughly 30 degree angle is arbitrary according to the description; almost any pivot locks.",
+  "14": "Top view of FIG. 13. Link 1101 is rotated about 30 degrees, exposing 1103 below it. Numerals 1101 and 1112 are each repeated.",
+  "15": "State (0,1): 1103 has pivoted on 1109 and 1111, so 1108 and 1110 are no longer coaxial and 1101 is locked. The description says rotation of 1103 'instead of 1102'; the comparison with FIG. 13 points to 1101.",
+  "16": "Top view of FIG. 15. Link 1103 has rotated about 30 degrees, with 1102 also raised in the drawing, while 1101 stays in its original position.",
+  "17": "Balance at input 0. Input 1701 acts at the middle of link 1702 through joint 1703. Upper joint 1704 is anchored and lower joint 1705 is free.",
+  "18": "Input 1 with the same anchoring: 1702 swings about 1704, so lower output 1707 moves and upper output 1706 stays.",
+  "19": "Anchoring swapped, with 1705 fixed: the same input now moves upper output 1706. With locks as conditional anchors, one balance can take either configuration, which is the basis of routing in FIG. 22.",
+  "20": "Binary double balance: two 2-input balances, 2005 and 2006, joined by fixed-length link 2007, which forces the sum of the inputs to appear at the outputs. State (1,0). Unconstrained, the outputs could split as (0.5,0.5); the description adds locks to settle this.",
+  "21": "Inputs (1,1): 2005 and 2006 now stand vertical. The description prints 'FIG. 2' for this state in col. 24.",
+  "22": "Two FIG. 7 locks with a balance between them, drawn as single lines rather than capsules. Center input 2203 drives the balance, which connects to both locks. Setting 2201 locks the upper lock and holds the 2204 line, so the input goes out at 2205, and the reverse for 2202.",
+  "23": "Printed sideways on the sheet. Eleven locks by count: four rows of two take one A rail and one B rail each, covering the input combinations, plus three locks on the output side. Each input uses two lines (A0, A1, B0, B1), and each is printed twice because it is used in two places. Inputs set the lock pattern; clock 2301 then drives balances 2302 to 2306 until either 2311 or 2312 moves.",
+  "24": "Simplified notation: each bowtie is a lock (21 by count), anchored joints are omitted and assumed at unconnected ends, and black triangles stand for rigid linkages. The text does not explain the dashed verticals in each lock. A selects the route: X0 line 2413 feeds 2418, reaching the B locks for Y and the C locks for Z; X1 line 2412 feeds 2419, reaching the C locks for Y and the B locks for Z.",
+  "25": "Printed sideways. One cell in its blank state with the clock low. Holding locks 2505 and 2506 sit on balance 2504; the lock at right, carrying 2507 and 2508, is the output lock. Brace 2503 is the clock connection, drawn as a slide on a short linkage so the cell stands alone.",
+  "26": "Printed sideways. Input 2501 is at 1 and lock 2505 has locked; the clock is still low and the output lock has not moved.",
+  "27": "Printed sideways. Clock high: 2503 pushes balance 2504. With 2505 locked, only the lower side can move, so motion passes through 2506 to output 2508 and tilts the lower half of the output lock.",
+  "28a": "Printed sideways. Cell 1 of a two-cell register, the same mechanism as FIG. 25; it continues at the dash-dot match line into FIG. 28b. Output links 2804 and 2805 cross before the line. Link 2803 is broken off to show a connection to a clock system not drawn.",
+  "28b": "Printed sideways. Cell 2: links 2804 and 2805 from cell 1 drive its holding locks, in place of the input slides of FIG. 25. Link 2806 carries a separate clock signal; the description requires at least three clock phases for this design and steps through the transfer in col. 28.",
+  "29": "Two pairs of unconnected 4-bars. As drawn, 2903 and 2906 lean right, 2904 and 2905 left. Each pair cancels linear momentum, and the opposite order in the second pair cancels the torque of the first. The description assumes synchronization by clock signals in an actual system.",
+  "30": "MFL version of the FIG. 7 lock. Black is material and white is removed, so the whole could be one piece. Each pair of circular notches forms a flexure, with 3005 and 3006 as the numbered examples. Link 3009 does the job of link 709. Triangular links 3010 and 3011 occupy the place of the diagonal and top links of FIG. 7.",
+  "31": "Top view. Pulley 3102 is carried on axle 3103 in channel 3104 of block 3101. Actuating cable 3105 pulls the axle along the channel. Dotted lines mark the part of the channel under the pulley.",
+  "32": "Side view of FIG. 31; the axle enters the channel, shown dotted, in the block. Cable 3105 is not shown here.",
+  "33a": "Cables 3301 and 3302 cross, each with two knobs. State (0,0): no knob lies between the opposite pair, so either cable may move.",
+  "33b": "State (0,1). Cable 3302 has moved so that knob 3305 sits between 3303 and 3304, blocking cable 3301 in both directions.",
+  "33c": "State (1,0). Cable 3301 has moved so that knob 3303 sits between 3305 and 3306, which locks cable 3302.",
+  "34": "One knob; the description says a cable would generally attach at either end. Two of these replace the four knobs of FIG. 33.",
+  "35": "Two knobs meshed, blank state. Neither blocks the other. Locked states can return only to this one.",
+  "36": "Compared with FIG. 35, knob 3502 has moved along its length and its rounded arm end sits in a notch of 3501. The description treats this and FIG. 37 as (0,1) and (1,0), with the assignment arbitrary.",
+  "37": "Compared with FIG. 35, knob 3501 has moved along its length relative to 3502. The only allowed motion from here is back to blank.",
+  "38": "An oval: closed loop 3801 around two pulleys, which can run in tracks 3804 when unanchored, pulled by cable 3805. Knobs 3802 connect the loop to cables 3807 and 3808. Housings 3806 confine the cable to reduce energy loss. The description cites FIG. 39 for this structure, but these numerals appear in FIG. 38.",
+  "39": "An oval used as a balance, both locks blank. Cables 3909 and 3910 cross the loop with knob pairs, facing pairs 3905/3906 and 3907/3908 on the loop. Triangular knobs carry outputs 3917 and 3918; their shape only marks them apart from the other knobs. Pulleys start at the left of their tracks.",
+  "40": "Input 0: cable 3909 has moved so knob 3911 sits between 3905 and 3906, which locks the upper side of the loop. The brief description labels this figure the (0,1) state.",
+  "41": "Input 1: cable 3910 has moved so knob 3913 sits between 3907 and 3908, which locks the lower side of the loop. The brief description labels this figure the (1,0) state.",
+  "42": "FIG. 41 after actuation: clock line 3904 has pulled both pulleys to the right. The lower side of the loop is held, so the upper side moves, carrying knob 3915 and output line 3917 to the right. Knob 3916 has not moved."
+ },
+ "parts": {
+  "205": "The description uses 205 only for the anchor block. FIG. 2 also prints 205 at the upper right joint, which the description calls 208.",
+  "208": "Named in col. 12 but not printed in FIG. 2, where the joint carries 205.",
+  "402": "Not named in the description. It sits where linear slide 404 sits in the lower input.",
+  "1111": "Col. 21 says Joint4 connects to Link2. In the drawings it sits on the bar of 1103, and col. 22 has 1103 rotating via 1109 and 1111.",
+  "2401": "The clock input attaches here.",
+  "2402": "The A1 input attaches here.",
+  "2403": "The A0 input attaches here.",
+  "2404": "The B1 input attaches here, and at 2408.",
+  "2405": "The B0 input attaches here, and at 2409.",
+  "2406": "The C1 input attaches here, and at 2410.",
+  "2407": "The C0 input attaches here, and at 2411.",
+  "2408": "Second connection of the B1 input.",
+  "2409": "Second connection of the B0 input.",
+  "2410": "Second connection of the C1 input.",
+  "2411": "Second connection of the C0 input.",
+  "2418": "Part of a 4-bar linkage rather than a balance, per the description, so it stays vertical when moving.",
+  "2419": "Part of a 4-bar linkage rather than a balance, per the description, so it stays vertical when moving.",
+  "2508": "Col. 27 once prints '2588' beside 2507; no such numeral is in the drawings.",
+  "3005": "The description calls these cutouts examples of flexures. The other notches in FIG. 30 are the same feature, unnumbered.",
+  "3801": "Col. 37 cites FIG. 39 here, but the numeral is printed only in FIG. 38.",
+  "3909": "'Cables 0 3909' as printed in col. 37."
+ },
+ "glossary": [
+  {
+   "term": "linkage",
+   "def": "Rigid links joined by pivots, so that motion at one point sets motion elsewhere. Here it carries data and also performs logic."
+  },
+  {
+   "term": "4-bar linkage",
+   "def": "Two parallel support links, a data link across their tops and the anchor block. Used here to constrain a data link to two positions, 0 and 1. The description notes that some call it a 3-bar linkage."
+  },
+  {
+   "term": "link, data link, support link, line",
+   "def": "A link is a rigid body with one or more rotary joints. A data link helps move data; a support link only restrains other links. A line is a chain of connected data links sharing one value."
+  },
+  {
+   "term": "rotary joint",
+   "def": "A connection allowing rotation about an axis. At the molecular scale the patent uses rotation about single bonds; at larger scales, bearings."
+  },
+  {
+   "term": "anchored, conditional anchor",
+   "def": "An anchored joint is fixed relative to the anchor block. A conditional anchor is fixed only while a lock holds it, which lets the data set which side of a balance moves."
+  },
+  {
+   "term": "linear slide",
+   "def": "The capsule with an anchored end in many figures. A driver required by the Linkage v3 simulator, standing in for a data line or clock connection; not a part of MLL."
+  },
+  {
+   "term": "lock",
+   "def": "A mechanism where setting one input blocks the others. A two-input binary lock has three states: (0,0) blank, (0,1) and (1,0). From a locked state the only motion allowed is back to blank."
+  },
+  {
+   "term": "balance",
+   "def": "A structure that sends motion down one side or route rather than another. Here usually a link with the input at its center and locks on its ends deciding which end moves."
+  },
+  {
+   "term": "switch gate",
+   "def": "A balance with locks as conditional anchors, so that control inputs route a third input to one of two outputs."
+  },
+  {
+   "term": "binary double balance",
+   "def": "Two 2-input balances joined by a fixed-length link, which conserves the sum of the inputs."
+  },
+  {
+   "term": "two lines per binary input",
+   "def": "The patent's encoding for lock-based gates: one line moves for 0 and another for 1, so either value can set a lock. Now commonly called dual-rail encoding."
+  },
+  {
+   "term": "clocked logic",
+   "def": "Here a mechanical clock signal is reciprocating motion on a line or rigid frame. It synchronizes mechanisms and supplies the driving force: inputs are set in one phase, and the clock moves the balances in a later one. Sine-like transitions are preferred to avoid exciting resonances."
+  },
+  {
+   "term": "dry switching",
+   "def": "Borrowed from relays. Here, no force is applied to a mechanism that is not free to move."
+  },
+  {
+   "term": "reversible logic",
+   "def": "Logic that discards no information, so it is not subject to the Landauer Limit. Here obtained with gates such as Fredkin, by carrying inputs forward with outputs, or by running clock phases in the opposite order."
+  },
+  {
+   "term": "Landauer Limit",
+   "def": "A minimum of ln(2) kBT dissipated per irreversible bit operation. The description gives 1.72x10E-21 J at 180K."
+  },
+  {
+   "term": "Fredkin gate (CSWAP)",
+   "def": "A universal reversible gate with three inputs and three outputs: A passes through; A = 0 sends B to Y and C to Z; A = 1 swaps them."
+  },
+  {
+   "term": "retractile cascade, Bennett clocking",
+   "def": "Logic stages are set in sequence and later released in reverse order, so results are uncomputed instead of erased. The description notes this may require storing 'junk' bits."
+  },
+  {
+   "term": "Landauer clocking",
+   "def": "As commonly used in adiabatic logic, a multi-phase scheme in which each stage switches, holds and then releases in turn. The description names a three-phase form."
+  },
+  {
+   "term": "shift register cell",
+   "def": "The sequential element here. Holding-area locks take the input; on the clock phase the data moves to an output lock, which is what stores a previous value. Each cell has three stable states: 0, 1 and blank."
+  },
+  {
+   "term": "Types 1-4",
+   "def": "The patent's own classes of mechanical computer. Type 1 releases stored energy unconstrained by the computational degrees of freedom; Type 2 releases it under their control; Type 3 stores only trivial energy but has non-trivial unconstrained degrees of freedom; Type 4 has neither."
+  },
+  {
+   "term": "MLL, MFL, MCL",
+   "def": "Mechanical Linkage Logic (links and rotary joints), Mechanical Flexure Logic (links and flexures), Mechanical Cable Logic (cables, pulleys, knobs). The summary and claims say 'Mechanical Link Logic' for MLL."
+  },
+  {
+   "term": "flexure",
+   "def": "A bearing that moves by bending material rather than by sliding or rolling. The description argues it can serve for kinematic restraint alone, with trivial stored energy."
+  },
+  {
+   "term": "oval, knob",
+   "def": "MCL structures. An oval is a closed loop of cable around pulleys; a knob is a block on a cable that interferes with another cable's knobs to form a lock. The description says the knob has no direct MLL or MFL counterpart."
+  },
+  {
+   "term": "canceling group",
+   "def": "A set of structures moved in opposition so that center of mass and torque do not change and less energy couples into the anchor block."
+  },
+  {
+   "term": "Turing-complete",
+   "def": "Standard meaning, with the patent's caveat that real systems have bounded memory and time, making them linear bounded automata. Its definition of a computing system excludes special-purpose devices."
+  },
+  {
+   "term": "mechanosynthesis",
+   "def": "Building structures through positionally controlled chemical reactions. Named here only as one possible way to manufacture molecular-scale parts."
+  }
+ ]
+}

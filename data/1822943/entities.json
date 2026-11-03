@@ -1,0 +1,27 @@
+{
+  "pn": "1822943",
+  "inventors": [
+    {
+      "name": "Herbert Wagner",
+      "printed": "HERBERT WAGNER, OF BERLIN, GERMANY",
+      "city": "Berlin",
+      "region": null,
+      "country": "DE"
+    }
+  ],
+  "assignees": [
+    {
+      "name": "Rohrbach Metall-Flugzeugbau G. m. b. H.",
+      "printed": "THE FIRM ROHRBACH METALL-FLUGZEUGBAU G. M. B. H., OF BERLIN, GERMANY",
+      "org": "Rohrbach Metall-Flugzeugbau",
+      "kind": "company",
+      "city": "Berlin",
+      "region": null,
+      "country": "DE"
+    }
+  ],
+  "source": {
+    "page": 2,
+    "where": "header of first printed page (inventor, assignor to)"
+  }
+}

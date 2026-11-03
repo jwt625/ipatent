@@ -1,0 +1,75 @@
+{
+ "patent": "Fibre metal laminate: thin metal sheets bonded with a glass-filament prepreg, using a high-modulus SiO_{2}-Al_{2}O_{3}-MgO glass (S2-glass in the examples) in place of E-glass. Filed 1988-10-11 on a Netherlands priority of 1987-10-14. Test laminates, coded ALGLA, pair 2024-T3 sheets with a glass/epoxy prepreg; S2 and E versions are compared for notch strength, residual strength and fatigue crack growth. Claim 10 covers an aircraft fuselage with a skin sheet of the laminate. Possible link to GLARE, not confirmed: TU Delft states that Akzo Nobel filed the patent for GLARE in 1987 and that GLARE is applied on the Airbus A380. The assignee (Akzo) and priority date match, but that page does not name this number and no source checked does.",
+ "figs": {
+  "1": "Tensile nett strength against stress concentration factor. Solid ALGLA 2S (described as ALGLA-2S42) has three test points at K_{t} 1,0, 2,08 and 3,18; the callouts name the coupon for each point. Dashed ALGLA 2E42 is the E-glass laminate, crossing below 7075-T6 near K_{t} 2,2. The ordinate is broken below 400 MPa, so it does not start at zero.",
+  "1A": "Plain coupon for the K_{t} = 1,0 point: waisted, no perforation. Long axis is the load direction.",
+  "1B": "Edge view of the FIG. 1A coupon, paired with it by the FIG. 1 callout.",
+  "1C": "Coupon for the K_{t} = 2,08 point: central 10 mm circular hole. Slanted double lines are length breaks. The end bands, each with one hole, read as grip areas; the patent does not describe them.",
+  "1D": "Edge view of the FIG. 1C coupon. The stacked lines thicken the ends over the same length as the end bands in FIG. 1C; the patent does not describe them.",
+  "1E": "Coupon for the K_{t} = 3,18 point: wider waisted shape with an elongated perforation lying across the load direction. Each end band has three holes.",
+  "1F": "Edge view of the FIG. 1E coupon, with thickened ends as in FIG. 1D.",
+  "2": "Tensile nett strength against total saw-cut length 2a, with tests at 10, 30 and 60 mm per the description. The abscissa prints no unit. ALGLA 2S32 stands furthest above ALGLA 2E32 at the shortest cut.",
+  "2A": "Residual-strength coupon, rectangular, with five holes in each end band. The small central circle is the only feature at the cut location; no slit is drawn.",
+  "3": "Half crack length a against thousands of cycles under sinusoidal loading at 10 Hz, with the load box inset. The bracket at lower left marks the starting half length; the description gives a total cut 2a = 3 mm. 2024-T3 rises steeply within the first 100 K cycles; both laminates grow almost linearly. The description assigns the plot to FIG. 3A and the coupon to FIG. 3, the reverse of the labels on the sheets.",
+  "3A": "Fatigue coupon for FIG. 3: same layout as FIG. 2A, five holes in each end band, small central circle at the cut location.",
+  "4": "Same axes as FIG. 3 for block-shaped loading at 0,02 Hz (printed that way in the inset; the description writes 0.02 Hertz), the low-frequency pressure-cycle case discussed for fuselages. Only the two laminates are plotted. Note the shorter cycle scale: 120 K cycles here against 800 K in FIG. 3.",
+  "4A": "Fatigue coupon for FIG. 4: drawn narrower than FIG. 3A, with three larger holes in each end band and a small central circle at the cut location.",
+  "5": "Perspective of a two-sheet laminate cut to show the build: metal sheets 2 (single hatch) around prepreg 3, whose core 5 (cross hatch) holds the filaments. Dashed lines 4 show filament direction through the top sheet. The side face shows the core with a boundary layer 6 on each side.",
+  "6": "Same construction with three sheets 2 and two prepregs 3, shown with broken far edges. The front page repeats this figure."
+ },
+ "parts": {
+  "3": "The description uses both names for this numeral: prepreg 3 and synthetic layer 3.",
+  "4": "Drawn as dashed lines on the top face and in the sections, fine parallel lines on the side face.",
+  "6": "Filament-free resin layer between the core 5 and each metal sheet 2."
+ },
+ "glossary": [
+  {
+   "term": "fibre metal laminate",
+   "def": "Metal sheets bonded with fibre-reinforced resin layers; a crack in the metal is bridged by the intact fibres."
+  },
+  {
+   "term": "GLARE",
+   "def": "A commercial fibre metal laminate family of aluminium sheets and glass-fibre prepreg. See the patent note for the status of the link to this patent."
+  },
+  {
+   "term": "blunt notch behaviour",
+   "def": "Tensile strength with a hole or slot present, as defined at col. 2. Related modern test: open-hole tension."
+  },
+  {
+   "term": "stress concentration factor Kt",
+   "def": "K_{t}: peak stress at a notch divided by nominal stress on the remaining section."
+  },
+  {
+   "term": "nett tensile strength",
+   "def": "Failure load divided by the remaining cross-section at the notch."
+  },
+  {
+   "term": "residual strength",
+   "def": "Tensile strength remaining with a crack or saw-cut present."
+  },
+  {
+   "term": "R",
+   "def": "Fatigue stress ratio, minimum stress over maximum stress. R = 0 is tension from zero, as in a pressure cabin cycle."
+  },
+  {
+   "term": "prepreg",
+   "def": "Reinforcing filaments already impregnated with uncured resin, cured in place by heat and pressure."
+  },
+  {
+   "term": "E-glass, S2-glass",
+   "def": "Reinforcement glasses. The patent gives E-glass at about 55% SiO_{2} with CaO and B_{2}O_{3}, and its own filaments at 58–69% SiO_{2}, 18–29% Al_{2}O_{3}, 7–19% MgO. S2 is the Owens Corning Fiberglas trademark named at col. 4."
+  },
+  {
+   "term": "2024-T3, 7075-T6",
+   "def": "Aluminium-copper and aluminium-zinc alloys; T3 and T6 are heat-treatment temper codes."
+  },
+  {
+   "term": "ALGLA codes",
+   "def": "Test laminates. Per the description, S or E is the glass type, and 42 or 32 goes with 0,4 or 0,3 mm aluminium sheets. The patent does not spell out the code."
+  },
+  {
+   "term": "decimal comma",
+   "def": "The description writes most decimals with a comma (0,35 GPa); the claims use a point."
+  }
+ ]
+}

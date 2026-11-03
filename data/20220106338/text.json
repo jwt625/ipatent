@@ -1,0 +1,2973 @@
+{
+ "pn": "20220106338",
+ "number": "2022/0106338",
+ "doc": "US 2022/0106338 A1",
+ "date_label": "Published",
+ "cite_scheme": "[paragraph]",
+ "title": "SYSTEMS AND METHODS FOR MECHANOSYNTHESIS",
+ "inventors": [
+  "Ralph C. Merkle",
+  "Robert A. Freitas, JR.",
+  "Jeremy Barton",
+  "Aru Hill",
+  "Michael Drew",
+  "Damian Allis",
+  "Tait Takatani",
+  "Terry McCallum",
+  "Marius Mamone",
+  "Nicolas Zindy",
+  "Kashif Tanveer"
+ ],
+ "assignee": "CBN Nano Technologies Inc., Ottawa (CA)",
+ "filed": "2021-11-22",
+ "issued": "2022-04-07",
+ "appl_no": "17/531,998",
+ "int_cl": "C07F 7/30 (2006.01); G01Q 70/08 (2010.01); B82B 3/00 (2006.01); G01Q 80/00 (2010.01)",
+ "us_cl": "CPC C07F 7/30 (2013.01); G01Q 80/00 (2013.01); B82B 3/0004 (2013.01); G01Q 70/08 (2013.01)",
+ "related": "Continuation-in-part of application No. 16/052,688, filed on Aug. 2, 2018, now Pat. No. 11,180,514, which is a division of application No. 15/153,671, filed on May 12, 2016, now Pat. No. 10,072,031, Continuation-in-part of application No. 17/474,472, filed on Sep. 14, 2021, which is a division of application No. 17/035,844, filed on Sep. 29, 2020, now Pat. No. 11,148,944, which is a division of application No. 16/325,241, filed on Feb. 13, 2019, now Pat. No. 10,822,229, filed as application No. PCT/US2017/061363 on Nov. 13, 2017, which is a continuation-in-part of application No. 15/353,380, filed on Nov. 16, 2016, now Pat. No. 10,067,160, which is a continuation-in-part of application No. PCT/US2017/022330, filed on Jun. 14, 2017.",
+ "refs_patents": [],
+ "refs_other": [],
+ "claims_count": 20,
+ "drawing_figures": 53,
+ "abstract": "Systems and methods for mechanosynthesis are disclosed, including those that avoid the need for a bootstrap process, avoid the need to build tips via mechanosynthesis, avoid the need for charging tips with feedstock during a build sequence, avoid the need to dispose of reaction byproducts, which reduce the design complexity of new tips, and/or which reduce or avoid the need for multiple positional means and/or tip switching.",
+ "sections": [
+  {
+   "heading": "CROSS-REFERENCE TO RELATED APPLICATIONS",
+   "paras": [
+    {
+     "col": null,
+     "line": null,
+     "page": 36,
+     "cite": "[0001]",
+     "text": "The present application is a continuation-in-part of pending U.S. application Ser. No. 16/052,688 (filed 2018 Aug. 2), which is a division of U.S. application Ser. No. 15/153,671 (filed 2016 May 12, now U.S. Pat. No. 10,072,031. The present application is also a division of application Ser. No. 17,474,472 (filed 2021 Sep. 14), which is a division of application Ser. No. 17/035,844 (filed 2020 Sep. 29, now U.S. Pat. No. 11,148,944), which is a division of application Ser. No. 16/325,241 (371(c) date 2019 Feb. 13, now U.S. Pat. No. 10,822,229), which is the national phase entry of Application No. PCT/US17/61363 (filed 2017 Nov. 13), which in turn is a continuation-in-part of application Ser. No. 15/353,380 (filed 2016 Nov. 16, now U.S. Pat. No. 10,067,160) and a continuation-in-part of Application No. PCT/US17/022330 (filed 2017 Mar. 14). All of these applications and patents are incorporated herein by reference."
+    }
+   ]
+  },
+  {
+   "heading": "FEDERALLY SPONSORED RESEARCH",
+   "paras": [
+    {
+     "col": null,
+     "line": null,
+     "page": 36,
+     "cite": "[0002]",
+     "text": "Not applicable."
+    }
+   ]
+  },
+  {
+   "heading": "SEQUENCE LISTING OR PROGRAM",
+   "paras": [
+    {
+     "col": null,
+     "line": null,
+     "page": 36,
+     "cite": "[0003]",
+     "text": "Not applicable"
+    }
+   ]
+  },
+  {
+   "heading": "FIELD OF INVENTION",
+   "paras": [
+    {
+     "col": null,
+     "line": null,
+     "page": 36,
+     "cite": "[0004]",
+     "text": "The present invention is directed to systems and methods that perform mechanosynthesis, including the use of modular tips and tips bonded to a surface."
+    }
+   ]
+  },
+  {
+   "heading": "BACKGROUND OF THE INVENTION",
+   "paras": [
+    {
+     "col": null,
+     "line": null,
+     "page": 36,
+     "cite": "[0005]",
+     "text": "Scanning Probe Microscopes (SPM, including e.g., AFM, SFM, and STM) have long been used, in conjunction with ultra-sharp tips, to move individual atoms or molecules to precise locations. When such site-specific positioning (and force, if necessary) is used to make or break chemical bonds, this is referred to as mechanosynthesis. (Oyabu, Custance et al., “Mechanical vertical manipulation of selected single atoms by soft nanoindentation using near contact atomic force microscopy,” Phys. Rev. Lett., 17, 2003; Morita, Sugimoto et al., “Atom-selective imaging and mechanical atom manipulation using the non-contact atomic force microscope,” J. Electron Microsc., 2, 2004; Oyabu, Custance et al., “Mechanical Vertical Manipulation of Single Atoms on the Ge(111)-c(2×8) Surface by Noncontact Atomic Force Microscopy,” Seventh International Conference on non-contact Atomic Force Microscopy, Seattle, Wash., 2004; Sugimoto, Jelinek et al., “Mechanism for Room-Temperature Single-Atom Lateral Manipulations on Semiconductors using Dynamic Force Microscopy,” Physical Review Letters, 10, 2007; Sugimoto, Pou et al., “Complex Patterning by Vertical Interchange Atom Manipulation Using Atomic Force Microscopy,” Science, 2008)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 36,
+     "cite": "[0006]",
+     "text": "Conceptually, mechanosynthesis might be broken into several components: A source of atoms or molecules (“feedstock”) used to build (including modifying) workpieces; a place where feedstock is stored while awaiting use (a “feedstock depot”); the product being built (a “workpiece”); a place to store reaction byproducts (a “trash depot”); a structure that directly performs mechanosynthesis reactions (a “tip”); a surface (or “presentation surface”), which can serve several purposes including serving as a feedstock depot and a surface upon which to build the workpiece; and a positional means (e.g., an SPM probe) which controls the relative position of, e.g., tips and workpieces, to facilitate the desired reactions."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 36,
+     "cite": "[0007]",
+     "text": "Not all systems will have each of these parts as discrete entities, and some will be missing completely. For example, in some mechanosynthesis experiments, one atom was interchanged for another on a surface. In such cases, the presentation surface, feedstock depot, and workpiece were one and the same. In this work, there was no trash depot, since there were no reaction byproducts. Also, note that in some previous examples of such work, only one tip was required because only one or two distinct reactions were being performed (although they may have occurred many times each), and one tip sufficed for all reactions."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 36,
+     "cite": "[0008]",
+     "text": "However, as the desired reactions become more varied, greater flexibility can be obtained by having a distinct feedstock, feedstock depot, trash depot, presentation surface, and workpiece. Also, multiple tips may be required, each designed to facilitate a particular reaction or set of reactions. Note that a requirement for multiple tips implies some way to bring multiple tips to bear for sequential or parallel operation (e.g., multiple positional means, or some way to swap tips on a single positional means)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 36,
+     "cite": "[0009]",
+     "text": "As an example of systems that use discrete feedstock, feedstock depots, presentation surfaces, workpieces, and multiple tips, among other possible components, methods for the creation of atomically-precise tips from non-atomically-precise tips (“bootstrapping”) have been described, along with numerous mechanosynthetic reactions which employ a variety of tips, and methods for using multiple reactions to form build sequences for creating complex workpieces (e.g., see U.S. Pat. Nos. 8,171,568; 8,276,211; 9,244,097; 9,676,677; 10,067,160; 10,072,031; 10,138,172; 10,197,597; 10,308,514; 10,309,985; 10,822,229; and 10,822,230, all incorporated herein by reference)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 36,
+     "cite": "[0010]",
+     "text": "Systems capable of more varied build sequences tend to have higher chemical and equipment complexity. For example, chemically, bootstrapping is not a simple process. Neither is the design of new tips, along with the reactions to regenerate tips which are to be used multiple times. Further, feedstock needs to be provided in a chemically-appropriate manner (e.g., feedstock needs to be provided in a manner that will not allow it to react inappropriately with itself, other feedstock, the feedstock depot, or in ways counter to its designated tip binding modes)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 36,
+     "cite": "[0011]",
+     "text": "In terms of equipment, a larger number of reactions, more types of feedstock, and larger workpieces can all require a larger presentation surface. A larger presentation surface means that the positional means must maintain sub-Angstrom accuracy over longer distances. Additionally, if multiple tips are required, some solution to the problem of using each tip as needed must be provided."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 36,
+     "cite": "[0012]",
+     "text": "The chemical problems can and have been addressed, as shown by the cited references. And, the equipment problems can all be addressed."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 36,
+     "cite": "[0013]",
+     "text": "For example, while obtaining the requisite accuracy can be challenging, it is by no means infeasible. Software can be used to enhance the positional accuracy of mechanosynthesis equipment either by correcting for various types of positional errors (Ceria, Ducourtieux et al., “Estimation of the measurement uncertainty of LNE’s metrological Atomic Force Microscope using virtual instrument modeling and Monte Carlo Method,” 2015) or through the use of image recognition, allowing the location of a tip to be determined based on the observed surface features. (Lapshin, “Feature-oriented scanning methodology for probe microscopy and nanotechnology,” Nanotechnology, 9, 2004; “Automatic drift elimination in probe microscope images based on techniques of counter-scanning and topography feature recognition,” Measurement Science and Technology, 3, 2007; “Feature-Oriented Scanning Probe Microscopy,” Encyclopedia of Nanoscience and Nanotechnology, 2011; Celotta, Balakirsky et al., “Invited Article: Autonomous assembly of atomically perfect nanostructures using a scanning tunneling microscope,” Rev Sci Instrum, 12, 2014)"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0014]",
+     "text": "Hardware can also be used to refine microscope tip position. Many microscope systems are open-loop, meaning they do not employ metrology to correct tip position. However, closed-loop systems which do employ metrology are available. For example, AttoCube’s (attocube systems AG, Muenchen, Germany) attoDRY LAB claims<1 nm sensor resolution with no piezo hysteresis, attained using interferometry. And, multi-tip systems are also available. And, in addition to literature describing the custom fabrication of multi-probe SPMs (Eder, Kotakoski et al., “Probing from both sides: reshaping the graphene landscape via face-to-face dual-probe microscopy,” Nano Letters, 5, 2013), various vendors sell systems that have either more than one probe, or the ability to swap tips on a single probe. For example, the MultiView 4000 (NANONICS IMAGING LTD. HEADQUARTERS, Israel), which can employ up to 4 probes, the “Titanium” (NT-MDT Co., Building 100, Zelenograd, Moscow 124482, Russia), which has a cartridge that can automatically swap between 38 probes, and the LT QuadraProbe™ (RHK Technology, Inc, Troy, Mich. 48083 USA) which includes 4 probes."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0015]",
+     "text": "However, even though the chemical and equipment challenges inherent in complex mechanosynthesis can be solved, the solutions can increase the cost and complexity of the systems, slow their functioning, and increase the difficulty of designing and manufacturing new tips, reactions, and build sequences. Other solutions, including simply avoiding some of the problems in the first place, would therefore be useful."
+    }
+   ]
+  },
+  {
+   "heading": "BRIEF SUMMARY OF THE INVENTION",
+   "paras": [
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0016]",
+     "text": "The present invention is directed to systems, methods, and products for the fabrication of atomically-precise tips used for mechanosynthesis, provisioning such tips in a manner which increases the efficiency of mechanosynthesis, and provides a novel design paradigm for the creation of new tips. Aspects of the invention also allow for reduced hardware and software complexity, and positional means optimized for mechanosynthesis."
+    }
+   ]
+  },
+  {
+   "heading": "BRIEF DESCRIPTION OF DRAWINGS",
+   "paras": [
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0017]",
+     "text": "For a more complete understanding of the present invention, reference is now made to the following descriptions taken in conjunction with the accompanying drawings."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0018]",
+     "text": "FIG. 1 depicts the modular parts of an exemplary tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0019]",
+     "text": "FIG. 2 depicts the modular parts of another exemplary tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0020]",
+     "text": "FIG. 3 depicts the AbstractO tip surface-mounted on Silicon."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0021]",
+     "text": "FIG. 4 depicts the HDonationO tip surface-mounted on Silicon."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0022]",
+     "text": "FIG. 5 depicts the C2DonationO tip surface-mounted on Silicon."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0023]",
+     "text": "FIG. 6 depicts the MeDonationO tip surface-mounted on Silicon."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0024]",
+     "text": "FIG. 7 depicts a tip surface-mounted on Silicon which can be SiH3DonationO, GeH3DonationO, SiMe3DonationO or GeMe3DonationO."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0025]",
+     "text": "FIG. 8 depicts the AbstractNH tip surface-mounted on Silicon."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0026]",
+     "text": "FIG. 9 depicts the HDonationNH tip surface-mounted on Silicon."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0027]",
+     "text": "FIG. 10 depicts the C2DonationNH tip surface-mounted on Silicon."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0028]",
+     "text": "FIG. 11 depicts the MeDonationNH tip surface-mounted on Silicon."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0029]",
+     "text": "FIG. 12 depicts a tip surface-mounted on Silicon which can be SiH3DonationNH, GeH3DonationNH, SiMe3DonationNH or GeMe3DonationNH."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0030]",
+     "text": "FIG. 13 depicts the AbstractS tip surface-mounted on Gold."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0031]",
+     "text": "FIG. 14 depicts the HDonationS tip surface-mounted on Gold."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0032]",
+     "text": "FIG. 15 depicts the C2DonationS tip surface-mounted on Gold."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0033]",
+     "text": "FIG. 16 depicts the MeDonationS tip surface-mounted on Gold."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0034]",
+     "text": "FIG. 17 depicts a tip surface-mounted on Silicon which can be SiH3DonationS, GeH3DonationS, SiMe3DonationS or GeMe3DonationS."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0035]",
+     "text": "FIG. 18 depicts a synthetic route for the AbstractO tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0036]",
+     "text": "FIG. 19 depicts a synthetic route for the HDonationO tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0037]",
+     "text": "FIG. 20 depicts a synthetic route for the C2DonationO tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0038]",
+     "text": "FIG. 21 depicts a synthetic route for the MeDonationO tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0039]",
+     "text": "FIG. 22 depicts a synthetic route for the SiH3DonationO tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0040]",
+     "text": "FIG. 23 depicts a synthetic route for the GeH3DonationO tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0041]",
+     "text": "FIG. 24 depicts a synthetic route for the SiMe3DonationO tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0042]",
+     "text": "FIG. 25 depicts a synthetic route for the GeMe3DonationO tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0043]",
+     "text": "FIG. 26 depicts a synthetic route for the AbstractNH tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0044]",
+     "text": "FIG. 27 depicts a synthetic route for the HDonationNH tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0045]",
+     "text": "FIG. 28 depicts a synthetic route for the C2DonationNH tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0046]",
+     "text": "FIG. 29 depicts a synthetic route for the MeDonationNH tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0047]",
+     "text": "FIG. 30 depicts a synthetic route for the SiH3DonationNH tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0048]",
+     "text": "FIG. 31 depicts a synthetic route for the GeH3DonationNH tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 37,
+     "cite": "[0049]",
+     "text": "FIG. 32 depicts a synthetic route for the SiMe3DonationNH tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0050]",
+     "text": "FIG. 33 depicts a synthetic route for the GeMe3DonationNH tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0051]",
+     "text": "FIG. 34 depicts a synthetic route for the AbstractS tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0052]",
+     "text": "FIG. 35 depicts a synthetic route for the HDonationS tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0053]",
+     "text": "FIG. 36 depicts a synthetic route for the C2DonationS tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0054]",
+     "text": "FIG. 37 depicts a synthetic route for the MeDonationS tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0055]",
+     "text": "FIG. 38 depicts a synthetic route for the SiH3DonationS tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0056]",
+     "text": "FIG. 39 depicts a synthetic route for the GeH3DonationS tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0057]",
+     "text": "FIG. 40 depicts a synthetic route for the SiMe3DonationS tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0058]",
+     "text": "FIG. 41 depicts a synthetic route for the GeMe3DonationS tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0059]",
+     "text": "FIG. 42 depicts a synthetic route for the FHD-104X intermediate."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0060]",
+     "text": "FIG. 43 depicts a synthetic route for the NHD-103X intermediate."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0061]",
+     "text": "FIG. 44 depicts photo-activation of a halogen-capped tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0062]",
+     "text": "FIG. 45 depicts photo-activation of a Barton ester-capped tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0063]",
+     "text": "FIG. 46 depicts an exemplary synthesis of a tip with Barton ester cap."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0064]",
+     "text": "FIG. 47 depicts the use of surface-mounted tips where the workpiece moves."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0065]",
+     "text": "FIG. 48 depicts the use of surface-mounted tips where the surface moves."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0066]",
+     "text": "FIG. 49 depicts a metrology setup for measuring six degrees of freedom."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0067]",
+     "text": "FIG. 50 depicts a synthetic pathway for synthesizing an AdamRad-Br tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0068]",
+     "text": "FIG. 51 depicts a synthetic pathway for the PAO-HAbstI tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0069]",
+     "text": "FIG. 52 depicts a synthetic pathway for the MAO-MeDonI tip"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0070]",
+     "text": "FIG. 53 depicts a synthetic pathway for the EAO-C2DonI tip."
+    }
+   ]
+  },
+  {
+   "heading": "DETAILED DESCRIPTION OF THE INVENTION",
+   "paras": [
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0071]",
+     "text": "The following definitions are used herein:"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0072]",
+     "text": "An “adamantane” molecule comprises a 3D cage structure of ten carbon atoms, each terminated with one or two hydrogen atoms, having the chemical formula C10H16 and representing the smallest possible unit cage of crystalline diamond."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0073]",
+     "text": "An “adamantane-like” structures include one or more adamantanes, one or more adamantanes where one or more atoms have been substituted with atoms or molecular fragments of like or similar valence, including e.g., Nitrogen, Oxygen, and Sulfur-substituted variations, and similar molecules comprising polycyclic or cage-like structures. By way of example, and not of limitation, adamantane-like structures would include adamantane, heteroadamantanes (i.e., a cage-like structure with one or more atoms other than carbon substituted for the carbon atoms that make up the adamantane “cage”), polymantanes, lonsdaleite, crystalline silicon or germanium, and versions of each of the foregoing where, for example, Fluorine is used for termination instead of Hydrogen, or where termination is incomplete."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0074]",
+     "text": "An “atom” includes the standard use of the term, including a radical, which, for example, may be just a proton in the case of H^{+}."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0075]",
+     "text": "“Atomically-precise” in the context of a reaction means where the position and identity of each atom is known to a precision adequate to enable a site-specific mechanosynthetic reaction. the reaction to be directed to a particular atomic site (“site-specific”). In the context of a workpiece, tip, or other structure, atomically-precise refers to the actual molecular structure being identical to a specified structure (e.g., as specified by a molecular model or build sequence). Characterization of a non-atomically-precise structure does not render it atomically-precise, as this misses one of the key advantages of atomically-precise materials: That they can be designed ahead of time to have specific characteristics which are unavailable to non-atomically-precise materials, such as having precisely-known chemical behavior, or having superior physical or electrical properties by virtue of being defect-free."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0076]",
+     "text": "The “bridgehead” position in an adamantane-like molecular structure refers to a structural atom that is bonded to three other structural atoms and may be terminated by one or more nonstructural atoms. This is contrasted with a “sidewall” position which refers to a structural atom that is bonded to two other structural atoms and is terminated by one or more nonstructural atoms."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0077]",
+     "text": "A “build sequence” is one or more mechanosynthetic reactions arranged in an ordered sequence that permits the assembly, disassembly, or modification of a workpiece."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0078]",
+     "text": "A “chemical bond” is an interatomic covalent bond, an interatomic ionic bond, or interatomic coordination bond, as these terms are commonly understood by practitioners skilled in the art. Physical adsorption is not a chemical bond."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0079]",
+     "text": "A “chemical reaction” is said to occur when chemical bonds are formed, broken, or altered."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0080]",
+     "text": "“Conventional mode” is where one or more tips are affixed to a positional means/device (e.g., an SPM probe) to facilitate mechanosynthetic reactions between the tips and a workpiece. This contrasts with “inverted mode” where a workpiece is affixed to a positional means and the workpiece moves to the tips. Although uncommon in practice, since in theory both tips and workpiece could be affixed to a positional means, another way to distinguish between the modes would be to say that if the workpiece is connected to apparatus which indicates that the workpiece is being used as a probe (e.g., if STM is being done through the workpiece), the system is operating in inverted mode. Otherwise, the system is operating in conventional mode. Conventional mode tips are generally affixed to a positional means singly or in small numbers, while in inverted mode, a larger, generally stationary, presentation surface allows the provisioning of large numbers of surface-mounted tips. Note that although inverted mode and surface mounted tips may be used together, inverted mode should not be conflated with surface-mounted tips. As is described herein (the sequential tip method), surface-mounted tips can be used in a system which is operating in conventional mode."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 38,
+     "cite": "[0081]",
+     "text": "A “conventional mode tip” is a tip affixed to a positional means or otherwise being employed in conventional mode as described in that definition, just as an “inverted mode tip” is a tip affixed to a presentation surface or otherwise being employed in “inverted mode” as described in that definition."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 39,
+     "cite": "[0082]",
+     "text": "“Diamond” is a crystal of repeating adamantane cage units arranged in various well-known crystallographic lattice geometries."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 39,
+     "cite": "[0083]",
+     "text": "“Diamondoid” materials include any stiff covalent solid that is similar to diamond in strength, chemical inertness, or other important material properties, and possesses a three-dimensional network of bonds. Examples of such materials include but are not limited to (1) diamond, including cubic and hexagonal lattices and all primary and vicinal crystallographic surfaces thereof, (2) carbon nanotubes, fullerenes, and other graphene structures, (3) several strong covalent ceramics of which silicon carbide, silicon nitride, and boron nitride are representative, (4) a few very stiff ionic ceramics of which sapphire (monocrystalline aluminum oxide) is representative, and (5) partially substituted variants of the above that are well-known to those skilled in the art."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 39,
+     "cite": "[0084]",
+     "text": "“Feedstock” is the supply of atoms used to perform mechanosynthetic reactions on a workpiece. Feedstock may take the form of an atom or atoms (a group or molecule), including radicals (e.g., .GeH2, .CH2). Feedstock includes atoms removed from a workpiece. For example, a hydrogen atom from a workpiece may be the feedstock for a hydrogen abstraction tip. In such cases, since frequently nothing is subsequently to be done with atoms removed from a workpiece, such feedstock may be referred to as “waste atoms.” Feedstock must be atomically-precise."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 39,
+     "cite": "[0085]",
+     "text": "A “handle structure” comprises a plurality of atoms whose bonding pattern is not altered during a site-specific mechanosynthetic chemical reaction and whose primary function is to hold a tip(s) or workpiece(s) to facilitate a mechanosynthetic chemical reaction to when the handle structure is manipulated by a positional device. Handle structure may include the null case (e.g., a tip or workpiece bound directly to a positional means)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 39,
+     "cite": "[0086]",
+     "text": "An “inert environment” includes, but is not limited to, ultra-high vacuum (UHV), argon, nitrogen, helium, neon, or other gases or liquids, either individually or in combination, that do not react with the tip(s), feedstock, or workpiece(s) during mechanosynthetic operations."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 39,
+     "cite": "[0087]",
+     "text": "“Inverted mode” is the strategy of performing mechanosynthesis by moving the workpiece to the appropriate tip, rather than the “conventional mode” of moving a tip to a stationary workpiece."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 39,
+     "cite": "[0088]",
+     "text": "“Mechanical force” may include applied mechanical forces having positive, negative, or zero magnitude. Chemical reactions driven by the application of mechanical force include reactions that are (1) driven through its reaction barrier by mechanically forcing reactants or products through the transition state, or (2) driven away from an undesired reaction by mechanically restraining potentially reactive sites from attaining closer physical proximity, or (3) allowed to occur by bringing potentially reactive sites into closer physical proximity when zero mechanical force is required to do so, as for example when no reaction barrier exists, or when thermal energy alone is sufficient to surmount the reaction barrier."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 39,
+     "cite": "[0089]",
+     "text": "“Mechanosynthesis” is the use of positional control and mechanical force to facilitate one or more site-specific chemical reactions involved in the building, alteration, or disassembly of a workpiece. Mechanosynthesis does not require voltage biases, but neither does it exclude their use."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 39,
+     "cite": "[0090]",
+     "text": "A “mechanosynthetic reaction” (sometimes referred to as a “reaction” when context makes it clear that the reaction is mechanosynthetic) is a chemical reaction carried out using mechanosynthesis."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 39,
+     "cite": "[0091]",
+     "text": "A “meta-tip” is a tool to which multiple tips are attached. For example, a meta-tip could be prepared using a conventional SPM probe with a flat surface on the end, which is then functionalized with multiple tips."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 39,
+     "cite": "[0092]",
+     "text": "A “modular tip” is a synthetic tip with a modular design, Modules include an active site, a body, feedstock, legs, and linkers. Some of these modules may be considered to be modular themselves. For example, a body contains an active site, and the active site may be said to include feedstock. Similarly, linkers can be thought of as part of the leg module. A modular tip may be referred to as simply a “tip” when context makes the type of tip clear. Modular tips are atomically-precise. Modular tips may not be uniform structures (e.g., a pure crystal of silicon or diamond, even if atomically-precise) as this renders the distinction between modules meaningless."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 39,
+     "cite": "[0093]",
+     "text": "A “positional device” is a device capable of exerting atomically-precise positional control on a mechanosynthetic tip, tool, or workpiece, and may include, but is not limited to, scanning probe microscopes (SPM) and atomic force microscopes (AFM) and related devices, a miniaturized or MEMS-scale SPM or AFM, a robotic arm mechanism of any size scale, or other appropriate manipulation system capable of atomically-precise positional control and appropriate force application. Many types of such positional devices are known to those skilled in the art, but for example, actuators can be based upon piezo elements or electrostatics. Metrology based upon piezo elements, or optical (e.g., interferometry), capacitive, or inductive techniques, or other technology, can be used for positional feedback if required."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 39,
+     "cite": "[0094]",
+     "text": "A “presentation surface” is a surface which can be used to bind feedstock and/or tips for use in mechanosynthesis, and as a base on which to build a workpiece. Although generally monolithic, a presentation surface can be composed of more than one material (e.g., gold and silicon could both be used where each has advantageous aspects), or composed of multiple non-adjacent surfaces. A presentation surface may be referred to simply as a “surface” when context makes the meaning clear. Presentation surfaces include the appropriate areas on handles and/or meta-tips. Presentation surfaces may be as close as possible to atomically-flat, but this is largely a convenience having to do with standard equipment design, and to facilitate higher speeds and reduced scanning (e.g., to create topological maps of non-flat surfaces), rather than an absolute requirement."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 39,
+     "cite": "[0095]",
+     "text": "“Site-specific” refers to a mechanosynthetic reaction taking place at a location precise enough that the reaction takes place between specific atoms (e.g., as specified in a build sequence). The positional accuracy required to facilitate site-specific reactions with high reliability is generally sub-angstrom. With some reactions that involve large atoms, or those with wide trajectory margins, positional uncertainty of about 0.3 to 1 angstrom can suffice. More commonly, a positional uncertainty of no more than about 0.2 angstroms is needed for high reliability. Some reactions, for example, due to steric issues, can require higher accuracy, such as 0.1 angstroms. These are not hard cutoffs; rather, the greater the positional uncertainty, the less reliable a reaction will be."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 40,
+     "cite": "[0096]",
+     "text": "A “structural atom” in an adamantane-like molecular structure refers to an atom comprising the cage framework, for example a carbon atom in an adamantane molecule. More generally, a structural atom is an atom that comprises part of the backbone or overall structure in a highly-bonded molecule."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 40,
+     "cite": "[0097]",
+     "text": "A “synthetic tip” is an atomically-precise tip manufactured via a bulk method, such as gas or solution-phase chemistry, rather than via mechanosynthesis. May be referred to as simply a “tip” when context makes the type of tip clear. A synthetic tip does not include uniform structures (e.g., a pure crystal of silicon or diamond, even if atomically-precise)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 40,
+     "cite": "[0098]",
+     "text": "A “terminating atom” refers to an atom that does not serve as a structural atom but absorbs unused valences of a structural atom. For example, a hydrogen atom in an adamantane molecule."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 40,
+     "cite": "[0099]",
+     "text": "A “three-dimensional” workpiece means a workpiece including a lattice of atoms whose covalent structure occupies more than a single plane, discounting bond angles. Under this definition, for example, most proteins (discounting e.g., disulfide inter- or intra-molecular bonds) and other polymers would be two dimensional, as would a plane of graphene. A covalent network solid or a carbon nanotube would be three-dimensional."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 40,
+     "cite": "[0100]",
+     "text": "A “tip”, with respect to the invention, as opposed to discussions of probe tips in the prior art, is a device for facilitating mechanosynthetic reactions which includes one or more “active” atoms or sites whose bonding pattern or electronic state is altered during a mechanosynthetic operation, and one or more “support” atoms whose bonding pattern or electronic state is not altered during a mechanosynthetic operation. The support atoms function to hold the active atoms in position, and may also modify the chemical behavior of the one or more active atoms. Tips do not include uniform, unsubstituted structures (e.g., a pure crystal of silicon or diamond); one of the benefits of atomically-precise synthetic tips is the ability to create a wide range of tips which, by virtue of their heterogeneous atom composition and/or bonding pattern, can have their feedstock and workpiece affinities precisely tailored. Unless otherwise specified, a tip of the invention is atomically-precise."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 40,
+     "cite": "[0101]",
+     "text": "“Tip swapping” is the process of connecting a new tip (and optionally handle structure) to a positional means. In conventional SPM, this may be done by, for example, manually changing the probe, or using equipment with probe magazines which hold multiple probes and can automate tip swapping."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 40,
+     "cite": "[0102]",
+     "text": "A “tool” comprises a tip, potentially bonded to a handle, controlled by a positional device or means."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 40,
+     "cite": "[0103]",
+     "text": "A “workpiece” is an apparatus, article of manufacture, or composition of matter, built via mechanosynthesis. A system may have more than one workpiece. A workpiece may be connected to, but does not include, other structures that were not created via mechanosynthesis, such as support substrates or pre-existing structures onto which a workpiece is built."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 40,
+     "cite": "[0104]",
+     "text": "A dot (“.”) is may be used in chemical structures herein to represent an electron, as in the radical group “.CH2”. For ease of typesetting, the notation herein generally omits subscript or non-standard characters. Superscript may be written using the “ˆ” character when required for clarity."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 40,
+     "cite": "[0105]",
+     "text": "Synthetic tips address many problems related to mechanosynthesis, with at least some embodiments having one or more of the following benefits: avoiding the need for a bootstrap process, avoiding the need to build tips via mechanosynthesis, avoiding the need for charging tips with feedstock during a build sequence, avoiding the need to dispose of reaction byproducts, reducing the design complexity of new tips, and reducing or avoiding the need for multiple positional means or tip switching. Synthetic tips may allow for faster reaction throughput and longer tip travel distances while still maintaining sub-Angstrom accuracy."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 40,
+     "cite": "[0106]",
+     "text": "Previous literature described (see, e.g., U.S. Pat. No. 9,244,097) a bootstrap process to facilitate the creation of atomically-precise tips from atomically-imprecise tips using mechanosynthesis. As an alternate method of directly preparing atomically-precise tips, we describe the bulk synthetic chemical preparation (and if appropriate, activation or depassivation) of various atomically-precise tips, which can then be bonded to a presentation surface or tool. In this way, atomically-precise tips can be obtained without first using atomically-imprecise tips."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 40,
+     "cite": "[0107]",
+     "text": "Not only can synthetic tips be prepared in a different manner than previously-known tips, but the manner in which synthetic tips are used can vary from the way previously-known tips are used in the literature. While synthetic tips could be used in the same manner as previously-described tips (e.g., via affixing a single synthetic tip to a handle), bulk preparation also allows other strategies to be employed."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 40,
+     "cite": "[0108]",
+     "text": "For example, previous proposals describe rechargeable tips, using strategies that use a relatively small number of tips over and over again during a build sequence. Because synthetic tips are available in very large numbers after synthesis, a large number of synthetic tips could be affixed to a presentation surface. The synthetic tips can be pre-charged (meaning, the tips are already in the chemical state desired to carry out the intended reactions, such as already being bonded to feedstock), and they can include large numbers of every type of tip required for a given build sequence. In this way, the presentation surface can serve purposes including being a feedstock depot (the synthetic tips already being charged with their feedstock), a trash depot (e.g., radical tips could be used to bind undesired atoms), and a varied collection of tips that can carry out all necessary reactions. Using a large number of synthetic tips allows each tip to be disposable, rather than requiring recharge for subsequent use, avoiding the need to design and perform recharge operations. Note that in this scenario the workpiece could be moved to the desired tip (“inverted mode”), rather than vice versa (“conventional mode”). Inverted mode is not necessary, but may be easier to implement on some equipment."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 40,
+     "cite": "[0109]",
+     "text": "Conceptually, if the workpiece moves and the presentation surface is stationary, one could think of a build sequence as a workpiece moving around a presentation surface, aligning itself with a desired tip, and then being brought into contact with that tip with sufficient force to trigger the desired reaction. The tip that was used is then spent, but the presentation surface can easily provide large numbers of tips (e.g., depending on the size of the surface and the tip density, greater than a thousand, or even a million, or a billion tips could be available). The build sequence proceeds by then aligning the workpiece with the next appropriate tip and bringing them together. This process repeats until the entire workpiece is built."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 41,
+     "cite": "[0110]",
+     "text": "Other variations on this concept are also possible, including a tool which holds multiple tips (a “meta-tip”). Such designs may be more efficient than a tool holding a single tip because multiple reactions could be performed without requiring tips swapping or tip recharge. Whether the tips reside on a presentation surface, or on a tool, and whether the presentation surface, the tool, the workpiece, or some combination thereof are coupled to positional means, the overarching point is a design which has at least some of the following characteristics and advantages, among others."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 41,
+     "cite": "[0111]",
+     "text": "First, a large number (e.g., more than a thousand even on a relatively small surface, while over a million or even over a billion is feasible on a larger presentation surface) of tips may be available, whether on, for example, a conventional presentation surface (e.g., a silicon wafer) or a “meta-tip.” These tips may all be the same, or could be of different types. If multiple tip types are present, they could be randomly intermingled, segregated by sector or position, or the tips could be laid out in an order which maximizes the efficiency of a build sequence (for example, by arranging different tip sectors in a manner that minimizes the movement required to perform the mechanosynthetic operations to build a particular workpiece, or considering a more general design, locating tips that are apt to be used more frequently closer to the workpiece, or locating tip sectors concentrically around a workpiece to minimize total tip to workpiece distance regardless of the order of reactions)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 41,
+     "cite": "[0112]",
+     "text": "Second, due to the large number of tips that are accessible to the system, tip recharge may be reduced or eliminated during a build sequence. Each tip can be used once, and then ignored once it is spent. By eliminating recharge reactions, shorter, faster build sequences are facilitated. If additional tips were still required, e.g., for a workpiece requiring a number of tips beyond that which are available, the strategy of mounting a large number of tips on a surface, allows the bulk replacement of tips by swapping in a new surface. In this scenario, tip recharge is not completely eliminated, but it is greatly reduced."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 41,
+     "cite": "[0113]",
+     "text": "Third, tips do not have to be swapped for chemical diversity because every type of tip needed for a given build sequence can be present somewhere on the presentation surface. This reduces or eliminates the need for multiple positional means, or the need to change the tool connected to a single positional means."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 41,
+     "cite": "[0114]",
+     "text": "Fourth, large numbers of atomically-precise tips can be prepared and affixed via bulk chemical reactions (and similarly bulk activated, if required). This eliminates the need for a bootstrap process that uses non-atomically-precise tips to create atomically-precise tips. Exemplary synthetic pathways for multiple synthetic tips are described herein."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 41,
+     "cite": "[0115]",
+     "text": "Fifth, system complexity is kept relatively low, and the number of tips and feedstock moieties available can be relatively high, as compared to other proposals for providing feedstock via, for example, methods which require cartridges or conveyor belts (Rabani, “Practical method and means for mechanosynthesis and assembly of precise nanostructures and materials including diamond, programmable systems for performing same; devices and systems produced thereby, and applications thereof,” US Patent App 20090056802, United States, 2009)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 41,
+     "cite": "[0116]",
+     "text": "Synthetic tips, if properly designed, can be chemically bound to a presentation surface, or “surface-mounted.” In addition to being amenable to synthesis using traditional chemistry, and carrying out one or more mechanosynthetic reactions, surface-mounted tips are designed to allow efficient bonding to a presentation surface or handle structure (often in large quantity)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 41,
+     "cite": "[0117]",
+     "text": "Surface-mounted tips differ from conventional tips in that they are not simply integral to a handle structure (e.g., commercially available tips often have a tip where the crystal structure of the tip is contiguous with the handle structure; essentially the tip is just the end of the handle structure), nor are they a handle structure to which only a trivial functionalization has been added (e.g., bonding a single CO to the end of an existing tip is a common technique to increase resolution). Surface-mounted tips differ from previously-proposed mechanosynthetically-created tips in that they do not require mechanosynthesis to manufacture (which has not only process implications, but structural and chemical implications since this requires that surface-mounted tips be able to bind to the desired surface without the aid of mechanosynthesis). Given this, while surface-mounted tips may look similar to other tips described in the literature, the requirements for the design of tips which are to be surface-mounted are substantially different."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 41,
+     "cite": "[0118]",
+     "text": "Binding orientation is one issue that must be addressed when designing surface-mounted tips. It would be preferable that the tips only be able to affix themselves to a surface in a manner that renders them properly oriented for use in mechanosynthetic reactions (although multiple possible orientations could be acceptable given the number of redundant tips that could be present—the system could then scan to identify and use only tips in the desired orientation, but this reduces efficiency)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 41,
+     "cite": "[0119]",
+     "text": "Active sites and legs are discussed in more detail herein, but are major factors in ensuring that correct binding orientation is obtained. For example, tips with radical active sites will be highly reactive in their active form. Due to this high reactivity, the active site may bind to the presentation surface instead of the legs. If this happens, the tip would end up bound to the presentation surface upside down. Reactive sites may also form bonds to other parts of the same tip, or may form bonds to other tips, such as two tips dimerizing. This problem may be avoided in the case of reactive active sites by binding the tip to the presentation surface with the active sites neutralized. The active sites can then be activated after leg binding. A similar issue presents itself with respect to the legs. The legs (or leg linkers) need to be reactive enough that they will bind to the presentation surface, but they must resist pathological reactions with themselves or other tips (e.g., forming a leg-leg bond instead of a leg-surface bond, or undergoing any other undesired reactions)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 41,
+     "cite": "[0120]",
+     "text": "Of course, there are other design consideration for tips, including that they perform the desired reactions reliably during a build sequence, but the above concerns are unique to bulk-synthesized, surface-mounted tips. Tips created using mechanosynthesis can largely avoid these problems via positional specificity. Further, mechanosynthetically-created tips have different design constraints due to the different methods of construction (e.g., as will be explained later, one way to attach synthetic tips to a surface involves chlorinating the surface, which introduces its own design constraints; chlorination could be avoided or removed as needed using mechanosynthesis). Although for different reasons, conventional tips avoid such problems (and therefore design constraints) as well. For example, tips which are simply ultra-sharp continuations of a handle structure need not worry about orientation or other pathological binding considerations."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 42,
+     "cite": "[0121]",
+     "text": "As will be seen in subsequent examples, surface-mounted tips can be thought of as being modular. Each tip can be thought of as having an active site (one or more atoms that bind a desired atom or group of atoms, which could be, e.g., feedstock for a donation reaction, or some moiety to be removed from a workpiece for an abstraction reaction), a body (adamantane or an adamantane derivative in our examples, but other structures obviously could be used), and one or more legs that serve to attach the tip to a surface. The feedstock of a tip could also be considered a module, as could the surface, which, although not technically part of the tip, can be important to tip design and function."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 42,
+     "cite": "[0122]",
+     "text": "To aid in understanding how tips function, and how they can be rationally designed, considerations pertinent to each module are described below. Note that the specific examples presented use adamantane, or adamantane-like bodies. Many reactions for functionalizing adamantanes are known, and their stiffness, small size, computational tractability and other favorable characteristics lead us to use these structures as exemplary tips, although obviously many different molecules, including other adamantane-like structures, could serve the same purpose."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 42,
+     "cite": "[0123]",
+     "text": "The active site’s main characteristic is that it reliably facilitate the desired reaction on a workpiece. However, how to efficiently synthesize and deliver tips to a surface, and prepare them for use, must be considered in their design. Particularly when containing a radical in its ready-to-use state, a tip may incorporate a protective cap (what in solution-phase chemistry is commonly referred to as a “protecting group”). This cap reduces the active site’s reactivity prior to use to avoid, for example, tip-tip dimerization, binding of the active site to the surface, or other undesired reactions. However, the cap must be removable so that the tip can be activated for use. One way to do this is to make the cap photo-cleavable, but obviously other methods are possible as long as they selectively remove the desired caps without harming any tips that may be present."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 42,
+     "cite": "[0124]",
+     "text": "The body serves as a point of attachment for the active site and legs, and can also serve to tune the active site, and to isolate it from other chemical influences. With respect to tuning the active site, for example, substitutions which alter bond lengths, angles, or electronegativity may be used to increase or decrease the affinity of the active site for its feedstock or whatever moiety it is intended to bind. With respect to isolation, the body provides chemical isolation from, for example, the legs. Such isolation is one of the aspects of this modular design paradigm that eases the design of new tips by allowing modules to be put together combinatorially. For example, if an active site and body combination that accomplish the desired reaction are already known, but one desires to use a different surface which necessitates different legs or linkers, it is likely that the new parts can be swapped in without redesign of the body and active site. If the legs were connected directly to the active site, their chemical nature would tend to have more of an effect on the active site, potentially requiring more redesign. Another characteristic of the body is that it is preferably rigid. A rigid body, while not required, will tend to be more versatile because a rigid body will better resist deformation when pressed on during reaction with a barrier that must be overcome."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 42,
+     "cite": "[0125]",
+     "text": "The legs serve to attach the body to the surface. The legs may have a geometry that permits them to bind the body to a surface without excessive strain, including surfaces that are functionalized prior to leg attachment. Functionalized surfaces, such as chlorinated Si, may make longer legs preferable because the, e.g., Cl atoms, can be directly under the tip body, make some clearance between the body of the tip and Si itself preferable. Legs are also preferably fairly rigid, and strong enough so that reactions require the application of force to overcome a barrier proceed reliably rather than the tip tilting, otherwise moving, or breaking a leg bond. While legs that are too short may be unable to bond to the surface reliably, legs that are too long may be too flexible, adding to the positional uncertainty of the tip atoms during a mechano-synthetic operation. Where issues such as surface functionalization and lattice mismatches are not issues, legs can be very short (e.g., a single oxygen atom could serve as each leg)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 42,
+     "cite": "[0126]",
+     "text": "With respect to the number of legs, the examples provided depict tips with three legs. This helps provide stability for reactions which require the application of force to the tip. Tips with less than three legs, or more than three legs, or tips where not all of the linkers have bound to the surface, could also be used as long as the required stability is provided. On a tip with multiple legs, each leg does not need to be identical."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 42,
+     "cite": "[0127]",
+     "text": "Legs may incorporate linkers (if not, the leg may be considered to also be the linker, or vice versa), which serve to provide a bridge between the rest of the leg and the body or surface. The advantage of linkers is in providing an appropriate chemistry with which to bind a surface. For example, if the rest of the leg does not have the necessary reactivity or bond strength with a surface, a linker may address the issue, as demonstrated with the exemplary O, NH, and S linkers in the examples herein. Linkers may also be used to adjust the geometry of the legs, for example, helping them to fit the surface lattice spacing better, or adjusting their length or rigidity."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 42,
+     "cite": "[0128]",
+     "text": "Feedstock serves as a source of atoms which can be added to a workpiece. Feedstock is chosen not only by what atom or atoms is contains, but by how it binds to a tip’s active site and the desired location on a workpiece. There are many ways, for example, to donate carbon atoms to a workpiece, and examples using C2, CH2, and CH3 are all presented herein. Context will determine which is most appropriate, though often more than one could be used to build a given workpiece, assuming appropriate alterations in the build sequence."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 42,
+     "cite": "[0129]",
+     "text": "The surface to which a tip is being attached has a variety of important characteristics, including chemical reactivity, surface smoothness, lattice spacing, linker-surface bond strength, and internal bond strength. In terms of chemical reactivity, the surface must bind to the linkers, but preferably no other parts of the tip. The surface’s lattice spacing must allow linker binding without excessive strain. The linker-surface bond strength must suffice so that the bonds do not rupture if pulling forces are required. And, the internal (surface-surface) bonds must be of sufficient strength that, if pulling forces are required, the entire tip, along with one or more surface atoms, is not ripped from the surface."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 43,
+     "cite": "[0130]",
+     "text": "With surface-mounted tips being broken down into the described modules, and the important functional characteristics of each module described, and realizing that this modular design at least to an extent isolates various modules from one another, facilitating module re-use and combinatorial creational of new tips, along with the examples presented herein, this provides a design paradigm for the design and synthesis of new tips that can be generalized well beyond the specific examples provided."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 43,
+     "cite": "[0131]",
+     "text": "FIG. 1 depicts one version of an abstraction tip that may be used to remove hydrogen, among other moieties, from a workpiece. Radical 101 is used to bind the moiety to be abstracted, and serves as the tip’s active site. The active site is connected to body 102, which in this example is adamantane. The body is connected to three methyl group legs, exemplified by leg 103. Each leg is connected to a sulfur linker, exemplified by linker 104. Each linker is bound to surface 105. As an abstraction tip, no feedstock is present."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 43,
+     "cite": "[0132]",
+     "text": "As a different example, with feedstock, FIG. 2 depicts one version of a tip capable of donating hydrogen to many atom types. Active site 201 is a Ge atom, which in this case is part of a substituted adamantane body 202. Trifluorobenzene (which could be viewed as trifluorophenol if the linkers were considered to be part of this structure) legs are used, exemplified by leg 203, and each leg is connected to an oxygen linker 204, which connects to surface 205. Feedstock 206 is connected to active site 201."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 43,
+     "cite": "[0133]",
+     "text": "Surface-mounted tips, along with their routes of synthesis, have been devised which carry out mechanosynthetic reactions while minimizing or eliminating issues such as tip dimerization and improper tip orientation during surface mounting, and allow for proper leg length and flexibility and proper linker chemistry to bind to the exemplary surfaces. These synthetic routes allow for the bulk manufacture of many diverse tip types, thereby facilitating many different mechanosynthetic reactions while having the benefits described for surface-mounted tips and the processes for using such tips."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 43,
+     "cite": "[0134]",
+     "text": "The set of tips described includes an abstraction tip with a C2-based active site (capable of extracting many atoms from many different types of workpieces, including, e.g., hydrogen from diamond), a hydrogen donation tip, a C2 donation tip, a Methyl donation tip, and a donation tip which can donate SiH3, GeH3, Si(CH3)3, or Ge(CH3)3, depending on the feedstock attached to the Ge active atom in its substituted adamantane body."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 43,
+     "cite": "[0135]",
+     "text": "To demonstrate the modular design described herein, various versions of each tip are depicted. Specially, each tip is shown with three trifluorobenzene legs which can be linked to either a chlorinated silicon surface, or partially-hydrogenated partially-chlorinated silicon surface, via an oxygen linker or an NH linker. A version of each tip is also depicted where the legs are methyl groups, using sulfur linkers to connect to an Au surface. These various versions provide for a variety of surface properties and surface attachment chemistries and demonstrate how a body can be used to isolate an active site from other changes in the tip, as the tips continue to function as desired after changing the legs, linkers, and surface."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 43,
+     "cite": "[0136]",
+     "text": "Note that a silicon surface has stronger intra-surface bonds than a gold surface. When placing tips on a gold surface, reactions that require substantial pulling forces (exceeding a few nN) may pull the tip from the surface (taking one or more gold atoms with it), or cause the tip to slide sideways across the surface. Nonetheless, the thiol linker chemistry is very accessible, making gold a useful surface (along with lead and other similar materials) if reactions with substantial pulling forces are not required."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 43,
+     "cite": "[0137]",
+     "text": "Each exemplary tip is shown in detail, bonded to an appropriate surface for the linker chemistry depicted, in FIGS. 3-17. FIGS. 3-7 all depict tips that use trifluorobenezene legs and oxygen linkers on a silicon surface. Specifically: FIG. 3 depicts an abstraction tip having a C2-radical-based active site, an adamantane body, trifluorobenzene legs, and oxygen linkers, on a silicon surface (all Si surfaces include, e.g., chlorinated, partially-chlorinated, and partially-hydrogenated, partially-chlorinated Si). This tip will be referred to as AbstractO. FIG. 4 depicts a hydrogen donation tip with hydrogen feedstock, a Ge-based active site incorporated into a substituted adamantane body, trifluorobenzene legs, and oxygen linkers, on a silicon surface. This tip will be referred to as HDonationO. FIG. 5 depicts a C2 donation tip with .C2 feedstock, and otherwise the same structure as FIG. 4. This tip will be referred to as C2DonationO. FIG. 6 depicts a methyl donation tip with .CH2 feedstock, and otherwise the same structure as FIG. 4. This tip will be referred to as MeDonationO. FIG. 7 depicts a donation tip that can be used to donate a variety of feedstock moieties depending on the identity of the M and R groups. M can be Si or Ge, and R can be H or CH3, allowing the tip to donate SiH3, GeH3, Si(CH3)3 or Ge(CH3)3. These tips will be referred to, respectively, as SiH3DonationO, GeH3DonationO, SiMe3DonationO, and GeMe3DonationO. FIG. 7 has otherwise the same structure as FIG. 4"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 43,
+     "cite": "[0138]",
+     "text": "FIGS. 8-12 depict tips with the same feedstock (if present), active site, bodies, and legs as FIGS. 3-7, respectively, but each tip in FIGS. 8-12 uses NH linkers instead of oxygen linkers to connect to a silicon surface. These tips will be referred to, respectively, as AbstractionNH, HDonationNH, C2DonationNH, MeDonationNH, and for the various versions of FIG. 12, SiH3DonationNH, GeH3DonationNH, SiMe3DonationNH, and GeMe3DonationNH."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 43,
+     "cite": "[0139]",
+     "text": "FIGS. 13-17 depict tips with the same feedstock (if present), active site, and bodies as FIGS. 3-7, respectively, but each tip in FIGS. 13-17 uses methyl legs and a sulfur atom linker to connect the tip to a gold surface. These tips will be referred to, respectively, as AbstractionS, HDonationS, C2DonationS, MeDonationS, and for the various versions of FIG. 17, SiH3DonationS, GeH3DonationS, SiMe3DonationS, and GeMe3DonationS."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 43,
+     "cite": "[0140]",
+     "text": "In addition to the use of these tips in their charged state, some tips could be used in their uncharged state. For example, several of the tips, such as the hydrogen donation tip, have a Ge radical active site in their discharged state. This can actually be a useful tip itself, for example, to break into a C═C bond."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 43,
+     "cite": "[0141]",
+     "text": "Exemplary synthetic pathways for each tip are depicted in FIGS. 18-41. Note that multiple synthetic pathways for the tip depicted in FIGS. 7, 12 and 17 due to the various possible combinations of M and R. Tips with radicals in their active form are synthesized with a protective cap. Procedures for cap removal are described herein."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 44,
+     "cite": "[0142]",
+     "text": "FIG. 18 depicts a synthetic pathway for AbstractO. The synthesis steps are as follows: Commercially available 1,3,5-trihydroxyadamantane reacts with 2,4,6-trifluorophenol while heated between 50-80° C. under acidic conditions to give OFA-1. Treating OFA-1 with an excess dimethyldioxirane (DMDO) in acetone at room temperature selectively oxidizes the tertiary C—H bond to give alcohol OFA-2. Using Koch-Haaf conditions (Stetter, H., Schwarz, M., Hirschhorn, A. Chem. Ber. 1959, 92, 1629-1635), CO is formed from the dehydration of formic acid by concentrated sulfuric acid between −5-0° C. The CO forms a bond with the tertiary carbocation formed from the dehydration of the bridgehead alcohol at room temperature. Upon aqueous workup the carboxylic acid OFA-3 is obtained. Esterification of the carboxylic acid OFA-3 with dry methanol and catalytic sulfuric acid between 40-60° C. yields the methyl ester OFA-4. The phenolic —OH groups in OFA-4 are protected with tert-butyldimethylsilyl chloride (TBSCl) in the presence of imidazole at room temperature to give the TBS-silyl ether OFA-5. Reduction of the methyl ester with LiAlH4 in tetrahydrofuran (THF) between 0° C. and room temperature gives the methyl alcohol OFA-6. Oxidation of the methyl alcohol to the aldehyde OFA-7 proceeds with catalytic tetrapropylammonium perruthenate ((Pr4N)RuO4, TPAP) and stoichiometric N-methylmorpholine-N-oxide (NMO). The presence of 4 Å powdered molecular sieves in the reaction mixture adsorbs any water present and decreases the probability of over-oxidation to the carboxylic acid (Ley, S. V., Norman, J., Griffith, W. P., Marsden, S. P., Synthesis, 1994, 639-666). Using a modified Corey-Fuchs procedure (Michel, P., Rassat, A. Tetrahedron Lett. 1999, 40, 8570-8581), the aldehyde in THF is added to a premixed solution of iodoform (CHI3), triphenylphosphine, and potassium tert-butoxide at room temperature in THF to undergo a carbon-carbon bond forming reaction to give the 1,1-diiodoalkene. Single elimination of the vinyl iodide with excess potassium tert-butoxide and careful temperature control (−78° C.-−50° C.) yields the iodoalkyne OFA-8. It is possible to form the terminal alkyne from this reaction if temperature is not carefully controlled, however, the terminal alkyne can be iodinated with N-iodosuccinimide/AgNO3 or, alternatively, with I2 in basic methanol. The final global deprotection of the TBS-silyl ether groups is performed with tetra-n-butylammonium fluoride (TBAF). Upon aqueous workup, the AbstractO tip with free phenol linkers OFA-9 is obtained."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 44,
+     "cite": "[0143]",
+     "text": "FIG. 19 depicts a synthetic pathway for HDonationO. The synthesis steps are as follows: FHD-104X is reduced by excess lithium aluminum hydride in THF solvent at 0° C., converting the germanium halide to the germanium hydride FHD-105. Tetra-n-butylammonium fluoride is used to deprotect the tert-butyldimethylsilyl protecting groups from FHD-105 in THF to yield the triphenol FHD-106, the HdonationOHtip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 44,
+     "cite": "[0144]",
+     "text": "FIG. 20 depicts a synthetic pathway for C2DonationO. The synthesis steps are as follows: The Grignard reagent ethynylmagnesium bromide in THF solution is added to FHD-104X dissolved in dry THF and cooled to −78 C dropwise with rapid stirring. The reaction is stirred for 1 hour, warmed to 0 C for 1 hour, and stirred for 1 hour at room temperature to form FC2D-101. FC2D-101 is dissolved in dry THF and cooled to −78 C. A solution of n-butyllithium in hexanes is added and the reaction is stirred for 1 hour at −78 C. A solution of iodine in dry THF is added and the reaction is allowed to warm to room temperature to yield FC2D-102. FC2D-102 is dissolved in THF and stirred rapidly at room temperature. Tetra-n-butylammonium fluoride is added and the reaction is stirred for 1 hour to yield FC2D-103, the C2DonationO tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 44,
+     "cite": "[0145]",
+     "text": "FIG. 21 depicts a synthetic pathway for MeDonationO. The synthesis steps are as follows: The germanium halide FHD-104X in THF solution is reduced with lithium metal to generate a lithiated germanium species in situ. The solution is then slowly added dropwise to a solution of 10-fold excess methylene iodide (CH2I2) in THF cooled to 0 C. This method of addition favors the formation iodomethyl germane FMeD-101 over methylene-bridged germanes. Stoichiometric tetra-n-butylammonium fluoride is used to deprotect the tert-butyldimethylsilyl protecting groups from FMeD-101 in THF to yield the triphenol FMeD-102, the MeDonationO tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 44,
+     "cite": "[0146]",
+     "text": "FIG. 22 depicts a synthetic pathway for SiH3DonationO. The synthesis steps are as follows: The phenols of FHD-106 are acylated with mesitoyl chloride in dichloromethane with pyridine base. (Corey et al., JACS 1969, 91, 4398) The mesitoate protecting group is utilized due to its stability to the lithiation conditions necessary for FSiHD-102. FSiHD-101 in dry THF solution is deprotonated with n-butyllithium in hexanes at −78 C and slowly warmed to room temperature. The resulting lithiated anion is silylated with chlorotriethoxysilane in THF solution to yield FSiHD-102. FSiHD-102 in dry THF solution is cooled to 0 C and lithium aluminum hydride in THF solution is added to cleave the mesitoate esters and reduce the triethoxysilyl group, yielding FSiHD-103, the SiH3DonationO tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 44,
+     "cite": "[0147]",
+     "text": "FIG. 23 depicts a synthetic pathway for GeH3DonationO. The synthesis steps are as follows: To form FGeHD-101, the germanium halide FHD-104X in THF solution is reduced with lithium metal to generate a lithiated germanium species in situ. The solution is then removed by syringe to separate the lithiated germanium species from the unreacted lithium metal and then slowly added dropwise to a solution of chloro(phenyl)germane (Ohshita, J.; Toyoshima, Y.; Iwata, A.; Tang, H.; Kunai, A. Chem. Lett. 2001, 886-887) in THF cooled to 0 C. It is necessary to separate the lithiated germanium species from excess lithium metal before addition to the trimethylgermanium chloride because lithium is capable of exchange reactions with germanium halides. FGeHD-101 is dephenylated with trifluoromethanesufonic acid in dichloromethane at 0 C. The crude reaction isolate after neutralization and workup is then dissolved in dry THF. The reaction is cooled to 0 C and lithium aluminum hydride is added dropwise to produce the germane FGeHD-102, the GeH3DonationO tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 44,
+     "cite": "[0148]",
+     "text": "FIG. 24 depicts a synthetic pathway for SiMe3DonationO. The synthesis steps are as follows: To prepare FSiHD-101, the phenols of FHD-106 are acylated with mesitoyl chloride in dichloromethane with pyridine base. (Corey et al., JACS 1969, 91, 4398) The mesitoate protecting group is utilitized due to its stability to the lithiation conditions necessary for FSiHD-102. FSiHD-101 in dry THF solution is deprotonated with n-butyllithium in hexanes at −78 C and slowly warmed to room temperature. The resulting lithiated anion is silylated with trimethylsilyl chloride in THF solution to yield FSiMeD-102. FSiMeD-102 in dry THF solution is cooled to 0 C and lithium aluminum hydride in THF solution is added to cleave the mesitoate esters, yielding FSiMeD-103, the SiMe3DonationO tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 45,
+     "cite": "[0149]",
+     "text": "FIG. 25 depicts a synthetic pathway for GeMe3DonationO. The synthesis steps are as follows: To prepare FGeMeD-101, the germanium halide FHD-104X in THF solution is reduced with lithium metal to generate a lithiated germanium species in situ. The solution is then removed by syringe to separate the lithiated germanium species from the unreacted lithium metal and then slowly added dropwise to a solution of trimethylgermanium chloride in THF cooled to 0 C. It is necessary to separate the lithiated germanium species from excess lithium metal before addition to the trimethylgermanium chloride because lithium is capable of exchange reactions with germanium halides. Stoichiometric tetra-n-butylammonium fluoride is used to deprotect the tert-butyldimethylsilyl protecting groups from FMeD-101 in THF to yield the triphenol FGeMeD-102, the GeMe3DonationO tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 45,
+     "cite": "[0150]",
+     "text": "FIG. 26 depicts a synthetic pathway for AbstractNH. The synthesis steps are as follows: Commercially available 1,3,5-trihydroxyadamantane reacts with 2,4,6-trifluoroaniline while heated to 50-80° C. under acidic conditions in 1,2-dichloroethane to give NFA-1. Treating NFA-1 tetrafluoroboric acid forms the tetrafluoroborate amine salt in situ to prevent oxidation of the amines. (Asencio, G., Gonzalez-Nuñez, M. E., Bernardini, C. B., Mello, R., Adam, W. J. Am. Chem. Soc., 1993, 115, 7250-7253) Following the salt formation, an excess of dimethyldioxirane (DMDO) in acetone at room temperature selectively oxidizes the tertiary C—H bond to give alcohol NFA-2. Using Koch-Haaf conditions (Stetter, H., Schwarz, M., Hirschhorn, A. Chem. Ber. 1959, 92, 1629-1635), CO is formed from the dehydration of formic acid by concentrated sulfuric acid. The CO forms a bond with the tertiary carbocation formed from the dehydration of the bridgehead alcohol. Upon aqueous workup the carboxylic acid NFA-3 is obtained. Esterification of NFA-3 with dry methanol and catalytic sulfuric acid yields the ester NFA-4 that can be reduced readily with diisobutylaluminum hydride. Di-tert-butyl-dicarbonate (Boc2O) is used to protect the —NH2 groups and to be removable by acid hydrolysis. Treating NFA-4 with Boc2O yields the protected compound NFA-5. Reduction of the methyl ester with LiAlH4 in tetrahydrofuran (THF) gives the methyl alcohol NFA-6. Oxidation of the methyl alcohol to the aldehyde NFA-7 proceeds with catalytic tetrapropylammonium perruthenate (TPAP) and stoichiometric N-methylmorpholine-N-oxide (NMO). The presence of 4 Å powdered molecular sieves in the reaction mixture adsorbs any water present and decreases the probability of over-oxidation to the carboxylic acid. (Ley, S. V., Norman, J., Griffith, W. P., Marsden, S. P., Synthesis, 1994, 639-666) Using a modified Corey-Fuchs procedure (Michel, P., Rassat, A. Tetrahedron Lett. 1999, 40, 8570-8581), the aldehyde in THF is added to a premixed solution of iodoform (CHI3), triphenylphosphine, and potassium tert-butoxide at room temperature in THF to undergo a carbon-carbon bond forming reaction to give the 1,1-diiodoalkene. Single elimination of iodide with careful temperature (−78° to −50° C.) and excess potassium tert-butoxide control yields the iodoalkyne NFA-8. It is possible to form the terminal alkyne from this reaction if temperature is not carefully controlled, however, the terminal alkyne can be iodinated with N-iodosuccinimide/AgNO3 or, alternatively, with I2 in basic methanol. The final global deprotection of the Boc-groups is performed with trifluoroacetic acid (TFA) in dichloromethane at RT. Upon aqueous workup, NFA-9, the AbstractNH tip, is obtained."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 45,
+     "cite": "[0151]",
+     "text": "FIG. 27 depicts a synthetic pathway for HDonationNH. The synthesis steps are as follows: NHD-103X in dry THF solution is cooled to 0 C and lithium aluminum hydride in THF solution is added to reduce the germanium halide, yielding NHD-104. NHD-104 is dissolved in dry MeOH and added to a reaction vessel suitable for pressurized hydrogenations. Palladium hydroxide catalyst is added and the vessel pressurized with hydrogen gas. Agitation of the reaction under the pressurized hydrogen atmosphere yields NHD-105, the HDonationNH tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 45,
+     "cite": "[0152]",
+     "text": "FIG. 28 depicts a synthetic pathway for C2DonationNH. The synthesis steps are as follows: (Triisopropylsilyl)acetylene is dissolved in dry THF and cooled to −78 C. n-Butyllithium solution in hexanes is slowly added dropwise to deprotonate the acetylene hydrogen. The solution is stirred for 1 hour, allowed to warm to room temperature, and is added dropwise to NHD-103X in dry THF solution cooled to −78 C. The reaction is stirred for 1 hour, warmed to 0 C for 1 hour, and stirred for 1 hour at room temperature to form NC2D-101. NC2D-101 is dissolved in dry MeOH and added to a reaction vessel suitable for pressurized hydrogenations. Palladium hydroxide catalyst is added and the vessel pressurized with hydrogen gas. Agitation of the reaction under the pressurized hydrogen atmosphere yields NC2D-102. The steric bulk of both the triisopropylsilyl group and the germaadamantane core prevent hydrogenation of the alkyne. NC2D-102 is dissolved in THF and stirred rapidly at room temperature. Tetra-n-butylammonium fluoride is added and the reaction is stirred for 1 hour at RT to yield NC2D-103. NC2D-103 is dissolved in MeOH and rapidly stirred. Potassium hydroxide is added and a solution of iodine in methanol is added slowly dropwise at RT to yield NC2D-104, the C2DonationNH tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 45,
+     "cite": "[0153]",
+     "text": "FIG. 29 depicts a synthetic pathway for MeDonationNH. The synthesis steps are as follows: The germanium halide NHD-103X in THF solution is reduced with lithium metal to generate a lithiated germanium species in situ. The solution is then slowly added dropwise to a solution of 10-fold excess methylene iodine (CH2I2) in THF cooled to 0 C. This method of addition favors the formation iodomethyl germane NMeD-101 over methylene-bridged germanes. NMeD-101 is dissolved in dry MeOH and added to a reaction vessel suitable for pressurized hydrogenations. Palladium hydroxide catalyst is added and the vessel pressurized with hydrogen gas. Agitation of the reaction under the pressurized hydrogen atmosphere yields NMeD-102, the MeDonationNH tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 45,
+     "cite": "[0154]",
+     "text": "FIG. 30 depicts a synthetic pathway for SiH3DonationNH. The synthesis steps are as follows: The germanium halide NHD-103X in THF solution is reduced with lithium metal at −78 C to generate a lithiated germanium species in situ. The solution is then removed by syringe to separate the lithiated germanium species from the unreacted lithium metal and then slowly added dropwise to a solution of excess chlorotriethoxysilane in THF cooled to 0 C and the reaction is allowed to warm to room temperature to produce NSiHD-101. NSiHD-101 in THF solution cooled to 0 C is reduced with lithium aluminum hydride to generate NSiHD-102. NSiHD-102 is dissolved in cyclohexane and added to a reaction vessel suitable for pressurized hydrogenations. Palladium hydroxide catalyst is added and the vessel pressurized with hydrogen gas. Agitation of the reaction under the pressurized hydrogen atmosphere yields NSiHD-103, the SiH3DonationNH tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 46,
+     "cite": "[0155]",
+     "text": "FIG. 31 depicts a synthetic pathway for GeH3DonationNH. The synthesis steps are as follows: The germanium halide NHD-103X in THF solution is reduced with lithium metal at −78 C to generate a lithiated germanium species in situ. The solution is then removed by syringe to separate the lithiated germanium species from the unreacted lithium metal and then slowly added dropwise to a solution of chloro(phenyl)germane in THF cooled to 0 C and the reaction is allowed to warm to room temperature to produce NGeHD-101. It is necessary to separate the lithiated germanium species from excess lithium metal before addition to the trimethylgermanium chloride to prevent lithium-halogen exchange reactivity with the chloro(phenyl)germane. NGeHD-101 is dephenylated with trifluoromethanesufonic acid at 0 C. The crude reaction isolate after neutralization of acid and workup is then dissolved in dry THF. The reaction is cooled to 0 C and lithium aluminum hydride is added to produce the germane NGeHD-102. NGeHD-102 is dissolved in cyclohexane and added to a reaction vessel suitable for pressurized hydrogenations. Palladium hydroxide catalyst is added and the vessel pressurized with hydrogen gas. Agitation of the reaction under the pressurized hydrogen atmosphere yields NGeHD-103, the GeH3DonationNH tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 46,
+     "cite": "[0156]",
+     "text": "FIG. 32 depicts a synthetic pathway for SiMe3DonationNH. The synthesis steps are as follows: The germanium halide NHD-103X in THF solution is reduced with lithium metal at −78 C to generate a lithiated germanium species in situ. The solution is then removed by syringe to separate the lithiated germanium species from the unreacted lithium metal and then slowly added dropwise to a solution of excess chlorotrimethylsilane in THF cooled to 0 C and the reaction is allowed to warm to room temperature to produce NSiMeD-101. NSiMeD-101 is dissolved in cyclohexane and added to a reaction vessel suitable for pressurized hydrogenations. Palladium hydroxide catalyst is added and the vessel pressurized with hydrogen gas. Agitation of the reaction under the pressurized hydrogen atmosphere yields NSiMeD-102, the SiMe3DonationNH tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 46,
+     "cite": "[0157]",
+     "text": "FIG. 33 depicts a synthetic pathway for GeMe3DonationNH. The synthesis steps are as follows: The germanium halide NHD-103X in THF solution is reduced with lithium metal at −78 C to generate a lithiated germanium species in situ. The solution is then removed by syringe to separate the lithiated germanium species from the unreacted lithium metal and then slowly added dropwise to a solution of trimethylgermanium chloride in THF cooled to 0 C and the reaction is allowed to warm to room temperature to produce NGeMeD-101. It is necessary to separate the lithiated germanium species from excess lithium metal before addition to the trimethylgermanium chloride to prevent lithium reduction of the germanium chloride. NGeMeD-101 is dissolved in cyclohexane and added to a reaction vessel suitable for pressurized hydrogenations. Palladium hydroxide catalyst is added and the vessel pressurized with hydrogen gas. Agitation of the reaction under the pressurized hydrogen atmosphere yields NGeMeD-102, the GeMe3DonationNH tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 46,
+     "cite": "[0158]",
+     "text": "FIG. 34 depicts a synthetic pathway for AbstractS. The synthesis steps are as follows: Commercially available 1-bromoadamantane undergoes a Friedel-Crafts alkylation with three separate benzene molecules under Lewis acidic conditions with AlCl3 at 90 C to yield SHA-1. Careful control of the stoichiometry of the tert-butyl bromide (2.0 equivalents) yields the 1,3,5-triphenyl adamantane (Newman, H. Synthesis, 1972, 12, 692-693). Treatment of SHA-1 in fluorobenzene and 50% aqueous NaOH solution with a phase transfer catalyst gives SHA-2. This reaction is selective at brominating the tertiary C—H bond in the adamantane (Schreiner, P. R.; Lauenstein, O.; Butova, E. D.; Gunchenko, P. A.; Kolomitsin, I. V.; Wittkopp, A.; Feder, G.; Fokin, A. A., Chem. Eur. J. 2001, 7, 4996-5003). Oxidative cleavage of the aromatic rings by RuCl3 in a biphasic mixture gives the tricarboxylic acid SHA-3 (Carlsen, P. H. J.; Katsuki, T.; Martin, V. S.; Sharpless, K. B., J. Org. Chem. 1981, 46, 3936-3938). Esterification of SHA-3 with dry methanol and catalytic sulfuric acid between 50-60° C. yields the triester SHA-4 that can be reduced readily with LiAlH4 at 0 C. The triol SHA-4 can react readily with triflic anhydride and pyridine in dichloromethane at 0 C to give the compound SHA-5. Condensing vinyl bromide at −20° C. with catalytic AlBr3 in the presence of the adamantyl bromide SHA-5 gives a dibromoethyladamantane intermediate that is used with potassium tert-butoxide to eliminate to give the alkyne SHA-6 (Malik, A. A.; Archibald, T. G.; Baum, K.; Unroe, M. R., J. Polymer Sci. Part A: Polymer Chem. 1992, 30, 1747-1754). Three equivalents of potassium thioacetate displaces the triflate groups in refluxing acetonitrile to give the compound SHA-7. The use of 18-crown-6 enhances the nucleophilicity of the thioacetate and can be added to enhance the rate of the reaction at room temperature (Kitagawa, T., Idomoto, Y.; Matsubara, H.; Hobara, D.; Kakiuchi, T.; Okazaki, T.; Komatsu, K., J. Org. Chem. 2006, 71, 1362-1369). Silver nitrate with N-iodosuccinimide in THF creates the iodoalkyne at room temperature and treatment with potassium hydroxide removes the acetate groups to give compound SHA-8, the AbstractS tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 46,
+     "cite": "[0159]",
+     "text": "FIG. 35 depicts a synthetic pathway for HDonationS. The synthesis steps are as follows: Allowing RHD-101 to react with benzene and trifluoroacetic acid (TFA) at room temperature in dichloromethane forms the triphenylgermaadamantane SHD-101. Oxidative cleavage of the phenyl groups with catalytic RuCl3 in a solvent mixture of CCl4, CH3CN, and H2O with periodic acid added as stoichiometric oxidant cleaves the aromatic rings between 0° C. to room temperature gives the tricarboxylic acid SHD-102. Esterification of SHD-102 with methanol with sulfuric acid between 40-60° C. gives the triester that can subsequently be reduced with LiAlH4 at 0° C. to give the triol SHD-103. Triol SHD-103 can be treated with triflic anhydride at 0° C. with pyridine in dichloromethane to give the triflate SHD-104. Displacement of the triflate groups with potassium thioacetate in the presence of 18-crown-6 ether in acetonitrile at room temperature yields the acetate-protected thiols in SHD-105. Treatment of SHD-105 with a Lewis acid source including to but not limited to SnCl4, I2, or Br2 in dichloromethane at −78° C. to room temperature selectively cleaves the Ge-Me bond to give the respective Ge—X (X═Cl, Br, I) bond in SHD-106X. Treating the resulting Ge—X compound SHD-106X with LiAlH4 at 0° C. to room temperature reduces the Ge—X bond as well as simultaneously removing the thioacetate groups from the thiols to yield the trithiol SHD-107, the HDonationS tip, upon aqueous workup."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 47,
+     "cite": "[0160]",
+     "text": "FIG. 36 depicts a synthetic pathway for C2DonationS. The synthesis steps are as follows: The intermediate SHD-106X from the HDonationS synthesis is allowed to react with an excess of commercially available ethynylmagnesium bromide solution in diethyl ether at 0° C. to room temperature to form SC2D-101. The excess of the ethynylmagnesium bromide ensures full deprotection of the thioacetate protective groups upon aqueous workup. The thiols in SC2D-101 are protected with acetate groups by treating it with acetic anhydride (Ac2O). The protected compound is then treated with silver nitrate and a slight excess of N-iodosuccinimide in THF at room temperature to form the iodoalkyne in SC2D-102. Subsequent treatment of the crude reaction mixture in basic methanol at room temperature yields SC2D-102, the C2DonationS tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 47,
+     "cite": "[0161]",
+     "text": "FIG. 37 depicts a synthetic pathway for MeDonationS. The synthesis steps are as follows: The synthesis of the thiol methyl donation tool begins from intermediate SHD-105. The acetate groups must be exchanged with a thioether protective group, specifically the tert-butyl group, to withstand the synthetic conditions. The acetate groups are removed in basic methanol at room temperature and then subsequently treated with an acidic solution of tert-butanol at room temperature to form SMeD-101. The Ge-Me bond is cleaved with a Lewis acid between −78° C. and room temperature with a reagent such as SnCl4, I2, or Br2 to yield the Ge—Cl bond in SMeD-102X. Treating SMeD-102X with lithium metal and excess CH2I2 at 0 C in THF at high dilution yields SMeD-103. Removal of the tert-butyl groups is performed with 2-nitrobenzenesulfenyl chloride in acetic acid and yields a mixed disulfide (Pastuszak, J. J., Chimiak, A., J. Org. Chem., 1981, 46, 1868. Quintela, J. M., Peinador, C., Tetrahedron, 1996, 52, 10497). Treating this disulfide with NaBH4 at low temperature between −20° C. and 0° C. allows the recovery of the free thiol SMeDon-104, the MeDonationS tip, without reducing the C—I bond."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 47,
+     "cite": "[0162]",
+     "text": "FIG. 38 depicts a synthetic pathway for SiH3DonationS. The synthesis steps are as follows: Intermediate SMeD-102X with t-butyl protected thiols is treated with lithium metal in THF at 0° C. followed by the addition of triethoxychlorosilane to give SSiHD-101 upon workup. This reaction forms the Ge—Si bond necessary for the SiH3 donor. The removal of the t-butyl groups is performed with the reagent 2-nitrobenzenesulfenyl chloride in acetic acid at room temperature to give the mixed disulfide. Treatment with LiAlH4 cleaves the S—S bonds to give the free thiols in SSiHD-102, the SiH3DonationS tip, as well as simultaneously reducing the triethoxysilyl group to —SiH3."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 47,
+     "cite": "[0163]",
+     "text": "FIG. 39 depicts a synthetic pathway for GeH3DonationS. The synthesis steps are as follows: Intermediate SMeD-102X with t-butyl protected thiols is treated with lithium metal in THF at −78° C. The solution is then removed by syringe to separate the lithiated germanium species from the unreacted lithium metal and then slowly added dropwise to a solution of PhGeH2Cl at 0° C. to give SGeHD-101 upon workup. This reaction forms the Ge—Ge bond necessary for the —GeH3 donor. Treatment of SGeHD-101 with triflic acid cleaves the Ph-Ge bond to form a Ge—OSO2CF3 bond. Triflic acid also removes of the t-butyl thioether groups. Treatment of the this intermediate with LiAlH4 in diethyl ether at 0° C. cleaves any S—S bonds to give the free thiols in SGeHD-102, the GeH3DonationS tip, as well as simultaneously reducing the Ge triflate group to —GeH3."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 47,
+     "cite": "[0164]",
+     "text": "FIG. 40 depicts a synthetic pathway for SiMe3DonationS. The synthesis steps are as follows: Intermediate SMeD-102X with t-butyl protected thiols is treated with lithium metal in THF at −78 C followed by the addition of chlorotrimethylsilane upon warming to 0° C. Upon workup the compound SSiMeD-101 with the Ge—Si bond is obtained. The removal of the t-butyl groups is performed with the reagent 2-nitrobenzenesulfenyl chloride in acetic acid at room temperature to give the mixed disulfide. Treatment with NaBH4 in chloroform and methanol at room temperature cleaves the S—S bonds to give the free thiols in SSiMeD-102, the SiMe3DonationS tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 47,
+     "cite": "[0165]",
+     "text": "FIG. 41 depicts a synthetic pathway for GeMe3DonationS. The synthesis steps are as follows: Intermediate SMeD-102X with t-butyl protected thiols is treated with lithium metal in THF at −78 C. The solution is then removed by syringe to separate the lithiated germanium species from the unreacted lithium metal and then slowly added dropwise to a solution of chlorotrimethylgermane at 0 C. Upon workup the compound SGeMeD-101 with the Ge—Ge bond is obtained. The removal of the t-butyl groups is performed with the reagent 2-nitrobenzenesulfenyl chloride in acetic acid at room temperature to give the mixed disulfide. Treatment with NaBH4 in chloroform and methanol at room temperature cleaves the S—S bonds to give the free thiols in SGeMeD-102, the GeMe3DonationS tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 47,
+     "cite": "[0166]",
+     "text": "FIG. 42 depicts a synthetic pathway for intermediate FHD-104X, from which some of the other syntheses begin. The synthesis steps are as follows: Cis,cis-Tri-O-alkyl 1,3,5-Cyclohexanetricarboxylate is reduced with lithium aluminum hydride in refluxing THF and vigorous mechanical stirring to yield cis,cis-1,3,5-tris(hydroxymethyl)cyclohexane HD-1. The procedure used resembles that found in Boudjouk et al., Organometallics 1983, 2, 336. Cis,cis-1,3,5-Tris(hydroxymethyl)cyclohexane, HD-1, is brominated utilizing triphenylphosphine dibromide generated in situ. This is accomplished by slow addition of bromine to a solution of the triol and triphenylphosphine in DMF at room temperature to yield cis,cis-1,3,5-tris(bromomethyl)cyclohexane, HD-2. The procedure used resembles that found in Boudjouk et al., Organometallics 1983, 2, 336. The tri-Grignard is generated in situ by adding cis,cis-1,3,5-Tris(bromomethyl)cyclohexane, HD-2, at room temperature to magnesium turnings in THF and heating to reflux. The tri-Grignard is then transferred to a second reaction vessel to separate the reagent from the excess magnesium turnings (Mg is capable of inserting into a Ge—Cl bond). Trimethylchlorogermane, previously dried over calcium hydride and degassed, is added slowly dropwise to the reaction at 0 C. After 2 hours, the reaction is warmed to room temperature for two hours, and finally refluxed overnight. The reaction yields predominantly cis,cis-1,3,5-Tris(trimethylgermylmethyl)cyclohexane, HD-3. Cis,cis-1,3-dimethyl-5-(trimethylgermylmethyl)cyclohexane and cis,cis-1-methyl-3,5-bis(trimethylgermylmethyl)cyclohexane are also produced in small amounts. The procedure used is similar to that found in Boudjouk and Kapfer, Journal of Organometallic Chemistry, 1983, 296, 339. HD-3 in benzene solution is subjected to redistribution reaction conditions using high purity anhydrous aluminum trichloride and heating to reflux to yield 1-methyl-1-germaadamantane. HD-3 side products cis,cis-1,3-dimethyl-5-(trimethylgermylmethyl)cyclohexane and cis,cis-1-methyl-3,5-bis(trimethylgermylmethyl)cyclohexane may also be present in the reaction or isolated and reacted under these conditions to yield HD-4 as well. HD-4 is reacted with excess “ketone free” dimethyldioxirane (DMDO) (Crandall, J. K. 2005. Dimethyldioxirane. e-EROS Encyclopedia of Reagents for Organic Synthesis.) in methylene chloride solution at −20 C to yield 1-methyl-3,5,7-trihydroxy-1-germaadamantane RHD-101. The absence of acetone in the reaction conditions allows for RHD-101 to precipitate from the reaction mixture, preventing over-oxidation. Upon completion of the reaction, isopropyl alcohol is used to quench the excess DMDO, preventing over-oxidation by excess reagent during reaction workup. RHD-101 is subjected to strongly acidic conditions in the presence of 2,4,6-trifluorophenol at room temperature to yield FHD-102. The use of Brønsted acidic conditions favors carbocation formation at the 3,5,7 bridgehead positions of the adamantane cage structure over redistribution reactivity at the germanium center. The 1-methyl group of FHD-102 can be exchanged with a halide (X═F, Cl, Br, I) with a variety of electrophilic reagents at low temperatures ranging from −78 C up to room temperature, depending on the halide desired. Reagents include, but are not limited to: Lewis acids such as SnCl4 or GaCl3, elemental halides Br2 and I2 with Lewis acid catalyst, alkyl halides such as isopropyl chloride with Lewis acid catalyst, and interhalogen compounds such as IBr and ICI. Furthermore, heavier FHD-103X halides can be converted to lighter halides utilizing the appropriate lighter silver halide (e.g. FHD-103Br and AgCl will produce FHD-103Cl). The phenolic alcohols of FHD-103X (X═F, Cl, Br, I) can be protected utilizing tert-butyl(chloro)diphenysilane and imidazole in DMF at RT to yield FHD-104X (X═F, Cl, Br, I)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 48,
+     "cite": "[0167]",
+     "text": "FIG. 43 depicts a synthetic pathway for intermediate NHD-103X, from which some of the other syntheses begin. The synthesis steps are as follows: RHD-101 is subjected to strongly acidic conditions such as methanesulfonic acid in the presence of 2,4,6-trifluoroaniline at room temperature to yield NHD-102. The use of Brønsted acidic conditions favors carbocation formation at the 3,5,7 bridgehead positions of the adamantane cage structure over redistribution reactivity at the germanium center. To form NHD-103, NHD-102 is alkylated at room temperature with 4-methoxybenzyl bromide in DMF with potassium carbonate base in the presence of potassium iodide. To form NHD-103X, the 1-methyl group of NHD-103 can be exchanged with a halide (X═F, Cl, Br, I) with a variety of electrophilic reagents at low temperatures ranging from −78 C up to room temperature depending on the halide desired. Reagents include, but are not limited to: Lewis acids such as SnCl4 or GaCl3, elemental halides Br2 and I2 with Lewis acid catalyst, alkyl halides such as isopropyl chloride with Lewis acid catalyst, and interhalogen compounds such as IBr and ICI. Furthermore, heavier NHD-103X halides can be converted to lighter halides utilizing the appropriate lighter silver halide (e.g. NHD-103Br and AgCl will produce NHD-103Cl)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 48,
+     "cite": "[0168]",
+     "text": "Two exemplary surfaces are described herein, silicon and gold. More specifically, partially-hydrogenated partially-chlorinated Si(111), and atomically-flat Au(111)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 48,
+     "cite": "[0169]",
+     "text": "Partially-hydrogenated partially-chlorinated Si(111) reduces the energy barrier to the tip molecules binding as compared to just chlorinated Si(111) because the hydrogen, being smaller in size than Cl, helps reduce steric congestion as the tip approaches the surface. Hydrogenation is preferably in the 33%-50% range, although wider ranges will work, as will not using hydrogenation at all. Partially hydrogenated partially-chlorinated Si(111) can be prepared in a number of ways. One is the following."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 48,
+     "cite": "[0170]",
+     "text": "Clean, atomically flat doped Si(111) surfaces are prepared by direct current annealing the Si for several hours at ~650C followed by rapid heating to ~1200C for 1-20 sec while keeping the chamber pressure <1×10-9 Torr. This procedure gives the 7×7 reconstructed Si(111) surface, as in J Phys Cond Matt 26, 394001 (2014)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 48,
+     "cite": "[0171]",
+     "text": "The Si(111) surface can be chlorinated by depositing Cl2 from an electrochemical cell similar to the one in J Vac Sci and Tech A 1, 1554 (1983), while the Si(111) is heated to ~400 C. Atomically flat halogenated Si(111) surfaces have been prepared this way, as in Phys Rev Lett 78, 98 (1997)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 48,
+     "cite": "[0172]",
+     "text": "Si(111)-Cl surfaces can then be partially hydrogenated by exposing the surface to 600 L of atomic hydrogen from a H2 cracker, as in Surf Sci 402-404, 170-173 (1998), with the Si(111)-Cl at room temperature."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 48,
+     "cite": "[0173]",
+     "text": "Clean, atomically flat Au(111) surfaces are prepared by repeated cycles of sputtering and annealing a single crystal Au(111) surface, as in Phys Rev Lett 80, 1469 (1998)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 48,
+     "cite": "[0174]",
+     "text": "Once synthesized, a tip can be bound to a presentation surface, a meta-tip surface, or a single-tip tool surface. Many ways of binding tips to surfaces are possible, and these may vary with the exact nature of the tip and the surface."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 48,
+     "cite": "[0175]",
+     "text": "One method of depositing isolated tips on a surface is via thermal evaporation in vacuum. In this technique, purified molecules in the form of a solid or liquid are heated up in a vacuum chamber until they evaporate as a gas of isolated molecules. By placing the presentation surface within this gas, individual tips will adhere to the surfaced. (See tetramantane deposition in Nature Materials 7, 38 (2008)). This method has the advantage of depositing molecules without surface contamination from a solvent and can be used with masks to pattern a surface."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 48,
+     "cite": "[0176]",
+     "text": "The tips having sulfur or thiol-based linkers will bond to gold spontaneously at room temperature. The tips with O or NH linkers designed to bond to chlorinated silicon surfaces require heating of the surface to overcome reaction barriers (hence the partial hydrogenation being favored as it keeps the activation barrier as far below the tip decomposition temperature as possible)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 48,
+     "cite": "[0177]",
+     "text": "A simple way to evaporate molecules is to place the molecules in a glass or alumina crucible with a tungsten wire wrapped around the crucible. Passing a current through the wire heats the crucible and molecules, generating a molecular gas that exits the front of the crucible. A thermocouple on the crucible measures its temperature. A quartz crystal microbalance can be used to determine how much is evaporating as a function of time and temperature."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 48,
+     "cite": "[0178]",
+     "text": "This is just one example of how tips could be bonded to a surface. Such techniques, including how to create sectors of specific molecules, are well-known in the respective arts. (Zahl, Bammerlin et al., “All-in-one static and dynamic nanostencil atomic force microscopy/scanning tunneling microscopy system,” Review of Scientific Instruments, 2, 2005; Sidler, Cvetkovic et al., “Organic thin film transistors on flexible polyimide substrates fabricated by full-wafer stencil lithography,” Sensors and Actuators A: Physical, 2, 2010; Vazquez-Mena, Gross et al., “Resistless nanofabrication by stencil lithography: A review,” Microelectronic Engineering, 2015; Yesilkoy, Flauraud et al., “3D nanostructures fabricated by advanced stencil lithography,” Nanoscale, 9, 2016)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 49,
+     "cite": "[0179]",
+     "text": "Tips, particularly those with exposed radicals at their active site, may be bonded to a surface in an inactive form. One method of activating such tips is through photo-cleavage of the structure. For example, the halogen-capped tip examples herein can be activated through exposure to 254 nm light. FIG. 44 depicts an activating reaction for halogen-capped tips. Other wavelengths and chemistries can be used. For example, if different synthetic steps were used, a tip could be protected with a Barton ester, which can then be cleaved, activating the tip, with 365 nm light. FIG. 45 provides an example of the activation reaction that could be used with a Barton ester. Alternative activation techniques may be preferred in some situations. As one example of an alternative, dehalogenation of molecular sites using voltage pulses from an STM tip is taught by Zhong, Q., Ihle, A., Ahles, S. et al., “Constructing covalent organic nanoarchitectures molecule by molecule via scanning probe manipulation.”, Nat. Chem. 13, 1133-1139 (2021). https://doi.org/10.1038/s41557-021-00773-4."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 49,
+     "cite": "[0180]",
+     "text": "While not the only way to remove a tip cap, photo-activation is convenient in that different areas of a surface can be masked, or exposed to different wavelengths, making this a versatile technique even when multiple types of tips are desired on a single surface."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 49,
+     "cite": "[0181]",
+     "text": "Other examples are provided herein of synthetic routes to halogen-capped tips, and how to activate them. To demonstrate another chemistry for synthesizing tips with protective caps, the Barton ester is an alternative that fragments upon being irradiated with, for example, 355-365 nm wavelength light to give the carbon centered radical, CO2, and the pyrithiyl radical. (Barton, D. H. R., Crich, D., Potier, P. Tetrahedron Lett., 1985, 26, 5943-5946. For a review of thiohydroxamic acids chemistry see: Crich, D., Quintero, L. Chem. Rev. 1989, 89, 1413-1432) These types of activated molecules can be made from the described compounds and one such synthetic route is described below, resulting in the Barton ester version of the AbstractionO tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 49,
+     "cite": "[0182]",
+     "text": "FIG. 46 depicts the synthesis of the Barton ester AbstractionO tip, which is as follows: To synthesize the Barton ester for photoactivation, propynoic acid OFAB-1 is made from OFA-7 using the traditional Corey-Fuchs procedure and quenching by bubbling gaseous CO2 through the reaction mixture. (Corey, E. J., Fuchs, P. L. Tetrahedron Lett. 1972, 36, 3769-3772) The first step forms the 1,1-dibromoalkene in solution at −78 C. The addition of 2 more equivalents of butyllithium forms the lithium acetylide in the reaction mixture. By bubbling with the carbon dioxide the desired carboxylic acid OFAB-1 is obtained after an aqueous workup. To make the Barton ester, carboxylic acid derivative OFAB-1 is activated to the acid halide by oxalic acid and catalytic N,N-dimethylformamide (DMF) in dichloromethane at room temperature. To this reaction mixture the sodium pyrithione salt is added to the mixture to form the desired ester bond in compound OFAB-2. The Barton ester is unstable to aqueous acidic and basic media, so careful control of reaction conditions must be taken when removing the protective groups. Multiple techniques are possible for removal of silyl ethers such as OFAB-2 that are pH sensitive. One is to use more labile silyl ethers such as trimethylsilyl- (TMS-) or triethylsilyl- (TES-) ethers in place of the more stable TBS silyl ethers. Another method is to use OFAB-2 and catalytic solid tetra-n-butylammonium fluoride (TBAF) or cesium fluoride in 100:1 THF-buffer solution to produce OFAB-3. A solution of K2HPO4 buffered at pH=7.1 could be used in the TBAF deprotection. (DiLauro, A. M.; Seo, W.; Phillips, S. T., J. Org. Chem. 2011, 76, 7352-7358) This decreases the risk of hydrolyzing the Barton ester bond and increases the likelihood of obtaining the free phenols in OFAB-3, the Barton ester AbstractionO tip."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 49,
+     "cite": "[0183]",
+     "text": "One of the ways in which surface mounted tips can be used is depicted in FIG. 47. This figure is diagrammatic and not to scale. In FIG. 47, handle 4701 is connected to surface 4702. Surface 4702 is optional, serving to provide the desired materials and chemistry to bind workpiece 4703 in the case where the material of the handle is unsuitable for doing this directly. It is possible to bind workpiece 4703 directly to handle 4701. Handle 4701 would be connected to a positional means (not shown) for the purposes of moving handle 4701, and thereby workpiece 4703 with respect to tips (of which tip 4704 is representative) mounted on surface 4705."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 49,
+     "cite": "[0184]",
+     "text": "In the depicted position, workpiece 4703 could be descending upon a tip, or it could be rising from just having used a tip. Regardless, the point is that surface 4705 can contain many tips, of many different types, including non-functional tips (which either failed to synthesize correctly or have already been used). Knowledge of tip position, for example, because sectoring was used to place certain tip types in certain locations, or via scanning the surface (before or during a build sequence), allows the workpiece to be moved to a desired tip, at which time a mechanosynthetic reaction occurs, and the workpiece then moves to the next desired tip. This process is repeated until the workpiece is complete."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 49,
+     "cite": "[0185]",
+     "text": "Another way to use surface-mounted tips is to create a meta-tip, which is a handle upon which a plurality of tips are mounted, either directly or via a surface. FIG. 48 depicts this mode of using surface-mounted tips, where handle 4801 is connected to (optional) surface 4802. Handle 4801 is also connected to a positional means (not shown). Tips, of which tip 4804 is representative, are shown mounted on surface 4802, but could be mounted directly to handle 4801. In this scenario, the tips move to act upon workpiece 4803, which resides upon surface 4805."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 49,
+     "cite": "[0186]",
+     "text": "The main difference between the scenarios of FIG. 47 and FIG. 48 is whether the workpiece moves or the tips move. In actuality, it is possible that both move (e.g., one for course adjustments, one for fine), and the distinction is mainly one of equipment design."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 49,
+     "cite": "[0187]",
+     "text": "FIG. 48 perhaps provides the clearest illustration of the advantages surface-mounted tips have over previous mechanosynthesis techniques. If surface 4802 only had one tip affixed to it, it would be analogous to the tips commonly used for mechanosynthesis. In this scenarios, it is obvious that to create complex workpieces, the affixed tip would have to a) be capable of multiple reactions and b) be regenerated frequently, or, the affixed tip would have to be frequently swapped to connect other tips to the positional means (not shown). Using either the scenario of FIG. 47 or FIG. 48 (and modifications thereof which would be obvious given the teachings herein), many tips are available to provide mechanosynthetic reactions, potentially (depending on the number of tips initially available and the number of reactions required to build the workpiece) without tip recharge and without tip swapping. Any reduction in tip recharge or tip swapping can help decrease the average time it takes to perform a reaction."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 50,
+     "cite": "[0188]",
+     "text": "Note that surface-mounted tips could be used to build other atomically-precise tips, including building them directly onto the end of a handle or probe. This is another manner in which surface-mounted tips could be used to avoid a bootstrap sequence that uses non-atomically-precise tips."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 50,
+     "cite": "[0189]",
+     "text": "Efficient mechanosynthesis has a different set of requirements than typical SPM work. Typical SPM work involves analysis rather than manufacture, the point generally being to scan specimens to create an image or collect other data. Scan speed is frequently the limiting factor, and increasing scan speed is an active area of research (Dai, Zhu et al., “High-speed metrological large range AFM,” Measurement Science and Technology, 9, 2015)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 50,
+     "cite": "[0190]",
+     "text": "Scan speed is less important to systems for mechanosynthesis as long as the system can obtain the necessary accuracy without scanning. Ideally, other than perhaps scanning the surface initially to locate and identify tips, and perhaps scans of very small areas to check that a reaction occurred correctly, systems adapted for mechanosynthesis would not need to scan. Doing away with scanning for position refinement, and instead using metrology that allows the requisite point-to-point accuracy (meaning, moving directly from one tip or workpiece location to another, without using scanning in between to refine position), would considerably speed up the process of mechanosynthesis."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 50,
+     "cite": "[0191]",
+     "text": "Note that while the ideal attributes for analytical or metrological SPM are different than those for systems for mechanosynthesis, even previous work on mechanosynthesis did not provide systems well-adapted for such work, due to the simple and low-volume nature of the work being performed."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 50,
+     "cite": "[0192]",
+     "text": "Other useful adaptations that are somewhat unique to the requirements of mechanosynthesis include reducing tip recharge and reducing tip swapping (which does occur in more conventional uses of SPM equipment, but frequently because a tip has been damaged, not because many tips of different chemical natures are required, making the required frequency of tip swapping quite different). Surface mounted tips have been discussed herein as one way to reduce the need for tip recharge and tip swapping."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 50,
+     "cite": "[0193]",
+     "text": "With respect to obtaining the necessary point-to-point accuracy (ideally sub-Angstrom, although less accuracy could be coupled with scanning of very small areas to precisely localize the tip), positional means capable of very high accuracy of large distances are available. For example, using Fabry-Perot interferometry, picometer-level accuracy has been shown to be possible at distances of 50 mm. (Lawall, “Fabry-Perot metrology for displacements up to 50 mm,” J. Opt. Soc. Am. A, 12, OSA, 2005)"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 50,
+     "cite": "[0194]",
+     "text": "However, since mechanosynthetic reactions are generally not occurring exactly at the point being measured (which is generally, e.g., a reflective flat when using laser interferometry), such metrology still has to be carefully implemented to avoid, e.g., Abbe error which can be induced by slightly non-linear movement of the tip or workpiece with respect to, e.g., the reflective flat. One way to address this issue it to measure not only the X, Y and Z coordinates of the reflective flat, but also to measure (and so be able to account for) any rotation that might be occurring around these axis as well."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 50,
+     "cite": "[0195]",
+     "text": "One way to measure both linear and angular position is to use 6 interferometers (e.g., Michelson or Fabry-Perot optical interferometers). FIG. 49 illustrates one way interferometers can be used to measure six degrees of freedom (X, Y, and Z, and rotation about each of those axes)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 50,
+     "cite": "[0196]",
+     "text": "In FIG. 49, Reflective mirrors 4901-4906 and, and their respective beams, BeamZ1 4907, BeamZ2 4908, BeamZ3 4909, BeamX1 4910, BeamY1 4911 and Beam Y2 4912 can be used together to determine position in all six degrees or freedom. The spacing between various pairs of beams must be known to compute rotations. In this scenario, BeamX1 provides the X position. BeamY1 or BeamY2 provide the Y position. BeamZ1, or BeamZ2, or BeamZ3 provides the Z position. BeamZ1 and BeamZ2, together with the distance between the two beams allows the rotation about the X axis to be calculated. BeamZ2 and BeamZ3, together with the distance between the two beams allows the rotation about the Y axis to be calculated. And, BeamY1 and BeamY2, together with the distance between the two beams allows the rotation about the Z axis to be calculated."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 50,
+     "cite": "[0197]",
+     "text": "Coupling the ability to provide, ideally, sub-Angstrom linear distance measurement over millimeter distances, while also measuring and accounting for angular errors, with, for example, a microscope that operates at 4K (room temperature is feasible but more technically challenging) in ultra-high vacuum, using a qPlus sensor, provides for a system that can access precise locations on large presentation surfaces with a greatly-reduced need to use scanning and image recognition to refine the relative position of a tip and the workpiece. These adaptations themselves are valuable for mechanosynthesis. Using such equipment with surface-mounted tips and the processes described herein provides systems adapted for mechanosynthesis that can provide much greater reaction throughput than conventional systems."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 50,
+     "cite": "[0198]",
+     "text": "FIG. 50 depicts a synthetic pathway for a tip (AdamRad-Br) having an adamantane radical with a bromine feedstock. One use of such a tip is to donate bromine atoms to satisfy the valences of depassivated atoms on a workpiece. Molecular modeling indicates that employing bromine atoms rather than hydrogen atoms to passivate sites on a workpiece should provide more reliable reactions with the particular tips taught herein and in Applicant’s earlier patents, U.S. Pat. Nos. 8,171,568; 8,276,211; 9,244,097; 9,676,677; 10,067,160; 10,072,031; 10,138,172; 10,197,597; 10,308,514; 10,309,985; 10,822,229; 10,822,230; 11,148,944; and 11,155,461, all incorporated herein by reference"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 50,
+     "cite": "[0199]",
+     "text": "The synthesis for the AdamRad-Br tip is depicted in FIG. 50. The synthesis starts with chemical SHA-2, previously described in FIG. 34 and the respective synthesis. SHA-2 can be iodinated at the 4-position of the aromatic rings using I2 and [bis(trifluoroacetoxy)iodo]benzene in CHCl3 to yield AdBr-1. Sonogashira coupling conditions of AdBr-1 with triisopropylsilylacetylene (TIPS acetylene) produces the protected alkyne AdBr-2. Deprotection of the TIPS group proceeds with TBAF in THF to make the terminal acetylene AdBr-3. The terminal acetylene is deprotonated with n-butyllithium at low temperature and paraformaldehyde is added to produce the tripropargylic alcohol AdBr-4, also called AdamRad-Br. Note that this version of AdamRad-Br depicts a new leg structure, phenylpropargyl alcohol, which has been found to be useful in conjunction with adamantane-based bodies and silicon surfaces and could be coupled with any of the other tips described herein."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 51,
+     "cite": "[0200]",
+     "text": "FIG. 51 shows the synthetic pathway to an abstraction tip (PAO-AbstI) with propanol legs and a C2I active site where the iodine atom can be removed by UV light to activate after deposition onto the presentation surface. Beginning with commercially available 1,3,5tribromoadamantane, radical addition of the adamantane core to an excess of acrylonitrile using AIBN initiator with tributyltin hydride in toluene for 3 hours at 110° C. yields PAN-101. Hydrolysis of PAN-101 with hydrochloric acid solution for 48 hours at 100° C. gives PAO-100. Esterification of PAO-100 with sulfuric acid and methanol gives PAO-101. Radical fluorination of PAO-101 with catalytic N,N-dihydroxypyromellitimide and two equivalents of Selectfluor in acetonitrile for 4 hours at 50° C. gives PAO-107 (Org. Lett. 2013, 15, 9, 2160-2163). Alkynyldefluorination of PAO-107 with catalytic tris(pentafluorophenyl)borane and excess trimethylsilyl acetylene for 2 hours at 50° C. in nitromethane gives PAO-108. (Org. Lett. 2017, 19, 1934-1937) Reduction of PAO-108 with lithium aluminum hydride for 2 hours at 65° C. in tetrahydrofuran gives PAO-110. Protection of the three alcohols of PAO-110 with tert-butyldimethylsilyl chloride in a solution of 4:1 dichloromethane:dimethylformamide for 16 hours at 25° C. gives PAO-111. Iodination of the terminal alkyne in PAO-111 with silver nitrate and N-iodosuccinimide in acetone at 25° C. for 2 hours gives PAO-112. Finally, the deprotection of PAO-112 with dilute hydrochloric acid in a solution of methanol and tetrahydrofuran for 2 hours at 25° C. gives PAO-AbstI, which has a C2I group as the active site."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 51,
+     "cite": "[0201]",
+     "text": "FIG. 52 shows the synthetic pathway to a molecular tool (MAO-MeDonI) that employs methanol legs and having a methylene iodide feedstock moiety attached to a substituted germanium active site, where the iodine atom can be removed by UV light to activate the molecular tool after deposition onto the presentation surface. Beginning with commercially available GeCl4 in THF, addition of chloroiodomethane and iPrMgCl—LiCl at reduced temperature and allowing the mixture to warm yields tetrakis(chloromethyl)germane. (1a,3a,5a)-1,3,5-cyclohexanetricarboxylic acid undergoes esterification with sulfuric acid and ethanol at reflux, giving triethyl (1a,3a,5a)-1,3,5-cyclohexanetricarboxylate. The core is assembled through reduced temperature treatment of triethyl (1a,3a,5a)-1,3,5-cyclohexanetricarboxylate with lithium diisopropylamide (LDA; generated via the in situ addition of n-BuLi to diisopropylamine at reduced temperature), followed by addition of tetrakis(chloromethyl)germane and subsequent reflux in THF, giving MG-110. MG-110 is reduced with excess diisobutylaluminum hydride (DIBAL) in a DCM/toluene mixture at reduced temperature, allowing to warm and yielding MG-130. MG-130 is refluxed in acetone in presence of an excess of sodium iodide, giving MAO-GeRad-CH2I (MAO-MeDonI)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 51,
+     "cite": "[0202]",
+     "text": "FIG. 53 shows the synthetic pathway to a molecular tool (EAO-C2DonI or EAO-GeHAbstI) that will employ ethanol legs and having an alkynyl iodide feedstock moiety attached to a substituted germanium active site, where the iodine atom can be removed by UV light to activate the molecular tool after deposition onto the presentation surface. Beginning with 1-methyl-germaadamantane, HD-4 (discussed above with regard to FIG. 42), a chlorodemethylation reaction with trichlorosilane in the presence of chloroplatinic acid catalyst in a high-pressure reactor at elevated temperature yields HD-4-Cl. Nucleophilic substitution of (4-(tert-butyl)phenyl)magnesium bromide with HD-4-Cl in refluxing tetrahydrofuran yields HD-500. Triple functionalization of the HD-500 core structure is accomplished via carbenoid C—H insertions by slow addition of excess ethyl diazoacetate to a mixture of HD-500, dirhodium tetraoctanoate catalyst, and ligand pivalonitrile in neohexane solvent to produce HD-510. HD-510 is reduced with excess diisobutylaluminum hydride (DIBAL) in a DCM/toluene mixture at reduced temperature, allowing to warm, and yielding HD-520. HD-520 alcohol functional groups are protected with tert-butylchlorodimethylsilane in dimethylformamide solvent and imidazole base to yield BD-10. Chlorodephenylation of BD-10 is accomplished using iodine monochloride in dichloromethane solvent at reduced temperature giving germyl chloride BD-21. Nucleophilic substitution of sodium acetylide with germyl chloride BD-21 in tetrahydrofuran at room temperature yields C2OD-200. Deprotonation of C2OD-200 using tert-butyllithium at reduced temperature followed by addition of iodine yields iodoalkyne C2OD-210. Triple deprotection of C2OD-210 with tetra-n-butylammonium fluoride at room temperature yields triol EAO-C2DonI/EAO-GeHAbstI."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 51,
+     "cite": "[0203]",
+     "text": "As examples of preparing surfaces and depositing tips onto such surfaces, experiments were done employing commercially available silicon (100) wafers for depositing the tips discussed above with regard to FIGS. 51-53 having primary alcohols as legs. Three series of experiments were done, using different equipment. After outgassing the system in which the deposition was to take place (at 600-650 C for 10-15 hours), the silicon wafers were flash annealed at temperatures from 800-1250 C for times ranging from 2-600 seconds prior to deposition. To prepare for deposition, a crucible containing the molecular tips was outgassed at the deposition temperature for a time from 2 to 30 minutes (typically until such time as the pressure in the deposition chamber stabilized). The wafer was then exposed to the crucible under the pressure, temperature, and time conditions as indicated in Table 1."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 51,
+     "cite": "[0203]",
+     "table": [
+      [
+       "TABLE 1"
+      ],
+      [
+       "",
+       "Series 1"
+      ],
+      [
+       "Molecules",
+       "EAO-C2DonI",
+       "MAO-MeDonI",
+       "PAO-HAbstI"
+      ],
+      [
+       "Deposition temperature",
+       "77 C. to 85 C.",
+       "43.2 C. to 46 C.",
+       "52.5 C. to 54.7 C."
+      ],
+      [
+       "Partial pressure",
+       "3e−10 mB to 5E−10 mB",
+       "3.7e−9 mB",
+       "2.31e−9 mB"
+      ],
+      [
+       "Deposition time",
+       "10 s to 25 s",
+       "60 s to 100 s",
+       "100 s to 150 s"
+      ]
+     ]
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 52,
+     "cite": "[0203]",
+     "table": [
+      [
+       "TABLE 1-continued"
+      ],
+      [
+       "",
+       "Series 2"
+      ],
+      [
+       "Molecules",
+       "MAO-MeDonI",
+       "PAO-HAbstI"
+      ],
+      [
+       "Deposition temperature",
+       "50 C.",
+       "40 C."
+      ],
+      [
+       "Deposition pressure",
+       "6e−10 mB",
+       "6.5e−10 mB to 2.5e−9 mB"
+      ],
+      [
+       "Deposition time",
+       "10 s to 30 s",
+       "10 s to 30 s"
+      ],
+      [
+       "",
+       "Series 3"
+      ],
+      [
+       "Molecules",
+       "EAO-C2DonI",
+       "MAO-MeDonI",
+       "PAO-HAbstI"
+      ],
+      [
+       "Deposition temperature",
+       "77 C.",
+       "40 C. to 85 C.",
+       "55 C. to 60 C."
+      ],
+      [
+       "Partial pressure",
+       "6e−10 mB to 1e−9 mB",
+       "6e−9 mB to 2e−8 mB",
+       "1.1e−9 mB to 1.6e−9 mB"
+      ],
+      [
+       "Deposition time",
+       "15 s to 150 s",
+       "1 m to 37 m",
+       "5 m to 10 m"
+      ]
+     ]
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 52,
+     "cite": "[0204]",
+     "text": "In early experimental work, after deposition of primary-alcohol-leg tips (such as described above with reference to FIGS. 51-53), surface scanning employing X-ray photoelectron spectroscopy indicated that 50% of the legs were properly bonded to the surface after the deposition procedure. In one case, the sample was given a further annealing treatment by increasing the temperature of the sample at a rate of 25 C/min. to 200 C, which resulted in a scan indicating that 86% of the legs were bonded to the silicon surface (the pressure was monitored during this annealing procedure, and remained less than 4×10^{10} mBar, indicating that evaporation of the molecules was not occurring). As the case where all tips having only two of the three legs bonded would result in 67% of legs being bonded, it is reasonable to interpret this result as indicating that at least 19% of the tips had all three legs bonded to the surface. Annealing temperatures ranging from 100 C to 400 C appear likely to be beneficial for primary-alcohol-leg tips (above 400 C, pressure increase in one experiment indicated evaporation), and it appears likely that a wider range of temperatures and times could be employed, and may be more suitable in particular situations (particularly for tips having a different leg chemistry and/or for different deposition surfaces, as well in variations in equipment used). With available scanning to identify properly-bonded tips, even a relatively low percentage of successfully-bonded synthetic tips can provide ample tips for performing reactions. Depending on factors such as leg chemistry, surface, deposition conditions, etc., it appears that even in more difficult situations (e.g., particularly challenging syntheses, less ideal deposition surfaces, or other problems), the molecular tip designs presented herein can give yields of 1%, 2%, 5%, 10% or higher. Even lower percentages, such as 0.5% or 0.1%, can still provide a large enough number of tips to provide a significant benefit over earlier approaches to supplying tips for mechanosynthesis."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 52,
+     "cite": "[0205]",
+     "text": "The above discussion, which employs particular examples for illustration, should not be seen as limiting the spirit and scope of the appended claims."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0018]",
+   "text": "FIG. 1 depicts the modular parts of an exemplary tip."
+  },
+  {
+   "fig": "2",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0019]",
+   "text": "FIG. 2 depicts the modular parts of another exemplary tip."
+  },
+  {
+   "fig": "3",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0020]",
+   "text": "FIG. 3 depicts the AbstractO tip surface-mounted on Silicon."
+  },
+  {
+   "fig": "4",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0021]",
+   "text": "FIG. 4 depicts the HDonationO tip surface-mounted on Silicon."
+  },
+  {
+   "fig": "5",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0022]",
+   "text": "FIG. 5 depicts the C2DonationO tip surface-mounted on Silicon."
+  },
+  {
+   "fig": "6",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0023]",
+   "text": "FIG. 6 depicts the MeDonationO tip surface-mounted on Silicon."
+  },
+  {
+   "fig": "7",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0024]",
+   "text": "FIG. 7 depicts a tip surface-mounted on Silicon which can be SiH3DonationO, GeH3DonationO, SiMe3DonationO or GeMe3DonationO."
+  },
+  {
+   "fig": "8",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0025]",
+   "text": "FIG. 8 depicts the AbstractNH tip surface-mounted on Silicon."
+  },
+  {
+   "fig": "9",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0026]",
+   "text": "FIG. 9 depicts the HDonationNH tip surface-mounted on Silicon."
+  },
+  {
+   "fig": "10",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0027]",
+   "text": "FIG. 10 depicts the C2DonationNH tip surface-mounted on Silicon."
+  },
+  {
+   "fig": "11",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0028]",
+   "text": "FIG. 11 depicts the MeDonationNH tip surface-mounted on Silicon."
+  },
+  {
+   "fig": "12",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0029]",
+   "text": "FIG. 12 depicts a tip surface-mounted on Silicon which can be SiH3DonationNH, GeH3DonationNH, SiMe3DonationNH or GeMe3DonationNH."
+  },
+  {
+   "fig": "13",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0030]",
+   "text": "FIG. 13 depicts the AbstractS tip surface-mounted on Gold."
+  },
+  {
+   "fig": "14",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0031]",
+   "text": "FIG. 14 depicts the HDonationS tip surface-mounted on Gold."
+  },
+  {
+   "fig": "15",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0032]",
+   "text": "FIG. 15 depicts the C2DonationS tip surface-mounted on Gold."
+  },
+  {
+   "fig": "16",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0033]",
+   "text": "FIG. 16 depicts the MeDonationS tip surface-mounted on Gold."
+  },
+  {
+   "fig": "17",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0034]",
+   "text": "FIG. 17 depicts a tip surface-mounted on Silicon which can be SiH3DonationS, GeH3DonationS, SiMe3DonationS or GeMe3DonationS."
+  },
+  {
+   "fig": "18",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0035]",
+   "text": "FIG. 18 depicts a synthetic route for the AbstractO tip."
+  },
+  {
+   "fig": "19",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0036]",
+   "text": "FIG. 19 depicts a synthetic route for the HDonationO tip."
+  },
+  {
+   "fig": "20",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0037]",
+   "text": "FIG. 20 depicts a synthetic route for the C2DonationO tip."
+  },
+  {
+   "fig": "21",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0038]",
+   "text": "FIG. 21 depicts a synthetic route for the MeDonationO tip."
+  },
+  {
+   "fig": "22",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0039]",
+   "text": "FIG. 22 depicts a synthetic route for the SiH3DonationO tip."
+  },
+  {
+   "fig": "23",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0040]",
+   "text": "FIG. 23 depicts a synthetic route for the GeH3DonationO tip."
+  },
+  {
+   "fig": "24",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0041]",
+   "text": "FIG. 24 depicts a synthetic route for the SiMe3DonationO tip."
+  },
+  {
+   "fig": "25",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0042]",
+   "text": "FIG. 25 depicts a synthetic route for the GeMe3DonationO tip."
+  },
+  {
+   "fig": "26",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0043]",
+   "text": "FIG. 26 depicts a synthetic route for the AbstractNH tip."
+  },
+  {
+   "fig": "27",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0044]",
+   "text": "FIG. 27 depicts a synthetic route for the HDonationNH tip."
+  },
+  {
+   "fig": "28",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0045]",
+   "text": "FIG. 28 depicts a synthetic route for the C2DonationNH tip."
+  },
+  {
+   "fig": "29",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0046]",
+   "text": "FIG. 29 depicts a synthetic route for the MeDonationNH tip."
+  },
+  {
+   "fig": "30",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0047]",
+   "text": "FIG. 30 depicts a synthetic route for the SiH3DonationNH tip."
+  },
+  {
+   "fig": "31",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0048]",
+   "text": "FIG. 31 depicts a synthetic route for the GeH3DonationNH tip."
+  },
+  {
+   "fig": "32",
+   "col": null,
+   "line": null,
+   "page": 37,
+   "cite": "[0049]",
+   "text": "FIG. 32 depicts a synthetic route for the SiMe3DonationNH tip."
+  },
+  {
+   "fig": "33",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0050]",
+   "text": "FIG. 33 depicts a synthetic route for the GeMe3DonationNH tip."
+  },
+  {
+   "fig": "34",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0051]",
+   "text": "FIG. 34 depicts a synthetic route for the AbstractS tip."
+  },
+  {
+   "fig": "35",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0052]",
+   "text": "FIG. 35 depicts a synthetic route for the HDonationS tip."
+  },
+  {
+   "fig": "36",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0053]",
+   "text": "FIG. 36 depicts a synthetic route for the C2DonationS tip."
+  },
+  {
+   "fig": "37",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0054]",
+   "text": "FIG. 37 depicts a synthetic route for the MeDonationS tip."
+  },
+  {
+   "fig": "38",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0055]",
+   "text": "FIG. 38 depicts a synthetic route for the SiH3DonationS tip."
+  },
+  {
+   "fig": "39",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0056]",
+   "text": "FIG. 39 depicts a synthetic route for the GeH3DonationS tip."
+  },
+  {
+   "fig": "40",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0057]",
+   "text": "FIG. 40 depicts a synthetic route for the SiMe3DonationS tip."
+  },
+  {
+   "fig": "41",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0058]",
+   "text": "FIG. 41 depicts a synthetic route for the GeMe3DonationS tip."
+  },
+  {
+   "fig": "42",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0059]",
+   "text": "FIG. 42 depicts a synthetic route for the FHD-104X intermediate."
+  },
+  {
+   "fig": "43",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0060]",
+   "text": "FIG. 43 depicts a synthetic route for the NHD-103X intermediate."
+  },
+  {
+   "fig": "44",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0061]",
+   "text": "FIG. 44 depicts photo-activation of a halogen-capped tip."
+  },
+  {
+   "fig": "45",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0062]",
+   "text": "FIG. 45 depicts photo-activation of a Barton ester-capped tip."
+  },
+  {
+   "fig": "46",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0063]",
+   "text": "FIG. 46 depicts an exemplary synthesis of a tip with Barton ester cap."
+  },
+  {
+   "fig": "47",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0064]",
+   "text": "FIG. 47 depicts the use of surface-mounted tips where the workpiece moves."
+  },
+  {
+   "fig": "48",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0065]",
+   "text": "FIG. 48 depicts the use of surface-mounted tips where the surface moves."
+  },
+  {
+   "fig": "49",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0066]",
+   "text": "FIG. 49 depicts a metrology setup for measuring six degrees of freedom."
+  },
+  {
+   "fig": "50",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0067]",
+   "text": "FIG. 50 depicts a synthetic pathway for synthesizing an AdamRad-Br tip."
+  },
+  {
+   "fig": "51",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0068]",
+   "text": "FIG. 51 depicts a synthetic pathway for the PAO-HAbstI tip."
+  },
+  {
+   "fig": "52",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0069]",
+   "text": "FIG. 52 depicts a synthetic pathway for the MAO-MeDonI tip"
+  },
+  {
+   "fig": "53",
+   "col": null,
+   "line": null,
+   "page": 38,
+   "cite": "[0070]",
+   "text": "FIG. 53 depicts a synthetic pathway for the EAO-C2DonI tip."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": null,
+   "line": null,
+   "page": 52,
+   "cite": "[claims]",
+   "depends": null,
+   "text": "1. A process comprising the steps of: synthesizing a plurality of modular tips, each of the modular tips having, an atomically precise active site consisting of one or more atoms configured to bond to a desired atomically-precise feedstock, a body selected from the group of, adamantanes, heteroadamantanes, either of the foregoing structures where hydrogen termination is incomplete, and any of the foregoing structures with one or more terminating hydrogen atoms replaced with one or more substitute atoms, and a plurality of legs, each of which is bonded to the body at a location separated from the active site; and binding each of the legs of the modular tips to a presentation surface with at least one covalent bond, the modular tips being configured relative to the presentation surface such that, when the legs are bonded to the presentation surface, the active site is spaced apart from and exposed opposite the presentation surface, and positioned relative to the presentation surface with sufficient stiffness and binding strength to overcome energy barriers to perform at least one of, binding atomically-precise feedstock to the active site, and breaking at least one bond to remove such feedstock, once bonded to the active site, from an initial site to which it was previously bonded, while the tip remains in place on the presentation surface, and binding atomically-precise feedstock which is initially bound to the active site to a subsequent site to which such feedstock is to be attached, and subsequently breaking the bond between the active site and the feedstock to leave such feedstock attached to the subsequent site to which it has become bonded, while the tip remains in place on the presentation surface."
+  },
+  {
+   "n": 2,
+   "col": null,
+   "line": null,
+   "page": 52,
+   "cite": "[claims]",
+   "depends": 1,
+   "text": "2. The process of claim 1 further comprising the step of activating at least a subset of the modular tips after said step of binding the legs to the presentation surface."
+  },
+  {
+   "n": 3,
+   "col": null,
+   "line": null,
+   "page": 52,
+   "cite": "[claims]",
+   "depends": 2,
+   "text": "3. The process of claim 2 further comprising the step of using the modular tips to carry out mechanosynthesis reactions to build a workpiece."
+  },
+  {
+   "n": 4,
+   "col": null,
+   "line": null,
+   "page": 52,
+   "cite": "[claims]",
+   "depends": 3,
+   "text": "4. The process of claim 3 where the workpiece is connected to a positional device."
+  },
+  {
+   "n": 5,
+   "col": null,
+   "line": null,
+   "page": 52,
+   "cite": "[claims]",
+   "depends": 3,
+   "text": "5. The process of claim 3 where the presentation surface is connected to a positional device."
+  },
+  {
+   "n": 6,
+   "col": null,
+   "line": null,
+   "page": 52,
+   "cite": "[claims]",
+   "depends": 3,
+   "text": "6. The process of claim 3 wherein said step of using the modular tips further comprises performing at least one thousand reactions without swapping tips."
+  },
+  {
+   "n": 7,
+   "col": null,
+   "line": null,
+   "page": 53,
+   "cite": "[claims]",
+   "depends": 3,
+   "text": "7. The process of claim 3 wherein said step of using the modular tips further comprises performing at least one thousand reactions without recharging tips."
+  },
+  {
+   "n": 8,
+   "col": null,
+   "line": null,
+   "page": 53,
+   "cite": "[claims]",
+   "depends": 3,
+   "text": "8. The process of claim 3 wherein the workpiece is a three-dimensional workpiece."
+  },
+  {
+   "n": 9,
+   "col": null,
+   "line": null,
+   "page": 53,
+   "cite": "[claims]",
+   "depends": 3,
+   "text": "9. The process of claim 3 wherein the workpiece is an atomically-precise tip."
+  },
+  {
+   "n": 10,
+   "col": null,
+   "line": null,
+   "page": 53,
+   "cite": "[claims]",
+   "depends": 1,
+   "text": "10. The process of claim 1 wherein the active site of at least a subset of the modular tips is selected from the group of: a pair of triple-bonded carbon atoms; a germanium atom substituted into an adamantane body at a bridgehead position; a radical carbon atom at a bridgehead position."
+  },
+  {
+   "n": 11,
+   "col": null,
+   "line": null,
+   "page": 53,
+   "cite": "[claims]",
+   "depends": 1,
+   "text": "11. The process of claim 1 wherein at least a subset of the modular tips each have legs that have a similar chemical structure, which is different from that of the body."
+  },
+  {
+   "n": 12,
+   "col": null,
+   "line": null,
+   "page": 53,
+   "cite": "[claims]",
+   "depends": 11,
+   "text": "12. The process of claim 11 wherein the legs contain at least one atom other than carbon or hydrogen."
+  },
+  {
+   "n": 13,
+   "col": null,
+   "line": null,
+   "page": 53,
+   "cite": "[claims]",
+   "depends": 11,
+   "text": "13. The process of claim 11 wherein the legs have a chemical structure different from that of the presentation surface."
+  },
+  {
+   "n": 14,
+   "col": null,
+   "line": null,
+   "page": 53,
+   "cite": "[claims]",
+   "depends": 11,
+   "text": "14. The process of claim 11 wherein the legs each include at least one chemical structure selected from the group of: a sulfur atom; an oxygen atom; an organic ring; an NH group; and an alcohol."
+  },
+  {
+   "n": 15,
+   "col": null,
+   "line": null,
+   "page": 53,
+   "cite": "[claims]",
+   "depends": null,
+   "text": "15. A process of preparing a presentation surface, comprising the steps of: synthesizing a plurality of tips, each having, an atomically precise active site consisting of one or more atoms configured to bond to a desired atomically-precise feedstock, and three legs, each of which is bonded at one end relative to the active site; and binding the legs to a surface, each leg attaching to the surface with at least one covalent bond, the tips each being configured relative to the surface such that the legs of at least 0.1% of the tips successfully bond to the surface such that, for each such successfully bonded tip, the active site is spaced apart from and exposed opposite the surface, and positioned relative to the surface with sufficient stiffness and binding strength to overcome energy barriers to perform at least one of, binding atomically-precise feedstock to the active site, and breaking at least one bond to remove such feedstock, once bonded to the active site, from an initial site to which it was previously bonded, while the tip remains in place on the presentation surface, and binding atomically-precise feedstock which is initially bound to the active site to a subsequent site to which such feedstock is to be attached, and subsequently breaking the bond between the active site and the feedstock to leave such feedstock attached to the subsequent site to which it has become bonded, while the tip remains in place on the presentation surface."
+  },
+  {
+   "n": 16,
+   "col": null,
+   "line": null,
+   "page": 53,
+   "cite": "[claims]",
+   "depends": 15,
+   "text": "16. The process of claim 15 further comprising the step of activating at least a subset of the modular tips after said step of binding the legs to the surface."
+  },
+  {
+   "n": 17,
+   "col": null,
+   "line": null,
+   "page": 53,
+   "cite": "[claims]",
+   "depends": 15,
+   "text": "17. The process of claim 15 wherein the legs each include at least one chemical structure selected from the group of: a sulfur atom; an oxygen atom; an organic ring; an NH group; and an alcohol."
+  },
+  {
+   "n": 18,
+   "col": null,
+   "line": null,
+   "page": 53,
+   "cite": "[claims]",
+   "depends": null,
+   "text": "18. A system comprising: a presentation surface; and a plurality of modular tips bound to said presentation surface, each of said modular tips having, an atomically precise active site consisting of one or more atoms configured to bond to a desired atomically-precise feedstock, a body selected from the group of, adamantanes, heteroadamantanes, either of the foregoing structures where hydrogen termination is incomplete, and any of the foregoing structures with one or more terminating hydrogen atoms replaced with one or more substitute atoms, and a plurality of legs, each of which is bonded to said body at a location separated from said active site, and bound to said presentation surface, each of said legs being formed by an alcohol, said modular tips being configured relative to the presentation surface such that, when said legs are bonded to said presentation surface, said active site is spaced apart from and exposed opposite said presentation surface, and positioned relative to said presentation surface with sufficient stiffness and binding strength to overcome energy barriers to perform at least one of, binding atomically-precise feedstock to the active site, and breaking at least one bond to remove such feedstock, once bonded to the active site, from an initial site to which it was previously bonded, while the tip remains in place on the presentation surface, and binding atomically-precise feedstock which is initially bound to the active site to a subsequent site to which such feedstock is to be attached, and subsequently breaking the bond between the active site and the feedstock to leave such feedstock attached to the subsequent site to which it has become bonded, while the tip remains in place on the presentation surface."
+  },
+  {
+   "n": 19,
+   "col": null,
+   "line": null,
+   "page": 53,
+   "cite": "[claims]",
+   "depends": 18,
+   "text": "19. The system of claim 18 wherein said active site of at least a subset of said modular tips is selected from the group of: a pair of triple-bonded carbon atoms; a germanium atom substituted into an adamantane body at a bridgehead position; a radical carbon atom at a bridgehead position."
+  },
+  {
+   "n": 20,
+   "col": null,
+   "line": null,
+   "page": 53,
+   "cite": "[claims]",
+   "depends": 18,
+   "text": "20. The system of claim 18 wherein each of said legs is formed by an alcohol."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "cite": "front page",
+   "ocr": "CO7F 730",
+   "fixed": "C07F 7/30",
+   "basis": "scan"
+  },
+  {
+   "cite": "front page",
+   "ocr": "G010 70/08",
+   "fixed": "G01Q 70/08",
+   "basis": "scan"
+  },
+  {
+   "cite": "front page",
+   "ocr": "G01O 80/00",
+   "fixed": "G01Q 80/00",
+   "basis": "scan"
+  },
+  {
+   "cite": "front page",
+   "ocr": "CO7F 7/30",
+   "fixed": "C07F 7/30",
+   "basis": "scan"
+  },
+  {
+   "cite": "front page",
+   "ocr": "GO1Q 80/00",
+   "fixed": "G01Q 80/00",
+   "basis": "scan"
+  },
+  {
+   "cite": "front page",
+   "ocr": "G01 70/08",
+   "fixed": "G01Q 70/08",
+   "basis": "scan"
+  },
+  {
+   "cite": "front page",
+   "ocr": "Int. CL",
+   "fixed": "Int. Cl.",
+   "basis": "scan"
+  },
+  {
+   "cite": "front page",
+   "ocr": "U.S. Cl",
+   "fixed": "U.S. Cl.",
+   "basis": "scan"
+  },
+  {
+   "cite": "[0001]",
+   "ocr": "USS.",
+   "fixed": "U.S.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0001]",
+   "ocr": "USS.",
+   "fixed": "U.S.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0005]",
+   "ocr": "Ge(111)-c(2x8)",
+   "fixed": "Ge(111)-c(2×8)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0006]",
+   "ocr": "depot’);",
+   "fixed": "depot”);",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0014]",
+   "ocr": "(NI-MDT",
+   "fixed": "(NT-MDT",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0068]",
+   "ocr": "PAO- HAbst]",
+   "fixed": "PAO-HAbstI",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0069]",
+   "ocr": "MAO- MeDonl",
+   "fixed": "MAO-MeDonI",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0070]",
+   "ocr": "EAO- C2DonlI",
+   "fixed": "EAO-C2DonI",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0073]",
+   "ocr": "“cage”’),",
+   "fixed": "“cage”),",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0074]",
+   "ocr": "Ht.",
+   "fixed": "H^{+}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0090]",
+   "ocr": " “mechanosynthetic",
+   "fixed": "“mechanosynthetic",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0091]",
+   "ocr": "<A",
+   "fixed": "A",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0095]",
+   "ocr": "sufiice.",
+   "fixed": "suffice.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0101]",
+   "ocr": "“lip",
+   "fixed": "“Tip",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0104]",
+   "ocr": "“CH2”.",
+   "fixed": "“.CH2”.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0104]",
+   "ocr": "““”",
+   "fixed": "“ˆ”",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0120]",
+   "ocr": "concems",
+   "fixed": "concerns",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0129]",
+   "ocr": "suflicient",
+   "fixed": "sufficient",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0138]",
+   "ocr": "Cf",
+   "fixed": "(if",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0138]",
+   "ocr": "GeMe3 DonationNH.",
+   "fixed": "GeMe3DonationNH.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0140]",
+   "ocr": "C—C",
+   "fixed": "C═C",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0142]",
+   "ocr": "—5-0°",
+   "fixed": "−5-0°",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0142]",
+   "ocr": "(TBSCI)",
+   "fixed": "(TBSCl)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0142]",
+   "ocr": "((Pr4N)Ru04,",
+   "fixed": "((Pr4N)RuO4,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0142]",
+   "ocr": "A",
+   "fixed": "Å",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0142]",
+   "ocr": "(CHI]3),",
+   "fixed": "(CHI3),",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0142]",
+   "ocr": "con- trol (-78° C.--50°",
+   "fixed": "control (−78° C.-−50°",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0142]",
+   "ocr": "12",
+   "fixed": "I2",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0143]",
+   "ocr": "lithtum",
+   "fixed": "lithium",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0144]",
+   "ocr": "-78",
+   "fixed": "−78",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0144]",
+   "ocr": "-78",
+   "fixed": "−78",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0144]",
+   "ocr": "-78",
+   "fixed": "−78",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0145]",
+   "ocr": "(CH212)",
+   "fixed": "(CH2I2)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0146]",
+   "ocr": "mesitoy]",
+   "fixed": "mesitoyl",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0146]",
+   "ocr": "-78",
+   "fixed": "−78",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0148]",
+   "ocr": "-78",
+   "fixed": "−78",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0149]",
+   "ocr": "lithtum",
+   "fixed": "lithium",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0150]",
+   "ocr": "Gonzalez-Nufiez,",
+   "fixed": "Gonzalez-Nuñez,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0150]",
+   "ocr": "Di-tert- butyl-dicarbonate (Boc20)",
+   "fixed": "Di-tert-butyl-dicarbonate (Boc2O)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0150]",
+   "ocr": "—-NH2",
+   "fixed": "—NH2",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0150]",
+   "ocr": "Boc20",
+   "fixed": "Boc2O",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0150]",
+   "ocr": "NFA-S.",
+   "fixed": "NFA-5.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0150]",
+   "ocr": "LiAIH4",
+   "fixed": "LiAlH4",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0150]",
+   "ocr": "A",
+   "fixed": "Å",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0150]",
+   "ocr": "(-78°",
+   "fixed": "(−78°",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0150]",
+   "ocr": "-50°",
+   "fixed": "−50°",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0150]",
+   "ocr": "12",
+   "fixed": "I2",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0152]",
+   "ocr": "(Triiso- propylsilylacetylene",
+   "fixed": "(Triisopropylsilyl)acetylene",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0152]",
+   "ocr": "-78",
+   "fixed": "−78",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0152]",
+   "ocr": "-78",
+   "fixed": "−78",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0152]",
+   "ocr": "Potasstum",
+   "fixed": "Potassium",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0153]",
+   "ocr": "(CH212)",
+   "fixed": "(CH2I2)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0154]",
+   "ocr": "-78",
+   "fixed": "−78",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0155]",
+   "ocr": "-78",
+   "fixed": "−78",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0156]",
+   "ocr": "-78",
+   "fixed": "−78",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0157]",
+   "ocr": "-78",
+   "fixed": "−78",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0157]",
+   "ocr": "lithtum",
+   "fixed": "lithium",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0157]",
+   "ocr": "pre- vent lithtum",
+   "fixed": "prevent lithium",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0158]",
+   "ocr": "AICI3",
+   "fixed": "AlCl3",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0158]",
+   "ocr": "OC.",
+   "fixed": "0 C.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0158]",
+   "ocr": "-20°",
+   "fixed": "−20°",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0159]",
+   "ocr": "RuC]3",
+   "fixed": "RuCl3",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0159]",
+   "ocr": "LiAlIH4",
+   "fixed": "LiAlH4",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0159]",
+   "ocr": "12,",
+   "fixed": "I2,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0159]",
+   "ocr": "-78°",
+   "fixed": "−78°",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0159]",
+   "ocr": "(X—Cl,",
+   "fixed": "(X═Cl,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0161]",
+   "ocr": "-78°",
+   "fixed": "−78°",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0161]",
+   "ocr": "12,",
+   "fixed": "I2,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0161]",
+   "ocr": "CH2]2",
+   "fixed": "CH2I2",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0161]",
+   "ocr": "-20°",
+   "fixed": "−20°",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0162]",
+   "ocr": "LiAIH4",
+   "fixed": "LiAlH4",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0163]",
+   "ocr": "-78°",
+   "fixed": "−78°",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0164]",
+   "ocr": "-78",
+   "fixed": "−78",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0165]",
+   "ocr": "-78",
+   "fixed": "−78",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0165]",
+   "ocr": "2-nitrobenzenesulfeny] chlo- ride",
+   "fixed": "2-nitrobenzenesulfenyl chloride",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0166]",
+   "ocr": "trio]",
+   "fixed": "triol",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0166]",
+   "ocr": "calctum",
+   "fixed": "calcium",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0166]",
+   "ocr": "cis,cis-1-methyl-3,5-bis(trimethylgermylmethy])cyclo- hexane",
+   "fixed": "cis,cis-1-methyl-3,5-bis(trimethylgermylmethyl)cyclohexane",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0166]",
+   "ocr": "-20",
+   "fixed": "−20",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0166]",
+   "ocr": "Brensted",
+   "fixed": "Brønsted",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0166]",
+   "ocr": "(X—F,",
+   "fixed": "(X═F,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0166]",
+   "ocr": "-78",
+   "fixed": "−78",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0166]",
+   "ocr": "12",
+   "fixed": "I2",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0166]",
+   "ocr": "AgC",
+   "fixed": "AgCl",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0166]",
+   "ocr": "FHD-103C1).",
+   "fixed": "FHD-103Cl).",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0166]",
+   "ocr": "(X—F,",
+   "fixed": "(X═F,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0166]",
+   "ocr": "(X—F,",
+   "fixed": "(X═F,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0167]",
+   "ocr": "Brensted",
+   "fixed": "Brønsted",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0167]",
+   "ocr": "(X—F,",
+   "fixed": "(X═F,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0167]",
+   "ocr": "-78",
+   "fixed": "−78",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0167]",
+   "ocr": "12",
+   "fixed": "I2",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0167]",
+   "ocr": "NHD-103C1).",
+   "fixed": "NHD-103Cl).",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0170]",
+   "ocr": "<1x10-9",
+   "fixed": "<1×10-9",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0170]",
+   "ocr": "7x7",
+   "fixed": "7×7",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0177]",
+   "ocr": "Asimple",
+   "fixed": "A simple",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0177]",
+   "ocr": "ina",
+   "fixed": "in a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0182]",
+   "ocr": "-78",
+   "fixed": "−78",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0186]",
+   "ocr": "itis",
+   "fixed": "it is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0196]",
+   "ocr": "Beam7Z1",
+   "fixed": "BeamZ1",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0196]",
+   "ocr": "Beam7Z2,",
+   "fixed": "BeamZ2,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0199]",
+   "ocr": "12",
+   "fixed": "I2",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0199]",
+   "ocr": "CHC",
+   "fixed": "CHCl3",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0199]",
+   "ocr": "phe- nylpropargy!",
+   "fixed": "phenylpropargyl",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0200]",
+   "ocr": "(PAO-Abstl)",
+   "fixed": "(PAO-AbstI)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0200]",
+   "ocr": "C2]",
+   "fixed": "C2I",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0200]",
+   "ocr": "Jodination",
+   "fixed": "Iodination",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0200]",
+   "ocr": "PAO-Abstl,",
+   "fixed": "PAO-AbstI,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0200]",
+   "ocr": "C2]",
+   "fixed": "C2I",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0201]",
+   "ocr": "(MAO-MeDonl!)",
+   "fixed": "(MAO-MeDonI)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0201]",
+   "ocr": "iPrMgCl—LiC]",
+   "fixed": "iPrMgCl—LiCl",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0201]",
+   "ocr": "MAO- GeRad-CH2I (MAO-MeDonl).",
+   "fixed": "MAO-GeRad-CH2I (MAO-MeDonI).",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0202]",
+   "ocr": "EAO-GeHAbstl)",
+   "fixed": "EAO-GeHAbstI)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0202]",
+   "ocr": "C20D-200.",
+   "fixed": "C2OD-200.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0202]",
+   "ocr": "C20D-210",
+   "fixed": "C2OD-210",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0202]",
+   "ocr": "EAO-C2DonI/EAO-GeHAbstl.",
+   "fixed": "EAO-C2DonI/EAO-GeHAbstI.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[0204]",
+   "ocr": "4x10'° mBar,",
+   "fixed": "4×10^{10} mBar,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "[claims]",
+   "claim": 18,
+   "ocr": "aplurality",
+   "fixed": "a plurality",
+   "basis": "scan + Google Patents"
+  }
+ ]
+}

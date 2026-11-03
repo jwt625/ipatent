@@ -10,6 +10,8 @@
   const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const subsup = s => esc(s).replace(/_\{([^}]*)\}/g, '<sub>$1</sub>').replace(/\^\{([^}]*)\}/g, '<sup>$1</sup>');
   const cite = (col, line) => col ? `${col}:${line || '?'}` : '';
+  const citeOf = p => p.cite || (p.page != null && !p.col ? `p.${p.page + 1}` : cite(p.col, p.line));
+  const docLabel = p => p.doc || `US ${p.number}`;
   const fmtDate = d => d || '';
   PATS.forEach(p => p.figById = Object.fromEntries(p.figures.map(f => [f.id, f])));
 
@@ -113,6 +115,9 @@
       this.pz = new PanZoom(this.el, this.svg, pz => { if (this.fig) this.zoomEl.textContent = Math.round(100 * this.fig.w / pz.vb[2] / (this.el.clientWidth / this.fig.w || 1) * (this.el.clientWidth / this.fig.w)) / 100 + 'x'; },
         ev => { const g = ev.target && ev.target.closest && ev.target.closest('[data-ref]'); (opt.onClick || (() => { }))(g ? g.dataset.ref : null); });
       this.svg.addEventListener('mouseover', ev => { const g = ev.target.closest('[data-ref]'); if (!g || !this.pat) return; showTip(ev, partTip(this.pat, g.dataset.ref)); (opt.onHover || (() => { }))(g.dataset.ref); });
+      // named but unnumbered bodies (molecules, unnumbered parts): tooltip and highlight only, never a part selection
+      this.svg.addEventListener('mouseover', ev => { const g = ev.target.closest('[data-nm]'); if (!g) return; showTip(ev, subsup(g.dataset.nm)); const el = this.groups[g.dataset.eid]; if (el) el.classList.add('on'); });
+      this.svg.addEventListener('mouseout', ev => { const g = ev.target.closest('[data-nm]'); if (!g) return; hideTip(); const el = this.groups[g.dataset.eid]; if (el && !(this.sel && (this.byRef[this.sel] || []).includes(el))) el.classList.remove('on'); });
       this.svg.addEventListener('mousemove', ev => { if (tip.style.display === 'block') moveTip(ev); });
       this.svg.addEventListener('mouseout', ev => { const g = ev.target.closest('[data-ref]'); if (!g) return; const to = ev.relatedTarget && ev.relatedTarget.closest && ev.relatedTarget.closest('[data-ref]'); if (to && to.dataset.ref === g.dataset.ref) return; hideTip(); (opt.onHover || (() => { }))(null); });
     }
@@ -139,7 +144,7 @@
     buildHit(trace) {
       const g = mk('g', { class: 'hit' }), items = [];
       trace.elements.forEach(e => {
-        if (!e.ref) return;
+        if (!e.ref && !(e.name && e.kind === 'block')) return;
         (e.shapes || []).forEach(s => {
           const b = TraceRender.elementBox({ shapes: [s] }); if (!b) return;
           let n;
@@ -155,7 +160,7 @@
           else if (s.t === 'e') n = mk('ellipse', { cx: s.d[0], cy: s.d[1], rx: s.d[2], ry: s.d[3], 'pointer-events': 'all' });
           else if (s.t === 'p') n = mk('polygon', { points: s.d.map(q => q.join(',')).join(' '), 'pointer-events': 'all' });
           else n = mk('path', { d: s.d, 'pointer-events': 'all' });
-          n.dataset.ref = e.ref;
+          if (e.ref) n.dataset.ref = e.ref; else { n.dataset.nm = e.name; n.dataset.eid = e.id; }
           items.push({ n, a: (s.t === 't' || e.kind === 'label') ? -1 : (n.getAttribute('pointer-events') === 'stroke' ? 0 : shapeArea(b)) });
         });
       });
@@ -224,7 +229,7 @@
     const page = pg != null && pg !== '' && !isNaN(pg) ? +pg : col ? pat.col1_page + Math.floor((col - 1) / 2) : 0;
     const src = pat.pages[page]; if (!src) return;
     $('#modal').hidden = false;
-    $('#modalTitle').innerHTML = `<span class="num">${esc(pat.number)}</span> &nbsp;page ${page + 1} of ${pat.pages.length}${col ? `, column ${col}` : ''}${label ? ` &nbsp;<span class="cite">${esc(label)}</span>` : ''}`;
+    $('#modalTitle').innerHTML = `<span class="num">${esc(pat.doc || pat.number)}</span> &nbsp;page ${page + 1} of ${pat.pages.length}${col ? `, column ${col}` : ''}${label ? ` &nbsp;<span class="cite">${esc(label)}</span>` : ''}`;
     const body = $('#modalBody'); body.innerHTML = '';
     const fv = h('div', 'fv'); body.appendChild(fv);
     const svg = mk('svg', { class: 'stage', preserveAspectRatio: 'xMidYMid meet' }); fv.appendChild(svg);
@@ -269,10 +274,10 @@
   addEventListener('hashchange', route);
 
   function renderBar(pat, tab) {
-    $('#crumb').innerHTML = pat ? `<span class="num">${esc(pat.number)}</span><span class="tt">${esc(pat.title)}</span>` : '';
+    $('#crumb').innerHTML = pat ? `<span class="num">${esc(pat.doc || pat.number)}</span><span class="tt">${esc(pat.title)}</span>` : '';
     $('#tabs').innerHTML = pat ? [['figures', 'Figures'], ['text', 'Description'], ['claims', 'Claims'], ['about', 'About']]
       .map(([k, n]) => `<a href="#/${pat.pn}/${k}" class="${k === tab ? 'on' : ''}">${n}</a>`).join('') : '';
-    document.title = pat ? `US ${pat.number}` : 'Interactive Patents';
+    document.title = pat ? docLabel(pat) : 'Interactive Patents';
   }
 
   // ---------- gallery: search, facets, sort, cards / table ----------
@@ -294,17 +299,17 @@
   const SORTS = {
     group: ['Group', p => [GROUP_ORDER.indexOf(p.group || ''), p.issued || '']],
     issued: ['Issued', p => p.issued || ''], filed: ['Filed', p => p.filed || ''],
-    number: ['Patent number', p => +p.pn], title: ['Title', p => (p.title || '').toLowerCase()],
+    number: ['Patent number', p => +p.pn.replace(/\D/g, '')], title: ['Title', p => (p.title || '').toLowerCase()],
     inventor: ['First inventor', p => surname(((p.inventors || [])[0] || {}).name).toLowerCase()],
     assignee: ['Assignee', p => firstOrg(p).toLowerCase()], place: ['Location', p => where(p).toLowerCase()],
     figures: ['Figures', p => p.counts.figures], traced: ['Traced', p => pct(p.counts.traced, p.counts.figures)],
     claims: ['Claims', p => p.counts.claims], parts: ['Numbered parts', p => p.counts.parts],
     term: ['Term end', p => (p.status || {}).term_end || ''],
   };
-  const statusTip = s => s ? `${esc(s.state)} ${esc(s.term_end)}: ${esc(s.basis)}${s.google_expiration && s.google_expiration !== s.term_end ? `; Google Patents lists ${esc(s.google_expiration)}` : ''}; checked ${esc(s.checked)}` : 'unknown';
+  const statusTip = s => s ? `${esc(s.state)}${s.term_end ? ` ${esc(s.term_end)}` : ''}: ${esc(s.basis)}${s.google_expiration && s.google_expiration !== s.term_end ? `; Google Patents lists ${esc(s.google_expiration)}` : ''}; checked ${esc(s.checked)}` : 'unknown';
   PATS.forEach(p => {
     if (!p.counts) return;
-    p.hay = [p.pn, p.number, p.title, p.group, p.issued, p.filed, p.abstract,
+    p.hay = [p.pn, p.number, p.doc, p.title, p.group, p.issued, p.filed, p.abstract,
       ...(p.inventors || []).flatMap(i => [i.name, i.place]), ...(p.assignees || []).flatMap(a => [a.name, a.org, a.kind, a.place]),
       ...(p.partnames || [])].filter(Boolean).join(' \u0001 ').toLowerCase();
     p.facet = Object.fromEntries(FACETS.map(([k, , fn]) => [k, fn(p)]));
@@ -415,7 +420,7 @@
         c.appendChild(th);
         const orgs = (p.assignees || []).map(a => `${esc(a.org || a.name)}${a.place ? ` <span class="pl">${esc(a.place)}</span>` : ''}`).join('; ');
         c.appendChild(h('div', 'meta', `
-          <div class="row"><span class="num">US ${esc(p.number)}</span><span class="num">${esc(fmtDate(p.issued))}</span></div>
+          <div class="row"><span class="num">${esc(docLabel(p))}</span><span class="num">${esc(fmtDate(p.issued))}</span></div>
           <div class="t">${esc(p.title)}</div>
           <div class="row"><span>${(p.inventors || []).map(i => esc(i.name)).join(', ')}</span></div>
           <div class="row"><span>${orgs || '<span class="unk">No assignee</span>'}</span></div>
@@ -458,7 +463,7 @@
         const tr = ev.target.closest('tr'); if (!tr) return;
         const p = byPn[tr.dataset.pn], fig = frontFig(p);
         const ppl = (p.inventors || []).map(i => `<div>${esc(i.name)}${i.place ? ` <span class="pl">${esc(i.place)}</span>` : ''}</div>`).join('');
-        showTip(ev, `<img class="tthumb" src="${fig.img}" alt=""><div class="tmeta"><span class="num">US ${esc(p.number)}</span> ${esc(fig.label || '')}</div>${ppl}`);
+        showTip(ev, `<img class="tthumb" src="${fig.img}" alt=""><div class="tmeta"><span class="num">${esc(docLabel(p))}</span> ${esc(fig.label || '')}</div>${ppl}`);
       };
       tb.onmousemove = ev => { if (tip.style.display === 'block') moveTip(ev); };
       tb.onmouseleave = hideTip;
@@ -505,10 +510,10 @@
         const note = pat.notes && pat.notes.figs && pat.notes.figs[f.id];
         const paras = f.paras.map(pid => pat.paras[pid]);
         info.innerHTML = `<h2>${esc(f.label)}</h2>
-          ${f.brief.text ? `<p class="quote">${subsup(f.brief.text)} <span class="cite" data-col="${f.brief.col || ''}">${cite(f.brief.col, f.brief.line)}</span></p>` : ''}
+          ${f.brief.text ? `<p class="quote">${subsup(f.brief.text)} <span class="cite" data-col="${f.brief.col || ''}" data-page="${f.brief.page != null ? f.brief.page : ''}">${citeOf(f.brief)}</span></p>` : ''}
           ${note ? `<div class="note"><span class="lbl">Note</span>${subsup(note)}</div>` : ''}
           ${paras.length ? `<div class="lbl sub">Referenced in ${paras.length} paragraph${paras.length > 1 ? 's' : ''}</div><div class="mlist">${paras.map(p =>
-            `<div class="mitem" data-pid="${p.id}"><span class="cite">${cite(p.col, p.line)}</span> ${subsup(p.text.slice(0, 150))}${p.text.length > 150 ? '...' : ''}</div>`).join('')}</div>` : ''}`;
+            `<div class="mitem" data-pid="${p.id}"><span class="cite">${citeOf(p)}</span> ${subsup(p.text.slice(0, 150))}${p.text.length > 150 ? '...' : ''}</div>`).join('')}</div>` : ''}`;
       } else {
         const p = pat.parts[ref] || { name: '', mentions: [], figs: [] };
         const note = pat.notes && pat.notes.parts && pat.notes.parts[ref];
@@ -518,11 +523,11 @@
           <div class="chips">${figs.map(x => `<span class="chip${x === f ? ' on' : ''}" data-fig="${x.id}">${esc(x.label)}</span>`).join('')}</div>
           ${note ? `<div class="note"><span class="lbl">Note</span>${subsup(note)}</div>` : ''}
           <div class="lbl sub">${p.mentions.length} mention${p.mentions.length === 1 ? '' : 's'} in the description</div>
-          <div class="mlist">${p.mentions.map(m => `<div class="mitem" data-pid="${m[0]}"><span class="cite">${cite(pat.paras[m[0]].col, pat.paras[m[0]].line)}</span> ${mentionHtml(pat, m, ref)}</div>`).join('')}</div>`;
+          <div class="mlist">${p.mentions.map(m => `<div class="mitem" data-pid="${m[0]}"><span class="cite">${citeOf(pat.paras[m[0]])}</span> ${mentionHtml(pat, m, ref)}</div>`).join('')}</div>`;
       }
       info.querySelectorAll('.mitem').forEach(n => n.onclick = () => go(pat, 'text', n.dataset.pid));
       info.querySelectorAll('.chip[data-fig]').forEach(n => n.onclick = () => go(pat, 'figures', n.dataset.fig, ref));
-      info.querySelectorAll('.quote .cite').forEach(n => n.onclick = () => openScan(pat, +n.dataset.col, n.textContent));
+      info.querySelectorAll('.quote .cite').forEach(n => n.onclick = () => openScan(pat, +n.dataset.col, n.textContent, n.dataset.page));
     }
     function buildParts() {
       const f = st.fig;
@@ -681,7 +686,7 @@
       const hd = h('div', 'tsec', esc(s.heading)); hd.dataset.sec = si; if (!s.heading) hd.style.margin = '12px 0 0'; body.appendChild(hd);
       pat.paras.filter(p => p.sec === si).forEach(p => {
         const n = h('div', 'para'); n.dataset.pid = p.id;
-        const c = `<span class="cite" data-col="${p.col || ''}" data-page="${p.page != null ? p.page : ''}" title="Show on the scanned page">${p.page != null && !p.col ? `p.${p.page + 1}` : cite(p.col, p.line)}</span>`;
+        const c = `<span class="cite" data-col="${p.col || ''}" data-page="${p.page != null ? p.page : ''}" title="Show on the scanned page">${citeOf(p)}</span>`;
         n.innerHTML = c + (p.table ? `<div><table>${p.table.map(r => `<tr>${r.map(x => `<td>${subsup(x)}</td>`).join('')}</tr>`).join('')}</table></div>` : `<p>${rich(p.text, p.spans)}</p>`);
         body.appendChild(n); nodes.push([p, n]);
       });
@@ -732,7 +737,7 @@
     const body = h('div', 'tbody'); col.appendChild(body);
     const nodes = pat.claims.map(c => {
       const n = h('div', 'claim' + (c.depends ? ' dep' : ''));
-      n.innerHTML = `<div class="lbl"><span class="num">${c.n}</span>${c.depends ? ` &middot; depends on ${c.depends}` : ' &middot; independent'} <span class="cite" data-col="${c.col || ''}" data-page="${c.page != null ? c.page : ''}">${cite(c.col, c.line)}</span></div><p>${rich(c.text, c.spans)}</p>`;
+      n.innerHTML = `<div class="lbl"><span class="num">${c.n}</span>${c.depends ? ` &middot; depends on ${c.depends}` : ' &middot; independent'} <span class="cite" data-col="${c.col || ''}" data-page="${c.page != null ? c.page : ''}">${citeOf(c)}</span></div><p>${rich(c.text, c.spans)}</p>`;
       body.appendChild(n); return [c, n];
     });
     bindRich(body, pat, pane);
@@ -763,14 +768,14 @@
       ${n.patent ? `<div class="note"><span class="lbl">Note</span>${subsup(n.patent)}</div>` : ''}
       <h3>Bibliographic data</h3>
       <table>
-        ${row('Patent', `<span class="num">US ${esc(pat.number)}</span>`)}
+        ${row(pat.doc ? 'Document' : 'Patent', `<span class="num">${esc(docLabel(pat))}</span>`)}
         ${row('Title', esc(pat.title))}
         ${row('Inventors', ent.inventors ? ent.inventors.map(personHtml).join('<br>') : esc((pat.inventors || []).join('; ')))}
         ${row('Term', pat.status ? `${esc(pat.status.state)} <span class="num">${esc(pat.status.term_end)}</span> <span class="pl">${esc(pat.status.basis)}${pat.status.google_expiration && pat.status.google_expiration !== pat.status.term_end ? `; Google Patents lists ${esc(pat.status.google_expiration)}` : ''}; checked ${esc(pat.status.checked)}</span>` : '<span class="unk">unknown</span>')}
         ${row('Assignee', ent.assignees ? (ent.assignees.map(personHtml).join('<br>') || '<span class="unk">none printed</span>') : esc(pat.assignee))}
         ${row('Application no.', `<span class="num">${esc(pat.appl_no)}</span>`)}
         ${row('Filed', `<span class="num">${esc(pat.filed)}</span>`)}
-        ${row('Issued', `<span class="num">${esc(pat.issued)}</span>`)}
+        ${row(pat.date_label || 'Issued', `<span class="num">${esc(pat.issued)}</span>`)}
         ${row('Int. Cl.', esc(pat.int_cl))}
         ${row('U.S. Cl.', esc(pat.us_cl))}
         ${row('Examiners', esc(pat.examiners))}
@@ -783,7 +788,7 @@
       ${pat.refs_patents && pat.refs_patents.length ? `<h3>U.S. patent documents cited</h3><table>${pat.refs_patents.map(r =>
         `<tr><td class="num">${esc(r.no)}</td><td class="num">${esc(r.date)}</td><td>${esc(r.name)}</td><td class="num">${esc(r.cl)}</td></tr>`).join('')}</table>` : ''}
       ${pat.refs_other && pat.refs_other.length ? `<h3>Other publications</h3><table>${pat.refs_other.map(r => `<tr><td>${esc(r)}</td></tr>`).join('')}</table>` : ''}
-      <div class="sources">Text: OCR of the USPTO scan, checked against the scan and ${pat.google ? `<a href="${esc(pat.google)}" target="_blank" rel="noopener">Google Patents</a>` : 'Google Patents'}; ${pat.ocr_fixes} OCR corrections; spelling kept as printed. Citations column:line. Redraws traced from the drawing sheets; Scan view shows the original. Notes are added context, not patent text.</div>
+      <div class="sources">Text: OCR of the ${esc(pat.scan_source || 'USPTO')} scan, checked against the scan and ${pat.google ? `<a href="${esc(pat.google)}" target="_blank" rel="noopener">Google Patents</a>` : 'Google Patents'}; ${pat.ocr_fixes} OCR corrections; spelling kept as printed. Citations ${esc(pat.cite_scheme || 'column:line')}. Redraws traced from the drawing sheets; Scan view shows the original. Notes are added context, not patent text.</div>
     </div>`;
     return { update() { } };
   }
@@ -800,7 +805,7 @@
     (async () => {
       if (SITE.links) {  // gallery page: cards only
         route('#/'); await wait(100);
-        const cards = document.querySelectorAll('.card'), bad = [...cards].filter(c => !/^p\/\d+\.html#\//.test(c.getAttribute('href')));
+        const cards = document.querySelectorAll('.card'), bad = [...cards].filter(c => !/^p\/\w+\.html#\//.test(c.getAttribute('href')));
         if (bad.length || cards.length !== PATS.length) errs.push(`gallery: ${cards.length} cards for ${PATS.length} patents, ${bad.length} bad links`);
         log.push(`gallery: ${cards.length} cards, ${document.querySelectorAll('.card svg .tr-el, .card svg [data-ref]').length} trace elements`);
         const n = () => document.querySelectorAll('.card, .gtable tbody tr').length;

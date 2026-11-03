@@ -1,0 +1,20 @@
+{
+ "patent": "A process patent. Wood strips are bent over a mold and bound into layers that can be lifted off as units, then the layers are nested with glue and fabric between them and pressed as a whole before any adhesive sets. Claim 1 says only \"curved shells\"; the aircraft application is in the description and the drawing. Secondary sources cite this number for molded plywood monocoque fuselage shells: aviation-history.com credits \"Northrop, Stadlman, and the Lougheads\", and Wikipedia's Loughead S-1 Sport article ties it to the S-1 fuselage, \"laid up in concrete molds\". The patent names Malcolm Loughead as sole inventor, with Allen H. Loughead, John K. Northrop and Anthony Stadlman as assignees of one-fourth each. It does not mention the S-1, use the word monocoque or state the mold material.",
+ "figs": {
+  "1": "Section at the plane marked in Fig. 2. Working out from mold 2: wood layer 3, fabric 10 (wavy line), wood layer 5, fabric 11 (wavy line), wood layer 7. Layer 3 ends beside tacking strip 4, layer 7 beside form 8, and layer 5 stops free between them. Blocks 4 and 8 appear at both lower corners, but each numeral is printed on one side only.",
+  "2": "A staged cutaway, reading from the finished stack at left to the bare mold at right: layer 7 on form 8 with binding strips 9, fabric 11, layer 5 with cross strips 6, fabric 10, layer 3, then surface 1 of mold 2. Small circles mark the strip ends of layer 3 along tacking strip 4. Strips of 3 and 7 are diagonal in opposite directions; strips of 5 run lengthwise. The 1 at the upper section arrow marks the plane of Fig. 1 and is not surface 1."
+ },
+ "parts": {
+  "8": "A removable frame around the mold that carries layer 7, distinct from \"mold or form 2\"."
+ },
+ "glossary": [
+  {
+   "term": "fusilage",
+   "def": "Printed spelling of fuselage."
+  },
+  {
+   "term": "monocoque",
+   "def": "A structure whose outer skin carries the main loads. Used here by secondary sources, not by the patent."
+  }
+ ]
+}

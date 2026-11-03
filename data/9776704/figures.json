@@ -1,0 +1,640 @@
+{
+ "pn": "9776704",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    446,
+    655,
+    2026,
+    2755
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    403,
+    893,
+    2040,
+    2580
+   ],
+   "rotate": 0,
+   "front_page": true
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    483,
+    913,
+    2004,
+    2575
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4A",
+   "label": "FIG. 4A",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    398,
+    800,
+    1999,
+    2668
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4B",
+   "label": "FIG. 4B",
+   "sheet": 5,
+   "page": 5,
+   "crop": [
+    441,
+    757,
+    2101,
+    2705
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 6,
+   "page": 6,
+   "crop": [
+    523,
+    424,
+    1994,
+    3091
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 7,
+   "page": 7,
+   "crop": [
+    576,
+    472,
+    2043,
+    3028
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "FIG. 7",
+   "sheet": 8,
+   "page": 8,
+   "crop": [
+    378,
+    626,
+    1028,
+    1554
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8",
+   "label": "FIG. 8",
+   "sheet": 8,
+   "page": 8,
+   "crop": [
+    1232,
+    609,
+    2099,
+    1483
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9A",
+   "label": "FIG. 9A",
+   "sheet": 8,
+   "page": 8,
+   "crop": [
+    538,
+    1792,
+    1890,
+    2321
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9B",
+   "label": "FIG. 9B",
+   "sheet": 8,
+   "page": 8,
+   "crop": [
+    531,
+    2408,
+    1882,
+    2967
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10",
+   "label": "FIG. 10",
+   "sheet": 9,
+   "page": 9,
+   "crop": [
+    720,
+    749,
+    1729,
+    1781
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11",
+   "label": "FIG. 11",
+   "sheet": 9,
+   "page": 9,
+   "crop": [
+    871,
+    1881,
+    1751,
+    2761
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12A",
+   "label": "FIG. 12A",
+   "sheet": 10,
+   "page": 10,
+   "crop": [
+    506,
+    1842,
+    2057,
+    2818
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "12B",
+   "label": "FIG. 12B",
+   "sheet": 10,
+   "page": 10,
+   "crop": [
+    543,
+    624,
+    2057,
+    1694
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "13",
+   "label": "FIG. 13",
+   "sheet": 11,
+   "page": 11,
+   "crop": [
+    407,
+    563,
+    2011,
+    2877
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "1",
+   "name": "angles",
+   "figs": [
+    "4B"
+   ]
+  },
+  {
+   "ref": "2",
+   "name": "angles",
+   "figs": [
+    "4B"
+   ]
+  },
+  {
+   "ref": "3",
+   "name": "angles",
+   "figs": [
+    "4B"
+   ]
+  },
+  {
+   "ref": "10",
+   "name": "composite pressure bulkhead",
+   "figs": [
+    "1",
+    "2",
+    "5"
+   ],
+   "alt": [
+    "pressure bulkhead"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "dome-shaped surface",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "aircraft",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "concave (or inner curved) side",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "fuselage",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "convex (or outwardly curved) side",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "pressurized fuselage interior",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "unpressurized fuselage interior",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "fuselage skin",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "radial stiffeners",
+   "figs": [
+    "2",
+    "3",
+    "4A",
+    "4B",
+    "5"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "central portion",
+   "figs": [
+    "2",
+    "3",
+    "4A"
+   ]
+  },
+  {
+   "ref": "26",
+   "name": "periphery",
+   "figs": [
+    "3",
+    "4A",
+    "4B"
+   ]
+  },
+  {
+   "ref": "28",
+   "name": "curvilinear tearstraps",
+   "figs": [
+    "2",
+    "3",
+    "4A",
+    "4B",
+    "5"
+   ],
+   "alt": [
+    "tearstraps"
+   ]
+  },
+  {
+   "ref": "30",
+   "name": "web",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "shorter radial stiffeners",
+   "figs": [
+    "2",
+    "3",
+    "4A",
+    "4B"
+   ]
+  },
+  {
+   "ref": "34",
+   "name": "longer radial stiffeners",
+   "figs": [
+    "2",
+    "3",
+    "4A",
+    "4B"
+   ]
+  },
+  {
+   "ref": "36",
+   "name": "edge band",
+   "figs": [
+    "3",
+    "11"
+   ]
+  },
+  {
+   "ref": "40",
+   "name": "full layers",
+   "figs": [
+    "5",
+    "6",
+    "10"
+   ]
+  },
+  {
+   "ref": "42",
+   "name": "circumferential stiffener layer",
+   "figs": [
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "44",
+   "name": "radial stiffener layer",
+   "figs": [
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "46",
+   "name": "composite fiber material",
+   "figs": [
+    "5",
+    "7",
+    "8",
+    "10"
+   ],
+   "alt": [
+    "carbon fiber material",
+    "composite material"
+   ]
+  },
+  {
+   "ref": "48",
+   "name": "uni-directional fiber",
+   "figs": [
+    "7",
+    "8",
+    "10",
+    "11",
+    "12A",
+    "12B"
+   ],
+   "alt": [
+    "uni-directional fibers"
+   ]
+  },
+  {
+   "ref": "50",
+   "name": "tow or tape",
+   "figs": [
+    "7",
+    "8"
+   ],
+   "alt": [
+    "tows or tapes"
+   ]
+  },
+  {
+   "ref": "52",
+   "name": "fiber placement head",
+   "figs": [
+    "9A",
+    "9B"
+   ],
+   "alt": [
+    "automated fiber placement machine head"
+   ]
+  },
+  {
+   "ref": "54",
+   "name": "lay-up tool",
+   "figs": [
+    "9A",
+    "9B"
+   ]
+  },
+  {
+   "ref": "56",
+   "name": "concave tool surface",
+   "figs": [
+    "9A"
+   ]
+  },
+  {
+   "ref": "58",
+   "name": "convex tool surface",
+   "figs": [
+    "9B"
+   ]
+  },
+  {
+   "ref": "60",
+   "name": "edge band layers",
+   "figs": [
+    "5",
+    "12A",
+    "12B"
+   ]
+  },
+  {
+   "ref": "61",
+   "name": "",
+   "figs": [
+    "12B"
+   ]
+  },
+  {
+   "ref": "62",
+   "name": "fiberglass isolation plies",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "bottom fiberglass coating layer"
+   ]
+  },
+  {
+   "ref": "100",
+   "name": "method",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "102",
+   "name": "step 102",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "104a",
+   "name": "step 104a",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "104b",
+   "name": "step 104b",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "106a",
+   "name": "step 106a",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "106b",
+   "name": "step 106b",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "108",
+   "name": "step 108",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "A",
+   "name": "fuselage longitudinal axis",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "C",
+   "name": "arrows",
+   "figs": [
+    "4A"
+   ]
+  },
+  {
+   "ref": "O",
+   "name": "orientation angle",
+   "figs": [
+    "12A"
+   ],
+   "alt": [
+    "orientation angles"
+   ]
+  },
+  {
+   "ref": "O_{1}",
+   "name": "orientation angle",
+   "figs": [
+    "6"
+   ],
+   "alt": [
+    "first orientation angle"
+   ]
+  },
+  {
+   "ref": "O_{2}",
+   "name": "orientation angle",
+   "figs": [
+    "6"
+   ],
+   "alt": [
+    "second orientation angle"
+   ]
+  },
+  {
+   "ref": "R",
+   "name": "arrows",
+   "figs": [
+    "4A"
+   ]
+  },
+  {
+   "ref": "X",
+   "name": "",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "Y",
+   "name": "",
+   "figs": [
+    "6"
+   ]
+  }
+ ]
+}

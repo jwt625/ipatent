@@ -1,0 +1,77 @@
+{
+ "patent": "Filed 2010-02-11 by Fanuc Ltd (priority JP 2009-030876, 2009-02-13), issued 2012-02-07, one claim. A parallel robot of delta configuration (the text says delta-type only for the prior art of FIG. 11): three arms translate a platform without turning it, and three long rods driven from motors on the fixed base turn a three-axis wrist hung under the platform, for six degrees of freedom in all. The prior art in FIG. 11 has one rotation axis at the platform, driven through a single telescopic arm. FIGS. 1-4 show the design of an earlier application (the text does not identify it), and FIG. 1 is the front-page drawing, so the drawing printed on the front page is not the claimed wrist. The new element starts at FIG. 5: the tool face is cut at an angle to the sixth axis, so the common tool-straight-down pose no longer coincides with the wrist singularity. The singular pose still exists, at a tilted tool attitude. Claim 1 combines that inclined face with the holder-assembly drive and the nested gear train. The delta configuration is generally credited to Reymond Clavel at EPFL in the 1980s (US 4,976,582).",
+ "figs": {
+  "1": "The earlier design. The mechanism hangs from the base section 12, under cover 24, at the top of the arched wall 22; each arm 26 is a short driving link 30 plus long paired driven links 32, all meeting at the movable section 100. The rods down the middle, one called out as 54, are the wrist drives and end in joint blocks on top of 100. Wrist 102' ends in a flat face; compare the tip in FIG. 6.",
+  "2": "The links are cut off at the bottom edge and the cover has no numeral here. Left of centre, rod 54 runs through the holder assembly 50 mounted over an opening in the base plate 12, which lets it lean and slide as the platform moves. Motor 28 drives an arm; the wrist motor is not drawn here (see 52 in FIG. 10).",
+  "3": "Seen from above: rods 54-1, 54-2, 54-3 enter through universal joints 80-1, 80-2, 80-3 on top of the movable section 100, and each drives one wrist member (106, 108, 110 in that order). Dash-dot lines are the rotation axes and reappear beyond the solids; curled arrows give the rotation. As drawn, 106a and 110a are parallel and the flat face 112 is level, which is the singular pose the patent objects to.",
+  "4": "The FIG. 3 pose in elevation, with the axes true. 106a and 110a are vertical and parallel but laterally offset, and 108a crosses them horizontally. Face 112 is perpendicular to 110a, so a level tool face and the singular pose coincide.",
+  "5": "Same view as FIG. 4; only the third rotary member changes, ending in a face 114 cut at an angle. α is measured from the sixth axis 110a to the face normal 112a. This is still the singular pose (106a parallel to 110a), but the tool face is now tilted rather than level; FIGS. 7A and 7B show the level-face pose.",
+  "6": "The whole robot with the inclined-face wrist. The drawing is close to FIG. 1: the visible changes are the numerals (10 for PR, 102 for 102') and the angled tip 114 under the wrist.",
+  "7A": "Looks along the fifth axis, the same direction as FIG. 8A. The second rotary member is turned so the sixth axis 110a (the dashed line through it) leans while hand 122, mounted on 114 by its attachment part 120, hangs vertically. With the tool straight down, the leaning 110a is no longer parallel to the vertical centre line through the movable section 100, so the wrist is clear of the singularity.",
+  "7B": "The same pose turned 90 degrees to match the view of FIG. 5. The lean of the sixth axis now lies out of the page, so the hand appears straight under 108, and the rounded face of 108 comes into view because that member has turned about 108a. The hand centre line stays offset from 106a.",
+  "8A": "Exterior looking along the fifth axis: the round cap of 108 faces the viewer, a neck of 106 shows above it, and the inclined face 114 tilts toward the viewer, so its circles read as ellipses. The three stubs 101 are the inputs. VIII marks the cut of FIG. 8B through the middle stub; the arrows give the viewing direction.",
+  "8B": "Same pose and view as FIG. 5. Hatching is cut solid; each square with a circle is a rotational bearing unit (28 drawn). Three nested power paths, gear teeth not drawn: 4-1 to 4-2, fixed to 106; 5-2 with 5-3 to 5-4, fixed to 108; 6-2 on shaft 6-3 to 6-4, then 6-5 on the shaft of 6-4 to 6-6, fixed to 110. The left stub 101 lies in the cut plane and is the first input shaft; the right stub lies beyond it, unhatched, and the input gears 5-1 and 6-1 are not shown.",
+  "9A": "The holder assembly in the plane of the outer pivot. Large bearings 58 let the outer holder 44 turn in the attachment member 60 about 44a; spindles 62 in holes 64, on bearings 66, let the intermediate holder 46 pivot about 46a, which lies in the page. 48a is drawn oblique because it runs out of the page. Rod 54 slides through the inner holder 48 in the linear bearing member 78; the rear half of gear 74 is drawn in perspective, without teeth.",
+  "9B": "The same assembly cut 90 degrees around 44a from FIG. 9A, so 48a now lies in the page and 46a is the oblique one. This cut shows the inner pivot: spindles 68 in holes 70, on bearings 72, carry inner holder 48 in intermediate holder 46. Taken together the two figures show a gimbal with a sliding rod at its centre.",
+  "10": "Rod 54 at a working tilt: 54a leans away from the vertical 44a, and inner holder 48 with member 78 leans with it inside holder 46, while 44 stays vertical. Motor 52 turns 44 through output shaft 76 and gear 74 (no teeth drawn). The motor body hangs below its mounting plate and shaft 76 ends level with the gear, leaving the space above 44 clear for the rod to swing.",
+  "11": "Prior art, shown for contrast. Numerals 205a to 207b appear on one arm only; the other two arms repeat it. The hand 209 is drawn detached below the movable member 208 on the single axis 200A, and rotary motor 211 turns it through telescopic arm 214, the part replaced in this patent by three rods and a three-axis wrist. Dash-dot lines from controller 212 are control connections, not mechanism."
+ },
+ "parts": {
+  "PR": "The robot of FIGS. 1-4, the earlier design with wrist 102'. Numeral 10 is the robot of FIG. 6 with wrist 102.",
+  "28": "Drive the three arms. The wrist-drive motors are 52.",
+  "36": "Not named in the description. The arrow points at a joint where the driven links 32 meet the movable section 100.",
+  "52": "Drive the wrist through 74 and 54. Called a servo-motor without a numeral in column 4 and the prime mover 52 in column 10.",
+  "78": "The text says a spline nut of a ball spline unit can be used here, with the transmission member 54 as the spline shaft.",
+  "80": "Numeral used only in the text, for 80-1, 80-2 and 80-3 together; the drawings use only the suffixed forms.",
+  "102'": "The prime marks the earlier wrist with flat face 112. 102 is the wrist with the inclined face 114.",
+  "112a": "The normal to the inclined face 114, despite the number. It is not related to the flat face 112 of FIGS. 3 and 4.",
+  "5-1": "Text only; the description says this gear is not depicted.",
+  "5-2": "5-2 and 5-3 are fixed together and named together as the first intermediate gear.",
+  "5-3": "5-2 and 5-3 are fixed together and named together as the first intermediate gear.",
+  "6-1": "Text only; the description says this gear is not depicted.",
+  "200A": "The text also calls this the fourth axis. It is the single orientation axis of the prior art, not the fourth rotation axis 106a of the wrist.",
+  "205": "Not named on its own in the description. The arrow points at the pair 205a, 205b."
+ },
+ "glossary": [
+  {
+   "term": "parallel robot",
+   "def": "A manipulator whose platform is carried by several linked chains side by side rather than by one serial arm, which keeps moving mass low and stiffness high."
+  },
+  {
+   "term": "delta robot",
+   "def": "A parallel robot with three arms rotated at the shoulder, each ending in a pair of parallel rods. The parallelograms keep the platform from turning, so it only translates."
+  },
+  {
+   "term": "assembled-link structure",
+   "def": "The patent's term for one arm: a driving link (upper arm) plus a parallel pair of driven links (forearm)."
+  },
+  {
+   "term": "singularity",
+   "def": "A pose where a robot loses a direction of motion and its joint solution is not unique. Here axes 4 and 6 are parallel: rotation about them can be shared between the two in any split, and no axis supplies rotation about the remaining direction (gimbal lock). Six-axis arms have the same wrist singularity when axis 5 is at zero."
+  },
+  {
+   "term": "universal joint",
+   "def": "Two crossed pivots that pass rotation between shafts at an angle; also Cardan joint. One joint alone gives a non-uniform output speed at an angle, but two in series with parallel end shafts and phased yokes give equal input and output speed, which fits the patent's statement that the holder 44 and the input shaft 101 turn at the same angular velocity."
+  },
+  {
+   "term": "gimbal",
+   "def": "Nested rings pivoted on perpendicular axes. The patent does not use the word, but holders 44, 46 and 48 form one, with the rod sliding through the innermost ring."
+  },
+  {
+   "term": "revolute pair",
+   "def": "A hinge: a joint allowing one rotation between two bodies."
+  },
+  {
+   "term": "ball spline",
+   "def": "A linear guide whose nut runs on recirculating balls in grooves along a shaft, so the shaft slides freely but cannot turn in the nut and can carry torque."
+  },
+  {
+   "term": "end effector",
+   "def": "The tool at the end of a robot, such as a gripper; the patent's hand 122."
+  },
+  {
+   "term": "kokai, kokoku",
+   "def": "Japanese patent publication types: kokai is the unexamined laid-open publication, kokoku the examined one. Column 1 prints Examined Patent Publication (kokai) for JP4-45310B; the examined type and the B suffix point to kokoku."
+  }
+ ]
+}

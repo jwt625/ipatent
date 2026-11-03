@@ -1,0 +1,351 @@
+{
+ "pn": "4310132",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    319,
+    763,
+    1742,
+    3013
+   ],
+   "rotate": 270,
+   "front_page": true
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    224,
+    732,
+    2043,
+    2939
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    204,
+    904,
+    1438,
+    3120
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    407,
+    700,
+    1932,
+    1866
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    443,
+    1882,
+    1799,
+    2966
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    1335,
+    778,
+    1962,
+    2310
+   ],
+   "rotate": 270,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "10",
+   "name": "fuselage structure",
+   "figs": [
+    "1",
+    "3"
+   ],
+   "alt": [
+    "fuselage"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "fuselage longitudinal axis",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "skin",
+   "figs": [
+    "1",
+    "2",
+    "5"
+   ],
+   "alt": [
+    "borsic aluminum skin"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "plies of borsic aluminum",
+   "figs": [
+    "1",
+    "2"
+   ],
+   "alt": [
+    "borsic aluminum plies",
+    "layers of borsic aluminum"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "stringers",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "aluminum shim stock",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "frames",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "17",
+   "name": "circumferential bands of borsic aluminum composite",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "inner generally “U”-shaped channel",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "frame inner channel"
+   ]
+  },
+  {
+   "ref": "19",
+   "name": "machined titanium extrusions",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "outer channel",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "frame outer channel"
+   ]
+  },
+  {
+   "ref": "21",
+   "name": "web",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "frame web"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "pad",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "stringer inboard end",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "generally “L”-shaped clips",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "25",
+   "name": "stringer outboard end",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "26",
+   "name": "shear ties",
+   "figs": [
+    "1",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "ref": "28",
+   "name": "frames",
+   "figs": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "30",
+   "name": "frame outboard channel",
+   "figs": [
+    "3",
+    "5",
+    "6"
+   ],
+   "alt": [
+    "frame outer channel"
+   ]
+  },
+  {
+   "ref": "31",
+   "name": "slots",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "stringers",
+   "figs": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "34",
+   "name": "tabs",
+   "figs": [
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "36",
+   "name": "skin",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "38",
+   "name": "titanium honeycomb core",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "40",
+   "name": "outer face sheet of borsic aluminum",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "outer face sheet",
+    "outer borsic aluminum face sheet"
+   ]
+  },
+  {
+   "ref": "42",
+   "name": "inner face sheet of borsic aluminum",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "inner face sheet",
+    "inner borsic aluminum face sheet"
+   ]
+  },
+  {
+   "ref": "44",
+   "name": "uniaxial borsic aluminum",
+   "figs": [
+    "2",
+    "4",
+    "6"
+   ],
+   "alt": [
+    "borsic aluminum stringer reinforcement",
+    "inboard borsic aluminum stringer reinforcements"
+   ]
+  },
+  {
+   "ref": "46",
+   "name": "uniaxial borsic aluminum",
+   "figs": [
+    "2",
+    "4",
+    "6"
+   ],
+   "alt": [
+    "outboard borsic aluminum stringer reinforcement"
+   ]
+  }
+ ]
+}

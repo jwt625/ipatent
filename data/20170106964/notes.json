@@ -1,0 +1,122 @@
+{
+ "patent": "Published application US 2017/0106964 A1, The Boeing Company, filed 2015-10-14, published 2017-04-20. Google Patents lists the grant as US 9,926,066 B2 (2018-03-27); the claims here are those of the publication. Describes a fitting for the corner where beams intersect: a strap with a rounded semi-conical middle, clamped between a male and a female fitting, with two flat legs attached to the two beam webs. Load path [0056]: tension in a fastener, compression in the male fitting, hoop load in the strap radius, tension in the legs, shear into the webs. Two versions: FIG. 5-8 and FIG. 13-16. The described use is an aircraft floor; [0034] extends it to other vehicles and stationary structures. No aircraft program is named. The text gives tolerances (for example within 0.010 inch [0044], within ±5° [0043]) but no overall dimensions, ply counts or test data, and names fiber and resin only in its fiber-metal laminate examples [0048]. US 9,593,740 in this collection, also Boeing, lists inventors with the same names plus middle initials and describes a different fitting.",
+ "figs": {
+  "1": "Plan view; section line 2-2 sets FIG. 2. The document does not identify an aircraft type. 114 has a leader to the fuselage outline; the text uses it for the passenger cabin [0031].",
+  "2": "Fuselage section: cabin 114 above, cargo hold 120 below, a floor and beam assembly in each. Bold 11 and 3 with eye symbols are the view directions of FIG. 11 and FIG. 3. 600 is the upward pull at tie-down ring 190; the opposed 608 arrows are a crushing load parallel to a web [0033].",
+  "3": "Assembled joint of two crossing I-beams, with a fitting drawn in one corner only. Ring 190 screws into the bathtub fitting by stud 192 [0036]. Dashed lines show the female fitting 500 and hole 194 hidden. Section line 9-9 sets FIG. 9.",
+  "4": "Exploded along the dash-dot axis: fastener 196, bathtub fitting, flange hole 194, female fitting, strap, male fitting, nut 198. The axis jogs to corner 154 to show where the fitting goes. The 306 leader ends at the top edge of the fitting; the text uses 306 for the wrap interior angle [0054].",
+  "5": "Assembled fitting. Arrows 606 are the male fitting pressing up against the strap radius [0056]. The two leg ends 208 sit at an angle to each other, which sets them against two webs.",
+  "6": "Repeated on the front page. Wrap, strap and male fitting left to right, female fitting above. Load arrows: 600 at the fastener hole, 602 around the radius, 600 along each leg. Cutaways show fibers 228 running along the legs. Numeral 20 is not in the description; its leader reaches the strap edge printed as 210 in FIG. 7 and 8. 222 is printed with no leader.",
+  "7": "Side view: the legs overlap, so they read as parallel [0040]. The sloped 402 and the dashed line on 204 are the non-perpendicular profile of [0044], which makes inner and outer strap edges equal in length. Eye symbol 8 sets FIG. 8.",
+  "8": "Seen along arrow 8 of FIG. 7; called the front view in [0040]. The legs are parallel here too. Dash-dot lines on the strap appear to mark where radius and legs meet. The holes 194 line up on the assembly axis.",
+  "9": "Section 9-9: fittings on both sides of a web, fasteners through the bathtub fitting, top flange and fitting. Arrows 604 are shear going into the web. 156 is printed with leaders to the web faces; [0042] calls it the corner interior angle and cites FIG. 10, which has no 156.",
+  "10": "Section 10-10, four corners. Legs 206 lie flat on webs 160 at the angle of the corner. Wrap 300 and legs 206 are drawn as layers on the webs; [0059] allows either to touch the web. This is the end view in which the legs are non-parallel [0040].",
+  "11": "Second structural example: four beam angle segments 170 back to back [0062]. Flange corners are rounded and thickened at pad-ups 172. Section line 17-17 sets FIG. 17. [0062] says an external fitting is optional and not shown here; FIG. 17 shows one.",
+  "12": "Exploded version of FIG. 11: cross-shaped caps 164 top and bottom, cruciform 168 at the center, shims 166 on the webs, and four fittings each split into 400, strap and 500. Fasteners are not drawn. Dashed lines show where parts go.",
+  "13": "Second fitting, no wrap [0065]. Compared with FIG. 5, the male end face is inset and the female end face is contoured to the flange underside [0065]. Two 226 leaders sit either side of a line across a leg, consistent with plies of different lengths [0058], though the text does not say so for this figure.",
+  "14": "Exploded FIG. 13. The convex and concave portions have the simplified semi-conical shape of [0066].",
+  "15": "Side view. The convex-to-concave interface is perpendicular to the legs [0066], against the sloped one in FIG. 7. [0066] gives the reason: fibers of a dry preform can slip axially as the strap forms over the shape. Eye symbol 16 sets FIG. 16.",
+  "16": "Seen along arrow 16 of FIG. 15. The back of the male fitting shows the inset end face 406. The dash-dot axis links the holes 194.",
+  "17": "Section 17-17 of FIG. 11. As FIG. 9 but no wrap: the female end face follows the thickened flange at 172, and the male end is inset. Leaders for 208 appear to end at the curved strap; elsewhere 208 is the end edge of a leg.",
+  "18": "Section 18-18, four corners. Each fitting has legs 206 on two webs; there is no wrap. [0067] gives co-curing or co-bonding to composite webs as the example.",
+  "19": "Box 702 says the legs protrude in parallel relation; claim 17 adds non-parallel when viewed from an end. Box 706 has the fastener substantially parallel to the legs, which claim 17 omits. [0074] allows the fastener before or after coupling, though the chart draws one order."
+ },
+ "parts": {
+  "20": "Not in the description. Printed on FIG. 6 and the front page, with a leader to the strap edge labeled 210 in FIG. 7 and 8.",
+  "156": "Named as an angle in the text, cited to FIG. 10; printed only in FIG. 9, with leaders to web faces.",
+  "192": "[0036] threaded stud of ring 190; [0056] prints \"cargo tie-down ring 192\".",
+  "198": "[0050] says \"a head or a nut 198\"; the drawings show a nut.",
+  "222": "Printed in FIG. 6 with no leader. [0054]: the strap surface facing the web.",
+  "306": "Text: angle between the wrap planar portions. The FIG. 4 leader ends at the top edge of the fitting."
+ },
+ "glossary": [
+  {
+   "term": "corner fitting / tension fitting",
+   "def": "Part installed in the corner of a beam joint to carry an upward pull from a fastener into the beam webs [0002], [0033]."
+  },
+  {
+   "term": "web / flange",
+   "def": "Web: the vertical plate of an I-beam. Flanges: the horizontal plates at its top and bottom [0032]."
+  },
+  {
+   "term": "semi-conical",
+   "def": "Half of a cone surface. Clamping the strap on it sets the legs to the corner angle [0043]."
+  },
+  {
+   "term": "hoop load",
+   "def": "Tension running around a curved path, as in a ring [0056]."
+  },
+  {
+   "term": "shear load",
+   "def": "Load transferred along the attached face, here from strap leg to web [0056]."
+  },
+  {
+   "term": "interlaminar tension",
+   "def": "Tension across the thickness of a laminate, carried by the matrix, which is weaker than the fibers [0003]-[0004]."
+  },
+  {
+   "term": "ply / layup",
+   "def": "Ply: one layer of fiber in a polymer matrix. Layup: the stack of plies [0003]."
+  },
+  {
+   "term": "unidirectional ply or tape",
+   "def": "Ply with its fibers running one way [0045]-[0046]."
+  },
+  {
+   "term": "quasi-isotropic layup",
+   "def": "Plies at several angles, giving similar in-plane stiffness in all directions; mentioned in [0045]."
+  },
+  {
+   "term": "prepreg",
+   "def": "Fiber plies pre-impregnated with resin before layup [0046]."
+  },
+  {
+   "term": "dry fiber preform / resin infusion",
+   "def": "Fibers shaped without resin, then filled with resin and cured [0048], [0066]."
+  },
+  {
+   "term": "co-cured / co-bonded",
+   "def": "Co-cured: parts cured together. Co-bonded: a part bonded to another while one of them cures [0061]."
+  },
+  {
+   "term": "vacuum-bagged",
+   "def": "Sealed under a film and evacuated to compact the part during cure [0075]."
+  },
+  {
+   "term": "GLARE",
+   "def": "Glass laminate aluminum reinforced epoxy, a fiber-metal laminate [0048]."
+  },
+  {
+   "term": "CTE",
+   "def": "Coefficient of thermal expansion [0053]."
+  },
+  {
+   "term": "bathtub fitting",
+   "def": "External fitting with a walled recess, sized to receive a folded tie-down ring [0036]."
+  },
+  {
+   "term": "cruciform",
+   "def": "Cross-section sheet between the back-to-back segments, joining adjacent webs [0064]."
+  },
+  {
+   "term": "pad-up",
+   "def": "Area of increased flange thickness, here at the corners [0062]."
+  },
+  {
+   "term": "spotface",
+   "def": "Smooth flat seat around a fastener hole [0050]."
+  },
+  {
+   "term": "empennage",
+   "def": "The tail assembly of an aircraft [0030]."
+  },
+  {
+   "term": "high-strain-rate compression",
+   "def": "Rapid crushing load, the text's example being an aircraft impact event [0033]."
+  },
+  {
+   "term": "A1",
+   "def": "USPTO kind code for a first pre-grant publication of an application."
+  }
+ ]
+}

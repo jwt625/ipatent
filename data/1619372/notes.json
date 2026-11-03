@@ -1,0 +1,74 @@
+{
+ "patent": "A two-spar metal box-girder wing with a load-carrying sheet-metal skin, filed in the US on 1924-03-24 with a German filing date of 1922-11-03. The wing divides along spanwise vertical planes into three parts: a central box that carries the loads, and detachable nose and rear sections that mainly give the profile. The gains the specification stresses are in manufacture: the skins with their transverse girders and the spar frame are built as separate units, side openings in the spars give access for riveting, and the skins stay free of access holes. The patent itself acknowledges earlier metal wings \"employing spars with stressed skin\" (p.1:32). Wikipedia's Stressed skin article credits Rohrbach with coining the term in 1923 and says Oswald Short patented an all-metal, stressed-skin wing in the early 1920s. No priority is claimed here for this patent.",
+ "figs": {
+  "1": "Upper sketch: chordwise section. Lower sketch: plan, with the span running up the sheet. The rounded nose 3 is at right and the tapered rear 4 at left; both are dashed as separate units. Solid lines bound the central box 2, and the section shows one diagonal cross between its two spars.",
+  "2": "Prior-art layout the patent argues against: three spars in the section, a dashed grid of spars and cross members in plan. The middle spar is the kind of intermediate member the specification says is stressed only to a small extent.",
+  "3": "The same prior-art layout with four spars. The two middle spars are the intermediate members the specification would omit.",
+  "4": "Section through the central box, nose side at right. Spars 7 and 8 are linked by a cross of diagonals 18 whose enlarged ends 19 attach beside the spars. Each skin carries three U-shaped stiffeners 10, which pass through notches in the girder members 17. Line VI carries the number of Fig. 6; the text does not mention it.",
+  "5": "One spar seen flat (right) and edge-on (left). Web 11 has angle pieces 12 along top and bottom and vertical profiles 14 at the bulkhead stations. Four openings 13 leave a diagonal cross of web between the profiles. The upper-left leader on the edge view runs from the numeral 12 printed beside Fig. 4, shown in that crop.",
+  "6": "Plan of the box with the span running up the sheet. Three stiffeners 10 run spanwise between the two spars at the left and right edges, and bulkheads 9 cross at two stations. Line IV is the section of Fig. 4.",
+  "7": "Alternative spar: a triangulated truss in place of a plate web. Angle bars 15 form the top and bottom members, joined by oblique bars 16 of U section, which the edge view at left shows. The gaps between the bars take the role of the openings 13 of Fig. 5."
+ },
+ "parts": {
+  "3": "The nose section (\"respectively\", p.2:65): rounded, at right in Fig. 1.",
+  "4": "The rear section (\"respectively\", p.2:65): tapered, at left in Fig. 1.",
+  "5": "The upper skin.",
+  "6": "The lower skin.",
+  "7": "The fore spar, at right in Fig. 4.",
+  "8": "The aft spar, at left in Fig. 4.",
+  "14": "On the outer side of the spar web. The text also names unnumbered vertical angle flanges on the inner side, opposite these (p.2:98).",
+  "17": "The upper and lower chordwise members of each bulkhead, notched for the stiffeners 10.",
+  "IV": "Section line for Fig. 4.",
+  "VI": "Section line on Fig. 4, not mentioned in the text."
+ },
+ "glossary": [
+  {
+   "term": "spar",
+   "def": "Main spanwise beam of a wing."
+  },
+  {
+   "term": "longitudinal / transverse",
+   "def": "In this patent, along the wing span and across it (chordwise), respectively."
+  },
+  {
+   "term": "fore and aft",
+   "def": "Toward the leading edge and toward the trailing edge."
+  },
+  {
+   "term": "box girder",
+   "def": "Hollow closed beam whose walls act together against bending and torsion."
+  },
+  {
+   "term": "stressed skin",
+   "def": "Covering that carries structural load instead of only forming the surface."
+  },
+  {
+   "term": "imperforate",
+   "def": "Without holes."
+  },
+  {
+   "term": "bulkhead",
+   "def": "Here a chordwise internal wall of the wing, comparable to a modern rib; claim 11 calls its members ribs."
+  },
+  {
+   "term": "former",
+   "def": "Member that holds the skin to its intended shape."
+  },
+  {
+   "term": "angle, angle piece, angle iron",
+   "def": "Bar of L-shaped cross section."
+  },
+  {
+   "term": "profile",
+   "def": "Formed or rolled section used as a stiffener."
+  },
+  {
+   "term": "web",
+   "def": "Flat plate of a beam between its top and bottom flanges."
+  },
+  {
+   "term": "statically sound",
+   "def": "Correct in terms of structural statics: loads have a proper path through the structure."
+  }
+ ]
+}

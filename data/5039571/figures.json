@@ -1,0 +1,271 @@
+{
+ "pn": "5039571",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    292,
+    473,
+    2036,
+    3129
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "1A",
+   "label": "FIG. 1A",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    596,
+    2721,
+    1978,
+    3041
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "1B",
+   "label": "FIG. 1B",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    596,
+    2379,
+    1979,
+    2706
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "1C",
+   "label": "FIG. 1C",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    647,
+    2051,
+    1975,
+    2367
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "1D",
+   "label": "FIG. 1D",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    646,
+    1677,
+    1975,
+    2003
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "1E",
+   "label": "FIG. 1E",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    320,
+    1154,
+    1974,
+    1611
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "1F",
+   "label": "FIG. 1F",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    320,
+    560,
+    1973,
+    883
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    266,
+    710,
+    2047,
+    2925
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2A",
+   "label": "FIG. 2A",
+   "sheet": 5,
+   "page": 5,
+   "crop": [
+    483,
+    2541,
+    1881,
+    3210
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    282,
+    547,
+    1999,
+    3010
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3A",
+   "label": "FIG. 3A",
+   "sheet": 5,
+   "page": 5,
+   "crop": [
+    485,
+    1452,
+    1886,
+    2114
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 6,
+   "page": 6,
+   "crop": [
+    261,
+    538,
+    2074,
+    3112
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4A",
+   "label": "FIG. 4A",
+   "sheet": 5,
+   "page": 5,
+   "crop": [
+    493,
+    378,
+    1890,
+    927
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 7,
+   "page": 7,
+   "crop": [
+    251,
+    512,
+    2017,
+    1598
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 7,
+   "page": 7,
+   "crop": [
+    285,
+    2003,
+    2105,
+    3051
+   ],
+   "rotate": 0,
+   "front_page": true
+  }
+ ],
+ "parts": [
+  {
+   "ref": "1",
+   "name": "laminate",
+   "figs": [
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "2",
+   "name": "metal sheets",
+   "figs": [
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "3",
+   "name": "prepreg",
+   "alt": [
+    "synthetic layer"
+   ],
+   "figs": [
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "4",
+   "name": "threads or filaments",
+   "alt": [
+    "parallel glass filaments"
+   ],
+   "figs": [
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "5",
+   "name": "core layer of plastics-impregnated filaments",
+   "figs": [
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "6",
+   "name": "boundary layer",
+   "figs": [
+    "5",
+    "6"
+   ]
+  }
+ ]
+}

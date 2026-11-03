@@ -1,0 +1,64 @@
+{
+ "patent": "Boeing patent (inventors Stauffer, Ludin and Schulze), filed 2015-05-13, issued 2017-03-14. A composite fitting built from three formed pieces: an inverted-U band of unidirectional material, a U-section panel of multidirectional material, and an inverted-L sheet. It reinforces a joint between two composite I beams against tension and shear, and the text says it absorbs energy under compression. The described use is an aircraft floor, such as a cargo tie-down joint in an underfloor frame; it is not a wing-to-body joint. No link to a specific aircraft program is documented. Google Patents listed 4 distinct citing documents as of 2026-11-02. The text gives no dimensions, ply angles, fiber or resin names, or test data, and does not explain how the energy is absorbed.",
+ "figs": {
+  "1": "Exploded view of fitting 10: sheet 16, band 12, panel 14. The panel goes into space 36 with side portions 52 and 54 flat against band portions 32 and 34. The sheet then covers the back and the top of the band. The front page repeats this view without its label.",
+  "2": "Assembled fitting 10. The base of the panel lies in the plane of the band's rear edge, and the sheet wraps behind it and over the band. Cavity 80 is under the band apex, above panel edge 44; cavity 82 is over the apex, under the sheet's top portion. Blocks 84 and 86 fill them here; the text also allows pre-cured composite pieces or chopped fiber.",
+  "3": "The same three piece types for the two-bay fitting: two bands, two panels and one wider sheet 16'. Surfaces and edges carry no numerals here; the text says they match FIG. 1 with a prime added.",
+  "4": "Assembled fitting 90 from a similar viewpoint to FIG. 2. The sheet 16' spans both bays, and blocks 84, 86 at one end have primed counterparts 84', 86' at the other.",
+  "5": "Elevation from the open front side. Both band arches sit under sheet 16', seen edge-on as a thin bar. The small rectangle below each arch has no numeral, and the text does not mention it.",
+  "6": "Top plan view, outer outline only. Strips 86 and 86' lie at the two ends, on either side of the area marked 16'.",
+  "7": "Side elevation, outer outline only. Arrow 12' lands on the flat side of the outer band and arrow 16' on the top. Nothing interior is drawn.",
+  "8": "Two-bay fitting 90 at the crossing of I beams 92 and 94. Tie-down 98, a ring on an oval flanged base, sits above the fitting on flange 102. The holes around the base have no numeral. Dashed lines mark edges hidden from this viewpoint. This is the underfloor cargo tie-down case from the Background.",
+  "9": "The brief description calls this a cross-section, but nothing is hatched. Web 104 stands between the two bays, matching the text's alignment of the fitting center with that web; beam 94 itself has no numeral here. Only short ends of fasteners 106 appear, below the band apexes. An upward pull on 98 reaches the bands through these fasteners."
+ },
+ "parts": {
+  "16'": "One wider sheet shared by both bays, not a second copy of sheet 16.",
+  "60'": "Named in the text only; no drawing carries this numeral.",
+  "72'": "Named in the text only; no drawing carries this numeral.",
+  "74'": "Named in the text only; no drawing carries this numeral.",
+  "84'": "Drawn but not named in the text. Col. 5 says primed numbers label the same features as fitting 10, which makes this the counterpart of block 84.",
+  "86'": "Drawn but not named in the text. Col. 5 says primed numbers label the same features as fitting 10, which makes this the counterpart of block 86."
+ },
+ "glossary": [
+  {
+   "term": "tension-shear fitting",
+   "def": "A joint bracket that carries both a pull load and a sliding load between structural members."
+  },
+  {
+   "term": "cargo tie-down",
+   "def": "An anchor point on an aircraft floor for restraint straps or nets."
+  },
+  {
+   "term": "layup",
+   "def": "The stack of fiber-reinforced layers in a composite part, and the fiber direction of each."
+  },
+  {
+   "term": "ply",
+   "def": "One layer of a composite layup. The patent prints the plural as \"plys\"."
+  },
+  {
+   "term": "unidirectional composite",
+   "def": "Fibers in a ply run one way, giving high strength and stiffness along that direction. In band 12 they follow the length of the band, around the U."
+  },
+  {
+   "term": "multidirectional composite",
+   "def": "Plies with fibers in several directions, giving more even in-plane properties."
+  },
+  {
+   "term": "radius block",
+   "def": "A block seated against the curved corner of a fitting. The patent names metallic ones as the load-distributing parts of earlier composite fittings."
+  },
+  {
+   "term": "pre-cured",
+   "def": "Already hardened before it is assembled into the part."
+  },
+  {
+   "term": "compression molding",
+   "def": "Forming a composite in a closed mold under heat and pressure. Chopped short fibers can flow to fill a gap, as in the cavities here."
+  },
+  {
+   "term": "I beam, web, flange",
+   "def": "A beam with an I-shaped section: the plate between is the web, the two plates across its ends are the flanges."
+  }
+ ]
+}

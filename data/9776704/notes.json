@@ -1,0 +1,81 @@
+{
+ "patent": "Boeing patent (inventors Rufino, McNamara, Lin, Johnson and Vitlip), filed 2016-05-16, issued 2017-10-03. A domed composite pressure bulkhead whose stiffeners are laid into the laminate by automated fiber placement rather than fastened or bonded on afterward. Radial stiffeners and curvilinear tearstraps form their own layers between full layers of uni-directional material, with fibers aligned to the meridian and hoop load paths. The text gives an aft pressure bulkhead as its example, names commercial tow products and fiber placement machine makers, and gives tow widths and a 15-degree stiffener increment. It gives no bulkhead dimensions, weights or test data. No Boeing model is named. The 787 has a composite aft bulkhead, built by EADS Augsburg according to CompositesWorld, but nothing ties this patent to it. Google Patents listed 20 distinct citing documents as of 2026-11-02. The front page cites US 5,062,589, the Dornier bulkhead also in this collection.",
+ "figs": {
+  "1": "Bulkhead 10 shown in place behind a cutaway in fuselage 14, and pulled out along the dashed arrow at lower right. The tapered end is on the unpressurized side 18 and the window row is on the pressurized side 16. The removed dome shows concave side 13 and convex side 15.",
+  "2": "View from the pressurized side with the fuselage behind the bulkhead. Web 30 is the plain area between the radial stiffeners 22 and rings 28. The band of small rectangles on the rim is not numbered or described. The front page repeats this view without its label.",
+  "3": "Front view. The outline is not circular; the text says the shape follows the fuselage cross-section. Four generally oval tearstraps 28 cross the spokes, with edge band 36 outside them. The notched blocks with small circles near the rim are not numbered or described.",
+  "4A": "Schematic of fiber directions. Stiffeners sit on 15-degree rays, labeled 0 to 180 clockwise on the right half only. Arrows R mark the radial direction; arrows C run clockwise around two dashed circular tearstraps 28. The small axes at lower right put 90 degrees to the left, while the rays put it to the right; the text does not explain this.",
+  "4B": "The same scheme with uneven spacing. Arcs 1, 2 and 3 dimension three angles between rays at upper right; the text says only that they differ and gives no values.",
+  "5": "Exploded stack, numbered in the same order from top and bottom. Reading up from the bottom, the sequence 62, 40, 44, 42, 40, 42, 44, 40, 60 matches the lay-up the text describes. The lower 60 group is drawn with notched plies and octagonal outlines at the center, which the text does not describe; the upper group is plain.",
+  "6": "Exploded stack of square samples; hatching gives the fiber direction of each ply. The two round insets, on leaders to individual plies, measure angles O_{1} and O_{2} from axis Y to the fiber arrow. Their difference is the point of the figure.",
+  "7": "Straight tow: parallel lines stand for fibers 48.",
+  "8": "Steered tow, an example of a partial tearstrap 28. The fibers keep even spacing around the curve, as the text requires.",
+  "9A": "Tool 54 with head 52 drawn schematically on its upper surface. The text calls surface 56 concave, but as drawn it bulges up toward the head.",
+  "9B": "The counterpart of FIG. 9A with the head working inside the bowl. The text calls surface 58 convex, but as drawn it curves away from the head.",
+  "10": "Partially formed full layer: tows laid side by side in one direction, hatched over the left part only. The unhatched part, leader 46, is still to be filled to full width.",
+  "11": "Edge band 36 formed by an outermost tearstrap, per the text, with fibers 48 at about 0 degrees along the circumferential spline. Drawn as a flat segment with straight lines; the plain wedge below it is not numbered.",
+  "12A": "Exploded stack of eight sector-shaped edge band layers 60. Fibers are straight and change angle from ply to ply. The crosshair and angle on the second ply show orientation angle O.",
+  "12B": "The same kind of stack, with plies of curved fibers, including top ply 61, among plies of straight fibers. The text assigns numeral 36 to the band of about 0-degree fibers here; the drawing prints 61 and no 36.",
+  "13": "The two branches differ only in order: tearstraps then stiffeners (104a, 106a), or the reverse (104b, 106b). The text says the order is not important. Claim 12 recites these steps. No cure step appears in the figure or the text."
+ },
+ "parts": {
+  "1": "Angle dimension in FIG. 4B, not a part.",
+  "2": "Angle dimension in FIG. 4B, not a part.",
+  "3": "Angle dimension in FIG. 4B, not a part.",
+  "61": "Printed only in FIG. 12B, on the top ply. The description never uses this numeral.",
+  "62": "The description also calls the bottom one a fiberglass coating layer.",
+  "O": "Printed in FIG. 12A as a small o.",
+  "X": "Reference axis in the FIG. 6 insets; not named in the text.",
+  "Y": "Reference axis in the FIG. 6 insets, from which O_{1} and O_{2} are measured; not named in the text."
+ },
+ "glossary": [
+  {
+   "term": "pressure bulkhead",
+   "def": "Structural wall closing a pressurized section of a fuselage, usually dome-shaped so that cabin pressure is carried mainly as in-plane load."
+  },
+  {
+   "term": "automated fiber placement (AFP)",
+   "def": "Machine lay-up in which a robotic or gantry head lays several narrow tows side by side, starting and cutting each one, on a tool."
+  },
+  {
+   "term": "tow",
+   "def": "A narrow strip of parallel fibers, here slit from pre-impregnated or binder-coated tape."
+  },
+  {
+   "term": "tow steering",
+   "def": "Laying a tow along a curved path in its own plane, so fibers follow the curve instead of running straight."
+  },
+  {
+   "term": "uni-directional fibers",
+   "def": "Fibers all running one way in a tape or ply. Strength and stiffness are highest along that direction."
+  },
+  {
+   "term": "full layer",
+   "def": "The patent's term for a ply covering the whole bulkhead, as opposed to the stiffener layers that cover only part of it."
+  },
+  {
+   "term": "tearstrap",
+   "def": "A local reinforcing band that slows or arrests a crack in a skin. Here a curved band of hoop-oriented fibers within the laminate."
+  },
+  {
+   "term": "hoop and meridian",
+   "def": "The two membrane load directions in a pressurized dome: around circumferences, and along lines from the pole to the edge."
+  },
+  {
+   "term": "co-cured, co-bonded",
+   "def": "Co-cured: uncured parts cured together. Co-bonded: an uncured part cured against a cured one, usually with adhesive. The text sets both against its integrated layers."
+  },
+  {
+   "term": "prepreg",
+   "def": "Fiber already impregnated with resin, stored uncured until lay-up."
+  },
+  {
+   "term": "BMI, PEEK, PEKK",
+   "def": "Bismaleimide, a high-temperature thermoset; poly(ether-ether-ketone) and poly(ether-ketone-ketone), thermoplastic matrix polymers."
+  },
+  {
+   "term": "isolation ply",
+   "def": "A fiberglass ply on the laminate surface. Glass separates carbon from metal, which prevents galvanic corrosion; the text says only that the plies are useful against a metal surface and help with drilling."
+  }
+ ]
+}

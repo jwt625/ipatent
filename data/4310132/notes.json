@@ -1,0 +1,70 @@
+{
+ "patent": "Fuselage structure for a supersonic transport: borsic aluminum, a boron-fiber aluminum-matrix composite, as skin plies and as stringer reinforcement on titanium stringers and frames, with ply orientation set by load path. Filed 1978 under a NASA contract. The NASA record (NASA-CASE-LAR-11688-1) lists Boeing Commercial Airplane Co. as the organization. No specific aircraft is documented. Claims 1 and 20 are the independent claims; FIGS. 3-6 show the alternate H-section stringer, sandwich skin and strap variants.",
+ "figs": {
+  "1": "View from inside the fuselage, skin on top, with the near skin cut back in steps to expose plies 13, band 17 and pad 22. Two frames 16 cross the stringers 14. Plus signs mark fastener positions on shear ties 26 and clips 24. Line 11 is the axis all ply angles refer to.",
+  "2": "Stringer 14 cut crosswise, skin 12 at top, inboard at bottom. Stacked lines are ply layups: skin 12, pad 22 with shim core 15, reinforcements 46 and 44 on the stringer ends. Clip 24 lies behind the stringer web and is shown broken off at the bottom. The brace at 22 spans skin and pad.",
+  "3": "Same view as FIG. 1 for the alternate embodiment. Stringers 32 have an H section, and frames 28 are notched around them so that they reach nearly to skin 36. The stepped line 4-4 at right marks the FIG. 4 section. Tabs 34 are not numbered here. The 30 at lower right of this crop belongs to FIG. 6.",
+  "4": "Section along a stringer 32, outboard at top. Skin 36 is the honeycomb sandwich: core 38 between face sheets 40 and 42. The core thins toward the center, where an unnumbered hatched member passes through the skin. Clip 24 joins tab 34 to frame 28, so no fastener enters the highly loaded portion of the stringer.",
+  "5": "Same section as FIG. 4 with a laminated skin 12 instead of the sandwich. Strap 30, drawn as a shallow channel with bulbed edges, passes through slot 31 inside the hatched hourglass area of the stringer. Pad 22, named in the description, is not numbered in this drawing.",
+  "6": "Variant of FIG. 5 with no slot: stringer 32 is notched and its outboard side jogs over strap 30, visible as the thickened band at top. Frame 28 is continuous. The skin is not numbered. The curved fragment at upper left of this crop belongs to FIG. 3."
+ },
+ "parts": {
+  "22": "Claim 1 calls for circumferential pads oriented at approximately 90°; the description gives that angle to bands 17 and orients pad 22 at 45° and 315°.",
+  "19": "Claim 18 prints \"machined titanium extensions\"; the description says extrusions.",
+  "30": "Called both frame outboard channel and frame outer channel; numeral 20 is the frame outer channel of the preferred embodiment."
+ },
+ "glossary": [
+  {
+   "term": "stringer",
+   "def": "Longitudinal stiffener attached to the skin, carrying fuselage bending as axial load and stabilizing the skin against buckling."
+  },
+  {
+   "term": "frame",
+   "def": "Circumferential member that holds the cross-section shape of the fuselage and supports the stringers."
+  },
+  {
+   "term": "shear tie",
+   "def": "Short bracket connecting skin to frame, transferring shear between them."
+  },
+  {
+   "term": "borsic aluminum",
+   "def": "Metal matrix composite of Borsic fiber in aluminum. Borsic is boron fiber with a silicon carbide coating; the patent writes \"silicone coated\"."
+  },
+  {
+   "term": "metal matrix composite",
+   "def": "Reinforcing fibers in a metal rather than a polymer, retaining strength at temperatures above polymer limits, as aerodynamic heating in supersonic flight requires."
+  },
+  {
+   "term": "ply orientation",
+   "def": "Fiber direction of a layer relative to the fuselage axis. 0° carries axial load, 90° carries hoop load, and the 45°/315° pair (±45°) carries shear."
+  },
+  {
+   "term": "uniaxial",
+   "def": "All fibers laid in one direction."
+  },
+  {
+   "term": "diffusion bonding",
+   "def": "Solid-state joining under heat and pressure without melting the parent materials."
+  },
+  {
+   "term": "brazing",
+   "def": "Joining with a filler metal that melts below the parent materials. Spot brazing joins at discrete points; weld brazing combines resistance spot welds with braze filler."
+  },
+  {
+   "term": "hoop tension",
+   "def": "Circumferential tensile stress in the fuselage shell from cabin pressure."
+  },
+  {
+   "term": "fail safety",
+   "def": "Design in which a separate load path carries load after a member fails."
+  },
+  {
+   "term": "supersonic transport",
+   "def": "Commercial airliner designed to cruise above the speed of sound."
+  },
+  {
+   "term": "Section 305",
+   "def": "Provision of the National Aeronautics and Space Act of 1958 on property rights in inventions made under NASA contracts; the reason the NASA Administrator appears on the front page."
+  }
+ ]
+}

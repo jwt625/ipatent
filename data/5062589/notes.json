@@ -1,0 +1,78 @@
+{
+ "patent": "Dornier Luftfahrt GmbH application filed 1990-02-27, with German priority from February and July 1989. It describes a one-piece domed composite pressure bulkhead whose frame is built into the laminate. In the preferred form the center is a Kevlar-reinforced calotte; the edge is thicker, carries embedded carbon fibers running around the periphery, and curves through a tight transition to lie flat against the fuselage skin. The composite prior art it names is the Beechcraft Starship rear bulkhead, a flat honeycomb sandwich stiffened by two outside frames. No link to a specific aircraft program is documented. Google Patents listed 109 distinct citing documents as of 2026-11-02.",
+ "figs": {
+  "1": "Fuselage walls 1 converge to the right, and the cabin is to the left, on the concave side of bulkhead 2. The dash-dot line is the center axis. Edge portions 2a lie flat against the inside of the wall and point toward the cabin, away from the dome. The bulkhead section is visibly thicker at 2a than at mid-span.",
+  "2": "Geometry of the bulkhead profile with the worked-case radii printed: R=1500 mm on the dome, R=50 mm at the edge. The short heavy lines at top and bottom stand for the fuselage wall. The dashed box around the upper edge is labelled 2a. Thin lines run from a point on the axis beside label 2b to the arc near each end; the text does not explain them, nor the two vertical lines. The lines at the right edge of this crop belong to FIG. 3a, printed on the same sheet.",
+  "3a": "Enlarged section of the edge, with its outline drawn as a tick-marked cut boundary. No numerals or dimensions are printed, although the description cites 1500 mm and 50 mm here; those values appear in FIG. 2. Hatching changes at the dash-dot line: diagonal on the flange side, perpendicular bars on the dome side. The section is thickest just before the transition. The short vertical lines crossing the flange are not explained in the text.",
+  "3b": "The same edge marked up by load case. AREA A is under membrane stress only: its arrows reach the dome wall and the flange tip, and a further unlabelled arrow points at the wall near 2. B adds bending, so thickness grows from d to d'. C, at the tight curve, is in compression and holds the peripheral carbon fibers. The description says the fiber stiffness difference lets this edge act as an integral annular frame.",
+  "4": "Variant in which the bulkhead does not form its own edge. Calotte 25 stops short of the fuselage and overlaps a separate transition piece 23. Portion 23a follows the wall; portion 23b follows the calotte. The dash-dot line marks where 25 and 23 are fastened, by bonding or riveting according to the description.",
+  "5": "Variant with a stiffened center. Stippled filler 4 lies between two laminate faces of bulkhead 27 and tapers to a point before the edge, so the flange remains solid laminate."
+ },
+ "parts": {
+  "1": "Called 'craft 1' once at 3:65.",
+  "2": "The description also writes 'elements 2' at 4:26.",
+  "2a": "In FIG. 2 the leader points at the dashed box around the edge.",
+  "2b": "In FIG. 2 the label sits beside the axis point where the thin lines meet, not on the arc. The description also says 'calotte 2b' at 4:36.",
+  "A": "Printed 'AREA A' in FIG. 3b; the description says 'part A'.",
+  "d": "No value is given. The description says only that thickness increases from d to d'.",
+  "d'": "Printed with a prime in both the drawing and the description (4:53)."
+ },
+ "glossary": [
+  {
+   "term": "calotte",
+   "def": "A dome-shaped cap, here the bowed central shell of the bulkhead. The patent allows round, oval or elliptical outlines."
+  },
+  {
+   "term": "pressure bulkhead",
+   "def": "Internal wall that closes the end of a pressurized compartment and carries the pressure difference across it."
+  },
+  {
+   "term": "Kevlar",
+   "def": "DuPont trade name for an aramid (para-aramid) fiber. Aramid laminates are tough and damage-tolerant but weak in compression compared with carbon, which is the reason the patent gives for carbon in the edge."
+  },
+  {
+   "term": "SFK",
+   "def": "The patent says 'SFK, also called KEVLAR' (4:37) and does not expand the abbreviation."
+  },
+  {
+   "term": "hybrid construction",
+   "def": "A laminate that uses more than one fiber type. Here it is Kevlar in the dome and added carbon in the edge."
+  },
+  {
+   "term": "unidirectional layer",
+   "def": "A ply with all fibers parallel, which gives high stiffness along that direction. Here the fibers run around the circumference."
+  },
+  {
+   "term": "membrane stress",
+   "def": "In-plane tension or compression in a thin shell, without bending."
+  },
+  {
+   "term": "resistance moment",
+   "def": "Reads as section modulus, the geometric measure of bending strength, which increases with thickness. The patent gives no definition (4:54)."
+  },
+  {
+   "term": "autoclave",
+   "def": "Heated pressure vessel used to cure composite laminates."
+  },
+  {
+   "term": "in situ curing",
+   "def": "As the patent uses it, curing the whole part together so no separate connecting elements are needed."
+  },
+  {
+   "term": "stringer",
+   "def": "Long, slender stiffening member attached to a skin or panel."
+  },
+  {
+   "term": "fleece",
+   "def": "Nonwoven fiber mat. In FIG. 5 it is one candidate filler that spaces the laminate faces apart."
+  },
+  {
+   "term": "crack stopper",
+   "def": "Feature of a metal structure that halts a growing crack. The patent treats it as a requirement of metal bulkheads."
+  },
+  {
+   "term": "cover plants",
+   "def": "Printed so at 1:29; evidently a misprint for cover plates, the faces of the honeycomb sandwich."
+  }
+ ]
+}

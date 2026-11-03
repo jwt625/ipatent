@@ -1,0 +1,2000 @@
+{
+ "pn": "1619372",
+ "number": "1,619,372",
+ "title": "WING CONSTRUCTION FOR METAL AIRPLANES",
+ "inventors": [
+  "Adolf Rohrbach"
+ ],
+ "assignee": null,
+ "filed": "1924-03-24",
+ "issued": "1927-03-01",
+ "appl_no": "701,498",
+ "priority": "and in Germany November 3, 1922",
+ "int_cl": null,
+ "us_cl": null,
+ "refs_patents": [],
+ "refs_other": [],
+ "examiners": null,
+ "cite_scheme": "printed page:line",
+ "claims_count": 34,
+ "drawing_figures": 7,
+ "abstract": null,
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "col": null,
+     "line": null,
+     "page": 1,
+     "cite": "p.1:1",
+     "text": "This invention relates to wing structures for airplanes and particularly metal wing structures."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 1,
+     "cite": "p.1:4",
+     "text": "The object of the invention generally is a statically sound construction for metallic wings combined with marked economical use and utilization of the metal embodied therein. A further object is a wing construction which can be economically manufactured and assembled into a statically sound structure notwithstanding its special character. A still further object is a wing construction of this character having the factor of safety and lightness in weight required for safe and satisfactory operation and which may be economically manufactured on a quantity production basis."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 1,
+     "cite": "p.1:18",
+     "text": "To these ends I have devised a novel wing structure, generally of the box girder type, including an internal frame construction and stressed skin covering plates of such character that they function together to produce a resultant structure characterized by its lightness in weight and marked strength and resistance to the forces and stresses placed thereupon and, moreover, a structure which can be economically manufactured and assembled without impairing to any degree the advantageous features of construction thereof."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 1,
+     "cite": "p.1:31",
+     "text": "Metal wing structures have been proposed and tried out employing spars with stressed skin, but such prior structures required very tedious and laborious hand work in the manufacture thereof with the always resultant undue cost of the manufacture, so that prior structures of this general character notwithstanding the advantages thereof, have not been entirely satisfactory. This was due, among other things, to the particular constructions and manner of assemblage employed, in the assembly of which the workmen were always hindered by having to work in more or less obstructed and inaccessible places resulting in tedious and expensive operations. Moreover, in the prior constructions, a large majority of the joints and connections could be made only while the assembling was in progress, resulting in the utilization of only a limited number of workmen and with the resultant undue length of time combined with lack of economy in the construction and making of such joints and connections. Even with repeated operations of the same character the cost thereof could be only reduced to a small extent because the advantages of a division of work with the labor saving training of different workmen for different details of work could be made use of only to a limited degree. Then too, the time during which the material remains in the work shop is excessive, the necessary work shop room unduly large and therefore the interest lost on the capital invested in material, ground and buildings amounts to large proportions. While these disadvantages are somewhat reduced when manufacturing very large wings, where the workmen have easier access to the interior of the wing, yet only a small reduction can be expected with the prior constructions."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 1,
+     "cite": "p.1:72",
+     "text": "Attempts have been heretofore made to lower the cost of manufacture by adopting special constructions, but in all of such constructions with which I am familiar the cost saved has been at the expense of a safe and statically sound structure."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 1,
+     "cite": "p.1:78",
+     "text": "By a special construction and assembly of the wing the invention described herein renders possible the division of the whole manufacturing procedure into many individual parts of work and both the construction of the individual parts and the assembly thereof are simplified to such an extent that the technical advantages of a wing with stressed skin can be utilized without the hitherto serious disadvantage of the high cost of manufacture and moreover without the impairment of the strength and the factor of safety in the manufacture thereof."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 1,
+     "cite": "p.1:91",
+     "text": "Constructions generally of the conventional box-girder type have also been employed in wooden aircraft, but since there are problems involved in the construction and design of metal airplanes which are not found in the wooden constructions, these prior wooden constructions cannot be successfully employed in metallic wings."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 1,
+     "cite": "p.1:99",
+     "text": "The embodiment of my invention herein exhibited includes a wing structure which is divided laterally and along longitudinal vertical planes into three parts, the central main section of which is generally of the box-girder type but embodies a special internal frame and stressed covering frame construction whereby full advantage is taken of the stressed skin and whereby the parts thereof may be economically constructed and assembled into a firm force transmitting and resisting structure with the possibility of yielding and loosening of the parts minimized. Each of the outer sections of the wing consists of a structure which is totally independent of the structure of the middle part and which are separately attachable to and detachable from the edges of the main central part to form units by themselves."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.2:10",
+     "text": "For a better understanding of my invention, reference may be had to the accompanying drawings wherein:"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.2:13",
+     "text": "Fig. 1 is a diagrammatic outline of a wing embodying my invention,"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.2:15",
+     "text": "Figs. 2 and 3 are diagrammatic outline views of three and four spar arrangements used heretofore,"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.2:18",
+     "text": "Fig. 4 is a cross section of the box-girder part of the wing embodying my invention on the lines IV—IV of Fig. 6,"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.2:21",
+     "text": "Fig. 5 is a view at right angles to Fig. 4,"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.2:22",
+     "text": "Fig. 6 is a plan view of the structure illustrated in Fig. 4, and"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.2:24",
+     "text": "Fig. 7 shows a modified structure embodying my invention."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.2:26",
+     "text": "It has been found by comprehensive calculations and confirmed by actual tests that a box-girder wing of the required rigidity and strength may be obtained by utilizing only two longitudinal bearers or spars arranged near the outer edges of the hollow box construction instead of the three or more longitudinal frame members (Figs. 2 and 3) which have heretofore been required in practical constructions. These calculations and tests have shown that the intermediate longitudinal members of such prior constructions in practice are stressed only to a small extent and accordingly that they may be omitted, provided the structure is of a character to compensate for such omission and by my invention I have devised a two-spar box-girder construction of such character that the full utilization of the strength of the metallic covering is taken advantage of and the required strength and factor of safety are obtained with the consequent reduction of weight by the elimination of the intermediate longitudinal bearers and with no impairment of the safety, rigidity and strength as a consquence of such elimination of the intermediate bearers. Moreover, the form and shape of the outer skin is insured in my invention even when highly stressed by the employment of my novel wing structure, and as will appear, my invention facilitates the economical production and renders possible such economical production on a quantity production basis."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.2:60",
+     "text": "Referring to the drawings, I have indicated in plan view in Fig. 1 a diagrammatic outline of a wing 1 embodying my invention, wherein the main central or box-girder part of the wing is designated by the numeral 2 and the nose and rear sections of which are designated respectively by the numerals 3 and 4. Each of these sections 3 and 4 is a complete structure in itself, readily attachable to and detachable from the box-girder part 2 for assembling and disassembling and for inspection purposes. These parts 3 and 4 are mainly to give the wing its final shape and the connections for attaching them to the main part 2 need only be sufficient to resist and transmit the comparatively small forces thereupon immediately to the central part 2; and by having internal frame structures which are entirely independent of the wing structure 2 they may be readily disengaged along the longitudinal vertical planes for inspection of the part 2 or for dismantling and ready packing."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.2:83",
+     "text": "The box girder part 2 which forms the backbone of the wing includes the fore and aft longitudinal spar or girder members 7 and 8, the cross or transverse walls or bulkheads 9 (Fig. 6), and the upper and lower flat imperforate cover plates 5 and 6,—all of which are formed into a single rigid box girder unit transmitting and resisting the torsional, bending and other forces experienced in the operation of the craft. In the particular embodiment of Fig. 4 the cross walls or transverse bulkheads 9 are built up from metallic parts, each bulkhead including upper and lower girder and former members 17, diagonal members 18 forming a cross, and the vertical angle flanges or reinforcing profiles attached to the inner sides of spars 7 and 8 opposite the outer reinforcing profiles 14. The diagonal members 18 have their enlarged attaching ends 19 secured in side abutting relation to the vertical angle flanges or reinforcing profiles and to the ends of the girder members 17, as for example by riveting, as indicated. The spars or girder members 7 and 8 consist of elongated rectangular plates 11 with their upper and lower edges reinforced by the angle pieces 12, and the flat, imperforate cover plates or skins 5 and 6 are secured directly to and flat against the spar members 7 and 8 and the bulkheads 9, as for example by riveting the plates to the angle pieces 12 throughout their lengths and to the girder members 17 throughout their lengths. The end supporting or bearing surfaces of the bulkheads 9 are flush or co-planar with the corresponding surfaces of the angle pieces 12 of the spars 7 and 8, so as to enable the fastening of the plates 5 and 6 flat against the bulkheads 9 and the spars 7 and 8. The spars 7 and 8 are provided with lateral access and inspection openings 13 between the bulkhead stations determined by the reinforcing profiles 14 for affording all access that is necessary for the insertion of the proper tool or the hand of the workman in effecting the riveting or other fastening operations inside the wing, the necessity for the formation of access and weakening openings in the cover plates 5 and 6 or the removal of one of them for inspection being thereby obviated. In the particular embodiment shown there are four of these openings 13 formed in the web 11 between adjacent reinforcing profiles 14 so as to leave a diagonal or cross therebetween."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.3:9",
+     "text": "In consideration of the forces which are to be transmitted and resisted, the skin plates 5 and 6 are preferably composed of plates of different thicknesses and in order to further reinforce and avoid an undue local bending of the skin plates, arched reinforcing bars 10 forming an inside stiffening therefor are riveted to the insides of these plates throughout the length thereof, and the transverse former and girder members 17 forming parts of the bulkheads 9 are notched along their bearing and attaching surfaces to accommodate these arched or U-shaped members 10. The skin or cover plates 5 and 6 are therefore not merely a covering for the wing, but are incorporated in the structure in the manner to assist in transmitting and resisting the forces and are imperforate and not weakened in any way by openings other than the holes necessary for the rivets. By reason of their homogeneity and by reason of the particular construction all stresses such as tensive, torsional, bending and similar stresses occurring in operation are taken care of. Moreover, by forming the transverse girders 17 and the cover plates into structures of more or less rigid character indentations and injury thereto are minimized."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.3:37",
+     "text": "By this construction I have not only produced a statically sound construction combined with a marked economical use and utilization of material with the required factor of safety, but this construction enables the wing to be manufactured economically and without in any way impairing the structural advantages thereof as described above. While my invention is not limited to any method of assembling, the assembly can be effected by first forming a unit of the bottom skin plate and its transverse formers and girders 17 and then on this foundation are mounted the longitudinal spar frame including the longitudinal girders 7 and 8 and the diagonal cross 18 previously attached thereto,—or, if desired, of course, the girders 7 and 8 may be mounted on the lower frame 6—17 and the bracing cross 18 then inserted and fastened in position. The cover frame 6—17 and the longitudinal girders 7 and 8 with the cross braces 18 may be thereby secured together as by riveting, all parts being accessible and unobstructed so as to expedite the assembly work. To the bottom part thus prepared the upper skin unit 5—17 may then be affixed, the transverse girders 17 having previously been attached to the skin plate 5 to form a unit therewith. After the positioning of the covering frame 5—17 upon the upper side of the girders 7 and 8 the interior thereof is entirely closed, but since the only attachments that have to be made are in close proximity to the main longitudinal girders 7 and 8, this may readily be done by the provision of openings 13 in the plates 11 and disposed between the vertical reinforcing profiles 14. When longitudinal reinforcing members 10 are employed of course they must be attached to the skin plates 5 and 6 before the formation of the units thereof with the transverse girders 17."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.3:80",
+     "text": "In addition to enabling the assembly with a minimum of work necessary in obstructed and inaccessible places, my invention also enables the efficient employment of a great many workmen in the production of a great many parts, the assemblage to groups or units and again the assembly of the latter to form the complete central part of the wing,—and to the central part formed in such manner the leading and trailing edge parts 3 and 4 may be affixed which are, as above described, complete in themselves. The holes or cut-out parts 13 of the elongated rectangular plates 11 serve an additional function, of course, of lightening the weight without unduly impairing the strength of the structure."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.3:97",
+     "text": "In Fig. 7 I have shown a modified construction of the spars 7 and 8, this construction including the longitudinal upper and lower angle bars 15 which are connected by the oblique bars 16 of U-shaped cross section. At the time of assembling the parts these girders 15 are riveted directly to the reinforced skin plate units and the latter are secured directly to the bulkheads 9. Thereby a rigid support sustaining the skin plates and walls of the box-girder is formed which cooperates and functions with the transverse bulkhead bracing comprising the diagonal cross struts 18 riveted at their end portions 19 to the members 15 and with the cover plates to impart the required rigidity and strength to the box-girder. The open spaces between the oblique bars 16 correspond to the access and inspection openings 13 of Fig. 5."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.3:117",
+     "text": "The construction may also be modified by providing the longitudinal members 7 and 8 with one girder angle instead of two or by first riveting one or more angles 12 to the skin plates 5 and 6 and then connecting them with the plates of said members by means of rivet seams."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.3:124",
+     "text": "The manufacturing cost for my novel box-girder wing can be further reduced by spacing the cross bracing alike and uniformly, by making the shape of the access holes 13 uniform, etc. In order to construct the various structural parts in accordance with the different magnitudes of forces to be transmitted and sustained, only plates of different thickness but of geometrically equal form are to be used and in spite of good graduation of the different parts, only a few different tools will be necessary."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "cite": "p.4:6",
+     "text": "I claim:"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 7,
+     "cite": "p.7:19",
+     "text": "In testimony whereof I hereunto affix my signature."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 7,
+     "cite": "p.7:21",
+     "text": "DR. ADOLF ROHRBACH."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.2:13",
+   "text": "Fig. 1 is a diagrammatic outline of a wing embodying my invention,"
+  },
+  {
+   "fig": "2",
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.2:15",
+   "text": "Figs. 2 and 3 are diagrammatic outline views of three and four spar arrangements used heretofore,"
+  },
+  {
+   "fig": "3",
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.2:15",
+   "text": "Figs. 2 and 3 are diagrammatic outline views of three and four spar arrangements used heretofore,"
+  },
+  {
+   "fig": "4",
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.2:18",
+   "text": "Fig. 4 is a cross section of the box-girder part of the wing embodying my invention on the lines IV—IV of Fig. 6,"
+  },
+  {
+   "fig": "5",
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.2:21",
+   "text": "Fig. 5 is a view at right angles to Fig. 4,"
+  },
+  {
+   "fig": "6",
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.2:22",
+   "text": "Fig. 6 is a plan view of the structure illustrated in Fig. 4, and"
+  },
+  {
+   "fig": "7",
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.2:24",
+   "text": "Fig. 7 shows a modified structure embodying my invention."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.4:7",
+   "depends": null,
+   "text": "1. In a metal wing structure for airplanes an intermediate section forming the backbone of the wing and including a pair of spaced and laterally braced longitudinal spars which form the front and rear boundary edges thereof, a pair of upper and lower imperforate stressed skin cover plate units firmly secured to and bridging said spars, and one of said cover plate units including a plurality of transverse former and girder members firmly secured to the inner side thereof at intervals throughout their length to form a rigid part thereof and said transverse girder members having end connections for attachment to the laterally braced spar unit whereby the final assembly of the intermediate section may be effected by superimposing the transverse girder and cover unit upon the spar unit and by merely attaching the ends of said transverse girders and the front and rear edges of the cover plate to the laterally braced spars."
+  },
+  {
+   "n": 2,
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.4:29",
+   "depends": 1,
+   "text": "2. A structure of the character set forth in claim 1 wherein each of the cover plate units is provided with a plurality of transverse former and girder members firmly attached thereto throughout so as to form in effect integral parts thereof whereby in the final assembly of the structure either or both of said lifting surface parts may be firmly anchored in position by merely fastening the same to the spars and thereby obviating the necessity for riveting operations in the remote and inaccessible interior parts of the structure."
+  },
+  {
+   "n": 3,
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.4:42",
+   "depends": null,
+   "text": "3. A metal wing structure for aircraft including a pair of spaced longitudinal spars, vertical reinforcing profiles attached to the inner sides of the spars, a plurality of lateral bracing members including pairs of diagonals arranged in the form of crosses and attached respectively adjacent the upper and lower edges of said spars to the reinforcing profiles and metallic covering frames for both the upper and lower sides of said laterally braced spars, each including an imperforate metallic covering skin with a plurality of transverse former and girder members attached throughout their lengths to the inner surface thereof and joined at their ends to said spars."
+  },
+  {
+   "n": 4,
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.4:58",
+   "depends": null,
+   "text": "4. A metallic wing structure for airplanes including a single pair of spaced longitudinal spars and upper and lower metallic covering plate units for said wing firmly attached at their fore and aft edges to the spars, one of said cover plate units including a cover skin and a plurality of transverse former and girder members formed into a rigid structure, the transverse girders transforming the thin metallic covering skin into a stress transmitting and sustaining member functioning as a part of the wing frame structure and a plurality of bracing crosses disposed in vertical planes at the stations defined by the transverse girders with their ends attached to the spars and diagonally bracing the spars at said stations."
+  },
+  {
+   "n": 5,
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.4:75",
+   "depends": null,
+   "text": "5. A longitudinal central wing structure for airplanes including a pair of spars with pairs of vertical angle irons secured thereto at intervals throughout the length of the spars so as to reinforce the spars and to form transverse securing flanges, means for laterally spacing and bracing said spars and a pair of cover frames bridging said spars, each of said frames including a continuous imperforate metallic skin and a plurality of transverse former and girder members secured at intervals throughout their length to the inner surface thereof, said frames being assemblable by merely positioning them upon the spars with the transverse girder members abutting against said angle iron flanges and securing the ends of said girders to said flanges."
+  },
+  {
+   "n": 6,
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.4:93",
+   "depends": null,
+   "text": "6. A metallic wing structure for aircraft including a pair of longitudinal spars comprising vertical rectangular web-like structures with transverse flanges on their upper and lower sides, a plurality of pairs of opposite vertical reinforcing and attaching flange members secured to the inner sides thereof, a double diagonal brace in the form of a cross for each pair of flange members having end portions firmly attached to said vertical reinforcing flange members, metallic cover plates bridging said spars and each of them including a stressed metallic skin formed and braced by a plurality of transverse girders disposed at the stations defined by the vertical flanges, said girders being attached at their ends to the reinforcing flanges and to the cross braces."
+  },
+  {
+   "n": 7,
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.4:111",
+   "depends": 6,
+   "text": "7. A wing structure of the character set forth in claim 6 wherein the web-like spars are provided with openings adjacent the stations defined by the reinforcing flange members and at intermediate points adjacent the upper and lower edges."
+  },
+  {
+   "n": 8,
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.4:117",
+   "depends": null,
+   "text": "8. A metallic wing structure for airplanes divided laterally and along vertical longitudinal planes into three sections, the intermediate section including a pair of laterally braced longitudinal spar members and smooth metallic cover skins bridging the spars and formed each into a rigid stress resisting and transmitting unit with the laterally braced spars, and the fore and aft sections being structurally independent of the intermediate section but readily attachable thereto to form continuations of the intermediate stressed skin section."
+  },
+  {
+   "n": 9,
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.4:130",
+   "depends": null,
+   "text": "9. In a metallic wing structure for airplanes a pair of longitudinal spars and top and bottom smooth metallic cover plates bridging the spars and formed each into a rigid stress resisting and transmitting unit with the longitudinal spars, one of said cover plates being in the form of a separately assemblable rigid unit comprising a plurality of transverse former and girder members attached at intervals throughout their length to the inner side thereof and having connections at their ends for readily rigidly connecting the separately assemblable unit with the internal frame structure of the wing."
+  },
+  {
+   "n": 10,
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.5:14",
+   "depends": null,
+   "text": "10. A metallic wing structure for aircraft including a pair of longitudinal spars and smooth metallic cover plates bridging the spars and formed each into a rigid stress resisting and transmitting unit with the spars, one of said cover plates being in the form of a separately assemblable rigid unit and including a plurality of transverse former and girder members attached to the inner side thereof, the fore and aft edges of said cover plate being attached to the outer flanged edges of the spars and the transverse former and girder members having their fore and aft ends bearing in side abutting relation in vertical planes with corresponding connections on the spar frame and rigidly connected therewith."
+  },
+  {
+   "n": 11,
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.5:31",
+   "depends": null,
+   "text": "11. A metal wing structure for airplanes including a pair of longitudinal spars provided with suitable connections at stations therealong for attachment of transverse frame members, a transverse frame at each of said stations including a pair of ribs firmly connected at their ends with said connections and giving form to the wing and a pair of diagonals in the form of a cross disposed in the plane of said ribs and also firmly attached to the connections on said spars, and metal cover plates rigidly attached to said ribs throughout their length and also attached to said spars."
+  },
+  {
+   "n": 12,
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.5:45",
+   "depends": null,
+   "text": "12. A metallic wing structure for airplanes divided laterally and along vertical longitudinal planes into three sections, the intermediate section being in the form of a box girder including a pair of longitudinal spar members rigidly braced laterally by means of transverse bulkheads and smooth metallic cover plates bridging the spars and formed each into a rigid stress resisting and transmitting unit with the spars and the transverse bulkheads, the plates being rigidly and directly fastened to both the spars and the transverse bulkheads, and the fore and aft sections being structurally independent of the intermediate section, but readily attachable thereto to form continuations of the intermediate stressed cover plate section."
+  },
+  {
+   "n": 13,
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.5:62",
+   "depends": null,
+   "text": "13. A metallic wing structure for airplanes consisting of two spaced longitudinal spars of sufficient depth to give the required wing thickness, transverse bulkheads rigidly bracing said spars, and cover plates lying flat against and fastened rigidly and directly to both the spars and the bulkheads to form a rigid stress carrying part of the wing structure."
+  },
+  {
+   "n": 14,
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.5:71",
+   "depends": null,
+   "text": "14. A metallic wing structure for airplanes consisting of two longitudinal spars of sufficient depth to give the required wing thickness, said spars being spaced from each other and arranged on opposite sides of the center line of the wing, transverse bulkheads rigidly bracing said spars and forming a series of open boxes extending in the direction of the wing, said bulkheads being of a form both on their upper and lower edges to give the required wing curvature and having cover plate supporting surfaces at their ends co-planar with the upper and lower edges of the spars, and top and bottom cover plates lying flat against and rigidly and directly secured to both said spars and the intermediate bulkheads."
+  },
+  {
+   "n": 15,
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.5:88",
+   "depends": 13,
+   "text": "15. A wing structure of the character set forth in claim 13 including leading and trailing edges separate and distinct from the central portion of the wing bounded by the longitudinal spars but readily attachable thereto to complete the wing curvature."
+  },
+  {
+   "n": 16,
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.5:94",
+   "depends": null,
+   "text": "16. A metallic box girder aircraft wing including two longitudinal frame members standing on edge and extending longitudinally of the wing, transverse connecting members rigidly connecting and bracing said spars at intervals throughout their length, said transverse connecting bracing members giving form to the wing and having end bearing surfaces flush with the upper and lower edges of the longitudinal spars so as to form co-planar supporting surfaces for the top and bottom cover plates, and top and bottom cover plates lying flat against and rigidly secured to both said spars and said transverse connecting members to form an independent perfectly closed girder capable of withstanding both bending and torsional stresses, together with leading and trailing edges attached thereto in a manner so as not to transmit appreciable force to the craft direct."
+  },
+  {
+   "n": 17,
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.5:115",
+   "depends": null,
+   "text": "17. A metallic wing structure for airplanes consisting of spaced longitudinal spars with sufficient depth to give the required wing thickness, transverse bulkheads rigidly bracing said spars and dividing the space therebetween into a series of open boxes and imperforate cover plates rigidly and directly secured to the upper and lower sides of both the spars and the bulkheads, one of said spars being provided with lateral openings of sufficient dimensions to accommodate operating tools when inserted into the open interior spaces and facilitating the riveting operations within the wing."
+  },
+  {
+   "n": 18,
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.5:129",
+   "depends": 13,
+   "text": "18. A metallic wing of the character set forth in claim 13 wherein the cover plates are imperforate and the longitudinal spars are provided with lateral openings of sufficient dimensions to accommodate riveting tools and riveting operations."
+  },
+  {
+   "n": 19,
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.6:5",
+   "depends": null,
+   "text": "19. A metallic wing structure for airplanes consisting of two spaced longitudinal spars of sufficient depth to give the required wing thickness and having vertically and angularly disposed attaching flanges thereon to form bulkhead stations, transverse bulkheads bridging said spars with their ends lying flat against said vertical flanges and rigidly fastened thereto along vertical planes and cover plates lying flat against and rigidly and directly fastened to both the spars and the bulkheads."
+  },
+  {
+   "n": 20,
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.6:17",
+   "depends": null,
+   "text": "20. A metal structure forming the backbone of an aircraft wing and consisting of two spaced longitudinal spars forming the front and rear terminal edges thereof and arranged in vertical planes, rigid transverse bracing members arranged between the spars at intervals throughout their length and in planes at an angle thereto, metallic covering plates directly riveted to and along the longitudinal spars, and girder members rigidly connecting the bracing members both to said spars and to the cover skins."
+  },
+  {
+   "n": 21,
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.6:29",
+   "depends": null,
+   "text": "21. A metal structure forming the backbone of an aircraft wing and consisting of two independent longitudinal spars arranged in vertical planes, imperforate top and bottom cover plates directly riveted to said longitudinal spars to form a hollow box, transverse connecting bracing members arranged at intervals in the interior of the hollow box formed by the spars and the cover plates, and girder members rigidly connecting said transverse connecting members with both the longitudinal spars and the top and bottom cover plates and said longitudinal spars having relatively large lateral openings therethrough for the accommodation of tools and effecting the necessary riveting operations in the interior of the hollow box."
+  },
+  {
+   "n": 22,
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.6:46",
+   "depends": null,
+   "text": "22. A metal wing structure for aircraft consisting of two independent vertically arranged longitudinal spars, top and bottom cover skins directly riveted to said spars, supporting and bracing transverse connecting ties arranged at intervals in the interior of the box and directly riveted by means of girder members to the longitudinal spars and top and bottom cover plates, said cover plates being reinforced by profiles arranged at relatively large intervals and running parallel to the spars."
+  },
+  {
+   "n": 23,
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.6:58",
+   "depends": 22,
+   "text": "23. A wing structure of the character set forth in claim 22 wherein openings are provided on the edges of the transverse connecting ties to accommodate the reinforcing elongated profiles."
+  },
+  {
+   "n": 24,
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.6:63",
+   "depends": 20,
+   "text": "24. A wing structure of the character set forth in claim 20 wherein the longitudinal spars include angle girder members at their top and bottom edges for supporting the cover plates."
+  },
+  {
+   "n": 25,
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.6:68",
+   "depends": 21,
+   "text": "25. A wing structure of the character set forth in claim 21 wherein the lateral openings in the longitudinal spars are arranged so as to form diagonal crosses between the vertical girder or angle members carried by the spars."
+  },
+  {
+   "n": 26,
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.6:74",
+   "depends": 21,
+   "text": "26. A metal wing structure of the character set forth in claim 21 wherein the transverse connecting ties are attached to the vertical girder or angle members."
+  },
+  {
+   "n": 27,
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.6:78",
+   "depends": 21,
+   "text": "27. A wing structure of the character set forth in claim 21 wherein the transverse connecting ties consist of girder or angle members and one diagonal cross, the forearms of the said cross being fastened to the vertical angles of the girder members which are riveted to the longitudinal spars and skins as well."
+  },
+  {
+   "n": 28,
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.6:86",
+   "depends": null,
+   "text": "28. A metallic wing structure for aircraft including a pair of spaced longitudinal spars of sufficient depth to give the required wing thickness and having upper and lower flanged edges, vertical angle members secured to the inner sides of said spars and having inwardly extending attaching flanges forming bulkhead stations, smooth metallic cover plates bridging the spars with their fore and aft edges firmly secured to the upper and lower flanged edges thereof and transverse bulkheads and former members having their fore and aft ends bearing in side abutting relation with the vertical angle members and rigidly connected both to said vertical angle members and to said smooth metallic cover plates."
+  },
+  {
+   "n": 29,
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.6:103",
+   "depends": 12,
+   "text": "29. A wing structure for aircraft of the character set forth in claim 12 wherein the longitudinal spar members are in the form of built up beams standing on edge and the foremost and rearmost spar members are provided with reinforcing profile members on their exterior sides."
+  },
+  {
+   "n": 30,
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.6:110",
+   "depends": 19,
+   "text": "30. A wing structure for aircraft of the character set forth in claim 19 wherein the longitudinal spars are provided with vertically disposed reinforcing members on their exterior sides in the planes of the transverse bulkheads."
+  },
+  {
+   "n": 31,
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.6:116",
+   "depends": 12,
+   "text": "31. A wing structure for aircraft of the character set forth in claim 12 wherein the foremost and rearmost longitudinal spars are formed of elongated plates standing on their edge and angle pieces at the upper and lower edges to form girder sections, and vertically arranged reinforcing members secured flat against the elongated plates."
+  },
+  {
+   "n": 32,
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.6:124",
+   "depends": 13,
+   "text": "32. A wing structure for aircraft of the character set forth in claim 13 wherein the longitudinal spars include elongated metallic plates standing on edge with lateral openings of sufficient dimensions to accommodate riveting tools and riveting operations formed between the planes defined by the transverse bulkheads, said lateral openings being arranged so as to form diagonal crosses in the elongated plates together with bracing and reinforcing members disposed in vertical planes between the diagonal crosses."
+  },
+  {
+   "n": 33,
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.7:7",
+   "depends": 8,
+   "text": "33. A wing structure for aircraft of the character set forth in claim 8 wherein the foremost and rearmost longitudinal spars are in the form of built up beams standing on edge including top and bottom angle members which are bridged by angularly disposed bracing members."
+  },
+  {
+   "n": 34,
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.7:14",
+   "depends": 14,
+   "text": "34. A wing structure of the character set forth in claim 14 wherein the cover plates are provided with reinforcing and stiffening profiles firmly secured to their inner sides."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "page": 1,
+   "cite": "p.1:2",
+   "ocr": "metal:",
+   "fixed": "metal",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:5",
+   "ocr": "construction.",
+   "fixed": "construction",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:6",
+   "ocr": "use:",
+   "fixed": "use",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:8",
+   "ocr": "‘further",
+   "fixed": "further",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:12",
+   "ocr": "‘A",
+   "fixed": "A",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:12",
+   "ocr": "furthér",
+   "fixed": "further",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:13",
+   "ocr": "safet -",
+   "fixed": "safety",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:16",
+   "ocr": ".on",
+   "fixed": "on",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:22",
+   "ocr": "‘ter",
+   "fixed": "ter",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:25",
+   "ocr": "placed. '",
+   "fixed": "placed",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:26",
+   "ocr": "moreover,.a",
+   "fixed": "moreover, a",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:29",
+   "ocr": "‘of",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:31",
+   "ocr": "been’",
+   "fixed": "been",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:35",
+   "ocr": "result-. 35",
+   "fixed": "result-",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:43",
+   "ocr": "-workmen",
+   "fixed": "workmen",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:47",
+   "ocr": "majority,",
+   "fixed": "majority",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:50",
+   "ocr": "only-a",
+   "fixed": "only a",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:52",
+   "ocr": "“combined",
+   "fixed": "combined",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:53",
+   "ocr": "con-' “nections.",
+   "fixed": "con- nections.",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:58",
+   "ocr": "7 -labor",
+   "fixed": "labor",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:59",
+   "ocr": "détails",
+   "fixed": "details",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:62",
+   "ocr": "is.",
+   "fixed": "is",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:63",
+   "ocr": "shop'room",
+   "fixed": "shop room",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:72",
+   "ocr": "made.",
+   "fixed": "made",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:78",
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:84",
+   "ocr": "extent.that",
+   "fixed": "extent that",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:85",
+   "ocr": "skin:",
+   "fixed": "skin",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:87",
+   "ocr": "disadvantage.",
+   "fixed": "disadvantage",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:89",
+   "ocr": "the. 90",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:90",
+   "ocr": "thereof...",
+   "fixed": "thereof.",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:91",
+   "ocr": "thé ~",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:92",
+   "ocr": "box-girder’",
+   "fixed": "box-girder",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:94",
+   "ocr": "—_ problems.",
+   "fixed": "problems",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:95",
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:96",
+   "ocr": "in:",
+   "fixed": "in",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:96",
+   "ocr": "‘wooden",
+   "fixed": "wooden",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:97",
+   "ocr": "constructions.",
+   "fixed": "constructions",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:107",
+   "ocr": "skin'and",
+   "fixed": "skin and",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:10",
+   "ocr": "my*",
+   "fixed": "my",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:15",
+   "ocr": "oufline",
+   "fixed": "outline",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:20",
+   "ocr": "IV__1V",
+   "fixed": "IV—IV",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:23",
+   "ocr": "and: .",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:28",
+   "ocr": "the,",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:37",
+   "ocr": "tudinal:",
+   "fixed": "tudinal",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:46",
+   "ocr": "gnd",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:50",
+   "ocr": "-no",
+   "fixed": "no",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:57",
+   "ocr": "‘facilitntes",
+   "fixed": "facilitates",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:62",
+   "ocr": "a-wing",
+   "fixed": "a wing",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:67",
+   "ocr": "isa",
+   "fixed": "is a",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:68",
+   "ocr": "itself;",
+   "fixed": "itself,",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:70",
+   "ocr": "' art",
+   "fixed": "part",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:71",
+   "ocr": "70 or",
+   "fixed": "for",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:74",
+   "ocr": "part-2’need",
+   "fixed": "part 2 need",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:78",
+   "ocr": "win",
+   "fixed": "wing",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:79",
+   "ocr": "disengage",
+   "fixed": "disengaged",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:88",
+   "ocr": "6,—all.",
+   "fixed": "6,—all",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:93",
+   "ocr": "-4",
+   "fixed": "4",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:97",
+   "ocr": "nrembers",
+   "fixed": "members",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:97",
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:99",
+   "ocr": "sides. 100",
+   "fixed": "sides",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:100",
+   "ocr": "reinfore-",
+   "fixed": "reinforc-",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:106",
+   "ocr": "‘The",
+   "fixed": "The",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:108",
+   "ocr": "11.",
+   "fixed": "11",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:111",
+   "ocr": "aré",
+   "fixed": "are",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:112",
+   "ocr": "‘directly",
+   "fixed": "directly",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:114",
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:115",
+   "ocr": "115 pleces",
+   "fixed": "pieces",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:115",
+   "ocr": "throughout.",
+   "fixed": "throughout",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:116",
+   "ocr": "irder",
+   "fixed": "girder",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:116",
+   "ocr": "their: the",
+   "fixed": "their",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:118",
+   "ocr": "bulkhecds",
+   "fixed": "bulkheads",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:120",
+   "ocr": "tthe",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:127",
+   "ocr": "thaf",
+   "fixed": "that",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:5",
+   "ocr": "there’",
+   "fixed": "there",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:8",
+   "ocr": "to.leave",
+   "fixed": "to leave",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:22",
+   "ocr": "10,",
+   "fixed": "10.",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:24",
+   "ocr": "arée",
+   "fixed": "are",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:29",
+   "ocr": "‘reason",
+   "fixed": "reason",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:33",
+   "ocr": "of.-",
+   "fixed": "of.",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:33",
+   "ocr": "forming.",
+   "fixed": "forming",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:34",
+   "ocr": "17,",
+   "fixed": "17",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:37",
+   "ocr": "I,",
+   "fixed": "I",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:38",
+   "ocr": ".com-",
+   "fixed": "com-",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:39",
+   "ocr": "économical",
+   "fixed": "economical",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:41",
+   "ocr": "40 of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:46",
+   "ocr": "o og méthod",
+   "fixed": "method",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:46",
+   "ocr": "assémbling,",
+   "fixed": "assembling,",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:50",
+   "ocr": "50 niounted",
+   "fixed": "mounted",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:51",
+   "ocr": "and.8",
+   "fixed": "and 8",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:53",
+   "ocr": "to;—or,",
+   "fixed": "to,—or,",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:54",
+   "ocr": "tnounted",
+   "fixed": "mounted",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:56",
+   "ocr": "‘The",
+   "fixed": "The",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:57",
+   "ocr": "' 6-17",
+   "fixed": "6—17",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:58",
+   "ocr": "“with",
+   "fixed": "with",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:62",
+   "ocr": "__part",
+   "fixed": "part",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:63",
+   "ocr": "thay",
+   "fixed": "may",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:64",
+   "ocr": "“having",
+   "fixed": "having",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:65",
+   "ocr": "ckin",
+   "fixed": "skin",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:68",
+   "ocr": "-but",
+   "fixed": "but",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:72",
+   "ocr": "18",
+   "fixed": "13",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:81",
+   "ocr": "‘a minimuin",
+   "fixed": "a minimum",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:83",
+   "ocr": "‘enables",
+   "fixed": "enables",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:90",
+   "ocr": "8",
+   "fixed": "3",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:90",
+   "ocr": "affixed’",
+   "fixed": "affixed",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:90",
+   "ocr": "a»",
+   "fixed": "as",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:91",
+   "ocr": "complete:",
+   "fixed": "complete",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:92",
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:93",
+   "ocr": "‘gated",
+   "fixed": "gated",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:95",
+   "ocr": "95 | “the",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:102",
+   "ocr": "parts.",
+   "fixed": "parts",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:104",
+   "ocr": "‘reinforced",
+   "fixed": "reinforced",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:109",
+   "ocr": "comprising.",
+   "fixed": "comprising",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:110",
+   "ocr": "portiong",
+   "fixed": "portions",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:112",
+   "ocr": "impart.",
+   "fixed": "impart",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:113",
+   "ocr": "\"The",
+   "fixed": "The",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:118",
+   "ocr": "thé",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:122",
+   "ocr": "“with",
+   "fixed": "with",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:123",
+   "ocr": "seams: - _— _",
+   "fixed": "seams.",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:125",
+   "ocr": "eirder",
+   "fixed": "girder",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:125",
+   "ocr": "bé",
+   "fixed": "be",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:126",
+   "ocr": "alike.",
+   "fixed": "alike",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:128",
+   "ocr": "‘uniform, etc..",
+   "fixed": "uniform, etc.",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:130",
+   "ocr": "130 ‘the",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:6",
+   "ocr": "Iclaim: .",
+   "fixed": "I claim:",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:23",
+   "ocr": "may.",
+   "fixed": "may",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:25",
+   "ocr": "upon-the",
+   "fixed": "upon the",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:29",
+   "ocr": "2,",
+   "fixed": "2.",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:30",
+   "ocr": "ofthe",
+   "fixed": "of the",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:31",
+   "ocr": "' .units",
+   "fixed": "units",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:31",
+   "ocr": "of.trans- ‘verse",
+   "fixed": "of trans- verse",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:35",
+   "ocr": "assemblv-of",
+   "fixed": "assembly of",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:37",
+   "ocr": "anchored-in",
+   "fixed": "anchored in",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:45",
+   "ocr": "iat-",
+   "fixed": "lat-",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:52",
+   "ocr": "of-said",
+   "fixed": "of said",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:56",
+   "ocr": ". 65 to.",
+   "fixed": "to",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:58",
+   "ocr": "4,",
+   "fixed": "4.",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:60",
+   "ocr": "cav-",
+   "fixed": "cov-",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:65",
+   "ocr": "a-",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:73",
+   "ocr": "attached,",
+   "fixed": "attached",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:74",
+   "ocr": "the-spars",
+   "fixed": "the spars",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:81",
+   "ocr": "laterally-spacing",
+   "fixed": "laterally spacing",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:85",
+   "ocr": "girder’",
+   "fixed": "girder",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:96",
+   "ocr": "flanges.on",
+   "fixed": "flanges on",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:99",
+   "ocr": "meinbers",
+   "fixed": "members",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:108",
+   "ocr": "said.",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:118",
+   "ocr": "laterally.",
+   "fixed": "laterally",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:120",
+   "ocr": "inclu.ling",
+   "fixed": "including",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:124",
+   "ocr": "transinitting",
+   "fixed": "transmitting",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:126",
+   "ocr": "ons",
+   "fixed": "tions",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:1",
+   "ocr": "“planes",
+   "fixed": "planes",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:1",
+   "ocr": "‘spars",
+   "fixed": "spars",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:4",
+   "ocr": "transniitting",
+   "fixed": "transmitting",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:6",
+   "ocr": "-plates",
+   "fixed": "plates",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:6",
+   "ocr": "separatel",
+   "fixed": "separately",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:11",
+   "ocr": "con-.",
+   "fixed": "con-",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:17",
+   "ocr": "-re-",
+   "fixed": "re-",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:24",
+   "ocr": "‘plate",
+   "fixed": "plate",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:25",
+   "ocr": "former.",
+   "fixed": "former",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:31",
+   "ocr": "1.",
+   "fixed": "11.",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:38",
+   "ocr": "tions.",
+   "fixed": "tions",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:40",
+   "ocr": "at-: 40 -",
+   "fixed": "at-",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:41",
+   "ocr": "te",
+   "fixed": "to",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:48",
+   "ocr": "-box",
+   "fixed": "box",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:58",
+   "ocr": "inde ndent",
+   "fixed": "independent",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:62",
+   "ocr": "wing’",
+   "fixed": "wing",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:63",
+   "ocr": "_planes",
+   "fixed": "planes",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:63",
+   "ocr": "two.",
+   "fixed": "two",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:66",
+   "ocr": "said.",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:66",
+   "ocr": "plates.",
+   "fixed": "plates",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:68",
+   "ocr": "spars:and",
+   "fixed": "spars and",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:69",
+   "ocr": "stress..carrying",
+   "fixed": "stress carrying",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:71",
+   "ocr": "ait-",
+   "fixed": "air-",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:72",
+   "ocr": "consisting.",
+   "fixed": "consisting",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:73",
+   "ocr": "required,",
+   "fixed": "required",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:74",
+   "ocr": "each- 75",
+   "fixed": "each",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:88",
+   "ocr": "set.",
+   "fixed": "set",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:89",
+   "ocr": "18",
+   "fixed": "13",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:95",
+   "ocr": "two.",
+   "fixed": "two",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:99",
+   "ocr": "‘spars",
+   "fixed": "spars",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:107",
+   "ocr": "‘rigidly",
+   "fixed": "rigidly",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:110",
+   "ocr": "110 _of",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:113",
+   "ocr": "force'to",
+   "fixed": "force to",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:115",
+   "ocr": "wing’",
+   "fixed": "wing",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:117",
+   "ocr": "re-:",
+   "fixed": "re-",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:123",
+   "ocr": "sideg",
+   "fixed": "sides",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:125",
+   "ocr": "sufficient.",
+   "fixed": "sufficient",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:8",
+   "ocr": "“quired",
+   "fixed": "quired",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:29",
+   "ocr": "; 21..A",
+   "fixed": "21. A",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:37",
+   "ocr": "cover.",
+   "fixed": "cover",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:46",
+   "ocr": "-aircraft",
+   "fixed": "aircraft",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:60",
+   "ocr": "‘vided",
+   "fixed": "vided",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:69",
+   "ocr": "claim'21",
+   "fixed": "claim 21",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:77",
+   "ocr": "members,",
+   "fixed": "members.",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:88",
+   "ocr": "the-required",
+   "fixed": "the required",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:90",
+   "ocr": "fldnged",
+   "fixed": "flanged",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:95",
+   "ocr": "tc",
+   "fixed": "to",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:97",
+   "ocr": "bulkheads:",
+   "fixed": "bulkheads",
+   "basis": "scan"
+  },
+  {
+   "page": 7,
+   "cite": "p.7:5",
+   "ocr": "between,",
+   "fixed": "between",
+   "basis": "scan"
+  },
+  {
+   "page": 7,
+   "cite": "p.7:7",
+   "ocr": ". 83.",
+   "fixed": "33.",
+   "basis": "scan"
+  },
+  {
+   "page": 7,
+   "cite": "p.7:9",
+   "ocr": "rearmost.",
+   "fixed": "rearmost",
+   "basis": "scan"
+  },
+  {
+   "page": 7,
+   "cite": "p.7:15",
+   "ocr": "plates: 15",
+   "fixed": "plates",
+   "basis": "scan"
+  },
+  {
+   "page": 7,
+   "cite": "p.7:16",
+   "ocr": "‘with",
+   "fixed": "with",
+   "basis": "scan"
+  }
+ ]
+}

@@ -1,0 +1,1207 @@
+{
+ "pn": "8307732",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    426,
+    619,
+    2087,
+    2855
+   ],
+   "rotate": 0,
+   "front_page": true
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    391,
+    473,
+    2114,
+    2945
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    543,
+    595,
+    2121,
+    2870
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4A",
+   "label": "FIG. 4A",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    920,
+    400,
+    1696,
+    1782
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4B",
+   "label": "FIG. 4B",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    746,
+    1793,
+    1719,
+    3056
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 5,
+   "page": 5,
+   "crop": [
+    833,
+    323,
+    1746,
+    1373
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 5,
+   "page": 5,
+   "crop": [
+    634,
+    1583,
+    1891,
+    3049
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "FIG. 7",
+   "sheet": 6,
+   "page": 6,
+   "crop": [
+    422,
+    924,
+    2170,
+    2523
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8A",
+   "label": "FIG. 8A",
+   "sheet": 7,
+   "page": 7,
+   "crop": [
+    403,
+    478,
+    1974,
+    1633
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8B",
+   "label": "FIG. 8B",
+   "sheet": 7,
+   "page": 7,
+   "crop": [
+    416,
+    1633,
+    1887,
+    2277
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8C",
+   "label": "FIG. 8C",
+   "sheet": 7,
+   "page": 7,
+   "crop": [
+    361,
+    2298,
+    2130,
+    3006
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9A",
+   "label": "FIG. 9A",
+   "sheet": 8,
+   "page": 8,
+   "crop": [
+    816,
+    407,
+    1839,
+    1583
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9B",
+   "label": "FIG. 9B",
+   "sheet": 8,
+   "page": 8,
+   "crop": [
+    646,
+    1724,
+    1881,
+    3111
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10A",
+   "label": "FIG. 10A",
+   "sheet": 9,
+   "page": 9,
+   "crop": [
+    753,
+    363,
+    1951,
+    1577
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10B",
+   "label": "FIG. 10B",
+   "sheet": 9,
+   "page": 9,
+   "crop": [
+    600,
+    1587,
+    1810,
+    3071
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11",
+   "label": "FIG. 11",
+   "sheet": 10,
+   "page": 10,
+   "crop": [
+    421,
+    622,
+    2174,
+    2822
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12",
+   "label": "FIG. 12",
+   "sheet": 11,
+   "page": 11,
+   "crop": [
+    661,
+    368,
+    1832,
+    1659
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "13",
+   "label": "FIG. 13",
+   "sheet": 11,
+   "page": 11,
+   "crop": [
+    793,
+    1890,
+    1883,
+    3065
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "14",
+   "label": "FIG. 14",
+   "sheet": 12,
+   "page": 12,
+   "crop": [
+    387,
+    956,
+    2145,
+    2461
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "15A",
+   "label": "FIG. 15A",
+   "sheet": 13,
+   "page": 13,
+   "crop": [
+    756,
+    411,
+    1848,
+    1662
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "15B",
+   "label": "FIG. 15B",
+   "sheet": 13,
+   "page": 13,
+   "crop": [
+    767,
+    1679,
+    1859,
+    3003
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "16A",
+   "label": "FIG. 16A",
+   "sheet": 14,
+   "page": 14,
+   "crop": [
+    929,
+    352,
+    1941,
+    1645
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "16B",
+   "label": "FIG. 16B",
+   "sheet": 14,
+   "page": 14,
+   "crop": [
+    580,
+    1646,
+    1842,
+    3052
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "10",
+   "name": "parallel link robot",
+   "figs": [
+    "1",
+    "5",
+    "6",
+    "9A",
+    "10A"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "base",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "movable plate",
+   "figs": [
+    "1",
+    "2",
+    "4A",
+    "4B",
+    "5",
+    "6",
+    "8A",
+    "9A",
+    "9B",
+    "10A",
+    "10B"
+   ]
+  },
+  {
+   "ref": "12a",
+   "name": "through hole",
+   "figs": [
+    "9A",
+    "9B",
+    "10B"
+   ]
+  },
+  {
+   "ref": "13a",
+   "name": "actuators",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "13b",
+   "name": "actuator",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "13c",
+   "name": "actuators",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "13d",
+   "name": "additional actuator",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4A",
+    "4B",
+    "5",
+    "6",
+    "8A",
+    "9B",
+    "10B"
+   ]
+  },
+  {
+   "ref": "13d'",
+   "name": "projecting part",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "13e",
+   "name": "additional actuators",
+   "figs": [
+    "6"
+   ],
+   "alt": [
+    "actuator"
+   ]
+  },
+  {
+   "ref": "13f",
+   "name": "additional actuators",
+   "figs": [
+    "6"
+   ],
+   "alt": [
+    "actuator"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "shaft",
+   "figs": [
+    "2",
+    "4A",
+    "4B",
+    "5",
+    "6",
+    "9B",
+    "10B"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "posture changing mechanism",
+   "figs": [
+    "1",
+    "2",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "first wrist member",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "17",
+   "name": "second wrist member",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "housing",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "19",
+   "name": "mounting member",
+   "figs": [
+    "1",
+    "5",
+    "6",
+    "9A",
+    "9B",
+    "10A",
+    "10B"
+   ]
+  },
+  {
+   "ref": "20a",
+   "name": "links",
+   "figs": [
+    "1",
+    "9A",
+    "10A"
+   ]
+  },
+  {
+   "ref": "20b",
+   "name": "link",
+   "figs": [
+    "1",
+    "2",
+    "9A",
+    "10A"
+   ]
+  },
+  {
+   "ref": "20c",
+   "name": "links",
+   "figs": [
+    "1",
+    "9A",
+    "10A"
+   ]
+  },
+  {
+   "ref": "21a",
+   "name": "drive link",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "21b",
+   "name": "drive link",
+   "figs": [
+    "1",
+    "2",
+    "4A",
+    "4B",
+    "7",
+    "8A"
+   ],
+   "alt": [
+    "driven link"
+   ]
+  },
+  {
+   "ref": "21c",
+   "name": "drive link",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "22a",
+   "name": "driven links",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "22b",
+   "name": "driven links",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4A",
+    "4B",
+    "7"
+   ]
+  },
+  {
+   "ref": "22c",
+   "name": "driven links",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "23a",
+   "name": "driven links",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "23b",
+   "name": "driven links",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4A",
+    "4B",
+    "7"
+   ]
+  },
+  {
+   "ref": "23c",
+   "name": "driven links",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "28",
+   "name": "through hole",
+   "figs": [
+    "9B",
+    "10B"
+   ]
+  },
+  {
+   "ref": "29",
+   "name": "spring",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "31",
+   "name": "auxiliary link",
+   "figs": [
+    "2",
+    "3",
+    "4A",
+    "4B",
+    "8A"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "shaft",
+   "figs": [
+    "2",
+    "4A",
+    "4B"
+   ]
+  },
+  {
+   "ref": "33a",
+   "name": "rods",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "33b",
+   "name": "rods",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "33c",
+   "name": "rod",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "38",
+   "name": "universal joint",
+   "figs": [
+    "2",
+    "4A",
+    "4B",
+    "5",
+    "6",
+    "8A",
+    "9B",
+    "10B"
+   ]
+  },
+  {
+   "ref": "39",
+   "name": "power transmission shaft",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4A",
+    "4B",
+    "5",
+    "6",
+    "8A",
+    "8B",
+    "8C",
+    "9B",
+    "10B"
+   ]
+  },
+  {
+   "ref": "42b",
+   "name": "spherical bearings",
+   "figs": [
+    "2",
+    "7"
+   ]
+  },
+  {
+   "ref": "43b",
+   "name": "spherical bearings",
+   "figs": [
+    "2",
+    "7"
+   ]
+  },
+  {
+   "ref": "44b",
+   "name": "spherical bearings",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "45b",
+   "name": "spherical bearings",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "51",
+   "name": "helical gear",
+   "figs": [
+    "5",
+    "6",
+    "9B",
+    "10B"
+   ]
+  },
+  {
+   "ref": "52",
+   "name": "helical gear",
+   "figs": [
+    "5",
+    "6",
+    "9B",
+    "10B"
+   ]
+  },
+  {
+   "ref": "53",
+   "name": "helical gear",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "54",
+   "name": "helical gear",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "55",
+   "name": "helical gear",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "56",
+   "name": "helical gear",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "57",
+   "name": "helical gear",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "58",
+   "name": "helical gear",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "59",
+   "name": "helical gear",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "60",
+   "name": "helical gear",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "61",
+   "name": "helical gear",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "62",
+   "name": "helical gear",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "65",
+   "name": "through rod",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "66b",
+   "name": "ends",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "67b",
+   "name": "ends",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "71",
+   "name": "inside tube",
+   "figs": [
+    "8B",
+    "8C"
+   ]
+  },
+  {
+   "ref": "72",
+   "name": "outside tube",
+   "figs": [
+    "8A",
+    "8B",
+    "8C"
+   ]
+  },
+  {
+   "ref": "73",
+   "name": "key",
+   "figs": [
+    "8B"
+   ]
+  },
+  {
+   "ref": "74",
+   "name": "key groove",
+   "figs": [
+    "8B"
+   ]
+  },
+  {
+   "ref": "75",
+   "name": "spline shaft",
+   "figs": [
+    "8C"
+   ]
+  },
+  {
+   "ref": "76",
+   "name": "spline hole",
+   "figs": [
+    "8C"
+   ]
+  },
+  {
+   "ref": "78",
+   "name": "suction pad",
+   "figs": [
+    "10A",
+    "10B"
+   ]
+  },
+  {
+   "ref": "78a",
+   "name": "tubular part",
+   "figs": [
+    "10B"
+   ]
+  },
+  {
+   "ref": "79",
+   "name": "air tube",
+   "figs": [
+    "9B",
+    "10A",
+    "10B"
+   ]
+  },
+  {
+   "ref": "80",
+   "name": "rotation absorption unit",
+   "figs": [
+    "10A",
+    "10B"
+   ]
+  },
+  {
+   "ref": "81",
+   "name": "rotational seal",
+   "figs": [
+    "10B"
+   ]
+  },
+  {
+   "ref": "83",
+   "name": "joint",
+   "figs": [
+    "10B"
+   ]
+  },
+  {
+   "ref": "100",
+   "name": "parallel link robot",
+   "figs": [
+    "11",
+    "15A",
+    "15B",
+    "16A"
+   ]
+  },
+  {
+   "ref": "110",
+   "name": "base",
+   "figs": [
+    "11",
+    "12",
+    "13",
+    "15A",
+    "15B"
+   ]
+  },
+  {
+   "ref": "120",
+   "name": "movable plate",
+   "figs": [
+    "11",
+    "12",
+    "13",
+    "15A",
+    "15B",
+    "16A",
+    "16B"
+   ]
+  },
+  {
+   "ref": "130a",
+   "name": "actuator",
+   "figs": [
+    "11",
+    "15A",
+    "15B"
+   ]
+  },
+  {
+   "ref": "130b",
+   "name": "actuators",
+   "figs": [
+    "11",
+    "15A",
+    "15B"
+   ]
+  },
+  {
+   "ref": "130c",
+   "name": "actuators",
+   "figs": [
+    "11",
+    "15A",
+    "15B"
+   ]
+  },
+  {
+   "ref": "130d",
+   "name": "additional actuator",
+   "figs": [
+    "12",
+    "13",
+    "16A",
+    "16B"
+   ],
+   "alt": [
+    "actuator"
+   ]
+  },
+  {
+   "ref": "160",
+   "name": "intermediate member",
+   "figs": [
+    "15A",
+    "15B"
+   ]
+  },
+  {
+   "ref": "170",
+   "name": "intermediate members",
+   "figs": [
+    "15B"
+   ]
+  },
+  {
+   "ref": "190",
+   "name": "mounting member",
+   "figs": [
+    "11",
+    "12",
+    "13",
+    "15A",
+    "15B",
+    "16A",
+    "16B"
+   ]
+  },
+  {
+   "ref": "200a",
+   "name": "link",
+   "figs": [
+    "11",
+    "12",
+    "13",
+    "15A",
+    "15B",
+    "16A"
+   ]
+  },
+  {
+   "ref": "200b",
+   "name": "links",
+   "figs": [
+    "11",
+    "12",
+    "13",
+    "15A",
+    "15B",
+    "16A"
+   ]
+  },
+  {
+   "ref": "200c",
+   "name": "links",
+   "figs": [
+    "11",
+    "12",
+    "13",
+    "15A",
+    "15B",
+    "16A"
+   ]
+  },
+  {
+   "ref": "200d",
+   "name": "additional link",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "210a",
+   "name": "drive link",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "210b",
+   "name": "",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "210c",
+   "name": "",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "220a",
+   "name": "driven links",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "220b",
+   "name": "",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "220c",
+   "name": "",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "230a",
+   "name": "driven links",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "230b",
+   "name": "",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "230c",
+   "name": "",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "250",
+   "name": "drive shaft",
+   "figs": [
+    "12",
+    "14"
+   ]
+  },
+  {
+   "ref": "251",
+   "name": "universal joint",
+   "figs": [
+    "12",
+    "14"
+   ]
+  },
+  {
+   "ref": "780",
+   "name": "suction pad",
+   "figs": [
+    "16A",
+    "16B"
+   ]
+  },
+  {
+   "ref": "790",
+   "name": "suction air tube",
+   "figs": [
+    "16A",
+    "16B"
+   ]
+  },
+  {
+   "ref": "800",
+   "name": "rotation absorption unit",
+   "figs": [
+    "16A",
+    "16B"
+   ]
+  },
+  {
+   "ref": "A1",
+   "name": "arrow",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "A2",
+   "name": "arrow",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "A3",
+   "name": "arrow",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "W",
+   "name": "workpiece",
+   "figs": [
+    "10A",
+    "16A"
+   ]
+  },
+  {
+   "ref": "α",
+   "name": "bending angle",
+   "figs": [
+    "14"
+   ]
+  }
+ ]
+}

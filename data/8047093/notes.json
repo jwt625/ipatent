@@ -1,0 +1,52 @@
+{
+ "patent": "Fanuc patent (inventors Kinoshita and Yamashiro), Japanese priority 2009-01-29, filed 2010-01-12, issued 2011-11-01. It concerns the wrist axis of a parallel link robot of the delta class: three base-mounted motors swing arms, and pairs of parallel rods carry a movable section that only translates. That class traces to Reymond Clavel's design (US 4,976,582, granted 1990); the classification and the link are ours, since the patent neither says delta nor cites Clavel. Turning a tool on the movable section needs a separate drive shaft from a motor on the base, and that shaft must change length and angle as the section moves. The patent's background shafts are telescoping or paired bars, with a linear bearing between two universal joints. Here the upper universal joint itself contains the linear bearing, so a one-piece rod slides through it, with stroke limited only when the two joints meet. A second embodiment uses three such drives for a three-axis wrist.",
+ "figs": {
+  "1": "Whole robot, unsectioned. Base 12 sits under dome cover 24 and is carried by standing wall 22. Each of the three structures 26 is one arm followed by a pair of thin rods, all meeting at movable section 14. Rod 54 runs down the middle to wrist 18. The arrows at 16 and 20 point at the mechanisms as a whole. The clusters of short vertical lines on the wall are surface shading.",
+  "2": "Base plate 12 and wrist 18 are cut and hatched; the links stay in side view. Rod 54 passes through holder assembly 50 and its tip shows above it inside the cover; the rod tilts because wrist 18 is offset from 50. The braces group 50 and 54 under 20, and 30 and 32 under 26, on both sides. Motor 28 sits on the plate to the right of 50. Prime mover 52 is not numbered here; see FIG. 5. The front page repeats this figure.",
+  "3": "Rotary member 40 turns in bore 34 of the hatched disk 14 on bearing 38, shown with two rows of balls on each side. Face 42 is the shallow recess at the bottom of 40. Above it, joint 80 takes up the angle: its four small bearings are in section, and the upper part tilts with rod 54 while axis 18a stays vertical. Joint 36 is cut on the right; its counterpart on the left is drawn unsectioned. Three rods 32 end at break lines; two carry the numeral.",
+  "4A": "Section with axis 46a horizontal in the drawing plane and 48a drawn oblique. The rod is upright, so 44a and 54a coincide. Outside in: outer holder 44 with gear 74 on top; double-row bearing 58 between 44 and flange 60; spindle 62 of holder 46 in hole 64 of 44 on small bearing 66; inner holder 48 and linear bearing 78, the two opposed-hatch strips around rod 54. The curved double arrow above 74 is rotation about 44a; the circular arrows mark 46a, 48a and 54a.",
+  "4B": "The same assembly with the section turned: 48a is now horizontal and 46a oblique. This plane cuts the second joint: spindle 68 of inner holder 48 sits in hole 70 of holder 46 on small bearing 72. Spindle 62 and bearing 66 of FIG. 4A are out of plane. No motion arrows here.",
+  "5": "The assembly in place on the base with the rod tilted, about 20 degrees from 44a as drawn (measured on the crop). Holder 44 stays on axis 44a and the section of 46 stays level, while 48 and 78 tilt with rod 54, so this tilt is taken at the third axis. 44 is carried on seat 56 through bearing 58 and member 60. Motor 52 hangs below a plate at right; shaft 76 rises through the plate at the end of gear 74, its top about level with the gear. This is the placement in claim 1: the motor does not protrude beyond the outer holder, and the rod's upper end is free to swing above. The hatched L-shaped wall at far right has no numeral. Wavy edges are break lines.",
+  "6": "Second embodiment. Three rods 54-1 to 54-3 enter the top of cylindrical movable section 100 through joints 80-1 to 80-3; lugs 104 (one numbered, three visible) take the driven links, which are not drawn. Wrist 102 stacks 106, turning about 106a; 108 on its side, about 108a, drawn oblique; and 110 below, about 110a, with tool face 112. Circular arrows mark the three wrist axes. The gear trains inside are not depicted."
+ },
+ "parts": {
+  "44": "Col. 5 prints \"first rotation axis 44\" once; the axis is 44a everywhere else.",
+  "106": "Col. 10 prints \"second rotary member 106\" once; the second rotary member is 108 everywhere else.",
+  "50": "The patent treats this assembly as a universal joint that also allows sliding along 54a. 44 is the driving side, 48 the driven side.",
+  "52": "Drives the wrist. Prime movers 28 drive the link structures.",
+  "54": "One piece. With a ball spline, this rod is the spline shaft (col. 7).",
+  "78": "Preferred form: the spline nut of a ball spline unit (col. 7, claim 5). Its internals are not drawn.",
+  "100": "FIG. 6 counterpart of 14.",
+  "102": "FIG. 6 counterpart of 18."
+ },
+ "glossary": [
+  {
+   "term": "parallel robot",
+   "def": "Manipulator whose output is held by several link chains acting side by side, rather than one serial chain of joints."
+  },
+  {
+   "term": "delta robot",
+   "def": "Parallel robot with three base-mounted arms and parallel rod pairs; the platform translates in three axes without rotating."
+  },
+  {
+   "term": "universal joint",
+   "def": "Coupling that transmits rotation between shafts at an angle. One joint at an angle gives a fluctuating output speed; a pair with parallel input and output shafts and in-phase yokes cancels it. The patent relies on 18a staying parallel to 44a for equal angular velocity."
+  },
+  {
+   "term": "ball spline",
+   "def": "Grooved shaft running through a nut with recirculating balls; it slides axially with low friction and transmits torque."
+  },
+  {
+   "term": "prime mover",
+   "def": "The motor; here a servo motor."
+  },
+  {
+   "term": "revolute pair",
+   "def": "Joint allowing rotation about one axis (a hinge)."
+  },
+  {
+   "term": "end effector",
+   "def": "The tool on the robot's output, such as a hand or gripper."
+  }
+ ]
+}

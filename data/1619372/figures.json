@@ -1,0 +1,337 @@
+{
+ "pn": "1619372",
+ "figures": [
+  {
+   "id": "1",
+   "label": "Fig. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    310,
+    655,
+    930,
+    1520
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "Fig. 2",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    910,
+    750,
+    1280,
+    1575
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "Fig. 3",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1285,
+    750,
+    1715,
+    1575
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "Fig. 4",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    265,
+    1575,
+    1035,
+    2160
+   ],
+   "rotate": 0,
+   "front_page": true
+  },
+  {
+   "id": "5",
+   "label": "Fig. 5",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1018,
+    1630,
+    1710,
+    2175
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "Fig. 6",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    280,
+    2170,
+    1030,
+    3080
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "Fig. 7",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1010,
+    2240,
+    1730,
+    2765
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "1",
+   "name": "wing",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "2",
+   "name": "main central or box-girder part",
+   "alt": [
+    "box-girder part",
+    "main part",
+    "central part",
+    "wing structure",
+    "box girder part"
+   ],
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "3",
+   "name": "nose and rear sections",
+   "alt": [
+    "leading and trailing edge parts"
+   ],
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "4",
+   "name": "nose and rear sections",
+   "alt": [
+    "leading and trailing edge parts"
+   ],
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "5",
+   "name": "upper and lower flat imperforate cover plates",
+   "alt": [
+    "flat, imperforate cover plates or skins",
+    "skin plates",
+    "skin or cover plates",
+    "skin plate"
+   ],
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "6",
+   "name": "upper and lower flat imperforate cover plates",
+   "alt": [
+    "flat, imperforate cover plates or skins",
+    "skin plates",
+    "skin or cover plates"
+   ],
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "7",
+   "name": "fore and aft longitudinal spar or girder members",
+   "alt": [
+    "spars",
+    "spars or girder members",
+    "longitudinal girders",
+    "girders",
+    "longitudinal members"
+   ],
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "8",
+   "name": "fore and aft longitudinal spar or girder members",
+   "alt": [
+    "spars",
+    "spars or girder members",
+    "longitudinal girders",
+    "girders",
+    "longitudinal members"
+   ],
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "9",
+   "name": "cross or transverse walls or bulkheads",
+   "alt": [
+    "cross walls or transverse bulkheads",
+    "bulkheads"
+   ],
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "10",
+   "name": "arched reinforcing bars",
+   "alt": [
+    "arched or U-shaped members",
+    "longitudinal reinforcing members"
+   ],
+   "figs": [
+    "4",
+    "6"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "elongated rectangular plates",
+   "alt": [
+    "web",
+    "plates"
+   ],
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "angle pieces",
+   "alt": [
+    "angles"
+   ],
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "lateral access and inspection openings",
+   "alt": [
+    "openings",
+    "holes or cut-out parts",
+    "access holes",
+    "access and inspection openings"
+   ],
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "outer reinforcing profiles",
+   "alt": [
+    "reinforcing profiles",
+    "vertical reinforcing profiles"
+   ],
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "longitudinal upper and lower angle bars",
+   "alt": [
+    "girders",
+    "members"
+   ],
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "oblique bars",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "17",
+   "name": "upper and lower girder and former members",
+   "alt": [
+    "girder members",
+    "transverse former and girder members",
+    "transverse girders",
+    "transverse formers and girders"
+   ],
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "diagonal members",
+   "alt": [
+    "diagonal cross",
+    "bracing cross",
+    "cross braces",
+    "diagonal cross struts"
+   ],
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "19",
+   "name": "enlarged attaching ends",
+   "alt": [
+    "end portions"
+   ],
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "IV",
+   "name": "lines IV—IV",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "VI",
+   "name": "",
+   "figs": [
+    "4"
+   ]
+  }
+ ]
+}
