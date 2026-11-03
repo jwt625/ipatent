@@ -72,6 +72,10 @@ button:disabled { opacity: .4; cursor: default; }
 .gtable table { border-collapse: collapse; width: 100%; font-size: 13px; }
 .gtable th { position: sticky; top: 0; background: var(--surface-1); text-align: left; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--text-muted); padding: 6px 8px; border-bottom: 1px solid var(--border); cursor: pointer; white-space: nowrap; user-select: none; }
 .gtable th.on { color: var(--text-primary); }
+.gtable .rz { position: absolute; top: 0; right: 0; bottom: 0; width: 7px; cursor: col-resize; touch-action: none; border-right: 1px solid var(--border); }
+.gtable .rz:hover, .gtable .rz:active { border-right: 2px solid var(--hi); }
+.gtable table.sized { table-layout: fixed; }
+.gtable table.sized th, .gtable table.sized td { box-sizing: border-box; overflow: hidden; text-overflow: ellipsis; }
 .gtable th.r, .gtable td.r { text-align: right; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-variant-numeric: tabular-nums; }
 .gtable td { padding: 4px 8px; border-bottom: 1px solid var(--border); color: var(--text-secondary); vertical-align: top; }
 .gtable td.tt { color: var(--text-primary); min-width: 220px; }

@@ -429,6 +429,7 @@
       });
     }
 
+    let colW = {}; try { colW = JSON.parse(localStorage.getItem('ipatent-col-widths')) || {}; } catch (e) { }
     function drawTable(rows) {
       const wrap = h('div', 'gtable'), t = h('table');
       const cols = [
@@ -446,15 +447,43 @@
         ['claims', 'Claims', p => p.counts.claims, 'r'],
         ['parts', 'Parts', p => p.counts.parts, 'r'],
       ];
-      t.innerHTML = `<thead><tr>${cols.map(([k, n, , c]) => `<th data-k="${k}" class="${c === 'r' ? 'r' : ''}${st.s === k ? ' on' : ''}">${n}${st.s === k ? (st.d > 0 ? ' &#9650;' : ' &#9660;') : ''}</th>`).join('')}</tr></thead>`;
+      t.innerHTML = `<thead><tr>${cols.map(([k, n, , c]) => `<th data-k="${k}" class="${c === 'r' ? 'r' : ''}${st.s === k ? ' on' : ''}">${n}${st.s === k ? (st.d > 0 ? ' &#9650;' : ' &#9660;') : ''}<span class="rz" title="Drag to resize; double-click to reset all columns"></span></th>`).join('')}</tr></thead>`;
       const tb = h('tbody'); t.appendChild(tb);
+      const ths = [...t.querySelectorAll('th')];
+      // Widths are all set or all automatic: a drag freezes every column at its measured width, so only the dragged one moves.
+      const applyW = () => {
+        if (!ths.every(th => colW[th.dataset.k])) return;
+        t.classList.add('sized');
+        ths.forEach(th => { th.style.width = `${colW[th.dataset.k]}px`; });
+        t.style.width = `${ths.reduce((s, th) => s + colW[th.dataset.k], 0)}px`;
+      };
+      applyW();
+      let resizing = false;
+      t.querySelector('thead').onpointerdown = ev => {
+        const rz = ev.target; if (!rz.classList.contains('rz')) return;
+        ev.preventDefault();
+        const k = rz.parentNode.dataset.k, x0 = ev.clientX;
+        const base = Object.fromEntries(ths.map(th => [th.dataset.k, th.getBoundingClientRect().width]));
+        resizing = true; rz.setPointerCapture(ev.pointerId);
+        rz.onpointermove = e => { colW = { ...base, [k]: Math.max(40, base[k] + e.clientX - x0) }; applyW(); };
+        rz.onlostpointercapture = () => {
+          rz.onpointermove = rz.onlostpointercapture = null;
+          setTimeout(() => { resizing = false; });
+          try { localStorage.setItem('ipatent-col-widths', JSON.stringify(colW)); } catch (e) { }
+        };
+      };
+      t.querySelector('thead').ondblclick = ev => {
+        if (!ev.target.classList.contains('rz')) return;
+        colW = {}; try { localStorage.removeItem('ipatent-col-widths'); } catch (e) { }
+        draw();
+      };
       rows.forEach(p => {
         const tr = h('tr'); tr.dataset.pn = p.pn;
         tr.innerHTML = cols.map(([k, , fn, c]) => `<td class="${c || ''}">${fn(p)}</td>`).join('');
         tb.appendChild(tr);
       });
       t.querySelector('thead').onclick = ev => {
-        const th = ev.target.closest('th'); if (!th) return;
+        const th = ev.target.closest('th'); if (!th || resizing || ev.target.classList.contains('rz')) return;
         if (st.s === th.dataset.k) st.d = -st.d; else { st.s = th.dataset.k; st.d = 1; }
         commit();
       };
