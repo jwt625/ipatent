@@ -13,6 +13,7 @@ Live: https://outside5sigma.com/ipatent/
 | Impact and royalties | US 4,200,770 (1980) | Cryptographic Apparatus and Method (Hellman, Diffie, Merkle) | 6 |
 | Impact and royalties | US 4,859,016 (1989) | Fiber Optic Amplifier (Shaw, Digonnet; 3 reexamination certificates) | 14 |
 | Impact and royalties | US 6,285,999 B1 (2001) | Method for Node Ranking in a Linked Database (Page, PageRank) | 3 |
+| Classic products | US 2,981,877 (1961) | Semiconductor Device-and-Lead Structure (Noyce, Fairchild, planar integrated circuit) | 7 |
 | Classic products | US 3,138,743 (1964) | Miniaturized Electronic Circuits (Kilby, integrated circuit) | 14 |
 | Classic products | US 3,659,915 (1972) | Fused Silica Optical Waveguide (Maurer, Schultz, Corning) | 2 |
 | Classic products | US 3,821,715 (1974) | Memory System for a Multi-Chip Digital Computer (Hoff, Mazor, Faggin, Intel) | 5 |

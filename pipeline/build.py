@@ -40,6 +40,7 @@ RANGE_RE = re.compile(r"(?<![\w.,/-])(\d{1,4}[a-zA-Z]?)-(\d{1,4}[a-zA-Z]?)(?![\w
 DOC_RE = re.compile(r"\b(?:AT|CH|CN|DD|DE|EP|FR|GB|JP|KR|US|WO)\s+\d[\d /,]*(?:\s?[A-Z]\d?)?(?![\w])")
 LETTER_RE = re.compile(r"(?<![\w'^{.-])([a-z])(?:\^\{(\d)\}|(\d))?(?![\w}'-])")
 HYPHEN_RE = re.compile(r"(?<![\w.,/-])\d{1,4}-\d{1,4}(?![\w/]|\.\d|,\d)")
+SECTION_RE = re.compile(r"(?<![\w.,/-])(\d{1,4}[A-Z]?)\s?[\u2014\u2013-]\s?\1(?![\w/])")  # section line "2—2 of FIG. 1"
 
 
 def b64png(im: Image.Image) -> str:
@@ -93,6 +94,9 @@ def link_spans(text: str, refs: set[str], fig_ids: set[str]) -> list[list]:
         taken.append((m.start(), m.end()))
     for m in DOC_RE.finditer(text):
         taken.append((m.start(), m.end()))
+    for m in SECTION_RE.finditer(text):
+        if m.group() not in refs:  # "gear 6-6" is a part
+            taken.append((m.start(), m.end()))
     for m in LIST_RE.finditer(text):
         items = list(re.finditer(r"\d+[a-zA-Z]?", m.group()))
         if len(items) > 1 and all(i.group() in refs for i in items):

@@ -1,0 +1,94 @@
+{
+  "patent": "Filed July 30, 1959 and issued April 25, 1961 to Robert N. Noyce, a co-founder of Fairchild Semiconductor, and assigned to Fairchild. It is Noyce's planar integrated-circuit patent. Junctions are diffused into silicon and the oxide grown during diffusion is left in place where leads cross junction edges (FIGS. 1-2) or over the whole surface except the contacts (FIGS. 3-4, 6-7); metal deposited on it forms the leads and interconnections, so devices in one silicon body are wired together without bonded wires and without shorting the junctions they cross. The structure builds on the planar process developed at Fairchild by Jean Hoerni. The examples are a single transistor (FIGS. 1-2), a detector-amplifier with diodes, a junction capacitor, resistive leads and a transistor in one body (FIGS. 3-5), and a transistor with strip contacts (FIGS. 6-7). Jack Kilby of Texas Instruments, who had filed his integrated-circuit application on February 6, 1959 (issued as US 3,138,743), contested priority with Noyce in a patent interference; in 1969 the Court of Customs and Patent Appeals ruled for Noyce.",
+  "figs": {
+    "1": "Plan view of the transistor; heavy lines are shade lines; the outermost heavy arcs bound the window cleared in oxide 5. The thin circles are where the emitter junction 3 and collector junction 4 reach the surface; they turn dashed where they pass under an oxide tongue and lead. The central disc is emitter contact 6 and the C-shaped band around it is base contact 8. Lead 9 reaches the base contact from the left over oxide tongue 5', which crosses junction 4 only; lead 7 reaches the emitter from the right over tongue 5'', which runs through the gap in the C and crosses both junctions. The short line shading at the inner end of each lead marks where it steps down from the oxide onto the bared silicon.",
+    "2": "Section along 2-2, thicknesses greatly exaggerated. Diagonal hatching is the silicon body; the black band with white slashes is oxide 5; the thin hatched layer on top is the metal, which rides over the oxide tongues and steps down onto the silicon only at the contacts. The N emitter sits in the P base, which sits in the N collector; the collector reaches through to back contact 10. The regions marked I on either side are the high-resistivity silicon placed under the leads to cut their capacitance to the body.",
+    "3": "Plan view of the multi-device body. From left: contact 16 inside C-shaped contact 17 (the diode pair), contact 19 (the junction capacitor), and contact 23 inside C-shaped contacts 24 and 25 (the transistor); 26 is the ground contact. Dashed circles are junction edges under the oxide, from the inside out 14 and 15 at the left device, 18 at the middle and 20, 21 and 22 at the right; the text gives no junction at contact 26. Leads 30, 31 and 32 reach the inner contacts through the gaps in the C-shaped contacts.",
+    "4": "Section along 4-4, drawn as in FIG. 2: all devices are bowls diffused into the one P body 11, with the oxide and the metal on top and ground plane 13 on the back. At the left, an N/P/N stack forms the two rectifying junctions 14 and 15; the unlabelled boundary between the P layer and the N layer below it is the junction that contact 17 shorts. The middle N bowl over junction 18 is the capacitor. At the right, junction 22 around the transistor's N collector is reverse-biased and isolates the transistor from the grounded body.",
+    "5": "Equivalent circuit of FIGS. 3-4; solid lines are on the chip, broken lines are external (signal source 34, load 35, supply 36 and the ground symbol). Diodes 14' and 15' detect the AM signal, 30' and capacitance 18' filter it, and 31' feeds the base of the NPN transistor. The emitter returns to ground through 32', and capacitance 22' from collector to ground is the isolation junction 22. Primed numerals mark the nodes and elements of the same unprimed parts in FIGS. 3-4.",
+    "6": "Plan view of the strip-contact transistor. The dashed racetrack is the edge of emitter junction 38 under the oxide. Emitter contact 40 lies inside it and base contact 41 outside it, parallel; strips 43 and 44 run out to opposite edges of the body over the oxide. Line shading at each strip-to-contact join marks the step down from the oxide.",
+    "7": "Section along 7-7, which passes through emitter contact 40 and strip 43 only, so base contact 41 and strip 44 are not cut. Here the emitter is P and the base N (a PNP device): the P emitter bowl ends at dished junction 38, while the base-collector junction 39 is flat and spans the whole body. Oxide 45 covers the junction edge; the collector contact 42 is the plated bottom layer."
+  },
+  "parts": {
+    "5'": "An oxide strip left in place so that lead 9 can cross collector junction 4 without contacting the silicon.",
+    "5''": "An oxide strip left in place so that lead 7 can cross both junctions and pass between the ends of base contact 8.",
+    "17": "The text says contact 17 shorts the junction between the two intermediate layers, leaving junctions 14 and 15 as two diodes in series.",
+    "22": "Reverse-biased by the collector supply, this junction isolates the transistor collector from the grounded P body and appears as capacitor 22' in FIG. 5.",
+    "30": "Lead 30 can be made thin and narrow, and leads 31 and 32 likewise resistive, so that they act as resistors (30', 31', 32' in FIG. 5).",
+    "16'": "Not named in the text; by the stated priming rule it is the circuit node at contact 16.",
+    "17'": "Not named in the text; by the stated priming rule it is the circuit node at contact 17.",
+    "19'": "Not named in the text; by the stated priming rule it is the circuit node at contact 19.",
+    "26'": "Not named in the text; by the stated priming rule it is the circuit node at ground contact 26.",
+    "45": "Not numbered in the text; in both figures it labels the insulating oxide layer that covers the upper surface except at contacts 40 and 41."
+  },
+  "glossary": [
+    {
+      "term": "planar",
+      "def": "A structure in which every junction ends at one flat surface under a protective oxide, instead of at the etched sidewalls of a mesa; devices sit side by side and are wired on that surface."
+    },
+    {
+      "term": "oxide masking",
+      "def": "Using silicon dioxide grown on the silicon to block dopant diffusion; windows etched in the oxide define where dopants enter."
+    },
+    {
+      "term": "diffused junction",
+      "def": "A P-N junction formed by diffusing dopant into the heated crystal from its surface. Because the dopant spreads sideways as well as down, the junction is bowl-shaped (\"dished\") and its edge ends at the surface under the oxide."
+    },
+    {
+      "term": "N-type / P-type",
+      "def": "Silicon doped with donors (N), so that electrons carry the current, or with acceptors (P), so that holes do."
+    },
+    {
+      "term": "extrinsic / intrinsic",
+      "def": "Extrinsic silicon conducts mainly through its added dopants. Intrinsic silicon is so pure that its carriers come only from thermal excitation; it is highly resistive at room temperature and conducts as an intrinsic semiconductor only when hot."
+    },
+    {
+      "term": "gold doping",
+      "def": "Gold forms deep levels in the silicon band gap that capture carriers, offsetting shallow donors and acceptors and raising resistivity."
+    },
+    {
+      "term": "congenitally united",
+      "def": "The patent's term for an oxide grown from the silicon itself, rather than deposited onto it."
+    },
+    {
+      "term": "disproportionated silicon suboxide",
+      "def": "Silicon monoxide that has partly decomposed into silicon and silicon dioxide."
+    },
+    {
+      "term": "photoengraving",
+      "def": "Photolithography: a resist is exposed through a patterned plate and developed, and the remaining resist protects selected areas during etching."
+    },
+    {
+      "term": "ohmic contact",
+      "def": "A metal-to-semiconductor contact with linear, symmetric resistance, rather than a rectifying one. Here aluminum is alloyed into the silicon by heating."
+    },
+    {
+      "term": "double-diffused transistor",
+      "def": "A transistor whose base and emitter layers are formed by two successive diffusions into the collector material."
+    },
+    {
+      "term": "diffusion length",
+      "def": "The average distance a minority carrier travels before recombining. A base narrower than this lets most injected carriers reach the collector."
+    },
+    {
+      "term": "junction capacitance",
+      "def": "A reverse-biased P-N junction passes almost no current but stores charge in its depletion layer, so it acts as a capacitor whose value scales with junction area."
+    },
+    {
+      "term": "junction isolation",
+      "def": "Separating a device from a shared substrate by a P-N junction that is kept reverse-biased, as junction 22 does for the transistor of FIG. 4."
+    },
+    {
+      "term": "shunt capacitance",
+      "def": "Unwanted capacitance between a lead and the conducting body beneath it, across the thin oxide."
+    },
+    {
+      "term": "detector",
+      "def": "A rectifier that recovers the modulation envelope of an amplitude-modulated signal."
+    },
+    {
+      "term": "mil",
+      "def": "One thousandth of an inch, 25.4 micrometres."
+    }
+  ]
+}

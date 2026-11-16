@@ -1,0 +1,27 @@
+{
+  "pn": "2981877",
+  "inventors": [
+    {
+      "name": "Robert N. Noyce",
+      "printed": "Robert N. Noyce, Los Altos, Calif.",
+      "city": "Los Altos",
+      "region": "CA",
+      "country": "US"
+    }
+  ],
+  "assignees": [
+    {
+      "name": "Fairchild Semiconductor Corporation",
+      "printed": "Fairchild Semiconductor Corporation, Mountain View, Calif., a corporation of Delaware",
+      "org": "Fairchild Semiconductor",
+      "kind": "company",
+      "city": "Mountain View",
+      "region": "CA",
+      "country": "US"
+    }
+  ],
+  "source": {
+    "page": 3,
+    "where": "column 1 header (inventor, assignor to)"
+  }
+}
