@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Date | 2026-11-15 |
-| Status | Built and audited 2026-11-15; not committed |
+| Status | Built, audited, committed and pushed 2026-11-15 (0bb9914) |
 | Scope | Ingest and trace US 2,981,877, "Semiconductor Device-and-Lead Structure" (Robert N. Noyce, Fairchild) |
 | Authors | Claude Code, at Wentao Jiang's request |
 
