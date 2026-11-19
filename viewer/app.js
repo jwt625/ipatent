@@ -13,6 +13,7 @@
   const citeOf = p => p.cite || (p.page != null && !p.col ? `p.${p.page + 1}` : cite(p.col, p.line));
   const docLabel = p => p.doc || `US ${p.number}`;
   const fmtDate = d => d || '';
+  const figL = s => document.documentElement.dataset.type !== 'plate' ? String(s || '').replace(/\bFIG(S?)\./g, 'Fig$1.').replace(/\bFIGURE\b/g, 'Figure') : (s || '');
   PATS.forEach(p => p.figById = Object.fromEntries(p.figures.map(f => [f.id, f])));
 
   // ---------- theme ----------
@@ -22,10 +23,21 @@
     if (t) return t;
     return matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
   }
-  function setTheme(t) { document.documentElement.dataset.theme = t; themeBtn.textContent = t === 'dark' ? 'Light' : 'Dark'; try { localStorage.setItem('cray-theme', t); } catch (e) { } }
+  function setTheme(t) { document.documentElement.dataset.theme = t; themeBtn.innerHTML = t === 'dark' ? '<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3"/><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3 3l1.4 1.4M11.6 11.6L13 13M3 13l1.4-1.4M11.6 4.4L13 3"/></svg>' : '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13.5 10.2A6 6 0 0 1 5.8 2.5a6 6 0 1 0 7.7 7.7z"/></svg>'; try { localStorage.setItem('cray-theme', t); } catch (e) { } }
   let saved = null; try { saved = localStorage.getItem('cray-theme'); } catch (e) { }
   setTheme((/[?&]theme=(light|dark)/.exec(location.search) || [])[1] || saved || 'dark'); // ?theme= for headless review
   themeBtn.onclick = () => setTheme(curTheme() === 'dark' ? 'light' : 'dark');
+
+  // ---------- type style (html[data-type], set before paint in template.html) ----------
+  const typeBtns = [...document.querySelectorAll('#typeSw button')];
+  const markType = () => typeBtns.forEach(b => b.classList.toggle('on', b.dataset.t === document.documentElement.dataset.type));
+  typeBtns.forEach(b => b.onclick = () => {
+    document.documentElement.dataset.type = b.dataset.t; markType();
+    try { localStorage.setItem('ipatent-type', b.dataset.t); } catch (e) { }
+    if (view && view.cleanup) view.cleanup();
+    view = null; main.innerHTML = ''; route(); // figure labels change case between styles
+  });
+  markType();
 
   // ---------- tooltip ----------
   const tip = $('#tip');
@@ -410,7 +422,7 @@
       rows.forEach(p => {
         if (!cards || (grouped && (p.group || '') !== cur)) {
           cur = p.group || ''; cards = out.appendChild(h('div', 'cards'));
-          if (grouped && cur) cards.appendChild(h('div', 'ghead', esc(cur)));
+          if (grouped && cur) { const k = rows.filter(r => (r.group || '') === cur).length; cards.appendChild(h('div', 'ghead', `${esc(cur)}<span class="gcnt">${k} patent${k > 1 ? 's' : ''}</span>`)); }
         }
         const fig = frontFig(p);
         const c = h('a', 'card'); c.href = link(p, fig);
@@ -492,7 +504,7 @@
         const tr = ev.target.closest('tr'); if (!tr) return;
         const p = byPn[tr.dataset.pn], fig = frontFig(p);
         const ppl = (p.inventors || []).map(i => `<div>${esc(i.name)}${i.place ? ` <span class="pl">${esc(i.place)}</span>` : ''}</div>`).join('');
-        showTip(ev, `<img class="tthumb" src="${fig.img}" alt=""><div class="tmeta"><span class="num">${esc(docLabel(p))}</span> ${esc(fig.label || '')}</div>${ppl}`);
+        showTip(ev, `<img class="tthumb" src="${fig.img}" alt=""><div class="tmeta"><span class="num">${esc(docLabel(p))}</span> ${esc(figL(fig.label))}</div>${ppl}`);
       };
       tb.onmousemove = ev => { if (tip.style.display === 'block') moveTip(ev); };
       tb.onmouseleave = hideTip;
@@ -518,8 +530,9 @@
       onMode: () => drawTools(),
     });
     fv.el.style.cssText = 'position:absolute;inset:0';
+    const nSheets = Math.max(0, ...pat.figures.map(f => parseInt(f.sheet, 10) || 0));
     pat.figures.forEach(f => {
-      const it = h('div', 'fitem', `<img src="${f.thumb}" alt=""><div><div class="fl">${esc(f.label)}</div><div class="fs">Sheet ${esc(f.sheet || '')}${f.trace ? '' : ' &middot; scan only'}</div></div>`);
+      const it = h('div', 'fitem', `<img src="${f.thumb}" alt=""><div><div class="fl">${esc(figL(f.label))}</div><div class="fs">Sheet ${esc(f.sheet || '')}${nSheets ? ` of ${nSheets}` : ''}${f.trace ? '' : ' &middot; scan only'}</div></div>`);
       it.dataset.fig = f.id; it.onclick = () => go(pat, 'figures', f.id); list.appendChild(it);
     });
 
@@ -538,7 +551,7 @@
       if (!ref) {
         const note = pat.notes && pat.notes.figs && pat.notes.figs[f.id];
         const paras = f.paras.map(pid => pat.paras[pid]);
-        info.innerHTML = `<h2>${esc(f.label)}</h2>
+        info.innerHTML = `<h2 class="fh">${esc(figL(f.label))}</h2>
           ${f.brief.text ? `<p class="quote">${subsup(f.brief.text)} <span class="cite" data-col="${f.brief.col || ''}" data-page="${f.brief.page != null ? f.brief.page : ''}">${citeOf(f.brief)}</span></p>` : ''}
           ${note ? `<div class="note"><span class="lbl">Note</span>${subsup(note)}</div>` : ''}
           ${paras.length ? `<div class="lbl sub">Referenced in ${paras.length} paragraph${paras.length > 1 ? 's' : ''}</div><div class="mlist">${paras.map(p =>
@@ -549,7 +562,7 @@
         const figs = pat.figures.filter(x => (p.figs || []).includes(x.id) || (x.trace && x.trace.elements.some(e => e.ref === ref)));
         info.innerHTML = `<h2><span class="num">${esc(ref)}</span>${esc(p.name || UNNAMED)}</h2>
           ${p.alt && p.alt.length ? `<div class="alt">also: ${p.alt.map(esc).join('; ')}</div>` : ''}
-          <div class="chips">${figs.map(x => `<span class="chip${x === f ? ' on' : ''}" data-fig="${x.id}">${esc(x.label)}</span>`).join('')}</div>
+          <div class="chips">${figs.map(x => `<span class="chip${x === f ? ' on' : ''}" data-fig="${x.id}">${esc(figL(x.label))}</span>`).join('')}</div>
           ${note ? `<div class="note"><span class="lbl">Note</span>${subsup(note)}</div>` : ''}
           <div class="lbl sub">${p.mentions.length} mention${p.mentions.length === 1 ? '' : 's'} in the description</div>
           <div class="mlist">${p.mentions.map(m => `<div class="mitem" data-pid="${m[0]}"><span class="cite">${citeOf(pat.paras[m[0]])}</span> ${mentionHtml(pat, m, ref)}</div>`).join('')}</div>`;
@@ -653,9 +666,9 @@
     const tools = h('div', 'tools'); pane.appendChild(tools);
     const box = h('div', ''); box.style.cssText = 'position:relative;min-height:0'; pane.appendChild(box);
     const st = { fig: null, ref: null, lock: null };
-    const fv = new FigureView(box, { onClick: ref => { if (ref) go(pat, 'figures', st.fig.id, ref); }, tag: f => f.label });
+    const fv = new FigureView(box, { onClick: ref => { if (ref) go(pat, 'figures', st.fig.id, ref); }, tag: f => figL(f.label) });
     fv.el.style.cssText = 'position:absolute;inset:0';
-    const sel = h('select'); pat.figures.forEach(f => sel.appendChild(new Option(f.label, f.id)));
+    const sel = h('select'); pat.figures.forEach(f => sel.appendChild(new Option(figL(f.label), f.id)));
     sel.onchange = () => { st.lock = sel.value; show(pat.figById[sel.value]); };
     const open = h('button', '', 'Open in Figures'); open.onclick = () => go(pat, 'figures', st.fig.id, st.ref || undefined);
     const modes = h('span', 'grp');

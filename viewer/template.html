@@ -4,6 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Interactive Patents</title>
+<script>
+// Type style before first paint: ?type=, else the saved choice, else the default (DevLog-005).
+(function () {
+  var ok = ['plate', 'copperplate', 'specification'], q = (/[?&]type=(\w+)/.exec(location.search) || [])[1], s = null;
+  try { s = localStorage.getItem('ipatent-type'); } catch (e) { }
+  document.documentElement.dataset.type = ok.indexOf(q) >= 0 ? q : ok.indexOf(s) >= 0 ? s : 'copperplate';
+})();
+</script>
 <style>
 /*__CSS__*/
 </style>
@@ -15,7 +23,8 @@
     <span id="crumb"></span>
     <nav id="tabs"></nav>
     <span class="spacer"></span>
-    <button id="themeBtn" title="Toggle light / dark">Light</button>
+    <span id="typeSw" class="grp"><button data-t="plate" title="Type: Plate (Playfair Display, Source Serif)">Aa</button><button data-t="copperplate" title="Type: Copperplate (Pinyon Script, IM Fell English)">Aa</button><button data-t="specification" title="Type: Specification (Old Standard, signature script)">Aa</button></span>
+    <button id="themeBtn" title="Toggle light / dark"></button>
   </header>
   <main id="main"></main>
   <footer id="foot">Created by Wentao Jiang<span class="sep">|</span><a href="https://outside5sigma.com" target="_blank" rel="noopener">homepage</a><span class="sep">|</span><a href="https://github.com/jwt625/ipatent" target="_blank" rel="noopener">GitHub</a></footer>

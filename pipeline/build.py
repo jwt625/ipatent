@@ -261,11 +261,12 @@ def light(p: dict) -> dict:
                          "img": fig["thumb"] if fig["trace"] else fig["card"]}]}
 
 
-def page_html(pats: list, site: dict) -> str:
+def page_html(pats: list, site: dict, fonts: str = "fonts/") -> str:
+    """fonts: path of the fonts/ folder relative to the page."""
     v = ROOT / "viewer"
     data = json.dumps(pats, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     return ((v / "template.html").read_text()
-            .replace("/*__CSS__*/", (v / "app.css").read_text())
+            .replace("/*__CSS__*/", (v / "app.css").read_text().replace("__FONTS__", fonts))
             .replace("/*__RENDER__*/", (v / "trace-render.js").read_text())
             .replace("/*__APP__*/", (v / "app.js").read_text())
             .replace("/*__DATA__*/", f"window.SITE = {json.dumps(site)};\nwindow.PATENTS = {data};"))
@@ -290,7 +291,7 @@ def main() -> None:
         if a.only and p["pn"] not in a.only:
             continue
         out = ROOT / "p" / f"{p['pn']}.html"
-        out.write_text(page_html([p], {"home": "../index.html"}))
+        out.write_text(page_html([p], {"home": "../index.html"}, "../fonts/"))
         nt = sum(1 for f in p["figures"] if f["trace"])
         nm = sum(len(x["mentions"]) for x in p["parts"].values())
         print(f"{p['pn']}: {len(p['paras'])} paras, {len(p['claims'])} claims, {len(p['figures'])} figs ({nt} traced), "

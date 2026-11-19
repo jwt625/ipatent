@@ -47,6 +47,10 @@ rules and printed disclaimers, cross-checked against Google Patents legal status
 
 ## Views
 
+- **Type styles**: three font sets, picked with the three "Aa" buttons in the header (saved in the browser; `?type=plate`,
+  `copperplate` or `specification` in the URL): Plate (Playfair Display, Source Serif 4), Copperplate (Pinyon Script, IM Fell English,
+  Source Serif 4; default), Specification (Old Standard TT, Mrs Saint Delafield). Fonts are in `fonts/` (OFL). Sun / moon icon toggles
+  light and dark.
 - **Gallery** (`index.html`): search (number, title, people, places, part names), Cards / Table views,
   12 sort keys (table headers sort too), facet chips (group, decade, assignee kind, country). State is in the
   hash (`#/?v=table&s=issued&d=desc&q=stanford`). Each patent opens its own page `p/<pn>.html`.
