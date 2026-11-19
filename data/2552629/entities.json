@@ -1,0 +1,34 @@
+{
+  "pn": "2552629",
+  "inventors": [
+    {
+      "name": "Richard W. Hamming",
+      "printed": "Richard W. Hamming, Morristown",
+      "city": "Morristown",
+      "region": "NJ",
+      "country": "US"
+    },
+    {
+      "name": "Bernard D. Holbrook",
+      "printed": "Bernard D. Holbrook, Madison, N. J.",
+      "city": "Madison",
+      "region": "NJ",
+      "country": "US"
+    }
+  ],
+  "assignees": [
+    {
+      "name": "Bell Telephone Laboratories, Incorporated",
+      "printed": "Bell Telephone Laboratories, Incorporated, New York, N. Y., a corporation of New York",
+      "org": "Bell Telephone Laboratories",
+      "kind": "company",
+      "city": "New York",
+      "region": "NY",
+      "country": "US"
+    }
+  ],
+  "source": {
+    "page": 3,
+    "where": "column 1 header (inventors, assignors to)"
+  }
+}

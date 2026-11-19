@@ -1,0 +1,85 @@
+{
+  "patent": "Filed 1941-06-10 and issued 1942-08-11 to Hedy Kiesler Markey and George Antheil. Markey is the film actress Hedy Lamarr, named by her legal married name from her 1939-1941 marriage to Gene Markey; Antheil was a composer whose Ballet mécanique was scored for synchronized player pianos. The patent describes frequency hopping for radio control of a torpedo: identical perforated paper rolls, like player-piano rolls, step the transmitter and the receiver together from one carrier frequency to another, so a jammer or eavesdropper does not know which frequency carries the next command. A start-up wire that breaks on launch releases both rolls at once; extra transmitter channels the receiver ignores carry decoy pulses. The US Navy did not adopt it during the Second World War. It is often cited as an early disclosure of frequency-hopping spread spectrum, the technique later used in military radio and in consumer standards such as Bluetooth, though the idea of changing frequency to avoid interception had earlier precedents. The term ran out on 1959-08-11.",
+  "figs": {
+    "1": "Transmitter. Seven tuning condensers 24a-24g, drawn with different plate spacings for different capacitances, each switch into the oscillator through a switch 31; the switches are worked by the tape 37 through the bundle of air tubes 51 from control head 39 (the break in the bundle means it is shortened). The tape runs from supply roll 38 over the head to spool 40 on clock motor 41. Keys L and R are drawn as levers on a common horizontal rod that reaches main contacts 32; either key closes 32, and its own contacts 33 or 35 add the 100-cycle or 500-cycle tone. Row H of the tape drives switch 42 and lamp 43.",
+    "2": "Receiver on the torpedo. The front end mirrors Fig. 1 but has only four condensers, 24'd-24'g, set by its own tape 37'. After detection the 100-cycle and 500-cycle tones are split by filters 166 and 566, rectified, and pull the common armature 72 toward magnet 169 or 569, closing contact 170 or 570. That fires solenoid 175 or 575, whose pawl 177 or 577 steps rudder wheel 79 by one tooth; the two rows of teeth 178 and 578 face opposite ways, so one solenoid turns the rudder left and the other right. The brakedrum 84 and brakeband 85, geared to the wheel by pinion 86 and segment 87, hold the rudder where it is left. Hatched blocks are fixed frame parts, the upper one carrying cam face 181.",
+    "3": "Start-up interlock. The dashed outlines are the transmitting station on mother ship 10 and torpedo 11. One battery 105 holds the solenoid 103 at each tape in series through the pair of conductors 106 that run between ship and torpedo. Firing breaks the conductors, both solenoids drop out at the same instant, and both tapes start in step.",
+    "4": "A length of the punched tape. Each short slot is a perforation; its row selects a channel and its length sets how long that channel is held. Dash-dot leaders tie each row to its letter, H at the top down to A at the bottom. Rows A-G select the seven transmitter frequencies; row H only works the warning lamp. The small hole 101 near the right end is the starting hole engaged by pin 100.",
+    "5": "Section across the control head and the switch bank, one column per tape row. The tape 37 crosses the top; the head block 45 is cut away at the left (hatched), shown in dashed hidden lines in the middle and cut again at the right around starting pin 100, shown lowered by spring 102. Each vertical passage 46 connects through restricted passage 47 to manifold 48, which tube 49 and pump 50 keep under suction, and through tube 51 (broken to shorten it) to a cylinder 52 in block 57. The two left cylinders are sectioned to show spring 53a above piston 53; the rest are drawn in outline. At the bottom each piston carries an insulating block 55 that presses spring contact 54 onto contact 58. Section line 6-6 marks the plane of Fig. 6.",
+    "6": "Section on line 6-6 of Fig. 5, one column seen side-on, with the tape moving to the right over the curved shoe 45 (arrow). Passage 46 runs straight down from the tape to tube 51; the short side branch 47 joins it to manifold 48, drawn as the circle. At the right the solenoid 103 is energized and holds pin 100 up through starting hole 101 against spring 102, so the tape is locked in its starting position. Lower down are cylinder block 57, spring 53a, piston 53 with shoulder 56, insulating block 55 and the switch springs 54 and 58.",
+    "7": "Plan of an engagement. The mother ship moves from 10a to 10b (dashed arrows), the enemy ship from 17a to 17b. The torpedo is launched along path 12; the dash-dot line from 11 is the course it would have kept toward 17c, where the enemy would have been without turning. Radio commands bend it through paths 13, 14, 15 and 16; the mark at 11 and the small circles are the points where each correction is made. The long arrows 19 are water currents, and 18 is an observing airplane."
+  },
+  "parts": {
+    "10a": "Position of mother ship 10 at the start of the operation.",
+    "10b": "Position of mother ship 10 at the end of the operation.",
+    "17": "The enemy ship is numbered 17 in the text; the drawing labels only its positions 17a, 17b and 17c.",
+    "17a": "Initial position of enemy ship 17.",
+    "17b": "Position of enemy ship 17 when the torpedo strikes it.",
+    "17c": "Position enemy ship 17 would have reached had it kept its original course.",
+    "19": "The text says these arrows represent water currents.",
+    "24": "Collective number for the seven transmitter condensers 24a-24g.",
+    "24'": "Collective number for the four receiver condensers 24'd-24'g.",
+    "31": "One switch per condenser; the text also calls them tuning switches and contacts. Each is a movable spring 54 and a contact spring 58.",
+    "33": "Closed by key L; connects the 100-cycle oscillator 34, the left-rudder tone.",
+    "35": "Closed by key R; connects the 500-cycle oscillator 36, the right-rudder tone.",
+    "53a": "Pushes the piston down to close its switch when a perforation lets air into the passage and breaks the suction above the piston.",
+    "576": "Not numbered in the text; it occupies the place on solenoid 575 that plunger 176 occupies on solenoid 175.",
+    "A": "Rows A, B and C are the decoy channels: the transmitter can send on them but the receiver has no condenser for them.",
+    "H": "Row H carries no frequency; its perforations light lamp 43 to tell the operator not to send.",
+    "101": "One per tape; pin 100 holds the tape here until launch so both tapes start in step."
+  },
+  "glossary": [
+    {
+      "term": "condenser",
+      "def": "Older word for a capacitor. Switching a different capacitor into a tuned circuit changes the frequency it oscillates at or responds to."
+    },
+    {
+      "term": "cycles, ~",
+      "def": "Cycles per second, now hertz (Hz). The ~ sign on the oscillator and filter boxes marks an alternating frequency, e.g. 100~ = 100 Hz."
+    },
+    {
+      "term": "carrier wave",
+      "def": "The radio-frequency wave that is sent; the information rides on it as modulation."
+    },
+    {
+      "term": "modulator",
+      "def": "Circuit that impresses a signal, here a 100 or 500 cycle tone, onto the carrier wave."
+    },
+    {
+      "term": "detector",
+      "def": "Circuit that recovers the modulation (here the tone) from the received carrier."
+    },
+    {
+      "term": "selector",
+      "def": "The tuned input stage of the receiver, which passes only the frequency it is tuned to."
+    },
+    {
+      "term": "frequency hopping",
+      "def": "Changing the carrier frequency of a link from moment to moment in a pattern known to both ends, so that a listener or jammer on any one frequency catches only fragments."
+    },
+    {
+      "term": "spread spectrum",
+      "def": "Family of radio techniques, frequency hopping among them, that spread a signal over a band much wider than the information requires, for resistance to jamming and interception."
+    },
+    {
+      "term": "player-piano roll",
+      "def": "A paper roll whose perforations, read pneumatically as the roll moves over a tracker bar, select which notes play; the patent reuses the mechanism to select frequencies."
+    },
+    {
+      "term": "dirigible craft",
+      "def": "A craft that can be steered, here a torpedo."
+    },
+    {
+      "term": "armature",
+      "def": "Movable iron piece pulled by an electromagnet; here it closes one of two contacts depending on which magnet is energized."
+    },
+    {
+      "term": "solenoid, plunger",
+      "def": "A coil that pulls an iron rod (the plunger) into itself when energized."
+    },
+    {
+      "term": "pawl and ratchet",
+      "def": "A pawl is a hinged catch that pushes a toothed wheel round one tooth per stroke; here it gives one fixed rudder step per received pulse."
+    }
+  ]
+}

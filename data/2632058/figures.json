@@ -1,0 +1,1047 @@
+{
+ "pn": "2632058",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    240,
+    615,
+    1890,
+    1489
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    235,
+    740,
+    905,
+    2670
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2A",
+   "label": "FIG. 2A",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    950,
+    740,
+    1790,
+    2670
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    235,
+    1489,
+    1895,
+    2760
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    115,
+    790,
+    1735,
+    2705
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 4,
+   "page": 3,
+   "crop": [
+    300,
+    800,
+    1480,
+    2855
+   ],
+   "rotate": 270,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "10",
+   "name": "cathode beam tube",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "cathode beam",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "electron gun"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "vertical deflection plates",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "horizontal deflection plates",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "collector anode",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "collector"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "coding mask",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "mask"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "cathode",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "17",
+   "name": "control electrode or grid",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "focussing electrode",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "19",
+   "name": "accelerating electrode",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "voltage divider",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "21",
+   "name": "source",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "source",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "source",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "sampling circuit",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "25",
+   "name": "single trip multivibrator",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "multivibrator"
+   ]
+  },
+  {
+   "ref": "26",
+   "name": "basic timing circuit or pulse frequency generator",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "pulse generator",
+    "basic pulse generator",
+    "transmitter pulse generator"
+   ]
+  },
+  {
+   "ref": "27",
+   "name": "output loading resistor",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "loading resistor"
+   ]
+  },
+  {
+   "ref": "28",
+   "name": "storage condenser",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "29",
+   "name": "voltage divider",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "30",
+   "name": "vertical deflection amplifier",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "31",
+   "name": "center-tapped resistor",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "second single trip multivibrator",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "33",
+   "name": "sawtooth wave generator",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "34",
+   "name": "sweep amplifier",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "35",
+   "name": "center-tapped resistor",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "36",
+   "name": "switch",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "37",
+   "name": "pulse regenerator circuit",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "38",
+   "name": "conductor",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "39",
+   "name": "amplifier",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "40",
+   "name": "outgoing line",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "D1",
+   "name": "",
+   "figs": [
+    "2",
+    "2A"
+   ]
+  },
+  {
+   "ref": "D2",
+   "name": "",
+   "figs": [
+    "2",
+    "2A"
+   ]
+  },
+  {
+   "ref": "D3",
+   "name": "",
+   "figs": [
+    "2",
+    "2A"
+   ]
+  },
+  {
+   "ref": "D4",
+   "name": "",
+   "figs": [
+    "2",
+    "2A"
+   ]
+  },
+  {
+   "ref": "D5",
+   "name": "",
+   "figs": [
+    "2",
+    "2A"
+   ]
+  },
+  {
+   "ref": "D6",
+   "name": "",
+   "figs": [
+    "2",
+    "2A"
+   ]
+  },
+  {
+   "ref": "D7",
+   "name": "",
+   "figs": [
+    "2",
+    "2A"
+   ]
+  },
+  {
+   "ref": "41",
+   "name": "broken line",
+   "figs": [
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "42",
+   "name": "gater-slicer circuit",
+   "figs": [
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "43",
+   "name": "coupling condensers",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "44",
+   "name": "coupling condensers",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "45",
+   "name": "triodes",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "flip-flop circuit"
+   ]
+  },
+  {
+   "ref": "45'",
+   "name": "",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "46",
+   "name": "triodes",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "tube",
+    "right-hand tube",
+    "flip-flop circuit"
+   ]
+  },
+  {
+   "ref": "46'",
+   "name": "tubes",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "flip-flop circuit"
+   ]
+  },
+  {
+   "ref": "47",
+   "name": "resistors",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "48",
+   "name": "resistors",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "49",
+   "name": "resistors",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "50",
+   "name": "resistors",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "51",
+   "name": "source",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "52",
+   "name": "battery",
+   "figs": [
+    "3",
+    "4"
+   ]
+  },
+  {
+   "ref": "53",
+   "name": "commutator or distributor",
+   "figs": [
+    "3",
+    "4"
+   ],
+   "alt": [
+    "distributor"
+   ]
+  },
+  {
+   "ref": "54",
+   "name": "differentiating circuit",
+   "figs": [
+    "3",
+    "4",
+    "5"
+   ],
+   "alt": [
+    "differentiator"
+   ]
+  },
+  {
+   "ref": "55",
+   "name": "rectifier",
+   "figs": [
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "56",
+   "name": "band-pass filter",
+   "figs": [
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "57",
+   "name": "pulse shaper",
+   "figs": [
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "58",
+   "name": "frequency divider",
+   "figs": [
+    "3",
+    "4",
+    "5"
+   ],
+   "alt": [
+    "step-down multi-vibrator"
+   ]
+  },
+  {
+   "ref": "59",
+   "name": "pulse shaper",
+   "figs": [
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "60",
+   "name": "rotating arm",
+   "figs": [
+    "3",
+    "4"
+   ],
+   "alt": [
+    "distributor arm"
+   ]
+  },
+  {
+   "ref": "61",
+   "name": "adjustable phase shifter",
+   "figs": [
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "62",
+   "name": "regenerator",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "62'",
+   "name": "regenerator",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "63",
+   "name": "conductor",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "64",
+   "name": "reproducer",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "65",
+   "name": "decoders",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "65'",
+   "name": "decoders",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "66",
+   "name": "distributor",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "70",
+   "name": "condenser",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "\"pail\" condenser"
+   ]
+  },
+  {
+   "ref": "70'",
+   "name": "lower pail and dipper circuit",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "71",
+   "name": "diode rectifier",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "71'",
+   "name": "lower pail and dipper circuit",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "72",
+   "name": "saturated pentode amplifier",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "constant current device"
+   ]
+  },
+  {
+   "ref": "72'",
+   "name": "lower pail and dipper circuit",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "73",
+   "name": "vertical deflecting elements",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "vertical deflection elements"
+   ]
+  },
+  {
+   "ref": "73'",
+   "name": "",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "74",
+   "name": "cathode beam tube",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "tube",
+    "upper translating tube"
+   ]
+  },
+  {
+   "ref": "74'",
+   "name": "lower translating tube",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "75",
+   "name": "electron gun",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "75'",
+   "name": "",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "76",
+   "name": "collector anode",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "76'",
+   "name": "",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "77",
+   "name": "cathode beam",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "77'",
+   "name": "",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "78",
+   "name": "mask",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "78'",
+   "name": "",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "79",
+   "name": "adjustable battery-potentiometer combination",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "deflection bias means"
+   ]
+  },
+  {
+   "ref": "79'",
+   "name": "",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "81",
+   "name": "triode",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "81'",
+   "name": "lower triode",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "82",
+   "name": "",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "82'",
+   "name": "grid condenser",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "83",
+   "name": "",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "83'",
+   "name": "resistor",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "85",
+   "name": "regenerator",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "86",
+   "name": "conductor",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "87",
+   "name": "decoder",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "88",
+   "name": "reproducer",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "90",
+   "name": "tubes",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "left-hand tube"
+   ]
+  },
+  {
+   "ref": "91",
+   "name": "tubes",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "right-hand tube"
+   ]
+  },
+  {
+   "ref": "92",
+   "name": "condenser",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "93",
+   "name": "resistor",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "94",
+   "name": "block",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "95a",
+   "name": "delay devices",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "95b",
+   "name": "delay devices",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "95f",
+   "name": "",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "96a",
+   "name": "attenuators",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "resistors"
+   ]
+  },
+  {
+   "ref": "96b",
+   "name": "attenuators",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "resistors"
+   ]
+  },
+  {
+   "ref": "96f",
+   "name": "",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "96g",
+   "name": "smallest conductance",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "97",
+   "name": "triode",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "voltage feedback amplifier"
+   ]
+  },
+  {
+   "ref": "98",
+   "name": "conductance",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "99",
+   "name": "sampler",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "100",
+   "name": "rectifier",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "101",
+   "name": "reproducer",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "A",
+   "name": "incoming pulse wave form",
+   "figs": [
+    "3",
+    "4",
+    "5"
+   ],
+   "alt": [
+    "incoming pulses A",
+    "pulse code group A"
+   ]
+  },
+  {
+   "ref": "B",
+   "name": "output wave form",
+   "figs": [
+    "3",
+    "4",
+    "5"
+   ],
+   "alt": [
+    "condenser wave form",
+    "curve B"
+   ]
+  },
+  {
+   "ref": "C",
+   "name": "resulting wave form",
+   "figs": [
+    "3",
+    "4",
+    "5"
+   ],
+   "alt": [
+    "curve C"
+   ]
+  },
+  {
+   "ref": "D",
+   "name": "curve D",
+   "figs": [
+    "4",
+    "5"
+   ],
+   "alt": [
+    "wave D"
+   ]
+  }
+ ]
+}

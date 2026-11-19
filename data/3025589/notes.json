@@ -1,0 +1,82 @@
+{
+  "patent": "Filed 1959-05-01 and issued 1962-03-20 to Jean A. Hoerni, assigned by mesne assignments to Fairchild Camera and Instrument Corporation, the parent of Fairchild Semiconductor, which Hoerni had co-founded in 1957. It is the method patent for his planar process. The silicon dioxide on the wafer serves first as the diffusion mask and is then left in place, re-formed and re-opened, so that every P-N junction ends at the flat top surface under oxide instead of at an exposed etched edge as in the mesa transistors of the time. FIGS. 1-4 apply the method to a diode, FIGS. 5-9 to a double-diffused NPN transistor, and FIG. 10 shows the finished transistor with emitter, base and collector contacts all on the top surface. Oxide masking of diffusion in silicon had been reported by C. J. Frosch and L. Derick of Bell Telephone Laboratories (J. Electrochem. Soc., 1957); what is claimed here is keeping the oxide as permanent cover over the junction edges while holes are opened for later diffusions and contacts. The planar process became the standard way of making silicon transistors and integrated circuits; Robert Noyce's interconnection patent US 2,981,877, filed 1959-07-30, builds on the planar process. Hoerni's related patent US 3,064,167, \"Semiconductor device\", issued 1962-11-13.",
+  "figs": {
+    "1": "Plan view of the whole wafer 11 after openings have been cut in oxide mask 12: each small circle is an opening 13, about 37 of them. The broken circle 14 around one opening outlines a single diode die to be cut out; the text also allows forming the diodes together on the wafer and dividing it afterwards.",
+    "2": "Section through one die 14 before diffusion. The thin finely hatched band on top is oxide 12, interrupted at aperture 13; the coarse diagonal hatching is the N-type silicon.",
+    "3": "After the acceptor diffusion. Arrows 16 on three sides stand for heating, not for a direction of flow. The P region 17 (hatched the other way) is a bowl wider than aperture 13, so junction 18 reaches the surface under the original oxide 12. A thinner oxide 19 has grown inside the aperture during diffusion, leaving the whole top covered.",
+    "4": "Finished diode. Oxide 19 has been etched away inside aperture 13 while oxide 12 still covers the surface ends of the junction. Thin plated contacts: 21 on top within the aperture, 22 across the whole underside. Wires 23 and 24 are alloyed in; the unnumbered lens-shaped regions under their ends appear to show where they are alloyed in. The P region and junction are drawn as in FIG. 3 but not numbered here.",
+    "5": "Start of the transistor sequence: N-type wafer 32 with oxide 31 over the whole top, before opening 33 is cut.",
+    "6": "Base diffusion through opening 33; arrows 34 are heat. The P base 36 spreads sideways past the edges of the opening, so the ends of base-collector junction 37 lie under oxide 31. No regrown oxide is drawn in the opening here, unlike FIG. 3.",
+    "7": "The oxide extension 38, drawn continuous with layer 31, now covers the right-hand part of base 36 and leaves a narrower opening over the rest, off the centre of the base.",
+    "8": "Emitter diffusion through the reduced opening; the unnumbered arrows are heat again. The N emitter 39 is a shallow layer inside base 36, and emitter-base junction 41 reaches the surface just under the edges of the oxide. Because the opening was offset, much more of the base lies to the right of the emitter than to the left. Here 33 labels the edge of the reduced opening.",
+    "9": "Opening 42 is cut through the extension above the part of base 36 beside the emitter, and opening 43 further right above the collector. The two oxide islands left between the openings cover the surface ends of junction 41 and junction 37. The emitter is the thin top layer under opening 33, unnumbered here.",
+    "10": "Finished transistor with all three contacts on the top surface: lead 44 on emitter 39 through opening 33, lead 46 on base 36 through opening 42, lead 47 on collector wafer 32 through opening 43. The thin layer under the foot of each lead is its plated contact; the junction edges stay under oxide 31."
+  },
+  "parts": {
+    "14": "In FIG. 1 the numeral marks the outline, on the full wafer, of the piece that becomes the die of FIGS. 2-4.",
+    "16": "Not a component: the arrows indicate heat applied to drive the diffusion.",
+    "34": "Not a component: the arrows indicate heat applied to drive the base diffusion.",
+    "19": "Oxide formed on the exposed silicon during the diffusion itself; the text removes it before the contact is made.",
+    "32": "N-type in the example; it is the collector of the finished transistor.",
+    "38": "The text does not say how the extension is formed; claim 3 has the oxide re-formed in the hole during the base diffusion and a smaller hole then opened in it.",
+    "22": "The text notes that the transistor's collector contact can likewise be made on the underside instead of through opening 43."
+  },
+  "glossary": [
+    {
+      "term": "planar process",
+      "def": "Making devices by diffusing dopants through holes in a surface oxide, with every junction ending at one flat surface under oxide that is left in place."
+    },
+    {
+      "term": "mesa transistor",
+      "def": "A transistor whose collector junction is trimmed by etching away surrounding material, leaving a raised plateau with the junction exposed at its sidewalls."
+    },
+    {
+      "term": "double-diffused transistor",
+      "def": "A transistor whose base and emitter are formed by two successive diffusions into the collector material."
+    },
+    {
+      "term": "diffusion mask",
+      "def": "A layer, here silicon oxide, through which the dopant does not readily diffuse, so dopant enters the silicon only where the layer is opened."
+    },
+    {
+      "term": "acceptor / donor impurity",
+      "def": "A dopant from group III (acceptor, makes P-type silicon) or group V (donor, makes N-type silicon) of the periodic table."
+    },
+    {
+      "term": "P-N junction",
+      "def": "The boundary between P-type and N-type regions; it rectifies, and where it meets the surface it is sensitive to contamination and leakage."
+    },
+    {
+      "term": "ohmic contact",
+      "def": "A metal-to-semiconductor contact with linear, non-rectifying resistance."
+    },
+    {
+      "term": "spreading resistance",
+      "def": "Resistance from current fanning out from a small contact into the semiconductor; it falls as the contact covers more of the region."
+    },
+    {
+      "term": "photoresist",
+      "def": "A light-sensitive coating patterned by exposure and development; the remaining resist protects areas of the oxide during etching."
+    },
+    {
+      "term": "hydrofluoric acid",
+      "def": "The standard etchant for silicon dioxide; it attacks the oxide but not the silicon."
+    },
+    {
+      "term": "gold-silicon eutectic",
+      "def": "The lowest-melting gold-silicon mixture, used to alloy gold-plated leads into silicon. The accepted eutectic temperature is about 363 degrees C; the patent prints 373."
+    },
+    {
+      "term": "triode",
+      "def": "Older usage for a three-terminal device, here the transistor, as against the two-terminal diode."
+    },
+    {
+      "term": "canning",
+      "def": "Sealing the finished device in a metal can package."
+    },
+    {
+      "term": "mesne assignments",
+      "def": "Intermediate transfers of the patent rights between the inventor and the final assignee."
+    }
+  ]
+}

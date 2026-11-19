@@ -1,0 +1,77 @@
+{
+  "patent": "Filed 1955-07-27 and issued 1958-04-29 to Dudley A. Buck of MIT, assigned to Research Corporation. It is the patent on the cryotron, the superconducting switch Buck described in \"The Cryotron - A Superconductive Computer Component\" (Proceedings of the IRE, vol. 44, April 1956, pp. 482-493). A straight wire held just below its superconducting transition (tantalum in liquid helium at 4.2 K) is switched between zero and finite resistance by the magnetic field of a control coil wound on it; the coil is made of a metal that stays superconducting (niobium or lead), so the control circuit dissipates no power and one gate can drive the control coil of the next. From that element the patent builds a flip-flop (FIGS. 5-7, 12), a coincident-field gate (FIG. 8), a three-stage clock with measured speed (FIGS. 9-10), a carry chain (FIG. 11) and an eight-way selection switch (FIG. 13). Thin-film cryotron logic and memory were pursued by several laboratories into the early 1960s and were overtaken by silicon transistors and integrated circuits; superconducting-nanowire switches later revived the idea under the name nanocryotron (A. N. McCaughan and K. K. Berggren, Nano Letters, 2014). The Kenneth H. Olsen whose co-pending application the text cites co-founded Digital Equipment Corporation in 1957. A notice printed with the patent records a final decision adverse to the patentee in Interference No. 91,653 as to claims 19-22, rendered 1963-02-14 (Official Gazette, 1963-07-23).",
+  "figs": {
+    "1": "Critical field Hc in gauss against temperature in kelvin, one curve per element; each element is superconducting below and to the left of its curve. The dashed vertical line is 4.2 K, liquid helium at atmospheric pressure: the Ta curve meets it just above the axis, so a field of a few tens of gauss switches tantalum, while Pb, V and Nb stay superconducting there to several hundred gauss or more. The broken low-temperature ends of several curves are not explained in the text. The curve marked Te (zero-field transition near 2.4 K, about 200 gauss at 0 K) matches thallium, Tl (2.39 K); elemental tellurium is not a superconductor at atmospheric pressure, so the label and the text's \"tellurium\" are probably a slip for thallium.",
+    "2": "Resistance of tantalum at 4.2 K as a fraction of R0 against applied field: zero up to about 50 gauss, then a nearly vertical rise to 1.0 with no further change. The sharpness of this step is what lets a small control field act as an on/off switch.",
+    "3": "The basic gate. Tantalum wire 12 runs horizontally with control winding 14 coiled tightly around it. Three independent circuits: battery 16 and resistor 18 drive the gate current along the full length of 12; battery 20 and resistor 22 drive the winding; micro-voltmeter 24 is tapped across 12 at points just beyond the ends of the winding. The arrowed zigzags are variable resistors.",
+    "4": "Section through the cryostat. From the centre out: flask 26 with liquid helium 28 and the element 36 on the end of probe 38; vacuum space 50; the liquid-nitrogen chamber, whose filler fitting is marked 54; vacuum space 52; packing 56 (diagonal hatching); outer case 58. Short dashes mark liquid. Plug 34 carries both the probe and helium conduit 32, which leads through valves (circled V) to helium source 30 and pump 48. The leads come up the probe to board 40 and out to the gate-current source 42, control-current source 44 and voltmeter 46.",
+    "5": "Two gates cross-coupled into a flip-flop. Each bold vertical line is a tantalum conductor (74 left, 72 right) with a control coil wound on it (66 on 74, 68 on 72). Current from lead 60 enters at the top and leaves at the bottom by one of two series paths, which cross diagonally (the hop marks a crossing without connection): coil 66 then conductor 72, or coil 68 then conductor 74. Each path's coil sits on the other path's conductor. The four corner dots 70 are the coil-conductor junctions; battery 62 and variable impedance 64 supply the current.",
+    "6": "The flip-flop of FIG. 5 with the conductors 74 and 72 extended downward through set windings 78 and 76, each with a pair of terminal dots for an external setting current. The legend i<2ic above the supply lead states the operating condition: the supply current must stay below twice the current that makes either conductor resistive.",
+    "7": "Dashed box 80 is the flip-flop of FIG. 6 with its set windings. Below it the two branches continue through read-out coils 92 (from conductor 74) and 90 (from conductor 72), wound on sensing leads 84 and 86. Source 88 feeds wire 82, which splits into leads 84 and 86; the arrows at their tops are the two outputs, here drawn returning to the source. Only one sensing lead is superconducting at a time, so the stored state appears as a current steered to one output.",
+    "8": "One straight conductor (horizontal bold line, unnumbered) carries two interleaved windings: 104, fed from source 94 through switch 100, and 102, fed from source 96 through switch 98. Each source is drawn as a battery and variable resistor in series with its switch.",
+    "9": "Three flip-flops in a ring. Each column repeats the arrangement of FIG. 7: at top the cross-coupled pair of the flip-flop, its sides marked 0 (left) and 1 (right); below it the pair that takes the set inputs; at bottom the pair of read-out gates. The read-out outputs of each column cross over to the set inputs of the next; those of 114 leave at right as a and b and re-enter at left as a and b to set 110. Supply 116 feeds the flip-flops and source 118 the read-out gates. Gate 120 at top right, with its control winding in the 1 side of 114, switches the current from source 124 so that voltmeter 122 shows the state of 114. The drawing marks the left side 0, while the text calls the left side the \"one\" side.",
+    "10": "Measured points (circles) for the clock of FIG. 9: transfer current in milliamperes on the vertical axis against complete clock cycles per second on the horizontal. The four points are 275 mA at 150, 325 mA at 500, 400 mA at 700 and 600 mA at 950 cycles per second.",
+    "11": "Bold line 130 is the tantalum conductor, fed from supply 132 through switch 160 and leaving at the arrow at right. Along it sit set winding 136 and coils 140, 146 and 148, each of the last three interleaved with an input coil (152, 154, 156) whose terminals hang below. Above are output gates 138, 144 and 150, short bold conductors each with a winding. Each diagonal branch (134, 142, 145) leaves 130 just upstream of a coil (136, 140, 146), passes through the winding of the gate above, and comes down to the far end of the next coil (140, 146, 148), whose near end rejoins 130. The broken line at upper right indicates further stages.",
+    "12": "The compact version of FIG. 7: sensing conductors 86' and 84' run straight through control coils 66' and 68' beside flip-flop conductors 74 and 72, replacing the separate read-out coils 90 and 92. Each side therefore shows two parallel bold lines inside one coil. Set windings 78 and 76, sense source 88 and the flip-flop supply at upper right are as in FIG. 7.",
+    "13": "Eight horizontal tantalum conductors 160 are fed in parallel from the bus at left (arrow at lower left) and end at terminal pairs at right. Each conductor carries one control coil from each of three groups: 162 (alternate conductors), 164 (alternate pairs) and 166 (fours). The groups are in series: control current enters at the lower arrow under switch 168, passes one half of group 162, then switch 170 and one half of group 164, then switch 172 and one half of group 166, and leaves at the arrow at upper right. Every switch setting leaves exactly one conductor with no energized coil."
+  },
+  "parts": {
+    "54": "The text names a chamber 54 containing liquid nitrogen; in the drawing the leader ends on the filler fitting at the top of that chamber.",
+    "70": "One numeral for all four corner junctions of the flip-flop.",
+    "116": "Labelled MAIN POWER SUPPLY in the drawing.",
+    "118": "Labelled TRANSFER CURRENT in the drawing.",
+    "160": "Used for two different things: the eight conductors of FIG. 13 and the supply switch of FIG. 11. The FIG. 13 text also once calls the conductors 150, which is an output gate of FIG. 11.",
+    "a": "Not in the text. The a and b arrows at right are continued at the a and b arrows at left, closing the ring of three flip-flops.",
+    "b": "Not in the text; see a."
+  },
+  "glossary": [
+    {
+      "term": "superconductivity",
+      "def": "The complete loss of electrical resistance in certain metals below a critical temperature. It is destroyed by a magnetic field above a critical field, which falls to zero at the critical temperature."
+    },
+    {
+      "term": "critical field (Hc)",
+      "def": "The magnetic field above which a superconductor returns to normal resistance at a given temperature."
+    },
+    {
+      "term": "cryotron",
+      "def": "Buck's name for the device of this patent: a superconducting gate wire switched by the field of a superconducting control coil."
+    },
+    {
+      "term": "gauss",
+      "def": "Unit of magnetic flux density; 1 gauss = 10^-4 tesla."
+    },
+    {
+      "term": "degrees K",
+      "def": "Kelvin, the absolute temperature scale, written \"degrees Kelvin\" or \"°K\" in this era. Liquid helium boils at about 4.2 K at atmospheric pressure; pumping on it lowers the temperature."
+    },
+    {
+      "term": "superfluid helium",
+      "def": "Liquid helium below about 2.17 K, which flows without viscosity and conducts heat extremely well; the text's \"zero viscosity\" below 2.2 K."
+    },
+    {
+      "term": "Formvar",
+      "def": "Trade name of a polyvinyl formal enamel used to insulate fine magnet wire."
+    },
+    {
+      "term": "flip-flop / bistable circuit",
+      "def": "A circuit with two stable states that holds one bit until set to the other state."
+    },
+    {
+      "term": "coincident current",
+      "def": "Selection in which an element switches only when two drive currents act on it together, neither being enough alone; used to address one cell of a memory array by a row and a column line."
+    },
+    {
+      "term": "L/R time constant",
+      "def": "The time for current in an inductance L driven through a resistance R to approach its final value; here L is the control coil and R the resistive gate wire it is switched against."
+    },
+    {
+      "term": "multi-vibrator",
+      "def": "A circuit that switches repeatedly between two states; free-running, it serves as a clock."
+    },
+    {
+      "term": "carry propagation",
+      "def": "In a binary adder, passing the carry from one digit position to the next."
+    }
+  ]
+}

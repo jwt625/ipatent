@@ -1,0 +1,27 @@
+{
+  "pn": "2632058",
+  "inventors": [
+    {
+      "name": "Frank Gray",
+      "printed": "Frank Gray, East Orange, N. J.",
+      "city": "East Orange",
+      "region": "NJ",
+      "country": "US"
+    }
+  ],
+  "assignees": [
+    {
+      "name": "Bell Telephone Laboratories, Incorporated",
+      "printed": "Bell Telephone Laboratories, Incorporated, New York, N. Y., a corporation of New York",
+      "org": "Bell Labs",
+      "kind": "company",
+      "city": "New York",
+      "region": "NY",
+      "country": "US"
+    }
+  ],
+  "source": {
+    "page": 4,
+    "where": "column 1 header (inventor, assignor to)"
+  }
+}

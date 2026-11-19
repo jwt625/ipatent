@@ -1,0 +1,1520 @@
+{
+ "pn": "3475623",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    198,
+    685,
+    1898,
+    2922
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    264,
+    737,
+    1858,
+    2916
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    308,
+    712,
+    1901,
+    2844
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 4,
+   "page": 3,
+   "crop": [
+    276,
+    799,
+    1730,
+    1459
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 4,
+   "page": 3,
+   "crop": [
+    273,
+    1532,
+    1728,
+    2184
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 4,
+   "page": 3,
+   "crop": [
+    273,
+    2239,
+    1740,
+    2910
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "1",
+   "name": "input adder",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "adder"
+   ]
+  },
+  {
+   "ref": "2",
+   "name": "inverting input terminal",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "input"
+   ]
+  },
+  {
+   "ref": "3",
+   "name": "output terminal",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "output"
+   ]
+  },
+  {
+   "ref": "4",
+   "name": "terminals",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "6",
+   "name": "terminals",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "8",
+   "name": "terminals",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "5",
+   "name": "resistors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "7",
+   "name": "resistors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "9",
+   "name": "resistors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "10",
+   "name": "feedback resistor",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "lead",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "filter input transistor",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "transistor"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "emitter",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "base",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "collector",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "junction",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "17",
+   "name": "current limiting resistor",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "terminal",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "19",
+   "name": "diode",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "diode",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "21",
+   "name": "filter drive transistors",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "drive transistors"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "filter drive transistors",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "drive transistors"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "emitters",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "emitters",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "25",
+   "name": "collectors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "26",
+   "name": "collectors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "27",
+   "name": "bases",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "28",
+   "name": "bases",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "29",
+   "name": "input buffer amplifier",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "buffer"
+   ]
+  },
+  {
+   "ref": "30",
+   "name": "input point",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "31",
+   "name": "input terminal",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "leads",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "33",
+   "name": "leads",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "34",
+   "name": "transistors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "36",
+   "name": "transistors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "38",
+   "name": "transistors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "40",
+   "name": "transistors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "35",
+   "name": "transistors",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "companion transistor"
+   ]
+  },
+  {
+   "ref": "37",
+   "name": "transistors",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "companion transistors"
+   ]
+  },
+  {
+   "ref": "39",
+   "name": "transistors",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "companion transistors"
+   ]
+  },
+  {
+   "ref": "41",
+   "name": "transistors",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "companion transistors"
+   ]
+  },
+  {
+   "ref": "42",
+   "name": "output transistors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "43",
+   "name": "output transistors",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "companion transistors"
+   ]
+  },
+  {
+   "ref": "44",
+   "name": "emitters",
+   "figs": []
+  },
+  {
+   "ref": "45",
+   "name": "emitters",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "46",
+   "name": "capacitor",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "47",
+   "name": "collectors",
+   "figs": []
+  },
+  {
+   "ref": "48",
+   "name": "collectors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "49",
+   "name": "emitters",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "50",
+   "name": "emitters",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "51",
+   "name": "collectors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "52",
+   "name": "collectors",
+   "figs": []
+  },
+  {
+   "ref": "53",
+   "name": "emitters",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "54",
+   "name": "emitters",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "55",
+   "name": "terminal",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "bias terminal"
+   ]
+  },
+  {
+   "ref": "56",
+   "name": "resistors",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "divider resistors"
+   ]
+  },
+  {
+   "ref": "57",
+   "name": "resistors",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "divider resistors"
+   ]
+  },
+  {
+   "ref": "58",
+   "name": "resistors",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "divider adding resistors"
+   ]
+  },
+  {
+   "ref": "59",
+   "name": "resistors",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "divider adding resistors"
+   ]
+  },
+  {
+   "ref": "60",
+   "name": "resistors",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "divider adding resistors"
+   ]
+  },
+  {
+   "ref": "61",
+   "name": "resistors",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "resistor"
+   ]
+  },
+  {
+   "ref": "62",
+   "name": "base",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "63",
+   "name": "bases",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "64",
+   "name": "bases",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "65",
+   "name": "bases",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "66",
+   "name": "base",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "67",
+   "name": "collectors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "68",
+   "name": "collectors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "69",
+   "name": "leads",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "70",
+   "name": "leads",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "71",
+   "name": "output buffer amplifier",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "buffer amplifier"
+   ]
+  },
+  {
+   "ref": "72",
+   "name": "output terminal",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "73",
+   "name": "lead",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "74",
+   "name": "adjustable feedback resistor",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "resistor"
+   ]
+  },
+  {
+   "ref": "75",
+   "name": "output terminal",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "76",
+   "name": "input terminal",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "G",
+   "name": "ground",
+   "figs": [
+    "1",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "ref": "77",
+   "name": "operational amplifier",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "amplifier"
+   ]
+  },
+  {
+   "ref": "78",
+   "name": "input resistors",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "79",
+   "name": "inverting input terminal",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "input"
+   ]
+  },
+  {
+   "ref": "80",
+   "name": "output terminal",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "output"
+   ]
+  },
+  {
+   "ref": "81",
+   "name": "terminals",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "82",
+   "name": "terminals",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "84",
+   "name": "terminals",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "83",
+   "name": "input resistors",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "85",
+   "name": "input resistors",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "86",
+   "name": "resistor",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "87",
+   "name": "resistor",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "88",
+   "name": "current limiting resistor",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "89",
+   "name": "diode",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "90",
+   "name": "terminal",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "91",
+   "name": "lead",
+   "figs": []
+  },
+  {
+   "ref": "92",
+   "name": "operational amplifier",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "amplifier"
+   ]
+  },
+  {
+   "ref": "93",
+   "name": "inverting input",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "input"
+   ]
+  },
+  {
+   "ref": "94",
+   "name": "output",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "95",
+   "name": "input resistor",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "resistors"
+   ]
+  },
+  {
+   "ref": "96",
+   "name": "feedback resistor",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "resistors"
+   ]
+  },
+  {
+   "ref": "97",
+   "name": "",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "98",
+   "name": "",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "99",
+   "name": "transistor pairs",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "transistors"
+   ]
+  },
+  {
+   "ref": "100",
+   "name": "transistor pairs",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "transistors"
+   ]
+  },
+  {
+   "ref": "101",
+   "name": "transistor pairs",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "transistors"
+   ]
+  },
+  {
+   "ref": "102",
+   "name": "transistor pairs",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "transistors"
+   ]
+  },
+  {
+   "ref": "103",
+   "name": "transistor pairs",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "transistors"
+   ]
+  },
+  {
+   "ref": "104",
+   "name": "transistor pairs",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "transistors"
+   ]
+  },
+  {
+   "ref": "105",
+   "name": "transistor pairs",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "transistors"
+   ]
+  },
+  {
+   "ref": "106",
+   "name": "transistor pairs",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "transistors"
+   ]
+  },
+  {
+   "ref": "107",
+   "name": "capacitors",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "input capacitor"
+   ]
+  },
+  {
+   "ref": "108",
+   "name": "junction points",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "109",
+   "name": "unity gain amplifiers",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "110",
+   "name": "capacitors",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "111",
+   "name": "junction points",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "112",
+   "name": "unity gain amplifiers",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "113",
+   "name": "capacitors",
+   "figs": []
+  },
+  {
+   "ref": "114",
+   "name": "junction points",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "115",
+   "name": "unity gain amplifiers",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "116",
+   "name": "capacitors",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "117",
+   "name": "junction points",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "junction"
+   ]
+  },
+  {
+   "ref": "118",
+   "name": "output coupling amplifier",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "119",
+   "name": "terminal",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "120",
+   "name": "output terminal",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "121",
+   "name": "signal input driver amplifier",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "122",
+   "name": "input terminal",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "123",
+   "name": "lead",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "124",
+   "name": "line",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "125",
+   "name": "terminal",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "126",
+   "name": "line",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "127",
+   "name": "terminal",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "128",
+   "name": "high-pass filter",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "129",
+   "name": "low-pass filter",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "130",
+   "name": "terminal",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "input terminal"
+   ]
+  },
+  {
+   "ref": "131",
+   "name": "input terminal",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "input"
+   ]
+  },
+  {
+   "ref": "132",
+   "name": "signal input terminal",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "input"
+   ]
+  },
+  {
+   "ref": "133",
+   "name": "output terminal",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "terminal"
+   ]
+  },
+  {
+   "ref": "134",
+   "name": "output",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "terminal",
+    "output terminal"
+   ]
+  },
+  {
+   "ref": "135",
+   "name": "output combining amplifier",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "amplifier",
+    "output amplifier"
+   ]
+  },
+  {
+   "ref": "136",
+   "name": "input",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "137",
+   "name": "output",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "138",
+   "name": "final output terminal",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "output terminal"
+   ]
+  },
+  {
+   "ref": "139",
+   "name": "input",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "140",
+   "name": "leads",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "141",
+   "name": "contact arms",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "arm",
+    "switches"
+   ]
+  },
+  {
+   "ref": "142",
+   "name": "contacts",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "143",
+   "name": "leads",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "144",
+   "name": "leads",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "145",
+   "name": "contact",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "146",
+   "name": "contact arms",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "arm",
+    "switches"
+   ]
+  },
+  {
+   "ref": "147",
+   "name": "contacts",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "148",
+   "name": "",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "149",
+   "name": "leads",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "150",
+   "name": "line",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "lead"
+   ]
+  },
+  {
+   "ref": "151",
+   "name": "control voltage input terminal",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "control input terminal",
+    "control input"
+   ]
+  },
+  {
+   "ref": "152",
+   "name": "resistor",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "resistors"
+   ]
+  },
+  {
+   "ref": "153",
+   "name": "contact arms",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "arm"
+   ]
+  },
+  {
+   "ref": "154",
+   "name": "contacts",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "contact"
+   ]
+  },
+  {
+   "ref": "155",
+   "name": "",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "156",
+   "name": "contacts",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "157",
+   "name": "lead",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "158",
+   "name": "terminals",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "control voltage input terminal"
+   ]
+  },
+  {
+   "ref": "159",
+   "name": "resistor",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "160",
+   "name": "contact arms",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "arm"
+   ]
+  },
+  {
+   "ref": "161",
+   "name": "contacts",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "contact"
+   ]
+  },
+  {
+   "ref": "162",
+   "name": "",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "163",
+   "name": "contacts",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "164",
+   "name": "",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "165",
+   "name": "lead",
+   "figs": []
+  },
+  {
+   "ref": "166",
+   "name": "terminals",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "167",
+   "name": "contact arms",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "switch arm"
+   ]
+  },
+  {
+   "ref": "168",
+   "name": "contacts",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "contact"
+   ]
+  },
+  {
+   "ref": "169",
+   "name": "",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "170",
+   "name": "contacts",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "171",
+   "name": "control voltage input terminal",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "control input"
+   ]
+  },
+  {
+   "ref": "172",
+   "name": "resistor",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "173",
+   "name": "resistor",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "174",
+   "name": "lead",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "175",
+   "name": "lead",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "176",
+   "name": "unity gain inverting operational amplifier",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "177",
+   "name": "",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "178",
+   "name": "input resistors",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "179",
+   "name": "feedback resistor",
+   "figs": [
+    "3"
+   ]
+  }
+ ]
+}

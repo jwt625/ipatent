@@ -1,0 +1,101 @@
+{
+  "patent": "Filed December 17, 1975 and issued March 15, 1977 to Herwig Kogelnik and Ronald V. Schmidt; the front page names no assignee. It covers the alternating, or reversed, Δβ directional-coupler switch: the electrodes over the coupled guides are split into sequential sections driven with opposite phase mismatch, so that the cross state, which in a single-section coupler needs an exact odd number of coupling lengths and zero mismatch, can be reached by voltage tuning, while the bar state stays tunable as before. The same design was published by the inventors as \"Switched directional couplers with alternating Δβ\" (H. Kogelnik and R. V. Schmidt, IEEE Journal of Quantum Electronics, vol. QE-12, 1976, pp. 396-401). Split-electrode, reversed-Δβ couplers in titanium-diffused lithium niobate became a standard building block of integrated-optic switches and switch matrices. FIGS. 1-3 are the prior single-section couplers and their switching diagram, FIGS. 4-5 the two switch states, FIGS. 6, 7, 9 and 10 two-section embodiments with their switching diagram in FIG. 8, FIG. 11 a switching network built from them, and FIGS. 12-13 a three-section version.",
+  "figs": {
+    "1": "Plan view in perspective of the single-section coupler with vertical field (c-axis out of the page). The two curved double-line guides 15 and 16 approach each other and run parallel under electrodes 20 and 21 for length L; the dashed lines inside the electrode boxes are the guide portions 18 and 19 beneath them. One source 23 drives both electrodes. The hatched end faces show the thickness of substrate 22. The notes under the drawing give the design rule: the cross state needs V = 0 and L an odd multiple of the coupling length.",
+    "2": "Same layout as FIG. 1 but with the field in the plane of the substrate (c-axis in plane, across the guides). Outer electrodes 20' and 21' lie beside the guides, not over them, and are tied together to one terminal of source 23'; the narrow center electrode 40 between the guides is connected to the common, as is the other terminal of 23'. The cross-state rule is unchanged.",
+    "3": "Switching diagram of the single-section coupler: normalized length L/l against normalized mismatch δL, which grows with drive voltage. Circles with a cross mark cross states, circles with a double bar mark bar states. Cross states exist only as isolated points on the vertical axis (L/l = 1, 3), so a coupler whose length is slightly off cannot be tuned into the cross state; bar states lie on the continuous arcs 31 and 32, so they can always be reached by some voltage.",
+    "4": "The bar (straight-through) state, with the coupler reduced to a box 1 with two inputs and two outputs: source 2 connects to utilization apparatus 4 along path 6 and source 3 to apparatus 5 along path 7.",
+    "5": "The cross state of the same switch: source 2 reaches apparatus 5 along path 8 and source 3 reaches apparatus 4 along path 9.",
+    "6": "The two-section coupler with vertical field. The electrodes are split into a first section (50 over the upper guide, 51 over the lower) and a second section (53, 54), each pair fed by its own source, 55 (V1) and 56 (V2). The + and - marks show the polarity reversal between sections that is used for the cross state. Total coupled length L spans both sections. This figure is repeated on the front page.",
+    "7": "The two-section version of the in-plane-field coupler of FIG. 2. Outer electrodes are split into 80 and 83 above the upper guide and 81 and 84 below the lower guide; the center electrode 90 is left whole and is common to both sources. Source 55' (V1) drives the first section and 56' (V2) the second; the arrows give the relative polarities for the cross state.",
+    "8": "Switching diagram for the two-section couplers of FIGS. 6, 7, 9 and 10, axes as in FIG. 3 with the mismatch negative. The cross states now lie on the continuous curve 71 from L/l = 1 to L/l = 3, and the bar states on curve 72. The dashed construction shows how to use it: for a manufactured length between one and two coupling lengths, read across to curve 71 for the cross-state drive and to curve 72 for the bar-state drive.",
+    "9": "A variant of FIG. 7 without the fine center electrode. Electrodes 101 and 104 lie over the lower guide, and electrodes 100 and 103 lie beside the upper guide. The field therefore runs mostly across guide section 98 between the electrode rows and only weakly through the lower-guide sections 99 under 101 and 104, so drive voltages are higher. The + and - marks show opposite polarities in the two sections.",
+    "10": "A second variant: the electrode over a guide changes sides between the sections. In the first section electrode 111 lies over the upper guide 108 with electrode 110 beside the lower guide; in the second, electrode 114 lies over the lower guide 109 with electrode 113 beside the upper guide. The lower-right box is labelled \"No. 1\" on the drawing, where the other figures have No. 2.",
+    "11": "Block diagram of a switching network built from two-section couplers 120-129, each a 2x2 switch. First appearances of stations N1 to N (131-136) enter on the left and second appearances (137-142) leave on the right; the curved leaders tie the two captions to examples of each. Dashed lines mark stages and stations left out of the drawing.",
+    "12": "Three-section version of FIG. 6. Each of three electrode pairs, 150/151, 153/154 and 157/158, has its own source: 155 (V1) for the first, 161 (V3) for the middle, wired in from below, and 156 (V2) for the last. The + and - marks alternate from section to section. The circled dot marks the c-axis normal to the substrate. The sources the text numbers 141 and 142 are labelled 159 and 160 here.",
+    "13": "Switching diagram for the three-section coupler, axes as in FIG. 8 with the horizontal scale in multiples of π. The curves alternate between cross and bar branches; curve 163 (from L/l = 1 to 5) carries cross states and curve 162 (from L/l = 2 to 4) bar states. The dashed lines mark a length slightly over three coupling lengths and the two drive values that give the bar and cross states at that length."
+  },
+  "parts": {
+    "1": "Not numbered in the text; the box stands for the switched directional coupler shown in physical form in FIGS. 1, 2 and 6-10.",
+    "17": "The text notes this prior device is the one called COBRA by its French developers (Papuchon et al., Applied Physics Letters, 1975).",
+    "22'": "Not numbered in the text, which calls the substrate of FIG. 2 \"substrate 32\"; 32 is otherwise curve 32 of FIG. 3.",
+    "32": "Also used once in the text for the substrate of FIG. 2, which the drawing labels 22'.",
+    "82": "Not numbered in the text; it labels the substrate of FIG. 7.",
+    "98": "The part of the guides lying in the strong field between the two electrode rows.",
+    "99": "The parts of the lower guide under electrodes 101 and 104, where the field is weak.",
+    "100": "Not numbered in the text; it takes the place of electrode 80 of FIG. 7.",
+    "103": "Not numbered in the text; it takes the place of electrode 83 of FIG. 7.",
+    "109": "Not numbered in the text; it labels the lower guide in FIG. 10.",
+    "141": "In the drawings 141 and 142 are second station appearances in FIG. 11; the text uses 141 and 142 for the sources of FIG. 12, which that drawing labels 159 and 160.",
+    "142": "See 141.",
+    "159": "Not numbered in the text; the text calls the sources of FIG. 12 \"sources 141, 142\".",
+    "160": "See 159.",
+    "161": "Drives the middle section with V3; the text gives V1 and V3 as the main cross-state controls and V2 as a vernier."
+  },
+  "glossary": [
+    {
+      "term": "directional coupler",
+      "def": "Two optical waveguides run close and parallel so that light leaks from one to the other through their evanescent fields; power transfers back and forth along the shared length."
+    },
+    {
+      "term": "coupling length",
+      "def": "The length l over which light fully transfers from one of two identical (phase-matched) coupled guides to the other; l = π/2κ for coupling coefficient κ."
+    },
+    {
+      "term": "propagation constant",
+      "def": "β, the phase advance per unit length of a guided mode; β = 2π n_{eff} / λ."
+    },
+    {
+      "term": "phase mismatch, Δβ",
+      "def": "The difference between the propagation constants of the two guides. A mismatch limits how much power can cross over; the patent writes δ = Δβ/2."
+    },
+    {
+      "term": "synchronous / asynchronous coupling",
+      "def": "Coupling between guides with equal (synchronous, phase-matched) or unequal (asynchronous, phase-mismatched) propagation constants."
+    },
+    {
+      "term": "Δβ switching",
+      "def": "Switching a directional coupler by changing the mismatch Δβ with an applied voltage rather than by changing the coupling strength."
+    },
+    {
+      "term": "cross state / bar state",
+      "def": "The two settings of a 2x2 switch: cross sends each input to the opposite output, bar sends each input straight through."
+    },
+    {
+      "term": "crosstalk",
+      "def": "Light that ends up in the wrong output, for example residual power left in the input guide in the cross state."
+    },
+    {
+      "term": "electrooptic effect",
+      "def": "Change of a crystal's refractive index in proportion to an applied electric field (Pockels effect); in lithium niobate it is largest for fields along the c-axis."
+    },
+    {
+      "term": "c-axis",
+      "def": "The optic axis of the uniaxial lithium niobate crystal. Its orientation relative to the surface decides whether electrodes over the guides (vertical field) or beside them (horizontal field) are used."
+    },
+    {
+      "term": "titanium-diffused lithium niobate",
+      "def": "Waveguides made by diffusing a thin titanium stripe into lithium niobate at high temperature, which raises the refractive index locally."
+    },
+    {
+      "term": "COBRA",
+      "def": "Name used by its French developers for the single-section electrooptic directional-coupler switch of FIG. 1 (Papuchon et al., Applied Physics Letters, 1975)."
+    },
+    {
+      "term": "transfer matrix",
+      "def": "A 2x2 matrix relating the complex output amplitudes of the two guides to the input amplitudes; the matrices of successive sections multiply."
+    },
+    {
+      "term": "double-pole, double-throw switch",
+      "def": "An electrical switch that connects two inputs to two outputs in one of two pairings, the analogy the patent uses for the bar and cross states."
+    },
+    {
+      "term": "station appearance",
+      "def": "Telephone-switching term: a point where a customer line connects to the network. In FIG. 11 each station appears once at the inputs and once at the outputs."
+    },
+    {
+      "term": "nonblocking",
+      "def": "A switching network that can connect any idle input to any idle output regardless of connections already made."
+    }
+  ]
+}

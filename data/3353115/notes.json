@@ -1,0 +1,112 @@
+{
+  "patent": "Issued November 14, 1967 to Theodore H. Maiman and assigned to Hughes Aircraft Company; it continues his application of April 13, 1961 (Ser. No. 102,698). Maiman operated the first working laser, a flash-lamp-pumped ruby rod, at Hughes Research Laboratories in Malibu in May 1960 and reported it in Nature (T. H. Maiman, \"Stimulated optical radiation in ruby\", Nature 187, 493-494, 1960). The patent describes that device class: a solid ruby rod in which chromium ions are pumped by broadband light into an absorption band, relax without radiation to a narrow level, and then emit coherently between that level and the ground state, with reflecting ends providing the feedback. Its two claims both cover a three-level ruby laser with broadband pumping and a regenerative (resonator) path. The drawings range from the energy-level scheme (FIGS. 1, 7) and pump geometries (FIGS. 2-9, 16-17) to ways of suppressing off-axis rays (FIGS. 10-12) and resonator variants (FIGS. 13-15), ending with a laser rangefinder (FIG. 18). The Schawlow-Townes optical maser patent, US 2,929,922, is the one United States patent cited against it.",
+  "figs": {
+    "1": "Energy levels of the chromium ions in ruby, energy increasing upward. The thin upward arrows from level 1 into the hatched band (region 3) are pump absorption; the thin lines from region 3 down to the left end of level 2 are the radiationless decay that funnels the excitation into level 2; the dashed arrow is the less likely direct decay from region 3 to the ground state; the heavy arrow from level 2 to level 1 is the laser emission.",
+    "2": "Side view of ruby rod 10 lit from below by light pump 12 (arrows). The crossing sinusoids along the rod stand for standing wave 14 between the reflecting ends; the hatched disc is the near end face and the dashed arc the hidden edge of the far end face. Beam 16 leaves the far end along the rod axis.",
+    "3": "Solar pumping: parallel sunlight (vertical lines) passes the hatched lens 18 and converges on region 20, where the small laser element 22 sits. Spherical mirror 24 just past the focus returns the unabsorbed light through the element; the arrow to the right is the laser output.",
+    "4": "Perspective of the pump head: rod 26 lies on the axis of helical flash tube 28, both inside reflecting cylinder 38, drawn cut open to show them. Power supply 36 is wired to the two ends of the helix. The beam 34 leaves through opening 32 in the right-end plating, which numeral 30 marks.",
+    "5": "Coaxial flash lamp: rod 40 (dashed outline, seen through the lamp) runs along the axis of hollow cylinder 50, and the annular space between them holds flashing gas 52. Electrodes 54 and 56 at the two ends are wired to power supply 58. The hatched disc is coated end 42; output beam 48 leaves through opening 46 in the far plating 44.",
+    "6": "As FIG. 5, but the annulus between rod 60 (inner circle) and hollow flash tube 62 is filled with fluorescent material 64 (speckled ring), which converts the lamp's white light into green light that the ruby absorbs better. The power supply is unnumbered.",
+    "7": "The two-stage conversion of FIG. 6 in energy-diagram form. White light 66 (left arrows) is absorbed by the fluorescein (tall shaded bar); its green re-emission, shown by the brace, lands in region 3 of the ruby; the ruby relaxes to level 2 and emits along heavy arrow 68 to level 1. The braces along the baseline assign each column to white light, fluorescein and ruby.",
+    "8": "Inside-out geometry: flash tube 72 on the axis (projecting at the left), surrounded by the hollow laser cylinder 70 (white ring), then coolant 76 (stippled ring) inside cylinder 74, whose inner surface reflects lamp light back through the laser material. The output arrows leave the annular end face of the laser cylinder.",
+    "9": "Vertical section of a cooled laser. Rod 78, with its lower plated end 82 resting on thermally conductive rod 88, stands in liquid nitrogen 90 in Dewar flask 92; the beam 86 leaves upward through coupling hole 84. Around the rod, between hatched walls, is the annular flash tube 94 with ring electrodes 98 at top and bottom fed by power supply 96; the horizontal arrows are pump light directed at the rod. The outer annular jacket (100) carries the lamp coolant, entering at the lower left pipe and leaving at the upper right pipe (102). The upper plated end 80 named in the text is not labelled.",
+    "10": "Bare segment 104 in air, with the axis drawn through its middle. Ray 106 runs along the axis and leaves through coupling hole 110 as the heavy output arrow. Ray 108, slightly off axis, reflects once from the side and leaves at an angle (thin arrow), widening the beam; ray 112 (dashed) at a steeper angle zigzags between the sides indefinitely.",
+    "11": "Segment 116 with a side coating 114 (heavy outline) that passes pump light but absorbs light at the laser wavelength. The off-axis rays 118 and 120 (dashed) end at the coating instead of reflecting, so only light along axis 122 builds up into output beam 124.",
+    "12": "Segment 126 (index n_{2}) with coolant 128 (index n_{1}, chosen high) in contact with its sides above and below. The off-axis dashed rays 132 and 134 cross the side boundaries straight into the coolant instead of being reflected back; axial ray 130 leaves at the right end.",
+    "13": "Ring resonator with a tuning element. Light 146 runs right through rod 136, is turned down by end prism 140 and right-angle reflector 144, travels left along the lower path through interferometer 148 (the zigzag between plates 150 and 152 shows multiple reflections) to reflector 142, and returns up through prism 138. The dashed rays 154 and 156 are off-axis light leaving the loop at the end prisms and leaving the interferometer obliquely. Output beam 158 is taken out at prism 140.",
+    "14": "Rod 160 with unreflecting ends between separate mirrors 162 and 164 set some distance away. The dashed off-axis rays 166 and 168 miss the mirrors after a pass or two; the axial beam 170 leaves through an opening in mirror 164.",
+    "15": "Hybrid of FIG. 14: mirror 172 is on the left end face of segment 174, mirror 176 stands apart on the right. Off-axis ray 178 (dashed) passes beside mirror 176 and is lost; output beam 180 leaves on axis.",
+    "16": "Pumping from a distance with two parabolic reflectors facing each other. Source 184 sits at the focus of reflector 189; the reflected light 188 crosses as a parallel beam to reflector 190, which focuses it onto laser segment 182. Heavy arrow 186 is the laser output along the rod axis.",
+    "17": "Elliptical-cylinder reflector 192 in perspective. Source 184 is at one focus and the laser segment (unnumbered short rod at the right) at the other; the ray paths drawn show light from 184 reflected from the wall to the second focus. Heavy arrow 186 is the output along the rod.",
+    "18": "Laser rangefinder. Synchronizer 208 triggers pump power supply 206 (firing flash tube 204 around segment 202 in laser unit 200) and the sweeps of the two oscillograph screens 214 and 216. Photoelectric cell 218 samples the outgoing beam 210 to mark the transmitter pulse 220. Light scattered back from target 212 returns as parallel beam 210' into receiver 222, where parabolic reflector 224 focuses it on photoelectric cell 226, giving the receiver pulse 228; 230 marks the optical filters in the receiver. The delay between pulses 220 and 228 gives the range."
+  },
+  "parts": {
+    "26": "The printed text also calls the plating \"plating 26\", and in the next sentence the rod \"rod 30\"; in FIG. 4, 26 marks the rod and 30 the right-end plating, so the two numerals appear swapped in those sentences.",
+    "30": "Introduced only as \"the rod 30\"; in FIG. 4 it marks the right end of the rod, where the partially reflecting plating with opening 32 is.",
+    "42": "The text says hollow cylinder 50 is disposed about \"the rod 42\"; the rod is 40, and 42 is its coated end.",
+    "80": "Named in the text (plated ends 80 and 82) but not shown in FIG. 9; it is the upper end, which carries coupling hole 84.",
+    "100": "Not numbered in the text; it marks the outer jacket that the text calls \"a further hollow cylinder\" filled with coolant to cool flash tube 94.",
+    "102": "Named \"coolant\" in the text; in FIG. 9 its leader points to the outlet pipe at the top of the coolant jacket.",
+    "128": "The text gives diiodomethane (printed \"diodomethane\"), index 1.75, as an example, against about 1.76 for ruby.",
+    "148": "The text says it may be a Fabry-Perot interferometer; the spacing of plates 150 and 152 tunes the loop.",
+    "184": "The text proposes an exploding wire as the source, or alternatively a gas-filled flash tube or carbon arc lamp."
+  },
+  "glossary": [
+    {
+      "term": "laser / optical maser",
+      "def": "The patent's own expansion: light amplification by stimulated emission of radiation. \"Optical maser\" was the competing name in the early 1960s, by analogy with the microwave maser."
+    },
+    {
+      "term": "ruby",
+      "def": "Aluminum oxide (Al_{2}O_{3}, sapphire) doped with a small amount of chromium. The Cr^{3+} ions absorb in broad green and blue bands and emit in the deep red, near 694 nm."
+    },
+    {
+      "term": "three-level laser",
+      "def": "A laser whose lower laser level is the ground state, as in ruby. More than about half the ions must be pumped out of the ground state before there is gain, so pumping must be intense."
+    },
+    {
+      "term": "negative temperature / population inversion",
+      "def": "A state in which more ions occupy an upper level than the lower one. A Boltzmann distribution with this property would need a negative temperature, hence the older name. Light at the transition frequency is then amplified instead of absorbed."
+    },
+    {
+      "term": "optical pumping",
+      "def": "Raising ions to excited states by illuminating the material, here with a flash lamp, the sun or an exploding wire."
+    },
+    {
+      "term": "radiationless transition",
+      "def": "A decay between levels in which the energy goes into lattice vibrations (heat) rather than emitted light; in ruby it moves the excitation from the broad absorption band to the narrow upper laser level."
+    },
+    {
+      "term": "regeneration",
+      "def": "Positive feedback: reflections send the emitted wave back through the gain medium so that it is amplified repeatedly. The reflecting structure is what is now called the laser resonator or cavity."
+    },
+    {
+      "term": "Q",
+      "def": "Quality factor of a resonator mode: energy stored relative to energy lost per cycle. The mode with the highest Q, here the one travelling along the rod axis, builds up first and dominates the output."
+    },
+    {
+      "term": "flash tube",
+      "def": "A gas discharge lamp, typically filled with xenon, that emits an intense white flash when a stored electrical charge is discharged through it."
+    },
+    {
+      "term": "fluorescein",
+      "def": "A fluorescent dye that absorbs blue light and re-emits green light."
+    },
+    {
+      "term": "critical angle",
+      "def": "The angle of incidence beyond which light inside a denser medium is totally reflected at its boundary. Surrounding the rod with a medium of nearly equal index raises this angle toward 90 degrees, so off-axis light escapes instead of being trapped."
+    },
+    {
+      "term": "Fabry-Perot interferometer",
+      "def": "Two flat, parallel, partly reflecting plates. Only wavelengths for which the round trip between the plates is a whole number of wavelengths pass through strongly, so the plate spacing selects the frequency."
+    },
+    {
+      "term": "exploding wire",
+      "def": "A thin wire vaporized by a very large current pulse, producing a brief, very bright flash of broadband light."
+    },
+    {
+      "term": "Dewar flask",
+      "def": "A double-walled, vacuum-insulated vessel for holding cryogenic liquids such as liquid nitrogen (77 K at atmospheric pressure)."
+    },
+    {
+      "term": "colidar",
+      "def": "The patent's term for a laser ranging system: \"coherent light ranging\"; now called lidar or laser rangefinding."
+    },
+    {
+      "term": "oscillograph",
+      "def": "An instrument that displays a signal against time, here a cathode-ray oscilloscope whose sweep is started by the synchronizer."
+    },
+    {
+      "term": "B-scope",
+      "def": "A radar display that plots range against bearing; the text mentions it as an alternative to two separate oscillograph traces."
+    },
+    {
+      "term": "plan position indicator",
+      "def": "The circular radar display that shows targets by range and bearing as seen from above."
+    },
+    {
+      "term": "cycles per second",
+      "def": "The unit now called hertz (Hz). The tuning range the patent cites, about 5 x 10^{11} cycles per second, is 500 GHz."
+    }
+  ]
+}

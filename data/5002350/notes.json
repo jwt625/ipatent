@@ -1,0 +1,60 @@
+{
+  "patent": "Filed 1990-02-26 by Corrado Dragone of AT&T Bell Laboratories and issued 1991-03-26. It describes the device now called the arrayed waveguide grating (AWG), also known as a phased-array (PHASAR) demultiplexer or waveguide grating router. Waveguides whose lengths step by a fixed amount act as a grating; at each end of that array the waveguides flare and sit side by side on an arc, facing a fan of input or output waveguides across an open planar region, so that nearly all light spreading from one input is collected and refocused on an output chosen by wavelength. M. K. Smit had proposed a waveguide phased array (Electronics Letters, 1988), and H. Takahashi et al. at NTT reported an arrayed-waveguide grating (Electronics Letters, 1990); both are cited. What the patent adds is strong coupling at the array ends with tapers that make the change from coupled to uncoupled waveguides gradual, plus a design procedure for those tapers. The facing-arc geometry is the star coupler Dragone had described in 'Efficient N x N star couplers using Fourier optics' (Journal of Lightwave Technology, 1989). His N x N version with two star couplers followed in IEEE Photonics Technology Letters (1991), and AWGs in silica planar lightwave circuits became a standard multiplexer for dense wavelength-division multiplexing.",
+  "figs": {
+    "1": "Plan layout of the whole device; each waveguide is a pair of parallel lines, and stippling marks the flared ends. Input waveguides 106-108 (array 112, upper left) face array 115 across an open region that is not outlined; the dashed arcs at each array are the circles on which the waveguide ends lie, each centered on the facing array. Waveguides 101-105 run from array 115 round to array 113, nested so that 105 is the shortest and 101 the longest; array 113 faces output waveguides 109-111 (array 114) in the same way. Braces mark the extent of each array. Dashed boxes 116-120 are the optional delay elements, one each on 105, 104, 103, 102 and 101. The front page repeats this figure.",
+    "2": "Arrays 112 (left) and 115 (right) enlarged, facing each other. Each waveguide flares from a narrow end (small circle, axis z) to a wide opening; dashed lines continue the taper edges past the opening as the truncated portion and meet near arc t, where neighbouring waveguides would become tangent. Dashed arcs c and c' are the cross-sections whose index profiles FIG. 3 plots. On the right, a_{0} is the center spacing at the wide openings, ℓ the gap between adjacent openings and L the taper length; the rays drawn from the middle of array 115 bound the Brillouin zone 2γ and the narrower field of view 2γ_0, the range in which the input waveguides 106-108 sit.",
+    "3": "Profile of the index-dependent quantity of equation 5 (proportional to n squared) along arc c (top) and arc c' (bottom) of FIG. 2, against position along the arc. High segments lie inside waveguides, low segments between them; a is the period (center spacing) and ℓ the gap. Arc c' is nearer the wide openings, so its high segments are wider and its gaps narrower. The bracket labeled n_{1} sits under a low segment and n_{2} under a high one, whereas the text defines n_{1} as the index inside the waveguides and n_{2} as the index between them."
+  },
+  "parts": {
+    "112": "Input array: the launch ends of waveguides 106-108.",
+    "115": "Input end of the grating array, where waveguides 101-105 start; strongly coupled flared ends.",
+    "113": "Output end of the grating array, where waveguides 101-105 end.",
+    "114": "Output array: the receiving ends of waveguides 109-111.",
+    "ℓ": "Printed as a script l in the drawings and as a plain l in the text, which uses the same letter for the length step between adjacent waveguides 101-105.",
+    "2γ": "Equation 1 gives sin γ = λ/(2a_0).",
+    "n_{1}": "Index inside the waveguides per the text; in FIG. 3 its bracket sits under a segment between pulses.",
+    "n_{2}": "Index between the waveguides per the text; in FIG. 3 its bracket sits under a pulse."
+  },
+  "glossary": [
+    {
+      "term": "arrayed waveguide grating (AWG)",
+      "def": "Later standard name for this device: a planar waveguide array with a constant length increment between neighbours, between two star couplers, that disperses wavelengths like a diffraction grating."
+    },
+    {
+      "term": "wavelength-division multiplexing (WDM)",
+      "def": "Sending several optical carriers of different wavelength on one fiber; a multiplexer combines them, a demultiplexer separates them."
+    },
+    {
+      "term": "star coupler",
+      "def": "Two facing arcs of waveguide ends separated by an open planar slab (free propagation region), so that light from any port on one arc spreads over all ports on the other."
+    },
+    {
+      "term": "Brillouin zone",
+      "def": "Borrowed from solid-state physics: for a periodic array of pitch a_{0}, the angular range 2γ (sin γ = λ/(2a_0)) within which only one diffraction order exists."
+    },
+    {
+      "term": "field of view",
+      "def": "The patent's term for the part of the Brillouin zone, width 2γ_0, actually occupied by the input or output waveguides."
+    },
+    {
+      "term": "taper",
+      "def": "A gradual change of waveguide width along its length; here a flare that lets the isolated mode of each waveguide merge with its neighbours at the array end."
+    },
+    {
+      "term": "higher order modes",
+      "def": "Modes other than the fundamental; power coupled into them, or into unwanted diffraction orders, is lost from the intended output."
+    },
+    {
+      "term": "refractive profile",
+      "def": "The patent's term for the index-dependent function plotted along one circular cross-section of an array (FIG. 3)."
+    },
+    {
+      "term": "first order Fourier coefficient",
+      "def": "Amplitude of the fundamental spatial harmonic of the periodic refractive profile; the patent prescribes it along the taper to fix the taper shape."
+    },
+    {
+      "term": "planar lightwave circuit (PLC)",
+      "def": "Optical waveguide circuit made on a flat substrate by photolithography, typically doped silica on silicon."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "patent": "Filed 1927-12-16 (German priority 1926-12-16) and issued 1930-11-11 to Albert Einstein, of Berlin, and Leo Szilard, of Berlin-Wilmersdorf, and assigned to Electrolux Servel Corporation. It is one of a series of refrigerator patents by the two (Dannen, \"The Einstein-Szilard Refrigerators\", Scientific American, January 1997). The machine has no moving parts and runs at essentially one total pressure, driven only by heat. It builds on the von Platen-Munters absorption refrigerator (US 1,685,764), in which hydrogen equalizes the pressure, ammonia is the refrigerant and water the absorbent. Here the roles change: butane is the refrigerant, ammonia is the pressure-equalizing gas, and water absorbs the ammonia. Butane evaporates into ammonia in the evaporator; in the condenser water absorbs the ammonia out of the mixture, leaving the butane at nearly the full system pressure, so it liquefies at cooling-water temperature. Heat at the generator drives the ammonia back out of the water, and a second heat source lifts the weak water back to the top of the circuit.",
+  "figs": {
+    "1": "A single schematic of the whole circuit; double lines are pipes, the thin hatched outlines are vessel walls, short dashes mark liquid. In condenser 6 the upper liquid layer is butane and the lower layer is ammonia solution 26; conduit 11 opens into the butane layer and carries it back to the bottom of evaporator 1. Conduit 30 leaves the top of generator 29, loops over the drawing and runs inside conduit 5 to distributor head 31, so the cold outgoing mixture and the incoming ammonia gas exchange heat. Conduit 32, heated by 36, lifts weak liquid from the generator to container 33; conduit 37 returns it down through jacket 28 (counterflow with the strong solution from conduit 27) and up through cooling jacket 12 to spray head 35. Dimension h1 runs from the liquid surface in generator 29 to that in condenser 6; h2 from the liquid surface in evaporator 1 down to head 31. The two short unnumbered stubs on jacket 12 are evidently its water connections; the bracket marked HEAT at the generator stands for its unspecified heating."
+  },
+  "parts": {
+    "30": "Carries the ammonia gas expelled in generator 29; for its run between the condenser and the evaporator it lies inside conduit 5.",
+    "32": "Works as a vapor-lift (bubble) pump: heating forms vapor in the tube, and the rising bubbles carry slugs of liquid up to container 33.",
+    "34": "Returns the vapor that arrives with the lifted liquid in container 33 to the condenser.",
+    "26": "The heavier lower layer in the condenser; liquid butane floats on it.",
+    "h1": "Liquid column that balances the generator's excess pressure; the text requires h2 to be less than h1 for flow to take place.",
+    "h2": "Depth of distributor head 31 below the liquid surface in the evaporator; the ammonia gas must overcome it to bubble out."
+  },
+  "glossary": [
+    {
+      "term": "absorption refrigeration",
+      "def": "A refrigeration cycle driven by heat instead of a mechanical compressor: a refrigerant or carrier gas is absorbed into a liquid at one point and driven out again by heating at another."
+    },
+    {
+      "term": "inert gas",
+      "def": "The patent's term for the auxiliary gas the refrigerant evaporates into, lowering the refrigerant's partial pressure while the total pressure stays the same everywhere. Here it is ammonia; it is inert toward the butane, not chemically inert."
+    },
+    {
+      "term": "partial pressure",
+      "def": "The share of the total pressure of a gas mixture contributed by one component. A liquid evaporates while its vapor's partial pressure is below its vapor pressure at that temperature."
+    },
+    {
+      "term": "generator",
+      "def": "The heated vessel in which the absorbed gas is boiled out of the absorption liquid."
+    },
+    {
+      "term": "strong / weak liquid",
+      "def": "Absorption liquid carrying much or little dissolved gas: strong solution flows from the condenser to the generator, weak liquid from the generator back to the condenser."
+    },
+    {
+      "term": "vapor-lift pump",
+      "def": "A heated vertical tube in which vapor bubbles push liquid upward; it has no moving parts. Also called a bubble pump or percolator pump."
+    },
+    {
+      "term": "heat exchanger jacket",
+      "def": "An outer shell around a pipe; the two fluids flow on either side of the pipe wall and exchange heat without mixing."
+    },
+    {
+      "term": "liquid head",
+      "def": "Pressure expressed as the height of a liquid column that produces it."
+    },
+    {
+      "term": "distributor head",
+      "def": "A perforated pipe end that breaks a stream of gas or liquid into many small jets or bubbles."
+    },
+    {
+      "term": "stratification",
+      "def": "Separation of two immiscible liquids into layers by density."
+    }
+  ]
+}

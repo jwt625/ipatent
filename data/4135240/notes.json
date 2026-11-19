@@ -1,0 +1,72 @@
+{
+  "patent": "Filed July 9, 1973 by Dennis M. Ritchie of Bell Telephone Laboratories and issued January 16, 1979. It is the patent on the set-user-ID (setuid) bit of the Unix operating system, which Ritchie co-created with Ken Thompson at Bell Labs; the bit is described in D. M. Ritchie and K. Thompson, \"The UNIX Time-Sharing System\", Communications of the ACM, 1974. A program file with the bit set runs with the user identity of the file's owner, so the owner can let other users reach private data only through a program the owner wrote. The mechanism survives in Unix-like systems as the setuid permission bit (for example on the password-changing program). Bell Labs later dedicated the patent to the public. The drawing presents the scheme as hardware, but the text says a software implementation is equivalent and may be preferable.",
+  "figs": {
+    "1A": "File storage 2 holding the PASSWORD file (user name, password, user ID, and the program to run at login) and six files, each headed by its access control information: SUID bit, owner ID, then owner and non-owner RD/WR/EX bits (1 = permitted). Read the owner IDs against the PASSWORD file: TED (18) owns PROG1 and AFILE, JIM (6) owns EDIT and BFILE, BOB (33) owns PROLL and CFILE. PROLL is the only file with its SUID bit set to 1. The arrows at the right edge continue at the left edge of FIG. 1B.",
+    "1B": "Memory 3 (top) and computer 1 (bottom). Heavy lines are multi-wire cables: 206 brings the stored access control fields and user IDs down from memory area 202, and 226 carries the effective user ID to comparator 216. Upper gates: comparator 216 picks the owner gates 210-212 (EQUAL) or the non-owner gates 213-215 (NOT EQUAL); instruction decoder 6 enables the gate for the requested access (write on 222, read on 221, execute on 209); the permission bit enters each gate at the small circle, so a gate fires only when that bit is 0, and any firing gate drives OR gate 218 to signal ACCESS DENIED to instruction location counter 7. Lower gates: at login, gates 204 and 205 load the user ID into registers 207 (actual) and 208 (effective); at each EXECUTE, gate 225 copies 207 into 208, then gate 220 replaces it with the program file's owner ID when the SUID bit is 1."
+  },
+  "parts": {
+    "16": "The PASSWORD file; the text counts it among the data files, and its PROGRAM column names the program run for each user at login.",
+    "201": "Holds the instructions of the program being executed (STORED INSTRUCTIONS in the drawing).",
+    "202": "Holds the access control information of the file being accessed and the PASSWORD file contents (STORED DATA in the drawing).",
+    "206": "Carries the owner ID, SUID bit, permission bits and user ID from memory area 202 to the circuits of computer 1.",
+    "207": "Holds the actual user ID, set only at login (ACTUAL USER ID in the drawing).",
+    "208": "Holds the effective user ID, the one compared with a file's owner ID (EFFECTIVE USER ID in the drawing).",
+    "218": "Combines the outputs of gate circuits 210-215; its output is the ACCESS DENIED signal.",
+    "220": "Gates the owner ID of the program file into register 208 when its SUID bit is 1 and lead 219 is pulsed.",
+    "225": "Gates the actual user ID from register 207 into register 208 at the start of each EXECUTE sequence."
+  },
+  "glossary": [
+    {
+      "term": "set user identification bit (SUID bit)",
+      "def": "A per-file bit that makes a program, while it runs, take the user ID of the program file's owner instead of that of the user who started it. Called setuid in Unix."
+    },
+    {
+      "term": "user ID",
+      "def": "A number assigned to each user account; file ownership and access checks use it rather than the user name."
+    },
+    {
+      "term": "actual / effective user ID",
+      "def": "The actual (in Unix terms, real) user ID identifies who logged in; the effective user ID is the one access checks use. They differ only while a setuid program runs."
+    },
+    {
+      "term": "owner / nonowner",
+      "def": "The two classes of user that the permission bits distinguish. Modern Unix systems add a third class, group, between them."
+    },
+    {
+      "term": "permission bits (RD, WR, EX)",
+      "def": "Read, write and execute permission for one class of user; 1 permits, 0 denies."
+    },
+    {
+      "term": "PASSWORD file",
+      "def": "The table of user names, passwords, user IDs and login programs; in Unix it became /etc/passwd."
+    },
+    {
+      "term": "LOGIN sequence",
+      "def": "The steps that check a user's name and password, set the user IDs, and start the user's first program."
+    },
+    {
+      "term": "EXECUTE sequence",
+      "def": "The steps that load a stored program file into memory and start it; corresponds to the exec system call in Unix."
+    },
+    {
+      "term": "instruction location counter",
+      "def": "The register holding the address of the next instruction; now usually called the program counter. Changing it diverts the program, here to an access-denied routine."
+    },
+    {
+      "term": "gate circuit",
+      "def": "A logic gate. The half-round symbols are AND gates (output only when all inputs are active); 218 is an OR gate (output when any input is active)."
+    },
+    {
+      "term": "cable",
+      "def": "A group of parallel wires carrying a multi-bit value, such as a user ID, as one connection."
+    },
+    {
+      "term": "comparator",
+      "def": "A circuit that tests two binary numbers for equality."
+    },
+    {
+      "term": "access list",
+      "def": "The alternative named in the background: a list per file of which users may access it for which purposes (B. W. Lampson, \"Dynamic Protection Structures\", AFIPS Fall Joint Computer Conference, 1969)."
+    }
+  ]
+}

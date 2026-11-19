@@ -1,0 +1,34 @@
+{
+ "pn": "3343256",
+ "inventors": [
+  {
+   "name": "Merlin G. Smith",
+   "printed": "Merlin G. Smith, Yorktown Heights",
+   "city": "Yorktown Heights",
+   "region": "NY",
+   "country": "US"
+  },
+  {
+   "name": "Emanuel Stern",
+   "printed": "Emanuel Stern, Mount Kisco, N.Y.",
+   "city": "Mount Kisco",
+   "region": "NY",
+   "country": "US"
+  }
+ ],
+ "assignees": [
+  {
+   "name": "International Business Machines Corporation",
+   "printed": "International Business Machines Corporation, New York, N.Y., a corporation of New York",
+   "org": "IBM",
+   "kind": "company",
+   "city": "New York",
+   "region": "NY",
+   "country": "US"
+  }
+ ],
+ "source": {
+  "page": 1,
+  "where": "column 1 header (inventors, assignors to)"
+ }
+}

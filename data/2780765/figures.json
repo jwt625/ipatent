@@ -1,0 +1,20 @@
+{"pn": "2780765", "figures": [
+{"id": "1", "label": "FIG. 1", "sheet": 1, "page": 0, "crop": [390, 688, 1580, 1560], "rotate": 0, "front_page": false},
+{"id": "2", "label": "FIG. 2", "sheet": 1, "page": 0, "crop": [548, 1680, 1565, 2610], "rotate": 0, "front_page": false}
+], "parts": [
+{"ref": "10", "name": "cell", "figs": ["1", "2"], "alt": ["cells"]},
+{"ref": "11", "name": "silicon body", "figs": ["1"], "alt": ["body"]},
+{"ref": "12", "name": "inner n-type zone", "figs": ["1"]},
+{"ref": "13", "name": "outer p-type boron-diffused zone", "figs": ["1"], "alt": ["p-type zone", "p-type layer"]},
+{"ref": "14", "name": "front surface", "figs": ["1"]},
+{"ref": "15", "name": "back surface", "figs": ["1"]},
+{"ref": "17", "name": "elongated strips", "figs": ["1"], "alt": ["intermediate coating strip", "coating"]},
+{"ref": "18", "name": "elongated strips", "figs": ["1"], "alt": ["coatings"]},
+{"ref": "19", "name": "elongated strips", "figs": ["1"], "alt": ["coatings"]},
+{"ref": "20", "name": "thin coating of polystryene", "figs": ["1"]},
+{"ref": "21", "name": "intermediate regions", "figs": ["1"]},
+{"ref": "22", "name": "intermediate regions", "figs": ["1"]},
+{"ref": "30", "name": "storage battery", "figs": ["2"], "alt": ["battery"]},
+{"ref": "31", "name": "unilaterally conducting element", "figs": ["2"]},
+{"ref": "32", "name": "resistance", "figs": ["2"]}
+]}

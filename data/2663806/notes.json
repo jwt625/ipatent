@@ -1,0 +1,68 @@
+{
+ "patent": "Filed 1952-05-09 and issued 1953-12-22 to Sidney Darlington of Bell Telephone Laboratories. It covers wiring two or three transistors of the same conductivity type together, drawn inside one envelope, so that they act as a single three-terminal transistor. The connection of FIGS. 1-3 (collectors joined, emitter of the first unit driving the base of the second) is the circuit now called the Darlington pair, and a Darlington transistor is that pair sold as one component. The analysis uses the common-base terms of the period: the compound current gain obeys 1-α = (1-α1)(1-α2), which in common-emitter terms is β+1 = (β1+1)(β2+1), so β is roughly β1·β2. In FIG. 1 both units are made in one slotted NPN body and share one collector zone. FIGS. 4-7 show other ways of tying two units together and FIGS. 8-9 a three-unit version. The text cites the point-contact transistor patent of Bardeen and Brattain (US 2,524,035) and Shockley's junction transistor patent (US 2,569,347).",
+ "figs": {
+  "1": "Side view of the two-unit body, drawn larger than life. Top to bottom on each side of the slot: N emitter zone (12A, 12B), thin P base layer (13A, 13B), and the N zone 11 shared as collector by both units; the slot cuts through the emitter and base layers and stops in zone 11. Heavy bands at top and bottom are the metal platings 14. The arc 15 runs from the emitter contact e1 on 12A to the base contact b2 on 13B. Leads 16 (e), 17 (b) and 18 (c) leave the large circle, which is the plastic encasement 19.",
+  "2": "Circuit of FIG. 1 inside encasement 19. Unit 1 is at the bottom and unit 2 at the top. Emitter e1 is wired straight to base b2, and the two collectors meet at the dot on lead 18. The compound base b (17) is b1 and the compound emitter e (16) is e2.",
+  "2A": "Symbol for the single transistor that the pair of FIG. 2 behaves as: base b at the bottom bar, emitter e with the arrow at left, collector c at right.",
+  "3": "FIG. 2 with one more lead, 20 (marked e'), taken from the joined e1-b2 node through the envelope. It lets extra bias current be fed to emitter e1.",
+  "4": "Second connection: emitters e1 and e2 joined and brought out as the compound base b (17); conductor 15 ties collector c1 to base b2; base b1 is the compound emitter e (16) and c2 the compound collector c (18). The text explains the choice of leads: taking the emitter from the joined emitters would make the equivalent collector resistance negative.",
+  "4A": "Symbol for the single transistor equivalent to FIG. 4, drawn the same way as FIG. 2A.",
+  "5": "FIG. 4 with an extra bias lead 20 (marked c') at the node where c1 meets b2.",
+  "6": "Third connection: conductor 15 ties e2 to b1 and that node is the compound emitter e (16); conductor 15' ties b2 to c1; the compound base b (17) is e1 and the compound collector c (18) is c2. The text notes that the drift currents of the two units tend to cancel in lead 18.",
+  "6A": "Symbol for the single transistor equivalent to FIG. 6, drawn larger than FIGS. 2A and 4A, with an open arrow on the emitter.",
+  "7": "FIG. 6 with an extra lead 18' at the node where b2 meets c1. The text gives two uses: a bias lead fed through a high impedance, or the signal input, with unit 1 then only balancing drift current.",
+  "8": "Three-unit version of FIG. 2. The numbers 1, 2 and 3 beside the symbols mark the units: base lead 17 enters unit 1, each emitter drives the next unit's base, and the emitter of unit 3 is lead 16. The vertical bar on the right joins the three collectors to lead 18. Auxiliary leads 16'' and 16' are taken from the e1-b2 and e2-b3 nodes.",
+  "9": "The device of FIG. 8 in a common-emitter (grounded emitter) bias circuit, drawn left to right with the base bar of each symbol vertical. Input goes to base lead 17. The joined collectors (c) feed output 18 and go to +24 V through a load resistor. Auxiliary leads 16'' and 16' go through resistors to -24 V, and emitter lead 16 goes to -4 V. No resistor values are given."
+ },
+ "parts": {
+  "1": "Unit numbers printed beside the three transistors in FIG. 8, not reference numerals in the text.",
+  "10": "Underlined in FIG. 1, meaning the body as a whole.",
+  "12": "Collective numeral used in the text for 12A and 12B; not printed alone in the drawing. When the FIG. 1 body is used for the FIG. 4 connection, the text makes these zones the collectors and zone 11 the common emitter.",
+  "13": "Collective numeral used in the text for 13A and 13B; not printed alone in the drawing.",
+  "19": "This numeral does not appear in the text; FIG. 1 labels it PLASTIC ENCASEMENT, and the circle drawn around the units in FIGS. 2-6 and 8 is the same envelope.",
+  "c": "Printed as a script c that can look like an x.",
+  "e": "In FIGS. 4-5 the compound emitter e is taken from base b1, and the compound base b from the joined emitters."
+ },
+ "glossary": [
+  {
+   "term": "signal translating device",
+   "def": "Period patent term for an active device that amplifies, switches or otherwise passes on a signal, here a transistor."
+  },
+  {
+   "term": "alpha (current multiplication factor)",
+   "def": "Common-base current gain: change in collector current per change in emitter current. Below 1 for a junction transistor. Modern data sheets give the common-emitter gain β = α/(1-α)."
+  },
+  {
+   "term": "point contact transistor",
+   "def": "The first transistor type (Bardeen and Brattain, Bell Labs, 1947): metal wires pressed onto a germanium crystal."
+  },
+  {
+   "term": "junction transistor",
+   "def": "Transistor in which emitter, base and collector are zones of the semiconductor crystal separated by P-N junctions (Shockley, Bell Labs)."
+  },
+  {
+   "term": "NPN",
+   "def": "Junction transistor with N-type emitter and collector and a P-type base between them."
+  },
+  {
+   "term": "emitter, base and collector resistance (r_{e}, r_{b}, r_{c})",
+   "def": "Elements of the small-signal T equivalent circuit used in the 1950s to describe a transistor; r_{c} is the large resistance of the reverse-biased collector junction."
+  },
+  {
+   "term": "drift current (I_{co})",
+   "def": "Collector current with zero emitter current, now called collector cut-off or leakage current (I_{CBO}). It rises steeply with temperature."
+  },
+  {
+   "term": "ohmic connection",
+   "def": "Metal-to-semiconductor contact that conducts equally in both directions, as opposed to a rectifying junction."
+  },
+  {
+   "term": "grounded emitter",
+   "def": "Older name for the common-emitter connection: emitter common to input and output, signal into the base, output from the collector."
+  },
+  {
+   "term": "triode mounting",
+   "def": "The pair wired as a single three-terminal device, as in FIG. 2."
+  }
+ ]
+}

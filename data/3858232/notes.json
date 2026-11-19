@@ -1,0 +1,126 @@
+{
+  "patent": "Filed November 9, 1971 (a continuation-in-part of an application filed February 16, 1970) and issued December 31, 1974 to Willard S. Boyle and George E. Smith of Bell Telephone Laboratories. It is the basic patent on the charge-coupled device (CCD): information is held as packets of charge in potential wells induced under a row of MIS electrodes on a semiconductor of one conductivity type, and moved along by clocking the electrodes in sequence, so the charge is never removed from the semiconductor between input and output. Boyle and Smith conceived the device at Bell Labs in 1969 and published it as \"Charge Coupled Semiconductor Devices\" (Bell System Technical Journal, vol. 49, 1970); an experimental verification by Amelio, Tompsett and Smith appeared in the same issue. Besides the basic three-phase shift register (FIGS. 1-3), the patent covers a constant depletion bias (FIG. 4), a buried channel (FIG. 5), input and output stages (FIGS. 6-7C), transfer through the wafer thickness (FIG. 8), field-enhanced transfer (FIGS. 9A-9B), multichannel and crossover-free layouts (FIGS. 10-11), two electrode-contact schemes (FIGS. 12-13), a linear image sensor read in through the back face (FIG. 14) and transfer by an acoustic wave in a piezoelectric layer (FIGS. 15-16). The claims turn on the storage medium under the electrodes being of a single conductivity type, which the text sets against US 3,621,283 (Teer et al., Philips), where charge is gated between diffused regions so that both conductivity types lie under each gate. Sangster and Teer of Philips described bucket-brigade analog shift registers in the IEEE Journal of Solid-State Circuits in 1969. CCDs became the standard solid-state image sensor in video cameras, digital cameras and astronomical instruments, and Boyle and Smith shared half of the 2009 Nobel Prize in Physics for the invention.",
+  "figs": {
+    "1A": "Section through two neighbouring MIS electrodes of a longer row on n-type substrate 10. The dashes above electrode 12 mark the negative bias applied to it; the dashed outline 14 under it is the empty depletion region (potential well). Electrode 13 and the cut-off electrodes at each end are unbiased.",
+    "1B": "Wavy arrows from below are absorbed photons, each making a hole-electron pair (circled + and - joined). Holes, the minority carriers in n-type material, drift up into well 14 (hole 15 on its way, the + signs already stored); the free electrons stay in the bulk.",
+    "1C": "Both electrodes biased: the two wells merge into one depletion region spanning 12 and 13, and the stored holes spread across it.",
+    "1D": "Bias removed from 12: its half of the well collapses and the whole packet sits in well 14' under 13. Repeating the cycle with the next electrode steps the packet along the row.",
+    "2": "A three-phase shift register drawn as a section with its wiring. Every third electrode is tied to one of the bus lines 22', 23', 24' (dots are connections; dashed bus segments and the wavy break in body 20 stand for omitted stages). Charge is injected at input electrode 25 (the wavy arrow carries it into well 27a), clocked to the right through packets 27a, 27b, 27n, and collected by the reverse-biased P region under electrode 32, which gives the output pulse across load 30. The dashed loop through regeneration circuit 33 is the optional recirculation path. The dashed box with rays at lower left is the optional light source for optical input, which the text numbers 34 although the drawing labels it 33.",
+    "3": "Timing for FIG. 2, time running left to right; each trace is a voltage on one electrode, not to scale. The input pulses write 1 1 0 1. The three clock phases on 22a, 23a and 24a are delayed by Δt with pulse width t_{p}, and Δt < 3t_{p} so each pulse overlaps the next phase. The brackets at left show that 22a and 22n share bus 22', and likewise for 23' and 24'. After the dashed gap (the omitted stages) the same clocks appear on 22n, 23n and 24n; the output bias is pulsed once per cycle, and the OUTPUT trace shows a spike for each 1, in the same order.",
+    "4": "Middle section of a register like FIG. 2 with a standing bias -V' on all three buses; at the instant drawn, bus 42' carries -V'-V_{p}. The long dashed line 45 just under the insulator is the shallow depletion layer kept everywhere by -V'; it dips into deeper wells 46 under the pulsed contacts 42a and 42b, which hold the charge.",
+    "5": "Buried-channel version. The p-type storage layer 150 sits on n-layer 153 with junction 152 between them; at right, past the break, electrode 161 on p+ contact 162 and battery 160 (negative to the p layer, positive to the substrate) reverse-bias the junction and deplete the p layer. The packet (+ + +, wavy arrow) moves within the p layer, away from insulator 151. Electrodes 154, 155 and 156 tap wires 159, 158 and 157 respectively, one electrode per phase.",
+    "6": "Gated input stage. Diffused p region 45\" is held by battery 46\" as a constant source of holes; its contact passes down through a window in insulator 41\". Electrode 47\", driven by the information signal, sits between the p region and the first transfer electrode 42\" and acts as a gate: holes pass under it into the well of 42\" only when it is pulsed.",
+    "7A": "Output end of FIG. 2: last transfer electrode 24n, then detector electrode 50 over depleted region 51, which holds the collected charge (+ signs). Electrode 50 is one arm of a capacitance bridge (fixed and variable capacitors, detector 52 marked D); battery 53 through switch 54 sets up the depletion region and, when opened, lets the collected charge recombine. The wire at the bottom returns to the back of body 20.",
+    "7B": "Two field plates 56 and 57 after 24n. AC source 55 across them pushes the collected charge (+ signs) back and forth within depletion region 59 (double arrow), which changes the AC impedance of the plate pair; the change is read across impedance 60 (drawn as a resistor) by potentiometer 61 (circle marked D). Battery 58 via switch 62 supplies the depletion bias and the erase.",
+    "7C": "Plate 63 after 24n collects charge Q_{I} (labelled QI). Plate 63 is fed from power source 64 through capacitor 65, and the node between them, at voltage V_{D}, is wired to gate 66 of a p-channel field-effect transistor built in the same body: P source 67 and drain 68 in an n region set off by the vertical p-type strip 20A. Source and drain electrodes 69 and 70 complete a circuit with battery 72, load 71 and detector 73 (D), which shows whether the transistor is on or off, that is, whether charge arrived.",
+    "8": "Transfer through the slab: electrodes on both faces of storage medium 180, with layer 181 (by position the insulator) on top and a like, unlabelled layer on the bottom. The 184 labels between leads mark transfer electrodes in general. Charge under top electrode 185 (at -V) is shifted to 186; the pulse V_{t} on 186 (inset, negative then positive) drives the holes down through the medium (arrows) into the well under bottom electrode 187 (at -V), from where it can go on to 188.",
+    "9A": "Narrow electrodes 72 and 73, both biased (dashes above them); the dashed rectangles are neighbouring electrodes drawn in phantom. With electrodes no wider than the insulator is thick, each well is rounded: dashed arcs 76 and 77 are the separate well boundaries, read as surface-potential profiles. The lower curve 78 is the combined profile when both are on; it is continuous across the gap, so charge under 72 moves toward 73 and is swept under 73 once 76 collapses.",
+    "9B": "Same electrodes driven with sawtooth pulses (top); t_{1} marks the instant during their overlap that the profiles show. At the instant drawn electrode 72 is at the lower voltage, so its well 79 is shallower than well 80 under 73, and the combined profile 89 slopes all the way toward 73.",
+    "10": "Plan view of a four-channel register. Channels 1-4 run left to right as rows of square electrodes, from input stages 84 to output stages 85, across sheet 86 (the wavy break omits stages). Each bus 81', 82', 83' drops into one column and the vertical line there contacts the electrode of that column in every channel, so adding channels adds no bus crossings. The curved leaders from the a and n labels point to the electrodes.",
+    "11": "Plan view of three-phase wiring with no crossovers. Conductor 143' runs along the top, 142' along the bottom, and 144' winds through the middle; they feed electrodes 143a-143b, 142a-142b and 144a-144b respectively, all in one metal level. Dashed line 145 is the charge path, which passes beneath 144' each time it moves between the lower and upper electrodes (the crossunder). Underlined numerals name areas; the small hatched patches at corners are not explained in the text.",
+    "12": "Cutaway perspective of the dual-thickness insulator. Stippled-hatched substrate 110, thin insulating layer 111 over it, and the thick insulating grid 112 (black ridges) with openings. Field plates 113 lie in the openings on the thin layer and lap over the grid edges; interconnections 114 run on top of the thick grid, so the leads are held off the semiconductor.",
+    "13": "Section through the contact scheme that needs no critical alignment. Above stippled substrate 120 and thin insulator 121 (black and white bars) lie the electrodes 122-124, the insulating layer 125 and, on top, the continuous lead conductor 128 (diagonal hatching), which reaches the electrodes through windows 127 in 125.",
+    "14": "Linear image sensor: a three-phase row like FIG. 2 (electrodes 132a-134c on buses 132', 133', 134') with light entering through the opposite face of semiconductor 130 (open arrows). The long dashed line is the shallow depletion edge; the charge collected in the wells under 132a, 132b and 132c follows the light at each site (2, 4 and 1 plus signs; the middle arrow is drawn larger). After the exposure the packets are clocked out serially as in FIG. 2.",
+    "15": "Acoustic drive. Piezoelectric layer 162 (bold black hatching) covers the metal contacts 161 and insulator 160 on semiconductor 159. An acoustic wave travels along the layer in the direction of the arrow; its electric field biases the contacts in turn, so the wells 163 (dashed outlines in the substrate) travel with it.",
+    "16": "Electrodes omitted: piezoelectric layer 171 lies directly on semiconductor 170, under a thin uniform metal electrode 173. The field of the acoustic wave in 171 forms the travelling wells 172 (dashed) directly; electrode 173 only provides a uniform depletion bias as in FIG. 4."
+  },
+  "parts": {
+    "14": "In FIGS. 1A to 1C, 14 is the well under the biased electrode(s); 14' in FIG. 1D is the same packet after it has moved under electrode 13.",
+    "24n": "The last electrode of the register; FIGS. 7A to 7C show alternative detectors placed after it.",
+    "33": "The text uses 33 for the regeneration circuit. In FIG. 2 the label 33 is also printed at the dashed light source at lower left, which the text calls 34.",
+    "34": "Named in the text (\"shown in phantom at 34 in FIG. 2\"), but the drawing labels the dashed light source 33.",
+    "72": "Used twice: the bias source of FIG. 7C and the left electrode of FIGS. 9A and 9B.",
+    "73": "Used twice: the detector of FIG. 7C and the right electrode of FIGS. 9A and 9B.",
+    "159": "Used twice: a drive wire in FIG. 5 and the semiconductor in FIG. 15 (printed \"semicondcutor\").",
+    "160": "Used twice: the bias battery in FIG. 5 and the insulator in FIG. 15.",
+    "161": "Used twice: the bias contact in FIG. 5 and the metal contacts under the piezoelectric layer in FIG. 15.",
+    "162": "Used twice: the p+ contact region in FIG. 5 and the piezoelectric layer in FIG. 15.",
+    "20A": "A p-type strip separating the transistor's n region from the register's n region (junction isolation).",
+    "181": "Not numbered in the text; it labels the top insulating layer of storage medium 180.",
+    "131": "Not numbered in the text; it labels the top layer over semiconductor 130, by position the insulating layer.",
+    "112": "The text calls the same thick layer \"the thick insulator 112\"; its ridges separate the field plates.",
+    "86": "The text says only \"sheet 86\"; it labels the outline that holds the electrode array."
+  },
+  "glossary": [
+    {
+      "term": "charge-coupled device (CCD)",
+      "def": "A row or array of closely spaced MIS capacitors in which charge packets are passed from one capacitor's well to the next by sequenced electrode voltages; the packet size carries the signal."
+    },
+    {
+      "term": "potential well",
+      "def": "A region near the surface where the potential energy of a carrier is lowest, here a depletion region under a biased electrode, in which charge collects and is held."
+    },
+    {
+      "term": "depletion region",
+      "def": "A layer of semiconductor emptied of mobile majority carriers by an applied field, leaving the fixed dopant charge; it can hold mobile minority carriers until they recombine or thermal generation fills it."
+    },
+    {
+      "term": "minority carriers",
+      "def": "The carrier type in the minority for the doping: holes in n-type material, electrons in p-type material."
+    },
+    {
+      "term": "MIS",
+      "def": "Metal-insulator-semiconductor: a metal electrode on an insulating film over semiconductor; MOS (metal-oxide-semiconductor) when the insulator is silicon dioxide."
+    },
+    {
+      "term": "three-phase clocking",
+      "def": "Driving every third electrode from the same one of three lines with overlapping pulses; three phases give the transfer a direction without any built-in asymmetry."
+    },
+    {
+      "term": "shift register",
+      "def": "A chain of storage stages whose contents move one stage per clock cycle; also usable as a delay line."
+    },
+    {
+      "term": "avalanche",
+      "def": "Carrier multiplication by impact ionization at high field; here used to generate charge under the input electrode."
+    },
+    {
+      "term": "buried channel",
+      "def": "A CCD in which charge is stored and moved in a doped layer below the surface, away from the trap states at the semiconductor-insulator interface."
+    },
+    {
+      "term": "surface states",
+      "def": "Electronic trap levels at the semiconductor-insulator interface that capture and release carriers, causing charge loss in surface-channel devices."
+    },
+    {
+      "term": "barrier layer",
+      "def": "The patent's term for a rectifying charge collector such as a p-n junction or Schottky barrier."
+    },
+    {
+      "term": "Schottky barrier",
+      "def": "A rectifying metal-semiconductor contact."
+    },
+    {
+      "term": "floating gate FET",
+      "def": "A field-effect transistor whose gate is connected only to the sensing node, so the node voltage set by the collected charge controls the transistor current."
+    },
+    {
+      "term": "crossover",
+      "def": "A place where one conductor must pass over another with insulation between them; costly in early single-metal processes."
+    },
+    {
+      "term": "bucket-brigade device",
+      "def": "An earlier charge-transfer shift register in which charge is passed between diffused regions through a chain of transistors."
+    },
+    {
+      "term": "piezoelectric",
+      "def": "A material that develops an electric field when strained, so an acoustic wave travelling in it carries a moving field pattern."
+    },
+    {
+      "term": "raster line",
+      "def": "One horizontal scan line of a video image."
+    },
+    {
+      "term": "smearing",
+      "def": "Image blur from sensing sites continuing to collect light while charge is being read out past them."
+    },
+    {
+      "term": "flatband potential",
+      "def": "The gate voltage at which the semiconductor bands are flat up to the surface, with no surface depletion or accumulation."
+    },
+    {
+      "term": "mil",
+      "def": "One thousandth of an inch, 25.4 micrometres."
+    }
+  ]
+}

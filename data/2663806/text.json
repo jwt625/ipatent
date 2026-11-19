@@ -1,0 +1,2881 @@
+{
+  "pn": "2663806",
+  "number": "2,663,806",
+  "title": "SEMICONDUCTOR SIGNAL TRANSLATING DEVICE",
+  "inventors": [
+    "Sidney Darlington"
+  ],
+  "assignee": "Bell Telephone Laboratories, Incorporated, New York, N. Y., a corporation of New York",
+  "filed": "1952-05-09",
+  "issued": "1953-12-22",
+  "appl_no": "286,914",
+  "int_cl": "",
+  "us_cl": "307—88",
+  "refs_patents": [
+    {
+      "no": "2,476,323",
+      "date": "July 19, 1949",
+      "name": "Rack",
+      "cl": ""
+    },
+    {
+      "no": "2,569,347",
+      "date": "Sept. 25, 1951",
+      "name": "Shockley",
+      "cl": ""
+    },
+    {
+      "no": "2,585,078",
+      "date": "Feb. 12, 1952",
+      "name": "Barney",
+      "cl": ""
+    },
+    {
+      "no": "2,586,080",
+      "date": "Feb. 19, 1952",
+      "name": "Pfann",
+      "cl": ""
+    },
+    {
+      "no": "2,595,496",
+      "date": "May 6, 1952",
+      "name": "Webster",
+      "cl": ""
+    },
+    {
+      "no": "2,595,497",
+      "date": "May 6, 1952",
+      "name": "Webster",
+      "cl": ""
+    }
+  ],
+  "refs_other": [],
+  "examiners": "",
+  "claims_count": 10,
+  "drawing_figures": 12,
+  "abstract": "",
+  "sections": [
+    {
+      "heading": "",
+      "paras": [
+        {
+          "col": 1,
+          "line": 1,
+          "text": "This invention relates to signal translating devices and more particularly to such devices of the type known as transistors."
+        },
+        {
+          "col": 1,
+          "line": 4,
+          "text": "Transistors comprise, in general, a body of semiconductive material and three connections, termed the emitter, base and collector, to the body. Two recognized classes of transistors are the point contact, of which those disclosed in Patent 2,524,035 granted October 3, 1950 to J. Bardeen and W. H. Brattain are illustrative, and the junction, of which those disclosed in Patent 2,569,347 granted September 25, 1951 to W. Shockley are illustrative. Transistors of both kinds may be classified further as to conductivity type, that is N or P. In an N-type point contact device, the bulk of the semiconductive body is of N conductivity type; in an N-type junction transistor, the intermediate zone, i. e. the one with which the emitter and collector zones form junctions, is of N conductivity type. In P-type transistors, the bulk of the body, in point contact devices, or the intermediate zone, in junction devices, is of P conductivity type."
+        },
+        {
+          "col": 1,
+          "line": 24,
+          "text": "In the utilization of transistors, a number of what may be considered as circuit parameters or aspects are of prime moment. Among and illustrative of such parameters are the current multiplication factor, commonly designated alpha, and the emitter and collector resistances. In general, desired values, within limits of course, for one or more of these parameters may be obtained for a particular application by control of or operation upon physical characteristics of the transistor employed. For example, in the case of junction type transistors, say of PNP configuration, the current multiplication factor alpha is less than unity. It is dependent upon a number of controllable factors, such as the width of the intermediate zone, but the control entails some practical difficulties and thus involves a definite, and in some cases a major economic aspect. Similarly, the emitter and collector resistances are amenable to control by design but the control is subject to practical and economic limitations."
+        },
+        {
+          "col": 1,
+          "line": 46,
+          "text": "Further, heretofore because of inherent properties of semiconductor translating devices, some desired circuit characteristics have been difficult or impossible to achieve with single transistors, or even with combinations of transistors unless special interstage or coupling networks are employed."
+        },
+        {
+          "col": 2,
+          "line": 3,
+          "text": "One general object of this invention is to enable realization of desired prescribed performance characteristics for semiconductor signal translating devices."
+        },
+        {
+          "col": 2,
+          "line": 7,
+          "text": "More specific objects of this invention are to expedite attainment of prescribed circuit parameters for transistor units, to facilitate realization of high current multiplication factors for transistors, to obtain such factors closely approaching but not exceeding unity for junction transistors, to simplify the construction of transistor units comprising two or more elements, to enhance flexibility of operation and utilization of transistors, and to reduce the cost of producing transistor units having prescribed circuital parameters."
+        },
+        {
+          "col": 2,
+          "line": 19,
+          "text": "In accordance with one feature of this invention, two transistors of like conductivity type are correlated to produce an equivalent single transistor having operating characteristics different in kind or quality or both from those of both the components."
+        },
+        {
+          "col": 2,
+          "line": 25,
+          "text": "In one illustrative embodiment of this invention, a translating device comprises a pair of similar junction transistors the collector zones of which are electrically integral and the base zone of one of which is tied directly to the emitter zone of the other. Individual connections are provided to the other emitter and base zones. The device constitutes an equivalent single transistor having emitter and collector resistances substantially equal to those of one of the component transistors, but having a current multiplication factor substantially greater than that of either of the components."
+        },
+        {
+          "col": 2,
+          "line": 38,
+          "text": "In a modification of the above-described embodiment, an additional connection is provided to the connected emitter and base, whereby an additional bias may be applied and greater flexibility in operation, for example as to the operating point, is realized."
+        },
+        {
+          "col": 2,
+          "line": 44,
+          "text": "In other embodiments, different pairs of the emitter, base and collector connections are tied together electrically to produce advantageous performance characteristics."
+        },
+        {
+          "col": 2,
+          "line": 48,
+          "text": "The invention and the above noted and other features thereof will be understood more clearly and fully from the following detailed description with reference to the accompanying drawing, in which:"
+        },
+        {
+          "col": 3,
+          "line": 3,
+          "text": "Fig. 1 is an elevational view of a transistor illustrative of one embodiment of this invention;"
+        },
+        {
+          "col": 3,
+          "line": 5,
+          "text": "Fig. 2 is a schematic showing the association of the transistor elements in a device of the type illustrated in Fig. 1;"
+        },
+        {
+          "col": 3,
+          "line": 8,
+          "text": "Figure 2A is a diagram representing the equivalent single transistor of the combinations portrayed in Figs. 1 and 2;"
+        },
+        {
+          "col": 3,
+          "line": 11,
+          "text": "Fig. 3 illustrates a modification of the device represented in Fig. 2;"
+        },
+        {
+          "col": 3,
+          "line": 13,
+          "text": "Fig. 4 depicts another embodiment of this invention wherein the emitters of the component elements are tied together directly;"
+        },
+        {
+          "col": 3,
+          "line": 16,
+          "text": "Fig. 4A is a diagram representing the equivalent single transistor for the embodiment depicted in Fig. 4;"
+        },
+        {
+          "col": 3,
+          "line": 19,
+          "text": "Fig. 5 illustrates a modification of the device shown in Fig. 4;"
+        },
+        {
+          "col": 3,
+          "line": 21,
+          "text": "Fig. 6 illustrates another embodiment of this invention wherein the emitter of one transistor component is tied directly to the base of another;"
+        },
+        {
+          "col": 3,
+          "line": 24,
+          "text": "Fig. 6A depicts the equivalent single transistor for the combination illustrated in Fig. 6;"
+        },
+        {
+          "col": 3,
+          "line": 26,
+          "text": "Fig. 7 represents a modification of the embodiment illustrated in Fig. 6; and"
+        },
+        {
+          "col": 3,
+          "line": 28,
+          "text": "Figs. 8 and 9 portray another embodiment of this invention including three transistor elements."
+        },
+        {
+          "col": 3,
+          "line": 31,
+          "text": "In the drawing, for facility of identification the emitter, base and collector terminals have been indicated by the letters e, b and c respectively."
+        },
+        {
+          "col": 3,
+          "line": 34,
+          "text": "In devices constructed in accordance with this invention, advantageously the semiconductive material, for example germanium or silicon, is of single crystal structure. Suitable single crystal material may be produced in one way as disclosed in the application Serial No. 234,408, filed June 29, 1951 of E. Buehler and G. K. Teal. Also, as indicated hereinafter, in some embodiments of the invention advantageously the transistor elements are enclosed in a plastic encasement. Such encasement may be effected in the manner disclosed in the application Serial No. 198,294, filed November 30, 1950 of J. V. Domaleski, E. L. Gartland and J. J. Kleimack."
+        },
+        {
+          "col": 3,
+          "line": 48,
+          "text": "Referring now to the drawing, the transistor illustrated in Fig. 1 comprises a body 10 of semiconductive material, for example germanium or silicon, having an N conductivity type zone 11, a pair of like N conductivity type zones 12A and 12B and a pair of like P conductivity type zones 13A and 13B each interposed between and defining junctions with the N zone 11 and the respective N zone 12A or 12B. The body may be fabricated for example by slotting a slab of NPN configuration and produced in the manner disclosed in the application of Buehler and Teal referred to hereinabove."
+        },
+        {
+          "col": 3,
+          "line": 61,
+          "text": "Metallic platings 14, for example in the form of copper or rhodium coatings, are applied to the N zones 11 and 12 whereby substantially ohmic connections may be made in these zones. Substantially ohmic connections are made also to the two P zones 13, for example in the manner disclosed in the application Serial No. 228,483 filed May 26, 1951 of W. Shockley. It will be evident that the semiconductive body with the connections thereto comprises two like transistor units each of NPN configuration, the units having a common collector zone 11, individual emitter zones 12 and individual base zones 13."
+        },
+        {
+          "col": 3,
+          "line": 74,
+          "text": "As shown in Fig. 1, the emitter zone 12A of one unit is tied directly by a conductor 15 to the P zone 13B of the other unit. Thus, there is provided a unitary or equivalent single transistor having emitter, base and collector terminals or connections 16, 17 and 18 respectively."
+        },
+        {
+          "col": 4,
+          "line": 5,
+          "text": "The electrical equivalent of the compound transistor illustrated in Fig. 1 is portrayed in Fig. 2 and one equivalent single transistor is of the form depicted in Fig. 2A. For the single equivalent transistor the significant performance characteristics are represented by the following equations:"
+        },
+        {
+          "col": 4,
+          "line": 13,
+          "text": "r_{e}≅r_{e2}"
+        },
+        {
+          "col": 4,
+          "line": 14,
+          "text": "r_{b}≅r_{b1}+r_{c1}/r_{c2}(r_{e1}+r_{b2})"
+        },
+        {
+          "col": 4,
+          "line": 16,
+          "text": "r_{c}≅r_{c1}"
+        },
+        {
+          "col": 4,
+          "line": 18,
+          "text": "I_{c0}≅I_{c01}"
+        },
+        {
+          "col": 4,
+          "line": 19,
+          "text": "V_{e}=r_{e}I_{e}+r_{b}(I_{c}+I_{e})"
+        },
+        {
+          "col": 4,
+          "line": 20,
+          "text": "V_{c}=r_{c}(I_{c}−I_{c0}+αI_{e})+r_{b}(I_{c}+I_{e})"
+        },
+        {
+          "col": 4,
+          "line": 21,
+          "text": "(1−α)=(1−α_{1})(1−α_{2})"
+        },
+        {
+          "col": 4,
+          "line": 23,
+          "text": "where"
+        },
+        {
+          "col": 4,
+          "line": 24,
+          "text": "r_{e}=emitter resistance"
+        },
+        {
+          "col": 4,
+          "line": 25,
+          "text": "r_{b}=base resistance"
+        },
+        {
+          "col": 4,
+          "line": 26,
+          "text": "r_{c}=collector resistance"
+        },
+        {
+          "col": 4,
+          "line": 27,
+          "text": "I_{co}=collector current with zero emitter current"
+        },
+        {
+          "col": 4,
+          "line": 28,
+          "text": "I_{e}=emitter current"
+        },
+        {
+          "col": 4,
+          "line": 29,
+          "text": "I_{c}=collector current"
+        },
+        {
+          "col": 4,
+          "line": 30,
+          "text": "V_{e}=emitter voltage"
+        },
+        {
+          "col": 4,
+          "line": 31,
+          "text": "V_{c}=collector voltage"
+        },
+        {
+          "col": 4,
+          "line": 33,
+          "text": "and the subscripts 1 and 2 refer to the component units."
+        },
+        {
+          "col": 4,
+          "line": 35,
+          "text": "Particularly to be noted among these characteristics is the high value of the current multiplication factor, alpha, that may be realized. For example, in the case of NPN units, if alpha equals 0.9 for each unit, alpha for the single equivalent transistor is 0.99. Also, for example, if alpha for the individual units is 0.99 then the multiplication factor for the equivalent single transistor is .9999. If the current multiplication factors of the individual units vary, the alpha of the equivalent transistor varies relatively little. Specifically, variability in (1−α_{1}) or (1−α_{2}) produces a like percentage variability in the relatively small quantity (1−α)."
+        },
+        {
+          "col": 4,
+          "line": 49,
+          "text": "This may be explained as follows: The current I_{b} flowing out of the base of a transistor is I_{e}+I_{c}, where I_{e} and I_{c} are currents flowing into the other electrodes (emitter and collector). If we consider only the variations in I_{e} and I_{c}, which define current gain α, and if we assume a collector load impedance small compared with R_{c}, I_{b} becomes (1−α)I_{e}."
+        },
+        {
+          "col": 4,
+          "line": 57,
+          "text": "Accordingly, current (1−α_{1})I_{e1} flows out of the base of unit 1, and (1−α_{2})I_{e2} out of the base of unit 2. In the triode mounting I_{e1} is constrained to be the base current I_{b2}. Hence (1−α_{1})(1−α_{2})I_{e2} flows out of the base of unit 1. In addition I_{e2} is constrained to be the current I_{e} into the equivalent emitter terminal and I_{b1} is constrained to be I_{b}. Hence"
+        },
+        {
+          "col": 4,
+          "line": 65,
+          "text": "(1−α_{1})(1−α_{2})I_{e}"
+        },
+        {
+          "col": 4,
+          "line": 67,
+          "text": "flows out of the equivalent base, and is equivalent to (1−α)I_{e}:"
+        },
+        {
+          "col": 4,
+          "line": 69,
+          "text": "(1−α)≡(1−α_{1})(1−α_{2})"
+        },
+        {
+          "col": 4,
+          "line": 71,
+          "text": "The operating points of the two component units cannot be chosen independently, nor can they be the same for the two units. One restriction requires the collector-to-emitter voltage of unit 1 to be equal to the collector-to-base voltage of unit 2. However, emitter-to-base voltages are usually small, and thus both collector voltages are roughly equal. This is a reasonable operating condition."
+        },
+        {
+          "col": 5,
+          "line": 5,
+          "text": "With the triode mounting, there is also a relation between the currents at the operating points. As noted above, I_{e1}=I_{b2}. When total current is considered, the so-called “drift current” I_{c02} must be included, as well as the variations in currents which define α. Then, assuming again a load impedence small compared with R_{c}, I_{b2} becomes (1−α_{2})I_{e2}+I_{c02}. This current is used as I_{e1}, and must be negative. Since I_{c02} is positive, I_{e2} must not only be negative, but also large enough so that (1−α_{2})I_{e2} more than compensates for I_{c02}."
+        },
+        {
+          "col": 5,
+          "line": 16,
+          "text": "The restriction on the bias currents which may be utilized can be reduced or avoided by the provision of another connection as illustrated in Fig. 3. Specifically, as shown in this figure, an auxiliary lead 20 is provided as a common connection to the base of one unit and the emitter of the other. This connection 20 may be utilized to supply additional negative current to the emitter e_{1}. If this current is supplied through a high impedance, the alpha of the equivalent signal transistor will not be degraded significantly."
+        },
+        {
+          "col": 5,
+          "line": 27,
+          "text": "Although the transistors of the configuration depicted in Figs. 2 and 3 have been described with particular reference to junction transistors and to such fabricated from a single semi-conductive body or slab, similar devices composed of separate junction units or of separate point contact units such as described in the Bardeen-Brattain patent heretofore identified obviously are within the purview of this invention."
+        },
+        {
+          "col": 5,
+          "line": 36,
+          "text": "In the embodiment of this invention illustrated in Fig. 4, the emitters of the two like units are tied together and the collector of one unit is tied directly to the base of the other by the connector 15. Emitter, base and collector leads 16, 17 and 18 respectively are provided as shown, it being noted that the base lead extends from the two emitters in common. This is because a correspondence between the emitter of the equivalent single transistor, depicted in Fig. 4A, and the component emitters, i. e. those of the two units, involves a phase relation which makes the collector resistance R_{c} negative."
+        },
+        {
+          "col": 5,
+          "line": 49,
+          "text": "The units of the embodiment shown in Fig. 4 may be of either the junction or the point contact type. For example, in one form the semiconductive body may be of the construction illustrated in Fig. 1, with the N zone 11 serving as the common emitter zone and the zones 12 constituting the collector zones."
+        },
+        {
+          "col": 5,
+          "line": 56,
+          "text": "When the units are of NPN configuration, the parameters of the transistor portrayed in Figs. 4 and 4A are given by the relations:"
+        },
+        {
+          "col": 5,
+          "line": 60,
+          "text": "r_{e}≅r_{b1}+r_{e1}/(1−α_{1})"
+        },
+        {
+          "col": 5,
+          "line": 62,
+          "text": "r_{b}≅r_{e1}r_{e2}/((1−α_{1})r_{c1})"
+        },
+        {
+          "col": 5,
+          "line": 64,
+          "text": "r_{c}≅(1−α_{2})r_{c2}"
+        },
+        {
+          "col": 5,
+          "line": 66,
+          "text": "I_{c0}≅I_{c01}/((1−α_{1})(1−α_{2}))"
+        },
+        {
+          "col": 5,
+          "line": 68,
+          "text": "α≅α_{1}α_{2}/((1−α_{1})(1−α_{2}))"
+        },
+        {
+          "col": 5,
+          "line": 70,
+          "text": "V_{e}=r_{e}I_{e}+r_{b}(I_{c}+I_{e})"
+        },
+        {
+          "col": 5,
+          "line": 72,
+          "text": "V_{c}=r_{c}(I_{c}−I_{c0}+αI_{e})+r_{b}(I_{c}+I_{e})"
+        },
+        {
+          "col": 5,
+          "line": 73,
+          "text": "It will be evident from these that the current gain, indicated by alpha, may be very large. Also, it is noted that the emitter resistance R_{e} of the compound transistor is greater than that of either the component units whereas the collector resistance R_{c} is smaller. Also the base resistance R_{b} is very small."
+        },
+        {
+          "col": 6,
+          "line": 5,
+          "text": "As in the case of the embodiment illustrated in Fig. 2, in that shown in Fig. 4 a limitation on bias currents obtains. This restriction may be reduced, if desired, by providing an additional biasing lead 20 as illustrated in Fig. 5."
+        },
+        {
+          "col": 6,
+          "line": 10,
+          "text": "In the embodiment of the invention portrayed in Fig. 6, two transistor units, of like characteristics and of either the junction or point contact type, are employed as in the embodiments described hereinabove. However, as shown in Fig. 6, the emitter of one unit is tied directly to the base of the other by the conductor 15, and the base of the first is tied directly to the collector of the second by the conductor 15′. Base and collector leads 17 and 18 individual to the emitter of one unit and the collector of the other respectively are provided as shown and the third, emitter, lead is provided to the connected base and emitter of the two units. The equivalent single transistor is depicted in Fig. 6A."
+        },
+        {
+          "col": 6,
+          "line": 25,
+          "text": "For the case of units of NPN configuration, the parameters of the equivalent single transistor are given by the following relations:"
+        },
+        {
+          "col": 6,
+          "line": 29,
+          "text": "r_{e}≅r_{b1}r_{e2}/r_{c1}"
+        },
+        {
+          "col": 6,
+          "line": 31,
+          "text": "r_{b}≅r_{e1}+(1−α_{1})r_{b1}≅r_{e1}"
+        },
+        {
+          "col": 6,
+          "line": 32,
+          "text": "r_{c}≅r_{c2}"
+        },
+        {
+          "col": 6,
+          "line": 34,
+          "text": "I_{c0}≅I_{c02}−α_{2}I_{c01}"
+        },
+        {
+          "col": 6,
+          "line": 35,
+          "text": "1−α≅(1−α_{2})/(1−α_{2}+α_{1}α_{2})≅1−α_{2}"
+        },
+        {
+          "col": 6,
+          "line": 37,
+          "text": "V_{e}=r_{e}I_{e}+r_{b}(I_{c}+I_{e})"
+        },
+        {
+          "col": 6,
+          "line": 39,
+          "text": "V_{c}=r_{c}(I_{e}−I_{c0}+αI_{e})+r_{b}(I_{c}+I_{e})"
+        },
+        {
+          "col": 6,
+          "line": 40,
+          "text": "It will be noted that the constants for the equivalent single transistor are very similar except for the emitter resistance to those for component unit 2, provided that alpha for unit 1 is substantially unity. However, a feature of the embodiment illustrated in Fig. 6A is that the drift currents for the two component units tend to cancel in the collector lead 18. Such cancellation is realized to the fullest extent when the emitter lead 16 is fed through a high impedance."
+        },
+        {
+          "col": 6,
+          "line": 50,
+          "text": "For the device illustrated in Fig. 6, the current bias restrictions are akin to those for the other embodiments heretofore described and may be reduced through the agency of an additional lead 18′ extending to the connected collector and base of the two units. To assure good drift current cancellation, this lead should be supplied through a high impedance."
+        },
+        {
+          "col": 6,
+          "line": 58,
+          "text": "In some applications, the auxiliary lead 18′ may be used as the input signal supply. In this case, unit 1 functions solely as a drift current balancing element."
+        },
+        {
+          "col": 6,
+          "line": 62,
+          "text": "Although the invention has been described thus far with particular reference to transistors composed of two units, it may be utilized also in devices comprising a greater number of units. One illustrative embodiment including three units having their collectors common and base and emitter connected as in the embodiment disclosed in Fig. 1 is shown in Fig. 8. Fig. 9 shows how this device may be biased for grounded emitter operation, typical values of bias being indicated."
+        },
+        {
+          "col": 6,
+          "line": 72,
+          "text": "Two particularly advantageous features of the multiple unit transistor portrayed in Fig. 8 are to be noted. First, for the case of NPN units, the current multiplication factor, alpha, for the transistor is even closer to unity than for a two unit device of comparable units. Secondly, it will be appreciated that the three unit transistor of Fig. 8 provides two auxiliary leads 16′ and 16″ whereby appropriate biases may be applied. This reduces the bias current limitations discussed hereinabove. Further, it avoids voltage restrictions which may be encountered in some cases. For example, in the embodiment illustrated in Fig. 4, it is necessary that the collector to emitter voltage of unit 1 substantially match the base to emitter voltage of unit 2. This in turn necessitates either a low voltage level for one unit and a high voltage level for the other, or both. This design restriction is avoided by use of a three unit structure such as represented in Fig. 8."
+        },
+        {
+          "col": 7,
+          "line": 17,
+          "text": "It will be appreciated that the invention provides transistors of novel and advantageous performance characteristics, characteristics which either are unattainable with single unit devices or are quantitatively superior to those obtainable with single unit devices."
+        },
+        {
+          "col": 7,
+          "line": 23,
+          "text": "Although specific embodiments of the invention have been shown and described, it will be understood that they are but illustrative and that various modifications may be made therein without departing from the scope and spirit of this invention."
+        }
+      ]
+    }
+  ],
+  "brief_drawings": [
+    {
+      "fig": "1",
+      "col": 3,
+      "line": 3,
+      "text": "Fig. 1 is an elevational view of a transistor illustrative of one embodiment of this invention;"
+    },
+    {
+      "fig": "2",
+      "col": 3,
+      "line": 5,
+      "text": "Fig. 2 is a schematic showing the association of the transistor elements in a device of the type illustrated in Fig. 1;"
+    },
+    {
+      "fig": "2A",
+      "col": 3,
+      "line": 8,
+      "text": "Figure 2A is a diagram representing the equivalent single transistor of the combinations portrayed in Figs. 1 and 2;"
+    },
+    {
+      "fig": "3",
+      "col": 3,
+      "line": 11,
+      "text": "Fig. 3 illustrates a modification of the device represented in Fig. 2;"
+    },
+    {
+      "fig": "4",
+      "col": 3,
+      "line": 13,
+      "text": "Fig. 4 depicts another embodiment of this invention wherein the emitters of the component elements are tied together directly;"
+    },
+    {
+      "fig": "4A",
+      "col": 3,
+      "line": 16,
+      "text": "Fig. 4A is a diagram representing the equivalent single transistor for the embodiment depicted in Fig. 4;"
+    },
+    {
+      "fig": "5",
+      "col": 3,
+      "line": 19,
+      "text": "Fig. 5 illustrates a modification of the device shown in Fig. 4;"
+    },
+    {
+      "fig": "6",
+      "col": 3,
+      "line": 21,
+      "text": "Fig. 6 illustrates another embodiment of this invention wherein the emitter of one transistor component is tied directly to the base of another;"
+    },
+    {
+      "fig": "6A",
+      "col": 3,
+      "line": 24,
+      "text": "Fig. 6A depicts the equivalent single transistor for the combination illustrated in Fig. 6;"
+    },
+    {
+      "fig": "7",
+      "col": 3,
+      "line": 26,
+      "text": "Fig. 7 represents a modification of the embodiment illustrated in Fig. 6; and"
+    },
+    {
+      "fig": "8",
+      "col": 3,
+      "line": 28,
+      "text": "Figs. 8 and 9 portray another embodiment of this invention including three transistor elements."
+    },
+    {
+      "fig": "9",
+      "col": 3,
+      "line": 28,
+      "text": "Figs. 8 and 9 portray another embodiment of this invention including three transistor elements."
+    }
+  ],
+  "claims": [
+    {
+      "n": 1,
+      "col": 7,
+      "line": 30,
+      "depends": null,
+      "text": "1. A signal translating device comprising a pair of transistors of like conductivity type and each including a base, an emitter and a collector, means directly connecting the collectors together, means directly connecting the emitter of one transistor to the base of the other, and individual electrical connections to the other emitter and base."
+    },
+    {
+      "n": 2,
+      "col": 7,
+      "line": 38,
+      "depends": 1,
+      "text": "2. A signal translating device in accordance with claim 1 comprising an additional electrical connection to the connected emitter and base."
+    },
+    {
+      "n": 3,
+      "col": 7,
+      "line": 41,
+      "depends": null,
+      "text": "3. A signal translating device comprising a pair of transistors of like conductivity type and each including a base, an emitter and a collector, means directly connecting the emitters together, means directly connecting the collector of one transistor to the base of the other, and individual electrical connections to the other collector and base."
+    },
+    {
+      "n": 4,
+      "col": 7,
+      "line": 49,
+      "depends": 3,
+      "text": "4. A signal translating device in accordance with claim 3 comprising an additional electrical connection to the connected collector and base."
+    },
+    {
+      "n": 5,
+      "col": 7,
+      "line": 52,
+      "depends": null,
+      "text": "5. A signal translating device comprising a pair of transistors of like conductivity type and each including a base, an emitter and a collector, means directly connecting two like electrodes of said transistors together, means directly connecting another electrode of one transistor to an unlike electrode, other than one of said like electrodes, of the other transistor, and individual electrical connections to the remaining electrodes."
+    },
+    {
+      "n": 6,
+      "col": 8,
+      "line": 9,
+      "depends": 5,
+      "text": "6. A signal translating device in accordance with claim 5 wherein said transistors are of the junction type."
+    },
+    {
+      "n": 7,
+      "col": 8,
+      "line": 12,
+      "depends": 5,
+      "text": "7. A signal translating device in accordance with claim 5 wherein said transistors are of the point contact type."
+    },
+    {
+      "n": 8,
+      "col": 8,
+      "line": 15,
+      "depends": null,
+      "text": "8. A signal translating device comprising a body of semi-conductive material having therein a first zone of one conductivity type, a pair of spaced zones of the opposite conductivity type contiguous with said first zone and a pair of zones of said one type each contiguous with a respective one of said first pair of zones, and remote from the other, means electrically connecting one of said first pair of zones to the one of said second pair of zones remote therefrom, and individual electrical connections to said first zone, the other of said first pair of zones and the other of said second pair of zones."
+    },
+    {
+      "n": 9,
+      "col": 8,
+      "line": 28,
+      "depends": 8,
+      "text": "9. A signal translating device in accordance with claim 8 wherein said first zone is of N conductivity type."
+    },
+    {
+      "n": 10,
+      "col": 8,
+      "line": 31,
+      "depends": null,
+      "text": "10. A signal translating device comprising three transistors of the same conductivity type and each including an emitter, a collector and a base, means directly connecting the collectors together electrically, means connecting the base of one transistor directly to the emitter of a second transistor, means connecting the base of said second transistor to the emitter of the third transistor, and individual connections to the emitter of said one transistor and the base of said third transistor."
+    }
+  ],
+  "ocr_fixes": [
+    {
+      "col": null,
+      "line": null,
+      "cite": "header",
+      "ocr": "SIGNAL ‘TRANSLATING",
+      "fixed": "SIGNAL TRANSLATING",
+      "basis": "scan"
+    },
+    {
+      "col": null,
+      "line": null,
+      "cite": "header",
+      "ocr": "Passaic, Township",
+      "fixed": "Passaic Township",
+      "basis": "scan"
+    },
+    {
+      "col": null,
+      "line": null,
+      "cite": "header",
+      "ocr": "‘County,",
+      "fixed": "County,",
+      "basis": "scan"
+    },
+    {
+      "col": null,
+      "line": null,
+      "cite": "header",
+      "ocr": "Lab+",
+      "fixed": "Lab-",
+      "basis": "scan"
+    },
+    {
+      "col": null,
+      "line": null,
+      "cite": "header",
+      "ocr": "286,514",
+      "fixed": "286,914",
+      "basis": "scan"
+    },
+    {
+      "col": null,
+      "line": null,
+      "cite": "header",
+      "ocr": "(Ci. 307-88)",
+      "fixed": "(Cl. 307—88)",
+      "basis": "scan"
+    },
+    {
+      "col": null,
+      "line": null,
+      "cite": "header",
+      "ocr": "10 Claims,",
+      "fixed": "10 Claims.",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 1,
+      "ocr": "te sighal tralislating de+",
+      "fixed": "to signal translating de-",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 2,
+      "ocr": "vieeés",
+      "fixed": "vices",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 2,
+      "ocr": "Such",
+      "fixed": "such",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 4,
+      "ocr": "@@Méri],",
+      "fixed": "general,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 4,
+      "ocr": "-of",
+      "fixed": "of",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 5,
+      "ocr": "threé conhéstions,",
+      "fixed": "three connections,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 6,
+      "ocr": "avid eoiléctor,",
+      "fixed": "and collector,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 8,
+      "ocr": "poitit",
+      "fixed": "point",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 9,
+      "ocr": "sranted",
+      "fixed": "granted",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 10,
+      "ocr": "",
+      "fixed": "Bardeen and W. H. Brattain are illustrative, and",
+      "basis": "scan (line not read by OCR)"
+    },
+    {
+      "col": 1,
+      "line": 11,
+      "ocr": "disclosed.",
+      "fixed": "disclosed",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 12,
+      "ocr": "grahted",
+      "fixed": "granted",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 14,
+      "ocr": "flirther",
+      "fixed": "further",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 14,
+      "ocr": "conductiy ity",
+      "fixed": "conductivity",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 15,
+      "ocr": "Nor",
+      "fixed": "N or",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 17,
+      "ocr": "N-% type",
+      "fixed": "N-type",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 17,
+      "ocr": "‘tran-",
+      "fixed": "tran-",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 18,
+      "ocr": "With",
+      "fixed": "with",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 19,
+      "ocr": "Which the.",
+      "fixed": "which the",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 19,
+      "ocr": "cellector",
+      "fixed": "collector",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 19,
+      "ocr": "june-",
+      "fixed": "junc-",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 20,
+      "ocr": "B-type",
+      "fixed": "P-type",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 21,
+      "ocr": "iA peint",
+      "fixed": "in point",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 22,
+      "ocr": "vités,",
+      "fixed": "vices,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 22,
+      "ocr": "intétmediate Zone,",
+      "fixed": "intermediate zone,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 22,
+      "ocr": "janétion",
+      "fixed": "junction",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 24,
+      "ocr": "thé",
+      "fixed": "the",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 25,
+      "ocr": "ba cohsideréd",
+      "fixed": "be considered",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 25,
+      "ocr": "cirenit",
+      "fixed": "circuit",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 26,
+      "ocr": "aSpécts",
+      "fixed": "aspects",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 26,
+      "ocr": "Of",
+      "fixed": "of",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 26,
+      "ocr": "Anions",
+      "fixed": "Among",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 26,
+      "ocr": "iMlts-",
+      "fixed": "illus-",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 27,
+      "ocr": "Such bar ameters",
+      "fixed": "such parameters",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 27,
+      "ocr": "mui-",
+      "fixed": "mul-",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 28,
+      "ocr": "tiblication Tactor, conimonly",
+      "fixed": "tiplication factor, commonly",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 29,
+      "ocr": "thé",
+      "fixed": "the",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 29,
+      "ocr": "collecto? yesistances. Th",
+      "fixed": "collector resistances. In",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 30,
+      "ocr": "genéral,",
+      "fixed": "general,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 31,
+      "ocr": "paraméters",
+      "fixed": "parameters",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 32,
+      "ocr": "tainéd",
+      "fixed": "tained",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 32,
+      "ocr": "& parti¢ular",
+      "fixed": "a particular",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 33,
+      "ocr": "ubon",
+      "fixed": "upon",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 35,
+      "ocr": "ease",
+      "fixed": "case",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 37,
+      "ocr": "Tt",
+      "fixed": "It",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 37,
+      "ocr": "‘humber",
+      "fixed": "number",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 38,
+      "ocr": "Controllable",
+      "fixed": "controllable",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 39,
+      "ocr": "the.",
+      "fixed": "the",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 39,
+      "ocr": "entaiis",
+      "fixed": "entails",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 40,
+      "ocr": "ifivolves",
+      "fixed": "involves",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 42,
+      "ocr": "coliéctor",
+      "fixed": "collector",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 43,
+      "ocr": "btit",
+      "fixed": "but",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 44,
+      "ocr": "piactieal",
+      "fixed": "practical",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 44,
+      "ocr": "eeonomic",
+      "fixed": "economic",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 46,
+      "ocr": "becaiise",
+      "fixed": "because",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 47,
+      "ocr": "tiés",
+      "fixed": "ties",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 47,
+      "ocr": "senii¢ondtictor tratislating",
+      "fixed": "semiconductor translating",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 48,
+      "ocr": "tharactéristics",
+      "fixed": "characteristics",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 48,
+      "ocr": "besti dificult",
+      "fixed": "been difficult",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 49,
+      "ocr": "oF",
+      "fixed": "or",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 49,
+      "ocr": "sittélé tiansistoxs,",
+      "fixed": "single transistors,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 50,
+      "ocr": "OF veri With",
+      "fixed": "or even with",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 50,
+      "ocr": "wiléss",
+      "fixed": "unless",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 1,
+      "ocr": "sbecial intérstage Or ‘coupling",
+      "fixed": "special interstage or coupling",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 1,
+      "ocr": "‘ém-",
+      "fixed": "em-",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 3,
+      "ocr": "_ Otie Seheral",
+      "fixed": "One general",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 3,
+      "ocr": "to’ ‘étable",
+      "fixed": "to enable",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 4,
+      "ocr": "‘prescribed performa te",
+      "fixed": "prescribed performance",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 5,
+      "ocr": "transtat=",
+      "fixed": "translat-",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 6,
+      "ocr": "devises.",
+      "fixed": "devices.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 7,
+      "ocr": "specific.",
+      "fixed": "specific",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 7,
+      "ocr": "ee ention aré",
+      "fixed": "this invention are",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 8,
+      "ocr": "",
+      "fixed": "expedite attainment of prescribed circuit param-",
+      "basis": "scan (line not read by OCR)"
+    },
+    {
+      "col": 2,
+      "line": 9,
+      "ocr": "",
+      "fixed": "eters for transistor units, to facilitate realization",
+      "basis": "scan (line not read by OCR)"
+    },
+    {
+      "col": 2,
+      "line": 10,
+      "ocr": "",
+      "fixed": "of high current multiplication factors for tran-",
+      "basis": "scan (line not read by OCR)"
+    },
+    {
+      "col": 2,
+      "line": 11,
+      "ocr": "Bistors,",
+      "fixed": "sistors,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 11,
+      "ocr": "‘Glosely apbroathing",
+      "fixed": "closely approaching",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 12,
+      "ocr": "utity",
+      "fixed": "unity",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 13,
+      "ocr": "WHItS",
+      "fixed": "units",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 14,
+      "ocr": "compfising",
+      "fixed": "comprising",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 14,
+      "ocr": "enhanee",
+      "fixed": "enhance",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 15,
+      "ocr": "‘utilization",
+      "fixed": "utilization",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 16,
+      "ocr": "trans",
+      "fixed": "tran-",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 17,
+      "ocr": "havitie prescribéd ciFcuital ‘paraiis",
+      "fixed": "having prescribed circuital param-",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 19,
+      "ocr": "Yn atcordanes",
+      "fixed": "In accordance",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 19,
+      "ocr": "iivens",
+      "fixed": "inven-",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 20,
+      "ocr": "Conductivity",
+      "fixed": "conductivity",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 20,
+      "ocr": "‘ate",
+      "fixed": "are",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 21,
+      "ocr": "cofrelated",
+      "fixed": "correlated",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 21,
+      "ocr": "Single trate",
+      "fixed": "single tran-",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 22,
+      "ocr": "charatteristics ‘differant",
+      "fixed": "characteristics different",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 23,
+      "ocr": "ih kivid",
+      "fixed": "in kind",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 23,
+      "ocr": "Both",
+      "fixed": "both",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 25,
+      "ocr": "Th",
+      "fixed": "In",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 25,
+      "ocr": "einbodiinent",
+      "fixed": "embodiment",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 25,
+      "ocr": "fiiveric",
+      "fixed": "inven-",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 26,
+      "ocr": "@ trarislating",
+      "fixed": "a translating",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 26,
+      "ocr": "comprigés",
+      "fixed": "comprises",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 26,
+      "ocr": "ait",
+      "fixed": "pair",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 27,
+      "ocr": "transistois",
+      "fixed": "transistors",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 27,
+      "ocr": "zohés OF",
+      "fixed": "zones of",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 28,
+      "ocr": "electtically",
+      "fixed": "electrically",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 29,
+      "ocr": "Oné",
+      "fixed": "one",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 29,
+      "ocr": "‘directly",
+      "fixed": "directly",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 30,
+      "ocr": "zoné",
+      "fixed": "zone",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 30,
+      "ocr": "connéctions ate",
+      "fixed": "connections are",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 31,
+      "ocr": "étnitter. aria basé",
+      "fixed": "emitter and base",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 32,
+      "ocr": "AéViGs Gdistitutes ah",
+      "fixed": "device constitutes an",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 32,
+      "ocr": "singié",
+      "fixed": "single",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 33,
+      "ocr": "émitter atid",
+      "fixed": "emitter and",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 33,
+      "ocr": "Fesistances substan=",
+      "fixed": "resistances substan-",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 34,
+      "ocr": "eqiial t6 thosd",
+      "fixed": "equal to those",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 34,
+      "ocr": "offe Gf",
+      "fixed": "one of",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 34,
+      "ocr": "‘doniponeat",
+      "fixed": "component",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 36,
+      "ocr": "sibstahtially",
+      "fixed": "substantially",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 36,
+      "ocr": "éither",
+      "fixed": "either",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 38,
+      "ocr": "Th",
+      "fixed": "In",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 38,
+      "ocr": "Wioditi¢ i",
+      "fixed": "modification",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 38,
+      "ocr": "thé",
+      "fixed": "the",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 38,
+      "ocr": "éih=,",
+      "fixed": "em-",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 39,
+      "ocr": "ah",
+      "fixed": "bodiment, an",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 39,
+      "ocr": "coéhnéction",
+      "fixed": "connection",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 39,
+      "ocr": "provide to.",
+      "fixed": "provided to",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 40,
+      "ocr": "thé connéctéd",
+      "fixed": "the connected",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 40,
+      "ocr": "dnd",
+      "fixed": "and",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 40,
+      "ocr": "ay Ads",
+      "fixed": "an ad-",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 41,
+      "ocr": "ditiorial bids ay bé apbdlied",
+      "fixed": "ditional bias may be applied",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 41,
+      "ocr": "steater",
+      "fixed": "greater flexi-",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 42,
+      "ocr": "it Operation,",
+      "fixed": "in operation,",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 42,
+      "ocr": "ta",
+      "fixed": "to",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 42,
+      "ocr": "operat:",
+      "fixed": "operat-",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 43,
+      "ocr": "i§ tedlized.",
+      "fixed": "is realized.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 44,
+      "ocr": "Ta",
+      "fixed": "In",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 44,
+      "ocr": "sinbodiments,",
+      "fixed": "embodiments,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 44,
+      "ocr": "waits",
+      "fixed": "pairs",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 45,
+      "ocr": "éinitter,",
+      "fixed": "emitter,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 45,
+      "ocr": "Aiid Gélledtor connéétions sta Hed",
+      "fixed": "and collector connections are tied",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 46,
+      "ocr": "togéther electrically’ té prodtice dtivatitagedtis pars",
+      "fixed": "together electrically to produce advantageous per-",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 47,
+      "ocr": "characteristics,",
+      "fixed": "characteristics.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 48,
+      "ocr": "thé",
+      "fixed": "the",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 48,
+      "ocr": "hhoted",
+      "fixed": "noted",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 49,
+      "ocr": "thereot Will bé undersi ‘",
+      "fixed": "thereof will be understood more clearly",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 50,
+      "ocr": "tollowiiie desaéd aeséFiption",
+      "fixed": "following detailed description",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 13,
+      "ocr": "Fig,",
+      "fixed": "Fig.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 29,
+      "ocr": "including.",
+      "fixed": "including",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 30,
+      "ocr": ",",
+      "fixed": "",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 31,
+      "ocr": "tn",
+      "fixed": "In",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 45,
+      "ocr": "jn",
+      "fixed": "in",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 46,
+      "ocr": "per",
+      "fixed": "ber",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 46,
+      "ocr": "HE.",
+      "fixed": "E.",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 51,
+      "ocr": "il,a",
+      "fixed": "11, a",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 53,
+      "ocr": "{2B",
+      "fixed": "12B",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 53,
+      "ocr": "a,",
+      "fixed": "a",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 54,
+      "ocr": "{3A",
+      "fixed": "13A",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 54,
+      "ocr": "(3B",
+      "fixed": "13B",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 55,
+      "ocr": "1!",
+      "fixed": "11",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 56,
+      "ocr": "WN",
+      "fixed": "N",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 56,
+      "ocr": "{2A",
+      "fixed": "12A",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 57,
+      "ocr": "configura~",
+      "fixed": "configura-",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 60,
+      "ocr": "jnabove.",
+      "fixed": "inabove.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 61,
+      "ocr": "(4,",
+      "fixed": "14,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 63,
+      "ocr": "gones {{",
+      "fixed": "zones 11",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 72,
+      "ocr": "{if,",
+      "fixed": "11,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 73,
+      "ocr": "i3.",
+      "fixed": "13.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 74,
+      "ocr": "“-As",
+      "fixed": "As",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 75,
+      "ocr": "{5",
+      "fixed": "15",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 4,
+      "ocr": "18, {7",
+      "fixed": "16, 17",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 13,
+      "ocr": "T eSZr eo",
+      "fixed": "r_{e}≅r_{e2}",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 4,
+      "line": 14,
+      "ocr": "~w Tet rp Sra t—(ratres) Tee",
+      "fixed": "r_{b}≅r_{b1}+r_{c1}/r_{c2}(r_{e1}+r_{b2})",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 4,
+      "line": 16,
+      "ocr": "TeS2re1",
+      "fixed": "r_{c}≅r_{c1}",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 4,
+      "line": 18,
+      "ocr": "Loft leo",
+      "fixed": "I_{c0}≅I_{c01}",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 4,
+      "line": 19,
+      "ocr": "Vierletro(iet+l.)",
+      "fixed": "V_{e}=r_{e}I_{e}+r_{b}(I_{c}+I_{e})",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 4,
+      "line": 20,
+      "ocr": "Verte(Le—Lotele) troWe+l.)",
+      "fixed": "V_{c}=r_{c}(I_{c}−I_{c0}+αI_{e})+r_{b}(I_{c}+I_{e})",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 4,
+      "line": 21,
+      "ocr": "(1—a)=(1—a1)(1—a)",
+      "fixed": "(1−α)=(1−α_{1})(1−α_{2})",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 4,
+      "line": 24,
+      "ocr": "re—emitter",
+      "fixed": "r_{e}=emitter",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 25,
+      "ocr": "ro=base",
+      "fixed": "r_{b}=base",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 26,
+      "ocr": "7re—collector",
+      "fixed": "r_{c}=collector",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 27,
+      "ocr": "co—collector",
+      "fixed": "I_{co}=collector",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 29,
+      "ocr": "Ie=collector",
+      "fixed": "I_{c}=collector",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 30,
+      "ocr": "exemitter",
+      "fixed": "V_{e}=emitter",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 31,
+      "ocr": "Ver=collector",
+      "fixed": "V_{c}=collector",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 34,
+      "ocr": ",",
+      "fixed": "",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 39,
+      "ocr": "equais",
+      "fixed": "equals",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 40,
+      "ocr": "0.99..",
+      "fixed": "0.99.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 43,
+      "ocr": "9999.",
+      "fixed": ".9999.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 47,
+      "ocr": "(l—a2)",
+      "fixed": "(1−α_{2})",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 50,
+      "ocr": "In",
+      "fixed": "I_{b}",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 50,
+      "ocr": "Ie+Ie,",
+      "fixed": "I_{e}+I_{c},",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 51,
+      "ocr": "fowing",
+      "fixed": "flowing",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 53,
+      "ocr": "Ik,",
+      "fixed": "I_{c},",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 55,
+      "ocr": "Re,",
+      "fixed": "R_{c},",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 56,
+      "ocr": "(1—a) Ie. ,",
+      "fixed": "(1−α)I_{e}.",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 57,
+      "ocr": "(1-—-a1)Ze1",
+      "fixed": "(1−α_{1})I_{e1}",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 58,
+      "ocr": "(1—a2) Zea",
+      "fixed": "(1−α_{2})I_{e2}",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 59,
+      "ocr": "Ie:",
+      "fixed": "I_{e1}",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 60,
+      "ocr": "In.",
+      "fixed": "I_{b2}.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 61,
+      "ocr": "(i—a1) (l—aa)Je2",
+      "fixed": "(1−α_{1})(1−α_{2})I_{e2}",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 62,
+      "ocr": "i:",
+      "fixed": "1.",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 62,
+      "ocr": "Ie",
+      "fixed": "I_{e2}",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 64,
+      "ocr": "Ipi",
+      "fixed": "I_{b1}",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 64,
+      "ocr": "In.",
+      "fixed": "I_{b}.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 65,
+      "ocr": "(1—a1) (l—a2) Te",
+      "fixed": "(1−α_{1})(1−α_{2})I_{e}",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 68,
+      "ocr": "(1—a) Le:",
+      "fixed": "(1−α)I_{e}:",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 69,
+      "ocr": "(1l—a) == (1—ai) (l—a2)",
+      "fixed": "(1−α)≡(1−α_{1})(1−α_{2})",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 1,
+      "ocr": "‘ape",
+      "fixed": "age",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 1,
+      "ocr": "emitter-to-pase",
+      "fixed": "emitter-to-base",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 2,
+      "ocr": "",
+      "fixed": "are usually small, and thus both collector voltages",
+      "basis": "scan (line not read by OCR)"
+    },
+    {
+      "col": 5,
+      "line": 3,
+      "ocr": "‘This",
+      "fixed": "This",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 3,
+      "ocr": "operatt-",
+      "fixed": "operat-",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 5,
+      "ocr": "\"With",
+      "fixed": "With",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 5,
+      "ocr": "a,",
+      "fixed": "a",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 7,
+      "ocr": "Ie=Ie2.",
+      "fixed": "I_{e1}=I_{b2}.",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 8,
+      "ocr": "Icoxz",
+      "fixed": "I_{c02}",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 9,
+      "ocr": "‘be",
+      "fixed": "be",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 10,
+      "ocr": "«.",
+      "fixed": "α.",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 11,
+      "ocr": "Re, Ibe",
+      "fixed": "R_{c}, I_{b2}",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 12,
+      "ocr": "(as) Te2+-Jeoe.",
+      "fixed": "(1−α_{2})I_{e2}+I_{c02}.",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 12,
+      "ocr": "Ie,",
+      "fixed": "I_{e1},",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 13,
+      "ocr": "‘must",
+      "fixed": "must",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 13,
+      "ocr": "Ice",
+      "fixed": "I_{c02}",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 13,
+      "ocr": "Tee",
+      "fixed": "I_{e2}",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 15,
+      "ocr": "(1—o2)7e2",
+      "fixed": "(1−α_{2})I_{e2}",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 15,
+      "ocr": "for. Teoz.",
+      "fixed": "for I_{c02}.",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 16,
+      "ocr": "‘The",
+      "fixed": "The",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 17,
+      "ocr": "‘be",
+      "fixed": "be",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 21,
+      "ocr": "‘base",
+      "fixed": "base",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 28,
+      "ocr": "in.",
+      "fixed": "in",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 31,
+      "ocr": "‘hody",
+      "fixed": "body",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 33,
+      "ocr": "‘tact",
+      "fixed": "tact",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 34,
+      "ocr": "‘Brattain",
+      "fixed": "Brattain",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 35,
+      "ocr": "-are",
+      "fixed": "are",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 38,
+      "ocr": "the.collector",
+      "fixed": "the collector",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 40,
+      "ocr": "i5.",
+      "fixed": "15.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 40,
+      "ocr": "iT",
+      "fixed": "17",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 41,
+      "ocr": "{8",
+      "fixed": "18",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 41,
+      "ocr": "proyided",
+      "fixed": "provided",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 43,
+      "ocr": "In",
+      "fixed": "in",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 47,
+      "ocr": "‘the -col-",
+      "fixed": "the col-",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 48,
+      "ocr": "Re",
+      "fixed": "R_{c}",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 49,
+      "ocr": ". ‘The",
+      "fixed": "The",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 49,
+      "ocr": "‘in",
+      "fixed": "in",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 52,
+      "ocr": "eonductive",
+      "fixed": "conductive",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 53,
+      "ocr": "if",
+      "fixed": "11",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 54,
+      "ocr": "i2",
+      "fixed": "12",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 60,
+      "ocr": "let Tera — a",
+      "fixed": "r_{e}≅r_{b1}+r_{e1}/(1−α_{1})",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 5,
+      "line": 62,
+      "ocr": "r T eT e2 = a)ra",
+      "fixed": "r_{b}≅r_{e1}r_{e2}/((1−α_{1})r_{c1})",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 5,
+      "line": 64,
+      "ocr": "reft (1L—as) ree",
+      "fixed": "r_{c}≅(1−α_{2})r_{c2}",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 5,
+      "line": 66,
+      "ocr": "Lot Te0o= a1) (1a)",
+      "fixed": "I_{c0}≅I_{c01}/((1−α_{1})(1−α_{2}))",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 5,
+      "line": 68,
+      "ocr": "Qj &g e=G— a) (1—a)",
+      "fixed": "α≅α_{1}α_{2}/((1−α_{1})(1−α_{2}))",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 5,
+      "line": 70,
+      "ocr": "Vi=rletro(letle)",
+      "fixed": "V_{e}=r_{e}I_{e}+r_{b}(I_{c}+I_{e})",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 5,
+      "line": 72,
+      "ocr": "V o=re(Le—Leotol.) trs(Ie+I.)",
+      "fixed": "V_{c}=r_{c}(I_{c}−I_{c0}+αI_{e})+r_{b}(I_{c}+I_{e})",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 6,
+      "line": 1,
+      "ocr": "‘tratsistor",
+      "fixed": "transistor",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 1,
+      "ocr": "‘greater",
+      "fixed": "greater",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 2,
+      "ocr": "‘either",
+      "fixed": "either",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 3,
+      "ocr": "Re",
+      "fixed": "R_{c}",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 3,
+      "ocr": "‘base ‘resistance",
+      "fixed": "base resistance",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 4,
+      "ocr": "Rp",
+      "fixed": "R_{b}",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 4,
+      "ocr": "smail.",
+      "fixed": "small.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 5,
+      "ocr": "the-case",
+      "fixed": "the case",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 6,
+      "ocr": "4a",
+      "fixed": "4 a",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 6,
+      "ocr": "‘on",
+      "fixed": "on",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 7,
+      "ocr": "‘This",
+      "fixed": "This",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 7,
+      "ocr": "“be",
+      "fixed": "be",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 8,
+      "ocr": "‘reduced,",
+      "fixed": "reduced,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 8,
+      "ocr": "‘by",
+      "fixed": "by",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 8,
+      "ocr": "‘additional",
+      "fixed": "additional",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 10,
+      "ocr": "‘In",
+      "fixed": "In",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 10,
+      "ocr": "‘portrayed",
+      "fixed": "portrayed",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 11,
+      "ocr": "‘units,",
+      "fixed": "units,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 13,
+      "ocr": "‘type, ‘are",
+      "fixed": "type, are",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 13,
+      "ocr": "‘as",
+      "fixed": "as",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 13,
+      "ocr": "‘tthe",
+      "fixed": "the",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 14,
+      "ocr": "‘hereinabove.",
+      "fixed": "hereinabove.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 14,
+      "ocr": "-as",
+      "fixed": "as",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 15,
+      "ocr": "‘6,",
+      "fixed": "6,",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 15,
+      "ocr": "‘to ‘the",
+      "fixed": "to the",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 16,
+      "ocr": "‘the",
+      "fixed": "the",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 16,
+      "ocr": "‘the",
+      "fixed": "the",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 18,
+      "ocr": "¢ol-",
+      "fixed": "col-",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 19,
+      "ocr": "‘to",
+      "fixed": "to",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 21,
+      "ocr": "‘tively",
+      "fixed": "tively",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 22,
+      "ocr": "‘the",
+      "fixed": "the",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 22,
+      "ocr": "‘base ‘and:",
+      "fixed": "base and",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 24,
+      "ocr": "6A:",
+      "fixed": "6A.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 29,
+      "ocr": "Toit ea a Vel",
+      "fixed": "r_{e}≅r_{b1}r_{e2}/r_{c1}",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 6,
+      "line": 31,
+      "ocr": "rerat (l—en)rormta",
+      "fixed": "r_{b}≅r_{e1}+(1−α_{1})r_{b1}≅r_{e1}",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 6,
+      "line": 32,
+      "ocr": "feSer e2",
+      "fixed": "r_{c}≅r_{c2}",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 6,
+      "line": 34,
+      "ocr": "Lo T 02 OL cor",
+      "fixed": "I_{c0}≅I_{c02}−α_{2}I_{c01}",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 6,
+      "line": 35,
+      "ocr": "~ 1—ay 1 2 1 Te baja;",
+      "fixed": "1−α≅(1−α_{2})/(1−α_{2}+α_{1}α_{2})≅1−α_{2}",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 6,
+      "line": 37,
+      "ocr": "Vi.=r eletto{Ie+Te)",
+      "fixed": "V_{e}=r_{e}I_{e}+r_{b}(I_{c}+I_{e})",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 6,
+      "line": 39,
+      "ocr": "V =re(l.—Iotel,) +re(Te+J7e)",
+      "fixed": "V_{c}=r_{c}(I_{e}−I_{c0}+αI_{e})+r_{b}(I_{c}+I_{e})",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 6,
+      "line": 40,
+      "ocr": "‘the",
+      "fixed": "the",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 42,
+      "ocr": "«cept",
+      "fixed": "cept",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 43,
+      "ocr": "{",
+      "fixed": "1",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 44,
+      "ocr": "Substantially",
+      "fixed": "substantially",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 48,
+      "ocr": "jation",
+      "fixed": "lation",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 48,
+      "ocr": "fullest.",
+      "fixed": "fullest",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 49,
+      "ocr": "1&6",
+      "fixed": "16",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 52,
+      "ocr": "deseribed",
+      "fixed": "described",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 60,
+      "ocr": "i",
+      "fixed": "1",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 11,
+      "ocr": "{",
+      "fixed": "1",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 12,
+      "ocr": "necessi-~",
+      "fixed": "necessi-",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 17,
+      "ocr": "_",
+      "fixed": "",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 37,
+      "ocr": "base,",
+      "fixed": "base.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 41,
+      "ocr": "Asignal",
+      "fixed": "A signal",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 43,
+      "ocr": "a.",
+      "fixed": "a",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 49,
+      "ocr": "4:",
+      "fixed": "4.",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 9,
+      "ocr": "A.",
+      "fixed": "A",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 10,
+      "ocr": "claim.5",
+      "fixed": "claim 5",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 15,
+      "ocr": "&",
+      "fixed": "8.",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 19,
+      "ocr": "contiguous.",
+      "fixed": "contiguous",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 27,
+      "ocr": ".",
+      "fixed": "",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 30,
+      "ocr": ";",
+      "fixed": "",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 39,
+      "ocr": "connections:",
+      "fixed": "connections",
+      "basis": "scan + Google Patents"
+    }
+  ]
+}

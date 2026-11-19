@@ -1,0 +1,316 @@
+{
+ "pn": "174465",
+ "figures": [
+  {
+   "id": "1",
+   "label": "Fig. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    336,
+    724,
+    1741,
+    1001
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "Fig. 2",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    341,
+    984,
+    1686,
+    1222
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "Fig. 3",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    347,
+    1209,
+    1695,
+    1466
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "Fig. 4",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    351,
+    1537,
+    1708,
+    2250
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "Fig. 5",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    495,
+    2272,
+    1646,
+    2685
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "Fig. 6",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    371,
+    717,
+    1720,
+    1943
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "Fig. 7",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    457,
+    2047,
+    1658,
+    2618
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "A",
+   "name": "intermittent currents",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "alt": [
+    "sinusoidal curve",
+    "electro-magnet",
+    "instrument",
+    "instruments",
+    "cone"
+   ]
+  },
+  {
+   "ref": "B",
+   "name": "intermittent currents",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "6"
+   ],
+   "alt": [
+    "sinusoidal curve",
+    "instruments"
+   ]
+  },
+  {
+   "ref": "C",
+   "name": "instruments",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "A1",
+   "name": "instruments",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "A2",
+   "name": "instruments",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "B1",
+   "name": "instruments",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "B2",
+   "name": "instruments",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "C1",
+   "name": "instruments",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "C2",
+   "name": "instruments",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "E",
+   "name": "",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "I",
+   "name": "instruments",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "L",
+   "name": "",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "a",
+   "name": "horizontal line",
+   "figs": [
+    "4",
+    "7"
+   ],
+   "alt": [
+    "horizontal distance",
+    "stretched membrane"
+   ]
+  },
+  {
+   "ref": "b",
+   "name": "elevations",
+   "figs": [
+    "4",
+    "5",
+    "7"
+   ],
+   "alt": [
+    "one of its legs",
+    "electro-magnet"
+   ]
+  },
+  {
+   "ref": "c",
+   "name": "depressions",
+   "figs": [
+    "1",
+    "4",
+    "5",
+    "7"
+   ],
+   "alt": [
+    "steel-spring armature",
+    "armature"
+   ]
+  },
+  {
+   "ref": "d",
+   "name": "breaks of the circuit",
+   "figs": [
+    "1",
+    "4",
+    "5",
+    "7"
+   ],
+   "alt": [
+    "horizontal line",
+    "uncovered leg"
+   ]
+  },
+  {
+   "ref": "e",
+   "name": "horizontal line",
+   "figs": [
+    "4",
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "ref": "f",
+   "name": "horizontal line",
+   "figs": [
+    "4",
+    "5",
+    "7"
+   ],
+   "alt": [
+    "electro-magnet"
+   ]
+  },
+  {
+   "ref": "g",
+   "name": "",
+   "figs": [
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "ref": "h",
+   "name": "armature",
+   "figs": [
+    "5",
+    "7"
+   ]
+  },
+  {
+   "ref": "i",
+   "name": "",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "k",
+   "name": "",
+   "figs": [
+    "7"
+   ]
+  }
+ ]
+}

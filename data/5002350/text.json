@@ -1,0 +1,1593 @@
+{
+ "pn": "5002350",
+ "number": "5,002,350",
+ "title": "OPTICAL MULTIPLEXER/DEMULTIPLEXER",
+ "inventors": [
+  "Corrado Dragone"
+ ],
+ "assignee": "AT&T Bell Laboratories, Murray Hill, N.J.",
+ "filed": "1990-02-26",
+ "issued": "1991-03-26",
+ "appl_no": "485,014",
+ "int_cl": "G02B 6/26; H04J 14/00",
+ "us_cl": "350/96.15; 350/96.16; 350/96.24; 370/3; 370/4",
+ "field_of_search": "350/96.15, 96.16, 96.20, 350/96.22, 96.24; 370/1, 2, 3, 4; 250/227.11",
+ "refs_patents": [
+  {
+   "no": "3,849,604",
+   "date": "11/1974",
+   "name": "Benes et al.",
+   "cl": "370/4 X"
+  },
+  {
+   "no": "3,892,468",
+   "date": "7/1975",
+   "name": "Duguay",
+   "cl": "350/96.24 X"
+  },
+  {
+   "no": "3,925,727",
+   "date": "12/1975",
+   "name": "Duguay",
+   "cl": "350/96.24 X"
+  },
+  {
+   "no": "4,053,764",
+   "date": "10/1977",
+   "name": "Sierak et al.",
+   "cl": "350/96.15 X"
+  },
+  {
+   "no": "4,243,297",
+   "date": "1/1981",
+   "name": "Elion",
+   "cl": "350/96.15"
+  },
+  {
+   "no": "4,296,319",
+   "date": "10/1981",
+   "name": "Franks et al.",
+   "cl": "350/96.15 X"
+  },
+  {
+   "no": "4,482,994",
+   "date": "11/1984",
+   "name": "Ishikawa",
+   "cl": "370/3"
+  },
+  {
+   "no": "4,511,206",
+   "date": "4/1985",
+   "name": "Thylen et al.",
+   "cl": "350/96.11"
+  },
+  {
+   "no": "4,522,461",
+   "date": "6/1985",
+   "name": "Mannschke",
+   "cl": "350/96.15 X"
+  },
+  {
+   "no": "4,650,279",
+   "date": "3/2987",
+   "name": "Magee",
+   "cl": "350/96.24"
+  },
+  {
+   "no": "4,707,062",
+   "date": "11/1987",
+   "name": "Abe et al.",
+   "cl": "350/96.16"
+  },
+  {
+   "no": "4,725,774",
+   "date": "2/1988",
+   "name": "Davis et al.",
+   "cl": "324/77"
+  },
+  {
+   "no": "4,750,802",
+   "date": "6/1988",
+   "name": "Bhagavatula",
+   "cl": "350/96.15"
+  },
+  {
+   "no": "4,786,131",
+   "date": "11/1988",
+   "name": "Mahabatra et al.",
+   "cl": "350/96.16"
+  },
+  {
+   "no": "4,867,520",
+   "date": "9/1989",
+   "name": "Weidel",
+   "cl": "350/96.16"
+  },
+  {
+   "no": "4,904,042",
+   "date": "2/1990",
+   "name": "Dragone",
+   "cl": "350/96.16"
+  }
+ ],
+ "refs_other": [
+  "Boyd et al., “Optical Channel Waveguide Arrays . . . ” Optical Engineering May/Jun., 1980 vol. 19, No. 3, pp. 387–391. 1",
+  "Lipson, et al., Journal of Lightwave Technology, vol. LT-3, No. 5, Oct. 1985, pp. 1159–1163.",
+  "H. Takahashi, et al., Electronics Letters, vol. 26, No. 2, Jan 18, 1990, pp. 87, 88.",
+  "Smit, Electronic Letters, 1988, vol,. 24, pp. 385–386."
+ ],
+ "examiners": "Primary Examiner--Brian Healy",
+ "claims_count": 16,
+ "drawing_figures": 3,
+ "drawing_sheets": 3,
+ "abstract": "This invention is an optical Multiplexer/Demultiplexer, built from a plurality of optical waveguides. Each waveguide differs in length from its neighboring waveguide by a predetermined amount. The waveguides are strongly coupled to one another at their respective ends, and substantially uncoupled therebetween, allowing for high efficiency.",
+ "sections": [
+  {
+   "heading": "BACKGROUND OF THE INVENTION — 1. Field of the Invention",
+   "paras": [
+    {
+     "col": 1,
+     "line": 6,
+     "text": "This invention relates to an optical diffractor, which in many embodiments, will be used as a multiplexer/demultiplexer."
+    }
+   ]
+  },
+  {
+   "heading": "2. Description of the Prior Art",
+   "paras": [
+    {
+     "col": 1,
+     "line": 11,
+     "text": "Optical multiplexing and demultiplexing is normally accomplished by means of a dispersive element, such as a diffraction grating, prism, hologram, etc. One such optical multiplexer/demultiplexer is described in the article “A Six-Channel Wavelength Multiplexer and Demultiplexer For Single Mode Systems” by J. Lipson et al. in Journal of Lightwave Technology, Vol. LT-3, No. 5, Oct. 1985. In the Lipson article, a blazed diffraction grating is utilized for combining and separating various wavelengths of light. Demultiplexing is accomplished by transmitting the multiplexed signal through the grating, which separates the individual wavelengths of light and diffracts each in a slightly different direction. Multiplexing is accomplished by utilizing the same device in reverse; i.e., shining each wavelength through the grating at a predetermined wavelength dependent angle such that all the wavelengths emerge essentially as one single multiplexed beam of light."
+    },
+    {
+     "col": 1,
+     "line": 29,
+     "text": "This conventional grating, which has been widely utilized in optical communications systems, has several drawbacks. First, some of the incident power is usually lost, because a grating with a period less than half the wavelength of the incident light produces unwanted higher order modes in unwanted directions. Second, due to current manufacturing technology, gratings have limited resolution i.e., wavelengths within 5 Angstroms of each other will not normally be separated. Finally, the grating is typically combined with a lens or reflector to focus the light, and the lens or reflector is difficult to implement in integrated form using, for example, photolithographic techniques."
+    },
+    {
+     "col": 1,
+     "line": 42,
+     "text": "Several proposals have previously been made in an attempt to overcome the above problems. One optical multiplexer which overcomes the above problems to some extent is described in the article, “New Focusing and Dispersive Planar Component Based on an Optical Phased Array”, by M. K. Smit, in Electronic Letters, 1988, Vol. 24, pp. 385–386. In the Smit article, a plurality of optical waveguides are utilized, each of a different length, to construct an optical phased array. The resulting structure acts as a high resolution optical multiplexer. However, due to the fact that there is essentially no mutual coupling among the waveguides, the structure is highly inefficient."
+    }
+   ]
+  },
+  {
+   "heading": "SUMMARY OF THE INVENTION",
+   "paras": [
+    {
+     "col": 1,
+     "line": 57,
+     "text": "The foregoing problems in the prior art have been solved in accordance with the present invention which relates to a highly efficient optical multiplexer/demultiplexer constructed from a plurality of optical waveguides of various lengths. Each waveguide differs in length from its neighboring waveguide by a predetermined amount. The waveguides are substantially uncoupled throughout their entire lengths, except at their ends, where strong mutual coupling between the waveguides exists. The transition from the coupled portions to the uncoupled portions is gradual, resulting in negligible higher order mode generation. In one embodiment, this gradual coupling is implemented by an outward taper at the end of each waveguide."
+    }
+   ]
+  },
+  {
+   "heading": "BRIEF DESCRIPTION OF THE DRAWINGS",
+   "paras": [
+    {
+     "col": 2,
+     "line": 5,
+     "text": "FIG. 1 shows an exemplary embodiment of the inventive multiplexer/demultiplexer;"
+    },
+    {
+     "col": 2,
+     "line": 7,
+     "text": "FIG. 2 shows an enlarged view of two exemplary waveguide arrays of FIG. 1; and"
+    },
+    {
+     "col": 2,
+     "line": 9,
+     "text": "FIG. 3 shows two refractive profiles, defined in more detail hereafter."
+    }
+   ]
+  },
+  {
+   "heading": "DETAILED DESCRIPTION",
+   "paras": [
+    {
+     "col": 2,
+     "line": 13,
+     "text": "FIG. 1 shows an exemplary embodiment of the invention comprising eleven waveguides 101–111, arranged into four waveguide arrays 112–115, each of which defines a substantially circular arc. The arc formed by waveguide array 112 is part of a circle which has its center along waveguide array 115. Further, the arc formed by waveguide array 115 is part of a circle which has its center along waveguide array 112. Waveguide arrays 113 and 114 are arranged similarly."
+    },
+    {
+     "col": 2,
+     "line": 23,
+     "text": "Waveguide arrays 113 and 115 can only be used effectively within their respective Brillouin zones, whose width 2γ is specified by:"
+    },
+    {
+     "col": 2,
+     "line": 27,
+     "text": "sinγ = ½ λ/a_{0} . (1)"
+    },
+    {
+     "col": 2,
+     "line": 30,
+     "text": "where a_{0} is the distance between waveguide centers at the larger opening of the waveguides as shown in FIG. 2 and λ is the wavelength of the incident light. It should be noted that the multiplexer/demultiplexer will be utilized with differing wavelengths, and consequently, the width of the Brillioun zone will not be constant for all incident light."
+    },
+    {
+     "col": 2,
+     "line": 37,
+     "text": "Returning to FIG. 1, the waveguides 106–108 are arranged to occupy a predetermined fraction of the Brillouin zone of waveguide array 115. The fraction of the Brillouin zone occupied is denoted herein as the field of view, and has width 2γ_{0} as shown in FIG. 2. Waveguides 109–111 of FIG. 1 occupy the field of view of waveguide array 113."
+    },
+    {
+     "col": 2,
+     "line": 44,
+     "text": "For purposes of clarity, operation of the device will be first described as if only one of waveguides 106–108 of waveguide array 112 is excited. The use of the device as a multiplexer/demultiplexer will then be explained."
+    },
+    {
+     "col": 2,
+     "line": 48,
+     "text": "Waveguides 101–105 are each of a different length, and each differs in length from its adjacent waveguide by a fixed amount denoted 1. Consider a wave of wavelength λ_{0} emanating from waveguide 106 toward waveguides 101–105, where λ_{0} and 1 are chosen such that 1 is an integer multiple of λ_{0}. Due to the difference in length from waveguide 106 to each of waveguides 101–105, the phase of the emanating wave as it is received by each of waveguides 101–105 will be different. More particularly, the wave will be received by waveguide 101 at some reference phase 0, while being received at waveguides 102, 103, 104 and 105 at phase φ, 2φ, 3φ and 4φ respectively."
+    },
+    {
+     "col": 2,
+     "line": 62,
+     "text": "As the wave propagates along the tapered region of the waveguides of waveguide array 115, it is gradually transformed into five separate uncoupled waves, with such transformation causing near zero higher order mode generation. Each of the five uncoupled waves will then propagate along its respective waveguide until reaching waveguide array 113."
+    },
+    {
+     "col": 3,
+     "line": 1,
+     "text": "At waveguide array 113, the five waves are gradually coupled back into a single propagating wavefront, which emanates toward waveguide array 114. Since 1 is an integer multiple of λ_{0}, the constant phase difference φ between adjacent waveguides is preserved. Thus the wave emanating from each of the waveguides of waveguide array 113 is phase shifted by φ from the wave emanating from its neighboring waveguide."
+    },
+    {
+     "col": 3,
+     "line": 9,
+     "text": "The five waves will combine to produce a single wavefront which propagates in a direction that corresponds exactly to the direction along waveguide array 112 from which the wave was launched. More particularly, a wave launched from waveguide 106 will be directed by waveguide array 113 toward waveguide 109, since waveguides 106 and 109 are disposed in corresponding positions of their respective waveguide arrays 112 and 114. Similarly, waves which are launched from waveguides 107 or 108, will be directed by waveguide array 113 at waveguides 110 and 111, respectively. This is due to the fact that waveguides 107 and 110 are located in corresponding positions of their respective waveguide arrays 112 and 114, as are waveguides 108 and 111."
+    },
+    {
+     "col": 3,
+     "line": 24,
+     "text": "Note that as the waves propagate along their respective waveguides, the phase of the wave in any waveguide is substantially unaffected by the phase of the wave in any other waveguide. This is due to the lack of coupling of the waveguides throughout their lengths, which allows each wave to propagate independently. Further, if the wavelength of the incident light is not an integer multiple of the path length difference 1, this independent propagation allows the phase relationship among the five waves to change as the waves propagate through the waveguides. This property allows construction of a multiplexer/demultiplexer as described below."
+    },
+    {
+     "col": 3,
+     "line": 37,
+     "text": "Assume that 1 is not an integer multiple of the wavelength. In this case, energy launched from one of waveguides 106–108 of waveguide array 112 will not be directed by waveguide array 113 toward the corresponding waveguide along waveguide array 114. A wave launched from waveguide 106, for example, would not be directed by waveguide array 113 towards waveguide 110 of waveguide array 114, even though waveguide 110 and waveguide 106 are in corresponding positions of their respective waveguide arrays 112 and 114. Rather, the direction of the wave when it emanates from waveguide array 114 will be displaced laterally by some predetermined amount D. The amount of displacement D, is a function of the wavelength of the wave and is specified by"
+    },
+    {
+     "col": 3,
+     "line": 53,
+     "text": "D = (R/a_{0}) ((λ − λ_{0})/λ_{0}) 1 (2)"
+    },
+    {
+     "col": 3,
+     "line": 56,
+     "text": "where R is the radius of the arc defined by waveguides 101–105, λ_{0} is the nearest wavelength to λ such that 1 is an integer multiple of λ_{0}, and 1 and a_{0} are as previously defined."
+    },
+    {
+     "col": 3,
+     "line": 60,
+     "text": "Thus, it can be seen that if a wave comprising a plurality of wavelengths is launched from waveguide 106, each of the wavelengths will emanate in a different direction from waveguide array 113. This property can be utilized to build a demultiplexer. More particularly, consider a wave comprising wavelengths λ_{1}, λ_{2}, and λ_{3} launched from waveguide 106, for example, toward waveguide array 115 of FIG. 1. Equation 2 can be utilized to arrange waveguide array 114 such that each of the wavelengths λ_{1}, λ_{2}, and λ_{3} is directed toward a separate one of waveguides 109–111. This can be done by calculating D for each wavelength and positioning waveguides 109–111 accordingly. Further, if each of the waveguides 106–108 is excited with a different wavelength, the different wavelengths can be selected so that they all emanate into the same one of waveguides 109–111."
+    },
+    {
+     "col": 4,
+     "line": 9,
+     "text": "Having established basic principles of operation it may be desired to improve the efficiency of the multiplexer/demultiplexer. In order for the efficiency to be close to unity, the receiving waveguides must almost touch each other, so that essentially the entire incident power is collected. Thus, the initial separation l in FIG. 2 must be very small. In order for the power received by waveguide array 115 to be transferred efficiently to waveguide array 113, the waveguides in waveguide array 115 must include a transition in which the separation l between waveguides gradually increases. If the field of view γ_{0} is appreciably smaller than γ, for instance,"
+    },
+    {
+     "col": 4,
+     "line": 24,
+     "text": "|γ_{0}|<0.5γ (3)"
+    },
+    {
+     "col": 4,
+     "line": 26,
+     "text": "then efficiencies close to unity will be obtained by simply using a linear transition, characterized by a linear variation of l, with"
+    },
+    {
+     "col": 4,
+     "line": 30,
+     "text": "L > 60 a_{0}/λ (4)"
+    },
+    {
+     "col": 4,
+     "line": 33,
+     "text": "where L is the length of the transition. For some applications, however, the required field of view may exceed 0.5γ. Then, the above length must be increased, and the required increase can be calculated by means of the standard design formulae of waveguide tapers. In order to obtain, for instance, efficiencies exceeding 90 percent for |γ_{0}|>0.75γ, one must choose"
+    },
+    {
+     "col": 4,
+     "line": 42,
+     "text": "L > 200 a_{0}/λ ."
+    },
+    {
+     "col": 4,
+     "line": 44,
+     "text": "Much larger L will be required for |γ_{0}| much closer to γ. It will then become important to use, instead of a linear taper, a more efficient taper which can be designed as follows."
+    },
+    {
+     "col": 4,
+     "line": 48,
+     "text": "FIG. 2 shows an enlarged view of waveguide arrays 112 and 115 of FIG. 1. The parameters c, c′, a and t will be described hereafter. The larger openings of the waveguides define an arc on a circle. The longitudinal axes of the waveguides intersect at the center of the circle."
+    },
+    {
+     "col": 4,
+     "line": 55,
+     "text": "FIG. 3 shows a plot of"
+    },
+    {
+     "col": 4,
+     "line": 58,
+     "text": "n^{2}a^{2}[2π/λ]^{2} (5)"
+    },
+    {
+     "col": 4,
+     "line": 61,
+     "text": "as a function of the position along a cross section of FIG. 2, where n is the index of refraction at the particular point in question, λ is a wavelength of the light being used to excite the waveguide array, and a is the distance between waveguide centers. Traversing the horizontal axes labeled z=c and z=c′ in FIG. 3 is equivalent to traversing the arcs c and c′, respectively, of FIG. 2. For purposes of explanation, equation 5, plotted for any circular cross-section of FIG. 2 such as those labeled c and c′, is referred to herein as a refractive profile."
+    },
+    {
+     "col": 5,
+     "line": 3,
+     "text": "Everything in equation 5 is constant for a given refractive profile, except for n, which will oscillate up and down as the waveguides are entered and exited respectively. Thus, each plot is a periodic square wave with amplitude proportional to the square of the index of refraction at the particular point in question along an arc."
+    },
+    {
+     "col": 5,
+     "line": 10,
+     "text": "Note that once the diameter of the arc formed by each waveguide array is determined, specifying the refractive profiles at closely spaced intervals along the longitudinal axes of the waveguides will uniquely determine the taper shown at the end of each waveguide in FIG. 2. The closer the intervals, the more accurate the design of the taper. Specifying this taper correctly will maximize the efficiency of the waveguide array by reducing the amount of energy in unwanted higher order modes."
+    },
+    {
+     "col": 5,
+     "line": 21,
+     "text": "The correct property to be satisfied by each refractive profile is that its first order Fourier coefficient, denoted V, should essentially satisfy the condition"
+    },
+    {
+     "col": 5,
+     "line": 26,
+     "text": "V = 2π^{2} [(sinγ − sinθ_{B})/sinγ] [p(y)/√(1 − p^{2}(y))] (6)"
+    },
+    {
+     "col": 5,
+     "line": 29,
+     "text": "where θ_{B} is an arbitrary angle within the central Brillouin zone,"
+    },
+    {
+     "col": 5,
+     "line": 33,
+     "text": "p(y) = 3 (y/2) (1 − ⅓y^{2}),"
+    },
+    {
+     "col": 5,
+     "line": 36,
+     "text": "y = F_{r}(|z|/L) + F_{t},"
+    },
+    {
+     "col": 5,
+     "line": 39,
+     "text": "L is equal to the length of the tapered region excluding the dashed portion as shown in FIG. 2, F_{r} and F_{t} are the fractions of the waveguide remaining and truncated, respectively, and |z| is the distance from the wider end of the waveguide to the point where the refractive profile intersects the longitudinal axis of the waveguide. The length of the waveguide before truncation would include the dashed portion of each waveguide, shown in FIG. 2. This can be calculated easily since, at the point when the waveguides are tangent, (z=t in FIG. 2), V will equal 0 as the plot n^{2}a^{2}"
+    },
+    {
+     "col": 5,
+     "line": 52,
+     "text": "[2π/λ]^{2}"
+    },
+    {
+     "col": 5,
+     "line": 55,
+     "text": "is a constant. Thus, by finding the point z=t along a z axis such that V=0, one can determine the length before truncation. The length after truncation will be discussed later herein, however, for purposes of the present discussion, F_{t} can be assumed zero, corresponding to an untruncated waveguide. It can be verified that for an arrangement such as that of FIG. 2,"
+    },
+    {
+     "col": 5,
+     "line": 64,
+     "text": "V = ((n_{1} + n_{2})(n_{1} − n_{2})/4π) k^{2}a^{2}sin(lπ/a) (7)"
+    },
+    {
+     "col": 5,
+     "line": 67,
+     "text": "where n_{1} and n_{2} are the refractive indices inside and between the waveguides respectively, and"
+    },
+    {
+     "col": 6,
+     "line": 3,
+     "text": "k = 2π/λ ."
+    },
+    {
+     "col": 6,
+     "line": 5,
+     "text": "Thus, from equations 6 and 7:"
+    },
+    {
+     "col": 6,
+     "line": 8,
+     "text": "[(sinγ − sinθ_{B})/sinγ] [p(y)/√(1 − p^{2}(y))] = ((n_{1} + n_{2})(n_{1} − n_{2})/4π) k^{2}a^{2}sin(lπ/a) (8)"
+    },
+    {
+     "col": 6,
+     "line": 15,
+     "text": "Thus, after specifying θ_{B} and assuming F_{t} equals zero, equation 8 can be used to specify 1 at various points along the z axes and thereby define the taper of the waveguides."
+    },
+    {
+     "col": 6,
+     "line": 19,
+     "text": "Throughout the above discussion γ_{0}, θ_{B}, and F_{t} were assumed to be design parameters which were selected independently. In actuality, these three parameters interact in a complex manner to influence the performance of the multiplexer/demultiplexer. The following discussion is provided to clarify the interaction of γ_{0}, θ_{B}, and F_{t}."
+    },
+    {
+     "col": 6,
+     "line": 26,
+     "text": "One figure of merit M for a waveguide array which emanates towards a second waveguide array, is described by the following equation:"
+    },
+    {
+     "col": 6,
+     "line": 31,
+     "text": "M = N^{2}(γ_{0}) sinγ_{0}/sinγ (9)"
+    },
+    {
+     "col": 6,
+     "line": 33,
+     "text": "where N(θ) is calculated by using the following set of equations:"
+    },
+    {
+     "col": 6,
+     "line": 37,
+     "text": "v = ∫_{0}^{z} (B_{0} − B_{1})dz (10)"
+    },
+    {
+     "col": 6,
+     "line": 40,
+     "text": "τ = ∫_{0}^{v_{L}} t exp(jv)dv (11)"
+    },
+    {
+     "col": 6,
+     "line": 43,
+     "text": "t = (a^{2}/2) (B_{0}(sinγ)^{2}/(4π^{4}(sinγ − sinθ)^{2})) (dV(z)/dz) (1/(1 + u^{2})^{3/2}) (12)"
+    },
+    {
+     "col": 6,
+     "line": 46,
+     "text": "where"
+    },
+    {
+     "col": 6,
+     "line": 48,
+     "text": "u = (sinγ/(2π^{2} [sinγ − sinθ])) [V(z)] (13)"
+    },
+    {
+     "col": 6,
+     "line": 50,
+     "text": "N(θ) = 1/(1 + |τ|^{2}) (14)"
+    },
+    {
+     "col": 6,
+     "line": 53,
+     "text": "In the above equations B_{0} and B_{1} represent the propagation constant, of the fundamental mode and first higher order mode, respectively, of the waveguides, v_{L} is equal to equation 10 evaluated at z=L, and θ is any angle less than or equal to γ_{0}. In practice, θ should be set to γ_{0}, since this case represents the worst case performance within the field of view."
+    },
+    {
+     "col": 6,
+     "line": 60,
+     "text": "To maximize M the procedure is as follows: assume F_{t}=0, choose an arbitrary θ_{B}, and calculate N using equations 6 and 10–14 with θ equal to γ_{0} for all angles γ_{0} within the central Brillouin zone. Having obtained these values of N(γ_{0}), determine which γ_{0} maximizes M. This gives the maximum M for a given F_{t} and a given θ_{B}. Next, keeping F_{t} equal to 0, iterate the above process using all θ_{B}s. This gives the maximum M for a given F_{t} over all θ_{B}s. Finally, iterate the entire process with various F_{t}s until the maximum M is achieved over all θ_{B}s and F_{t}s. This can be carried out using a computer program."
+    },
+    {
+     "col": 7,
+     "line": 4,
+     "text": "It is to be understood that the above described example is for illustrative purposes only and that other variations are possible without violating the scope and spirit of the invention. For example, optional delay elements 116–120 could be inserted into the waveguides, as shown in the dashed outline in FIG. 1. The delay elements, which alter the effective length of the waveguide, could be used either in addition to or instead of the physical length differences in the waveguides. For purposes of explanation herein, the length of a waveguide includes any apparent additional length caused by the delay elements. Finally, the delay elements allow external control of the lengths by means of a control signal."
+    },
+    {
+     "col": 7,
+     "line": 19,
+     "text": "The device can be utilized as a switch rather than a multiplexer/demultiplexer. More particularly, the input to any waveguide can be shifted in wavelength to correspond to a desired output waveguide toward which it is desired to emanate the wave. The device can be fabricated on a single chip, using photolithographic techniques which are well-known in the art."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 2,
+   "line": 5,
+   "text": "FIG. 1 shows an exemplary embodiment of the inventive multiplexer/demultiplexer;"
+  },
+  {
+   "fig": "2",
+   "col": 2,
+   "line": 7,
+   "text": "FIG. 2 shows an enlarged view of two exemplary waveguide arrays of FIG. 1; and"
+  },
+  {
+   "fig": "3",
+   "col": 2,
+   "line": 9,
+   "text": "FIG. 3 shows two refractive profiles, defined in more detail hereafter."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 7,
+   "line": 27,
+   "depends": null,
+   "text": "1. An optical multiplexer/demultiplexer comprising:\na plurality of N optical waveguides, each waveguide including a first end for receiving optical energy and a second end for transmitting optical energy,\neach waveguide further being of a predetermined different length substantially equal to I+nl, where I is a predetermined initial length, n is an integer such that 0≦n≦N−1, and 1 is a predetermined value greater than zero, the waveguides being substantially coupled to each other at their respective first ends, and at their respective second ends, and substantially uncoupled therebetween such that a single wavefront of optical energy incident upon the first ends is transformed within the waveguides to a plurality of substantially uncoupled propagating waves, and the plurality of uncoupled propagating waves is transformed into substantially a single propagating wavefront before reaching the second ends."
+  },
+  {
+   "n": 2,
+   "col": 7,
+   "line": 47,
+   "depends": 1,
+   "text": "2. The optical multiplexer/demultiplexer of claim 1 wherein the first ends of each waveguide are arranged into a first waveguide array to substantially define a first arc, and wherein the second ends of the waveguides are arranged into a second waveguide array, to substantially define a second arc."
+  },
+  {
+   "n": 3,
+   "col": 7,
+   "line": 53,
+   "depends": 2,
+   "text": "3. The optical multiplexer/demultiplexer of claim 2 wherein the first end and the second end of each waveguide includes a tapered portion."
+  },
+  {
+   "n": 4,
+   "col": 7,
+   "line": 56,
+   "depends": 3,
+   "text": "4. The optical multiplexer/demultiplexer of claim 3 wherein the tapered portion includes a first end and a second end and wherein at least one of said arrays includes a series of refractive profiles, thereby defining the shape of the taper, each refractive profile comprising a first order Fourier coefficient, each first order Fourier coefficient substantially equal to:\nV = 2π^{2} [(sinγ − sinθ_{B})/sinγ] [p(y)/√(1 − p^{2}(y))]\nwhere 2γ is an angle defining a central Brillioun zone associated with the array, θ_{B} is an arbitrary angle less than or equal to γ, p(y) is substantially equal to\n3 (y/2) (1 − ⅓y^{2}), and y = F_{r}(|z|/L) + F_{t}\nz is a distance from the second end of the waveguides to the refractive profile,\nF_{t} = (L + b)/L ,\nb is a distance which an outer surface of each waveguide would have to be extended from the second end to become tangent to an adjacent waveguide, and F_{r}=1−F_{t}."
+  },
+  {
+   "n": 5,
+   "col": 8,
+   "line": 20,
+   "depends": 4,
+   "text": "5. The optical multiplexer/demultiplexer of claim 4 wherein at least one of said waveguides comprises a delay element for increasing its path length."
+  },
+  {
+   "n": 6,
+   "col": 8,
+   "line": 23,
+   "depends": 5,
+   "text": "6. The optical multiplexer/demultiplexer of claim 5 further comprising\nan input array, including:\na plurality of waveguides, each including a first end for receiving optical energy, and a second end for launching the optical energy, said second ends being arranged to substantially define a third arc, said third arc defining a portion of a circle which is centered along said first arc."
+  },
+  {
+   "n": 7,
+   "col": 8,
+   "line": 32,
+   "depends": 6,
+   "text": "7. An optical multiplexer/demultiplexer of claim 6 further comprising\nan output array, including:\na plurality of waveguides, each including a first end for receiving optical energy, and a second end for launching the optical energy, said second ends being arranged to substantially define a fourth arc, said fourth arc defining a portion of a circle which is centered along said second arc."
+  },
+  {
+   "n": 8,
+   "col": 8,
+   "line": 41,
+   "depends": null,
+   "text": "8. An optical multiplexer/demultiplexer comprising:\na plurality of optical waveguides, each having a first end for receiving optical energy and a second end for launching the optical energy, and a predetermined length,\nmeans for injecting optical energy into the first ends, and\na plurality of receivers, each for receiving optical energy which emanates from the second ends, wherein the length of each waveguide is such that optical energy emanates from the second ends at a predetermined angle that varies with wavelength,\neach of the receivers is associated with a predetermined wavelength and is positioned at the predetermined angle relative to the second ends of the waveguides, such that substantially all optical energy emanated from the second ends of the optical waveguides in a predetermined frequency band centered at the associated wavelength emanates at the predetermined angle, and\nthe waveguides are substantially coupled at their first ends and at their second ends, and substantially uncoupled therebetween such that a single wavefront of optical energy incident upon the first ends is transformed within the waveguides to a plurality of substantially uncoupled propagating waves, and the plurality of uncoupled propagating waves is transformed into substantially a single propagating wavefront before reaching the second ends."
+  },
+  {
+   "n": 9,
+   "col": 9,
+   "line": 3,
+   "depends": 8,
+   "text": "9. The optical multiplexer/demultiplexer of claim 8 wherein the first ends of the waveguides are arranged into a first waveguide array to substantially define a first arc, and wherein the second ends of the waveguides are arranged into a second waveguide array, to substantially define a second arc."
+  },
+  {
+   "n": 10,
+   "col": 9,
+   "line": 10,
+   "depends": 9,
+   "text": "10. The optical multiplexer/demultiplexer of claim 9 wherein each of the waveguides in at least one of said arrays includes a predetermined tapered portion, the tapered portion having a first end and a second end and wherein the at least one of said arrays includes a series of refractive profiles, thereby defining the shape of the taper each refractive profile comprising a first order Fourier coefficient, each first order Fourier coefficient substantially equal to:\nV = 2π^{2} [(sinγ − sinθ_{B})/sinγ] [p(y)/√(1 − p^{2}(y))]\nwhere 2γ is an angle defining a central Brillioun zone associated with the array, θ_{B} is an arbitrary angle less than or equal to γ, p(y) is substantially equal to\n3 (y/2) (1 − ⅓y^{2}), and y = F_{r}(|z|/L) + F_{t}\nz is a distance from the second end of the waveguides to the refractive profile,\nF_{t} = (L + b)/L ,\nb is a distance which an outer surface of each waveguide would have to be extended from the second end to become tangent to an adjacent waveguide, and F_{r}=1−F_{t}."
+  },
+  {
+   "n": 11,
+   "col": 10,
+   "line": 1,
+   "depends": 10,
+   "text": "11. The optical multiplexer/demultiplexer of claim 10 wherein at least one of said waveguides comprises a delay element for increasing its path length."
+  },
+  {
+   "n": 12,
+   "col": 10,
+   "line": 4,
+   "depends": 11,
+   "text": "12. The optical multiplexer/demultiplexer of claim 11 further comprising\nan input array, including:\na plurality of waveguides, each including a first end for receiving optical energy, and a second end for launching the optical energy, said second ends being arranged to substantially define a third arc, said third arc defining a portion of a circle which is centered along said first arc."
+  },
+  {
+   "n": 13,
+   "col": 10,
+   "line": 13,
+   "depends": 12,
+   "text": "13. An optical multiplexer/demultiplexer of claim 12 further comprising\nan output array, including:\na plurality of waveguides, each including a first end for receiving optical energy, and a second end for launching the optical energy, said second ends being arranged to substantially define a fourth arc, said fourth arc defining a portion of a circle which is centered along said second arc."
+  },
+  {
+   "n": 14,
+   "col": 10,
+   "line": 22,
+   "depends": 13,
+   "text": "14. An optical multiplexer/demultiplexer according to claim 13 wherein at least one of said waveguides comprises a delay element for increasing its path length."
+  },
+  {
+   "n": 15,
+   "col": 10,
+   "line": 25,
+   "depends": 14,
+   "text": "15. An optical multiplexing arrangement according to claim 14 further comprising\nan input array, including:\na plurality of waveguides, each including a first end for receiving optical energy, and a second end for launching the optical energy, said second ends being arranged to substantially define a third arc, said third arc defining a portion of a circle which is centered along said first arc."
+  },
+  {
+   "n": 16,
+   "col": 10,
+   "line": 34,
+   "depends": 15,
+   "text": "16. An optical multiplexing arrangement according to claim 15 further comprising\nan output array, including:\na plurality of waveguides, each including a first end for receiving optical energy, and a second end for launching the optical energy, said second ends being arranged to substantially define a fourth arc, said fourth arc defining a portion of a circle which is centered along said second arc."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "col": 1,
+   "line": 48,
+   "ocr": "385-386.",
+   "fixed": "385–386.",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 2,
+   "line": 14,
+   "ocr": "101-111,",
+   "fixed": "101–111,",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 2,
+   "line": 15,
+   "ocr": "112-115,",
+   "fixed": "112–115,",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 2,
+   "line": 25,
+   "ocr": "2y",
+   "fixed": "2γ",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 27,
+   "ocr": "siny = ix : ()",
+   "fixed": "sinγ = ½ λ/a_{0} . (1)",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 2,
+   "line": 30,
+   "ocr": "ao",
+   "fixed": "a_{0}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 32,
+   "ocr": "A",
+   "fixed": "λ",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 37,
+   "ocr": "106-108",
+   "fixed": "106–108",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 2,
+   "line": 41,
+   "ocr": "2yo9",
+   "fixed": "2γ_{0}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 42,
+   "ocr": "109-111",
+   "fixed": "109–111",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 2,
+   "line": 45,
+   "ocr": "106-108",
+   "fixed": "106–108",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 2,
+   "line": 48,
+   "ocr": "101-105",
+   "fixed": "101–105",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 2,
+   "line": 52,
+   "ocr": "Ao",
+   "fixed": "λ_{0}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 53,
+   "ocr": "101-105,",
+   "fixed": "101–105,",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 2,
+   "line": 53,
+   "ocr": "Ao",
+   "fixed": "λ_{0}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 54,
+   "ocr": "Ao.",
+   "fixed": "λ_{0}.",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 56,
+   "ocr": "101-105,",
+   "fixed": "101–105,",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 2,
+   "line": 57,
+   "ocr": "101-105",
+   "fixed": "101–105",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 2,
+   "line": 60,
+   "ocr": "@, 2, 3h",
+   "fixed": "φ, 2φ, 3φ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 61,
+   "ocr": "4",
+   "fixed": "4φ",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 3,
+   "ocr": "|",
+   "fixed": "1",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 4,
+   "ocr": "Ao,",
+   "fixed": "λ_{0},",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 5,
+   "ocr": "&",
+   "fixed": "φ",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 7,
+   "ocr": "@",
+   "fixed": "φ",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 37,
+   "ocr": "|",
+   "fixed": "1",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 39,
+   "ocr": "106-108",
+   "fixed": "106–108",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 3,
+   "line": 53,
+   "ocr": "A — Ao R @) 1 D= Xo a9",
+   "fixed": "D = (R/a_{0}) ((λ − λ_{0})/λ_{0}) 1 (2)",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 3,
+   "line": 57,
+   "ocr": "101-105, Ao",
+   "fixed": "101–105, λ_{0}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 57,
+   "ocr": "A",
+   "fixed": "λ",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 58,
+   "ocr": "Ao,",
+   "fixed": "λ_{0},",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 58,
+   "ocr": "|",
+   "fixed": "1",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 58,
+   "ocr": "agare",
+   "fixed": "a_{0} are",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 65,
+   "ocr": "A1, A2,",
+   "fixed": "λ_{1}, λ_{2},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 65,
+   "ocr": "A3",
+   "fixed": "λ_{3}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 1,
+   "ocr": "A, A2,",
+   "fixed": "λ_{1}, λ_{2},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 1,
+   "ocr": "A3",
+   "fixed": "λ_{3}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 2,
+   "ocr": "109-111.",
+   "fixed": "109–111.",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 4,
+   "line": 4,
+   "ocr": "109-111",
+   "fixed": "109–111",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 4,
+   "line": 5,
+   "ocr": "106-108",
+   "fixed": "106–108",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 4,
+   "line": 7,
+   "ocr": "wave- guides 109-111.",
+   "fixed": "waveguides 109–111.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 14,
+   "ocr": "|",
+   "fixed": "l",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 20,
+   "ocr": "1",
+   "fixed": "l",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 21,
+   "ocr": "yo",
+   "fixed": "γ_{0}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 21,
+   "ocr": "y,",
+   "fixed": "γ,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 24,
+   "ocr": "|¥o] <0.5y (3)",
+   "fixed": "|γ_{0}|<0.5γ (3)",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 4,
+   "line": 28,
+   "ocr": "|,",
+   "fixed": "l,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 30,
+   "ocr": "a0 (4) L> iw",
+   "fixed": "L > 60 a_{0}/λ (4)",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 4,
+   "line": 35,
+   "ocr": "0.5y.",
+   "fixed": "0.5γ.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 39,
+   "ocr": "|yo| >0.75y,",
+   "fixed": "|γ_{0}|>0.75γ,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 42,
+   "ocr": "ag L> 200 =~ .",
+   "fixed": "L > 200 a_{0}/λ .",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 4,
+   "line": 44,
+   "ocr": "| yo}",
+   "fixed": "|γ_{0}|",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 45,
+   "ocr": "y.",
+   "fixed": "γ.",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 49,
+   "ocr": "c’,",
+   "fixed": "c′,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 55,
+   "ocr": "FIG.-3",
+   "fixed": "FIG. 3",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 58,
+   "ocr": "2 (5) n2q? [2 =|",
+   "fixed": "n^{2}a^{2}[2π/λ]^{2} (5)",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 4,
+   "line": 63,
+   "ocr": "d",
+   "fixed": "λ",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 66,
+   "ocr": "z=c’",
+   "fixed": "z=c′",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 67,
+   "ocr": "c’,",
+   "fixed": "c′,",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 2,
+   "ocr": "c’,",
+   "fixed": "c′,",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 26,
+   "ocr": "(6) ye an | siny ~ sin?g ] oy)",
+   "fixed": "V = 2π^{2} [(sinγ − sinθ_{B})/sinγ] [p(y)/√(1 − p^{2}(y))] (6)",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 5,
+   "line": 29,
+   "ocr": "6g",
+   "fixed": "θ_{B}",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 33,
+   "ocr": "py) = 341 - %),",
+   "fixed": "p(y) = 3 (y/2) (1 − ⅓y^{2}),",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 5,
+   "line": 36,
+   "ocr": "|2| yor Jem L",
+   "fixed": "y = F_{r}(|z|/L) + F_{t},",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 5,
+   "line": 40,
+   "ocr": "F,and F,are",
+   "fixed": "F_{r} and F_{t} are",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 48,
+   "ocr": "(z==t",
+   "fixed": "(z=t",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 49,
+   "ocr": "n2a?",
+   "fixed": "n^{2}a^{2}",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 52,
+   "ocr": "",
+   "fixed": "[2π/λ]^{2}",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 5,
+   "line": 59,
+   "ocr": "F;can",
+   "fixed": "F_{t} can",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 64,
+   "ocr": "(7) (my + mm — 12) lr katsin ( ) EE ———————— 4 a",
+   "fixed": "V = ((n_{1} + n_{2})(n_{1} − n_{2})/4π) k^{2}a^{2}sin(lπ/a) (7)",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 5,
+   "line": 67,
+   "ocr": "n;",
+   "fixed": "n_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 67,
+   "ocr": "nz",
+   "fixed": "n_{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 3,
+   "ocr": "27 ko. a",
+   "fixed": "k = 2π/λ .",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 6,
+   "line": 8,
+   "ocr": "(8) [ siny — sinég ] rv) _ siny [ Vi- 70) ] eetsn ( fn ) 4n a",
+   "fixed": "[(sinγ − sinθ_{B})/sinγ] [p(y)/√(1 − p^{2}(y))] = ((n_{1} + n_{2})(n_{1} − n_{2})/4π) k^{2}a^{2}sin(lπ/a) (8)",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 6,
+   "line": 15,
+   "ocr": "0g",
+   "fixed": "θ_{B}",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 15,
+   "ocr": "F,",
+   "fixed": "F_{t}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 19,
+   "ocr": "yo, 03,",
+   "fixed": "γ_{0}, θ_{B},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 19,
+   "ocr": "F;",
+   "fixed": "F_{t}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 24,
+   "ocr": "yo, Op,",
+   "fixed": "γ_{0}, θ_{B},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 25,
+   "ocr": "F;.",
+   "fixed": "F_{t}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 31,
+   "ocr": "sinyo (9) M = N%(y0) siny",
+   "fixed": "M = N^{2}(γ_{0}) sinγ_{0}/sinγ (9)",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 6,
+   "line": 33,
+   "ocr": "N(@)",
+   "fixed": "N(θ)",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 37,
+   "ocr": "z (10) v= ff (Bo — Bidz 0",
+   "fixed": "v = ∫_{0}^{z} (B_{0} − B_{1})dz (10)",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 6,
+   "line": 40,
+   "ocr": "¥E (11) r= JS rexp(jvdv 0 °",
+   "fixed": "τ = ∫_{0}^{v_{L}} t exp(jv)dv (11)",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 6,
+   "line": 43,
+   "ocr": "2 Bo(siny)? (12) ro Zot yy ava) i - 2 4ar4(siny — sind)? z (1 + 43/2",
+   "fixed": "t = (a^{2}/2) (B_{0}(sinγ)^{2}/(4π^{4}(sinγ − sinθ)^{2})) (dV(z)/dz) (1/(1 + u^{2})^{3/2}) (12)",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 6,
+   "line": 46,
+   "ocr": "",
+   "fixed": "where",
+   "basis": "scan (word missed by OCR)"
+  },
+  {
+   "col": 6,
+   "line": 48,
+   "ocr": "siny [hz] “ 2r? [siny — sin] .",
+   "fixed": "u = (sinγ/(2π^{2} [sinγ − sinθ])) [V(z)] (13)",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 6,
+   "line": 50,
+   "ocr": "1 (14) N(@) =-——o (9) Tepe",
+   "fixed": "N(θ) = 1/(1 + |τ|^{2}) (14)",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 6,
+   "line": 53,
+   "ocr": "Bo",
+   "fixed": "B_{0}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 53,
+   "ocr": "B,",
+   "fixed": "B_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 55,
+   "ocr": "vz",
+   "fixed": "v_{L}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 56,
+   "ocr": "6",
+   "fixed": "θ",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 57,
+   "ocr": "yo.",
+   "fixed": "γ_{0}.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 57,
+   "ocr": "@",
+   "fixed": "θ",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 57,
+   "ocr": "yo,",
+   "fixed": "γ_{0},",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 61,
+   "ocr": "F,=0,",
+   "fixed": "F_{t}=0,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 61,
+   "ocr": "@,,",
+   "fixed": "θ_{B},",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 62,
+   "ocr": "10-14",
+   "fixed": "10–14",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 6,
+   "line": 62,
+   "ocr": "6",
+   "fixed": "θ",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 62,
+   "ocr": "yo",
+   "fixed": "γ_{0}",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 63,
+   "ocr": "‘Yo",
+   "fixed": "γ_{0}",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 64,
+   "ocr": "N(yo),",
+   "fixed": "N(γ_{0}),",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 64,
+   "ocr": "yo",
+   "fixed": "γ_{0}",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 65,
+   "ocr": "F;and",
+   "fixed": "F_{t} and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 66,
+   "ocr": "Oz.",
+   "fixed": "θ_{B}.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 66,
+   "ocr": "F;",
+   "fixed": "F_{t}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 67,
+   "ocr": "‘using",
+   "fixed": "using",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 67,
+   "ocr": "0gs.",
+   "fixed": "θ_{B}s.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 68,
+   "ocr": "F;",
+   "fixed": "F_{t}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 68,
+   "ocr": "@s.",
+   "fixed": "θ_{B}s.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 1,
+   "ocr": "F;s",
+   "fixed": "F_{t}s",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 2,
+   "ocr": "0g5",
+   "fixed": "θ_{B}s",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 2,
+   "ocr": "Fs.",
+   "fixed": "F_{t}s.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 8,
+   "ocr": "116-120",
+   "fixed": "116–120",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 7,
+   "line": 16,
+   "ocr": "aliow",
+   "fixed": "allow",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 33,
+   "ocr": "I+-nl,",
+   "fixed": "I+nl,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 35,
+   "ocr": "O=n=N—l1,",
+   "fixed": "0≦n≦N−1,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 66,
+   "ocr": "Ve 20? | siny — sin?g ] ry) any [ Vi = 0) ]",
+   "fixed": "V = 2π^{2} [(sinγ − sinθ_{B})/sinγ] [p(y)/√(1 − p^{2}(y))]",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 8,
+   "line": 1,
+   "ocr": "2y",
+   "fixed": "2γ",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 2,
+   "ocr": "0g",
+   "fixed": "θ_{B}",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 3,
+   "ocr": "y,",
+   "fixed": "γ,",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 7,
+   "ocr": "|2| jer 3 — 4p), andy = e( Z",
+   "fixed": "3 (y/2) (1 − ⅓y^{2}), and y = F_{r}(|z|/L) + F_{t}",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 8,
+   "line": 9,
+   "ocr": "zis",
+   "fixed": "z is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 13,
+   "ocr": "L+6 Ras,",
+   "fixed": "F_{t} = (L + b)/L ,",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 8,
+   "line": 19,
+   "ocr": "F,=1—F;,",
+   "fixed": "F_{r}=1−F_{t}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 41,
+   "ocr": "multiplexer/demuitiplexer",
+   "fixed": "multiplexer/demultiplexer",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 22,
+   "ocr": "Va [ siny = sin@ il ry) ] siny V1 _ — PO) 26) |",
+   "fixed": "V = 2π^{2} [(sinγ − sinθ_{B})/sinγ] [p(y)/√(1 − p^{2}(y))]",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 9,
+   "line": 25,
+   "ocr": "2y",
+   "fixed": "2γ",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 25,
+   "ocr": "defining-a",
+   "fixed": "defining a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 26,
+   "ocr": "03",
+   "fixed": "θ_{B}",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 27,
+   "ocr": "y,",
+   "fixed": "γ,",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 31,
+   "ocr": "34 (1 — 4y), and y = (HL). F;",
+   "fixed": "3 (y/2) (1 − ⅓y^{2}), and y = F_{r}(|z|/L) + F_{t}",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 9,
+   "line": 37,
+   "ocr": "£L+5 Aaa,",
+   "fixed": "F_{t} = (L + b)/L ,",
+   "basis": "scan (printed formula; Google Patents gives it only as an image)"
+  },
+  {
+   "col": 9,
+   "line": 42,
+   "ocr": "",
+   "fixed": "F_{r}=1−F_{t}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 30,
+   "ocr": "‘energy,",
+   "fixed": "energy,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "HO04J 14/00",
+   "fixed": "H04J 14/00",
+   "basis": "scan, front page"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "350/96. 16;",
+   "fixed": "350/96.16;",
+   "basis": "scan, front page"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "EON",
+   "fixed": "Elion",
+   "basis": "scan, front page"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "Abe et ab.",
+   "fixed": "Abe et al.",
+   "basis": "scan, front page"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "Sinit, Electronic Letters, 1988, vol,. 24",
+   "fixed": "Smit, Electronic Letters, 1988, vol,. 24",
+   "basis": "scan, front page"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "NJ.",
+   "fixed": "N.J.",
+   "basis": "scan, front page"
+  }
+ ]
+}

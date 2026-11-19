@@ -1,0 +1,27 @@
+{
+  "pn": "3025589",
+  "inventors": [
+    {
+      "name": "Jean A. Hoerni",
+      "printed": "Jean A. Hoerni, Los Altos, Calif.",
+      "city": "Los Altos",
+      "region": "CA",
+      "country": "US"
+    }
+  ],
+  "assignees": [
+    {
+      "name": "Fairchild Camera and Instrument Corporation",
+      "printed": "Fairchild Camera and Instrument Corporation, Syosset, N.Y., a corporation of Delaware",
+      "org": "Fairchild Camera and Instrument",
+      "kind": "company",
+      "city": "Syosset",
+      "region": "NY",
+      "country": "US"
+    }
+  ],
+  "source": {
+    "page": 1,
+    "where": "column 1 header (inventor, assignor by mesne assignments to)"
+  }
+}

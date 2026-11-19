@@ -1,0 +1,73 @@
+{
+  "patent": "Filed 1956-10-31 and issued 1961-10-31 to Orson L. Anderson and Howard Christensen of Bell Telephone Laboratories. It defines thermo-compression bonding: a clean metal lead is pressed onto silicon or germanium, or onto a metal electrode already on it, with heat kept below both the eutectic temperature of the pair and the temperature at which the crystal forms or moves dislocations, and with pressure that flattens the lead by only 10 to 30 percent, for a few seconds to a quarter of an hour, with no solder or flux. Nothing melts or alloys, so the semiconductor is left undamaged and the bond can be made to areas a few mils across. The examples are a heated press (FIG. 1), leads bonded to the electrode strips of a mesa transistor (FIG. 2), wires bonded straight onto a smaller mesa (FIG. 3), and a wire end melted into a ball and then bonded (FIGS. 4-5). The inventors, with P. Andreatch, published the method as “Technique for Connecting Electrical Leads to Semiconductors” (Journal of Applied Physics, 1957). Thermocompression bonding of fine gold wire became the basis of the wire bonding used to connect chips to their packages; the melted-ball wire end of FIGS. 4-5 is the shape used in later ball bonding.",
+  "figs": {
+    "1": "Schematic side view of the bonding press, not to scale. Press head 10 comes down from above; its tip, projection 16, presses wire 18, drawn as a heavy line bent over the tip, against the top of mesa 20 on semiconductor member 22, which lies on press bed 24. Head 10, bed 24 and member 22 with its mesa are hatched in section. The small circles along the sides of head and bed are turns of heating coils 14 and 28, fed through lead pairs 12 and 26, so the tip, the wire and the semiconductor are all held at the bonding temperature while pressed.",
+    "2": "Plan view of a mesa transistor chip, greatly enlarged; the wavy edges are break lines, so only part of block 40 is shown. The circle is the top of mesa 42, and the two parallel bars on it are the alloyed electrode strips, aluminum 44 (emitter) and gold 46 (base). Lead 50 ends on strip 44 and lead 48 on strip 46; the small loop at each lead end is the bonded spot. The collector is the block itself, contacted elsewhere.",
+    "3": "The same kind of transistor with a smaller mesa 62 and no electrode strips: aluminum wire 66 and gold wire 64 come in from above and their ends are bonded directly onto the mesa, side by side. The bonded wire ends (68 at wire 66, 70 at wire 64) serve as emitter and base. Wavy edges are break lines on block 60.",
+    "4": "A fine wire 100 before bonding, its end heated until surface tension pulls it into ball 102, roughly twice the wire diameter.",
+    "5": "Section of the bond. The ball end of wire 100 is pressed onto block 106 and flattened (104). The straight dashed line just under the top surface is the boundary between the thin N-type surface layer and the P-type bulk. The lower dashed curves 108, falling away from the bond on both sides, show how far the surface may be etched with the flattened end as the mask, leaving an N-type mesa under the bond and baring P-type material close to it for a second contact."
+  },
+  "parts": {
+    "48": "Introduced in the phrase “electrical leads comprising small strips of aluminum 50 and gold 48”.",
+    "52": "Not numbered in the text; its leader ends on the mesa surface in the gap between electrodes 44 and 46.",
+    "60": "Not numbered in the text; the text says FIG. 3 corresponds generally to FIG. 2, where the matching outline is block 40.",
+    "68": "Not numbered in the text; its leader ends at the bonded end of aluminum wire 66, which the text says serves as the emitter electrode.",
+    "70": "Not numbered in the text; its leader ends at the bonded end of gold wire 64, which the text says serves as the base electrode.",
+    "72": "Not numbered in the text; its leader ends on the mesa surface in the gap between the two bonded wire ends.",
+    "108": "An optional etch after bonding, not part of the bond itself."
+  },
+  "glossary": [
+    {
+      "term": "thermo-compression bond",
+      "def": "The patent's term for a joint made by heat and pressure alone, with no flux, solder or intermediate layer, and with no melting, alloying or flow of either material."
+    },
+    {
+      "term": "eutectic temperature",
+      "def": "The lowest temperature at which a mixture of two materials melts, below the melting point of either alone; for gold and germanium the patent gives 356 degrees centigrade."
+    },
+    {
+      "term": "dislocation",
+      "def": "A line defect in a crystal lattice. Creating or moving dislocations in germanium or silicon degrades its electrical behaviour, which is why the bonding temperature is kept below the point where this happens."
+    },
+    {
+      "term": "mesa",
+      "def": "A small raised plateau left on a semiconductor surface by masking and etching away the material around it; the transistors of FIGS. 2 and 3 are built on one."
+    },
+    {
+      "term": "N-type / P-type",
+      "def": "Semiconductor doped so that electrons (N) or holes (P) carry most of the current."
+    },
+    {
+      "term": "doping",
+      "def": "Adding small amounts of impurity atoms to a semiconductor to make it N- or P-type."
+    },
+    {
+      "term": "emitter, base, collector",
+      "def": "The three regions of a bipolar transistor; here the emitter and base contacts sit on the mesa and the collector is the block below."
+    },
+    {
+      "term": "cold welding / percussion welding",
+      "def": "Joining metals by pressure alone, or by a sudden impact, which the patent says needs 50 to 80 percent deformation of the metal."
+    },
+    {
+      "term": "stripping test",
+      "def": "Pulling the lead off the bond; the patent calls a bond strong when the materials beside it break before the bonded area fails."
+    },
+    {
+      "term": "temper",
+      "def": "The hardness and strength a metal wire has from its working and heat treatment, which heating can remove."
+    },
+    {
+      "term": "micromanipulator",
+      "def": "A positioning stage with fine screw or lever controls, used under a microscope to place small parts."
+    },
+    {
+      "term": "mil",
+      "def": "One thousandth of an inch, 25.4 micrometres."
+    },
+    {
+      "term": "megacycles",
+      "def": "Megahertz (millions of cycles per second)."
+    }
+  ]
+}

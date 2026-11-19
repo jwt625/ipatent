@@ -1,0 +1,37 @@
+{
+  "patent": "Filed May 31, 1960 and issued August 27, 1963 to Dawon Kahng of Bell Telephone Laboratories. The device is what is now called a metal-oxide-semiconductor field-effect transistor (MOSFET): two p-type regions in n-type silicon, a thermally grown silicon dioxide layer over the gap between them, and a metal electrode on the oxide whose voltage controls conduction along the silicon surface beneath it. Kahng and M. M. Atalla made the first working silicon MOSFET at Bell Labs in 1959 and reported it in 1960 (D. Kahng and M. M. Atalla, \"Silicon-silicon dioxide field induced surface devices,\" IRE-AIEE Solid-State Device Research Conference, Pittsburgh, 1960). The patent itself claims the circuit arrangement, with the device credited in the text to Atalla's application Serial No. 13,688; it describes use as an adjustable voltage regulator and, with a signal source added (FIG. 1B), as an amplifier. Field-effect control of a semiconductor had been proposed decades earlier (J. E. Lilienfeld, US 1,745,175, 1930; O. Heil, GB 439,457, 1935) without a working device; the thermally grown oxide studied at Bell Labs (M. M. Atalla, E. Tannenbaum and E. J. Scheibner, Bell System Technical Journal, 1959) gave a silicon surface clean and stable enough for the field to act on. In modern terms electrode 21 is the gate, oxide 19 the gate oxide, region 14 the source, region 13 the drain and surface portion 23 the channel of a p-channel device.",
+  "figs": {
+    "1A": "The front face of the block is cut as a section. Diagonal hatching with dots is the n-type bulk 12; the two shallow wells with reversed hatching, marked p, are surface portions 13 and 14, and the n gap between them is portion 15, bounded by junctions 16 and 17. The thin stippled band along the top is oxide 19; electrode 21 is the thin plate lying on the oxide over the gap and both junctions, and contacts 24 and 25 are the hatched plugs through the oxide onto the p regions. Battery 27 (voltage V, drawn with an adjustment arrow) and load L are in series between contact 24 (minus) and contact 25 (plus); source 28 (V_{f}) connects the wire at contact 24 to the electrode.",
+    "1B": "Shows only the electrode circuit: between terminal 24 and terminal 21, the steady source V_{f} in series with a signal generator (circle with a sine wave). It replaces the plain connection of source 28 in FIG. 1A; the battery and load circuit stay as drawn there.",
+    "2": "One curve per value of V_{f}, labelled 4, 2, 0, -2 and -4 at the right; V_{L} in volts on the vertical axis, I_{L} in amperes on the horizontal axis, with only 10^-4 marked. Broken line 31 is the load line for load L; point 34 is its crossing with the V_{f} = -2 curve, on the dashed vertical at 10^-4, and point 33 its crossing with the V_{f} = -4 curve. The flat right-hand parts of the curves are the regulation region the text describes. Current is on the horizontal axis, the reverse of the usual modern drain-characteristic plot."
+  },
+  "parts": {
+    "13": "Drain, in modern terms: on the negative side of battery 27, so junction 16 around it is reverse-biased.",
+    "14": "Source, in modern terms: on the positive side of battery 27, so junction 17 around it is forward-biased.",
+    "19": "Gate oxide, in modern terms.",
+    "21": "Gate, in modern terms.",
+    "23": "The induced conducting layer at the surface: the channel.",
+    "28": "Gate bias V_{f}. It is applied between the electrode and contact 24 (the drain side), not to the source as is usual today.",
+    "31": "The load line.",
+    "33": "Not referred to in the text; marks the crossing of load line 31 with the V_{f} = -4 curve.",
+    "34": "Not referred to in the text; marks the crossing of load line 31 with the V_{f} = -2 curve at 10^-4 ampere."
+  },
+  "glossary": [
+    {"term": "field effect", "def": "Control of a semiconductor's conductivity by an electric field applied through an insulator, rather than by current injected across a junction."},
+    {"term": "MOSFET", "def": "Metal-oxide-semiconductor field-effect transistor: a metal gate on a thin oxide induces a conducting channel at the semiconductor surface between source and drain regions."},
+    {"term": "p-n junction", "def": "The boundary between p-type (hole-conducting) and n-type (electron-conducting) regions. It conducts when forward-biased and blocks when reverse-biased."},
+    {"term": "ohmic contact", "def": "A metal-to-semiconductor contact with linear, low resistance, rather than a rectifying one."},
+    {"term": "load line", "def": "A straight line on a device's current-voltage curves giving the combinations allowed by the external supply and load; the operating point is where it meets the device curve."},
+    {"term": "voltage regulator", "def": "A circuit element that holds a voltage nearly constant while the current through it varies."},
+    {"term": "transconductance", "def": "The change in output current per unit change in control voltage; a measure of a transistor's gain."},
+    {"term": "input impedance", "def": "The ratio of voltage to current at the input. With the input on an insulated electrode it is very high, so little input power controls a larger output power."},
+    {"term": "phase reversal", "def": "The output signal swings opposite to the input: a rise at the input gives a fall at the output."},
+    {"term": "dielectric constant", "def": "Relative permittivity: how much a material reduces an electric field compared with vacuum."},
+    {"term": "dielectric strength", "def": "The highest field an insulator withstands before it breaks down."},
+    {"term": "thermally grown oxide", "def": "Silicon dioxide formed by reacting the silicon surface itself with oxygen or steam at high temperature, rather than deposited on it."},
+    {"term": "vapor-solid diffusion", "def": "Introducing dopant atoms into a heated wafer from a surrounding vapor; here boron from boron oxide vapor forms the p regions."},
+    {"term": "photo-resist techniques", "def": "Photolithography: a light-sensitive coating is exposed through a pattern and developed, and the remaining coating masks selected areas during etching or diffusion."},
+    {"term": "frequency cut-off", "def": "The frequency above which the device no longer provides useful gain."},
+    {"term": "angstrom unit", "def": "10^-10 metre; 1000 angstrom units is 0.1 micrometre."}
+  ]
+}

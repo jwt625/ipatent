@@ -1,0 +1,52 @@
+{
+  "patent": "Filed February 21, 1916 (renewed July 8, 1919) and issued February 3, 1920 to Nikola Tesla. It describes a passage with fixed walls and no moving parts that passes fluid freely one way and strongly resists flow the other way; the device is now generally called the Tesla valve. Projections from the side walls end in hooked recesses (buckets) with free-standing partitions, so flow entering the wrong end is split, turned back through 180 degrees and driven against the oncoming stream, while flow from the other end follows a nearly straight path. Tesla puts the theoretical resistance ratio at 200 or more and stresses that the effect is strongest for sudden, high-frequency pulses. Two uses are shown: a valveless pump or compressor driven by an oscillating piston (Fig. 3) and a pulse-combustion engine built on his bladeless disk turbine, patented as US 1,061,206 (1913) (Fig. 4). The geometry is still studied as a fluidic diode, for example by Nguyen, Abouezzi and Ristroph (Nature Communications, 2021), who measured its direction-dependent resistance in steady and pulsating flow.",
+  "figs": {
+    "1": "Plan of one conduit section with the cover plate removed; nipple 4 at the left, nipple 5 at the right. Eleven hooked recesses (buckets 2) open alternately from the two side walls, six on one side and five on the other, each holding a pointed island (partition 3). Dashed line 7 is the nearly straight free path of fluid admitted at 5, arrow pointing toward 4. The dashed arrows near 4 trace flow entering the other way: split by the partitions into the buckets, turned round and sent back across the main channel. The circles along both edges are not numbered or described.",
+    "2": "Side elevation of the same piece: casing 1 below, fitting plate 6 closing its open top, threaded nipples 4 and 5 at the ends. The domed heads along the top edge are not numbered or described.",
+    "3": "Diagram, not to scale. Left, the pump: piston 8 on shaft 9 in cylinder 10, closed by heads 11 and 12; each head and the piston carries a valvular conduit, drawn as a plain cylinder marked 1 with ends 4 and 5. Above the shaft (solid lines) free flow runs right to left: in at the right-hand nipple 5, through the piston, out at the left-hand nipple 4, giving compression at 4 and suction at 5. Below the shaft (dotted lines) the conduits are reversed, which reverses the pumping. Right: the driving mechanical oscillator, piston 17 in cylinder 18 on an extension of shaft 9, with inlet ports 19 and outlet ports 20 in piston and cylinder; the stub pipe at its top is not numbered.",
+    "4": "Vertical section of the disk turbine run as a pulse-combustion engine. Casting 23, bolted on top of casing 22, holds combustion chamber 24 under plate 26 and plug 27. Two valvular conduits, drawn as cylinders with arrows, screw into its sides: the left one draws air through valve 30, the right one gas from main 28 through valve 31. Their arrows point inward, the free direction, so each explosion leaves only through nozzle 29 into the casing at the rim of rotor 21; the rotor's suction then draws in a fresh charge. The three lobed openings around the hub are exhaust openings 32; the dashed outline around them is not described in the text."
+  },
+  "parts": {
+    "1": "In Fig. 3 the same numeral marks each valvular conduit, drawn diagrammatically.",
+    "2": "The hooked recesses at the ends of the projections from the side walls.",
+    "5": "In Fig. 4 it marks the outer ends of the two valvular conduits, next to valves 30 and 31.",
+    "7": "Path of the fluid admitted at 5, not a part.",
+    "19": "The text gives 'inlet and outlet ports marked, respectively, 19 and 20'.",
+    "20": "The text gives 'inlet and outlet ports marked, respectively, 19 and 20'.",
+    "25": "Drawn as the vertical passages in the walls of casting 23 either side of chamber 24."
+  },
+  "glossary": [
+    {
+      "term": "valvular conduit",
+      "def": "Tesla's name for a passage whose fixed wall shape makes it act like a slightly leaking check valve; now called a Tesla valve or fluidic diode."
+    },
+    {
+      "term": "undisturbed / disturbed flow",
+      "def": "Tesla's terms for flow in the free direction (5 to 4, nearly straight) and in the blocked direction (4 to 5, repeatedly reversed)."
+    },
+    {
+      "term": "diodicity",
+      "def": "Modern measure of such a device: ratio of the pressure drop for reverse flow to that for forward flow at the same flow rate."
+    },
+    {
+      "term": "nipple",
+      "def": "Short threaded pipe end for joining to other pipe."
+    },
+    {
+      "term": "loss of head",
+      "def": "Pressure (energy) lost by a flowing fluid, expressed as an equivalent height of fluid; proportional to a loss coefficient that depends on the turning angle."
+    },
+    {
+      "term": "stuffing box",
+      "def": "Packed gland where a moving shaft passes through a pressure wall, sealing it against leakage."
+    },
+    {
+      "term": "mechanical oscillator",
+      "def": "Tesla's name for his reciprocating prime mover with an oscillating piston, used here to vibrate the pump piston at high frequency."
+    },
+    {
+      "term": "disk (bladeless) turbine",
+      "def": "Tesla's turbine whose rotor is a stack of flat plates driven by the viscous drag of fluid entering at the rim and leaving near the center."
+    }
+  ]
+}

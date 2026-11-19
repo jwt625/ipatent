@@ -73,6 +73,7 @@ def main() -> None:
                 rec["pdf"] = "cached"
                 if not g.exists():
                     num = re.sub(r"^US|[A-Z]\d?$", "", gid)
+                    num = num.zfill(7) if num.isdigit() else num  # USPTO answers 400 to unpadded pre-1911 numbers
                     g.write_bytes(http(f"https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/{num}"))
                     rec["pdf"] = "fetched"
                     time.sleep(a.pause)

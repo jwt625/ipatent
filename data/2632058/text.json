@@ -1,0 +1,3425 @@
+{
+ "pn": "2632058",
+ "number": "2,632,058",
+ "title": "PULSE CODE COMMUNICATION",
+ "inventors": [
+  "Frank Gray"
+ ],
+ "assignee": "Bell Telephone Laboratories, Incorporated, New York, N. Y., a corporation of New York",
+ "filed": "1947-11-13",
+ "issued": "1953-03-17",
+ "appl_no": "785,697",
+ "int_cl": "",
+ "us_cl": "179—15",
+ "refs_patents": [
+  {
+   "no": "2,207,744",
+   "date": "July 16, 1940",
+   "name": "Larson",
+   "cl": ""
+  },
+  {
+   "no": "2,272,070",
+   "date": "Feb. 3, 1942",
+   "name": "Reeves",
+   "cl": ""
+  },
+  {
+   "no": "2,437,707",
+   "date": "Mar. 16, 1948",
+   "name": "Pierce",
+   "cl": ""
+  },
+  {
+   "no": "2,438,487",
+   "date": "Apr. 6, 1948",
+   "name": "Goodall",
+   "cl": ""
+  },
+  {
+   "no": "2,453,461",
+   "date": "Nov. 9, 1948",
+   "name": "Schelleng",
+   "cl": ""
+  },
+  {
+   "no": "2,458,652",
+   "date": "Jan. 11, 1949",
+   "name": "Sears",
+   "cl": ""
+  },
+  {
+   "no": "2,489,883",
+   "date": "Nov. 29, 1949",
+   "name": "Hecht",
+   "cl": ""
+  }
+ ],
+ "refs_other": [
+  "Foreign patent: 344,444; Great Britain; Feb. 7, 1931",
+  "Foreign patent: 582,177; Great Britain; Nov. 7, 1946",
+  "Fiat Final Report 865, pages 40–57, August 19, 1946."
+ ],
+ "examiners": "",
+ "claims_count": 16,
+ "drawing_figures": 6,
+ "abstract": "",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "col": 1,
+     "line": 1,
+     "text": "This invention relates to pulse code transmission and particularly to the coding of a message signal in a novel code and to the decoding thereof."
+    },
+    {
+     "col": 1,
+     "line": 5,
+     "text": "In communication by pulse code transmissions the instantaneous amplitudes of a message to be transmitted are successively sampled and each of the successive samples is translated into a code group of on-or-off pulses. By reason of the on-or-off character of the pulses, such a code is denoted a binary code. The number of pulse positions in a code group is the same from group to group. With five such positions the code is a 5-digit binary code. With seven it is a 7-digit binary code; and in general, with n such positions it is an n-digit binary code. A code pulse group of n pulse positions may contain any number, from 0 to n, of “on” pulses. In the conventional n-digit binary code, the number and arrangement of pulses is in accordance with the conventional binary number notation. Thus, for example, with three digits, the number five is written in the conventional binary number notation as 101. Correspondingly, in the conventional 3-digit binary pulse code, the pulses occur in the time sequence P, —, P, where “P” stands for an “on” pulse and “—” stands for an “off” pulse; i. e., a blank pulse position."
+    },
+    {
+     "col": 1,
+     "line": 30,
+     "text": "In Italian Patent 437,300, published June 30, 1948, there is described an instrument for translating message signal samples into code pulse groups in the conventional binary code. In brief, it comprises a cathode beam tube having a coding mask, an electron gun for projecting an electron beam toward the mask, a collector anode for receiving electrons which pass through the mask and deriving pulses from them, means for deflecting the cathode beam in one direction along the mask to a location proportional to the signal sample amplitude, and means for sweeping the beam in a perpendicular direction across the mask between successive sample-controlled deflections. As currently employed, the mask comprises a rectangular array of apertures arranged in n columns and 2^{n} rows, where n is the number of digits of the code. Each aperture row corresponds to a unique value of the signal-controlled beam deflection. The apertures of the various rows are located in conformity with the location of the 1’s in a tabulation of successive binary numbers, while the blank portions of the mask are located in conformity with the 0’s in the same tabulation. Thus, when the cathode beam is deflected under control of the signal to a particular aperture row and thereupon swept laterally along this row, a train of current pulses may be drawn from the collector whose location on the time scale is in accordance with the arrangement of the 1’s and 0’s in the binary number whose value is equal to the value of the signal sample being coded."
+    },
+    {
+     "col": 2,
+     "line": 9,
+     "text": "It is a characteristic of the conventional binary number notation that a value change of unity may be reflected in the binary number notation by a simultaneous change in several of the digits. Thus, for example, with four digits the number seven is represented by 0111 while the next number, eight, is represented by 1000. In the course of changing the value by one unit, each of the four digits has been changed."
+    },
+    {
+     "col": 2,
+     "line": 18,
+     "text": "This characteristic of the conventional binary number notation is duplicated in the coding mask of the Italian patent above referred to, and it is a consequence of the resulting arrangement of the apertures that a wander of the beam in the course of its lateral sweep from the correct aperture row to the row immediately above or below it, may result in a coding error which is far greater than the beam deflection error. Various arrangements have been suggested for reducing this coding error by constraining the cathode beam to start its sweep at the correct row and to remain there throughout the sweep. Arrangements of this kind are described in articles published in the Bell System Technical Journal for January 1948, vol. 27, pages 1 and 44, which describe the coding tube, in detail. Individual features of the apparatus are claimed in Patent 2,458,652, issued January 11, 1949, to R. W. Sears; Patent 2,463,535, issued March 8, 1948, to G. Hecht; and in Patent 2,473,691, issued June 21, 1949, to L. A. Meacham. All such arrangements involve complexity of apparatus in various degrees."
+    },
+    {
+     "col": 2,
+     "line": 42,
+     "text": "It is a principal object of the present invention to reduce the coding errors in a pulse code transmission system. A more specific object is to provide a pulse code, and a corresponding coding mask, in which the coding error is never greater than the beam deflection error."
+    },
+    {
+     "col": 2,
+     "line": 48,
+     "text": "Another object is to simplify the manufacture of a coding mask."
+    },
+    {
+     "col": 2,
+     "line": 50,
+     "text": "The above objects are attained in accordance with the invention by the selection of a novel form of the binary pulse code which differs from the conventional form by virtue of a rearrangement of the pulses of the various pulse groups in such a way that the sequence of “on”-pulses and “off”-pulses which form a pulse group representing a particular signal amplitude differs in only one pulse position from the sequences representing the next lower amplitude and next higher amplitude. The new code is no longer similar to the accepted binary number notation. When it is embodied in a coding mask, the arrangement of the apertures of any one row differs from that of the rows above and below it in not more than one aperture. The resulting mask has certain valuable auxilary properties and aspects. First, the smallest apertures, that is to say the apertures of the various rows in the column of least digital significance, are twice as large as the apertures of the conventional binary code mask. This makes for ease of manufacture. Second, all of the apertures of the mask, with the sole exception of the single aperture of greatest digital significance, are symmetrically arranged about a transverse center line. This permits treating the largest digit aperture as an index of polarity only, rectifying the wave to be coded, sampling the rectified wave, and coding the samples using only one half of the coding mask. At the price of some increased complexity of associated apparatus, this greatly reduces the physical dimensions of the coder tube itself. Third, for signals of normal average amplitude range, the beam deflections seldom extend beyond the aperture of the column of second greatest digital significance, so that in the resulting coded signal, the (n−1)^{th} pulse position is nearly always fillted. This uniformly filled pulse position affords a convenient source of marker pulses for use in holding a receiver in correct synchronism with the transmitter."
+    },
+    {
+     "col": 3,
+     "line": 37,
+     "text": "Accordingly, it is a subsidiary object of the invention to provide a pulse code into which auxiliary information may be interleaved without placing increased demands on the transmission band and without degrading the quality of the received signal."
+    },
+    {
+     "col": 3,
+     "line": 43,
+     "text": "The binary code with which the present invention deals may take various forms, all of which have the property that the symbol (or pulse group) representing each number (or signal amplitude) differs from the ones representing the next lower and the next higher number (or signal amplitude) in only one digit (or pulse position). Because this code in its primary form may be built up from the conventional binary code by a sort of reflection process and because other forms may in turn be built up from the primary form in similar fashion, the code in question, which has as yet no recognized name, is designated in this specification and in the claims as the “reflected binary code.”"
+    },
+    {
+     "col": 3,
+     "line": 58,
+     "text": "If, at a receiver station, reflected binary code pulses were to be applied to decoding apparatus designed to translate conventional binary code pulses, the result would be incomprehensible. Accordingly, a related object is to translate incoming reflected binary code pulse groups at a receiver station into message signal samples for reproduction. An alternative object is to translate incoming reflected binary code pulse groups into pulse groups of the conventional binary pulse code, whereupon the latter may be translated into message signal samples for reproduction by conventional means."
+    },
+    {
+     "col": 3,
+     "line": 71,
+     "text": "The reflected binary code may take many forms, all of which have the property that no number differs from its neighbor’s in more than one digit. The various secondary forms may be derived from the primary one by interchanging columns, by cutting the tabulation at any horizontal line and placing the upper part below the lower one; by changing all the 1’s of any column to 0’s and all the 0’s to 1’s; by construction from the conventional binary code by a modification of the reflection process, and so on. Some of these forms offer special advantages over others. The coding of signals into them presents no additional problem. The decoding can be carried out in various ways by suitable adaptations of the decoding apparatus and processes described below in detail for the reflected binary code in its primary form."
+    },
+    {
+     "col": 4,
+     "line": 14,
+     "text": "The invention will be fully apprehended from the following detailed description of preferred embodiments thereof, taken in conjunction with the appended drawings in which:"
+    },
+    {
+     "col": 4,
+     "line": 18,
+     "text": "Fig. 1 is a schematic diagram of coding apparatus in accordance with the invention;"
+    },
+    {
+     "col": 4,
+     "line": 20,
+     "text": "Fig. 2 is an end view of the coding mask of Fig. 1 drawn to an enlarged scale;"
+    },
+    {
+     "col": 4,
+     "line": 22,
+     "text": "Fig. 2A is a similar view of a conventional coding mask;"
+    },
+    {
+     "col": 4,
+     "line": 24,
+     "text": "Fig. 3 is a schematic circuit diagram of apparatus for translating incoming reflected binary code pulse groups into conventional binary code pulse groups and for decoding the latter and reproducing the decoded values as a signal;"
+    },
+    {
+     "col": 4,
+     "line": 29,
+     "text": "Fig. 4 is a schematic circuit diagram of an alternative to Fig. 3;"
+    },
+    {
+     "col": 4,
+     "line": 31,
+     "text": "Fig. 5 is a schematic circuit diagram of apparatus for translating incoming reflected binary code pulse groups directly into signal samples for reproduction, without carrying out the intermediate step of translating into conventional binary code."
+    },
+    {
+     "col": 4,
+     "line": 37,
+     "text": "Referring now to the drawings, Fig. 1 shows a coder device for translating a voice wave or other message signal into binary code pulses. The basic features of the apparatus, which are described in the Bell System Technical Journal publications above referred to, comprise a cathode beam tube 10 including an electron gun for projecting a cathode beam 11, vertical deflection plates 12 to which the signal to be coded is applied, horizontal deflection plates 13 for sweeping the beam in a perpendicular direction, a collector anode 14 and a coding mask 15. The electron gun 11 may comprise a cathode 16, a control electrode or grid 17, a focussing electrode 18 and an accelerating electrode 19. These electrodes may be supplied with operating potentials by connection to a voltage divider 20, energized by a source 21 in conventional fashion. Operating potentials may be applied to the collector anode 14, from another source 22 while the coding mask 15 may be connected to ground."
+    },
+    {
+     "col": 4,
+     "line": 58,
+     "text": "In operation, a signal to be coded, for example a voice message originating at a source 23, is repeatedly sampled by a sampling circuit 24 under control of a single trip multivibrator 25 which delivers short square pulses at the sampling frequency. The latter is in turn controlled by a basic timing circuit or pulse frequency generator 26. Each speech sample, after being taken, is stored on a storage condenser 28 for use in the coding device until the arrival of a new sample. The resulting voltage on the storage condenser is applied by way of a voltage divider 29 to a vertical deflection amplifier 30 whose output may be balanced to ground by way of a center-tapped resistor 31 and applied to the vertical deflection plates 12. The pulse generator 26 also controls a second single trip multivibrator 32 delivering square pulses of somewhat greater duration than those of the first single trip multivibrator 25. These, in turn, control a sawtooth wave generator 33 delivering a sawtooth voltage to a sweep amplifier 34 whose output, balanced to ground by way of a center-tapped resistor 35, is applied to the horizontal deflection plates 13. Thus, after vertical deflection of the cathode beam 11 to a desired position at the beginning of a particular aperture row of the coding mask 15 by the application of a signal sample to the vertical deflection amplifier 30, the beam 11 is swept in a horizontal direction along this aperture row to deliver a sequence of current pulses at the collector 14 and therefore of voltage pulses across the output loading resistor 27. By proper arrangement of the apertures in the coding mask 15 in accordance with the teachings of the Bell System Technical Journal publications above referred to, these pulses constitute a conventional binary code group of a number of digits or pulse positions equal to the number of columns of apertures in the mask. As a practical matter, it has been found that a 7-digit binary code produced by a mask having seven columns of apertures and 2^{7} or 128 rows, gives ample fidelity in reproduction. The beam 11 may be blanked or defocussed during the return sweep by application of pulses from the multivibrator 25 to the electrodes, 18 or 19, selection being made by a switch 36."
+    },
+    {
+     "col": 5,
+     "line": 30,
+     "text": "Fig. 2 shows an end view of a coding mask in which the apertures are arranged to produce reflected binary code pulses in the output circuit from the collector anode of the tube 10. Fig. 2A shows the conventional 7-digit binary coding mask for comparison. The masks of Fig. 2 and Fig. 2A are for 7-digit codes. It will be shown below how the aperture arrangement of a 2-digit reflected binary coding mask can be built up from the aperture arrangement of a 1-digit mask, that of a 3-digit mask from a 2-digit mask, and so on, until the 7-digit mask is arrived at. In Fig. 2, all of the apertures are symmetrically arranged with respect to a horizontal center line with the sole exception of the single aperture which fills the upper half of the seventh column. The two large apertures of the fifth column are each half as large as the one large aperture of the sixth column and their centers lie immediately opposite its ends. The four apertures of the fourth column are each one half as large as the apertures of the fifth column and their centers lie immediately opposite their ends. The same pattern of symmetry holds for the apertures of each column of lower digital significance. Thus with the sole exception of the seventh column, the lower half of the mask is an image of the upper half as reflected in a central transverse axis."
+    },
+    {
+     "col": 5,
+     "line": 58,
+     "text": "Comparison of Fig. 2 with Fig. 2A reveals at once that the apertures of lowest digital significance are twice as large in the reflected binary coding mask as they are in the conventional binary coding mask. This simplifies fabrication. Inspection of Fig. 2 also reveals that in the sixth column, the single large aperture extends half way to the foot and to the head, respectively, of the mask. Therefore, when signals of low amplitude are coded, the corresponding pulse position is nearly always filled, and the resulting nearly regular sequence of sixth digit pulses may be used, if desired, for the transmission of auxiliary synchronizing information."
+    },
+    {
+     "col": 5,
+     "line": 73,
+     "text": "The manner in which the primary reflected binary number system is built up will now be explained."
+    },
+    {
+     "col": 6,
+     "line": 1,
+     "text": "First: write down the first two numbers in the 1-digit orthodox binary number system, thus:"
+    },
+    {
+     "col": 6,
+     "line": 3,
+     "table": [
+      [
+       "Zero",
+       "0"
+      ],
+      [
+       "One",
+       "1"
+      ]
+     ]
+    },
+    {
+     "col": 6,
+     "line": 6,
+     "text": "Note that the symbols differ in only one digit."
+    },
+    {
+     "col": 6,
+     "line": 7,
+     "text": "Second: below this array write its “reflection” in a transverse axis:"
+    },
+    {
+     "col": 6,
+     "line": 10,
+     "table": [
+      [
+       "Zero",
+       "0"
+      ],
+      [
+       "One",
+       "1"
+      ],
+      [
+       "------------",
+       "----"
+      ],
+      [
+       "",
+       "1"
+      ],
+      [
+       "",
+       "0"
+      ]
+     ]
+    },
+    {
+     "col": 6,
+     "line": 15,
+     "text": "The symbols still differ in not more than one digit. However, the first is identical with the fourth and the second with the third."
+    },
+    {
+     "col": 6,
+     "line": 19,
+     "text": "Third: to remove this ambiguity, add a second digit to the left of each symbol, 0 for the first two symbols and 1 for the last two, thus:"
+    },
+    {
+     "col": 6,
+     "line": 22,
+     "table": [
+      [
+       "Zero",
+       "00"
+      ],
+      [
+       "One",
+       "01"
+      ],
+      [
+       "Two",
+       "11"
+      ],
+      [
+       "Three",
+       "10"
+      ]
+     ]
+    },
+    {
+     "col": 6,
+     "line": 26,
+     "text": "and identify the last two symbols with the numbers “two” and “three.” Each symbol is now unique and differs from those above and below it in not more than one digit. The array is a representation of the first four numbers in the primary 2-digit reflected binary number system."
+    },
+    {
+     "col": 6,
+     "line": 32,
+     "text": "The process is next repeated, giving—"
+    },
+    {
+     "col": 6,
+     "line": 34,
+     "text": "First:"
+    },
+    {
+     "col": 6,
+     "line": 35,
+     "table": [
+      [
+       "Zero",
+       "00"
+      ],
+      [
+       "One",
+       "01"
+      ],
+      [
+       "Two",
+       "11"
+      ],
+      [
+       "Three",
+       "10"
+      ]
+     ]
+    },
+    {
+     "col": 6,
+     "line": 39,
+     "text": "Second:"
+    },
+    {
+     "col": 6,
+     "line": 40,
+     "table": [
+      [
+       "Zero",
+       "00"
+      ],
+      [
+       "One",
+       "01"
+      ],
+      [
+       "Two",
+       "11"
+      ],
+      [
+       "Three",
+       "10"
+      ],
+      [
+       "------------",
+       "----"
+      ],
+      [
+       "",
+       "10"
+      ],
+      [
+       "",
+       "11"
+      ],
+      [
+       "",
+       "01"
+      ],
+      [
+       "",
+       "00"
+      ]
+     ]
+    },
+    {
+     "col": 6,
+     "line": 49,
+     "text": "Third:"
+    },
+    {
+     "col": 6,
+     "line": 50,
+     "table": [
+      [
+       "Zero",
+       "000"
+      ],
+      [
+       "One",
+       "001"
+      ],
+      [
+       "Two",
+       "011"
+      ],
+      [
+       "Three",
+       "010"
+      ],
+      [
+       "Four",
+       "110"
+      ],
+      [
+       "Five",
+       "111"
+      ],
+      [
+       "Six",
+       "101"
+      ],
+      [
+       "Seven",
+       "100"
+      ]
+     ]
+    },
+    {
+     "col": 6,
+     "line": 58,
+     "text": "In going from the conventional binary number system to the binary pulse code, it has been customary to employ “on” pulses for the 1’s and “off” pulses or blank pulse positions for the 0’s. The same convention is employed in the construction of the primary reflected binary coding mask. Thus, for example, in the primary 7-digit reflected binary number system, the number 38 is written:"
+    },
+    {
+     "col": 6,
+     "line": 67,
+     "text": "Thirty-eight=0110101"
+    },
+    {
+     "col": 6,
+     "line": 69,
+     "text": "and the corresponding reflected binary code pulse group is"
+    },
+    {
+     "col": 6,
+     "line": 71,
+     "text": "—, P, P, —, P, —, P"
+    },
+    {
+     "col": 6,
+     "line": 72,
+     "text": "where “—” stands for a blank pulse position and “P” stands for an “on” pulse."
+    },
+    {
+     "col": 6,
+     "line": 74,
+     "text": "It is, of course, equally possible to identify “off” pulses with 1’s and “on” pulses with 0’s, which would give, instead, one of the secondary forms"
+    },
+    {
+     "col": 7,
+     "line": 3,
+     "text": "P, —, —, P, —, P, —"
+    },
+    {
+     "col": 7,
+     "line": 4,
+     "text": "Other secondary forms of the reflected binary code may be obtained in various ways. Vertical columns may be interchanged. For any such transposition the pattern may be split along any horizontal division line between rows, and the lower part placed above the upper part, to give a new pattern with the same properties as the primary one. Again, the initial process of building up the code by reflection may be modified, giving two alternatives for the 1-digit code, four for the 2-digit code, and so on. The four alternatives for the 2-digit code are tabulated below. Of these the first is the primary one discussed above, the others being variants."
+    },
+    {
+     "col": 7,
+     "line": 33,
+     "table": [
+      [
+       "Number",
+       "Primary",
+       "First Variant",
+       "Second Variant",
+       "Third Variant"
+      ],
+      [
+       "Zero",
+       "00",
+       "10",
+       "01",
+       "11"
+      ],
+      [
+       "One",
+       "01",
+       "11",
+       "00",
+       "10"
+      ],
+      [
+       "Two",
+       "11",
+       "01",
+       "10",
+       "00"
+      ],
+      [
+       "Three",
+       "10",
+       "00",
+       "11",
+       "01"
+      ]
+     ]
+    },
+    {
+     "col": 7,
+     "line": 40,
+     "text": "For illustrative purposes, the primary reflected binary code will henceforth be adhered to."
+    },
+    {
+     "col": 7,
+     "line": 42,
+     "text": "Returning to Fig. 1, whenever the electron beam 11 passes through an aperture of the mask 15, it strikes the collector anode 14 and gives rise to a current pulse in the output conductor and to a voltage pulse across the loading resistor 27 and on the outgoing line 40. Because these pulses are due to electron current they are negative in sign. Furthermore, they may be degraded in various ways and for various causes. Before transmission they are preferably regenerated, for example, by a gater-slicer circuit which may be of the type described in the Bell System Technical Journal publications above referred to. To this end a pulse regenerator circuit 37 is shown schematically and it is supplied by way of a conductor 38 with gating pulses originating in the basic pulse generator."
+    },
+    {
+     "col": 7,
+     "line": 59,
+     "text": "The pulses as thus regenerated are still negative in sign and may be transmitted in that condition. However, to facilitate the description of the receiver apparatus, it is preferred to invert the pulses in polarity, thus rendering them all positive in voltage. This may be accomplished in any convenient way, for example, by an amplifier 39."
+    },
+    {
+     "col": 7,
+     "line": 67,
+     "text": "At the receiver station, the incoming signal is amplified and demodulated as required, by means not shown, to recover reflected binary code pulses. These are now to be translated into message signal samples for reproduction, either directly or by preliminary translation into conventional binary code and decoding the latter by conventional methods and means."
+    },
+    {
+     "col": 7,
+     "line": 75,
+     "text": "The formulae which, for any number, relate symbols in the reflected binary number rotation to the symbols in the conventional notation are as follows: Let C_{1}, C_{2}, C_{3} . . . C_{7} . . . C_{n} represent the coefficients of the several digits in the conventional notation. Let R_{1}, R_{2}, R_{3} . . . R_{7} . . . R_{n} represent the coefficients of the several digits in the reflected binary notation. Since both notations are binary, each R and each C may have the value 1 or the value 0, but no others. Then, for any number,"
+    },
+    {
+     "col": 8,
+     "line": 13,
+     "table": [
+      [
+       "C_{n}",
+       "=R_{n}",
+       "(Mod. 2)",
+       ""
+      ],
+      [
+       "C_{n−1}",
+       "=R_{n}+R_{n−1}",
+       "(Mod. 2)",
+       ""
+      ],
+      [
+       "⋮",
+       "⋮",
+       "",
+       ""
+      ],
+      [
+       "C_{7}",
+       "=R_{n}+R_{n−1}----R_{7}",
+       "(Mod. 2)",
+       ""
+      ],
+      [
+       "C_{6}",
+       "=R_{n}+R_{n−1}----R_{7}+R_{6}",
+       "(Mod. 2)",
+       "(1)"
+      ],
+      [
+       "C_{5}",
+       "=------------R_{7}+R_{6}+R_{5}",
+       "(Mod. 2)",
+       ""
+      ],
+      [
+       "C_{4}",
+       "=------------R_{7}+R_{6}+R_{5}+R_{4}",
+       "(Mod. 2)",
+       ""
+      ],
+      [
+       "C_{3}",
+       "=------------R_{7}+R_{6}+R_{5}+R_{4}+R_{3}",
+       "(Mod. 2)",
+       ""
+      ],
+      [
+       "C_{2}",
+       "=------------R_{7}+R_{6}+R_{5}+R_{4}+R_{3}+R_{2}",
+       "(Mod. 2)",
+       ""
+      ],
+      [
+       "C_{1}",
+       "=------------R_{7}+R_{6}+R_{5}+R_{4}+R_{3}+R_{2}+R_{1}",
+       "(Mod. 2)",
+       ""
+      ]
+     ]
+    },
+    {
+     "col": 8,
+     "line": 24,
+     "text": "The formulae for converting from the conventional notation to the reflected notation are"
+    },
+    {
+     "col": 8,
+     "line": 28,
+     "table": [
+      [
+       "R_{n}",
+       "=C_{n}",
+       "(Mod. 2)",
+       ""
+      ],
+      [
+       "R_{n−1}",
+       "=C_{n}+C_{n−1}",
+       "(Mod. 2)",
+       ""
+      ],
+      [
+       "⋮",
+       "⋮",
+       "",
+       ""
+      ],
+      [
+       "R_{7}",
+       "=C_{8}+C_{7}",
+       "(Mod. 2)",
+       ""
+      ],
+      [
+       "R_{6}",
+       "=C_{7}+C_{6}",
+       "(Mod. 2)",
+       "(2)"
+      ],
+      [
+       "R_{5}",
+       "=C_{6}+C_{5}",
+       "(Mod. 2)",
+       ""
+      ],
+      [
+       "R_{4}",
+       "=C_{5}+C_{4}",
+       "(Mod. 2)",
+       ""
+      ],
+      [
+       "R_{3}",
+       "=C_{4}+C_{3}",
+       "(Mod. 2)",
+       ""
+      ],
+      [
+       "R_{2}",
+       "=C_{3}+C_{2}",
+       "(Mod. 2)",
+       ""
+      ],
+      [
+       "R_{1}",
+       "=C_{2}+C_{1}",
+       "(Mod. 2)",
+       ""
+      ]
+     ]
+    },
+    {
+     "col": 8,
+     "line": 39,
+     "text": "In both sets of formulae, the proviso “Mod. 2” means that all even sums are written “0” and all odd sums are written “1.”"
+    },
+    {
+     "col": 8,
+     "line": 42,
+     "text": "The foregoing general formulae are evidently reduced to those for 7-digit codes merely by noting that, for seven digits, R_{8} . . . R_{n} and C_{8} . . . C_{n} are zero."
+    },
+    {
+     "col": 8,
+     "line": 46,
+     "text": "As is well known, the value of a number is obtained from its representation in the conventional code by weighting the various C’s in proportion to 2^{d−1}, where d is the digit number, and adding the results. Thus, for the number thirty-eight, which in the 7-digit conventional binary code is written: Thirty-eight = 0100110,"
+    },
+    {
+     "col": 8,
+     "line": 55,
+     "table": [
+      [
+       "C_{7}(=0)×2^{6}=Zero",
+       ""
+      ],
+      [
+       "C_{6}(=1)×2^{5}=Thirty-two",
+       ""
+      ],
+      [
+       "C_{5}(=0)×2^{4}=Zero",
+       ""
+      ],
+      [
+       "C_{4}(=0)×2^{3}=Zero",
+       "(3)"
+      ],
+      [
+       "C_{3}(=1)×2^{2}=Four",
+       ""
+      ],
+      [
+       "C_{2}(=1)×2^{1}=Two",
+       ""
+      ],
+      [
+       "C_{1}(=0)×2^{0}=Zero",
+       ""
+      ],
+      [
+       "Thirty-eight",
+       ""
+      ]
+     ]
+    },
+    {
+     "col": 8,
+     "line": 65,
+     "text": "Applicant has discovered that a number may be obtained from its representation in the reflected binary code in its primary form by a related but different process, namely, by (a) weighting the various R’s in proportion to 2^{d−1}, (b) changing the signs of alternate non-zero R’s, starting with the second, and (c) adding the results. The second step is equivalent to multiplying by (−1)^{S}, where S is the number of non-zero digits in the symbol with digit numbers greater than d. Thus, for the number thirty-eight, which in the 7-digit reflected binary code is written: Thirty-eight=0110101,"
+    },
+    {
+     "col": 9,
+     "line": 4,
+     "table": [
+      [
+       "R_{7}(=0)×(2^{7}−1)×(−1)^{0}=Zero",
+       ""
+      ],
+      [
+       "R_{6}(=1)×(2^{6}−1)×(−1)^{0}=+Sixty-three",
+       ""
+      ],
+      [
+       "R_{5}(=1)×(2^{5}−1)×(−1)^{1}=−Thirty-one",
+       ""
+      ],
+      [
+       "R_{4}(=0)×(2^{4}−1)×(−1)^{2}=Zero",
+       "(4)"
+      ],
+      [
+       "R_{3}(=1)×(2^{3}−1)×(−1)^{2}=+Seven",
+       ""
+      ],
+      [
+       "R_{2}(=0)×(2^{2}−1)×(−1)^{3}=Zero",
+       ""
+      ],
+      [
+       "R_{1}(=1)×(2^{1}−1)×(−1)^{3}=−One",
+       ""
+      ],
+      [
+       "Thirty-eight",
+       ""
+      ]
+     ]
+    },
+    {
+     "col": 9,
+     "line": 12,
+     "text": "Figs. 3 and 4 show alternative forms of receiver apparatus in which incoming reflected binary code pulse groups are first transformed into conventional binary code groups by realization of the Formula 1, whereupon the resulting conventional binary code pulses are conventionally decoded. Fig. 5 shows receiver apparatus which evaluates incoming reflected binary code pulse groups directly in accordance with the Formula 4 into message signal samples, without resort to the intermediate translation process from code to code. Referring first to Fig. 3, the incoming reflected binary code signal, after such preliminary demodulation and amplification as may be required, appears at the input terminals of the receiver proper, schematically indicated by a broken line 41 as reflected binary code pulses. For best results they are preferably regenerated, for example, by a gater-slicer circuit 42 of any suitable type, whereupon they are routed to one or more translating networks, the number being dependent on the rapidity with which such translating networks may act. Thus, in Fig. 3, two such networks are employed and the regenerated pulses are applied to them in parallel by way of coupling condensers 43, 44. Each translating network may comprise a so-called “flip-flop” circuit, namely, a pair of triodes 45, 46 in which the anode of each is connected by a direct current path to the control grid of the other. Appropriate operating biases may be applied to the control grids by way of voltage dividers. Thus the control grid of tube 46 receives its bias from a source 51 by way of resistors 47, 48, and is returned to the negative terminal of this source by way of resistors 49, 50. Such a circuit has two stable rest conditions, in each of which one tube is conductive while the other is not. On the application of a pulse to the grids of both tubes, the condition is reversed, and remains reversed until the application of the next pulse, whereupon it returns again to the first condition. Thus, for an incoming pulse wave form as indicated at A, the output wave form, namely, the wave form of the potential of the anode of the right-hand tube 46 is as indicated at B."
+    },
+    {
+     "col": 9,
+     "line": 58,
+     "text": "For reasons which will be explained below, it is preferred to restore the flip-flop circuit 45, 46 to its initial condition at the conclusion of each pulse group. To this end the control grid of the right-hand tube 46 is supplied with a positive voltage pulse, derived, for example, from a battery 52, at the pulse group frequency, by way of a commutator or distributor 53 which is driven at the appropriate speed. The distributor may be of any suitable type, preferably electronic. A particularly suitable system for obtaining the distributor driving pulse rate from the incoming pulse train is described and shown in the Bell System Technical Journal publications above referred to and is claimed in an application of J. G. Kreer and E. Peterson, Serial No. 776,280, filed September 26, 1947, now Patent 2,527,638, issued October 31, 1950. In brief the system there disclosed comprises a differentiating circuit 54, a rectifier 55, a band-pass filter 56 tuned to the basic pulse frequency and a pulse shaper 57 in tandem. As fully described in that application, this arrangement of apparatus reproduces the basic pulse frequency of the transmitter pulse generator 26. This pulse frequency may operate a frequency divider 58 of which the frequency ratio is equal to the number of digits of the code. Thus, with the 7-digit code, the frequency divider should produce output pulses whose frequency is one-seventh of the frequency of the basic timing source. A step-down multivibrator is a suitable instrument for the purpose. Its output pulses are next squared and standardized in form by a shaper circuit whose output, in turn, operates the distributor. In the symbolic representation of the figure, the contact arm rotates at one half the rate of the driving group frequency pulses."
+    },
+    {
+     "col": 10,
+     "line": 21,
+     "text": "Application of the positive voltage of the battery 52 to the control grids of the tubes 46, 46’ of the two flip-flop circuits in sequence by the distributor 53 returns each flip-flop circuit to its initial condition at the conclusion of the pulse group which it has just translated and holds it in this condition until, after one pulse group period, the voltage is removed by movement of the rotating arm 60 of the distributor to the opposite segment. Thereupon the positive voltage rapidly leaks off to ground by way of the various resistors connected to the grid of the flip-flop circuit. Thus, the two flip-flop circuits are enabled in alternation, one being disabled while the other is enabled. Furthermore, each is returned to its initial condition at the instant it is disabled, thus preparing it to receive a later pulse group."
+    },
+    {
+     "col": 10,
+     "line": 39,
+     "text": "In order that the alternate enabling and disabling of the flip-flop circuits shall take place between successive incoming code pulse groups, and that each flip-flop circuit shall receive an entire group, and not portions of two groups, the phase of the movement of the distributor arm 60 must be correct, as well as its speed. Its phase may conveniently be controlled by inclusion of an adjustable phase shifter 61 in the distributor control path. As this device is adjusted continuously, a position will be found at which the reproducer output is intelligible. For other positions it is unintelligible because each flip-flop circuit will be translating incomplete portions of two code groups. The adjustable phase shifter 61 is thus, in effect, a framing controller. Other more elaborate framing means may, of course, be employed if preferred."
+    },
+    {
+     "col": 10,
+     "line": 57,
+     "text": "The output voltage of each of the flip-flop circuits 46, 46’ is next gated at the basic pulse frequency by a regenerator 62, 62’ which may again be similar to that described in the aforementioned application of L. A. Meacham. The two regenerators operating respectively on the output pulses of the two flip-flop circuits may be supplied with control gating pulses at the basic pulse frequency by way of a conductor 63."
+    },
+    {
+     "col": 10,
+     "line": 66,
+     "text": "The resulting wave form at the output terminals of the regenerator is indicated at C. Comparison of the Formulae 1 with the foregoing operations will reveal that this wave is now in the form of the conventional binary pulse code, and it may therefore be translated into signal samples for application to a reproducer 64 by decoders 65, 65’, whose outputs are collected turn and turn about by a distributor 66, driven in synchronism with the distributor 63. Suitable decoder apparatus is described in Goodall Patent 2,449,467, issued September 14, 1948."
+    },
+    {
+     "col": 11,
+     "line": 3,
+     "text": "It is the function and purpose of the flip-flop circuits of Fig. 3 to produce a change in an output circuit in a specified direction on the arrival of the first pulse of an incoming reflected binary code pulse group; to remain quiescent until the arrival of the next pulse and thereupon to produce a change in the opposite direction; to remain quiescent again until the arrival of the third pulse and thereupon to produce a change in the first direction, and so on. Other apparatus than the flip-flop circuit is possible, and Fig. 4 shows an alternative to the system of Fig. 3 in which this function is performed by the combination of a rectifier circuit and a specially constructed cathode ray tube. The incoming reflected binary pulse code group, which again may have the wave form shown at A, is applied to a network comprising a condenser 70, a diode rectifier 71 and a constant current device such as a saturated pentode amplifier 72. As is well known such a circuit operates in the manner of a “pail and dipper” circuit supplying standard increments of charge through the condenser 70 upon the arrival of each pulse of the incoming pulse code group. Therefore the condenser voltage rises in substantially equal steps, one step for each incoming pulse. The condenser wave form is indicated at B."
+    },
+    {
+     "col": 11,
+     "line": 31,
+     "text": "This stepped condenser wave form is then applied to vertical deflecting elements 73 of a cathode beam tube 74 which may comprise an electron gun 75 and a collector anode 76 of conventional type and having. interposed in the path of the cathode beam 77 between the electron gun 75 and the collector anode 76, a mask 78 of special configuration. This mask comprises a vertical array of apertures, each separated from its neighbors by a distance equal to the aperture height. For a 7-digit code, four apertures are required. separated by three spaces. Deflection bias means, such as an adjustable battery-potentiometer combination 79 is included in the circuit of the vertical deflection elements 73 and is adjusted so that the undeflected beam position lies on the mask 78 just below the first aperture. The sensitivity of the tube 74 for beam deflections is adjusted in any desired manner so that a change of one step in the voltage of the condenser 70 moves the beam 77 upward along the mask 78 from its rest position to approximately the center of the first aperture, while the next step moves it to the blank portion of the mask which separates the first aperture from the second, and so on, each voltage step moving it from a blank space to an aperture or from an aperture to a blank space. With this construction, voltage pulses appear in the circuit of the collector anode 76 and across the output loading resistor which have the characteristics of the curve C, namely, a voltage change in one direction for the first pulse and a like change in the opposite direction for the next pulse, and so on."
+    },
+    {
+     "col": 11,
+     "line": 66,
+     "text": "To allow time for the pail and dipper circuit to return to its initial condition, and for the cathode beam of the translating tube to return to its initial position at the foot of the translating mask, two like systems of pail and dipper circuit and translating tube are provided. Also pulses of all pulse code groups may be applied to both systems in parallel while pulses of code group frequency, derived in the manner described above in connection with Fig. 3, are applied from a battery 52 by way of a distributor 53 to a restoring and disabling circuit comprising a triode 81 whose anode and cathode are connected across the condenser 70 of the pail and dipper circuit, while its control grid is pulsed positively by the output of the distributor 53. Thus, application of a positive pulse, for example, to the upper triode makes the latter highly conductive so that its “pail” condenser 70 cannot hold any substantial charge. Under these conditions, application of incoming code group pulses to the upper pail and dipper circuit are ineffective to deflect the cathode beam 77 of the upper translating tube 74. During this time, however, the lower triode 81’ is held well below cut-off by grid rectification due to the grid condenser 82’ and resistor 83’ in combination so that application of incoming code pulses to the lower pail and dipper circuit 70’, 71’, 72’, results in stepping the condenser voltage by equal negative steps and therefore deflecting the cathode beam of the lower translating tube 74’ along the translating mask in the manner described above. At the termination of this code group, the rotating arm 60 of the distributor 53 makes contact with the lower distributor segment and opens the circuit from the battery 52 to the upper distributor segment. Thus the upper pail and dipper circuit 70, 71, 72 is enabled while the lower pail and dipper circuit is returned to its initial condition and disabled."
+    },
+    {
+     "col": 12,
+     "line": 31,
+     "text": "The resulting translated pulse code groups may now be supplied to individual regenerating circuits and decoders in the manner described above in connection with Fig. 3. Alternatively, they may be applied in alternating sequence to a single regenerator 85; to which gating pulses are applied at the basic pulse frequency by way of a conductor 86 and thence to a decoder 87 which may be of any suitable type and serves to translate the resulting sequence of conventional binary pulse code groups into a message for reproduction in a reproducer 88."
+    },
+    {
+     "col": 12,
+     "line": 43,
+     "text": "In the Formulae 1, each digit of the translated conventional binary code is determined in part by the most significant digit of the reflected binary code, e. g., C_{6}, C_{5}, C_{4}, C_{3}, C_{2}, C_{1} are all determined in part by R_{7}. By the same token, the apparatus of Figs. 3 and 4, which carry out the operations required by these formulae, is unable to translate correctly until the most significant reflected binary code pulse of each group is at hand. To avoid complexity of apparatus, therefore, it is preferred, when translating from reflected binary code to conventional binary code, that the most significant digit pulse of each group be the earliest received, and the least significant the last. It is for this reason that, at the transmitter, the coding mask of Fig. 2 is oriented with respect to the cathode beam sweep so that the beam crosses the seventh aperture column first in the course of its sweep and the first column last."
+    },
+    {
+     "col": 12,
+     "line": 62,
+     "text": "Fig. 5 shows a system for translating incoming reflected binary code pulse groups directly into message signal samples without first translating them into conventional binary code pulse groups as an intermediate step. This system requires no restoration of the translator circuit to its initial condition at the conclusion of a code pulse group and therefore a single translator circuit may be employed. Incoming reflected binary code pulses appear on the incoming line as before and, after being regenerated, are applied to a flip-flop circuit which is similar to that of Fig. 3, except that the group frequency pulsing conductor which restores the flip-flop circuit of Fig. 3 to its initial condition at the conclusion of a code group is omitted. The incoming pulses A are applied to the grids of both tubes 90, 91 together and the output voltage is taken from the anode of one tube 91, just as before. The output voltage, therefore. has the wave form of the curve B if, prior to the first pulse of the group, the right-hand tube 91 was conductive; i. e., if the initial condition of the circuit was the same as the initial condition of the flip-flop circuit of Fig. 3."
+    },
+    {
+     "col": 13,
+     "line": 11,
+     "text": "On the other hand, if at the commencement of the pulse code group A, the initial condition of the flip-flop circuit were the reverse, namely, that the left-hand tube 90 was conductive, then the output wave form would be inverted with respect to the wave form, curve B."
+    },
+    {
+     "col": 13,
+     "line": 17,
+     "text": "The output voltage of this flip-flop circuit is next differentiated, for example by a combination of a condenser 92 and a resistor 93 or by any desired differentiating circuit, to give a sequence of positive and negative pulses having the form of the curve C. This pulse sequence is in turn shaped, by any suitable means, schematically indicated by the block 94, to give substantially rectangular waves as in the curve D. It will be observed that pulses of this curve D are substantially identical with those of the incoming reflected binary code pulses with the exception of the fact that alternate pulses are inverted in polarity."
+    },
+    {
+     "col": 13,
+     "line": 31,
+     "text": "This pulse sequence is now applied to a group of delay devices 95a, 95b, etc. in number one less than the number of digits of the code, in parallel. The output terminals of these delay devices are in turn connected to individual attenuators 96a, 96b, etc. whose conductances are proportional to the numbers 1, 3, 7, 15, 31 and 127. The outputs of these attenuators are paralleled and applied to the input terminals of an amplifier, preferably a voltage feedback amplifier which may comprise a triode 97 whose control grid is connected to its anode by way of a conductance 98 of magnitude equal to the magnitude of the smallest conductance 96g. The output of the triode 97 is sampled at the pulse group rate by a sampler 99 which may be supplied with control pulses derived from the incoming pulse sequence by a differentiator 54, a rectifier 55, a band-pass filter 56, a pulse shaper 57, a 7 to 1 frequency divider, such as a step-down multi-vibrator 58 and a pulse shaper 59 connected in tandem in the manner explained above in connection with Fig. 3."
+    },
+    {
+     "col": 13,
+     "line": 53,
+     "text": "The sampled output is in turn rectified by a rectifier 100 and applied in the form of message samples to a reproducer 101."
+    },
+    {
+     "col": 13,
+     "line": 56,
+     "text": "The operation of this translating circuit is as follows: Pulses of the form D are applied to all of the delay devices 95a, 95b, etc. in parallel. The delays of these devices differ from each other by precisely a single pulse period. Thus at their output terminals all the pulses of a single pulse group occur in time coincidence. Because of the alternate reversal of polarity of the pulses of the wave D, some of them are positive and others negative as required by the Formulae 4. The various resistors 96a, 96b, etc. now effectively multiply the magnitudes of these various pulses by numbers of the series 1, 3, 7, 15, 31, 63 and 127, as indicated by the Formulae 4, without altering the fact that alternate pulses are negative in sign. The outputs of these resistors are now effectively added by the voltage feedback amplifier 97, again as required by Formulae 4. In view of the alternating signs of the pulses of the wave D, this addition is algebraic. Therefore, the results of the addition may be positive or negative, in dependence on whether the pulse of greatest digital significance is positive or negative. However, negative sums are converted to positive sums by the rectifier 100, while positive sums are unaltered by the rectifier 100. The result is a sequence of pulses which recur at the pulse group rate. They are in fact proportional to the samples of the original message signal and can therefore be applied without further change to a reproducer 101."
+    },
+    {
+     "col": 14,
+     "line": 11,
+     "text": "An adjustable phase shifter 61 is included in the gating pulse conductor which brings group frequency pulses to the sampler 99. As this device is adjusted continuously a position will be found at which the output of the reproducer is intelligible. For other positions it will be unintelligible because the sampling pulse occurs at an instant at which the pulses of a single pulse code group, brought into time coincidence by the respective delay devices 95a, 95b, etc., are not present in the amplifier output."
+    },
+    {
+     "col": 14,
+     "line": 22,
+     "text": "In contradistinction to the code-to-code translators of Figs. 3 and 4, the direct translator of Fig. 5 is, with a small modification, equally well adapted to receive and translate reflected code pulses in which the first pulse of each group to arrive is the pulse of least digital significance and the last to arrive is the pulse of greatest digital significance. This would be the arrival order, if, in Fig. 1, either the direction of sweep of the cathode beam 11 or the columnar arrangement of the coding mask 15 were reversed. To rearrange the apparatus of Fig. 5 to receive reflected binary code pulses in the reverse order of their digital significance and translate them into message signal samples, it is only necessary to interchange the delay times with respect to the numerical weightings; e. g., connect the longest delay device 95 to the lowest conductance 96, the next longest delay to the next lowest conductance, and so on, finally connecting the shortest or zero delay to the highest conductance. No other change is necessary, and the operation is otherwise just as described above."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 4,
+   "line": 18,
+   "text": "Fig. 1 is a schematic diagram of coding apparatus in accordance with the invention;"
+  },
+  {
+   "fig": "2",
+   "col": 4,
+   "line": 20,
+   "text": "Fig. 2 is an end view of the coding mask of Fig. 1 drawn to an enlarged scale;"
+  },
+  {
+   "fig": "2A",
+   "col": 4,
+   "line": 22,
+   "text": "Fig. 2A is a similar view of a conventional coding mask;"
+  },
+  {
+   "fig": "3",
+   "col": 4,
+   "line": 24,
+   "text": "Fig. 3 is a schematic circuit diagram of apparatus for translating incoming reflected binary code pulse groups into conventional binary code pulse groups and for decoding the latter and reproducing the decoded values as a signal;"
+  },
+  {
+   "fig": "4",
+   "col": 4,
+   "line": 29,
+   "text": "Fig. 4 is a schematic circuit diagram of an alternative to Fig. 3;"
+  },
+  {
+   "fig": "5",
+   "col": 4,
+   "line": 31,
+   "text": "Fig. 5 is a schematic circuit diagram of apparatus for translating incoming reflected binary code pulse groups directly into signal samples for reproduction, without carrying out the intermediate step of translating into conventional binary code."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 14,
+   "line": 45,
+   "depends": null,
+   "text": "1. In a pulse code communication system, means for translating signal samples into reflected binary code groups of on-or-off pulses, means for transmitting pulse groups to a receiver station, means at said receiver station for converting each received group of said pulses into a conventional binary code pulse group, and means for translating said conventional binary code pulse groups into message signal samples."
+  },
+  {
+   "n": 2,
+   "col": 14,
+   "line": 55,
+   "depends": null,
+   "text": "2. Receiver apparatus for translating an incoming sequence of code pulse groups in each of which pulses are arranged in accordance with the reflected binary code, which comprises means for projecting a cathode beam, a collector for electrons of the beam, a mask having a plurality of similar apertures in the path of the beam, non-apertured portions of the mask between the apertures being of dimensions equal to the dimensions of the apertures, bias means for adjusting the undeflected position of the beam to a non-apertured portion of the mask beyond the first aperture, means for deflecting the beam along the mask in steps equal to one half the aperture pitch under control of successive pulses of one incoming reflected binary code pulse group, means for restoring the beam to its undeflected position at the conclusion of each pulse group, connections for withdrawing from the collector a current due to passage of the beam through the apertures of the mask, which current is a sequence of pulses arranged in the conventional binary code, and means for translating said conventional binary code pulse groups into message signal samples."
+  },
+  {
+   "n": 3,
+   "col": 15,
+   "line": 4,
+   "depends": null,
+   "text": "3. Receiver apparatus for translating an incoming sequence of code pulse groups in each of which pulses are arranged in accordance with the reflected binary code, which comprises means for reversing alternate ones of the pulses of said sequence to form a derived pulse sequence, a plurality of delay devices having delay times related to the several pulse positions of a code group, connections for applying pulses of the derived sequence to said delay devices, whereby they are brought into time coincidence, means for selectively amplifying the outputs of said delay devices in proportion to the numbers 1, 3, 7, 15, 31, 63, 127 . . . 2^{n}−1, where n is the number of code digits, means for adding the resulting amplified pulses, means for sampling the added pulses at instants following the completion of each code pulse group, means for rectifying the resulting samples, a message reproducer, and means for supplying said rectified samples to said reproducer."
+  },
+  {
+   "n": 4,
+   "col": 15,
+   "line": 25,
+   "depends": null,
+   "text": "4. The method of translating an incoming sequence of code pulse groups in each of which pulses are arranged in accordance with the reflected binary code, which comprises reversing alternate ones of the pulses of said sequence to form a derived pulse sequence, relatively delaying the pulses of the derived sequence by times related to the several pulse positions of a code group whereby said pulses are brought into time coincidence, selectively amplifying the pulses thus delayed in proportion to the numbers 1, 3, 7, 15, 31, 63, 127 . . . 2^{n}−1, where n is the number of code digits, adding the resulting amplified pulses, sampling the added pulses at instants following the completion of each code pulse group, rectifying the resulting samples, and reproducing the succession of rectified samples as a message."
+  },
+  {
+   "n": 5,
+   "col": 15,
+   "line": 43,
+   "depends": null,
+   "text": "5. Receiver apparatus for translating an incoming sequence of code pulse groups in each of which pulses are arranged in accordance with the reflected binary code, which comprises a circuit arrangement adapted to deliver an intermediate signal of one magnitude upon the application to it of odd numbered pulses and a signal of another magnitude on the application to it of even numbered pulses, means for producing a positive pulse for each change of said intermediate signal in one direction and a negative pulse for each change of said output signal in the other direction, a plurality of delay devices having delay times related to the several pulse positions of a code group, connections for applying pulses of the last-named pulse sequence to said delay devices whereby said pulses are brought into time coincidence, means for selectively amplifying the outputs of said delay devices in proportion to the numbers 1, 3, 7, 15, 31, 63, 127 . . . 2^{n}−1, where n is the number of code digits, means for adding the resulting amplified pulses, means for sampling the added pulses at instants following the completion of each code pulse group, means for rectifying the resulting samples, a message reproducer, and means for supplying said rectified samples to said reproducer."
+  },
+  {
+   "n": 6,
+   "col": 15,
+   "line": 70,
+   "depends": null,
+   "text": "6. The method of translating an incoming sequence of code pulse groups in each of which pulses are arranged in accordance with the reflected binary code, which comprises producing an intermediate signal of one magnitude upon the application of odd numbered pulses and a signal of another magnitude on the application to it of even numbered pulses, producing a positive pulse for each change of said intermediate signal in one direction and a negative pulse for each change of said intermediate signal in the other direction, relatively delaying the various pulses of a group by times related to the several pulse positions of a code group, whereby said pulses are brought into time coincidence, selectively amplifying the variously delayed pulses in proportion to the numbers 1, 3, 7, 15, 31, 63, 127 . . . 2^{n}−1, where n is the number of code digits, adding the resulting amplified pulses, sampling the added pulses at instants following the completion of each code pulse group, rectifying the resulting samples, and reproducing the succession of rectified samples as a message."
+  },
+  {
+   "n": 7,
+   "col": 16,
+   "line": 18,
+   "depends": null,
+   "text": "7. Apparatus for translating each of a succession of signal amplitude samples into a reflected binary code pulse group, which comprises means for projecting a cathode beam, a mask having a plurality of apertures arranged in rows and columns in the path of said beam, said apertures being so distributed among said rows and columns that each row differs by only one aperture in one column from each adjacent row, elements for deflecting the beam to a selected aperture row under control of a signal sample to be coded, and means for deriving pulses from passage of the beam electrons through the several apertures of the selected row."
+  },
+  {
+   "n": 8,
+   "col": 16,
+   "line": 32,
+   "depends": null,
+   "text": "8. Apparatus for translating each of a succession of signal amplitude samples into a reflected binary code pulse group which comprises means for projecting a cathode beam, a mask having a plurality of rows of apertures in the path of said beam, elements for deflecting the beam to a selected aperture row under control of a signal sample to be coded, and means for deriving current pulses from passage of the beam electrons through the several apertures of the selected row, the apertures of said mask being arranged in a plurality n of columns and a plurality 2^{n} of rows, where n is the number of digits in the code, columns which are adjacent as measured from one side of the mask having successively greater digital significance, the apertures of each column being spaced apart along the column by distances equal to their widths in the same direction, the apertures of each column except the column of greatest digital significance being twice as high, measured along the column, as the apertures of the adjacent column of lower digital significance and being centrally located adjacent the two ends of the apertures of the adjacent column of next higher digital significance, the resulting array of apertures, apart from the single aperture of the column of greatest digital significance, being symmetrical about a transverse center line parallel with the rows, the single aperture of the column of greatest digital significance filling that half of said column which lies to one side of said center line."
+  },
+  {
+   "n": 9,
+   "col": 16,
+   "line": 64,
+   "depends": null,
+   "text": "9. Apparatus for translating each of a succession of signal amplitude samples into a reflected binary code pulse group which comprises means for projecting a cathode beam, a mask having a plurality of rows of apertures in the path of said beam, elements for deflecting the beam to a selected aperture row under control of a signal sample to be coded, and means for deriving current pulses from passage of the beam electrons through the several apertures of the selected row, the apertures of said mask being arranged in a plurality n of columns and a plurality 2^{n} of rows, where n is the number of digits in the code, each column corresponding to a particular digit of the code, the aperture pattern being such that, with the exception of the two columns of first and second digital significance, the apertures of each column are spaced apart along the column by distances equal to their heights in the same direction, and are twice as high, measured along the column, as the apertures of that column which corresponds to the digit of next lower significance, and are centrally juxtaposed with the two ends of the apertures of that column which corresponds to the digit of the next higher significance, the columns of first and second digital significance each containing a single aperture, the resulting array of apertures, apart from the single aperture of the column of first digital significance, being symmetrical about a transverse center line parallel with the rows, the single aperture of the column of first digital significance filling that half of said column which lies to one side of said center line."
+  },
+  {
+   "n": 10,
+   "col": 17,
+   "line": 23,
+   "depends": null,
+   "text": "10. In a pulse code communication system, means for translating successive amplitudes of a message into binary code groups of on-or-off pulses including means whereby the characteristics of said code groups are such that each permissible pulse position in a code pulse group is uniquely correlated with a particular digit of the code, the code value of each “on”-pulse being proportional to (−1)^{s}(2^{d−1}) where d is the digit number of the digit with which the pulse position occupied by said “on”-pulse is correlated and s is the number of “on”-pulses in said code pulse group having digit numbers greater than d, the code value of each “off”-pulse being zero, the code value of each entire pulse group being the sum of the individual code values of the several pulses of said group, and means for converting each group of said pulses into a conventional binary code pulse group."
+  },
+  {
+   "n": 11,
+   "col": 17,
+   "line": 42,
+   "depends": 10,
+   "text": "11. In a pulse code system as defined in the preceding claim, wherein the converting means comprises means to deliver an output signal of one magnitude prior to the application to it of the first of a sequence of input pulses and after the application of an even number of pulses, and a signal of another magnitude upon the application of the first or any odd numbers of pulses, means for restoring said circuit to its initial condition after the expiration of a pulse group period."
+  },
+  {
+   "n": 12,
+   "col": 17,
+   "line": 52,
+   "depends": null,
+   "text": "12. In a pulse code communication system, means for translating signal samples into reflected binary code groups of on-or-off pulses, means for thereafter converting each pulse group of said pulses into a conventional binary code pulse group, and means for translating each of said conventional binary code pulse groups into a message signal sample."
+  },
+  {
+   "n": 13,
+   "col": 17,
+   "line": 60,
+   "depends": null,
+   "text": "13. In a pulse code communication system, means for translating successive amplitude samples of a message into binary code groups of on-or-off pulses including means whereby the characteristics of said code groups are such that each permissible pulse position in a code pulse group is uniquely correlated with a particular digit of the code, the code value of each “on”-pulse being proportional to (−1)^{s}(2^{d−1}) where d is the digit number of the digit with which the pulse position occupied by said “on”-pulse is correlated and s is the number of “on”-pulses in said code pulse group having digit numbers greater than d, the code value of each “off”-pulse being zero, the code value of each entire pulse group being the sum of the individual code values of the several pulses of said group, and means for decoding each group of said pulses into a message signal amplitude."
+  },
+  {
+   "n": 14,
+   "col": 18,
+   "line": 10,
+   "depends": 13,
+   "text": "14. Apparatus as defined in claim 13 wherein the decoding means comprises means for inverting the polarity of alternate “on”-pulses of each received group of pulses arranged in accordance with said code, means for weighting the individual on-or-off pulses of said group in the ratios 2^{n}−1, . . . 7, 3, 1, means for adding the pulses so weighted to provide sums, a reproducer, and means for applying the sums to the reproducer."
+  },
+  {
+   "n": 15,
+   "col": 18,
+   "line": 19,
+   "depends": null,
+   "text": "15. The method of translating an incoming sequence of code pulse groups in each of which pulses are arranged in accordance with the reflected binary code, which comprises reversing alternate ones of the pulses of said sequence to form a derived pulse sequence, selectively amplifying the pulses of said derived sequence in proportion to the numbers 1, 3, 7, 15, 31, 63, 127 . . . 2^{n}−1, where n is the number of code digits, adding the resulting amplified pulses, sampling the added pulses at instants following the completion of each code pulse group, rectifying the resulting samples, and reproducing the succession of rectified samples as a message."
+  },
+  {
+   "n": 16,
+   "col": 18,
+   "line": 33,
+   "depends": null,
+   "text": "16. The method of translating an incoming sequence of code pulse groups in each of which pulses are arranged in accordance with the reflected binary code, which comprises producing, for each incoming pulse group, an intermediate signal of one magnitude prior to the application of the first pulse of each group and after the application of an even number of pulses, and a signal of another magnitude upon the application of the first or any odd number of pulses, and thereafter converting each group of such intermediate signal pulses into a message amplitude sample. FRANK GRAY. REFERENCES CITED"
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "col": 1,
+   "line": 4,
+   "ocr": "thereof,",
+   "fixed": "thereof.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 7,
+   "ocr": "‘be",
+   "fixed": "be",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 9,
+   "ocr": "pulses..",
+   "fixed": "pulses.",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 15,
+   "ocr": "J-digit",
+   "fixed": "7-digit",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 16,
+   "ocr": "an. m-digit",
+   "fixed": "an n-digit",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 17,
+   "ocr": "of 2 pulse",
+   "fixed": "of n pulse",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 24,
+   "ocr": ".Correspond-",
+   "fixed": "Correspond-",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 25,
+   "ocr": "conventional. 3-digit",
+   "fixed": "conventional 3-digit",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 31,
+   "ocr": "trans~-",
+   "fixed": "trans-",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 38,
+   "ocr": "from.them,",
+   "fixed": "from them,",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 45,
+   "ocr": "_the",
+   "fixed": "the",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 46,
+   "ocr": "in 2 columns and 2” rows",
+   "fixed": "in n columns and 2^{n} rows",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 47,
+   "ocr": "code..",
+   "fixed": "code.",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 55,
+   "ocr": "‘Thus,",
+   "fixed": "Thus,",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 12,
+   "ocr": "change.",
+   "fixed": "change",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 13,
+   "ocr": "digits..",
+   "fixed": "digits.",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 15,
+   "ocr": "1000,",
+   "fixed": "1000.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 36,
+   "ocr": "Sears:",
+   "fixed": "Sears;",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 40,
+   "ocr": "invelve",
+   "fixed": "involve",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 40,
+   "ocr": "various. de-",
+   "fixed": "various de-",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 41,
+   "ocr": "grees,",
+   "fixed": "grees.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 55,
+   "ocr": "that.",
+   "fixed": "that",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 55,
+   "ocr": "“on’-pulses",
+   "fixed": "“on”-pulses",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 1,
+   "ocr": "“of”’-pulses",
+   "fixed": "“off”-pulses",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 2,
+   "ocr": "rezenting",
+   "fixed": "resenting",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 6,
+   "ocr": "accented",
+   "fixed": "accepted",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 8,
+   "ocr": "anertures",
+   "fixed": "apertures",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 17,
+   "ocr": "avertures",
+   "fixed": "apertures",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 18,
+   "ocr": "xception",
+   "fixed": "exception",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 21,
+   "ocr": "lareest",
+   "fixed": "largest",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 25,
+   "ocr": "cf some",
+   "fixed": "of some",
+   "basis": "scan (worn o) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 29,
+   "ocr": "arerture",
+   "fixed": "aperture",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 31,
+   "ocr": "(n—1) th",
+   "fixed": "(n−1)^{th}",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 38,
+   "ocr": "aux-~",
+   "fixed": "aux-",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 39,
+   "ocr": "jliary",
+   "fixed": "iliary",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 46,
+   "ocr": "sroup)",
+   "fixed": "group)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 49,
+   "ocr": "Cor pulse",
+   "fixed": "(or pulse",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 51,
+   "ocr": "built wo",
+   "fixed": "built up",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 60,
+   "ocr": "designee",
+   "fixed": "designed",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 62,
+   "ocr": "Accerdingly",
+   "fixed": "Accordingly",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 66,
+   "ocr": "Jate",
+   "fixed": "late",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 70,
+   "ocr": "Means.",
+   "fixed": "means.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 72,
+   "ocr": "ali of",
+   "fixed": "all of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 1,
+   "ocr": "colurans",
+   "fixed": "columns",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 9,
+   "ocr": "decod’ng",
+   "fixed": "decoding",
+   "basis": "scan (broken i)"
+  },
+  {
+   "col": 4,
+   "line": 21,
+   "ocr": "‘ig, 1",
+   "fixed": "Fig. 1",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 22,
+   "ocr": "Fig,",
+   "fixed": "Fig.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 26,
+   "ocr": "grouvs",
+   "fixed": "groups",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 44,
+   "ocr": "[1,",
+   "fixed": "11,",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 4,
+   "line": 46,
+   "ocr": "{3",
+   "fixed": "13",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 4,
+   "line": 48,
+   "ocr": "{5.",
+   "fixed": "15.",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 4,
+   "line": 49,
+   "ocr": "{{",
+   "fixed": "11",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 4,
+   "line": 49,
+   "ocr": "cathcde",
+   "fixed": "cathode",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 50,
+   "ocr": "{7,",
+   "fixed": "17,",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 4,
+   "line": 50,
+   "ocr": "(8",
+   "fixed": "18",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 4,
+   "line": 51,
+   "ocr": "{9.",
+   "fixed": "19.",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 4,
+   "line": 54,
+   "ocr": "Orerat-",
+   "fixed": "Operat-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 56,
+   "ocr": "i4,",
+   "fixed": "14,",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 4,
+   "line": 57,
+   "ocr": "{5",
+   "fixed": "15",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 4,
+   "line": 61,
+   "ocr": "conirol",
+   "fixed": "control",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 65,
+   "ocr": "28. Hach",
+   "fixed": "26. Each",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 4,
+   "line": 69,
+   "ocr": "voliage",
+   "fixed": "voltage",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 70,
+   "ocr": "309",
+   "fixed": "30",
+   "basis": "scan (bold numeral) + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 73,
+   "ocr": "{2.",
+   "fixed": "12.",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 5,
+   "line": 1,
+   "ocr": "“those of the first. single. trip multivibrator 26.",
+   "fixed": "those of the first single trip multivibrator 25.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 2,
+   "ocr": "“These, in turn, control.a",
+   "fixed": "These, in turn, control a",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 5,
+   "line": 3,
+   "ocr": "-tor 33 delivering a.sawtooth",
+   "fixed": "tor 33 delivering a sawtooth",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 5,
+   "line": 4,
+   "ocr": "-amplifier",
+   "fixed": "amplifier",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 5,
+   "ocr": ". by. way",
+   "fixed": "by way",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 5,
+   "line": 6,
+   "ocr": ". to the",
+   "fixed": "to the",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 7,
+   "ocr": "defiection",
+   "fixed": "deflection",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 7,
+   "ocr": "I1",
+   "fixed": "11",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 5,
+   "line": 9,
+   "ocr": "‘aperture",
+   "fixed": "aperture",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 9,
+   "ocr": "{5",
+   "fixed": "15",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 5,
+   "line": 11,
+   "ocr": "il is",
+   "fixed": "11 is",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 5,
+   "line": 12,
+   "ocr": "horizontal]",
+   "fixed": "horizontal",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 13,
+   "ocr": "a. sequence",
+   "fixed": "a sequence",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 14,
+   "ocr": "across:",
+   "fixed": "across",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 17,
+   "ocr": "{5 in",
+   "fixed": "15 in",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 5,
+   "line": 17,
+   "ocr": "Bell-",
+   "fixed": "Bell",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 18,
+   "ocr": "publications:above re=",
+   "fixed": "publications above re-",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 19,
+   "ocr": "conventional”",
+   "fixed": "conventional",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 22,
+   "ocr": "maiter,.it",
+   "fixed": "matter, it",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 24,
+   "ocr": ".by",
+   "fixed": "by",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 25,
+   "ocr": "2\" or.",
+   "fixed": "2^{7} or",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 26,
+   "ocr": "{i",
+   "fixed": "11",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 5,
+   "line": 29,
+   "ocr": "{9,",
+   "fixed": "19,",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 5,
+   "line": 31,
+   "ocr": "to. produce",
+   "fixed": "to produce",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 34,
+   "ocr": "‘-digit",
+   "fixed": "7-digit",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 37,
+   "ocr": "‘how",
+   "fixed": "how",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 39,
+   "ocr": "‘the",
+   "fixed": "the",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 43,
+   "ocr": "-with",
+   "fixed": "with",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 47,
+   "ocr": ".as",
+   "fixed": "as",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 50,
+   "ocr": ".column",
+   "fixed": "column",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 55,
+   "ocr": "of. the",
+   "fixed": "of the",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 57,
+   "ocr": "refiected",
+   "fixed": "reflected",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 58,
+   "ocr": "Fig. 2. with",
+   "fixed": "Fig. 2 with",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 64,
+   "ocr": "_column,",
+   "fixed": "column,",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 65,
+   "ocr": "_way",
+   "fixed": "way",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 72,
+   "ocr": "-synchronizing",
+   "fixed": "synchronizing",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 74,
+   "ocr": "“pinary number. system is built up will. now",
+   "fixed": "binary number system is built up will now",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 5,
+   "line": 75,
+   "ocr": "“explained. .",
+   "fixed": "explained.",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 6,
+   "line": 1,
+   "ocr": "“First: write down the first two numbers. in. the",
+   "fixed": "First: write down the first two numbers in the",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 6,
+   "line": 21,
+   "ocr": "two. symbols",
+   "fixed": "two symbols",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 6,
+   "line": 29,
+   "ocr": "than. one",
+   "fixed": "than one",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 6,
+   "line": 39,
+   "ocr": "Second: :",
+   "fixed": "Second:",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 59,
+   "ocr": "been’ cus~",
+   "fixed": "been cus-",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 7,
+   "line": 1,
+   "ocr": "would -give, one",
+   "fixed": "would give, instead, one",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 4,
+   "ocr": "of ‘the",
+   "fixed": "of the",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 7,
+   "line": 8,
+   "ocr": "‘between",
+   "fixed": "between",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 7,
+   "line": 43,
+   "ocr": "{i",
+   "fixed": "11",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 7,
+   "line": 44,
+   "ocr": "{5,",
+   "fixed": "15,",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 7,
+   "line": 44,
+   "ocr": "{4",
+   "fixed": "14",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 7,
+   "line": 56,
+   "ocr": "31 is",
+   "fixed": "37 is",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 7,
+   "line": 61,
+   "ocr": "“However,",
+   "fixed": "However,",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 7,
+   "line": 64,
+   "ocr": "ail positive in voitage.",
+   "fixed": "all positive in voltage.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 65,
+   "ocr": "an.am-",
+   "fixed": "an am-",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 8,
+   "line": 2,
+   "ocr": "‘notation",
+   "fixed": "notation",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 8,
+   "line": 3,
+   "ocr": "Let Ci, Cz, C3... Cz... Cn repre-",
+   "fixed": "Let C_{1}, C_{2}, C_{3} . . . C_{7} . . . C_{n} repre-",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 4,
+   "ocr": "‘sent",
+   "fixed": "sent",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 8,
+   "line": 5,
+   "ocr": "Let Ri, Ra, Rs...",
+   "fixed": "Let R_{1}, R_{2}, R_{3} . . .",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 6,
+   "ocr": "Ri... Rn",
+   "fixed": "R_{7} . . . R_{n}",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 10,
+   "ocr": "“Then,",
+   "fixed": "Then,",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 8,
+   "line": 25,
+   "ocr": "refiected",
+   "fixed": "reflected",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 44,
+   "ocr": "Re... Rn",
+   "fixed": "R_{8} . . . R_{n}",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 45,
+   "ocr": "Cs... Cn",
+   "fixed": "C_{8} . . . C_{n}",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 46,
+   "ocr": "‘known,",
+   "fixed": "known,",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 8,
+   "line": 48,
+   "ocr": "‘ventional",
+   "fixed": "ventional",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 8,
+   "line": 49,
+   "ocr": "24-1,",
+   "fixed": "2^{d−1},",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 51,
+   "ocr": "‘thirty-eight,",
+   "fixed": "thirty-eight,",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 8,
+   "line": 52,
+   "ocr": "‘tional",
+   "fixed": "tional",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 8,
+   "line": 52,
+   "ocr": "Thirty-eight -=—",
+   "fixed": "Thirty-eight =",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 67,
+   "ocr": "bya ‘re-",
+   "fixed": "by a re-",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 69,
+   "ocr": "24-1,",
+   "fixed": "2^{d−1},",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 73,
+   "ocr": "(—1)5,",
+   "fixed": "(−1)^{S},",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 1,
+   "ocr": "7-~digit",
+   "fixed": "7-digit",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 1,
+   "ocr": "writ--",
+   "fixed": "writ-",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 25,
+   "ocr": "may. be",
+   "fixed": "may be",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 9,
+   "line": 45,
+   "ocr": "5!",
+   "fixed": "51",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 9,
+   "line": 45,
+   "ocr": "41, 48,",
+   "fixed": "47, 48,",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 9,
+   "line": 47,
+   "ocr": "49, 58.",
+   "fixed": "49, 50.",
+   "basis": "scan (bold numeral) + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 52,
+   "ocr": "next. pulse",
+   "fixed": "next pulse",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 9,
+   "line": 54,
+   "ocr": "tion: Thus",
+   "fixed": "tion. Thus",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 61,
+   "ocr": "contro]",
+   "fixed": "control",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 65,
+   "ocr": "83",
+   "fixed": "53",
+   "basis": "scan (bold numeral) + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 67,
+   "ocr": "elec~",
+   "fixed": "elec-",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 73,
+   "ocr": "7. G. Kreer and E, Peterson",
+   "fixed": "J. G. Kreer and E. Peterson",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 74,
+   "ocr": "Ne.",
+   "fixed": "No.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 2,
+   "ocr": "54,.q",
+   "fixed": "54, a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 2,
+   "ocr": "filter 56:",
+   "fixed": "filter 56",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 10,
+   "line": 4,
+   "ocr": "that.",
+   "fixed": "that",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 10,
+   "line": 12,
+   "ocr": "one-sSeventh",
+   "fixed": "one-seventh",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 21,
+   "ocr": "bat--",
+   "fixed": "bat-",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 24,
+   "ocr": "to.",
+   "fixed": "to",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 10,
+   "line": 26,
+   "ocr": "just.",
+   "fixed": "just",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 10,
+   "line": 27,
+   "ocr": "in. this",
+   "fixed": "in this",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 10,
+   "line": 29,
+   "ocr": "§9",
+   "fixed": "60",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 10,
+   "line": 32,
+   "ocr": "flip~",
+   "fixed": "flip-",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 37,
+   "ocr": "ig disabled",
+   "fixed": "is disabled",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 40,
+   "ocr": "place.",
+   "fixed": "place",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 10,
+   "line": 45,
+   "ocr": "arm. 66",
+   "fixed": "arm 60",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 10,
+   "line": 47,
+   "ocr": "6!",
+   "fixed": "61",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 10,
+   "line": 51,
+   "ocr": "it. is",
+   "fixed": "it is",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 10,
+   "line": 59,
+   "ocr": "§62’",
+   "fixed": "62’",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 61,
+   "ocr": "L, A.",
+   "fixed": "L. A.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 73,
+   "ocr": "whase",
+   "fixed": "whose",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 3,
+   "ocr": "Tt is",
+   "fixed": "It is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 8,
+   "ocr": "thereunon",
+   "fixed": "thereupon",
+   "basis": "scan (worn p) + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 16,
+   "ocr": "of 2 rectifier",
+   "fixed": "of a rectifier",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 18,
+   "ocr": "code. group",
+   "fixed": "code group",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 11,
+   "line": 21,
+   "ocr": "7{",
+   "fixed": "71",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 11,
+   "line": 21,
+   "ocr": "10,",
+   "fixed": "70,",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 11,
+   "line": 22,
+   "ocr": "amnlifier",
+   "fixed": "amplifier",
+   "basis": "scan (worn p) + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 23,
+   "ocr": "orerates",
+   "fixed": "operates",
+   "basis": "scan (worn p) + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 26,
+   "ocr": "enser 76 upon",
+   "fixed": "denser 70 upon",
+   "basis": "scan"
+  },
+  {
+   "col": 11,
+   "line": 27,
+   "ocr": "groun.",
+   "fixed": "group.",
+   "basis": "scan (worn p) + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 31,
+   "ocr": "stepned",
+   "fixed": "stepped",
+   "basis": "scan (worn p) + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 31,
+   "ocr": "en-",
+   "fixed": "ap-",
+   "basis": "scan (worn p) + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 32,
+   "ocr": "defiectine",
+   "fixed": "deflecting",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 34,
+   "ocr": "anode 75 of",
+   "fixed": "anode 76 of",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 11,
+   "line": 35,
+   "ocr": "tvre",
+   "fixed": "type",
+   "basis": "scan (worn descenders of y and p)"
+  },
+  {
+   "col": 11,
+   "line": 36,
+   "ocr": "cathcde beam 17",
+   "fixed": "cathode beam 77",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 11,
+   "line": 37,
+   "ocr": "anode 716, a mask 18. of spe-~",
+   "fixed": "anode 76, a mask 78 of spe-",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 11,
+   "line": 37,
+   "ocr": "15",
+   "fixed": "75",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 11,
+   "line": 39,
+   "ocr": "ssparated frcm",
+   "fixed": "separated from",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 40,
+   "ocr": "arerture",
+   "fixed": "aperture",
+   "basis": "scan (worn p) + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 41,
+   "ocr": "7-dizit",
+   "fixed": "7-digit",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 42,
+   "ocr": "reauired.",
+   "fixed": "required.",
+   "basis": "scan (worn q) + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 43,
+   "ocr": "adiustable battery~poten-",
+   "fixed": "adjustable battery-poten-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 44,
+   "ocr": "19 is",
+   "fixed": "79 is",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 11,
+   "line": 45,
+   "ocr": "ad-~-",
+   "fixed": "ad-",
+   "basis": "scan"
+  },
+  {
+   "col": 11,
+   "line": 48,
+   "ocr": "174",
+   "fixed": "74",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 11,
+   "line": 49,
+   "ocr": "adiusted",
+   "fixed": "adjusted",
+   "basis": "scan (worn j)"
+  },
+  {
+   "col": 11,
+   "line": 51,
+   "ocr": "17 upward",
+   "fixed": "77 upward",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 11,
+   "line": 52,
+   "ocr": "mask 18",
+   "fixed": "mask 78",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 11,
+   "line": 52,
+   "ocr": "anproximately",
+   "fixed": "approximately",
+   "basis": "scan (worn p) + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 56,
+   "ocr": "sc on,",
+   "fixed": "so on,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 56,
+   "ocr": "voltace",
+   "fixed": "voltage",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 59,
+   "ocr": "appear:",
+   "fixed": "appear",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 60,
+   "ocr": "16 and.",
+   "fixed": "76 and",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 11,
+   "line": 61,
+   "ocr": "which.",
+   "fixed": "which",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 11,
+   "line": 65,
+   "ocr": "so on,",
+   "fixed": "so on.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 66,
+   "ocr": "the. pail",
+   "fixed": "the pail",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 72,
+   "ocr": "May",
+   "fixed": "may",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 73,
+   "ocr": "groun",
+   "fixed": "group",
+   "basis": "scan (worn p) + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 1,
+   "ocr": "disabling’",
+   "fixed": "disabling",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 2,
+   "ocr": "triode 8 whose",
+   "fixed": "triode 81 whose",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 12,
+   "line": 3,
+   "ocr": "condenser 10",
+   "fixed": "condenser 70",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 12,
+   "line": 13,
+   "ocr": "TT of",
+   "fixed": "77 of",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 12,
+   "line": 17,
+   "ocr": "pulses:",
+   "fixed": "pulses",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 18,
+   "ocr": "70’, 11’, 12’,",
+   "fixed": "70’, 71’, 72’,",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 12,
+   "line": 19,
+   "ocr": "equal.",
+   "fixed": "equal",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 21,
+   "ocr": "tube 14’",
+   "fixed": "tube 74’",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 12,
+   "line": 24,
+   "ocr": "arm 69",
+   "fixed": "arm 60",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 12,
+   "line": 25,
+   "ocr": "contact. with",
+   "fixed": "contact with",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 26,
+   "ocr": "ovens",
+   "fixed": "opens",
+   "basis": "scan (worn p)"
+  },
+  {
+   "col": 12,
+   "line": 28,
+   "ocr": "Gipper circuit 10, 71, 12 is enabled while the.",
+   "fixed": "dipper circuit 70, 71, 72 is enabled while the",
+   "basis": "scan (bold numerals)"
+  },
+  {
+   "col": 12,
+   "line": 31,
+   "ocr": "may.",
+   "fixed": "may",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 32,
+   "ocr": "surplied",
+   "fixed": "supplied",
+   "basis": "scan (worn p) + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 35,
+   "ocr": "may. be applied in alternating sequence to. a sin-.",
+   "fixed": "may be applied in alternating sequence to a sin-",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 12,
+   "line": 36,
+   "ocr": "pulses. are",
+   "fixed": "pulses are",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 37,
+   "ocr": "at. the",
+   "fixed": "at the",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 38,
+   "ocr": "conductor. 86 and. thence",
+   "fixed": "conductor 86 and thence",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 12,
+   "line": 39,
+   "ocr": "be-of",
+   "fixed": "be of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 41,
+   "ocr": "reproduc-.",
+   "fixed": "reproduc-",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 42,
+   "ocr": "tion. in",
+   "fixed": "tion in",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 43,
+   "ocr": "In. the",
+   "fixed": "In the",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 44,
+   "ocr": "conventional. binary",
+   "fixed": "conventional binary",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 45,
+   "ocr": "part. by",
+   "fixed": "part by",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 46,
+   "ocr": "Cs, Cs, C4, Ca, Co, Ci",
+   "fixed": "C_{6}, C_{5}, C_{4}, C_{3}, C_{2}, C_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 12,
+   "line": 47,
+   "ocr": "Rv.",
+   "fixed": "R_{7}.",
+   "basis": "scan"
+  },
+  {
+   "col": 12,
+   "line": 48,
+   "ocr": "these: formulae",
+   "fixed": "these formulae",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 49,
+   "ocr": "to. translate",
+   "fixed": "to translate",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 53,
+   "ocr": "to-conventional",
+   "fixed": "to conventional",
+   "basis": "scan"
+  },
+  {
+   "col": 12,
+   "line": 54,
+   "ocr": "that.the",
+   "fixed": "that the",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 56,
+   "ocr": "reason. that",
+   "fixed": "reason that",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 57,
+   "ocr": "oriented. with",
+   "fixed": "oriented with",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 58,
+   "ocr": "cathcde",
+   "fixed": "cathode",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 58,
+   "ocr": "the:",
+   "fixed": "the",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 59,
+   "ocr": "seventh. aperture",
+   "fixed": "seventh aperture",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 60,
+   "ocr": "in, phe",
+   "fixed": "in the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 64,
+   "ocr": "Signal",
+   "fixed": "signal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 64,
+   "ocr": "translating.",
+   "fixed": "translating",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 75,
+   "ocr": "Stores the filp-flop circuit of Fig. 3 to its initia]",
+   "fixed": "stores the flip-flop circuit of Fig. 3 to its initial",
+   "basis": "scan"
+  },
+  {
+   "col": 13,
+   "line": 3,
+   "ocr": "9{",
+   "fixed": "91",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 13,
+   "line": 8,
+   "ocr": "if. the",
+   "fixed": "if the",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 13,
+   "line": 9,
+   "ocr": "as. the ini~",
+   "fixed": "as the ini-",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 13,
+   "line": 12,
+   "ocr": "condition. of",
+   "fixed": "condition of",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 13,
+   "line": 14,
+   "ocr": "then-the",
+   "fixed": "then the",
+   "basis": "scan"
+  },
+  {
+   "col": 13,
+   "line": 26,
+   "ocr": "substan-~",
+   "fixed": "substan-",
+   "basis": "scan"
+  },
+  {
+   "col": 13,
+   "line": 29,
+   "ocr": "in. po-",
+   "fixed": "in po-",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 13,
+   "line": 36,
+   "ocr": "96d,",
+   "fixed": "96b,",
+   "basis": "scan"
+  },
+  {
+   "col": 13,
+   "line": 39,
+   "ocr": "preferably. a",
+   "fixed": "preferably a",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 13,
+   "line": 43,
+   "ocr": "smallest. conduct-",
+   "fixed": "smallest conduct-",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 13,
+   "line": 44,
+   "ocr": "969.",
+   "fixed": "96g.",
+   "basis": "scan"
+  },
+  {
+   "col": 13,
+   "line": 44,
+   "ocr": "triode 91",
+   "fixed": "triode 97",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 13,
+   "line": 49,
+   "ocr": "a7 to 1",
+   "fixed": "a 7 to 1",
+   "basis": "scan"
+  },
+  {
+   "col": 13,
+   "line": 52,
+   "ocr": "Fig. 3..",
+   "fixed": "Fig. 3.",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 13,
+   "line": 54,
+   "ocr": "{00",
+   "fixed": "100",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 13,
+   "line": 55,
+   "ocr": "101. .",
+   "fixed": "101.",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 13,
+   "line": 56,
+   "ocr": "-as",
+   "fixed": "as",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 13,
+   "line": 64,
+   "ocr": "wave. D,",
+   "fixed": "wave D,",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 13,
+   "line": 66,
+   "ocr": "960,",
+   "fixed": "96b,",
+   "basis": "scan"
+  },
+  {
+   "col": 13,
+   "line": 70,
+   "ocr": "pulses. are",
+   "fixed": "pulses are",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 13,
+   "line": 72,
+   "ocr": "$7,",
+   "fixed": "97,",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 13,
+   "line": 73,
+   "ocr": "by-Formulae",
+   "fixed": "by Formulae",
+   "basis": "scan"
+  },
+  {
+   "col": 13,
+   "line": 74,
+   "ocr": "signs.of",
+   "fixed": "signs of",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 13,
+   "line": 75,
+   "ocr": "results .of",
+   "fixed": "results of",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 14,
+   "line": 4,
+   "ocr": "sums. by",
+   "fixed": "sums by",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 14,
+   "line": 6,
+   "ocr": "108.",
+   "fixed": "100.",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 14,
+   "line": 9,
+   "ocr": "be. ap-",
+   "fixed": "be ap-",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 14,
+   "line": 10,
+   "ocr": "I01..",
+   "fixed": "101.",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 14,
+   "line": 13,
+   "ocr": "de~-",
+   "fixed": "de-",
+   "basis": "scan"
+  },
+  {
+   "col": 14,
+   "line": 22,
+   "ocr": "trans-:",
+   "fixed": "trans-",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 14,
+   "line": 31,
+   "ocr": "beam ii or tne",
+   "fixed": "beam 11 or the",
+   "basis": "scan"
+  },
+  {
+   "col": 14,
+   "line": 32,
+   "ocr": "mask {8",
+   "fixed": "mask 15",
+   "basis": "scan (bold numeral)"
+  },
+  {
+   "col": 14,
+   "line": 35,
+   "ocr": "mes~",
+   "fixed": "mes-",
+   "basis": "scan"
+  },
+  {
+   "col": 14,
+   "line": 37,
+   "ocr": "times. with",
+   "fixed": "times with",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 14,
+   "line": 38,
+   "ocr": "eonnect",
+   "fixed": "connect",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 14,
+   "line": 46,
+   "ocr": "- 1.",
+   "fixed": "1.",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 14,
+   "line": 57,
+   "ocr": "with.",
+   "fixed": "with",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 14,
+   "line": 63,
+   "ocr": "dimensions’",
+   "fixed": "dimensions",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 14,
+   "line": 65,
+   "ocr": "deflected. position",
+   "fixed": "deflected position",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 14,
+   "line": 68,
+   "ocr": "to.one",
+   "fixed": "to one",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 14,
+   "line": 71,
+   "ocr": "its. undeflected",
+   "fixed": "its undeflected",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 15,
+   "line": 1,
+   "ocr": "binary: code",
+   "fixed": "binary code",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 15,
+   "line": 17,
+   "ocr": "15, 31, 68, 127... 2\"—1, where 7 is",
+   "fixed": "15, 31, 63, 127 . . . 2^{n}−1, where n is",
+   "basis": "scan"
+  },
+  {
+   "col": 15,
+   "line": 20,
+   "ocr": "folowing",
+   "fixed": "following",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 15,
+   "line": 36,
+   "ocr": "127 . . . 2°—1, where 7 is",
+   "fixed": "127 . . . 2^{n}−1, where n is",
+   "basis": "scan"
+  },
+  {
+   "col": 15,
+   "line": 38,
+   "ocr": "added. pulses",
+   "fixed": "added pulses",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 15,
+   "line": 39,
+   "ocr": "stants. following",
+   "fixed": "stants following",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 15,
+   "line": 41,
+   "ocr": "rectified. samples",
+   "fixed": "rectified samples",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 15,
+   "line": 42,
+   "ocr": "as.a",
+   "fixed": "as a",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 15,
+   "line": 43,
+   "ocr": "an. in-",
+   "fixed": "an in-",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 15,
+   "line": 48,
+   "ocr": "appli-.",
+   "fixed": "appli-",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 15,
+   "line": 49,
+   "ocr": "a. signal",
+   "fixed": "a signal",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 15,
+   "line": 53,
+   "ocr": "pulse.",
+   "fixed": "pulse",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 15,
+   "line": 57,
+   "ocr": "of.a",
+   "fixed": "of a",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 15,
+   "line": 58,
+   "ocr": "the. last-named",
+   "fixed": "the last-named",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 15,
+   "line": 59,
+   "ocr": "devices. whereby",
+   "fixed": "devices whereby",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 15,
+   "line": 61,
+   "ocr": "in. propor-",
+   "fixed": "in propor-",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 15,
+   "line": 62,
+   "ocr": "127...",
+   "fixed": "127 . . .",
+   "basis": "scan"
+  },
+  {
+   "col": 15,
+   "line": 63,
+   "ocr": "2\"—1, where 7 is",
+   "fixed": "2^{n}−1, where n is",
+   "basis": "scan"
+  },
+  {
+   "col": 15,
+   "line": 67,
+   "ocr": "means. for",
+   "fixed": "means for",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 15,
+   "line": 73,
+   "ocr": "flected. binary",
+   "fixed": "flected binary",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 15,
+   "line": 74,
+   "ocr": "magnitude. upon",
+   "fixed": "magnitude upon",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 15,
+   "line": 75,
+   "ocr": "the. application",
+   "fixed": "the application",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 16,
+   "line": 1,
+   "ocr": "of. another",
+   "fixed": "of another",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 16,
+   "line": 10,
+   "ocr": "variously. de-",
+   "fixed": "variously de-",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 16,
+   "line": 12,
+   "ocr": "7,15, 31, 63, 127 .. . 2\"—1,",
+   "fixed": "7, 15, 31, 63, 127 . . . 2^{n}−1,",
+   "basis": "scan"
+  },
+  {
+   "col": 16,
+   "line": 22,
+   "ocr": "and. col-",
+   "fixed": "and col-",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 16,
+   "line": 27,
+   "ocr": "bzam",
+   "fixed": "beam",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 16,
+   "line": 30,
+   "ocr": "apertures. of",
+   "fixed": "apertures of",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 16,
+   "line": 36,
+   "ocr": "rows.of",
+   "fixed": "rows of",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 16,
+   "line": 38,
+   "ocr": "arerture",
+   "fixed": "aperture",
+   "basis": "scan (worn p) + Google Patents"
+  },
+  {
+   "col": 16,
+   "line": 39,
+   "ocr": "Sample",
+   "fixed": "sample",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 16,
+   "line": 42,
+   "ocr": "mask. being",
+   "fixed": "mask being",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 16,
+   "line": 43,
+   "ocr": "plurality » of columns and a plurality 2\"",
+   "fixed": "plurality n of columns and a plurality 2^{n}",
+   "basis": "scan"
+  },
+  {
+   "col": 16,
+   "line": 44,
+   "ocr": "where is",
+   "fixed": "where n is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 16,
+   "line": 50,
+   "ocr": "except. the",
+   "fixed": "except the",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 16,
+   "line": 53,
+   "ocr": "the.adjacent.column of lower digita] sig-",
+   "fixed": "the adjacent column of lower digital sig-",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 16,
+   "line": 54,
+   "ocr": "adjacent:",
+   "fixed": "adjacent",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 16,
+   "line": 58,
+   "ocr": "greatest. digital",
+   "fixed": "greatest digital",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 16,
+   "line": 59,
+   "ocr": "a. transverse",
+   "fixed": "a transverse",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 16,
+   "line": 60,
+   "ocr": "aper-.",
+   "fixed": "aper-",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 16,
+   "line": 73,
+   "ocr": "through. the several.apertures",
+   "fixed": "through the several apertures",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 16,
+   "line": 74,
+   "ocr": "the. apertures of said mask:",
+   "fixed": "the apertures of said mask",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 16,
+   "line": 75,
+   "ocr": "plurality. n of columns.and a plurality 2\" of: rows,",
+   "fixed": "plurality n of columns and a plurality 2^{n} of rows,",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 17,
+   "line": 1,
+   "ocr": "where 7 is",
+   "fixed": "where n is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 6,
+   "ocr": "dis-~",
+   "fixed": "dis-",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 19,
+   "ocr": "parallel]",
+   "fixed": "parallel",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 30,
+   "ocr": "“‘on’’-pulse",
+   "fixed": "“on”-pulse",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 31,
+   "ocr": "(—1)5(2¢-1!)",
+   "fixed": "(−1)^{s}(2^{d−1})",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 34,
+   "ocr": "“on’-pulses",
+   "fixed": "“on”-pulses",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 36,
+   "ocr": "“off’-pulse",
+   "fixed": "“off”-pulse",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 38,
+   "ocr": "sev~",
+   "fixed": "sev-",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 39,
+   "ocr": "era]",
+   "fixed": "eral",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 40,
+   "ocr": "into a, conventional",
+   "fixed": "into a conventional",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 17,
+   "line": 47,
+   "ocr": "and @",
+   "fixed": "and a",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 59,
+   "ocr": "@ message",
+   "fixed": "a message",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 62,
+   "ocr": "ples. of",
+   "fixed": "ples of",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 17,
+   "line": 68,
+   "ocr": "(—1)s(2¢-1)",
+   "fixed": "(−1)^{s}(2^{d−1})",
+   "basis": "scan"
+  },
+  {
+   "col": 18,
+   "line": 3,
+   "ocr": "igs the number of “on’’-pulses",
+   "fixed": "is the number of “on”-pulses",
+   "basis": "scan"
+  },
+  {
+   "col": 18,
+   "line": 12,
+   "ocr": "“on’-pulses",
+   "fixed": "“on”-pulses",
+   "basis": "scan"
+  },
+  {
+   "col": 18,
+   "line": 16,
+   "ocr": "2%—1, . . . 7, 3,1,",
+   "fixed": "2^{n}−1, . . . 7, 3, 1,",
+   "basis": "scan"
+  },
+  {
+   "col": 18,
+   "line": 23,
+   "ocr": "saiq",
+   "fixed": "said",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 18,
+   "line": 27,
+   "ocr": "127... 2—1,",
+   "fixed": "127 . . . 2^{n}−1,",
+   "basis": "scan"
+  }
+ ]
+}

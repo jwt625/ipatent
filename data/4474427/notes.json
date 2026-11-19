@@ -1,0 +1,81 @@
+{
+  "patent": "Filed 1979-05-07 and issued 1984-10-02 to Kenneth O. Hill, Brian S. Kawasaki, Derwyn C. Johnson and Yoshimasa Fujii (all of Canada), assigned to Canadian Patents & Development Limited. It covers the first fiber Bragg grating, reported by the same authors as \"Photosensitivity in optical fiber waveguides: Application to reflection filter fabrication\" (Applied Physics Letters, vol. 32, 1978, p. 647); such self-written gratings are often called Hill gratings. Blue-green argon-laser light launched into a germanium-doped fiber core and reflected from the far end forms a standing wave; over minutes the core index changes in step with it, leaving a grating of period half the wavelength in the fiber that reflects the writing wavelength. Because the grating is written by light guided in the core, it reflects only near the writing wavelength; the patent shifts the band by writing under tension and releasing it (FIG. 1) or tunes it by stretching (FIG. 4), and superimposes gratings for several bands (FIG. 5). The later side-writing method, in which two ultraviolet beams interfere across the side of the fiber (Meltz, Morey and Glenn, Optics Letters, vol. 14, 1989, p. 823), freed the Bragg wavelength from the writing wavelength and made fiber Bragg gratings practical as WDM filters, laser wavelength stabilizers and strain and temperature sensors.",
+  "figs": {
+    "1": "Writing set-up. The beam from laser 8 passes attenuator 9; splitter 10 sends half of it down through objective 11 into fiber 2 and the other half straight on to absorber 15, which serves as the input-power monitor. The fiber runs in tube 7 from clamp 3 to clamp 4 on spring steel 5; positioner 6 (arrows) moves the spring end to set the tension. At the far end, mirror 12 or the cleaved end 13 reflects light back up the fiber; the back-reflected light passes up through splitter 10 to power meter 14, and the light passing the far end reaches power meter 16. The drawing labels tube 7 GLASS TUBE; the text calls it a quartz tube. Arrow 1 points to the holding assembly as a whole.",
+    "2": "Recorded back-reflection versus exposure time for the 1 m fiber described in the text. The vertical axis is unscaled except for the two marked levels: the trace starts at the 4% Fresnel reflection of the cleaved end and climbs, with recorder noise, to the 44% level at about 9 minutes. The rise is slow at first, steepest between about 3 and 4 minutes, then levels off.",
+    "3": "One shared percent axis for two traces of the 62 cm filter. The upper trace is transmission: a narrow dip from 100% to about 55%. The lower trace is reflection: a narrow peak from a noisy baseline of a few percent to about 50%, so the light missing in transmission appears in reflection. The paired arrows at T and R mark the width of each feature at half its depth or height; the text gives about 200 MHz. The horizontal axis is unlabeled and unscaled.",
+    "4": "Tuning fixture, the lower half of FIG. 1 without the optics. Filter 22 is held between rigid clamp 23 at the top and clamp 24 at the bottom, which sits on spring 25; positioner 26 (arrows) bends the spring to stretch the filter. An arm from the lower clamp to position sensor 28 reads the stretch. Stretching lengthens the grating period and lowers the reflected frequency (equation (1) of the text).",
+    "5": "Reflection of one fiber in which two gratings were written one after the other at slightly different frequencies. The full-scale mark is 23%; read from the drawing, the two peaks reach about 15% and 23% above a noisy baseline near 6%. The text gives a peak separation of 760 MHz; the horizontal axis is unlabeled."
+  },
+  "parts": {
+    "3": "Text: mounted so that it can be positioned piezoelectrically to align the fiber to the focused beam.",
+    "5": "The spring absorbs vibration between the two end mounts as flexure rather than as tension change on the fiber.",
+    "7": "Shields the fiber from air currents; the drawing labels it GLASS TUBE.",
+    "12": "Optional: the text says the 4% Fresnel reflection from the cleaved end 13 can serve as the reflector instead.",
+    "15": "Receives the half of the beam that passes straight through splitter 10; used to monitor the input power.",
+    "R": "Letter label in FIG. 3 for the reflection spectrum.",
+    "T": "Letter label in FIG. 3 for the transmission spectrum."
+  },
+  "glossary": [
+    {
+      "term": "fiber Bragg grating",
+      "def": "A periodic variation of refractive index along a fiber core. Light whose wavelength in the fiber is twice the period is reflected; other wavelengths pass."
+    },
+    {
+      "term": "photosensitivity",
+      "def": "A lasting change of refractive index in glass caused by exposure to light; in silica fiber it is associated with germanium doping of the core."
+    },
+    {
+      "term": "standing wave",
+      "def": "The fixed interference pattern formed by two equal-frequency waves travelling in opposite directions; its intensity maxima repeat every half wavelength."
+    },
+    {
+      "term": "Fresnel reflection",
+      "def": "Reflection at an interface between media of different refractive index; about 4% of normally incident light at a cleaved glass-air fiber end."
+    },
+    {
+      "term": "WDM",
+      "def": "Wavelength division multiplexing: carrying several signals on one fiber, each on its own wavelength."
+    },
+    {
+      "term": "numerical aperture (NA)",
+      "def": "Sine of the largest acceptance angle of a fiber, set by the core-cladding index difference; a higher NA here means more germanium in the core."
+    },
+    {
+      "term": "single-mode / low-order mode fiber",
+      "def": "A fiber whose core guides only one, or only a few, transverse modes of light."
+    },
+    {
+      "term": "germania",
+      "def": "Germanium dioxide, GeO2."
+    },
+    {
+      "term": "coherence length",
+      "def": "The path difference over which a light source stays phase-correlated enough to form stable interference; it limits the grating length that can be written."
+    },
+    {
+      "term": "color center",
+      "def": "A point defect in a crystal or glass that absorbs light; the text argues the reflection is too strong to come from such absorption."
+    },
+    {
+      "term": "elasto-optic coefficient",
+      "def": "The change of refractive index with mechanical strain; it partly offsets the period increase when the fiber is stretched (equation (1))."
+    },
+    {
+      "term": "intracavity etalon",
+      "def": "A thin plane-parallel plate inside a laser cavity that selects one longitudinal mode; tilting it shifts the lasing frequency slightly."
+    },
+    {
+      "term": "Faraday isolator",
+      "def": "A device using magneto-optic rotation that passes light in one direction and blocks it in the other, protecting a laser from back-reflection."
+    },
+    {
+      "term": "comb filter",
+      "def": "A filter with a series of evenly spaced pass or reflection bands."
+    },
+    {
+      "term": "floating optical bench",
+      "def": "A vibration-isolated optical table."
+    }
+  ]
+}

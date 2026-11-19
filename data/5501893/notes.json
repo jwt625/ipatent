@@ -1,0 +1,30 @@
+{
+  "patent": "Filed by Robert Bosch GmbH (German priority application filed 1992-12-05, PCT filing 1993-11-27) and issued 1996-03-26 to Franz Laermer and Andrea Schilp. It is the patent on what became known as the Bosch process, the standard method of deep reactive-ion etching (DRIE) of silicon. Instead of mixing etchant and sidewall-protecting polymer formers in one plasma, which consume each other, the process alternates short fluorine etch steps (sulfur hexafluoride with argon in the example) with separate polymerization steps (trifluoromethane with argon) that coat every exposed surface with a thin fluorocarbon film; low-energy ions clear the film from the trench floor, while the sidewalls stay protected. Repeating the cycle gives deep trenches with near-vertical walls at high etch rate and high mask selectivity. Because each short etch step is itself partly isotropic, the sidewalls of Bosch-etched trenches show a characteristic fine ripple (scalloping). The process became a mainstay of silicon MEMS fabrication and is also used for through-silicon vias. The single drawing shows an example etching apparatus only; the patent states the method does not depend on its construction.",
+  "figs": {
+    "1": "Schematic section of the etching apparatus, drawn sideways on the sheet and shown here upright. The flared tube entering the top of chamber 10 is Surfatron 16; resonator 20 surrounds its neck and couples microwave power into it, and the stippled region is the plasma, generated in the tube and spreading down onto substrate 18 on electrode 12. The lead from electrode 12 passes through a break in the chamber wall and reaches high-frequency supply 14 through a series capacitor; the supply's other side is grounded. This supply sets the low ion energy at the substrate, independently of the microwave power that sets the plasma density. The narrow tube at the top of the Surfatron and the T-shaped member on the right of the resonator are not labelled or described."
+  },
+  "parts": {
+    "16": "A surfatron is a microwave plasma source in which a resonant launcher drives a surface wave along a dielectric discharge tube, sustaining a dense plasma inside the tube.",
+    "14": "The text gives 13.56 MHz at 2 to 10 W for a substrate bias of about 5 to 30 V during etching.",
+    "22": "Not numbered in the text, which mentions only, without a numeral, \"a waveguide for feeding a reactive gas\". In the drawing 22 is the line entering resonator 20 from the side."
+  },
+  "glossary": [
+    {"term": "anisotropic etching", "def": "Etching that proceeds much faster in one direction (here, down into the silicon) than sideways, so that the mask pattern is transferred into the material with vertical walls."},
+    {"term": "isotropic etching", "def": "Etching at the same rate in all directions; under a mask it produces rounded profiles that undercut the mask edge."},
+    {"term": "underetching", "def": "Lateral etching beneath the edge of the etching mask (undercut), which widens the structure beyond the mask opening."},
+    {"term": "etching mask", "def": "A patterned layer, for example photoresist or silicon dioxide, that protects the regions of the substrate that are not to be etched."},
+    {"term": "selectivity", "def": "The ratio of the etch rate of the material being etched (silicon) to that of the mask; high selectivity allows deep etching with a thin mask."},
+    {"term": "plasma etching", "def": "Etching by a partly ionized gas: an electric discharge creates reactive radicals and ions; the radicals react with the surface to form volatile products, and ions accelerated to the surface assist the reaction."},
+    {"term": "fluorine radicals", "def": "Neutral, highly reactive fluorine atoms produced in a fluorine-bearing plasma such as sulfur hexafluoride (SF_{6}); they etch silicon spontaneously, forming volatile silicon tetrafluoride, and therefore etch isotropically on their own."},
+    {"term": "polymer formers", "def": "Plasma species, for example from trifluoromethane (CHF_{3}), that deposit a fluorocarbon polymer film on surfaces; the patent calls the result a Teflon-like polymer layer."},
+    {"term": "side wall passivation", "def": "Protecting the trench sidewalls with a deposited film so that etching proceeds only at the bottom, where ion bombardment removes the film."},
+    {"term": "substrate prestress", "def": "The patent's term for the electrical bias on the substrate electrode (German Vorspannung) that accelerates positive ions from the plasma onto the substrate."},
+    {"term": "ionic energy", "def": "The kinetic energy of ions arriving at the substrate, in electronvolts (eV); set by the substrate bias. Low ion energy limits mask erosion."},
+    {"term": "microloading", "def": "Dependence of the local etch rate on the amount or density of exposed silicon nearby, because dense or large open areas deplete the etchant."},
+    {"term": "sccm", "def": "Standard cubic centimetres per minute, a gas mass-flow unit referred to standard temperature and pressure."},
+    {"term": "μbar", "def": "Microbar; 1 μbar = 0.1 Pa, about 0.75 mTorr. The stated 10 to 100 μbar is 1 to 10 Pa."},
+    {"term": "13.56 MHz / 2.45 GHz", "def": "Industrial, scientific and medical (ISM) frequencies conventionally used for radio-frequency substrate bias and for microwave plasma generation."},
+    {"term": "helium backside cooling", "def": "Cooling the wafer by flowing helium between its back side and a cooled electrode, improving heat transfer; needed here because fluorine etching of silicon is strongly exothermic."},
+    {"term": "deep reactive-ion etching (DRIE)", "def": "Plasma etching of deep, high-aspect-ratio structures in silicon; the alternating etch and passivation scheme of this patent is its most common form."}
+  ]
+}

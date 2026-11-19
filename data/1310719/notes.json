@@ -1,0 +1,73 @@
+{
+  "patent": "Filed September 13, 1918 and issued July 22, 1919 to Gilbert S. Vernam of the American Telephone and Telegraph Company, to which it is assigned. It is the patent for what is now called the Vernam cipher: each character of a five-unit printing-telegraph code is combined, impulse by impulse, with a character read from a key tape, and the same combination with the same key at the far end restores the original. In modern terms the rule is bitwise exclusive-or (modulo-2 addition); in the patent's worked example A (++---) combined with key B (+--++) goes to line as G (-+-++), codes that match those of the later International Telegraph Alphabet No. 2. The circuits do the combining with relays whose two winding ends are tied to the message and key contacts, so a relay operates only when the two disagree. The patent asks for key characters \"preferably selected at random\" but does not require the key to be as long as the message or used only once. Joseph O. Mauborgne of the US Army Signal Corps is credited with adding a random, never-repeated key, which makes the system a one-time pad (D. Kahn, The Codebreakers, 1967). Vernam described the system in \"Cipher Printing Telegraph Systems for Secret Wire and Radio Telegraphic Communications\", Journal of the American Institute of Electrical Engineers, vol. 45, 1926, pp. 109-115. Claude Shannon proved that such a one-time key gives perfect secrecy in \"Communication Theory of Secrecy Systems\", Bell System Technical Journal, vol. 28, 1949.",
+  "figs": {
+    "1": "One station, drawn sideways on the sheet. Left half sends: keyboard transmitter C (contacts 25-29) works sending relays 14-18, whose contacts put battery 24 or, through resistances 31, ground on one end of each cipher relay winding 19-23; the other end of each winding runs to a key contact 36-40 in the ciphering device D, which sits on battery bus-bar 32 or grounded bus-bar 33. A cipher relay operates only when its two ends differ, and its contact feeds segment 1-5 of the transmitting face A. Right half receives: line relay 41 in line circuit 9 swings armature 48 between battery contact 49 and ground contact 50; as brush 11' sweeps segments 1'-5' it ties that potential, through segment 52 and conductor 51, to one end of receiving relays 42-46, whose other ends go to the same key contacts 36-40, so the same disagreement rule recovers the message onto conductors 47 to the printer. Contact P pulses relay 57 once per revolution to step the key tape by magnet 56; relays 60 and 63 switch the ciphering in or out on code signals from the printer. Small semicircular hops are wire crossings without connection; dots are junctions.",
+    "2": "Sending side only, with the distributer and ciphering device left off; keyboard transmitter C, sending relays 14-18 and battery 24 are as in Fig. 1. Each cipher relay 19'-23' has two windings, one end of each grounded at the relay (the small ground symbol beside each coil); the free ends of each pair go to the sending relays and to the ciphering device. The windings oppose each other, so a relay operates only when one of the pair is energized. The resistances 31 of Fig. 1 are gone because every winding already has its own ground.",
+    "3": "Sending side with the sending relays and keyboard of Fig. 1 removed: the single-winding cipher relays 19-23 are wired straight to contacts 64-68 of the tape transmitter C', which swing between bus-bar 69 (to the battery) and bus-bar 70 (to ground). Because these contacts always present battery or ground, no resistances 31 are needed. The two coils at the left inside the dashed box of C' are not numbered or described in the text."
+  },
+  "parts": {
+    "A": "A and B are the transmitting and receiving faces of one distributer. The start impulse sent from A releases receiving arm 10' here and at the distant station, and those arms then turn in approximate synchronism with arm 10.",
+    "S": "Sending the start impulse from this segment opens line circuit 9, which releases the receiving arms at both ends of the line.",
+    "D": "One instrument serves both directions: its key contacts 36-40 feed the cipher relays 19-23 when sending and the receiving relays 42-46 when receiving. The far station holds a like device with an identical key tape.",
+    "19": "Cipher sending relays 19-23 have one winding end on the message side and the other on the key side; current, and so operation, occurs only when one end is on battery and the other on ground.",
+    "31": "Gives each cipher relay winding a path to ground when its sending relay contact is open, so that an open contact acts as ground rather than as an open circuit.",
+    "52": "Spans the same arc as segments 1'-5'; it carries the line relay's battery or ground, taken from armature 48 over conductor 51, to the brush.",
+    "55": "An inner-ring contact on the grounded side (ground symbol beside it); when brush 11' bridges it to contact P, the winding of relay 57 is closed between ground and a source at the printer once per revolution.",
+    "60": "When released (a code signal through relay 63 opens locking winding 62), both bus-bars of device D go to ground and the tape feed stops; every key contact then reads as spacing, so characters are sent and recorded unchanged.",
+    "19'": "Differential relays: two opposing windings, each grounded at one end."
+  },
+  "glossary": [
+    {
+      "term": "printing telegraph",
+      "def": "A telegraph that sends each character as a fixed group of on-off impulses and prints it at the far end, the forerunner of the teleprinter."
+    },
+    {
+      "term": "five-unit code",
+      "def": "A character code in which every character is five equal-length impulses, each marking or spacing, giving 32 combinations."
+    },
+    {
+      "term": "marking / spacing",
+      "def": "The two impulse states: here a closed circuit (current, \"+\") and an open circuit (no current, \"-\")."
+    },
+    {
+      "term": "distributer",
+      "def": "A rotating brush sweeping a ring of contact segments, one per impulse, so that the five impulses of a character go to or come from the line in turn; sending and receiving distributers turn in step."
+    },
+    {
+      "term": "start impulse",
+      "def": "An impulse sent before each character that releases the waiting receiving distributer, keeping the two ends in step."
+    },
+    {
+      "term": "front / back contact",
+      "def": "The relay contacts an armature touches when the relay is energized (front) and when it is released (back)."
+    },
+    {
+      "term": "differential winding",
+      "def": "Two windings on one relay core wound to oppose each other; equal currents cancel and the relay does not operate."
+    },
+    {
+      "term": "locking winding",
+      "def": "A relay winding that, once energized, holds the relay operated until its own circuit is opened."
+    },
+    {
+      "term": "bus-bar",
+      "def": "A common bar to which several contacts can connect; here one at battery and one at ground potential."
+    },
+    {
+      "term": "tape transmitter",
+      "def": "A device that reads characters from punched paper tape: pins sensing the holes set a row of contacts, one per impulse."
+    },
+    {
+      "term": "battery / ground",
+      "def": "The two potentials a wire can be tied to; telegraph circuits used the earth as the return conductor."
+    },
+    {
+      "term": "exclusive-or",
+      "def": "The rule that the output is marking when exactly one of two inputs is marking; applying the same key twice returns the original, which is why one device both enciphers and deciphers."
+    },
+    {
+      "term": "one-time pad",
+      "def": "A cipher whose key is truly random, at least as long as the message and never reused; with such a key the ciphertext reveals nothing about the message."
+    }
+  ]
+}

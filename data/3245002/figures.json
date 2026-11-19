@@ -1,0 +1,312 @@
+{
+ "pn": "3245002",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    430,
+    714,
+    1474,
+    1683
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1006,
+    1683,
+    1815,
+    2016
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1130,
+    2017,
+    1800,
+    2785
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    230,
+    1532,
+    1156,
+    2880
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    285,
+    771,
+    1782,
+    1703
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    673,
+    1803,
+    1334,
+    2305
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "FIG. 7",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    701,
+    2307,
+    1262,
+    2840
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "1",
+   "name": "crystal of semiconductive material",
+   "figs": [
+    "1",
+    "2"
+   ],
+   "alt": [
+    "diode",
+    "semiconductor body"
+   ]
+  },
+  {
+   "ref": "2",
+   "name": "degenerately impregnated or doped P-type region",
+   "figs": [
+    "1",
+    "6",
+    "7"
+   ],
+   "alt": [
+    "P-type region"
+   ]
+  },
+  {
+   "ref": "3",
+   "name": "degenerately impregnated or doped N-type region",
+   "figs": [
+    "1",
+    "6",
+    "7"
+   ],
+   "alt": [
+    "N-type region"
+   ]
+  },
+  {
+   "ref": "4",
+   "name": "P-N junction region",
+   "figs": [
+    "1",
+    "6",
+    "7"
+   ],
+   "alt": [
+    "junction region",
+    "I-type region",
+    "cylindrical region"
+   ]
+  },
+  {
+   "ref": "5",
+   "name": "first electrode",
+   "figs": [
+    "1",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "ref": "6",
+   "name": "acceptor type or electrically neutral solder layer",
+   "figs": [
+    "1",
+    "6",
+    "7"
+   ],
+   "alt": [
+    "acceptor solder"
+   ]
+  },
+  {
+   "ref": "7",
+   "name": "second electrode",
+   "figs": [
+    "1",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "ref": "8",
+   "name": "donor type or electrically neutral solder layer",
+   "figs": [
+    "1",
+    "6",
+    "7"
+   ],
+   "alt": [
+    "donor solder"
+   ]
+  },
+  {
+   "ref": "9",
+   "name": "electrode connectors",
+   "figs": [
+    "1",
+    "6"
+   ]
+  },
+  {
+   "ref": "10",
+   "name": "electrode connectors",
+   "figs": [
+    "1",
+    "6"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "front surface",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "rear surface",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "side surfaces",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "side surfaces",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "pulsed source",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "series limiting resistor",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "17",
+   "name": "temperature control means",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "A",
+   "name": "region",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "region A"
+   ]
+  },
+  {
+   "ref": "B",
+   "name": "portion",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "portion B"
+   ]
+  },
+  {
+   "ref": "C",
+   "name": "part",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "part C"
+   ]
+  },
+  {
+   "ref": "D",
+   "name": "curve",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "curve D"
+   ]
+  },
+  {
+   "ref": "E",
+   "name": "curve",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "curve E"
+   ]
+  }
+ ]
+}

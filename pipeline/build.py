@@ -233,7 +233,8 @@ def load_patent(pdir: Path) -> dict:
 
 
 GROUPS = ["Cray", "Impact and royalties", "Classic products", "Industry legends",
-          "Robot wrists", "Mechanosynthesis and mechanical computing", "Aircraft structures"]
+          "Robot wrists", "Mechanosynthesis and mechanical computing", "Aircraft structures",
+          "Bell Labs", "Lasers and integrated optics", "Chips and microdevices", "Forum favorites"]
 
 
 def place(e: dict) -> str:

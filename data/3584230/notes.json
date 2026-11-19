@@ -1,0 +1,87 @@
+{
+  "patent": "Filed January 24, 1969 and issued June 8, 1971 to Ping K. Tien of Bell Telephone Laboratories. It covers the prism-film coupler: a high-index prism held less than a wavelength above a thin-film waveguide, so that the evanescent field of a beam totally reflected inside the prism tunnels across the gap into the film. Light enters through the film's face rather than its edge, and the beam angle inside the prism selects which guided mode is excited by matching that mode's propagation constant. The same arrangement, run in reverse, takes light out. Tien, R. Ulrich and R. J. Martin reported the technique in \"Modes of propagating light waves in thin deposited semiconductor films\" (Applied Physics Letters, 1969), and Tien and Ulrich gave its theory in \"Theory of prism-film coupler and thin-film light guides\" (Journal of the Optical Society of America, 1970). Prism coupling became a standard laboratory method for launching light into planar waveguides and for measuring the refractive index and thickness of thin films, the use the patent mentions at its end. The embodiments run from the basic coupler (FIGS. 1-3) to a bidirectional splitter inside a laser resonator, a modulator, a three-channel add-drop link, a parametric amplifier, a parametric oscillator and a junction-laser amplifier (FIGS. 4-9).",
+  "figs": {
+    "1": "Side view, not to scale. Laser 11 (tube with end mirrors and supply) and lens 19 send a broad beam into face 20; it strikes base 18 at angle θ₁ and part of it tunnels across gap 17 into film 13, then runs right (arrow) into circuit 12; a short tick in the film marks where 13 becomes 12. The remainder reflects out through face 22 to equipment 23. Beyond the lit region the base, surface 21, tilts slightly up away from the film so the guided light cannot tunnel back. The index labels: prism n₃, gap n₁, film n₂, substrate n₄.",
+    "2": "Here the prism base stays flat and the film is shaped instead. Gap material 47 is coated on base 48 and the film is deposited under it; after the input region the film steps down, so the gap is several times thicker under circuit 42, and it steps back up at 43' where the light couples out again through the same prism to apparatus 53. The beam reflected at the input leaves toward 53'. The prism 46 thus also carries the film.",
+    "3": "Wave-vector diagram for the coupling condition. Vector 31 is the wave in the prism, length n₃ω/c, pointing along the incident beam; vector 32 is its horizontal component, |β₃| cos θ₁, which must equal the propagation constant β₂ of the chosen film mode. Since cos θ₁ < 1, the prism index must exceed the mode's effective index.",
+    "4": "Prism 16 sits inside the resonator of laser 51: mirror 52, tube, lens 55, beam I₀ into the prism, and the beam I′₀ reflected at base 18 out to end mirror 53. The double-headed arrows show light running both ways in the cavity, so the coupler launches one wave to the right (I′₂) and one to the left (I″₂) in film 13. Smaller prisms 67 and 66 with flat bases 69 and 68 take each wave out to its utilization apparatus (57, 56). The n labels mark gap, film, prism and substrate.",
+    "5": "Same laser and input prism as FIG. 4, on film 63 over substrate 64. The left-going wave I″₂ ends in a loss port at the left end of the film. The right-going wave I′₂ passes modulator 65, where a section 66 of the film lies between electrode 67 above and electrode 68 below, driven by source 69 against ground, and is then coupled out by prism 76 (base 78, exit face 79) to apparatus 80.",
+    "6": "Three-channel link with a break in the film standing for a long run. Left: transmitters 91-93 (boxes 1-3) hit separate facets of prism 86 so that each beam meets base 88 at its own phase-matching angle; each beam is drawn as a band between two lines, and the reflected parts go out through the opposite facets to loss ports 94-96. Past the prism the film dips away, thickening gap 87 (the arrowed 'decoupling separation'). Right: the gap thins again under prism 97, and each channel leaves at its own angle through its own facet to receivers 99-101.",
+    "7": "Layout as in FIG. 6, for parametric amplification. Pump source 110 and signal source 111 feed separate facets of prism 106; their reflected parts go to the unnumbered pump and signal loss ports. Past the prism the film dips (section 102), the stretch that may be nonlinear material, and the amplified waves are taken out from section 103' by prism 116, which has one extra facet: residual pump to port 121, amplified signal to receiver 120, generated idler to port 119.",
+    "8": "Parametric oscillator on a three-layer slab: 124 on top, film 123, substrate 125. Each of the three waves leaves the prisms at its own angle, so each gets its own mirror pair: pump 133 and 134 (laser 131 with tube 132 on the left; its cavity runs through prism 126, the film and prism 136), signal 141 and 142, idler 143 and 144. Hatched shapes are the curved mirrors.",
+    "9": "Section through a junction laser (gallium arsenide in the example) used as an amplifier. The top N layer 151 is thinned to leave thin N strips 152 and 152' under prisms 156 and 157; these strips serve as the coupling gap and the junction band 153 as the guide ('transmission medium'). Bias 160 is applied from the top of the N layer to the grounded P body 155. Light from source 161 enters through prism 156, is amplified along the junction, and leaves through prism 157 to receiver 162. Wavy ends mark the body broken off."
+  },
+  "parts": {
+    "21": "The canted part of the prism base; the claims describe it as a second surface at an obtuse angle to the first.",
+    "53": "Used for three things: the output apparatus of FIG. 2, and the laser end mirror of FIGS. 4 and 5.",
+    "56": "Not numbered in the text; drawn as the box labeled UTILIZATION APPARATUS that receives the left-going wave from prism 66.",
+    "57": "Not numbered in the text; drawn as the box labeled UTILIZATION APPARATUS that receives the right-going wave from prism 67.",
+    "66": "In FIG. 4 the left output prism; in FIG. 5 the section of film 63 inside the modulator, compensated to very low impurity.",
+    "67": "In FIG. 4 the right output prism; in FIG. 5 the upper electrode of the modulator.",
+    "68": "In FIG. 4 the flat base of prism 66; in FIG. 5 the lower electrode of the modulator.",
+    "69": "In FIG. 4 the flat base of prism 67; in FIG. 5 the modulating signal source.",
+    "79": "Introduced as the exit surface of prism 76; the next sentences call it prism 79.",
+    "119": "Not numbered in the text; drawn as the box labeled IDLER LOSS PORT, where the text says the idler wave is removed.",
+    "124": "Not numbered in the text; it marks the top layer, between the prisms and film 123. By position it is the dielectric-gap material the text names for this embodiment without a numeral.",
+    "152'": "The thin N strip under prism 157, counterpart of 152.",
+    "156": "The text calls 156 and 157 output coupling prisms, but 156 is where the input beam enters."
+  },
+  "glossary": [
+    {
+      "term": "evanescent field",
+      "def": "The field that leaks past a totally reflecting surface and decays exponentially within about a wavelength; it carries no power unless another medium of high enough index comes within that range."
+    },
+    {
+      "term": "frustrated total internal reflection",
+      "def": "Total internal reflection made partial by bringing a second medium within the evanescent field, so that some light tunnels across the gap."
+    },
+    {
+      "term": "phase-matching",
+      "def": "Here, equality of the horizontal component of the prism wave vector and the propagation constant of a guided film mode; only then does the coupled power build up along the base."
+    },
+    {
+      "term": "propagation constant (β)",
+      "def": "Phase change per unit length of a wave along the guide, ω/c times the mode's effective index."
+    },
+    {
+      "term": "mode",
+      "def": "A field pattern that propagates in the film unchanged in shape; a film supports a discrete set, each with its own propagation constant (TE or TM by polarization)."
+    },
+    {
+      "term": "Brewster angle",
+      "def": "The angle of incidence at which light polarized in the plane of incidence passes a surface with no reflection."
+    },
+    {
+      "term": "loss port",
+      "def": "The patent's term for wherever unwanted light (the reflected input beam, a residual pump, an idler) is taken out and absorbed or monitored."
+    },
+    {
+      "term": "parametric amplification",
+      "def": "In a nonlinear medium, a strong pump wave transfers power to a signal wave and generates an idler wave whose frequency makes up the difference; with mirrors for feedback the device becomes a parametric oscillator."
+    },
+    {
+      "term": "polarization modulation",
+      "def": "Using an electro-optic material, whose birefringence follows an applied field, to change the polarization state of light in step with a signal."
+    },
+    {
+      "term": "junction laser",
+      "def": "A semiconductor diode laser; the light is guided and amplified in the thin junction region between the N and P layers. Biased just below threshold it acts as an amplifier."
+    },
+    {
+      "term": "channel dropping and adding",
+      "def": "Taking selected wavelength channels off a shared transmission line, or putting them on, without disturbing the others."
+    },
+    {
+      "term": "rutile",
+      "def": "Crystalline titanium dioxide, a birefringent material with refractive index above 2.5 in the visible, used for coupling prisms."
+    },
+    {
+      "term": "A.",
+      "def": "Angstrom, 0.1 nanometre; 6328 A. is the 632.8 nm helium-neon laser line."
+    },
+    {
+      "term": "thin-film integrated circuit",
+      "def": "In this patent, optical circuitry formed in deposited films on a substrate, what is now called integrated optics."
+    }
+  ]
+}

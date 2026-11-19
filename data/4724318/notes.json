@@ -1,0 +1,76 @@
+{
+ "patent": "Filed 1986-08-04 as a continuation-in-part of an application filed 1985-11-26, and issued 1988-02-09 to Gerd K. Binnig, assigned to IBM. It claims the atomic force microscope (AFM): a sharp point on a soft cantilever is brought so close to a sample that interatomic forces bend the cantilever, and the bending is read out by a tunnel tip placed behind the cantilever, so that surfaces can be imaged whether or not they conduct. The tunnel readout is the scanning tunneling microscope (STM) of Binnig and Rohrer's US 4,343,993, cited in the text; Binnig and Heinrich Rohrer shared the 1986 Nobel Prize in Physics for the STM (with Ernst Ruska, for the electron microscope). The first AFM results, with a gold-foil cantilever and a diamond stylus as described here, were published by G. Binnig, C. F. Quate and Ch. Gerber, \"Atomic Force Microscope\", Physical Review Letters 56, 930 (1986). Tunnel detection of the cantilever was soon replaced in practice by optical detection, e.g. beam deflection (G. Meyer and N. M. Amer, Applied Physics Letters 53, 1045 (1988)), and by microfabricated cantilevers; static deflection and oscillating-cantilever (amplitude or phase) operation, the modes of FIG. 3, are still the main ways an AFM is run.",
+ "figs": {
+  "1": "Side view; the axis glyph gives x up, z to the right and y out of the page. The C-shaped base 1 carries three arms: xyz-drive 3 on arm 2 holds sample 4 on its right face; leaf spring 7 is held by piezoelectric element 13 on top of the middle arm 6, with point 5 on its upper end facing the sample; tunnel tip 8 on z-drive 9 (arm 10) faces the back of the spring. The stippled bands 11 and 12 are the Viton cushions between the drives and their arms. A force on point 5 bends spring 7 along z, which changes its gap to tip 8 and so the tunnel current.",
+  "2": "Same side view and same head as FIG. 1, with coarse adjustment and vibration isolation added. Each drive sits in its own member (16 for xyz-drive 3, 20 for z-drive 9) resting on base 1 through a stippled Viton cushion (17, 19); screws 14 and 18, threaded through the outer uprights of the base, bear through Viton pads 15 on the members to set the gaps. The sample face of 4 is drawn rough. The underlined 6 marks the arm region between the members; in this drawing the lower end of cantilever 7 is drawn joined to the plate under z-drive 9, while the text says only that the cantilever is fixed to base 1. The instrument stands on vibration filter 22: four metal plates 23 alternating with stippled rubber pads 24 that shrink from the bottom up, on the hatched bench 21.",
+  "3": "Control electronics, with the head (3, 4, 5, 7, 8, 9, 13) drawn schematically. Tip 8 and lead 26 (from strip 25 on the spring) go to I-V converter 27, whose output feeds two loops: controller 28 (its modes printed as ac/pz/Ø/V(I)) drives the z section of xyz-drive 3 via line 32, and dc controller 36 drives z-drive 9 and the z input of plotter 37. Controller 33 drives the x and y sections of the scanner, and through line 34 piezoelectric element 13; the plotter takes x and y from the same lines. Switch 30 is shown connecting modulator 31 to controller 28 (first mode); its left contact feeds the modulation to the z section of controller 33 (second and third modes), and contact 35 is open (fourth mode). The inset sketches the tunnel current I oscillating in time t."
+ },
+ "parts": {
+  "5": "The text's experimental point is a tiny diamond stylus; claim 9 gives a diamond needle attached to the cantilever.",
+  "7": "Both the force sensor and the first tunnel electrode. The experimental spring was a gold foil 25 micrometres thick and 0.8 mm long, with an eigen frequency of 2 kHz.",
+  "13": "Lets the spring be driven along z at its eigen frequency (second and third modes); in the first mode the sample is oscillated instead.",
+  "15": "The description names one Viton pad 15, under screw 14; FIG. 2 also labels the matching pad under screw 18 as 15.",
+  "25": "Not numbered in the text. Lead 26 is said to connect \"an electrode associated with the side of cantilever spring 7 adjacent tunnel tip 8\" to converter 27; 25 labels the dashed strip on that side of the spring, where lead 26 attaches.",
+  "28": "Its four modes: first [ac], sample oscillated at the cantilever eigen frequency; second [pz], cantilever oscillated by element 13 and the amplitude change used; third, the same with the phase change; fourth, static deflection with no modulation.",
+  "35": "A switch position, not a component: there modulator 31 is disconnected from both controllers (fourth mode).",
+  "36": "Optional second loop that moves tunnel tip 8 to keep the tunnel gap constant; its output is also the plotter's z signal."
+ },
+ "glossary": [
+  {
+   "term": "scanning tunneling microscope (STM)",
+   "def": "A microscope that holds a sharp metal tip a fraction of a nanometre from a conducting surface and measures the tunnel current between them while scanning; feedback on the current keeps the gap constant and maps the surface."
+  },
+  {
+   "term": "tunnel current",
+   "def": "The current of electrons crossing a vacuum or air gap of a few tenths of a nanometre by quantum tunnelling. It falls off exponentially with the gap; the patent cites about one order of magnitude per 0.1 nm."
+  },
+  {
+   "term": "cantilever / leaf spring",
+   "def": "A thin beam clamped at one end; a force at the free end bends it in proportion to the force, so its deflection measures the force."
+  },
+  {
+   "term": "eigen frequency",
+   "def": "The natural (resonance) frequency of the spring with its point. It must lie well above building-vibration frequencies, around 100 Hz, so the spring must be light."
+  },
+  {
+   "term": "interatomic forces",
+   "def": "Forces between the atoms of the point and of the sample when their electron clouds begin to overlap; at the working distance described here they are repulsive."
+  },
+  {
+   "term": "xyz-drive",
+   "def": "A piezoelectric positioner: piezoelectric ceramic changes length in proportion to applied voltage, giving sub-nanometre steps; separate sections move the sample along x, y and z."
+  },
+  {
+   "term": "raster scan",
+   "def": "Scanning line by line: the point sweeps along x at a fixed y, then y is stepped and the sweep repeated."
+  },
+  {
+   "term": "correction signal",
+   "def": "The feedback error signal derived from changes in tunnel current; it drives the z positioner to restore the set gap or force, and its value at each scan position is the recorded height."
+  },
+  {
+   "term": "I-V converter",
+   "def": "Current-to-voltage converter: an amplifier whose output voltage is proportional to the small input current, here the tunnel current."
+  },
+  {
+   "term": "modulator",
+   "def": "Here, the oscillator that supplies the sinusoidal drive used in the first three modes."
+  },
+  {
+   "term": "Viton",
+   "def": "A DuPont trademark for a fluoroelastomer rubber, used here as vibration damping."
+  },
+  {
+   "term": "thermal drift",
+   "def": "Slow change of positions as parts of the instrument expand or contract with temperature; it makes the static deflection, and so the force, uncertain over time."
+  },
+  {
+   "term": "ultra-high vacuum",
+   "def": "Pressures below roughly 10^{-9} mbar, where surfaces stay free of adsorbed films such as water for long times."
+  },
+  {
+   "term": "N, nm, pm",
+   "def": "Newton (unit of force); nanometre, 10^{-9} m; picometre, 10^{-12} m."
+  }
+ ]
+}

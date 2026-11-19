@@ -1,0 +1,101 @@
+{
+  "patent": "Filed 1966-10-10 and issued 1969-10-28 to Robert A. Moog of Trumansburg, N.Y., with no assignee. It covers the transistor ladder filter used in Moog synthesizers, including the Minimoog: the base-emitter junctions of stacked transistor pairs serve as the resistors of an RC filter, and their dynamic resistance, inversely proportional to the standing current, is set by a control voltage through an exponential current source, so the cutoff frequency moves by a fixed musical interval per fixed step of control voltage. FIG. 1 is the four-section low-pass ladder with feedback for resonance, FIG. 2 a four-section high-pass version using complementary transistor pairs, FIG. 3 a switching unit that combines the two into band-pass or band-reject filters, and FIGS. 4-6 sketch the responses. Moog had described voltage-controlled modules earlier (R. A. Moog, \"Voltage-Controlled Electronic Music Modules\", Journal of the Audio Engineering Society, 1965). The circuit has since been studied and modelled digitally many times, e.g. T. Stilson and J. O. Smith, \"Analyzing the Moog VCF with Considerations for Digital Implementation\", International Computer Music Conference, 1996.",
+  "figs": {
+    "1": "The sheet prints sideways; upright, signal and current flow from the bottom up. The three dashed boxes hold, from the bottom, the exponential current source (transistor 12, with diode 19-20 holding its base) and the drive pair 21-22; the four ladder rungs; and the output pair 42-43. Each rung is a left and right transistor whose emitters are bridged by a capacitor (46 on the lowest rung); collectors feed the emitters of the rung above. The resistor string 55-61 on the right sets the base voltages: each tap on it feeds the right-hand base of one rung, and the loop wire on the left of that rung carries the same voltage to the left-hand base. Small semicircular hops are wires crossing without connection. Lead 73 and variable resistor 74 return the output to the input buffer for resonance. The emitter of transistor 34 is labeled 41 in the drawing; the text calls it emitter 44.",
+    "2": "Upright after rotation. Signal runs left to right along the middle: driver 121, series capacitor 107, then three unity gain buffers each followed by a capacitor, into output amplifier 118. At each junction point (108, 111, 114, 117) the emitters of an NPN transistor (top row, collectors on line 124) and a PNP transistor (bottom row, collectors on line 126) meet; their base-emitter resistances form the shunt R of each high-pass section. The NPN bases share the adder output 80 and the PNP bases share the inverter output 94, so the control voltage drives the two rows in opposite directions. The capacitor after buffer 112 is drawn without its numeral 113.",
+    "3": "Upright after rotation. The two filters appear as boxes. Each three-position switch is drawn as an arrow (the arm) pointing at three contacts on a dashed arc; dashed straight lines show the mechanical ganging. The top two switches (arms 146, 141) set the signal path: parallel into combining amplifier 135 for band-reject, or in series for band-pass. The bottom three (arms 153, 160, 167) route the control voltages: center frequency from 158 through resistors 152 and 173 to both filters in the same direction; bandwidth from 166 through 159 to the high-pass filter and through inverter 176 and resistor 172 to the low-pass filter in the opposite direction. Their middle contacts (155, 162, 169) are grounded, and both outer contacts of each are wired together, so the controls act alike in the first and third positions. Numeral 161 is printed above the left contact of arm 160 without a leader line.",
+    "4": "Gain in decibels against frequency on a logarithmic axis (100, 1000 and 10,000 cycles per second). Three low-pass responses at three control voltages: same flat passband and knee, shifted along the frequency axis. The roll-off is drawn much steeper than the 24 dB per octave expected from four first-order sections, so read the curves for shape and shift only.",
+    "5": "Same axes as FIG. 4. Each curve has a dashed low-frequency level near -22 dB, a peak just above -10 dB at the cutoff, then a steep fall: the shape of a low-pass response with feedback, which the text says lowers the low-frequency gain and creates a resonance at the cutoff. The text attributes the figure to the high-pass filter while noting the peaking mode is available to either filter. The three peaks shift with control voltage without changing shape.",
+    "6": "Same axes as FIG. 4. One band-pass response from the high-pass and low-pass filters in series: a rising high-pass skirt and a falling low-pass skirt meeting in a peak of about -5 dB at 1000 cycles per second."
+  },
+  "parts": {
+    "12": "The exponential converter: its emitter current, and so the standing current of the whole ladder, grows exponentially with the adder output voltage.",
+    "19": "19 and 20 mark the two ends of one diode (\"diode 19-20\"), which holds the base of transistor 12 one junction drop above ground and tracks its temperature.",
+    "20": "See 19.",
+    "21": "With 22, a differential pair: the signal enters at their bases and splits the current from collector 15 between the left and right sides of the ladder.",
+    "41": "Used twice in the drawing: for the left transistor of the top rung, and, apparently in error, for the emitter of transistor 34, which the text calls emitter 44.",
+    "44": "Not labeled in the drawing; its place, the emitter of transistor 34, carries the label 41.",
+    "46": "Only the lowest rung's capacitor is numbered; the three rungs above carry identical unnumbered capacitors.",
+    "47": "Not labeled in the drawing; by the text it is the collector of transistor 35 that feeds emitter 50.",
+    "52": "Not labeled in the drawing; by the text it is the collector of transistor 40 that feeds emitter 53.",
+    "74": "Raising the feedback through this resistor turns the low-pass response into a resonant peak at the cutoff and, with enough feedback, sustained oscillation.",
+    "89": "Sets the operating point of all the filter transistors and compensates their temperature drift, as diode 19-20 does in FIG. 1.",
+    "91": "Named in the text but not labeled in the drawing.",
+    "97": "Not named in the text; labels the output line of inverter amplifier 92, just past output 94, that feeds the PNP bases.",
+    "98": "Not named in the text; labels the output line of adder 77, just past output 80 where it hops over lead 123, that feeds the NPN bases.",
+    "113": "Named in the text but not labeled in the drawing; it is the capacitor between buffer 112 and junction point 114.",
+    "148": "Not named in the text; labels the wire from input 131 to contact 147.",
+    "155": "Not named in the text; the grounded middle contact of the switch with arm 153.",
+    "162": "Not named in the text; the grounded middle contact of the switch with arm 160.",
+    "164": "Not named in the text; labels the line from bandwidth terminal 166 to the outer contacts of the switch with arm 160. The text routes the bandwidth voltage over a lead 165, which is not labeled in the drawing.",
+    "165": "Named in the text but not labeled in the drawing; see 164.",
+    "169": "Not named in the text; the grounded middle contact of the switch with arm 167.",
+    "177": "Not named in the text; labels the inverting input of amplifier 176."
+  },
+  "glossary": [
+    {
+      "term": "standing current",
+      "def": "The steady bias (DC) current through a transistor, on which the small signal rides."
+    },
+    {
+      "term": "dynamic resistance",
+      "def": "The small-signal resistance of a junction, the slope of its voltage-current curve. For a silicon base-emitter junction it is about kT/qI, roughly 26 ohms divided by the current in milliamperes at room temperature, so it is inversely proportional to the standing current."
+    },
+    {
+      "term": "exponential control",
+      "def": "Transistor current rises exponentially with base-emitter voltage, so equal steps of control voltage multiply the cutoff frequency by equal ratios, i.e. move it by equal musical intervals. Synthesizers adopted 1 volt per octave as the usual scale."
+    },
+    {
+      "term": "RC filter section",
+      "def": "A resistor and capacitor forming one first-order low-pass or high-pass stage; its cutoff frequency is 1/(2 pi R C), where the output is 3 dB down and shifted 45 degrees in phase."
+    },
+    {
+      "term": "ladder filter",
+      "def": "The usual name for the FIG. 1 circuit: stacked transistor pairs with capacitors across them, drawn like the rungs of a ladder."
+    },
+    {
+      "term": "push-pull",
+      "def": "Two devices driven in opposite phase, so the signal appears as a difference between them while common-mode changes, here the control current, cancel."
+    },
+    {
+      "term": "matched pair",
+      "def": "Two transistors with closely equal characteristics, used so that their bias drifts cancel."
+    },
+    {
+      "term": "complementary pair",
+      "def": "An NPN and a PNP transistor used together, with currents of opposite polarity."
+    },
+    {
+      "term": "operational amplifier adder",
+      "def": "An op amp with resistor inputs into its inverting input and a feedback resistor; its output is proportional to the weighted sum of the input voltages (with sign inverted)."
+    },
+    {
+      "term": "buffer amplifier",
+      "def": "An amplifier that isolates one stage from the next, presenting a high input impedance and a low output impedance."
+    },
+    {
+      "term": "resonance / peaking",
+      "def": "A rise in gain at the cutoff frequency produced by feeding the output back to the input; with enough feedback the filter oscillates."
+    },
+    {
+      "term": "phase shift oscillator",
+      "def": "An amplifier closed through a chain of RC sections; it oscillates where the chain's total phase shift is 180 degrees and the loop gain reaches one."
+    },
+    {
+      "term": "band-pass / band-reject",
+      "def": "A filter that passes only a range of frequencies, or one that removes a range and passes the rest."
+    },
+    {
+      "term": "ganged switch",
+      "def": "Several switch sections turned together by one control."
+    },
+    {
+      "term": "cycles (~)",
+      "def": "Older notation for cycles per second; the tilde after the axis numbers in FIGS. 4-6 marks frequency, now written in hertz."
+    },
+    {
+      "term": "temperature compensation",
+      "def": "Cancelling a temperature drift with a matching element; here a diode whose forward voltage drifts like the transistors' base-emitter voltage."
+    }
+  ]
+}

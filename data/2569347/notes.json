@@ -1,0 +1,101 @@
+{
+  "patent": "Filed June 26, 1948 and issued September 25, 1951 to William Shockley of Bell Telephone Laboratories. It is Shockley's junction-transistor patent: a semiconductor body with two zones of one conductivity type separated by a thin zone of the other type (N-P-N or P-N-P), and a connection to each zone (claim 1); in operation (FIGS. 2-3) the emitter junction is biased forward and the collector junction in reverse. It followed the point-contact transistor of John Bardeen and Walter Brattain (US 2,524,035, cited in the text) and was filed four days before Bell Labs announced the transistor publicly on June 30, 1948. Shockley published the theory as \"The Theory of p-n Junctions in Semiconductors and p-n Junction Transistors\" (Bell System Technical Journal, 1949); the first working junction transistors, grown from germanium melts by Morgan Sparks and Gordon Teal at Bell Labs, were reported in Shockley, Sparks and Teal, \"p-n Junction Transistors\" (Physical Review, 1951). Beyond the basic device the patent covers a field-controlled junction (FIG. 1), a thin-film device (FIG. 2), a buried grid base (FIGS. 4-5), extra junctions or a point contact at the collector for current gain (FIGS. 3A, 3B, 13), five-layer mixer and oscillator-converter structures (FIGS. 8-9), a two-terminal transit-time negative-resistance diode (FIG. 10), and an emitter of wider band gap than the base (FIG. 12, claims 2-3), an idea Herbert Kroemer traced to this patent when he developed the heterojunction bipolar transistor (Kroemer, Proceedings of the IEEE, 1982). Shockley, Bardeen and Brattain shared the 1956 Nobel Prize in Physics for their research on semiconductors and discovery of the transistor effect.",
+  "figs": {
+    "1": "A semiconductor bar (germanium in the example) with N zone 10 on the left and P zone 11 on the right, joined at barrier 12; end contacts 13 and 14. Battery 18 is poled to reverse-bias the junction, so the load loop 14-17-R_{L}-18-19-13 carries little current. The control electrode is wire loop 16 in electrolyte drop 15, sitting where the junction meets the top surface; signal 21 and bias 22 act between 16 and the N end. The text calls this a capacitive connection that impresses a field at the barrier, parallel to it.",
+    "2": "Sectional view. The dashed hatching marks the two ceramic blocks 30 and 31; the dotted layer on top is the P-type germanium film. Antimony or phosphorus diffusing up from electrode 32 turns the film above it N-type (zone 35), giving P-N-P along the film. In the input loop, battery 41 and source 42 forward-bias emitter 33 against base 32. In the output loop, battery 45 drives collector 34 negative through R_{L}, reverse-biasing barrier 39.",
+    "3": "The basic N-P-N junction transistor, with the thin P layer 51 drawn much wider than in practice. The thin cross-hatched strips at the ends are the metal electrodes 56 and 58; base electrode 57 touches the bottom edge of the P layer. The circuit is grounded-base: the left battery biases the emitter negative (forward), the right battery biases the collector positive through R_{L} (reverse).",
+    "3A": "The collector end of FIG. 3 (zone 53, electrode 58), enlarged. The thin dotted strip 80 between the N zone and the electrode is a P layer, which turns the collector contact into a further junction for current gain (see FIG. 13).",
+    "3B": "The collector end of FIG. 3, enlarged, with electrode 58 replaced by point contact 81 touching the N zone at C. This is a rectifying contact in place of the ohmic one, serving the same purpose as layer 80.",
+    "4": "The structure of FIG. 3 standing on end: emitter 66 on the left face, collector 67 on the right. The oval sections 64 inside P zone 61 are wires of a metal grid buried in the P zone, and its lead 65 comes out at the bottom as B; there are two labels 64, each with two leaders.",
+    "5": "An enlarged slice of the FIG. 4 device; the wavy break lines mark omitted material. The thin dotted strips 68 and 70 next to the end electrodes, and crescent 69 on the collector side of grid wire B, are heavily doped layers that keep the contacts ohmic. The solid black crescent 71 on the emitter side of the wire insulates it, so carriers pass between the wires rather than into them.",
+    "6": "The FIG. 3 layers in a vertical stack: N layer 52 with emitter 56 on the left, thin P layer 51, and on the right N layer 53a with collector 58. Layer 53a is shorter than the others, uncovering the lower part of the P layer for base contact 57a.",
+    "7": "Separate slabs stacked together. P slab 111 runs horizontally and carries base contact B on its underside at the left end. N slab 110 below has the emitter contact E; above, N slab 112 tapers toward the insulator and is capped by slab 113, marked P, under collector contact C. Insulator slab 114 (plain hatching) replaces the P layer to the right of the stack. The text does not describe slab 113 further.",
+    "8": "Five layers, N-P-N-P-N (91-95), with emitter 98 and collector 99 at the ends and separate base contacts 96 (B_{1}) and 97 (B_{2}) on the two P layers. Each base gets DC bias (101, 102) through a choke L_{C} and a signal (104, 105) through a blocking capacitor C_{B}. The collector is fed from 103 through L_{C}, and the output is taken between line 106 and common line 107, to which the emitter is tied.",
+    "9": "The FIG. 8 body with extra contact 108 on the middle N layer 93. Layers 91-93, with 108 as their collector, form the oscillator: 109 supplies 108, L_{T} and C_{T} are the tuned circuit, and transformer T couples the 108 circuit to base contact 96 through a small capacitor. The external signal (the circle source) reaches base 97 through C_{B}; the mixed output appears between 106 and 107.",
+    "10": "Top: the two-terminal N_{E}-P-N_{C} device; the vertical dash-dot lines carry the layer boundaries down into the energy diagrams. In each diagram the upper curve is the conduction-band edge and the hatched band is the filled band; the hatched walls at E and C are the metal contacts, with their Fermi levels as short dashed lines. Electron energy increases upward, so the more positive collector sits lower. V_{1}, V_{2} and V_{3} mark the levels of N_{E}, P and N_{C} under bias (a). In (b) the conduction band rises again just before C, leaving a potential minimum where electrons collect: the collector barrier of FIGS. 3A-3B.",
+    "11": "Diagrams (a)-(f) share the horizontal layer positions of structure (e). (a) Zero bias: flat Fermi level (dashed); the N layers are doped heavily enough to be degenerate. (b) Net doping, donors minus acceptors: positive in the N layers, negative in P. (c) Collector junction reverse-biased: C made more positive than E and B, which are held together; V_{1} and V_{3} mark the emitter and collector levels and V_{2} the top of the P-region barrier. (d) Emitter junction also forward-biased: the barrier above V_{1} drops and electrons pass over it and down to C. (f) The vacuum-tube counterparts of the three electrodes: cathode, grid, plate. Plus signs and short dashes along the band edges mark charges.",
+    "12": "Two zero-bias band diagrams over the N_{E}-P-N_{C} structure (bottom). U_{1} is the energy step that limits holes entering N_{E}, and U_{2} the step that limits electrons entering P; making U_{2} smaller than U_{1} favors electron injection. (a) does this by doping alone (nondegenerate, compare FIG. 11a). In (b) the emitter has a wider energy gap, so U_{1} grows at the junction, shown by the step in both band edges at the N_{E}-P boundary. The base contact at the bottom is drawn but not lettered.",
+    "13": "Band diagrams of the collector end only (N_{C} at left, metal C at right), each with the conduction-band edge above the hatched filled band; small circles are holes. (a) An effective P layer P_{C} just in front of C. (b) Same, enlarged, at zero bias. (c) With electron current arriving from P: electrons pile up at X, lowering the barrier so more holes flow from C back into N_{C}, which multiplies the collector current. (d) The same effect from a rectifying metal contact, with no P layer."
+  },
+  "parts": {
+    "15": "Glycol borate, an electrolyte. The text describes the connection through it as capacitive, the electrolyte being substantially isolated from the body.",
+    "32": "Made of an antimony- or phosphorus-bearing alloy (e.g. phosphor bronze); heat treatment at about 650 °C diffuses the donor into the film above it to form N zone 35.",
+    "69": "The high-impurity layer at the grid (base) wire.",
+    "80": "A thin P layer at the collector; the text calls it the additional P zone. With 81 and FIG. 13, it is the means of current gain.",
+    "106": "Not named in the text; the output is taken between 106 and 107.",
+    "107": "Not named in the text; the common return line, to which the emitter is connected.",
+    "113": "Marked P in the drawing; the text counts it among slabs 110 to 113 but does not describe it further.",
+    "B_{1}": "Drawing label at base contact 96 on the first P layer 92.",
+    "B_{2}": "Drawing label at base contact 97 on the second P layer 94.",
+    "N_{E}": "The emitter-side N layer.",
+    "N_{C}": "The collector-side N layer.",
+    "U_{2}": "Named in the text only by its symbol; it is the potential-energy step that sets how many electrons from N_{E} enter P.",
+    "X": "Named in the text only by its symbol; the region where arriving electrons accumulate in front of the collector barrier."
+  },
+  "glossary": [
+    {
+      "term": "emitter, base, collector",
+      "def": "The three regions of a bipolar transistor. The emitter injects carriers across a forward-biased junction into the thin base; most cross it and are swept out through the reverse-biased collector junction. The patent introduces the terms as \"nomenclature which has been used for devices of this type\", that is, for the point-contact transistor."
+    },
+    {
+      "term": "N-type / P-type",
+      "def": "Semiconductor in which current is carried mainly by electrons (N) or by holes (P), set by the impurities it contains."
+    },
+    {
+      "term": "hole",
+      "def": "A missing electron in the filled (valence) band; it moves and carries current like a positive charge."
+    },
+    {
+      "term": "significant impurities",
+      "def": "The patent's term for dopants: impurities or lattice defects that change conductivity type or resistivity. Donors (phosphorus, antimony, arsenic) give electrons; acceptors (boron, aluminum) give holes."
+    },
+    {
+      "term": "barrier",
+      "def": "The patent's term for a rectifying interface, here mainly a P-N junction: current passes easily in the forward direction and with difficulty in the reverse direction."
+    },
+    {
+      "term": "filled band, conduction band",
+      "def": "Now usually called the valence band and the conduction band. The energy gap between them is the band gap; germanium's is narrower than silicon's."
+    },
+    {
+      "term": "Fermi level",
+      "def": "The electrochemical potential of the electrons. It is flat through a device at equilibrium, and an applied voltage separates its values at the contacts."
+    },
+    {
+      "term": "degenerate",
+      "def": "So heavily doped that the Fermi level lies inside a band and the carriers behave like the electrons of a metal."
+    },
+    {
+      "term": "wide-gap emitter",
+      "def": "An emitter made of a semiconductor with a larger band gap than the base. It blocks the unwanted reverse injection from the base and is the basis of the heterojunction bipolar transistor."
+    },
+    {
+      "term": "ohmic contact",
+      "def": "A metal-semiconductor contact with low, linear resistance, as opposed to a rectifying one. Heavily doped layers under the contacts (FIG. 5) help make it."
+    },
+    {
+      "term": "point contact",
+      "def": "A fine metal point pressed on the semiconductor, forming a small rectifying contact, as in the earlier point-contact transistor."
+    },
+    {
+      "term": "transit time",
+      "def": "The time carriers take to cross a region. It limits amplification at high frequency and, with the right phase delay, can give negative resistance (FIG. 10)."
+    },
+    {
+      "term": "negative resistance",
+      "def": "A response in which current falls as voltage rises (or lags it by more than 90 degrees at a given frequency), so the device delivers AC power to the circuit instead of absorbing it; it can sustain oscillation."
+    },
+    {
+      "term": "mixer / converter",
+      "def": "A nonlinear stage that multiplies two signals, giving sum and difference frequencies; used in superheterodyne receivers with a local oscillator."
+    },
+    {
+      "term": "choke, blocking condenser",
+      "def": "An inductor that passes DC bias but blocks the signal, and a capacitor (\"condenser\") that passes the signal but blocks DC."
+    },
+    {
+      "term": "high-back-voltage germanium",
+      "def": "Germanium prepared to withstand a high voltage in the reverse direction when used as a rectifier; the text cites a 1945 application by J. H. Scaff and H. C. Theuerer for its preparation."
+    }
+  ]
+}

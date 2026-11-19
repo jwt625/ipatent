@@ -1,0 +1,27 @@
+{
+  "pn": "3353115",
+  "inventors": [
+    {
+      "name": "Theodore H. Maiman",
+      "printed": "Theodore H. Maiman, Los Angeles, Calif.",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "US"
+    }
+  ],
+  "assignees": [
+    {
+      "name": "Hughes Aircraft Company",
+      "printed": "Hughes Aircraft Company, Culver City, Calif., a corporation of Delaware",
+      "org": "Hughes Aircraft",
+      "kind": "company",
+      "city": "Culver City",
+      "region": "CA",
+      "country": "US"
+    }
+  ],
+  "source": {
+    "page": 5,
+    "where": "column 1 header (inventor, assignor to)"
+  }
+}

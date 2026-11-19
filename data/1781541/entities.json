@@ -1,0 +1,34 @@
+{
+ "pn": "1781541",
+ "inventors": [
+  {
+   "name": "Albert Einstein",
+   "printed": "ALBERT EINSTEIN, OF BERLIN",
+   "city": "Berlin",
+   "region": null,
+   "country": "DE"
+  },
+  {
+   "name": "Leo Szilard",
+   "printed": "LEO SZILARD, OF BERLIN-WILMERSDORF, GERMANY",
+   "city": "Berlin-Wilmersdorf",
+   "region": null,
+   "country": "DE"
+  }
+ ],
+ "assignees": [
+  {
+   "name": "Electrolux Servel Corporation",
+   "printed": "ELECTROLUX SERVEL CORPORATION, OF NEW YORK, N. Y., A CORPORATION OF DELAWARE",
+   "org": "Electrolux Servel",
+   "kind": "company",
+   "city": "New York",
+   "region": "NY",
+   "country": "US"
+  }
+ ],
+ "source": {
+  "page": 1,
+  "where": "header of the first printed page (inventors, assignors to)"
+ }
+}

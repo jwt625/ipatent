@@ -1,0 +1,2930 @@
+{
+ "pn": "2929922",
+ "number": "2,929,922",
+ "title": "MASERS AND MASER COMMUNICATIONS SYSTEM",
+ "inventors": [
+  "Arthur L. Schawlow",
+  "Charles H. Townes"
+ ],
+ "assignee": "Bell Telephone Laboratories, Incorporated, New York, N.Y., a corporation of New York",
+ "filed": "1958-07-30",
+ "issued": "1960-03-22",
+ "appl_no": "752,137",
+ "int_cl": "",
+ "us_cl": "250—7",
+ "refs_patents": [
+  {
+   "no": "2,836,722",
+   "date": "May 27, 1958",
+   "name": "Dicke et al.",
+   "cl": ""
+  }
+ ],
+ "refs_other": [],
+ "examiners": "",
+ "claims_count": 11,
+ "drawing_figures": 3,
+ "abstract": "",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "col": 1,
+     "line": 14,
+     "text": "This invention relates to the generation and amplification of infrared, visible, and ultraviolet waves, and more particularly to the generation and amplification of such waves by means of devices including media in which the stimulated emission of radiation occurs; devices of this type are now generally termed “masers.”"
+    },
+    {
+     "col": 1,
+     "line": 20,
+     "text": "It is characteristic of a maser that it employs a medium in which there is established at least intermittently a nonequilibrium population distribution in a pair of spaced energy levels of its energy level system. In particular, the population of the higher of the selected pair of energy levels may be made larger than that of the lower. It is now usual to describe a medium which is in such a state of nonequilibrium as exhibiting a negative temperature. It is known that a competing process known as relaxation tends to return the system to equilibrium."
+    },
+    {
+     "col": 1,
+     "line": 30,
+     "text": "It is characteristic that if there be applied to a medium which is in a negative temperature state a signal of a frequency which satisfies Planck’s law with respect to the two energy levels which are in nonequilibrium (ν=(E_{2}−E_{1})/h where h is Planck’s constant) then the applied signal will stimulate the emission of radiation at the signal frequency from the medium and the signal will be amplified."
+    },
+    {
+     "col": 1,
+     "line": 41,
+     "text": "Among the more promising forms of masers known is one which employs as the negative temperature medium a material whose energy level system is characterized by at least three energy levels, with the separations of these three energy levels falling within desired operating frequency ranges. To this material, there is supplied pumping power which effects transitions from the lowest to the highest of the selected three energy levels. By power saturation of the highest energy level, whereby the populations of the highest and lowest energy levels tend to be equalized, there is established in one of these two energy levels a nonequilibrium population distribution with respect to the intermediate energy level of the selected three, whereby a negative temperature results in the material. Thereafter a signal of appropriate frequency can be amplified by being applied thereto in a manner such that the emission of radiation is stimulated therefrom."
+    },
+    {
+     "col": 1,
+     "line": 59,
+     "text": "It is to be noted that the process of relaxation from randomly overpopulated states may give rise to spontaneous emission, that is, emission caused by radiative transitions in a mode other than the desired or stimulated one."
+    },
+    {
+     "col": 1,
+     "line": 64,
+     "text": "Generators and amplifiers employing atomic and molecular processes, as do the various known varieties of masers, may in principle be extended in operation far beyond the range of frequencies which have been generated and amplified by electronic processes. As, however, the maser concept is applied to the translation of wavelengths in the infrared, visible, and ultraviolet regions of the electromagnetic wave spectrum, it is found that conventional or microwave maser techinques and structures are suitable neither for the generation of monochromatic radiation nor to provide coherent amplification."
+    },
+    {
+     "col": 2,
+     "line": 3,
+     "text": "Accordingly, an object of the present invention is a system, including a maser, for translating infrared, visible, and ultraviolet energy."
+    },
+    {
+     "col": 2,
+     "line": 6,
+     "text": "A maser designed for operation in the microwave range of the spectrum might, for example, comprise a cavity having therein an ensemble of atomic or molecular systems, the cavity being characterized by being able to support only one mode near the frequency which corresponds to the desired radiative transitions of the systems. Alternatively, such an ensemble might be located in a waveguide, which similarly would be characterized by one, or a very few, preferred modes of propagation in the frequency range of interest."
+    },
+    {
+     "col": 2,
+     "line": 16,
+     "text": "Thus, the energy emitted by a maser operating in the microwave range is typically monochromatic, due to the energy produced by stimulated emission being very much larger than the background of radiation caused by spontaneous emission. In other words, such devices are inherently monochromatic because stimulated emission produces completely coherent amplification, and spontaneous emission, which is not so coherent, is characteristically small by comparison with the stimulated emission."
+    },
+    {
+     "col": 2,
+     "line": 25,
+     "text": "On the other hand, the maintenance of a single isolated mode is a maser cavity operating at frequencies above those in the microwave range requires an impractically small cavity structure (of the order of one wavelength) and/or a high and not easily realizable density of pumping power. Hence, one is led to consider, in these higher frequency ranges, cavities which are large compared to a wavelength, and which are accordingly capable of supporting a large number of modes within the frequency ranges of interest. A disadvantage of this approach, however, is that masers including such cavities must be operated at relatively high power levels in order that the emission stimulated therefrom be at least as large as that spontaneously emitted therefrom."
+    },
+    {
+     "col": 2,
+     "line": 39,
+     "text": "Accordingly, another object of this invention is a practically realizable, efficient, low-noise maser structure which is capable of the generation of monochromatic radiation, or coherent amplification, in the infrared, visible, and ultraviolet portions of the electromagnetic spectrum."
+    },
+    {
+     "col": 2,
+     "line": 45,
+     "text": "The above and other objects of the present invention are realized in an illustrative embodiment thereof wherein a negative temperature medium is disposed between two spaced parallel reflecting plates in a configuration which is of practical size and which may be pumped by readily available power sources, and wherein a single mode corresponding to the stimulated emission can be effectively isolated."
+    },
+    {
+     "col": 2,
+     "line": 53,
+     "text": "More particularly, one specific illustrative embodiment of the present invention comprises a maser including a chamber having reflective end parallel plates and side walls. Positioned within the chamber is a negative temperature medium, which is pumped by an energy source disposed about the chamber. The side walls are transparent to the pumping energy and either transparent to or absorptive of other energy radiated thereat. Further, an optical configuration is arranged adjacent to one of the end plates of the chamber for isolating the one mode of those supported within the chamber which it is desired to selectively utilize."
+    },
+    {
+     "col": 2,
+     "line": 66,
+     "text": "The principles of the present invention may illustratively be embodied in a communications system which comprises a maser device capable of generating monochromatic radiation, a second maser device capable of modulating and coherently amplifying the output of the maser generator, and a device for detecting the output of the second maser. Alternatively, such a system may include a maser generator whose output is modulated by a nonamplifying device, or a system in which the maser generator itself is modulated."
+    },
+    {
+     "col": 3,
+     "line": 4,
+     "text": "Thus, a feature of the present invention is a system for communicating information by means of energy having wavelengths in the infrared, visible, or ultraviolet portions of the electromagnetic spectrum, comprising a monochromatic generator, a modulatable coherent amplifier, and a detector."
+    },
+    {
+     "col": 3,
+     "line": 10,
+     "text": "Another feature of this invention is a maser generator including a chamber comprising reflective parallel end members and side members, a negative temperature medium within said chamber, a pumping power source disposed about the side members, the side members being transparent to the pumping energy and either transparent to or absorptive of other energy radiated thereat, and a configuration arranged adjacent to one of the end members for abstracting from the chamber a selected one of the modes supported therein, whereby there is provided efficient, low-noise, monochromatic generation of infrared, visible, or ultraviolet waves."
+    },
+    {
+     "col": 3,
+     "line": 22,
+     "text": "A further feature of the present invention is a maser amplifier including a chamber comprising reflective parallel end members and side members, a negative temperature medium within said chamber, a pumping power source disposed about the side members, the side members being transparent to the pumping energy and nonreflective of other energy radiated thereat, and a configuration arranged adjacent to one of the end members for abstracting from the chamber an amplified replica of a wave fed through the other end member thereof, whereby there is provided an efficient, low-noise, coherent amplifier of infrared, visible, or ultraviolet waves."
+    },
+    {
+     "col": 3,
+     "line": 34,
+     "text": "A still further feature of this invention is an arrangement for modulating the signal output of a maser of the type herein-described comprising a structure for establishing a magnetic field parallel to the longitudinal axis of the chamber thereof, and an information source capable of varying the magnetic field in correspondence with the output of the source."
+    },
+    {
+     "col": 3,
+     "line": 41,
+     "text": "The principles of the present invention will be better understood from the following more detailed discussion taken in conjunction with the accompanying drawing, in which:"
+    },
+    {
+     "col": 3,
+     "line": 45,
+     "text": "Fig. 1 is a block diagram of a communications system illustratively embodying aspects of the principles of the present invention;"
+    },
+    {
+     "col": 3,
+     "line": 48,
+     "text": "Fig. 2 is a perspective view of a generator made in accordance with the principles of this invention; and"
+    },
+    {
+     "col": 3,
+     "line": 50,
+     "text": "Fig. 3 is a perspective view of an amplifier embodying the principles of the present invention. Also, Fig. 3 depicts a modulating source and a detector, arranged in typical relationship to the amplifier."
+    },
+    {
+     "col": 3,
+     "line": 54,
+     "text": "Referring now to Fig. 1, there is shown a communications system in which the principles of the present invention are illustratively embodied. The system includes a generator or oscillator 10, a modulating source 11, a modulated amplifier 12, and a detector 13."
+    },
+    {
+     "col": 3,
+     "line": 59,
+     "text": "The generator 10, which is shown in detail in Fig. 2, includes a chamber 14, which typically may be about one centimeter in diameter and ten centimeters in length. The chamber 14 comprises a hollow cylinder 15 having its ends capped by two flat parallel assemblies 16 and 17. Disposed within the chamber 14 is a negative temperature material whose radiative energy level separations correspond to frequencies in the ranges of interest, namely, the infrared, visible, and ultraviolet ranges."
+    },
+    {
+     "col": 3,
+     "line": 68,
+     "text": "Various materials are suitable for use as the active or negative temperature medium of maser devices of the general type described herein. For example, vapors of the alkali metals; namely, lithium, sodium, potassium, rubidium and cesium, and some solid rare earth salts, for example, anhydrous chlorides of europium and samarium, may be so used."
+    },
+    {
+     "col": 3,
+     "line": 75,
+     "text": "In particular, potassium maintained at a temperature of about 435 degrees Kelvin, at which temperature it exhibits a vapor pressure of about 0.001 millimeter, may advantageously be included in a specific illustrative embodiment of the principles of the present invention as the active medium thereof."
+    },
+    {
+     "col": 4,
+     "line": 6,
+     "text": "Each of the flat parallel assemblies 16 and 17 of the device shown in Fig. 2 advantageously includes as a component part thereof a material which reflects most of the energy incident thereupon. Thus, for example, an assembly comprising sapphire 16a, which material is characterized by good chemical inertness and excellent transmission properties, particularly for infrared wavelengths, and having a coating of gold 16b, typically about 500 angstrom units thick, on the outer surface of the sapphire member, may be included in specific embodiments of this invention. Such an assembly exhibits 97 percent reflectivity, 2 percent absorptivity, and 1 percent transmitivity to wavelengths in the infrared range."
+    },
+    {
+     "col": 4,
+     "line": 19,
+     "text": "The inner and outer parallel faces of each sapphire plate reflect a small portion of the radiation directed thereat. Therefore, the thickness of the sapphire plates should advantageously be chosen such that the reflections from the two faces of each plate add in phase."
+    },
+    {
+     "col": 4,
+     "line": 24,
+     "text": "It is noted that the phase angle between the reflections from the two faces or surfaces of each sapphire member depends on the thickness and refractive index thereof. Since sapphire is crystalline and the refractive index is different for ordinary and extraordinary rays, the thickness may be chosen to give constructive interference for one polarization and destructive interference for the polarization perpendicular thereto, in that manner discriminating between modes traveling in the same direction but having different polarizations."
+    },
+    {
+     "col": 4,
+     "line": 34,
+     "text": "The cylinder 15 of the chamber 14 is advantageously of a material which is transparent to the pumping energy and either transparent to or absorptive of other radiation impinging thereupon, thereby both to allow the negative temperature medium within the cylinder 15 to be pumped and to eliminate from the chamber radiation occurring in all modes except those corresponding to waves which travel back and forth between the reflective assemblies 16 and 17. These reflected modes are coupled much more strongly to the excited atomic systems of the negative temperature medium than any other modes and hence would be strongly favored for maser oscillations."
+    },
+    {
+     "col": 4,
+     "line": 46,
+     "text": "In those specific embodiments of the present invention in which the negative temperature medium within the chamber 14 is at a pressure other than atmospheric, as in the case of the potassium vapor, for example, it is advantageous to support the chamber 14, by means of spacer elements 18, within a protective shell 19, typically of glass, within which shell a pressure approximately equal to that within the chamber 14 is maintained. In this manner, the resultant forces acting on the opposing faces of the end assemblies 16 and 17 are made so small as not to be capable of distorting the assemblies and thereby disturbing their parallelism."
+    },
+    {
+     "col": 4,
+     "line": 58,
+     "text": "Arranged around the protective shell 19 are a plurality of pumping sources 20 which, in a maser generator including potassium vapor as the active medium thereof, may advantageously comprise an assembly of potassium lamps, which lamps 20 are energized by a source 21."
+    },
+    {
+     "col": 4,
+     "line": 63,
+     "text": "The maser generator shown in Fig. 2 further includes a housing 22 in which the protective shell 19 is supported by spacer elements 27. The inner surface of the housing 22 is of a material which is capable of reflecting a major part of the energy radiated thereupon from the pumping power sources 20, thereby to aid in directing a substantial portion of the energy emitted by the sources 20 toward the chamber 14 and into the negative temperature medium therein."
+    },
+    {
+     "col": 4,
+     "line": 73,
+     "text": "The process of oscillation within a maser generator made in accordance with the principles of the present invention depends on the selective regeneration within the chamber 14 of a component of the energy spontaneously emitted by the negative temperature medium therein."
+    },
+    {
+     "col": 5,
+     "line": 3,
+     "text": "Mode selection in the maser generator shown in Fig. 2 is based on the phenomenon that, when energy is radiated from a chamber of the type herein-described through an end plate member which is large compared to the wavelength of the radiation, each mode radiates in a characteristic direction. Thus, if the emitted radiation is focused by a lens, each point in the focal plane thereof will correspond to a mode of a particular direction, affording thereby a separation of modes. And, if radiation falling on a very limited area in the focal plane is detected, that radiation will represent spontaneous and stimulated emission from a selected and limited number of modes, the large background of spontaneous emission produced in other modes being thereby effectively isolated."
+    },
+    {
+     "col": 5,
+     "line": 18,
+     "text": "The principles of this phenomenon are utilized in the maser generator shown in Fig. 2. Radiation in the desired mode is transmitted through the end assembly 17 and focused by a double-convex lens 23 arranged such that the desired energy is directed through an aperture 24 in an absorptive sheet 25 which lies in the focal plane of the lens 23. A second double-convex lens 26 is employed to reconvert the selected energy to the form of a plane wave, in which form the desired energy radiates to the modulated amplifier 12."
+    },
+    {
+     "col": 5,
+     "line": 28,
+     "text": "The maser amplifier shown in Fig. 3 is similar in structure to the generator described above. The amplifier includes a chamber 14 comprising a hollow cylinder 15 supported within a protective shell 19 by supporting members 18 and within which cylinder 15 there is disposed a suitable negative temperature medium. The shell 19 is supported within a reflective housing 22 by spacer or supporting members 27."
+    },
+    {
+     "col": 5,
+     "line": 36,
+     "text": "Arranged about the protective shell 19 of the amplifier 12 shown in Fig. 3 is a pumping power assembly 30 which may advantageously comprise, in a specific illustrative embodiment of the present invention wherein the negative temperature medium is potassium vapor, a potassium lamp formed in the shape of a spiral, which spiral lamp is energized by a source 31."
+    },
+    {
+     "col": 5,
+     "line": 43,
+     "text": "Energy which is directed from the generator 10 through the left-hand end of the cylinder 15 of the amplifying device of Fig. 3 may be modulated by an assembly including a coil 32 for establishing a magnetic field parallel to the longitudinal axis of the cylinder 15 and a source 11 for varying the strength of the longitudinal magnetic field, whereby broadening or splitting of the spectral lines emitted by the device 12 in correspondence with the variation of the magnetic field results, which phenomenon is generaly termed the Zeeman effect."
+    },
+    {
+     "col": 5,
+     "line": 53,
+     "text": "The device 12 shown in Fig. 3 radiates through the right-hand end of the cylinder 15 an amplified counterpart of the energy directed at the device 12 by the generator 10. The radiated energy is directed by two lenses 33 and 36 through an aperture 34 in an absorptive member 35 and to a detector 13. The detector 13 may, for example, include a photomultiplier tube."
+    },
+    {
+     "col": 5,
+     "line": 60,
+     "text": "It is noted that the admission of a signal into the region between the two end parallel plates of the amplifying device 12 is similar to the process involved in a microwave cavity. More particularly, the partially reflecting surfaces of the end plates are analogous to coupling holes; and, if a monochromatic plane wave strikes the outside of one of the partially reflecting surfaces, energy will build up in the region between the plates, and the relations between input wave, energy in the “cavity,” and output wave correspond to those for a microwave impinging on an appropriate cavity with input and output coupling holes."
+    },
+    {
+     "col": 5,
+     "line": 72,
+     "text": "Thus, it is seen that the principles of the present invention may illustratively be embodied in monochromatic maser generators of infrared, visible, or ultraviolet wavelengths. It is feasible to tune such generators by varying the pressure or temperature of the negative temperature media thereof. Alternatively, tuning of such devices may be based on the Stark effect (i.e., observed changes in the spectrum of a system when the system is subjected to an electric field) or on the Zeeman effect."
+    },
+    {
+     "col": 6,
+     "line": 6,
+     "text": "Further, it has been shown that embodiments of this invention include coherent maser amplifiers of infrared, visible, or ultraviolet wavelengths. It is to be noted that these devices are capable of amplifying energy of these wavelengths with no significant change in the wavefront or phase thereof."
+    },
+    {
+     "col": 6,
+     "line": 12,
+     "text": "It is to be noted that maser devices embodying the principles of the present invention may advantageously be utilized in various spectroscopy and measurement applications, as well as in the communications field."
+    },
+    {
+     "col": 6,
+     "line": 16,
+     "text": "It is to be understood that the various specific embodiments disclosed are merely illustrative of the general principles of the invention. Thus, although the amplifying chamber 14 has been shown and described as including a hollow cylinder, it is of course clear that any other transparent structure (more specifically, transparent to the pumping energy and transparent to or absorptive of other radiation) suitable for retaining the negative temperature medium and including reflective end assemblies may be easily substituted therefor."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 3,
+   "line": 45,
+   "text": "Fig. 1 is a block diagram of a communications system illustratively embodying aspects of the principles of the present invention;"
+  },
+  {
+   "fig": "2",
+   "col": 3,
+   "line": 48,
+   "text": "Fig. 2 is a perspective view of a generator made in accordance with the principles of this invention; and"
+  },
+  {
+   "fig": "3",
+   "col": 3,
+   "line": 50,
+   "text": "Fig. 3 is a perspective view of an amplifier embodying the principles of the present invention. Also, Fig. 3 depicts a modulating source and a detector, arranged in typical relationship to the amplifier."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 6,
+   "line": 27,
+   "depends": null,
+   "text": "1. A communications system for operation in the infrared, visible, or ultraviolet regions of the electromagnetic wave spectrum comprising a monochromatic maser generator, a coherent modulated maser amplifier, a modulating source, and a detector; said generator comprising a chamber having end reflective parallel members and transparent side members, a negative temperature medium disposed within said chamber, and means arranged about said chamber for pumping said medium; said amplifier comprising a chamber having end reflective parallel members and transparent side members, a negative temperature medium disposed within said chamber, means arranged about said chamber for pumping said medium, and coupling means for abstracting from one end of said chamber an amplified counterpart of the energy transmitted into the other end thereof and for directing said amplified counterpart at said detector."
+  },
+  {
+   "n": 2,
+   "col": 6,
+   "line": 44,
+   "depends": null,
+   "text": "2. A communications system for operation in the infrared, visible or ultraviolet regions of the electromagnetic wave spectrum comprising a monochromatic maser generator, a coherent maser amplifier, said generator and amplifier including means for modulating the output of said generator in accordance with signal information, and a detector; said generator comprising a chamber having a length which is substantially greater than its transverse dimension and having partially reflective parallel end members and nonreflective side members, a negative temperature medium disposed within said chamber and characterized by at least three distinct energy levels, two of which have a separation in the frequency range of interest, means for pumping said medium so that a population inversion is produced therein between said two separated energy levels, and means for abstracting from said chamber and directing at the amplifier input the energy of a particular mode of electromagnetic vibration; said amplifier comprising a chamber having a length which is substantially greater than its transverse dimension and having partially reflective parallel end members and nonreflective side members, a negative temperature medium disposed within said chamber and characterized by at least three distinct energy levels, two of which have a separation in the frequency range of interest, means for pumping said medium so that a population inversion is produced therein between said two separated energy levels, means for abstracting from said chamber the energy of a particular mode of electromagnetic vibration representing an amplified and modulated replica of the generator output, and means for directing said replica at said detector."
+  },
+  {
+   "n": 3,
+   "col": 6,
+   "line": 75,
+   "depends": null,
+   "text": "3. A communications system for operation in the infrared, visible, or ultraviolet regions of the electromagnetic wave spectrum comprising a monochromatic maser generator, a coherent modulated maser amplifier, a modulating source, and a detector; said amplifier including means defining an amplifying chamber, and means for establishing a magnetic field parallel to the longitudinal axis of said chamber, said modulating source being coupled to said magnetic means, the radiative output of said generator being directed at said amplifier, and the radiative output of said amplifier, constituting an amplified and modulated counterpart of the energy radiated thereinto, being directed at said detector."
+  },
+  {
+   "n": 4,
+   "col": 7,
+   "line": 13,
+   "depends": null,
+   "text": "4. A maser generator comprising a chamber having end reflective parallel members and side members, a negative temperature medium disposed within said chamber, and means arranged about said chamber for pumping said medium, said side members being transparent to the pumping energy and transparent to or absorptive of other energy radiated thereat."
+  },
+  {
+   "n": 5,
+   "col": 7,
+   "line": 20,
+   "depends": null,
+   "text": "5. A maser generator for operation in the infrared, visible or ultraviolet regions of the electromagnetic wave spectrum comprising a chamber having a length which is substantially greater than its transverse dimension and having partially reflective parallel end members and nonreflective side members, a negative temperature medium disposed within said chamber and characterized by at least three distinct energy levels, two of which have a separation in the frequency range of interest, means for pumping said medium so that a population inversion is produced therein between said two separated energy levels, and means for abstracting from said chamber and directing at an amplifier input the energy of a particular mode of electromagnetic vibration."
+  },
+  {
+   "n": 6,
+   "col": 7,
+   "line": 34,
+   "depends": 5,
+   "text": "6. A maser generator as in claim 5 wherein said mode selecting means includes an absorptive member having an opening therethrough, said absorptive member being positioned adjacent to one end of said chamber, and means for directing a selected portion of the energy radiated by said generator through said opening."
+  },
+  {
+   "n": 7,
+   "col": 7,
+   "line": 40,
+   "depends": 5,
+   "text": "7. A maser generator as in claim 5 wherein said negative temperature medium comprises potassium, and said pumping means comprises an assembly of potassium lamps."
+  },
+  {
+   "n": 8,
+   "col": 8,
+   "line": 1,
+   "depends": null,
+   "text": "8. A maser amplifier comprising a chamber having end reflective parallel members and said members, a negative temperature medium disposed within said chamber, means arranged about said chamber for pumping said medium, said side members being transparent to the pumping energy and non-reflective of other energy radiated thereat, and coupling means for abstracting from one end of said chamber an amplified counterpart of the energy directed into the other end thereof."
+  },
+  {
+   "n": 9,
+   "col": 8,
+   "line": 10,
+   "depends": null,
+   "text": "9. A maser amplifier for operation in the infrared, visible or ultraviolet regions of the electromagnetic wave spectrum comprising a chamber having a length which is substantially greater than its transverse dimension and having partially reflective parallel end members and nonreflective side members, a negative temperature medium disposed within said chamber and characterized by at least three distinct energy levels, two of which have a separation in the frequency range of interest, means for pumping said medium so that a population inversion is produced therein between said two separated energy levels, and means for abstracting from said chamber and directing at a detector the energy of a particular mode of electromagnetic vibration."
+  },
+  {
+   "n": 10,
+   "col": 8,
+   "line": 24,
+   "depends": 9,
+   "text": "10. A maser amplifier as in claim 9 wherein said negative temperature medium comprises potassium, and said pumping means comprises an assembly of potassium lamps."
+  },
+  {
+   "n": 11,
+   "col": 8,
+   "line": 28,
+   "depends": null,
+   "text": "11. A modulated maser amplifier comprising a chamber having end reflective parallel members, a negative temperature medium disposed within said chamber, means arranged about said chamber for pumping said medium, means coupled to and under the control of a modulating source for establishing a magnetic field parallel to the longitudinal axis of said chamber, and means for abstracting from one end of said chamber an amplified counterpart of the energy directed into the other end thereof, which counterpart is modulatable in accordance with the output of said source."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "col": 1,
+   "line": 17,
+   "ocr": "waves:",
+   "fixed": "waves",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 18,
+   "ocr": "stimulated’",
+   "fixed": "stimulated",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 18,
+   "ocr": "occurs:",
+   "fixed": "occurs;",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 18,
+   "ocr": "this:",
+   "fixed": "this",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 19,
+   "ocr": "now.",
+   "fixed": "now",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 19,
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 20,
+   "ocr": "‘It",
+   "fixed": "It",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 21,
+   "ocr": "_in-which there:",
+   "fixed": "in which there",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 22,
+   "ocr": "equilibrium: ‘population",
+   "fixed": "equilibrium population",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 25,
+   "ocr": "‘be",
+   "fixed": "be",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 25,
+   "ocr": "larger:",
+   "fixed": "larger",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 26,
+   "ocr": "describe:a",
+   "fixed": "describe a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 29,
+   "ocr": "equilibrium, .",
+   "fixed": "equilibrium.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 30,
+   "ocr": "\"It",
+   "fixed": "It",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 30,
+   "ocr": "toa",
+   "fixed": "to a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 32,
+   "ocr": "‘satisfies",
+   "fixed": "satisfies",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 32,
+   "ocr": "respect. to’",
+   "fixed": "respect to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 33,
+   "ocr": "‘are",
+   "fixed": "are",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 36,
+   "ocr": "Pr ee where his Planck’s constant ) fps",
+   "fixed": "(ν=(E_{2}−E_{1})/h where h is Planck’s constant)",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 1,
+   "line": 38,
+   "ocr": "signal.",
+   "fixed": "signal",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 38,
+   "ocr": "oo",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 40,
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 45,
+   "ocr": "energy:",
+   "fixed": "energy",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 48,
+   "ocr": "the:",
+   "fixed": "the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 52,
+   "ocr": "in’",
+   "fixed": "in",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 54,
+   "ocr": "level'of",
+   "fixed": "level of",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 56,
+   "ocr": "Thereafter:a",
+   "fixed": "Thereafter a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 58,
+   "ocr": "‘of",
+   "fixed": "of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 58,
+   "ocr": "‘jis",
+   "fixed": "is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 59,
+   "ocr": "“It",
+   "fixed": "It",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 59,
+   "ocr": "noted:",
+   "fixed": "noted",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 60,
+   "ocr": "‘may",
+   "fixed": "may",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 61,
+   "ocr": "taneous.",
+   "fixed": "taneous",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 61,
+   "ocr": "by’",
+   "fixed": "by",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 63,
+   "ocr": "one: : . : oo",
+   "fixed": "one.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 64,
+   "ocr": ". Generators.",
+   "fixed": "Generators",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 67,
+   "ocr": "which.",
+   "fixed": "which",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 67,
+   "ocr": "gen--",
+   "fixed": "gen-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 68,
+   "ocr": "how-.",
+   "fixed": "how-",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 69,
+   "ocr": "concept.",
+   "fixed": "concept",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 71,
+   "ocr": "Wave ‘spectrum,",
+   "fixed": "wave spectrum,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 71,
+   "ocr": "found.",
+   "fixed": "found",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 71,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 72,
+   "ocr": "‘conventional ‘or",
+   "fixed": "conventional or",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 2,
+   "ocr": "amplification,",
+   "fixed": "amplification.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 6,
+   "ocr": "A. maser.",
+   "fixed": "A maser",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 6,
+   "ocr": "“in",
+   "fixed": "in",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 14,
+   "ocr": "a-very",
+   "fixed": "a very",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 15,
+   "ocr": "=",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 23,
+   "ocr": "‘is not.",
+   "fixed": "is not",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 33,
+   "ocr": "frequéncy",
+   "fixed": "frequency",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 36,
+   "ocr": "levels.",
+   "fixed": "levels",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 38,
+   "ocr": ". Spontaneously emiited",
+   "fixed": "spontaneously emitted",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 39,
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 42,
+   "ocr": "radiation; -or",
+   "fixed": "radiation, or",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 43,
+   "ocr": "‘portions",
+   "fixed": "portions",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 44,
+   "ocr": "spectrum, ;",
+   "fixed": "spectrum.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 46,
+   "ocr": "réalized",
+   "fixed": "realized",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 46,
+   "ocr": "_",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 47,
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 48,
+   "ocr": "‘a",
+   "fixed": "a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 49,
+   "ocr": "‘be",
+   "fixed": "be",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 50,
+   "ocr": "and’ wheréin",
+   "fixed": "and wherein",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 51,
+   "ocr": ": ‘responding:",
+   "fixed": "responding",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 52,
+   "ocr": "isolated,",
+   "fixed": "isolated.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 54,
+   "ocr": "invention:",
+   "fixed": "invention",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 55,
+   "ocr": "Having’",
+   "fixed": "having",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 55,
+   "ocr": "paraliel",
+   "fixed": "parallel",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 55,
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 56,
+   "ocr": "walls, .",
+   "fixed": "walls.",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 56,
+   "ocr": "j :",
+   "fixed": "is a negative tem-",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 57,
+   "ocr": "meditim, i",
+   "fixed": "medium, which is pumped by an energy source",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 58,
+   "ocr": "disposed. about’",
+   "fixed": "disposed about",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 58,
+   "ocr": "",
+   "fixed": "The side walls are trans-",
+   "basis": "scan (line missing from OCR)"
+  },
+  {
+   "col": 2,
+   "line": 61,
+   "ocr": "other’",
+   "fixed": "other",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 61,
+   "ocr": "thereat,",
+   "fixed": "thereat. Further, an",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 62,
+   "ocr": "optical:",
+   "fixed": "optical",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 65,
+   "ocr": ": :",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 66,
+   "ocr": "principlés",
+   "fixed": "principles",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 66,
+   "ocr": "Present",
+   "fixed": "present",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 67,
+   "ocr": "be:",
+   "fixed": "be",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 67,
+   "ocr": "‘in",
+   "fixed": "in",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 70,
+   "ocr": "output: of.",
+   "fixed": "output of",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 70,
+   "ocr": "”",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 71,
+   "ocr": "; Maser.",
+   "fixed": "maser",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 71,
+   "ocr": "detecting:",
+   "fixed": "detecting",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 71,
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 72,
+   "ocr": "maser,",
+   "fixed": "maser.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 5,
+   "ocr": "for.",
+   "fixed": "for",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 10,
+   "ocr": "feature.",
+   "fixed": "feature",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 11,
+   "ocr": "a. chamber:",
+   "fixed": "a chamber",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 14,
+   "ocr": "disposed.",
+   "fixed": "disposed",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 15,
+   "ocr": "transparent.to",
+   "fixed": "transparent to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 15,
+   "ocr": "and.either",
+   "fixed": "and either",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 21,
+   "ocr": "of:",
+   "fixed": "of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 22,
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 24,
+   "ocr": "lel.",
+   "fixed": "lel",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 31,
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 31,
+   "ocr": "other,",
+   "fixed": "other",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 32,
+   "ocr": "am-~-",
+   "fixed": "am-",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 33,
+   "ocr": "plifier-",
+   "fixed": "plifier",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 34,
+   "ocr": "arrange~",
+   "fixed": "arrange-",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 35,
+   "ocr": "medulating",
+   "fixed": "modulating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 36,
+   "ocr": "type-herein-described",
+   "fixed": "type herein-described",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 37,
+   "ocr": "a-magnetic",
+   "fixed": "a magnetic",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 37,
+   "ocr": "to.",
+   "fixed": "to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 38,
+   "ocr": "the-chamber",
+   "fixed": "the chamber",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 39,
+   "ocr": "of: varying.",
+   "fixed": "of varying",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 40,
+   "ocr": "output.of",
+   "fixed": "output of",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 41,
+   "ocr": "The.",
+   "fixed": "The",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 41,
+   "ocr": "will.",
+   "fixed": "will",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 43,
+   "ocr": "taken:",
+   "fixed": "taken",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 44,
+   "ocr": "which;. .",
+   "fixed": "which:",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 45,
+   "ocr": "1is.a",
+   "fixed": "1 is a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 47,
+   "ocr": "‘",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 50,
+   "ocr": "3. isa",
+   "fixed": "3 is a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 51,
+   "ocr": "ing.",
+   "fixed": "ing",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 52,
+   "ocr": "3. depicts.",
+   "fixed": "3 depicts",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 53,
+   "ocr": "relationship.",
+   "fixed": "relationship",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 54,
+   "ocr": "there-is",
+   "fixed": "there is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 55,
+   "ocr": "tions.",
+   "fixed": "tions",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 58,
+   "ocr": "detector.",
+   "fixed": "detector",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 58,
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 59,
+   "ocr": "_",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 59,
+   "ocr": "generator. 16,",
+   "fixed": "generator 10,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 61,
+   "ocr": "one.",
+   "fixed": "one",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 62,
+   "ocr": "hay-°",
+   "fixed": "hav-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 63,
+   "ocr": "its.",
+   "fixed": "its",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 64,
+   "ocr": "17..",
+   "fixed": "17.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 64,
+   "ocr": "tem-.",
+   "fixed": "tem-",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 69,
+   "ocr": "medium.",
+   "fixed": "medium",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 69,
+   "ocr": "devices:",
+   "fixed": "devices",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 70,
+   "ocr": "herein,",
+   "fixed": "herein.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 72,
+   "ocr": "nibidium",
+   "fixed": "rubidium",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 72,
+   "ocr": "and.some",
+   "fixed": "and some",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 74,
+   "ocr": "used..",
+   "fixed": "used.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 75,
+   "ocr": "potassium maintained. at a temperature In particular,",
+   "fixed": "In particular, potassium maintained at a temperature",
+   "basis": "scan (OCR split the line and misordered its words)"
+  },
+  {
+   "col": 4,
+   "line": 1,
+   "ocr": "¢x-",
+   "fixed": "ex-",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 2,
+   "ocr": "hibits.",
+   "fixed": "hibits",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 2,
+   "ocr": "may.",
+   "fixed": "may",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 6,
+   "ocr": "Bach",
+   "fixed": "Each",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 7,
+   "ocr": "device.",
+   "fixed": "device",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 7,
+   "ocr": "a.com-",
+   "fixed": "a com-",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 10,
+   "ocr": "char=",
+   "fixed": "char-",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 13,
+   "ocr": "16d, typically’",
+   "fixed": "16b, typically",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 14,
+   "ocr": "angstrom.",
+   "fixed": "angstrom",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 18,
+   "ocr": "to.",
+   "fixed": "to",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 19,
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 19,
+   "ocr": "sapphire:",
+   "fixed": "sapphire",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 20,
+   "ocr": "directed.",
+   "fixed": "directed",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 21,
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 21,
+   "ocr": "plates:",
+   "fixed": "plates",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 22,
+   "ocr": "reflections.",
+   "fixed": "reflections",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 23,
+   "ocr": "ia",
+   "fixed": "in",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 24,
+   "ocr": "Tt",
+   "fixed": "It",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 25,
+   "ocr": "each.",
+   "fixed": "each",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 25,
+   "ocr": "member.",
+   "fixed": "member",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 26,
+   "ocr": "thereof:",
+   "fixed": "thereof.",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 27,
+   "ocr": "index: is:",
+   "fixed": "index is",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 29,
+   "ocr": "‘constructive interference:",
+   "fixed": "constructive interference",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 30,
+   "ocr": "polar--",
+   "fixed": "polar-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 31,
+   "ocr": "ization.",
+   "fixed": "ization",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 32,
+   "ocr": "direction: but:",
+   "fixed": "direction but",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 33,
+   "ocr": "having:",
+   "fixed": "having",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 35,
+   "ocr": "to.",
+   "fixed": "to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 35,
+   "ocr": "pumping.",
+   "fixed": "pumping",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 37,
+   "ocr": "allow. the:",
+   "fixed": "allow the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 42,
+   "ocr": "Thiese",
+   "fixed": "These",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 42,
+   "ocr": "coupled:",
+   "fixed": "coupled",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 44,
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 46,
+   "ocr": "invention:",
+   "fixed": "invention",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 48,
+   "ocr": "as:",
+   "fixed": "as",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 49,
+   "ocr": "it.",
+   "fixed": "it",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 50,
+   "ocr": "means. of:",
+   "fixed": "means of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 51,
+   "ocr": "typically:",
+   "fixed": "typically",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 52,
+   "ocr": "approximately”",
+   "fixed": "approximately",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 53,
+   "ocr": "In:",
+   "fixed": "In",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 54,
+   "ocr": "the: opposing:",
+   "fixed": "the opposing",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 55,
+   "ocr": "so.small",
+   "fixed": "so small",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 56,
+   "ocr": "and:",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 57,
+   "ocr": "—",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 58,
+   "ocr": "plurality-",
+   "fixed": "plurality",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 59,
+   "ocr": "2@",
+   "fixed": "20",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 64,
+   "ocr": "supported:",
+   "fixed": "supported",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 67,
+   "ocr": "major:",
+   "fixed": "major",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 69,
+   "ocr": "power-sources",
+   "fixed": "power sources",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 69,
+   "ocr": "directing.",
+   "fixed": "directing",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 69,
+   "ocr": "substantial’",
+   "fixed": "substantial",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 70,
+   "ocr": "toward’",
+   "fixed": "toward",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 71,
+   "ocr": ".me-",
+   "fixed": "me-",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 72,
+   "ocr": "; :",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 73,
+   "ocr": "generator.",
+   "fixed": "generator",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 74,
+   "ocr": "made:",
+   "fixed": "made",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 74,
+   "ocr": "of. the. present.",
+   "fixed": "of the present",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 75,
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 1,
+   "ocr": "the:",
+   "fixed": "the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 2,
+   "ocr": "emitted: by. the: negative:",
+   "fixed": "emitted by the negative",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 2,
+   "ocr": "‘therein,",
+   "fixed": "therein.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 3,
+   "ocr": "*",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 3,
+   "ocr": "in-the",
+   "fixed": "in the",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 3,
+   "ocr": "‘generator",
+   "fixed": "generator",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 3,
+   "ocr": "‘in",
+   "fixed": "in",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 4,
+   "ocr": "is‘based",
+   "fixed": "is based",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 5,
+   "ocr": "froma chamber’",
+   "fixed": "from a chamber",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 5,
+   "ocr": "type: herein-described:",
+   "fixed": "type herein-described",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 6,
+   "ocr": "an’end",
+   "fixed": "an end",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 6,
+   "ocr": "member’",
+   "fixed": "member",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 6,
+   "ocr": "‘is",
+   "fixed": "is",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 7,
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 8,
+   "ocr": "characteristic. direction,",
+   "fixed": "characteristic direction.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 9,
+   "ocr": "",
+   "fixed": "focused by a lens, each point in the focal plane thereof",
+   "basis": "scan (line missing from OCR)"
+  },
+  {
+   "col": 5,
+   "line": 10,
+   "ocr": "",
+   "fixed": "will correspond to a mode of a particular direction,",
+   "basis": "scan (line missing from OCR)"
+  },
+  {
+   "col": 5,
+   "line": 11,
+   "ocr": "",
+   "fixed": "affording thereby a separation of modes. And, if radia-",
+   "basis": "scan (line missing from OCR)"
+  },
+  {
+   "col": 5,
+   "line": 12,
+   "ocr": "",
+   "fixed": "tion falling on a very limited area in the focal plane is",
+   "basis": "scan (line missing from OCR)"
+  },
+  {
+   "col": 5,
+   "line": 13,
+   "ocr": "",
+   "fixed": "detected, that radiation will represent spontaneous and",
+   "basis": "scan + Google Patents (line missing from OCR)"
+  },
+  {
+   "col": 5,
+   "line": 14,
+   "ocr": "a‘selected",
+   "fixed": "a selected",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 15,
+   "ocr": "large’",
+   "fixed": "large",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 16,
+   "ocr": "Produced.",
+   "fixed": "produced",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 16,
+   "ocr": "being’",
+   "fixed": "being",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 17,
+   "ocr": "ated. ‘ eee ‘ ;",
+   "fixed": "lated.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 18,
+   "ocr": "Seite gy ~The principles.",
+   "fixed": "The principles",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 18,
+   "ocr": "utilized:",
+   "fixed": "utilized",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 19,
+   "ocr": "2..",
+   "fixed": "2.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 19,
+   "ocr": "ia",
+   "fixed": "in",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 20,
+   "ocr": "mode:",
+   "fixed": "mode",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 20,
+   "ocr": "‘through",
+   "fixed": "through",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 21,
+   "ocr": "and:",
+   "fixed": "and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 21,
+   "ocr": "by'a",
+   "fixed": "by a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 22,
+   "ocr": "that:",
+   "fixed": "that",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 24,
+   "ocr": "-:A:",
+   "fixed": "A",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 24,
+   "ocr": "Jens:",
+   "fixed": "lens",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 24,
+   "ocr": "-em-",
+   "fixed": "em-",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 25,
+   "ocr": "_Bloyed",
+   "fixed": "ployed",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 25,
+   "ocr": "reconvert:",
+   "fixed": "reconvert",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 27,
+   "ocr": "12,",
+   "fixed": "12.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 28,
+   "ocr": "~The,",
+   "fixed": "The",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 28,
+   "ocr": "sitnilar‘in",
+   "fixed": "similar in",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 29,
+   "ocr": "ture. ‘to ‘the:",
+   "fixed": "ture to the",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 29,
+   "ocr": "desctibed above,",
+   "fixed": "described above.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 30,
+   "ocr": "a:",
+   "fixed": "a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 31,
+   "ocr": ".a-",
+   "fixed": "a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 31,
+   "ocr": "‘shell. 19-",
+   "fixed": "shell 19",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 32,
+   "ocr": "1 v",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 32,
+   "ocr": "‘there",
+   "fixed": "there",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 32,
+   "ocr": "‘dis- -",
+   "fixed": "dis-",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 33,
+   "ocr": "posed:a",
+   "fixed": "posed a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 33,
+   "ocr": "medium: ‘The shell’",
+   "fixed": "medium. The shell",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 34,
+   "ocr": "is. supported: within:",
+   "fixed": "is supported within",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 35,
+   "ocr": "or:supporting",
+   "fixed": "or supporting",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 35,
+   "ocr": "27.: on =",
+   "fixed": "27.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 36,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 37,
+   "ocr": "12:",
+   "fixed": "12",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 37,
+   "ocr": "“in Fig.:",
+   "fixed": "in Fig.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 37,
+   "ocr": "is.",
+   "fixed": "is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 37,
+   "ocr": "30°",
+   "fixed": "30",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 38,
+   "ocr": "illus--",
+   "fixed": "illus-",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 40,
+   "ocr": "médium",
+   "fixed": "medium",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 42,
+   "ocr": "‘a",
+   "fixed": "a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 43,
+   "ocr": "“Energy.",
+   "fixed": "Energy",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 43,
+   "ocr": "through’",
+   "fixed": "through",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 44,
+   "ocr": "left-hand.",
+   "fixed": "left-hand",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 46,
+   "ocr": "parallel]",
+   "fixed": "parallel",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 51,
+   "ocr": "Tesults,",
+   "fixed": "results,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 52,
+   "ocr": "effect,",
+   "fixed": "effect.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 53,
+   "ocr": "3.",
+   "fixed": "3",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 55,
+   "ocr": "12.",
+   "fixed": "12",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 57,
+   "ocr": "an-absorptive",
+   "fixed": "an absorptive",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 58,
+   "ocr": "_",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 59,
+   "ocr": "tube,",
+   "fixed": "tube.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 63,
+   "ocr": "Wave",
+   "fixed": "wave",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 63,
+   "ocr": ". More’",
+   "fixed": "More",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 66,
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 66,
+   "ocr": "reflecting’",
+   "fixed": "reflecting",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 68,
+   "ocr": "Wave,",
+   "fixed": "wave,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 70,
+   "ocr": "‘input ‘and.",
+   "fixed": "input and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 72,
+   "ocr": "it.is",
+   "fixed": "it is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 2,
+   "ocr": "ture-media",
+   "fixed": "ture media",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 2,
+   "ocr": "‘Alternatively,",
+   "fixed": "Alternatively,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 2,
+   "ocr": "*",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 3,
+   "ocr": "maybe",
+   "fixed": "may be",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 3,
+   "ocr": "(i.e.;",
+   "fixed": "(i.e.,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 3,
+   "ocr": "changes.’",
+   "fixed": "changes",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 5,
+   "ocr": "to-an",
+   "fixed": "to an",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 5,
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 6,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 11,
+   "ocr": "thereof, - : .",
+   "fixed": "thereof.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 12,
+   "ocr": ".It",
+   "fixed": "It",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 16,
+   "ocr": "'is:'to",
+   "fixed": "is to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 16,
+   "ocr": "‘that",
+   "fixed": "that",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 17,
+   "ocr": ". Ments",
+   "fixed": "ments",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 17,
+   "ocr": "-are",
+   "fixed": "are",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 17,
+   "ocr": "general:",
+   "fixed": "general",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 18,
+   "ocr": "Principles",
+   "fixed": "principles",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 20,
+   "ocr": "itis",
+   "fixed": "it is",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 21,
+   "ocr": "‘transparent.",
+   "fixed": "transparent",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 23,
+   "ocr": "“suitable",
+   "fixed": "suitable",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 25,
+   "ocr": "easily.",
+   "fixed": "easily",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 25,
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 27,
+   "ocr": "“1.",
+   "fixed": "1.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 28,
+   "ocr": "visible;",
+   "fixed": "visible,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 31,
+   "ocr": "‘source, and-a",
+   "fixed": "source, and a",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 33,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 33,
+   "ocr": ".side",
+   "fixed": "side",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 36,
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 37,
+   "ocr": "‘and",
+   "fixed": "and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 38,
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 39,
+   "ocr": "‘said",
+   "fixed": "said",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 40,
+   "ocr": "and:",
+   "fixed": "and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 41,
+   "ocr": "-an ‘amplified",
+   "fixed": "an amplified",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 42,
+   "ocr": "other‘end",
+   "fixed": "other end",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 42,
+   "ocr": "Said .",
+   "fixed": "said",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 43,
+   "ocr": "meas",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 54,
+   "ocr": "within.",
+   "fixed": "within",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 62,
+   "ocr": "comprising.",
+   "fixed": "comprising",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 69,
+   "ocr": "_Inedium",
+   "fixed": "medium",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 70,
+   "ocr": "energy. levels; means.",
+   "fixed": "energy levels, means",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 73,
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 74,
+   "ocr": "teplica",
+   "fixed": "replica",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 74,
+   "ocr": "detector,",
+   "fixed": "detector.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 1,
+   "ocr": "electromag-'",
+   "fixed": "electromag-",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 2,
+   "ocr": "spectrum.",
+   "fixed": "spectrum",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 3,
+   "ocr": "modu--",
+   "fixed": "modu-",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 4,
+   "ocr": "said amplifier including: lating. source, and a detector;",
+   "fixed": "lating source, and a detector; said amplifier including",
+   "basis": "scan (OCR split the line and misordered its words)"
+  },
+  {
+   "col": 7,
+   "line": 6,
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 7,
+   "ocr": "said-chamber,",
+   "fixed": "said chamber,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 7,
+   "ocr": "coupled:",
+   "fixed": "coupled",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 9,
+   "ocr": "and-",
+   "fixed": "and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 11,
+   "ocr": "the energy radiated thereinto,. modulated counterpart of",
+   "fixed": "modulated counterpart of the energy radiated thereinto,",
+   "basis": "scan (OCR split the line and misordered its words)"
+  },
+  {
+   "col": 7,
+   "line": 13,
+   "ocr": "chamber having end 4, A maser generator comprising a",
+   "fixed": "4. A maser generator comprising a chamber having end",
+   "basis": "scan (OCR split the line and misordered its words)"
+  },
+  {
+   "col": 7,
+   "line": 15,
+   "ocr": "and. temperature medium disposed within said chamber,",
+   "fixed": "temperature medium disposed within said chamber, and",
+   "basis": "scan (OCR split the line and misordered its words)"
+  },
+  {
+   "col": 7,
+   "line": 16,
+   "ocr": "means.",
+   "fixed": "means",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 16,
+   "ocr": "pumping.",
+   "fixed": "pumping",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 17,
+   "ocr": "miedium,",
+   "fixed": "medium,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 18,
+   "ocr": "ing.energy",
+   "fixed": "ing energy",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 19,
+   "ocr": "radiated.",
+   "fixed": "radiated",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 20,
+   "ocr": "operation. in: the.",
+   "fixed": "operation in the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 22,
+   "ocr": "length. which:",
+   "fixed": "length which",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 24,
+   "ocr": "members.",
+   "fixed": "members",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 25,
+   "ocr": "medium.",
+   "fixed": "medium",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 29,
+   "ocr": "population. inversion.",
+   "fixed": "population inversion",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 29,
+   "ocr": "produced.",
+   "fixed": "produced",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 31,
+   "ocr": "directing. at.",
+   "fixed": "directing at",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 34,
+   "ocr": "mode”",
+   "fixed": "mode",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 35,
+   "ocr": "includes.an",
+   "fixed": "includes an",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 37,
+   "ocr": "said.",
+   "fixed": "said",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 37,
+   "ocr": "and:",
+   "fixed": "and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 40,
+   "ocr": "47.",
+   "fixed": "7.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 40,
+   "ocr": "wherein. said.",
+   "fixed": "wherein said",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 41,
+   "ocr": "medium.",
+   "fixed": "medium",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 42,
+   "ocr": "of:",
+   "fixed": "of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 2,
+   "ocr": "parallel:",
+   "fixed": "parallel",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 5,
+   "ocr": "to the pumping en- ; said side members being transparent",
+   "fixed": "said side members being transparent to the pumping en-",
+   "basis": "scan (OCR split the line and misordered its words)"
+  },
+  {
+   "col": 8,
+   "line": 6,
+   "ocr": "energy.",
+   "fixed": "energy",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 7,
+   "ocr": "said:",
+   "fixed": "said",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 16,
+   "ocr": "said-chamber",
+   "fixed": "said chamber",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 17,
+   "ocr": "sepa-.",
+   "fixed": "sepa-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 18,
+   "ocr": "inthe",
+   "fixed": "in the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 19,
+   "ocr": "pro-\"",
+   "fixed": "pro-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 20,
+   "ocr": "said:",
+   "fixed": "said",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 22,
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 23,
+   "ocr": "; . , .",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 24,
+   "ocr": "nega~",
+   "fixed": "nega-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 26,
+   "ocr": "pumping.",
+   "fixed": "pumping",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 34,
+   "ocr": "~",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 35,
+   "ocr": "end.",
+   "fixed": "end",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 35,
+   "ocr": "counter -",
+   "fixed": "counter-",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 36,
+   "ocr": "other. end:",
+   "fixed": "other end",
+   "basis": "scan"
+  }
+ ]
+}

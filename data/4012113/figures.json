@@ -1,0 +1,1165 @@
+{
+ "pn": "4012113",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    415,
+    355,
+    2097,
+    1421
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    397,
+    1449,
+    2085,
+    2478
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    846,
+    2460,
+    1801,
+    3187
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    421,
+    734,
+    2028,
+    1539
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    411,
+    1850,
+    2013,
+    2601
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    426,
+    339,
+    2137,
+    1399
+   ],
+   "rotate": 0,
+   "front_page": true
+  },
+  {
+   "id": "7",
+   "label": "FIG. 7",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    427,
+    1453,
+    2128,
+    2490
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8",
+   "label": "FIG. 8",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    745,
+    2462,
+    1633,
+    3189
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9",
+   "label": "FIG. 9",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    365,
+    333,
+    2052,
+    1362
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10",
+   "label": "FIG. 10",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    357,
+    1366,
+    2046,
+    2341
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11",
+   "label": "FIG. 11",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    382,
+    2338,
+    1990,
+    3208
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12",
+   "label": "FIG. 12",
+   "sheet": 5,
+   "page": 5,
+   "crop": [
+    401,
+    406,
+    2099,
+    1712
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "13",
+   "label": "FIG. 13",
+   "sheet": 5,
+   "page": 5,
+   "crop": [
+    476,
+    1706,
+    1796,
+    3099
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "1",
+   "name": "",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "2",
+   "name": "",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "3",
+   "name": "",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "4",
+   "name": "",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "5",
+   "name": "",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "6",
+   "name": "",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "7",
+   "name": "",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "8",
+   "name": "",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "9",
+   "name": "",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "sources",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "sources",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "corresponding utilization apparatuses",
+   "figs": [
+    "1",
+    "2"
+   ],
+   "alt": [
+    "apparatuses"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "corresponding utilization apparatuses",
+   "figs": [
+    "1",
+    "2"
+   ],
+   "alt": [
+    "apparatuses"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "optical strip guides",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "strip guides",
+    "guides"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "optical strip guides",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "strip guides",
+    "guides"
+   ]
+  },
+  {
+   "ref": "17",
+   "name": "device",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "directional coupler"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "portions",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "strip guides",
+    "parallel strip guides",
+    "guides"
+   ]
+  },
+  {
+   "ref": "19",
+   "name": "portions",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "strip guides",
+    "parallel strip guides",
+    "guides"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "driving electrodes",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "electrodes"
+   ]
+  },
+  {
+   "ref": "21",
+   "name": "driving electrodes",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "electrodes"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "lithium niobate substrate",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "substrate"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "switching signal source",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "respective terminals",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "25",
+   "name": "respective terminals",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "15'",
+   "name": "",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "16'",
+   "name": "",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "20'",
+   "name": "electrode strips",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "21'",
+   "name": "electrode strips",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "22'",
+   "name": "",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "23'",
+   "name": "switching signal source",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "source"
+   ]
+  },
+  {
+   "ref": "31",
+   "name": "curves",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "curve"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "curves",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "substrate",
+    "curve"
+   ]
+  },
+  {
+   "ref": "37",
+   "name": "switched directional coupler",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "device"
+   ]
+  },
+  {
+   "ref": "38",
+   "name": "parallel portions",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "guide portions"
+   ]
+  },
+  {
+   "ref": "39",
+   "name": "parallel portions",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "guide portions"
+   ]
+  },
+  {
+   "ref": "40",
+   "name": "electrode structure",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "center electrode"
+   ]
+  },
+  {
+   "ref": "41",
+   "name": "similar sources",
+   "figs": [
+    "6",
+    "7",
+    "9",
+    "10"
+   ]
+  },
+  {
+   "ref": "42",
+   "name": "similar sources",
+   "figs": [
+    "6",
+    "7",
+    "9",
+    "10"
+   ]
+  },
+  {
+   "ref": "43",
+   "name": "apparatuses",
+   "figs": [
+    "6",
+    "7",
+    "9",
+    "10"
+   ]
+  },
+  {
+   "ref": "44",
+   "name": "apparatuses",
+   "figs": [
+    "6",
+    "7",
+    "9",
+    "10"
+   ]
+  },
+  {
+   "ref": "45",
+   "name": "guides",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "46",
+   "name": "guides",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "47",
+   "name": "device",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "48",
+   "name": "parallel portions",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "49",
+   "name": "parallel portions",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "50",
+   "name": "electrodes",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "51",
+   "name": "electrodes",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "52",
+   "name": "similar substrate",
+   "figs": [
+    "6"
+   ],
+   "alt": [
+    "substrate"
+   ]
+  },
+  {
+   "ref": "53",
+   "name": "electrodes",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "54",
+   "name": "electrodes",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "55",
+   "name": "switching signal sources",
+   "figs": [
+    "6"
+   ],
+   "alt": [
+    "sources"
+   ]
+  },
+  {
+   "ref": "56",
+   "name": "switching signal sources",
+   "figs": [
+    "6"
+   ],
+   "alt": [
+    "sources"
+   ]
+  },
+  {
+   "ref": "55'",
+   "name": "switching signal sources",
+   "figs": [
+    "7",
+    "9",
+    "10"
+   ]
+  },
+  {
+   "ref": "56'",
+   "name": "switching signal sources",
+   "figs": [
+    "7",
+    "9",
+    "10"
+   ]
+  },
+  {
+   "ref": "67",
+   "name": "switched directional coupler",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "68",
+   "name": "parallel portions",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "69",
+   "name": "parallel portions",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "71",
+   "name": "curves",
+   "figs": [
+    "8"
+   ],
+   "alt": [
+    "curve"
+   ]
+  },
+  {
+   "ref": "72",
+   "name": "curves",
+   "figs": [
+    "8"
+   ],
+   "alt": [
+    "curve"
+   ]
+  },
+  {
+   "ref": "80",
+   "name": "sequentially split electrodes",
+   "figs": [
+    "7"
+   ],
+   "alt": [
+    "electrodes"
+   ]
+  },
+  {
+   "ref": "81",
+   "name": "sequentially split electrodes",
+   "figs": [
+    "7"
+   ],
+   "alt": [
+    "electrodes"
+   ]
+  },
+  {
+   "ref": "82",
+   "name": "",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "83",
+   "name": "sequentially split electrodes",
+   "figs": [
+    "7"
+   ],
+   "alt": [
+    "electrodes"
+   ]
+  },
+  {
+   "ref": "84",
+   "name": "sequentially split electrodes",
+   "figs": [
+    "7"
+   ],
+   "alt": [
+    "electrodes"
+   ]
+  },
+  {
+   "ref": "90",
+   "name": "center electrode",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "98",
+   "name": "section",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "99",
+   "name": "section",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "100",
+   "name": "",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "101",
+   "name": "electrode",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "103",
+   "name": "",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "104",
+   "name": "electrode",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "107",
+   "name": "switched directional coupler",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "108",
+   "name": "strip guide",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "109",
+   "name": "",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "110",
+   "name": "",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "111",
+   "name": "electrode",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "113",
+   "name": "",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "114",
+   "name": "electrode",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "117",
+   "name": "switched directional coupler",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "120",
+   "name": "switches",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "121",
+   "name": "switches",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "122",
+   "name": "switches",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "123",
+   "name": "switches",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "124",
+   "name": "switches",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "125",
+   "name": "switches",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "126",
+   "name": "switches",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "127",
+   "name": "switches",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "128",
+   "name": "switches",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "129",
+   "name": "switches",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "131",
+   "name": "first appearances of station 1 through n",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "132",
+   "name": "first appearances of station 1 through n",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "133",
+   "name": "first appearances of station 1 through n",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "134",
+   "name": "",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "135",
+   "name": "",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "136",
+   "name": "",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "137",
+   "name": "second appearances of the same stations",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "138",
+   "name": "second appearances of the same stations",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "139",
+   "name": "second appearances of the same stations",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "140",
+   "name": "",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "141",
+   "name": "sources",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "142",
+   "name": "sources",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "143",
+   "name": "utilization apparatuses",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "144",
+   "name": "utilization apparatuses",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "145",
+   "name": "strip guides",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "146",
+   "name": "strip guides",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "147",
+   "name": "switchable directional coupling device",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "148",
+   "name": "parallel portions",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "149",
+   "name": "parallel portions",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "150",
+   "name": "electrodes",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "151",
+   "name": "electrodes",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "152",
+   "name": "substrate",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "153",
+   "name": "electrodes",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "154",
+   "name": "electrodes",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "155",
+   "name": "sources",
+   "figs": [
+    "12"
+   ],
+   "alt": [
+    "switching signal sources"
+   ]
+  },
+  {
+   "ref": "156",
+   "name": "sources",
+   "figs": [
+    "12"
+   ],
+   "alt": [
+    "switching signal sources"
+   ]
+  },
+  {
+   "ref": "157",
+   "name": "electrodes",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "158",
+   "name": "electrodes",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "159",
+   "name": "",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "160",
+   "name": "",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "161",
+   "name": "sources",
+   "figs": [
+    "12"
+   ],
+   "alt": [
+    "switching signal sources"
+   ]
+  },
+  {
+   "ref": "162",
+   "name": "curves",
+   "figs": [
+    "13"
+   ],
+   "alt": [
+    "curve"
+   ]
+  },
+  {
+   "ref": "163",
+   "name": "curves",
+   "figs": [
+    "13"
+   ]
+  }
+ ]
+}

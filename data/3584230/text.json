@@ -1,0 +1,1546 @@
+{
+ "pn": "3584230",
+ "number": "3,584,230",
+ "title": "LIGHT WAVE COUPLING INTO THIN FILMS",
+ "inventors": [
+  "Ping K. Tien"
+ ],
+ "assignee": "Bell Telephone Laboratories, Incorporated, Murray Hill, N.J.",
+ "filed": "1969-01-24",
+ "issued": "1971-06-08",
+ "appl_no": "793,696",
+ "int_cl": "H03f 7/00",
+ "us_cl": "307/88.3, 250/199, 307/312, 321/69, 330/4.3, 330/4.5, 330/53, 330/56, 331/94.5, 331/107, 332/7.51, 333/6, 333/9, 333/10, 333/21, 333/73, 333/83, 333/95, 333/98, 350/96, 350/168",
+ "refs_patents": [
+  {
+   "no": "3,420,596",
+   "date": "1/1969",
+   "name": "Osterberg",
+   "cl": "350/96"
+  }
+ ],
+ "refs_other": [],
+ "examiners": "Primary Examiner--Roy Lake; Assistant Examiner--Darwin R. Hostetter; Attorneys--R. J. Guenther and Arthur J. Torsiglieri",
+ "claims_count": 17,
+ "drawing_figures": 9,
+ "abstract": "Coupling of light waves through a major surface of a thin film for propagation therein is achieved by means of a distributed action of the evanescent field of a light wave in an internal-reflection prism disposed so close to the film that internal reflection is partially frustrated. Phase-matching of the evanescent wave and the wave propagating in the thin film is obtained by directing the input light beam at the proper angle within the prism toward the internal reflection surface and by providing appropriate indices of refraction of the components. Light-utilizing integrated circuits, including dielectric waveguides, modulators, parametric devices and amplifiers are provided with input and output coupling in this fashion. Systems employing directional coupling and channel dropping and adding are also disclosed.",
+ "sections": [
+  {
+   "heading": "BACKGROUND OF THE INVENTION",
+   "paras": [
+    {
+     "col": 1,
+     "line": 4,
+     "text": "This invention relates to the apparatuses and methods for coupling light waves into and out of thin films."
+    },
+    {
+     "col": 1,
+     "line": 6,
+     "text": "It has previously been recognized that it is highly desirable to be able easily to couple light waves into and out of thin films, since nearly all communication, information transfer and data processing functions could then be performed with great facility in such thin films. For example, efficient transmission of modulated light waves with negligible mode conversion could be accomplished in such thin films, since the thin film thickness is comparable to the light wavelength. One form of such a light waveguide is disclosed in the copending patent application of E. A. J. Marcatili, Ser. No. 730,192, filed May 17, 1968, and assigned to the assignee hereof."
+    },
+    {
+     "col": 1,
+     "line": 18,
+     "text": "In addition, parametric amplification and frequency-shifting or laser amplification could be readily provided and would be highly useful in proposed optical communication systems. Also, data processing systems employing logic or storage or both could readily employ optical techniques to a greater extent than at present if propagation in thin films could be easily utilized."
+    },
+    {
+     "col": 1,
+     "line": 25,
+     "text": "Nevertheless, coupling light waves into and out of thin films has been objectionably difficult because of the typical necessity of coupling the light wave through the edge of the film, particularly if extended propagation of the light wave in the film is desired. It is difficult to feed light waves through the edge of the film. First, the edge of the film is difficult to control in the evaporation or sputtering process. Even in single crystal PN junctions, excessive scattering caused by the end of the junctions has handicapped experiments. Second, the thin films useful for guiding are of the order of 1 micron or less in thickness. It is usually not practical to focus the input light beam to have lateral dimensions of this magnitude in order to direct the input beam through the edge of the film."
+    },
+    {
+     "col": 1,
+     "line": 38,
+     "text": "Accordingly, it is desirable to have a technique for coupling a light beam into a thin film without transmitting it through the edge of the film."
+    }
+   ]
+  },
+  {
+   "heading": "SUMMARY OF THE INVENTION",
+   "paras": [
+    {
+     "col": 1,
+     "line": 44,
+     "text": "I have discovered that a light wave may be advantageously coupled into a thin film through a major surface of the film. The surface of the film can easily be formed with a desired smoothness or even polished. According to my invention, a light wave is coupled into a thin film by means of a distributed action of the evanescent field of a light wave propagating in an internal-reflection prism disposed so close to the film that internal reflection is partially frustrated. The angle of incidence of the light wave upon the internal-reflection surface of the prism is selected and the indices of refraction of the prism, the intervening gap and the thin film are chosen to provide phase-matching between the evanescent field and the light wave which it is desired to propagate in the thin film. It has been found that substantially more than 50 percent of the input light wave may be coupled into the thin film by this technique."
+    },
+    {
+     "col": 1,
+     "line": 59,
+     "text": "It is one aspect of this invention that the phase-matching provides directional coupling properties which have many uses, for example, in channel dropping and adding. It also provides an additional useful property of frequency selectivity since phase-matching at a particular frequency depends on the use of a corresponding angle of incidence on the prism internal-reflection surface. This property is also useful in channel dropping and adding."
+    },
+    {
+     "col": 1,
+     "line": 67,
+     "text": "According to one specific feature of the invention, the thin film is decoupled from the internal-reflection prism at a point at which the distributed action of the evanescent field of the light wave in the prism has ceased. Illustrative techniques for achieving the decoupling include removal of a portion of the planar internal-reflection surface of the prism or the introduction of appropriate bends in the thin film to increase the spacing between the decoupled portion of the film and the prism. In the latter arrangement, the prism may be used for structural support of the thin film and the intervening dielectric gap material throughout the extent of the thin film."
+    },
+    {
+     "col": 2,
+     "line": 3,
+     "text": "Further features and advantages of the invention reside in its application in light-utilizing thin-film integrated circuits, in light-wave modulation, optical parametric devices and in information and data processing circuits."
+    }
+   ]
+  },
+  {
+   "heading": "BRIEF DESCRIPTION OF THE DRAWING",
+   "paras": [
+    {
+     "col": 2,
+     "line": 10,
+     "text": "A more complete understanding of the invention will be obtained from the following detailed description, taken together with the drawing:"
+    },
+    {
+     "col": 2,
+     "line": 13,
+     "text": "FIG. 1 is a partially pictorial and partially block diagrammatic illustration of a basic embodiment of the invention;"
+    },
+    {
+     "col": 2,
+     "line": 15,
+     "text": "FIG. 2 is a partially pictorial and partially block diagrammatic illustration of another basic embodiment of the invention providing modified decoupling;"
+    },
+    {
+     "col": 2,
+     "line": 18,
+     "text": "FIG. 3 shows a vector diagram which will be useful in explaining the phase-matching principles of my invention;"
+    },
+    {
+     "col": 2,
+     "line": 20,
+     "text": "FIG. 4 is a partially pictorial and partially block diagrammatic illustration of an embodiment of the invention in which its inherent directional coupling properties are used to advantage;"
+    },
+    {
+     "col": 2,
+     "line": 24,
+     "text": "FIG. 5 is a partially pictorial and partially block diagrammatic illustration of a light-modulating embodiment of the invention;"
+    },
+    {
+     "col": 2,
+     "line": 27,
+     "text": "FIG. 6 is a partially pictorial and partially block diagrammatic illustration of a communication system in which the invention is employed for channel dropping and adding;"
+    },
+    {
+     "col": 2,
+     "line": 30,
+     "text": "FIG. 7 is a partially pictorial and partially block diagrammatic illustration of one form of a parametric amplifier employing the invention;"
+    },
+    {
+     "col": 2,
+     "line": 33,
+     "text": "FIG. 8 is a partially pictorial and partially schematic illustration of one form of a parametric oscillator according to the invention; and"
+    },
+    {
+     "col": 2,
+     "line": 36,
+     "text": "FIG. 9 is a partially pictorial and partially block diagrammatic illustration of a PN junction optical guiding apparatus employing the invention."
+    }
+   ]
+  },
+  {
+   "heading": "DESCRIPTION OF ILLUSTRATIVE EMBODIMENTS",
+   "paras": [
+    {
+     "col": 2,
+     "line": 42,
+     "text": "In the illustrative embodiment of FIG. 1 coherent light from a laser 11 is to be propagated into a light-utilizing thin-film integrated circuit 12, which illustratively has a thickness comparable to the wavelength of the light from laser 11. As mentioned above, the light-utilizing thin-film integrated circuit 12 may involve any of the processing functions typical in communication or data processing systems such as modulation, frequency-shifting, amplification, filtering, detection, switching and logic."
+    },
+    {
+     "col": 2,
+     "line": 51,
+     "text": "The thin-film integrated circuit 12 is a continuation of the thin-film light guide 13; and both films 12 and 13 are disposed on a substrate 14, which has an index of refraction less than that of the thin films 12 and 13. An internal-reflection prism 16 is disposed near to the film 13 and is separated therefrom by a gap 17, which is small enough so that the evanescent field of a light wave incident upon the internal-reflection surface 18 of prism 16 extends across the gap 17 into the thin-film guide 13. For this purpose, the width of the gap is preferably less than a half-wavelength of the laser light, where the wavelength is the wavelength in the material of the gap. In FIG. 1 the gap index n_{1}, is assumed to be one, that of vacuum. The prism 16 is preferably selected to have an index of refraction n_{3}>n_{2}, the index of refraction of thin film 13, and should always be larger than the largest one of n_{1} and n_{4}, where n_{4} is the refractive index of the substrate 14."
+    },
+    {
+     "col": 2,
+     "line": 68,
+     "text": "The coherent light from laser 11 is collimated into a broad beam by lens 19; and that beam is refracted at the surface 20 of prism 16 according to Snell's law. The refracted beam is incident upon surface 18 at an angle θ_{1}. The angle θ_{1} is selected to satisfy the phase-matching condition explained in more detail hereafter; and it is clear that the selection of the angle θ_{1} determines the orientation of the common optical axis of laser 11 and lens 19. The region of distributed action of the evanescent field of the light wave extends throughout the area of surface 18, which is illuminated by the beam. As the wave induced in the thin-film guide 13 propagates to the right beyond the region of interaction, its own evanescent field would tend to feed energy back into prism 16, if prism 16 were not decoupled from the film. Therefore, the prism 16 is cut so that its surface 21 beyond the region of illumination by the light beam is canted away from thin-film integrated circuit 12, which is a continuation of the thin-film guide 13. This slight cant or tilt of the surface 21 effectively decouples the prism 16 from the thin film throughout the nonilluminated region of the prism 16. Therefore, the light wave induced in the thin-film guide 13 undergoes multiple reflections inside the thin film as it propagates to the right, first in the interaction region encompassing guide 13, and thereafter in thin-film circuit 12 as it propagates farther to the right. The multiple internal reflections within the film determine the propagation velocity of the wave in the thin film in known manner according to principles analogous to those applicable to a microwave waveguide."
+    },
+    {
+     "col": 3,
+     "line": 21,
+     "text": "While more than 50 percent of the light from laser 11 can be coupled into the thin films 13 and 12, the remaining portion suffers internal reflection at surface 18 of prism 16 and propagates through the surface 22 of prism 16. Since this radiation is otherwise lost energy, it can be received and measured by equipment 23 appropriate for monitoring the coupling process; or it can simply be absorbed or directed out of the environment of the device. The apparatus may be said to have a loss port at the point of the exit of the residual light beam through surface 22."
+    },
+    {
+     "col": 3,
+     "line": 31,
+     "text": "The operation of the embodiment of FIG. 1 may be more fully understood from a consideration of the vector diagram shown in FIG. 3. The frustration of internal reflection at surface 18 of prism 16 is a tunneling process of the light waves. To accomplish this, the thin-film guide 13 is positioned less than a wavelength from the surface 18 of prism 16. Second, the angle θ_{1} and the various indices of refraction of the prism guide 13 and the intervening gap are related in a way that provides phase-matching. It can be shown that the evanescent field extended from the bottom surface of the prism can be expressed in the form:"
+    },
+    {
+     "col": 3,
+     "line": 43,
+     "text": "A_{1}e^{−iωtiβxp_{1}z}. (1)"
+    },
+    {
+     "col": 3,
+     "line": 45,
+     "text": "Here ω is the angular frequency of the laser beam,"
+    },
+    {
+     "col": 3,
+     "line": 46,
+     "text": "β=kn_{3}cosθ_{1} (2)"
+    },
+    {
+     "col": 3,
+     "line": 47,
+     "text": "and"
+    },
+    {
+     "col": 3,
+     "line": 48,
+     "text": "p_{1}^{2}=(kn_{1})^{2}−β^{2}, (3)"
+    },
+    {
+     "col": 3,
+     "line": 49,
+     "text": "where n_{3}, n_{2} and n_{1} are the refractive indices of the prism, the film and the space between the prism and the film respectively. Here we have taken that n_{3}>n_{2}>n_{1}. The quantity k is ω/c and c is the velocity of light in vacuum. We notice that p measures the rate of decay of the evanescent field from the bottom surface of the prism and β is the propagation constant of the fields in the x direction. The phase-match condition is then that the phase constant β must be equal to that of the propagating mode in the film in order the fields to be coupled."
+    },
+    {
+     "col": 3,
+     "line": 59,
+     "text": "In FIG. 3 the propagation constant β_{3} of the light wave in the prism and its component in the direction of the light wave in the film are shown. That is, the vector 31 is oriented in the direction of the light wave incident upon internal-reflection surface 18 of prism 16 and has a magnitude n_{3}ω/c, where c is the velocity of light. Its component in the horizontal direction, or alternatively the propagation constant β_{2} of the light wave propagating in the thin-film guide 13, is represented by the vector 32, which is oriented in the horizontal direction pointing to the right and has a magnitude of |β_{3}| cos θ_{1}. Since it also represents the propagation constant β_{2}, its magnitude is dependent upon the mode propagating in the film. It is computed from the thickness of the film and the refractive indices of the various media. Usually, there are many modes for a given film. Each has a different value of β_{2}. Generally, β_{2} will be in the range between n_{4}ω/c and n_{2}ω/c, if n_{4} is larger than n_{1}, as is usually the case. If n_{4}<n_{1}, then the range of β_{2} is from n_{1}ω/Ac to n_{2}ω/c. From this diagram it is now apparent why the index of refraction of the prism 16 must be greater than the minimum values specified above. Equating formulas for evaluating the horizontal components of the propagation constants and considering the above relationships, we obtain:"
+    },
+    {
+     "col": 4,
+     "line": 6,
+     "text": "n_{3}ωcosθ_{1}>n_{4}ω, (4)"
+    },
+    {
+     "col": 4,
+     "line": 7,
+     "text": "for n_{4}>n_{1}. Since cosθ_{1} must always be less than 1, n_{3} must be correspondingly greater than n_{4} in order to maintain the inequality which expresses the phase-matching condition."
+    },
+    {
+     "col": 4,
+     "line": 10,
+     "text": "We see immediately that my invention provides a means to excite different propagating modes in the thin film by choosing different angles θ_{1} for the incident beam."
+    },
+    {
+     "col": 4,
+     "line": 14,
+     "text": "As an example, let prism 16 be a rutile prism (Titanium dioxide, Ti0_{2}) and let thin films 12 and 13 be zinc sulfide (ZnS) films on a glass substrate 14. Illustratively, laser 11 is a conventional helium-neon laser operating at 6328 A., n_{3} (for the extraordinary ray) is 2.901, n_{2} is 2.35, n_{1} is 1.00 and n_{4} (the index of the substrate 14) is 1.50. The width of the gap is illustratively 1330 A. For this illustrative example, I employ a thickness of thin films 12 and 13 which is 1522 A.; and propagation constant β_{2} of the fundamental transverse magnetic (TM) mode in such a film is 0.75 ωn_{2}/c. In order to excite this mode, the required angle θ_{1} for the beam incident on surface 18 is 52°30′ for the incident beam to enter and leave the prism surfaces 20 and 22, respectively, with a Brewster angle 70°98′ from the surface normal; and the prism angle α should be 18°30′."
+    },
+    {
+     "col": 4,
+     "line": 29,
+     "text": "With respect to the theoretical aspects of the invention, it should be noted that the compete analysis must take account of the fact that the amplitude of the incident beam does not vary along the length of the interaction region. It is interesting to note that our analysis shows that, when the phase-matching condition is satisfied, the fields along the length of the interaction region do not vary according to a cosine or sine function as in the character of the coupled transmission lines with waves traveling in the same direction. Instead, they vary exponentially. Our analysis shows that there is an optimum length of the interaction region for maximum efficiency. It is convenient to define a dimensionless quantity s related to this length such that:"
+    },
+    {
+     "col": 4,
+     "line": 44,
+     "text": "s=r^{2}/(8W_{2} cot θ_{2}) x (5)"
+    },
+    {
+     "col": 4,
+     "line": 46,
+     "text": "where θ_{2} is the angle with respect to the horizontal formed by the path which the light beam would follow if it were diffracted directly into the medium of the thin film 13, r depends on the gap width 2d between the prism 16 and the film 13 according to the relationship:"
+    },
+    {
+     "col": 4,
+     "line": 52,
+     "text": "r^{2}=1/(cosh^{2} 2p_{1}d) sin 2Φ_{2} sin 2Φ_{1} (6)"
+    },
+    {
+     "col": 4,
+     "line": 54,
+     "text": "where cosh is the hyperbolic cosine, and W_{2} in (5) is one-half of the film thickness, and:"
+    },
+    {
+     "col": 4,
+     "line": 58,
+     "text": "tan Φ_{2}=(n_{2}/n_{1})^{2} P_{1}/b_{2} (7)"
+    },
+    {
+     "col": 4,
+     "line": 61,
+     "text": "tan Φ_{3}=(n_{3}/n_{1})^{2} P_{1}/b_{1} (8)"
+    },
+    {
+     "col": 4,
+     "line": 64,
+     "text": "P_{1}^{2}=β_{2}^{2}−((ω/c)n_{1})^{2} (9)"
+    },
+    {
+     "col": 4,
+     "line": 67,
+     "text": "b_{2}^{2}=((ω/c)n_{2})^{2}−β_{2}^{2} (10)"
+    },
+    {
+     "col": 4,
+     "line": 70,
+     "text": "b_{3}^{2}=((ω/c)n_{2})^{2}−β_{2}^{2} (11)"
+    },
+    {
+     "col": 4,
+     "line": 73,
+     "text": "The quantity x in equation (5) is the horizontal displacement of the point of interest from the left-hand-most point of the interaction region."
+    },
+    {
+     "col": 5,
+     "line": 1,
+     "text": "Now if we limit the length of the interaction region so that the maximum is x=L, or so that the largest s is s_{L}, then the ratio of the total power carried by the film to that carried by the entire incident beam is a fractional efficiency expressible as:"
+    },
+    {
+     "col": 5,
+     "line": 6,
+     "text": "Efficiency=(2/s_{L})(1−e^{−s_{L}})^{2} (12)"
+    },
+    {
+     "col": 5,
+     "line": 8,
+     "text": "My analysis shows that the maximum efficiency is 81 percent, and it occurs at s_{L}=1.25. This corresponds to a length of 0.173 mm. for the interaction region of the apparatus of FIG. 1 and r^{2}=H0.01. It may be noted that 0.173 mm. is equal to 1135 times the thickness of the film; therefore, it is quite clear that the interaction is truly a distributed interaction."
+    },
+    {
+     "col": 5,
+     "line": 14,
+     "text": "As mentioned previously, the surface 21 of prism 16 is cut so that it is canted away from the light-utilizing thin-film integrated circuit 12 to prevent the lightwave in the film from tunneling back into the prism 16. Another method to retain the power in the film is shown in the modified embodiment of FIG. 2. In FIG. 2 prism 46 is illuminated by a laser and associated collimating apparatus 41 as in the embodiment of FIG. 1. In this case the prism 46 provides structural support for the thin-film guide 43, 43′ and the light-utilizing integrated circuit 42 by virtue of the fact that the gap there between is filled with a dielectric material of index of refraction n_{1}, which will naturally be somewhat greater than unity. The thin films 43, 42 and 43′, illustratively zinc oxide (ZnO), are then deposited by conventional techniques over the dielectric gap material 47, illustratively thorium oxide fluoride (Th0F_{2}). The most noteworthy characteristic of this embodiment is that the thickness of the gap material 47 is maintained at the desired spacing, for example 1125 A., for n_{1}=1.4, throughout the intended interaction region with the broad light beam from sources 41. Thereafter, it is substantially thickened by a factor of several times to provide a correspondingly greater spacing between a light-utilizing integrated circuit 42 and surface 48 of prism 46. Such a variation in thickness can be achieved by known thin-film deposition techniques, such as evaporation or sputtering with the air of masking of the thinner areas."
+    },
+    {
+     "col": 5,
+     "line": 40,
+     "text": "Let us assume that the light-utilizing integrated circuit has modulators, frequency-shifters within itself or that it otherwise performs operations upon the light wave propagating therein. After these operations are complete, it is desired to couple out as much of the modified light wave as possible for utilization apparatus 53. Alternatively, if all desired functions are completed within the thin film, some arrangement symbolically designated a loss port must be provided for preventing reflections from thin film 43′ back into light-utilizing circuit 42. As in FIG. 1, the efficiency of the coupling process can be measured by monitoring the reflected beam from surface 48, which propagates toward the monitoring equipment 53′. Alternatively, the apparatus 53′ can also be symbolically termed a loss port."
+    },
+    {
+     "col": 5,
+     "line": 55,
+     "text": "The operation of the embodiment of FIG. 2 is, in respect to the input coupling of the light, substantially similar to that of FIG. 1. The output coupling from thin-film light guide 43′ toward apparatus 53 can be mathematically described in analogous manner to the input light coupling with the difference that no reflection occurs in the pertinent interaction region; and the energy transfer is from the film to the prism 46. It will be noted that from the surface 48 of prism 46 there propagates a broad beam similar in lateral dimensions to the input light beam, and, assuming no frequency shift of the beam, it propagates at the same angle θ_{1} to the horizontal."
+    },
+    {
+     "col": 5,
+     "line": 66,
+     "text": "It should be emphasized that the reflected light power and other extracted light power is not necessarily lost. For example, an optical resonator can be constructed by placing reflectors normal to the incident and reflected beams as shown in the embodiment of FIG. 4. This embodiment differs from the embodiment of FIG. 1 in that one reflector 53 of the laser 51 is disposed to intercept the light beam reflected from surface 18 of prism 16. The remainder of the laser including the reflector 52, tube 54 and the collimating lends 55 is disposed in appropriate position to provide the desired input beam to prism 16. It should be clear that in this case it is desirable to adjust the efficiency of the coupling so that it is only about as great as the tolerable single-pass loss of the particular laser employed. Thus, laser oscillation can be sustained."
+    },
+    {
+     "col": 6,
+     "line": 5,
+     "text": "Another interesting feature of the embodiment of FIG. 4 resides in its directional coupling properties. Since the coherent light is propagating in both directions in prism 16, induced waves will be caused to propagate both to the left in thin-film light guide 13 and to the right in guide 13 from the interaction region in the vicinity of internal-reflection surface 18 of prism 16. Both of these waves can be separately processed and can be separately coupled out for utilization in different utilization apparatuses. In each case the wave coupled out will have a component of its propagation vector in the direction of propagation of the light wave in the thin film; and the phase-matching conditions set out before will be satisfied in each case."
+    },
+    {
+     "col": 6,
+     "line": 18,
+     "text": "In the illustrative embodiment of FIG. 4 the output coupling is provided by prisms 66 and 67, both illustratively similar to but smaller than, prism 16 and spaced at like distances from thin-film guide 13. No internal reflection need be provided for, and, thus, no problem of decoupling arises. Surfaces 68 and 69 may be entirely flat. Although no processing of light waves propagating in light guide 13 is shown in FIG. 4, it should be understood that in modified embodiments employing frequency-shifting that the two output waves could be provided with different frequencies and would propagate at different angles with respect to the coupling surfaces 68 and 69 of prisms 66 and 67, respectively."
+    },
+    {
+     "col": 6,
+     "line": 31,
+     "text": "The embodiment of FIG. 4 may be particularly useful in cases in which it is desired to split a coherent light beam into two parts of equal intensity or power. Likewise, a fixed ratio of intensity could be provided."
+    },
+    {
+     "col": 6,
+     "line": 35,
+     "text": "One of the functions that could be provided in thin-film integrated circuits such as 12 and 42 is that of modulation of the coherent light with a signal from a modulating signal source. An example of such a system is shown in FIG. 5. The laser 51 is like that of FIG. 4 and includes the input coupling prism 16. The induced light wave I_{2}″ propagating to the left in the film 63 is illustratively absorbed or utilized in some apparatus not of interest here. The light wave I_{2}′ propagating to the right in film 63 is modulated in a modulator 65 including a portion 66 of film 63, which is provided with specially modified properties for the purpose of modulation, the electrodes 67 and 68 and the modulating signal source 69, which is connected between the electrodes 67 and 68. Illustratively, the thin film 63 is a gallium arsenide thin film deposited on a sapphire substrate 64. The gallium arsenide in the region 66 of thin film 63 is compensated so that its impurity is very low, of the order of 10^{7} per cubic centimeter concentration, to provide a loss-free medium for the microwave modulation signal."
+    },
+    {
+     "col": 6,
+     "line": 54,
+     "text": "Illustratively, polarization modulation of known type is provided. The crystalline axes of the gallium arsenide are oriented so that its 1,1,1 crystalline axis is normal to the planes of the electrodes 67 and 68 and parallel to the polarizations of the light and microwave fields in the film. The preferred wavelength of the coherent light is illustratively 10.6 microns and is readily provided by a CO_{2} vibrational-rotational transition laser 51 of type now well known in the laser art. The polarization-modulated 10.6 microns coherent light is coupled out of film 63 by a coupling prism 76, which is illustratively identical to prism 16, except that the length of the coupling surface 78 may be made sufficiently short to avoid the need of a canted surface beyond the interaction region. The broad modulated light beam coupled out through surface 79 of prism 76 is received by a utilization apparatus 80 which may be the detector at a remote receiving station. The latter use is particularly feasible if the separation between the modulator 65 and prism 79 is substantial. In the case of separations of the modulator 65 and prism 79 by many miles, parametric amplification and frequency shifting of the propagating line may be provided. Typically, such amplification and frequency-shifting devices, including the needed coupling prisms and pump-beam sources, could be associated with the thin film by gradual changes in the composition thereof. Such gradual changes will avoid the scattering inherent in the interface between the edges of different types of thin films. An example of suitable parametric amplification will be discussed hereinafter in connection with FIG. 7, with the modification that the signal beam is already propagating in the thin film."
+    },
+    {
+     "col": 7,
+     "line": 8,
+     "text": "Because of the dispersions of both the prism and the thin film in apparatuses according to my invention, a propagating mode in the thin film has a value of β, its propagation constant, which is dependent on its frequency. Different modes of differing frequency will have different propagation constants and, thus, require different angles of injection, θ_{1}, at the coupling surface of the coupling prism. Accordingly, we have a basis for multiple channel operation employing my invention."
+    },
+    {
+     "col": 7,
+     "line": 17,
+     "text": "An example of multiple channel communication is provided in the embodiment of FIG. 6. Signals from different channels having different center frequencies, for example, signals from the different channel transmitters 91, 92 and 93, are fed into the multifaceted coupling prism 86 at different angles so that after refraction they are incident upon the coupling surface 88 at angles which provide phase-matching with the corresponding propagating waves in the thin film 83. Here again, loss ports 94, 95 and 96 receive the reflected portions of the light beams originally emitted from transmitters 91, 92 and 93, respectively, and are shown symbolically. The dielectric gap material 87 and the material of the thin-film guide 83 may be the same as those of their counterparts in FIGS. 1 or 2; and decoupling beyond the interaction region is provided by an increased thickness of the dielectric gap material 87."
+    },
+    {
+     "col": 7,
+     "line": 33,
+     "text": "A principal difference from the preceding embodiments is provided by the shape of the coupling prism 86. It is provided with a separate face or facet for each of the input and output beams, such that the various angular requirements are most readily satisfied. For example, by appropriate selection of the orientation of each face it is possible to have each beam incident upon that face at Brewster's angle while still satisfying the phase-matching conditions at the coupling surface 88. After coupling into the thin film 83, the various modulated light beams of the respective communication channels propagate through the same waveguide, which is formed by thin film 83."
+    },
+    {
+     "col": 7,
+     "line": 45,
+     "text": "At some point farther down the guide it is desired to separate one or all of the modulated light beams to provide that each will reach its respective receiver for that communication channel. Illustratively, it is assumed for the sake of simplicity that all of the channels are separated at a common region in the vicinity of the coupling surface 98 of coupling prism 97. Here the thickness of the dielectric gap material 87 is again reduced to a fraction of a wavelength, so that the evanescent fields of the light waves extend into prism 97. Three distinct light beams will thereupon propagate upward to the right of prism 97 in a precise direction determined by the phase-matching conditions. In other words, the phase-matched wave in each case will automatically be the wave that propagates in prism 97. Each of the coupled beams propagating in prism 97 is incident upon a separate face or facet provided therefor and will undergo refraction at that face in a direction toward the respective channel receiver 99, 100 or 101."
+    },
+    {
+     "col": 7,
+     "line": 64,
+     "text": "It should also be understood that with adequate frequency spacing of the various channels, the modulated light beams carrying the signals of the respective channels can be separated from the thin film guide 83 at different points. It is merely necessary that the frequency separation be great enough that the evanescent field of only one of the light beams extends into the coupling prism strongly enough to induce a substantial propagating wave therein."
+    },
+    {
+     "col": 7,
+     "line": 72,
+     "text": "Alternatively, for smaller frequency spacings, at each channel dropping point one channel only may be removed from the guide by first separating all of the channels in a prism such as 97 and then reinjecting all but one of them into a similar coupling prism that reinduces them into the guide. Suitable amplification can be provided for the latter channels."
+    },
+    {
+     "col": 8,
+     "line": 3,
+     "text": "As another alternative, special prisms may be used such that only one of the channel light beams is permitted to escape from the coupling prism; the others are directly coupled back into the film."
+    },
+    {
+     "col": 8,
+     "line": 7,
+     "text": "My invention is particularly advantageous for nonlinear optical applications such as second harmonic generation and parametric oscillators and amplifiers. In this regard it should be recalled that, not total power, but the power density (or the field intensity), is important in a nonlinear optical application. It can be shown that the power density of the light beam induced in the thin film by my method is 4/r^{2} times larger than that of the incident beam. For example, for r=0.1, the power density is 400 times larger than that of the incident beam. Moreover, well defined modes in the thin film increase the coherence lengths of the interaction."
+    },
+    {
+     "col": 8,
+     "line": 19,
+     "text": "Moreover, it should be noted that phase-matching among signal, idler and pump waves in the thin film are readily obtained in semiconductor thin films; and in addition, the phase-matching conditions are considerably relaxed because of the ease of selection of appropriate propagating modes that can be made available in the thin films."
+    },
+    {
+     "col": 8,
+     "line": 25,
+     "text": "An example of a parametric amplifier employing the present invention is shown in FIG. 7. A pump-beam source 110 and a signal-beam source 111 direct their outputs upon different facets of a coupling prism 106 similar to prism 86 of FIG. 6. Since the pump and the signal have different values of propagation constant, they may be coupled into and out of the thin-film guide 103 by appropriate angles of incidence upon the coupling surface 108 of prism 106. Prism 106 is then designed to provide incidence of the pump beam at Brewster's angle upon the respective faces of incidence."
+    },
+    {
+     "col": 8,
+     "line": 35,
+     "text": "Particularly noteworthy in the embodiment of FIG. 7 is the fact that nonlinear optical material can be used throughout the thin-film guide 103 or only in the decoupled section 102 where the dielectric-gap material 107 has required a relatively large thickness. In the latter case, the transition may be abrupt, if some other interface can be provided, or may be accomplished by a gradual change in the composition of the material of thin film 103."
+    },
+    {
+     "col": 8,
+     "line": 43,
+     "text": "After amplification is complete, the thickness of dielectric-gap material 107 is reduced, and coupling occurs from a section 103′ of the thin film through the coupling surface 118 of a coupling prism 116, which is similar to prism 106 except for an additional output facet for the generated idler wave. It is necessary to remove the idler wave at this point in order to prevent spurious reflections of the idler wave and consequent downgrading of the parametric amplification. The amplified signal wave is received by a receiver 120, and any remaining pump wave is removed at the pump loss port 121."
+    },
+    {
+     "col": 8,
+     "line": 53,
+     "text": "Another advantageous application of my invention is that optional resonators can easily be built for all three of the pump, signal and idler waves in a parametric oscillator, since they enter the input prism, e.g., prism 126 in FIG. 8, and leave the output prism, e.g., prism 136 in FIG. 8, in different directions. These prisms, in the parametric oscillator embodiment of FIG. 8, are similar to the coupling prism of FIG. 1. Although miltiple-phased prisms of the type shown in preceding embodiments are not shown here, since they are not essential, they could also be used in order to provide incidence of each of the waves at Brewster's angle at each entrance or exit surface."
+    },
+    {
+     "col": 8,
+     "line": 66,
+     "text": "The thin film 123 in the parametric oscillator embodiment of FIG. 8 is entirely of a nonlinear optical medium such as LiNb0_{3} for a pumping laser operating at 1.06μ, and the dielectric-gap material could be Th0F_{2}. The substrate 125 could be glass. The thickness of thin-film 123 is illustratively 4000 A., and the materials of prisms 126 and 136 are illustratively rutile (Ti0_{2}). The pump-beam source is provided by the pump laser 131, including the symbolic laser tube 132 and the end reflectors 133 and 134, the latter being disposed to intercept the pump output beam from output coupling prism 136. Similarly, in the signal optical resonator, one reflector 141 is disposed in the vicinity of prism 126; and the other reflector 142 is disposed in the vicinity of prism 136, each to intercept the signal wave which propagates into and out of the respective prisms in a distinct angle with respect to the horizontal with respect to the phase-matching conditions. Similarly, the idler resonator is formed by reflectors 143 and 144."
+    },
+    {
+     "col": 9,
+     "line": 8,
+     "text": "Because of their compatibility with developing integrated circuit techniques, it appears that PN junction laser amplifiers may be quite significant in future optical communication systems. My invention makes such junction laser amplifiers much more readily usable in optical communication systems, as illustrated by the embodiment of FIG. 9."
+    },
+    {
+     "col": 9,
+     "line": 14,
+     "text": "In the embodiment of FIG. 9 part of the top N-type layer 151 of a PN junction semiconductor laser is illustratively polished or etched away, and output coupling prisms 156 and 157 are inserted over the remaining thickness 152 and 152′ of N-type material, which serves as the dielectric gap of an arrangement according to my invention. The PN junction itself serves as the thin-film wave guide analogous to the guide 13 of FIG. 1. Structural support is provided by the P-type material 155 on the other side of the PN junction."
+    },
+    {
+     "col": 9,
+     "line": 23,
+     "text": "The operation of the embodiment of FIG. 9 may be characterized as follows. With a suitable source of bias 160 connected between N-region 151 and P-region 155, a condition is established such that the threshold of oscillation would nearly be obtained in the absence of an input light beam coupled through prism 156. It is well known that if the input signal light wave coupled through a PN junction laser is very large, that oscillation is effectively suppressed because the threshold of oscillation is correspondingly increased. Then the semiconductor junction laser operates as an efficient light amplifier. Therefore, the dimensions of prism 156, gap 152 and the junction 153 are selected with respect to the modulated light beam from the source 161 to provide strong coupling of the modulated light wave, e.g., more than 50 percent into the junction 153. Amplification then occurs in junction 153, and the amplified beam is extracted through coupling prism 157 and received in receiver 162. As an illustrative specific example, the center frequency of the beam from source 161 is assumed to be 8000 A., and the PN junction 153 is the junction of a gallium arsenide laser."
+    },
+    {
+     "col": 9,
+     "line": 43,
+     "text": "It should also be noted that the invention has useful scientific application. For example, by measuring the direction of the reflected ray from the input coupling prism, one can determine the refractive index of the thin film of the guide. This technique is more accurate than the conventional measuring technique which involves measuring the maximum and minimum intensities of an interference pattern. Thus, future investigations of optical materials and their properties which are pertinent to optical communication devices should proceed much more rapidly with the aid of my invention."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 2,
+   "line": 13,
+   "text": "FIG. 1 is a partially pictorial and partially block diagrammatic illustration of a basic embodiment of the invention;"
+  },
+  {
+   "fig": "2",
+   "col": 2,
+   "line": 15,
+   "text": "FIG. 2 is a partially pictorial and partially block diagrammatic illustration of another basic embodiment of the invention providing modified decoupling;"
+  },
+  {
+   "fig": "3",
+   "col": 2,
+   "line": 18,
+   "text": "FIG. 3 shows a vector diagram which will be useful in explaining the phase-matching principles of my invention;"
+  },
+  {
+   "fig": "4",
+   "col": 2,
+   "line": 20,
+   "text": "FIG. 4 is a partially pictorial and partially block diagrammatic illustration of an embodiment of the invention in which its inherent directional coupling properties are used to advantage;"
+  },
+  {
+   "fig": "5",
+   "col": 2,
+   "line": 24,
+   "text": "FIG. 5 is a partially pictorial and partially block diagrammatic illustration of a light-modulating embodiment of the invention;"
+  },
+  {
+   "fig": "6",
+   "col": 2,
+   "line": 27,
+   "text": "FIG. 6 is a partially pictorial and partially block diagrammatic illustration of a communication system in which the invention is employed for channel dropping and adding;"
+  },
+  {
+   "fig": "7",
+   "col": 2,
+   "line": 30,
+   "text": "FIG. 7 is a partially pictorial and partially block diagrammatic illustration of one form of a parametric amplifier employing the invention;"
+  },
+  {
+   "fig": "8",
+   "col": 2,
+   "line": 33,
+   "text": "FIG. 8 is a partially pictorial and partially schematic illustration of one form of a parametric oscillator according to the invention; and"
+  },
+  {
+   "fig": "9",
+   "col": 2,
+   "line": 36,
+   "text": "FIG. 9 is a partially pictorial and partially block diagrammatic illustration of a PN junction optical guiding apparatus employing the invention."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 9,
+   "line": 54,
+   "depends": null,
+   "text": "1. A light-wave coupling arrangement comprising a body of substantially lossless optical material, said body having two major plane parallel surfaces and an index of refraction n_{2}, a prism of substantially lossless optical material having an index of refraction n_{3}, said prism being adapted for internal reflection of light therein and being disposed with a first surface parallel to said major surfaces of said body and separated therefrom by a gap of index n_{1}, to partially frustrate internal reflection said environment adjacent the major surface remote from the gap having an index n_{4}, n_{3} being larger than the largest one of n_{4} and n_{1}, said arrangement being oriented to receive a coherent input light beam at an angle providing phase-matched coupling of said beam to a wave propagating in said body transverse to the direction of said beam."
+  },
+  {
+   "n": 2,
+   "col": 10,
+   "line": 2,
+   "depends": 1,
+   "text": "2. An apparatus according to claim 1 including means for extracting from the body a portion of the light wave propagating therein."
+  },
+  {
+   "n": 3,
+   "col": 10,
+   "line": 5,
+   "depends": 1,
+   "text": "3. An apparatus according to claim 1 including means within the body for utilizing the light wave propagating therein."
+  },
+  {
+   "n": 4,
+   "col": 10,
+   "line": 8,
+   "depends": 1,
+   "text": "4. Apparatus according to claim 1 including a source of the input coherent light beam, said source including an optical resonator having at least one reflector disposed to intercept light that has passed through the prism."
+  },
+  {
+   "n": 5,
+   "col": 10,
+   "line": 12,
+   "depends": 4,
+   "text": "5. Apparatus according to claim 4 including two output coupling prisms disposed to couple out of the body light waves propagating in different directions therein."
+  },
+  {
+   "n": 6,
+   "col": 10,
+   "line": 15,
+   "depends": 1,
+   "text": "6. Apparatus according to claim 1 in which the prism and the body are mutually decoupled beyond the region of frustrated internal reflection in a direction in which light propagates in the body."
+  },
+  {
+   "n": 7,
+   "col": 10,
+   "line": 19,
+   "depends": 6,
+   "text": "7. Apparatus according to claim 6 in which the prism and the body are mutually decoupled in that said prism and said body are mutually shaped to increase the spacing therebetween beyond the region of frustrated internal reflection in a direction in which light propagates in the body."
+  },
+  {
+   "n": 8,
+   "col": 10,
+   "line": 24,
+   "depends": 7,
+   "text": "8. Apparatus according to claim 7 in which the prism is cut to have a second surface forming an obtuse angle with the first surface parallel to the major surfaces of the body, said second surface being disposed beyond said first surface in a direction in which light propagates in the body."
+  },
+  {
+   "n": 9,
+   "col": 10,
+   "line": 29,
+   "depends": 7,
+   "text": "9. Apparatus according to claim 7 in which the body is bent away from the prism beyond the region of frustrated internal reflection in a direction in which light propagates in the body."
+  },
+  {
+   "n": 10,
+   "col": 10,
+   "line": 32,
+   "depends": 1,
+   "text": "10. Apparatus according to claim 1 in which the body is associated with means for modulating light propagating therein."
+  },
+  {
+   "n": 11,
+   "col": 10,
+   "line": 34,
+   "depends": 1,
+   "text": "11. Apparatus according to claim 1 including a substantially lossless optical medium separating said prism and said body and having an index of refraction n_{1} less than both n_{3} and n_{2}."
+  },
+  {
+   "n": 12,
+   "col": 10,
+   "line": 37,
+   "depends": 1,
+   "text": "12. Apparatus according to claim 1 in which the prism is adapted to receive differing coherent light beams at differing angles providing phase-matched coupling of all of them to different waves propagating in the body."
+  },
+  {
+   "n": 13,
+   "col": 10,
+   "line": 41,
+   "depends": 12,
+   "text": "13. Apparatus according to claim 12 including a second prism adapted for coupling out of the body at differing angles portions of a plurality of different waves propagating therein."
+  },
+  {
+   "n": 14,
+   "col": 10,
+   "line": 44,
+   "depends": 13,
+   "text": "14. Apparatus according to claim 13 in which both of the prisms have multiple faces through different ones of which the different beams and waves are coupled."
+  },
+  {
+   "n": 15,
+   "col": 10,
+   "line": 47,
+   "depends": 13,
+   "text": "15. Apparatus according to claim 13 including a plurality of communication channel transmitters adapted for directing modulated light beams on respective faces of the first prism, and including a respective plurality of communication channel receivers adapted for receiving modulated light beams from respective faces of the second prism."
+  },
+  {
+   "n": 16,
+   "col": 10,
+   "line": 53,
+   "depends": 13,
+   "text": "16. Apparatus according to claim 13 including a pump beam source and a signal beam source adapted for directing a pump light beam and a modulated signal light beam on respective faces of the first prism, and including a receiver for an amplified signal or idler light beam adapted to receive a modulated signal or idler light beam from one of the faces of the second prism, the body including optically nonlinear material adapted for transferring power from the pump beam into other beams called the amplified signal and idler beams."
+  },
+  {
+   "n": 17,
+   "col": 10,
+   "line": 62,
+   "depends": 1,
+   "text": "17. Apparatus according to claim 1 in which the body is a semiconductive junction region, said apparatus including differing types of semiconductive material forming said junction region."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "page": 0,
+   "cite": "abstract",
+   "ocr": "ofa thin film",
+   "fixed": "of a thin film",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 0,
+   "cite": "abstract",
+   "ocr": "components,",
+   "fixed": "components.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 0,
+   "cite": "front page [51]",
+   "ocr": "HO3£ 7/00",
+   "fixed": "H03f 7/00",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 17,
+   "ocr": "7,",
+   "fixed": "17,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 34,
+   "ocr": "in.",
+   "fixed": "in",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 75,
+   "ocr": "in",
+   "fixed": "In",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 5,
+   "ocr": "in.",
+   "fixed": "in",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 20,
+   "ocr": "FIG,",
+   "fixed": "FIG.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 22,
+   "ocr": "ad- ‘ vantage,",
+   "fixed": "advantage;",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 36,
+   "ocr": "is.a",
+   "fixed": "is a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 63,
+   "ocr": "n,,",
+   "fixed": "n_{1},",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 2,
+   "line": 64,
+   "ocr": "n,>nz,",
+   "fixed": "n_{3}>n_{2},",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 2,
+   "line": 66,
+   "ocr": "n,",
+   "fixed": "n_{1}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 2,
+   "line": 66,
+   "ocr": "n,,",
+   "fixed": "n_{4},",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 2,
+   "line": 66,
+   "ocr": "n,",
+   "fixed": "n_{4}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 2,
+   "line": 71,
+   "ocr": "0,.",
+   "fixed": "θ_{1}.",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 2,
+   "line": 71,
+   "ocr": "@,",
+   "fixed": "θ_{1}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 2,
+   "line": 73,
+   "ocr": "6,",
+   "fixed": "θ_{1}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 2,
+   "ocr": "1s",
+   "fixed": "is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 37,
+   "ocr": "6,",
+   "fixed": "θ_{1}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 43,
+   "ocr": "Ajemivtibznis,",
+   "fixed": "A_{1}e^{−iωtiβxp_{1}z}.",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 45,
+   "ocr": "w",
+   "fixed": "ω",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 46,
+   "ocr": "B=kn,cos0,",
+   "fixed": "β=kn_{3}cosθ_{1}",
+   "basis": "scan (equation)"
+  },
+  {
+   "col": 3,
+   "line": 48,
+   "ocr": "",
+   "fixed": "p_{1}^{2}=(kn_{1})^{2}−β^{2}, (3)",
+   "basis": "scan (equation)"
+  },
+  {
+   "col": 3,
+   "line": 49,
+   "ocr": "nz, ng",
+   "fixed": "n_{3}, n_{2}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 49,
+   "ocr": "n,",
+   "fixed": "n_{1}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 51,
+   "ocr": "23>7n.>n,.",
+   "fixed": "n_{3}>n_{2}>n_{1}.",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 51,
+   "ocr": "w/c",
+   "fixed": "ω/c",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 55,
+   "ocr": "£",
+   "fixed": "β",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 57,
+   "ocr": "B",
+   "fixed": "β",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 59,
+   "ocr": "£,",
+   "fixed": "β_{3}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 63,
+   "ocr": "myw/c,",
+   "fixed": "n_{3}ω/c,",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 65,
+   "ocr": "A,",
+   "fixed": "β_{2}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 68,
+   "ocr": "| 8;|",
+   "fixed": "|β_{3}|",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 68,
+   "ocr": "6.",
+   "fixed": "θ_{1}.",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 69,
+   "ocr": "fs,",
+   "fixed": "β_{2},",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 73,
+   "ocr": "B,.",
+   "fixed": "β_{2}.",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 73,
+   "ocr": "8,",
+   "fixed": "β_{2}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 74,
+   "ocr": "n,w/c",
+   "fixed": "n_{4}ω/c",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 74,
+   "ocr": "now/c,",
+   "fixed": "n_{2}ω/c,",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 74,
+   "ocr": "n,",
+   "fixed": "n_{4}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 74,
+   "ocr": "n,,",
+   "fixed": "n_{1},",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 75,
+   "ocr": "ng<”,,",
+   "fixed": "n_{4}<n_{1},",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 3,
+   "line": 75,
+   "ocr": "£,",
+   "fixed": "β_{2}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 1,
+   "ocr": "n,w/Ac",
+   "fixed": "n_{1}ω/Ac",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 1,
+   "ocr": "nw/c.",
+   "fixed": "n_{2}ω/c.",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 6,
+   "ocr": "NzWCOsé, > nw,",
+   "fixed": "n_{3}ωcosθ_{1}>n_{4}ω,",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 7,
+   "ocr": "n,>n,.",
+   "fixed": "n_{4}>n_{1}.",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 7,
+   "ocr": "cos@,",
+   "fixed": "cosθ_{1}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 7,
+   "ocr": "m3;",
+   "fixed": "n_{3}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 8,
+   "ocr": "n,",
+   "fixed": "n_{4}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 12,
+   "ocr": "0,",
+   "fixed": "θ_{1}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 14,
+   "ocr": "Ti0,)",
+   "fixed": "Ti0_{2})",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 17,
+   "ocr": "ng",
+   "fixed": "n_{3}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 18,
+   "ocr": "nz",
+   "fixed": "n_{2}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 18,
+   "ocr": "n,",
+   "fixed": "n_{1}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 18,
+   "ocr": "n,",
+   "fixed": "n_{4}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 22,
+   "ocr": "8,",
+   "fixed": "β_{2}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 23,
+   "ocr": "wn./c.",
+   "fixed": "ωn_{2}/c.",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 24,
+   "ocr": "0,",
+   "fixed": "θ_{1}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 25,
+   "ocr": "52°30’",
+   "fixed": "52°30′",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 27,
+   "ocr": "70°98’",
+   "fixed": "70°98′",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 28,
+   "ocr": "a",
+   "fixed": "α",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 28,
+   "ocr": "18°30’.",
+   "fixed": "18°30′.",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 43,
+   "ocr": "72 = 8W 2",
+   "fixed": "s=r^{2}/(8W_{2}",
+   "basis": "scan (equation)"
+  },
+  {
+   "col": 4,
+   "line": 44,
+   "ocr": "Os”",
+   "fixed": "θ_{2}) x",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 46,
+   "ocr": "6,",
+   "fixed": "θ_{2}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 52,
+   "ocr": "1 reas",
+   "fixed": "r^{2}=1/(cosh^{2} 2p_{1}d)",
+   "basis": "scan (equation)"
+  },
+  {
+   "col": 4,
+   "line": 52,
+   "ocr": "24",
+   "fixed": "2Φ_{2}",
+   "basis": "scan (equation)"
+  },
+  {
+   "col": 4,
+   "line": 52,
+   "ocr": "24, cosh? 2p;d",
+   "fixed": "2Φ_{1}",
+   "basis": "scan (equation)"
+  },
+  {
+   "col": 4,
+   "line": 54,
+   "ocr": "W,",
+   "fixed": "W_{2}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 4,
+   "line": 58,
+   "ocr": "2 Pi",
+   "fixed": "",
+   "basis": "scan (equation)"
+  },
+  {
+   "col": 4,
+   "line": 58,
+   "ocr": "d= (2 ye",
+   "fixed": "Φ_{2}=(n_{2}/n_{1})^{2} P_{1}/b_{2}",
+   "basis": "scan (equation)"
+  },
+  {
+   "col": 4,
+   "line": 61,
+   "ocr": "Pi",
+   "fixed": "",
+   "basis": "scan (equation)"
+  },
+  {
+   "col": 4,
+   "line": 61,
+   "ocr": "a—(2 a",
+   "fixed": "Φ_{3}=(n_{3}/n_{1})^{2} P_{1}/b_{1}",
+   "basis": "scan (equation)"
+  },
+  {
+   "col": 4,
+   "line": 64,
+   "ocr": "Pemse—(2u)",
+   "fixed": "P_{1}^{2}=β_{2}^{2}−((ω/c)n_{1})^{2}",
+   "basis": "scan (equation)"
+  },
+  {
+   "col": 4,
+   "line": 67,
+   "ocr": "bo? = om) — Be",
+   "fixed": "b_{2}^{2}=((ω/c)n_{2})^{2}−β_{2}^{2}",
+   "basis": "scan (equation)"
+  },
+  {
+   "col": 4,
+   "line": 70,
+   "ocr": "",
+   "fixed": "b_{3}^{2}=((ω/c)n_{2})^{2}−β_{2}^{2} (11)",
+   "basis": "scan (equation)"
+  },
+  {
+   "col": 5,
+   "line": 2,
+   "ocr": "sis s,,",
+   "fixed": "s is s_{L},",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 5,
+   "line": 6,
+   "ocr": "Efficiency == (1—ens)2",
+   "fixed": "Efficiency=(2/s_{L})(1−e^{−s_{L}})^{2}",
+   "basis": "scan (equation)"
+  },
+  {
+   "col": 5,
+   "line": 9,
+   "ocr": "s,=1.25.",
+   "fixed": "s_{L}=1.25.",
+   "basis": "scan (equation)"
+  },
+  {
+   "col": 5,
+   "line": 11,
+   "ocr": "rP°=HO0.01.",
+   "fixed": "r^{2}=H0.01.",
+   "basis": "scan (equation)"
+  },
+  {
+   "col": 5,
+   "line": 23,
+   "ocr": "43’",
+   "fixed": "43′",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 5,
+   "line": 25,
+   "ocr": "n,,",
+   "fixed": "n_{1},",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 5,
+   "line": 27,
+   "ocr": "43’,",
+   "fixed": "43′,",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 5,
+   "line": 29,
+   "ocr": "(ThOF,).",
+   "fixed": "(Th0F_{2}).",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 5,
+   "line": 32,
+   "ocr": "n =1.4,",
+   "fixed": "n_{1}=1.4,",
+   "basis": "scan (equation)"
+  },
+  {
+   "col": 5,
+   "line": 45,
+   "ocr": "§3.",
+   "fixed": "53.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 49,
+   "ocr": "43’",
+   "fixed": "43′",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 5,
+   "line": 52,
+   "ocr": "53’.",
+   "fixed": "53′.",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 5,
+   "line": 53,
+   "ocr": "53’",
+   "fixed": "53′",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 5,
+   "line": 57,
+   "ocr": "43’",
+   "fixed": "43′",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 5,
+   "line": 65,
+   "ocr": "6,.to",
+   "fixed": "θ_{1} to",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 5,
+   "line": 68,
+   "ocr": "reftectors",
+   "fixed": "reflectors",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 74,
+   "ocr": "§2,",
+   "fixed": "52,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 12,
+   "ocr": "coupled.",
+   "fixed": "coupled",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 17,
+   "ocr": "- .",
+   "fixed": "",
+   "basis": "scan (speck or gutter number read into text)"
+  },
+  {
+   "col": 6,
+   "line": 20,
+   "ocr": "to.",
+   "fixed": "to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 21,
+   "ocr": "from.",
+   "fixed": "from",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 30,
+   "ocr": "39",
+   "fixed": "",
+   "basis": "scan (speck or gutter number read into text)"
+  },
+  {
+   "col": 6,
+   "line": 30,
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan (speck or gutter number read into text)"
+  },
+  {
+   "col": 6,
+   "line": 38,
+   "ocr": "a'system",
+   "fixed": "a system",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 40,
+   "ocr": "I[,’’",
+   "fixed": "I_{2}″",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 6,
+   "line": 42,
+   "ocr": "I,'",
+   "fixed": "I_{2}′",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 6,
+   "line": 51,
+   "ocr": "107",
+   "fixed": "10^{7}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 6,
+   "line": 60,
+   "ocr": "69",
+   "fixed": "",
+   "basis": "scan (speck or gutter number read into text)"
+  },
+  {
+   "col": 6,
+   "line": 60,
+   "ocr": "CO,",
+   "fixed": "CO_{2}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 6,
+   "line": 61,
+   "ocr": "type:",
+   "fixed": "type",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 10,
+   "ocr": "8,",
+   "fixed": "β,",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 7,
+   "line": 13,
+   "ocr": "6,,",
+   "fixed": "θ_{1},",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 8,
+   "line": 13,
+   "ocr": "4/r?",
+   "fixed": "4/r^{2}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 8,
+   "line": 25,
+   "ocr": "’",
+   "fixed": "",
+   "basis": "scan (speck or gutter number read into text)"
+  },
+  {
+   "col": 8,
+   "line": 45,
+   "ocr": "103’",
+   "fixed": "103′",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 8,
+   "line": 45,
+   "ocr": "ofa",
+   "fixed": "of a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 68,
+   "ocr": "LiNb@,",
+   "fixed": "LiNb0_{3}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 8,
+   "line": 68,
+   "ocr": "1.06y,",
+   "fixed": "1.06μ,",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 8,
+   "line": 69,
+   "ocr": "ThOF,.",
+   "fixed": "Th0F_{2}.",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 8,
+   "line": 72,
+   "ocr": "(Ti8,).",
+   "fixed": "(Ti0_{2}).",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 9,
+   "line": 1,
+   "ocr": "optical!",
+   "fixed": "optical",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 17,
+   "ocr": "152\"",
+   "fixed": "152′",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 9,
+   "line": 56,
+   "ocr": ",,",
+   "fixed": "n_{2},",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 9,
+   "line": 57,
+   "ocr": "_",
+   "fixed": "",
+   "basis": "scan (speck or gutter number read into text)"
+  },
+  {
+   "col": 9,
+   "line": 58,
+   "ocr": "ns,",
+   "fixed": "n_{3},",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 9,
+   "line": 61,
+   "ocr": "n,,",
+   "fixed": "n_{1},",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 9,
+   "line": 63,
+   "ocr": "n,, n;",
+   "fixed": "n_{4}, n_{3}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 9,
+   "line": 64,
+   "ocr": "n,",
+   "fixed": "n_{4}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 9,
+   "line": 64,
+   "ocr": "nj,",
+   "fixed": "n_{1},",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 10,
+   "line": 8,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (speck or gutter number read into text)"
+  },
+  {
+   "col": 10,
+   "line": 8,
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan (speck or gutter number read into text)"
+  },
+  {
+   "col": 10,
+   "line": 36,
+   "ocr": "n,",
+   "fixed": "n_{1}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 10,
+   "line": 36,
+   "ocr": "ng",
+   "fixed": "n_{3}",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 10,
+   "line": 36,
+   "ocr": "nz,",
+   "fixed": "n_{2}.",
+   "basis": "scan (symbols, subscripts)"
+  },
+  {
+   "col": 10,
+   "line": 40,
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan (speck or gutter number read into text)"
+  },
+  {
+   "col": 10,
+   "line": 56,
+   "ocr": "amPlified",
+   "fixed": "amplified",
+   "basis": "scan + Google Patents"
+  }
+ ]
+}

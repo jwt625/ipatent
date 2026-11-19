@@ -1,0 +1,80 @@
+{
+  "patent": "Filed 1962-05-22 and issued 1964-01-14 to Gerhard M. Sessler and James E. West, assignors to Bell Telephone Laboratories. It is the patent generally cited for their foil-electret transducer, the basis of the electret condenser microphone. An ordinary condenser transducer needs an external DC polarizing voltage across its gap; here thin polymer films are permanently polarized by heating them in a strong field and cooling them with the field still applied, so the transducer carries its own bias. The embodiment is a push-pull earphone: a diaphragm of four Mylar (polyester) films, the two inner ones metallized on their facing sides, held between two perforated brass plates driven in antiphase. With the electret supplying E_{dc}, the force goes as (E_{dc}+E_{ac})^2 - (E_{dc}-E_{ac})^2 = 4 E_{dc} E_{ac} (equation 1), linear in the signal. By reciprocity the same unit works as a microphone, as the text notes. The authors reported the self-biased approach in G. M. Sessler and J. E. West, \"Self-Biased Condenser Microphone with High Capacitance\", J. Acoust. Soc. Am. 34, 1787 (1962). Electret condenser microphones later became the most widely produced type of microphone, generally with fluorocarbon (Teflon) films, which hold charge better than the polyester used here. Sessler and West were inducted into the National Inventors Hall of Fame in 1999.",
+  "figs": {
+    "1": "Exploded view with the rear at the top and the front (ear side) at the bottom. From the top: retainer ring 28; clamp ring 11 carrying insulating ring 23 and terminals 22 and 24, cut away to show perforated plate 15, retainer ring 25 and rubber ring 20; diaphragm 10 with its tail 27; clamp ring 12, cut away to show plate 16, retainer ring 26, rubber ring 21 and adjustment ring 18. The grid pattern on the plates stands for their perforations. Protrusion 13 on ring 11 seats in groove 14 on ring 12, gripping and tensioning the diaphragm edge. The unnumbered cup at the bottom sits where outer case 19 sits in FIG. 2.",
+    "2": "Assembled section, front at the bottom where the case flange is. Diagonal hatching is metal; heavy black bars are the drafting symbol for plastic and other insulators, as in case 19. The thin layered band at the centre is diaphragm 10, clamped at its rim between rings 11 and 12 at protrusion 13 and groove 14, with plates 15 above and 16 below. The slashed circles 20 and 21 are the rubber rings: they push retainer rings 25 and 26, and with them the plates, toward the diaphragm, while adjustment rings 17 and 18, threaded into the clamp rings, set the separation of the retainer rings and hence of the plates. Tail 27 runs up the outside of ring 11 to the terminals at the top.",
+    "3": "Enlarged section through the plates and diaphragm, gaps exaggerated. Plates 15 and 16 are cut through rows of aligned holes, shown as open vertical channels with centre lines. Brace 10 groups the four films: outer 105, inner 101 and 102, outer 106. The heavier lines at 103 and 104, on the facing surfaces of 101 and 102, are the conductive coatings that form the diaphragm electrode. The white gaps between the films and next to the plates stand for the thin air layers the text says are trapped during assembly.",
+    "4": "Drive circuit. Source 40 feeds the primary of transformer 41; the two ends of the secondary drive plates 15 and 16 in antiphase. Capacitors 42 and 43, drawn as adjustable, sit in series across the secondary as a divider whose midpoint holds diaphragm 10 at the signal null; trimming them balances asymmetry from unit to unit. No DC supply appears anywhere: the bias comes from the electret films."
+  },
+  "parts": {
+    "10": "Four 0.25 mil Mylar films polarized before assembly; the two inner films carry the electrode coating, preferably aluminum, on their facing sides, so the diaphragm is overall neutral but permanently polarized.",
+    "15": "Brass disc about 36 mm across and 1 mm thick, with about two hundred holes just under 1 mm, roughly 10 to 15 percent open area; the holes of 15 and 16 are aligned.",
+    "16": "Same as plate 15, on the other side of the diaphragm.",
+    "27": "Carries the connection to the diaphragm's inner metal layers out to terminal block 24.",
+    "42": "The text gives values on the order of 0.002 +/- 0.0005 microfarad for 42 and 43.",
+    "103": "Not numbered in the text; it points at the coated lower surface of inner layer 101, the thin conductive layer the text describes.",
+    "104": "Not numbered in the text; it points at the coated upper surface of inner layer 102, the thin conductive layer the text describes."
+  },
+  "glossary": [
+    {
+      "term": "electret",
+      "def": "A dielectric that keeps a quasi-permanent electric polarization or charge, the electrostatic counterpart of a permanent magnet."
+    },
+    {
+      "term": "prepolarized",
+      "def": "Polarized before assembly; here by holding the film at about 120 C in a field of about 3500 V across 3 mm, then cooling it with the field applied (a thermoelectret)."
+    },
+    {
+      "term": "forming temperature",
+      "def": "The elevated temperature at which the field is applied while making the electret; the polarization is frozen in on cooling."
+    },
+    {
+      "term": "condenser earphone",
+      "def": "An electrostatic (capacitor) earphone: a thin conductive diaphragm moved by the electric force between it and a nearby fixed plate."
+    },
+    {
+      "term": "bias",
+      "def": "A DC voltage across a condenser transducer that makes the force, or the microphone output, proportional to the signal instead of to its square."
+    },
+    {
+      "term": "push-pull",
+      "def": "Driving two electrodes on either side of the diaphragm with opposite-polarity signals so the even-order distortion terms cancel."
+    },
+    {
+      "term": "Mylar",
+      "def": "Trade name for polyethylene terephthalate (polyester) film, as the patent states."
+    },
+    {
+      "term": "harmonic distortion",
+      "def": "Output at integer multiples of the drive frequency caused by nonlinearity in the transducer."
+    },
+    {
+      "term": "db SPL",
+      "def": "Sound pressure level in decibels relative to 20 micropascals."
+    },
+    {
+      "term": "reciprocity",
+      "def": "The principle that a passive linear transducer works in both directions, so the same device can serve as earphone or microphone."
+    },
+    {
+      "term": "baffle",
+      "def": "A panel or enclosure around a loudspeaker that keeps the back wave from cancelling the front wave at low frequencies."
+    },
+    {
+      "term": "tweeter",
+      "def": "A loudspeaker meant for the high-frequency part of the audio band."
+    },
+    {
+      "term": "space charge",
+      "def": "Net charge distributed through the bulk of a dielectric, here proposed as the mechanism of the polarization."
+    },
+    {
+      "term": "mil",
+      "def": "One thousandth of an inch, 25.4 micrometres."
+    },
+    {
+      "term": "cycles",
+      "def": "Cycles per second, now hertz."
+    }
+  ]
+}

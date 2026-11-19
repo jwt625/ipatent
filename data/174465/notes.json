@@ -1,0 +1,95 @@
+{
+  "patent": "Issued March 7, 1876 to Alexander Graham Bell of Salem, Massachusetts, on an application filed February 14, 1876; the patent usually called the telephone patent. Bell started from harmonic (multiple) telegraphy, several Morse messages sent at once on reeds tuned to different pitches (his earlier US 161,739, cited in the text). Here he claims the undulatory current, whose strength varies continuously in step with a vibration, as against the on-off currents of earlier systems. Figs. 1-4 contrast the two kinds of current, Figs. 5-6 apply the undulatory current to multiple telegraphy, and Fig. 7 to the voice, the subject of claim 5. Claim 4 covers making the undulations by varying the circuit resistance, which the text illustrates with a wire vibrating in mercury or another liquid; the first intelligible speech Bell transmitted, on March 10, 1876, used such a liquid transmitter rather than the electromagnetic apparatus drawn here. Elisha Gray filed a caveat for a liquid-resistance telephone at the Patent Office on the same day as Bell's application. The patent was upheld by the U.S. Supreme Court in The Telephone Cases, 126 U.S. 1 (1888).",
+  "figs": {
+    "1": "Each row is a time line read left to right: a dash is a make (circuit closed; lettered c at the start of row A) and a gap is a break (d). Row A has five makes for every four of row B, the 5:4 ratio of a major third. Row A+B is drawn as the union of the two rows: current flows while either contact is closed, so overlapping dashes merge. With short makes the combined row still shows separate pulses.",
+    "2": "Same layout as Fig. 1 with longer makes (make to break 1 to 2). More of the dashes in row A+B run together.",
+    "3": "Makes and breaks of equal length. Row A+B is closed almost throughout, with a few short gaps, and the separate rates of A and B can no longer be read from it.",
+    "4": "Three current-against-time traces, each on its own zero line, positive upward. A and B are single sinusoids, A the faster (five cycles of A to four of B). Only the first cycles are lettered: a, d, e and f lie on the zero line, b at crests and c at troughs, so b-d and c-f are amplitudes and a to a is one period. A+B is the point-by-point sum: its amplitude swells and shrinks as the two waves drift in and out of step, but it stays a continuous wave that carries both rates.",
+    "5": "Transmitter A and an identical receiver I in one closed circuit: line e above, battery g below. Each instrument is an L-shaped electromagnet: the coil (b, or f at the receiver) on one leg, the bare leg d rising beside it, and the steel-spring armature c (h at the receiver) clamped at the top of d and reaching over the pole on top of the coil. Vibration of c varies the magnetism in the core of coil b and so induces an undulation on top of the battery current; through coil f it moves h, which answers only if the two springs are tuned alike.",
+    "6": "Three stations, each a board carrying three instruments of the Fig. 5 type tuned to three pitches (A, B, C); all nine coils are in series on one line running from box e and the battery to box g. Same letter means same pitch: a spring set vibrating at one station drives only the same-lettered springs at the others, so three signals share the line at once. Superscripts 1 and 2 mark the second and third stations. The rectangles e and g at the ends of the line are not described in the text.",
+    "7": "The speech version of Fig. 5. At the transmitter, cone A funnels sound onto membrane a; armature c hangs from a pivot at the end of the bent leg d, is joined to the middle of the membrane, and swings in front of coil b. The receiver mirrors it: armature h hangs from a pivot at k and is joined to a membrane at i at the mouth of cone L. The battery with box E below it, line e and box g make up the circuit E b e f g; the text does not describe E or g. The text names only h and L at the receiver."
+  },
+  "parts": {
+    "A": "Letters are reused from figure to figure. A is the faster current train in Figs. 1-3 and its curve in Fig. 4, the transmitting electromagnet in Fig. 5, the first-pitch instrument of the first station in Fig. 6, and the speaking cone in Fig. 7.",
+    "B": "The slower current train in Figs. 1-3 and its curve in Fig. 4 (four impulses to five of A); in Fig. 6 the second-pitch instrument of the first station.",
+    "C": "Fig. 6: the third-pitch instrument of the first station.",
+    "E": "Fig. 7: rectangle below the battery; the text lists it only as a letter of the circuit E b e f g.",
+    "I": "The receiving instrument of Fig. 5, built like A.",
+    "L": "Fig. 7: the receiving cone, from which the reproduced sound comes; not otherwise named in the text.",
+    "a": "Fig. 4: point on the zero line where a positive half-wave begins; a to a is one period. Fig. 7: the stretched membrane.",
+    "b": "Fig. 4: crests. Figs. 5 and 7: the coil of the transmitting electromagnet.",
+    "c": "Fig. 1: marks the makes of train A (where and for how long the circuit is closed). Fig. 4: troughs. Figs. 5 and 7: the transmitter armature.",
+    "d": "Fig. 1: the breaks of train A. Fig. 4: point on the zero line below a crest, so b-d is a positive amplitude. Figs. 5 and 7: the uncovered leg of the transmitter magnet, which carries the armature.",
+    "e": "Fig. 4: point on the zero line between a crest and the next trough. Figs. 5 and 7: the line wire, a letter of the circuit g b e f g or E b e f g. Fig. 6: rectangle at the battery end of the line, not described in the text.",
+    "f": "Fig. 4: point on the zero line above a trough, so c-f is a negative amplitude. Figs. 5 and 7: the receiving electromagnet.",
+    "g": "Not named in the text, only listed in the circuits g b e f g (Fig. 5) and E b e f g (Fig. 7). In Fig. 5 it labels the battery; in Figs. 6 and 7 a rectangle at the far end of the line.",
+    "i": "Not named in the text; it marks the receiver membrane in the place that a has at the transmitter.",
+    "k": "Not named in the text; it marks the pivot of armature h, at the end of the receiver's bent leg."
+  },
+  "glossary": [
+    {
+      "term": "intermittent current",
+      "def": "A current switched fully on and off by making and breaking the circuit."
+    },
+    {
+      "term": "pulsatory current",
+      "def": "Bell's term for a current whose strength is raised and lowered abruptly without breaking the circuit."
+    },
+    {
+      "term": "undulatory current",
+      "def": "Bell's term for a current whose strength changes gradually, following the shape of a vibration; in modern terms an analog waveform."
+    },
+    {
+      "term": "multiple telegraphy",
+      "def": "Sending several messages over one wire at the same time. Here each message uses its own pitch, an early form of frequency-division multiplexing; the receivers are tuned reeds that respond only to their own pitch."
+    },
+    {
+      "term": "in unison",
+      "def": "Tuned to the same pitch; here, armatures with the same natural frequency of vibration."
+    },
+    {
+      "term": "major third",
+      "def": "A musical interval whose two pitches have frequencies in the ratio 5:4."
+    },
+    {
+      "term": "voltaic circuit",
+      "def": "A circuit powered by a chemical battery (voltaic cells)."
+    },
+    {
+      "term": "armature",
+      "def": "The movable iron or steel piece attracted by an electromagnet; here a steel spring fixed at one end."
+    },
+    {
+      "term": "Morse sounder, register",
+      "def": "Telegraph receivers: a sounder clicks audibly at each signal, a register marks the dots and dashes on a paper strip."
+    },
+    {
+      "term": "autograph-telegraph",
+      "def": "A telegraph that transmits handwriting or drawings, an early form of facsimile."
+    },
+    {
+      "term": "induction-coil",
+      "def": "Two coils on a common iron core; a changing current in one induces a current in the other (a transformer)."
+    },
+    {
+      "term": "lagging of cable-signals",
+      "def": "On long submarine cables the cable's capacitance must charge and discharge, which smears and slows the signals."
+    },
+    {
+      "term": "spark-arrester",
+      "def": "A device that suppresses the spark at contacts when a circuit containing coils is broken."
+    },
+    {
+      "term": "dynamical electricity",
+      "def": "Nineteenth-century term for electricity in motion, that is, electric current, as opposed to static electricity."
+    },
+    {
+      "term": "body capable of inductive action",
+      "def": "Defined in the patent as a body that produces a current when in motion; Bell includes brass, copper and other metals as well as iron and steel."
+    },
+    {
+      "term": "sinusoidal curve",
+      "def": "A sine wave, the shape of a simple pendulum-like vibration; the sum of several such curves (\"algebraical sum\") is their point-by-point addition."
+    }
+  ]
+}

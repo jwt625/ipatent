@@ -1,0 +1,931 @@
+{
+  "pn": "3118022",
+  "number": "3,118,022",
+  "title": "ELECTROACOUSTIC TRANSDUCER",
+  "inventors": [
+    "Gerhard M. Sessler",
+    "James E. West"
+  ],
+  "assignee": "Bell Telephone Laboratories, Incorporated, New York, N.Y., a corporation of New York",
+  "filed": "1962-05-22",
+  "issued": "1964-01-14",
+  "appl_no": "196,670",
+  "int_cl": "",
+  "us_cl": "179—111",
+  "refs_patents": [],
+  "refs_other": [
+    "Foreign patent: 348,573; Great Britain; May 12, 1931",
+    "Foreign patent: 610,297; Great Britain; Oct. 13, 1948",
+    "Foreign patent: 838,021; Great Britain; June 22, 1960"
+  ],
+  "examiners": "",
+  "claims_count": 6,
+  "drawing_figures": 4,
+  "abstract": "",
+  "sections": [
+    {
+      "heading": "",
+      "paras": [
+        {
+          "col": 1,
+          "line": 10,
+          "text": "This invention relates to electroacoustic transducers and more particularly to such transducers of the electrostatic type. It has for its principal object the elimination of the necessity for any externally applied direct current biasing potential. A correlative objective, therefore, is the simplification of the electric circuit of electroacoustic transducers of the electrostatic type. Further objects are an increase in efficiency, lower distortion and a flat frequency response of such a transducer."
+        },
+        {
+          "col": 1,
+          "line": 19,
+          "text": "An electrostatic transducer, a condenser earphone, for example, normally comprises a rigid metallic surface or plate, and a thin conductive diaphragm stretched or mounted by its edge in a plane parallel to the surface of the rigid plate and closely spaced and insulated from it. When a potential difference is applied between the metallic plate and the diaphragm, the force manifested between the members is altered thus to cause the diaphragm to move forward or away from the plate as a function of the magnitude of the applied electrical potential. Movement of the diaphragm in turn produces sound pressure wave counterparts of the applied electrical signal. Ordinarily the sound pressure waves differ considerably from the applied electrical waves because of a number of distortion components that are produced in the conversion of electrical energy to acoustic energy. It is common, therefore, to supply a relatively high direct current biasing potential between the two elements of the transducer in order to reduce the magnitude of at least some of the distortion components. The provision of a sufficiently high external bias potential, and for good efficiency it necessarily is a relatively strong potential, is, to say the least, cumbersome, particularly when the transducer is used for intimate contact with the body, for example, as an earphone."
+        },
+        {
+          "col": 1,
+          "line": 45,
+          "text": "An alternative configuration which is often used to eliminate nonlinear distortion involves the use of an additional fixed metallic plate in a symmetrical configuration. By suspending the diaphragm between the two plates and energizing all three of the conductive elements in push-pull, somewhat more efficient conversion is obtained; but good efficiency is obtained only by the application of a relatively intense external direct current bias."
+        },
+        {
+          "col": 1,
+          "line": 53,
+          "text": "In order to maintain high efficiency and to regulate the frequency response of the transducer it is necessary further to control closely the spacing between the movable diaphragm layer and the fixed metal plate or plates. If the spacing is too small, large signals produce excessively large excursions of the diaphragm so that it may physically contact one or the other of the backplates. Such a contact interrupts the normal mode of vibration of the diaphragm. In effect, it stops all vibration at the point of contact and gives rise to a number of secondary vibrations in the diaphragm. This, in turn, results in the generation of second and higher order harmonic distortion. In our copending application, Serial No. 129,629, filed August 7, 1961, it is shown that this difficulty may be overcome by means of a multiple layer, solid dielectric diaphragm which provides a virtually noncompressible but yet compliant configuration which cushions large excursions."
+        },
+        {
+          "col": 1,
+          "line": 71,
+          "text": "Thus, although various of the expedients outlined above have been used individually for minimizing the various distortion components generated in an electrostatic transducer, the major difficulty, that of supplying a high biasing potential to the transducer, remains. As a remedy, two-element electrostatic transducers have been proposed which employ a charged dielectric material in place of one of the conductive elements. By charged, it is meant that an excess of protons or electrons, i.e., positive or negative charges, are present in the dielectric material. Hence, the normal balance between positive and negative charges is altered in favor of the one over the other; the dielectric is no longer electrically neutral but exhibits a positive or negative charge. If charged with a sufficiently high potential an electrode of such a material eliminates the need for external polarizing bias. However, the excess charge persists only for a very short time so that the dielectric must be frequently recharged. This difficulty can be overcome, in large measure, by utilizing a material that has been polarized by the partial separation of electrical charges of opposite sign in the body by the superposition of an external field. A dielectric material in which a permanent state of electrostatic polarization has been established, by the displacement of the positive charge in each atom with reference to a negative charge, is termed an electret. It is the electrostatic analog of the permanent magnet. Since an electret maintains its polarization for a prolonged period of time, recharging is unnecessary. An electret may be composed either of an organic or an inorganic material. In the past organic substances such as beeswax or carnauba wax were commonly used but, because of their natural bulk, only relatively thick transducer elements could be produced. Close tolerances necessarily were difficult to obtain with these substances. In particular it was found to be most difficult, if not impossible, to fabricate a sufficiently thin diaphragm of such material; one that was sufficiently vibratile and yet possessed the necessary mass and compliance to yield high conversion efficiency and a high resonant frequency. As a consequence little use has been made of the very attractive electret principle in the construction of electrostatic acoustic devices."
+        },
+        {
+          "col": 2,
+          "line": 42,
+          "text": "With the development of plastic film materials, however, the picture has completely changed. Because of the excellent dielectric properties of such films, it has been found that thin film electrets of high retentivity may be produced. Thus, just as some materials may be magnetized, so also a thin film of plastic may be electrostatically polarized. In effect, positive charges are aligned along one surface of the material, and negative charges are aligned along the opposite surface. However, the thin film material remains electrically neutral. Unless intentionally removed, the polarization, the separation of positive and negative charges in space within the material, remains in the material for a long period of time, on the order of years."
+        },
+        {
+          "col": 2,
+          "line": 56,
+          "text": "The electrostatic transducer of the present invention avoids many of the difficulties discussed above. It employs a diaphragm composed of a number of layers of thin electret material and a number of conductive layers tautly supported between a pair of perforated conductive plates. The several elements of the transducer, namely, the diaphragm and the sandwiching plates, are insulated from each other and are energized in push-pull. The electrical force on the diaphragm, from Coulomb’s law, is F≈(E_{dc}+E_{ac})^{2}−(E_{dc}−E_{ac})^{2}=4E_{dc}E_{ac} (1) where E_{dc} is the D.C.-potential exhibited by the electret, i.e., the prepolarized layers, and E_{ac} is an applied signal voltage. It may be seen from this equation that the electrical force on the diaphragm is free of nonlinear distortion. Hence, use of two important features, namely, a three-electrode structure energized in push-pull, and a multiplayer prepolarized diaphragm, results in a system that operates without external D.C.-bias, and in which the electrical force on the diaphragm is free of nonlinear distortion."
+        },
+        {
+          "col": 3,
+          "line": 6,
+          "text": "It should particularly be noted that the several features of the present invention supplement one another, that is, a transducer constructed in accordance with the principles of the invention combines the best features of many of the known transducer configurations and materials in such a manner that the benefits associated with each are considerably enhanced while, at the same time, their disadvantages are substantially eliminated. A push-pull system with an unpolarized diaphragm requires an external D.C.-bias for operation, otherwise the force on the foil is zero. Moreover, for good efficiency this bias has to be relatively high. By employing a thin film electret, all need for external bias is eliminated in the present invention, and yet a low mass, resilient vibrating member results which may easily be produced with inexpensive materials. Similarly, a two electrode system with prepolarized foil still shows a distortion term in the electrical force. The symmetrical configuration of a transducer constructed in accordance with the principles of the present invention is free of nonlinear distortion. Further, because of the multilayer construction of the diaphragm of the invention, the spacing between the several elements may be closely controlled so that a flat frequency response at high efficiency may be obtained."
+        },
+        {
+          "col": 3,
+          "line": 30,
+          "text": "The invention will be fully apprehended from the following detailed description of a preferred embodiment thereof taken in connection with the appended drawings, in which:"
+        },
+        {
+          "col": 3,
+          "line": 34,
+          "text": "FIG. 1 is an exploded perspective view of a condenser earphone illustrative of a preferred embodiment of the invention;"
+        },
+        {
+          "col": 3,
+          "line": 37,
+          "text": "FIG. 2 is a cross-sectional view of the condenser earphone of FIG. 1;"
+        },
+        {
+          "col": 3,
+          "line": 39,
+          "text": "FIG. 3 is a cross-section view, on a greatly enlarged scale, of a small portion of the diaphragm layers and adjacent conductive plates of a transducer constructed in accordance with the invention; and"
+        },
+        {
+          "col": 3,
+          "line": 43,
+          "text": "FIG. 4 is a schematic circuit diagram of one suitable manner of energizing the transducer of the invention."
+        },
+        {
+          "col": 3,
+          "line": 45,
+          "text": "Referring now to the drawings, FIGS. 1 and 2 show, in an exploded perspective view and in an assembled cross-sectional view, a condenser earphone constructed in accordance with the invention. Diaphragm 10 constitutes the vibrating element of the transducer. It is composed of a number of individual layers of prepolarized thin dielectric material and a number of conductive layers assembled into a sandwich-like structure. Preferably, two of the thin layers are formed of thin sheets of material which have been metallized on one side, for example, with a thin layer of aluminum. One metallized layer is, however, all that is required. It has been found that thin films of plastic material, such as polyethylene terephthalate, known commercially as Mylar are satisfactory. The metallized Mylar layers are assembled with the foil layers facing one another and two additional nonmetallized Mylar layers are placed on either side of the metallized layers in order to complete the structure. As will be described hereinafter, the several layers are bonded together by adhesion. The diaphragm layer so formed is polarized as a whole by virtue of the arrangement of the individual polarized layers. Thus, for example, the negative charge on the surface of the two layers adjacent the inner metallic surfaces face one another so that like charges are held close to one another. In this example, the outer surfaces of the diaphragm are characterized by positive charges. The entire diaphragm, although electrostatically neutral, thus exhibits a permanent electrostatic polarization."
+        },
+        {
+          "col": 3,
+          "line": 74,
+          "text": "Diaphragm 10 is peripherally supported by a pair of annular clamp members or rings 11 and 12. These may be formed of aluminum. In practice, a convex protrusion 13 in ring 1 1is formed to fit a corresponding concave groove 14 in clamp ring 12. This arrangement has proved satisfactory for providing sufficiently high mechanical tension for the several layers of the diaphragm. The edge of the diaphragm is thus held in a taut smooth condition. More elaborate securing means may, of course, be used, if desired. Clamp rings 11 and 12 also act to support retainer rings 25 and 26 which urge conductive plates 15 and 16 forward toward the diaphragm. With this construction, tension of the diaphragm is independent of the position of the other elements of the transducer."
+        },
+        {
+          "col": 4,
+          "line": 13,
+          "text": "Elements 15 and 16 are formed preferably of metal, for example, from discs of brass and, in the transducer illustrated are approximately thirty-six millimeters in diameter and about one millimeter thick. Each plate is perforated with a plurality of small holes and the two discs are arranged in such a manner that the holes of the two plates are aligned. In practice, it has been found that approximately two hundred holes, each slightly less than one millimeter in diameter are satisfactory. This corresponds to a conductive plate with approximately ten to fifteen percent open area. The size and number of holes, i.e., the ratio of open to closed area, may be altered to vary conversion efficiency and, to some extent, to limit the generation of high order distortion components. Provision is made in clamp rings 11 and 12 to prevent the perforated plates 15 and 16 from turning once alignment has been made, keys or the like (not shown) are provided for this."
+        },
+        {
+          "col": 4,
+          "line": 31,
+          "text": "Separation of the retainer rings 25 and 26, and hence of the two perforated discs 15 and 16, is controlled by a pair of adjustment rings 17 and 18 which are threaded into the internal surface of clamp rings 11 and 12, respectively. The restoring force necessary to permit snug adjustment of the axial position of the discs is provided by a pair of resilient members 20 and 21 placed in grooves between clamp rings 11 and 12 and retainer rings 25 and 26, respectively. Annular rubber rings have been found satisfactory."
+        },
+        {
+          "col": 4,
+          "line": 41,
+          "text": "The several elements of the transducer are independently energized. Thus, perforated disc 15 may be connected to an external circuit via terminal 22 mounted on clamp ring 11. Similarly, an electrical connection to perforated disc 16 may be made by means of a wire connecting the disc 16 to a terminal block 29 mounted on an insulating ring 23 attached to the surface of clamp ring 11. The metallic foil center layers of diaphragm 10 may be connected electrically to a terminal block 24 mounted on the insulating ring 23 by means of an extension or tail-like piece 27 of the diaphragm, an insulated conductor, or the like, which may be wrapped around the outer surface of clamp ring 11."
+        },
+        {
+          "col": 4,
+          "line": 54,
+          "text": "The entire structure preferably is enclosed in an outer case 19 formed of a suitable plastic material, and provided at its front surface with a flange or the like for supporting clamp ring 12 (and the entire structure). Additionally, case 19 may be internally threaded at its rear portion to receive a retainer ring 28. Retainer ring 28 holds the entire structure in place, i.e., by urging it forward against the front flange of case 19."
+        },
+        {
+          "col": 4,
+          "line": 62,
+          "text": "FIG. 3 shows an enlarged small section of the two perforated discs 15 and 16 and the multilayer prepolarized diaphragm 10. In the illustration, four polarized layers of thin dielectric material are shown. Thin (0.25 mil) films of Mylar are satisfactory. Inner layers 101 and 102 are coated on their facing surfaces with thin layers of a conductive material, preferably aluminum. Suitable metallized foil is commercially available. Outer layers 105 and 106 are not metallized. In practice, the several layers are assembled by placing them together as tightly as possible to avoid the entrapment of large air bubbles. Under normal manufacturing conditions, and without special effort, minute air bubbles are nevertheless trapped between adjacent foils. This is due to the inherent irregularities of the various surfaces. Thus, between individual layers of the diaphragm, and between the outer films and the adjacent conductive plates, irregularly shaped air layers are formed. In effect, the single gap ordinarily formed between the conductive diaphragm layer and the fixed plates is replaced by a plurality of intermediate air gaps. The total thickness of these air gaps is more uniform than the thickness of a single layer, thus avoiding points where the diaphragm touches the fixed plates under the influence of large signal excursions. This results in increased efficiency and lower distortion. A detailed explanation of the manner by which second and higher order harmonic distortion is minimized by the multilayer diaphragm technique will be found in our aforementioned application, Serial No. 129,629."
+        },
+        {
+          "col": 5,
+          "line": 16,
+          "text": "The several layers of the diaphragm 101, 102, 105, and 106 are given a permanent electrostatic charge, i.e., are polarized, preferably prior to their assembly into a unitary diaphragm structure, by exposing them to a high electric field in a gap between two electrodes. We have found that satisfactory electret foils may be prepared by supporting the electrodes at a separation of about three millimeters, and by utilizing a D.C. potential of about thirty-five hundred volts. With this voltage applied to the electrodes, and the foil supported between the plates, the foil temperature is elevated to approvimately 120° C. (forming temperature), and held constant for about fifteen minutes. While the applied potential is held constant, the temperature is then gradually decreased to room temperature. As a result, a polarization is imparted to the film which corresponds to the equivalent of approximately two hundred volts of externally applied direct current bias. Although various theories exist as to the exact mechanism of electrostatic polarization of dielectric materials, one reasonable one holds that the mechanaism of polarization is the formation of an ionic space charge within the dielectric at the forming temperature. This polarization is frozen when room temperature is restored. The relaxation time of polarization is very long. For one quarter mil Mylar foil, life times on the order of several hundred years have been extrapolated. In practice, foils produced in the manner described above have shown no noticeable deterioration after months of use."
+        },
+        {
+          "col": 5,
+          "line": 44,
+          "text": "Although the push-pull transducer of the invention may be energized merely by supplying opposite polarity signal voltages to the fixed transducer elements 15 and 16, and by holding the conductive diaphragm at a potential symmetrically intermediate the two signal potentials, it has been found that manufacturing variations and the like can be compensated by energizing the transducer in a balanced circuit configuration. A suitable arrangement is shown in FIG. 4. Alternating current signal energy originating, for example, in program signal source 40 is supplied by way of transformer 41 to the fixed conductive electrodes 15 and 16 of the transducer in the usual push-pull arrangement. Conductive diaphragm 10 is connected to the electrical midpoint or signal null point of the balanced system by means of balancing impedances, e.g., capacitors 42 and 43. Other impedance elements may, of course, be utilized to balance out the mechanical asymmetry of the system and to provide a sufficient feed for the diaphragm 10. The exact values of the impedances depend, of course, on the individual structure, and will vary from unit to unit. With the arrangement illustrated, it has been found that capacitor values on the order of 0.002, ±0.0005 microfarad are satisfactory for obtaining the desired degree of symmetry. With a signal voltage at the transducer terminals of approximately thirty-six volts, an output sound pressure of one hundred db SPL is typical. With a twelve volt applied signal, a ninety db SPL level has been obtained. Because of the very high resistance of the transducer, on the order of megohms, power consumption is exceedingly low, on the order of 0.1 milliwatt. Further, the frequency response in a typical unit has been found to be virtually flat within three db from thirty to eleven thousand cycles. Exceedingly low harmonic distortion has been observed and the impulse response is excellent. Further, stability of the system is relatively good after the initial surface charge of the foil has disappeared. This ordinarily is accomplished naturally and without additional steps within several days of the polarization operation."
+        },
+        {
+          "col": 6,
+          "line": 8,
+          "text": "It will be immediately apparent to those skilled in the art that the principles described hereinabove in connection with an electrostatic earphone are equally applicable to other transducer elements. For example, merely by increasing the physical size of the front and backplates and the electret multilayer diaphragram, and suitably mounting the transducer in a baffle operation over a wide range of frequencies is possible so that the device may be used as a loudspeaker. With the closed coupling generally associated with earphone operation, however, considerably better response at the lower frequencies is obtained. Consequently in the free field application, operation as a high frequency tweeter is normally to be expected. Further, the exact mechanism for supporting the several active elements may be varied considerably within the scope of the invention."
+        },
+        {
+          "col": 6,
+          "line": 24,
+          "text": "In view of the principle of reciprocity, it is obvious that the transducer of the present invention may also be employed as a microphone to convert sound pressure variations incident on the diaphragm into voltage variations. The term transducer has, for this reason, been employed herein to designate the unit structurally, independently of whether it effects a conversion from acoustic energy into electrical energy or vice versa."
+        }
+      ]
+    }
+  ],
+  "brief_drawings": [
+    {
+      "fig": "1",
+      "col": 3,
+      "line": 34,
+      "text": "FIG. 1 is an exploded perspective view of a condenser earphone illustrative of a preferred embodiment of the invention;"
+    },
+    {
+      "fig": "2",
+      "col": 3,
+      "line": 37,
+      "text": "FIG. 2 is a cross-sectional view of the condenser earphone of FIG. 1;"
+    },
+    {
+      "fig": "3",
+      "col": 3,
+      "line": 39,
+      "text": "FIG. 3 is a cross-section view, on a greatly enlarged scale, of a small portion of the diaphragm layers and adjacent conductive plates of a transducer constructed in accordance with the invention; and"
+    },
+    {
+      "fig": "4",
+      "col": 3,
+      "line": 43,
+      "text": "FIG. 4 is a schematic circuit diagram of one suitable manner of energizing the transducer of the invention."
+    }
+  ],
+  "claims": [
+    {
+      "n": 1,
+      "col": 6,
+      "line": 33,
+      "depends": null,
+      "text": "1. An electroacoustic transducer comprising first and second plane conductive electrode members, means for supporting said members in juxtaposition to and insulated from one another, a thin prepolarized diaphragm, means for tautly supporting said diaphragm between said first and said second electrode members, said diaphragm being composed of a number of layers of thin film electret material and a number of layers of thin film conductive material intimately sandwiched between said layers of electret material, and means for individually connecting electrically to said plane conductive members and to said diaphragm."
+    },
+    {
+      "n": 2,
+      "col": 6,
+      "line": 45,
+      "depends": null,
+      "text": "2. An electroacoustic transducer comprising in combination a first conductive member and a second conductive member, said conductive members being perforated with a plurality of spaced apertures, means for supporting said conductive members in spaced relation with said apertures in approximate alignment, means for tautly supporting a vibratile diaphragm between said first and said second conductive members, said diaphragm being composed of a number of thin layers of prepolarized dielectric material and at least one thin layer of conductive material intimately sandwiched between layers of said dielectric material, and means for connecting electrically to said first and said second conductive members and to said thin layer of conductive material included in said diaphragm."
+    },
+    {
+      "n": 3,
+      "col": 6,
+      "line": 60,
+      "depends": null,
+      "text": "3. An electrostatic transducer comprising first and second rigid conductive apertured plates, means for supporting said apertured plates in juxtaposition with and insulated from one another, the apertures of said first and said second plates being in substantial alignment, a thin flexible conductive film, means for tautly supporting said conductive film between said first and said second apertured plates, a plurality of thin layers of an insulating prepolarized material, means for peripherally supporting a number of said layers of prepolarized material in a plane intermediate said first apertured plate and said conductive film and for peripherally supporting the remaining ones of said plurality of layers of prepolarized material in a plane intermediate said second apertured plate and said conductive film, and means for electrically connecting to said first and said second apertured members and to said flexible conductive film."
+    },
+    {
+      "n": 4,
+      "col": 7,
+      "line": 3,
+      "depends": null,
+      "text": "4. A condenser earphone comprising a pair of conductive plate members and a thin diaphragm, said diaphragm comprising a thin conductive film intimately sandwiched between a number of thin layers of electrostatically charged dielectric material, means for tautly supporting said diaphragm between said conductive plate members, a source of alternating current program signals, means for supplying said alternating current signals of a first polarity to one of said pair of conductive plate members and signals of the opposite polarity to the other one of said pair of conductive plate members, and means in circuit relation with said means for supplying signals of said first and said opposite polarities for maintaining said thin conductive film at a signal null point intermediate said first and said opposite signal potentials."
+    },
+    {
+      "n": 5,
+      "col": 7,
+      "line": 18,
+      "depends": null,
+      "text": "5. An earphone comprising a pair of rigid conductive disc-like element and a thin flexible diaphragm, said diaphragm comprising a plurality of thin flexible layers of prepolarized dielectric material held together with sufficient adhesive force to entrap minute irregularly spaced air pockets between adjacent layers, an interior surface of at least one of said layers of said diaphragm being coated with a thin flexible adhering layer of conductive material, means for positioning said rigid elements and said diaphragm in closed proximity to one another such that the outer layers of said diaphragm intimately confront said rigid conductive elements, an insulating cover for supporting said elements, said insulating cover having exterior openings in approximate relation to said diaphragm, and means for connecting electrically to each of said conductive elements."
+    },
+    {
+      "n": 6,
+      "col": 8,
+      "line": 10,
+      "depends": null,
+      "text": "6. A thin flexible diaphragm for an electrostatic transducer comprising a plurality of layers of a thin film plastic electret material held together in a sandwich-like structure with sufficient adhesive force to entrap minute irregularly spaced air pockets between adjacent layers, and a thin flexible layer of electrically conductive material adhesively coated on the surface of at least one of said layers of electret material positioned at the interior of said sandwich-like structure."
+    }
+  ],
+  "ocr_fixes": [
+    {
+      "col": 1,
+      "line": 3,
+      "ocr": "James EK. West",
+      "fixed": "James E. West",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 4,
+      "ocr": "Pisinfield",
+      "fixed": "Plainfield",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 5,
+      "ocr": "2 corporation",
+      "fixed": "a corporation",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 7,
+      "ocr": "196,679",
+      "fixed": "196,670",
+      "basis": "scan (final digit is 0) + Google Patents application number US196670A"
+    },
+    {
+      "col": 1,
+      "line": 8,
+      "ocr": "(CL 179—111)",
+      "fixed": "(Cl. 179—111)",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 26,
+      "ocr": "etween",
+      "fixed": "between",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 29,
+      "ocr": "tential,",
+      "fixed": "tential.",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 34,
+      "ocr": "cf",
+      "fixed": "of",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 48,
+      "ocr": "tien.",
+      "fixed": "tion.",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 52,
+      "ocr": "cf",
+      "fixed": "of",
+      "basis": "scan (Google Patents \"cf\")"
+    },
+    {
+      "col": 2,
+      "line": 7,
+      "ocr": "ie.,",
+      "fixed": "i.e.,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 19,
+      "ocr": "ion",
+      "fixed": "tion",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 23,
+      "ocr": "io",
+      "fixed": "to",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 24,
+      "ocr": "change,",
+      "fixed": "charge,",
+      "basis": "scan (Google Patents \"change\")"
+    },
+    {
+      "col": 2,
+      "line": 24,
+      "ocr": "en",
+      "fixed": "an",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 25,
+      "ocr": "eleciret",
+      "fixed": "electret",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 26,
+      "ocr": "pericd",
+      "fixed": "period",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 32,
+      "ocr": "dificult",
+      "fixed": "difficult",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 41,
+      "ocr": "devices,",
+      "fixed": "devices.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 50,
+      "ocr": "ate",
+      "fixed": "are",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 50,
+      "ocr": "cpposite",
+      "fixed": "opposite",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 57,
+      "ocr": "Jt",
+      "fixed": "It",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 66,
+      "ocr": "Fre (Ego-}Eac)?— (Bac Fae) *= 4B aclac",
+      "fixed": "F≈(E_{dc}+E_{ac})^{2}−(E_{dc}−E_{ac})^{2}=4E_{dc}E_{ac}",
+      "basis": "scan (formula (1), typeset with subscripts and superscripts; Google Patents text garbled)"
+    },
+    {
+      "col": 2,
+      "line": 68,
+      "ocr": "E,,",
+      "fixed": "E_{dc}",
+      "basis": "scan (subscript)"
+    },
+    {
+      "col": 2,
+      "line": 69,
+      "ocr": "ie.,",
+      "fixed": "i.e.,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 69,
+      "ocr": "E,,",
+      "fixed": "E_{ac}",
+      "basis": "scan (subscript)"
+    },
+    {
+      "col": 3,
+      "line": 6,
+      "ocr": "it",
+      "fixed": "It",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 11,
+      "ocr": "asscciated",
+      "fixed": "associated",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 17,
+      "ocr": "Ey",
+      "fixed": "By",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 18,
+      "ocr": "eliminated.in",
+      "fixed": "eliminated in",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 19,
+      "ocr": "lew",
+      "fixed": "low",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 21,
+      "ocr": "materiais.",
+      "fixed": "materials.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 27,
+      "ocr": "beiween",
+      "fixed": "between",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 38,
+      "ocr": "FIG,",
+      "fixed": "FIG.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 41,
+      "ocr": "of.a",
+      "fixed": "of a",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 48,
+      "ocr": "18",
+      "fixed": "10",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 53,
+      "ocr": "cf",
+      "fixed": "of",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 66,
+      "ocr": "individual!",
+      "fixed": "individual",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 69,
+      "ocr": "ansther.",
+      "fixed": "another.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 74,
+      "ocr": "i",
+      "fixed": "10",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 75,
+      "ocr": "1i",
+      "fixed": "11",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 75,
+      "ocr": "12,",
+      "fixed": "12.",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 2,
+      "ocr": "kis",
+      "fixed": "1is",
+      "basis": "scan (printed \"ring 1 1is\", kept as printed; Google Patents \"ll lis\")"
+    },
+    {
+      "col": 4,
+      "line": 3,
+      "ocr": "bas",
+      "fixed": "has",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 10,
+      "ocr": "18",
+      "fixed": "15",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 13,
+      "ocr": "£6",
+      "fixed": "16",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 17,
+      "ocr": "ertorated",
+      "fixed": "perforated",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 21,
+      "ocr": "‘This",
+      "fixed": "This",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 24,
+      "ocr": "ie.,",
+      "fixed": "i.e.,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 25,
+      "ocr": "aitered",
+      "fixed": "altered",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 27,
+      "ocr": "nents,",
+      "fixed": "nents.",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 27,
+      "ocr": "12",
+      "fixed": "11",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 34,
+      "ocr": "14",
+      "fixed": "11",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 38,
+      "ocr": "22",
+      "fixed": "12",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 44,
+      "ocr": "ting",
+      "fixed": "ring",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 48,
+      "ocr": "19",
+      "fixed": "10",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 60,
+      "ocr": "ie.,",
+      "fixed": "i.e.,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 62,
+      "ocr": "EG.",
+      "fixed": "FIG.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 64,
+      "ocr": "16.",
+      "fixed": "10.",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 70,
+      "ocr": "i853",
+      "fixed": "105",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 70,
+      "ocr": "186",
+      "fixed": "106",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 5,
+      "ocr": "diaphragm a",
+      "fixed": "diaphragm",
+      "basis": "scan (stray mark, nothing printed after \"diaphragm\") + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 14,
+      "ocr": "wili",
+      "fixed": "will",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 16,
+      "ocr": "161,",
+      "fixed": "101,",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 17,
+      "ocr": "166",
+      "fixed": "106",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 17,
+      "ocr": "ie.,",
+      "fixed": "i.e.,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 19,
+      "ocr": "them,",
+      "fixed": "them",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 56,
+      "ocr": "16",
+      "fixed": "10",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 59,
+      "ocr": "eiements",
+      "fixed": "elements",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 62,
+      "ocr": "18.",
+      "fixed": "10.",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 66,
+      "ocr": "+0.0005",
+      "fixed": "±0.0005",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 75,
+      "ocr": "tobe",
+      "fixed": "to be",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 2,
+      "ocr": "been,",
+      "fixed": "been",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 24,
+      "ocr": "Tn",
+      "fixed": "In",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 26,
+      "ocr": "pleyed",
+      "fixed": "ployed",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 59,
+      "ocr": "diaphragm,",
+      "fixed": "diaphragm.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 3,
+      "ocr": "4,",
+      "fixed": "4.",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 5,
+      "ocr": "comprising a thin conductive intimately sandwiched (word \"film\" placed on the line above)",
+      "fixed": "comprising a thin conductive film intimately sandwiched",
+      "basis": "scan (OCR misplaced a word between lines) + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 7,
+      "ocr": "tautiy",
+      "fixed": "tautly",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 8,
+      "ocr": "piate",
+      "fixed": "plate",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 10,
+      "ocr": "sa aid",
+      "fixed": "said",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 10,
+      "ocr": "firs",
+      "fixed": "first",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 11,
+      "ocr": "‘clarity",
+      "fixed": "polarity",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 12,
+      "ocr": "said and signals of the oppesite polarity to the other ane of / pair of conductive plate members",
+      "fixed": "and signals of the opposite polarity to the other one of / said pair of conductive plate members",
+      "basis": "scan (OCR moved \"said\" between lines) + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 16,
+      "ocr": "fim",
+      "fixed": "film",
+      "basis": "scan (Google Patents \"him\")"
+    },
+    {
+      "col": 7,
+      "line": 17,
+      "ocr": "opposife",
+      "fixed": "opposite",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 21,
+      "ocr": "prepclarized",
+      "fixed": "prepolarized",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 24,
+      "ocr": "cf",
+      "fixed": "of",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 1,
+      "ocr": "flexibie",
+      "fixed": "flexible",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 3,
+      "ocr": "ancther",
+      "fixed": "another",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 8,
+      "ocr": "fer",
+      "fixed": "for",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 9,
+      "ocr": "sale",
+      "fixed": "said",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 10,
+      "ocr": "due",
+      "fixed": "6.",
+      "basis": "scan (claim number; OCR read the \"6.\" and the \"du\" of the next line as \"due\")"
+    },
+    {
+      "col": 8,
+      "line": 11,
+      "ocr": "ucer",
+      "fixed": "ducer",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 11,
+      "ocr": "pluralit ty",
+      "fixed": "plurality",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 11,
+      "ocr": "Plastic",
+      "fixed": "plastic",
+      "basis": "scan (Google Patents \"iihi plastic\")"
+    },
+    {
+      "col": 8,
+      "line": 12,
+      "ocr": "irregularly structuz",
+      "fixed": "structure",
+      "basis": "scan (OCR moved \"irregularly\" from the next line; \"structuz\" misread) + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 14,
+      "ocr": "alr",
+      "fixed": "air",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 15,
+      "ocr": "Ih ¢",
+      "fixed": "",
+      "basis": "scan (gutter number 15 and smudge read as text)"
+    },
+    {
+      "col": 8,
+      "line": 15,
+      "ocr": "electrical ly",
+      "fixed": "electrically",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 24,
+      "ocr": "838,621",
+      "fixed": "838,021",
+      "basis": "scan + Google Patents"
+    }
+  ]
+}

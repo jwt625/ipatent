@@ -1,0 +1,1820 @@
+{
+  "pn": "3102230",
+  "number": "3,102,230",
+  "title": "ELECTRIC FIELD CONTROLLED SEMICONDUCTOR DEVICE",
+  "inventors": [
+    "Dawon Kahng"
+  ],
+  "assignee": "Bell Telephone Laboratories, Incorporated, New York, N.Y., a corporation of New York",
+  "filed": "1960-05-31",
+  "issued": "1963-08-27",
+  "appl_no": "32,801",
+  "int_cl": null,
+  "us_cl": "323—94",
+  "refs_patents": [
+    {
+      "no": "2,918,628",
+      "date": "Dec. 22, 1959",
+      "name": "Stuetzer",
+      "cl": ""
+    }
+  ],
+  "refs_other": [],
+  "examiners": null,
+  "claims_count": 6,
+  "drawing_figures": 3,
+  "abstract": "",
+  "sections": [
+    {
+      "heading": "",
+      "paras": [
+        {
+          "col": 1,
+          "line": 10,
+          "text": "This invention relates to circuit arrangements including dielectric coated semiconductor devices."
+        },
+        {
+          "col": 1,
+          "line": 12,
+          "text": "More particularly, the present invention relates to circuit arrangements utilizing a semiconductive device which comprises either a p-n-p or n-p-n wafer having a dielectric film over a portion of the middle zone. Such a device is disclosed in application Serial No. 13,688 of M. M. Atalla, filed March 8, 1960."
+        },
+        {
+          "col": 1,
+          "line": 18,
+          "text": "In accordance with the present invention useful characteristics are obtained from a device of this type by arranging the associated circuitry to vary an electric field across the oxide in response to variations in voltage across the junctions. In particular, voltage regulation or amplification can be achieved by the invention."
+        },
+        {
+          "col": 1,
+          "line": 24,
+          "text": "Therefore, a feature of this invention is a novel circuit arrangement which provides across the dielectric layer of the above device an electric field which varies in response to variations in voltage across the p-n junctions."
+        },
+        {
+          "col": 1,
+          "line": 28,
+          "text": "The invention in its preferred form comprises a semiconductor wafer, typically silicon, including first, second and third regions defining respectively first and second p-n junctions which intersect a major surface of the wafer. This major surface of the wafer is coated with a suitable dielectric, typically a thermally grown silicon dioxide coating for a silicon wafer, and an electrode is connected to the surface of this oxide coating so as to extend beyond the line of intersection with the surface of the two p-n junctions. A first bias voltage is applied between ohmic contacts to the first and third regions poled to forward bias the first p-n junction and to reverse bias the second. A second bias voltage is applied between the electrode to the oxide coating and the contact to the third region. The electric field across the oxide coating is the result of this second bias and varies in response to variations in the voltage between the two substantially ohmic contacts."
+        },
+        {
+          "col": 1,
+          "line": 46,
+          "text": "The invention and its objects and features will become apparent during the course of the following detailed description which is rendered with reference to the accompanying drawing in which:"
+        },
+        {
+          "col": 1,
+          "line": 50,
+          "text": "FIG. 1A is a perspective view partially in cross section of the preferred embodiment of this invention;"
+        },
+        {
+          "col": 1,
+          "line": 52,
+          "text": "FIG. 1B is an alternative circuit arrangement for the embodiment of FIG. 1A; and"
+        },
+        {
+          "col": 1,
+          "line": 54,
+          "text": "FIG. 2 is a graph depicting the current-voltage characteristics of the embodiment of FIG. 1A."
+        },
+        {
+          "col": 1,
+          "line": 56,
+          "text": "It is to be understood that the figures are illustrative only and, therefore, not necessarily to scale."
+        },
+        {
+          "col": 1,
+          "line": 58,
+          "text": "Referring now to FIG. 1A in detail, device 10 comprises a semiconductor wafer 11, typically monocrystalline silicon, having dimensions of approximately .060 inch square by .010 inch thick. The bulk portion 12 of wafer 11 is of n-type conductivity with spaced p-type surface portions 13 and 14 adjacent a major surface 18 of the wafer. Surface portions 13 and 14 are about .001 inch deep and are formed by well-known vapor-solid diffusion and photo-resist techniques. The portion 15 between the two surface portions 13 and 14 is approximately .003 inch wide and bounded by p-n junctions 16 and 17, respectively. Advantageously, the surface area of portions 13 and 14 is restricted to avoid excessive capacitance. In this specific example, each surface portion has a “key hole” appearance having extreme surface dimensions of less than .025 inch square but occupying a surface area of less than 3×10^{−4} (inch)^{2}. The oxide coating 19 is in intimate contact with surface 18 of the wafer. The oxide is about 1000 angstrom units thick and thermally grown in accordance with the processes described in United States Patent No. 2,930,722, issued March 29, 1960 to J. R. Ligenza. These processes leave oxide coatings over the entire device. The oxide can be restricted to selected portions of the surface of the device, if so desired, by well-known masking or lapping techniques. The oxide is shown restricted in the figure primarily for clarity. An electrode 21 is deposited over the exposed surface 22 of the oxide coating 19 to extend over the region of intersection of both p-n junctions 16 and 17. Ohmic contacts 24 and 25 are affixed to surface portions 13 and 14, respectively. A load L and a battery 27 of voltage V are connected serially between contacts 24 and 25. The battery is poled to reverse bias p-n junction 16 and forward bias p-n junction 17. A voltage source 28 providing a voltage V_{f} is connected between electrode 21 and contact 24. In response to an accumulation of charge of one polarity on the electrode 21, a charge of opposite polarity is induced in the surface portion 23 of wafer 11."
+        },
+        {
+          "col": 2,
+          "line": 24,
+          "text": "A typical load line drawn for the load L is shown by the broken line 31 in the graph of FIG. 2. First, it can be seen from the graph that each of the characteristics corresponding to a fixed value of V_{f} exhibits a horizontal portion where the voltage is relatively insensitive to the current. Accordingly, the device described is useful as a voltage regulator when operated with a constant value of V_{f}. Moreover, it can be seen that adjustment to a particular fixed value of V_{f} permits control of the voltage at which regulation occurs. Accordingly, the invention in this aspect is a voltage regulator whose voltage level can be varied simply by variation of the steady voltage between electrode 21 and contact 24."
+        },
+        {
+          "col": 2,
+          "line": 37,
+          "text": "As an alternative mode of operation, a signal source can be inserted serially with the source of D.-C. voltage V_{f}. This arrangement is shown schematically in FIG. 1B. In this mode, changes in the voltage of the signal source will cause corresponding changes, although with a phase reversal, in the voltage across the load L. Because the input impedance typically is much higher than the load impedance, power amplification is possible."
+        },
+        {
+          "col": 2,
+          "line": 45,
+          "text": "While the specific embodiments are disclosed in terms of silicon and silincon dioxide, such choices are merely by way of example. The choice of semiconductor material and corresponding dielectric appear to be limited only by the availablity of techniques for depositing the dielectric. There are, however, well-known considerations important in selecting the semiconductor material and a suitable dielectric. The main consideration is to produce the highest field E in the semiconductor material with the smallest input voltage V_{f}. The equation relating E and V is"
+        },
+        {
+          "col": 2,
+          "line": 56,
+          "text": "E=(e_{f}/e_{s})·(V/t)"
+        },
+        {
+          "col": 2,
+          "line": 59,
+          "text": "where e_{f} is the dielectric constant of the dielectric coating, e_{s} is the dielectric constant of the semiconductor material and t is the thickness of the dielectric coating. To obtain the highest field for the lowest input voltage,"
+        },
+        {
+          "col": 2,
+          "line": 63,
+          "text": "e_{f}/t"
+        },
+        {
+          "col": 2,
+          "line": 66,
+          "text": "is maximized. e_{f} for silicon dioxide is 3.8. A typical thickness t for the oxide coating is 1000 angstrom units or 10^{−5} centimeters. Therefore, a figure of merit is"
+        },
+        {
+          "col": 2,
+          "line": 69,
+          "text": "3.8/(10^{−5} cms.)"
+        },
+        {
+          "col": 2,
+          "line": 72,
+          "text": "or 3.8×10^{5} [cms. ^{−1}]. As a comparison, the dielectric constant for titanium oxide is 100. Therefore, a correspondingly suitable titanium oxide coating would have to be"
+        },
+        {
+          "col": 3,
+          "line": 4,
+          "text": "100/(3.8×10^{5})"
+        },
+        {
+          "col": 3,
+          "line": 7,
+          "text": "or 26,300 angstrom units thick. The ease of growing a 1000 angstrom unit silicon dioxide layer on silicon as compared to the difficulties in depositing a titanium oxide layer of over 26,000 angstrom units suggested the present advantage of the silicon system. It is expected also that the thin film found on such compound semiconductors as n-type gallium arsenide is adaptable for use in accordance with this invention."
+        },
+        {
+          "col": 3,
+          "line": 15,
+          "text": "Furthermore, the highest operating voltage V for a particular device is determined by the equation"
+        },
+        {
+          "col": 3,
+          "line": 18,
+          "text": "E_{st}≧(V−V_{f})/t"
+        },
+        {
+          "col": 3,
+          "line": 20,
+          "text": "where E_{st} is the dielectric strength of the dielectric coating."
+        },
+        {
+          "col": 3,
+          "line": 22,
+          "text": "A device of the kind useful in this invention was fabricated starting with a silicon wafer including a uniform concentration of phosphorous and having a resistivity of about 6 ohm centimeters. A silicon dioxide coating was grown over the surface of the wafer by heating the wafer in a water vapor atmosphere for 120 minutes at a temperature of 1200 degrees centigrade. Photo-resist techniques were used to expose two suitably shaped portions of the underlying semi-conductor surface through the oxide and the wafer was exposed to a boron pentoxide vapor. By the closed box diffusion technique disclosed in copending application No. 740,958 of B. T. Howard, filed June 9, 1958, now issued as Patent No. 3,066,052, dated November 27, 1962, a surface concentration of about"
+        },
+        {
+          "col": 3,
+          "line": 36,
+          "text": "10^{20} atoms/cc."
+        },
+        {
+          "col": 3,
+          "line": 39,
+          "text": "of boron was obtained at such exposed portions. This diffusion provided two surface portions of p-type conductivity each having a keyhole shape and separated by an n surface region of .0018 inch by .025 inch. Advantageously, the length of this n-type surface region, divided by its width, is maximized for optimum transconductance. The residual oxide was removed in concentrated hydrofluoric acid. This acid, in about five to ten minutes, provides a coating over the p-type surface portions, which is used often to determine the position of the p-n junctions in silicon. Here, however, the coating is employed to mask the p region in a subsequent etching step wherein the wafer is washed in a 10 to 1 solution of nitric and hydrofluoric acids for twenty to thirty seconds. About .0012 inch of silicon is etched from the unmasked portions of the surface of the wafer. The advantage of this technique is that the initial surface impurity concentration of the p-type surface is maintained by protecting this surface during the etching step, facilitating the application of ohmic contacts. The wafer then was cleaned, and oxidized in steam in accordance with the teaching of the U.S. Patent 2,930,722 to J. R. Ligenza. A 1000 angstrom unit coating of oxide was formed by heating the wafer at about 650 degrees centigrade for forty minutes at a pressure of 55 atmospheres. An aluminum electrode of about 1500 angstroms was evaporated onto the oxide coating opposite the two p-n junctions and the n-type channel. Two holes were drilled through the oxide to the p-type surface portions of the wafer and a gold lead was bonded to the exposed portions in a manner well known in the art. The frequency cut-off for the device was over 10^{8} cycles per second and the maximum voltage applied across the junctions for V_{f}=5 volts was 105 volts."
+        },
+        {
+          "col": 3,
+          "line": 72,
+          "text": "No effort has been made to exhaust the possible embodiments of the invention. It will be understood that the embodiment described is merely illustrative of the preferred form of the invention and various modifications may be made therein without departing from the scope and spirit of this invention."
+        }
+      ]
+    }
+  ],
+  "brief_drawings": [
+    {
+      "fig": "1A",
+      "col": 1,
+      "line": 50,
+      "text": "FIG. 1A is a perspective view partially in cross section of the preferred embodiment of this invention;"
+    },
+    {
+      "fig": "1B",
+      "col": 1,
+      "line": 52,
+      "text": "FIG. 1B is an alternative circuit arrangement for the embodiment of FIG. 1A; and"
+    },
+    {
+      "fig": "2",
+      "col": 1,
+      "line": 54,
+      "text": "FIG. 2 is a graph depicting the current-voltage characteristics of the embodiment of FIG. 1A."
+    }
+  ],
+  "claims": [
+    {
+      "n": 1,
+      "col": 4,
+      "line": 4,
+      "depends": null,
+      "text": "1. In combination, a semiconductor wafer including at least a first and third region of one conductivity type separated by a second region of the opposite conductivity type and defining respectively a first and second p-n junction, said first and second p-n junctions intersecting a major surface of the wafer, a dielectric coating over at least said major surface, means for impressing a voltage across said first and second p-n junctions, means for impressing an electric field across said dielectric in a direction to encompass both said dielectric and said semiconductor wafer, said electric field being particularly characterized in that it is responsive to variations in the voltage across said first and second p-n junctions."
+    },
+    {
+      "n": 2,
+      "col": 4,
+      "line": 17,
+      "depends": null,
+      "text": "2. In combination, a silicon semiconductor wafer including at least a first and third conductivity-type region of one conductivity type separated by a second region of the opposite conductivity type and defining respectively a first and second p-n junction intersecting a major surface of the wafer, a silicon dioxide coating grown over at least said major surface, means for impressing a voltage across said first and second p-n junctions, means for impressing an electric field across said silicon dioxide coating in a direction to encompass both said dielectric and at least said second region of opposite conductivity type, said electric field being particularly characterized in that it is responsive to variations in the voltage across said first and second p-n junctions."
+    },
+    {
+      "n": 3,
+      "col": 4,
+      "line": 31,
+      "depends": null,
+      "text": "3. In combination, a semiconductor wafer including first, second and third conductivity-type regions defining respectively first and second p-n junctions which intersect a major surface of the wafer, a dielectric coating on at least said major surface, a substantially ohmic contact to each of said first and third conductivity regions, an electrode to said dielectric coating, said electrode extending along the surface of said dielectric opposite said second conductivity-type region and said first and second p-n junctions, a load and a first biasing means between the substantially ohmic contacts to said first and third regions, said first biasing means poled to forward bias said first p-n junction and reverse bias said second p-n junction, and a second biasing means connected between said electrode and the contact to said third region."
+    },
+    {
+      "n": 4,
+      "col": 4,
+      "line": 46,
+      "depends": null,
+      "text": "4. In combination, a silicon wafer including first, second and third conductivity-type regions defining respectively first and second p-n junctions which intersect a major surface of the wafer, an oxide coating on at least said major surface, a substantially ohmic contact to each of said first and third conductivity regions, an electrode to said oxide coating, said electrode extending along the surface of said oxide opposite said second conductivity-type region and said first and second p-n junctions, a load and a first biasing means between the substantially ohmic contacts to said first and third regions, said first biasing means poled to forward bias said first p-n junction and reverse bias said second p-n junction, and a second biasing means connected between said electrode and the contact to said third region."
+    },
+    {
+      "n": 5,
+      "col": 4,
+      "line": 61,
+      "depends": null,
+      "text": "5. In combination, a silicon wafer comprising a major portion of a first conductivity type and including adjacent a major surface thereof a first and second surface portion of the opposite conductivity type, the interface between said first and second surface portions and the region of said first conductivity type defining a first and second p-n junction, respectively, a silicon dioxide coating grown on said major surface, a substantially ohmic contact to each of said first and second surface portions, an electrode to said silicon dioxide coating opposite said first and second p-n junctions, a load and a first biasing means between the contacts to said first and second surface portions, said first biasing means poled to forward bias said first p-n junction and reverse bias said second p-n junction, and a second biasing means and a signal generator connected between said electrode and the contact to said second surface portion."
+    },
+    {
+      "n": 6,
+      "col": 5,
+      "line": 3,
+      "depends": null,
+      "text": "6. In combination, a silicon wafer of a first conductivity type including adjacent a major surface thereof a first and second surface portion of the opposite conductivity type, the interface between said first and second surface portions and the major portion of a first conductivity type defining a first and second p-n junction, respectively, said first and second surface portions extending inwardly about .001 inch, said first and second p-n junctions being separated by about .003 inch or less, a silicon dioxide coating grown in said major surface, a substantially ohmic contact to each of said first and second surface portions, an electrode to said silicon dioxide coating opposite said first and second p-n junctions, a load and a first biasing means between the contacts to said first and second surface portions, said first biasing means poled to forward bias said first p-n junction and reverse bias said second p-n junction, and a second biasing means and a signal generator connected between said electrode and the contact to said second surface portion."
+    }
+  ],
+  "ocr_fixes": [
+    {
+      "col": 1,
+      "line": 12,
+      "ocr": "present.",
+      "fixed": "present",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 15,
+      "ocr": "zone. |",
+      "fixed": "zone.",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 16,
+      "ocr": "‘No. 13, 688",
+      "fixed": "No. 13,688",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 22,
+      "ocr": "the.",
+      "fixed": "the",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 23,
+      "ocr": "ibe",
+      "fixed": "be",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 31,
+      "ocr": "intersect. a-major",
+      "fixed": "intersect a major",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 32,
+      "ocr": "‘This",
+      "fixed": "This",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 36,
+      "ocr": "the-",
+      "fixed": "the",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 37,
+      "ocr": "-A",
+      "fixed": "A",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 40,
+      "ocr": "second.",
+      "fixed": "second",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 42,
+      "ocr": "‘The",
+      "fixed": "The",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 42,
+      "ocr": "is.the",
+      "fixed": "is the",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 45,
+      "ocr": "contacts,",
+      "fixed": "contacts.",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 54,
+      "ocr": "a-graph",
+      "fixed": "a graph",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 55,
+      "ocr": "FiG. 1A:",
+      "fixed": "FIG. 1A.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 58,
+      "ocr": "18",
+      "fixed": "10",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 61,
+      "ocr": "thick...",
+      "fixed": "thick.",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 62,
+      "ocr": "di",
+      "fixed": "11",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 63,
+      "ocr": "18.of",
+      "fixed": "18 of",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 65,
+      "ocr": "well-known.",
+      "fixed": "well-known",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 66,
+      "ocr": "between.",
+      "fixed": "between",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 68,
+      "ocr": ".p-n",
+      "fixed": "p-n",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 1,
+      "ocr": "squaré",
+      "fixed": "square",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 2,
+      "ocr": "310-4 (inch)?.",
+      "fixed": "3×10^{−4} (inch)^{2}.",
+      "basis": "scan (times sign and superscripts)"
+    },
+    {
+      "col": 2,
+      "line": 6,
+      "ocr": "-1960:",
+      "fixed": "1960",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 7,
+      "ocr": "Ligenza..",
+      "fixed": "Ligenza.",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 13,
+      "ocr": "1%",
+      "fixed": "19",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 15,
+      "ocr": "and 25",
+      "fixed": "24 and 25",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 16,
+      "ocr": "anda",
+      "fixed": "and a",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 20,
+      "ocr": "V;",
+      "fixed": "V_{f}",
+      "basis": "scan (subscript f)"
+    },
+    {
+      "col": 2,
+      "line": 22,
+      "ocr": "24,",
+      "fixed": "21,",
+      "basis": "scan (electrode 21, as in FIG. 1A)"
+    },
+    {
+      "col": 2,
+      "line": 25,
+      "ocr": "34",
+      "fixed": "31",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 25,
+      "ocr": "FIG,.2.",
+      "fixed": "FIG. 2.",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 27,
+      "ocr": "V;",
+      "fixed": "V_{f}",
+      "basis": "scan (subscript f)"
+    },
+    {
+      "col": 2,
+      "line": 30,
+      "ocr": "value.",
+      "fixed": "value",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 31,
+      "ocr": "V;",
+      "fixed": "V_{f}.",
+      "basis": "scan (subscript f)"
+    },
+    {
+      "col": 2,
+      "line": 31,
+      "ocr": "to.",
+      "fixed": "to",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 32,
+      "ocr": "V~",
+      "fixed": "V_{f}",
+      "basis": "scan (subscript f)"
+    },
+    {
+      "col": 2,
+      "line": 33,
+      "ocr": "occurs. -",
+      "fixed": "occurs.",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 33,
+      "ocr": "invention:",
+      "fixed": "invention",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 39,
+      "ocr": "V;.",
+      "fixed": "V_{f}.",
+      "basis": "scan (subscript f)"
+    },
+    {
+      "col": 2,
+      "line": 39,
+      "ocr": "shown.",
+      "fixed": "shown",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 42,
+      "ocr": "reversal;",
+      "fixed": "reversal,",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 46,
+      "ocr": "silicon.",
+      "fixed": "silicon",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 50,
+      "ocr": "‘There",
+      "fixed": "There",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 54,
+      "ocr": "V;",
+      "fixed": "V_{f}.",
+      "basis": "scan (subscript f)"
+    },
+    {
+      "col": 2,
+      "line": 56,
+      "ocr": "— \"4, Vv \"és t!",
+      "fixed": "E=(e_{f}/e_{s})·(V/t)",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 2,
+      "line": 59,
+      "ocr": "e;",
+      "fixed": "e_{f}",
+      "basis": "scan (subscript) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 60,
+      "ocr": "é,",
+      "fixed": "e_{s}",
+      "basis": "scan (subscript) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 61,
+      "ocr": "¢",
+      "fixed": "t",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 63,
+      "ocr": "&¢ t",
+      "fixed": "e_{f}/t",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 2,
+      "line": 66,
+      "ocr": "eg",
+      "fixed": "e_{f}",
+      "basis": "scan (subscript) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 66,
+      "ocr": "A.",
+      "fixed": "A",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 67,
+      "ocr": "¢",
+      "fixed": "t",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 68,
+      "ocr": "10-5",
+      "fixed": "10^{−5}",
+      "basis": "scan (superscript)"
+    },
+    {
+      "col": 2,
+      "line": 68,
+      "ocr": "-Therefore,",
+      "fixed": "Therefore,",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 69,
+      "ocr": "3.8 10-5 cms.",
+      "fixed": "3.8/(10^{−5} cms.)",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 2,
+      "line": 72,
+      "ocr": "3.8105",
+      "fixed": "3.8×10^{5}",
+      "basis": "scan (times sign and superscripts)"
+    },
+    {
+      "col": 2,
+      "line": 72,
+      "ocr": "—1].",
+      "fixed": "^{−1}].",
+      "basis": "scan (superscript)"
+    },
+    {
+      "col": 3,
+      "line": 1,
+      "ocr": "a.corre-",
+      "fixed": "a corre-",
+      "basis": "scan (speck)"
+    },
+    {
+      "col": 3,
+      "line": 3,
+      "ocr": "be ;",
+      "fixed": "be",
+      "basis": "scan (speck)"
+    },
+    {
+      "col": 3,
+      "line": 4,
+      "ocr": ": 100: 3.8105:",
+      "fixed": "100/(3.8×10^{5})",
+      "basis": "scan (stacked fraction, times sign and superscript)"
+    },
+    {
+      "col": 3,
+      "line": 7,
+      "ocr": "‘or",
+      "fixed": "or",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 8,
+      "ocr": "1000. angstrom. unit.",
+      "fixed": "1000 angstrom unit",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 9,
+      "ocr": "compared:",
+      "fixed": "compared",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 9,
+      "ocr": "the:",
+      "fixed": "the",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 9,
+      "ocr": "‘depositing",
+      "fixed": "depositing",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 10,
+      "ocr": "‘layer",
+      "fixed": "layer",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 10,
+      "ocr": "suggested.",
+      "fixed": "suggested",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 11,
+      "ocr": "- advantage",
+      "fixed": "advantage",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 11,
+      "ocr": "silicon.",
+      "fixed": "silicon",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 11,
+      "ocr": "expected’ also.",
+      "fixed": "expected also",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 13,
+      "ocr": ". D-type ‘gallium",
+      "fixed": "n-type gallium",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 18,
+      "ocr": "BE ~V=Ve st t",
+      "fixed": "E_{st}≧(V−V_{f})/t",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 3,
+      "line": 20,
+      "ocr": "Ey,",
+      "fixed": "E_{st}",
+      "basis": "scan (subscript)"
+    },
+    {
+      "col": 3,
+      "line": 20,
+      "ocr": "istrength",
+      "fixed": "strength",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 21,
+      "ocr": "coating. ;",
+      "fixed": "coating.",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 22,
+      "ocr": "- A",
+      "fixed": "A",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 23,
+      "ocr": "‘wafer",
+      "fixed": "wafer",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 23,
+      "ocr": "uniform.",
+      "fixed": "uniform",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 25,
+      "ocr": "about.6'ohm",
+      "fixed": "about 6 ohm",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 27,
+      "ocr": "- In'a-water",
+      "fixed": "in a water",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 27,
+      "ocr": "120.minutes",
+      "fixed": "120 minutes",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 28,
+      "ocr": "1200.degrees",
+      "fixed": "1200 degrees",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 28,
+      "ocr": "centigrade. ..",
+      "fixed": "centigrade.",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 29,
+      "ocr": "“were",
+      "fixed": "were",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 33,
+      "ocr": "- application",
+      "fixed": "application",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 33,
+      "ocr": "No..740,958",
+      "fixed": "No. 740,958",
+      "basis": "scan (speck)"
+    },
+    {
+      "col": 3,
+      "line": 33,
+      "ocr": ".B.:T..",
+      "fixed": "B. T.",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 34,
+      "ocr": "1958;",
+      "fixed": "1958,",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 34,
+      "ocr": "No,.3,066,052,",
+      "fixed": "No. 3,066,052,",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 35,
+      "ocr": "about :",
+      "fixed": "about",
+      "basis": "scan (speck)"
+    },
+    {
+      "col": 3,
+      "line": 36,
+      "ocr": "atoms 40920 ce.",
+      "fixed": "10^{20} atoms/cc.",
+      "basis": "scan (formula)"
+    },
+    {
+      "col": 3,
+      "line": 39,
+      "ocr": "was.",
+      "fixed": "was",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 41,
+      "ocr": "‘tivity:",
+      "fixed": "tivity",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 42,
+      "ocr": "inch: .",
+      "fixed": "inch.",
+      "basis": "scan (speck)"
+    },
+    {
+      "col": 3,
+      "line": 43,
+      "ocr": "the:length",
+      "fixed": "the length",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 43,
+      "ocr": "‘by",
+      "fixed": "by",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 44,
+      "ocr": "is:",
+      "fixed": "is",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 44,
+      "ocr": "The’",
+      "fixed": "The",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 45,
+      "ocr": "oxide.",
+      "fixed": "oxide",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 46,
+      "ocr": "acid, \"This",
+      "fixed": "acid. This",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 46,
+      "ocr": "‘tenminutes, provides.a",
+      "fixed": "ten minutes, provides a",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 47,
+      "ocr": "used.",
+      "fixed": "used",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 48,
+      "ocr": "‘to",
+      "fixed": "to",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 49,
+      "ocr": "“con,",
+      "fixed": "con.",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 51,
+      "ocr": "1.",
+      "fixed": "1",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 52,
+      "ocr": ". acids",
+      "fixed": "acids",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 56,
+      "ocr": "is-maintained",
+      "fixed": "is maintained",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 56,
+      "ocr": "surface.",
+      "fixed": "surface",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 57,
+      "ocr": "-etching",
+      "fixed": "etching",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 58,
+      "ocr": "then..was",
+      "fixed": "then was",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 58,
+      "ocr": "oxidized:",
+      "fixed": "oxidized",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 63,
+      "ocr": "-atmospheres.",
+      "fixed": "atmospheres.",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 63,
+      "ocr": "of:",
+      "fixed": "of",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 65,
+      "ocr": "the.",
+      "fixed": "the",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 66,
+      "ocr": "‘were",
+      "fixed": "were",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 67,
+      "ocr": "surface.",
+      "fixed": "surface",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 68,
+      "ocr": ".the",
+      "fixed": "the",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 68,
+      "ocr": "in’.",
+      "fixed": "in",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 69,
+      "ocr": "frequency.",
+      "fixed": "frequency",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 69,
+      "ocr": "device.",
+      "fixed": "device",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 70,
+      "ocr": "108",
+      "fixed": "10^{8}",
+      "basis": "scan (superscript)"
+    },
+    {
+      "col": 3,
+      "line": 71,
+      "ocr": "Vj—5",
+      "fixed": "V_{f}=5",
+      "basis": "scan (subscript, equals sign)"
+    },
+    {
+      "col": 3,
+      "line": 72,
+      "ocr": ".to",
+      "fixed": "to",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 73,
+      "ocr": "bodiments’",
+      "fixed": "bodiments",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 73,
+      "ocr": "“It",
+      "fixed": "It",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 75,
+      "ocr": "_ preferred",
+      "fixed": "preferred",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 75,
+      "ocr": "and.",
+      "fixed": "and",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 1,
+      "ocr": "without. departing:",
+      "fixed": "without departing",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 2,
+      "ocr": "invention. :",
+      "fixed": "invention.",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 4,
+      "ocr": "semiconductor.",
+      "fixed": "semiconductor",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 7,
+      "ocr": "respectively-a",
+      "fixed": "respectively a",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 8,
+      "ocr": "p-n.",
+      "fixed": "p-n",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 9,
+      "ocr": "coating.",
+      "fixed": "coating",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 9,
+      "ocr": "least |",
+      "fixed": "least",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 10,
+      "ocr": "actoss:",
+      "fixed": "across",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 11,
+      "ocr": "junctions;",
+      "fixed": "junctions,",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 12,
+      "ocr": "field.",
+      "fixed": "field",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 13,
+      "ocr": "dieléctric",
+      "fixed": "dielectric",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 16,
+      "ocr": "junctions. /",
+      "fixed": "junctions.",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 17,
+      "ocr": "in-°-",
+      "fixed": "in-",
+      "basis": "scan (speck)"
+    },
+    {
+      "col": 4,
+      "line": 20,
+      "ocr": "a »",
+      "fixed": "a",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 22,
+      "ocr": "wafer,.a",
+      "fixed": "wafer, a",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 22,
+      "ocr": "‘at",
+      "fixed": "at",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 24,
+      "ocr": "im- «",
+      "fixed": "im-",
+      "basis": "scan (speck)"
+    },
+    {
+      "col": 4,
+      "line": 25,
+      "ocr": "an-electric.",
+      "fixed": "an electric",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 25,
+      "ocr": "‘silicon dioxide:",
+      "fixed": "silicon dioxide",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 26,
+      "ocr": "direction.",
+      "fixed": "direction",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 27,
+      "ocr": "conductivity: type; :",
+      "fixed": "conductivity type,",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 29,
+      "ocr": "across.",
+      "fixed": "across",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 31,
+      "ocr": "wafer:",
+      "fixed": "wafer",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 33,
+      "ocr": "second’",
+      "fixed": "second",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 35,
+      "ocr": "said:",
+      "fixed": "said",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 35,
+      "ocr": ".a",
+      "fixed": "a",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 35,
+      "ocr": "contact:",
+      "fixed": "contact",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 36,
+      "ocr": "of-said",
+      "fixed": "of said",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 36,
+      "ocr": "conductivity.",
+      "fixed": "conductivity",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 38,
+      "ocr": "second |",
+      "fixed": "second",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 39,
+      "ocr": "and’second",
+      "fixed": "and second",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 40,
+      "ocr": "a-load and-a",
+      "fixed": "a load and a",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 40,
+      "ocr": "biasing-means",
+      "fixed": "biasing means",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 40,
+      "ocr": "sub- -",
+      "fixed": "sub-",
+      "basis": "scan (speck)"
+    },
+    {
+      "col": 4,
+      "line": 45,
+      "ocr": "sdid",
+      "fixed": "said",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 46,
+      "ocr": "4, In-combination,",
+      "fixed": "4. In combination,",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 47,
+      "ocr": "respec- ..",
+      "fixed": "respec-",
+      "basis": "scan (speck)"
+    },
+    {
+      "col": 4,
+      "line": 48,
+      "ocr": "and.",
+      "fixed": "and",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 48,
+      "ocr": "a,",
+      "fixed": "a",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 49,
+      "ocr": "oxide’",
+      "fixed": "oxide",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 49,
+      "ocr": "‘on",
+      "fixed": "on",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 50,
+      "ocr": "‘surface,",
+      "fixed": "surface,",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 50,
+      "ocr": "‘to éach",
+      "fixed": "to each",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 51,
+      "ocr": "first.",
+      "fixed": "first",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 51,
+      "ocr": "electrode -",
+      "fixed": "electrode",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 52,
+      "ocr": "the-",
+      "fixed": "the",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 53,
+      "ocr": "conductivity-°",
+      "fixed": "conductivity-",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 54,
+      "ocr": "-a",
+      "fixed": "a",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 57,
+      "ocr": "biasing:",
+      "fixed": "biasing",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 57,
+      "ocr": "‘bias",
+      "fixed": "bias",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 58,
+      "ocr": "a.Sec-",
+      "fixed": "a sec-",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 59,
+      "ocr": "said.",
+      "fixed": "said",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 62,
+      "ocr": "including. .adja-",
+      "fixed": "including adja-",
+      "basis": "scan (specks) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 63,
+      "ocr": "© cent..a",
+      "fixed": "cent a",
+      "basis": "scan (specks) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 63,
+      "ocr": ".a.first and.",
+      "fixed": "a first and",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 64,
+      "ocr": "portion.",
+      "fixed": "portion",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 64,
+      "ocr": "the:",
+      "fixed": "the",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 64,
+      "ocr": "conductivity:",
+      "fixed": "conductivity",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 64,
+      "ocr": "the’",
+      "fixed": "the",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 65,
+      "ocr": "between. said.",
+      "fixed": "between said",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 65,
+      "ocr": "iand",
+      "fixed": "and",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 65,
+      "ocr": "the |",
+      "fixed": "the",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 67,
+      "ocr": "second’",
+      "fixed": "second",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 68,
+      "ocr": "ing.",
+      "fixed": "ing",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 68,
+      "ocr": "major:",
+      "fixed": "major",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 69,
+      "ocr": "to-each",
+      "fixed": "to each",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 69,
+      "ocr": "-said",
+      "fixed": "said",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 71,
+      "ocr": "p-n'junctions,.a",
+      "fixed": "p-n junctions, a",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 71,
+      "ocr": "‘and",
+      "fixed": "and",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 72,
+      "ocr": "to.",
+      "fixed": "to",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 72,
+      "ocr": "sur:",
+      "fixed": "sur-",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 73,
+      "ocr": "face.",
+      "fixed": "face",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 75,
+      "ocr": "P-n",
+      "fixed": "p-n",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 75,
+      "ocr": "second.",
+      "fixed": "second",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 75,
+      "ocr": "and..a",
+      "fixed": "and a",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 1,
+      "ocr": "between,",
+      "fixed": "between",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 1,
+      "ocr": "‘and",
+      "fixed": "and",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 2,
+      "ocr": "portion. . -..",
+      "fixed": "portion.",
+      "basis": "scan (specks) + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 3,
+      "ocr": ". .. In’",
+      "fixed": "6. In",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 3,
+      "ocr": "‘a",
+      "fixed": "a",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 3,
+      "ocr": "wafer:",
+      "fixed": "wafer",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 4,
+      "ocr": "major. surface:",
+      "fixed": "major surface",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 6,
+      "ocr": ".the",
+      "fixed": "the",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 7,
+      "ocr": "face.portions",
+      "fixed": "face portions",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 8,
+      "ocr": "“type",
+      "fixed": "type",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 9,
+      "ocr": "second.-surface",
+      "fixed": "second surface",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 11,
+      "ocr": "separated. by:",
+      "fixed": "separated by",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 11,
+      "ocr": ".003° inch’",
+      "fixed": ".003 inch",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 11,
+      "ocr": "Jess, .:",
+      "fixed": "less, a",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 11,
+      "ocr": "‘dioxide",
+      "fixed": "dioxide",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 5,
+      "ocr": "first:",
+      "fixed": "first",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 6,
+      "ocr": "p-n.",
+      "fixed": "p-n",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 6,
+      "ocr": "a.second",
+      "fixed": "a second",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 7,
+      "ocr": "- generator",
+      "fixed": "generator",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 7,
+      "ocr": "con- -",
+      "fixed": "con-",
+      "basis": "scan (speck)"
+    },
+    {
+      "col": 6,
+      "line": 8,
+      "ocr": "portion. °",
+      "fixed": "portion.",
+      "basis": "scan (speck) + Google Patents"
+    }
+  ]
+}

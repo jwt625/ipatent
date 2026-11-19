@@ -1,0 +1,97 @@
+{
+  "patent": "Filed March 31, 1975 and issued December 13, 1977 to Robert M. Metcalfe, David R. Boggs, Charles P. Thacker and Butler W. Lampson of the Xerox Palo Alto Research Center (PARC), assigned to Xerox. It is the patent on Ethernet, the local network built at PARC to link Alto workstations and printers and described in Metcalfe and Boggs, \"Ethernet: Distributed Packet Switching for Local Computer Networks,\" Communications of the ACM 19(7), 1976. Stations share one passive coaxial cable with no central controller: each listens before sending (deference), compares what it sends with what is on the cable to detect collisions, aborts on a collision, and retries after a random delay whose mean grows with the number of collisions the packet has met. This scheme is now called carrier sense multiple access with collision detection (CSMA/CD); the random retransmission follows the ALOHA radio network (N. Abramson, AFIPS Fall Joint Computer Conference, 1970). The drawings show the network and stations (FIG. 1), a station with hardware retransmission logic (FIG. 2), a station whose computer does it in software (FIGS. 3-4), transceiver and interface circuits (FIGS. 5-6) and the packet format (FIG. 7). The patent gives the cable's peak rate as roughly three million bits per second. Ethernet was later published at 10 Mbit/s by DEC, Intel and Xerox (1980) and standardized as IEEE 802.3 (1983); CSMA/CD is the 802.3 half-duplex access method, unused on today's switched full-duplex links. Lampson (1992), Thacker (2009) and Metcalfe (2022) later received the ACM Turing Award.",
+  "figs": {
+    "1": "Two coaxial cable segments, 10 running down and 20 running across, each closed at both ends by a terminator 30 and joined by repeater 50 through taps 103 and 203. Double lines are the coax; each tap is drawn as a coax T-connector. Station 125 carries its own retransmission hardware (collision counter 455, weighting circuit 453, random number generator 451) inside interface stage 115; in station 126 the collision signal c goes to using device 128 and the restart signal r comes back from it, because that computer does the same job in software. Hollow arrows are parallel data paths. Stations 225 and 226 on cable 20 are shown only at block level. The labels TRAINSMITTER (misspelled on the drawing) and RECEIVER name driver 301 and receiver 302.",
+    "2": "Station 125 in detail. Top left, transceiver 111: driver 301 and receiver 302 share the tap's center lead; collision detector 113 passes the outgoing signal o through delay 307 and compares it with the received signal i in exclusive OR gate 308, with capacitor 311 filtering short glitches from collision signal c. Receive path: phase decoder 332, receiver shift register 340, address filter 341 (gating the input buffer with f), input buffer 123, using device 127. Transmit path: using device, output buffer 121, transmitter shift register 328 clocked by 330, phase encoder 331, signal o; transmitter control 335 combines c, d, r, u and b. Right: fast clock 462 drives free-running counter 461; shift register 465 takes one more bit at each collision, and AND gates 464 (two drawn) mask the counter outputs with it, so the number loaded into up-down counter 467 is random and its range grows with the collision count. When 467, clocked by restart clock 468, counts down to zero it issues r; e flags too many collisions.",
+    "3": "Station 126, drawn like FIG. 2 but without the retransmission hardware: collision signal c also branches to using device 128 and restart signal r comes back from it, the computer running the routine of FIG. 4. The transceiver (112, with collision detector 114), receiver stage 120 and transmitter stage 118 repeat the parts of FIG. 2 under the same numerals; buses 346 and 326 connect the buffers to the computer.",
+    "4": "Retransmission routine for a station whose using device is a computer, entered on a collision (c). A packet is abandoned with error e when the collision count (the load estimate) has overflowed or when the cable stays busy past a time-out in step 535. Otherwise the routine waits a random time weighted by the number of collisions, waits for a silent cable and retransmits; a further collision updates the load (539) and loops back above the overflow test, while a clean send exits at 540 with r.",
+    "5": "Transceiver circuit; the cable connection is the small coax symbol marked 10 and 21. Top row, driver: signal o through line receiver 502 and isolating transformer T1, D.C. restorer 507/508/509, inverter 511 and transistor 521 to emitter followers 551 and 552, which drive the cable center conductor through protection diode 563. Box 600 is a watchdog: if a driver stays on too long, capacitor 608 charges, amplifier 610 latches and transistor 523 cuts the driver supply, so a failed station cannot jam the cable. Middle row, receiver: emitter follower 620 senses the cable, Schmitt trigger 622 and transformer T2 cross the isolation, and line driver 626 outputs i. Bottom box, collision detector 113: o is buffered (655), delayed by the RC network 651/652 around Schmitt buffer 653, compared with i in exclusive NOR 650, filtered by capacitor 671 and output as c by driver 680. +F is the floating supply on the cable side; +V is the station supply.",
+    "6": "Interface logic in TTL. Top left, box 332, phase decoder: transition detector 700 (flip-flop 701 and exclusive OR 702) makes a pulse at each signal edge, one-shot 703 recovers the bit clock, flip-flop 704 samples the data, and retriggerable one-shot 713 gives carrier signal d. Top right, box 340: two 8-bit shift registers 705 and 706 assemble 16-bit words for input buffer 123; one-shot 709 clears them after each word. Bottom left, box 335, transmitter control: request u or r sets flip-flop 741 (cleared by a collision c), AND gate 742 also collects b and d, and flip-flop 743 enables transmission; flip-flops 810, 812, 813 and NAND gate 811 discard packets shorter than one word. Bottom right, box 328: shift registers 751 and 752 serialize words loaded from output buffer 121. Right, box 331, phase encoder: toggle flip-flop 801 supplies the half-rate data clock, NOR gate 805 combines it with the data, flip-flop 804 retimes, and AND gate 803 gates the result onto o; 4-bit counter 802 counts 16 bits to reload the shift registers.",
+    "7": "Layout of one packet 1000 on the cable, in time order from left to right: the hatched mark bit 1001, the destination address 1002 that receiving stations filter on, the source address 1003, the data 1004 and a final field marked ERROR, which the text describes only as optional error checks at the end of the data. The low line before and after is the silent cable."
+  },
+  "parts": {
+    "31": "In the printed text \"phase encoder 31\" (FIG. 6 description) is a misprint for phase encoder 331; 31 is the shield of cable 20.",
+    "211": "The printed text calls 211 and 212 \"Transistors\" once, apparently a misprint for transceivers.",
+    "308": "Gate 308 sees identical inputs when only this station is sending; any difference means another signal is on the cable, which is the collision.",
+    "455": "Built as 8-bit shift register 465, which shifts in the buffer-ready signal b at each collision, so its filled length tracks the number of collisions for the current packet.",
+    "600": "Turns off the driver if either output transistor stays on longer than a bit interval allows, so a failed station cannot hold the cable.",
+    "703": "The text says one-shot 703 forms clock recovery circuit 730; the number 730 does not appear on the drawing.",
+    "710": "Not numbered in the text; it is the NOR gate beside one-shot 709 in the word-clear logic of the receiver shift register.",
+    "d": "Present while a carrier (bit transitions) is on the cable; its absence is the silence the station waits for before sending.",
+    "T1": "T1 and T2 isolate the station ground from the cable ground; the cable side runs from the floating supply +F."
+  },
+  "glossary": [
+    {
+      "term": "packet switching",
+      "def": "Sending data in short, self-addressed blocks (packets) that share a channel, instead of holding a dedicated connection open for the whole exchange as in circuit switching."
+    },
+    {
+      "term": "CSMA/CD",
+      "def": "Carrier sense multiple access with collision detection: stations listen before sending, keep listening while sending, stop when they detect another transmission, and retry later. The patent calls the parts deference, collision detection and randomized retransmission."
+    },
+    {
+      "term": "collision",
+      "def": "Two or more stations transmitting at once on the shared cable, garbling both packets. It happens because a signal takes time to travel the cable, so a distant station can still hear silence after another has started."
+    },
+    {
+      "term": "backoff",
+      "def": "The random wait before retrying after a collision. Making its mean grow with the number of collisions (the patent's statistical coordination) spreads retries out when the cable is busy; Ethernet standardized it as truncated binary exponential backoff."
+    },
+    {
+      "term": "transceiver",
+      "def": "The circuit at the tap that both drives the cable (transmitter or driver) and listens to it (receiver); here it also holds the collision detector."
+    },
+    {
+      "term": "tap",
+      "def": "The point where a station connects to the cable, here a coaxial T-connector; it is passive, so a station can fail or be removed without breaking the cable."
+    },
+    {
+      "term": "terminator",
+      "def": "A resistor matched to the cable's characteristic impedance at each end, which absorbs signals so they do not reflect back along the cable."
+    },
+    {
+      "term": "repeater",
+      "def": "A device that receives the signal on one cable segment and retransmits it on another, extending the network beyond one cable's length."
+    },
+    {
+      "term": "phase encoding (Manchester code)",
+      "def": "A line code with a transition in the middle of every bit, its direction giving the bit value. The signal carries its own clock, which the receiver recovers, and the presence of transitions shows that the cable is busy."
+    },
+    {
+      "term": "preamble / mark bit",
+      "def": "Bits sent ahead of the address so that receivers can synchronize to the start of a packet."
+    },
+    {
+      "term": "address filtering",
+      "def": "Each station reads the destination address at the head of every packet and keeps only packets addressed to it; nothing in the cable routes packets."
+    },
+    {
+      "term": "exclusive OR / exclusive NOR",
+      "def": "A gate whose output shows whether its two inputs differ (XOR high) or agree (XNOR high)."
+    },
+    {
+      "term": "one-shot",
+      "def": "Monostable multivibrator: a circuit that outputs a pulse of fixed length when triggered. A retriggerable one stays on while triggers keep arriving, which makes it a carrier detector."
+    },
+    {
+      "term": "Schmitt trigger",
+      "def": "A buffer or inverter with hysteresis, giving clean edges from slow or noisy inputs."
+    },
+    {
+      "term": "D.C. restorer",
+      "def": "A capacitor and diode that re-establish the DC level of a signal after it has passed through a transformer, which passes only AC."
+    },
+    {
+      "term": "emitter follower",
+      "def": "A transistor stage whose emitter follows its base voltage, giving current gain to drive a low-impedance load such as the cable."
+    },
+    {
+      "term": "shift register",
+      "def": "A chain of flip-flops that moves bits one place per clock; used here to convert between the parallel words of the using device and the serial bit stream on the cable."
+    },
+    {
+      "term": "using device",
+      "def": "The patent's term for whatever a station serves: a computer, a microprocessor, a terminal, a printer or a memory."
+    }
+  ]
+}

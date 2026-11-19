@@ -1,0 +1,86 @@
+{
+  "patent": "Filed 1971-03-25 (a continuation-in-part of an application filed 1970-12-22) and issued 1973-09-18 to Herwig Kogelnik and Charles V. Shank of Bell Telephone Laboratories. It covers the distributed-feedback (DFB) laser: instead of end mirrors, the feedback comes from a periodic variation of refractive index, gain or propagation constant running the length of the gain medium, which reflects light only near the Bragg wavelength and so narrows the output spectrum. Kogelnik and Shank reported the dye-in-gelatin device of FIG. 2 in \"Stimulated emission in a periodic structure\", Applied Physics Letters 18, 152 (1971), and the coupled-wave analysis behind equations (4) to (10) in \"Coupled-wave theory of distributed feedback lasers\", Journal of Applied Physics 43, 2327 (1972). Semiconductor DFB lasers, with a grating etched into a guiding layer next to the active region, later became the standard single-frequency source for long-haul fiber-optic transmission.",
+  "figs": {
+    "1": "Upper graph: field amplitude E of the two counter-running waves against position z along a structure of length L centred at 0. One curve is zero at -L/2 and grows to the right, the other is zero at L/2 and grows to the left (the boundary condition of equation 5); they cross at the centre, and the pair is the coupled-wave solution of equation (4). Below, structure 11 is drawn with broken ends: the thin vertical lines are the periodic transmission variations, one period Λ apart, and the arrows from pumping means 12 show the pump reaching the medium along its whole length.",
+    "2": "Side view of dye-impregnated gelatin film 21 on glass substrate 22 (dashed diagonal hatching marks glass). Each group of vertical lines is one of the holographically recorded index planes 23, spaced Λ; the text gives Λ as 0.3 μm, so the drawing shows only a few greatly enlarged periods. Pump 24 illuminates the film from above, along its whole length L, and laser output leaves both ends.",
+    "3": "Beams from coherent pumps 32 and 33 enter medium 31 at an angle θ to each other (the circled symbol between the two arrows). Their interference fringes, drawn as groups of lines, are a gain grating of period Λ set by the pump wavelength and θ, so changing θ tunes the laser. Output leaves both ends, the right one going to utilization apparatus 34.",
+    "4": "A single pump 43 shines through grating 42 lying on medium 41. The grating's periodic profile (the black hatched bumps) concentrates the pump into stripes of period Λ in the medium, drawn as groups of lines. The arrows labelled residual pump light leave the underside of the medium; the unlabelled arrows at the ends are the laser output.",
+    "5": "Cross-section of a semiconductor laser: current supply electrode 54 on top, current mask 53 (black hatched layer), active layer 51 and substrate 52. Current, drawn as small downward arrows, passes only through apertures 56, one every Λ, so the gain is modulated along the length. The caption refers to the current-confining masks of stripe-geometry lasers; here the openings repeat along the cavity instead of forming one stripe.",
+    "6": "Side view: active film 61 (stippled with diagonal hatching) on substrate 62, with dielectric elements 64 (half-round in section) spaced Λ along its top. Pumping means 63 illuminates the film uniformly, so the feedback comes only from the periodic dielectric loading of the guided wave, which modulates its propagation constant β. Output is drawn at the right end only.",
+    "7": "Same layering as FIG. 6, but film 71 is itself corrugated: its upper surface undulates with period Λ (thickness variations 74), so the guided-wave propagation constant varies with the thickness. Pump 73 is drawn without rays. Output leaves both ends. A corrugation of this kind in a guiding layer is the grating form used in most later semiconductor DFB lasers.",
+    "8": "Parametric oscillator: crystal 81 (lithium niobate in the text) is end-pumped by pumping laser 82 through a lens. Beams from auxiliary lasers 83 and 84, crossing at θ, write a refractive-index grating of period Λ in the crystal by optical damage; Λ is chosen to feed back the idler, the signal or both, replacing the mirrors of a conventional parametric oscillator. The signal wave leaves at the right."
+  },
+  "parts": {
+    "12": "Called pumping means 12 when introduced and pump source 12 in the threshold discussion.",
+    "24": "Not numbered in the text; the description of FIG. 2 says only that suitable pumping means, for example the ultraviolet output of a nitrogen laser, activate the laser.",
+    "32": "The text calls the two pumps symbolic and suggests one pump split into two beams by mirrors, which keeps their frequency and phase locked.",
+    "42": "The grating does not provide the feedback itself; it modulates the pump intensity, and the resulting periodic gain does.",
+    "83": "As for FIG. 3, the text calls the pair symbolic and suggests a single source with a beam splitter."
+  },
+  "glossary": [
+    {
+      "term": "distributed feedback (DFB)",
+      "def": "Optical feedback supplied by a periodic structure spread along the gain medium, each period reflecting a little light back, instead of by mirrors at the ends."
+    },
+    {
+      "term": "Bragg condition",
+      "def": "A periodic structure of period Λ reflects light strongly backward when the reflections from successive periods add in phase. For first order this is λ0 = 2nΛ, the patent's equation (3); claim 1 also covers integral multiples of half a wavelength (higher orders)."
+    },
+    {
+      "term": "coupled waves",
+      "def": "Description of the field as two counter-running waves, R and S in equation (4), each continuously feeding the other through the periodic perturbation."
+    },
+    {
+      "term": "index coupling / gain coupling",
+      "def": "Feedback from a periodic refractive index (FIGS. 2, 8) or from a periodic gain (FIGS. 3 to 5); equations (8) and (9) give the threshold for each case alone."
+    },
+    {
+      "term": "propagation constant",
+      "def": "β, the phase change per unit length of a guided wave. In a thin film it depends on the film thickness and on the material just outside it, so a periodic thickness or periodic dielectric loading modulates it."
+    },
+    {
+      "term": "dielectric loading",
+      "def": "Placing dielectric material next to a waveguide so that part of the guided field runs in it, changing the propagation constant."
+    },
+    {
+      "term": "oscillation threshold",
+      "def": "The gain at which round-trip (here, distributed) feedback just balances losses, so oscillation can start."
+    },
+    {
+      "term": "dichromated gelatin",
+      "def": "Gelatin sensitized with a dichromate salt; exposure to blue or ultraviolet light and development leave a refractive-index pattern, which makes it a common holographic recording material."
+    },
+    {
+      "term": "Rhodamine 6G",
+      "def": "An organic laser dye emitting in the yellow to orange."
+    },
+    {
+      "term": "nitrogen laser",
+      "def": "A pulsed gas laser emitting at 337 nm in the ultraviolet, widely used to pump dye lasers."
+    },
+    {
+      "term": "He-Cd laser",
+      "def": "Helium-cadmium gas laser with ultraviolet (325 nm) and blue (442 nm) lines."
+    },
+    {
+      "term": "neodymium-YAG",
+      "def": "Yttrium aluminium garnet crystal doped with neodymium ions, a solid-state laser medium emitting near 1.06 μm."
+    },
+    {
+      "term": "stripe geometry laser",
+      "def": "A semiconductor laser in which an insulating mask with a narrow opening confines the drive current to a stripe along the cavity."
+    },
+    {
+      "term": "parametric oscillator",
+      "def": "A device in which a pump wave in a nonlinear crystal splits into two longer-wavelength waves, the signal and the idler, with feedback for one or both."
+    },
+    {
+      "term": "optical damage",
+      "def": "Light-induced refractive-index change in crystals such as lithium niobate, now called the photorefractive effect; it can record an interference pattern as an index grating."
+    },
+    {
+      "term": "Å",
+      "def": "Angstrom, 0.1 nm."
+    }
+  ]
+}

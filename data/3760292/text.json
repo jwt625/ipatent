@@ -1,0 +1,978 @@
+{
+ "pn": "3760292",
+ "number": "3,760,292",
+ "title": "INTEGRATED FEEDBACK LASER",
+ "inventors": [
+  "Herwig Werner Kogelnik",
+  "Charles Vernon Shank"
+ ],
+ "assignee": "Bell Telephone Laboratories, Incorporated, Murray Hill, N.J.",
+ "filed": "1971-03-25",
+ "issued": "1973-09-18",
+ "appl_no": "128,165",
+ "related": "Continuation-in-part of Ser. No. 100,659, Dec. 22, 1970, abandoned.",
+ "int_cl": "H01s 3/00",
+ "us_cl": "331/94.5 C, 307/88.3, 330/4.3, 350/3.5",
+ "field_of_search": "331/94.5; 330/4.3; 307/88.3; 350/3.5, 96 WG",
+ "refs_patents": [
+  {
+   "no": "3,448,405",
+   "date": "6/1969",
+   "name": "Wolff",
+   "cl": "331/94.5"
+  },
+  {
+   "no": "3,239,688",
+   "date": "3/1966",
+   "name": "Price",
+   "cl": "307/312"
+  },
+  {
+   "no": "3,579,142",
+   "date": "5/1971",
+   "name": "Smiley",
+   "cl": "331/94.5"
+  },
+  {
+   "no": "3,611,190",
+   "date": "10/1971",
+   "name": "Keefe, Jr.",
+   "cl": "331/94.5"
+  },
+  {
+   "no": "3,451,010",
+   "date": "6/1969",
+   "name": "Maiman",
+   "cl": "331/94.5"
+  }
+ ],
+ "refs_other": [
+  "Miller: “Integrated Optics: An Introduction”, The Bell System Technical Journal, Vol. 48, pp. 2059–2069, Sept. 1969."
+ ],
+ "examiners": "Primary Examiner--Edward S. Bauer; Attorney--W. L. Keefauver et al.",
+ "claims_count": 12,
+ "drawing_figures": 8,
+ "drawing_sheets": 3,
+ "abstract": "Active materials having substantially time constant, spatially alternating variations in the propagation characteristics thereof produce laser oscillations when excited above a threshold of oscillation.",
+ "sections": [
+  {
+   "heading": "CROSS REFERENCE TO RELATED APPLICATION",
+   "paras": [
+    {
+     "col": 1,
+     "line": 4,
+     "text": "This application is a continuation-in-part of U.S. patent application of H. W. Kogelnik and C. V. Shank, Ser. No. 100,659, filed Dec. 22, 1970, now abandoned."
+    }
+   ]
+  },
+  {
+   "heading": "BACKGROUND OF THE INVENTION",
+   "paras": [
+    {
+     "col": 1,
+     "line": 9,
+     "text": "This invention relates to laser devices and, more particularly, to feedback arrangements for laser oscillators."
+    },
+    {
+     "col": 1,
+     "line": 12,
+     "text": "Laser oscillators, in general, consist of an active medium which produces gain and a resonator structure which provides feedback to produce the desired build-up of oscillations. The resonator structure may be any of a number of forms. The most common is, perhaps, a pair of mirrors, one at each end of the active medium, which reflect the optical energy back into the active medium. The mirrors may be planar or, as is more often the case, concave, in which case a focusing effect is realized. In virtually all cases the alignment of the mirrors and their spacing is to some extent critical. Furthermore, the mechanical problem of maintaining alignment and spacing under operating conditions gives rise to complex and expensive arrangements. It is also usually desirable that the mirrors present little loss to the impinging light beam. However, low loss mirrors, such as dielectric mirrors, are not only expensive, but generally are delicate and easily damaged."
+    },
+    {
+     "col": 1,
+     "line": 30,
+     "text": "In the case of solid state lasers, the resonator can be formed by silvering the ends of the solid active medium. However, these ends must be extremely flat and parallel or, in the case of curved mirrors, must be carefully ground to the proper radii and smoothness."
+    },
+    {
+     "col": 1,
+     "line": 35,
+     "text": "A further drawback to such resonator structures, as discussed in the foregoing, arises from the fact that the resonator is necessarily many wavelengths long. As a consequence, several oscillatory modes exist within the resonator, resulting in a broadening of the spectral band of the laser output."
+    },
+    {
+     "col": 1,
+     "line": 41,
+     "text": "In the prior art, some of the alignment problems can be obviated through the use of prisms, such as roof or corner prisms, to form the resonator reflecting surfaces. In some cases this also results in a fairly narrow spectral bandwidth. However, such prisms are quite difficult to manufacture to the desired degree of precision, and are, as a result, expensive."
+    }
+   ]
+  },
+  {
+   "heading": "SUMMARY OF THE INVENTION",
+   "paras": [
+    {
+     "col": 1,
+     "line": 50,
+     "text": "The present invention overcomes the aforementioned problems through the elimination of the resonator cavity as such. The feedback mechanism, essential to oscillation, is distributed through and integrated with the active medium of the laser. In particular, the feedback structure is created by substantially time constant, spatially periodic perturbations in the transmission characteristics of the medium along the length thereof which may take the form of variations in the gain, index of refraction, propagation constant or other parameter of the medium. Such a distributed, integral feedback arrangement is inherently mechanically stable and in addition, because of the grating-like nature of the feedback structure, a filtering action occurs which drastically narrows the spectral bandwidth relative to conventional feedback arrangements."
+    },
+    {
+     "col": 1,
+     "line": 67,
+     "text": "In an illustrative embodiment of the invention, the laser active medium comprises a film of dichromated gelatin deposited on a glass substrate and impregnated with a dye having laser capability. An interference pattern exists in the gelatin layer, having been formed by holographic means, thereby creating within the medium a time constant spatial modulation of the refractive index of the active medium. When pumped by suitable means in excess of the oscillation threshold, the laser oscillates in an extremely narrow spectral band."
+    },
+    {
+     "col": 2,
+     "line": 9,
+     "text": "In other embodiments of the invention, substantially time constant, spatially periodic perturbatins in the transmission characteristics of the laser are produced by periodic gain variations, periodic loading of the medium, or periodic deformations, all in a variety of active media."
+    },
+    {
+     "col": 2,
+     "line": 15,
+     "text": "All of the illustrative embodiments of the invention have in common the principal feature of a substantially time constant, spatial periodicity in the transmission characteristics of the active medium."
+    },
+    {
+     "col": 2,
+     "line": 19,
+     "text": "The various features and principles of the invention will be more readily apparent from the following detailed description read in conjunction with the accompanying drawings."
+    }
+   ]
+  },
+  {
+   "heading": "DESCRIPTION OF THE DRAWINGS",
+   "paras": [
+    {
+     "col": 2,
+     "line": 25,
+     "text": "FIG. 1 is a diagrammatic illustration of the principles of the present invention;"
+    },
+    {
+     "col": 2,
+     "line": 27,
+     "text": "FIG. 2 is an illustrative embodiment of the invention in which refractive index is varied;"
+    },
+    {
+     "col": 2,
+     "line": 29,
+     "text": "FIGS. 3, 4 and 5 are illustrative embodiments of the invention in which the gain mechanism is varied;"
+    },
+    {
+     "col": 2,
+     "line": 31,
+     "text": "FIGS. 6 and 7 are illustrative embodiments of the invention in which the propagation constant is varied; and"
+    },
+    {
+     "col": 2,
+     "line": 34,
+     "text": "FIG. 8 illustrates the principles of the invention as applied to a parametric oscillator."
+    }
+   ]
+  },
+  {
+   "heading": "DETAILED DESCRIPTION",
+   "paras": [
+    {
+     "col": 2,
+     "line": 38,
+     "text": "In FIG. 1 there is shown diagrammatically a distributed feedback laser structure 11 and a suitable pumping means 12. The structure 11 has a periodic spatial variation of period Λ, which may take one of a number of forms, such as a variation in the index of refraction n of the medium or a variation in the gain constant α. These variations can be expressed by"
+    },
+    {
+     "col": 2,
+     "line": 45,
+     "text": "n(z) = n + n_{1} cos Kz  1"
+    },
+    {
+     "col": 2,
+     "line": 47,
+     "text": "and"
+    },
+    {
+     "col": 2,
+     "line": 48,
+     "text": "α(z) = α + α_{1} cos Kz  2"
+    },
+    {
+     "col": 2,
+     "line": 50,
+     "text": "where z is measured along the optic axis, K = 2π/Λ, and n_{1} and α_{1} are the amplitudes of the spatial modulation of period Λ. Such a structure, when the active medium is excited above a threshold level by the pump source 12, oscillates in the vicinity of a wavelength λ_{o} given by"
+    },
+    {
+     "col": 2,
+     "line": 56,
+     "text": "λ_{o}/2n = Λ  3"
+    },
+    {
+     "col": 2,
+     "line": 58,
+     "text": "which is the condition for backward Bragg scattering."
+    },
+    {
+     "col": 2,
+     "line": 59,
+     "text": "For purposes of explanation of the principles of the invention, consider an input wave incident upon the structure 11, as shown in FIG. 1. The wave, in traveling from left to right in the drawing encounters each transmission variation in turn, and a portion of it is reflected back, giving rise to a wave traveling from right to left. This wave in turn undergoes periodic partial reflections which enhance the original wave. Thus there is a coupled wave phenomenon of the form"
+    },
+    {
+     "col": 3,
+     "line": 1,
+     "text": "E = R(z)e^{−jKz/2} + S(z)e^{jKz/2}  (4)"
+    },
+    {
+     "col": 3,
+     "line": 4,
+     "text": "which defines two counter-running waves of complex amplitudes R and S. As shown in the graph of FIG. 1, these waves grow in the presence of gain and feed energy to each other. The boundary conditions for the wave amplitudes are given by"
+    },
+    {
+     "col": 3,
+     "line": 9,
+     "text": "R(−L/2) = S(L/2) = 0  5"
+    },
+    {
+     "col": 3,
+     "line": 11,
+     "text": "where L is the length of the laser structure. In a laser oscillator, at the endpoints a wave starts at zero amplitude and grows to a maximum at the other end. Each pair of periodic variations can be viewed as forming a resonator of length Λ in which the end surfaces are partially transmitting and partially reflecting. Thus the structure of FIG. 1 can be viewed as a plurality of partial resonators in tandem."
+    },
+    {
+     "col": 3,
+     "line": 19,
+     "text": "For large gain factors, that is, where"
+    },
+    {
+     "col": 3,
+     "line": 20,
+     "text": "G = exp (2αL) >> 1  6"
+    },
+    {
+     "col": 3,
+     "line": 22,
+     "text": "the start oscillation condition, i.e., threshold, is given by"
+    },
+    {
+     "col": 3,
+     "line": 24,
+     "text": "4α^{2}/G = (πn_{1}/λ)^{2} + (α_{1}/4)^{2}  7"
+    },
+    {
+     "col": 3,
+     "line": 26,
+     "text": "If only the refractive index is modulated, as given in equation (1), the threshold condition becomes"
+    },
+    {
+     "col": 3,
+     "line": 28,
+     "text": "n_{1} = (λ_{o}/L) (1nG/π √G)  8"
+    },
+    {
+     "col": 3,
+     "line": 30,
+     "text": "and where only the gain is modulated, the threshold condition is given by"
+    },
+    {
+     "col": 3,
+     "line": 32,
+     "text": "α_{1}/α = 4/ √G  9"
+    },
+    {
+     "col": 3,
+     "line": 34,
+     "text": "The spectral bandwidth of the laser output can be readily determined by linear analysis from the foregoing. Thus, for example, when the gain factor G exceeds the threshold value at center frequency by a factor of 2, the threshold is exceeded over a spectral bandwidth Δλ as given by"
+    },
+    {
+     "col": 3,
+     "line": 40,
+     "text": "Δλ/λ_{o} = (λ_{o}/4πnL) 1nG  10"
+    },
+    {
+     "col": 3,
+     "line": 42,
+     "text": "In actuality, non-linear effects tend to narrow the bandwidth further. As an example, assume a device of length L = 10 mm, G = 100, and λ_{o} = 0.63μm (center frequency). From equation (8) it can be seen that oscillation occurs if n_{1} ≥ 10^{−5} and from equation (10) it can be seen that the bandwidth is Δλ≈0.1A. Such a bandwidth is at least an order of magnitude less than that of a conventional dye laser."
+    },
+    {
+     "col": 3,
+     "line": 50,
+     "text": "FIG. 2 depicts an illustrative embodiment of the invention wherein the laser member comprises a dichromated gelatin film 21 deposited on, for example, a glass substrate 22. Formed within the film 21 are a plurality of interference planes 23 of index of refraction change, spaced a distance Λ apart. The planes 23 may be produced in the gelatin by interference between two coherent ultraviolet beams from, for example, a He-Cd laser, after which the gelatin is developed. This is a holographic technique well known to workers in the art, and produces time constant spatially periodic index of refraction changes in the gelatin. The gelatin is impregnated with an active laser medium such as a laser dye, e.g., Rhodamine 6G. Suitable pumping means, such as, for example, the ultraviolet radiation from a nitrogen laser, serves to activate the laser. In such a laser of a length of 10mm and a width of 0.1 mm, with a frine spacing Λ of 0.3μm, pumping densities in excess of 10^{6} W/cm^{2} produce laser oscillations in the structure at approximately 0.63μm with a spatial bandwidth of less than 0.5A. A similar laser, without the periodic variations of refractive index of the embodiment of FIG. 2 produces oscillations centered at approximately 0.59μm and having a bandwidth of approximately 50A. Thus it can be seen that the present invention, as embodied in the device of FIG. 2, produces line narrowing by a factor of 100."
+    },
+    {
+     "col": 4,
+     "line": 10,
+     "text": "In FIG. 3 there is shown still another embodiment of the present invention wherein a solid state laser medium 31 such as, for example, neodymium —YAG, has induced therein a substantially time constant, spatially periodic interference pattern produced by the interference between angularly directed pumping lights from first and second coherent pump sources 32 and 33, thereby producing periodic gain variation. The two pump sources shown are intended to be symbolic or numerous arrangements. An expeditious way of achieving the desired frequency and phase relationship of the two beams is through the use of a single pump whose output is split into two beams with a mirror arrangement for directing the beams into the median at the desired angles. Proper choice of pump wavelength and angular direction of the beams produces the desired spacing Λ. The output of the laser may be utilized in any suitable manner such as, for example, utilization apparatus 34. The arrangement of FIG. 3 has the added virtue of tunability since variations in the angle θ produce changes in Λ, thereby changing the laser wavelength."
+    },
+    {
+     "col": 4,
+     "line": 31,
+     "text": "From equation (3) it can be seen that the wavelength of oscillation λ_{o} is a function of the index of refraction n of the medium. Thus, in, for example, the arrangement of FIG. 3, for a fixed Λ, tuning may also be achieved by varying n, where the nature of the medium permits. For example, in a dye laser where the dye is Rhodamine 6G and the solvent is a mixture of methanol and benzyl alcohol, the index of refraction can easily be varied from 1.33 to 1.55 by varying the proportions of the solvent constituents. In an arrangement such as FIG. 3, for a fixed angle θ of approximately 107.6°, a change of 0.01 in n changes λ_{o} by approximately 43A. for a dye concentration of 1 × 10^{−3}M."
+    },
+    {
+     "col": 4,
+     "line": 44,
+     "text": "Periodic pump variations similar to those of FIG. 3 can also be realized by the arrangement of FIG. 4 wherein the laser medium 41, which may be any of a number of types, has deposited thereon or in proximity thereto an optical grating 42 which produces within the medium periodic intensity variations in the pumping energy from the pump source 43."
+    },
+    {
+     "col": 4,
+     "line": 51,
+     "text": "In a semiconductor laser, the pump periodicities of FIGS. 3 and 4 can be achieved by the arrangement of FIG. 5. The embodiment of FIG. 5 comprises a semiconductor laser 51 of suitable material deposited or mounted on a substrate 52. On one surface of the member 51 is a current mask 53 which permits pumping or energizing current from a current supply electrode 54 to pass only through apertures 56 which are spaced a distance Λ apart. The net effect is to produce a periodic gain variation within the semiconductor laser member 51."
+    },
+    {
+     "col": 4,
+     "line": 62,
+     "text": "The foregoing embodiments of the invention depend upon index of refraction or gain variations to achieve the desired results. It is also possible to produce a laser oscillator in accordance with the principles of the invention through spatially periodic variations of the propagation constant β of the active medium. Such an arrangement is shown in FIG. 6. The device of FIG. 6 comprises a thin film active medium 61 of, for example, neodymium doped high index glass, mounted or deposited upon a suitable substrate 62. A source of pumping energy 63 serves to excite the active medium 61. Disposed on the surface of the medium 61 are a plurality of dielectric elements 64 of glass, for example, which extend across the member 61 and are parallel to each other. Elements 64 are spaced a distance Λ apart, and, through the mechanism of dielectric loading, producing variations in the propagations constant β of the thin film member 61, spaced a distance Λ apart."
+    },
+    {
+     "col": 5,
+     "line": 13,
+     "text": "In FIG. 7 there is shown an arrangement similar to that of FIG. 6. A thin film member 71 of suitable active material is mounted or deposited upon a suitable substrate 72. A pumping means 73 supplies energy to the medium 71. In accordance with the principles of the invention, one surface of member 71 has a plurality of thickness variations 74 of periodicity Λ. These variations in turn produce variations in the propagation constant β of the medium, of a periodicity Λ."
+    },
+    {
+     "col": 5,
+     "line": 22,
+     "text": "In FIG. 8 there is shown an arrangement in which the principles of the invention are utilized in a parametric oscillator. A member 81 of suitable material, such as, for example, lithium niobate, is end pumped by a pumping laser 82, such as, for example, a krypton ion laser, which emits light in the red region of the spectrum. In accordance with the principles of the present invention, there is formed within the member 81 a time constant, spatially periodic index of refraction change by means of the interference between two coherent beams from auxiliary lasers 83 and 84, directed into the medium 81 at an angle θ to each other. As is the case in the arrangement of FIG. 3, a pair of beam sources is intended to symbolize numerous arrangements. In actuality, a single source with a beam splitter and scissor arrangement is perhaps the most expeditious way of insuring the proper phase and frequency relationships between the two beams. The interference pattern is created in the medium through the well known “damage” mechanism which occurs in lithium niobate, for example, when subjected to coherent radiation."
+    },
+    {
+     "col": 5,
+     "line": 43,
+     "text": "For parametric oscillations, the period Λ of the interference pattern may be such as to feed back the idler wave. Thus the auxiliary laser or lasers 83, 84 may be argon ion lasers, which produce light in the ultraviolet region of the spectrum. On the other hand Λ may be chosen to feed back the signal frequency, or, in certain cases, it may be such that both signal and idler are fed back."
+    },
+    {
+     "col": 5,
+     "line": 52,
+     "text": "The various principles and features of the present invention have been illustrated in the foregoing as applied to numerous embodiments. Various other arrangements utilizing these principles and features may occur to workers in the art without departure from the spirit of the invention."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 2,
+   "line": 25,
+   "text": "FIG. 1 is a diagrammatic illustration of the principles of the present invention;"
+  },
+  {
+   "fig": "2",
+   "col": 2,
+   "line": 27,
+   "text": "FIG. 2 is an illustrative embodiment of the invention in which refractive index is varied;"
+  },
+  {
+   "fig": "3",
+   "col": 2,
+   "line": 29,
+   "text": "FIGS. 3, 4 and 5 are illustrative embodiments of the invention in which the gain mechanism is varied;"
+  },
+  {
+   "fig": "4",
+   "col": 2,
+   "line": 29,
+   "text": "FIGS. 3, 4 and 5 are illustrative embodiments of the invention in which the gain mechanism is varied;"
+  },
+  {
+   "fig": "5",
+   "col": 2,
+   "line": 29,
+   "text": "FIGS. 3, 4 and 5 are illustrative embodiments of the invention in which the gain mechanism is varied;"
+  },
+  {
+   "fig": "6",
+   "col": 2,
+   "line": 31,
+   "text": "FIGS. 6 and 7 are illustrative embodiments of the invention in which the propagation constant is varied; and"
+  },
+  {
+   "fig": "7",
+   "col": 2,
+   "line": 31,
+   "text": "FIGS. 6 and 7 are illustrative embodiments of the invention in which the propagation constant is varied; and"
+  },
+  {
+   "fig": "8",
+   "col": 2,
+   "line": 34,
+   "text": "FIG. 8 illustrates the principles of the invention as applied to a parametric oscillator."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 5,
+   "line": 59,
+   "depends": null,
+   "text": "1. An optical frequency oscillator comprising an active medium and a feedback mechanism, said feedback mechanism comprising substantially time constant, spatially periodic perturbations in the transmission characteristics of the medium continuously along the length thereof and substantially transverse to the optical direction of propagation of energy in the medium, said perturbations being of sufficient magnitude and being spaced by an integral multiple of one-half wave lengths of the optical frequency oscillations to produce sufficient feedback of the optical energy to sustain oscillations, and means for exciting said active medium to produce oscillations."
+  },
+  {
+   "n": 2,
+   "col": 6,
+   "line": 4,
+   "depends": 1,
+   "text": "2. An optical frequency oscillator as claimed in claim 1 wherein the periodicity of said perturbations is given by λ_{o}/2n = Λ where Λ is the period, λ_{o} is the wavelength of oscillations and n is the index of refraction of said medium."
+  },
+  {
+   "n": 3,
+   "col": 6,
+   "line": 11,
+   "depends": 2,
+   "text": "3. An optical frequency oscillator as claimed in claim 2 wherein said perturbations are of the form n(z) = n + n_{1} cos Kz where z is distance measured along the optical axis of said oscillator, n_{1} is the maximum amplitude of the index of refraction, and K = 2π/Λ."
+  },
+  {
+   "n": 4,
+   "col": 6,
+   "line": 18,
+   "depends": 2,
+   "text": "4. An optical frequency oscillator as claimed in claim 2 wherein said perturbations are of the form α(z) = α + α_{1} cos Kz where α is the gain of the active medium, z is distance measured along the optical axis of the oscillator, α_{1} is the maximum gain of the medium, and K = 2π/Λ."
+  },
+  {
+   "n": 5,
+   "col": 6,
+   "line": 25,
+   "depends": null,
+   "text": "5. An optical frequency oscillator comprising an active medium and a feedback mechanism, said feedback mechanism comprising means for producing substantially time constant, spatially periodic perturbations in the gain characteristics of the medium continuously along the length thereof and substantially transverse to the direction of propagation of optical energy in the medium, said perturbations being of sufficient magnitude and being spaced by an integral multiple of one-half wave lengths of the optical frequency oscillations to produce sufficient feedback of the optical energy to sustain oscillations, and pumping means for exciting said active medium to produce oscillations."
+  },
+  {
+   "n": 6,
+   "col": 6,
+   "line": 38,
+   "depends": 5,
+   "text": "6. An optical frequency oscillator as claimed in claim 5 wherein said means for producing substantially time constant, spatially periodic perturbations comprises means for directing pumping energy into said medium at an angle to the direction of pumping energy of said pumping means."
+  },
+  {
+   "n": 7,
+   "col": 6,
+   "line": 44,
+   "depends": 5,
+   "text": "7. An optical frequency oscillator as claimed in claim 5 wherein said means for producing substantially time constant, spatially periodic perturbations comprises means for causing the pump energy to enter said active medium at spaced intervals along the length thereof."
+  },
+  {
+   "n": 8,
+   "col": 6,
+   "line": 49,
+   "depends": 7,
+   "text": "8. An optical frequency oscillator as claimed in claim 7 wherein said last mentioned means comprises a diffraction grating adjacent to and extending along the length of said active medium."
+  },
+  {
+   "n": 9,
+   "col": 6,
+   "line": 53,
+   "depends": 7,
+   "text": "9. An optical frequency oscillator as claimed in claim 7 wherein said last mentioned means comprises an apertured mask extending along the length of said active medium."
+  },
+  {
+   "n": 10,
+   "col": 6,
+   "line": 57,
+   "depends": null,
+   "text": "10. An optical frequency oscillator comprising an active medium and a feedback mechanism, said feedback mechanism comprising means for producing substantially time constant, spatially periodic perturbations in the propagation constant of said medium continuously along the length thereof and substantially transverse to the direction of propagation of optical energy in the medium, said perturbations being of sufficient magnitude and being spaced by an integral multiple of one-half wave lengths of the optical frequency oscillations to produce sufficient feedback of the optical energy to sustain oscillations, and pumping means for exciting said active medium to produce oscillations."
+  },
+  {
+   "n": 11,
+   "col": 7,
+   "line": 3,
+   "depends": 10,
+   "text": "11. An optical frequency oscillator as claimed in claim 10 wherein said means for producing substantially time constant, spatially periodic perturbations in the propagation constant comprises a plurality of dielectric members spaced along the length of said active medium for periodically dielectrically loading said medium."
+  },
+  {
+   "n": 12,
+   "col": 8,
+   "line": 2,
+   "depends": 10,
+   "text": "12. An optical frequency oscillator as claimed in claim 10 wherein said active medium is of solid material and said means for producing substantially time constant, spatially periodic perturbations in the propagation constant comprises a plurality of spaced thickness variations along the length of said medium."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "col": 2,
+   "line": 29,
+   "ocr": "§",
+   "fixed": "5",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 30,
+   "ocr": "varied,",
+   "fixed": "varied;",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 41,
+   "ocr": "period A,",
+   "fixed": "period Λ,",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 43,
+   "ocr": "constant a.",
+   "fixed": "constant α.",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 47,
+   "ocr": "- and",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 50,
+   "ocr": "K = 27/A,",
+   "fixed": "K = 2π/Λ,",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 51,
+   "ocr": "n, and a,",
+   "fixed": "n_{1} and α_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 52,
+   "ocr": "period A.",
+   "fixed": "period Λ.",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 54,
+   "ocr": "wavelength d,",
+   "fixed": "wavelength λ_{o}",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 15,
+   "ocr": "length A",
+   "fixed": "length Λ",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 39,
+   "ocr": "AA as",
+   "fixed": "Δλ as",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 44,
+   "ocr": "A, = 0.63.m",
+   "fixed": "λ_{o} = 0.63μm",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 46,
+   "ocr": "if n, = 10-5",
+   "fixed": "if n_{1} ≥ 10^{−5}",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 47,
+   "ocr": "AA=0.1A.",
+   "fixed": "Δλ≈0.1A.",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 55,
+   "ocr": "distance A apart",
+   "fixed": "distance Λ apart",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 67,
+   "ocr": "spacing A of 0.3um",
+   "fixed": "spacing Λ of 0.3μm",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 67,
+   "ocr": "10°",
+   "fixed": "10^{6}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 1,
+   "ocr": "W/cm?",
+   "fixed": "W/cm^{2}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 2,
+   "ocr": "0.63m",
+   "fixed": "0.63μm",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 6,
+   "ocr": "0.59..m",
+   "fixed": "0.59μm",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 12,
+   "ocr": "neodymium — YAG",
+   "fixed": "neodymium —YAG",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 25,
+   "ocr": "spacing A.",
+   "fixed": "spacing Λ.",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 29,
+   "ocr": "angle @",
+   "fixed": "angle θ",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 30,
+   "ocr": "in A,",
+   "fixed": "in Λ,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 32,
+   "ocr": "A, is",
+   "fixed": "λ_{o} is",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 34,
+   "ocr": "fixed A,",
+   "fixed": "fixed Λ,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 41,
+   "ocr": "angle 6",
+   "fixed": "angle θ",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 42,
+   "ocr": "in m changes A,",
+   "fixed": "in n changes λ_{o}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 43,
+   "ocr": "| x 107°M.",
+   "fixed": "1 × 10^{−3}M.",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 58,
+   "ocr": "$6",
+   "fixed": "56",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 59,
+   "ocr": "distance A apart",
+   "fixed": "distance Λ apart",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 61,
+   "ocr": "§1.",
+   "fixed": "51.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 67,
+   "ocr": "constant A of",
+   "fixed": "constant β of",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 9,
+   "ocr": "distance A apart",
+   "fixed": "distance Λ apart",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 11,
+   "ocr": "constant 8",
+   "fixed": "constant β",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 12,
+   "ocr": "distance A apart",
+   "fixed": "distance Λ apart",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 19,
+   "ocr": "periodicity A.",
+   "fixed": "periodicity Λ.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 21,
+   "ocr": "constant 8",
+   "fixed": "constant β",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 21,
+   "ocr": "periodicity A.",
+   "fixed": "periodicity Λ.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 31,
+   "ocr": "by. means",
+   "fixed": "by means",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 33,
+   "ocr": "angle @",
+   "fixed": "angle θ",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 40,
+   "ocr": "“‘damage”",
+   "fixed": "“damage”",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 43,
+   "ocr": "paramettric",
+   "fixed": "parametric",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 43,
+   "ocr": "period A",
+   "fixed": "period Λ",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 47,
+   "ocr": "hand A may",
+   "fixed": "hand Λ may",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 9,
+   "ocr": "where A is the period, A, is",
+   "fixed": "where Λ is the period, λ_{o} is",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 10,
+   "ocr": "and vn is",
+   "fixed": "and n is",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 16,
+   "ocr": "m,; is",
+   "fixed": "n_{1} is",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 17,
+   "ocr": "K = 27/A.",
+   "fixed": "K = 2π/Λ.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 22,
+   "ocr": "where a is",
+   "fixed": "where α is",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 23,
+   "ocr": "a, is",
+   "fixed": "α_{1} is",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 24,
+   "ocr": "K = 2a/A.",
+   "fixed": "K = 2π/Λ.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 25,
+   "ocr": "§.",
+   "fixed": "5.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 39,
+   "ocr": "§ wherein",
+   "fixed": "5 wherein",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 45,
+   "ocr": "§ wherein",
+   "fixed": "5 wherein",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 53,
+   "ocr": "9,",
+   "fixed": "9.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 3,
+   "ocr": "oscillator. as",
+   "fixed": "oscillator as",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 4,
+   "ocr": "claim 10:",
+   "fixed": "claim 10",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 3,
+   "ocr": "is: of",
+   "fixed": "is of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 4,
+   "ocr": "rial.and",
+   "fixed": "rial and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 45,
+   "ocr": "n(z) =n+n, cos Kz I",
+   "fixed": "n(z) = n + n_{1} cos Kz 1",
+   "basis": "scan (display equation)"
+  },
+  {
+   "col": 2,
+   "line": 48,
+   "ocr": "a(z)=a+a, cos Kz 2",
+   "fixed": "α(z) = α + α_{1} cos Kz 2",
+   "basis": "scan (display equation)"
+  },
+  {
+   "col": 2,
+   "line": 56,
+   "ocr": "A /an=A 3",
+   "fixed": "λ_{o}/2n = Λ 3",
+   "basis": "scan (display equation)"
+  },
+  {
+   "col": 3,
+   "line": 1,
+   "ocr": "jKz —jKz E=R(z)e +S8(z)e —s (4) 2",
+   "fixed": "E = R(z)e^{−jKz/2} + S(z)e^{jKz/2} (4)",
+   "basis": "scan (display equation)"
+  },
+  {
+   "col": 3,
+   "line": 9,
+   "ocr": "R(-L/2) = S(L/2) = 0 5",
+   "fixed": "R(−L/2) = S(L/2) = 0 5",
+   "basis": "scan (display equation)"
+  },
+  {
+   "col": 3,
+   "line": 20,
+   "ocr": "G=exp (2aL) >> 1 6",
+   "fixed": "G = exp (2αL) >> 1 6",
+   "basis": "scan (display equation)"
+  },
+  {
+   "col": 3,
+   "line": 24,
+   "ocr": "402/G = (any/d)? + (4/4)? 7",
+   "fixed": "4α^{2}/G = (πn_{1}/λ)^{2} + (α_{1}/4)^{2} 7",
+   "basis": "scan (display equation)"
+  },
+  {
+   "col": 3,
+   "line": 28,
+   "ocr": "n, = (A/L) (inGla VG) 8",
+   "fixed": "n_{1} = (λ_{o}/L) (1nG/π √G) 8",
+   "basis": "scan (display equation)"
+  },
+  {
+   "col": 3,
+   "line": 32,
+   "ocr": "afja=4/ VE 9",
+   "fixed": "α_{1}/α = 4/ √G 9",
+   "basis": "scan (display equation)"
+  },
+  {
+   "col": 3,
+   "line": 40,
+   "ocr": "ANA, = (Ag/4arnL) InG 10",
+   "fixed": "Δλ/λ_{o} = (λ_{o}/4πnL) 1nG 10",
+   "basis": "scan (display equation)"
+  },
+  {
+   "col": 6,
+   "line": 7,
+   "ocr": "d,/2n = A",
+   "fixed": "λ_{o}/2n = Λ",
+   "basis": "scan (display equation)"
+  },
+  {
+   "col": 6,
+   "line": 14,
+   "ocr": "n(z)=n+n, cos Kz",
+   "fixed": "n(z) = n + n_{1} cos Kz",
+   "basis": "scan (display equation)"
+  },
+  {
+   "col": 6,
+   "line": 21,
+   "ocr": "a(z) =a +a, cos Kz",
+   "fixed": "α(z) = α + α_{1} cos Kz",
+   "basis": "scan (display equation)"
+  }
+ ]
+}

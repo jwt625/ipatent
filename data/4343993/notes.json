@@ -1,0 +1,106 @@
+{
+  "patent": "Filed 1980-09-12 (Swiss priority 1979-09-20) and issued 1982-08-10 to Gerd Binnig and Heinrich Rohrer of the IBM Zurich Research Laboratory, assigned to IBM. It is the patent on the scanning tunneling microscope (STM): a sharp tip is held a few angstroms above a conducting sample, a feedback loop moves the tip vertically to keep the tunneling current (equivalently, the tunnel resistance) constant while piezo drives raster it across the surface, and the recorded drive voltages form the image. Because the current changes by roughly an order of magnitude per angstrom of gap, the method resolves height differences far below an atomic step. The first published results were Binnig, Rohrer, Gerber and Weibel, Appl. Phys. Lett. 40, 178 (1982) and Phys. Rev. Lett. 49, 57 (1982), followed by real-space images of the Si(111) 7x7 reconstruction, Phys. Rev. Lett. 50, 120 (1983). Binnig and Rohrer shared half of the 1986 Nobel Prize in Physics for the design of the STM (the other half went to Ernst Ruska for the electron microscope). The closest prior instrument, cited on the front page, is the Topografiner of Young, Ward and Scire (Rev. Sci. Instrum., 1972), which scanned a tip under feedback in the field-emission regime, farther from the surface. The patent specifies ultra-high vacuum, temperatures below 1 K and superconducting levitation; later STMs routinely work at room temperature and, for suitable samples, in air.",
+  "figs": {
+    "1": "Block diagram. The large box is vacuum chamber 1 with pump 2 and cryogenic source 3 at its base; inside, tip 5 sits above sample 4, and the small boxes x, y, z on the chamber wall are piezo drives 6, 7, 8. Lines from the three drives, the tip and the sample run to measuring equipment 9. The feedback loop is 9 to control means 10 to the z drive 8; the output path is 9 to analyzing means 11, which feeds plotter 12 and screen 13.",
+    "2": "Energy diagram, energy E upward. Each metal is a well (14, 15) filled up to its highest occupied level (hatched). The barrier 16 between them has width d (the vacuum gap) and height set by the work function, the energy from the top of the filled states up to emission edge 17. Well 14 is drawn slightly higher than well 15, which represents a small applied voltage; arrow 18 is electrons tunneling horizontally through the barrier at constant energy.",
+    "3": "Tunneling current I against gap d, with the formula I ~ e^{-a√Φ·d} above the curve. The axis ticks 20 and 21 Å are one angstrom apart.",
+    "4": "Side view, greatly enlarged. Tip 5 is the hatched half-disc; the vertical lines below it are the tunneling current, confined to the narrow region of closest approach. Sample 4 is hatched in section; its surface carries a single step and gentle roughness. The tip moves right (arrow 19) while the feedback moves it up and down (arrow 20).",
+    "5": "Perspective of one raster line on sample 4 (hatched in section). The dashed line on the surface is the path of the tip's shadow; the dotted line above it is the path of tip 5 itself, following the surface at constant gap. The next line is scanned after a shift in y.",
+    "6": "Display of a scan: each curve is the z drive voltage Vz plotted against the x drive voltage Vx for one value of the y drive voltage Vy, with successive curves offset upward. With a uniform work function the family of curves is an enlarged relief of the surface. This stacked line-scan format is how early STM images were shown.",
+    "7": "As FIG. 4, but sample 4 is flat and contains a region 21 of different work function (the vertical line and the change in hatching direction mark its boundary). The dashed line is the tip path under constant-current feedback: it steps at the boundary although the surface does not. Arrow 22 is the small extra vertical modulation of the tip; the formula notes that the resulting dI/dz scales with the square root of the work function.",
+    "8": "Display of the modulation signal, laid out like FIG. 6: each curve is (dI/dz) squared, proportional to the work function, against Vx for one value of Vy.",
+    "9": "Resolution chart on log axes: lateral resolution horizontal (angstroms below, nanometres above), vertical resolution vertical (nanometres left, angstroms right). Smaller values, toward the lower left, are finer resolution. Each outlined region is one instrument, drawn in its own line style: the eye 23 at the top right, optical instruments 24 to 28, electron microscopes 29 (dotted) and 30 (long dashes), and the STM 31 (heavy outline) extending to the bottom of the chart.",
+    "10": "Plan view of the lateral drive, z out of the page. L-shaped piezo ceramic piece 32 carries two electrodes (cross-hatched): 33 on the horizontal leg, which lengthens or shortens in x, and 34 on the vertical leg, which does the same in y. End 35 is fixed to the hatched support, so free end 36 moves in both x and y.",
+    "11": "Plan view of the vertical (z) walker. H-shaped piezo piece 38 sits between the two edges 39 of the guide; the cross-hatched areas are its drive electrodes: 42 on the hind legs, 43 on the body, 44 on the fore legs and 45 on head 41, which carries tip 5. The double-headed arrow is the direction of travel.",
+    "11.1": "Drive voltages for coarse stepping against time; the subscripts are the electrode numerals of FIG. 11. V_{42} and V_{44} are in antiphase, so one leg pair clamps while the other releases; V_{43} switches a quarter period later, lengthening or shortening the body while one pair is clamped. The tall ticks mark one period and the short ticks its four phases.",
+    "12": "Perspective of a length of guide member 37. The notch 40 along the floor makes the trough flexible; the two edges 39 along the top carry the inward-facing grooves that hold the legs of piece 38, and the screw head on the right shows how an edge is fastened to the trough.",
+    "13": "Vertical section through the cryostat and vibration isolation. Horizontal dashes mark liquid: nitrogen in outer jacket 46 (in at 47, out at 48) and helium in inner jacket 49 (in at 50, out at 51). Inside, pot 54 is raised by bellows 55 pressurised with helium-3 through pipes 56 and pulled down by spring 57, drawn as the rows of dots (coil turns in section). Columns 58 of copper blocks 60 joined by springs 61 (dotted) carry the curved superconducting tray 59, above which hovering support 52, the curved band of magnets with the instrument on top, floats without touching. The left and right halves mirror each other.",
+    "14": "The whole vacuum chamber 1 in section. The upper bell jar with its ports separates from the lower part at flange 62; the cryostat of FIG. 13 (46, 49, 52) stands on girder 63, with supply lines leaving through the feed-throughs at left. The arrow 2 at the bottom points to the pump."
+  },
+  "parts": {
+    "2": "In FIG. 1 a box standing for all pumping equipment; in FIG. 14 the numeral labels the arrow toward the pump port.",
+    "8": "Besides the scan, this drive closes the feedback loop through control means 10 that holds the gap constant.",
+    "17": "The vacuum level: the energy at which an electron leaves the metal freely.",
+    "21": "A region of different work function, for example an enclosure, an oxide layer or an adsorbate, as the text lists.",
+    "23": "Region bounded by the heavy line at the top right of FIG. 9.",
+    "31": "Region bounded by the heavy outline that runs down to the bottom of FIG. 9.",
+    "42": "In FIG. 11.1 the numeral appears only as the subscript of drive voltage V_{42}; likewise 43 and 44.",
+    "52": "The text uses the numeral both for the hovering support and for the arrangement it carries: sample, tip with drives, and first amplifier stages.",
+    "57": "Shown in section as rows of dots, one per coil turn, between pot 54 and jacket 49.",
+    "59": "A curved niobium tray; once superconducting it repels the permanent magnets under support 52, which then floats above it."
+  },
+  "glossary": [
+    {
+      "term": "tunnel effect",
+      "def": "Quantum-mechanical passage of an electron through a potential barrier higher than its energy; the probability falls exponentially with barrier width."
+    },
+    {
+      "term": "work function",
+      "def": "The minimum energy needed to remove an electron from a solid into vacuum, a few electron volts for metals; written as the Greek letter phi."
+    },
+    {
+      "term": "tunnel resistance",
+      "def": "Applied voltage divided by tunneling current; holding it constant holds the gap constant when the work function does not vary."
+    },
+    {
+      "term": "Angstrom",
+      "def": "0.1 nanometre, about the radius of an atom."
+    },
+    {
+      "term": "UHV",
+      "def": "Ultra-high vacuum, pressures below about 10^{-9} Torr. The patent asks for better than 10^{-10} Torr (about 10^{-8} Pa)."
+    },
+    {
+      "term": "Torr",
+      "def": "Pressure unit, 1/760 of an atmosphere, about 133 Pa."
+    },
+    {
+      "term": "piezo drive",
+      "def": "A piezoelectric ceramic actuator: an applied field changes its dimensions in proportion, giving sub-angstrom, reproducible motion."
+    },
+    {
+      "term": "raster scan",
+      "def": "Scanning an area as a series of parallel lines, stepping sideways between lines, as in a television picture."
+    },
+    {
+      "term": "closed loop control",
+      "def": "Feedback: the measured current is compared with a set value and the error drives the z actuator to remove it."
+    },
+    {
+      "term": "block-in amplifier",
+      "def": "The patent's wording for a lock-in amplifier, which extracts the component of a signal at a known reference frequency and phase."
+    },
+    {
+      "term": "field emission",
+      "def": "Emission of electrons from a sharp tip into vacuum under a strong electric field, by tunneling through the narrowed surface barrier; the electrons then travel freely, unlike the bound-electron tunneling across a gap used here."
+    },
+    {
+      "term": "LEED / SIMS",
+      "def": "Low-energy electron diffraction and secondary ion mass spectrometry, surface analysis methods named in the background."
+    },
+    {
+      "term": "numeric aperture",
+      "def": "Numerical aperture: the sine of the half-angle of the light cone an objective accepts, times the refractive index; it sets optical resolution."
+    },
+    {
+      "term": "dilution refrigerator",
+      "def": "A cryostat that cools below about 1 K by mixing helium-3 into helium-4."
+    },
+    {
+      "term": "3He / 4He",
+      "def": "The two stable helium isotopes. The bellows gas must stay gaseous below 1 K, and the patent names helium-3 as suitable."
+    },
+    {
+      "term": "calotte",
+      "def": "A spherical cap, a bowl shape; a magnet floating over a bowl-shaped superconductor is pushed back toward the centre."
+    },
+    {
+      "term": "eigen frequency",
+      "def": "Natural resonant frequency. Mistuned spring-mass stages pass little vibration from one to the next."
+    },
+    {
+      "term": "Topografiner",
+      "def": "An instrument of Young, Ward and Scire at the US National Bureau of Standards (Rev. Sci. Instrum., 1972) that scanned a field-emission tip over a surface under feedback; a precursor cited by this patent."
+    }
+  ]
+}

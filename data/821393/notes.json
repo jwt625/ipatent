@@ -1,0 +1,71 @@
+{
+  "patent": "Filed March 23, 1903 and issued May 22, 1906 to Orville and Wilbur Wright of Dayton, Ohio. The application was filed nine months before their first powered flights near Kitty Hawk, North Carolina, on December 17, 1903, and it describes an unpowered biplane glider of the configuration of their 1902 glider; no engine or propellers appear. Its core is lateral control: the prone operator shifts a cradle under his body, which pulls a cable system to give both wings a helical twist (wing warping), so the two wingtips meet the air at different angles; a rope tied into that system turns the rear vertical rudder to cancel the yaw this produces. A flexible elevator ahead of the wings gives pitch control. The broad claims on moving the lateral margins to different angles became the basis of the Wrights' infringement suits against Glenn Curtiss and other aviators from 1909; the dispute ended in 1917, when US aircraft makers formed a cross-licensing pool, the Manufacturers Aircraft Association.",
+  "figs": {
+    "1": "Seen from above and in front, with the front rudder 31 nearest the viewer and the vertical rudder 22 behind. Dashed outlines show the wings warped with cradle 18 moved to the right (arrow on the cradle): on the left side front corners a and e rise and rear corners d and h drop, on the right side the reverse, as the arrows at d, e, c and f show. Rope 15 runs along the front of the lower wing and up to the upper rear corners; rope 19 runs along the rear of the lower wing and up to the upper front corners; the heavy crossed lines between standards 8 are stay wires 12.",
+    "2": "Plan view with the front at the bottom. Dashed lines are frame members under the covering; small break-outs in the cloth expose spars 3 and ribs 5, and the cross-hatched patch 6 shows the bias-cut fabric with its threads diagonal to them. The dashed copies of cradle 18 and rudder 22 show the cradle shifted to one side and the rudder turned by tiller-rope 27, whose two runs reach out to rope 19 along the rear edge. The front rudder 31 is drawn as a frame of cross-pieces 32-34 and ribs 35, with the operator's roller 37 just behind it.",
+    "3": "Side elevation with the front at the right. The upper wing 1 is drawn slightly curved, as the text says cloth surfaces may be under air load. Dashed lines show the rudder supports 23 swung upward, as when the rudder strikes the ground, and the front rudder 31 flexed with its rear edge raised. Turning roller 37 drives roller 39 through bands 38; arms 40 and links 41 move the rear edge of the front rudder while springs 36 hold its front edge to the upturned skid ends 30.",
+    "4": "Detail of a lower standard joint, viewed at right angles to FIG. 5. The eye 9 at the end of standard 8 hangs on hook 10, which rises from bracket-plate 11; pin 14 keeps the eye on the hook. The hatched coil around the foot of standard 8 is not described in the text; the shank of eye 9 runs under it, drawn dashed.",
+    "5": "The same joint seen face-on, with the two stay wires 12 that meet there. The left wire is held on hook 10 beside eye 9 and retained by pin 14; the right wire sits on hook 13, integral with hook 10 and bent down to keep the wire from slipping off. Bracket-plate 11 is fastened to a spar, which is not drawn."
+  },
+  "parts": {
+    "7": "Not shown in the drawings; the wire runs in a hem along the rear edge of the cloth and is carried by the rear ends of ribs 5.",
+    "17": "Not named in the text; marks where the ends of rope 15 are attached at the upper rear corners c and d.",
+    "21": "Not named in the text; marks where the ends of rope 19 are secured at the upper front corners a and b.",
+    "27": "Ties the rudder to rope 19, so the warp control also turns the rudder; the drawings show no separate rudder control.",
+    "31": "Called an elevator today. Mounted ahead of the wings, a layout now called canard."
+  },
+  "glossary": [
+    {
+      "term": "aeroplane",
+      "def": "In this patent, the wing or supporting surface, not the whole aircraft; the text defines the term this way."
+    },
+    {
+      "term": "angle of incidence",
+      "def": "In this patent, the angle at which a surface meets the oncoming air; today called the angle of attack, while angle of incidence now means the fixed setting angle of a wing."
+    },
+    {
+      "term": "lateral balance",
+      "def": "Balance about the fore-and-aft axis of the machine; control of roll."
+    },
+    {
+      "term": "helicoidal warp",
+      "def": "A helical twist of the whole wing, so its angle of incidence changes steadily from one tip to the other. Called wing warping; ailerons later replaced it."
+    },
+    {
+      "term": "horizontal rudder",
+      "def": "A surface that turns about a horizontal axis to steer up or down; today an elevator."
+    },
+    {
+      "term": "vertical rudder",
+      "def": "A surface that turns about a vertical axis to steer left or right; today simply the rudder."
+    },
+    {
+      "term": "balanced rudder",
+      "def": "A control surface pivoted near its center of pressure, so the air load on it gives little turning moment and it takes little force to move."
+    },
+    {
+      "term": "center of pressure",
+      "def": "The point through which the resultant air force on a surface acts. On the cambered wings of the period it moved rearward as the angle of incidence fell, which tends to pitch the machine nose down."
+    },
+    {
+      "term": "soaring-machine",
+      "def": "A glider kept aloft by wind or by gliding descent rather than by an engine."
+    },
+    {
+      "term": "stay-wire",
+      "def": "A tensioned bracing wire; with the standards and wing spars it forms a truss."
+    },
+    {
+      "term": "truss-skid",
+      "def": "A trussed runner under the front of the machine that takes the landing and keeps it from tipping forward."
+    },
+    {
+      "term": "cut on the bias",
+      "def": "Cut so that the threads of the cloth run diagonally to the edges of the piece."
+    },
+    {
+      "term": "universal joint",
+      "def": "A joint that lets the parts it connects turn relative to each other in more than one plane."
+    }
+  ]
+}

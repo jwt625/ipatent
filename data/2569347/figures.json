@@ -1,0 +1,1041 @@
+{
+ "pn": "2569347",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    290,
+    610,
+    1060,
+    990
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1090,
+    610,
+    1885,
+    1030
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    330,
+    1060,
+    1170,
+    1530
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3A",
+   "label": "FIG. 3A",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    450,
+    1540,
+    865,
+    1915
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3B",
+   "label": "FIG. 3B",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    420,
+    1990,
+    720,
+    2380
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1240,
+    1070,
+    1770,
+    1710
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    720,
+    1740,
+    1595,
+    2300
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1600,
+    1740,
+    1900,
+    2250
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "FIG. 7",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1335,
+    2290,
+    1875,
+    2630
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8",
+   "label": "FIG. 8",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    360,
+    2372,
+    1310,
+    2890
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9",
+   "label": "FIG. 9",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    350,
+    670,
+    1800,
+    1450
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10",
+   "label": "FIG. 10",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    320,
+    1620,
+    1165,
+    2880
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11",
+   "label": "FIG. 11",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    320,
+    640,
+    1160,
+    2670
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12",
+   "label": "FIG. 12",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    1165,
+    1610,
+    1925,
+    2570
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "13",
+   "label": "FIG. 13",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    1280,
+    810,
+    1910,
+    2740
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "10",
+   "name": "zones",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "zones",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "barrier",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "connections",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "connections",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "drop of electrolyte",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "wire loop",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "17",
+   "name": "conductor",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "battery",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "power source"
+   ]
+  },
+  {
+   "ref": "19",
+   "name": "conductor",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "21",
+   "name": "source of signal voltage",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "bias source",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "conductors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "conductors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "25",
+   "name": "conductors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "30",
+   "name": "blocks or bodies of insulating material",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "31",
+   "name": "blocks or bodies of insulating material",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "electrode",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "base",
+    "base electrode"
+   ]
+  },
+  {
+   "ref": "33",
+   "name": "electrodes",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "emitter"
+   ]
+  },
+  {
+   "ref": "34",
+   "name": "electrodes",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "collector"
+   ]
+  },
+  {
+   "ref": "35",
+   "name": "zone",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "N zone"
+   ]
+  },
+  {
+   "ref": "36",
+   "name": "P-type zones",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "P zone"
+   ]
+  },
+  {
+   "ref": "37",
+   "name": "P-type zones",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "38",
+   "name": "barriers",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "39",
+   "name": "barriers",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "41",
+   "name": "battery",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "42",
+   "name": "signal source",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "43",
+   "name": "input connections",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "44",
+   "name": "input connections",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "45",
+   "name": "battery",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "51",
+   "name": "layer or zone of P-type material",
+   "figs": [
+    "3",
+    "6"
+   ],
+   "alt": [
+    "P layer",
+    "P zone"
+   ]
+  },
+  {
+   "ref": "52",
+   "name": "layers or zones of N-type material",
+   "figs": [
+    "3",
+    "6"
+   ],
+   "alt": [
+    "N zone"
+   ]
+  },
+  {
+   "ref": "53",
+   "name": "layers or zones of N-type material",
+   "figs": [
+    "3",
+    "3A",
+    "3B"
+   ],
+   "alt": [
+    "N zone"
+   ]
+  },
+  {
+   "ref": "53a",
+   "name": "layer of reduced extent",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "54",
+   "name": "barriers",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "55",
+   "name": "barriers",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "junction"
+   ]
+  },
+  {
+   "ref": "56",
+   "name": "electrodes",
+   "figs": [
+    "3",
+    "6"
+   ],
+   "alt": [
+    "emitter"
+   ]
+  },
+  {
+   "ref": "57",
+   "name": "electrodes",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "base",
+    "base electrode"
+   ]
+  },
+  {
+   "ref": "57a",
+   "name": "contact",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "58",
+   "name": "electrodes",
+   "figs": [
+    "3",
+    "3A",
+    "6"
+   ],
+   "alt": [
+    "collector",
+    "collector electrode"
+   ]
+  },
+  {
+   "ref": "61",
+   "name": "P zone",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "62",
+   "name": "N zones",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "63",
+   "name": "N zones",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "64",
+   "name": "metallic grid",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "base electrode",
+    "grid or base electrode"
+   ]
+  },
+  {
+   "ref": "65",
+   "name": "projecting portion",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "66",
+   "name": "emitter and collector electrodes",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "67",
+   "name": "emitter and collector electrodes",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "68",
+   "name": "layers",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "high impurity layers"
+   ]
+  },
+  {
+   "ref": "69",
+   "name": "layers",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "high impurity layers"
+   ]
+  },
+  {
+   "ref": "70",
+   "name": "layers",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "high impurity layers"
+   ]
+  },
+  {
+   "ref": "71",
+   "name": "layer of insulation",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "80",
+   "name": "zone of P-type material",
+   "figs": [
+    "3A"
+   ],
+   "alt": [
+    "additional P zone"
+   ]
+  },
+  {
+   "ref": "81",
+   "name": "point contact",
+   "figs": [
+    "3B"
+   ]
+  },
+  {
+   "ref": "91",
+   "name": "layers or zones",
+   "figs": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "92",
+   "name": "layers or zones",
+   "figs": [
+    "8",
+    "9"
+   ],
+   "alt": [
+    "P layers"
+   ]
+  },
+  {
+   "ref": "93",
+   "name": "layers or zones",
+   "figs": [
+    "8",
+    "9"
+   ],
+   "alt": [
+    "N layer"
+   ]
+  },
+  {
+   "ref": "94",
+   "name": "layers or zones",
+   "figs": [
+    "8",
+    "9"
+   ],
+   "alt": [
+    "P layers"
+   ]
+  },
+  {
+   "ref": "95",
+   "name": "layers or zones",
+   "figs": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "96",
+   "name": "electrodes",
+   "figs": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "97",
+   "name": "electrodes",
+   "figs": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "98",
+   "name": "emitter and collector electrodes",
+   "figs": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "99",
+   "name": "emitter and collector electrodes",
+   "figs": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "101",
+   "name": "sources",
+   "figs": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "102",
+   "name": "sources",
+   "figs": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "103",
+   "name": "source",
+   "figs": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "104",
+   "name": "sources",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "105",
+   "name": "sources",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "106",
+   "name": "",
+   "figs": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "107",
+   "name": "",
+   "figs": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "108",
+   "name": "additional electrode",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "109",
+   "name": "source",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "110",
+   "name": "semiconductive layers or slabs",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "111",
+   "name": "semiconductive layers or slabs",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "112",
+   "name": "semiconductive layers or slabs",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "113",
+   "name": "semiconductive layers or slabs",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "114",
+   "name": "insulator slab",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "E",
+   "name": "emitter",
+   "figs": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ]
+  },
+  {
+   "ref": "B",
+   "name": "base",
+   "figs": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "11"
+   ]
+  },
+  {
+   "ref": "C",
+   "name": "collector",
+   "figs": [
+    "2",
+    "3",
+    "3A",
+    "3B",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13"
+   ]
+  },
+  {
+   "ref": "B_{1}",
+   "name": "",
+   "figs": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "B_{2}",
+   "name": "",
+   "figs": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "R_{L}",
+   "name": "load",
+   "figs": [
+    "1",
+    "2",
+    "3"
+   ],
+   "alt": [
+    "resistance"
+   ]
+  },
+  {
+   "ref": "L_{C}",
+   "name": "isolating chokes",
+   "figs": [
+    "8",
+    "9"
+   ],
+   "alt": [
+    "chokes"
+   ]
+  },
+  {
+   "ref": "C_{B}",
+   "name": "blocking condensers",
+   "figs": [
+    "8",
+    "9"
+   ]
+  },
+  {
+   "ref": "L_{T}",
+   "name": "tuning elements",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "C_{T}",
+   "name": "tuning elements",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "T",
+   "name": "coupling transformer",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "N_{E}",
+   "name": "substantially parallel layers",
+   "figs": [
+    "10",
+    "11",
+    "12"
+   ]
+  },
+  {
+   "ref": "N_{C}",
+   "name": "substantially parallel layers",
+   "figs": [
+    "10",
+    "11",
+    "12",
+    "13"
+   ]
+  },
+  {
+   "ref": "P",
+   "name": "substantially parallel layers",
+   "figs": [
+    "10",
+    "11",
+    "12"
+   ]
+  },
+  {
+   "ref": "P_{C}",
+   "name": "layer of P-type material",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "V_{1}",
+   "name": "potential",
+   "figs": [
+    "10",
+    "11"
+   ]
+  },
+  {
+   "ref": "V_{2}",
+   "name": "potential",
+   "figs": [
+    "10",
+    "11"
+   ]
+  },
+  {
+   "ref": "V_{3}",
+   "name": "potential",
+   "figs": [
+    "10",
+    "11"
+   ]
+  },
+  {
+   "ref": "U_{1}",
+   "name": "potential energy difference",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "U_{2}",
+   "name": "",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "X",
+   "name": "",
+   "figs": [
+    "13"
+   ]
+  }
+ ]
+}

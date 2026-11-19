@@ -1,0 +1,552 @@
+{
+ "fig": "1",
+ "w": 1015,
+ "h": 500,
+ "stroke": 4,
+ "elements": [
+  {
+   "id": "generator",
+   "kind": "block",
+   "ref": "10",
+   "shapes": [
+    {
+     "t": "p",
+     "d": [
+      [
+       43.5,
+       96.6
+      ],
+      [
+       269.2,
+       100.5
+      ],
+      [
+       268.5,
+       227.6
+      ],
+      [
+       42.7,
+       224.1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "generator-text",
+   "kind": "text",
+   "ref": "10",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "GENERATOR",
+     "x": 55.0,
+     "y": 157.0,
+     "size": 34.7,
+     "italic": true,
+     "bold": true,
+     "len": 194.0
+    },
+    {
+     "t": "t",
+     "s": "(",
+     "x": 61.0,
+     "y": 189.0,
+     "size": 37.4,
+     "italic": true,
+     "bold": true,
+     "len": 13.4
+    },
+    {
+     "t": "t",
+     "s": "SEE FIG. 2",
+     "x": 70.0,
+     "y": 195.0,
+     "size": 34.6,
+     "italic": true,
+     "bold": true,
+     "len": 159.0
+    },
+    {
+     "t": "t",
+     "s": ")",
+     "x": 226.0,
+     "y": 195.0,
+     "size": 43.3,
+     "italic": true,
+     "bold": true,
+     "len": 14.6
+    }
+   ]
+  },
+  {
+   "id": "amplifier",
+   "kind": "block",
+   "ref": "12",
+   "shapes": [
+    {
+     "t": "p",
+     "d": [
+      [
+       370.7,
+       102.5
+      ],
+      [
+       591.8,
+       106.0
+      ],
+      [
+       590.8,
+       233.0
+      ],
+      [
+       369.2,
+       229.0
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "amplifier-text",
+   "kind": "text",
+   "ref": "12",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "MODULATED",
+     "x": 385.0,
+     "y": 149.0,
+     "size": 36.1,
+     "italic": true,
+     "bold": true,
+     "len": 193.0
+    },
+    {
+     "t": "t",
+     "s": "AMPLIFIER",
+     "x": 381.0,
+     "y": 181.0,
+     "size": 37.5,
+     "italic": true,
+     "bold": true,
+     "len": 184.0
+    },
+    {
+     "t": "t",
+     "s": "(",
+     "x": 386.0,
+     "y": 214.0,
+     "size": 41.2,
+     "italic": true,
+     "bold": true,
+     "len": 13.5
+    },
+    {
+     "t": "t",
+     "s": "SEE FIG. 3",
+     "x": 400.0,
+     "y": 217.0,
+     "size": 33.3,
+     "italic": true,
+     "bold": true,
+     "len": 153.0
+    },
+    {
+     "t": "t",
+     "s": ")",
+     "x": 549.0,
+     "y": 217.0,
+     "size": 41.2,
+     "italic": true,
+     "bold": true,
+     "len": 15.8
+    }
+   ]
+  },
+  {
+   "id": "detector",
+   "kind": "block",
+   "ref": "13",
+   "shapes": [
+    {
+     "t": "p",
+     "d": [
+      [
+       692.6,
+       107.1
+      ],
+      [
+       913.8,
+       110.7
+      ],
+      [
+       913.2,
+       236.9
+      ],
+      [
+       691.7,
+       234.0
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "detector-text",
+   "kind": "text",
+   "ref": "13",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "DETECTOR",
+     "x": 698.0,
+     "y": 185.0,
+     "size": 33.4,
+     "italic": true,
+     "bold": true,
+     "len": 176.0
+    }
+   ]
+  },
+  {
+   "id": "modulating-source",
+   "kind": "block",
+   "ref": "11",
+   "shapes": [
+    {
+     "t": "p",
+     "d": [
+      [
+       369.2,
+       329.3
+      ],
+      [
+       589.3,
+       332.9
+      ],
+      [
+       588.9,
+       456.1
+      ],
+      [
+       367.7,
+       452.7
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "modulating-source-text",
+   "kind": "text",
+   "ref": "11",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "MODULATING",
+     "x": 372.0,
+     "y": 384.0,
+     "size": 34.7,
+     "italic": true,
+     "bold": true,
+     "len": 213.0
+    },
+    {
+     "t": "t",
+     "s": "SOURCE",
+     "x": 419.0,
+     "y": 425.0,
+     "size": 33.3,
+     "italic": true,
+     "bold": true,
+     "len": 127.0
+    }
+   ]
+  },
+  {
+   "id": "beam-gen-amp",
+   "kind": "wire",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       268.8,
+       165.4
+      ],
+      [
+       310.0,
+       166.5
+      ],
+      [
+       370.0,
+       167.2
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "d": [
+      [
+       304.5,
+       158.5
+      ],
+      [
+       322.0,
+       166.8
+      ],
+      [
+       304.5,
+       174.5
+      ]
+     ],
+     "fill": "solid",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "id": "beam-amp-det",
+   "kind": "wire",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       591.3,
+       170.7
+      ],
+      [
+       630.0,
+       171.4
+      ],
+      [
+       692.2,
+       172.4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "d": [
+      [
+       621.5,
+       164.0
+      ],
+      [
+       648.0,
+       172.0
+      ],
+      [
+       621.5,
+       179.5
+      ]
+     ],
+     "fill": "solid",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "id": "modulation-src-amp",
+   "kind": "wire",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       480.2,
+       331.1
+      ],
+      [
+       481.1,
+       290.0
+      ],
+      [
+       481.8,
+       231.0
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "d": [
+      [
+       474.5,
+       293.5
+      ],
+      [
+       481.6,
+       268.5
+      ],
+      [
+       488.5,
+       293.5
+      ]
+     ],
+     "fill": "solid",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "id": "label-10",
+   "kind": "label",
+   "ref": "10",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "10",
+     "x": 36.0,
+     "y": 75.0,
+     "size": 33.4,
+     "italic": true,
+     "bold": true,
+     "len": 34.3
+    }
+   ]
+  },
+  {
+   "id": "leader-10",
+   "kind": "leader",
+   "ref": "10",
+   "shapes": [
+    {
+     "t": "path",
+     "d": "M 75.5 66 Q 79 69 79.8 76 L 80.3 84 L 80 96 L 80.5 104.5"
+    }
+   ]
+  },
+  {
+   "id": "label-12",
+   "kind": "label",
+   "ref": "12",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "12",
+     "x": 335.0,
+     "y": 81.0,
+     "size": 34.7,
+     "italic": true,
+     "bold": true,
+     "len": 34.3
+    }
+   ]
+  },
+  {
+   "id": "leader-12",
+   "kind": "leader",
+   "ref": "12",
+   "shapes": [
+    {
+     "t": "path",
+     "d": "M 358 85 Q 356.5 92 356.5 100 L 357 108 Q 359 113 363 116.5 Q 367 119.5 371 120.5"
+    }
+   ]
+  },
+  {
+   "id": "label-13",
+   "kind": "label",
+   "ref": "13",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "13",
+     "x": 937.0,
+     "y": 137.0,
+     "size": 32.2,
+     "italic": true,
+     "bold": true,
+     "len": 34.5
+    }
+   ]
+  },
+  {
+   "id": "leader-13",
+   "kind": "leader",
+   "ref": "13",
+   "shapes": [
+    {
+     "t": "path",
+     "d": "M 904.5 128.5 Q 908 131.5 913 130.5 L 922 129 Q 932 127 942.5 125.5"
+    }
+   ]
+  },
+  {
+   "id": "label-11",
+   "kind": "label",
+   "ref": "11",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "11",
+     "x": 610.0,
+     "y": 424.0,
+     "size": 30.6,
+     "italic": true,
+     "bold": true,
+     "len": 30.1
+    }
+   ]
+  },
+  {
+   "id": "leader-11",
+   "kind": "leader",
+   "ref": "11",
+   "shapes": [
+    {
+     "t": "path",
+     "d": "M 581 419 Q 586 422 592 420.5 L 603 417.5 Q 609 416 614 415.5"
+    }
+   ]
+  },
+  {
+   "id": "fig-label",
+   "kind": "text",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "F",
+     "x": 403.0,
+     "y": 56.0,
+     "size": 47.2,
+     "italic": true,
+     "bold": true,
+     "len": 32.2
+    },
+    {
+     "t": "t",
+     "s": "I",
+     "x": 436.0,
+     "y": 57.0,
+     "size": 47.3,
+     "italic": true,
+     "bold": true,
+     "len": 16.2
+    },
+    {
+     "t": "t",
+     "s": "G.",
+     "x": 456.0,
+     "y": 57.0,
+     "size": 46.0,
+     "italic": true,
+     "bold": true,
+     "len": 38.7
+    },
+    {
+     "t": "t",
+     "s": "1",
+     "x": 507.0,
+     "y": 57.0,
+     "size": 44.4,
+     "italic": true,
+     "bold": true,
+     "len": 27.0
+    }
+   ]
+  }
+ ]
+}

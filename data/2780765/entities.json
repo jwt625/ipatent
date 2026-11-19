@@ -1,0 +1,41 @@
+{
+  "pn": "2780765",
+  "inventors": [
+    {
+      "name": "Daryl M. Chapin",
+      "printed": "Daryl M. Chapin, Basking Ridge",
+      "city": "Basking Ridge",
+      "region": "NJ",
+      "country": "US"
+    },
+    {
+      "name": "Calvin S. Fuller",
+      "printed": "Calvin S. Fuller, Chatham",
+      "city": "Chatham",
+      "region": "NJ",
+      "country": "US"
+    },
+    {
+      "name": "Gerald L. Pearson",
+      "printed": "Gerald L. Pearson, Bernards Township, Somerset County, N. J.",
+      "city": "Bernards Township",
+      "region": "NJ",
+      "country": "US"
+    }
+  ],
+  "assignees": [
+    {
+      "name": "Bell Telephone Laboratories, Incorporated",
+      "printed": "Bell Telephone Laboratories, Incorporated, New York, N. Y., a corporation of New York",
+      "org": "Bell Labs",
+      "kind": "company",
+      "city": "New York",
+      "region": "NY",
+      "country": "US"
+    }
+  ],
+  "source": {
+    "page": 1,
+    "where": "column 1 header (inventors, assignors to)"
+  }
+}

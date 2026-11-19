@@ -1,0 +1,73 @@
+{
+  "patent": "Filed July 30, 1958 by Arthur L. Schawlow and Charles H. Townes and issued March 22, 1960, assigned to Bell Telephone Laboratories. It is the patent on their optical maser, the device now called the laser, and their paper \"Infrared and Optical Masers\" (Physical Review 112, 1940, 1958) sets out the same proposal. The central idea is to carry the microwave maser to infrared, visible and ultraviolet wavelengths by using a long, thin chamber closed by two flat, parallel, partially reflecting end plates (a Fabry-Perot arrangement) with side walls that let all other modes escape, so that only waves travelling back and forth along the axis are regenerated. The example medium is potassium vapor pumped by potassium lamps (FIG. 2, generator; FIG. 3, amplifier), and FIG. 1 combines generator, amplifier and detector into an optical communication link modulated through the Zeeman effect. No such device had operated when the patent was filed; the first working laser was T. H. Maiman's ruby laser at Hughes Research Laboratories (Nature 187, 493, 1960). Gordon Gould, who had recorded similar ideas in a notebook notarized in November 1957, pursued his own laser claims in long-running patent proceedings and received his first US laser patent in 1977. Townes shared the 1964 Nobel Prize in Physics with N. G. Basov and A. M. Prokhorov for work in quantum electronics; Schawlow shared the 1981 Nobel Prize in Physics for laser spectroscopy.",
+  "figs": {
+    "1": "Signal flow left to right: the beam from generator 10 is fed into modulated amplifier 12, whose output goes to detector 13; modulating source 11 acts on the amplifier only. Each box is a whole device, detailed in FIG. 2 (generator) and FIG. 3 (amplifier, modulating source and detector).",
+    "2": "Cutaway perspective of the generator, all parts coaxial. From the outside in: housing 22, cut open lengthwise (the hatched edges are the cut walls); the ring of long cylindrical lamps 20 between housing and shell; protective shell 19, held in the housing by rings 27; and chamber 14, the cylinder 15 held in the shell by rings 18 and closed by end plates 16 and 17. The end at 16 is cut away to show sapphire 16a and its gold coating 16b; the stippling inside cylinder 15 is the negative temperature medium. Dashed ellipses are the hidden halves of the support rings. Lines from source 21 wrap around the housing to the lamps. At the right, the dashed parallel lines are the output beam through end plate 17: lens 23 focuses it onto aperture 24 in sheet 25, and lens 26 makes it parallel again. Underlined 10 and 14 refer to the whole generator and the whole chamber.",
+    "3": "The amplifier, drawn as in FIG. 2 with the same housing 22, shell 19, rings 18 and 27 and chamber 14; the lamp rods are replaced by the broad helical band of spiral lamp 30, fed by source 31. The rows of small loops above and below the housing are the turns of coil 32 wound around it, wired to modulating source 11 below. The beam from the generator enters at the left (dashed lines through end plate 16) and leaves amplified through end plate 17 at the right, passing lens 33, aperture 34 in absorptive member 35 and lens 36 to detector 13. Underlined 12 and 14 refer to the whole amplifier and the whole chamber."
+  },
+  "parts": {
+    "15": "The side wall of the chamber. Because it passes the pump light and does not reflect other radiation, waves travelling at an angle to the axis leave the chamber, which is how the long, open-sided geometry selects the axial modes.",
+    "16b": "The thin gold film makes each end plate a partially transmitting mirror (the text gives the same construction for assemblies 16 and 17); light enters and leaves the chamber through these plates.",
+    "20": "Potassium lamps pumping potassium vapor: the lamps emit at lines that the vapor absorbs, which raises its atoms to the upper levels (optical pumping).",
+    "24": "With lens 23 and sheet 25 it forms a spatial filter: each direction of travel focuses to a different point in the focal plane, so the small aperture passes only the selected mode.",
+    "32": "Its axial magnetic field broadens or splits the spectral lines of the medium (Zeeman effect); varying the current from source 11 modulates the amplifier output."
+  },
+  "glossary": [
+    {
+      "term": "maser",
+      "def": "Microwave Amplification by Stimulated Emission of Radiation. The patent uses the word for devices at any wavelength; the optical version was soon called the laser (light instead of microwave)."
+    },
+    {
+      "term": "stimulated emission",
+      "def": "Emission of a photon by an excited atom, triggered by an incoming photon of the same frequency; the emitted photon matches the incoming one in direction and phase, which is what makes amplification coherent."
+    },
+    {
+      "term": "negative temperature",
+      "def": "A state in which more atoms occupy the upper of two energy levels than the lower one (population inversion). Such a medium amplifies light at the transition frequency instead of absorbing it."
+    },
+    {
+      "term": "pumping",
+      "def": "Supplying energy, here light from lamps, to drive the medium into population inversion."
+    },
+    {
+      "term": "relaxation",
+      "def": "Processes that return the populations of the energy levels toward thermal equilibrium, working against the pump."
+    },
+    {
+      "term": "mode",
+      "def": "One of the distinct field patterns, each with its own frequency and direction, that a cavity can sustain."
+    },
+    {
+      "term": "Fabry-Perot arrangement",
+      "def": "Two flat, parallel, partially reflecting plates facing each other. Light bouncing between them builds up only at wavelengths and directions that interfere constructively; this is the resonator used in most lasers."
+    },
+    {
+      "term": "spatial filter",
+      "def": "A lens that focuses a beam onto a small aperture. Light arriving from different directions focuses to different points, so the aperture passes one direction and blocks the rest."
+    },
+    {
+      "term": "Zeeman effect",
+      "def": "Shifting and splitting of spectral lines when the emitting atoms are placed in a magnetic field."
+    },
+    {
+      "term": "Stark effect",
+      "def": "Shifting and splitting of spectral lines in an electric field."
+    },
+    {
+      "term": "ordinary and extraordinary rays",
+      "def": "The two polarizations in a birefringent crystal such as sapphire, which see different refractive indices."
+    },
+    {
+      "term": "double-convex lens",
+      "def": "A converging lens with both faces curved outward."
+    },
+    {
+      "term": "photomultiplier tube",
+      "def": "A vacuum tube in which light frees electrons from a photocathode and a chain of electrodes multiplies them into a measurable current; sensitive enough to count single photons."
+    },
+    {
+      "term": "angstrom",
+      "def": "0.1 nanometre (10^-10 m)."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{"pn": "3102230", "figures": [
+ {"id": "1A", "label": "FIG. 1A", "sheet": 1, "page": 0, "crop": [470, 630, 1550, 1470], "rotate": 0, "front_page": false},
+ {"id": "1B", "label": "FIG. 1B", "sheet": 1, "page": 0, "crop": [510, 1476, 1150, 1710], "rotate": 0, "front_page": false},
+ {"id": "2", "label": "FIG. 2", "sheet": 1, "page": 0, "crop": [495, 1835, 1555, 2690], "rotate": 0, "front_page": false}
+], "parts": [
+ {"ref": "10", "name": "device", "figs": ["1A"]},
+ {"ref": "11", "name": "semiconductor wafer", "figs": ["1A"], "alt": ["wafer"]},
+ {"ref": "12", "name": "bulk portion", "figs": ["1A"]},
+ {"ref": "13", "name": "spaced p-type surface portions", "figs": ["1A"], "alt": ["surface portions"]},
+ {"ref": "14", "name": "spaced p-type surface portions", "figs": ["1A"], "alt": ["surface portions"]},
+ {"ref": "15", "name": "portion", "figs": ["1A"]},
+ {"ref": "16", "name": "p-n junctions", "figs": ["1A"], "alt": ["p-n junction"]},
+ {"ref": "17", "name": "p-n junctions", "figs": ["1A"], "alt": ["p-n junction"]},
+ {"ref": "18", "name": "major surface", "figs": ["1A"], "alt": ["surface"]},
+ {"ref": "19", "name": "oxide coating", "figs": ["1A"]},
+ {"ref": "21", "name": "electrode", "figs": ["1A", "1B"]},
+ {"ref": "22", "name": "exposed surface", "figs": ["1A"]},
+ {"ref": "23", "name": "surface portion", "figs": ["1A"]},
+ {"ref": "24", "name": "Ohmic contacts", "figs": ["1A", "1B"], "alt": ["contact"]},
+ {"ref": "25", "name": "Ohmic contacts", "figs": ["1A"], "alt": ["contact"]},
+ {"ref": "27", "name": "battery", "figs": ["1A"]},
+ {"ref": "28", "name": "voltage source", "figs": ["1A"]},
+ {"ref": "31", "name": "broken line", "figs": ["2"]},
+ {"ref": "33", "name": "", "figs": ["2"]},
+ {"ref": "34", "name": "", "figs": ["2"]},
+ {"ref": "L", "name": "load", "figs": ["1A"]}
+]}

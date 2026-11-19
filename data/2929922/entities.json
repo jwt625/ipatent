@@ -1,0 +1,34 @@
+{
+ "pn": "2929922",
+ "inventors": [
+  {
+   "name": "Arthur L. Schawlow",
+   "printed": "Arthur L. Schawlow, Madison, N.J.",
+   "city": "Madison",
+   "region": "NJ",
+   "country": "US"
+  },
+  {
+   "name": "Charles H. Townes",
+   "printed": "Charles H. Townes, New York, N.Y.",
+   "city": "New York",
+   "region": "NY",
+   "country": "US"
+  }
+ ],
+ "assignees": [
+  {
+   "name": "Bell Telephone Laboratories, Incorporated",
+   "printed": "Bell Telephone Laboratories, Incorporated, New York, N.Y., a corporation of New York",
+   "org": "Bell Labs",
+   "kind": "company",
+   "city": "New York",
+   "region": "NY",
+   "country": "US"
+  }
+ ],
+ "source": {
+  "page": 1,
+  "where": "column 1 header (inventors, assignors to)"
+ }
+}

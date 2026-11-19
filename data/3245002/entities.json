@@ -1,0 +1,27 @@
+{
+ "pn": "3245002",
+ "inventors": [
+  {
+   "name": "Robert N. Hall",
+   "printed": "Robert N. Hall, Schenectady, N.Y.",
+   "city": "Schenectady",
+   "region": "NY",
+   "country": "US"
+  }
+ ],
+ "assignees": [
+  {
+   "name": "General Electric Company",
+   "printed": "General Electric Company, a corporation of New York",
+   "org": "General Electric",
+   "kind": "company",
+   "city": null,
+   "region": null,
+   "country": "US"
+  }
+ ],
+ "source": {
+  "page": 2,
+  "where": "column 1 header (inventor, assignor to)"
+ }
+}

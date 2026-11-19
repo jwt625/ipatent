@@ -1,0 +1,40 @@
+{
+  "patent": "Filed 1964-12-28 and issued 1967-09-26 to Merlin G. Smith and Emanuel Stern, assignors to IBM. It describes conductive paths through a silicon wafer so that power and ground wiring can move to the back surface, leaving the front for devices and signal wiring with fewer crossovers. Holes are cut through the wafer, either by sputter etching through a mask (FIGS. 1, 2A-2D) or by HCl vapour etching from the back (FIGS. 3A-3C), and only a thin skin of the hole wall plus a ring of each surface around the rim is diffused heavily; that doped skin is the conductor, junction-isolated from the wafer body. The holes stay open; metal films on each face contact the doped rims. The prior art it contrasts with is a solid diffused zone driven through the whole wafer thickness, which the text says can take over 36 hours in a 7 mil wafer and occupies large area. The structure is an early form of the through-wafer connection now called a through-silicon via (TSV); present-day TSVs are typically lined with an insulator and filled with metal such as copper, rather than relying on doped silicon.",
+  "figs": {
+    "1": "Section through the sputter-etching chamber. Housing 5 (hatched walls) is grounded and acts as the anode; its flange 7 is bolted to base plate 11 over gasket 9. Wafer 1, carrying mask 37 on top, lies on cathode 17, which is cooled by coil 25 (the loops beneath it) fed through vacuum-feeds 31 and 33, and wired through feed 21 to supply 23. The narrow gap between cathode and housing walls is kept shorter than the cathode dark space, so the glow discharge forms only above the wafer.",
+    "2A": "Wafer section after sputter etching: two straight-walled holes 39 run from top surface 41 to bottom surface 43. The vertical lines inside each hole are shading of the far cylindrical wall, not material.",
+    "2B": "Black-and-white dashed bands are insulators. The inner band is oxide 45, grown on both faces and down hole walls 47; the outer band on each face is photoresist 49, left open in a ring around each hole rim so the oxide there and on the walls can be etched away.",
+    "2C": "Resist removed and oxide opened at the holes. The finely hatched spool-shaped regions are diffusions 51: a thin doped skin along each hole wall that turns outward onto both faces as a ring. Oxide 45 still covers the rest of both faces.",
+    "2D": "Metal conductors added over oxide 45, each stepping down onto a diffused rim. At the left hole, top conductor 53 is joined to bottom conductor 55 through the doped wall; at the right hole, 53a is joined to 55a. The holes themselves remain empty.",
+    "3A": "Start of the photoetching route: oxide 57 on both faces of wafer 1, with circular openings 59 cut only in the bottom oxide, over surface 43, where holes are to be etched.",
+    "3B": "Holes 39 etched from the bottom through openings 59. They taper, wide at surface 43 and narrow at surface 41, so the front (device) side loses less area; the top oxide 57 still spans each hole. The slanted lines inside each hole are shading of the conical wall.",
+    "3C": "Openings 59' enlarged in the oxide on both faces, then the same diffusion and metallization as FIGS. 2C-2D: diffusions 51 line each tapered wall and wrap onto both rims, and conductors 53, 53a on top and 55, 55a below contact them."
+  },
+  "parts": {
+    "17": "Biased to about -3000 volts in the example; the wafer sits on it and is bombarded by argon ions.",
+    "37": "Aluminum oxide or silicon dioxide, or aluminum oxidized continuously by 0.5 percent oxygen in the sputtering gas; it protects the wafer where no hole is wanted.",
+    "51": "The text calls these p-type in an n-type wafer, forming a p-n junction that isolates the connection, yet names phosphorus pentoxide as the dopant source; phosphorus is a donor and gives n-type silicon. The printed conductivity types and dopant are therefore inconsistent.",
+    "53": "Connected to active circuit elements, not shown, on surface 41.",
+    "53a": "Connected to active circuit elements, not shown, on surface 41.",
+    "55": "Corresponds to the power conductor pattern on the back surface.",
+    "55a": "Corresponds to the ground conductor pattern on the back surface.",
+    "59'": "\"enlarge\" is the printed spelling."
+  },
+  "glossary": [
+    {"term": "thru-connection", "def": "A conductive path from one major surface of the wafer to the other; today called a through-wafer or through-silicon via."},
+    {"term": "reverse-sputtering", "def": "Sputter etching: the workpiece is made the cathode of a glow discharge so that ions bombard and remove its exposed surface, instead of depositing material onto it."},
+    {"term": "cathode dark space", "def": "The thin non-glowing region next to the cathode of a glow discharge. A gap narrower than it cannot sustain a discharge, which confines etching to the cathode's upper face."},
+    {"term": "degenerately-doped", "def": "Doped so heavily that the silicon conducts almost like a metal, giving a low-resistance path and easy ohmic contact to metal films."},
+    {"term": "diffusion mask", "def": "A layer, here thermally grown silicon dioxide, that blocks dopant diffusion; dopant enters only where windows are etched in it."},
+    {"term": "photoresist", "def": "A light-sensitive film that is exposed through a patterned mask and developed, leaving a pattern that protects selected areas during etching."},
+    {"term": "crossover", "def": "A point where one conductor passes over another, insulated from it; each needs extra layers and area."},
+    {"term": "power and ground conductor patterns", "def": "The supply and return wiring, which reaches every circuit element and is usually wider than signal wiring."},
+    {"term": "p-n junction isolation", "def": "Separating a doped region from the surrounding silicon of the opposite type by a junction kept reverse-biased."},
+    {"term": "ohmic contact", "def": "A metal-to-semiconductor contact with linear, non-rectifying resistance."},
+    {"term": "insulated-gate field-effect structure", "def": "A MOSFET (metal-oxide-semiconductor field-effect transistor); its source and drain are diffused regions, which the text says can be diffused together with the thru-connections."},
+    {"term": "phosphorus pentoxide (P2O5)", "def": "A common vapour-phase source for diffusing phosphorus, a donor (n-type) dopant, into silicon."},
+    {"term": "micron (pressure)", "def": "A micron of mercury, 10^{-3} mm Hg, about 0.13 Pa; the 50 micron argon pressure is about 6.7 Pa."},
+    {"term": "A.", "def": "Angstrom, 0.1 nm; the 5,000-10,000 A. oxide is 0.5-1 micrometre thick."},
+    {"term": "mil", "def": "One thousandth of an inch, 25.4 micrometres."}
+  ]
+}

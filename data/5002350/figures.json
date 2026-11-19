@@ -1,0 +1,299 @@
+{
+ "pn": "5002350",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    370,
+    705,
+    2010,
+    2810
+   ],
+   "rotate": 0,
+   "front_page": true
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    373,
+    894,
+    2012,
+    2606
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    428,
+    819,
+    1950,
+    2698
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "101",
+   "name": "waveguides",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "102",
+   "name": "waveguides",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "103",
+   "name": "waveguides",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "104",
+   "name": "waveguides",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "105",
+   "name": "waveguides",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "106",
+   "name": "waveguides",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "107",
+   "name": "waveguides",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "108",
+   "name": "waveguides",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "109",
+   "name": "waveguides",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "110",
+   "name": "waveguides",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "111",
+   "name": "waveguides",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "112",
+   "name": "waveguide arrays",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "113",
+   "name": "waveguide arrays",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "114",
+   "name": "waveguide arrays",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "115",
+   "name": "waveguide arrays",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "116",
+   "name": "optional delay elements",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "117",
+   "name": "optional delay elements",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "118",
+   "name": "optional delay elements",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "119",
+   "name": "optional delay elements",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "120",
+   "name": "optional delay elements",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "z",
+   "name": "longitudinal axes of the waveguides",
+   "alt": [
+    "z axis"
+   ],
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "c",
+   "name": "arcs",
+   "alt": [
+    "circular cross-section"
+   ],
+   "figs": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "ref": "c'",
+   "name": "arcs",
+   "alt": [
+    "circular cross-section"
+   ],
+   "figs": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "ref": "t",
+   "name": "point z=t",
+   "alt": [
+    "the point when the waveguides are tangent"
+   ],
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "a_{0}",
+   "name": "distance between waveguide centers at the larger opening of the waveguides",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "a",
+   "name": "distance between waveguide centers",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "ℓ",
+   "name": "initial separation",
+   "alt": [
+    "separation"
+   ],
+   "figs": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "ref": "L",
+   "name": "length of the transition",
+   "alt": [
+    "length of the tapered region excluding the dashed portion"
+   ],
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "2γ",
+   "name": "width of the Brillioun zone",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "2γ_{0}",
+   "name": "field of view",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "n_{1}",
+   "name": "refractive indices inside and between the waveguides",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "n_{2}",
+   "name": "refractive indices inside and between the waveguides",
+   "figs": [
+    "3"
+   ]
+  }
+ ]
+}

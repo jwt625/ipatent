@@ -1,0 +1,638 @@
+{
+ "pn": "1781541",
+ "number": "1,781,541",
+ "title": "REFRIGERATION",
+ "inventors": [
+  "Albert Einstein",
+  "Leo Szilard"
+ ],
+ "assignee": "Electrolux Servel Corporation, of New York, N. Y., a corporation of Delaware",
+ "filed": "1927-12-16",
+ "issued": "1930-11-11",
+ "appl_no": "240,566",
+ "int_cl": null,
+ "us_cl": null,
+ "refs_patents": [],
+ "refs_other": [],
+ "examiners": null,
+ "claims_count": 5,
+ "drawing_figures": 1,
+ "abstract": "",
+ "cite_scheme": "printed page:line",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "page": 1,
+     "cite": "p.1:1",
+     "col": null,
+     "line": null,
+     "text": "Our invention relates to the art of refrigeration and particularly to an apparatus and method for producing refrigeration wherein the refrigerant evaporates in the presence of an inert gas and more particularly to the type disclosed in Patent No. 1,685,764 granted September 25th, 1928, to Von Platen and Munters and our British Patent No. 282,428."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:9",
+     "col": null,
+     "line": null,
+     "text": "The objects and advantages of our invention will be apparent from the following description considered in connection with the accompanying drawing which shows, more or less diagrammatically, a preferred embodiment of our invention."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:15",
+     "col": null,
+     "line": null,
+     "text": "Referring to the drawing, reference character 1 designates an evaporator, which is ordinarily placed within a chamber to be cooled. A conduit 5 connects the upper part of evaporator 1 with the more intermediate portion of the condenser 6. A conduit 11 communicates with the bottom of evaporator 1 and extends within condenser 6 at a level below the point of communication of conduit 5 with the condenser. A cooling water jacket 12 surrounds the condenser and is adapted for the passage therethrough of water for the purpose of cooling the condenser."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:28",
+     "col": null,
+     "line": null,
+     "text": "A conduit 27 communicates with the bottom of condenser 6 and with the lower part of a heat exchanger jacket 28. The upper part of jacket 28 is connected to the lower part of generator 29. Generator 29 is heated in any suitable manner. A conduit 30 communicates with the upper part of generator 29 and extends within evaporator 1 to a point near the bottom thereof where it terminates in a distributor head 31. Conduit 30 extends within conduit 5 in order that the fluids passing through the respective conduits may be brought into heat exchange relationship with each other."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:42",
+     "col": null,
+     "line": null,
+     "text": "A conduit 32 extends upwardly from within the lower part of generator 29 and communicates with a container 33 placed at a level above that of condenser 6. A source of heat 36 is provided for heating conduit 32 at a point above generator 29. A conduit 37 extends downwardly from container 33 and passes within heat exchanger jacket 28 and thence upwardly to within the upper part of condenser 6 where it terminates in a distributor head 35. Conduit 37 passes within cooling water jacket 12 in order that fluid passing through this conduit may be cooled. A vent conduit 34 connects the upper part of container 33 with the upper part of condenser 6."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:57",
+     "col": null,
+     "line": null,
+     "text": "The operation of the above described apparatus is as follows:"
+    },
+    {
+     "page": 1,
+     "cite": "p.1:59",
+     "col": null,
+     "line": null,
+     "text": "A suitable refrigerant; for instance butane, in liquid form is contained within evaporator 1. An inert gas, for instance ammonia, is introduced into evaporator 1 through conduit 30 and distributor head 31. The refrigerant evaporates in the evaporator in the presence of the inert gas due to the fact that the partial pressure of the refrigerant is reduced thereby and the resulting gaseous mixture passes through conduit 5 to within condenser 6. Here the mixture comes in intimate contact with an absorption liquid, for example water, which is introduced into the condenser through conduit 37 and distributor head 35. Inasmuch as the ammonia gas is very soluble in water, while the butane is quite insoluble, the ammonia gas is absorbed by the water, thus freeing the butane from the gaseous mixture. Thus the butane assumes substantially the entire pressure within the condenser, which pressure is sufficient to cause its liquefaction at the temperature maintained therein by the cooling water."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:82",
+     "col": null,
+     "line": null,
+     "text": "The specific gravity of liquid butane is less than that of the solution of ammonia in water and hence stratification of the two liquids occurs, the liquid butane floating upon the ammonia solution. The latter solution is indicated by reference character 26. The liquid butane passes from condenser 6 through conduit 11 and returns to evaporator 1, where it is again evaporated and the cycle repeated."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:91",
+     "col": null,
+     "line": null,
+     "text": "The ammonia solution flows by gravity from condenser 6 through conduit 27 and heat exchanger jacket 28 to within generator 29. Here the application of heat causes the ammonia to be expelled as a gas from the solution and this ammonia gas passes through conduit 30 and distributor head 31 to within evaporator 1, where it reduces the partial pressure of the butane, wherefore the latter evaporates as previously described."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:1",
+     "col": null,
+     "line": null,
+     "text": "Water, containing but little ammonia in solution, passes from generator 29 into conduit 32 where it is further heated by the source of heat 36. This heating causes the formation of vapor in conduit 32 which lifts liquid through this conduit to within container 33. The liquid thus supplied to container 33 may pass by gravity through conduit 37 to condenser 6. The hot weak liquid passing through conduit 37 is brought into heat exchange relationship with the cool strong liquid passing through heat exchanger jacket 28 and an exchange of heat between the two liquids takes place. The weak liquid is further cooled by being brought into heat exchange relation with the cooling water in jacket 12 and is hence in a condition to rapidly absorb ammonia in the condenser."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:20",
+     "col": null,
+     "line": null,
+     "text": "Vapor entering container 33 from conduit 32 passes therefrom through vent conduit 34 to the condenser."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:23",
+     "col": null,
+     "line": null,
+     "text": "During the operation of the hereinbefore described apparatus, the pressure existing in the various members is uniform with the exception of slight pressure differences, sufficient to cause flow of fluids, caused by liquid columns. The pressure existing in generator 29 must be sufficiently greater than that existing in the upper part of evaporator 1 to cause the flow of vapor to take place from distributor head 31, or, in other words, to overcome the liquid head designated by h_{2}. This excess pressure in the generator is balanced by the head exerted by the column of liquid equal to the differences in levels between the liquid in condenser 6 and generator 29, indicated by h_{1}. It is, of course, necessary that the head represented by h_{2} is less than that represented by h_{1} in order that flow shall take place."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:42",
+     "col": null,
+     "line": null,
+     "text": "While we have described a preferred embodiment for carrying out our invention, it is to be understood that modifications thereof fall within the scope of the invention, which is to be limited only by the appended claims viewed in the light of the prior art."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:38",
+     "col": null,
+     "line": null,
+     "text": "In testimony whereof we hereunto affix our signatures."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:40",
+     "col": null,
+     "line": null,
+     "text": "ALBERT EINSTEIN."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:41",
+     "col": null,
+     "line": null,
+     "text": "LEO SZILARD."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "page": 1,
+   "cite": "p.1:9",
+   "col": null,
+   "line": null,
+   "text": "The objects and advantages of our invention will be apparent from the following description considered in connection with the accompanying drawing which shows, more or less diagrammatically, a preferred embodiment of our invention."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "page": 2,
+   "cite": "p.2:49",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "1. Refrigerating apparatus comprising a generator, a condenser arranged at a higher level than the generator, an evaporator, a container arranged at a higher level than the condenser, said generator containing an inert gas dissolved in absorption liquid and adapted to expel the inert gas from solution, a conduit for conducting the inert gas from the generator to the evaporator, a conduit for conducting liquid refrigerant from the condenser to the evaporator, a conduit for conducting mixed vapor of refrigerant and inert gas from the evaporator to the condenser in heat exchange relation with inert gas passing into the evaporator, a conduit for conducting rich absorption liquid from the condenser to the generator by gravity, a conduit for conducting weak absorption liquid from said container to said condenser by gravity, a conduit extending upwardly from said generator to said container and means to heat the last-mentioned conduit to lift liquid from the generator to the container."
+  },
+  {
+   "n": 2,
+   "page": 2,
+   "cite": "p.2:72",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "2. Refrigerating apparatus comprising a generator, a condenser arranged at a higher level than the generator, an evaporator, a container arranged at a higher level than the condenser, said generator containing an inert gas dissolved in absorption liquid and adapted to expel the inert gas from solution, a conduit for conducting the inert gas from the generator to the evaporator, a conduit for conducting liquid refrigerant from the condenser to the evaporator, a conduit for conducting mixed vapor of refrigerant and inert gas from the evaporator to the condenser in heat exchange relation with inert gas passing into the evaporator, a conduit for conducting rich absorption liquid from the condenser to the generator by gravity, a conduit for conducting weak absorption liquid from said container to said condenser by gravity, a conduit extending upwardly from said generator to said container, means to heat the last-mentioned conduit to lift liquid from the generator to the container and a vent conduit connecting the upper part of said container with said condenser."
+  },
+  {
+   "n": 3,
+   "page": 2,
+   "cite": "p.2:97",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "3. Refrigerating apparatus comprising a generator, a condenser arranged at a higher level than the generator, an evaporator, a container arranged at a higher level than the condenser, said generator containing ammonia dissolved in water and adapted to expel the ammonia from solution, a conduit for conducting the ammonia gas from the generator to the evaporator, a conduit for conducting liquid butane from the condenser to the evaporator, a conduit for conducting mixed vapor of butane and ammonia from the evaporator to the condenser in heat exchange relation with ammonia gas passing into the evaporator, a conduit for conducting strong solution of ammonia in water from the condenser to the generator by gravity, a conduit for conducting weak solution of ammonia in water from said container to said condenser by gravity, a conduit extending upwardly from said generator to said container and means to heat the last-mentioned conduit to lift liquid from the generator to the container."
+  },
+  {
+   "n": 4,
+   "page": 2,
+   "cite": "p.2:121",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "4. Refrigerating apparatus comprising a generator, a condenser arranged at a higher level than the generator, an evaporator, a container arranged at a higher level than the condenser, said generator containing ammonia dissolved in water and adapted to expel the ammonia from solution, a conduit for conducting the ammonia gas from the generator to the evaporator, a conduit for conducting liquid butane from the condenser to the evaporator, a conduit for conducting mixed vapor of butane and ammonia from the evaporator to the condenser in heat exchange relation with ammonia gas passing into the evaporator, a conduit for conducting strong solution of ammonia in water from the condenser to the generator by gravity, a conduit for conducting weak solution of ammonia in water from said container to said condenser by gravity, a conduit extending upwardly from said generator to said container, means to heat the last-mentioned conduit to lift liquid from the generator to the container and a vent conduit connecting the upper part of said container with said condenser."
+  },
+  {
+   "n": 5,
+   "page": 3,
+   "cite": "p.3:17",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "5. Method of refrigerating which comprises evaporating a liquid cooling agent in the presence of an inert gas to absorb heat and thus forming a gaseous mixture of cooling agent and inert gas, conveying the gaseous mixture into the presence of an absorption liquid at such condition that the cooling agent condenses on being deprived of inert gas in gaseous mixture therewith due to the introduction of absorption liquid into the presence of the inert gas, separating the solution of inert gas in absorption medium from the condensed cooling agent, returning the condensed cooling agent to the presence of the inert gas, separating the inert gas and absorption liquid by heat, circulating the absorption liquid by means of a separate ource of heat to the presence of the gaseous mixture of cooling agent and inert gas and returning the inert gas to the presence of the liquid cooling agent."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "cite": "header",
+   "ocr": "NEW YORE, N. ¥.",
+   "fixed": "NEW YORK, N. Y.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:5",
+   "ocr": "g an inert",
+   "fixed": "an inert",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.1:8",
+   "ocr": "' and",
+   "fixed": "and",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.1:8",
+   "ocr": "282,428. ~",
+   "fixed": "282,428.",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.1:11",
+   "ocr": "‘scription",
+   "fixed": "scription",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.1:16",
+   "ocr": "-acter",
+   "fixed": "acter",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.1:19",
+   "ocr": "- yator",
+   "fixed": "rator",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:21",
+   "ocr": "1.and",
+   "fixed": "1 and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:22",
+   "ocr": ". tends",
+   "fixed": "tends",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.1:22",
+   "ocr": "at'a",
+   "fixed": "at a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:30",
+   "ocr": "28..",
+   "fixed": "28.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:32",
+   "ocr": "29.°",
+   "fixed": "29.",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.1:35",
+   "ocr": "point.",
+   "fixed": "point",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:36",
+   "ocr": "- bottom",
+   "fixed": "bottom",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.1:36",
+   "ocr": "where.",
+   "fixed": "where",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:36",
+   "ocr": "ina",
+   "fixed": "in a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:40",
+   "ocr": "intd",
+   "fixed": "into",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:41",
+   "ocr": "each other. —— -",
+   "fixed": "each other.",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.1:47",
+   "ocr": "87",
+   "fixed": "37",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:50",
+   "ocr": "to.",
+   "fixed": "to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:50",
+   "ocr": "“part",
+   "fixed": "part",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.1:53",
+   "ocr": "jacket.",
+   "fixed": "jacket",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:57",
+   "ocr": "— The",
+   "fixed": "The",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.1:58",
+   "ocr": "ratusis asfollows: ~",
+   "fixed": "ratus is as follows:",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:68",
+   "ocr": "condyit",
+   "fixed": "conduit",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:69",
+   "ocr": "mixture:comes",
+   "fixed": "mixture comes",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:72",
+   "ocr": "threugh",
+   "fixed": "through",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:74",
+   "ocr": "1s",
+   "fixed": "is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:82",
+   "ocr": "gravity .",
+   "fixed": "gravity",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.1:84",
+   "ocr": "two.",
+   "fixed": "two",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:92",
+   "ocr": "conduit of",
+   "fixed": "conduit 27",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:3",
+   "ocr": ".82",
+   "fixed": "32",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:8",
+   "ocr": "383",
+   "fixed": "33",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:21",
+   "ocr": "82",
+   "fixed": "32",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:23",
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:29",
+   "ocr": "he",
+   "fixed": "be",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:31",
+   "ocr": "of:",
+   "fixed": "of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:31",
+   "ocr": "place:",
+   "fixed": "place",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:33",
+   "ocr": "A».",
+   "fixed": "h_{2}.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:35",
+   "ocr": "‘head",
+   "fixed": "head",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.2:38",
+   "ocr": "A,.",
+   "fixed": "h_{1}.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:38",
+   "ocr": "‘course",
+   "fixed": "course",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.2:39",
+   "ocr": "Az",
+   "fixed": "h_{2}",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:40",
+   "ocr": "A,",
+   "fixed": "h_{1}",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:41",
+   "ocr": "place... :",
+   "fixed": "place.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:51",
+   "ocr": "evaporator, a.",
+   "fixed": "evaporator, a",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.2:54",
+   "ocr": "and.adapt-",
+   "fixed": "and adapt-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:61",
+   "ocr": "-gas",
+   "fixed": "gas",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.2:63",
+   "ocr": "a. conduit",
+   "fixed": "a conduit",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.2:65",
+   "ocr": "con-.",
+   "fixed": "con-",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.2:67",
+   "ocr": "‘to",
+   "fixed": "to",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.2:76",
+   "ocr": "an.inert",
+   "fixed": "an inert",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:83",
+   "ocr": "conducting.",
+   "fixed": "conducting",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.2:96",
+   "ocr": "condenser. .",
+   "fixed": "condenser.",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.2:97",
+   "ocr": "8.",
+   "fixed": "3.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:97",
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:101",
+   "ocr": "containing:",
+   "fixed": "containing",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:113",
+   "ocr": ".the",
+   "fixed": "the",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.2:129",
+   "ocr": "‘to",
+   "fixed": "to",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.3:3",
+   "ocr": ". the",
+   "fixed": "the",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.3:5",
+   "ocr": "conduct-.",
+   "fixed": "conduct-",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.3:10",
+   "ocr": "9’ condenser",
+   "fixed": "condenser",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.3:10",
+   "ocr": "extending —",
+   "fixed": "extending",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.3:16",
+   "ocr": "denser. ;",
+   "fixed": "denser.",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.3:17",
+   "ocr": "5:",
+   "fixed": "5.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:18",
+   "ocr": "liquid.cooling",
+   "fixed": "liquid cooling",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:21",
+   "ocr": "- ing",
+   "fixed": "ing",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.3:26",
+   "ocr": "into.",
+   "fixed": "into",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:31",
+   "ocr": "gas,.separating",
+   "fixed": "gas, separating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:32",
+   "ocr": "ab- .",
+   "fixed": "ab-",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.3:37",
+   "ocr": "cooling. agent. a",
+   "fixed": "cooling agent.",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.3:39",
+   "ocr": "signatures. oe",
+   "fixed": "signatures.",
+   "basis": "scan (stray mark)"
+  },
+  {
+   "cite": "p.3:41",
+   "ocr": "LEO .SZILARD.",
+   "fixed": "LEO SZILARD.",
+   "basis": "scan (stray mark)"
+  }
+ ]
+}
