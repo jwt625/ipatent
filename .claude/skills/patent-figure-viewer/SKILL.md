@@ -79,6 +79,14 @@ verbatim mentions + citations, parts tour, step slider. Description/Claims tabs:
 and FIG. links (`build.py link_spans`), hovering a numeral drives a linked figure pane, citations
 open the scanned page. About tab: note, bibliography, glossary, parts index, references.
 
+## Plotter export (DevLog-006)
+
+`viewer/plot-export.js` (no DOM; `PlotExport.toPlotSVG(trace, opts)`) turns a trace into stroked polylines in mm, painter's order kept:
+`solid`/`paper` fills and arrowheads cut earlier lines, fills become hatching, stroke text uses `viewer/plot-font.js` (Hershey;
+regenerate with `pipeline/make_plot_font.py`, which also lists trace characters without a glyph). Patent pages embed it (not the
+gallery); the Figures toolbar "Plot SVG" panel and `node pipeline/plot_svg.js` share it; the self-test exports every traced figure.
+A renderer feature added to `trace-render.js` needs its plotter equivalent here too, or the export silently drops it.
+
 ## Gotchas learned
 
 - Numeral linking (`build.py`): patents say "reference number 20", "data line 80", "transmitted to 161",

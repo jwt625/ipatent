@@ -59,6 +59,10 @@ rules and printed disclaimers, cross-checked against Google Patents legal status
   on hover. View modes: Redraw (vector trace),
   Scan (original sheet), Overlay (trace over scan). Parts tour steps through parts in order of first
   mention; timing figures get a clock-period slider. Keys: Left/Right part, Up/Down figure, F fit, Esc clear.
+- **Plot SVG** (Figures toolbar): exports the redraw for a pen plotter as an SVG of stroked lines only, in mm: paper (A5, A4, A3,
+  Letter, 11x14 in, 12x12 in), orientation, margin, pen width; heavy lines as parallel pen passes or single strokes; lettering
+  in a single-stroke Hershey font on the same pen, its own Inkscape layer, or off. Fills become hatching, white knockouts cut the
+  lines under them, preview and plot length shown before download. Batch: `node pipeline/plot_svg.js <pn|all> [fig ...] [--paper A3]`.
 - **Description / Claims**: verbatim text with column:line citations (click a citation for the scanned
   page). Numerals and FIG. references are links; hovering a numeral highlights the part in the
   figure pane beside the text.
@@ -89,6 +93,8 @@ python3 -I pipeline/coverage.py <pn> <fig>   # 4 covered % + largest missing/ext
 python3 -I pipeline/build.py             # 6 -> index.html
 pipeline/selftest.sh                     # headless interaction self-test
 pipeline/shoot.sh '#/<pn>/figures/<fig>' out.png   # headless screenshot
+node pipeline/plot_svg.js <pn|all> [fig ...] [--paper A4]   # plotter SVGs -> work/plot/ (same code as the Plot SVG button)
+python3 -I pipeline/make_plot_font.py <hersheytext package dir>   # regenerate viewer/plot-font.js
 ```
 
 `work/` is regenerable (`extract.sh` + `crop.py`) and git-ignored. `data/` holds every hand-checked
@@ -108,3 +114,5 @@ Code: GPL-3.0 (`LICENSE`). U.S. patent text and drawings are typically not subje
 37 CFR 1.71(d)-(e), 1.84(s)); no such notice was found in the 2026-11 batch of US documents. Several of these are in force:
 reproducing a document here is not a licence to its invention. EP 0 200 202 A2 is reproduced as the EPO published it;
 we did not find an EPO statement on reuse of patent documents to cite. Context notes added here are ours.
+`viewer/plot-font.js` holds Hershey font data from the `hersheytext` npm package 2.0.0 (MIT); the Hershey fonts were originally
+created by Dr. A. V. Hershey while working at the U. S. National Bureau of Standards (acknowledgements in the file header).

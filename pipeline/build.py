@@ -267,7 +267,9 @@ def page_html(pats: list, site: dict, fonts: str = "fonts/") -> str:
     data = json.dumps(pats, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     return ((v / "template.html").read_text()
             .replace("/*__CSS__*/", (v / "app.css").read_text().replace("__FONTS__", fonts))
-            .replace("/*__RENDER__*/", (v / "trace-render.js").read_text())
+            .replace("/*__RENDER__*/", (v / "trace-render.js").read_text()
+                     # plotter export: patent pages only (the gallery has no Figures tab)
+                     + ("" if "links" in site else "\n" + (v / "plot-font.js").read_text() + (v / "plot-export.js").read_text()))
             .replace("/*__APP__*/", (v / "app.js").read_text())
             .replace("/*__DATA__*/", f"window.SITE = {json.dumps(site)};\nwindow.PATENTS = {data};"))
 

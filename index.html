@@ -199,6 +199,18 @@ input::placeholder { color: var(--text-muted); font-style: italic; }
 .tools .lbl { margin-right: -6px; }
 .tools input[type=range] { width: 160px; accent-color: var(--hi); }
 .stepv { min-width: 9ch; color: var(--text-secondary); }
+.plotp { position: absolute; top: 8px; right: 8px; z-index: 5; width: min(340px, calc(100% - 16px)); max-height: calc(100% - 16px); overflow: auto;
+  display: grid; gap: 7px; padding: 9px 10px 10px; background: var(--surface-1); border: 1px solid var(--rule); }
+.plotp[hidden] { display: none; }
+.plotp .prw { display: flex; align-items: center; gap: 6px; }
+.plotp .prw > .lbl { width: 76px; flex: none; }
+.plotp .prw > .lbl + .lbl, .plotp .u + .lbl { width: auto; margin-left: 10px; }
+.plotp select, .plotp input { height: 26px; padding: 1px 4px; background: var(--surface-0); border: 1px solid var(--border); min-width: 0; }
+.plotp input { width: 62px; }
+.plotp .u { color: var(--text-muted); font-size: 13px; }
+.plotp .ppv { display: flex; justify-content: center; align-items: center; height: 300px; background: var(--surface-2); }
+.plotp .ppv img { max-width: 100%; max-height: 100%; background: #fff; box-shadow: 0 0 0 1px var(--border); }
+.plotp .pst { font-size: 12px; color: var(--text-secondary); }
 .side { border-left: 1px solid var(--border); background: var(--surface-1); display: grid; grid-template-rows: minmax(0, 1.3fr) minmax(0, 1fr); min-height: 0; }
 .info { overflow-y: auto; padding: 12px 14px; border-bottom: 1px solid var(--border); }
 .info h2 { margin: 0 0 10px; font: 500 20px/1.2 var(--f-disp); display: flex; align-items: baseline; gap: 10px; }
@@ -1150,28 +1162,84 @@ window.PATENTS = [{"pn":"4128880","number":"4,128,880","doc":null,"title":"COMPU
         upd();
       }
       const fit = h('button', '', 'Fit'); fit.title = 'Fit (F)'; fit.onclick = () => fv.pz.fit();
-      tools.append(h('span', 'spacer'), fit);
+      const pb = h('button', plot.open ? 'on' : '', 'Plot SVG'); pb.disabled = !has || !window.PlotExport;
+      pb.title = 'Export this redraw for a pen plotter: lines only, fitted to paper, lettering in a single-stroke font';
+      pb.onclick = () => plot.toggle();
+      tools.append(h('span', 'spacer'), pb, fit);
+      if (!has && plot.open) plot.toggle();
     }
+    // pen-plotter export panel (viewer/plot-export.js, DevLog-006)
+    const plot = (() => {
+      const P = { paper: 'A4', orient: 'auto', margin: 15, pen: 0.3, weight: 'drawn', text: 'merge' };
+      try { Object.assign(P, JSON.parse(localStorage.getItem('ipatent-plot') || '{}')); } catch (e) { }
+      const el = h('div', 'plotp'); el.hidden = true; stageBox.appendChild(el);
+      const opt = (k, vals, tip) => `<select data-k="${k}" title="${tip}">${vals.map(([v, n]) => `<option value="${v}"${String(P[k]) === v ? ' selected' : ''}>${n}</option>`).join('')}</select>`;
+      const num = (k, step, min, max, tip) => `<input type="number" data-k="${k}" value="${P[k]}" step="${step}" min="${min}" max="${max}" title="${tip}">`;
+      el.innerHTML = `<div class="prw"><span class="lbl">Paper</span>${opt('paper', Object.keys(window.PlotExport ? PlotExport.PAPERS : {}).map(k => [k, k]), 'Paper size; the drawing is fitted inside the margin and centred')}${opt('orient', [['auto', 'Auto'], ['portrait', 'Portrait'], ['landscape', 'Landscape']], 'Orientation; Auto picks the one that prints the drawing larger')}</div>
+        <div class="prw"><span class="lbl">Margin</span>${num('margin', 1, 0, 80, 'Margin, mm')}<span class="u">mm</span><span class="lbl">Pen</span>${num('pen', 0.05, 0.05, 3, 'Pen width, mm: sets the fill spacing of solid areas and the passes for heavy lines')}<span class="u">mm</span></div>
+        <div class="prw"><span class="lbl">Lines</span>${opt('weight', [['drawn', 'Weight as drawn'], ['single', 'Single stroke']], 'Weight as drawn: lines wider than the pen get parallel passes. Single stroke: every line once')}</div>
+        <div class="prw"><span class="lbl">Lettering</span>${opt('text', [['merge', 'Same pen'], ['layer', 'Own layer'], ['off', 'Off']], 'Text and numerals in a single-stroke Hershey font. Own layer: a second Inkscape layer for a second pen')}</div>
+        <div class="ppv"><img alt=""></div>
+        <div class="pst num"></div>
+        <div class="prw"><span class="spacer"></span><button class="pdl on">Download SVG</button></div>`;
+      const img = el.querySelector('img'), stx = el.querySelector('.pst');
+      let url = null, out = null, timer = null;
+      const dl = el.querySelector('.pdl');
+      function dispose() { if (url) URL.revokeObjectURL(url); url = null; out = null; img.removeAttribute('src'); }
+      function render() {
+        clearTimeout(timer); timer = null;
+        const f = st.fig; if (!f || !f.trace || el.hidden) return;
+        dispose();
+        try {
+          out = PlotExport.toPlotSVG(f.trace, { ...P, title: `${docLabel(pat)} ${f.label}`, desc: `${pat.title}. Redrawn from the ${pat.scan_source || 'USPTO'} drawing sheet; outside5sigma.com/ipatent` });
+        } catch (e) { out = null; stx.textContent = 'Export failed: ' + e.message; stx.title = ''; dl.disabled = true; return; }
+        if (out.stats.empty) { out = null; stx.textContent = 'Nothing to draw with these settings'; stx.title = ''; dl.disabled = true; return; }
+        url = URL.createObjectURL(new Blob([out.svg], { type: 'image/svg+xml' })); img.src = url; dl.disabled = false;
+        const s = out.stats, n = v => v.toLocaleString('en-US');
+        stx.textContent = `${n(Math.round(s.wMm))} x ${n(Math.round(s.hMm))} mm, ${n(s.paths)} paths, ${s.downM.toFixed(1)} m pen down, ${s.travelM.toFixed(1)} m travel, ${n(Math.round(s.bytes / 1e3))} kB${s.bytes > 5e6 ? ' (over 5 MB)' : ''}`;
+        stx.title = `Drawing ${s.drawW.toFixed(0)} x ${s.drawH.toFixed(0)} mm; ${s.layers} layer${s.layers > 1 ? 's' : ''}; travel = pen-up moves in this path order`;
+      }
+      el.addEventListener('input', ev => {
+        const k = ev.target.dataset.k; if (!k) return;
+        const v = ev.target.type === 'number' ? +ev.target.value : ev.target.value;
+        if (ev.target.type === 'number' && (ev.target.value.trim() === '' || !(v >= +ev.target.min && v <= +ev.target.max))) return;
+        P[k] = v; try { localStorage.setItem('ipatent-plot', JSON.stringify(P)); } catch (e) { }
+        clearTimeout(timer); timer = setTimeout(render, 150);
+      });
+      dl.onclick = () => {
+        if (timer) render();   // a change still waiting for its debounce
+        if (!out) return;
+        const a = h('a'); a.href = url; a.download = `${pat.pn}-fig-${st.fig.id}-${P.paper.replace(/\s+/g, '')}.svg`; document.body.appendChild(a); a.click(); a.remove();
+      };
+      return {
+        get open() { return !el.hidden; },
+        toggle() { el.hidden = !el.hidden; if (!el.hidden) render(); drawTools(); },
+        refresh: render,
+        dispose,
+      };
+    })();
     const key = ev => {
+      if (ev.key === 'Escape' && plot.open && ev.target.closest('.plotp')) { plot.toggle(); return; }
       if (ev.target.closest('input,select,textarea') || !$('#modal').hidden) return;
       if (ev.key === 'ArrowRight') { stopTour(); tourStep(1); ev.preventDefault(); }
       else if (ev.key === 'ArrowLeft') { stopTour(); tourStep(-1); ev.preventDefault(); }
       else if (ev.key === 'f' || ev.key === 'F') fv.pz.fit();
-      else if (ev.key === 'Escape') { stopTour(); pin(null, false); fv.pz.fit(); }
+      else if (ev.key === 'Escape') { if (plot.open) return plot.toggle(); stopTour(); pin(null, false); fv.pz.fit(); }
       else if (ev.key === 'ArrowDown' || ev.key === 'ArrowUp') {
         const i = pat.figures.indexOf(st.fig) + (ev.key === 'ArrowDown' ? 1 : -1);
         if (pat.figures[i]) { go(pat, 'figures', pat.figures[i].id); ev.preventDefault(); }
       }
     };
     addEventListener('keydown', key);
-    const obs = new MutationObserver(() => { if (!root.isConnected) { removeEventListener('keydown', key); stopTour(); stopStep(); obs.disconnect(); } });
+    const obs = new MutationObserver(() => { if (!root.isConnected) { removeEventListener('keydown', key); stopTour(); stopStep(); plot.dispose(); obs.disconnect(); } });
     obs.observe(main, { childList: true });
     return {
       update(r) {
         const f = pat.figById[r.a] || pat.figures[0];
         if (f !== st.fig) {
           stopTour(); stopStep(); st.fig = f; st.pin = null; st.hover = null;
-          fv.show(pat, f); drawTools(); buildParts();
+          fv.show(pat, f); drawTools(); buildParts(); plot.refresh();
+          if (!st.plotHook && /[?&]plot\b/.test(location.search) && f.trace) { st.plotHook = 1; plot.toggle(); } // headless review hook
           list.querySelectorAll('.fitem').forEach(n => n.classList.toggle('on', n.dataset.fig === f.id));
           const li = list.querySelector('.fitem.on'); if (li) li.scrollIntoView({ block: 'nearest', inline: 'nearest' });
           if (!r.a) go(pat, 'figures', f.id, undefined, true);
@@ -1395,6 +1463,23 @@ window.PATENTS = [{"pn":"4128880","number":"4,128,880","doc":null,"title":"COMPU
           for (const r of refs) { route(`#/${p.pn}/figures/${f.id}/${r}`); await wait(5); }
           const hits = document.querySelectorAll('.fv .hit [data-ref]').length, on = document.querySelectorAll('.fv .tr-el.on').length;
           log.push(`${p.pn} fig ${f.id}: trace=${!!f.trace} hit=${hits} lastSelOn=${on} refs=${f.refs.length} missingInTrace=${f.trace ? f.refs.filter(r => !f.trace.elements.some(e => e.ref === r)).join(',') : '-'}`);
+        }
+        // plotter export: every traced figure, then the panel once
+        if (!window.PlotExport) errs.push(`${p.pn}: PlotExport missing`);
+        else {
+          let np = 0;
+          for (const f of p.figures) if (f.trace) {
+            try { if (PlotExport.toPlotSVG(f.trace).stats.paths > 0) np++; else errs.push(`${p.pn} fig ${f.id}: plot export empty`); }
+            catch (e) { errs.push(`${p.pn} fig ${f.id}: plot export ${e.message}`); }
+          }
+          const tf = p.figures.find(f => f.trace), pbtn = () => [...document.querySelectorAll('.tools button')].find(x => x.textContent === 'Plot SVG');
+          if (tf) {
+            route(`#/${p.pn}/figures/${tf.id}`); await wait(30); pbtn().click(); await wait(60);
+            const ps = document.querySelector('.plotp:not([hidden]) .pst');
+            if (!ps || !/paths/.test(ps.textContent)) errs.push(`${p.pn}: plot panel did not render`);
+            log.push(`${p.pn} plot: ${np} figures exported; panel: ${ps && ps.textContent}`);
+            pbtn().click();
+          }
         }
         for (const t of ['text', 'claims', 'about']) {
           route(`#/${p.pn}/${t}`); await wait(120);
