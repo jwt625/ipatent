@@ -1,0 +1,1026 @@
+{
+ "pn": "1342885",
+ "number": "1,342,885",
+ "title": "METHOD OF RECEIVING HIGH-FREQUENCY OSCILLATIONS",
+ "inventors": [
+  "Edwin H. Armstrong"
+ ],
+ "assignee": null,
+ "filed": "1919-02-08",
+ "issued": "1920-06-08",
+ "appl_no": "275,744",
+ "int_cl": null,
+ "us_cl": null,
+ "refs_patents": [],
+ "refs_other": [],
+ "examiners": null,
+ "claims_count": 9,
+ "drawing_figures": 4,
+ "abstract": "",
+ "cite_scheme": "printed page:line",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "page": 1,
+     "cite": "p.1:1",
+     "col": null,
+     "line": null,
+     "text": "To all whom it may concern:"
+    },
+    {
+     "page": 1,
+     "cite": "p.1:2",
+     "col": null,
+     "line": null,
+     "text": "Be it known that I, Edwin H. Armstrong, a citizen of the United States, now residing in Paris, France, have invented certain new and useful Improvements in Methods of Receiving High-Frequency Oscillations, of which the following is a specification."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:8",
+     "col": null,
+     "line": null,
+     "text": "This invention relates to a method of receiving transmitted high frequency oscillations as in radio telegraphy or radio telephony and it is particularly effective when receiving damped or undamped waves of short wave length. Another result achieved by the use of this invention is that because of its selectivity the interference caused by undesirable signals, strays, and atmospherics is greatly reduced."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:18",
+     "col": null,
+     "line": null,
+     "text": "The particular difficulties overcome by this invention will be understood from the following explanation: It is well known that all detectors rapidly lose their sensitiveness as the strength of the received signals is decreased, and that when the strength of the high frequency oscillations falls below a certain point the response of a detector becomes so feeble that it is impossible to receive signals. The application of low frequency amplifiers assist somewhat up to a certain point, but the inherent noise in all low frequency amplifiers limits the extent to which low frequency amplification can be carried. It is also well known that the sensitiveness of a rectifier for weak signals may be restored by the use of the heterodyne principle, but this is only a partial solution of the problem inasmuch as this method can be used only in certain cases."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:38",
+     "col": null,
+     "line": null,
+     "text": "A solution for the loss of sensitiveness of the detector for weak signals lies in the amplification of the radio frequency currents before applying them to the detector. This has been recognized for some time and various forms of multi-tube vacuum tube amplifiers have been developed and successfully employed in practice on certain ranges of wave lengths. Because of the inherent capacity which exists between the elements of vacuum tubes, this method of amplification becomes increasingly difficult, as the frequency of the oscillations to be received increase. There are two principal points of difficulty encountered in the above method of amplification; first, there is a tendency of the amplifier system to oscillate, as the frequency is increased, and secondly, it is impossible to make the amplifier operate well at more than one frequency without a variety of adjustments. The limit of the practical amplifier at present is about 100 meters and the range of wave lengths from 0–100 meters are unused at the present time because of the difficulties of amplifying and detecting them. High frequency amplifiers have been constructed to operate on wave lengths as low as 200 meters, but with only fair efficiency."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:67",
+     "col": null,
+     "line": null,
+     "text": "The present invention discloses a method of indirect amplification and reception which operates independent of the frequency of the incoming oscillations and which, therefore, opens up the great range of wave lengths below 100 meters and makes possible, in fact, the use of waves of a few meters in length whereby radio communication by directed beams of energy becomes a practical proposition. The present invention may also be used to great advantage on wave lengths from 300 to 1,000 meters with a considerable gain in selectivity and sensitiveness, as compared to any of the known methods."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:81",
+     "col": null,
+     "line": null,
+     "text": "This new method of reception consists in converting the frequency of the incoming oscillations down to some predetermined and lower value of readily amplifiable high frequency current and passing the converted current into an amplifier which is adjusted to operate well at this predetermined frequency. After passing through the amplifier, these oscillations are detected and indicated in the usual manner. The intermediate frequency is always above good audibility, but beyond this requirement there is no other limitation as to what it shall be. The method of conversion preferred is the beat method known as the heterodyne principle, except that in the present system the beat frequency is always adjusted to a point above good audibility."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:99",
+     "col": null,
+     "line": null,
+     "text": "The process of converting the incoming high frequency oscillations down to the audible range may be carried out in several stages and each stage may be amplified by means of a multi-tube amplifier. The great advantage of this method is that the effect of the output side of the amplifier upon the input side is eliminated as the frequencies are entirely different. As a consequence of this the limitation on amplification which has always been imposed by the tendency of the amplifier to oscillate is removed, and exceedingly great amplifications become possible."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:9",
+     "col": null,
+     "line": null,
+     "text": "In the accompanying circuit diagrams; Figure 1 illustrates a simple diagrammatic adaption of the invention, Figs. 2 and 3 illustrate in detail an arrangement of circuits and vacuum tubes whereby this new method of receiving may be accomplished. Fig. 4 illustrates a system in which the process of conversion and amplification is carried out in two stages whereby certain advantages hereinafter explained are obtainable."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:20",
+     "col": null,
+     "line": null,
+     "text": "Referring now to Fig. 1; the source of the incoming oscillations is represented by a coil 1. An inductance 2 and a capacity 3 form a circuit preferably tuned to the incoming frequency. A rectifier 4 in the circuit 3—5 is a means for converting the combined currents of the incoming energy and the locally generated oscillations from the source 6. A coupling 5—7 serves to apply the converted oscillations to the high frequency amplifier 8 which is adjusted to amplify well at a predetermined frequency; a detector 9 and telephones 10 serve to detect and indicate the resulting energy. A separate heterodyne 11 is shown coupled to the circuit 9—10 and is used when receiving undamped waves. By means of this system of circuits and apparatus my new method may be utilized as follows:—The incoming oscillations are combined in the circuit 2—3 with the oscillations generated locally by the source 6. The frequency of the source 6 is adjusted to give a beat frequency which is the predetermined frequency, to which the amplifier is adjusted. The combined high frequency currents in 2—3 are converted by means of a rectifier 4 into a current of predetermined frequency. This converted current is applied to the amplifier 8 and amplified thereby. If the incoming oscillations are damped or modulated as in telephony, they are received directly by means of the rectifier 9 and indicated by the telephones 10. If the incoming oscillations are undamped it is necessary to associate some auxiliary device such as the heterodyne 11 with the second detecting circuit 9—10 in the manner shown. The rectifiers 4 and 9 are indicated conventionally but they may be vacuum tubes or crystals or any other similar suitable device. The choice of the rectifier depends on several considerations which are well known at the present time. The high frequency amplifier 8 may be any one of the several types which are also well known and it may be either resistance or inductance coupled. Where selectivity is required inductance coupling should be used and the circuits tuned by means of condensers."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:70",
+     "col": null,
+     "line": null,
+     "text": "In Fig. 2 a source 12 of incoming oscillations is associated with the circuit 13—14 preferably tuned to the incoming oscillations; a vacuum tube oscillator-rectifier 16 in conjunction with the circuit 15—13—14—16—17 forms a self-heterodyne. A multi-tube high frequency resistance coupled amplifier 18 amplifies energy obtained by inductive coupling from the inductance 17. A detector 19 and telephones 20 detect and indicate the oscillations amplified by the amplifier 18."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:82",
+     "col": null,
+     "line": null,
+     "text": "Fig. 3 illustrates in detail the utilization of my method using a tuned amplifier system wherein 21 is the source of incoming oscillations, and a vacuum tube rectifying system 22—23—25 converts the combined oscillations of the incoming and those from the separate heterodyne 24. The circuit 26—27 is tuned to the converted combination of the two oscillations. A multi-tube high frequency amplifier 28 amplifies the resulting energy heterodyned and detected by the vacuum tube system 29 and indicated by the telephones 30."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:95",
+     "col": null,
+     "line": null,
+     "text": "Fig. 4 illustrates the general arrangement of circuits and apparatus in which the principle of frequency conversion and amplification is employed twice. The coil 31 represents the source of the incoming oscillations. 32—33 is a circuit tuned to the incoming oscillations; a separate heterodyne 34 is associated with the circuit 32—33. A detector 35 rectifies the combined currents which are applied to the high frequency amplifier 38 and the amplified currents again combined with local oscillations from the source 40 and then applied to another high frequency amplifier 43 by means of the coupling 41—42. The resultant energy is then detected and indicated by the detector 44 and the telephones 45. The operation of this system will be understood from the following brief analysis:—Suppose the incoming oscillations have a frequency of 10,000,000 cycles per second. The amplifiers 38 and 43 will be adjusted to frequencies which may be approximately 1,000,000 and 100,000 cycles per second respectively. By adjusting the frequency of the local source 34 to 11,000,000 and passing the combined high frequency current through the rectifier 35, a frequency of 1,000,000 is produced. This frequency is then amplified by the amplifier 38 and combined with a second locally produced current from 40 which is adjusted to 1,100,000 cycles. This combined current is converted by means of the rectifier 39 into a current having a frequency of 100,000 cycles per second, and this new current is amplified by the amplifier 43. The output of this amplifier is then detected and indicated by means of the rectifier 44 and telephone 45. There is no reason for limiting the process to two steps. If it is desired the 100,000 current output of 43 can be converted into 20,000 cycles and again amplified before passing into the detector 44 and indicator 45. The number of stages of frequency conversion and amplification which may be employed is almost unlimited if the frequency is lowered in small steps each time. As already pointed out the great advantage of this amplification in stages is that it eliminates the reaction between the output and input sides of the amplifier and removes thereby the feature which has heretofore always placed a limit on the amplification which may be obtained."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:20",
+     "col": null,
+     "line": null,
+     "text": "It should be particularly noted that the reception of spark signals and telephonic speech is accomplished without the hissing or distorted tone which invariably results when the ordinary form of beat or heterodyne reception is employed. The reason for this is rather involved and in any case unnecessary as it is an easily demonstrated experimental fact."
+    },
+    {
+     "page": 4,
+     "cite": "p.4:16",
+     "col": null,
+     "line": null,
+     "text": "EDWIN H. ARMSTRONG."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "page": 2,
+   "cite": "p.2:10",
+   "col": null,
+   "line": null,
+   "text": "Figure 1 illustrates a simple diagrammatic adaption of the invention,"
+  },
+  {
+   "fig": "2",
+   "page": 2,
+   "cite": "p.2:11",
+   "col": null,
+   "line": null,
+   "text": "Figs. 2 and 3 illustrate in detail an arrangement of circuits and vacuum tubes whereby this new method of receiving may be accomplished."
+  },
+  {
+   "fig": "3",
+   "page": 2,
+   "cite": "p.2:11",
+   "col": null,
+   "line": null,
+   "text": "Figs. 2 and 3 illustrate in detail an arrangement of circuits and vacuum tubes whereby this new method of receiving may be accomplished."
+  },
+  {
+   "fig": "4",
+   "page": 2,
+   "cite": "p.2:15",
+   "col": null,
+   "line": null,
+   "text": "Fig. 4 illustrates a system in which the process of conversion and amplification is carried out in two stages whereby certain advantages hereinafter explained are obtainable."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "page": 3,
+   "cite": "p.3:30",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "1. The method of amplifying and receiving high frequency electrical oscillatory energy which comprises, combining the incoming energy with locally generated high frequency continuous oscillations of a frequency differing from said incoming energy by a third readily-amplifiable high frequency, converting the combined energy by suitable means to produce said readily-amplifiable high frequency oscillations, amplifying the said third high frequency oscillations, and detecting and indicating the resulting amplified oscillations."
+  },
+  {
+   "n": 2,
+   "page": 3,
+   "cite": "p.3:43",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "2. The method of amplifying and receiving high frequency electrical oscillatory energy which comprises, combining the incoming energy with locally generated high frequency continuous electrical oscillations of a frequency differing from said incoming energy by a third readily-amplifiable high frequency, rectifying the combined energy to produce said readily-amplifiable high frequency oscillations, amplifying the said third high frequency oscillations, and detecting and indicating the resulting amplified oscillations."
+  },
+  {
+   "n": 3,
+   "page": 3,
+   "cite": "p.3:56",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "3. The method of amplifying and receiving high frequency damped wave oscillatory electrical energy which comprises, combining the incoming energy with locally generated high frequency continuous electrical oscillations of a frequency differing from said incoming energy by a third readily-amplifiable high frequency, converting the combined energy by suitable means to produce said readily-amplifiable high frequency oscillations, amplifying the said third high frequency oscillations and detecting and indicating the resulting amplified oscillations."
+  },
+  {
+   "n": 4,
+   "page": 3,
+   "cite": "p.3:69",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "4. The method of amplifying and receiving undamped wave high frequency electrical oscillatory energy which comprises combining the incoming energy with locally generated high frequency continuous electrical oscillations of a frequency differing from said incoming energy by a third readily-amplifiable high frequency, amplifying the said third high frequency oscillations, combining said third high frequency electrical oscillations with locally generated high frequency oscillations at a frequency near to said third high frequency, converting the said last combined energy to produce low frequency oscillations and indicating the resulting low frequency oscillations."
+  },
+  {
+   "n": 5,
+   "page": 3,
+   "cite": "p.3:85",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "5. The method of indirectly amplifying high frequency electrical oscillatory energy which comprises combining said energy with high frequency continuous electrical oscillations of a frequency differing from said energy by a third readily-amplifiable high frequency, converting the combined energy by suitable means to produce said readily-amplifiable high frequency oscillations and amplifying said resulting readily-amplifiable high frequency oscillations."
+  },
+  {
+   "n": 6,
+   "page": 3,
+   "cite": "p.3:96",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "6. The method of amplifying and receiving electrical oscillatory energy of short wave length which comprises combining the incoming energy with locally generated high frequency continuous electrical oscillations of a frequency differing from said incoming energy by a third high frequency within the range of 20,000 to 250,000 cycles per second, rectifying the combined energy to produce said oscillations of said third high frequency, amplifying the said third high frequency oscillations and detecting and indicating the resulting amplified oscillations."
+  },
+  {
+   "n": 7,
+   "page": 3,
+   "cite": "p.3:109",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "7. The method of receiving and amplifying high frequency oscillations whereby the incoming energy is utilized to produce oscillations of a different locally predetermined high frequency which are then amplified and the resultant energy utilized to produce oscillations of a second different, locally predetermined, high frequency, which are then amplified, detected and indicated."
+  },
+  {
+   "n": 8,
+   "page": 3,
+   "cite": "p.3:118",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "8. The method of receiving and amplifying high frequency currents whereby the incoming oscillations are combined with a second locally generated high frequency oscillations, and the combination converted by suitable means to produce oscillations of a third high frequency, which are then amplified and the resulting energy combined with a fourth locally generated high frequency oscillations and the combination converted by suitable means to produce oscillations of a fifth high frequency, which are then amplified, detected and indicated."
+  },
+  {
+   "n": 9,
+   "page": 4,
+   "cite": "p.4:1",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "9. The method of receiving and multi-stage amplifying high frequency oscillations whereby the incoming energy is utilized to produce oscillations of a different locally predetermined high frequency, which are then amplified and the resultant energy utilized to produce successive oscillations of different high frequency, which are locally predetermined and amplified before being combined with successively different locally generated oscillations and converted to produce the successive oscillations and which after the last stage of amplification are then detected and indicated."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "cite": "header",
+   "ocr": "Serial Wo.",
+   "fixed": "Serial No.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:1",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:2",
+   "ocr": "Eowin",
+   "fixed": "Edwin",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:2",
+   "ocr": "Armsrnone,",
+   "fixed": "Armstrong,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:5",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:8",
+   "ocr": "to'a",
+   "fixed": "to a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:12",
+   "ocr": "©",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:18",
+   "ocr": "e",
+   "fixed": "The",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:20",
+   "ocr": "explanation :",
+   "fixed": "explanation:",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:23",
+   "ocr": "‘the",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:26",
+   "ocr": "impossible.",
+   "fixed": "impossible",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:26",
+   "ocr": "sig- nals,",
+   "fixed": "signals.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:27",
+   "ocr": "am- lifiers",
+   "fixed": "amplifiers",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:29",
+   "ocr": "ut",
+   "fixed": "but",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:35",
+   "ocr": "problern",
+   "fixed": "problem",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:39",
+   "ocr": "Signals",
+   "fixed": "signals",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:39",
+   "ocr": ",",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:42",
+   "ocr": "‘been",
+   "fixed": "has been",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:44",
+   "ocr": "and_success- fully",
+   "fixed": "and successfully",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:47",
+   "ocr": "elements.",
+   "fixed": "elements",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:60",
+   "ocr": "0-100",
+   "fixed": "0–100",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:69",
+   "ocr": "independent.",
+   "fixed": "independent",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:77",
+   "ocr": "",
+   "fixed": "be",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:79",
+   "ocr": "‘gain",
+   "fixed": "gain",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:82",
+   "ocr": "the: incomin:",
+   "fixed": "the incoming",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:86",
+   "ocr": "ig",
+   "fixed": "is",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:87",
+   "ocr": "fre- uency. -After",
+   "fixed": "frequency. After",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:88",
+   "ocr": "ampli- er,",
+   "fixed": "amplifier,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:91",
+   "ocr": "uency",
+   "fixed": "frequency",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:91",
+   "ocr": "audibility yond",
+   "fixed": "audibility, but beyond",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:96",
+   "ocr": "systeni",
+   "fixed": "system",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:99",
+   "ocr": "—",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:100",
+   "ocr": "down.",
+   "fixed": "down",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:103",
+   "ocr": "e",
+   "fixed": "The",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:5",
+   "ocr": "w",
+   "fixed": "by",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:6",
+   "ocr": "to.",
+   "fixed": "to",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:6",
+   "ocr": "rr is_re- moved,",
+   "fixed": "is removed,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:16",
+   "ocr": "ard",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:17",
+   "ocr": "stages.",
+   "fixed": "stages",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:22",
+   "ocr": "capacity.",
+   "fixed": "capacity",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:24",
+   "ocr": "-A",
+   "fixed": "A",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:31",
+   "ocr": "predetermine fre- quency ;",
+   "fixed": "predetermined frequency;",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:37",
+   "ocr": "m",
+   "fixed": "my",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:38",
+   "ocr": "follows :— he",
+   "fixed": "follows:—The",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:40",
+   "ocr": "2—8",
+   "fixed": "2—3",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:41",
+   "ocr": "loeally",
+   "fixed": "locally",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:41",
+   "ocr": "frequency:",
+   "fixed": "frequency",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:42",
+   "ocr": "fre- “quency",
+   "fixed": "frequency",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:43",
+   "ocr": "fre- uency,",
+   "fixed": "frequency,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:45",
+   "ocr": "he",
+   "fixed": "The",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:46",
+   "ocr": "fre",
+   "fixed": "are",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:46",
+   "ocr": "rectifier.",
+   "fixed": "rectifier",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:47",
+   "ocr": "arto",
+   "fixed": "into",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:52",
+   "ocr": "directly.",
+   "fixed": "directly",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:56",
+   "ocr": "detect- -ing",
+   "fixed": "detecting",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:57",
+   "ocr": "9—10.in",
+   "fixed": "9—10 in",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:58",
+   "ocr": "indicated. conven- tionally:",
+   "fixed": "indicated conventionally",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:63",
+   "ocr": "the:",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:63",
+   "ocr": "timé.",
+   "fixed": "time.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:65",
+   "ocr": "also.",
+   "fixed": "also",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:69",
+   "ocr": "‘tuned",
+   "fixed": "tuned",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:70",
+   "ocr": "oscil- . Iations",
+   "fixed": "oscillations",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:72",
+   "ocr": "incoming. oscilla-- tions;",
+   "fixed": "incoming oscillations;",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:74",
+   "ocr": "15—13— 14—1G6—17",
+   "fixed": "15—13—14—16—17",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:75",
+   "ocr": ".a",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:76",
+   "ocr": "frequency. résistance",
+   "fixed": "frequency resistance",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:81",
+   "ocr": "18 - ~ ;",
+   "fixed": "18.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:84",
+   "ocr": "creating cillations,",
+   "fixed": "incoming oscillations,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:85",
+   "ocr": "rectifyi",
+   "fixed": "rectifying",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:86",
+   "ocr": "22—23—25.",
+   "fixed": "22—23—25",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:86",
+   "ocr": "combin",
+   "fixed": "combined",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:88",
+   "ocr": "The.",
+   "fixed": "The",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:91",
+   "ocr": "‘frequency",
+   "fixed": "frequency",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:91",
+   "ocr": "t- ing",
+   "fixed": "resulting",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:92",
+   "ocr": "detectéd",
+   "fixed": "detected",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:93",
+   "ocr": "syste m",
+   "fixed": "system",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:94",
+   "ocr": "— 1 .",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:100",
+   "ocr": "3",
+   "fixed": "32—33",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:103",
+   "ocr": "32-33.",
+   "fixed": "32—33.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:103",
+   "ocr": "-rectifies",
+   "fixed": "rectifies",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:109",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:110",
+   "ocr": "in- \"dicated",
+   "fixed": "indicated",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:111",
+   "ocr": "44-and",
+   "fixed": "44 and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:113",
+   "ocr": "‘understood",
+   "fixed": "understood",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:114",
+   "ocr": "oscillations.",
+   "fixed": "oscillations",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:115",
+   "ocr": "-a",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:120",
+   "ocr": "‘the",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:121",
+   "ocr": "- and:",
+   "fixed": "and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:122",
+   "ocr": "fre-. \"quency",
+   "fixed": "frequency",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:123",
+   "ocr": "roduced.",
+   "fixed": "produced.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:125",
+   "ocr": "second.",
+   "fixed": "second",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:125",
+   "ocr": "pro- ‘ duced",
+   "fixed": "produced",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:126",
+   "ocr": "is,adj",
+   "fixed": "is adjusted",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:127",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:127",
+   "ocr": "combined: acs",
+   "fixed": "combined",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:129",
+   "ocr": "y",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:10",
+   "ocr": "frequency.",
+   "fixed": "frequency",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:11",
+   "ocr": "be-employed",
+   "fixed": "be employed",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:14",
+   "ocr": "ig",
+   "fixed": "is",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:23",
+   "ocr": "which:",
+   "fixed": "which",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:30",
+   "ocr": "_receiv- ing",
+   "fixed": "receiving",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:60",
+   "ocr": "e ectrical",
+   "fixed": "electrical",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:62",
+   "ocr": "readily: amplifiable",
+   "fixed": "readily-amplifiable",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:67",
+   "ocr": "oscillations.",
+   "fixed": "oscillations",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:69",
+   "ocr": "_ 4,",
+   "fixed": "4.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:69",
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:77",
+   "ocr": "combining:",
+   "fixed": "combining",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:82",
+   "ocr": "vs- cillations",
+   "fixed": "oscillations",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:88",
+   "ocr": "frequency,",
+   "fixed": "frequency",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:91",
+   "ocr": "combined,",
+   "fixed": "combined",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:92",
+   "ocr": "readily- amplifiable",
+   "fixed": "readily-amplifiable",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:96",
+   "ocr": "receiv-. ing",
+   "fixed": "receiving",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:98",
+   "ocr": "combinin,",
+   "fixed": "combining",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:113",
+   "ocr": "‘amplified",
+   "fixed": "amplified",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:114",
+   "ocr": "roduce",
+   "fixed": "produce",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:121",
+   "ocr": "high-frequency",
+   "fixed": "high frequency",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:124",
+   "ocr": "",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:126",
+   "ocr": "generate",
+   "fixed": "generated",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:127",
+   "ocr": "conve",
+   "fixed": "converted",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.4:1",
+   "ocr": "-- -9,",
+   "fixed": "9.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:1",
+   "ocr": "multi- __ stage",
+   "fixed": "multi-stage",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:3",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:3",
+   "ocr": "1s",
+   "fixed": "is",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:3",
+   "ocr": "“to",
+   "fixed": "to",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:6",
+   "ocr": "_",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:8",
+   "ocr": "-.",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:9",
+   "ocr": "being.",
+   "fixed": "being",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:14",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:14",
+   "ocr": "- —",
+   "fixed": "",
+   "basis": "scan"
+  }
+ ]
+}

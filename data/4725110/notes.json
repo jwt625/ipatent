@@ -1,0 +1,37 @@
+{
+  "patent": "Filed 1986-10-27 as a continuation of an application of 1984-08-13 and issued 1988-02-16 to William H. Glenn, Gerald Meltz and Elias Snitzer, assigned to United Technologies Corporation. It claims writing a Bragg grating into the core of an optical fiber from the side: two coherent ultraviolet beams cross at the core through the cladding, and their interference fringes permanently change the refractive index of the photosensitive (germanium-doped) core. Hill et al. (Applied Physics Letters, 1978, cited on the front page) had made fiber gratings by launching visible laser light along the fiber, which tied the reflected wavelength to the writing wavelength. Writing from the side lets the crossing angle set the grating period, and so the reflected wavelength, and puts each grating at a chosen place. The patent applies this to a distributed strain gauge: gratings of different period at stations along a structure each reflect their own wavelength, and the shift of each line gives the strain at that station. Meltz, Morey and Glenn published the method as \"Formation of Bragg gratings in optical fibers by a transverse holographic method\" (Optics Letters, 1989). Side writing with two-beam interference, and later through a phase mask (Hill et al., Applied Physics Letters, 1993), became the standard way to make fiber Bragg gratings for sensors and telecommunications filters.",
+  "figs": {
+    "1": "Isometric sketch of the gauge. Fiber 15 lies along the top of bent plate 22 (the text says attached or embedded); brackets A, B and C mark the three grating stations, drawn with grating 16 densest at A and coarsest at C. Light from source 33 passes beam splitter 34 and the lens (lettered LENS, numbered 33' only in the text) into the fiber end at 13; the long-dash lines are the beam, and the returning light is turned down by the splitter to spectrometer 37 (dashed arrow). The dashed straight lines across the top of the plate are not explained in the text.",
+    "2A": "Short length of fiber 15 at station A. The two inner lines bound core 19; the vertical bars across the core are the grating planes 16, here at the closest spacing of the three. The hatched ovals are cut ends. The arrow R_{λA} is the light of wavelength λ_{A} that this grating reflects back toward the input end.",
+    "2B": "Station B, drawn as FIG. 2A with an intermediate grating spacing; R_{λB} is its reflected line.",
+    "2C": "Station C, drawn as FIG. 2A with the widest grating spacing; R_{λC} is its reflected line.",
+    "3": "Reflected spectrum seen at spectrometer 37: one narrow peak per station, wavelength increasing to the right. Solid peaks are the lines before strain; dashed peaks are the lines after regions A and C are deformed. λ_{B} is unmoved, λ_{A} moves to a longer and λ_{C} to a shorter wavelength by Δλ_{A} and Δλ_{C}. By the Bragg condition λ = 2n_{eff}Λ a longer line means a longer grating period. The order of the peaks does not match FIGS. 2A to 2C, where A has the finest spacing and so would reflect the shortest wavelength; the drawings are schematic in this respect.",
+    "4": "Two writing set-ups side by side. In each, beam 101 from a UV source is split at 103; the two halves reflect from mirrors 105 and cross on the fiber as beams 99. The arcs measure the beam angles from a reference line parallel to the fiber axis: one beam arrives at θ, the other at 180° - θ, so the pair is symmetric about the normal. The left set-up (θ_{1}, the larger angle) writes the coarse grating of spacing Δc, the right one (θ_{2}, smaller) the fine grating of spacing Δa. The standard two-beam result, not stated in the patent, is a fringe period Λ = λ_{UV}/(2 cos θ) along the axis, so a beam nearer the axis gives finer fringes. The dash-dot lines inside the fiber are core 19."
+  },
+  "parts": {
+    "13": "The leader ends at the input face of the fiber, but the numeral names the whole gauge.",
+    "15": "The text also says \"The core 15 contains a series of ... gratings 16\"; from context this means core 19.",
+    "19'": "The far end of the core; the text notes the transmitted spectrum, the complement of FIG. 3, could be read there instead.",
+    "33'": "Named only in the text; in FIG. 1 the lens carries the word LENS and no numeral.",
+    "101'": "Not named in the text; it marks the box lettered UV SOURCE that emits beam 101.",
+    "105": "The text says the beam angles on the core are set by increasing the separation between reflectors 105 and changing the angle of beam 101.",
+    "A": "Strain station whose grating reflects λ_{A} in FIG. 3; strained in the example.",
+    "B": "Strain station whose grating reflects λ_{B} in FIG. 3; unstrained in the example.",
+    "C": "Strain station whose grating reflects λ_{C} in FIG. 3; strained in the example."
+  },
+  "glossary": [
+    {"term": "fiber Bragg grating", "def": "A periodic variation of refractive index along a fiber core. It reflects a narrow band of light around the Bragg wavelength and transmits the rest."},
+    {"term": "Bragg condition", "def": "For a grating of period Λ in a guide of effective index n_{eff}, first-order reflection occurs at λ_{B} = 2n_{eff}Λ. Stretching or heating the fiber changes Λ and n_{eff} and so moves λ_{B}."},
+    {"term": "photosensitivity", "def": "A permanent change of refractive index produced in glass by light. In germanium-doped silica it is strongest for ultraviolet light near the germanium-related absorption band around 240 nm."},
+    {"term": "phase grating", "def": "A grating that varies the refractive index (the phase delay) rather than the absorption of the light."},
+    {"term": "transverse holographic writing", "def": "Exposing the fiber from the side to the interference pattern of two crossing coherent beams, as in FIG. 4; the beam angle sets the fringe period."},
+    {"term": "complement", "def": "In this patent, two angles whose sum is 180 degrees (usually called supplementary)."},
+    {"term": "single mode fiber", "def": "A fiber whose core guides only the lowest-order mode at the working wavelength, so each grating gives one clean reflection line."},
+    {"term": "cladding mode", "def": "Light guided by the cladding-to-air boundary instead of the core; the prior-art method in the background detects strain from light coupled into these modes."},
+    {"term": "time-domain reflectometry", "def": "Locating losses or reflections along a fiber from the delay of light returned from a launched pulse."},
+    {"term": "broadband light source", "def": "A source emitting a wide continuous spectrum, so that every grating along the fiber returns its own line at once."},
+    {"term": "thermo-optic coefficient", "def": "The change of refractive index with temperature; q in the patent's sensitivity formula."},
+    {"term": "microstrain", "def": "A strain of 10^{-6}, a length change of one part per million."},
+    {"term": "nm", "def": "Nanometre, 10^{-9} m. The patent's writing light is below 300 nm, in the ultraviolet."}
+  ]
+}

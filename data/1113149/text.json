@@ -1,0 +1,1581 @@
+{
+ "pn": "1113149",
+ "number": "1,113,149",
+ "title": "WIRELESS RECEIVING SYSTEM",
+ "inventors": [
+  "Edwin H. Armstrong"
+ ],
+ "assignee": null,
+ "filed": "1913-10-29",
+ "issued": "1914-10-06",
+ "appl_no": "797,947",
+ "int_cl": null,
+ "us_cl": null,
+ "refs_patents": [],
+ "refs_other": [],
+ "examiners": null,
+ "claims_count": 18,
+ "drawing_figures": 6,
+ "abstract": "",
+ "cite_scheme": "printed page:line",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "page": 3,
+     "cite": "p.1:1",
+     "col": null,
+     "line": null,
+     "text": "To all whom it may concern:"
+    },
+    {
+     "page": 3,
+     "cite": "p.1:2",
+     "col": null,
+     "line": null,
+     "text": "Be it known that I, Edwin H. Armstrong, a citizen of the United States, residing at 1032 Warburton avenue, Yonkers, county of Westchester, State of New York, have invented certain new and useful Improvements in Wireless Receiving Systems; and I do hereby declare the following to be a full, clear, and exact description of the invention, such as will enable others skilled in the art to which it appertains to make and use the same."
+    },
+    {
+     "page": 3,
+     "cite": "p.1:13",
+     "col": null,
+     "line": null,
+     "text": "The present invention relates to improvements in the arrangement and connections ot electrical apparatus at the receiving station of a wireless system, and particularly a system of this kind in which a so-called “audion” is used as the Hertzian wave detector; the object being to amplify the effect of the received waves upon the current in the telephone or other receiving circuit, to increase the loudness and definition of the sounds in the telephone or other receiver, whereby more reliable communication may be established, or a greater distance of transmission becomes possible. To this end I have modified and improved upon the arrangement of the receiving circuits in a manner which will appear fully from the following description taken in connection with the accompanying drawings. As a preliminary, it is to be noted that my improved arrangement corresponds with the ordinary arrangement of circuits in connection with an audion detector to the extent that it comprises two interlinked circuits; a tuned receiving circuit in which the audion grid is included, and which will be hereinafter referred to as the “tuned grid circuit”, and a circuit including a battery or other source of direct current and the “wing” of the audion, and which will be hereinafter referred to as the “wing circuit”. As is usual, the two circuits are interlinked by connecting the hot filament of the audion to the point of junction of the tuned grid circuit and the wing circuit. I depart, however, from the customary arrangement of these circuits in a manner which may, for convenience of description, be classified by analysis under three heads; firstly, the provision of means, or the arrangement of the apparatus, to impart resonance to the wing circuit so that it is capable of sustaining oscillations corresponding to the oscillations in the tuned grid circuit; secondly, the provision of means supplementing the electrostatic coupling of the audion to facilitate the transfer of energy from the wing circuit to the grid circuit, thereby reinforcing the high frequency oscillations in the grid circuit, and thirdly, the introduction into the wing circuit of an inductance through which the direct current of the wing circuit flows, and which is so related to the grid circuit that the maintaining electromotive-force across the terminals of the inductance due to reduction of the direct current, is effective in the tuned grid circuit to increase the grid charge and consequently to further reduce the current in the wing circuit and in the telephones. By a further extension of this idea, the effect of the maintaining electromotive-force upon the grid current may be augmented by the use of a transformer in a manner which will be understood from the following description."
+    },
+    {
+     "page": 3,
+     "cite": "p.1:78",
+     "col": null,
+     "line": null,
+     "text": "Figure 1 illustrates the arrangement and connection of apparatus with which I have thus far obtained the best results and which embodies in combination the several features of improvement which I have invented or discovered. Fig. 2 represents a like arrangement with the exception that there is no transformer for augmenting the effect of the maintaining electromotive-force, and several condensers, which may advantageously be employed but which are not essential, are eliminated. Fig. 3 illustrates an arrangement in which the advantages of my invention are only partially present, the inductance which produces the maintaining electromotive-force effective on the tuned grid circuit being eliminated. Fig. 4 illustrates an arrangement in which inductance, in this case the inductance of the telephones, is employed for producing the maintaining electromotive force effective on the tuned grid circuit, but the wing circuit is not resonant. Fig. 5 illustrates an arrangement in which an inductance replaces the telephones in that portion of the connections which is common to the two circuits, and the telephones are put in the wing circuit, and Fig. 6 illustrates an arrangement in which a double winding transformer is used, the primary being located in the wing circuit."
+    },
+    {
+     "page": 4,
+     "cite": "p.2:8",
+     "col": null,
+     "line": null,
+     "text": "Referring particularly to Fig. 1, A represents the ordinary grounded aerial connected to the primary P of an oscillation transformer, the secondary S of which is connected as usual in the tuned grid circuit, this circuit also including the inductance L and preferably a shunted capacity C as is usual. Between the inductance L and the audion grid G is located a condenser C′ adapted to receive and hold the charge which accumulates on the grid as a result of the received oscillations. The grid lies within the audion in the path of current in the wing circuit and the grid circuit is connected to the wing circuit at the junction point O, so that the two circuits are interlinked from the grid to that point. Between the junction point O and the filament of the audion I insert the telephone receivers R and the primary of the auto-transformer T. From junction point O the tuned grid circuit is completed through the secondary of the auto-transformer and condenser C^{2} back to the secondary S; and the condenser C^{5} is connected as shown in shunt to the telephones and the secondary of the auto-transformer. The wing circuit may be traced from the positive terminal of the battery through the inductance L′ to the wing W and through the connections which are common to the two circuits, including the current path through the audion to the filament F, the telephone receivers R, and the primary of the auto-transformer and back to the negative terminal of the battery. The inductance L′ is preferably shunted by a condenser C^{3} and a condenser C^{4} is placed across the battery terminals to afford a path of low impedance for the high frequency oscillation. The telephones R and the auto-transformer T are shunted by a condenser C^{5}, which affords a path for the high frequency oscillations in the grid circuit; and the telephones R and the primary of the auto-transformer are shunted by a capacity C^{6}, which affords a path for the high frequency oscillations in the wing circuit, and I find that the audion is made more stable and shows less tendency to become a high frequency generator and to set up oscillations in the interlinked circuits, if the tuned grid circuit is grounded as indicated. Each of the pieces of apparatus crossed with an arrow on the drawing is continuously variable, that is, may be varied by infinitesimal increments, and the condenser C^{4} is preferably made adjustable by steps. I find that with such an arrangement of apparatus, and by properly adjusting the reactances, signals which are scarcely audible with the ordinary audion connection can be amplified to a point where they are too strong for, and “paralyze” the most stable audions that I have been able to obtain. The present understanding and modes of explanation of the phenomena which present themselves in such an arrangement is such that any theory of operation which may be advanced in regard to them is merely an attempt to explain the results attained in language which will be understandable to those skilled in the art; and it is with this idea in mind that the following description is written."
+    },
+    {
+     "page": 4,
+     "cite": "p.2:82",
+     "col": null,
+     "line": null,
+     "text": "Upon reference to Fig. 2 of the drawings, which is an attempt to simplify the illustration of the essential elements of my invention, it will be observed that the auto-transformer T, and the condensers C^{2}, C^{3}, C^{5}, and C^{6}, are omitted. In this case the capacity of the telephone cords is sufficient to by-pass the high frequency oscillations."
+    },
+    {
+     "page": 4,
+     "cite": "p.2:90",
+     "col": null,
+     "line": null,
+     "text": "The effect of tuning the wing circuit to the received high frequency oscillations by such an arrangement of apparatus as is illustrated in Fig. 3, may be explained as follows: In the ordinary audion connection, the wing W will be constantly maintained at the same potential with respect to the filament F and will constitute a surface of positive potential within the audion and having a constant tendency to absorb electrons. When the wing circuit is made resonant in accordance with my invention, the initial received oscillations in the grid circuit set up corresponding oscillations in the wing circuit so that a negative charge on the grid is accompanied by an increase of the potential of the wing, and a positive charge on the grid is accompanied by a decrease of the potential of the wing. The absorption of electrons by the grid and the building up of the charge in the condenser C′ occurs only when the potential of the grid is positive with respect to the potential of the filament, and during these periods the potential of the wing with respect to the filament is reduced, thereby reducing its absorption of electrons and increasing the absorption of electrons by the grid. The charge thus built up in the condenser C′ by absorption at the grid is entrapped and is an effective counter-electromotive-force in the wing circuit to reduce the current in the telephones. It is understood that on each successive wave train this effect is repeated, it being probable, according to my observations, that the full condenser charge is not built up by the first wave of a train but is gradually built up during the first portion of the wave train; and because of the high resistance of the discharge path of the condenser C′, this charge outlasts the duration of the wave train."
+    },
+    {
+     "page": 5,
+     "cite": "p.3:4",
+     "col": null,
+     "line": null,
+     "text": "Referring now to Fig. 4, we may examine the effect of an inductance inserted in the wing circuit and related to the grid circuit as above defined. The reduction of current, through the telephones, due to the received oscillations, produces a maintaining electromotive-force across the terminals of the telephones R which is in the same direction as the battery electromotive-force, and, because of the fact that the telephones are in that portion of the connections which is common to the two circuits, this maintaining electromotive-force is effective upon the tuned grid circuit to charge the condenser C′ in the same sense that the flow of electrons from the filament to the grid would charge the condenser. I have found, as a practical matter, that the arrangement of apparatus shown in Fig. 4 is effective to materially increase the loudness of the signals, but obviously better effects are obtained by combining the arrangements of Figs. 3 and 4 to make up the arrangement of Fig. 2. In this figure an auto-transformer L. is used instead of the two-coil transformer P. S., and in Figs. 2 and 4 the capacity of the telephone cords affords a path of low impedance for the passage of the high frequency oscillations about the inductance of the telephones. It will be observed, that this capacity of the telephone cords in Figs. 2 and 4, and likewise the capacity C^{5} in Fig. 5 and the distributed capacity of the transformers in Figs. 1 and 6, is in each case common to the grid circuit and the wing circuit and constitutes an electrostatic coupling facilitating the transfer of energy from the wing circuit to the grid circuit and increasing the effect upon the grid of high frequency pulsations in the wing circuit. This effect occurs whether the wing circuit is tuned or not, but obviously the transfer of energy is increased by tuning the two circuits alike. I have discovered, however, that the beneficial effect may be still further increased by the interposition of a transformer in such a way as to increase the effect of the maintaining electromotive-force due to the reduction of current through the telephone receivers, and such a transformer is shown at T in Fig. 1. With the foregoing discussion in mind the effect of this transformer will at once be apparent. The inductance of the primary of the transformer is of course added to and increases the effect of the inductance of the telephones, but beyond this the maintaining electromotive-force across the primary is transformed into a higher electromotive-force in the tuned grid circuit. I bave found that a ratio of transformation of 2 to 1 is sufficient in most cases when the inductance of the primary is equal to the inductance of the telephones, since a greater ratio causes the audion to become a high frequency generator setting up disturbing oscillations in the grid and wing circuits. The condenser C^{5} by-passes the high frequency oscillations in the grid circuit about the telephones and the auto-transformer T, and the condenser C^{6} by-passes the oscillations in the wing circuit about the telephones and the primary of the auto-transformer. The capacity of the telephone cords may, however, be relied upon to by-pass the oscillations about the telephones and condensers C^{5} and C^{6} utilized for by-passing the oscillations about the transformer only. The manner in which the different reactances will be adjusted so as to tune the two circuits to one another will be at once understood by those skilled in the art, and it will also be understood that the adjustable resistance X may be varied to get the proper temperature of the filament. Furthermore, it will be understood from what has been said that the ratio of transformation of the transformer should be adjusted to get the maximum signals without causing the audion to generate oscillations. The condenser C^{5} has the additional effect, as I have found, to steady the audion and enable it to withstand greater variations of potential of the grid G and wing W without becoming a generator of disturbing oscillations in the grid and wing circuits. Particularly when working with long waves it is advisable to use this condenser in every case. I also find that the introduction of a condenser C^{2} in the place indicated in Fig. 1, that is, between the auto-transformer and the secondary S, has the effect to prevent buzzing or humming in the telephones."
+    },
+    {
+     "page": 5,
+     "cite": "p.3:106",
+     "col": null,
+     "line": null,
+     "text": "From what has been said, it will be understood that the inductance of the telephones may be utilized as the generator of the maintaining electromotive-force by inserting the telephones in the connections common to the two circuits, as shown in Figs. 1, 2 and 4; but a like result will be obtained by locating the telephones in the wing circuit as indicated in Fig. 5, and placing a suitable inductance as L^{2} in that portion of the connections which is common to the two circuits. Indeed I find that the beneficial effect of an inductance so located can be obtained, as would be expected, by utilizing the primary of the transformer alone, as indicated in Fig. 6. In this case a two coil transformer is shown in place of an auto-transformer and the variations of current in the primary induce potential variations in the secondary which may be given any value by properly selecting the ratio of transformation."
+    },
+    {
+     "page": 5,
+     "cite": "p.3:127",
+     "col": null,
+     "line": null,
+     "text": "Inasmuch as the purpose of the transformer is to magnify the effect of the maintaining electromotive-force in the inductance, it will be obvious that by increasing this inductance, the transformer may be rendered unnecessary, and some simplification of the whole arrangement may be attained by using telephone receivers of extremely high inductance and locating them in the position shown in Fig. 2, without any transformer."
+    },
+    {
+     "page": 6,
+     "cite": "p.4:9",
+     "col": null,
+     "line": null,
+     "text": "The purpose of the condenser C^{3} in Fig. 1 is to enable the wing circuit to be made resonant with the grid circuit when long waves are to be received. The capacity of the audion and the distributed capacity of the inductance L′ are such that up to 2000 meters wave length resonance can be obtained in the wing circuit with reasonable values of inductance. For waves longer than 2000 meters resonance can be obtained in the wing circuit without the parallel condenser, but only by unduly increasing L′."
+    },
+    {
+     "page": 6,
+     "cite": "p.4:21",
+     "col": null,
+     "line": null,
+     "text": "For the purpose of completing the disclosure of my invention, and to facilitate its practical application by those skilled in the art, I give below the values of the constants which I have found to work well for a wave length of 1800 meters, using an antenna having a capacity of .0012 microfarads and a standard McCandless audion. The inductance of the primary P was 760 microhenries and the combined inductance of the secondary S and the coil L was 3660 microhenries. The capacity of C was about .00025 microfarads, the capacity of C^{2}, .01 microfarads, and of C^{4}, 2 microfarads. The values of C′ and L′ are largely dependent upon one another and upon the amplitude of the received oscillations as well as the characteristics of the audion. These are the two elements which are chiefly relied upon by the operator to bring the system into condition to give the best results in receiving the signals from any particular station. The value of L′ will be in the neighborhood of 10,000 microhenries, and of C′ between .00003 and .0001 microfarads. If the inductance L′ is not used, the value of C′ can be much larger. I have usually employed about .003 microfarads as a matter of convenience; but there does not seem to be any particular advantage in increasing the capacity of C′ beyond .0005 microfarads. The batteries, and the resistance X, are as used in the standard audion set. The way to tune this set is to cut out L′, set C′ at .00005 microfarads, and then adjust P, S, L and C as in the ordinary audion set until signals are strongest. The inductance L′ is then gradually cut in and the strength of the signals will increase many times until a point is reached where the signals lose distinctness and there is a loud hiss in the telephones. This indicates that the audion is generating high frequency oscillations in the grid and wing circuits, and the inductance L′ should be set at a point just below that at which this occurs. If there is no hiss as L′ is increased, and the signals pass through a maximum of strength and begin to fall off, then L′ should be set at the point of maximum strength of signals and C′ should be increased to a point just below that at which the hiss appears. Under these circumstances, the increase of C′ will be accompanied by an increase of the strength of the signals, the maximum strength being obtained in each case just below that point at which the audion begins to act as a generator of high frequency oscillations."
+    },
+    {
+     "page": 6,
+     "cite": "p.4:79",
+     "col": null,
+     "line": null,
+     "text": "I find that the capacity required to by-pass the oscillations about the inductance which is common to the two circuits, and about the transformer, if the transformer is used, is relatively small; and when the telephone receivers are used as the inductance at this point, the capacity of the telephone cords is sufficient. With greater wave lengths, however, when it becomes necessary to increase the tuning inductances L and L′, the audion begins to be unstable, and I find that its stability can be restored by the use of a considerably larger capacity C^{5}. For example, with wave lengths of 4000 to 7500 meters I use a capacity C^{5} of from .001 to .003 microfarads."
+    },
+    {
+     "page": 6,
+     "cite": "p.4:95",
+     "col": null,
+     "line": null,
+     "text": "Having thus described my invention, what I claim is:"
+    },
+    {
+     "page": 8,
+     "cite": "p.6:18",
+     "col": null,
+     "line": null,
+     "text": "In testimony whereof I affix my signature, in presence of two witnesses."
+    },
+    {
+     "page": 8,
+     "cite": "p.6:20",
+     "col": null,
+     "line": null,
+     "text": "Edwin H. Armstrong."
+    },
+    {
+     "page": 8,
+     "cite": "p.6:22",
+     "col": null,
+     "line": null,
+     "text": "Witnesses: William H. Davis, John C. Pennie."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "page": 3,
+   "cite": "p.1:78",
+   "col": null,
+   "line": null,
+   "text": "Figure 1 illustrates the arrangement and connection of apparatus with which I have thus far obtained the best results and which embodies in combination the several features of improvement which I have invented or discovered."
+  },
+  {
+   "fig": "2",
+   "page": 3,
+   "cite": "p.1:83",
+   "col": null,
+   "line": null,
+   "text": "Fig. 2 represents a like arrangement with the exception that there is no transformer for augmenting the effect of the maintaining electromotive-force, and several condensers, which may advantageously be employed but which are not essential, are eliminated."
+  },
+  {
+   "fig": "3",
+   "page": 3,
+   "cite": "p.1:89",
+   "col": null,
+   "line": null,
+   "text": "Fig. 3 illustrates an arrangement in which the advantages of my invention are only partially present, the inductance which produces the maintaining electromotive-force effective on the tuned grid circuit being eliminated."
+  },
+  {
+   "fig": "4",
+   "page": 3,
+   "cite": "p.1:94",
+   "col": null,
+   "line": null,
+   "text": "Fig. 4 illustrates an arrangement in which inductance, in this case the inductance of the telephones, is employed for producing the maintaining electromotive force effective on the tuned grid circuit, but the wing circuit is not resonant."
+  },
+  {
+   "fig": "5",
+   "page": 3,
+   "cite": "p.1:100",
+   "col": null,
+   "line": null,
+   "text": "Fig. 5 illustrates an arrangement in which an inductance replaces the telephones in that portion of the connections which is common to the two circuits, and the telephones are put in the wing circuit"
+  },
+  {
+   "fig": "6",
+   "page": 4,
+   "cite": "p.2:4",
+   "col": null,
+   "line": null,
+   "text": "Fig. 6 illustrates an arrangement in which a double winding transformer is used, the primary being located in the wing circuit."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "page": 6,
+   "cite": "p.4:97",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "1. An audion wireless receiving system having a resonant wing circuit interlinked with a resonant grid circuit upon which the received oscillations are impressed, the resonant grid circuit having a capacity so related to the grid as to receive and retain the charge which accumulates thereon."
+  },
+  {
+   "n": 2,
+   "page": 6,
+   "cite": "p.4:104",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "2. An audion wireless receiving system having a resonant wing circuit interlinked with a resonant grid circuit upon which the received oscillations are impressed, the resonant grid circuit having a capacity so related to the grid as to receive and retain the charge which accumulates thereon, and an inductance through which the current in the wing circuit flows, the grid circuit including connections for making effective upon that circuit the potential variations resulting from a change of current in the wing circuit."
+  },
+  {
+   "n": 3,
+   "page": 6,
+   "cite": "p.4:117",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "3. An audion wireless receiving system having a resonant wing circuit interlinked with a resonant grid circuit upon which the received oscillations are impressed, the resonant grid circuit having a capacity so related to the grid as to receive and retain the charge which accumulates thereon, and an inductance in that portion of the connections which is common to the two circuits."
+  },
+  {
+   "n": 4,
+   "page": 6,
+   "cite": "p.4:126",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "4. An audion wireless receiving system having a resonant wing circuit interlinked with a resonant grid circuit upon which the received oscillations are impressed, the resonant grid circuit having a capacity so related to the grid as to receive and retain the charge which accumulates thereon, an inductance in that portion of the connections which is common to the two circuits, and a transformer having its primary in the wing circuit and its secondary in the grid circuit."
+  },
+  {
+   "n": 5,
+   "page": 7,
+   "cite": "p.5:10",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "5. An audion wireless receiving system having a resonant wing circuit interlinked with a resonant grid circuit upon which the received oscillations are impressed, the resonant grid circuit having a capacity so related to the grid as to receive and retain the charge which accumulates thereon, and a telephone receiver in that portion of the connections which is common to the two circuits."
+  },
+  {
+   "n": 6,
+   "page": 7,
+   "cite": "p.5:20",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "6. An audion wireless receiving system having a resonant wing circuit interlinked with a resonant grid circuit upon which the received oscillations are impressed, the resonant grid circuit having a capacity so related to the grid as to receive and retain the charge which accumulates thereon, a telephone receiver in that portion of the connections which is common to the two circuits, and a transformer having its primary in the wing circuit and its secondary in the grid circuit."
+  },
+  {
+   "n": 7,
+   "page": 7,
+   "cite": "p.5:32",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "7. An audion wireless receiving system having a resonant wing circuit interlinked with a resonant grid circuit upon which the received oscillations are impressed, the resonant grid circuit having a capacity so related to the grid as to receive and retain the charge which accumulates thereon, an inductance in that portion of the connections which is common to the two circuits a transformer having its primary in the wing circuit and its secondary in the grid circuit, and condensers affording paths of low impedance about the inductance and transformer for the high frequency oscillations in both circuits."
+  },
+  {
+   "n": 8,
+   "page": 7,
+   "cite": "p.5:47",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "8. An audion wireless receiving system having a wing circuit interlinked with a resonant grid circuit upon which the received oscillations are impressed, and an inductance in that portion of the connections which is common to the two circuits."
+  },
+  {
+   "n": 9,
+   "page": 7,
+   "cite": "p.5:53",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "9. An audion wireless receiving system having a wing circuit interlinked with a resonant grid circuit upon which the received oscillations are impressed, and an inductance through which the current in the wing circuit flows, the grid circuit including connections for making effective upon that circuit the potential variations resulting from a change of current in the wing circuit."
+  },
+  {
+   "n": 10,
+   "page": 7,
+   "cite": "p.5:63",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "10. An audion wireless receiving system having a wing circuit interlinked with a resonant grid circuit, an inductance in that portion of the connections which is common to the two circuits, and a transformer having its primary in the wing circuit and its secondary in the grid circuit."
+  },
+  {
+   "n": 11,
+   "page": 7,
+   "cite": "p.5:70",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "11. An audion wireless receiving system having a wing circuit interlinked with a resonant grid circuit upon which the received oscillations are impressed, an inductance in that portion of the connections which is common to the two circuits, a transformer having its primary in the wing circuit and its secondary in the grid circuit, and condensers affording paths of low impedance about the inductance and transformer for the high frequency oscillations in both circuits."
+  },
+  {
+   "n": 12,
+   "page": 7,
+   "cite": "p.5:82",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "12. An audion wireless receiving system having a wing circuit interlinked with a resonant grid circuit upon which the received oscillations are impressed, and a high inductance telephone receiver in that portion of the connections which is common to the two circuits."
+  },
+  {
+   "n": 13,
+   "page": 7,
+   "cite": "p.5:89",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "13. An audion wireless receiving system having a wing circuit interlinked with a resonant grid circuit upon which the received oscillations are impressed, a capacity between that portion of the grid circuit upon which the oscillations are impressed and the grid, and a second capacity between the point of junction of the grid circuit with the wing circuit and that portion of the grid circuit upon which the oscillations are impressed."
+  },
+  {
+   "n": 14,
+   "page": 7,
+   "cite": "p.5:100",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "14. An audion wireless receiving system having a wing circuit interlinked with a resonant grid circuit upon which the received oscillations are impressed, an inductance in that portion of the connections which is common to the two circuits, and a stabilizing capacity shunted about said inductance."
+  },
+  {
+   "n": 15,
+   "page": 7,
+   "cite": "p.5:108",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "15. An audion wireless receiving system having a wing circuit interlinked with a resonant grid circuit upon which the received oscillations are impressed, and means supplementing the coupling of the audion to facilitate transfer of energy from the wing circuit to the grid circuit, whereby the effect upon the grid of high frequency pulsations in the wing circuit is increased."
+  },
+  {
+   "n": 16,
+   "page": 7,
+   "cite": "p.5:117",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "16. An audion wireless receiving system having a resonant wing circuit interlinked with a resonant grid circuit upon which the received oscillations are impressed, and means supplementing the coupling of the audion to facilitate transfer of energy from the wing circuit to the grid circuit, whereby the effect upon the grid of high frequency pulsations in the wing circuit is increased."
+  },
+  {
+   "n": 17,
+   "page": 7,
+   "cite": "p.5:126",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "17. An audion wireless receiving system having a wing circuit interlinked with a resonant grid circuit upon which received oscillations are impressed and an electrostatic coupling between the circuits supplementing the coupling of the audion to facilitate transfer of energy from the wing circuit to the grid circuit, whereby the effect upon the grid of high frequency pulsations in the wing circuit is increased."
+  },
+  {
+   "n": 18,
+   "page": 8,
+   "cite": "p.6:8",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "18. An audion wireless receiving system having a resonant wing circuit interlinked with a resonant grid circuit upon which received oscillations are impressed and an electrostatic coupling between the circuits supplementing the coupling of the audion to facilitate transfer of energy from the wing circuit to the grid circuit, whereby the effect upon the grid of high frequency pulsations in the wing circuit is increased."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "cite": "header",
+   "ocr": "Patented Oct. G, 1914.",
+   "fixed": "Patented Oct. 6, 1914.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "header",
+   "ocr": "October 29, 1918.",
+   "fixed": "October 29, 1913.",
+   "basis": "scan + drawing sheets"
+  },
+  {
+   "cite": "header",
+   "ocr": "Serial No. 797,047.",
+   "fixed": "Serial No. 797,947.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:1",
+   "ocr": "Lo",
+   "fixed": "To",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:2",
+   "ocr": "Epwin",
+   "fixed": "Edwin",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:2",
+   "ocr": "ARMSTRONG,",
+   "fixed": "Armstrong,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:3",
+   "ocr": "cilizen",
+   "fixed": "citizen",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:11",
+   "ocr": "maké",
+   "fixed": "make",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:12",
+   "ocr": ": .",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:14",
+   "ocr": "arrangement.",
+   "fixed": "arrangement",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:17",
+   "ocr": "‘so-called “an-",
+   "fixed": "so-called “au-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:23",
+   "ocr": "telephone:",
+   "fixed": "telephone",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:23",
+   "ocr": "‘other",
+   "fixed": "other",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:30",
+   "ocr": "taken.",
+   "fixed": "taken",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:39",
+   "ocr": "f-rred",
+   "fixed": "ferred",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:41",
+   "ocr": "“ wing”",
+   "fixed": "“wing”",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:50",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:57",
+   "ocr": "incans",
+   "fixed": "means",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:64",
+   "ocr": ".and",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:65",
+   "ocr": "Which",
+   "fixed": "which",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:90",
+   "ocr": "went",
+   "fixed": "ment",
+   "basis": "scan (damaged m)"
+  },
+  {
+   "cite": "p.1:91",
+   "ocr": "ure",
+   "fixed": "are",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:94",
+   "ocr": "cirenit",
+   "fixed": "circuit",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:96",
+   "ocr": "-case",
+   "fixed": "case",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:9",
+   "ocr": "‘gents",
+   "fixed": "sents",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:9",
+   "ocr": "connect:",
+   "fixed": "connect-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:14",
+   "ocr": "referably",
+   "fixed": "preferably",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:15",
+   "ocr": "etween",
+   "fixed": "Between",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:16",
+   "ocr": "C’",
+   "fixed": "C′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:27",
+   "ocr": "a ae",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:28",
+   "ocr": "fare junction O",
+   "fixed": "junction point O",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:29",
+   "ocr": "completed Point through",
+   "fixed": "completed through",
+   "basis": "scan (OCR placed the word from p.2:28 here)"
+  },
+  {
+   "cite": "p.2:30",
+   "ocr": "mm",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:30",
+   "ocr": "C?",
+   "fixed": "C^{2}",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:31",
+   "ocr": "ct",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:31",
+   "ocr": "C*",
+   "fixed": "C^{5}",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:32",
+   "ocr": "teat a",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:33",
+   "ocr": "ae hones",
+   "fixed": "phones",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:34",
+   "ocr": "ormer.",
+   "fixed": "former.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:36",
+   "ocr": "L’",
+   "fixed": "L′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:43",
+   "ocr": "L’",
+   "fixed": "L′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:44",
+   "ocr": "C*",
+   "fixed": "C^{3}",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:44",
+   "ocr": "C*",
+   "fixed": "C^{4}",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:47",
+   "ocr": "‘oscillation.",
+   "fixed": "oscillation.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:49",
+   "ocr": "C%,",
+   "fixed": "C^{5},",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:53",
+   "ocr": "C*,",
+   "fixed": "C^{6},",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:54",
+   "ocr": "queficy",
+   "fixed": "quency",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:62",
+   "ocr": "1 :finitesimal",
+   "fixed": "infinitesimal",
+   "basis": "scan (damaged type; the n is broken)"
+  },
+  {
+   "cite": "p.2:63",
+   "ocr": "©‘",
+   "fixed": "C^{4}",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:69",
+   "ocr": "a,",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:73",
+   "ocr": "which,",
+   "fixed": "which",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:74",
+   "ocr": "any.",
+   "fixed": "any",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:76",
+   "ocr": "‘in",
+   "fixed": "in",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:78",
+   "ocr": "which:",
+   "fixed": "which",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:80",
+   "ocr": "description.",
+   "fixed": "description",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:81",
+   "ocr": "‘",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:82",
+   "ocr": "_",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:82",
+   "ocr": "‘reference",
+   "fixed": "reference",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:86",
+   "ocr": "C?, C%,",
+   "fixed": "C^{2}, C^{3},",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:87",
+   "ocr": "C5,",
+   "fixed": "C^{5},",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:87",
+   "ocr": "C*,",
+   "fixed": "C^{6},",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:91",
+   "ocr": "cscillations",
+   "fixed": "oscillations",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:99",
+   "ocr": "tendency.",
+   "fixed": "tendency",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:100",
+   "ocr": "electrons.’",
+   "fixed": "electrons.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:106",
+   "ocr": "‘potential",
+   "fixed": "potential",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:108",
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:108",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:111",
+   "ocr": "C’",
+   "fixed": "C′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:118",
+   "ocr": "C’",
+   "fixed": "C′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:119",
+   "ocr": "the-grid",
+   "fixed": "the grid",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:124",
+   "ocr": "it.",
+   "fixed": "it",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:1",
+   "ocr": "con-.",
+   "fixed": "con-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:2",
+   "ocr": "C’,",
+   "fixed": "C′,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:4",
+   "ocr": "4,-we",
+   "fixed": "4, we",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:9",
+   "ocr": "‘a",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:11",
+   "ocr": "direction.",
+   "fixed": "direction",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:18",
+   "ocr": "C’",
+   "fixed": "C′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:22",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:29",
+   "ocr": "§.,",
+   "fixed": "S.,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:35",
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:35",
+   "ocr": "C*",
+   "fixed": "C^{5}",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:41",
+   "ocr": "¢ircuit",
+   "fixed": "circuit",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:44",
+   "ocr": "Wing",
+   "fixed": "wing",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:47",
+   "ocr": "",
+   "fixed": "I",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:50",
+   "ocr": "effect,",
+   "fixed": "effect",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:64",
+   "ocr": "most,",
+   "fixed": "most",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:70",
+   "ocr": "The:",
+   "fixed": "The",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:70",
+   "ocr": "(5",
+   "fixed": "C^{5}",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:72",
+   "ocr": "about.",
+   "fixed": "about",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:72",
+   "ocr": "auto-_",
+   "fixed": "auto-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:73",
+   "ocr": "C*",
+   "fixed": "C^{6}",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:77",
+   "ocr": "©",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:78",
+   "ocr": "telephones.",
+   "fixed": "telephones",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:79",
+   "ocr": "C*",
+   "fixed": "C^{5}",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:79",
+   "ocr": "C®",
+   "fixed": "C^{6}",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:79",
+   "ocr": "tor",
+   "fixed": "for",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:88",
+   "ocr": "‘it",
+   "fixed": "it",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:92",
+   "ocr": "oscillations,",
+   "fixed": "oscillations.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:93",
+   "ocr": "C®",
+   "fixed": "C^{5}",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:97",
+   "ocr": "distur ing",
+   "fixed": "disturbing",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:98",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:102",
+   "ocr": "C?",
+   "fixed": "C^{2}",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:103",
+   "ocr": "‘and",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:106",
+   "ocr": "hasbeen",
+   "fixed": "has been",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:115",
+   "ocr": "L?",
+   "fixed": "L^{2}",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:1",
+   "ocr": "electromotive -force",
+   "fixed": "electromotive-force",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:4",
+   "ocr": "simplification:",
+   "fixed": "simplification",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:5",
+   "ocr": ":irrangement",
+   "fixed": "arrangement",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:8",
+   "ocr": "Tig.",
+   "fixed": "Fig.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:9",
+   "ocr": "C?",
+   "fixed": "C^{3}",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:12",
+   "ocr": "received..",
+   "fixed": "received.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:14",
+   "ocr": "L’ ‘are",
+   "fixed": "L′ are",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:15",
+   "ocr": "be’",
+   "fixed": "be",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:17",
+   "ocr": "induetance.",
+   "fixed": "inductance.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:20",
+   "ocr": "LU’.",
+   "fixed": "L′.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:24",
+   "ocr": "1",
+   "fixed": "I",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:31",
+   "ocr": "5",
+   "fixed": "S",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:33",
+   "ocr": "C*,",
+   "fixed": "C^{2},",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:34",
+   "ocr": "C*,",
+   "fixed": "C^{4},",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:35",
+   "ocr": "C’",
+   "fixed": "C′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:35",
+   "ocr": "UL’",
+   "fixed": "L′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:39",
+   "ocr": "the:",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:43",
+   "ocr": "L’",
+   "fixed": "L′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:44",
+   "ocr": "C”",
+   "fixed": "C′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:45",
+   "ocr": "0001 microfarnds. Tf",
+   "fixed": ".0001 microfarads. If",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:45",
+   "ocr": "1’",
+   "fixed": "L′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:46",
+   "ocr": "of'C’",
+   "fixed": "of C′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:47",
+   "ocr": "T",
+   "fixed": "I",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:48",
+   "ocr": "1",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:50",
+   "ocr": "C’",
+   "fixed": "C′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:51",
+   "ocr": ".0605",
+   "fixed": ".0005",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:51",
+   "ocr": "aid",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:53",
+   "ocr": "nudion",
+   "fixed": "audion",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:53",
+   "ocr": "wav",
+   "fixed": "way",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:54",
+   "ocr": "cutout L’,",
+   "fixed": "cut out L′,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.4:54",
+   "ocr": "CO”",
+   "fixed": "C′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:55",
+   "ocr": "Land",
+   "fixed": "L and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:57",
+   "ocr": "L’",
+   "fixed": "L′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:57",
+   "ocr": "cut‘in",
+   "fixed": "cut in",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:59",
+   "ocr": "‘many",
+   "fixed": "many",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:60",
+   "ocr": "there.",
+   "fixed": "there",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:64",
+   "ocr": "L’",
+   "fixed": "L′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:66",
+   "ocr": "L’",
+   "fixed": "L′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:67",
+   "ocr": "through-a",
+   "fixed": "through a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:68",
+   "ocr": "L’",
+   "fixed": "L′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:70",
+   "ocr": "C’",
+   "fixed": "C′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:70",
+   "ocr": "4",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:72",
+   "ocr": "C’",
+   "fixed": "C′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:73",
+   "ocr": "will.",
+   "fixed": "will",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:74",
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:75",
+   "ocr": "‘strength",
+   "fixed": "strength",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:78",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:89",
+   "ocr": "L’,",
+   "fixed": "L′,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:90",
+   "ocr": "T",
+   "fixed": "I",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:91",
+   "ocr": "C®.",
+   "fixed": "C^{5}.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:93",
+   "ocr": "C’",
+   "fixed": "C^{5}",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:94",
+   "ocr": "Ate",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:96",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:104",
+   "ocr": "system.",
+   "fixed": "system",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:123",
+   "ocr": "-accumulates",
+   "fixed": "accumulates",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:126",
+   "ocr": "wireless.",
+   "fixed": "wireless",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:18",
+   "ocr": "common,",
+   "fixed": "common",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:22",
+   "ocr": "wpon",
+   "fixed": "upon",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:24",
+   "ocr": "nant.",
+   "fixed": "nant",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:26",
+   "ocr": "thereon.",
+   "fixed": "thereon,",
+   "basis": "scan (broken comma) + Google Patents"
+  },
+  {
+   "cite": "p.5:31",
+   "ocr": "_",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:36",
+   "ocr": "@",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:40",
+   "ocr": "commen",
+   "fixed": "common",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:41",
+   "ocr": "“former",
+   "fixed": "former",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:44",
+   "ocr": "edance",
+   "fixed": "pedance",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:45",
+   "ocr": "ormer",
+   "fixed": "former",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:48",
+   "ocr": "a:",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:53",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:57",
+   "ocr": "inductanee",
+   "fixed": "inductance",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:58",
+   "ocr": "‘grid",
+   "fixed": "grid",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:63",
+   "ocr": "receiyin",
+   "fixed": "receiving",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:64",
+   "ocr": "interlinke With",
+   "fixed": "interlinked with",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:70",
+   "ocr": "11,",
+   "fixed": "11.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:72",
+   "ocr": "‘resonant",
+   "fixed": "resonant",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:72",
+   "ocr": "the’",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:84",
+   "ocr": "rescnant",
+   "fixed": "resonant",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:86",
+   "ocr": "por",
+   "fixed": "por-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:90",
+   "ocr": "circuit’",
+   "fixed": "circuit",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:99",
+   "ocr": "So",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:100",
+   "ocr": "receiving’",
+   "fixed": "receiving",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:110",
+   "ocr": "‘re-",
+   "fixed": "re-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:119",
+   "ocr": "cireuit",
+   "fixed": "circuit",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:121",
+   "ocr": "Supplementing",
+   "fixed": "supplementing",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:124",
+   "ocr": "frequenc",
+   "fixed": "frequency",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:1",
+   "ocr": "impréssed",
+   "fixed": "impressed",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:6",
+   "ocr": "the. grid.",
+   "fixed": "the grid",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:10",
+   "ocr": "with:",
+   "fixed": "with",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:10",
+   "ocr": "“cirenit",
+   "fixed": "circuit",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:14",
+   "ocr": "‘transfer",
+   "fixed": "transfer",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:16",
+   "ocr": "gr id",
+   "fixed": "grid",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:17",
+   "ocr": "cir cuit",
+   "fixed": "circuit",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:17",
+   "ocr": "increased,",
+   "fixed": "increased.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:19",
+   "ocr": "witnesses .",
+   "fixed": "witnesses.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:20",
+   "ocr": "EDWIN",
+   "fixed": "Edwin",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:20",
+   "ocr": "ARMSTRONG.",
+   "fixed": "Armstrong.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:23",
+   "ocr": "Wintram,",
+   "fixed": "William",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:24",
+   "ocr": "Joun",
+   "fixed": "John",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:24",
+   "ocr": "Pexrntie.",
+   "fixed": "Pennie.",
+   "basis": "scan"
+  }
+ ]
+}

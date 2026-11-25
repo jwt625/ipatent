@@ -1,0 +1,51 @@
+{
+  "patent": "Filed 1930-07-30 and issued 1933-12-26 to Edwin H. Armstrong of New York, inventor of the regenerative and superheterodyne receivers; no assignee is printed. It covers reception of signals sent by varying the transmitted frequency: two-frequency telegraphy in Fig. 1 (signaling and marking waves 50 cycles apart) and frequency-modulated telephony in Fig. 2. In both, a selector circuit of series reactances turns frequency changes into amplitude changes, a balanced pair of rectifiers drives the indicator, and a second current taken from the same received signal is phase-shifted and fed equally into both rectifiers, so that the signal \"heterodynes itself\". A single frequency unbalances the bridge; static, which puts a band of frequencies into both rectifiers at once, tends to balance out. In present-day terms Fig. 2 is a limiter followed by a balanced product detector whose reference is derived from the received signal. Armstrong later published his wide-deviation FM system as \"A Method of Reducing Disturbances in Radio Signaling by a System of Frequency Modulation,\" Proc. IRE, vol. 24, no. 5, May 1936.",
+  "figs": {
+    "1": "Telegraph receiver, read in rows. Top: antenna 1-3, radio-frequency stage 4-7 (box 6), detector tube 9 fed by coil 8, heterodyne coupling 10 (drawn only as a coil with arrows), beat-frequency amplifier 11 (box) and output transformer 12. Middle: the selector chain, slider resistor, coil 13, variable condenser 14, resistor 15, then condensers 16, 17 and coil 18 down to resistances 19, 20; arrow A spans 17 and 18, arrow B spans 16, 17 and 18. Resistance 22 and transformer 24 take the voltage at the top of A, resistance 23 and transformer 25 the voltage at the top of B; both primaries return to the output of tube circuit 21, whose grid is driven from the drop across 19. Amplifiers 26, 27 feed diodes 30, 31 through transformers 28, 29; indicator 44 sits across the diode cathodes, with resistances 32, 33 forming the V below it. Bottom: the reference chain 34-42, taken from across 19 and 20 by the two long left-hand wires, ends in transformer 43, whose secondary joins the V junction to the centre tap of the 28/29 secondaries, so its current enters both rectifiers equally. Semicircular hops are crossings without connection; dots are junctions; tubes are drawn with a dashed envelope and their filament battery in a loop below.",
+    "2": "Telephone receiver. Top row, braced: superheterodyne front end 50 (antenna, tuned stage, coil with arrows for the local oscillator), intermediate amplifier 51 and two-tube limiter 52; the two long wires carry its output to band pass filter 53. Selector: transformer winding 54 with condenser 55 and damping resistance 56, series resistance 57, then condenser 58 and inductances 59, 60 to the common bus. The voltage at the top of 58 drives the grids of two-stage amplifier 61 (top) and one-stage amplifier 62 (below it); 61 reaches the top of resistance 64 and the grid of tube 67, 62 the top of 63 and the grid of 66. The voltage at the junction of 59 and 60, taken by the wire running left, drives the three-tube limiter 70, whose output passes through condenser 71 to the junction of 63 and 64 and on through 65 to the detector cathodes. Resistances 68, 69, each bypassed by a condenser, are in the two plate circuits, with indicator 72 across them. The crop also takes in Fig. 3 at lower left and the inventor line at lower right; they are not part of this circuit.",
+    "3": "Qualitative curves against the frequency of the incoming wave, horizontal axis unlabelled, mid-frequency at the crossing point; no scales. A (solid, bell-shaped) is the selector current, B (straight line through the axis) the impedance across condenser 58 and inductances 59, 60, drawn as a signed reactance that changes sign at mid-frequency, and C (dashed) their product, the voltage across 58-60. C is odd about mid-frequency: its sign change is the 180° phase reversal the text describes."
+  },
+  "parts": {
+    "1": "In the drawing, 1 is the antenna itself; the text names 1, 2 and 3 only together.",
+    "2": "Drawn as the antenna coupling coil.",
+    "3": "Drawn as the ground connection.",
+    "4": "Drawn as the coil coupled to antenna coil 2; 5 is the condenser across it, 6 a box and 7 an output transformer. The text names 4-7 only together.",
+    "8": "Drawn as the winding feeding the grid of tube 9.",
+    "10": "Only a coil with two arrows is drawn; the oscillator itself is not shown. The text gives the beat frequency as of the order of 1000 cycles per second.",
+    "12": "The text names 12 to 21 only together; in the drawing 12 is the transformer after amplifier 11, 13 a coil, 14 a variable condenser and 15 a resistor.",
+    "21": "A tube circuit whose grid is driven from the drop across resistance 19. The text says it eliminates the resistance drop in coil 18 and condensers 16 and 17, and refers to a resistance compensator described in Armstrong's co-pending application Serial #192,320, filed 1927-05-18.",
+    "22": "The text says 22 and 23 keep low-frequency free vibrations from building up in the transformer primaries together with condensers 16 and 17.",
+    "34": "The text says 34 is not necessary but matches the phase shift that 22 and 23 introduce in the other two chains.",
+    "36": "Drawn as the first tube of the reference chain; 37 is its plate resistance with battery and 38 the coupling condenser. The text names 34 to 42 only as a range and 37, 38, 39, 40 only as a system.",
+    "39": "Drawn as two coupled windings in series with variable condenser 40; the text says the inductance and capacity drops add so the voltage passed on is 90° from the plate current and nearly constant over a band.",
+    "41": "Drawn as the second tube of the reference chain; 42 is the winding in its plate circuit, coupled to 43.",
+    "44": "Drawn as a small box between the two rectifier cathodes.",
+    "47": "Selects condenser 45 or inductance 46 as a shunt for the final phase adjustment.",
+    "A": "In Fig. 1, an arrow spanning condenser 17 and coil 18, the branch made non-reactive (series resonant) at 1200 cycles; in Fig. 3, the selector-current curve.",
+    "B": "In Fig. 1, an arrow spanning condensers 16, 17 and coil 18, the branch made non-reactive at 1250 cycles; in Fig. 3, the reactance curve.",
+    "54": "Drawn as the secondary winding after band pass filter 53, with condenser 55 across it.",
+    "66": "Called rectifiers and detectors in the text; drawn as tubes with a grid, plate and filament.",
+    "70": "The text says its output should be large enough to work the detectors on the straight-line part of their characteristic."
+  },
+  "glossary": [
+    {"term": "heterodyne", "def": "To combine a signal with a second alternating current in a nonlinear element such as a rectifier, producing sum and difference frequencies. Here the second current is derived from the received signal itself."},
+    {"term": "beat current", "def": "The difference-frequency current produced by heterodyning; in Fig. 1, audio-frequency tones of 1200 and 1250 cycles."},
+    {"term": "cycles", "def": "Cycles per second, now hertz (Hz)."},
+    {"term": "signaling wave / marking wave", "def": "The two transmitted frequencies of a two-frequency telegraph system, standing for the two states of the code."},
+    {"term": "selector system", "def": "The patent's term for the reactance network that turns frequency changes into amplitude changes, a frequency discriminator."},
+    {"term": "non-reactive", "def": "Series resonant: at that frequency the inductive and capacitive reactances of the branch cancel, so the voltage across it falls to the resistance drop alone."},
+    {"term": "condenser", "def": "Capacitor."},
+    {"term": "E. M. F.", "def": "Electromotive force, here the alternating voltage across a circuit element."},
+    {"term": "rectifier / detector", "def": "A tube used to convert alternating current to a unidirectional current whose value follows the signal amplitude. A two element rectifier is a diode."},
+    {"term": "straight line rectifier", "def": "A rectifier operated so that its output is proportional to the input amplitude, a linear detector."},
+    {"term": "balanced rectifier system / bridge", "def": "Two matched rectifiers whose outputs oppose in the indicator, so equal inputs give no indication and only a difference between them registers."},
+    {"term": "aperiodic amplifier", "def": "An untuned amplifier, with roughly flat gain over the band of interest."},
+    {"term": "resistance coupled", "def": "Stages coupled by plate resistors and series condensers rather than transformers."},
+    {"term": "current limiter", "def": "An amplifier driven into saturation so that its output amplitude stays nearly constant whatever the input amplitude, removing amplitude fluctuations before or alongside frequency detection."},
+    {"term": "superheterodyne", "def": "A receiver that mixes the incoming wave with a local oscillator to convert it to a fixed intermediate frequency for amplification and selection."},
+    {"term": "intermediate frequency", "def": "The fixed frequency a superheterodyne converts the signal to; the text suggests about 30,000 cycles per second."},
+    {"term": "poling", "def": "Choosing which way round a transformer winding is connected, which sets the output in phase or 180° out of phase."},
+    {"term": "siphon recorder", "def": "A telegraph recorder in which a fine ink siphon, moved by the signal current, traces the received code on a moving paper tape."},
+    {"term": "static", "def": "Atmospheric radio noise."}
+  ]
+}

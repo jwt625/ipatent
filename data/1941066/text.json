@@ -1,0 +1,839 @@
+{
+ "pn": "1941066",
+ "number": "1,941,066",
+ "cite_scheme": "printed page:line",
+ "title": "RADIO SIGNALING SYSTEM",
+ "inventors": [
+  "Edwin H. Armstrong"
+ ],
+ "assignee": null,
+ "filed": "1930-07-30",
+ "issued": "1933-12-26",
+ "appl_no": "471,849",
+ "int_cl": null,
+ "us_cl": "250—8",
+ "refs_patents": [],
+ "refs_other": [],
+ "examiners": null,
+ "claims_count": 10,
+ "drawing_figures": 3,
+ "abstract": null,
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:1",
+     "text": "This invention relates to a method of reception in radio signaling systems in which signaling is accomplished by variations of the transmitted frequency. Briefly it relates to a method in which the incoming signaling current is employed to “heterodyne itself” so that the efficiency of rectification for the particular signal to be received is increased and the ratio of signaling currents to disturbing currents is improved. The method is particularly applicable to systems which have current limiting or amplitude equalizing devices for the purpose of dealing with fading."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:13",
+     "text": "In this specification Fig. 1 illustrates the general arrangement of the apparatus, the circuit diagram showing an arrangement applicable to telegraphy. Figure 2 illustrates an arrangement more particularly applicable to telephony. Figure 3 is a diagram showing the current, voltage relations existing in certain portions of the circuit disclosed herein."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:21",
+     "text": "Referring now to Figure 1, reference characters 1, 2, 3 designate an ordinary antenna system; 4, 5, 6, 7 a radio frequency amplifier system; 8, 9 a detector system and 10 a separate heterodyne for producing a low frequency beat current, which for the present purpose may be considered of the order of 1000 cycles per second; 11 is an amplifier of this current. Parts 12 to 21 constitute the selector system described in my co-pending application, Serial #192,320, filed May 18, 1927, the purpose of this system being to translate variations in frequency in the signaling current into variations in amplitude. Numerals 22—24—26 and 23—25—27 designate equal amplifying systems which feed through transformers 28, 29 into two balanced rectifier systems 30—32 and 31—33. A siphon recorder or other indicator mechanism is connected across the bridge at 44. The secondary of the transformer 43 is connected to the junction point of the two resistances 32 and 33, and to the junction point of the two transformer secondaries 28, 29. The system 34 to 42 is a substantially aperiodic amplifying system with a 90° phase shifting device 39, 40 the purpose of which will be described later. This amplifier is excited by the resistance drop across 19, 20 in the selector circuit 12—21."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:48",
+     "text": "The operation of the system is as follows: Suppose that signaling is accomplished by transmitting a signaling wave and a marking wave which differ by 50 cycles, and suppose the local heterodyne is adjusted to give beat currents having a frequency of 1200 and 1250 cycles respectively. As explained in my prior application, the circuit between A will be made non-reactive for 1200 cycles and the circuit between B will be made non-reactive for 1250 cycles. By means of the compensator 21 the resistance drop in coil 18 and condensers 16 and 17 is eliminated and hence the phase of the E. M. F. supplied to the transformer systems 22, 24 and 23, 25 is 90° out of phase with the current flowing in the selector circuit, whenever that current is of a frequency which is not exactly equal to the non-reactive frequency of either A or B. In the case where the frequency coincides with the non-reactive frequency of either A or B there is no E. M. F. across that point."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:69",
+     "text": "When the 1200 cycle current is flowing in the selector circuits, there will be zero potential across A. Across B there will, therefore, be a capacity reactance (net) and the E. M. F. across B will therefore be 90° behind the current in the circuit. Similarly, when the 1250 cycle current is flowing in the selector circuit there will be zero potential across B and across A there will be an inductive reactance and hence the E. M. F. across A will be 90° ahead of the current."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:79",
+     "text": "Under ordinary circumstances these phase relations make no difference and the 1200 cycle and 1250 cycle currents are alternately supplied by the amplifiers 26, 27 to their respective rectifiers 30, 31, rectified in the ordinary manner and indicated by the device 44. In the present arrangement, however, the E. M. F. across the resistance 19, 20 in the selector circuit is applied to an amplifying system 34, 42 which supplies a current equally and symmetrically to the two rectifiers 30, 31 as shown. This current cannot of itself have any effect on the indicating device 44 since that device is in a balanced position for currents which are supplied equally to the two rectifiers, but by properly adjusting the phase and magnitude of this current with respect to the phase and magnitude of the two currents supplied by the amplifiers 26 and 27, a heterodyne action can be produced in the rectifiers 30, 31 which greatly improves the operation of this balanced system."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:99",
+     "text": "Since the input to the amplifying system 34—42 is taken across a resistance, the E. M. F. applied to it is in phase with the current in the selector circuit. Hence it is necessary to produce a 90° phase shift in this amplifying system in order to supply the rectifiers with current in phase or 180° out of phase with the currents supplied them by the amplifiers 26, 27. This is accomplished by the system 37, 38, 39 and 40 in which the plate current is passed through a combined inductance and capacity system 39, 40 of small impedance, in which the inductance drop is added cumulatively to the capacity drop, so that the voltage passed on to the second tube is not only 90° out of phase with the plate current but is substantially constant over a band of frequencies."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:5",
+     "text": "This brings the phase relation of the current supplied the rectifiers by the system 34—42 either in phase or 180° out of phase (approximately) with the currents supplied by the amplifying systems 26 and 27. By properly poling transformers 28, 29 the currents supplied by the tubes 26 and 27 can be made substantially in phase with the current from the system 34—42 or 180° out of phase, as desired. The phase relation will not be perfect, that is, exactly in phase or 180° out of phase, because there are small differences due to the transformers which produce a gradual cumulative phase shift. This is compensated for in the arrangement shown by using the proper design of transformers in each amplifying system. The resistances 22 and 23 are inserted in series with their respective transformer primaries to prevent the establishment of any low frequency free vibrations in the primaries in conjunction with the condensers 16 and 17. While the resistance 34 is not necessary, it is included to introduce in its amplifying chain a phase shift commensurate with that introduced in the other two chains by the resistances 22 and 23. To make the final adjustment of phase a shunt condenser or inductance may be included in any one of a number of places in the amplifying system 34—42 in any well known manner. The condenser 45 or inductance 46 controlled by the switch 47 may be used to make the final adjustment."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:35",
+     "text": "The detailed operations of this system when both signals and static are present simultaneously are quite complicated and may best be understood after considering the operation of the system when signals alone are present. The operation for signals is as follows: For either frequency (1200 or 1250 cycles) current is supplied to the amplifying system 34—42 and this current is simultaneously present in both rectifiers. This may be called the heterodyning current. The signaling current and the marking current are alternately present in one or the other of the rectifiers. Since the phase relation is adjusted to be zero (or 180°) the signaling current or the marking current adds to or subtracts from the heterodyning current from the system 34—42 in its respective rectifier, thereby unbalancing the bridge and actuating the indicator 44. It should be noted that there is only one frequency present at a time and that current from the signaling amplifiers 26, 27, as distinguished from current from the heterodyning amplifier 34—42 is present in only one rectifier at a time."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:58",
+     "text": "In the case of static a band of frequencies is present in both the heterodyning amplifier and in the signaling amplifiers and the band of frequencies is therefore simultaneously present in both rectifiers. This produces an averaging or balancing effect, so that the current which flows through the indicator 44 is less than would flow if only one frequency were present at a time."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:66",
+     "text": "Under some conditions it is advisable to tune the secondaries of transformers 24, 25 and 35. This is accomplished by shunting the secondary by a condenser in the usual way, the degree of damping of the tuned secondaries being regulated by a series resistance. The purpose of tuning is to eliminate trouble from steep wave fronts which may be produced under certain conditions across the inductance coil 18."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:75",
+     "text": "Under certain conditions the amplifier 34—42 may be made a limiting amplifier so that the heterodyning current is maintained substantially constant regardless of amplitude fluctuations of static or signal. In any case the rectifiers 30, 31 should be operated as straight line rectifiers, the resistances 32, 33 being properly chosen to give this result. Current limiters may also be used between the antenna and detector systems."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:85",
+     "text": "Referring now to Fig. 2 which illustrates a method particularly applicable to telephony, reference numerals 50, 51 designate the frequency changing device and intermediate amplifying system of a superheterodyne receiver. 52 is a current limiting device of the resistance coupled type. 53 is a band pass filter to pass the desired frequency band. 54, 55 is a circuit tuned to the mid-point of the intermediate band. 56, 57 are damping resistances. 58 is a condenser adjusted to be non-reactive in conjunction with the inductances 59, 60 for the mid-point of the intermediate frequency band. 61 is a two stage resistance coupled amplifier and 62 a one stage amplifier of the same type. 63, 64 are equal resistances which are preferably several times larger than 65 which is also a resistance. 66 and 67 are equal rectifiers with equal resistances 68, 69 connected in their output circuits. A signal indicator 72 is connected across these resistances. 70 is a current limiting amplifier of the resistance coupled type which is excited by the drop across the inductance 60 and which furnishes the heterodyning current to the two detectors through the resistance 65. 71 is a condenser for properly adjusting the phase of this current."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:111",
+     "text": "The operation of this system is as follows: Incoming signals, varied in frequency by the fluctuations of the voice are received in the ordinary way by the receiver 50, 51, and are converted therein to some superaudible frequency such as 30,000 cycles per second. This current is then passed through the current limiter 52 in which its amplitudes are reduced to a common predetermined value. It is then applied to the selector system 54—60. The resistance 56 in this circuit is so chosen that the circuit 54—55 is fairly well damped. It is not necessary to have 54—55 tuned, but the system is more symmetrical when it is. 57 is adjusted with respect to the reactances of 58 and of 59, 60 for the purpose of determining the width of the band over which the selector system operates. The resistances of 58—59 and 60 are made as low as possible. Where this cannot be done in a practical way a resistance compensator described in my previous application, referred to above, should be used. An insight into the current voltage relations may be had by reference to Fig. 3. Assume that the incoming frequency, held to constant amplitude by the current limiter, is varied thru a range of frequencies. The current in the selector circuit will be as represented by curve A. The impedance across the condenser 58 and the inductances 59, 60 will be as represented by curve B. The voltage drop across the same points will be the product of these two values as shown by curve C. Note that the phase of the E. M. F. across these points at frequencies above the zero value (mid-frequency) is 180° from that existing at frequencies below the mid-frequency value."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:146",
+     "text": "The voltage drop across 58—60 is applied to two amplifiers, a two stage resistance coupled amplifier 61 and a one stage amplifier 62. The two amplifiers are adjusted to give equal overall amplification. The two stage amplifier gives a 180° phase reversal so that its output is 180° out of phase with the output of the single stage amplifier. The outputs of these two amplifiers 61 and 62 are therefore supplied to their respective detectors 67 and 66 at a phase difference of 180°."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "cite": "p.3:7",
+     "text": "The current limiter 70 is excited by the voltage drop across a part of the inductance in the selector circuit, i. e. inductance 60. The output of the limiter is supplied symmetrically to the two detectors 66, 67 through the resistance 65. A condenser 71 is employed to adjust the phase relations between the limiter current and the currents supplied to the detectors by the amplifier 61 and 62. In the selection of the resistances in all amplifier or limiter circuits it is important to choose them so that the phase displacement caused by tube capacity is as small as possible and to make such phase displacement as will occur symmetrical in both the amplifiers 61 and 62 and in the limiter 70."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "cite": "p.3:22",
+     "text": "Continuing now with the method of operation, the variable frequency currents of the signal at constant amplitude are supplied to the selector circuit 54—60. This circuit translates the variations in frequency into variations in amplitude so that there is supplied to the amplifiers 61, 62 a variable frequency variable amplitude voltage. The frequency of this voltage at any instant is the intermediate frequency supplied to 54—60. The phase of the voltage is either 90° ahead or 90° behind the current in 54—60 depending on whether the frequency of the current is above or below the mid-frequency."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "cite": "p.3:35",
+     "text": "The limiter 70 is supplied with a voltage which remains at all times in a fixed phase relation with respect to the current in the selector circuit, i. e. 90° ahead. The output of the limiter is therefore a variable frequency, constant amplitude current bearing a fixed phase relation with respect to the current in the selector. By supplying this current symmetrically to the two detectors 66 and 67 and combining it with the variable frequency, variable amplitude current with which it is either in phase or 180° out of phase (depending on the frequency) the original low frequency current is symmetrically recreated in each detector; and the output currents are cumulatively combined in the indicator 72."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "cite": "p.3:50",
+     "text": "Variations in amplitude of the incoming current prior to the selector circuit 54—60 of such character as to produce a band of frequencies so that frequencies above and below the mid-frequencies of the selector circuit are simultaneously present are balanced out in the detector system."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "cite": "p.3:56",
+     "text": "In the operation of the system the output of 70 should be adjusted so that it is sufficiently great to produce operation on the straight line part of the detector characteristic. In some cases it is advantageous to use two element rectifiers with high series resistance as shown in Fig. 1, although where a current limiter is employed between the antenna and the selector system it is not so essential."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "cite": "p.3:65",
+     "text": "I have described what I believe to be the best embodiments of my invention. I do not wish, however, to be confined to the embodiments shown, but what I desire to cover by Letters Patent is set forth in the appended claims."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 5,
+     "cite": "p.4:105",
+     "text": "EDWIN H. ARMSTRONG."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:13",
+   "text": "In this specification Fig. 1 illustrates the general arrangement of the apparatus, the circuit diagram showing an arrangement applicable to telegraphy."
+  },
+  {
+   "fig": "2",
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:16",
+   "text": "Figure 2 illustrates an arrangement more particularly applicable to telephony."
+  },
+  {
+   "fig": "3",
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:17",
+   "text": "Figure 3 is a diagram showing the current, voltage relations existing in certain portions of the circuit disclosed herein."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:71",
+   "depends": null,
+   "text": "1. The method of receiving a frequency modulated wave which consists in deriving from said wave a plurality of currents, causing the variations in frequency of one of these currents to create variations of amplitude of such current and subjecting the resulting current to the heterodyning action of the other current derived from said wave."
+  },
+  {
+   "n": 2,
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:79",
+   "depends": null,
+   "text": "2. In a radio receiving system, a balanced rectifier system comprising a pair of rectifiers, means for translating variations in frequency of substantially constant amplitude waves into variations in amplitude of the currents, means for impressing the so translated currents on said rectifiers, a signaling device responsively associated with said balanced rectifier system; means for deriving heterodyning current from said wave, means for supplying said current to said balanced rectifier system, and means for causing said heterodyning current to be substantially in phase or 180° out of phase with the currents supplied to said balanced rectifier system."
+  },
+  {
+   "n": 3,
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:93",
+   "depends": null,
+   "text": "3. In a receiving system for frequency modulated waves, means for translating the variations in frequency of the received wave into current having amplitude variations, means for deriving heterodyning current from said wave, means for subjecting said first mentioned current to the heterodyning action of the other, a signaling device, and means for rendering said device responsive to the heterodyne action of said currents."
+  },
+  {
+   "n": 4,
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:102",
+   "depends": null,
+   "text": "4. In a receiving system of the character described, the combination of a selector circuit, means for supplying thereto signaling current of variable frequency but substantially constant amplitude, means in said circuit for translating the current impressed thereon into voltage of variable frequency and variable amplitude, the phase of said voltage differing by 90° from that of the current in said selector circuit, a plurality of amplifiers, one of said amplifiers having the property of producing in its output a phase difference of 180° with respect to the output of the other amplifiers, means for impressing said voltage of variable frequency and variable amplitude on said amplifiers, a plurality of detectors connected in the output circuit of said amplifiers, means associated with said selector circuit for deriving therefrom a current of substantially constant amplitude and variable frequency bearing a fixed substantially 90° phase relation with respect to the current in said selector circuit, means for supplying said last mentioned current symmetrically to said detectors, and means for cumulatively combining the output currents of said detectors."
+  },
+  {
+   "n": 5,
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:126",
+   "depends": null,
+   "text": "5. The method of radio signaling, which comprises receiving signaling and marking waves differing in frequency, impressing said waves upon a common receiving system, causing current corresponding to waves of one of said frequencies to flow through one path of said system and current corresponding to waves of the other frequency to flow through another path thereof, impressing said currents of said paths on a plurality of rectifiers, deriving heterodyning current from said received waves and impressing said current on said detectors to interact with the currents therein, and combining the outputs of said rectifiers to produce the signal."
+  },
+  {
+   "n": 6,
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:140",
+   "depends": null,
+   "text": "6. In a receiving system for frequency modulated waves, means for deriving signaling and heterodyning currents from the received waves, means for causing the frequency variations of said signaling currents to create resultant signaling currents corresponding in frequency to said first-mentioned signaling currents but having phase and amplitude variations, the phase of all currents of frequencies above a given mid-frequency being 180° removed from the phase of all currents of frequencies below said mid-frequency, and the amplitudes of all said currents being proportional to their difference in frequency from said mid-frequency, means for subjecting the said resulting signaling currents to the heterodyning action of the said heterodyning currents, and means responsive to the currents resulting from said heterodyning action."
+  },
+  {
+   "n": 7,
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:8",
+   "depends": null,
+   "text": "7. In a receiving system for frequency modulated waves, means for deriving signaling and heterodyning currents from the received waves, means for causing the frequency variations of said signaling currents to create resultant signaling currents corresponding in frequency to said first-mentioned signaling currents but having phase and amplitude variations, the phase of all currents of frequencies above a given mid-frequency being 180° removed from the phase of all currents of frequencies below said mid-frequency, and the amplitudes of all said currents being proportional to their difference in frequency from said mid-frequency, a balanced detector system, means for impressing the said resultant signaling currents and the said heterodyning currents on said system, said currents being impressed on the one detector substantially in phase with each other and on the other detector substantially 180° out of phase with each other, and means responsive to the output of said balanced detector system."
+  },
+  {
+   "n": 8,
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:30",
+   "depends": null,
+   "text": "8. In a receiver for frequency modulated waves, means constituting a plurality of paths for said waves, said paths being capable of passing all the frequencies of the transmitted band, means for receiving the waves and impressing them on said paths, a combination of reactance elements in one of said paths, means for subjecting one of said waves to the heterodyning action of the other, and means responsive to current resulting therefrom."
+  },
+  {
+   "n": 9,
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:85",
+   "depends": null,
+   "text": "9. The method of receiving a frequency modulated wave which consists in deriving from said wave a plurality of currents, each varying in frequency in accordance with variations of the transmitted signal, passing the currents of all said frequencies through two paths having different characteristics of transmission for said currents and combining the output currents of these two paths in a detector to recreate the transmitted signal."
+  },
+  {
+   "n": 10,
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:95",
+   "depends": null,
+   "text": "10. The method of receiving a frequency modulated wave which consists in deriving from said wave a plurality of currents, each varying in frequency in accordance with variations of the transmitted signal, causing one of said paths to change the phase of the current passing therethrough with respect to that of the other, and combining the output currents of these two paths in a detector to recreate the transmitted signal."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "cite": "header",
+   "ocr": "N. ¥.",
+   "fixed": "N. Y.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:11",
+   "ocr": "devices -",
+   "fixed": "devices",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:23",
+   "ocr": "4,5, 6,7",
+   "fixed": "4, 5, 6, 7",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:31",
+   "ocr": "varia«",
+   "fixed": "varia-",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:34",
+   "ocr": "23—25—-27",
+   "fixed": "23—25—27",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:34",
+   "ocr": "amplifying. sys-",
+   "fixed": "amplifying sys-",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:38",
+   "ocr": "44,",
+   "fixed": "44.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:40",
+   "ocr": "resistances:",
+   "fixed": "resistances",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:42",
+   "ocr": "‘The system",
+   "fixed": "The system",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:48",
+   "ocr": "‘The operation",
+   "fixed": "The operation",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:60",
+   "ocr": "E, M. F.",
+   "fixed": "E. M. F.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:67",
+   "ocr": "E, M. F.",
+   "fixed": "E. M. F.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:68",
+   "ocr": "point. .",
+   "fixed": "point.",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:80",
+   "ocr": "cycie",
+   "fixed": "cycle",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:85",
+   "ocr": "E, M. F.",
+   "fixed": "E. M. F.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:99",
+   "ocr": "34-42",
+   "fixed": "34—42",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:109",
+   "ocr": "small, impedance",
+   "fixed": "small impedance",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:9",
+   "ocr": "27. . By",
+   "fixed": "27. By",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:12",
+   "ocr": "34-42",
+   "fixed": "34—42",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:13",
+   "ocr": "per- ~",
+   "fixed": "per-",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:26",
+   "ocr": "its.amplifying",
+   "fixed": "its amplifying",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:28",
+   "ocr": "final ade",
+   "fixed": "final ad-",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:35",
+   "ocr": "‘The detailed",
+   "fixed": "The detailed",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:56",
+   "ocr": "34--42",
+   "fixed": "34—42",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:57",
+   "ocr": "time. ;",
+   "fixed": "time.",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:69",
+   "ocr": "‘condenser",
+   "fixed": "condenser",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:78",
+   "ocr": "jy constant",
+   "fixed": "ly constant",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:82",
+   "ocr": "‘to give",
+   "fixed": "to give",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:83",
+   "ocr": "sys~",
+   "fixed": "sys-",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:85",
+   "ocr": "Fig. 2. which illustrates a.",
+   "fixed": "Fig. 2 which illustrates a",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:93",
+   "ocr": "‘mid-point .of the intermediate band...",
+   "fixed": "mid-point of the intermediate band.",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:100",
+   "ocr": "Sistances",
+   "fixed": "sistances",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:102",
+   "ocr": "are. equal",
+   "fixed": "are equal",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:110",
+   "ocr": "current. .",
+   "fixed": "current.",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:117",
+   "ocr": "current. limiter",
+   "fixed": "current limiter",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:123",
+   "ocr": "54-55",
+   "fixed": "54—55",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:129",
+   "ocr": "a@",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:130",
+   "ocr": "a@",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:136",
+   "ocr": "@ range",
+   "fixed": "a range",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:145",
+   "ocr": "value:",
+   "fixed": "value.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:148",
+   "ocr": "61.and",
+   "fixed": "61 and",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:32",
+   "ocr": "on’",
+   "fixed": "on",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:39",
+   "ocr": "& variable",
+   "fixed": "a variable",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:54",
+   "ocr": "ofthe",
+   "fixed": "of the",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:103",
+   "ocr": "fscribed",
+   "fixed": "scribed",
+   "basis": "scan (gutter speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:117",
+   "ocr": "méans",
+   "fixed": "means",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:21",
+   "ocr": "detector, system",
+   "fixed": "detector system",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:24",
+   "ocr": "impressed.on",
+   "fixed": "impressed on",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:25",
+   "ocr": "with. each",
+   "fixed": "with each",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:29",
+   "ocr": "system. :",
+   "fixed": "system.",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:76",
+   "ocr": "cofistituting",
+   "fixed": "constituting",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:84",
+   "ocr": "from,",
+   "fixed": "from.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:87",
+   "ocr": "@ plurality",
+   "fixed": "a plurality",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:93",
+   "ocr": ".two",
+   "fixed": "two",
+   "basis": "scan (gutter speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:94",
+   "ocr": "signal. ‘",
+   "fixed": "signal.",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:96",
+   "ocr": "‘lated",
+   "fixed": "lated",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:97",
+   "ocr": "wave 2 plurality",
+   "fixed": "wave a plurality",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:98",
+   "ocr": "quency. in",
+   "fixed": "quency in",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:102",
+   "ocr": "-: combining",
+   "fixed": "combining",
+   "basis": "scan (gutter speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:105",
+   "ocr": ". EDWIN",
+   "fixed": "EDWIN",
+   "basis": "scan (speck)"
+  }
+ ]
+}

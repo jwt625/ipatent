@@ -1,0 +1,52 @@
+{
+  "patent": "Filed 1990-12-21 and issued 1992-12-15 to Eli Yablonovitch, assigned to Bell Communications Research (Bellcore). It claims the drilled face-centered-cubic structure now usually called \"Yablonovite\": a dielectric block masked with a triangular array of holes, each hole drilled or etched three times, at 35.26 degrees from the surface normal and 120 degrees apart in azimuth. The three hole sets run along three <110> directions of a cubic lattice whose [111] axis is the surface normal, so the hole intersections sit on face-centered-cubic sites. The idea of a three-dimensional photonic band gap that suppresses spontaneous emission comes from Yablonovitch (Physical Review Letters, 1987) and, independently, S. John (Physical Review Letters, 1987). The earlier proposal of an fcc lattice of spheres (Yablonovitch and Gmitter, Physical Review Letters, 1989) was shown to have no complete gap (Ho, Chan and Soukoulis, Physical Review Letters, 1990). The drilled structure, published by Yablonovitch, Gmitter and Leung (Physical Review Letters, 1991), was the first experimental demonstration of a complete three-dimensional photonic band gap, made in a dielectric block at microwave frequencies. The patent's own worked example is likewise at microwave frequencies (cm-scale holes); the devices of FIGS. 4-6 (mirror, filter, laser) are drawn only schematically.",
+  "figs": {
+    "1": "Perspective of body 11 with mask layer 12 (the thin slab on top) whose circular openings, drawn as ellipses with an inner arc for the hole wall, are the sites 13 in a triangular array. From one site, lines 14, 15 and 16 rise at 35.26 degrees to the normal 17; the ellipse at the top is a circle in perspective, its dashed radii and arrowed arcs marking the 120-degree azimuths between the three lines. The holes are formed along these three directions into the body. Numerals 31-36 tag six openings that form the same triangle of sites as in FIG. 3.",
+    "2": "One unit cell, a rhombic dodecahedron, seen with three of its twelve rhombic faces (21, 22, 23) toward the viewer and the side faces foreshortened. Each of the three holes 24, 25, 26 runs perpendicular to its face; the three meet at the cell centre and leave through the three hidden opposite faces. Stacking such cells fills space as an fcc lattice of hole intersections.",
+    "3": "A cube of the fcc lattice seen along a body diagonal, so its outline is a hexagon. Heavy lines are cube edges, with corner 37 nearest the viewer; dots are lattice sites. Sites 32, 33 and 35 are the centres of the three visible faces, and the thin lines join them to corners 31, 34 and 36, showing that these six sites form one close-packed triangular layer, the plane of the mask in FIG. 1. Corners 30, 38 and 39 belong to the next parallel layer.",
+    "4": "Section of a reflector layer 41 on support body 42. The unlabelled wavy arrows are radiation incident on and reflected from the top surface.",
+    "5": "Section of a filter: reflector layer 52 bridges an opening etched through support body 51 (sloped walls), so light can pass through the layer and out the bottom. Incident wave 53 splits at the surface into reflected wave 55 (the forbidden band) and wave 54, which continues through the layer and the opening.",
+    "6": "Laser schematic: the large rectangle is reflector structure 61 and the small rectangle inside it is gain medium 62. Output 63 (wavy arrow) is launched into fiber 64, drawn as three bands with break lines at its right end; the text does not name the bands."
+  },
+  "parts": {
+    "13": "The text uses 13 for every opening in mask layer 12; the drawing tags three of them.",
+    "17": "Perpendicular to mask layer 12; it is the [111] axis of the resulting fcc lattice.",
+    "54": "The text introduces 54 only as \"is transmitted (54)\": the part of incident radiation 53 outside the forbidden band, passing through structure 52.",
+    "55": "The part of incident radiation 53 with wavelengths in the forbidden band, reflected by structure 52.",
+    "62": "The text says that embedding the gain medium creates an allowed mode inside the otherwise forbidden band, which is what lets the assembly lase; in later terms, a defect mode of a photonic crystal."
+  },
+  "glossary": [
+    {
+      "term": "face-centered cubic (fcc)",
+      "def": "A cubic lattice with sites at the cube corners and at the centre of each face. Viewed along a body diagonal it is a stack of close-packed triangular layers, which is why one triangular mask can define it."
+    },
+    {
+      "term": "forbidden band (photonic band gap)",
+      "def": "A range of frequencies in which no electromagnetic mode can propagate inside a periodic dielectric structure in any direction. Light in that range is reflected from all angles, and spontaneous emission into it inside the structure is suppressed."
+    },
+    {
+      "term": "Wigner-Seitz primitive cell",
+      "def": "The region of space closer to one lattice site than to any other; copies of it tile space. For the fcc lattice it is the rhombic dodecahedron of FIG. 2."
+    },
+    {
+      "term": "rhombic dodecahedron",
+      "def": "A solid with twelve identical rhombic faces; its face normals are the twelve <110> directions of the cube."
+    },
+    {
+      "term": "polar and azimuthal angle",
+      "def": "The angle of a direction from the surface normal (polar) and the angle of its projection around the normal (azimuthal). Here tan^{-1}(1/sqrt(2)) = 35.26 degrees and 120 degrees."
+    },
+    {
+      "term": "reactive-ion etching",
+      "def": "Plasma etching in which ions accelerated toward the sample remove material mainly along their direction of travel, so holes can be cut at a set angle by tilting the sample."
+    },
+    {
+      "term": "Yablonovite",
+      "def": "The name later given to the three-way drilled fcc structure of this patent."
+    },
+    {
+      "term": "spontaneous emission",
+      "def": "Emission by an excited atom or semiconductor without a stimulating photon; in a laser it adds noise. Its rate depends on the optical modes available, so removing modes in a band gap reduces it."
+    }
+  ]
+}

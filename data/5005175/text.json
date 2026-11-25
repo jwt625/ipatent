@@ -1,0 +1,1275 @@
+{
+ "pn": "5005175",
+ "number": "5,005,175",
+ "title": "ERBIUM-DOPED FIBER AMPLIFIER",
+ "inventors": [
+  "Emmanuel Desurvire",
+  "Clinton R. Giles",
+  "Jay R. Simpson",
+  "John L. Zyskind"
+ ],
+ "assignee": "AT&T Bell Laboratories, Murray Hill, N.J.",
+ "filed": "1989-11-27",
+ "issued": "1991-04-02",
+ "appl_no": "441,495",
+ "int_cl": "G02B 6/00; H01S 3/00",
+ "us_cl": "372/6; 372/40; 372/71; 350/96.3; 350/96.34; 330/4.3",
+ "field_of_search": "372/6, 969, 70, 71, 372/75, 33, 41, 40, 66; 350/96.30, 96.34; 330/4.3",
+ "refs_patents": [
+  {
+   "no": "4,780,877",
+   "date": "10/1988",
+   "name": "Snitzer",
+   "cl": "372/6"
+  },
+  {
+   "no": "4,860,295",
+   "date": "8/1989",
+   "name": "Byer et al.",
+   "cl": "372/19"
+  }
+ ],
+ "refs_other": [
+  "Desurvire et al., Opt. Lett. 12(11), Nov. 1987, “High–Gain Erbium–Doped Traveling–Wave Fiber . . . ”, pp. 888–890.",
+  "Miller et al., Electron. Lett., 23(16), Jul. 30, 1987, “Low–Threshold CW Operation of an Erbium–Doped . . . ”, pp. 865–866.",
+  "Mears et al., Electron. Lett., 22(3), 30 Jan. 1986, “Low–Threshold Tunable CW and Q–Switched . . . ”, pp. 159–160.",
+  "Electronics Letters, 5th Jan. 1989, vol. 25, No. 1, Laming et al., “Efficient Pump Wavelengths of . . . ”, pp. 12–14."
+ ],
+ "examiners": "Primary Examiner--Frank Gonzalez; Assistant Examiner--Galen J. Hansen; Attorney, Agent, or Firm--Eli Weiss",
+ "claims_count": 15,
+ "drawing_figures": 7,
+ "drawing_sheets": 4,
+ "abstract": "This invention is a rare earth doped optical amplifier with increased gain and lowered pump thresholds. The amplifying scheme is based on a 3 level lasing system rather than the more prevalent 4 level lasing system. Additionally, the transmission mode of the optical fiber at the pump wavelength has a radius which is substantially equal to or greater than the radius of the distribution profile of the rare earth ions in the fiber amplifier core. With the inventive amplifier, a gain of 37 dB and a saturation power of 11.3 dBm has been obtained with only 54 mW of launch power at λ=1.49 μm.",
+ "sections": [
+  {
+   "heading": "TECHNICAL FIELD",
+   "paras": [
+    {
+     "col": 1,
+     "line": 5,
+     "text": "This invention relates generally to fiber amplifiers and more particularly to erbium-doped fiber amplifiers."
+    }
+   ]
+  },
+  {
+   "heading": "BACKGROUND OF THE INVENTION",
+   "paras": [
+    {
+     "col": 1,
+     "line": 9,
+     "text": "There is considerable interest in using rare earth doped fiber amplifiers to amplify weak optical signals for both local and trunk optical telecommunications networks. The rare earth doped optical amplifying fibers are found to have low cost, exhibit low-noise, relatively large bandwidth which is not polarization dependent, substantially reduced crosstalk problems, and low insertion losses at the relevant operating wavelengths which are used in optical communications. Contemplated rare earth doped optical fiber amplifiers can be coupled end-to-end to a transmission fiber, and transversely coupled, through a directional coupler, to a laser diode pump. The directional coupler is designed to have a high coupling ratio at the pump wavelength and a low coupling ratio at the signal wavelength so that maximum pump energy is coupled to the amplifier with minimal signal loss. When the amplifying medium is excited with the pump laser, signal light traversing the amplifier experiences gain. The pump energy may be made to propagate either co-directionally or contra-directionally relative to the signal energy, depending upon whether any remaining unconverted pump light can be more conveniently filtered at the transmitter or the receiver."
+    },
+    {
+     "col": 1,
+     "line": 34,
+     "text": "A complicating factor in the design of rare earth doped optical amplifiers involves the difference between the various parameters necessary to optimize the performance of the amplifier and those necessary to optimize the performance of the associated transmission fibers. These differences, which arise from the different functions performed by the optical amplifier and the transmission fiber, result in significant signal loss as the signal is transmitted from the transmission fiber to the amplifying fiber, and therefore place a premium on the efficiency of the amplifying fiber which restores the signal to its previous levels. In the transmission fiber, waveguide dispersion must be minimized in order to maximize bandwidth and minimize loss, thereby maximizing the spacing between repeaters. However, in the amplifying fiber, as opposed to the transmission fiber, the major concern involves high gain, high saturation power, and low noise, all with minimal pump powers. Exemplary signal losses that can occur because of the different optimal parameters for the transmission and amplifying fibers are splicing losses due to mode mismatch because the signal mode size may be significantly different for these two fibers."
+    },
+    {
+     "col": 1,
+     "line": 57,
+     "text": "To date, erbium fiber amplifiers appear to have the greatest potential for the high amplification necessary to overcome the signal losses due not only to normal signal processing but due to the mismatch between the transmission and amplification fibers mentioned above. Erbium doped fiber amplifiers operate at λ=1.53 μm which is of particular interest for optical communication systems because, in this wavelength region, the amplifiers exhibit low insertion loss, broad gain bandwidth (approximately 30 nm) and polarization insensitive gain. Such amplifiers, pumped at λ=1.48 μm can have a gain as high as 26 dB but require as much as 76 mW of launched pump power. A higher gain together with a lower value of pump power is preferred."
+    }
+   ]
+  },
+  {
+   "heading": "SUMMARY OF THE INVENTION",
+   "paras": [
+    {
+     "col": 2,
+     "line": 5,
+     "text": "This invention is a rare earth doped optical amplifier with increased gain and lowered pump thresholds. The amplifying scheme is based on a 3 level lasing system rather than the more prevalent 4 level lasing system. Additionally, the transmission mode of the optical fiber at the pump wavelength has a radius which is substantially equal to or greater than the radius of the distribution profile of the rare earth ions in the fiber amplifier core. With the inventive amplifier, a gain of 37 dB and a saturation power of 11.3 dBm has been obtained with only 54 mW of launch power at λ=1.49 μm."
+    }
+   ]
+  },
+  {
+   "heading": "BRIEF DESCRIPTION OF THE DRAWING",
+   "paras": [
+    {
+     "col": 2,
+     "line": 18,
+     "text": "FIG. 1 is on energy level diagram showing population inversion and lasing for a non-semiconductor four level system;"
+    },
+    {
+     "col": 2,
+     "line": 21,
+     "text": "FIG. 2 is an energy level diagram showing population inversion and lasing for a non-semiconductor three level system;"
+    },
+    {
+     "col": 2,
+     "line": 24,
+     "text": "FIG. 3 is a plot of the index of refraction of an erbium-doped fiber superimposed on a plot of the intensity profile of the pump mode of prior art optical amplifier;"
+    },
+    {
+     "col": 2,
+     "line": 28,
+     "text": "FIG. 4 is a schematic diagram of structure for testing the erbium doped fiber amplifier."
+    },
+    {
+     "col": 2,
+     "line": 30,
+     "text": "FIG. 5 is a plot of the signal gain at λ_{s}=1.531 μm as a function of launched pump power at λ_{p}=1.493 μm;"
+    },
+    {
+     "col": 2,
+     "line": 32,
+     "text": "FIG. 6 is a plot of the index of refraction of an erbium-doped fiber superimposed on a plot of the intensity profile of the pump mode in accordance with the principles of the invention; and"
+    },
+    {
+     "col": 2,
+     "line": 36,
+     "text": "FIG. 7 is a plot of input and output signal saturation powers as a function of the launched pump power."
+    }
+   ]
+  },
+  {
+   "heading": "DETAILED DESCRIPTION",
+   "paras": [
+    {
+     "col": 2,
+     "line": 40,
+     "text": "Rare earth doped fibers for amplifying weak signals for both local and trunk optical telecommunications networks are of particular interest because of their low insertion loss, broad gain bandwidth and polarization insensitive gain. In use, the doped optical fiber is normally transversely coupled to a pump so that a weak optical input signal at some wavelength within the rare earth gain profile experiences a desired amplification. Pump light which can be coupled into the optical fiber via a directional coupler may propagate either co-directionally or contra-directionally within the fiber relative to the signal. The directional coupler can have a high coupling ratio at the pump wavelength and a low coupling ratio at the signal wavelength."
+    },
+    {
+     "col": 2,
+     "line": 54,
+     "text": "When the fiber is not pumped, the signal experiences loss due to ground state absorption by the rare earth ions. As the pump power that is applied to the fiber is increased, the loss due to ground level absorption decreases (i.e., gain is negative but increasing) until, at some value of pump power, there is no net signal absorption (i.e. the gain is zero). This is referred to as the transparency state. Thereafter, as the pump power in the fiber is increased, a higher proportion of rare earth ions are in their excited state and the stimulated emission from the upper lasing state to the ground state becomes stronger than the absorption from the ground state to the upper lasing state, resulting in a net positive gain at various wavelengths. Thus, the optical amplifier, when pumped so as to populate the upper lasing level, produces a net positive gain above the pump threshold level and the fiber acts as an amplifier."
+    },
+    {
+     "col": 3,
+     "line": 3,
+     "text": "There are two basic types of optical amplifiers. One type operates with a 4 level lasing system and the other operates with a 3 level lasing system. FIG. 1 illustrates a 4 level lasing system and FIG. 2 illustrates a 3 level lasing system. In each instance, pumping is effected by a separate laser or lamp which emits photons of an appropriate energy which is higher than that which corresponds to the signal wavelength. The electrons are excited from the ground state to one or more pump bands which are above the upper lasing level. A pump band can comprise a multiplet state in the Stark manifold. In the case of an ion in a glass, electronic states generally are broadened into Stark split manifolds. However, the different manifold multiplet states are usually not really discrete levels at room temperature because of homogeneous broadening. Depending upon the pump frequency, the electrons are excited to a level of the upper lasing state, and this level can be above level E_{4} of FIG. 1 and E_{3} of FIG. 2. The electrons then decay, normally nonradiatively from this level, to the upper lasing level. It is important that the spontaneous lifetime of the upper lasing level exceed that of the pump bands by a significant margin to allow heavy population of the upper level. When a photon at the laser wavelength interacts with an excited ion in the upper lasing state, stimulated emission can occur. The photon can come from either previous spontaneous emission, stimulated emission, or an input signal. At the lower level E_{2} of FIG. 1 and E_{1} of FIG. 2, a similar manifold can exist. The electrons will decay to some level in the lower manifold, the level to which it decays being represented by the wavelength at which it operates i.e., 1.53 μm–1.55 μm."
+    },
+    {
+     "col": 3,
+     "line": 36,
+     "text": "The difference between the 4 level lasing system of FIG. 1 and the 3 level lasing system of FIG. 2 is important to note. In the 3 level lasing system, the lower lasing level is either the ground state or so close to the ground state that it has a significant thermal population. In the 4 level lasing system, there is still a further transition from the lower lasing level to the ground state, and this is normally nonradiative in nature and much faster than the radiative transition. In a 3 level lasing system, absorption from the ground state directly to the upper lasing level takes place, decreasing the signal intensity and vitiating the effect of emission of lasing photons unless the ground state is depopulated by strong pumping. The significance of whether the laser is a 3 level laser system or a 4 level system lies mainly in the necessity in a 3 level lasing system to pump at a higher intensity to obtain population inversion. Thus, 3 level laser systems normally have higher values of threshold power than 4 level laser systems, especially for bulk, non-fiber active media and, therefore, 4 level laser systems are currently preferred. Rare earth doped optical fiber amplifiers operate in both 3 and 4 level modes."
+    },
+    {
+     "col": 3,
+     "line": 58,
+     "text": "Another difference between 3 and 4 level lasing systems lies in the dependence of gain on fiber length. In a 4 level system, assuming no imperfection losses, there is no point at which the gain will decrease as the fiber length is increased. In a 3 level system, there is an optimal length for which the maximum gain for a given pump power. This is an intrinsic property of a 3 level system even in the absence of imperfection losses. In an end-pumped 3 level fiber, the number of available pump photons and hence the population inversion will be greatest at the launch end and decreases monotonically along the fiber. The maximum gain for a given pump power is achieved when the fiber length is such that the pump power emerging from the other end of the fiber is exactly equal to the pump threshold power needed to achieve transparency. Every increment of the length up to that point contributes to net gain because the pump power there is above the pump threshold; every increment of length beyond that point detracts from the gain because the pump power is below the threshold level for transparency and the signal experiences a net loss in that region."
+    },
+    {
+     "col": 4,
+     "line": 12,
+     "text": "Another major difference between 3 level and 4 level systems lies in the dependence of saturation output power on pump power. In a 4 level system the saturation power is independent of pump power, while in a 3 level system the saturation output power depends linearly on the pump power and can be increased by increasing the pump power."
+    },
+    {
+     "col": 4,
+     "line": 19,
+     "text": "It is clear that the operation of an optical amplifier using a 4 level system device is significantly different from that of an optical amplifier using a 3 level system."
+    },
+    {
+     "col": 4,
+     "line": 22,
+     "text": "Optical fibers doped with rare earth such as erbium to form fiber amplifiers which operate a λ=1.53 μm are of particular interest for optical communications because of their low insertion loss, broad gain bandwidth (~30 nm) and polarization insensitive gain. Recent developments have demonstrated that erbium-doped fiber amplifiers can be pumped with laser diodes which operate at a pump wavelength of λ_{p}=1.48 μm or λ_{p}−980 nm. It is to be noted that erbium-doped optical amplifiers use 3 level systems."
+    },
+    {
+     "col": 4,
+     "line": 32,
+     "text": "Presently, erbium-doped fiber amplifiers have high threshold powers which are obtained because the cores are large relative to the power mode size. Referring to FIG. 3, there is illustrated a plot of a prior art erbium-doped fiber amplifier having a high pump threshold. The center step portion 50 represents the index of refraction of the erbium-doped core of the single mode fiber and the ends 52 represent the index of refraction of the cladding of the single mode fiber. The core of the optical fiber which can be made from glass and, therefore, is referred to as the glass host is uniformly doped with the rare earth dopant erbium and the index of refraction of the core is greater than that of the cladding. The curve of the pump mode 54 of the fiber is illustratively superimposed on the plot of the index of refraction of the optical fiber. The radius of the core 50 of the erbium-doped fiber is large compared to the radius of the pump mode 54 of the fiber. Included in FIG. 3 are representative atoms 56, 58, 60, 62, 64 of erbium which may be substantially uniformly distributed across the core. In operation, erbium atoms 62 and 64 are near or at the center of the fiber and are exposed to the maximum intensity of the pump mode. Obviously they are excited from the ground state to a band which is above the upper lasing level. This, however, does not occur for those erbium atoms 56, 58, 60 which are positioned near the edge of the core. From FIG. 3, it can be seen that the intensity of the mode at and near the edge of the core is substantially reduced relative to the peak value at the center of the core. In practice, this reduction may be such that the erbium atoms at the edge of the core do not see a sufficient flux of pump photons to yield a net gain. Such atoms contribute only to signal absorption which reduces the overall fiber gain experienced by the signal mode. As noted previously, in a 3 level lasing system, the lower lasing level is either the ground state or at a level so close to the ground state that it has a significant thermal population. Because the atoms of erbium 56, 58, 60 located in the low intensity area spend most of their time at the lower lasing level, not only do they not materially contribute to the gain process, but they contribute to absorption, decreasing the efficiency of the amplifier. In a 4 level system, on the other hand, atoms in the low pump region spend most of their time in the ground state which is not the lower lasing state thus they are just passive observers; they do not participate in the gain, but contrary to the case of the 3 level system, they do not absorb at the signal wavelength either and thus do not degrade the gain. In a 4 level lasing system it is desirable to have a large cavity to keep the signal intensities below the saturation intensity to achieve a high saturation output power."
+    },
+    {
+     "col": 5,
+     "line": 16,
+     "text": "In this invention, a more efficient erbium-doped fiber amplifier is disclosed which provides gains from +2.5 dB to +37 dB with pump powers at λ=1.49 μm in the 11 mW–54 mW range. Corresponding saturation output powers of +2.5 dBm to +11 dBm have been achieved. Measurements made with the new improved optical amplifier here disclosed show a maximum gain coefficient of 2.1±0.1 dB/mW. This value of gain coefficient represents the highest value reported to date for erbium-doped fiber amplifiers pumped in the λ_{p}=1.48–1.49 μm absorption band. For the 54 mW launched pump power, a high saturation output signal power of +11 dBm has been measured. This is a dramatic improvement over the +2.5 dBm value previously reported for this pump wavelength."
+    },
+    {
+     "col": 5,
+     "line": 31,
+     "text": "The erbium-doped fiber amplifier which provides the above mentioned results has a core radius of 1.81 μm and a Numerical Aperture of 0.23. The Er^{3+} concentration is p=2×10^{24} m^{−3} which corresponds to an Er_{2}O_{3} concentration of approximately 50 ppm."
+    },
+    {
+     "col": 5,
+     "line": 36,
+     "text": "When erbium is the active ion, an increase in efficiency is obtained by using a core doped with both Aluminum and Germanium as major dopants to raise the core refractive index, rather than just Germanium alone as is the current practice for erbium doped fiber amplifiers. When Aluminum is added, the absorption and fluorescence profiles of the Er^{3+} ions are altered in a manner which is favorable for pumping in the 1.46–1.49 μm wavelength band because, in this wavelength range, the absorption is high and the fluorescence is low for Aluminum doped cores."
+    },
+    {
+     "col": 5,
+     "line": 47,
+     "text": "Referring to FIG. 4, there is illustrated a schematic of a test setup for testing the erbium-doped fiber amplifier. A NaCl:OH color-center laser 10 operating at λ_{p}=1.493 μm is used as the pump. A trade-off between maximum output power for the color-center laser 10 and the operating wavelength resulted in this specific pump wavelength being selected as being optimal. It is to be understood, however, that this laser may not represent the optimal pump wavelength for achieving the highest erbium-doped fiber amplifier gains. A grating 12 is used to reject unwanted light at λ=1.064 μm which originates at the color center laser pump. A tunable external cavity laser diode 14 which operates around λ_{s}1.531 μm is used for the signal. A Faraday isolator 16 is used to prevent feedback from backward ASE onto the signal laser and also prevents feedback from reflections into the erbium-doped fiber amplifier. A fiber pig-tail 18 (not shown) with low-reflectivity index-matching windows is placed between a fiber polarization controller 20 and the Faraday isolator 16. Maximization of the signal passing through the Faraday isolator is achieved through the fiber polarization controller 20. A polarizing beam splitter 22 is used to combine the pump and the signal into one fiber of a fused fiber coupler 28 with a low coupling coefficient of n=0.012. The erbium doped fiber amplifier 24 is butt-spliced at 26 to the straight through output fiber of coupler 28. The output end 30 of the erbium-doped fiber is polished at a ten degree angle to prevent feedback into the erbium-doped fiber amplifier. The 1% output port 32 of the coupler is used to monitor the pump and signal input to the erbium-doped fiber amplifier. The other end of the monitor lead is immersed in index-matching oil 29 which is used to suppress unwanted reflections and Fabry-Perot effects. The end, 34, of the coupler input fiber lead is polished at a ten degree angle to prevent feedback."
+    },
+    {
+     "col": 6,
+     "line": 16,
+     "text": "The erbium-doped fiber core radius is 1.81 μm and the Numerical Aperture is 0.23. Its power mode size (radius) of ω′=3 μm was obtained experimentally using near-field imaging. The power mode size of the coupler fiber is ω=4.4 μm. The erbium-doped fiber amplifier Er^{3+} concentration is p=2×10^{24} m^{−3}, which corresponds to an Er_{2}O_{3} concentration of approximately 50 ppm. The coupling ratio between the input fiber lead and the fiber amplifier which was measured to be η=0.63, corresponds to −2.0 dB coupling loss. This coupling loss is due to the slight mismatch between the mode envelopes of the amplifier fiber and the coupler fiber, to yield a non-optimized overlap integral. After passing through an interference filter 35 with 2.6 nm bandwidth (FWHM) centered at λ_{s}=1.531 μm, the output of the erbium-doped fiber amplifier is directed either to a spectrometer to monitor the amplified signal or to a power meter for gain measurements."
+    },
+    {
+     "col": 6,
+     "line": 35,
+     "text": "The signal gain G as a function of pump power P_{p}^{in} launched into the erbium-doped fiber amplifier is illustrated in FIG. 5. The fiber used to obtain the illustrated results has a length of 47.5 m. The insert in FIG. 5 illustrates the output spectrum with the pump tuned at λ=1.493 μm and the signal at λ=1.531 μm which is the frequency of the peak of the fluorescence spectrum. Fiber amplifier transparency (Gain=0 db) was obtained with P_{p}^{in}=6.5 mW. The input pump power required to achieve transparency for long fiber lengths is higher than the pump threshold which is required for medium inversion which is due to the pump decay along the fiber, illustrates that the fiber actually has a low inversion threshold."
+    },
+    {
+     "col": 6,
+     "line": 49,
+     "text": "With an input power of P_{p}^{in}=11.3 mW, a gain of +25.2 dB is achieved. This corresponds to a gain coefficient of g=2.1±0.1 dB/mW. This result in a dramatic improvement over the presently reported g=0.39 dB/mW for 1.48 μm pump wavelength disclosed in Applied Phys. Letters, Vol. 54, No. 5, 1989 page 295 by M. Nakazawa, Y. Kimura and K. Suzuki."
+    },
+    {
+     "col": 6,
+     "line": 57,
+     "text": "A maximum gain of +36.8±0.3 dB is achieved with 53.6 mW launched pump power, which is slightly more than the highest gains of +35 dB reported for Erbium-doped fiber amplifiers when pumped with visible light and about 10 dB higher than the gains when pumped at 1.49 μm as reported in the Optical Fiber Communication Conference, 1989, Technical Digest Series, PD15-1 by K. Hagimoto et al. The improvement is attributed to the very low pump threshold of the fiber, which is a consequence of the small size of the pump mode."
+    },
+    {
+     "col": 6,
+     "line": 67,
+     "text": "The theoretical pump threshold P_{p}^{th} at λ_{s} is the solution of transcendental equation"
+    },
+    {
+     "col": 7,
+     "line": 3,
+     "text": "P_{p}^{th} = P* ((σ_{e} + σ_{a})/(σ_{e}(1 − η))) Pn [(P* + P_{p}^{th})/(P* + ηP_{p}^{th})]    (1)",
+     "formula": true
+    },
+    {
+     "col": 7,
+     "line": 7,
+     "text": "where σ_{a} and σ_{e} are the absorption and emission cross-sections at λ_{s}, respectively, η=exp(−a^{2}/ω^{2}) where a=fiber core radius, ω is the radius of the mode which corresponds 1/ϵ times the maximum intensity at the mode center, and P*=h̄_{p}^{ν}πa^{2}/σ_{p}τ with h̄_{p}^{ν}=pump photon energy, σ_{p}=pump absorption cross section and τ=fluorescence lifetime of the ^{4}I_{13/2} level."
+    },
+    {
+     "col": 7,
+     "line": 14,
+     "text": "Using the fluorescence lifetime and the cross sections measured for this fiber, they being τ=10 ms, σ_{a}(1.49 μm)=2×10^{−25} m^{2}, σ_{a}(1.53 μm)=4×8×10^{−25} m^{2}, σ_{e}(1.53 μm)=8×1×10^{−25} m^{2}; the fiber parameters are obtained from relationship (1) P_{p}^{th}=1.35 mW, which is consistent with the P_{p}^{th}=6.5 mW required to achieve transparency in the erbium-doped fiber amplifier as transparency requires that the pump be several times above threshold at the input end of the fiber. Thus, the maximum launched power of P_{p}^{th}=54 mW represents highly pumped conditions with a ratio P_{p}^{in}/P_{p}^{th}~40, resulting in the high gain measured for the fiber. Note that pump thresholds significantly lower than P_{p}^{th}=1.3 mW can be obtained by adjusting the value of the parameter ω to values lower than 3 μm, e.g. 1.5 μm which can be done by increasing the fiber index difference to Δ_{n}=0.03 and reducing the fiber core radius to a=1.5 μm."
+    },
+    {
+     "col": 7,
+     "line": 31,
+     "text": "Thus, from equation (1) which describes the relationship of the pump threshold relative to the property of the waveguide, the pump threshold should be as low as possible to obtain improved efficiency."
+    },
+    {
+     "col": 7,
+     "line": 35,
+     "text": "FIG. 6 is a plot of the index of refraction of an erbium-doped fiber amplifier in accordance with the principles of the invention wherein the fiber is designed to have a low pump threshold. The center step portion 36 represents the index of refraction of the erbium-doped core of the single mode fiber and the ends 38, represent the index of refraction of the cladding of the single mode fiber. The core of the optical fiber contains the erbium and the index of refraction of the core is greater than that of the cladding. The curve of the pump mode 42 of the fiber is illustratively superimposed on the plot of the index of refraction of the optical fiber. In accordance with the results of equation (1), the radius of the core 36 of the erbium-doped fiber is equal to or less than to the radius of the pump mode of the fiber. Thus, because the radius of the erbium-doped core is equal to or less than the radius of the pump mode of the fiber, each atom of erbium in the core cross-section is exposed to substantially equal levels of the high intensity portion of the pump mode. In an optical fiber amplifier having a core which is substantially uniformly doped with erbium, a high operating efficiency is obtain when the core has a radius of 1.8 μm, and when the differential of the index of refraction of the core relative to the cladding is substantially 0.019, and the power mode size ω of the pump does not exceed substantially 3 μm. In accordance with the principles of the invention, it is suggested that: the distribution profile of the rare earth ions be maintained at less than 1.9 μm; the radius of the mode of the pump signal not exceed 3 μm; the doped core of the fiber has a radius within the range of 1.0 μm to 1.9 μm and the fiber index difference is between 0.04 and 0.019; the fiber has a numerical aperture which is within a range having a lower limit of 0.2 and an upper limit of 0.35; and, the mode dimension of the fiber be within a range having a lower limit of 1.5 μm and an upper limit of 3 μm."
+    },
+    {
+     "col": 8,
+     "line": 4,
+     "text": "Referring to FIG. 7, there is illustrated the input and output signal saturation powers which result in 3 dB gain compression as a function of the launched pump power. The FIG. shows that, as the pump is increased, the input saturation power P_{sat}^{in} decreases and the output saturation power P_{sat}^{out} increases. It is to be noted that the output power increases substantially linearly with increasing pump power up to 11 dBm. An output saturation power of P_{sat}^{out}=11.3 dBm is achieved with the maximum available launched pump power i.e., P_{p}^{in}~53.6 mW corresponding to the maximum gain Gmax=37.1 dB. This result is a dramatic improvement over the P_{sat}^{out}=+2.5 dBm, Gmax=+26 dB values reported in the Optical Fiber Communication Conference, 1989, Technical Digest Series, PD15-1 (Optical Society of America, Washington, D.C. 1988) by K. Hagimoto et al. The range of output saturation powers illustrated in FIG. 4, i.e., P_{sat}^{out}=+2.5 dBm to +11.3 dBm is comparable to the results obtained with traveling-wave semiconductor amplifiers, i.e., P_{sat}^{out}=+5 dBm to +12.5 dBm. Clearly, with this invention, fiber-to-fiber gains in excess of +30 dB are now possible with 1.49 μm laser diode pump."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 2,
+   "line": 18,
+   "text": "FIG. 1 is on energy level diagram showing population inversion and lasing for a non-semiconductor four level system;"
+  },
+  {
+   "fig": "2",
+   "col": 2,
+   "line": 21,
+   "text": "FIG. 2 is an energy level diagram showing population inversion and lasing for a non-semiconductor three level system;"
+  },
+  {
+   "fig": "3",
+   "col": 2,
+   "line": 24,
+   "text": "FIG. 3 is a plot of the index of refraction of an erbium-doped fiber superimposed on a plot of the intensity profile of the pump mode of prior art optical amplifier;"
+  },
+  {
+   "fig": "4",
+   "col": 2,
+   "line": 28,
+   "text": "FIG. 4 is a schematic diagram of structure for testing the erbium doped fiber amplifier."
+  },
+  {
+   "fig": "5",
+   "col": 2,
+   "line": 30,
+   "text": "FIG. 5 is a plot of the signal gain at λ_{s}=1.531 μm as a function of launched pump power at λ_{p}=1.493 μm;"
+  },
+  {
+   "fig": "6",
+   "col": 2,
+   "line": 32,
+   "text": "FIG. 6 is a plot of the index of refraction of an erbium-doped fiber superimposed on a plot of the intensity profile of the pump mode in accordance with the principles of the invention; and"
+  },
+  {
+   "fig": "7",
+   "col": 2,
+   "line": 36,
+   "text": "FIG. 7 is a plot of input and output signal saturation powers as a function of the launched pump power."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 8,
+   "line": 29,
+   "depends": null,
+   "text": "1. An optical amplifier comprising a single mode optical fiber having a core surrounded by a cladding, said core being doped with rare earth ions having a distribution profile, and\nmeans for generating a pump signal at a pump wavelength,\nsaid pump wavelength capable of coupling the ground state of the rare earth ions to an excited state which is an upper pump level of a three level lasing system having the ground state as the lower level of the lasing transition, said generating means being optically coupled to said optical fiber, the transmission mode of the optical fiber at the pump wavelength having a radius which is greater than the radius of the distribution profile of the rare earth ions in the core."
+  },
+  {
+   "n": 2,
+   "col": 8,
+   "line": 45,
+   "depends": 1,
+   "text": "2. The optical amplifier of claim 1 characterized in that\nthe distribution profile of the rare earth ions in the core has a radius which is less than 1.9 μm."
+  },
+  {
+   "n": 3,
+   "col": 8,
+   "line": 49,
+   "depends": 1,
+   "text": "3. The optical amplifier of claim 1 characterized in that\nsaid rare earth ions comprise erbium."
+  },
+  {
+   "n": 4,
+   "col": 8,
+   "line": 53,
+   "depends": 2,
+   "text": "4. The optical amplifier of claim 2 characterized in that\nthe radius of the mode of said pump signal does not exceed 3 μm."
+  },
+  {
+   "n": 5,
+   "col": 8,
+   "line": 57,
+   "depends": 4,
+   "text": "5. The optical amplifier of claim 4 characterized in that\nthe doped core of said fiber has a radius within the range of 1.0 μm to 1.8 μm and the fiber index difference is between 0.04 and 0.019."
+  },
+  {
+   "n": 6,
+   "col": 8,
+   "line": 62,
+   "depends": 5,
+   "text": "6. The optical amplifier of claim 5 characterized in that\nthe doped core of said fiber has a radius of substantially 1.8 μm and an index difference of the core relative to the cladding of substantially 0.019."
+  },
+  {
+   "n": 7,
+   "col": 8,
+   "line": 67,
+   "depends": 5,
+   "text": "7. The optical amplifier of claim 5 characterized in that\nsaid fiber has a numerical aperture which is within a range having a lower limit of 0.2 and an upper limit of 0.35."
+  },
+  {
+   "n": 8,
+   "col": 9,
+   "line": 4,
+   "depends": 7,
+   "text": "8. The optical amplifier of claim 7 characterized in that\nthe numerical aperture of said fiber is substantially 0.23."
+  },
+  {
+   "n": 9,
+   "col": 9,
+   "line": 8,
+   "depends": 3,
+   "text": "9. The optical amplifier of claim 3 characterized in that\nthe mode dimension of said fiber is within a range having a lower limit of 1.5 μm and an upper limit of 3 μm."
+  },
+  {
+   "n": 10,
+   "col": 9,
+   "line": 13,
+   "depends": 9,
+   "text": "10. The optical amplifier of claim 9 characterized in that\nsaid optical fiber is coupled to receive pump energy substantially in the 1.46–1.49 μm absorption band."
+  },
+  {
+   "n": 11,
+   "col": 9,
+   "line": 17,
+   "depends": 11,
+   "text": "11. The optical amplifier of claim 11 characterized in that\nsaid core is a glass host."
+  },
+  {
+   "n": 12,
+   "col": 9,
+   "line": 20,
+   "depends": 11,
+   "text": "12. The optical amplifier of claim 11 characterized in that\nsaid glass host core is silica with dopants in addition to erbium to raise the refractive index of the core."
+  },
+  {
+   "n": 13,
+   "col": 9,
+   "line": 24,
+   "depends": 13,
+   "text": "13. The optical amplifier of claim 13 characterized in that\nsaid index raising dopants in core comprises Aluminum as a significant constituent."
+  },
+  {
+   "n": 14,
+   "col": 10,
+   "line": 3,
+   "depends": 7,
+   "text": "14. The optical amplifier of claim 7 characterized in that\nthe output power increases substantially linearly with increasing pump power up to 11 dBm."
+  },
+  {
+   "n": 15,
+   "col": 10,
+   "line": 7,
+   "depends": null,
+   "text": "15. A method of amplifying an optical signal comprising the steps of\ngenerating a pump signal at a pump wavelength,\napplying the pump signal to a single mode optical fiber having a core surrounded by a cladding, said core being doped with rare earth ions having a distribution profile and the pump wavelength being capable of coupling the ground state of the rare earth ions to an excited state which is an upper pump level of a three level lasing system having the ground state as the lower level of the lasing transition,\ncausing the transmission mode of the optical fiber at the pump wavelength to have a radius which is greater than the radius of the distribution profile of the rare earth ions in the core, and\napplying to the single mode optical fiber an optical signal for amplification."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "Emmanuel! Desurvire",
+   "fixed": "Emmanuel Desurvire",
+   "basis": "scan (front page [75])"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "[SU] Int, CLS ceeeecscccccscscssssssees G02B 6/00; HO1S 3/00",
+   "fixed": "[51] Int. Cl.^{5} G02B 6/00; H01S 3/00",
+   "basis": "scan (front page)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "P52] UGS. CMa cesscssscssccssssssssssssssnnseseceeeees 372/6",
+   "fixed": "[52] U.S. Cl. 372/6",
+   "basis": "scan (front page)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "Byer et al, .......ssessessesserenees 372/19",
+   "fixed": "Byer et al. 372/19",
+   "basis": "scan (front page; leader dots dropped)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "“High- ~Gain",
+   "fixed": "“High–Gain",
+   "basis": "scan (front page)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "Electron. Lett, 23(16)",
+   "fixed": "Electron. Lett., 23(16)",
+   "basis": "scan (front page)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "Electron, Lett., 22(3)",
+   "fixed": "Electron. Lett., 22(3)",
+   "basis": "scan (front page)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "“Low-- Threshold Tunable",
+   "fixed": "“Low–Threshold Tunable",
+   "basis": "scan (front page)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "ions in'the fiber",
+   "fixed": "ions in the fiber",
+   "basis": "scan (front page abstract; speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "A=1.49 pm",
+   "fixed": "λ=1.49 μm",
+   "basis": "scan (front page abstract) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 13,
+   "ocr": "fi- bers",
+   "fixed": "fibers",
+   "basis": "scan (hyphen split across lines) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 40,
+   "ocr": "functions.",
+   "fixed": "functions",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 54,
+   "ocr": "to.",
+   "fixed": "to",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 62,
+   "ocr": "A=1.53 ym",
+   "fixed": "λ=1.53 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 63,
+   "ocr": "optical.",
+   "fixed": "optical",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 67,
+   "ocr": "A=1.48 pm",
+   "fixed": "λ=1.48 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 15,
+   "ocr": "A=1.49 pm.",
+   "fixed": "λ=1.49 μm.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 18,
+   "ocr": "FIG..1",
+   "fixed": "FIG. 1",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 30,
+   "ocr": "As=1.531 wm",
+   "fixed": "λ_{s}=1.531 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 31,
+   "ocr": "Ap=1.493 pm;",
+   "fixed": "λ_{p}=1.493 μm;",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 33,
+   "ocr": "ona",
+   "fixed": "on a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 36,
+   "ocr": "isa",
+   "fixed": "is a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 21,
+   "ocr": "Ey",
+   "fixed": "E_{4}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 21,
+   "ocr": "E3",
+   "fixed": "E_{3}",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 31,
+   "ocr": "E2",
+   "fixed": "E_{2}",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 31,
+   "ocr": "E;",
+   "fixed": "E_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 35,
+   "ocr": "ie.,",
+   "fixed": "i.e.,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 35,
+   "ocr": "ppm-1.55 pm.",
+   "fixed": "μm–1.55 μm.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 68,
+   "ocr": ".greatest",
+   "fixed": "greatest",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 23,
+   "ocr": "A= 1.53 pm",
+   "fixed": "λ=1.53 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 29,
+   "ocr": "Ap= 1.48 pm",
+   "fixed": "λ_{p}=1.48 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 29,
+   "ocr": "Ap—980",
+   "fixed": "λ_{p}−980",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 7,
+   "ocr": "low.",
+   "fixed": "low",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 18,
+   "ocr": "A= 1.49 um",
+   "fixed": "λ=1.49 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 19,
+   "ocr": "mW-54",
+   "fixed": "mW–54",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 5,
+   "line": 23,
+   "ocr": "2.10.1",
+   "fixed": "2.1±0.1",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 25,
+   "ocr": "Ap= 1.48-1.49 pm",
+   "fixed": "λ_{p}=1.48–1.49 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 32,
+   "ocr": "1.81 ym",
+   "fixed": "1.81 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 33,
+   "ocr": "Er+",
+   "fixed": "Er^{3+}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 34,
+   "ocr": "p=2X 1024:m—3",
+   "fixed": "p=2×10^{24} m^{−3}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 34,
+   "ocr": "Er203",
+   "fixed": "Er_{2}O_{3}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 41,
+   "ocr": "is.",
+   "fixed": "is",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 42,
+   "ocr": "Er3+",
+   "fixed": "Er^{3+}",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 44,
+   "ocr": "1.46-1.49 um",
+   "fixed": "1.46–1.49 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 49,
+   "ocr": "NaClOH",
+   "fixed": "NaCl:OH",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 50,
+   "ocr": "Ap= 1.493 pm",
+   "fixed": "λ_{p}=1.493 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 57,
+   "ocr": "A= 1.064 pm",
+   "fixed": "λ=1.064 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 60,
+   "ocr": "51.531 xm",
+   "fixed": "λ_{s}1.531 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 14,
+   "ocr": "at.a",
+   "fixed": "at a",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 16,
+   "ocr": "1.81 1m",
+   "fixed": "1.81 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 18,
+   "ocr": "w’=3 um",
+   "fixed": "ω′=3 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 20,
+   "ocr": "w==4.4 um.",
+   "fixed": "ω=4.4 μm.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 21,
+   "ocr": "Er3+",
+   "fixed": "Er^{3+}",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 21,
+   "ocr": "p=2x 1024 m—3,",
+   "fixed": "p=2×10^{24} m^{−3},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 22,
+   "ocr": "Er2O3",
+   "fixed": "Er_{2}O_{3}",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 25,
+   "ocr": "71=0.63,",
+   "fixed": "η=0.63,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 25,
+   "ocr": "—2.0",
+   "fixed": "−2.0",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 28,
+   "ocr": "yield.a",
+   "fixed": "yield a",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 31,
+   "ocr": "As=1.531 pm,",
+   "fixed": "λ_{s}=1.531 μm,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 35,
+   "ocr": "P,'*",
+   "fixed": "P_{p}^{in}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 40,
+   "ocr": "A= 1.493 pm",
+   "fixed": "λ=1.493 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 40,
+   "ocr": "\\=1.531 pm",
+   "fixed": "λ=1.531 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 43,
+   "ocr": "P,'\"=6.5",
+   "fixed": "P_{p}^{in}=6.5",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 49,
+   "ocr": "P,/\"=11.3",
+   "fixed": "P_{p}^{in}=11.3",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 51,
+   "ocr": "g=2.1+0.1",
+   "fixed": "g=2.1±0.1",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 53,
+   "ocr": "1.48 um",
+   "fixed": "1.48 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 57,
+   "ocr": "+36.8+0.3",
+   "fixed": "+36.8±0.3",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 62,
+   "ocr": "1.49 pm",
+   "fixed": "1.49 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 67,
+   "ocr": "P,‘",
+   "fixed": "P_{p}^{th}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 67,
+   "ocr": "A;",
+   "fixed": "λ_{s}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 3,
+   "ocr": "P* + ph ” hp Tet oa 4 | te eon tan | Fe |",
+   "fixed": "P_{p}^{th} = P* ((σ_{e} + σ_{a})/(σ_{e}(1 − η))) Pn [(P* + P_{p}^{th})/(P* + ηP_{p}^{th})]    (1)",
+   "basis": "scan (displayed equation transcribed from the scan; Google Patents has only an image placeholder)"
+  },
+  {
+   "col": 7,
+   "line": 7,
+   "ocr": "o-, and o,",
+   "fixed": "σ_{a} and σ_{e}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 8,
+   "ocr": "As,",
+   "fixed": "λ_{s},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 8,
+   "ocr": "n=exp(—a2/w2)",
+   "fixed": "η=exp(−a^{2}/ω^{2})",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 9,
+   "ocr": "w is",
+   "fixed": "ω is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 10,
+   "ocr": "1/e",
+   "fixed": "1/ϵ",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 11,
+   "ocr": "P*=hp’ra?/opr",
+   "fixed": "P*=h̄_{p}^{ν}πa^{2}/σ_{p}τ",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 11,
+   "ocr": "bh,”=pump",
+   "fixed": "h̄_{p}^{ν}=pump",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 12,
+   "ocr": "o:p=pump",
+   "fixed": "σ_{p}=pump",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 13,
+   "ocr": "7=fluorescence",
+   "fixed": "τ=fluorescence",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 13,
+   "ocr": "4113/2",
+   "fixed": "^{4}I_{13/2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 15,
+   "ocr": "r=10",
+   "fixed": "τ=10",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 15,
+   "ocr": "o,(1.49 pm)=2xX 10-25 m%",
+   "fixed": "σ_{a}(1.49 μm)=2×10^{−25} m^{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 16,
+   "ocr": "o(1.53 pm)=4x8x10-25 m2",
+   "fixed": "σ_{a}(1.53 μm)=4×8×10^{−25} m^{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 17,
+   "ocr": "o{1.53 pm)=8 X 1x 10-25 m2",
+   "fixed": "σ_{e}(1.53 μm)=8×1×10^{−25} m^{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 18,
+   "ocr": "Pp“#= 1.35",
+   "fixed": "P_{p}^{th}=1.35",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 19,
+   "ocr": "P,‘'=6.5",
+   "fixed": "P_{p}^{th}=6.5",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 23,
+   "ocr": "Pp“#=54",
+   "fixed": "P_{p}^{th}=54",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 24,
+   "ocr": "P,\"/P,'4~40,",
+   "fixed": "P_{p}^{in}/P_{p}^{th}~40,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 25,
+   "ocr": "Pp =1.3",
+   "fixed": "P_{p}^{th}=1.3",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 27,
+   "ocr": "«",
+   "fixed": "ω",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 27,
+   "ocr": "3 pm, e.g. 1.5 um",
+   "fixed": "3 μm, e.g. 1.5 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 29,
+   "ocr": "A,»=0.03",
+   "fixed": "Δ_{n}=0.03",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 31,
+   "ocr": "pm.",
+   "fixed": "μm.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 57,
+   "ocr": "1.8 xm,",
+   "fixed": "1.8 μm,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 59,
+   "ocr": "size w of",
+   "fixed": "size ω of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 60,
+   "ocr": "3 um.",
+   "fixed": "3 μm.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 63,
+   "ocr": "1.9 jxm;",
+   "fixed": "1.9 μm;",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 64,
+   "ocr": "3 xm;",
+   "fixed": "3 μm;",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 65,
+   "ocr": "1.0 xm",
+   "fixed": "1.0 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 66,
+   "ocr": "pm and",
+   "fixed": "μm and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 2,
+   "ocr": "1.5 wm",
+   "fixed": "1.5 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 3,
+   "ocr": "3 pm.",
+   "fixed": "3 μm.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 8,
+   "ocr": "Psa)\"",
+   "fixed": "P_{sat}^{in}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 9,
+   "ocr": "Psa?“",
+   "fixed": "P_{sat}^{out}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 12,
+   "ocr": "P,a;°¥'=11.3",
+   "fixed": "P_{sat}^{out}=11.3",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 14,
+   "ocr": "P,\"~53.6",
+   "fixed": "P_{p}^{in}~53.6",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 15,
+   "ocr": "Gmax = 37.1",
+   "fixed": "Gmax=37.1",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 16,
+   "ocr": "P.of“'=+2.5",
+   "fixed": "P_{sat}^{out}=+2.5",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 16,
+   "ocr": "Gmax= +26",
+   "fixed": "Gmax=+26",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 21,
+   "ocr": "Psg“'= +2.5",
+   "fixed": "P_{sat}^{out}=+2.5",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 23,
+   "ocr": "Pso?#?= +5",
+   "fixed": "P_{sat}^{out}=+5",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 25,
+   "ocr": "+-30",
+   "fixed": "+30",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 25,
+   "ocr": "possibie",
+   "fixed": "possible",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 27,
+   "ocr": "1.49 xm",
+   "fixed": "1.49 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 48,
+   "ocr": "1.9 wm.",
+   "fixed": "1.9 μm.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 55,
+   "ocr": "3 im.",
+   "fixed": "3 μm.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 59,
+   "ocr": "1.0 ym to 1.8 pm",
+   "fixed": "1.0 μm to 1.8 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 64,
+   "ocr": "1.8 »m",
+   "fixed": "1.8 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 11,
+   "ocr": "1.5 ym",
+   "fixed": "1.5 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 12,
+   "ocr": "3 pm.",
+   "fixed": "3 μm.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 16,
+   "ocr": "1.46-1.49 zm",
+   "fixed": "1.46–1.49 μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 5,
+   "ocr": "with —",
+   "fixed": "with",
+   "basis": "scan (speck)"
+  }
+ ]
+}

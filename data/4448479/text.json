@@ -1,0 +1,2441 @@
+{
+ "pn": "4448479",
+ "number": "4,448,479",
+ "title": "TRAVELING WAVE, ELECTROOPTIC DEVICES WITH EFFECTIVE VELOCITY MATCHING",
+ "inventors": [
+  "Rodney C. Alferness"
+ ],
+ "assignee": "Bell Telephone Laboratories, Incorporated, Murray Hill, N.J.",
+ "filed": "1981-11-16",
+ "issued": "1984-05-15",
+ "appl_no": "321,475",
+ "int_cl": "G02B 5/174",
+ "us_cl": "350/96.14; 350/96.13",
+ "refs_patents": [
+  {
+   "no": "4,005,927",
+   "date": "2/1977",
+   "name": "Caton",
+   "cl": "350/96.14"
+  },
+  {
+   "no": "4,251,130",
+   "date": "2/1981",
+   "name": "Marcatili",
+   "cl": "350/96.14"
+  },
+  {
+   "no": "4,372,643",
+   "date": "2/1983",
+   "name": "Liu et al.",
+   "cl": "350/96.14"
+  },
+  {
+   "no": "4,380,364",
+   "date": "4/1983",
+   "name": "Marcatili",
+   "cl": "350/96.14"
+  },
+  {
+   "no": "4,381,139",
+   "date": "4/1983",
+   "name": "Alferness",
+   "cl": "350/96.14"
+  }
+ ],
+ "refs_other": [
+  "Schmidt et al., Optics Letters, vol. 2, No. 2, Feb. 1978, “Efficient Optical Waveguide Switch/Amplitude Modulator”, pp. 45–47.",
+  "IEEE Journal of Quantum Electronics, vol. QE-12, No. 7, Jul. 1976, “Switched Directional Couplers with Alternating Δβ”, pp. 396–401."
+ ],
+ "examiners": "Primary Examiner--John D. Lee; Assistant Examiner--Frank González; Attorney, Agent, or Firm--Sylvan Sherman; Gregory C. Ranieri",
+ "claims_count": 10,
+ "drawing_figures": 12,
+ "abstract": "A simulated velocity match between a traveling optical wave and a traveling electrical modulating wave is obtained in traveling wave, velocity mismatched electrooptic devices by introducing, at longitudinally spaced intervals along the electrical signal wavepath, means for producing the equivalent of a 180 degree phase shift in the effect of the modulating signal upon the operative electrooptic parameter of said device. This technique is employed to minimize the effect of walk-off due to velocity mismatch in modulators, phase shifter and mode converters.",
+ "sections": [
+  {
+   "heading": "TECHNICAL FIELD",
+   "paras": [
+    {
+     "col": 1,
+     "line": 6,
+     "text": "This application relates to traveling wave, electrooptic devices."
+    }
+   ]
+  },
+  {
+   "heading": "BACKGROUND OF THE INVENTION",
+   "paras": [
+    {
+     "col": 1,
+     "line": 10,
+     "text": "In U.S. Pat. Nos. 4,005,927 and 4,251,130 and 4,372,643, gating circuits of the velocity matched type (VMG) are disclosed. In the cited patents, gating is produced by a traveling electrical modulating signal that propagates in synchronism with an optical signal. These are the so-called “traveling wave, velocity matched gates” (TW-VMG). In U.S. Pat. No. 4,372,643, the electrical circuit is tuned so as to produce a standing electrical wave. However, the two oppositely propagating waves that produce the standing wave are also velocity matched to the optical signal. This class of device is the so-called “standing wave, velocity matched gate” (SW-VMG)."
+    },
+    {
+     "col": 1,
+     "line": 23,
+     "text": "It is a general problem with both traveling wave and standing wave gates and with electrooptic modulators generally that the refractive indices of the substrate material in which the gate is formed are very different at the two frequencies of interest, i.e., the electrical signal and optical signal frequencies. As a consequence, the electrical wavepath must be specially designed in order to satisfy the velocity match requirement, and to the extent that the velocities of the two signals are not carefully matched, the switching or modulation efficiency degenerates significantly."
+    },
+    {
+     "col": 1,
+     "line": 34,
+     "text": "In an alternative approach, described in U.S. Pat. No. 4,380,364 no attempt is made to satisfy the velocity match requirement. Instead, a velocity match is simulated in a basically velocity mismatched, standing wave gate structure by shaping the electrical signal wavepath so that interaction between the electrical signal with the optical signal occurs only along selected regions of the electrical signal wavepath. More specifically, whenever the phase of the electrical signal (i.e., the electric field direction) would tend to interfere with the desired transfer of optical power between the coupled optical waveguides, the electrodes are physically displaced so that there is no longer any interaction between the electrical field and the optical signal."
+    },
+    {
+     "col": 1,
+     "line": 48,
+     "text": "The principle disadvantage of this arrangement resides in the added loss produced by the increased length of the electrodes. This loss, in turn, causes an attenuation in the amplitude of the modulating signal as it propagates along the electrodes. As a result, a signal source of greater power is required, and, for a given amplitude of modulating signal, a longer gate structure is required. In addition, an electrode configuration of this type occupies more space than the usual electrodes, thus increasing the surface area occupied by the device."
+    },
+    {
+     "col": 1,
+     "line": 58,
+     "text": "The broad object of the present invention is to overcome the limitation of walk-off without significantly increasing or complicating the electrode structure."
+    }
+   ]
+  },
+  {
+   "heading": "SUMMARY OF THE INVENTION",
+   "paras": [
+    {
+     "col": 1,
+     "line": 63,
+     "text": "In accordance with the present invention, the effect of walk-off is minimized in traveling wave, electrooptic devices by producing, at longitudinally spaced intervals, a 180 degree phase (i.e., polarity) reversal in the effect the modulating signal has upon the operative parameter of such devices. Thus, in a traveling wave modulator comprising a pair of coupled waveguides wherein the coupling efficiency is controlled by modulating the difference, Δβ, in the propagation constants of the two waveguides, the effect of walk-off is obviated by producing a phase reversal in the sign of Δβ at specified intervals along the coupled waveguides. In a phase shifter, where the relative phase of the TE and TM modes is controlled by modulating the difference in the propagation constants of these two modes, a reversal in the sign of this difference is similarly effected at specified longitudinally spaced intervals."
+    },
+    {
+     "col": 2,
+     "line": 12,
+     "text": "The effect of walk-off in a TE⇄TM mode converter is minimized by inducing a phase reversal in the sign of the electrooptically induced TE⇄TM coupling coefficient, which is the operative electrooptically modulated parameter for this device."
+    },
+    {
+     "col": 2,
+     "line": 17,
+     "text": "Electrode arrangements for producing the phase reversals in the several devices are described."
+    },
+    {
+     "col": 2,
+     "line": 19,
+     "text": "It is an advantage of the invention that the total length of the electrical modulating wavepath is substantially equal to the optical wavepath."
+    }
+   ]
+  },
+  {
+   "heading": "BRIEF DESCRIPTION OF THE DRAWING",
+   "paras": [
+    {
+     "col": 2,
+     "line": 24,
+     "text": "FIG. 1 shows a prior art traveling wave, velocity matched gate;"
+    },
+    {
+     "col": 2,
+     "line": 26,
+     "text": "FIG. 2 shows a first embodiment of the invention;"
+    },
+    {
+     "col": 2,
+     "line": 27,
+     "text": "FIG. 3 shows the variations in Δβ as seen by photons entering the modulator at two different phases of the modulating signal;"
+    },
+    {
+     "col": 2,
+     "line": 30,
+     "text": "FIG. 4 shows variations of the amplitude of the modulating signal as a function of time;"
+    },
+    {
+     "col": 2,
+     "line": 32,
+     "text": "FIGS. 5 and 6, included for purposes of explanation, show the electric field directions in two adjacent intervals along the modulator;"
+    },
+    {
+     "col": 2,
+     "line": 35,
+     "text": "FIGS. 7 and 8 show the Δβ variations as a function of distance for photons entering at different times;"
+    },
+    {
+     "col": 2,
+     "line": 37,
+     "text": "FIG. 9 shows a phase shifter in accordance with the invention;"
+    },
+    {
+     "col": 2,
+     "line": 39,
+     "text": "FIG. 10 shows a mode converter in accordance with the invention;"
+    },
+    {
+     "col": 2,
+     "line": 41,
+     "text": "FIG. 11 shows the amplitude-frequency response of devices having different numbers of sections; and"
+    },
+    {
+     "col": 2,
+     "line": 43,
+     "text": "FIG. 12 shows an alternative electrode configuration."
+    }
+   ]
+  },
+  {
+   "heading": "DETAILED DESCRIPTION — Modulators",
+   "paras": [
+    {
+     "col": 2,
+     "line": 48,
+     "text": "The operation of both the prior art velocity matched modulator and an embodiment of the instant modulator is based upon controlling the transfer efficiency between a pair of coupled wavepaths. For purposes of explanation and illustration, reference will be made to electrical and optical signals, and electrical and optical wavepaths. However, it should be understood that the principles of the invention are equally applicable to any kind of interacting wavepaths including, for example, electron beams, solitons, phonons, etc. In addition, such interaction can occur at any frequency. With these facts in mind, reference is now made to FIG. 1 which shows a prior art TW-VMG of the type disclosed in the above-cited Marcatili U.S. Pat. No. 4,251,130. The gate comprises an optical directional coupler 10 including a pair of essentially identical dielectric waveguides 11 and 12 embedded in an electrooptic substrate 13 of lower refractive index. The guides are coupled over an interval L, where the coupling coefficient per unit length, k, and the coupling interval L are related by"
+    },
+    {
+     "col": 3,
+     "line": 1,
+     "text": "kL=π/2 (1)"
+    },
+    {
+     "col": 3,
+     "line": 2,
+     "text": "Modulating means for varying the transfer efficiency between the guides comprises a pair of electrodes 14 and 15 which, in the illustrated embodiment, are located directly over the optical waveguides 11 and 12, respectively. The electrodes form an electrical transmission line that is terminated at its output end by a resistor 16 whose magnitude is equal to the characteristic impedance of the line, and is energized at its input end by a signal source 17."
+    },
+    {
+     "col": 3,
+     "line": 11,
+     "text": "In the absence of a modulating electric signal from source 17, the propagation constants, β_{1} and β_{2} of the two waveguides 11 and 12 are equal. As a result, an optical signal P_{1}, applied to one end of guide 11, is completely coupled to waveguide 12. If, however, an electric field is applied between the electrodes, the propagation constants β_{1} and β_{2} are locally perturbed due to the electrooptic effect. Thus, at any point x along the coupler, the propagation constant varies as a function of time t. Assuming a sinusoidal electrical signal of period T, the difference in phase constants Δβ is given by"
+    },
+    {
+     "col": 3,
+     "line": 26,
+     "text": "Δβ = β_{1} − β_{2} = (4πΔn/λ_{o}){sin (2π/Γ)(x/V_{rf} − t)}; (2)"
+    },
+    {
+     "col": 3,
+     "line": 28,
+     "text": "where\nλ_{0} is the free space wavelength of the optical signal;\nV_{rf} is the phase velocity of the electrical signal; and\nΔn is the maximum index change introduced in each of the guides by the electrical field."
+    },
+    {
+     "col": 3,
+     "line": 33,
+     "text": "The pertubation represented by equation (2) propagates along the optical wavepaths along with the optical signal. In the velocity matched coupler, the perturbation and the optical signal propagate at the same velocity. Hence, light entering the system at any particular instant sees the same propagation constant difference throughout. In particular, light entering at a time when the modulating voltage is zero sees a Δβ which is and remains zero, resulting in a complete transfer of energy between wavepaths. At all other instants, Δβ has some finite value such that there is less than complete transfer of the incident light."
+    },
+    {
+     "col": 3,
+     "line": 45,
+     "text": "If, on the other hand, the electrical and optical waves are not synchronized, photons entering the coupler see a constantly changing Δβ as they propagate therealong. However, by the appropriate design of the coupler, this effect can be utilized to produce an alternating Δβ coupler of the type described in an article by H. Kogelnik and R. V. Schmidt entitled “Switched Directional Couplers with Alternating Δβ”, published in the July 1976 issue of the IEEE Journal of Quantum Electronics, Vol. QE-12, No. 7, pages 396–401. This effect is employed by Marcatili in a standing-wave, velocity-mismatched gate, as explained in his above-identified application. Thus, in all cases, conditions must be established in which the coupling efficiency is controlled as a function of time."
+    },
+    {
+     "col": 3,
+     "line": 60,
+     "text": "The present invention provides a means for controlling the transfer of signal power between coupled guides in a traveling-wave, velocity-mismatched device by shaping the electrical signal wavepath so as to introduce the equivalent of a 180 degree phase reversal in Δβ at appropriate spaced intervals along the modulating signal wavepath. The effect of this is to negate the effects of walk-off between the optical and modulating-waves due to the velocity mismatch. Stated positively, the phase reversals simulate a velocity match to the extent that the Δβ, while not a constant over the coupling interval, at least does not change sign for those photons entering the system at a particular phase of the modulating signal. As a consequence, there is a constructive contribution from each interval for appropriately phased signals, rather than a cancelling effect that would otherwise be suffered because of walk-off."
+    },
+    {
+     "col": 4,
+     "line": 9,
+     "text": "FIG. 2, now to be considered, is illustrative of a first embodiment of the invention in which the above-described phase reversals are produced by a particular arrangement of electrodes. As in the prior art, the coupled waveguides 20 and 21 are a pair of substantially identical, parallel optical waveguiding regions embedded in a substrate 22 of lower refractive index. Superimposed upon the substrate and the optical waveguides are three conductive electrodes 23, 24 and 25 which extend coextensively along an interval L of the optical wavepaths, where the interval L is the coupling interval, as defined by equation (1)."
+    },
+    {
+     "col": 4,
+     "line": 22,
+     "text": "In this embodiment, the electrodes comprise an inner, meandering electrode 23, and the two outer finger electrodes 24 and 25 which, together, form a coplanar strip transmission line."
+    },
+    {
+     "col": 4,
+     "line": 26,
+     "text": "The inner electrode meanders so as to extend alternately over each of the optical wavepaths 20 and 21 where the lateral transitions occur at uniformly spaced longitudinal intervals l_{0}, called the coherence length, given by"
+    },
+    {
+     "col": 4,
+     "line": 33,
+     "text": "l_{o} = (λ_{rf}/2n_{rf})[1 − V_{rf}/V_{o}]^{−1} (3)"
+    },
+    {
+     "col": 4,
+     "line": 36,
+     "text": "where\nλ_{rf} is a specified electrical free space wavelength;\nn_{rf} and V_{rf} are, respectively, the effective refractive index and velocity of propagation at said wavelength;\nV_{0} is the propagation velocity of the optical signal."
+    },
+    {
+     "col": 4,
+     "line": 42,
+     "text": "The outer finger electrodes 24 and 25 are positioned along the coupling interval such that the fingers of the respective electrodes extend over those portions of the optical wavepaths not covered by the inner electrode. For example, along the first interval, l_{1}, the inner electrode 23 extends over wavepath 21. Accordingly, finger 24-1 of electrode 24 extends over the coextensive portion of the other wavepath 20. Along the second interval, l_{2}, the inner electrode 23 extends over wavepath 20 and finger 25-1 of electrode 25 extends over the corresponding portion of wavepath 21."
+    },
+    {
+     "col": 4,
+     "line": 53,
+     "text": "In order to confine the electric field to the region of the optical wavepaths, the space, d_{1}, between the inner electrode 23 and the adjacent finger is much less than the space, d_{2}, between the inner electrode 23 and the coextensive portion of the other electrode. The transitions themselves are made as abruptly as possible. It should also be noted that the dimension d_{1} in a typical optical modulator is only a few microns, which is orders of magnitude smaller than the wavelength of the modulating electrical signal. As such, the undulations of the electrodes constitute an insignificant perturbation along the propagation path of the modulating signal."
+    },
+    {
+     "col": 4,
+     "line": 65,
+     "text": "As will be explained in greater detail hereinbelow, the lengths l_{1} of the first and last electrode intervals can have any value less than l_{0}, as given by equation (3). The remaining intervals l_{2}, l_{3} . . . , on the other hand, are all equal to l_{0}. For purposes of explanation, however, it will be assumed that all the intervals are equal to l_{0}."
+    },
+    {
+     "col": 5,
+     "line": 3,
+     "text": "The transmission line formed by the electrodes is energized at its input end by a signal source 30, and is terminated at its output end by an impedance 31, 32 equal to its characteristic impedance."
+    },
+    {
+     "col": 5,
+     "line": 7,
+     "text": "As explained hereinabove, in the absence of a modulating signal from signal source 30, the propagation constants β_{1} and β_{2} of the optical waveguides 20 and 21, respectively, are equal and constant over the entire coupling interval L. Accordingly, an optical signal P_{1}, applied at one end of waveguide 20, is completely transferred to the second waveguide 21, and exits as signal P_{2} at the other end thereof, where P_{2}=P_{1}. If, however, the electrodes are energized, the resulting electric field propagating along the electrodes locally perturbs the propagation constants β_{1} and β_{2} due to the electrooptic effect. Thus, at every point along the coupler, the propagation constants of the two optical waveguides vary as a function of time. More specifically, because the electric fields in the two waveguides are oppositely directed, the two propagation constants are affected differently. Typically one is increased while the other is decreased relative to their zero field values. Consequently, the net power transfer between the two waveguides, which varies as a function of the integral of the phase constants difference, Δβ=β_{1}−β_{2}, is modulated by the electric signal."
+    },
+    {
+     "col": 5,
+     "line": 29,
+     "text": "As explained hereinabove, in the velocity matched gate, the Δβ seen by photons entering the input waveguide remains constant over the entire coupling interval inasmuch as the optical wave and the modulating wave propagate in synchronism. In the case of a velocity mismatch, the two waves do not propagate in synchronism, producing what is referred to as a “walk-off” effect. In the instant case, where the optical wave propagates at a faster rate than the electrical signal, photons entering at any instant tend to “catch up” with the propagating electrical wave. As a result, in the absence of any compensating arrangements, the electric field variations, and the induced Δβ variations seen by the photons as a function of distance along the coupler, vary in a manner illustrated by curves 40 and 41 in FIG. 3. The particular Δβ variation depicted by curve 40 is for photons entering at the instant the modulating signal is at zero amplitude, as represented by curve 50 in FIG. 4. Because the optical signal propagates more rapidly than the electrical signal, these photons catch up with portions of the previously applied modulating signal depicted by the −t portion of curve 50. In particular, in an interval 2l_{0} the photons see a complete modulating voltage cycle, and the corresponding Δβ variations, where l_{0} is as given by equation (3). It will be noted that for a sinusoidal modulating signal, Δβ changes sign within this spatial period."
+    },
+    {
+     "col": 5,
+     "line": 57,
+     "text": "A similar Δβ variation occurs for photons incident at other times during the modulating signal cycle, as indicated by curve 41 in FIG. 3. This is equivalent to a phase shift in the modulating signal as represented by curve 51 in FIG. 4."
+    },
+    {
+     "col": 5,
+     "line": 62,
+     "text": "Both of the curves 40 and 41 in FIG. 3 illustrate the effect of walk-off on Δβ. Inasmuch as the throughput efficiency is a function of the integral of Δβ over the coupling interval, it is apparent that the net effect of an alternating Δβ is to minimize the integrated value of Δβ and, thus the throughput, where throughput efficiency η is the ratio of the output power to the input power as measured along the same wavepath. Referring to FIG. 2,"
+    },
+    {
+     "col": 6,
+     "line": 4,
+     "text": "η=(P_{3}/P_{1}) (4)"
+    },
+    {
+     "col": 6,
+     "line": 6,
+     "text": "To increase η requires that the integral of Δβ be maximized. This is done, in accordance with the present invention, by reversing the effect of the electric field upon Δβ. That is, whenever a change in the sign of Δβ would occur, as viewed by a photon that entered the system at a prescribed instant, the electrodes are relocated so as to maintain the same electric field direction in the electrooptic material, thus maintaining the same polarity of Δβ. This is illustrated in FIGS. 5 and 6 which show cross sections of the coupler along a pair of adjacent intervals. For example, FIG. 5 shows the electrodes and the electric field distribution as it would appear along the first interval l_{1} when the inner electrode 23 is positive with respect to the finger electrodes 24 and 25. The field primarily extends from electrode 23 down through optical waveguide 21 and then up through waveguide 20 to electrode 24. In the next interval l_{2}, the phase of the electric field, as seen by the same photons, has reversed, as indicated in FIG. 3, because of walk-off. Thus, the inner electrode is now negative with respect to the finger electrodes, as indicated in FIG. 6. However, because the inner electrode is shifted in interval l_{2} from over waveguide 21 to waveguide 20, and finger electrode 25 now extends over waveguide 21, the direction of the electric field in the respective waveguides remains the same, i.e., down in waveguide 21 and up in waveguide 20. Insofar as Δβ is concerned, it is as if the phase of the electric field along the electrodes has been reversed, resulting in the Δβ curve 70 shown in FIG. 7. It will be particularly noted that with respect to photons entering the system when the amplitude of the modulating signal is zero, Δβ does not reverse sign throughout the coupling interval. The result is to maximize the integral of Δβ and, thereby, maximize the throughput efficiency. Thus, in this sense, a velocity match has been simulated."
+    },
+    {
+     "col": 6,
+     "line": 42,
+     "text": "On the other hand, photons entering the system when the amplitude of the modulating signal is maximum see the Δβ distribution shown in FIG. 8 which includes equal positive and negative intervals. For this case, the integrated Δβ is zero, and the throughput as defined in equation (4), is correspondingly low. For other phases of the modulating signal, the throughput is varied between zero and maximum. Thus, modulation of the optical wave is achieved."
+    }
+   ]
+  },
+  {
+   "heading": "Phase Shifter",
+   "paras": [
+    {
+     "col": 6,
+     "line": 53,
+     "text": "The principles of the invention can also be used to obviate the effect of walk-off in a phase shifter. In such a device the operative electrooptically modulated parameter is the difference between the phase constants of the TE and the TM modes of wave propagation. FIG. 9, now to be considered, shows a phase shifter comprising an optical waveguiding strip 60 embedded in a substrate 61 of lower refractive index birefringent material, and means for modulating the relative propagation constants of the two modes by means of the electrooptic effect. In the embodiment of FIG. 9, this modulation is affected by means of a pair of conductive finger electrodes 62 and 63 superimposed upon the substrate and waveguiding strip. The electrodes extend coextensively over an interval L of the optical wavepath and are arranged relative to each other such that the fingers 62-1, 62-2 . . . 62-N of electrode 62 and the fingers 63-1, 63-2 . . . 63-N are interleaved. The width, l_{0}, of each finger along the direction of wave propagation is as given by equation (3)."
+    },
+    {
+     "col": 7,
+     "line": 5,
+     "text": "The transmission line formed by the electrodes is energized at its input and by a signal source 64 and is terminated at its other end by an impedance 65 equal to its characteristic impedance."
+    },
+    {
+     "col": 7,
+     "line": 9,
+     "text": "In operation, an optical signal of arbitrary polarization, propagating along strip 60 can be resolved into two orthogonally polarized TE and TM components. For a z- cut crystal material, the phase shift for each of the modes is proportional to the integral of Δβ over the interval L where"
+    },
+    {
+     "col": 7,
+     "line": 15,
+     "text": "Δβ_{TE}αr_{13}E_{z};\nΔβ_{TM}αr_{33}E_{z}; (5)"
+    },
+    {
+     "col": 7,
+     "line": 19,
+     "text": "r_{13} and r_{33} are the electrooptic coefficients;\nE_{z} is the z-directed component of the modulating signal within strip 60."
+    },
+    {
+     "col": 7,
+     "line": 22,
+     "text": "It is apparent from FIGS. 7 and 8, and the discussion hereinabove, that the phase shift is maximum for photons entering at the zero crossover points of the modulating signal and zero for those entering a quarter cycle later. Accordingly, the resulting phase shift can be modulated by the electrical signal. This phase modulation can then be converted to intensity modulation by the use of appropriate polarizers placed before and after the phase shifter. Alternatively, an interferometer waveguide circuit can be used with the phase shifter to effect intensity modulation."
+    }
+   ]
+  },
+  {
+   "heading": "Mode Converter",
+   "paras": [
+    {
+     "col": 7,
+     "line": 35,
+     "text": "FIG. 10 illustrates the application of the principles of the invention to a TE⇄TM mode converter of the types described, for example, in U.S. Pat. No. 3,877,782. Typically, the mode converter includes a waveguiding strip 70 embedded in a substrate 71 of lower refractive index electrooptic material. A pair of electrodes 72, 73 are suitably disposed along a portion L of strip 70. A modulation signal source 74 is connected to one end of the electrodes, and a matching terminating impedance 75 is connected to the other end."
+    },
+    {
+     "col": 7,
+     "line": 45,
+     "text": "Because of the difference in the refractive indices seen by the two modes, finger electrodes are employed to produce a phase match between the optical TE and TM modes where the spatial period, Λ, of the fingers is given by"
+    },
+    {
+     "col": 7,
+     "line": 51,
+     "text": "(1/λ_{o})[N_{TE} − N_{TM}] = 1/Λ (6)"
+    },
+    {
+     "col": 7,
+     "line": 54,
+     "text": "where\nλ_{0} is the wavelength of the optical frequency of interest; and\nN_{TE} and N_{TM} are the effective refractive indices seen by the TE and TM modes."
+    },
+    {
+     "col": 7,
+     "line": 59,
+     "text": "Depending upon the cut of the substrate material, the electrode fingers are either interleaved or arranged opposite each other, as shown in FIG. 10."
+    },
+    {
+     "col": 7,
+     "line": 62,
+     "text": "In a conventional mode converter, in which a uniform potential difference is impressed across the electrodes, the spatial period Λ of the electrode fingers is typically uniform over the length of the electrodes, although some spatial tapering may be included as a means of broadbanding the converter response. However, in a traveling wave mode converter, where the electrical and optic signals are not velocity matched, the added problem associated with walk-off must be taken into account. In particular, as in the case of the modulator and the phase shifter, as the faster propagating optical signal passes the slower propagating electrical signal, there are successive polarity reversals in the electric field at intervals, l_{0}, as illustrated in FIG. 3, and corresponding reversals in the resulting electrooptic effect. That is, in the absence of some corrective measure, whatever mode conversion occurred in the first interval, l_{1} would be undone by the mode conversion in the second interval, l_{2}. To prevent this, the equivalent of a 180 degree phase reversal in the effect of the modulating field on the mode-to-mode coupling coefficient is introduced at the appropriate intervals along the electrodes. In the illustrative embodiment, the phase-matched component of the coupling coefficient is k_{0} exp (j2πz/Λ). To compensate for the polarity reversal of the electric field, a compensating reversal in the coupling coefficient is effectuated by introducing an additional space 72-1, 73-1, 72-2, 73-2, equal to Λ/2, following each of the intervals l_{1}, l_{2} . . . . When this is done, the coupling coefficient in each successive interval is the negative of what it would have been in the absence of the added space. That is"
+    },
+    {
+     "col": 8,
+     "line": 29,
+     "text": "k_{o}exp[j(2π/Λ)(z + Λ/2)] = −k_{o}exp[j2πz/Λ], (7)"
+    },
+    {
+     "col": 8,
+     "line": 32,
+     "text": "thus providing the desired compensation."
+    },
+    {
+     "col": 8,
+     "line": 33,
+     "text": "It should be noted that the finger-to-finger spacing Λ is much smaller than the coherence length l_{0}. Thus, while each of the intervals l_{1}, l_{2} and l_{3} are shown to include three fingers, in general there will be many more than three. It will be also noted that l_{0} may not be an exact integral multiple of Λ. In that case, the value of l_{0} closest to an integral number of spatial wavelengths is chosen. This will correspond to a very small change in the design wavelength of the modulating signal λ_{rf}."
+    },
+    {
+     "col": 8,
+     "line": 42,
+     "text": "In the illustrative embodiment of FIG. 10, each interval l_{1}, l_{2} . . . ends with a space and, therefore, a space is added to provide the additional half spatial period. It will be recognized however that if the intervals ended in a finger, the added half period would be provided by the addition of an added finger."
+    },
+    {
+     "col": 8,
+     "line": 48,
+     "text": "A quantitative measure of the operation of the above-described devices can be obtained by expressing the modulating voltage E(z,t), as a function of distance, z, along the modulator electrodes and time t as follows:"
+    },
+    {
+     "col": 8,
+     "line": 53,
+     "text": "E(z,t)=E_{0} sin (kz−ωt−φ) (8)"
+    },
+    {
+     "col": 8,
+     "line": 55,
+     "text": "where\nE_{0} is the maximum amplitude of the modulating signal; and"
+    },
+    {
+     "col": 8,
+     "line": 60,
+     "text": "k = 2πn_{rf}/λ_{rf}."
+    },
+    {
+     "col": 8,
+     "line": 62,
+     "text": "Also noting that"
+    },
+    {
+     "col": 8,
+     "line": 65,
+     "text": "V_{rf} = λ_{rf}/Tn_{rf}"
+    },
+    {
+     "col": 8,
+     "line": 67,
+     "text": "and"
+    },
+    {
+     "col": 9,
+     "line": 2,
+     "text": "ω = 2πf_{rf}"
+    },
+    {
+     "col": 9,
+     "line": 4,
+     "text": "we obtain"
+    },
+    {
+     "col": 9,
+     "line": 8,
+     "text": "E(z,t) = E_{o} sin 2πf_{rf}(z/V_{rf} − t + φ′) (9)"
+    },
+    {
+     "col": 9,
+     "line": 10,
+     "text": "Photons entering at time t_{0} will have reached a point z along the electrodes at a time t given by"
+    },
+    {
+     "col": 9,
+     "line": 13,
+     "text": "z=V_{0}(t−t_{0}) (10)"
+    },
+    {
+     "col": 9,
+     "line": 15,
+     "text": "Substituting for t from equation (10) in equation (9), we obtain"
+    },
+    {
+     "col": 9,
+     "line": 20,
+     "text": "E(z,t_{o}) = E_{o} sin 2πf_{rf}[z(1/V_{rf} − 1/V_{o}) − t_{o} + φ_{o}′] (11)"
+    },
+    {
+     "col": 9,
+     "line": 23,
+     "text": "Equation (11) relates the voltage, E(z,t_{0}), seen by photons entering at any arbitrary instant, t_{0}, as a function of distance, z, along the electrodes. Inasmuch as the operative electrooptic effect is proportional to the electrode voltage, equation (11) is also a measure of the perturbation seen by these photons. For the photons not to see a change in the sign of the electrooptic effect as they propagate along requires that the sign of E(z,t_{0}) does not reverse as z is varied. Assuming the photons enter at t_{0}=0, equation (11) reduces to"
+    },
+    {
+     "col": 9,
+     "line": 36,
+     "text": "E(z,0) = V_{o} sin 2πf_{rf}(1/V_{rf} − 1/V_{o}) (12)"
+    },
+    {
+     "col": 9,
+     "line": 39,
+     "text": "E(z,o) will not change sign if"
+    },
+    {
+     "col": 9,
+     "line": 42,
+     "text": "2πf_{rf}(1/V_{rf} − 1/V_{o}) z ≦ π (13)"
+    },
+    {
+     "col": 9,
+     "line": 45,
+     "text": "or"
+    },
+    {
+     "col": 9,
+     "line": 47,
+     "text": "z ≦ (1/2f_{rf})(1/V_{rf} − 1/V_{o})^{−1} (14)"
+    },
+    {
+     "col": 9,
+     "line": 50,
+     "text": "Noting that"
+    },
+    {
+     "col": 9,
+     "line": 53,
+     "text": "V_{rf}/f_{rf} = λ_{rf}/n_{rf},"
+    },
+    {
+     "col": 9,
+     "line": 55,
+     "text": "we obtain"
+    },
+    {
+     "col": 9,
+     "line": 59,
+     "text": "z = l_{o} = (λ_{rf}/2n_{rf})[1 − V_{rf}/V_{o}]^{−1} (15)"
+    },
+    {
+     "col": 9,
+     "line": 62,
+     "text": "which is the expression for the coherence length given by equation (3) above, and verifies what was demonstrated in FIGS. 7 and 8. That is, for the specified transition interval, l, there is no reversal in the sign of Δβ or k for photons entering at the zero crossover points of the modulating signal. More specifically, for the rf wavelength, λ_{rf}, corresponding to l_{0}, the effect of walk-off between the optical and rf signals is not important for electrode lengths less than, or equal to l_{0}."
+    },
+    {
+     "col": 10,
+     "line": 3,
+     "text": "The usefulness of the instant invention in overcoming walk-off can be demonstrated analytically as follows. Equation (11) can be rewritten in terms of l_{0} and an indication of the effective modulation depth obtained as a function of the modulation frequency, f_{rf}, by integrating over the total electrode length, L. This yields the following two equations:"
+    },
+    {
+     "col": 10,
+     "line": 10,
+     "text": "(a) For an even number of reversal intervals (i.e., L=l_{0}(n+1), where n is an odd integer):"
+    },
+    {
+     "col": 10,
+     "line": 14,
+     "text": "Edz =\n(E_{o}l_{o}/α){cos (n + 1)α − cos nα/cos α}{cos(2πft_{o} + (n + 1)α)}. (16)"
+    },
+    {
+     "col": 10,
+     "line": 19,
+     "text": "(b) For an odd number of reversal intervals (i.e., L=l_{0}(n+1), where n is an even integer):"
+    },
+    {
+     "col": 10,
+     "line": 23,
+     "text": "Edz =\n(E_{o}l_{o}/α){sin nα/cos α − sin(n + 1)α}{sin(2πft_{o} − (n + 1)α)}; (17)"
+    },
+    {
+     "col": 10,
+     "line": 28,
+     "text": "where\nα=πf_{rf}/2f_{0}; and\nf_{0} is the design frequency for velocity matching."
+    },
+    {
+     "col": 10,
+     "line": 31,
+     "text": "It will be noted that each of the equations (16) and (17) includes an amplitude term which is a function of the modulating frequency, f_{rf}; a time-varying term which is a replica of the modulating signal; and a phase shift which is a function of the modulation frequency, f_{rf}/f_{0}. It will also be noted that for t_{0}=(1/4f_{0}), and f_{rf}=f_{0}, which is the condition depicted in FIG. 8, the integrated value of Δβ is zero, as shown in the figure."
+    },
+    {
+     "col": 10,
+     "line": 39,
+     "text": "FIG. 11 shows the variations in the amplitude response as a function of the normalized modulation frequency, f_{rf}/f_{0}, for devices having 2, 4 and 8 sections. Also shown are the results for an electrode of length 2l_{0} without walk-off compensating phase reversal. As can be seen, the effect of increasing the number of sections is to shift the modulation band from a low pass characteristic for no phase reversals to a bandpass characteristic centered at frequency f_{0}. For the uncorrected case no optical modulation is achieveable at f_{rf}=f_{0}. However, by using the proposed electrode as the number of sections increases, the amplitude response increases while the modulation bandwidth decreases. Therefore, the desired goal is achieved. The added lengths permit the use of lower modulating voltages without requiring a reduction in the frequency of the modulating signal."
+    },
+    {
+     "col": 10,
+     "line": 56,
+     "text": "In the embodiment of FIG. 2, the two outer electrodes 24 and 25 are shown and described as finger electrodes. Similarly, electrodes 62 and 63 in the embodiment of FIG. 9 are shown and described as finger electrodes. However, one can omit portions of these electrodes, and while this omission alters their appearance, it does not affect their operation. For example, FIG. 12 shows electrodes 62 and 63 in which the cross hatched portions 62-1 62-2, 63-1 and 63-2 have been omitted, converting the electrodes from a pair of finger electrodes to a pair of meandering electrodes of uniform width. For the purpose of this invention, these two are equivalents and serve to illustrate that the invention can be practiced employing various electrode configurations."
+    },
+    {
+     "col": 11,
+     "line": 3,
+     "text": "In the discussion above, it was assumed, for purposes of discussion, that all of the intervals were of equal length l_{0}. It was indicated, however, that the first interval and the last may be equal to or less than l_{0}. If, for example, the first interval is less than l_{0}, the effect is the equivalent of a phase shift in the modulation signal as indicated in FIGS. 3 and 7 by the shifted vertical axis 42 and 43. Similarly, if the last interval is less than l_{0}, the effect is to end the interaction interval at a point indicated by axis 44 in FIG. 7. However, in all other respects the devices will operate as described hereinabove."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 2,
+   "line": 24,
+   "text": "FIG. 1 shows a prior art traveling wave, velocity matched gate;"
+  },
+  {
+   "fig": "2",
+   "col": 2,
+   "line": 26,
+   "text": "FIG. 2 shows a first embodiment of the invention;"
+  },
+  {
+   "fig": "3",
+   "col": 2,
+   "line": 27,
+   "text": "FIG. 3 shows the variations in Δβ as seen by photons entering the modulator at two different phases of the modulating signal;"
+  },
+  {
+   "fig": "4",
+   "col": 2,
+   "line": 30,
+   "text": "FIG. 4 shows variations of the amplitude of the modulating signal as a function of time;"
+  },
+  {
+   "fig": "5",
+   "col": 2,
+   "line": 32,
+   "text": "FIGS. 5 and 6, included for purposes of explanation, show the electric field directions in two adjacent intervals along the modulator;"
+  },
+  {
+   "fig": "6",
+   "col": 2,
+   "line": 32,
+   "text": "FIGS. 5 and 6, included for purposes of explanation, show the electric field directions in two adjacent intervals along the modulator;"
+  },
+  {
+   "fig": "7",
+   "col": 2,
+   "line": 35,
+   "text": "FIGS. 7 and 8 show the Δβ variations as a function of distance for photons entering at different times;"
+  },
+  {
+   "fig": "8",
+   "col": 2,
+   "line": 35,
+   "text": "FIGS. 7 and 8 show the Δβ variations as a function of distance for photons entering at different times;"
+  },
+  {
+   "fig": "9",
+   "col": 2,
+   "line": 37,
+   "text": "FIG. 9 shows a phase shifter in accordance with the invention;"
+  },
+  {
+   "fig": "10",
+   "col": 2,
+   "line": 39,
+   "text": "FIG. 10 shows a mode converter in accordance with the invention;"
+  },
+  {
+   "fig": "11",
+   "col": 2,
+   "line": 41,
+   "text": "FIG. 11 shows the amplitude-frequency response of devices having different numbers of sections; and"
+  },
+  {
+   "fig": "12",
+   "col": 2,
+   "line": 43,
+   "text": "FIG. 12 shows an alternative electrode configuration."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 11,
+   "line": 16,
+   "depends": null,
+   "text": "1. An optical device comprising:\noptical waveguiding means;\nelectrical waveguiding means extending longitudinally along said optical waveguiding means over an interaction distance L for locally modulating, via the electrooptic effect, the operative parameter of said device;\nsaid electrical waveguiding means having a total length substantially equal to L, and including, at longitudinally spaced interval therealong, means for producing the equivalent of a 180 degree phase shift in said operative parameter, said 180 degree phase shifts occurring at intervals spaced apart a distance, l_{0}, given by\nl_{o} = (λ_{rf}/2n_{rf})(1 − V_{rf}/V_{o})^{−1},\nwhere λ_{rf}, V_{rf}, n_{rf} are, respectively, the wavelength, velocity of propagation, and refractive index at a specified electrical wave frequency; and\nV_{0} is the velocity of propagation at the frequency of the optical signal of interest."
+  },
+  {
+   "n": 2,
+   "col": 11,
+   "line": 40,
+   "depends": 1,
+   "text": "2. The optical device according to claim 1 wherein:\nsaid device is a phase shifter;\nsaid optical waveguiding means is a single optical waveguide;\nand the operative parameter is the difference between the phase constant of the TE mode of wave propagation and the phase constant of the TM mode of wave propagation."
+  },
+  {
+   "n": 3,
+   "col": 11,
+   "line": 48,
+   "depends": 2,
+   "text": "3. The optical device according to claim 2 wherein:\nsaid optical waveguiding means comprises a strip embedded in an electrooptical material of lower refractive index;\nand said electrical waveguiding means comprises a pair of metallic electrodes superimposed upon said substrate and extending longitudinally along said strip with one and then the other of said electrodes alternately extending over longitudinal intervals of said strip."
+  },
+  {
+   "n": 4,
+   "col": 12,
+   "line": 4,
+   "depends": 3,
+   "text": "4. The optical device according to claim 3 wherein the first and the last of said intervals are equal to or less than the length l_{0} of the intermediate intervals."
+  },
+  {
+   "n": 5,
+   "col": 12,
+   "line": 7,
+   "depends": 1,
+   "text": "5. The optical device according to claim 1 wherein:\nsaid device is a modulator;\nsaid optical waveguiding means comprises a pair of coupled optical waveguides;\nand the operative parameter is the difference between the phase constant of the first of said waveguides and the phase constant of the other of said waveguides."
+  },
+  {
+   "n": 6,
+   "col": 12,
+   "line": 15,
+   "depends": 5,
+   "text": "6. The optical device according to claim 5 wherein\nsaid electrical waveguiding means comprises a plurality of metallic electrodes including a center electrode and a pair of outer electrodes forming a strip transmission line extending longitudinally along said optical waveguides;\nsaid center electrode meandering along in the direction of optical wave transmission, alternately extending over longitudinal intervals of one and then the other of said optical waveguides;\nand wherein the outer electrodes extend over the optical waveguide not covered by said center electrode."
+  },
+  {
+   "n": 7,
+   "col": 12,
+   "line": 29,
+   "depends": [
+    2,
+    5
+   ],
+   "text": "7. The optical device according to claims 2 or 5 wherein:\nsaid electrical waveguiding means comprises a plurality of electrodes forming a planar strip transmission line;\nand said 180 degree phase shift is obtained by means of a transverse displacement of said electrodes relative to said optical waveguiding means."
+  },
+  {
+   "n": 8,
+   "col": 12,
+   "line": 37,
+   "depends": 1,
+   "text": "8. The optical device according to claim 1 wherein:\nsaid device is a TE⇄TM mode converter;\nsaid optical waveguiding means is a single optical waveguide;\nand the operative parameter is the electrooptically induced mode-to-mode coupling coefficient."
+  },
+  {
+   "n": 9,
+   "col": 12,
+   "line": 43,
+   "depends": 8,
+   "text": "9. The optical device according to claim 8 wherein:\nsaid electrical waveguiding means is a pair of finger electrodes having a nominal finger-to-finger spacing Λ;\nand said 180 degree phase shift is obtained by inserting an added interval along said electrodes equal to Λ/2."
+  },
+  {
+   "n": 10,
+   "col": 12,
+   "line": 50,
+   "depends": [
+    2,
+    5,
+    8
+   ],
+   "text": "10. The optical device according to claims 2, 5 or 8 wherein said electrical waveguiding means comprises a plurality of electrodes forming a planar strip transmission line."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "col": 1,
+   "line": 9,
+   "ocr": "OF-THE",
+   "fixed": "OF THE",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 1,
+   "line": 16,
+   "ocr": "gates’",
+   "fixed": "gates”",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 1,
+   "line": 22,
+   "ocr": "‘velocity",
+   "fixed": "velocity",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 1,
+   "line": 27,
+   "ocr": "ie.,",
+   "fixed": "i.e.,",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 2,
+   "line": 3,
+   "ocr": "AB,",
+   "fixed": "Δβ,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 5,
+   "ocr": "AB",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 12,
+   "ocr": "effect.",
+   "fixed": "effect",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 2,
+   "line": 12,
+   "ocr": "TE@:TM",
+   "fixed": "TE⇄TM",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 2,
+   "line": 14,
+   "ocr": "TE@TM",
+   "fixed": "TE⇄TM",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 2,
+   "line": 17,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 2,
+   "line": 24,
+   "ocr": "",
+   "fixed": "wave,",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 2,
+   "line": 25,
+   "ocr": "wave,",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 2,
+   "line": 27,
+   "ocr": "AB",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 28,
+   "ocr": "",
+   "fixed": "photons",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 2,
+   "line": 28,
+   "ocr": "photons",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 2,
+   "line": 32,
+   "ocr": "of",
+   "fixed": "purposes of explanation,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 33,
+   "ocr": "purposes in explanation,",
+   "fixed": "in two adjacent",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 34,
+   "ocr": "two adjacent",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 2,
+   "line": 35,
+   "ocr": "A8 variations function",
+   "fixed": "Δβ variations as a function of",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 2,
+   "line": 36,
+   "ocr": "different as a of",
+   "fixed": "entering at different times;",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 37,
+   "ocr": "entering shifter at in times; invention; a phase",
+   "fixed": "a phase shifter in",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 2,
+   "line": 39,
+   "ocr": "",
+   "fixed": "invention;",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 2,
+   "line": 39,
+   "ocr": "mode in the invention; a converter accordance with",
+   "fixed": "a mode converter in accordance with the invention;",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 2,
+   "line": 42,
+   "ocr": "devices different",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 2,
+   "line": 43,
+   "ocr": "FIG. 12 having shows",
+   "fixed": "devices having different",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 44,
+   "ocr": "",
+   "fixed": "FIG. 12 shows",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 3,
+   "line": 1,
+   "ocr": "(1) Modulating for the transfer",
+   "fixed": "kL=π/2 (1) Modulating means for varying the transfer efficiency",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 3,
+   "line": 3,
+   "ocr": "means varying of efficiency",
+   "fixed": "comprises a pair of electrodes 14",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 3,
+   "line": 4,
+   "ocr": "comprises a pair electrodes 14",
+   "fixed": "embodiment, are located",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 3,
+   "line": 5,
+   "ocr": "embodiment, 11 and are located tively.",
+   "fixed": "waveguides 11 and 12, respectively.",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 3,
+   "line": 6,
+   "ocr": "waveguides electrical 12, respecline",
+   "fixed": "an electrical transmission line",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 7,
+   "ocr": "an end a transmission resistor",
+   "fixed": "output end by a resistor 16",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 3,
+   "line": 8,
+   "ocr": "output the characteristic by 16 dance",
+   "fixed": "the characteristic impedance",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 3,
+   "line": 9,
+   "ocr": "end impesignal source 17. input by a",
+   "fixed": "input end by a signal source 17.",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 3,
+   "line": 11,
+   "ocr": "",
+   "fixed": "signal",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 3,
+   "line": 12,
+   "ocr": "8; and signal B2",
+   "fixed": "β_{1} and β_{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 14,
+   "ocr": "optical signal P;,",
+   "fixed": "an optical signal P_{1},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 14,
+   "ocr": "an",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 3,
+   "line": 17,
+   "ocr": "8; and f",
+   "fixed": "β_{1} and β_{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 21,
+   "ocr": "AQ",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 25,
+   "ocr": "AB Q) = — 6, = “She sn 32-( i -)); where Ao",
+   "fixed": "Δβ = β_{1} − β_{2} = (4πΔn/λ_{o}){sin (2π/Γ)(x/V_{rf} − t)}; (2) where λ_{0}",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 3,
+   "line": 30,
+   "ocr": "Vis",
+   "fixed": "V_{rf} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 31,
+   "ocr": "An",
+   "fixed": "Δn",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 34,
+   "ocr": "gates",
+   "fixed": "propagates",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 34,
+   "ocr": "propasignal.",
+   "fixed": "signal.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 40,
+   "ocr": "AB",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 42,
+   "ocr": "AB",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 47,
+   "ocr": "AB",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 49,
+   "ocr": "AB",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 52,
+   "ocr": "AB”,",
+   "fixed": "Δβ”,",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 54,
+   "ocr": "396-401.",
+   "fixed": "396–401.",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 3,
+   "line": 57,
+   "ocr": "‘Thus,",
+   "fixed": "Thus,",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 3,
+   "line": 64,
+   "ocr": "AB",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 2,
+   "ocr": "Af,",
+   "fixed": "Δβ,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 2,
+   "ocr": "covupling",
+   "fixed": "coupling",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 13,
+   "ocr": "pled",
+   "fixed": "coupled",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 13,
+   "ocr": "couidentical,",
+   "fixed": "substantially identical,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 14,
+   "ocr": "substantially embed1S ded",
+   "fixed": "embedded",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 16,
+   "ocr": "posed",
+   "fixed": "Superimposed",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 16,
+   "ocr": "Superimthree",
+   "fixed": "optical waveguides are three",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 17,
+   "ocr": "optical and 25 waveguides are coextensively along",
+   "fixed": "and 25 which extend coextensively along an",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 4,
+   "line": 18,
+   "ocr": "which extend paths,",
+   "fixed": "the optical wavepaths,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 19,
+   "ocr": "an",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 4,
+   "line": 19,
+   "ocr": "the optical wavedefined by",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 4,
+   "line": 21,
+   "ocr": "In this equation (1).",
+   "fixed": "defined by equation (1). In this",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 4,
+   "line": 23,
+   "ocr": "trodes",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 4,
+   "line": 23,
+   "ocr": "elec24",
+   "fixed": "electrodes 24",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 29,
+   "ocr": "lp,",
+   "fixed": "l_{0},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 32,
+   "ocr": "@ i= Mp [: 2 where A,ris",
+   "fixed": "l_{o} = (λ_{rf}/2n_{rf})[1 − V_{rf}/V_{o}]^{−1} (3) where λ_{rf} is",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 4,
+   "line": 38,
+   "ocr": "ngand V,sare,",
+   "fixed": "n_{rf} and V_{rf} are,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 41,
+   "ocr": "Vo",
+   "fixed": "V_{0}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 46,
+   "ocr": "11,",
+   "fixed": "l_{1},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 50,
+   "ocr": "12,",
+   "fixed": "l_{2},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 54,
+   "ocr": "dj,",
+   "fixed": "d_{1},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 59,
+   "ocr": "dj",
+   "fixed": "d_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 66,
+   "ocr": "1)",
+   "fixed": "l_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 67,
+   "ocr": "Io,",
+   "fixed": "l_{0},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 68,
+   "ocr": "1, 13...",
+   "fixed": "l_{2}, l_{3} . . .",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 5,
+   "line": 1,
+   "ocr": "lo.",
+   "fixed": "l_{0}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 2,
+   "ocr": "lp.",
+   "fixed": "l_{0}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 9,
+   "ocr": "81 and 82",
+   "fixed": "β_{1} and β_{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 11,
+   "ocr": "Py,",
+   "fixed": "P_{1},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 14,
+   "ocr": "P2=P}.",
+   "fixed": "P_{2}=P_{1}.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 17,
+   "ocr": "8) and £2",
+   "fixed": "β_{1} and β_{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 25,
+   "ocr": "",
+   "fixed": "power",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 5,
+   "line": 26,
+   "ocr": "guides, which varies power",
+   "fixed": "waveguides, which varies",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 26,
+   "ocr": "wave-",
+   "fixed": "integral",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 27,
+   "ocr": "AB=81—, integral is",
+   "fixed": "Δβ=β_{1}−β_{2}, is modulated",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 28,
+   "ocr": "modulated",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 5,
+   "line": 30,
+   "ocr": "gate, the AB",
+   "fixed": "velocity matched gate, the Δβ",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 5,
+   "line": 30,
+   "ocr": "velocity the matched guide remains constant the entering input waveinasmuch the over",
+   "fixed": "entering the input waveguide remains constant over the",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 5,
+   "line": 33,
+   "ocr": "as in",
+   "fixed": "inasmuch as the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 34,
+   "ocr": "mismatch, propagate the",
+   "fixed": "propagate in",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 35,
+   "ocr": "nism, two what",
+   "fixed": "mismatch, the two",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 35,
+   "ocr": "synchroeffect. producing In the instant",
+   "fixed": "synchronism, producing what",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 5,
+   "line": 37,
+   "ocr": "faster",
+   "fixed": "effect. In the instant",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 38,
+   "ocr": "",
+   "fixed": "faster",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 5,
+   "line": 40,
+   "ocr": "of",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 5,
+   "line": 41,
+   "ocr": "",
+   "fixed": "of",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 5,
+   "line": 42,
+   "ocr": "AB",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 43,
+   "ocr": "in",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 5,
+   "line": 44,
+   "ocr": "3. vary",
+   "fixed": "vary in",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 45,
+   "ocr": "for The particular Af",
+   "fixed": "3. The particular Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 46,
+   "ocr": "is",
+   "fixed": "for",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 47,
+   "ocr": "4.",
+   "fixed": "is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 48,
+   "ocr": "",
+   "fixed": "4.",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 5,
+   "line": 51,
+   "ocr": "—t",
+   "fixed": "−t",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 5,
+   "line": 52,
+   "ocr": "2lo",
+   "fixed": "2l_{0}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 53,
+   "ocr": "Af variations, where Ip",
+   "fixed": "Δβ variations, where l_{0}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 55,
+   "ocr": "AG",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 57,
+   "ocr": "Af",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 63,
+   "ocr": "AB.",
+   "fixed": "Δβ.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 64,
+   "ocr": "AB",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 66,
+   "ocr": "Af",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 66,
+   "ocr": "AB",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 68,
+   "ocr": "7",
+   "fixed": "η",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 4,
+   "ocr": "n=(P3/P1) 1] To increase 7",
+   "fixed": "η=(P_{3}/P_{1}) (4) To increase η",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 6,
+   "line": 6,
+   "ocr": "AB",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 9,
+   "ocr": "AB.",
+   "fixed": "Δβ.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 9,
+   "ocr": "AB",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 14,
+   "ocr": "Af.",
+   "fixed": "Δβ.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 18,
+   "ocr": "1;",
+   "fixed": "l_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 23,
+   "ocr": "lz,",
+   "fixed": "l_{2},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 28,
+   "ocr": "Iz",
+   "fixed": "l_{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 32,
+   "ocr": "AG",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 34,
+   "ocr": "AG",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 35,
+   "ocr": "Tespect",
+   "fixed": "respect",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 37,
+   "ocr": "AB",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 39,
+   "ocr": "AS",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 41,
+   "ocr": "‘match",
+   "fixed": "match",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 6,
+   "line": 44,
+   "ocr": "- the AB",
+   "fixed": "the Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 46,
+   "ocr": "AB",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 1,
+   "ocr": "63-2 63-N",
+   "fixed": "62-1, 62-2 .",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 2,
+   "ocr": "finger",
+   "fixed": "63-2",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 2,
+   "ocr": "the are direction",
+   "fixed": "63-N are",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 2,
+   "ocr": "lo, of each given along",
+   "fixed": "l_{0}, of each finger along the direction",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 7,
+   "line": 4,
+   "ocr": "The by transmission equation (3). at its",
+   "fixed": "given by equation (3). The transmission",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 7,
+   "line": 6,
+   "ocr": "terminated its input other",
+   "fixed": "at its input",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 7,
+   "ocr": "its characteristic at",
+   "fixed": "terminated at its other",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 8,
+   "ocr": "In impedance. tion,",
+   "fixed": "its characteristic impedance. In",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 9,
+   "ocr": "polarizatwo",
+   "fixed": "polarization,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 11,
+   "ocr": "For",
+   "fixed": "two",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 12,
+   "ocr": "the modes",
+   "fixed": "For",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 12,
+   "ocr": "is",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 7,
+   "line": 13,
+   "ocr": "interval L where",
+   "fixed": "the modes is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 13,
+   "ocr": "AB over the ABrrar3E,; AB ryar33E;z; (5) . 113 and 133",
+   "fixed": "Δβ over the interval L where Δβ_{TE}αr_{13}E_{z}; Δβ_{TM}αr_{33}E_{z}; (5) r_{13} and r_{33}",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 7,
+   "line": 20,
+   "ocr": "E,",
+   "fixed": "E_{z}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 36,
+   "ocr": "TE=:TM",
+   "fixed": "TE⇄TM",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 7,
+   "line": 48,
+   "ocr": "A,",
+   "fixed": "Λ,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 51,
+   "ocr": "+ (Nre — Nruj = + (6) where Agis",
+   "fixed": "(1/λ_{o})[N_{TE} − N_{TM}] = 1/Λ (6) where λ_{0} is",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 7,
+   "line": 57,
+   "ocr": "Nreand Nrware",
+   "fixed": "N_{TE} and N_{TM} are",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 64,
+   "ocr": "A",
+   "fixed": "Λ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 7,
+   "ocr": "lo,",
+   "fixed": "l_{0},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 10,
+   "ocr": "sure,",
+   "fixed": "measure,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 10,
+   "ocr": "mea- first interval, 1,",
+   "fixed": "first interval, l_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 12,
+   "ocr": "",
+   "fixed": "in",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 8,
+   "line": 12,
+   "ocr": "this, the in",
+   "fixed": "prevent this, the equivalent",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 13,
+   "ocr": "prevent",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 8,
+   "line": 13,
+   "ocr": "equivalent lating",
+   "fixed": "of the modulating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 14,
+   "ocr": "of the moduintroduced at the intervals",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 8,
+   "line": 16,
+   "ocr": "trodes.",
+   "fixed": "introduced at the appropriate intervals along the electrodes.",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 8,
+   "line": 16,
+   "ocr": "appropriate along the elecmatched of embodiment, the phase(j27z/A). component To",
+   "fixed": "embodiment, the phase-matched component of",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 8,
+   "line": 18,
+   "ocr": "koexp the electric",
+   "fixed": "k_{0} exp (j2πz/Λ). To",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 20,
+   "ocr": "coefficient",
+   "fixed": "the electric",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 21,
+   "ocr": "tional",
+   "fixed": "coefficient",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 21,
+   "ocr": "addieach space of the",
+   "fixed": "additional space",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 22,
+   "ocr": "A/2, following intervals ly, l2....",
+   "fixed": "Λ/2, following each of the intervals l_{1}, l_{2} . . . .",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 8,
+   "line": 28,
+   "ocr": "(7) koexp [2#-(« + +)] = —keexp [: 22 1",
+   "fixed": "k_{o}exp[j(2π/Λ)(z + Λ/2)] = −k_{o}exp[j2πz/Λ], (7)",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 8,
+   "line": 33,
+   "ocr": "A",
+   "fixed": "Λ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 34,
+   "ocr": "lp.",
+   "fixed": "l_{0}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 35,
+   "ocr": "11, 12 and 1;",
+   "fixed": "l_{1}, l_{2} and l_{3}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 37,
+   "ocr": "Ig",
+   "fixed": "l_{0}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 38,
+   "ocr": "A.",
+   "fixed": "Λ.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 39,
+   "ocr": "lp",
+   "fixed": "l_{0}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 41,
+   "ocr": "Arp",
+   "fixed": "λ_{rf}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 43,
+   "ocr": "1), 12...",
+   "fixed": "l_{1}, l_{2} . . .",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 8,
+   "line": 49,
+   "ocr": "‘obtained",
+   "fixed": "obtained",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 8,
+   "line": 51,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 8,
+   "line": 53,
+   "ocr": "E(z1)=Eo sin (kz~—wt—o) (8) where Eo",
+   "fixed": "E(z,t)=E_{0} sin (kz−ωt−φ) (8) where E_{0}",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 8,
+   "line": 59,
+   "ocr": "lang k= My",
+   "fixed": "k = 2πn_{rf}/λ_{rf}.",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 8,
+   "line": 65,
+   "ocr": "Vie= Ap Tg",
+   "fixed": "V_{rf} = λ_{rf}/Tn_{rf}",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 9,
+   "line": 1,
+   "ocr": "-continued o = lnfy we obtain sin (9) E(z.) = Eg ret “He —t+®d )",
+   "fixed": "ω = 2πf_{rf} we obtain E(z,t) = E_{o} sin 2πf_{rf}(z/V_{rf} − t + φ′) (9)",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 9,
+   "line": 10,
+   "ocr": "to",
+   "fixed": "t_{0}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 11,
+   "ocr": "",
+   "fixed": "a point",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 9,
+   "line": 11,
+   "ocr": "time a point a",
+   "fixed": "a time",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 13,
+   "ocr": "z= Vo(t—to)",
+   "fixed": "z=V_{0}(t−t_{0})",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 19,
+   "ocr": "(1) E(zte) = Ep sin ] 1 antl 2 ( Ve — Vo ) — t+ 0 |",
+   "fixed": "E(z,t_{o}) = E_{o} sin 2πf_{rf}[z(1/V_{rf} − 1/V_{o}) − t_{o} + φ_{o}′] (11)",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 9,
+   "line": 23,
+   "ocr": "E(z,to),",
+   "fixed": "E(z,t_{0}),",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 24,
+   "ocr": "to,",
+   "fixed": "t_{0},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 25,
+   "ocr": "",
+   "fixed": "as",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 9,
+   "line": 26,
+   "ocr": "as",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 9,
+   "line": 27,
+   "ocr": "",
+   "fixed": "a measure",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 9,
+   "line": 28,
+   "ocr": "For a measure the",
+   "fixed": "photons. For the photons not",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 9,
+   "line": 29,
+   "ocr": "photons. of the photons not sign",
+   "fixed": "sign of the",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 9,
+   "line": 31,
+   "ocr": "does",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 9,
+   "line": 31,
+   "ocr": "E(z,to)",
+   "fixed": "E(z,t_{0}) does",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 33,
+   "ocr": "to=0,",
+   "fixed": "t_{0}=0,",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 35,
+   "ocr": "(12) E(0) = Vosin anh He a E(,o)",
+   "fixed": "E(z,0) = V_{o} sin 2πf_{rf}(1/V_{rf} − 1/V_{o}) (12) E(z,o)",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 9,
+   "line": 41,
+   "ocr": "(13) ont Hp - 7 ) zan or (14) zs—tft_ -1 ~ off Vif Vo Noting that Ve _ — Oe ff mg’ obtain we hp ~1 (15) z=h= nef 1- To Vt",
+   "fixed": "2πf_{rf}(1/V_{rf} − 1/V_{o}) z ≦ π (13) or z ≦ (1/2f_{rf})(1/V_{rf} − 1/V_{o})^{−1} (14) Noting that V_{rf}/f_{rf} = λ_{rf}/n_{rf}, we obtain z = l_{o} = (λ_{rf}/2n_{rf})[1 − V_{rf}/V_{o}]^{−1} (15)",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 9,
+   "line": 65,
+   "ocr": "1,",
+   "fixed": "l,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 65,
+   "ocr": "AB",
+   "fixed": "Δβ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 68,
+   "ocr": "A,4, corresponding to lp,",
+   "fixed": "λ_{rf}, corresponding to l_{0},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 2,
+   "ocr": "lp.",
+   "fixed": "l_{0}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 4,
+   "ocr": "~walk-off",
+   "fixed": "walk-off",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 10,
+   "line": 5,
+   "ocr": "Ip",
+   "fixed": "l_{0}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 7,
+   "ocr": "f,y,",
+   "fixed": "f_{rf},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 11,
+   "ocr": "L=/o(1+ 1),",
+   "fixed": "L=l_{0}(n+1),",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 14,
+   "ocr": "16) Edlo = } {cos(2mfte",
+   "fixed": "(E_{o}l_{o}/α){cos (n + 1)α − cos nα/cos α}{cos(2πft_{o}",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 10,
+   "line": 17,
+   "ocr": "1)a)}.",
+   "fixed": "1)α)}. (16)",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 10,
+   "line": 19,
+   "ocr": "(ie., L=/o(n+ 1),",
+   "fixed": "(i.e., L=l_{0}(n+1),",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 23,
+   "ocr": "(17) ant SAS } _ sin(n + Iya {sin(2mfig — (n + 1)a)}; where a=7f,7/2fo; and fo",
+   "fixed": "(E_{o}l_{o}/α){sin nα/cos α − sin(n + 1)α}{sin(2πft_{o} − (n + 1)α)}; (17) where α=πf_{rf}/2f_{0}; and f_{0}",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 10,
+   "line": 33,
+   "ocr": "fy, a",
+   "fixed": "f_{rf}; a time-varying",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 34,
+   "ocr": "time-varying and",
+   "fixed": "signal; and a phase",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 35,
+   "ocr": "signal; a phase f,/fo.",
+   "fixed": "frequency, f_{rf}/f_{0}.",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 36,
+   "ocr": "frequency, f,r=fo,",
+   "fixed": "t_{0}=(1/4f_{0}), and f_{rf}=f_{0},",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 37,
+   "ocr": "to=(1/4fo), and value of is",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 10,
+   "line": 39,
+   "ocr": "FIG. 11 shows the AB",
+   "fixed": "value of Δβ is",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 10,
+   "line": 40,
+   "ocr": "function",
+   "fixed": "FIG. 11 shows the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 41,
+   "ocr": "",
+   "fixed": "function",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 10,
+   "line": 41,
+   "ocr": "freAlso quency, f,7/fo,",
+   "fixed": "frequency, f_{rf}/f_{0},",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 43,
+   "ocr": "",
+   "fixed": "Also",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 10,
+   "line": 43,
+   "ocr": "2lg _",
+   "fixed": "2l_{0}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 48,
+   "ocr": "fo.",
+   "fixed": "f_{0}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 49,
+   "ocr": "f,-=fo.",
+   "fixed": "f_{rf}=f_{0}.",
+   "basis": "scan"
+  },
+  {
+   "col": 11,
+   "line": 5,
+   "ocr": "lo.",
+   "fixed": "l_{0}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 6,
+   "ocr": "Ip.",
+   "fixed": "l_{0}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 7,
+   "ocr": "lo,",
+   "fixed": "l_{0},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 10,
+   "ocr": "lo,",
+   "fixed": "l_{0},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 16,
+   "ocr": "1,",
+   "fixed": "1.",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 11,
+   "line": 29,
+   "ocr": "lo, given by where A, Vi, nef",
+   "fixed": "l_{0}, given by l_{o} = (λ_{rf}/2n_{rf})(1 − V_{rf}/V_{o})^{−1}, where λ_{rf}, V_{rf}, n_{rf}",
+   "basis": "scan (equation transcribed)"
+  },
+  {
+   "col": 11,
+   "line": 38,
+   "ocr": "Vo",
+   "fixed": "V_{0}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 6,
+   "ocr": "lo",
+   "fixed": "l_{0}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 13,
+   "ocr": "",
+   "fixed": "waveguides",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 12,
+   "line": 13,
+   "ocr": "waveguides said guides, wave6.",
+   "fixed": "said waveguides. 6.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 16,
+   "ocr": "said electrical",
+   "fixed": "",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 12,
+   "line": 17,
+   "ocr": "ity of metallic waveguiding electrodes",
+   "fixed": "said electrical waveguiding",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 12,
+   "line": 17,
+   "ocr": "pluraltrode and of",
+   "fixed": "plurality of metallic electrodes",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 18,
+   "ocr": "electransmission a pair",
+   "fixed": "electrode and a pair of",
+   "basis": "scan + Google Patents (OCR word order scrambled across lines)"
+  },
+  {
+   "col": 12,
+   "line": 20,
+   "ocr": "said",
+   "fixed": "transmission",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 22,
+   "ocr": "",
+   "fixed": "said",
+   "basis": "scan (OCR misplaced words across lines; restored printed order)"
+  },
+  {
+   "col": 12,
+   "line": 33,
+   "ocr": "‘",
+   "fixed": "",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 12,
+   "line": 38,
+   "ocr": "TE22TM",
+   "fixed": "TE⇄TM",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 44,
+   "ocr": "finger.",
+   "fixed": "finger",
+   "basis": "scan (punctuation, symbol or speck)"
+  },
+  {
+   "col": 12,
+   "line": 46,
+   "ocr": "A; —",
+   "fixed": "Λ;",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 49,
+   "ocr": "A/2.",
+   "fixed": "Λ/2.",
+   "basis": "scan + Google Patents"
+  }
+ ]
+}

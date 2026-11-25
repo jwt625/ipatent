@@ -1,0 +1,26 @@
+{"pn": "3149290", "figures": [
+{"id": "1", "label": "FIG. 1", "sheet": 1, "page": 0, "crop": [460, 580, 1610, 1290], "rotate": 0, "front_page": false},
+{"id": "2", "label": "FIG. 2", "sheet": 1, "page": 0, "crop": [350, 1430, 1730, 1935], "rotate": 0, "front_page": false},
+{"id": "3", "label": "FIG. 3", "sheet": 1, "page": 0, "crop": [585, 2025, 1490, 2660], "rotate": 0, "front_page": false}
+], "parts": [
+{"ref": "10", "name": "maser", "figs": ["1"]},
+{"ref": "11", "name": "cylindrical cavity", "figs": ["1"], "alt": ["resonant cavity", "microwave cavity"]},
+{"ref": "12", "name": "elongated cylindrical envelope", "figs": ["1"]},
+{"ref": "13", "name": "reflective members", "figs": ["1"], "alt": ["elements"]},
+{"ref": "14", "name": "reflective members", "figs": ["1"], "alt": ["element", "partially transmitting element"]},
+{"ref": "15", "name": "source of microwave pulses", "figs": ["1"]},
+{"ref": "20", "name": "envelope", "figs": ["2"]},
+{"ref": "21", "name": "electrodes", "figs": ["2"], "alt": ["electrode", "wire"]},
+{"ref": "22", "name": "electrodes", "figs": ["2"], "alt": ["electrode", "plate"]},
+{"ref": "24", "name": "voltage source", "figs": ["2"]},
+{"ref": "25", "name": "current limiting resistor", "figs": ["2"]},
+{"ref": "26", "name": "reflective elements", "figs": ["2"]},
+{"ref": "27", "name": "reflective elements", "figs": ["2"]},
+{"ref": "E_{0}", "name": "ground state", "figs": ["3"]},
+{"ref": "E_{1}", "name": "energy level", "figs": ["3"], "alt": ["energy state"]},
+{"ref": "E_{2}", "name": "higher energy levels", "figs": ["3"]},
+{"ref": "E_{3}", "name": "higher energy levels", "figs": ["3"]},
+{"ref": "E_{0}'", "name": "ground state", "figs": ["3"]},
+{"ref": "E_{1}'", "name": "level", "figs": ["3"]},
+{"ref": "E_{2}'", "name": "state", "figs": ["3"], "alt": ["level"]}
+]}

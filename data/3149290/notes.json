@@ -1,0 +1,34 @@
+{
+  "patent": "Filed 1960-12-28 and issued 1964-09-15 to William R. Bennett, Jr. and Ali Javan, assigned to Bell Telephone Laboratories. Javan, Bennett and Donald R. Herriott operated the first helium-neon laser at Bell Laboratories in December 1960, the first gas laser and the first laser to run continuously, on near-infrared lines around 1.15 um (Javan, Bennett and Herriott, Physical Review Letters, 1961). The excitation scheme, in which metastable atoms of one gas hand their energy to a matching level of a second gas by collision, follows Javan's earlier proposal (Javan, Physical Review Letters, 1959). This patent adds ways to keep energetic free electrons from undoing the population inversion: pulsing the ionizing radio-frequency field so the neon is pumped in the afterglow (FIG. 1), and separating the electrons from the lasing region with a static electric field (FIG. 2). The text also describes excitation by alpha particles from a radioactive coating, a helium-mercury recombination scheme, a pure-neon scheme, and a way to align plane mirrors by scanning them while watching the output. \"Optical maser\" was the Bell Laboratories name for what is now called a laser.",
+  "figs": {
+    "1": "Perspective view, not to scale. Glass envelope 12 runs coaxially through the larger cylinder, radio-frequency cavity 11, which is drawn open at its near end so its inner wall shows. At the left end a broken-away window in the envelope wall exposes mirror 13 inside; mirror 14 at the right end is drawn dashed, seen through the glass. Pulse source 15 feeds the cavity from above. The fine parallel lines on both cylinders are surface shading, not structure.",
+    "2": "Perspective view of the DC-excited tube. Wire electrode 21 (upper) and plate electrode 22 (lower) are dashed because they are inside envelope 20; a broken-away window at the left shows mirror 26 and the end of the plate. Two lead-ins pass through the left end cap to the external circuit: as drawn, the + side of battery 24 returns through resistor 25 to the upper lead-in and the - side to the lower one; the text prefers wire 21 as the positive electrode, near which the energetic electrons are held. Mirror 27 sits at the far end of the ionization space.",
+    "3": "Schematic level diagram on one vertical energy axis, not to scale: helium at left, neon at right, both drawn from a common ground line (E_{0} and E_{0}'). E_{1} is the metastable helium level; E_{2} and E_{3} decay to it. Neon level E_{2}' is drawn just below E_{1}, the near coincidence that lets collisions transfer excitation; the laser transition is E_{2}' to E_{1}'. The text names E_{1} as helium 2^{3}S_{1}, E_{2}' as neon 2s_{5} and E_{1}' as 2p_{9} (Paschen notation); the strongest line reported in the 1961 paper, at 1.1523 um, is 2s_{2} to 2p_{4}."
+  },
+  "parts": {
+    "10": "Underlined numeral: designates the whole device of FIG. 1, not a single element.",
+    "14": "The output mirror: the text has it transmit about one to five percent at the laser wavelength, through a thinner coating or an opening in the coating.",
+    "15": "Labelled PULSE SOURCE in the drawing; the text calls it a source of microwave pulses, of the order of a hundred watts.",
+    "21": "Six inches long and thirty mils in diameter in the text's example, about one inch from plate 22.",
+    "22": "Six inches long and two inches wide in the text's example; maser action takes place in the electron-poor region next to it.",
+    "E_{2}'": "The upper laser level, populated selectively by collisions with helium atoms in metastable level E_{1}."
+  },
+  "glossary": [
+    {"term": "optical maser", "def": "Contemporary name, used by Bell Laboratories, for the laser: a maser (microwave amplification by stimulated emission of radiation) working at optical wavelengths."},
+    {"term": "negative temperature", "def": "Population inversion: more atoms in the upper of two levels than in the lower, so stimulated emission outweighs absorption. A Boltzmann distribution with this ratio would need a negative temperature."},
+    {"term": "metastable", "def": "An excited state with no allowed radiative decay to lower levels, so it lives far longer than ordinary excited states and can store energy."},
+    {"term": "collision of the second kind", "def": "An inelastic collision in which an excited atom gives its excitation energy to another atom instead of radiating it; efficient only when the two energies nearly match."},
+    {"term": "Paschen notation", "def": "An older labelling of neon's excited configurations (1s, 2s, 2p ... groups, numbered within each group) still common in laser literature."},
+    {"term": "2^{3}S_{1}", "def": "Russell-Saunders (LS) term symbol for the lowest triplet state of helium, about 19.8 eV above the ground state; it is metastable."},
+    {"term": "afterglow", "def": "The interval after a discharge pulse ends, when the free electrons have cooled but long-lived metastable atoms remain."},
+    {"term": "Fabry-Perot", "def": "A resonator formed by two parallel reflecting surfaces; standing waves build up between them only at wavelengths that fit the spacing."},
+    {"term": "confocal", "def": "A mirror pair whose spacing equals their common radius of curvature, so their focal points coincide; much less sensitive to tilt than plane mirrors."},
+    {"term": "TM_{01} mode", "def": "The lowest transverse-magnetic mode of a cylindrical cavity, with the electric field along the axis, here along the gas tube."},
+    {"term": "megacycles", "def": "Megahertz."},
+    {"term": "millimeters of mercury", "def": "Pressure unit, now torr: about 133 Pa. A micron of mercury is one thousandth of that (one millitorr)."},
+    {"term": "dielectric mirror", "def": "A stack of thin transparent layers of alternating refractive index whose reflections add in phase at one design wavelength, giving high reflectivity there and transmission elsewhere."},
+    {"term": "autocollimating telescope", "def": "An autocollimator: a telescope that projects a reticle onto a mirror and views its reflection, measuring the mirror's tilt."},
+    {"term": "magnetostrictive transducer", "def": "An actuator made of a material that changes length in a magnetic field, used here to rock the mirrors slowly."},
+    {"term": "mil", "def": "One thousandth of an inch, 25.4 micrometres."}
+  ]
+}

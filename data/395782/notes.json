@@ -1,0 +1,71 @@
+{
+  "patent": "Issued 1889-01-08 to Herman Hollerith of New York, on an application filed 1885-10-27 as a division of his application of 1884-09-23 (Serial No. 143,805). The two claims cover a method, not a machine: fix a template of positions, record each person as index-points (here, holes in non-conducting paper) at those positions, and count the records by passing them over electrical contacts that drive electromagnetic counters, singly or, through relays, in combinations such as the age-and-sex tally. The apparatus drawn (punch, verifying scale, drum reader, counters and wiring) is stated to belong to the parent application and to serve only as illustration. The drawings use a continuous paper strip; the text names perforated cards as an alternative, and it was with punched cards that Hollerith's electric tabulating system counted the 1890 United States census. Hollerith had worked on the 1880 (tenth) census, whose tallies the text cites. Issued the same day as his US 395,781 and US 395,783 (Apparatus for compiling statistics). His Tabulating Machine Company (1896) was merged into the Computing-Tabulating-Recording Company in 1911, renamed International Business Machines in 1924. Biography: G. D. Austrian, Herman Hollerith: Forgotten Giant of Information Processing, Columbia University Press, 1982.",
+  "figs": {
+    "1": "Cross-section of the punch. Paper strip P comes off the full roll on roller C (left), passes between guide-plate b' and die-plate a', and winds onto roller C' (right). The vertical slot through both hatched plates is one punching hole drawn in section; the punch of Fig. 3 goes through it.",
+    "2": "Plan of the punch. Guide-plate b', held by two screws, has a staggered double row of holes: Person, Native, White, Male and the tens of age in the left column; Foreign, Colored, Female and the units of age in the right. Only tens 0-4 and units 0-3 are drawn before the break. On the punched strip at the right, columns 2 and 1 are the two records described in the text, each hole level with its row on the plate; record 1, punched first, has moved further toward C'. Below the break is the far end of the plate with its second Person hole.",
+    "3": "Hand punch: a mushroom handle (lettered a^{2}) on a stem ending in the plain punch (a^{3}).",
+    "4": "Verifying scale, lettered like guide-plate b'. Semicircular notches along its centre slit expose each hole position of one record; black discs are punched holes. The record shown reads Native, White, Female, tens 3, units 0, that is person 2 of Fig. 2. The piece below the break is the other end of the scale, set by the Person hole at that edge.",
+    "5": "Section through the counting machine. Strip P runs from roller C under guide-roller B, over the hatched drum A, under guide-roller B' and onto roller C'. Bar D above the drum carries the insulated pointers p, which press on the paper and reach the drum only through a hole; brush d bears on the drum from below. The eyes d' around the end pins (e' at the left) carry bar D.",
+    "6": "Plan of bar D over the drum, the middle of the machine cut away. The dots are the ends of pointers p, in the staggered layout of the die-plate; at each end of the bar are the two pointers g that guard the Person hole (compare Fig. 11). The bar is carried on the end pins at d'; pin e at the right is screw-threaded, and wheel E turns it to move D sideways.",
+    "7": "Counter M^{2}, a box with five number dials of the kind used on steam-engine revolution counters, beside electromagnet m. m' marks the piece over the magnet that joins the counter's lever.",
+    "8": "Wiring for a two-hole code with one hole from each set (age). Vertical wires 0' to 3' come from the tens pointers, horizontal wires 0 to 3 from the units pointers. Each circle is a counter magnet joining one vertical to one horizontal wire, numbered tens then units; it closes only when both of its holes are under their pointers. The small jogs mark wires crossing without contact. Small m in some circles marks them as magnets.",
+    "9": "Wiring for a two-hole code with both holes from one set (occupation), drawn for five pointers a to e. Each of the ten magnets, ab to de, is wired across its two lettered wires; jogs mark crossings without contact.",
+    "10": "Age-and-sex tally. From the battery the current branches through relay contacts r: W then N or For., then M or F, gives the four white rows; C then M or F gives the two colored rows (labelled at the right). Each row feeds five counter magnets, one per age column, and each column returns to the battery through the contact r of its age relay 00 to 04. A counter operates only when its row and its column are both closed; magnets NWM 2 and CF 3 are the two cases worked in the text.",
+    "11": "Side view of one end of the drum. Strip P lies on drum A with the pointers p resting on it; the two pointers g flank the Person pointer, each wired to its own bell S (gong over an electromagnet). The bells share one battery. The counter wires from the other pointers are drawn cut short.",
+    "12": "Part of the Fig. 10 circuit with relays drawn as electromagnets, each an armature lever over a coil. The rows through counter magnets m pass the contacts of relays M and F, which join at relay C; age relay 00 closes the column. Relay x in the battery lead is the one the text proposes to work from the Person hole, so that no counter can close until the record is under its pointers."
+  },
+  "parts": {
+    "a": "The text names the die-plate both a and a'; the drawing letters it a' (Fig. 1). In Fig. 9, a is the wire from pointer a.",
+    "b": "The text names the guide-plate both b and b'; the drawings letter it b'. In Fig. 9, b is the wire from pointer b.",
+    "C": "Supply roller in Figs. 1, 2 and 5; in Figs. 10 and 12 the relay for colored.",
+    "1": "In Fig. 2, the record of a foreign-born white male aged three; in Fig. 8, the units wire 1.",
+    "2": "In Fig. 2, the record of a native white female aged thirty; in Fig. 8, the units wire 2.",
+    "d": "In Fig. 5 the brush on the drum; in Fig. 9 the wire from pointer d.",
+    "e": "In Fig. 6 the screw-threaded pin turned by wheel E; in Fig. 9 the wire from pointer e.",
+    "d'": "Not lettered in the text; drawn as eyes around the end pins, where the text places the lugs that carry bar D.",
+    "e'": "Not lettered in the text; marks the pin at the left end of bar D in Fig. 5.",
+    "P": "Not lettered in the text; marks the paper strip.",
+    "a^{2}": "Not lettered in the text; the handle of the punch.",
+    "a^{3}": "Not lettered in the text; the punch itself.",
+    "m'": "Not lettered in the text; the part over magnet m, where the text places the armature that works the counter lever.",
+    "M^{2}": "The text calls for any suitable mechanical counter, such as a steam-engine revolution counter.",
+    "x": "In Fig. 10 the letter marks a point in the battery lead; Fig. 12 draws a relay there.",
+    "NWM": "Row of counters for native white males; likewise NWF (native white females), For.WM and For.WF (foreign white males and females), CM and CF (colored males and females), the six classes of the tenth-census tally.",
+    "NWM 2": "Counter for native white males aged two.",
+    "CF 3": "Counter for colored females aged three."
+  },
+  "glossary": [
+    {
+      "term": "templet",
+      "def": "Old spelling of template: the fixed layout of hole positions that every record follows."
+    },
+    {
+      "term": "index-points",
+      "def": "The marks on a record (here punched holes) whose positions encode the items."
+    },
+    {
+      "term": "tally",
+      "def": "A count of persons by one item or by a combination of items, e.g. the age-and-sex tally."
+    },
+    {
+      "term": "tenth census",
+      "def": "The United States census of 1880."
+    },
+    {
+      "term": "relay",
+      "def": "An electromagnet whose armature opens or closes a second circuit; here it lets one hole switch a branch of the counter wiring."
+    },
+    {
+      "term": "electro-magnet",
+      "def": "A coil around an iron core; each counter is advanced by the attraction of its armature."
+    },
+    {
+      "term": "die-plate / guide-plate",
+      "def": "The lower and upper plates of the punch, with matching holes, between which the paper passes."
+    },
+    {
+      "term": "&c.",
+      "def": "Et cetera."
+    }
+  ]
+}

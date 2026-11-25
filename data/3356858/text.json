@@ -1,0 +1,2543 @@
+{
+ "pn": "3356858",
+ "number": "3,356,858",
+ "title": "LOW STAND-BY POWER COMPLEMENTARY FIELD EFFECT CIRCUITRY",
+ "inventors": [
+  "Frank M. Wanlass"
+ ],
+ "assignee": "Fairchild Camera and Instrument Corporation, Syosset, N.Y., a corporation of Delaware",
+ "filed": "1963-06-18",
+ "issued": "1967-12-05",
+ "appl_no": "288,786",
+ "int_cl": null,
+ "us_cl": "307—88.5",
+ "refs_patents": [
+  {
+   "no": "3,135,926",
+   "date": "6/1964",
+   "name": "Bockemuehl",
+   "cl": "330—38"
+  },
+  {
+   "no": "3,201,574",
+   "date": "8/1965",
+   "name": "Szekely",
+   "cl": ""
+  },
+  {
+   "no": "3,213,299",
+   "date": "10/1965",
+   "name": "Rogers",
+   "cl": "307—88.5"
+  },
+  {
+   "no": "3,215,859",
+   "date": "11/1965",
+   "name": "Sorchych",
+   "cl": "307—88.5"
+  },
+  {
+   "no": "3,215,861",
+   "date": "11/1965",
+   "name": "Sekely",
+   "cl": "307—88.5"
+  },
+  {
+   "no": "3,222,610",
+   "date": "12/1965",
+   "name": "Evans et al.",
+   "cl": "330—38"
+  }
+ ],
+ "refs_other": [
+  "REC Tech. Notes, No. 654, November 1965."
+ ],
+ "examiners": "Primary Examiner--JAMES D. KALLAM; Examiner--JOHN W. HUCKERT; Assistant Examiner--R. SANDLER",
+ "claims_count": 3,
+ "drawing_figures": 14,
+ "abstract": "A combinatorial switching circuit using a pair of complementary insulated field-effect transistors, each having one of its source or drain electrodes connected to the source or drain electrode of the other; a signal of a single predetermined, single polarity voltage is applied to both gates of both devices to obtain the necessary switching operation.",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "col": 1,
+     "line": 21,
+     "text": "The present invention relates in general to transistor circuits, and more particularly to a circuit employing field-effect semiconductor devices."
+    },
+    {
+     "col": 1,
+     "line": 24,
+     "text": "Heretofore, logic networks or circuits required passive load elements, such as a resistor or some other passive load component. By employing a passive load element, such as a load resistor, in the logic circuit, power was dissipated during the stand-by period or during the time intervals in which no switching operation was occurring."
+    },
+    {
+     "col": 1,
+     "line": 30,
+     "text": "Accordingly, an object of the present invention is to provide circuits in which power losses are minimized."
+    },
+    {
+     "col": 1,
+     "line": 32,
+     "text": "Another object of the present invention is to provide logic circuits in which power dissipation is reduced during stand-by periods."
+    },
+    {
+     "col": 1,
+     "line": 35,
+     "text": "Another object of the present invention is to provide a transistor circuit employing field-effect semiconductor devices wherein a field-effect semiconductor device of one carrier type is used as the active load for the field-effect semiconductor device of the opposite carrier type."
+    },
+    {
+     "col": 1,
+     "line": 40,
+     "text": "Another object of the present invention is to provide a transistor circuit in which an inverter action is produced without employing any passive load element."
+    },
+    {
+     "col": 1,
+     "line": 43,
+     "text": "Another object of the present invention is to provide a transistor circuit in which a switching action is created at a faster rate while reducing the stand-by power normally consumed by the passive load resistance."
+    },
+    {
+     "col": 1,
+     "line": 47,
+     "text": "Another object of the present invention is to provide improved integrated microcircuits."
+    },
+    {
+     "col": 1,
+     "line": 49,
+     "text": "Another object of the present invention is to provide switching circuits wherein leakage current is reduced."
+    },
+    {
+     "col": 1,
+     "line": 51,
+     "text": "Another object of the present invention is to provide logic circuits adapted for improved fan out."
+    },
+    {
+     "col": 1,
+     "line": 53,
+     "text": "Another object of the present invention is to provide logic circuits with improved tolerance for high temperature differentials between different circuit elements."
+    },
+    {
+     "col": 1,
+     "line": 56,
+     "text": "Another object of the present invention is to provide integrated logic circuits adapted for efficient cooling with a reduced amount of heat exchange area."
+    },
+    {
+     "col": 1,
+     "line": 59,
+     "text": "Another object of the present invention is to provide micrologic circuits with a low stand-by power density and a high switching power density, whereby a high packing density is obtained."
+    },
+    {
+     "col": 1,
+     "line": 63,
+     "text": "Other and further objects and advantages of the present invention will be apparent to one skilled in the art from the following description taken in conjunction with the accompanying drawings, in which:"
+    },
+    {
+     "col": 2,
+     "line": 1,
+     "text": "FIG. 1 is an enlarged schematic perspective view of an N-type insulated gate field-effect semiconductor device employed in the present invention."
+    },
+    {
+     "col": 2,
+     "line": 4,
+     "text": "FIG. 1A is a vertical sectional view of the N-type insulated gate field-effect semiconductor device taken along line 1A—1A of FIG. 1."
+    },
+    {
+     "col": 2,
+     "line": 7,
+     "text": "FIG. 2 is an enlarged schematic perspective view of a P-type insulated gate field-effect semiconductor device employed in the present invention."
+    },
+    {
+     "col": 2,
+     "line": 10,
+     "text": "FIG. 2A is a vertical sectional view of the P-type insulated gate field-effect semiconductor device taken along line 2A—2A of FIG. 2."
+    },
+    {
+     "col": 2,
+     "line": 13,
+     "text": "FIG. 3 is a schematic circuit diagram of the N-type insulated gate field-effect semiconductor device shown in FIG. 1 with the biasing potential applied thereto."
+    },
+    {
+     "col": 2,
+     "line": 16,
+     "text": "FIG. 4 is a schematic circuit diagram of the P-type insulated gate field-effect semiconductor device shown in FIG. 2 with the biasing potential applied thereto."
+    },
+    {
+     "col": 2,
+     "line": 19,
+     "text": "FIG. 5 is a schematic diagram of an inverter circuit employing the insulated gate field-effect semiconductor devices illustrated in FIGS. 1 and 2."
+    },
+    {
+     "col": 2,
+     "line": 22,
+     "text": "FIGS. 5A and 5B are graphs illustrating input-output characteristics for the inverter circuit shown in FIG. 5."
+    },
+    {
+     "col": 2,
+     "line": 24,
+     "text": "FIG. 6 is a schematic diagram of a NAND logic circuit using the insulated gate field-effect semiconductor devices shown in FIGS. 1 and 2."
+    },
+    {
+     "col": 2,
+     "line": 27,
+     "text": "FIG. 7 is a schematic diagram of a NOR logic circuit employing the insulated gate field-effect semiconductor devices shown in FIGS. 1 and 2."
+    },
+    {
+     "col": 2,
+     "line": 30,
+     "text": "FIG. 8 is an enlarged schematic cross sectional view of the insulated field-effect semiconductor device shown in FIGS. 1 and 2 integrated into a single semiconductor chip or slice."
+    },
+    {
+     "col": 2,
+     "line": 34,
+     "text": "FIG. 9 is a graph illustrating the drain current as a function of the gate voltage for a typical device shown in FIGS. 1 and 1A."
+    },
+    {
+     "col": 2,
+     "line": 37,
+     "text": "FIG. 10 is a graph illustrating the drain current as a function of the gate voltage for a typical device shown in FIGS. 2 and 2A."
+    },
+    {
+     "col": 2,
+     "line": 40,
+     "text": "Illustrated in FIGS. 1 and 1A is an N-type external insulated gate field-effect semiconductor device 10 employed in the present invention, which comprises a substrate or body 11 of semiconductor material, such as silicon. The silicon body 11 is doped in a conventional manner with P-type impurities, such as aluminum, gallium, boron or indium. Also formed in the silicon body or wafer 11 are N-type diffused regions 12 and 13, which extend to an upper surface 14 of the P-type silicon wafer 11. The N-type diffused regions 12 and 13 are formed in a conventional manner by diffusing antimony, arsenic or phosphorus into the silicon body 11."
+    },
+    {
+     "col": 2,
+     "line": 52,
+     "text": "An insulated layer 22 preferably of silicon dioxide is thermally grown on the surface 14 of the silicon body 11 and is located in part between the drain contact 20 and the source contact 21. The drain contact 20 and the source contact 21 are formed by evaporation of a suitable metallic substance, such as aluminum; a metallic gate 25 of preferably aluminum is disposed in contact with the portion of the insulated layer 22 located between the drain contact 20 and the source contact 21, such that the metal overlaps the inside edges of diffused regions 12 and 13. Lead 20′ is attached to the drain contact 20 and a lead 25′ is attached to the gate 25. The source electrode 21 has a lead 21′ attached thereto and connected to the substrate 11."
+    },
+    {
+     "col": 2,
+     "line": 66,
+     "text": "In FIGS. 2 and 2A is illustrated a P-type externally insulated gate field-effect semiconductor device 30 which is also employed in the present invention. The P-type insulated field-effect semiconductor device 30 includes a body or wafer 31 made of suitable semiconductor material, such as silicon. The silicon body or substrate 31 is doped in a conventional manner with N-type impurities, such as antimony, arsenic or phosphorous. Also formed in the silicon body 31 are P-type diffused regions 32 and 33, which extend to an upper surface 35 of the N-type silicon wafer 31. The P-type diffused regions 32 and 33 are formed in a conventional manner by diffusing a P-type impurity, such as boron or indium into the silicon body 11. An insulated layer 40 preferably of silicon dioxide is thermally grown on the surface 35 of the silicon body 31 and is located in part between the drain contact 36 and the source contact 37. A suitable metallic substance, such as aluminum, is then evaporated or otherwise deposited to form the drain contact 36 and the source contact 37. A metal gate 41 of preferably aluminum is disposed in contact with the portion of the insulated layer 40 located between the drain contact 36 and the source contact 37, such that the metal overlaps the inside edges of the diffused regions 32 and 33. Lead 36′ is attached to the drain contact 36 and a lead 41′ is attached to the gate 41. The source electrode 21 has a lead 21′ attached thereto and connected to the substrate 31."
+    },
+    {
+     "col": 3,
+     "line": 26,
+     "text": "In practice, the external insulated gate field-effect semiconductor devices 10 and 30 are produced with relative facility and ease of operation. After the silicon substrate or wafer is prepared, it is oxidized by exposure to an oxygen-containing atmosphere at temperatures in the order of 1200 degrees centigrade. Thereupon, an array of holes is formed in the oxide by photolithographic techniques. Since the remaining oxide film acts as a barrier against the penetration of most donor and acceptor impurities, the contact areas can be diffused selectively into the holes which have been prepared in the oxide."
+    },
+    {
+     "col": 3,
+     "line": 37,
+     "text": "A second photoengraving operation is required to reopen the holes over the diffused regions for electrical contacts, since during the diffusion cycle, oxide is ordinarily regrown. The metal contacts for the source, gate and drain can be applied simultaneously by evaporating a metal film, usually aluminum, over the entire surface and removing the unwanted portions by a third photoengraving operation. The source is electrically connected to the substrate during the preparation of the device structure."
+    },
+    {
+     "col": 3,
+     "line": 47,
+     "text": "As shown in FIG. 3, the N-type external insulated gate field-effect semiconductor device 10, which is a majority carrier device by electron conduction, has a positive biasing potential Vds applied between the drain 20 and the source 21 with the drain 20 at a positive voltage and with the source 21 at ground. When current flows in the semiconductor device 10, it flows from the drain 20 to the source 21 through a path disposed therebetween adjacent the insulated layer 22 and parallel with the upper surface 14 of the silicon body 11. The path for the current Ids includes the N-diffused regions 12 and 13 with the portion of the P-type silicon body 11 therebetween. The flow of current Ids from the drain 20 to the source 21 is controlled by the potential applied to the gate 25 with respect to the source 21, which is at ground. In order for current Ids to flow or the device 10 to be rendered conductive, the applied potential Vgs between the gate 25 and the source 21 must be equal to or greater in magnitude than a critical positive potential Vgsc (see FIG. 9). When the voltage Vgs falls below the critical positive potential, no current will flow from the drain 20 to the source 21 and the device 10 is rendered non-conductive. The critical potential Vgsc required before the device 10 first starts to conduct can be regulated by varying the thickness of the insulated layer 22."
+    },
+    {
+     "col": 3,
+     "line": 72,
+     "text": "The P-type insulated gate field-effect semiconductor device 30 (FIG. 4), which is a majority carrier device by hole conduction, has a negative biasing potential V′ds applied between the drain 36 and the source 37 with the drain 36 at a negative voltage and with the source 37 at ground. When current flows in the semiconductor device 30, it flows from the source 37 to the drain 36 through a path disposed therebetween adjacent the insulated layer 40 and parallel with the upper surface 35 of the silicon body 31. The path or channel for the current I′ds includes the P-diffused regions 32 and 33 with the portion of the N-type silicon body 31 therebetween. The flow of current I′ds from the source 37 to the drain 36 is controlled by the potential applied to the gate 41 with respect to the source 37, which is at ground. In order for current I′ds to flow or the device 30 to be rendered conductive, the applied potential V′gs between the gate 41 and the source 37 must be equal to or more negative in magnitude than a critical negative potential Vgsc (see FIG. 10). When the voltage Vgs is less negative than the critical negative potential, no current will flow from the source 37 to the drain 36 and the device 31 is rendered non-conductive. The negative potential V′gsc required before the device 30 first starts to conduct can be regulated by varying the thickness of the insulated layer 40."
+    },
+    {
+     "col": 4,
+     "line": 22,
+     "text": "When an electric field is applied to the surface of an insulated field-effect semiconductor device, the mobile charge carriers within the semiconductor device are attracted to or repelled from the surface. In the event the field so applied is of adeqaute magnitude and of proper polarity, the resulting accumulation of carriers near the surface can result in the formation of an inversion layer or channel in which the majority carrier near the surface is of opposite type from that in the remainder of the semiconductor body."
+    },
+    {
+     "col": 4,
+     "line": 32,
+     "text": "By applying to the gate 25 of the N-type field-effect semiconductor device 10 (FIGS. 1, 1A and 3) a positive potential relative to the substrate 11 equal to or greater than the critical magnitude, an N-type inversion layer or channel now connects the N-diffused regions 12 and 13 for imparting a source-to-drain conductance thereto. In the complementary P-type field-effect semiconductor device 30 (FIGS. 2, 2A and 4), a negative potential is applied to the gate 41 of the critical magnitude to form a P-type inversion layer or channel between the P-diffused regions 32 and 33 to impart a drain-to-source conductance thereto. The transistor region between the inversion layer and the substrate functions like a P-N junction and remains reverse biased at all times. When the potential applied to a gate is less than the critical value, the impedance between the source and the drain is very high and corresponding to a reverse biased planar silicon diode."
+    },
+    {
+     "col": 4,
+     "line": 49,
+     "text": "The voltage applied to the drain of the field-effect semiconductor devices is of a polarity to reverse bias the diffused junction at the drain contact. Hence, a positive voltage is applied to the drain contact for diffused N-regions and a negative voltage is applied to the drain contact for diffused P-regions."
+    },
+    {
+     "col": 4,
+     "line": 55,
+     "text": "According to the present invention, an inverter circuit 50 (FIG. 5) employs the P-type insulated gate field-effect semiconductor device 30 and the complementary N-type insulated gate field-effect semiconductor device 10 to effect a switching operation without employing any passive components, such as a load resistor or some other passive load element. By connecting the sources 36 and 20 of the semiconductor devices 30 and 10, respectively, in common over conductors 51 and 52 and by connecting the gates 41 and 25 of the semiconductor devices 30 and 10, respectively, in common over conductors 53 and 54, the field-effect semiconductor device 30, a majority hole carrier device, is used as the active load for the field-effect semiconductor device 10, a majority electron carrier device. The converse is also true, since the field-effect semiconductor device 10, a majority electron carrier device, is used as the active load for the field-effect semiconductor device 30, a majority hole carrier device."
+    },
+    {
+     "col": 4,
+     "line": 73,
+     "text": "In the operation of the inverter circuit 50, an input signal Vi (FIGS. 5, 5A and 5B) is impressed on the gates 25 and 41 of the semiconductor devices 10 and 30, respectively, through conductors 53–55. An output signal Vo is taken from the drains 20 and 36 of the semiconductor devices 10 and 30, respectively, over conductors 56, 52 and 51."
+    },
+    {
+     "col": 5,
+     "line": 5,
+     "text": "When the input signal Vi which is impressed on the gates 25 and 41, is greater than the positive critical potential, the P-type field-effect semiconductor device 30 will not conduct and the N-type field-effect semiconductor device 10 will conduct making the output voltage Vo negative. See FIGS. 5A and 5B to show the output voltage Vo for a slowly charging input signal and for a rapidly rising pulse. When the input signal Vi, which is impressed on the gates 25 and 41, is more negative than the negative critical potential, the N-type field-effect semiconductor device 10 will not conduct and the P-type field-effect semiconductor device 30 will conduct making the output voltage Vo positive."
+    },
+    {
+     "col": 5,
+     "line": 18,
+     "text": "Accordingly, the circuit 50 produces a switching or inverting action without employing any passive load component, such as a load resistor. Further, it is to be observed from the inverter circuit 50 that only one of the semiconductor devices 10 and 30 will conduct if the input voltage Vi is above a predetermined positive value or below a predetermined negative value. Therefore, if the total supply voltage difference 2V is great enough so that when Vi goes from −V to +V, device 10 will turn on and device 30 will turn off, then power is dissipated only during the switching operation and not during any stand-by condition. Hence, a low-power system is achieved. In actual practice the power consumed during a stand-by operation is less than 10 nanowatts per node and, yet, the inverter circuit 50 can effect switching in less than 20 nanoseconds. Moreover, the conducting field-effect semiconductor device will be turned on to a low resistance state, while the the non-conducting field-effect semiconductor device is turned off to an extremely high resistance state, so that output circuit capacities can be rapidly charged during switching. From the foregoing, it is to be observed that the usual requirement of more stand-by power for rapid switching is avoided, since stand-by power is not dissipated in any passive load resistor or component."
+    },
+    {
+     "col": 5,
+     "line": 42,
+     "text": "In FIG. 6 is illustrated a NAND logic or gate circuit 60 employing the complementary N and P type insulated field-effect semiconductor devices 10 and 30. A plurality of P-type insulated field-effect semiconductor devices, such as 30a, 30b and 30c, are connected in parallel. Impressed on the source electrodes 37a, 37b and 37c of the semiconductor devices 30a–30c, respectively, is a biasing potential +V. The output of the logic circuit is taken at the drain electrodes 36a–36c of the semiconductor devices 30a–30c, respectively."
+    },
+    {
+     "col": 5,
+     "line": 52,
+     "text": "Connected in series with the parallel P-type insulated field-effect semiconductor devices 30a–30c are N-type insulated field-effect semiconductor devices 10a–10c. Applied to the source contact 21c of the semiconductor device 10c is a biasing potential −V. The P-type field-effect semiconductor device 30a and the N-type field effect semiconductor device 10a are complementary. Further, the P-type field-effect semiconductor device 30b and the N-type field-effect semiconductor device 10b are complementary. Similarly, the P-type field-effect semiconductor device 30c and the N-type field-effect semiconductor device 10c are complementary."
+    },
+    {
+     "col": 5,
+     "line": 64,
+     "text": "In the operation of the NAND logic circuit 60, an input signal of +V or −V is impressed on the gates 25a and 41a of the complementary semiconductor devices 10a and 30a. In a similar manner, an input signal B is fed to the gates 25b and 41b of the complementary semiconductor devices 10b and 30b. Likewise, an input signal C is transmitted to the gates of the complementary semiconductor devices 10c and 30c. The input signals A, B and C are transmitted simultaneously to the field-effect semiconductor devices in the manner above indicated."
+    },
+    {
+     "col": 5,
+     "line": 74,
+     "text": "Should all signals A, B and C be at +V so that their associated P-type field-effect semiconductor devices are not conductive and their associated N-type devices are conductive, then there will be a negative output voltage at Y. When the semiconductor devices 30a–30c conduct, the complementary semiconductor devices 10a–10c, respectively, provide a high impedance and the active load."
+    },
+    {
+     "col": 6,
+     "line": 6,
+     "text": "A NOR logic or gate circuit 70 is shown in FIG. 7, which employs the complementary N and P type insulated field-effect semiconductor devices 10 and 30. A plurality of N-type insulated field-effect semiconductor devices, such as 10d–10f, are connected in parallel. Impressed on the source electrodes 21d–21f of the semiconductor devices 10d–10f is a biasing potential −V. Connected in series with the semiconductor devices 10d–10f are parallel connected P-type insulated field-effect semiconductor devices 30d–30f. Applied to the source electrode 37f of the semiconductor device 30f is a biasing potential V′. The output of the logic circuit 70 is taken at Y′ at the drain electrodes 20d–20f of the semiconductor devices 10d–10f."
+    },
+    {
+     "col": 6,
+     "line": 20,
+     "text": "The N-type field-effect semiconductor device 10d and the P-type field-effect semiconductor device 30d are complementary. Likewise, the N-type field-effect semiconductor device 10e and the P-type field-effect semiconductor device 30e are complementary. Similarly, the N-type field-effect semiconductor device 10f and the P-type field-effect semiconductor device 30f are complementary."
+    },
+    {
+     "col": 6,
+     "line": 27,
+     "text": "In the operation of the NOR logic circuit 70, an input signal D is transmitted to the gates 25d and 41d of the complementary semiconductor devices 10d and 30d. Likewise, an input signal E is fed to the gates 25e and 41e of the complementary semiconductor devices 10e and 30e. In a similar manner, an input signal F is impressed on the gates 25f and 41f of the complementary semiconductor devices 10f and 30f."
+    },
+    {
+     "col": 6,
+     "line": 35,
+     "text": "If any one or more of the input signals D, E and F is equal to +V, then the associated P-type field-effect semiconductor device or devices 30d–30f will not conduct and its or their complementary N-type field-effect semiconductor devices 10d–10f will conduct. As a result thereof, a negative potential will appear at the terminal Y′. The non-conducting field-effect semiconductor device or devices 10d–10f provide a high impedance and also provide the active load, respectively, for the complementary conducting field-effect semiconductor devices 30d–30f. Hence, if any one or more of the P-type semiconductor devices 30d–30f conducts, a positive output signal is produced at terminal Y′."
+    },
+    {
+     "col": 6,
+     "line": 48,
+     "text": "Illustrated in FIG. 8 is a semiconductor unitary structure 80, which comprises a plurality of semiconductor devices, such as N-type external insulated gate field-effect semiconductor device 81 and a complementary P-type insulated gate field-effect semiconductor device 82, which are integrally formed on a single chip or slice 83."
+    },
+    {
+     "col": 6,
+     "line": 54,
+     "text": "In the preferred embodiment the chip or body 83 is of silicon and is doped in a conventional manner with N-type impurities, such as antimony, arsenic or phosphorous. For producing the P-type field-effect semiconductor device 82, P-type diffused regions 84 and 85 are formed in the N-type silicon body 83 and extend to an upper surface 86 of the silicon chip 83. The P-type diffused regions 84 and 85 are formed in a conventional manner by diffusing a P-type impurity such as aluminum, boron or indium into the silicon body 83."
+    },
+    {
+     "col": 6,
+     "line": 64,
+     "text": "For producing the N-type field-effect semiconductor device 81, the silicon body 83 is doped in a conventional manner with P-type impurities, such as aluminum, boron or indium to form a P-type region 90 within the N-type silicon body 83. Formed in the P-type region 90 are N-type diffused regions 91 and 92, which extend to the upper surface 86 of the silicon body 83."
+    },
+    {
+     "col": 6,
+     "line": 72,
+     "text": "The N-type diffused regions 91 and 92 are formed in a conventional manner by diffusing antimony, arsenic or phosphorous into the P-type region 90. An insulated layer 95 preferably of silicon dioxide is thermally grown on the surface 86 of the silicon body 83 and is located in part between associated drain and source contacts. The drain contacts 87 and 93, as well as the source contacts 88 and 94, are metallized with a suitable metallic substance, such as aluminum. Source contact 93 also serves as the metal interconnection between P-type region 90 and N-type region 92."
+    },
+    {
+     "col": 7,
+     "line": 8,
+     "text": "A metallic gate 96 of preferably aluminum for the P-type field-effect semiconductor device 82 is disposed in contact with the portion of the insulated layer 95 located between the drain 87 and the gate 88. Similarly, a metallic gate 97 of preferably aluminum for the N-type field-effect semiconductor device 81 is disposed in contact with the portions of the insulated layer 95 located between the drain 93 and the source 94."
+    },
+    {
+     "col": 7,
+     "line": 16,
+     "text": "The P-type insulated gate field-effect semiconductor device 82 operates and functions in the manner previously described in detail for the P-type insulated gate field-effect semiconductor device 30. Likewise, the N-type external insulated gate field-effect semiconductor device 81 operates and functions in the manner previously described in detail for the N-type external insulated gate field-effect semiconductor device 10."
+    },
+    {
+     "col": 7,
+     "line": 24,
+     "text": "A lead 87a is attached to the source electrode 87 of the semiconductor device 82 and is connected to a source of electrical energy. Through this arrangement, a +V biasing potential is applied to the source electrode 87. In a like manner, a lead 93a is connected to the source electrode 93 of the semiconductor device 81 and is connected to the source of electrical energy. Through this arrangement, a −V biasing potential is impressed on the drain electrode 93. It is to be noted that all junctions will be either at zero bias or at reverse bias, but it will never be at forward bias. The gates 96 and 97 of the semiconductor devices 82 and 81, respectively, are connected in common over a conductor 100. Fed to the conductor 100 is an input signal Vi. A common conducting strip 101 is attached to the source electrodes 88 and 94 of the semiconducting devices 82 and 81, respectively. A lead 102 is connected to the conducting strip 101 for transmitting the output signal therefrom."
+    },
+    {
+     "col": 7,
+     "line": 42,
+     "text": "From the foregoing, it is observed that an inverter circuit 81a is formed from the semiconductor unitary structure 80. The operation of the inverter or switching circuit 81a will now be described. When the input signal Vi, which is impressed on the gates 96 and 97, is equal to or greater than the positive critical potential, the P-type field-effect semiconductor device 82 will not conduct and the N-type field-effect semiconductor device 81 will conduct. The output voltage Vo is, therefore, negative."
+    },
+    {
+     "col": 7,
+     "line": 51,
+     "text": "When the input signal Vi, which is impressed on the gates 96 and 97, is equal to or more negative than the critical potential, the N-type field-effect semiconductor device 81 will not conduct and the P-type field-effect semiconductor device 82 will conduct. The output voltage Vo is positive."
+    },
+    {
+     "col": 7,
+     "line": 57,
+     "text": "Therefore, the circuit 81a produces a switching or inverting action without employing any passive load component, such as a load resistor. Further, the field-effect semiconductor device 82, a majority hole carrier device, is employed as the active load for the field-effect semiconductor device 81, a majority electron carrier device. The converse is also true, since the field-effect semiconductor device 82, a majority electron carrier device, is used as the active load for the field-effect semiconductor device 81, a majority hole carrier device."
+    },
+    {
+     "col": 7,
+     "line": 67,
+     "text": "The complementary N and P type insulated gate field-effect semiconductor devices are employed by the circuits of the present invention to produce low stand-by power systems. Through the exclusive use of these devices, the high speed switching circuits of the present invention dissipate appreciable power only during the switching transient. The above-described circuits of the present invention are relatively unaffected in performance by ambient temperatures up to approximately 150 degrees centigrade, since they employ only majority carrier devices which are relatively temperature-independent. Systems employing the circuits of the present invention perform in spite of large temperature gradients within the system."
+    },
+    {
+     "col": 8,
+     "line": 5,
+     "text": "Because of the voltage-controlled nature of the active elements, there are no problems of unequal sharing by the next logic stage, at least at low speeds. Thus, the fan out capabilities are extremely favorable. Further, the circuits of the present invention offer large voltage swings and low dynamic impedance in both states. This is desirable for immunity against noise pulses."
+    },
+    {
+     "col": 8,
+     "line": 12,
+     "text": "It is to be understood that modifications and variations of the embodiments of the invention disclosed herein may be resorted to without departing from the spirit of the invention and the scope of the appended claims."
+    },
+    {
+     "col": 8,
+     "line": 16,
+     "text": "Having thus described my invention, what I claim and desire to protect by Letters Patent is:"
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 2,
+   "line": 1,
+   "text": "FIG. 1 is an enlarged schematic perspective view of an N-type insulated gate field-effect semiconductor device employed in the present invention."
+  },
+  {
+   "fig": "1A",
+   "col": 2,
+   "line": 4,
+   "text": "FIG. 1A is a vertical sectional view of the N-type insulated gate field-effect semiconductor device taken along line 1A—1A of FIG. 1."
+  },
+  {
+   "fig": "2",
+   "col": 2,
+   "line": 7,
+   "text": "FIG. 2 is an enlarged schematic perspective view of a P-type insulated gate field-effect semiconductor device employed in the present invention."
+  },
+  {
+   "fig": "2A",
+   "col": 2,
+   "line": 10,
+   "text": "FIG. 2A is a vertical sectional view of the P-type insulated gate field-effect semiconductor device taken along line 2A—2A of FIG. 2."
+  },
+  {
+   "fig": "3",
+   "col": 2,
+   "line": 13,
+   "text": "FIG. 3 is a schematic circuit diagram of the N-type insulated gate field-effect semiconductor device shown in FIG. 1 with the biasing potential applied thereto."
+  },
+  {
+   "fig": "4",
+   "col": 2,
+   "line": 16,
+   "text": "FIG. 4 is a schematic circuit diagram of the P-type insulated gate field-effect semiconductor device shown in FIG. 2 with the biasing potential applied thereto."
+  },
+  {
+   "fig": "5",
+   "col": 2,
+   "line": 19,
+   "text": "FIG. 5 is a schematic diagram of an inverter circuit employing the insulated gate field-effect semiconductor devices illustrated in FIGS. 1 and 2."
+  },
+  {
+   "fig": "5A",
+   "col": 2,
+   "line": 22,
+   "text": "FIGS. 5A and 5B are graphs illustrating input-output characteristics for the inverter circuit shown in FIG. 5."
+  },
+  {
+   "fig": "5B",
+   "col": 2,
+   "line": 22,
+   "text": "FIGS. 5A and 5B are graphs illustrating input-output characteristics for the inverter circuit shown in FIG. 5."
+  },
+  {
+   "fig": "6",
+   "col": 2,
+   "line": 24,
+   "text": "FIG. 6 is a schematic diagram of a NAND logic circuit using the insulated gate field-effect semiconductor devices shown in FIGS. 1 and 2."
+  },
+  {
+   "fig": "7",
+   "col": 2,
+   "line": 27,
+   "text": "FIG. 7 is a schematic diagram of a NOR logic circuit employing the insulated gate field-effect semiconductor devices shown in FIGS. 1 and 2."
+  },
+  {
+   "fig": "8",
+   "col": 2,
+   "line": 30,
+   "text": "FIG. 8 is an enlarged schematic cross sectional view of the insulated field-effect semiconductor device shown in FIGS. 1 and 2 integrated into a single semiconductor chip or slice."
+  },
+  {
+   "fig": "9",
+   "col": 2,
+   "line": 34,
+   "text": "FIG. 9 is a graph illustrating the drain current as a function of the gate voltage for a typical device shown in FIGS. 1 and 1A."
+  },
+  {
+   "fig": "10",
+   "col": 2,
+   "line": 37,
+   "text": "FIG. 10 is a graph illustrating the drain current as a function of the gate voltage for a typical device shown in FIGS. 2 and 2A."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 8,
+   "line": 18,
+   "depends": null,
+   "text": "1. A combinational switching circuit comprising a first semiconductor body of one conductivity type with a plurality of spaced diffused regions of a conductivity type opposite to said body and forming PN junctions therewith extending to a surface of said body, a first pair of source and drain electrodes on said body adjacent two of said diffused regions at said surface, a first insulating layer on said surface of said body between said drain and source electrodes, a first gate electrode adjacent said first insulating layer, a pair of spaced diffused regions of said one conductivity type formed within a third one of said plurality of spaced diffused regions and forming PN junctions with said third diffused region extending to said surface, a second pair of source and drain electrodes on said pair of spaced diffused regions, a second insulating layer on the surface of said third diffused region between said second pair of source and drain electrodes, a second gate electrode on said second insulating layer, means for applying biasing potentials of the same polarity to both of said gate electrodes."
+  },
+  {
+   "n": 2,
+   "col": 8,
+   "line": 37,
+   "depends": null,
+   "text": "2. A circuit comprising a first insulated gate field-effect transistor having a substrate of one conductivity type, an insulating layer adjacent said substrate, a metal layer upon said insulating layer opposite said substrate, and a channel region adjacent said insulating layer having a conductivity type opposite said substrate upon application of a first predetermined bias voltage to said metal layer, thereby forming a PN junction between said substrate and said channel region, source and drain electrodes on opposite ends of said channel region, a second insulated gate field-effect transistor having a substrate of said opposite conductivity type, an insulating layer adjacent said substrate, a metal layer upon said insulating layer opposite said substrate, and a channel region adjacent said insulating layer having said one conductivity type upon application of a second predetermined bias voltage to said metal layer of polarity opposite to said first predetermined bias voltage, source and drain electrodes on opposite ends of said channel region, one of said source and drain electrodes of said first insulated gate field-effect transistor being coupled to one of said source and drain electrodes of said second insulated field-effect transistor, a means for applying a fixed bias voltage across the other of said source and drain electrodes of said first and second insulated field-effect transistors, and a means for applying a voltage signal of a single predetermined polarity to both of said metal layers of said first and second insulated gate field-effect transistors adapted to render said first insulated gate field-effect transistor conductive between its source and drain electrodes while rendering said second insulated gate field-effect transistor non-conductive between its source and drain electrodes, whereby said second non-conductive insulated gate field-effect transistor is employed as the active load for said first conductive insulated gate field-effect transistor."
+  },
+  {
+   "n": 3,
+   "col": 8,
+   "line": 72,
+   "depends": 2,
+   "text": "3. The circuit of claim 2 further characterized by the channel region of each insulated gate field effect device being of the same conductivity type as the substrate of said insulated gate field effect device when there is no bias voltage applied to the metal layer of said insulated gate field effect device."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "col": 1,
+   "line": 3,
+   "ocr": "EEELD EFFECT CIRCUITRY",
+   "fixed": "FIELD EFFECT CIRCUITRY",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 4,
+   "ocr": "rank M. Wanlass",
+   "fixed": "Frank M. Wanlass",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 7,
+   "ocr": "Hiled June 18, 1963",
+   "fixed": "Filed June 18, 1963",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 14,
+   "ocr": "electrodes. connected",
+   "fixed": "electrodes connected",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 17,
+   "ocr": "necessary. switching",
+   "fixed": "necessary switching",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 20,
+   "ocr": "Srenimmrnmener aaa ee",
+   "fixed": "",
+   "basis": "scan (decorative rule below the abstract, not text)"
+  },
+  {
+   "col": 1,
+   "line": 25,
+   "ocr": "as.a",
+   "fixed": "as a",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 27,
+   "ocr": "circuit;",
+   "fixed": "circuit,",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 39,
+   "ocr": "carrier:",
+   "fixed": "carrier",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 42,
+   "ocr": "element:",
+   "fixed": "element.",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 43,
+   "ocr": "provide-a",
+   "fixed": "provide a",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 48,
+   "ocr": ",",
+   "fixed": "",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 1,
+   "ocr": "FIG..1",
+   "fixed": "FIG. 1",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 4,
+   "ocr": "is.a",
+   "fixed": "is a",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 8,
+   "ocr": "gate.",
+   "fixed": "gate",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 8,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 12,
+   "ocr": "2A—-2A",
+   "fixed": "2A—2A",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 17,
+   "ocr": "’",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 22,
+   "ocr": "SA",
+   "fixed": "5A",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 24,
+   "ocr": "is.a",
+   "fixed": "is a",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 24,
+   "ocr": "citcuit",
+   "fixed": "circuit",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 27,
+   "ocr": "schematic.",
+   "fixed": "schematic",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 37,
+   "ocr": "‘illustrating",
+   "fixed": "illustrating",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 39,
+   "ocr": "FIGS,",
+   "fixed": "FIGS.",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 40,
+   "ocr": "Tilustrated",
+   "fixed": "Illustrated",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 42,
+   "ocr": "present.",
+   "fixed": "present",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 42,
+   "ocr": "comprises.",
+   "fixed": "comprises",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 47,
+   "ocr": "N-type:",
+   "fixed": "N-type",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 48,
+   "ocr": "11:",
+   "fixed": "11.",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 48,
+   "ocr": "N- type",
+   "fixed": "N-type",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 50,
+   "ocr": "arsenic.",
+   "fixed": "arsenic",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 51,
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 53,
+   "ocr": "12",
+   "fixed": "11",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 55,
+   "ocr": "24.",
+   "fixed": "21.",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 60,
+   "ocr": "contact.",
+   "fixed": "contact",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 61,
+   "ocr": "and-13.",
+   "fixed": "and 13.",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 62,
+   "ocr": "20’",
+   "fixed": "20′",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 62,
+   "ocr": "2@",
+   "fixed": "20",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 63,
+   "ocr": "25’",
+   "fixed": "25′",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 64,
+   "ocr": "21’",
+   "fixed": "21′",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 66,
+   "ocr": "In-FIGS.",
+   "fixed": "In FIGS.",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 66,
+   "ocr": "2A. jis",
+   "fixed": "2A is",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 66,
+   "ocr": "-P-type",
+   "fixed": "P-type",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 67,
+   "ocr": "field-effect.",
+   "fixed": "field-effect",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 5,
+   "ocr": "in-a",
+   "fixed": "in a",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 7,
+   "ocr": "P-type.",
+   "fixed": "P-type",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 7,
+   "ocr": "32.",
+   "fixed": "32",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 18,
+   "ocr": ".contact",
+   "fixed": "contact",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 22,
+   "ocr": "36’",
+   "fixed": "36′",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 23,
+   "ocr": "41’",
+   "fixed": "41′",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 24,
+   "ocr": "21’",
+   "fixed": "21′",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 25,
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 27,
+   "ocr": "16",
+   "fixed": "10",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 27,
+   "ocr": "39",
+   "fixed": "30",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 32,
+   "ocr": "techniques,",
+   "fixed": "techniques.",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 39,
+   "ocr": "contacts;",
+   "fixed": "contacts,",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 63,
+   "ocr": "25.and",
+   "fixed": "25 and",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 65,
+   "ocr": "Vgse",
+   "fixed": "Vgsc",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 67,
+   "ocr": "wil!",
+   "fixed": "will",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 68,
+   "ocr": "19",
+   "fixed": "10",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 69,
+   "ocr": "Vesc",
+   "fixed": "Vgsc",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 69,
+   "ocr": "16",
+   "fixed": "10",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 71,
+   "ocr": "22,",
+   "fixed": "22.",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 73,
+   "ocr": "is‘a",
+   "fixed": "is a",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 74,
+   "ocr": "negative.",
+   "fixed": "negative",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 74,
+   "ocr": "V’ds",
+   "fixed": "V′ds",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 3,
+   "ocr": "39,",
+   "fixed": "30,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 5,
+   "ocr": "-upper",
+   "fixed": "upper",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 6,
+   "ocr": "34.",
+   "fixed": "31.",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 6,
+   "ocr": "I’ds",
+   "fixed": "I′ds",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 9,
+   "ocr": "I’ds",
+   "fixed": "I′ds",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 12,
+   "ocr": "I'ds",
+   "fixed": "I′ds",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 13,
+   "ocr": "V’gs",
+   "fixed": "V′gs",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 15,
+   "ocr": "(see.",
+   "fixed": "(see",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 16,
+   "ocr": "Ves",
+   "fixed": "Vgs",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 17,
+   "ocr": "source.",
+   "fixed": "source",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 19,
+   "ocr": "V’gsc",
+   "fixed": "V′gsc",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 20,
+   "ocr": "36",
+   "fixed": "30",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 33,
+   "ocr": "19",
+   "fixed": "10",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 41,
+   "ocr": "channel:between",
+   "fixed": "channel between",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 43,
+   "ocr": "thereto,",
+   "fixed": "thereto.",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 48,
+   "ocr": "reverse.",
+   "fixed": "reverse",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 62,
+   "ocr": "36",
+   "fixed": "30",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 66,
+   "ocr": "30,:a",
+   "fixed": "30, a",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 68,
+   "ocr": "16,",
+   "fixed": "10,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 73,
+   "ocr": "5@,",
+   "fixed": "50,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 74,
+   "ocr": "SA",
+   "fixed": "5A",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 74,
+   "ocr": "5B).",
+   "fixed": "5B)",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 75,
+   "ocr": "16 and.",
+   "fixed": "10 and",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 1,
+   "ocr": "53-55.",
+   "fixed": "53–55.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 2,
+   "ocr": "36.",
+   "fixed": "36",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 3,
+   "ocr": "1@",
+   "fixed": "10",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 4,
+   "ocr": "S1.",
+   "fixed": "51.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 6,
+   "ocr": "the:",
+   "fixed": "the",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 6,
+   "ocr": "critical:po- . tential,",
+   "fixed": "critical potential,",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 7,
+   "ocr": ".30",
+   "fixed": "30",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 9,
+   "ocr": "16",
+   "fixed": "10",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 9,
+   "ocr": "voltage.",
+   "fixed": "voltage",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 11,
+   "ocr": "signal. and-for",
+   "fixed": "signal and for",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 15,
+   "ocr": "16",
+   "fixed": "10",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 15,
+   "ocr": "and.the",
+   "fixed": "and the",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 16,
+   "ocr": "30.will",
+   "fixed": "30 will",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 17,
+   "ocr": "voltage.",
+   "fixed": "voltage",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 19,
+   "ocr": "action.",
+   "fixed": "action",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 19,
+   "ocr": "load.",
+   "fixed": "load",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 22,
+   "ocr": "19",
+   "fixed": "10",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 25,
+   "ocr": "encugh",
+   "fixed": "enough",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 26,
+   "ocr": "—V",
+   "fixed": "−V",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 26,
+   "ocr": "+-V,",
+   "fixed": "+V,",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 26,
+   "ocr": "19",
+   "fixed": "10",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 27,
+   "ocr": "3@",
+   "fixed": "30",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 31,
+   "ocr": "less.",
+   "fixed": "less",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 32,
+   "ocr": "56",
+   "fixed": "50",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 33,
+   "ocr": "conducting.",
+   "fixed": "conducting",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 33,
+   "ocr": "device.",
+   "fixed": "device",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 35,
+   "ocr": "semiconductor.",
+   "fixed": "semiconductor",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 37,
+   "ocr": "charged.",
+   "fixed": "charged",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 38,
+   "ocr": ":it",
+   "fixed": "it",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 42,
+   "ocr": "In.",
+   "fixed": "In",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 44,
+   "ocr": "38.",
+   "fixed": "30.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 46,
+   "ocr": "36c,",
+   "fixed": "30c,",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 46,
+   "ocr": "parallel,",
+   "fixed": "parallel.",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 48,
+   "ocr": "30a—30c,",
+   "fixed": "30a–30c,",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 49,
+   "ocr": "-+-V.",
+   "fixed": "+V.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 50,
+   "ocr": "36a—36c",
+   "fixed": "36a–36c",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 50,
+   "ocr": "39a—30c,",
+   "fixed": "30a–30c,",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 53,
+   "ocr": "30a—30c",
+   "fixed": "30a–30c",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 54,
+   "ocr": "1G6a—10c..",
+   "fixed": "10a–10c.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 55,
+   "ocr": "‘the",
+   "fixed": "the",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 56,
+   "ocr": "1%c¢",
+   "fixed": "10c",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 56,
+   "ocr": "—V.",
+   "fixed": "−V.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 58,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 59,
+   "ocr": "306",
+   "fixed": "30b",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 60,
+   "ocr": "10b.",
+   "fixed": "10b",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 61,
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 61,
+   "ocr": "field-effect:",
+   "fixed": "field-effect",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 63,
+   "ocr": "18c:",
+   "fixed": "10c",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 64,
+   "ocr": "an-input",
+   "fixed": "an input",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 65,
+   "ocr": "+-V",
+   "fixed": "+V",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 65,
+   "ocr": "—V",
+   "fixed": "−V",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 66,
+   "ocr": "19a",
+   "fixed": "10a",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 67,
+   "ocr": "36a.",
+   "fixed": "30a.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 67,
+   "ocr": "similar.manner,",
+   "fixed": "similar manner,",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 68,
+   "ocr": "25h",
+   "fixed": "25b",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 68,
+   "ocr": "415",
+   "fixed": "41b",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 69,
+   "ocr": "305.",
+   "fixed": "30b.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 70,
+   "ocr": "gates.",
+   "fixed": "gates",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 71,
+   "ocr": "19c",
+   "fixed": "10c",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 71,
+   "ocr": "3c.",
+   "fixed": "30c.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 71,
+   "ocr": "B.",
+   "fixed": "B",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 72,
+   "ocr": "field-effect.",
+   "fixed": "field-effect",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 74,
+   "ocr": "--V",
+   "fixed": "+V",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 75,
+   "ocr": "associated.",
+   "fixed": "associated",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 75,
+   "ocr": ".field-effect",
+   "fixed": "field-effect",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 3,
+   "ocr": "30a—30c",
+   "fixed": "30a–30c",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 4,
+   "ocr": "semiconductor. devices. 18a—-10c,",
+   "fixed": "semiconductor devices 10a–10c,",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 6,
+   "ocr": "or.",
+   "fixed": "or",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 6,
+   "ocr": "circuit.76",
+   "fixed": "circuit 70",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 6,
+   "ocr": "FIG.-7,",
+   "fixed": "FIG. 7,",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 7,
+   "ocr": "andP type: insulated.",
+   "fixed": "and P type insulated",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 8,
+   "ocr": "devices. 16",
+   "fixed": "devices 10",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 8,
+   "ocr": "30.:A",
+   "fixed": "30. A",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 10,
+   "ocr": "as. 10d-10f,",
+   "fixed": "as 10d–10f,",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 11,
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 11,
+   "ocr": "21d-21f:",
+   "fixed": "21d–21f",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 12,
+   "ocr": "devices. 10d—-10f",
+   "fixed": "devices 10d–10f",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 12,
+   "ocr": "potential. —V.",
+   "fixed": "potential −V.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 13,
+   "ocr": "series.",
+   "fixed": "series",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 14,
+   "ocr": "10d-10f.",
+   "fixed": "10d–10f",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 14,
+   "ocr": "parallel.",
+   "fixed": "parallel",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 15,
+   "ocr": "semiconductor.",
+   "fixed": "semiconductor",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 15,
+   "ocr": "30d-30f.. Applied. to.",
+   "fixed": "30d–30f. Applied to",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 16,
+   "ocr": "30/",
+   "fixed": "30f",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 17,
+   "ocr": "V’.",
+   "fixed": "V′.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 18,
+   "ocr": "76",
+   "fixed": "70",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 18,
+   "ocr": "at.Y’",
+   "fixed": "at Y′",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 18,
+   "ocr": "20d-26/",
+   "fixed": "20d–20f",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 19,
+   "ocr": "10d-16/.",
+   "fixed": "10d–10f.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 22,
+   "ocr": "N-type.",
+   "fixed": "N-type",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 23,
+   "ocr": "1@¢ and.",
+   "fixed": "10e and",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 24,
+   "ocr": "N- type. field-effect.",
+   "fixed": "N-type field-effect",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 25,
+   "ocr": "device. 10f.and",
+   "fixed": "device 10f and",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 27,
+   "ocr": "76,",
+   "fixed": "70,",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 27,
+   "ocr": "input.",
+   "fixed": "input",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 30,
+   "ocr": "Likewise,.an",
+   "fixed": "Likewise, an",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 30,
+   "ocr": "gates. 25e¢.",
+   "fixed": "gates 25e",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 31,
+   "ocr": "4le of:",
+   "fixed": "41e of",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 31,
+   "ocr": "complementary. semiconductor. devices: 19¢",
+   "fixed": "complementary semiconductor devices 10e",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 32,
+   "ocr": "3¢e.",
+   "fixed": "30e.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 32,
+   "ocr": "an: input:signal",
+   "fixed": "an input signal",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 32,
+   "ocr": "‘is'",
+   "fixed": "is",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 33,
+   "ocr": ".25f and.",
+   "fixed": "25f and",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 33,
+   "ocr": "semiconductor.",
+   "fixed": "semiconductor",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 34,
+   "ocr": "10/",
+   "fixed": "10f",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 34,
+   "ocr": "30/.",
+   "fixed": "30f.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 35,
+   "ocr": "If:",
+   "fixed": "If",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 35,
+   "ocr": "one-or",
+   "fixed": "one or",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 35,
+   "ocr": "of.the input.",
+   "fixed": "of the input",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 35,
+   "ocr": ".D,",
+   "fixed": "D,",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 36,
+   "ocr": "-+-V,",
+   "fixed": "+V,",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 37,
+   "ocr": "devices. 30d—38f",
+   "fixed": "devices 30d–30f",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 37,
+   "ocr": "not.",
+   "fixed": "not",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 38,
+   "ocr": "and.its",
+   "fixed": "and its",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 39,
+   "ocr": "16d-16/",
+   "fixed": "10d–10f",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 39,
+   "ocr": "conduct, As.a",
+   "fixed": "conduct. As a",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 41,
+   "ocr": "Y’.",
+   "fixed": "Y′.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 42,
+   "ocr": "devices: 10d~10/",
+   "fixed": "devices 10d–10f",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 44,
+   "ocr": "3@d3¢f.",
+   "fixed": "30d–30f.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 46,
+   "ocr": "30d-38/",
+   "fixed": "30d–30f",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 46,
+   "ocr": "output.",
+   "fixed": "output",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 47,
+   "ocr": "Y’.",
+   "fixed": "Y′.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 48,
+   "ocr": "Iilustrated",
+   "fixed": "Illustrated",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 51,
+   "ocr": "complementary: P-type:",
+   "fixed": "complementary P-type",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 55,
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 55,
+   "ocr": "manner.",
+   "fixed": "manner",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 56,
+   "ocr": "or.",
+   "fixed": "or",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 57,
+   "ocr": "field-effect.",
+   "fixed": "field-effect",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 58,
+   "ocr": "P-type.",
+   "fixed": "P-type",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 58,
+   "ocr": "regions.",
+   "fixed": "regions",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 58,
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 58,
+   "ocr": "- formed.",
+   "fixed": "formed",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 59,
+   "ocr": "N-type.",
+   "fixed": "N-type",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 60,
+   "ocr": ".86",
+   "fixed": "86",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 60,
+   "ocr": "P-type.",
+   "fixed": "P-type",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 61,
+   "ocr": "regions.",
+   "fixed": "regions",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 65,
+   "ocr": "device.81,",
+   "fixed": "device 81,",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 66,
+   "ocr": "P-type:",
+   "fixed": "P-type",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 67,
+   "ocr": "form:a",
+   "fixed": "form a",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 67,
+   "ocr": "$0",
+   "fixed": "90",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 68,
+   "ocr": "N- type.",
+   "fixed": "N-type",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 70,
+   "ocr": "regions.",
+   "fixed": "regions",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 70,
+   "ocr": "‘extend to.",
+   "fixed": "extend to",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 71,
+   "ocr": "body.",
+   "fixed": "body",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 72,
+   "ocr": "N-type.",
+   "fixed": "N-type",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 72,
+   "ocr": "$2",
+   "fixed": "92",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 74,
+   "ocr": "99.",
+   "fixed": "90.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 75,
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 3,
+   "ocr": "drain.",
+   "fixed": "drain",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 5,
+   "ocr": "suchas",
+   "fixed": "such as",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 8,
+   "ocr": "gate-95",
+   "fixed": "gate 96",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 8,
+   "ocr": "preferably.",
+   "fixed": "preferably",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 8,
+   "ocr": "P- type",
+   "fixed": "P-type",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 14,
+   "ocr": "95-located",
+   "fixed": "95 located",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 25,
+   "ocr": "$2",
+   "fixed": "82",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 27,
+   "ocr": "th",
+   "fixed": "the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 27,
+   "ocr": "electrode.",
+   "fixed": "electrode",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 31,
+   "ocr": "—V",
+   "fixed": "−V",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 32,
+   "ocr": "that.",
+   "fixed": "that",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 34,
+   "ocr": "bias:",
+   "fixed": "bias.",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 37,
+   "ocr": "1€¢",
+   "fixed": "100",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 38,
+   "ocr": "161",
+   "fixed": "101",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 40,
+   "ocr": "102.",
+   "fixed": "102",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 44,
+   "ocr": "89.",
+   "fixed": "80.",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 54,
+   "ocr": "8i",
+   "fixed": "81",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 58,
+   "ocr": "any.",
+   "fixed": "any",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 61,
+   "ocr": "for.",
+   "fixed": "for",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 64,
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 64,
+   "ocr": "-is",
+   "fixed": "is",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 65,
+   "ocr": "as.",
+   "fixed": "as",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 65,
+   "ocr": "field-effect.",
+   "fixed": "field-effect",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 72,
+   "ocr": "appreciable.",
+   "fixed": "appreciable",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 75,
+   "ocr": "‘up",
+   "fixed": "up",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 3,
+   "ocr": "ef",
+   "fixed": "of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 4,
+   "ocr": "within.",
+   "fixed": "within",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 6,
+   "ocr": "problems:",
+   "fixed": "problems",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 8,
+   "ocr": "favorable,",
+   "fixed": "favorable.",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 10,
+   "ocr": "dynamic-impedance",
+   "fixed": "dynamic impedance",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 12,
+   "ocr": "that-modifications and.",
+   "fixed": "that modifications and",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 23,
+   "ocr": "electrodes.",
+   "fixed": "electrodes",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 24,
+   "ocr": "at.",
+   "fixed": "at",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 24,
+   "ocr": "on’said",
+   "fixed": "on said",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 26,
+   "ocr": "electrode.",
+   "fixed": "electrode",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 30,
+   "ocr": "pair.of",
+   "fixed": "pair of",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 33,
+   "ocr": "said.",
+   "fixed": "said",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 45,
+   "ocr": "Grain",
+   "fixed": "drain",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 46,
+   "ocr": "channel.",
+   "fixed": "channel",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 47,
+   "ocr": "having.",
+   "fixed": "having",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 51,
+   "ocr": "conductivity.",
+   "fixed": "conductivity",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 56,
+   "ocr": "field-effect.",
+   "fixed": "field-effect",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 58,
+   "ocr": "for-applying",
+   "fixed": "for applying",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 59,
+   "ocr": "across.",
+   "fixed": "across",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 61,
+   "ocr": "a-means",
+   "fixed": "a means",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 66,
+   "ocr": "second.",
+   "fixed": "second",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 66,
+   "ocr": "gate.",
+   "fixed": "gate",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 68,
+   "ocr": "whereby.",
+   "fixed": "whereby",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 69,
+   "ocr": "field-effect.",
+   "fixed": "field-effect",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 75,
+   "ocr": "‘said",
+   "fixed": "said",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 75,
+   "ocr": "device.",
+   "fixed": "device",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 6,
+   "ocr": "Bockemueh] ~._---___ 330—38",
+   "fixed": "Bockemuehl 330—38",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 9,
+   "ocr": "Sorchych ~- Lu... 307—88.5",
+   "fixed": "Sorchych 307—88.5",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 1,
+   "ocr": "Sekely ~----.-..___ 307—88.5",
+   "fixed": "Sekely 307—88.5",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 2,
+   "ocr": "3,222,610. 12/1965... Evans:et al: _--.-.-.__ 330-38",
+   "fixed": "3,222,610 12/1965 Evans et al. 330—38",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 5,
+   "ocr": "REC Tech. Notes; No. 654, November: 1965.'",
+   "fixed": "REC Tech. Notes, No. 654, November 1965.",
+   "basis": "scan"
+  }
+ ]
+}

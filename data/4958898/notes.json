@@ -1,0 +1,66 @@
+{
+  "patent": "Filed 1989-03-15 and issued 1990-09-25 to Lionel Friedman and Richard A. Soref, assigned to the US Air Force. It proposes a three-terminal phase modulator in a silicon-on-insulator rib waveguide: an anode and a cathode spaced along the guide are forward-biased to fill it with an electron-hole plasma (double injection), and a gate between them, either an MOS gate (FIGS. 2a-2b) or a p+/n junction gate (FIG. 3), widens a depletion layer that squeezes the plasma away from the guided mode and so changes the mode's effective index. Closing switch S1 makes a heavily doped handle layer act as a second gate through the buried oxide. FIGS. 1a-1b place the device in a straight phase modulator and in a two-mode-interference 2x2 switch. Performance is given as estimates (a mode-index change of 2-4x10^{-4} at 1.3 µm), not measurements. The index change is the free-carrier plasma dispersion effect in silicon, quantified by Soref and Bennett (IEEE Journal of Quantum Electronics, 1987); Soref's work of this period is widely credited with founding silicon photonics. Later carrier-based silicon modulators use the same effect through forward-biased p-i-n injection, reverse-biased p-n depletion or MOS-capacitor accumulation, the last first shown above 1 GHz by Liu et al. (Nature, 2004).",
+  "figs": {
+    "1a": "Straight rib-waveguide phase modulator in perspective. Light enters at the front face, where the dotted outline marks the guided spot, and leaves at the far end. The stippled bands on the rib are, in the direction of propagation, cathode c, the long gate 2 and anode a; pads, wires and supplies are left out. The layered substrate carries no numerals.",
+    "1b": "Two-mode-interference 2x2 switch in perspective. Input guides 11 and 13 (dotted spots at the front face) merge into the double-width section 17, which splits again into two outputs. Cathode c, gate 2 and anode a sit in sequence on the merged section, the gate drawn as a patch centred on it and narrower than the guide.",
+    "2a": "Section transverse to propagation (x-y plane) through the gate. Layer 17 is etched into a rib under the gate, and the dashed ellipse 27 inside the rib is the fundamental-mode intensity profile. The gate stack is oxide 29 with layer 31 on top; the underlined 2 names the whole gate. Below lie buried oxide 19, silicon 21 and a thin bottom layer (the back contact, numbered 41 in FIG. 2b); wavy edges mean the layers continue. The dashed lines ending in dots above 31 and below the stack are unlabeled terminal leads.",
+    "2b": "Longitudinal section (y-z plane) along axis 22, thicknesses not to scale. Light enters at arrow 20. Anode a (lettered r+, evidently p+) and cathode c (n+) are shallow wells at the ends of n Si layer 17, with gate oxide 29 and layer 31 between them. Vca forward-biases anode to cathode; Vg sits between node 33 on the cathode wire (+) and gate 31. From the gate side of Vg, lead 37 runs through switch S1 and lead 39 to back contact 41, so closing S1 drives silicon 21 as a second gate through buried oxide 19.",
+    "3": "Same arrangement as FIG. 2b with the MOS gate replaced by a shallow p+ region whose boundary with n Si 17 is junction 45; 31 is a thin strip on that region. The dashed contour around the gate region is unlabeled; it reads as the extent of the gate depletion layer, which the text says widens to pinch off the plasma. Here buried oxide 19 is hatched and layer 17 is drawn much thicker than in FIG. 2b. The Vca return wire hops over the gate lead on its way to node 33; Vg (- to the gate, + to the cathode) and the S1 back-gate path match FIG. 2b. Repeated on the front page."
+  },
+  "parts": {
+    "a": "The description once swaps the letters (column 4: cathode \"a\" and anode \"c\"); the drawings and all other mentions make a the p+ anode and c the n+ cathode. FIG. 2b letters the anode well r+, apparently for p+.",
+    "17": "Used both for the merged section of the switch in FIG. 1b and for the n-type silicon guiding layer in FIGS. 2a, 2b and 3. The description gives 1 to 5x10^{17} impurities/cm^{3} for this layer; claims 13-19, 28-29 and 39 give 1-5x10^{16}.",
+    "20": "Drawing-only numeral on the arrow of incoming light; the text does not mention it.",
+    "31": "Not named in the text, which cites it only in \"one voltage source for 31 and 39\". In FIGS. 2a-2b it is the layer over gate oxide 29, matching the metal layer of claim 5; in FIG. 3 it is the strip on the p+ gate region."
+  },
+  "glossary": [
+    {
+      "term": "SOI (silicon-on-insulator)",
+      "def": "A silicon film on a buried SiO_{2} layer over a silicon handle wafer; the oxide's low index (1.46 against 3.5 for silicon) confines light in the film."
+    },
+    {
+      "term": "double injection",
+      "def": "Simultaneous injection of electrons from the cathode and holes from the anode, giving carrier densities far above equilibrium."
+    },
+    {
+      "term": "DIFET",
+      "def": "The patent's term: double-injection field-effect transistor."
+    },
+    {
+      "term": "plasma dispersion effect",
+      "def": "The change in silicon's refractive index and absorption caused by free electrons and holes; added carriers lower the index."
+    },
+    {
+      "term": "depletion layer",
+      "def": "A region emptied of mobile carriers under a reverse-biased gate or junction; it widens as the bias rises."
+    },
+    {
+      "term": "pinchoff",
+      "def": "The bias at which the depletion layer closes off the conducting channel."
+    },
+    {
+      "term": "MOS gate",
+      "def": "Metal-oxide-semiconductor gate: an electrode on a thin oxide over the semiconductor."
+    },
+    {
+      "term": "junction gate",
+      "def": "A p-n junction used as the gate, as in a junction field-effect transistor (JFET)."
+    },
+    {
+      "term": "rib waveguide",
+      "def": "A guide formed by a raised strip partly etched into a slab; the step confines light sideways."
+    },
+    {
+      "term": "effective index (N_{eff})",
+      "def": "Phase index of a guided mode; a change ΔN_{eff} over length L shifts the phase by 2πΔN_{eff}L/λ."
+    },
+    {
+      "term": "two-mode interference switch",
+      "def": "A 2x2 switch whose merged section carries the lowest even and odd modes; changing their relative phase sets which output port the light leaves by."
+    },
+    {
+      "term": "n+ / p+",
+      "def": "Heavily doped n- or p-type regions, used here as cathode, anode and junction gate."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "patent": "Filed 1919-02-08 and issued 1920-06-08 to Edwin H. Armstrong, then residing in Paris. This is Armstrong's superheterodyne patent. The incoming signal is combined with a locally generated oscillation, and the combination is rectified to give a beat at a fixed intermediate frequency above audibility; an amplifier adjusted once for that frequency amplifies it, and a second detector recovers the signal. Because the amplifier never works at the incoming frequency, it needs no retuning across the band, and its output cannot react on its input, which the text names as the two limits on direct high-frequency tube amplification. Fig. 4 applies the conversion twice (double conversion), and the text allows further stages. Armstrong developed the method while serving as a US Army Signal Corps officer in France in 1918 and described it in \"A New System of Short Wave Amplification\" (Proceedings of the IRE, vol. 9, 1921). Lucien Lévy in France claimed earlier invention of a similar scheme, and priority was contested in the United States. The superheterodyne became the standard architecture of radio receivers.",
+  "figs": {
+    "1": "Simplest form, drawn as a circuit with the amplifier as a box. Coils whose leads end in arrows stand for sources coupled into the neighbouring coil: 1 (incoming signal) and 6 (local oscillator) both couple into tuned circuit 2-3. Rectifier 4 and coil 5 form a branch across that circuit; 5 couples the beat-frequency current into coil 7 at the input of amplifier 8. At the output, detector 9 and telephones 10 are in series with a coil into which heterodyne 11 couples, for undamped (CW) signals only.",
+    "2": "Tube-level version with one tube doing both oscillation and first detection. Coil 12 couples the signal into tuned circuit 13-14, which drives the grid of tube 16 through a series capacitor with a grid resistor to the filament line. The plate circuit of 16 returns through coil 17, the plate battery and coil 15; 15 is drawn beside 13, so plate energy is fed back to the grid circuit and 16 oscillates while rectifying. Coil 17 couples the beat into amplifier 18: two triodes with plate resistors, a coupling capacitor and grid resistor between them, and separate plate and filament batteries. The output capacitor feeds detector 19 shunted by telephones 20.",
+    "3": "Tube-level version with a separate local oscillator and tuned intermediate-frequency stages. Signal coil 21 and local source 24 both couple into tuned circuit 22-23 at the grid of rectifier tube 25 (grid resistor across the circuit). The plate of 25 feeds circuit 26-27, tuned to the beat frequency, whose coil 27 couples into amplifier 28. Each of the two amplifier tubes has a tuned grid circuit (coil and capacitor) and a coil in its plate lead coupled to the next tuned circuit, so every stage is tuned to the one intermediate frequency. The last plate coil couples into a tuned circuit feeding tube 29 through a grid capacitor; telephones 30 are in its plate circuit with the plate battery.",
+    "4": "Block diagram of two conversions in cascade. The front end 31-37 and amplifier 38 repeat Fig. 1 (local source 34, detector 35 in series with coupling coil 36). At the output of 38, rectifier 39 in series with coil 41 forms the second converter; local source 40 couples into 41, and 41 couples into coil 42 at the input of the second amplifier 43. Detector 44 and telephones 45 follow. In the text's worked example the signal is 10,000,000 cycles per second, source 34 is set to 11,000,000 so amplifier 38 works near 1,000,000, and source 40 is set to 1,100,000 so amplifier 43 works near 100,000."
+  },
+  "parts": {
+    "1": "Stands for the receiving antenna circuit; the text says the source of the incoming oscillations is represented by this coil.",
+    "5": "Not named on its own; the coil of the rectifier circuit 3-5 and the primary of the coupling 5-7 that feeds amplifier 8.",
+    "7": "Not named on its own; the secondary of coupling 5-7, at the input of amplifier 8.",
+    "13": "Not named on its own; the coil of circuit 13-14, tuned to the incoming oscillations.",
+    "14": "Not named on its own; the capacitor of tuned circuit 13-14. The printed label is indistinct and reads as \"4\" on the scan; the text's circuit 13-14 identifies it.",
+    "15": "Not named on its own; part of the self-heterodyne circuit 15-13-14-16-17. It lies in the plate return of tube 16 next to coil 13.",
+    "16": "A single triode that both generates the local oscillation and rectifies the combined currents (a self-heterodyne, later called an autodyne).",
+    "22": "Not named on its own; the coil of the vacuum tube rectifying system 22-23-25.",
+    "23": "Not named on its own; the capacitor of the vacuum tube rectifying system 22-23-25.",
+    "25": "Not named on its own; the tube of the vacuum tube rectifying system 22-23-25.",
+    "26": "Not named on its own; the capacitor of circuit 26-27, tuned to the converted (beat) frequency.",
+    "27": "Not named on its own; the coil of circuit 26-27, coupled to the input of amplifier 28.",
+    "29": "The text says the amplified energy is heterodyned and detected by this tube; no separate oscillator is drawn for it.",
+    "32": "Not named on its own; the coil of circuit 32-33, tuned to the incoming oscillations.",
+    "33": "Not named on its own; the capacitor of circuit 32-33.",
+    "36": "Not mentioned in the text; drawn in series with detector 35 and coupled to coil 37, as coil 5 in Fig. 1.",
+    "37": "Not mentioned in the text; the input coil of amplifier 38, as coil 7 in Fig. 1.",
+    "41": "Not named on its own; the primary of coupling 41-42, in series with rectifier 39.",
+    "42": "Not named on its own; the secondary of coupling 41-42, at the input of amplifier 43."
+  },
+  "glossary": [
+    {"term": "heterodyne", "def": "Combining a received oscillation with a locally generated one of nearby frequency so that, after rectification, a current at the difference (beat) frequency appears. The \"separate heterodyne\" and \"local source\" are such local oscillators."},
+    {"term": "superheterodyne", "def": "The later name for this method: the beat frequency is placed above audibility (an intermediate frequency), amplified there, and detected afterwards."},
+    {"term": "intermediate frequency", "def": "The fixed, readily amplified beat frequency between the incoming and audio frequencies; the text calls it the predetermined frequency. Claim 6 gives 20,000 to 250,000 cycles per second."},
+    {"term": "cycles per second", "def": "Hertz. 10,000,000 cycles per second is 10 MHz, a wavelength of about 30 m."},
+    {"term": "wave length in meters", "def": "Radio channels were then named by wavelength; 100 meters is about 3 MHz, 300 to 1,000 meters is about 1 MHz to 300 kHz."},
+    {"term": "damped / undamped waves", "def": "Damped waves are the decaying wave trains of spark transmitters, which a rectifier makes audible directly; undamped waves are continuous waves (CW), which need a second heterodyne to give an audible note."},
+    {"term": "rectifier / detector", "def": "A one-way device (crystal or vacuum tube) that turns a high-frequency current into its envelope or beat; drawn as an arrow-and-bar symbol."},
+    {"term": "telephones", "def": "Headphones."},
+    {"term": "capacity / condenser", "def": "Capacitance / capacitor."},
+    {"term": "resistance coupled / inductance coupled", "def": "Amplifier stages linked by a plate resistor and coupling capacitor, or by coils (transformers) that can be tuned with condensers for selectivity."},
+    {"term": "strays, atmospherics", "def": "Radio noise from natural electrical discharges."}
+  ]
+}

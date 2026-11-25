@@ -1,0 +1,626 @@
+{
+ "pn": "3758875",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    483,
+    572,
+    1879,
+    1258
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2A",
+   "label": "FIG. 2A",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    390,
+    679,
+    1839,
+    1802
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2B",
+   "label": "FIG. 2B",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    363,
+    1879,
+    1799,
+    2982
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3A",
+   "label": "FIG. 3A",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    471,
+    614,
+    950,
+    1728
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3B",
+   "label": "FIG. 3B",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    950,
+    623,
+    1444,
+    1738
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3C",
+   "label": "FIG. 3C",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    1444,
+    631,
+    1961,
+    1740
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4A",
+   "label": "FIG. 4A",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    400,
+    1818,
+    883,
+    2938
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4B",
+   "label": "FIG. 4B",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    883,
+    1819,
+    1400,
+    2945
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4C",
+   "label": "FIG. 4C",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    1436,
+    1828,
+    1871,
+    2954
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    588,
+    1350,
+    1850,
+    2091
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6A",
+   "label": "FIG. 6A",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    302,
+    2249,
+    1374,
+    3300
+   ],
+   "rotate": 0,
+   "front_page": true
+  },
+  {
+   "id": "6B",
+   "label": "FIG. 6B",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    1372,
+    2271,
+    1965,
+    3010
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "10",
+   "name": "semiconductor single heterostructure (SH) injection laser",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "wide band gap layer",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "p-type wide band gap layer"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "narrow band gap layer",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "heat-sink",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "current source",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "electrode",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "electrode",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "p-p heterojunction",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "intermediate region",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "25",
+   "name": "p-n homojunction",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "26",
+   "name": "coherent radiation",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "28",
+   "name": "opposite surface",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "polished surface"
+   ]
+  },
+  {
+   "ref": "30",
+   "name": "opposite surface",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "polished surface"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "surface",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "34",
+   "name": "surface",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "b",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "b'",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "c",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "112",
+   "name": "contiguous semiconductor layer",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "wide band gap layer",
+    "wider band gap layer"
+   ]
+  },
+  {
+   "ref": "114",
+   "name": "contiguous semiconductor layer",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "narrow band gap layer",
+    "narrower band gap layer",
+    "substrate"
+   ]
+  },
+  {
+   "ref": "118",
+   "name": "current source",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "120",
+   "name": "contact",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "122",
+   "name": "contact",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "123",
+   "name": "p-p heterojunction",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "124",
+   "name": "intermediate p-GaAs region",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "125",
+   "name": "p-n homojunction",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "126",
+   "name": "radiation",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "212",
+   "name": "wide band gap p-type layer",
+   "figs": [
+    "6A",
+    "6B"
+   ],
+   "alt": [
+    "third layer"
+   ]
+  },
+  {
+   "ref": "214",
+   "name": "substrate",
+   "figs": [
+    "6A"
+   ],
+   "alt": [
+    "wafer"
+   ]
+  },
+  {
+   "ref": "215",
+   "name": "wide band gap n-type layer",
+   "figs": [
+    "6A",
+    "6B"
+   ],
+   "alt": [
+    "first layer"
+   ]
+  },
+  {
+   "ref": "216",
+   "name": "heat-sink",
+   "figs": [
+    "6A"
+   ]
+  },
+  {
+   "ref": "217",
+   "name": "contact layer",
+   "figs": [
+    "6A"
+   ],
+   "alt": [
+    "fourth layer"
+   ]
+  },
+  {
+   "ref": "218",
+   "name": "second contact",
+   "figs": [
+    "6A"
+   ]
+  },
+  {
+   "ref": "219",
+   "name": "metal contact",
+   "figs": [
+    "6A"
+   ]
+  },
+  {
+   "ref": "220",
+   "name": "p-p heterojunction",
+   "figs": [
+    "6A"
+   ]
+  },
+  {
+   "ref": "221",
+   "name": "n-n heterojunction",
+   "figs": [
+    "6A"
+   ]
+  },
+  {
+   "ref": "222",
+   "name": "p-n heterojunction",
+   "figs": [
+    "6B"
+   ]
+  },
+  {
+   "ref": "223",
+   "name": "p-p heterojunction",
+   "figs": [
+    "6A",
+    "6B"
+   ]
+  },
+  {
+   "ref": "224",
+   "name": "narrow band gap region",
+   "figs": [
+    "6A",
+    "6B"
+   ],
+   "alt": [
+    "intermediate region",
+    "second layer"
+   ]
+  },
+  {
+   "ref": "225",
+   "name": "n-n heterojunction",
+   "figs": [
+    "6A"
+   ]
+  },
+  {
+   "ref": "226",
+   "name": "p-n homojunction",
+   "figs": [
+    "6A"
+   ]
+  },
+  {
+   "ref": "t",
+   "name": "separation of the two heterojunctions",
+   "figs": [
+    "2A",
+    "2B",
+    "6A",
+    "6B"
+   ],
+   "alt": [
+    "thickness t of the intermediate region"
+   ]
+  },
+  {
+   "ref": "d_{1}",
+   "name": "distance",
+   "figs": [
+    "6A"
+   ]
+  },
+  {
+   "ref": "d_{2}",
+   "name": "distance",
+   "figs": [
+    "6A"
+   ]
+  },
+  {
+   "ref": "E_{Fc}",
+   "name": "Fermi level in the conduction band",
+   "figs": [
+    "2A",
+    "2B",
+    "3A",
+    "4A",
+    "4B",
+    "4C"
+   ]
+  },
+  {
+   "ref": "E_{Fv}",
+   "name": "Fermi level in the valence band",
+   "figs": [
+    "2A",
+    "2B",
+    "4B",
+    "4C"
+   ]
+  },
+  {
+   "ref": "F_{FV}",
+   "name": "",
+   "figs": [
+    "3A"
+   ]
+  },
+  {
+   "ref": "E'_{Fc}",
+   "name": "new Fermi level",
+   "figs": [
+    "3B"
+   ]
+  },
+  {
+   "ref": "E'_{Fv}",
+   "name": "",
+   "figs": [
+    "3B"
+   ]
+  },
+  {
+   "ref": "E''_{Fc}",
+   "name": "new Fermi level",
+   "figs": [
+    "3C"
+   ]
+  },
+  {
+   "ref": "E''_{Fv}",
+   "name": "",
+   "figs": [
+    "3C"
+   ]
+  },
+  {
+   "ref": "E_{gn}",
+   "name": "effective band gap",
+   "figs": [
+    "2A"
+   ]
+  },
+  {
+   "ref": "E_{gi}",
+   "name": "effective band gap",
+   "figs": [
+    "2A"
+   ]
+  },
+  {
+   "ref": "E_{gp}",
+   "name": "effective band gap",
+   "figs": [
+    "2A"
+   ]
+  },
+  {
+   "ref": "E_{D}",
+   "name": "energy separation",
+   "figs": [
+    "4A"
+   ]
+  },
+  {
+   "ref": "E_{A}",
+   "name": "",
+   "figs": [
+    "4B"
+   ]
+  }
+ ]
+}

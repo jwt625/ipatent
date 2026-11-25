@@ -1,0 +1,62 @@
+{
+  "patent": "Filed in Canada on 1925-10-22 and in the United States on 1926-10-08, issued 1930-01-28 to Julius Edgar Lilienfeld, a physicist who had been a professor at the University of Leipzig before moving to the United States. It is the earliest of his patents on controlling the current in a thin conducting solid with an electrostatic field, the principle of the field-effect transistor. The device is a thin film of a copper-sulphur compound bridging two metal terminals on a glass block, with an aluminum-foil electrode whose edge touches the film midway between them; the electrode forms a rectifying contact with the film and is held more positive than the film at that point, so it draws no current while its potential modulates the current between the terminals. In modern terms it is a thin-film field-effect transistor with a rectifying (metal-semiconductor) gate; his later US 1,900,018 (issued 1933) places an insulating layer between the control electrode and the film. The patent's explanation of the effect (organized molecular dipoles, \"bipoles\") predates band theory and is not the modern account. When Bell Telephone Laboratories prepared its transistor patent applications in 1948, its attorneys found Lilienfeld's patents, and claims based on the field-effect principle were left out (Riordan and Hoddeson, Crystal Fire, 1997).",
+  "figs": {
+    "1": "Perspective of the glass block 10 with its front face drawn in section (dashed diagonal hatching = glass). The thin hatched layers on the top surface are terminal coatings 11 (left, +) and 12 (right, -), both covered by film 15, which also spans the bare glass between them. The wavy line down the middle of the section is fracture 14; foil 13 sits in it with its upper edge at the surface, and the dashed wavy line on the top face follows the fracture under the film. Wiring: battery 17 and the primary of transformer 21 are in series between the terminals through conductors 16; the two input terminals at the left go one to the foil (+) and one through battery 18 to the negative side. The bumps where the input lines meet the left conductor 16 are crossovers, not joints.",
+    "2": "Potential along the film plotted against position (Volts vertical, Dimensions horizontal). Level a lies over terminal coating 11, level b over coating 12, and slope c across the gap between them; the vertical dashed lines mark the coating edges. The dashed line d stands at the electrode position and ends above line c, showing the electrode held more positive than the film beneath it.",
+    "3": "Four amplifiers of the Fig. 1 type drawn as boxes, each with two input terminals at the left, two output terminals at the right and three supply terminals along the bottom. The antenna 20 is coupled through a variable coupling coil to a tuned circuit with a variable capacitor ahead of the first stage. Stages are coupled by transformers 21: two radio-frequency stages 23, then rectifier 26 at the input of the first audio stage, then two audio-frequency stages 24, the last driving loudspeaker 25. Batteries 27 and 28 feed all stages over common bus lines (arched hops are crossovers); the zigzag at the left of battery 28 is an unnumbered tapped resistor."
+  },
+  "parts": {
+    "13": "The control electrode; in modern terms the gate. The text gives its thickness as about one ten-thousandth of an inch (2.5 micrometres) and asks for minimum dimensions to reduce capacitance.",
+    "15": "The controlled conducting layer; in modern terms the channel. The text names a compound of copper and sulphur, made by depositing copper and sulphurizing it.",
+    "11": "In modern terms the source-side terminal, at the positive end of the film.",
+    "12": "In modern terms the drain-side terminal, at the negative end of the film.",
+    "18": "Bias source that holds electrode 13 above the film potential at that point; the incoming signal is in series with it.",
+    "d": "Drawn above the gradient c at the electrode position: the electrode potential exceeds the local film potential, the condition the claims require."
+  },
+  "glossary": [
+    {
+      "term": "field effect",
+      "def": "Control of the conductivity of a thin conducting or semiconducting layer by an electric field applied across it from a nearby electrode, which changes the density of mobile charge in the layer."
+    },
+    {
+      "term": "field-effect transistor",
+      "def": "A three-terminal device in which a gate electrode controls, by its field, the current between source and drain terminals through a channel. The gate draws little or no current."
+    },
+    {
+      "term": "element of uni-directional conductivity",
+      "def": "The patent's term for a rectifying contact: here the junction between the aluminum electrode edge and the copper-sulphur film."
+    },
+    {
+      "term": "rectifying metal contact",
+      "def": "A metal-semiconductor contact that conducts readily in one direction only; held in reverse bias it passes almost no current, so it can serve as a gate."
+    },
+    {
+      "term": "copper sulphide",
+      "def": "A compound of copper and sulphur (cuprous sulphide, Cu_{2}S, and related phases); a semiconductor."
+    },
+    {
+      "term": "thermionic tube or valve",
+      "def": "A vacuum tube in which a heated filament emits electrons and a grid controls their flow to the anode; the standard amplifier of the 1920s that the patent sets out to replace."
+    },
+    {
+      "term": "radio frequency / audio frequency",
+      "def": "Signal frequencies of the radio carrier (hundreds of kilohertz and up) and of sound (roughly 20 Hz to 20 kHz)."
+    },
+    {
+      "term": "spatter",
+      "def": "The patent's term for depositing a metal film in vacuum, here by heating copper wire."
+    },
+    {
+      "term": "sulphurizing",
+      "def": "Converting a deposited metal into its sulphide by exposure to sulphur vapour, hydrogen sulphide or a sulphur solution."
+    },
+    {
+      "term": "bipoles",
+      "def": "The patent's word for electric dipoles; its proposed mechanism, dipole alignment along the current, is not the modern explanation of the field effect."
+    },
+    {
+      "term": "tuned circuit",
+      "def": "A coil and capacitor in parallel whose resonant frequency, set here by the variable capacitor, selects the station."
+    }
+  ]
+}

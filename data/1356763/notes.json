@@ -1,0 +1,24 @@
+{
+  "patent": "Filed 1915-06-01 and issued 1920-10-26 to Ralph V. L. Hartley of New York, assigned by mesne assignments to Western Electric Company, the Bell System's manufacturing and engineering arm. It is the patent on the Hartley oscillator: a triode (audion) whose cathode connects to the junction of two series inductances that, with one condenser across both, form the tuned circuit; grid and anode connect to the two ends, so the voltages on them swing in opposite phase and the tube's amplification feeds energy back in step with the oscillation. The tapped inductance is the circuit's defining feature; the companion Western Electric design by Edwin H. Colpitts (US 1,624,537, filed 1918-02-01) taps the capacitance instead. Hartley is also known for an early quantitative measure of information (R. V. L. Hartley, \"Transmission of Information\", Bell System Technical Journal, 1928).",
+  "figs": {
+    "1": "The whole circuit. Tube 5 is the circle holding the V-shaped filament 6, the zigzag grid 8 and the plate 7. Coils 3 and 4 in series run from terminal 13 round the left side to terminal 14 and meet at point 12, where the filament lead joins; variable condenser 2 (arrow) spans 13 and 14, completing the tuned circuit. The grid reaches 13 through bias battery 9 and the plate reaches 14 through plate battery 10, so the plate current returns to the filament through coil 4 and the grid bias through coil 3. Battery 11, between the filament legs, heats the filament. The arrowheads where the vertical wire meets coils 3 and 4 are sliding contacts. Output is taken either from winding 16 coupled to coil 4 or from leads 15, which the wavy brace marks as a pair."
+  },
+  "parts": {
+    "12": "The junction of inductances 3 and 4: the tap on the tank inductance that defines the Hartley circuit. The text places it midway electrically between the condenser terminals.",
+    "8": "The claims call it an impedance-varying element; the text says the grid typifies any control element acting electrostatically on the electron stream.",
+    "16": "A secondary winding; the text says coils 4 and 16 may act as a transformer to deliver the oscillatory energy, and that 16 may instead be coupled to coil 3.",
+    "15": "An alternative output: the oscillatory voltage between terminals 13 and 14."
+  },
+  "glossary": [
+    {"term": "audion", "def": "Lee de Forest's name for the three-electrode vacuum tube (triode), in general use at the time for any such tube."},
+    {"term": "vacuum tube repeater", "def": "A triode used as an amplifier; \"repeater\" is the telephone term for an amplifier in a line."},
+    {"term": "thermionic", "def": "Electron emission from a heated cathode; the electrons flow to the positive anode through the vacuum."},
+    {"term": "condenser", "def": "Capacitor. \"Capacity\" in the text means capacitance or a capacitor."},
+    {"term": "polarizing battery", "def": "A battery that holds the grid at a steady negative bias relative to the cathode."},
+    {"term": "impedance-varying element", "def": "The claims' generic term for the control electrode (grid), which varies the tube's internal resistance."},
+    {"term": "damping", "def": "The loss of energy each cycle in the circuit resistance, which makes the free oscillation of a tuned circuit die away."},
+    {"term": "undamped oscillations", "def": "Oscillations of constant amplitude, sustained by feeding in energy each cycle; continuous waves, as opposed to the decaying trains of spark transmitters."},
+    {"term": "oscillatory circuit", "def": "A tuned circuit of inductance and capacitance; its natural frequency is 1/(2 pi sqrt(LC))."},
+    {"term": "mesne assignments", "def": "Intermediate transfers of ownership between the inventor and the final assignee."}
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "patent": "Filed in the US on 1926-09-03 (Japanese priority 1926-01-20) and issued 1932-05-24 to Hidetsugu Yagi of Sendai, Japan, assigned to Radio Corporation of America. Yagi was a professor at Tohoku Imperial University in Sendai, where he and his colleague Shintaro Uda developed the parasitic-element beam antenna now called the Yagi-Uda (or Yagi) antenna; Yagi described it in English in \"Beam Transmission of Ultra Short Waves\", Proceedings of the Institute of Radio Engineers, vol. 16, 1928, and Uda published the detailed experiments in Japanese journals. Only Yagi is named on this patent. The principle: an unfed vertical conductor near a driven half-wave aerial reflects the wave when its natural frequency is at or below the operating frequency (electrically long) and passes it on, as a director, when its natural frequency is higher (electrically short). Here the conductors sit on concentric rings around the aerial and each can be switched between the two states, so the beam can be stepped or rotated around the station like a lighthouse, without moving any conductor. Claims 7 to 11 also cover the fixed in-line case, a tuned antenna with one or more higher-tuned conductors in line with it; a row of directors with a reflector behind the driven element is the form later in common use for television and amateur reception.",
+  "figs": {
+    "1": "Plan view from above: each small circle is one vertical conductor, the dashed circles are only the rings they stand on (radii given as a quarter wavelength or a little more, a half, and more than three quarters; drawn in about 1:2:3), and the arrow is the beam direction. Open circles are the conductors set as reflectors (21, 31, 32, 34, with portions a and b joined) and hatched circles the shortened directors (22, 23, 24, 33 and the fixed outer ring 41 to 44); the text does not state this symbol convention, it follows from matching the drawing to the text's description of this case. The beam leaves the aerial 1 on the side of directors 23, 33, 43, away from the reflector arc.",
+    "2": "Same layout and symbols as Fig. 1 with six conductors per ring, giving six beam directions 60 degrees apart. The arrow points toward 46: on the inner ring the three conductors facing it (21, 26, 25) are hatched directors and 22, 23, 24 behind are open reflectors; on the middle ring only 36 is a director and the other five are reflectors; the outer ring is all hatched.",
+    "3": "Same layout and symbols with eight conductors per ring, 45 degrees apart, beam toward 41 (upward). Inner ring: 21, 22, 23, 27, 28 are directors on the forward half and 24, 25, 26 reflectors behind. Middle ring: 31, 32, 38 directors within 45 degrees of the arrow, 33 to 37 reflectors. Outer ring 41 to 48 all directors.",
+    "4": "Side view of one switchable conductor of the inner and middle rings: a vertical wire in two pieces, the long upper portion a and the short lower portion b, with the break between them. The arrowed lines are dimension lines giving the two lengths. With a and b connected the whole is at least half a wavelength long (reflector); with b cut off, a alone is shorter than half a wavelength (director). The switching means is not drawn."
+  },
+  "parts": {
+    "1": "The driven element: a vertical aerial insulated from the earth and proportioned to oscillate at half a wavelength, coupled to the transmitter.",
+    "21": "21 to 24 (Fig. 1) stand on the inner ring, about a quarter wavelength or a little more from aerial 1; each has the switchable portions a and b of Fig. 4.",
+    "31": "31 to 34 (Fig. 1) stand on the middle ring, half a wavelength from aerial 1; each has the switchable portions a and b of Fig. 4.",
+    "41": "41 to 44 (Fig. 1) stand on the outer ring, more than three quarters of a wavelength out; they are fixed shorter than half a wavelength (directors) and the text calls them not essential.",
+    "25": "Not named in the text; an additional inner-ring conductor of Figs. 2 and 3.",
+    "26": "Not named in the text; an additional inner-ring conductor of Figs. 2 and 3.",
+    "27": "Not named in the text; an additional inner-ring conductor of Fig. 3.",
+    "28": "Not named in the text; an additional inner-ring conductor of Fig. 3.",
+    "35": "Not named in the text; an additional middle-ring conductor of Figs. 2 and 3.",
+    "36": "Not named in the text; an additional middle-ring conductor of Figs. 2 and 3.",
+    "37": "Not named in the text; an additional middle-ring conductor of Fig. 3.",
+    "38": "Not named in the text; an additional middle-ring conductor of Fig. 3.",
+    "45": "Not named in the text; an additional outer-ring conductor of Figs. 2 and 3.",
+    "46": "Not named in the text; an additional outer-ring conductor of Figs. 2 and 3.",
+    "47": "Not named in the text; an additional outer-ring conductor of Fig. 3.",
+    "48": "Not named in the text; an additional outer-ring conductor of Fig. 3.",
+    "a": "The longer portion, always in circuit; alone it is shorter than half a wavelength.",
+    "b": "The shorter portion, connected to make the conductor a reflector or disconnected to make it a director."
+  },
+  "glossary": [
+    {
+      "term": "parasitic element",
+      "def": "A conductor near a driven antenna but not connected to the transmitter; it is excited by the radiated field and re-radiates, shaping the combined pattern."
+    },
+    {
+      "term": "reflector",
+      "def": "A parasitic element tuned at or below the operating frequency (electrically long, here at least half a wavelength); it pushes the radiation away from its own side."
+    },
+    {
+      "term": "director",
+      "def": "A parasitic element tuned above the operating frequency (electrically short); it draws the radiation toward its own side. The patent calls this the wave director effect."
+    },
+    {
+      "term": "natural frequency",
+      "def": "The frequency at which a conductor resonates by itself, set mainly by its length; a straight wire resonates near the frequency whose half wavelength equals its length."
+    },
+    {
+      "term": "half-wave aerial",
+      "def": "A straight conductor about half a wavelength long, resonant at the operating frequency; the patent's main aerial 1."
+    },
+    {
+      "term": "radio beacon",
+      "def": "A fixed transmitter whose signal ships or aircraft use to find their bearing; a rotating beam lets a receiver tell its bearing from when the signal peaks."
+    },
+    {
+      "term": "wave length",
+      "def": "The free-space wavelength of the transmitted wave; all ring radii and conductor lengths in the patent are given in fractions of it."
+    },
+    {
+      "term": "antennæ",
+      "def": "Older plural of antenna, used in the claims."
+    }
+  ]
+}

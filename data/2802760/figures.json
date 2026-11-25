@@ -1,0 +1,164 @@
+{
+ "pn": "2802760",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    219,
+    691,
+    1831,
+    1426
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    211,
+    1415,
+    1829,
+    2113
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    661,
+    2225,
+    1485,
+    2639
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "11",
+   "name": "elongated quartz tube",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "quartz tube"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "inlet",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "quartz mount",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "monocrystalline silicon wafer",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "fritted glass bubbler",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "Heating coils",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "elongated tube",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "21",
+   "name": "bubbler",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "source or supply",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "separate heaters",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "25",
+   "name": "separate heaters",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "26",
+   "name": "heat shields",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "31",
+   "name": "n-type zone",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "p-type zone",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "33",
+   "name": "n-type zone",
+   "figs": [
+    "3"
+   ]
+  }
+ ]
+}

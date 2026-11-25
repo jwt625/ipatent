@@ -1,0 +1,1896 @@
+{
+ "pn": "1773980",
+ "figures": [
+  {
+   "id": "1",
+   "label": "Fig. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    160,
+    770,
+    1810,
+    3000
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "Fig. 2",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    250,
+    650,
+    815,
+    2950
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "Fig. 3",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    800,
+    870,
+    1800,
+    2775
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "Fig. 4",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    270,
+    770,
+    722,
+    2780
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "Fig. 5",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    640,
+    780,
+    1000,
+    2780
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "Fig. 6",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    985,
+    1990,
+    1505,
+    2725
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "Fig. 7",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    950,
+    1005,
+    1515,
+    1870
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "8",
+   "label": "Fig. 8",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    935,
+    556,
+    1470,
+    1025
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "9",
+   "label": "Fig. 9",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    1505,
+    1990,
+    1870,
+    2560
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "10",
+   "label": "Fig. 10",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    1500,
+    1490,
+    1840,
+    1885
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "11",
+   "label": "Fig. 11",
+   "sheet": 4,
+   "page": 3,
+   "crop": [
+    360,
+    1132,
+    720,
+    2810
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "12",
+   "label": "Fig. 12",
+   "sheet": 4,
+   "page": 3,
+   "crop": [
+    800,
+    1110,
+    1040,
+    2810
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "13",
+   "label": "Fig. 13",
+   "sheet": 4,
+   "page": 3,
+   "crop": [
+    1100,
+    1110,
+    1440,
+    2780
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "14",
+   "label": "Fig. 14",
+   "sheet": 4,
+   "page": 3,
+   "crop": [
+    1010,
+    610,
+    1770,
+    1110
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "15",
+   "label": "Fig. 15",
+   "sheet": 4,
+   "page": 3,
+   "crop": [
+    1370,
+    2200,
+    1830,
+    2620
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "16",
+   "label": "Fig. 16",
+   "sheet": 4,
+   "page": 3,
+   "crop": [
+    1370,
+    1880,
+    1830,
+    2238
+   ],
+   "rotate": 270,
+   "front_page": false
+  },
+  {
+   "id": "17",
+   "label": "Fig. 17",
+   "sheet": 4,
+   "page": 3,
+   "crop": [
+    410,
+    600,
+    1005,
+    1140
+   ],
+   "rotate": 270,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "2",
+   "name": "object",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "3",
+   "name": "arc light",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "4",
+   "name": "lens",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "5",
+   "name": "lens",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "6",
+   "name": "light sensitive plate",
+   "figs": [
+    "1",
+    "7"
+   ],
+   "alt": [
+    "cathode"
+   ]
+  },
+  {
+   "ref": "7",
+   "name": "photo electric cell",
+   "figs": [
+    "1",
+    "7",
+    "8"
+   ],
+   "alt": [
+    "photo-electric cell"
+   ]
+  },
+  {
+   "ref": "8",
+   "name": "fine mesh screen",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "10",
+   "name": "anode",
+   "figs": [
+    "1",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "electric shutter",
+   "figs": [
+    "1",
+    "7",
+    "8"
+   ],
+   "alt": [
+    "shutter"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "small aperture",
+   "figs": [
+    "7",
+    "8"
+   ],
+   "alt": [
+    "opening"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "plates",
+   "figs": [
+    "1",
+    "8"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "plates",
+   "figs": [
+    "1",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "plates",
+   "figs": [
+    "1",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "plates",
+   "figs": [
+    "1",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "17",
+   "name": "oscillator",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "tri-electrode valve",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "tube"
+   ]
+  },
+  {
+   "ref": "21",
+   "name": "grid leak",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "grid",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "negative bias battery",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "filament",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "25",
+   "name": "battery",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "25'",
+   "name": "choke coil",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "26",
+   "name": "plate",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "26'",
+   "name": "battery",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "27",
+   "name": "inductance",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "28'",
+   "name": "capacity",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "28",
+   "name": "fixed capacity",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "29",
+   "name": "variable capacity",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "30",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "31",
+   "name": "lead",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "31'",
+   "name": "secondary coil",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "tube",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "33",
+   "name": "plate",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "34",
+   "name": "inductance",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "39",
+   "name": "filament",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "40",
+   "name": "primary",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "inductance"
+   ]
+  },
+  {
+   "ref": "41",
+   "name": "capacity",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "42",
+   "name": "grid",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "43",
+   "name": "capacities",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "44",
+   "name": "capacities",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "45",
+   "name": "leak",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "46",
+   "name": "negative bias battery",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "48",
+   "name": "tube",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "audion",
+    "audion tube"
+   ]
+  },
+  {
+   "ref": "49",
+   "name": "grid",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "50",
+   "name": "grid leak and grid condenser",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "51",
+   "name": "inductance",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "secondary"
+   ]
+  },
+  {
+   "ref": "52",
+   "name": "filament",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "secondary"
+   ]
+  },
+  {
+   "ref": "53",
+   "name": "condenser",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "54",
+   "name": "plate",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "55",
+   "name": "lead",
+   "figs": [
+    "1",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "56",
+   "name": "lead",
+   "figs": [
+    "1",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "ref": "57",
+   "name": "battery",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "58",
+   "name": "resistance",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "59",
+   "name": "modulating tube",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "modulated tube"
+   ]
+  },
+  {
+   "ref": "60",
+   "name": "plate",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "61",
+   "name": "filament",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "tube"
+   ]
+  },
+  {
+   "ref": "62",
+   "name": "grid",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "63",
+   "name": "negative bias battery",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "64",
+   "name": "condenser",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "65",
+   "name": "lead",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "67",
+   "name": "battery",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "68",
+   "name": "lead",
+   "figs": [
+    "1",
+    "7"
+   ]
+  },
+  {
+   "ref": "69",
+   "name": "resistance",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "70",
+   "name": "line",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "71",
+   "name": "line",
+   "figs": [
+    "1",
+    "7"
+   ]
+  },
+  {
+   "ref": "72",
+   "name": "tube",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "amplifying and modulating tube"
+   ]
+  },
+  {
+   "ref": "73",
+   "name": "tube",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "oscillator",
+    "oscillating tube"
+   ]
+  },
+  {
+   "ref": "74",
+   "name": "plate",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "75",
+   "name": "lead",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "76",
+   "name": "inductance",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "coil"
+   ]
+  },
+  {
+   "ref": "77",
+   "name": "condenser",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "line"
+   ]
+  },
+  {
+   "ref": "78",
+   "name": "grid",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "79",
+   "name": "variable tap",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "80",
+   "name": "variable condenser",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "81",
+   "name": "line",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "82",
+   "name": "filament",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "82a",
+   "name": "condenser",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "84",
+   "name": "grid leak",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "85",
+   "name": "negative battery",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "86",
+   "name": "grid",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "87",
+   "name": "negative bias battery",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "88",
+   "name": "plate",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "89",
+   "name": "line",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "90",
+   "name": "resistance or choke",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "choke"
+   ]
+  },
+  {
+   "ref": "91",
+   "name": "battery",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "92",
+   "name": "filament",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "choke"
+   ]
+  },
+  {
+   "ref": "94",
+   "name": "double modulating tube",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "double modulator tube"
+   ]
+  },
+  {
+   "ref": "95",
+   "name": "oscillator",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "oscillator tube"
+   ]
+  },
+  {
+   "ref": "96",
+   "name": "grid",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "97",
+   "name": "lead",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "98",
+   "name": "coil",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "99",
+   "name": "filament",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "100",
+   "name": "lead",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "101",
+   "name": "lead",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "102",
+   "name": "plate",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "103",
+   "name": "lead",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "104",
+   "name": "radio frequency choke or resistance",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "105",
+   "name": "battery",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "106",
+   "name": "radio frequency choke",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "107",
+   "name": "plate",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "108",
+   "name": "lead",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "109",
+   "name": "inductance",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "110",
+   "name": "lead",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "grid leak"
+   ]
+  },
+  {
+   "ref": "111",
+   "name": "condenser",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "112",
+   "name": "grid",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "113",
+   "name": "filament",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "114",
+   "name": "lead",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "115",
+   "name": "variable condenser",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "116",
+   "name": "condenser",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "117",
+   "name": "antenna",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "118",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "20a",
+   "name": "oscillating tube",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "21a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "22a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "23a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "24a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "25a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "25'a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "26a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "26'a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "27a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "28a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "28'a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "29a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "30a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "31a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "31'a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "32a",
+   "name": "tube",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "33a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "34a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "39a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "40a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "41a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "42a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "43a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "44a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "45a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "46a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "48a",
+   "name": "tube",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "49a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "50a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "51a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "52a",
+   "name": "filament",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "53a",
+   "name": "",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "54a",
+   "name": "plate",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "55a",
+   "name": "leads",
+   "figs": [
+    "1",
+    "8"
+   ]
+  },
+  {
+   "ref": "56a",
+   "name": "leads",
+   "figs": [
+    "1",
+    "8"
+   ]
+  },
+  {
+   "ref": "57a",
+   "name": "battery",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "58a",
+   "name": "resistance",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "120",
+   "name": "arc light",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "121",
+   "name": "shutter",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "122",
+   "name": "small aperture",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "123",
+   "name": "polarizer",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "Nicol prism"
+   ]
+  },
+  {
+   "ref": "124",
+   "name": "lens",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "125",
+   "name": "device",
+   "figs": [
+    "2",
+    "9",
+    "10"
+   ],
+   "alt": [
+    "light rotator"
+   ]
+  },
+  {
+   "ref": "126",
+   "name": "coil",
+   "figs": [
+    "2",
+    "3",
+    "9"
+   ]
+  },
+  {
+   "ref": "127",
+   "name": "electrically optically active medium",
+   "figs": [
+    "2",
+    "9"
+   ]
+  },
+  {
+   "ref": "128",
+   "name": "glass plates",
+   "figs": [
+    "2",
+    "9"
+   ]
+  },
+  {
+   "ref": "129",
+   "name": "gratings",
+   "figs": [
+    "2",
+    "6",
+    "10",
+    "17"
+   ],
+   "alt": [
+    "first grating",
+    "grating"
+   ]
+  },
+  {
+   "ref": "130",
+   "name": "gratings",
+   "figs": [
+    "2",
+    "6",
+    "17"
+   ],
+   "alt": [
+    "second grating",
+    "grating"
+   ]
+  },
+  {
+   "ref": "131",
+   "name": "bi-axial crystal",
+   "figs": [
+    "2",
+    "6",
+    "17"
+   ]
+  },
+  {
+   "ref": "132",
+   "name": "lens",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "133",
+   "name": "oscillographs",
+   "figs": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "ref": "134",
+   "name": "oscillographs",
+   "figs": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "ref": "135",
+   "name": "lens",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "136",
+   "name": "screen",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "137",
+   "name": "base or body",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "138",
+   "name": "quartz strip",
+   "figs": [
+    "4",
+    "5"
+   ],
+   "alt": [
+    "quartz strip vibrator"
+   ]
+  },
+  {
+   "ref": "139",
+   "name": "silvered mirror surface",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "140",
+   "name": "holder",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "141",
+   "name": "set-screw",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "142",
+   "name": "quartz strips",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "143",
+   "name": "quartz strips",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "144",
+   "name": "metallic plating",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "145",
+   "name": "metallic plating",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "146",
+   "name": "guides",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "147",
+   "name": "clamps",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "148",
+   "name": "carriers",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "149",
+   "name": "adjusting screws",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "149a",
+   "name": "rests",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "150",
+   "name": "clamps",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "151",
+   "name": "adjusting screws",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "152",
+   "name": "conductors",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "153",
+   "name": "conductors",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "154",
+   "name": "springs",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "155",
+   "name": "receiving antenna",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "156",
+   "name": "inductance",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "primary"
+   ]
+  },
+  {
+   "ref": "157",
+   "name": "ground",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "158",
+   "name": "secondary",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "159",
+   "name": "detector",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "tube"
+   ]
+  },
+  {
+   "ref": "160",
+   "name": "tuning condenser",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "161",
+   "name": "plate",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "162",
+   "name": "inductance",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "164",
+   "name": "second detector",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "detector tube",
+    "detector",
+    "second detector circuit"
+   ]
+  },
+  {
+   "ref": "165",
+   "name": "plate",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "166",
+   "name": "condenser",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "167",
+   "name": "battery",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "168",
+   "name": "condenser",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "169",
+   "name": "choke",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "170",
+   "name": "line",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "171",
+   "name": "line",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "172",
+   "name": "grid leak",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "173",
+   "name": "detector tube",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "detector"
+   ]
+  },
+  {
+   "ref": "174",
+   "name": "grid",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "175",
+   "name": "plate",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "176",
+   "name": "line",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "177",
+   "name": "line",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "178",
+   "name": "battery",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "179",
+   "name": "filament",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "180",
+   "name": "lead",
+   "figs": []
+  },
+  {
+   "ref": "200",
+   "name": "resistance",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "201",
+   "name": "line",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "202",
+   "name": "resistance",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "203",
+   "name": "tap",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "A",
+   "name": "beam of light",
+   "figs": [
+    "15",
+    "16",
+    "17"
+   ],
+   "alt": [
+    "ray"
+   ]
+  }
+ ]
+}

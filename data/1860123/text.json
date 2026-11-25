@@ -1,0 +1,849 @@
+{
+ "pn": "1860123",
+ "number": "1,860,123",
+ "cite_scheme": "printed page:line",
+ "title": "VARIABLE DIRECTIONAL ELECTRIC WAVE GENERATING DEVICE",
+ "inventors": [
+  "Hidetsugu Yagi"
+ ],
+ "assignee": "Radio Corporation of America, of New York, N. Y., a corporation of Delaware",
+ "filed": "1926-09-03",
+ "issued": "1932-05-24",
+ "appl_no": "133,455",
+ "priority": "Japan January 20, 1926",
+ "int_cl": null,
+ "us_cl": null,
+ "refs_patents": [],
+ "refs_other": [],
+ "examiners": null,
+ "claims_count": 11,
+ "drawing_figures": 4,
+ "abstract": null,
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "page": 1,
+     "cite": "p.1:1",
+     "col": null,
+     "line": null,
+     "text": "The present invention relates to a system of generating or projecting variable directional electric waves from an antenna or a wireless station, or more particularly to a device for changing in simple and effective manner the directionality of the electric waves radiated from a wireless system which is commonly called a radio beacon station."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:9",
+     "col": null,
+     "line": null,
+     "text": "The object of my invention is to provide simple and positive means by which wireless electric waves can be transmitted to various directions varied in a certain definite manner as desired."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:14",
+     "col": null,
+     "line": null,
+     "text": "As a result of numerous experiments I have found out that if a metallic conductor or antenna is located in vertical position and at a suitable distance from a vertical main antenna for wireless signaling and if the natural frequency of the conductor be taken equal to or lower than the wave frequency then the conductor will effect the wave reflecting or collecting action, while if the natural frequency of the conductor be taken higher than the wave frequency the conductor will present electric wave transmitting action. I took advantage of these facts for the wireless signaling system and have specially selected the arrangement of the conductors according to my invention for the purpose of varying the directionality of electric wave."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:32",
+     "col": null,
+     "line": null,
+     "text": "The novel features which I believe to be characteristic of my invention are set forth with particularity in the appended claims. My invention itself, however, both as to its organization and method of operation will best be understood by reference to the following specification taken in connection with the accompanying drawings in which Fig. 1 is a plan view of an arrangement, embodying my invention; Figs. 2 and 3 are also plan views representing modified forms of my invention; and Fig. 4 is a side view of a metallic conductor to be employed in my invention."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:47",
+     "col": null,
+     "line": null,
+     "text": "Now referring to Fig. 1, 1 is a main aerial which is erected in substantially vertical position and electrically insulated from the earth to be co-operated or coupled with suitable wireless system and is proportioned to oscillate at one-half wave length."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:53",
+     "col": null,
+     "line": null,
+     "text": "Conductors, such as metallic wire or antenna, 21 to 24, 31 to 34, and 41 to 44 are erected in vertical positions insulated from the earth around the main antenna 1 in the manner hereinafter described. The conductors 21 to 24 inclusive are arranged on a circle having a radius of one-quarter wave length or a little larger from the antenna 1. The conductors 31 to 34, and 41 to 44 inclusive are arranged on concentric circles one of which having radius of one-half wave length and the other having radius longer than three-quarter wave length with the main antenna 1 at centre. Each of the conductors 21 to 24 and 31 to 34 consists of two portions a and b as shown by Fig. 4, which may be electrically connected or separated by suitable means, and if these two portions a and b be connected together the total length of the conductor will be equal to or more than one-half wave length thereby operating to reflect the electric wave. On the other hand, if these two portions be cut away, then only the portion a which constitutes a greater part of the conductor will operate and the effective length is shorter than one-half wave length thereby assisting the propagation or transmission of electric wave energy, or, as differentially stated, the lengths of conductors 41 to 44 are taken less than one-half wave length so that they assist the propagation of electric energy, but these conductors, not being essential, may be omitted."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:86",
+     "col": null,
+     "line": null,
+     "text": "The operation of the antenna system as arranged and constructed as shown in Fig. 1 is as follows:—Assuming now a directional electric wave is to be generated or radiated from the antenna 1 in the direction shown by the arrow in Fig. 1, two portions a and b of the conductors 21, 31, 32 and 34 should be connected together to have a length more than one-half wave length, and the conductors 22, 23, 24 and 33 should be made shorter than one-half wave length by electrically disconnecting the portions b and allowing only the portions a to be effective, so that the electric wave issued from the antenna can be reflected by the conductors 21, 31, 32 and 34, meanwhile the propagation is assisted by the conductors 23, 33 and 43, thereby resulting unidirectional wave transmission in direction of the arrow only. In this case the conductors 41, 42 and 44 have no effect as they are positioned behind the conductors 31, 32 and 34 which are of reflecting nature, but the conductor 43 only operates to assist the transmission of electric waves."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:10",
+     "col": null,
+     "line": null,
+     "text": "It will be evident from the foregoing that the directional electric wave issuing from the antenna can be controlled in any desired manner by controlling the connection or disconnection in each conductor by suitable hand operating or automatic means, and the electric wave can be rotated around the main antenna just as the light is projected rotatively from a revolving light house."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:19",
+     "col": null,
+     "line": null,
+     "text": "Though I have shown in Fig. 1 the arrangement of the conductors by which the directional electric wave can be projected into four directions from the antenna, the number of directions to which the waves are to be projected can be increased by increasing the number of conductors. It will be evident that the directional electric waves can be projected for instance into six directions according to the arrangement shown in Fig. 2, and into eight directions by the arrangement shown in Fig. 3."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:31",
+     "col": null,
+     "line": null,
+     "text": "Though I have shown in Figs. 2 and 3 different arrangements of the main antenna and conductors each having the above described characteristics in order to project the electric waves in the direction of the arrow the situation and operation of each conductor are already evident from the description made in reference to Fig. 1."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:39",
+     "col": null,
+     "line": null,
+     "text": "As it is apparent from the foregoing the conductors constructed and arranged according to my invention have effect of radiating the electro-magnetic waves from the main antenna in a definite direction by suitably selecting the length or the natural frequency of the operating conductors. The manner in which the wave is radiated can be performed in any way as desired, such for instance as the wave is at first sent into two directions simultaneously and then into opposite directions or alternately into one or other direction or in successively rotating manner. It will also be evident that such control can easily be done by the change of natural frequency of the conductors using some relay and push button device (not shown) without changing the relative positions of the conductors."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:59",
+     "col": null,
+     "line": null,
+     "text": "In accordance with the provision of the patent statutes, I have described the principle of operation of my invention, together with several embodiments thereof, but I do not wish to be limited to the particular arrangements shown and described as it will be apparent that modifications therein may be made without departing from the scope of my invention as set forth in the appended claims."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:55",
+     "col": null,
+     "line": null,
+     "text": "In witness whereof, I have hereunto set my hand this 9th day of June, 1926."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:57",
+     "col": null,
+     "line": null,
+     "text": "HIDETSUGU YAGI."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "page": 1,
+   "cite": "p.1:39",
+   "col": null,
+   "line": null,
+   "text": "Fig. 1 is a plan view of an arrangement, embodying my invention"
+  },
+  {
+   "fig": "2",
+   "page": 1,
+   "cite": "p.1:41",
+   "col": null,
+   "line": null,
+   "text": "Figs. 2 and 3 are also plan views representing modified forms of my invention"
+  },
+  {
+   "fig": "3",
+   "page": 1,
+   "cite": "p.1:41",
+   "col": null,
+   "line": null,
+   "text": "Figs. 2 and 3 are also plan views representing modified forms of my invention"
+  },
+  {
+   "fig": "4",
+   "page": 1,
+   "cite": "p.1:44",
+   "col": null,
+   "line": null,
+   "text": "Fig. 4 is a side view of a metallic conductor to be employed in my invention."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "page": 2,
+   "cite": "p.2:70",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "1. In wireless directional transmission the combination with a main vertical antenna for radiating electro-magnetic waves, of a number of auxiliary antennæ vertically situated at a suitable distance from said main antenna and symmetrically around it which antennæ are not electrically connected and means for varying the natural frequencies of said antennæ to the extent lower or higher than the wave frequency to utilize the wave director effect of such combination."
+  },
+  {
+   "n": 2,
+   "page": 2,
+   "cite": "p.2:81",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "2. The combination with a vertical main antenna for radiating electro-magnetic waves, of a number of conductors arranged symmetrically on a circle having radius of one-quarter wave length from said main antenna, a number of other series of conductors arranged symmetrically on the concentric circle having radius of one-half wave length, all of these conductors being nonelectrically connected and arranged vertically, and means for varying the natural frequency of some of said conductors to that equal to or lower than the wave frequency and the other to that substantially higher than the wave frequency."
+  },
+  {
+   "n": 3,
+   "page": 2,
+   "cite": "p.2:95",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "3. In a system for the directive propagation of electromagnetic waves, means for electrically projecting electromagnetic waves, by a vertical beam antenna comprising a vertical antenna, a plurality of vertical conductors positioned about the antenna, means for increasing the natural frequencies of said vertical conductors relative to the frequency of the vertical antenna to provide a wave director acting to cause propagation from the antenna towards the conductors tuned to the higher frequencies."
+  },
+  {
+   "n": 4,
+   "page": 2,
+   "cite": "p.2:107",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "4. In a system for the propagation of electromagnetic waves, a main vertical antenna, and a plurality of vertical antennæ surrounding the main antenna and electrically disconnected from one another, the length of said surrounding antennæ adapted to be altered such that their frequency may be increased to a frequency higher than the frequency of the main vertical antenna such that electromagnetic wave propagation occurs predominantly in a direction from the main antenna towards the antennæ tuned to the higher frequencies."
+  },
+  {
+   "n": 5,
+   "page": 2,
+   "cite": "p.2:120",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "5. In directive radio-signaling, the combination with a vertical antenna, of several vertical auxiliary antennæ which are not electrically connected to one another and whose lengths may be varied to alter their frequency to a value greater than the frequency of the vertical antenna whereby electromagnetic wave propagation occurs predominantly in a direction from the vertical antenna towards the auxiliary antennæ."
+  },
+  {
+   "n": 6,
+   "page": 2,
+   "cite": "p.2:130",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "6. In radio-signaling, the combination with a main vertical antenna, of a plurality of vertical auxiliary antennæ which are not electrically connected with the main antenna or with each other, and whose lengths may be varied whereby their natural frequency may be changed in character from a reflector at which time the auxiliary antennæ are tuned to a frequency equal to or less than the frequency of the main antenna such that electromagnetic wave propagation occurs predominantly in a direction from the reflector towards the main antenna to a director at which time the auxiliary antennæ are tuned to a frequency greater than the natural frequency of the main antenna such that electromagnetic wave propagation occurs predominantly in a direction from the main antenna towards the auxiliary antennæ and vice versa."
+  },
+  {
+   "n": 7,
+   "page": 3,
+   "cite": "p.3:20",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "7. In combination, a linear oscillator tuned to a desired transmitting frequency, and a plurality of additional linear oscillators arranged in a line therewith and tuned to a frequency higher than the desired transmitting frequency whereby radiation from the first mentioned linear oscillator is emphasized in the line of and towards the last mentioned group of oscillators."
+  },
+  {
+   "n": 8,
+   "page": 3,
+   "cite": "p.3:29",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "8. In combination, a tuned linear oscillator tuned to a desired transmitting frequency, and another linear oscillator spaced therefrom tuned to a higher frequency, for emphasizing wave propagation in a direction from the transmitting oscillator towards the oscillator tuned to the higher frequency."
+  },
+  {
+   "n": 9,
+   "page": 3,
+   "cite": "p.3:36",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "9. In combination, a tuned antenna tuned to a desired transmitting frequency, and another antenna spaced therefrom tuned to a higher frequency, for emphasizing wave propagation in a direction from the transmitting antenna towards the antenna tuned to the higher frequency."
+  },
+  {
+   "n": 10,
+   "page": 3,
+   "cite": "p.3:43",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "10. In combination, a radiating antenna tuned to a desired radiating frequency, and a plurality of antennæ in line therewith tuned to a higher frequency for obtaining a directional radiation effect in the line of and towards the antennæ."
+  },
+  {
+   "n": 11,
+   "page": 3,
+   "cite": "p.3:49",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "11. In combination, a tuned antenna, and another antenna spaced therefrom tuned to a higher frequency for obtaining a desired directional characteristic predominantly in the line of the antenna and towards the antenna tuned to the higher frequency."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "cite": "header",
+   "col": null,
+   "line": null,
+   "page": 1,
+   "ocr": "Application filed September 8, 1926",
+   "fixed": "Application filed September 3, 1926",
+   "basis": "scan + Google Patents + drawing sheet \"Filed Sept. 3, 1926\""
+  },
+  {
+   "cite": "header",
+   "col": null,
+   "line": null,
+   "page": 1,
+   "ocr": "Serial No. 138,455",
+   "fixed": "Serial No. 133,455",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:16",
+   "col": null,
+   "line": null,
+   "ocr": "vertical pesition",
+   "fixed": "vertical position",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:29",
+   "col": null,
+   "line": null,
+   "ocr": "according te my invention",
+   "fixed": "according to my invention",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:41",
+   "col": null,
+   "line": null,
+   "ocr": "Figs. 2 and 8 are also plan",
+   "fixed": "Figs. 2 and 3 are also plan",
+   "basis": "scan (Google Patents also reads 8)"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:49",
+   "col": null,
+   "line": null,
+   "ocr": "- sition and electrically",
+   "fixed": "sition and electrically",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:59",
+   "col": null,
+   "line": null,
+   "ocr": "or a, lit-",
+   "fixed": "or a lit-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:61",
+   "col": null,
+   "line": null,
+   "ocr": "tors 81 to 34",
+   "fixed": "tors 31 to 34",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:67",
+   "col": null,
+   "line": null,
+   "ocr": "portions a and 0 as",
+   "fixed": "portions a and b as",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:76",
+   "col": null,
+   "line": null,
+   "ocr": "tion @ which",
+   "fixed": "tion a which",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:86",
+   "col": null,
+   "line": null,
+   "ocr": "‘The operation",
+   "fixed": "The operation",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:91",
+   "col": null,
+   "line": null,
+   "ocr": "portions a and } of",
+   "fixed": "portions a and b of",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:95",
+   "col": null,
+   "line": null,
+   "ocr": "tors 22, 28, 24 and 33",
+   "fixed": "tors 22, 23, 24 and 33",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:97",
+   "col": null,
+   "line": null,
+   "ocr": "the portions 6 and",
+   "fixed": "the portions b and",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:100",
+   "col": null,
+   "line": null,
+   "ocr": "conductors 21, 81, 82 and 34",
+   "fixed": "conductors 21, 31, 32 and 34",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:2",
+   "col": null,
+   "line": null,
+   "ocr": "23, 33 and 48",
+   "fixed": "23, 33 and 43",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:6",
+   "col": null,
+   "line": null,
+   "ocr": "conductors 81, 32 and",
+   "fixed": "conductors 31, 32 and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:7",
+   "col": null,
+   "line": null,
+   "ocr": "but ‘the con-",
+   "fixed": "but the con-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:8",
+   "col": null,
+   "line": null,
+   "ocr": "ductor 43. only",
+   "fixed": "ductor 43 only",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:10",
+   "col": null,
+   "line": null,
+   "ocr": "Tt will be evident",
+   "fixed": "It will be evident",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:12",
+   "col": null,
+   "line": null,
+   "ocr": "any ‘desired",
+   "fixed": "any desired",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:19",
+   "col": null,
+   "line": null,
+   "ocr": "Thongh £ have shown | in Fig. 1",
+   "fixed": "Though I have shown in Fig. 1",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:21",
+   "col": null,
+   "line": null,
+   "ocr": "vectional electric wave can. be",
+   "fixed": "rectional electric wave can be",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:22",
+   "col": null,
+   "line": null,
+   "ocr": "the num- -",
+   "fixed": "the num-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:25",
+   "col": null,
+   "line": null,
+   "ocr": "Tt will be evident",
+   "fixed": "It will be evident",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:27",
+   "col": null,
+   "line": null,
+   "ocr": "jected £ for instance",
+   "fixed": "jected for instance",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:31",
+   "col": null,
+   "line": null,
+   "ocr": "Though I “have shown",
+   "fixed": "Though I have shown",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:32",
+   "col": null,
+   "line": null,
+   "ocr": "ferent-arrangements",
+   "fixed": "ferent arrangements",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:41",
+   "col": null,
+   "line": null,
+   "ocr": "ime to my invention",
+   "fixed": "ing to my invention",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:42",
+   "col": null,
+   "line": null,
+   "ocr": "the electro- -magnetic waves",
+   "fixed": "the electro-magnetic waves",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:56",
+   "col": null,
+   "line": null,
+   "ocr": "(not.shown)",
+   "fixed": "(not shown)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:65",
+   "col": null,
+   "line": null,
+   "ocr": "modifications there may be",
+   "fixed": "modifications therein may be",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:66",
+   "col": null,
+   "line": null,
+   "ocr": "mede without departing",
+   "fixed": "made without departing",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:70",
+   "col": null,
+   "line": null,
+   "ocr": "m7 In wireless directional",
+   "fixed": "1. In wireless directional",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:72",
+   "col": null,
+   "line": null,
+   "ocr": "electro-magnetic waves,-of a num-",
+   "fixed": "electro-magnetic waves, of a num-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:73",
+   "col": null,
+   "line": null,
+   "ocr": "auxiliary antenne vertically",
+   "fixed": "auxiliary antennæ vertically",
+   "basis": "scan (ligature æ)"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:74",
+   "col": null,
+   "line": null,
+   "ocr": "said main antenna.",
+   "fixed": "said main antenna",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:75",
+   "col": null,
+   "line": null,
+   "ocr": "which antenne-",
+   "fixed": "which antennæ",
+   "basis": "scan (ligature æ)"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:78",
+   "col": null,
+   "line": null,
+   "ocr": "tenne to the extent",
+   "fixed": "tennæ to the extent",
+   "basis": "scan (ligature æ)"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:87",
+   "col": null,
+   "line": null,
+   "ocr": "symmetrically. on the concentric",
+   "fixed": "symmetrically on the concentric",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:88",
+   "col": null,
+   "line": null,
+   "ocr": "circle ‘having radius",
+   "fixed": "circle having radius",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:94",
+   "col": null,
+   "line": null,
+   "ocr": "than the wave frequency:",
+   "fixed": "than the wave frequency.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:95",
+   "col": null,
+   "line": null,
+   "ocr": "the directive. propa-",
+   "fixed": "the directive propa-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:96",
+   "col": null,
+   "line": null,
+   "ocr": "means for.",
+   "fixed": "means for",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:98",
+   "col": null,
+   "line": null,
+   "ocr": "vertical beam. antenna",
+   "fixed": "vertical beam antenna",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:107",
+   "col": null,
+   "line": null,
+   "ocr": "4 Ina system for the propagation of elec-.",
+   "fixed": "4. In a system for the propagation of elec-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:109",
+   "col": null,
+   "line": null,
+   "ocr": "vertical antenne sur-",
+   "fixed": "vertical antennæ sur-",
+   "basis": "scan (ligature æ)"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:112",
+   "col": null,
+   "line": null,
+   "ocr": "surrounding antenns adapted",
+   "fixed": "surrounding antennæ adapted",
+   "basis": "scan (ligature æ)"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:113",
+   "col": null,
+   "line": null,
+   "ocr": "may be.in-",
+   "fixed": "may be in-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:116",
+   "col": null,
+   "line": null,
+   "ocr": "electromagnetic. wave propagation .occurs",
+   "fixed": "electromagnetic wave propagation occurs",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:117",
+   "col": null,
+   "line": null,
+   "ocr": "predominantly i in a direction",
+   "fixed": "predominantly in a direction",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:118",
+   "col": null,
+   "line": null,
+   "ocr": "the antenns tuned: to the",
+   "fixed": "the antennæ tuned to the",
+   "basis": "scan (ligature æ)"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:119",
+   "col": null,
+   "line": null,
+   "ocr": "higher frequencies. _.",
+   "fixed": "higher frequencies.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:121",
+   "col": null,
+   "line": null,
+   "ocr": "antenna, of-several",
+   "fixed": "antenna, of several",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:122",
+   "col": null,
+   "line": null,
+   "ocr": "auxiliary antenne which",
+   "fixed": "auxiliary antennæ which",
+   "basis": "scan (ligature æ)"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:123",
+   "col": null,
+   "line": null,
+   "ocr": "one another.and whose",
+   "fixed": "one another and whose",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:125",
+   "col": null,
+   "line": null,
+   "ocr": "greater than the frequency.",
+   "fixed": "greater than the frequency",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:128",
+   "col": null,
+   "line": null,
+   "ocr": "ly ina direction",
+   "fixed": "ly in a direction",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:129",
+   "col": null,
+   "line": null,
+   "ocr": "the auxiliary antenne.",
+   "fixed": "the auxiliary antennæ.",
+   "basis": "scan (ligature æ)"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:2",
+   "col": null,
+   "line": null,
+   "ocr": "auxiliary antenne which",
+   "fixed": "auxiliary antennæ which",
+   "basis": "scan (ligature æ)"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:7",
+   "col": null,
+   "line": null,
+   "ocr": "auxiliary antenne are",
+   "fixed": "auxiliary antennæ are",
+   "basis": "scan (ligature æ)"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:13",
+   "col": null,
+   "line": null,
+   "ocr": "auxiliary antenne",
+   "fixed": "auxiliary antennæ",
+   "basis": "scan (ligature æ)"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:18",
+   "col": null,
+   "line": null,
+   "ocr": "auxiliary antenne",
+   "fixed": "auxiliary antennæ",
+   "basis": "scan (ligature æ)"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:45",
+   "col": null,
+   "line": null,
+   "ocr": "9 plurality of antenne",
+   "fixed": "a plurality of antennæ",
+   "basis": "scan (ligature æ)"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:48",
+   "col": null,
+   "line": null,
+   "ocr": "towards the antenne.",
+   "fixed": "towards the antennæ.",
+   "basis": "scan (ligature æ)"
+  }
+ ]
+}

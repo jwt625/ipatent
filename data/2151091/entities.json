@@ -1,0 +1,27 @@
+{
+  "pn": "2151091",
+  "inventors": [
+    {
+      "name": "Homer W. Dudley",
+      "printed": "Homer W. Dudley, Garden City, N. Y.",
+      "city": "Garden City",
+      "region": "NY",
+      "country": "US"
+    }
+  ],
+  "assignees": [
+    {
+      "name": "Bell Telephone Laboratories, Incorporated",
+      "printed": "Bell Telephone Laboratories, Incorporated, New York, N. Y., a corporation of New York",
+      "org": "Bell Labs",
+      "kind": "company",
+      "city": "New York",
+      "region": "NY",
+      "country": "US"
+    }
+  ],
+  "source": {
+    "page": 3,
+    "where": "header of first printed page (inventor, assignor to)"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "patent": "Filed in the US on 1923-02-06 (German priority 1922-02-11) and issued 1928-01-24 to Arthur Scherbius of Berlin, the German electrical engineer who invented the Enigma rotor cipher machine; the patent was assigned to Chiffriermaschinen Aktiengesellschaft, the Berlin firm that sold the Enigma. The ciphering core shown is a rotor machine: a keyboard feeds cables of one wire per letter (26 in the example) through a stack of drums whose two faces are cross-wired in scrambled order, the drums advance after every letter, and in the embodiment the output drives a telegraph tape perforator. The text presents that core as already proposed. What is claimed is the group-length device: a counter driven with the drums cuts the supply after a set number of letters, so sender and receiver can mark and re-check group boundaries and a lost letter in transmission does not desynchronize the rest of the message; a hand lever then lets clear text be sent without advancing the drums. There is no reflector, the part that made later Enigma machines self-reciprocal; deciphering here needs the current passed the other way through the drums or the input and output cables interchanged.",
+  "figs": {
+    "1": "General arrangement, drawn sideways on the sheet; shown upright here. Key board 1 (bottom right, broken away to show the key contacts) feeds cable 3 to drum 4; the drum stack on shaft 5 reads, left to right, stationary drum 10, sliding drum 4, cipher drums 6, 7, 8, 9 and stationary drum 11; cables 13 and 14 from drums 10 and 11 run to perforator 12 (right). The fifth row of letters on drums 6 to 9 reads n, i, a, g, the example key word; the drum alphabets omit j. Stepping train: armature 25 of magnet 26 carries blade-spring 24, which pawls ratchet teeth 23 on driving wheel 15 (seen edge-on); spur wheel 18 drives gears 16 and 17 on shafts 19 and 20, whose gears 21 and 22 mesh with toothed crowns of drums 6 and 8 (only these two couplings are drawn). Counter 39 (top left, reading 0013999) is geared to wheel 15; sliding contacts 40 to 44 and switches 45 to 49 select which figure disks gate the supply. Lever 27 shifts drum 4 and carries plate 29 with contacts 30 and 31; with contacts 32 and 33, lever 35 on stud 34, and blade spring 36 caught by groove 37 and nose 38 of the armature, it restarts the machine after a stop and keeps the counter out of circuit until the next letter. + and − mark the supply poles.",
+    "2": "End face of one cipher drum (drum 6), seen along the shaft. The ring of small circles is the contacts on that face; the dash-dot chords show the scrambled internal wiring that joins each contact to a contact on the opposite face. Only some of the connections are drawn.",
+    "3": "The same drum seen from the side, axis horizontal. Contact pins stand out on both end faces; the serrated band at one end is the toothed crown that the stepping gear drives. The crossing dash-dot lines are the internal wires between the two faces."
+  },
+  "parts": {
+    "4": "Slides along shaft 5 but does not turn. Spring 28 holds it against drum 6 (ciphered path to the perforator through drums 6 to 9, drum 11 and cable 14); depressing lever 27 pushes it against drum 10 (clear path through cable 13).",
+    "10": "Keyed to the shaft and carries pins on its inner face only; it is the clear-text path to the perforator.",
+    "11": "Keyed to the shaft and carries pins on its inner face only; it is the ciphered-text path to the perforator.",
+    "12": "Each type lever is driven by its own electromagnet; the text names a magnetic perforator of the Wheatstone type.",
+    "24": "Acts as the pawl of the ratchet formed with teeth 23; each release of armature 25 advances wheel 15 by one tooth.",
+    "38": "The text once writes \"armature 38\" for the contact kept by spring 36; elsewhere 38 is the nose behind groove 37 on armature 25.",
+    "39": "The drawing shows the counter at 13999, the state described just before the 14000th letter stops the machine."
+  },
+  "glossary": [
+    {
+      "term": "clear text",
+      "def": "Plaintext, the unenciphered message."
+    },
+    {
+      "term": "revoluble drum",
+      "def": "A rotor: a wheel with a contact on each face for every letter, the two faces wired together in a fixed scrambled permutation; turning it changes the substitution."
+    },
+    {
+      "term": "key word",
+      "def": "The starting letter positions of the drums, set by hand from the letters on their rims; both machines must start from the same setting."
+    },
+    {
+      "term": "perforator",
+      "def": "A keyboard-driven punch that records Morse signals as holes in paper tape; the tape is then run through an automatic telegraph transmitter. Wheatstone's system was the standard one."
+    },
+    {
+      "term": "cable tape",
+      "def": "Punched paper tape for submarine-cable or line telegraphy."
+    },
+    {
+      "term": "ratchet and pawl",
+      "def": "A toothed wheel advanced one tooth at a time by a spring finger (the pawl); here blade-spring 24 on the armature drives teeth 23."
+    },
+    {
+      "term": "figure disks",
+      "def": "The numbered wheels of the counter (units, tens, hundreds and so on)."
+    },
+    {
+      "term": "net-work",
+      "def": "The supply circuit fed from the source of current."
+    },
+    {
+      "term": "by mesne assignments",
+      "def": "Through one or more intermediate transfers of ownership before reaching the named assignee."
+    }
+  ]
+}

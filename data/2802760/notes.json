@@ -1,0 +1,74 @@
+{
+  "patent": "Filed 1955-12-02 as a continuation-in-part of an application filed 1954-12-24, and issued 1957-08-13 to Lincoln Derick and Carl J. Frosch, assignors to Bell Telephone Laboratories. It teaches growing an oxide film on silicon by heating it in hydrogen or nitrogen carrying water vapor, or in dry oxygen, and using the film two ways: as a passivating layer that stops the surface from pitting during high-temperature diffusion, and, once removed from selected areas, as a mask that holds back some impurities (arsenic, boron) while letting others (gallium) through. The patent patterns the oxide with acid-resistant wax and a hydrofluoric acid etch; the nine examples give temperatures, times, junction depths and sheet resistivities. Frosch and Derick published the work as \"Surface Protection and Selective Masking during Diffusion in Silicon\" (Journal of the Electrochemical Society, 1957). Masking diffusion with thermally grown oxide became the basis of the silicon planar process, in which Jean Hoerni at Fairchild left the masking oxide in place over the junctions, and of Noyce's planar integrated circuit (US 2,981,877).",
+  "figs": {
+    "1": "Oxidation furnace. Carrier gas enters at left through valve V and the flowmeter, bubbles through water in bubbler 15, and enters quartz tube 11 at the flared inlet 12; arrows give the flow, out the open right end. Wafer 14 is a disc standing on edge in quartz mount 13 (its lower part, dashed, is hidden by the mount), inside the hatched furnace housing; heating coils 16 are drawn as cut turns above and below the tube. The oil bath and the temperature controls the text mentions are not drawn.",
+    "2": "Diffusion furnace, drawn as FIG. 1 with a second heated zone. Upstream of the wafer, inside tube 20, an open boat holds impurity source 22 in its own block wound with heater 25; the wafer, on the mount marked 23, sits in the main furnace with heater 24. Wet carrier gas from bubbler 21 picks up impurity vapor over 22 and carries it to the wafer. Leader 26 ends on the upstream wall of the main furnace housing, which separates the two heated zones.",
+    "3": "Cross section of the wafer of the fifth example after the arsenic and gallium diffusions, before slicing. The thick lower layer is the undiffused n-type material 31; above it lies the gallium-diffused p-type layer 32 (P), with three shallow n-type pockets 33 (N) where the oxide had been stripped before the arsenic diffusion. The two vertical lines are the slicing lines (called dotted in the text, printed solid); each slice is one n-p-n unit whose p-type layer also reaches the top surface beside its pocket, where a base contact can be made."
+  },
+  "parts": {
+    "22": "Drawn as an open boat. The examples use gallium oxide, metallic antimony, arsenic trioxide and boron trioxide as sources.",
+    "23": "Not named in the text; its leader ends on the wafer mount, drawn like quartz mount 13 in FIG. 1.",
+    "24": "Heater around the wafer region.",
+    "25": "Heater around the impurity-source region, so that the source temperature is set independently of the diffusion temperature.",
+    "26": "The text says heat shields are interposed between the two heated regions; the drawing shows only the furnace housing wall at that place.",
+    "32": "Its top surface is p-type where the oxide held the arsenic back, so the base layer can be contacted from the surface."
+  },
+  "glossary": [
+    {
+      "term": "vapor-solid diffusion",
+      "def": "Doping a solid silicon body by heating it in a gas that carries the dopant, so that the dopant diffuses in from the surface without melting the silicon."
+    },
+    {
+      "term": "conductivity-type determining impurity",
+      "def": "A dopant: a donor (arsenic, antimony, phosphorus) makes silicon n-type, an acceptor (gallium, boron) makes it p-type."
+    },
+    {
+      "term": "open tube furnace",
+      "def": "A tube furnace with gas flowing continuously in one end, past the wafer, and out the other end, as opposed to a sealed ampoule."
+    },
+    {
+      "term": "carrier gas",
+      "def": "An inert or reducing gas (here hydrogen, nitrogen or helium) that carries the water vapor and the dopant vapor to the wafer."
+    },
+    {
+      "term": "fritted glass bubbler",
+      "def": "A vessel of water with a porous glass gas outlet that breaks the gas into fine bubbles, so that it leaves close to saturation with water vapor at the bath temperature."
+    },
+    {
+      "term": "passivator",
+      "def": "The patent's term for the surface oxide acting as a protective layer that prevents pitting and erosion of the silicon during heating."
+    },
+    {
+      "term": "mask",
+      "def": "A layer that blocks diffusion into the silicon beneath it; windows cut in it decide where the dopant enters."
+    },
+    {
+      "term": "moderator",
+      "def": "The patent's term for an oxide that slows the diffusion of a dopant without blocking it, giving a shallower, more resistive layer under it."
+    },
+    {
+      "term": "lapping",
+      "def": "Grinding a surface flat with abrasive on a plate; here also used to remove diffused material from the wafer edges or back face."
+    },
+    {
+      "term": "sheet resistivity (ohms per square)",
+      "def": "Resistance of a thin layer measured between opposite edges of any square of it; it depends on the layer's doping and thickness, not on the size of the square."
+    },
+    {
+      "term": "mil",
+      "def": "One thousandth of an inch, 25.4 micrometres."
+    },
+    {
+      "term": "Angstrom",
+      "def": "10^{-10} m, 0.1 nanometre. The patent prefers oxide films 1500 to 3500 Angstroms thick."
+    },
+    {
+      "term": "n-p-n, p-n-p-n",
+      "def": "Sequences of n-type and p-type layers through the wafer; an n-p-n stack is the body of a junction transistor."
+    },
+    {
+      "term": "continuation-in-part",
+      "def": "A US application that repeats an earlier pending application and adds new matter; the earlier filing date covers the repeated part."
+    }
+  ]
+}

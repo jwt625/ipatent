@@ -1,0 +1,133 @@
+{
+  "patent": "Filed January 7, 1927 by Philo T. Farnsworth and issued August 26, 1930, assigned to Television Laboratories, Inc. of San Francisco. It is Farnsworth's camera-tube patent: the whole scene is imaged at once onto a photoelectric cathode, the emitted electrons form an \"electrical image\", and two pairs of deflection plates sweep that image past a small aperture in front of the anode, so the scene is scanned with no moving parts. This is the device later known as the image dissector. The scanning voltages are triangular waves (FIGS. 11-13) of two frequencies, and they are sent with the picture signal so that the receiver can scan in step. The receiver described here is not electronic: an arc lamp beam is modulated by a magneto-optic (Faraday) rotator and a grating-and-crystal analyzer and swept over the screen by two quartz mirror oscillographs (FIGS. 2-6, 9, 10, 15-17). Farnsworth's system first transmitted an image in his San Francisco laboratory on September 7, 1927. In a patent interference with Vladimir Zworykin of RCA, whose television application dated from 1923, the Patent Office awarded priority to Farnsworth in 1935 (A. Abramson, The History of Television, 1880 to 1941, McFarland, 1987).",
+  "figs": {
+    "1": "Transmitter. At upper left, arc 3 and lens 4 light object 2 and lens 5 images it onto the mesh cathode 6 at the near end of cell 7, drawn in perspective. Below are two oscillator chains of the same circuit: the left one (17, tubes 20, 32, 48) drives plates 15 and 16 through leads 55 and 56; the right one, numbered with the suffix a (tubes 20a, 32a, 48a), drives plates 13 and 14 through leads 55a and 56a via modulating tube 59. In each chain tube 20 is the low-frequency oscillator, tube 32 the 500 kilocycle oscillator it gates, and audion 48 turns the bursts into the triangular wave. In the right-hand column battery 67 and resistance 69 bias the cell, tube 72 amplifies the drop across 69 and modulates oscillator 73 (first carrier), and tube 94 modulates oscillator 95 (second carrier) with that carrier and with the scanning voltages taken across 58a; 95 feeds antenna 117.",
+    "2": "Receiver optics, along one beam (dashed). Arc 120 shines through aperture 122 in shutter 121, Nicol prism 123 polarizes the light and lens 124 makes it parallel. It passes through rotator 125 (coil 126 around medium 127 held by glass plates 128), then the analyzer: grating 129, crystal 131, grating 130. Lens 132 focuses it onto the two mirror oscillographs 133 and 134, set at right angles, and lens 135 projects the moving spot onto screen 136.",
+    "3": "Receiver circuit. Antenna 155 couples through 156 and 158 to detector 159, tuned by condenser 160. Inductance 162 in its plate circuit, tuned to the first carrier, feeds second detector 164, whose plate 165 drives rotator coil 126. Condenser 168 bypasses the carrier; the scanning currents pass choke 169 and line 170 to oscillograph 133 (the faster scan), and detector tube 173 recovers the slow scan for oscillograph 134 through resistance 202 and tap 203. Resistances 200 and 202 set the two amplitudes. 133 and 134 are drawn as small symbols of the device of FIGS. 4-5.",
+    "4": "Side elevation of one oscillograph on base 137. The vertical quartz vibrator 138 carries mirror 139 at its top and sits in holder 140, raised or lowered by set-screw 141 (knurled knob below). Quartz strips 142 (left) and 143 (right), plated at 144 and 145, bear on the vibrator from opposite sides at slightly different heights. Their outer ends run in guides 146 to clamps 147 on carriers 148, set by screws 149; their inner ends lie on rests 149a. Conductors 152 and 153 lead to the platings. The text does not explain the dashed outline at the left end.",
+    "5": "Plan view of the same oscillograph. The long strips 142 and 143 run from end clamps 147 to the centre, where clamps 150, fastened by adjusting screws 151, hold their inner ends; vibrator 138 and mirror 139 sit between the two clamps. Dashed lines are parts hidden under the strips and clamps.",
+    "6": "Perspective of the analyzer: a block of bi-axial crystal 131 with grating 129 on one end face (the ruled, shaded face) and grating 130 on the opposite face.",
+    "7": "Longitudinal section of the cell. Light enters through the right end onto cathode 6, mesh screen 8. Electrons travel left between deflection plates 14, 15 and 16 (13, on the near side, is removed by the section) to shutter plate 11; only those reaching aperture 12 pass to anode 10. Leads 55 and 56 pass through the wall to the plates; anode lead 68 and shutter lead 71 enter through the hatched stem at the left.",
+    "8": "Cross-section on line 8-8 of FIG. 7, looking toward the shutter. The four plates 13 to 16 form a square around the electron path, each with its lead (55, 55a, 56, 56a) through the round envelope 7. The dotted circle at the centre is aperture 12 in shutter 11; anode 10 lies behind it.",
+    "9": "Section of the light rotator 125. The cross-hatched blocks are the windings of coil 126; the stippled core is the carbon disulfide 127, closed at each end by a glass plate 128. Light passes along the axis of the coil, the direction of its field.",
+    "10": "End view of the rotator: the ring is the coil, the central disc the window through which light passes. The disc is labeled 129, the numeral the text gives to the first grating; in FIG. 9 the medium is 127 and the end plates 128.",
+    "11": "Output of the low-frequency oscillator (tube 20) against time, time running left to right. The two horizontal lines are reference levels; the dashed verticals carry the points where the curve crosses them down to FIGS. 12 and 13.",
+    "12": "Output of the 500 kilocycle oscillator (tube 32): because its plate supply is the wave of FIG. 11, it oscillates only during the positive half-cycles, giving one burst per cycle. Shown at the same time scale as FIG. 11.",
+    "13": "Output of audion 48: charge builds up during each burst of FIG. 12 and leaks off in the gap after it, giving a triangular wave with straight rising and falling sides at the frequency of FIG. 11. This is the \"straight line\" wave form the text requires for even scanning.",
+    "14": "Path of the aperture over the electrical image, and of the light spot over the receiving screen: the fast deflection draws the near-parallel lines, the slow one spaces them, and because both waves are triangular the lines are traced alternately in opposite directions with no flyback. Far fewer lines are drawn than the 500 in the text's example.",
+    "15": "Bi-axial crystal with beam A entering along an optic axis. The dashed cone and ring show conical refraction: unpolarized light leaves the crystal spread over a ring. The text also reads the two sides of the cone as the two extreme positions of a polarized beam.",
+    "16": "The same crystal with polarized beam A. The dashed ring marks where the emerging ray can lie; its position on the ring is set by the plane of polarization.",
+    "17": "Section through grating 129, crystal 131 and grating 130; the irregular hatched area is a broken-away section. The toothed edges of the two gratings stand for their rulings, which the text says are opposed; the dashed line A is the beam. Unrotated, A lands on a line of grating 130 and is blocked; a slight rotation of its plane of polarization shifts it between the lines and it passes."
+  },
+  "parts": {
+    "13": "The text first pairs plates 15 and 16 with the 10-cycle chain and 13 and 14 with the 5000-cycle chain, then gives the frequencies the other way round when describing the scan.",
+    "15": "See plate 13: the text assigns the two scan frequencies to the plate pairs inconsistently.",
+    "30": "Not named in the text; it marks the variable connection of the series capacities 28 and 29 on inductance 27.",
+    "52": "The text calls 52 both the filament of audion 48 and, one sentence later, \"the secondary 52\", where 51 is meant.",
+    "61": "The text later says \"the tube 61\", meaning tube 59.",
+    "92": "The text uses 92 for both the filament of tube 72 and the radio-frequency choke between choke 90 and plate 74; both are labeled 92 in the drawing.",
+    "118": "Not named as a part; the text says filament 113 \"is grounded as indicated at 118\".",
+    "129": "Grating 129 is the entry grating in FIGS. 2, 6 and 17; in FIG. 10 the same numeral labels the rotator's window.",
+    "133": "Driven by the faster scanning frequency. The receiver text calls it 500 cycles per second; the transmitter text gives the fast frequency as 5000 cycles per second.",
+    "134": "Driven by the slow (10 cycles per second) scanning frequency recovered by detector tube 173.",
+    "144": "Copper is the example given for this plating on the quartz strips.",
+    "180": "Named in the text (filament 179 is connected by lead 180 to condenser 168) but not labeled in FIG. 3.",
+    "A": "Letter used in FIGS. 15-17 for the beam of light passing through the analyzer.",
+    "20a": "Counterpart of tri-electrode valve 20 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "21a": "Counterpart of grid leak 21 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "22a": "Counterpart of grid 22 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "23a": "Counterpart of negative bias battery 23 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "24a": "Counterpart of filament 24 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "25a": "Counterpart of battery 25 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "25'a": "Counterpart of choke coil 25' in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "26a": "Counterpart of plate 26 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "26'a": "Counterpart of battery 26' in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "27a": "Counterpart of inductance 27 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "28a": "Counterpart of fixed capacity 28 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "28'a": "Counterpart of capacity 28' in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "29a": "Counterpart of variable capacity 29 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "30a": "Counterpart of the unnamed tap 30 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "31a": "Counterpart of lead 31 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "31'a": "Counterpart of secondary coil 31' in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "32a": "Counterpart of tube 32 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "33a": "Counterpart of plate 33 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "34a": "Counterpart of inductance 34 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "39a": "Counterpart of filament 39 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "40a": "Counterpart of primary 40 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "41a": "Counterpart of capacity 41 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "42a": "Counterpart of grid 42 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "43a": "Counterpart of capacity 43 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "44a": "Counterpart of capacity 44 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "45a": "Counterpart of leak 45 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "46a": "Counterpart of negative bias battery 46 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "48a": "Counterpart of tube 48 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "49a": "Counterpart of grid 49 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "50a": "Counterpart of grid leak and grid condenser 50 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "51a": "Counterpart of inductance 51 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "52a": "Counterpart of filament 52 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "53a": "Counterpart of condenser 53 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a.",
+    "54a": "Counterpart of plate 54 in the duplicate 5000-cycle chain; the text numbers that chain's parts 20a to 54a."
+  },
+  "glossary": [
+    {
+      "term": "electrical image",
+      "def": "The patent's term for the stream of photoelectrons leaving the cathode, whose density across its cross-section copies the light pattern of the optical image."
+    },
+    {
+      "term": "optical period",
+      "def": "The patent's term for the time the eye retains a picture; the whole image must be scanned within it (1/20 second in the example)."
+    },
+    {
+      "term": "image dissector",
+      "def": "The later name for this camera tube: it reads the electron image directly through a scanning aperture, without storing charge between scans."
+    },
+    {
+      "term": "tri-electrode valve / audion",
+      "def": "A three-electrode vacuum tube (triode): filament (cathode), grid and plate (anode). \"Audion\" was de Forest's name for it, used here for the tube working as a grid-leak detector."
+    },
+    {
+      "term": "grid leak and grid condenser",
+      "def": "A resistor and capacitor in the grid lead; the capacitor charges on signal peaks and the resistor lets the charge drain away, which makes the tube act as a detector."
+    },
+    {
+      "term": "capacity / condenser",
+      "def": "Period terms for a capacitor."
+    },
+    {
+      "term": "choke",
+      "def": "An inductor that passes direct or low-frequency current while blocking radio-frequency current."
+    },
+    {
+      "term": "Heising modulation",
+      "def": "Plate modulation in which the modulator tube and the oscillator tube draw their plate current through a common choke, so the modulator varies the oscillator's plate voltage."
+    },
+    {
+      "term": "kilo-cycles, cycles per second",
+      "def": "Kilohertz and hertz."
+    },
+    {
+      "term": "Nicol prism",
+      "def": "A calcite polarizer that passes one linear polarization and deflects the other out of the beam."
+    },
+    {
+      "term": "magnetic rotation (Faraday effect)",
+      "def": "Rotation of the plane of polarization of light passing through a medium along a magnetic field; carbon disulfide, the medium preferred here, shows it strongly."
+    },
+    {
+      "term": "bi-axial crystal, conical refraction",
+      "def": "A crystal with two optic axes, such as aragonite; light sent exactly along one of them spreads into a hollow cone and leaves as a ring, and a polarized beam leaves at a point on that ring set by its plane of polarization."
+    },
+    {
+      "term": "grating",
+      "def": "Here a plate ruled with fine parallel lines (100 per millimetre in the example) that blocks or passes a narrow beam according to where it falls."
+    },
+    {
+      "term": "oscillograph",
+      "def": "Here a small mirror vibrated by an electric current, used to deflect the light beam; this one is driven by piezoelectric quartz strips."
+    },
+    {
+      "term": "electric axis, axis of extension, optic axis",
+      "def": "Directions in a quartz crystal; a voltage across the electric axis makes the crystal lengthen or shorten (the piezoelectric effect), which is how the strips move the mirror."
+    }
+  ]
+}

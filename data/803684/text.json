@@ -1,0 +1,1941 @@
+{
+ "pn": "803684",
+ "number": "803,684",
+ "title": "INSTRUMENT FOR CONVERTING ALTERNATING ELECTRIC CURRENTS INTO CONTINUOUS CURRENTS",
+ "inventors": [
+  "John Ambrose Fleming"
+ ],
+ "assignee": "Marconi Wireless Telegraph Company of America, a corporation of New Jersey",
+ "filed": "1905-04-19",
+ "issued": "1905-11-07",
+ "appl_no": "256,483",
+ "int_cl": null,
+ "us_cl": null,
+ "refs_patents": [],
+ "refs_other": [],
+ "examiners": null,
+ "claims_count": 37,
+ "drawing_figures": 3,
+ "abstract": "",
+ "cite_scheme": "printed page:line",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "page": 1,
+     "cite": "p.1:1",
+     "col": null,
+     "line": null,
+     "text": "To all whom it may concern:"
+    },
+    {
+     "page": 1,
+     "cite": "p.1:2",
+     "col": null,
+     "line": null,
+     "text": "Be it known that I, John Ambrose Fleming, professor of electrical engineering, a subject of the King of Great Britain, residing at University College, Gower street, London, in the county of Middlesex, England, have invented certain new and useful Improvements in Instruments for Converting Alternating Electric Currents into Continuous Currents, of which the following is a specification."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:11",
+     "col": null,
+     "line": null,
+     "text": "This invention relates to certain new and useful devices for converting alternating electric currents, and especially high-frequency alternating electric currents or electric oscillations, into continuous electric currents for the purpose of making them detectable by and measurable with ordinary direct-current instruments, such as a “mirror-galvanometer” of the usual type or any ordinary direct-current ammeter. Such instruments as the latter are not affected by alternating electric currents either of high or low frequency, which can only be measured and detected by instruments called “alternating-current” instruments of special design. It is, however, of great practical importance to be able to detect feeble electric oscillations, such as are employed in Hertzian-wave telegraphy by an ordinary movable coil or movable needle mirror-galvanometer. This can be done if the alternating current can be “rectified”—that is, either suppressing all the constituent electric currents in one direction and preserving the others or else by changing the direction of one of the sets of currents which compose the alternating current so that the whole movement of electricity is in one direction. Many means have been devised and are in use for rectifying low-frequency alternating currents, such as are used in electric lighting. There are well-known forms of mechanical rectifier; also, there is a well-known form of electrochemical rectifier, depending on the fact that when a plate of carbon and aluminium is placed in any electrolyte which yields oxygen on electrolysis an electric current can only pass through this cell in one direction if below a certain voltage. Both these forms of rectifier are, however, inapplicable for high-frequency currents. I have found that the aluminium-carbon cell will not act with high-frequency currents."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:53",
+     "col": null,
+     "line": null,
+     "text": "I have discovered that if two conductors are inclosed in a vessel in which a good vacuum is made, one being heated to a high temperature, the space between the hot and cold conductors possesses a unilateral electric conductivity, and negative electricity can pass from the hot conductor to the cold conductor, but not in the reverse direction. As the hot conductor should be heated to a very high temperature—say near to the melting-point of platinum, (1,700° centigrade)—it should be of carbon, preferably in the form of a filament such as is used in any ordinary incandescent electric lamp. The cold conductor may be of many materials; but I prefer a bright metal, such as platinum or aluminium or else carbon. The two conductors are inclosed in a glass bulb similar to that of an incandescent lamp, and I generally heat the carbon filament to a high state of incandescence by a continuous electric current, the electrical connection to the filament and the cold conductor being made by platinum wires, sealed air-tight through the glass."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:77",
+     "col": null,
+     "line": null,
+     "text": "Figure 1 is a full-size sectional elevation of an instrument constructed according to this invention, the electrical connections being shown diagrammatically. This figure illustrates the application of the invention to wireless telegraphy. Figs. 2 and 3 show modifications to smaller scales."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:84",
+     "col": null,
+     "line": null,
+     "text": "In Fig. 1, a is a glass bulb, and b is a carbon filament like the carbon filament of an incandescent lamp, suitable, say, for taking a current of six to eight volts and two to four amperes. c is a cylinder of aluminium, open at the top and bottom, which surrounds but does not touch the filament. The cylinder c is suspended and steadied by platinum wires d, and the ends of the filament b are connected to platinum wires connected to the leads e and f. The platinum wires are sealed through the glass in the ordinary manner."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:96",
+     "col": null,
+     "line": null,
+     "text": "As a very high vacuum should be obtained in the bulb a and as a considerable quantity of air is occluded in the conductors, these should be heated when the bulb is being exhausted. The filament b can be conveniently heated by passing a current through it, while the cylinder c can be heated by surrounding the bulb a with a resistance-coil through which a current is passed, the whole being inclosed in a box lined with asbestos or the like. When, as hereinafter described, the cylinder c is replaced by any form of conductor which can be heated by passing a current through it, this method is usually more convenient than that just described."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:5",
+     "col": null,
+     "line": null,
+     "text": "The carbon filament is made highly incandescent in the usual way by a continuous electric current produced by the battery h, the negative pole of which is connected to the wire e and the positive to the wire f. The wires d and e are connected together by a wire j, which completes the circuit through the secondary winding k of an induction-coil (such as is ordinarily used in wireless telegraphy) and a galvanometer l."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:15",
+     "col": null,
+     "line": null,
+     "text": "m is the primary winding of the induction-coil, having one end connected, as is usual, to an aerial wire n and the other to earth o. The arrangement described above operates as an electric valve and permits negative electricity to flow from the hot carbon b to the metal cylinder c, but not in the reverse direction, so that the alternations induced in the coil k by the Hertzian waves received by the aerial wire n are rectified or transformed into a more or less continuous current capable of actuating the galvanometer l by which the signals can be read."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:28",
+     "col": null,
+     "line": null,
+     "text": "Although Fig. 1 shows the application of the instrument to wireless telegraphy, it will be understood that the aerial wire n may be replaced by any circuit in which there is an alternating electromotive force, whether of low frequency or of high frequency."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:34",
+     "col": null,
+     "line": null,
+     "text": "I may increase the effect in the following manner: I employ two bulbs arranged as shown in Fig. 2, each being similar to that shown in Fig. 1. p p are the two coils of a differential galvanometer connected to the bulbs in such fashion that currents flowing in opposite directions through the two bulbs flow in the same direction round the two coils of the galvanometer as regards the needle q of the galvanometer itself. For this purpose the hot conductor of each bulb is connected to the cold conductor of the other. Hence one bulb permits negative electricity to flow only in one direction and the other bulb permits only negative electricity to flow in the opposite direction through it. The common terminal of the two galvanometer-coils p is connected to the coil k or any source of alternating electromotive force or of electrical oscillations; the other terminal of the said source being connected to the bulbs, as shown. Each bulb has its own separate insulated battery h for heating its hot filament. Under these circumstances alternating electric currents are split into two continuous currents passing through the two bulbs in opposite and in the two coils of the galvanometer in the same directions. By thus using a differential galvanometer I make use of the whole of the energy of the alternating current instead of discarding half of it. In this manner very feeble electrical oscillations can make themselves apparent by the indication which they give on a sensitive mirror-galvanometer. A number of these valves may be associated together in parallel, as shown in Fig. 3, so that alternating currents rectified by them separately may produce continuous currents which are added together."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:73",
+     "col": null,
+     "line": null,
+     "text": "In place of using a metal cylinder surrounding a carbon-loop filament I sometimes use a number of carbon filaments. Some of these are heated by means of an electric current and become the hot conductor of the oscillation-valve and the others remain cold and form the cold conductor, or the metal cylinder may be replaced by a cylinder of meerschaum or the like having wound helically upon it a narrow ribbon of metallic foil. In those cases in which a larger alternating current has to be dealt with the hot conductor may be a rod of soft graphitic carbon held in suitable supports."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:87",
+     "col": null,
+     "line": null,
+     "text": "I find it possible by means of the device described above to rectify an alternating current without the use of any auxiliary continuous heating-current. Thus if I pass through the carbon filament an alternating current to bring it to bright incandescence I find if I connect either terminal of the filament by a circuit outside the bulb with the terminal of the embracing cylinder or other cold-conductor then in this circuit a continuous current flows. Hence the device may be used for rectifying either high-frequency or low-frequency alternating currents of electrical oscillations, provided these are of sufficient strength to render a carbon filament brilliantly incandescent."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:102",
+     "col": null,
+     "line": null,
+     "text": "It will be understood that when an alternating current is impressed upon a circuit including one of my improved rectifiers, as in Fig. 1, the alternating impulses in one direction will be suppressed and the alternating pulsations in the other direction will pass through the circuit in the form of a pulsating unidirectional current. This pulsating unidirectional current actuates the galvanometer or other continuous-current-indicating instrument l. When two rectifiers are used oppositely connected, as in Fig. 2, there will result two unidirectional pulsating currents flowing in opposite directions, and both of these currents are utilized in the differential galvanometer."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:118",
+     "col": null,
+     "line": null,
+     "text": "When I specify in my claims “means for detecting a continuous current” I intend to include any instrument for detecting such a single unidirectional pulsating current or two such unidirectional pulsating currents flowing in opposite directions."
+    },
+    {
+     "page": 6,
+     "cite": "p.6:10",
+     "col": null,
+     "line": null,
+     "text": "JOHN AMBROSE FLEMING."
+    },
+    {
+     "page": 6,
+     "cite": "p.6:12",
+     "col": null,
+     "line": null,
+     "text": "Witnesses: H. D. Jameson, A. Nutting."
+    }
+   ]
+  },
+  {
+   "heading": "DISCLAIMER",
+   "paras": [
+    {
+     "page": 6,
+     "cite": "p.6",
+     "col": null,
+     "line": null,
+     "text": "803,684.—John Ambrose Fleming, London, England. Instrument for Converting Alternating Electric Currents into Continuous Currents. Patent dated November 7, 1905. Disclaimer filed November 17, 1915, by the assignee, Marconi Wireless Telegraph Company of America."
+    },
+    {
+     "page": 6,
+     "cite": "p.6",
+     "col": null,
+     "line": null,
+     "text": "Enters this disclaimer—"
+    },
+    {
+     "page": 6,
+     "cite": "p.6",
+     "col": null,
+     "line": null,
+     "text": "“To the combinations of elements set forth in claims 1 to 6, inclusive, and 10 to 15, inclusive, respectively, of said Letters Patent, except as the same are used in connection with high frequency alternating electric currents or electric oscillations of the order employed in Hertzian wave transmission, and to the words in the specification: ‘whether of low frequency or,’ at page 2, lines 32 and 33; ‘either,’ at page 2, line 98; and ‘or low-frequency alternating currents of,’ at page 2, lines 98 and 99.”"
+    },
+    {
+     "page": 6,
+     "cite": "p.6",
+     "col": null,
+     "line": null,
+     "text": "[Official Gazette, November 23, 1915.]"
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "page": 1,
+   "cite": "p.1:77",
+   "col": null,
+   "line": null,
+   "text": "Figure 1 is a full-size sectional elevation of an instrument constructed according to this invention, the electrical connections being shown diagrammatically. This figure illustrates the application of the invention to wireless telegraphy."
+  },
+  {
+   "fig": "2",
+   "page": 1,
+   "cite": "p.1:82",
+   "col": null,
+   "line": null,
+   "text": "Figs. 2 and 3 show modifications to smaller scales."
+  },
+  {
+   "fig": "3",
+   "page": 1,
+   "cite": "p.1:82",
+   "col": null,
+   "line": null,
+   "text": "Figs. 2 and 3 show modifications to smaller scales."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "page": 2,
+   "cite": "p.2:125",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "1. The combination of a vacuous vessel, two conductors adjacent to but not touching each other in the vessel, means for heating one of the conductors, and a circuit outside the vessel connecting the two conductors."
+  },
+  {
+   "n": 2,
+   "page": 2,
+   "cite": "p.2:130",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "2. The combination of a vacuous vessel, two conductors adjacent to but not touching each other in the vessel, means for passing an electric current through one of the conductors, and a circuit outside the vessel connecting the two conductors."
+  },
+  {
+   "n": 3,
+   "page": 3,
+   "cite": "p.3:6",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "3. The combination of a vacuous vessel, two conductors adjacent to but not touching each other in the vessel, means for heating one of the conductors, a circuit outside the vessel connecting the two conductors, means tending to produce an alternating current in the circuit, and means for detecting a continuous current in it."
+  },
+  {
+   "n": 4,
+   "page": 3,
+   "cite": "p.3:14",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "4. The combination of a vacuous vessel, two conductors adjacent to but not touching each other in the vessel, means for passing an electric current through one of the conductors, a circuit outside the vessel connecting the two conductors, means tending to produce an alternating current in the circuit, and means for detecting a continuous current in it."
+  },
+  {
+   "n": 5,
+   "page": 3,
+   "cite": "p.3:22",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "5. The combination of a vacuous vessel, two conductors adjacent to but not touching each other in the vessel, means for passing a continuous electric current through one of the conductors, and a circuit outside the vessel connecting the two conductors."
+  },
+  {
+   "n": 6,
+   "page": 3,
+   "cite": "p.3:28",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "6. The combination of a vacuous vessel, two conductors adjacent to but not touching each other in the vessel, means for passing a continuous electric current through one of the conductors, a circuit outside the vessel connecting the two conductors, means tending to produce an alternating current in the circuit, and means for detecting a continuous current in it."
+  },
+  {
+   "n": 7,
+   "page": 3,
+   "cite": "p.3:37",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "7. The combination of a vacuous vessel, two conductors adjacent to but not touching each other in the vessel, means for heating one of the conductors, a circuit outside the vessel connecting the two conductors, an induction-coil having its secondary winding in the circuit and its primary winding connected to an aerial wire and earth, and means for detecting a continuous current in the circuit."
+  },
+  {
+   "n": 8,
+   "page": 3,
+   "cite": "p.3:46",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "8. The combination of a vacuous vessel, two conductors adjacent to but not touching each other in the vessel, means for passing an electric current through one of the conductors, a circuit outside the vessel connecting the two conductors, an induction-coil having its secondary winding in the circuit and its primary winding connected to an aerial wire and earth, and means for detecting a continuous current in the circuit."
+  },
+  {
+   "n": 9,
+   "page": 3,
+   "cite": "p.3:56",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "9. The combination of a vacuous vessel, two conductors adjacent to but not touching each other in the vessel, means for passing a continuous electric current through one of the conductors, a circuit outside the vessel connecting the two conductors, an induction-coil having its secondary winding in the circuit and its primary winding connected to an aerial wire and earth, and means for detecting a continuous current in the circuit."
+  },
+  {
+   "n": 10,
+   "page": 3,
+   "cite": "p.3:66",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "10. The combination of a vacuous vessel, a carbon filament in the vessel, a metallic cylinder surrounding but not touching the filament, means for heating the filament, and a circuit outside the vessel connecting the filament to the cylinder."
+  },
+  {
+   "n": 11,
+   "page": 3,
+   "cite": "p.3:72",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "11. The combination of a vacuous vessel, a carbon filament in the vessel, a metallic cylinder surrounding but not touching the filament, means for passing an electric current through the filament, and a circuit outside the vessel connecting the filament to the cylinder."
+  },
+  {
+   "n": 12,
+   "page": 3,
+   "cite": "p.3:78",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "12. The combination of a vacuous vessel, a carbon filament in the vessel, a metallic cylinder surrounding but not touching the filament, means for heating the filament, a circuit outside the vessel connecting the filament to the cylinder, means tending to produce an alternating current in the circuit, and means for detecting a continuous current in it."
+  },
+  {
+   "n": 13,
+   "page": 3,
+   "cite": "p.3:86",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "13. The combination of a vacuous vessel, a carbon filament in the vessel, a metallic cylinder surrounding but not touching the filament, means for passing an electric current through the filament, a circuit outside the vessel connecting the filament to the cylinder, means tending to produce an alternating current in the circuit, and means for detecting a continuous current in it."
+  },
+  {
+   "n": 14,
+   "page": 3,
+   "cite": "p.3:95",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "14. The combination of a vacuous vessel, a carbon filament in the vessel, a metallic cylinder surrounding but not touchiug the filament, means for passing a continuous electric current through the filament, and a circuit outside the vessel connecting the filament to the cylinder."
+  },
+  {
+   "n": 15,
+   "page": 3,
+   "cite": "p.3:102",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "15. The combination of a vacuous vessel, a carbon filament in the vessel, a metallic cylinder surrounding but not touching the filament, means for passing a continuous electric current through the filament, a circuit outside the vessel connecting the filament to the cylinder, means tending to produce an alternating current in the circuit, and means for detecting a continuous current in it."
+  },
+  {
+   "n": 16,
+   "page": 3,
+   "cite": "p.3:111",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "16. The combination of a vacuous vessel, a carbon filament in the vessel, a metallic cylinder surrounding but not touching the filament, means for heating the filament, a circuit outside the vessel connecting the filament to the cylinder, an induction-coil having its secondary winding in the circuit and its primary winding connected to an aerial wire and earth, and means for detecting a continuous current in the circuit."
+  },
+  {
+   "n": 17,
+   "page": 3,
+   "cite": "p.3:121",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "17. The combination of a vacuous vessel, a carbon filament in the vessel, a metallic cylinder surrounding but not touching the filament, means for passing an electric current through the filament, a circuit outside the vessel connecting the filament to the cylinder, an induction-coil having its secondary winding in the circuit and its primary winding connected to an aerial wire and earth, and means for detecting a continuous current in the circuit."
+  },
+  {
+   "n": 18,
+   "page": 4,
+   "cite": "p.4:1",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "18. The combination of a vacuous vessel, a carbon filament in the vessel, a metallic cylinder surrounding but not touching the filament, means for passing a continuous electric current through the filament, a circuit outside the vessel connecting the filament to the cylinder, an induction-coil having its secondary winding in the circuit and its primary winding connected to an aerial wire and earth, and means for detecting a continuous current in the circuit."
+  },
+  {
+   "n": 19,
+   "page": 4,
+   "cite": "p.4:12",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "19. The combination of two vacuous vessels, two conductors adjacent to but not touching each other in each vessel, means for heating one of the conductors in each vessel, two coils of a differential galvanometer, one coil being connected to the heated conductor in one vessel and the other coil being connected to the unheated conductor in the other vessel, a connection between the other pair of conductors, a connection between the coils, and a circuit connecting the two latter connections."
+  },
+  {
+   "n": 20,
+   "page": 4,
+   "cite": "p.4:23",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "20. The combination of two vacuous vessels, two conductors adjacent to but not touching each other in each vessel, means for passing an electric current through and so heating one of the conductors in each vessel, two coils of a differential galvanometer, one coil being connected to the heated conductor in one vessel and the other coil being connected to the unheated conductor in the other vessel, a connection between the other pair of conductors, a connection between the coils, and a circuit connecting the two latter connections."
+  },
+  {
+   "n": 21,
+   "page": 4,
+   "cite": "p.4:35",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "21. The combination of two vacuous vessels, two conductors adjacent to but not touching each other in each vessel, means for passing a continuous electric current through and so heating one of the conductors in each vessel, two coils of a differential galvanometer, one coil being connected to the heated conductor in one vessel and the other coil being connected to the unheated conductor in the other vessel, a connection between the other pair of conductors, a connection between the coils, and a circuit connecting the two latter connections."
+  },
+  {
+   "n": 22,
+   "page": 4,
+   "cite": "p.4:48",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "22. The combination of two vacuous vessels, two conductors adjacent to but not touching each other in each vessel, means for heating one of the conductors in each vessel, two coils of a differential galvanometer, one coil being connected to the heated conductor in one vessel and the other coil being connected to the unheated conductor in the other vessel, a connection between the other pair of conductors, a connection between the coils, a circuit connecting the two latter connections, and means tending to produce an alternating current in the circuit."
+  },
+  {
+   "n": 23,
+   "page": 4,
+   "cite": "p.4:61",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "23. The combination of two vacuous vessels, two conductors adjacent to but not touching each other in each vessel, means for passing an electric current through and so heating one of the conductors in each vessel, two coils of a differential galvanometer, one coil being connected to the heated conductor in one vessel and the other coil being connected to the unheated conductor in the other vessel, a connection between the other pair of conductors, a connection between the coils, a circuit connecting the two latter connections, and means tending to produce an alternating current in the circuit."
+  },
+  {
+   "n": 24,
+   "page": 4,
+   "cite": "p.4:75",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "24. The combination of two vacuous vessels, two conductors adjacent to but not touching each other in each vessel, means for passing a continuous electric current through and so heating one of the conductors in each vessel, two coils of a differential galvanometer, one coil being connected to the heated conductor in one vessel and the other coil being connected to the unheated conductor in the other vessel, a connection between the other pair of conductors, a connection between the coils, a circuit connecting the two latter connections, and means tending to produce an alternating current in the circuit."
+  },
+  {
+   "n": 25,
+   "page": 4,
+   "cite": "p.4:89",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "25. The combination of two vacuous vessels, a carbon filament in each vessel, a metallic cylinder in each vessel, surrounding but not touching the filament, means for heating the filaments, two coils of a differential galvanometer one coil being connected to the filament in one vessel and the other coil being connected to the cylinder in the other vessel, a connection between the other cylinder and filament, a connection between the coils, and a circuit connecting the two latter connections."
+  },
+  {
+   "n": 26,
+   "page": 4,
+   "cite": "p.4:100",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "26. The combination of two vacuous vessels, a carbon filament in each vessel, a metallic cylinder in each vessel, surrounding but not touching the filament, means for passing an electric current through the filaments, two coils of a differential galvanometer one coil being connected to the filament in one vessel and the other coil being connected to the cylinder in the other vessel, a connection between the other cylinder and filament, a connection between the coils, and a circuit connecting the two latter connections."
+  },
+  {
+   "n": 27,
+   "page": 4,
+   "cite": "p.4:112",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "27. The combination of two vacuous vessels, a carbon filament in each vessel, a metallic cylinder in each vessel, surrounding but not touching the filament, means for passing a continuous electric current through the filaments, two coils of a differential galvanometer one coil being connected to the filament in one vessel and the other coil being connected to the cylinder in the other vessel, a connection between the other cylinder and filament, a connection between the coils, and a circuit connecting the two latter connections."
+  },
+  {
+   "n": 28,
+   "page": 4,
+   "cite": "p.4:124",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "28. The combination of two vacuous vessels, a carbon filament in each vessel, a metallic cylinder in each vessel, surrounding but not touching the filament, means for heating the filaments, two coils of a differential galvanometer one coil being connected to the filament in one vessel and the other coil being connected to the cylinder in the other vessel, a connection between the other cylinder and filament, a connection between the coils, a circuit connecting the two latter connections, and means tending to produce an alternating current in the circuit."
+  },
+  {
+   "n": 29,
+   "page": 5,
+   "cite": "p.5:9",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "29. The combination of two vacuous vessels, a carbon filament in each vessel, a metallic cylinder in each vessel, surrounding but not touching the filament, means for passing an electric current through the filaments, two coils of a differential galvanometer one coil being connected to the filament in one vessel and the other coil being connected to the cylinder in the other vessel, a connection between the other cylinder and filament, a connection between the coils, a circuit connecting the two latter connections, and means tending to produce an alternating current in the circuit."
+  },
+  {
+   "n": 30,
+   "page": 5,
+   "cite": "p.5:23",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "30. The combination of two vacuous vessels, a carbon filament in each vessel, a metallic cylinder in each vessel, surrounding but not touching the filament, means for passing a continuous electric current through the filaments, two coils of a differential galvanometer one coil being connected to the filament in one vessel and the other coil being connected to the cylinder in the other vessel, a connection between the other cylinder and filament, a connection between the coils, a circuit connecting the two latter connections, and means tending to produce an alternating current in the circuit."
+  },
+  {
+   "n": 31,
+   "page": 5,
+   "cite": "p.5:37",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "31. The combination of two vacuous vessels, two conductors adjacent to but not touching each other in each vessel, means for heating one of the conductors in each vessel, two coils of a differential galvanometer; one coil being connected to the heated conductor in one vessel and the other coil being connected to the unheated conductor in the other vessel, a connection between the other pair of conductors, a connection between the coils, a circuit connecting the two latter connections, and an induction-coil having its secondary winding in the circuit and its primary winding connected to an aerial wire and earth."
+  },
+  {
+   "n": 32,
+   "page": 5,
+   "cite": "p.5:51",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "32. The combination of two vacuous vessels, two conductors adjacent to but not touching each other in each vessel, means for passing an electric current through and so heating one of the conductors in each vessel, two coils of a differential galvanometer, one coil being connected to the heated conductor in one vessel and the other coil being connected to the unheated conductor in the other vessel, a connection between the other pair of conductors, a connection between the coils, a circuit connecting the two latter connections, and an induction-coil having its secondary winding in the circuit and its primary winding connected to an aerial wire and earth."
+  },
+  {
+   "n": 33,
+   "page": 5,
+   "cite": "p.5:66",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "33. The combination of two vacuous vessels, two conductors adjacent to but not touching each other in each vessel, means for passing a continuous electric current through and so heating one of the conductors in each vessel, two coils of a differential galvanometer, one coil being connected to the heated conductor in one vessel and the other coil being connected to the unheated conductor in the other vessel, a connection between the other pair of conductors, a connection between the coils, a circuit connecting the two latter connections, and an induction-coil having its secondary winding in the circuit and its primary winding connected to an aerial wire and earth."
+  },
+  {
+   "n": 34,
+   "page": 5,
+   "cite": "p.5:81",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "34. The combination of two vacuous vessels, a carbon filament in each vessel, a metallic cylinder in each vessel, surrounding but not touching the filament, means for heating the filaments, two coils of a differential galvanometer one coil being connected to the filament in one vessel and the other coil being connected to the cylinder in the other vessel, a connection between the other cylinder and filament, a connection between the coils, a circuit connecting the two latter connections, and an induction-coil having its secondary winding in the circuit and its primary winding connected to an aerial wire and earth."
+  },
+  {
+   "n": 35,
+   "page": 5,
+   "cite": "p.5:95",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "35. The combination of two vacuous vessels, a carbon filament in each vessel, a metallic cylinder in each vessel, surrounding but not touching the filament, means for passing an electric current through the filaments, two coils of a differential galvanometer one coil being connected to the filament in one vessel and the other coil being connected to the cylinder in the other vessel, a connection between the other cylinder and filament, a connection between the coils, a circuit connecting the two latter connections, and an induction-coil having its secondary winding in the circuit and its primary winding connected to an aerial wire and earth."
+  },
+  {
+   "n": 36,
+   "page": 5,
+   "cite": "p.5:110",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "36. The combination of two vacuous vessels, a carbon filament in each vessel, a metallic cylinder in each vessel, surrounding but not touching the filament, means for passing a continuous electric current through the filaments, two coils of a differential galvanometer one coil being connected to the filament in one vessel and the other coil being connected to the cylinder in the other vessel, a connection between the other cylinder and filament, a connection between the coils, a circuit connecting the two latter connections, and an induction-coil having its secondary winding in the circuit and its primary winding connected to an aerial wire and earth."
+  },
+  {
+   "n": 37,
+   "page": 5,
+   "cite": "p.5:125",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "37. At a receiving-station in a system of wireless telegraphy employing electrical oscillations of high frequency a detector comprising a vacuous vessel, two conductors adjacent to but not touching each other in the vessel, means for heating one of the conductors, a circuit outside of the vessel connecting the two conductors, means for detecting a continuous current in the circuit, and means for impressing upon the circuit the received oscillations."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "cite": "header",
+   "ocr": "UNITED STATES PA'TENT OFFICE.",
+   "fixed": "UNITED STATES PATENT OFFICE.",
+   "basis": "scan"
+  },
+  {
+   "cite": "header",
+   "ocr": "MARCON]",
+   "fixed": "MARCONI",
+   "basis": "scan"
+  },
+  {
+   "cite": "header",
+   "ocr": "TELEGRAPH: COMPANY",
+   "fixed": "TELEGRAPH COMPANY",
+   "basis": "scan"
+  },
+  {
+   "cite": "header",
+   "ocr": "NEW JERSEY. :",
+   "fixed": "NEW JERSEY.",
+   "basis": "scan"
+  },
+  {
+   "cite": "header",
+   "ocr": "‘INSTRUMENT FOR ‘CONVERTING",
+   "fixed": "INSTRUMENT FOR CONVERTING",
+   "basis": "scan"
+  },
+  {
+   "cite": "header",
+   "ocr": "No. 808,684.",
+   "fixed": "No. 803,684.",
+   "basis": "scan"
+  },
+  {
+   "cite": "header",
+   "ocr": "Patented Nov. 7, 1905,",
+   "fixed": "Patented Nov. 7, 1905.",
+   "basis": "scan"
+  },
+  {
+   "cite": "header",
+   "ocr": "\"Application filed April19, 1905.",
+   "fixed": "Application filed April 19, 1905.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:2",
+   "ocr": "Joun AMBRosE FLEM-",
+   "fixed": "John Ambrose Flem-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:3",
+   "ocr": "ING,",
+   "fixed": "ing,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:4",
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:8",
+   "ocr": "‘for",
+   "fixed": "for",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:10",
+   "ocr": "spécification.",
+   "fixed": "specification.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:13",
+   "ocr": "‘trie",
+   "fixed": "tric",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:16",
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:18",
+   "ocr": "“* mirror-galva-",
+   "fixed": "“mirror-galva-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:20",
+   "ocr": "Such: instrumeats",
+   "fixed": "Such instruments",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:21",
+   "ocr": "--as",
+   "fixed": "as",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:22",
+   "ocr": "fr°-",
+   "fixed": "fre-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:24",
+   "ocr": ". ‘‘alternating-",
+   "fixed": "“alternating-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:29",
+   "ocr": "anordinary",
+   "fixed": "an ordinary",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:31",
+   "ocr": "current.",
+   "fixed": "current",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:31",
+   "ocr": "“* rectified \"—",
+   "fixed": "“rectified”—",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:32",
+   "ocr": "that‘is,",
+   "fixed": "that is,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:35",
+   "ocr": "sets.of",
+   "fixed": "sets of",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:42",
+   "ocr": ".also,:there",
+   "fixed": "also, there",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:44",
+   "ocr": "that.",
+   "fixed": "that",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:48",
+   "ocr": "acertain",
+   "fixed": "a certain",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:48",
+   "ocr": "these.",
+   "fixed": "these",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:53",
+   "ocr": "1",
+   "fixed": "I",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:54",
+   "ocr": "areinclosed",
+   "fixed": "are inclosed",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:60",
+   "ocr": "reversedirection. Asthe",
+   "fixed": "reverse direction. As the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:61",
+   "ocr": "tem-_",
+   "fixed": "tem-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:66",
+   "ocr": "Thecold",
+   "fixed": "The cold",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:71",
+   "ocr": "toa",
+   "fixed": "to a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:79",
+   "ocr": "-invention,",
+   "fixed": "invention,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:82",
+   "ocr": "moditica-",
+   "fixed": "modifica-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:84",
+   "ocr": "@",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:84",
+   "ocr": "&",
+   "fixed": "b",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:85",
+   "ocr": "likethe",
+   "fixed": "like the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:85",
+   "ocr": "tilamentof",
+   "fixed": "filament of",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:86",
+   "ocr": "say.",
+   "fixed": "say,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:86",
+   "ocr": "acurrent",
+   "fixed": "a current",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:87",
+   "ocr": ". ix toeight voltsand",
+   "fixed": "six to eight volts and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:87",
+   "ocr": "cis",
+   "fixed": "c is",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:89",
+   "ocr": "rot",
+   "fixed": "not",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:90",
+   "ocr": "thetilament. Thecylinder",
+   "fixed": "the filament. The cylinder",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:91",
+   "ocr": "@,",
+   "fixed": "d,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:92",
+   "ocr": "6",
+   "fixed": "b",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:93",
+   "ocr": "theleadseand_",
+   "fixed": "the leads e and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:94",
+   "ocr": "‘dinary",
+   "fixed": "dinary",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:97",
+   "ocr": ".a@",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:100",
+   "ocr": "}",
+   "fixed": "b",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:102",
+   "ocr": "¢",
+   "fixed": "c",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:103",
+   "ocr": "@",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:106",
+   "ocr": "¢",
+   "fixed": "c",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:2",
+   "ocr": "passing current",
+   "fixed": "passing a current",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:2",
+   "ocr": "it,-this",
+   "fixed": "it, this",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:3",
+   "ocr": "usually-more",
+   "fixed": "usually more",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:7",
+   "ocr": "A,",
+   "fixed": "h,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:9",
+   "ocr": "#.",
+   "fixed": "f.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:10",
+   "ocr": "@",
+   "fixed": "d",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:10",
+   "ocr": "¢",
+   "fixed": "e",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:10",
+   "ocr": "yi",
+   "fixed": "j,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:12",
+   "ocr": "& of.an",
+   "fixed": "k of an",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:14",
+   "ocr": "J. -",
+   "fixed": "l.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:17",
+   "ocr": "m",
+   "fixed": "n",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:18",
+   "ocr": "operates.as",
+   "fixed": "operates as",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:19",
+   "ocr": "-an",
+   "fixed": "an",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:19",
+   "ocr": "valye",
+   "fixed": "valve",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:20",
+   "ocr": "&",
+   "fixed": "b",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:21",
+   "ocr": "¢,",
+   "fixed": "c,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:23",
+   "ocr": "Aby",
+   "fixed": "k by",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:24",
+   "ocr": "7",
+   "fixed": "n",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:26",
+   "ocr": "galvanometer2",
+   "fixed": "galvanometer l",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:29",
+   "ocr": "will”",
+   "fixed": "will",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:30",
+   "ocr": "x",
+   "fixed": "n",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:31",
+   "ocr": "there:",
+   "fixed": "there",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:36",
+   "ocr": "‘shown",
+   "fixed": "shown",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:37",
+   "ocr": "» pare",
+   "fixed": "p p are",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:39",
+   "ocr": "such:",
+   "fixed": "such",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:39",
+   "ocr": "that,",
+   "fixed": "that",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:42",
+   "ocr": "g",
+   "fixed": "q",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:44",
+   "ocr": "conduetor",
+   "fixed": "conductor",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:46",
+   "ocr": "flow,",
+   "fixed": "flow",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:49",
+   "ocr": "Thecommon",
+   "fixed": "The common",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:51",
+   "ocr": "&",
+   "fixed": "k",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:52",
+   "ocr": "oscillations,",
+   "fixed": "oscillations;",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:54",
+   "ocr": "bulbs;",
+   "fixed": "bulbs,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:55",
+   "ocr": "A",
+   "fixed": "h",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:59",
+   "ocr": "in-opposite",
+   "fixed": "in opposite",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:64",
+   "ocr": "-this",
+   "fixed": "this",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:67",
+   "ocr": "mirror - galvanom-",
+   "fixed": "mirror-galvanom-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:71",
+   "ocr": "contin uous",
+   "fixed": "continuous",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:79",
+   "ocr": "metal:",
+   "fixed": "metal",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:80",
+   "ocr": "bé.replaced",
+   "fixed": "be replaced",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:83",
+   "ocr": "‘cases",
+   "fixed": "cases",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:84",
+   "ocr": "rent’",
+   "fixed": "rent",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:93",
+   "ocr": "‘terminal",
+   "fixed": "terminal",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:96",
+   "ocr": "circuit‘a",
+   "fixed": "circuit a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:104",
+   "ocr": "improved. rectifiers,.as",
+   "fixed": "improved rectifiers, as",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:108",
+   "ocr": "the.circuit",
+   "fixed": "the circuit",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:109",
+   "ocr": "“unidirectional",
+   "fixed": "unidirectional",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:112",
+   "ocr": "2.",
+   "fixed": "l.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:116",
+   "ocr": "differentia]",
+   "fixed": "differential",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:118",
+   "ocr": "‘When",
+   "fixed": "When",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:118",
+   "ocr": "‘‘ means",
+   "fixed": "“means",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:120",
+   "ocr": "ijstrument",
+   "fixed": "instrument",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:6",
+   "ocr": "Thecombination",
+   "fixed": "The combination",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:7",
+   "ocr": "adjaceni",
+   "fixed": "adjacent",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:9",
+   "ocr": "ciréuit.",
+   "fixed": "circuit",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:10",
+   "ocr": "connecting-",
+   "fixed": "connecting",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:22",
+   "ocr": "of.a",
+   "fixed": "of a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:24",
+   "ocr": "_other",
+   "fixed": "other",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:25",
+   "ocr": "current.",
+   "fixed": "current",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:26",
+   "ocr": "conductors,and acircuit",
+   "fixed": "conductors, and a circuit",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:28",
+   "ocr": "of-a",
+   "fixed": "of a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:29",
+   "ocr": "‘not",
+   "fixed": "not",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:36",
+   "ocr": "init. . |",
+   "fixed": "in it.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:37",
+   "ocr": "Thecombination ofa",
+   "fixed": "The combination of",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:38",
+   "ocr": "‘each",
+   "fixed": "each",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:39",
+   "ocr": "in.the",
+   "fixed": "in the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:41",
+   "ocr": "twd",
+   "fixed": "two",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:42",
+   "ocr": "having:",
+   "fixed": "having",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:44",
+   "ocr": "tneans",
+   "fixed": "means",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:45",
+   "ocr": "circuit... .",
+   "fixed": "circuit.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:46",
+   "ocr": "Thé",
+   "fixed": "The",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:48",
+   "ocr": "vessel;",
+   "fixed": "vessel,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:49",
+   "ocr": "_tric",
+   "fixed": "tric",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:51",
+   "ocr": "induction -coil",
+   "fixed": "induction-coil",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:51",
+   "ocr": "jts",
+   "fixed": "its",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:52",
+   "ocr": "primary’",
+   "fixed": "primary",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:57",
+   "ocr": "\"each",
+   "fixed": "each",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:60",
+   "ocr": "outside.",
+   "fixed": "outside",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:61",
+   "ocr": "induction- coil",
+   "fixed": "induction-coil",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:63",
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:67",
+   "ocr": "cy Yala. lin-",
+   "fixed": "cylin-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:70",
+   "ocr": "‘circuit",
+   "fixed": "circuit",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:72",
+   "ocr": "combination’",
+   "fixed": "combination",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:72",
+   "ocr": "vacuous,",
+   "fixed": "vacuous",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:75",
+   "ocr": "-an",
+   "fixed": "an",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:78",
+   "ocr": "-12.",
+   "fixed": "12.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:79",
+   "ocr": "metallic.",
+   "fixed": "metallic",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:80",
+   "ocr": "surrounding:",
+   "fixed": "surrounding",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:81",
+   "ocr": "meaus for!",
+   "fixed": "means for",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:83",
+   "ocr": "produce.",
+   "fixed": "produce",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:84",
+   "ocr": "‘current",
+   "fixed": "current",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:88",
+   "ocr": "surréunding",
+   "fixed": "surrounding",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:89",
+   "ocr": "mearis for.passing",
+   "fixed": "means for passing",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:90",
+   "ocr": "circuit-outside",
+   "fixed": "circuit outside",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:96",
+   "ocr": "vessel.",
+   "fixed": "vessel,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:126",
+   "ocr": "an,",
+   "fixed": "an",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:129",
+   "ocr": "de-.",
+   "fixed": "de-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:6",
+   "ocr": "cy]-",
+   "fixed": "cyl-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:12",
+   "ocr": "Thecombination",
+   "fixed": "The combination",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:17",
+   "ocr": "‘to",
+   "fixed": "to",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:24",
+   "ocr": "touching.",
+   "fixed": "touching",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:28",
+   "ocr": "being.",
+   "fixed": "being",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:31",
+   "ocr": "acon-",
+   "fixed": "a con-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:33",
+   "ocr": "_aconnection",
+   "fixed": "a connection",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:35",
+   "ocr": "Thecombination",
+   "fixed": "The combination",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:38",
+   "ocr": "electric.",
+   "fixed": "electric",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:40",
+   "ocr": "galyanometer,",
+   "fixed": "galvanometer,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:42",
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:45",
+   "ocr": "4",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:52",
+   "ocr": "differential-galvanometer,",
+   "fixed": "differential galvanometer,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:54",
+   "ocr": "coil: being-connected",
+   "fixed": "coil being connected",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:63",
+   "ocr": "vessel;",
+   "fixed": "vessel,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:64",
+   "ocr": "eo",
+   "fixed": "so",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:75",
+   "ocr": "Thecombination",
+   "fixed": "The combination",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:77",
+   "ocr": "eachother",
+   "fixed": "each other",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:89",
+   "ocr": "25.-",
+   "fixed": "25.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:89",
+   "ocr": "two.vacuous",
+   "fixed": "two vacuous",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:93",
+   "ocr": "galyanome-",
+   "fixed": "galvanome-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:97",
+   "ocr": "connection:",
+   "fixed": "connection",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:101",
+   "ocr": "vessel,-a",
+   "fixed": "vessel, a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:103",
+   "ocr": "for.",
+   "fixed": "for",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:104",
+   "ocr": "electriccurrent",
+   "fixed": "electric current",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:107",
+   "ocr": "being’",
+   "fixed": "being",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:108",
+   "ocr": "between.",
+   "fixed": "between",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:112",
+   "ocr": "Thecombination",
+   "fixed": "The combination",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:113",
+   "ocr": "filament-in",
+   "fixed": "filament in",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:114",
+   "ocr": "eylinder",
+   "fixed": "cylinder",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:115",
+   "ocr": "‘touching",
+   "fixed": "touching",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:117",
+   "ocr": "twocoils",
+   "fixed": "two coils",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:118",
+   "ocr": "one.",
+   "fixed": "one",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:119",
+   "ocr": "cvil",
+   "fixed": "coil",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:124",
+   "ocr": "Thecombination",
+   "fixed": "The combination",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:127",
+   "ocr": "touching.",
+   "fixed": "touching",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:2",
+   "ocr": "vessel-and",
+   "fixed": "vessel and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:3",
+   "ocr": "cylinder.",
+   "fixed": "cylinder",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:5",
+   "ocr": "a-connection",
+   "fixed": "a connection",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:11",
+   "ocr": "éach",
+   "fixed": "each",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:16",
+   "ocr": "coil.",
+   "fixed": "coil",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:18",
+   "ocr": "other.",
+   "fixed": "other",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:23",
+   "ocr": "Thecombination",
+   "fixed": "The combination",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:29",
+   "ocr": "the:",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:30",
+   "ocr": "‘one",
+   "fixed": "one",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:37",
+   "ocr": "Thecombination",
+   "fixed": "The combination",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:39",
+   "ocr": "eaclt",
+   "fixed": "each",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:41",
+   "ocr": "‘of",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:41",
+   "ocr": "galvanometer,",
+   "fixed": "galvanometer;",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:50",
+   "ocr": "‘ing",
+   "fixed": "ing",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:55",
+   "ocr": "adif-",
+   "fixed": "a dif-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:59",
+   "ocr": "connection.",
+   "fixed": "connection",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:66",
+   "ocr": "Thecombination",
+   "fixed": "The combination",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:69",
+   "ocr": "electric’",
+   "fixed": "electric",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:70",
+   "ocr": "in-each",
+   "fixed": "in each",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:71",
+   "ocr": "two.",
+   "fixed": "two",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:73",
+   "ocr": "véssel",
+   "fixed": "vessel",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:74",
+   "ocr": "‘nected",
+   "fixed": "nected",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:76",
+   "ocr": "cvils,",
+   "fixed": "coils,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:81",
+   "ocr": "- 84. Thecombination",
+   "fixed": "34. The combination",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:84",
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:93",
+   "ocr": "and-its",
+   "fixed": "and its",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:95",
+   "ocr": "35...",
+   "fixed": "35.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:102",
+   "ocr": "-and",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:105",
+   "ocr": "cireuit",
+   "fixed": "circuit",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:106",
+   "ocr": "inducticn-coil",
+   "fixed": "induction-coil",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:107",
+   "ocr": "tue",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:108",
+   "ocr": "connected.to",
+   "fixed": "connected to",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:110",
+   "ocr": "Thecombination",
+   "fixed": "The combination",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:114",
+   "ocr": "tila-",
+   "fixed": "fila-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:125",
+   "ocr": "in-a",
+   "fixed": "in a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:126",
+   "ocr": "vs-",
+   "fixed": "os-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:6",
+   "ocr": "detecting.",
+   "fixed": "detecting",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:13",
+   "ocr": "JaAMEson,",
+   "fixed": "Jameson,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:14",
+   "ocr": "Nurrine.",
+   "fixed": "Nutting.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6",
+   "ocr": "InsrrumEnT ror ConvERt- inc ALTERNATING ELEcTRIC CURRENTS INTO ConTINUOUS CURRENTs.",
+   "fixed": "Instrument for Convert- ing Alternating Electric Currents into Continuous Currents.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6",
+   "ocr": "in ~",
+   "fixed": "in",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6",
+   "ocr": "‘specification:",
+   "fixed": "specification:",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6",
+   "ocr": "at. page 2",
+   "fixed": "at page 2",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6",
+   "ocr": "[Official Gazette, November 28, 1916.)",
+   "fixed": "[Official Gazette, November 23, 1915.]",
+   "basis": "scan"
+  }
+ ]
+}

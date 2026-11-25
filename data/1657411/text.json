@@ -1,0 +1,2372 @@
+{
+ "pn": "1657411",
+ "number": "1,657,411",
+ "cite_scheme": "printed page:line",
+ "title": "CIPHERING MACHINE",
+ "inventors": [
+  "Arthur Scherbius"
+ ],
+ "assignee": "Chiffriermaschinen Aktiengesellschaft, of Berlin, Germany, a corporation of Germany (by mesne assignments)",
+ "filed": "1923-02-06",
+ "issued": "1928-01-24",
+ "appl_no": "617,352",
+ "priority": "Germany February 11, 1922",
+ "int_cl": null,
+ "us_cl": null,
+ "refs_patents": [],
+ "refs_other": [],
+ "examiners": null,
+ "claims_count": 9,
+ "drawing_figures": 3,
+ "abstract": "",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "page": 1,
+     "cite": "p.1:1",
+     "col": null,
+     "line": null,
+     "text": "It has already been proposed to use for ciphering of a clear text and for deciphering machines which either type the ciphered letters in a similar manner to that of a typewriting machine or which produce a ciphered perforated cable tape or operate an indicating device. The operation of machines of this type is based for instance on the interchanging of the closed circuits between the keys marked with the letters of the alphabet and the type levers or the levers of a perforator for cable tapes each time after the sending of one or more of a determined number of letters. As soon as with two machines of this type this interchange, which is per se irregular, is effected in exactly the same manner, a telegram which has been ciphered with the aid of one machine can be deciphered with the aid of a corresponding machine. A condition is however that the number of letters counted from the same starting position has remained the same. At the sending of telegrams, especially with wireless telegraphy, one must however count upon the accidental omission of certain letters or groups of letters. The machine which is used in such a case for deciphering is thus unsynchronized, so that not only the letters which have been omitted but also all the succeeding text cannot be deciphered any more."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:32",
+     "col": null,
+     "line": null,
+     "text": "According to the invention this defect is avoided or at least restricted greatly by providing on the ciphering machine a device by means of which finishing of a series of letters of determined length is signalized every time to the operator of the machine so that he can mark the beginning of the new series of letters in the ciphered text. It is thus possible to compare and if necessary to correct the position of the deciphering machine after every series of letters. The termination of the series of letters is preferably signalized by the sounding of a bell or by the lighting up of an incandescent lamp. It would be better still if, after the termination of a determined series of letters, the machine is automatically stopped entirely or partly or thrown out of operation so that it is impossible to continue the typing: The mechanism which effects the interchange of the letters may for instance be stopped. The beginning of the new row of letters may then be indicated for instance by repeated sending of the same letter. The device which serves for counting the length of the row of letters may continue to operate, if this should be desirable for any reason, if the same letter is repeated each time for a determined number of times. It would be still better to reverse the machine in such a manner that it types clear text, the mechanism which effects the interchange of letters being stopped, wherefrom results the advantage that in the clear text an easily recognizable message can be given and that after the sending of this message the ciphering can be continued with the machine which during this sending has not been adjusted for sending code. Such a message can consist for instance of a check member, or if desired the number of letters which have been sent up to this moment. For each series of letters a new key indication might be selected on the machine which key indication for safety's sake would be sent in the clear text several times. Service regulations might further be inserted. Clear text might further be signalized by special signs, for instance by spaced type."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:81",
+     "col": null,
+     "line": null,
+     "text": "In order to make the invention clearly understood I shall proceed to describe the same with reference to the accompanying drawing wherein:"
+    },
+    {
+     "page": 1,
+     "cite": "p.1:85",
+     "col": null,
+     "line": null,
+     "text": "Fig. 1 shows by way of example a ciphering machine according to this invention."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:87",
+     "col": null,
+     "line": null,
+     "text": "Figure 2 is an edge elevation of one of the rotatable contact drums showing the irregular connection of the contact points."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:90",
+     "col": null,
+     "line": null,
+     "text": "Figure 3 is a front elevation of the drum."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:91",
+     "col": null,
+     "line": null,
+     "text": "Each key of the key board 1 of the typewriting machine connects by means of a contact operated at the depression of the key the lead 2 with one of the leads contained in cable 3 belonging to this key. The several leads corresponding with the keys are insulated from one another and united to form a cable 3 which is in contact with a drum 4. Upon the end faces of this drum as many contacts are arranged in a circle as the typewriting machine has keys and the several leads of the eables 3 are connected with these contacts in such a manner that every two opposite contacts are connected with the same lead. The drum 4 is mounted on a shaft 5 so that it may be displaced in longitudinal direction but cannot revolve with said shaft. Upon the same shaft four revoluble drums 6, 7, 8 and 9 are arranged which carry on both end faces the same number of contacts as drum 4. In these drums 6—9 the opposite contacts are not connected with one another but the contacts of the opposite rows of contacts are arbitrarily interconnected in confused order but in such a way that only one of the contacts of the one side is connected with one of the contacts of the other side. Upon the ends of shaft 5 two drums 10 and 11 are keyed which have contact pins only on the end face which is turned towards the other drums. These contact pins of each drum 10 and 11 are connected by cables 13 and 14 respectively, with a drive for a type lever of a perforator 12. The conductors 13 and 14 are cables which contain as many wires as there are contact points on the individual contact drums, for example, twenty-six. The type levers of the telegraphic perforator may for instance be operated each by one electromagnet. The other terminals of the several drives for the telegraphic perforator are connected with the minus pole of a source of current. The drums 6—9 are coupled with the driving wheel 15 by toothed wheel gear of a variable transmission in that each of the drums 6, 7, 8 and 9 are driven by gears having a different number of teeth, as shown at 16 and 17. For clearness sake only the couplings for the drums 6 and 8 are shown on the drawing. The toothed wheels 16 and 21 on the one hand and 17 and 22 on the other hand are keyed on shafts 19 and 20. The toothed wheels 16 and 17 are in gear with the spur wheel 18 rigidly connected with the driving wheel 15, the toothed wheels 21 and 22 being in gear with toothed crowns of the drums 6 and 8 respectively. The drums 6, 7; 8, 9 have marks, for example letters, on their periphery, which serve for the adjustment of the drums to a certain key word at the beginning of coding. For this adjustment it is possible to disconnect the drive gears for the drums, adjust the drums to the key word and again connect in the drive gears, so that, for example, as in the example shown, the key word “niag” appears before a window (not shown). The driving wheel 15 has teeth 23 on its circumference with which the blade-spring 24 of a resiliently mounted armature 25 engages. Opposite the armature an electromagnet 26 is arranged, the exciter coils of which are connected by one of their terminals with the lead 2. The drum 4 is pressed by spring 28, through the intermediary of lever 27, against the drum 6 but it may be brought in contact with the stationary drum 10 against the action of spring 28 by the depression of the lever 27. The drives of the type levers of the telegraphic perforator are connected with the contact pins of drum 10 in such a manner that, at the contact between the pins of the drums 4 and 10, any desired letter of the telegraphic perforator is operated by the same letter of the key board 1. On lever 27 an insulated electric-current-conducting-plate 29 of sheet metal, connected with the plus pole of the source of current, is fixed. This piece of sheet metal 29 has at its front end two contact plates 30 and 31 opposite which two spring controlled contacts 32 and 33 are arranged. The contact 32 is connected with the lead 2 and the contact 33 is connected with the terminal of the electromagnet 26. The contact 33 is supported by a lever 35 which is pivotally mounted on a stud 34 so that it oscillates only with difficulty and is held by friction in any position to which it is brought. On this lever 35 a blade spring 36 is fixed so that it is not in contact with the armature 25 if the lever 35 is in the position of rest shown on the drawing. Opposite spring 36 the armature 25 has a groove 37 and behind this groove a nose 38. 39 is a counting mechanism of commonly used construction the electricity-conducting figure disks of which are connected by way of the axle and the casing of the counting mechanism with the lead between the contact 33 and the magnet 26. Upon the circumference of the figure disks the contacts 40—44 slide, said contacts being adapted to be singly connected with the plus pole of the source of current by means of the switches 45—49. The figure disks with sliding contacts have on their circumferences plates of insulating material (those visible on the drawing are designated 50, 51, 52) which are of such size and which are arranged in such a manner that they interrupt the conducting connection between the sliding contacts 40—44 and the figure disks only if said figure disks are in the zero position. The feeding of the counter is effected by the driving wheel 15 in such a way that at each partial rotation of wheel 15 the unit disk of the counter is advanced by one figure. The ratio of the number of teeth of the driving wheel 15 to those of the numbering device meshing therewith is selected so that each time the member 24 moves the wheel 15 forwardly by one notch 23, the numbering or counting mechanism is adjusted further for one unit."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:120",
+     "col": null,
+     "line": null,
+     "text": "The ciphering machine works as follows:—"
+    },
+    {
+     "page": 2,
+     "cite": "p.2:122",
+     "col": null,
+     "line": null,
+     "text": "By the depression of a key of key board 1 one of the electromagnets of the perforator 12 is excited which is determined by the position of the drums 6, 7; 8 and 9 so that the corresponding letter is perforated. At the same time the magnet 26 situated in the circuit 2 common to all letters is excited and the armature 25 is attracted. When the key is released the circuit is interrupted and the armature is released by the magnet, so that it returns to its initial position and makes the driving wheel 15 rotate by one tooth. With the driving wheel 15 the spur wheel 18 rotates and makes the rotatable drums 6—9 rotate by different amplitudes owing to the toothed wheel transmission of different radii. All the connections of the key board 1 with the telegraphic perforator 12 are thus changed so that, at the next depression of the same key of key board 1, another letter as before would be perforated by the perforator."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:14",
+     "col": null,
+     "line": null,
+     "text": "The device which, according to the invention indicates the termination of a series of letters, in the present case by stopping the machine, is controlled by the counting mechanism 39. In the form of construction shown by way of example the machine is stopped always after the indicating of one thousand letters. With this object in view the sliding contacts 40, 41 and 42 are connected across the switches 45, 46, 47 with the net-work so that the current may flow from the plus pole of the net-work over the figure disks for the units, tens and hundreds. Only if all three disks are at the zero position the current is interrupted through the insulating plates 50, 51 and 52 and the machine is stopped. By corresponding insertion of the switches 45—49 the length of the row of ciphered letters can be altered as desired. In the drawings the counting mechanism shows the number 13999. If a key of the key board 1 is now depressed, so that the 14000th letter is ciphered, all number disks which have previously indicated “9” will indicate “0” as soon as the armature 25 returns to its position of rest. The plus pole of the source of current is thus cut off from the machine whereby further typing is prevented. By depression of lever 27 the contacts 31 and 32 can be brought in contact whereby the plus pole of the source of current is directly connected with the lead 2 while avoiding the switching magnet 26 and the counting mechanism 39. At the same time the drum 4 is pressed against the stationary drum 10 so that clear text can be typed with the machine as long as lever 27 remains depressed. The feed mechanism for the ciphering, the driving wheel 15 and the counting mechanism 39 remain out of operation during this time. If ciphering has to be typed again it is merely necessary to release the lever 27 so that it is returned into the initial position by the action of spring 28. At the depression of lever 27 lever 35 with contact 33 had been lowered at the same time. The blade spring 36 is thus brought in contact with the end face of the armature 25 along which it slides downward. As soon as lever 27 is returning to its initial position the connection between the contacts 31 and 32 is interrupted and a connection between the contacts 30 and 33 is produced since lever 35 remains in its lowered position, being held by friction in the bearing indicated by stud 34, and thus keeping the contact between spring 36 and armature 38. so that now only the counting mechanism 39 is switched out of the circuit 2 common to all keys. If now a key of the key board 1 is depressed and the first letter of the new row of ciphered letters is thus being typed the feeding mechanism executes a feeding movement so that the counter registers again the letter which has been transmitted, the counter indicating the number 14001. The connection over contact 40 and the unit disk is thus re-established. At the same time the connection of the contacts 30 and 33 is interrupted in the following manner. When the armature approaches the magnet 26 the front face of the armature releases the blade spring 36 so that this blade spring can come in contact with nose 38. At the return of the armature 25 to the position of rest the blade spring 36 engages with groove 37 in which it moves upward through the intermediary of the armature. The lever 35 returns thus to the initial position. At the next descent of the armature the blade spring 36 which is still in engagement with groove 37 is released and assumes again the position of rest shown on the drawing."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:99",
+     "col": null,
+     "line": null,
+     "text": "By having the cipher written in groups of five letters each, the omission of signs will be more easily detected by comparison with the original than would be the case where grouping of signs is not employed."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:104",
+     "col": null,
+     "line": null,
+     "text": "The perforated strip is inserted in a telegraph machine of known construction and on passage therethrough produces the Morse code in the telegraph line. When the electric current is passed in opposite direction through the drums 6, 7, 8, 9, the machine may be used for de-coding. The operator can accurately supervise on the perforated strips of the perforator, the perforation marks and their groupings. The connection between the perforator and the drums of the sending apparatus is effected by the cables 13 and 14, of which each branch leads to the magnets of each perforating key of a known type of magnetic perforating machine, for example the Wheatstone type."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:121",
+     "col": null,
+     "line": null,
+     "text": "The device described is a coding apparatus. If a message received in code is to be deciphered, use is made either of a special device, composed of the same parts as the machine described, but in which the lead bundles 3 and 14 are interchanged, or of an apparatus according to Figure 1 provided with a suitable multiple electric switch by means of which each individual conductor from the bundle 3 may be interchanged with the corresponding conductor of the bundle 14. For de-coding, it is only necessary to pass the electric current through the ciphering rolls in the direction opposite to that for ciphering."
+    },
+    {
+     "page": 6,
+     "cite": "p.6:20",
+     "col": null,
+     "line": null,
+     "text": "In testimony whereof I affix my signature."
+    },
+    {
+     "page": 6,
+     "cite": "p.6:22",
+     "col": null,
+     "line": null,
+     "text": "ARTHUR SCHERBIUS."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "page": 1,
+   "cite": "p.1:85",
+   "col": null,
+   "line": null,
+   "text": "Fig. 1 shows by way of example a ciphering machine according to this invention."
+  },
+  {
+   "fig": "2",
+   "page": 1,
+   "cite": "p.1:87",
+   "col": null,
+   "line": null,
+   "text": "Figure 2 is an edge elevation of one of the rotatable contact drums showing the irregular connection of the contact points."
+  },
+  {
+   "fig": "3",
+   "page": 1,
+   "cite": "p.1:90",
+   "col": null,
+   "line": null,
+   "text": "Figure 3 is a front elevation of the drum."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "page": 4,
+   "cite": "p.4:7",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "1. A ciphering and deciphering apparatus adapted to change letter, number and punctuation characters into other characters and render them visible at indicating points, comprising in combination a mechanism for interchanging the characters, sending elements constituted by keys, indicating points for the ciphered or deciphered characters, conductors connecting said elements, and a device adapted to indicate at the indicating points the end of a group comprising a determined number of ciphered characters."
+  },
+  {
+   "n": 2,
+   "page": 4,
+   "cite": "p.4:19",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "2. A ciphering apparatus comprising in combination a mechanism for interchanging letter, number and punctuation characters into other characters, sending elements constituted by keys, indicating elements, leads connecting these elements, a magnet coil inserted in the circuit, a pawl mechanism for stepwise feeding, a ratchet wheel which is partly rotated at every operation of a sending element indicating points, and a device connected with said ratchet wheel designed to distinguish in the indicating points a group comprising a determined number of ciphered signs."
+  },
+  {
+   "n": 3,
+   "page": 4,
+   "cite": "p.4:33",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "3. A ciphering apparatus comprising in combination a mechanism for interchanging letter, number and punctuation characters into other characters, sending elements constituted by keys, indicating elements, leads connecting these elements, a magnet coil inserted in the circuit, a pawl and ratchet mechanism operated by said magnet coil at every operation of a sending element, a device for altering the interchanging mechanism controlled by said pawl and ratchet mechanism, indicating points, a counting mechanism also driven from the pawl and ratchet mechanism, contact points of the counting mechanism interrupting the working circuit after a determined number of ciphered signs and switches on the counting mechanism for the selective adjusting of groups of determined length in the indicating points."
+  },
+  {
+   "n": 4,
+   "page": 4,
+   "cite": "p.4:53",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "4. A ciphering apparatus comprising in combination a shaft, a number of drums revolubly mounted on said shaft, contacts on both ends of each drum the opposite contacts of each drum being irregularly connected with one another, contact drums keyed upon the ends of shaft, a contact drum movably but not rotatably mounted on said shaft between one of said stationary drums and the revoluble drums, keys, leads connecting said keys with the several contacts of the movable contact drum, indicating elements, leads connecting said indicating elements with the contacts of the one and with those of the other stationary contact drums, means for shifting the movable contact drum in order to bring the contacts of the same either in contact with the contacts of the one of the stationary contact drums or with those of the adjacent revoluble contact drum, means for rotating said revoluble contact drums intermittently, a ratchet device operated at the depression of a sending element, a counting mechanism controlled by said ratchet, metal figure disks of said counting mechanism, insulating segments of said figure disks, brushes sliding on said figure disks, and switches connected with said brushes for adjusting the length of the group of signs ciphered at the indicating points indicated by stopping of the entire ciphering apparatus."
+  },
+  {
+   "n": 5,
+   "page": 4,
+   "cite": "p.4:85",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "5. A ciphering apparatus comprising in combination a shaft, a number of drums revolubly mounted on said shaft, contacts on both ends of each drum the opposite contacts of each drum being irregularly connected with one another, contact drums keyed upon the ends of shaft, a contact drum movably but not rotatably mounted, on said shaft between one of said stationary drums and the revoluble drums, keys, leads connecting said keys with the several contacts of the movable contact drum, indicating elements, leads connecting said indicating elements with the contacts of the one and with those of the other stationary contact drums, means for shifting the movable contact drum in order to bring the contacts of the same either in contact with the contacts of the one of the stationary contact drums or with those of the adjacent revoluble contact drum, means for rotating said revoluble contact drums intermittently, a ratchet device operated at the depression of a sending element, a counting mechanism controlled by said ratchet, metal figure disks of said counting mechanism, insulating segments of said figure disks, brushes sliding on said figure disks, and switches connected with said brushes for adjusting the length of the group of signs ciphered at the indicating points indicated by stopping of the entire ciphering apparatus, and means for throwing said ciphering apparatus into work after the automatic stopping of the same."
+  },
+  {
+   "n": 6,
+   "page": 4,
+   "cite": "p.4:119",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "6. A ciphering apparatus comprising in combination a shaft, a number of drums revolubly mounted on said shaft, contacts on both ends of each drum the opposite contacts of each drum being irregularly connected with one another, contact drums keyed upon the ends of shaft, a contact drum movably but not rotatably mounted on said shaft between one of said stationary drums and the revoluble drums, keys, leads connecting said keys with the several contacts of the movable contact drum, indicating elements, leads connecting said indicating elements with the contacts of the one and with those of the other stationary contact drums, means for shifting the movable contact drum in order to bring the contacts of the same either in contact with the contacts of the one of the stationary contact drums or with those of the adjacent revoluble contact drum, means for rotating said revoluble contact drums intermittently, a ratchet device operated at the depression of a sending element, a counting mechanism controlled by said ratchet, metal figure disks of said counting mechanism, insulating segments of said figure disks, brushes sliding on said figure disks, and switches connected with said brushes for adjusting the length of the group of signs ciphered at the indicating points indicated by stopping of the entire ciphering apparatus, and a switch for short-circuiting the main circuit interrupted by the counting mechanism."
+  },
+  {
+   "n": 7,
+   "page": 5,
+   "cite": "p.5:23",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "7. A ciphering apparatus comprising in combination a shaft, a number of drums revolubly mounted on said shaft, contacts on both ends of each drum the opposite contacts of each drum being irregularly connected with one another, contact drums keyed upon the ends of shaft, a contact drum movably but not rotatably mounted on said shaft between one of said stationary drums and the revoluble drums, keys, leads connecting said keys with the several contacts of the movable contact drum, indicating elements, leads connecting said indicating elements with the contacts of the one and with those of the other stationary contact drums, means for shifting the movable contact drum in order to bring the contacts of the same either in contact with the contacts of the one of the stationary contact drums or with those of the adjacent revoluble contact drum, means for rotating said revoluble contact drums intermittently, a ratchet device operated at the depression of a sending element, a counting mechanism controlled by said ratchet, metal figure disks of said counting mechanism, insulating segments of said figure disks, brushes sliding on said figure disks, and switches connected with said brushes for adjusting the length of the group of signs ciphered at the indicating points indicated by stopping of the entire ciphering apparatus, a switch for short-circuiting the main circuit interrupted by the counting mechanism, and means for changing the ciphering apparatus at the same time from the ciphered text to clear text in order to distinguish the several groups by clear text inserted in the ciphered text."
+  },
+  {
+   "n": 8,
+   "page": 5,
+   "cite": "p.5:61",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "8. A ciphering apparatus comprising in combination a shaft, a number of drums revolubly mounted on said shaft, contacts on both ends of each drum the opposite contacts of each drum being irregularly connected with one another, contact drums keyed upon the ends of shaft, a contact drum movably but not rotatably mounted on said shaft between one of said stationary drums and the revoluble drums, keys, leads connecting said keys with the several contacts of the movable contact drum, indicating elements, leads connecting said indicating elements with the contacts of the one and with those of the other stationary contact drums, means for shifting the movable contact drum in order to bring the contacts of the same either in contact with the contacts of the one of the stationary contact drums or with those of the adjacent revoluble contact drum, means for rotating said revoluble contact drums intermittently, a ratchet device operated at the depression of a sending element, a counting mechanism controlled by said ratchet, metal figure disks of said counting mechanism, insulating segments of said figure disks, brushes sliding on said figure disks, and switches connected with said brushes for adjusting the length of the group of signs ciphered at the indicating points indicated by stopping of the entire ciphering apparatus, a switch for short-circuiting the main circuit interrupted by the counting mechanism, and means for shifting the movable drum between the one of the stationary contact drums and the revoluble contact drums of the interchanging device in order to distinguish the several groups by clear text inserted in the ciphered text."
+  },
+  {
+   "n": 9,
+   "page": 5,
+   "cite": "p.5:100",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "9. A ciphering apparatus comprising in combination a shaft, a number of drums revolubly mounted on said shaft, contacts on both ends of each drum the opposite contacts of each drum being irregularly connected with one another, contact drums keyed upon the ends of shaft, a contact drum movably but not rotatably mounted on said shaft between one of said stationary drums and the revoluble drums, keys, leads connecting said keys with the several contacts of the movable contact drum, indicating elements, leads connecting said indicating elements with the contacts of the one and with those of the other stationary contact drums, means for shifting the movable contact drum in order to bring the contacts of the same either in contact with the contacts of the one of the stationary contact drums or with those of the adjacent revoluble contact drum, means for rotating said revoluble contact drums intermittently, a ratchet device operated at the depression of a sending element, a counting mechanism controlled by said ratchet, metal figure disks of said counting mechanism, insulating segments of said figure disks, brushes sliding on said figure disks, and switches connected with said brushes for adjusting the length of the group of signs ciphered at the indicating points indicated by stopping of the entire ciphering apparatus, an angle lever acting by its one arm upon the movable contact drum, two contact points on the other arm of the lever being shunt-connected with the one pole and a nose acting upon an oscillable lever pivoting with friction, a contact piece fixed to this lever, an elastic tongue fixed to this lever, said lever being electrically connected with the other pole of the lead in shunt to the contacts of the counting mechanism, a notch mounted on the pawl of the ratchet for gripping said elastic tongue, and a second contact piece opposite the first mentioned contact piece connected with the leads for the sending elements and for the magnet of the ratchet, and a spring acting upon the first mentioned angle lever for returning the same to the initial position after it has been operated."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "cite": "header",
+   "ocr": "€IPHERING MACHINE.",
+   "fixed": "CIPHERING MACHINE.",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:1",
+   "ocr": "Tt",
+   "fixed": "It",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:1",
+   "ocr": "‘to",
+   "fixed": "to",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:1",
+   "ocr": "for.",
+   "fixed": "for",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:3",
+   "ocr": "either.",
+   "fixed": "either",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:4",
+   "ocr": "letters'in.a",
+   "fixed": "letters in a",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:4",
+   "ocr": "that-of",
+   "fixed": "that of",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:5",
+   "ocr": "which-produce a;ciphered",
+   "fixed": "which produce a ciphered",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:6",
+   "ocr": "operate:-an",
+   "fixed": "operate an",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:7",
+   "ocr": "of:machines:",
+   "fixed": "of machines",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:8",
+   "ocr": "instance:",
+   "fixed": "instance",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:8",
+   "ocr": "the-",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:9",
+   "ocr": "closed:",
+   "fixed": "closed",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:10",
+   "ocr": "the-",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:11",
+   "ocr": "levers.",
+   "fixed": "levers",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:12",
+   "ocr": "time:",
+   "fixed": "time",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:16",
+   "ocr": "the-. suune",
+   "fixed": "the same",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:17",
+   "ocr": "been-",
+   "fixed": "been",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:21",
+   "ocr": "same;",
+   "fixed": "same",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:23",
+   "ocr": "especially:",
+   "fixed": "especially",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:26",
+   "ocr": "‘",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:28",
+   "ocr": "that.",
+   "fixed": "that",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:31",
+   "ocr": "| S",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:32",
+   "ocr": "‘According",
+   "fixed": "According",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:33",
+   "ocr": "least. restricted.",
+   "fixed": "least restricted",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:35",
+   "ocr": "a.series",
+   "fixed": "a series",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:38",
+   "ocr": "of/the",
+   "fixed": "of the",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:39",
+   "ocr": ",ciphered",
+   "fixed": "ciphered",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:39",
+   "ocr": "‘It",
+   "fixed": "It",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:42",
+   "ocr": "he",
+   "fixed": "The",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:44",
+   "ocr": "‘erably",
+   "fixed": "erably",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:44",
+   "ocr": "ofa",
+   "fixed": "of a",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:50",
+   "ocr": "impossibleito",
+   "fixed": "impossible to",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:51",
+   "ocr": "“ing:",
+   "fixed": "ing:",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:52",
+   "ocr": "of.the",
+   "fixed": "of the",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:55",
+   "ocr": "the-same",
+   "fixed": "the same",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:58",
+   "ocr": "be-desirable",
+   "fixed": "be desirable",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:58",
+   "ocr": "if.",
+   "fixed": "if",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:59",
+   "ocr": "is:",
+   "fixed": "is",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:59",
+   "ocr": "a... determined: number: of: times,....It would-be",
+   "fixed": "a determined number of times. It would be",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:61",
+   "ocr": "to.",
+   "fixed": "to",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:61",
+   "ocr": "the-machine-in.such.a-",
+   "fixed": "the machine in such a",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:62",
+   "ocr": "the:mecha- nism:",
+   "fixed": "the mecha- nism",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:63",
+   "ocr": "effects:",
+   "fixed": "effects",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:63",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:64",
+   "ocr": "‘stopped,.wherefrom",
+   "fixed": "stopped, wherefrom",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:65",
+   "ocr": "“tage",
+   "fixed": "tage",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:65",
+   "ocr": "inthe",
+   "fixed": "in the",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:66",
+   "ocr": "-nizable",
+   "fixed": "nizable",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:67",
+   "ocr": "the’",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:67",
+   "ocr": "this:",
+   "fixed": "this",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:68",
+   "ocr": "can’",
+   "fixed": "can",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:68",
+   "ocr": "machine.",
+   "fixed": "machine",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:69",
+   "ocr": "sendinghas",
+   "fixed": "sending has",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:69",
+   "ocr": "adjusted’.",
+   "fixed": "adjusted",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:70",
+   "ocr": "‘Such",
+   "fixed": "Such",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:71",
+   "ocr": "‘sist",
+   "fixed": "sist",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:71",
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:72",
+   "ocr": "number’ of:",
+   "fixed": "number of",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:73",
+   "ocr": "up.",
+   "fixed": "up",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:73",
+   "ocr": "For.",
+   "fixed": "For",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:75",
+   "ocr": "‘be",
+   "fixed": "be",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:75",
+   "ocr": "machine,",
+   "fixed": "machine",
+   "basis": "scan (ink speck, no comma)"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:75",
+   "ocr": "indica-.",
+   "fixed": "indica-",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:76",
+   "ocr": "safety’s",
+   "fixed": "safety's",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:77",
+   "ocr": "‘clear",
+   "fixed": "clear",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:78",
+   "ocr": "might.",
+   "fixed": "might",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:79",
+   "ocr": ".by",
+   "fixed": "by",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:81",
+   "ocr": "..",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:82",
+   "ocr": ".I",
+   "fixed": "I",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:84",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:87",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:87",
+   "ocr": "the...",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:90",
+   "ocr": "front-elevation",
+   "fixed": "front elevation",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:91",
+   "ocr": "‘Each",
+   "fixed": "Each",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:93",
+   "ocr": "the. |",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:94",
+   "ocr": "‘one",
+   "fixed": "one",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:95",
+   "ocr": "8",
+   "fixed": "3",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:95",
+   "ocr": "this’",
+   "fixed": "this",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:96",
+   "ocr": "leads.",
+   "fixed": "leads",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:97",
+   "ocr": "another’",
+   "fixed": "another",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:98",
+   "ocr": "form-a",
+   "fixed": "form a",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:98",
+   "ocr": "which’",
+   "fixed": "which",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:99",
+   "ocr": "4..",
+   "fixed": "4.",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:99",
+   "ocr": "this.",
+   "fixed": "this",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:101",
+   "ocr": "keys.",
+   "fixed": "keys",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:102",
+   "ocr": "3.",
+   "fixed": "3",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:105",
+   "ocr": "with.",
+   "fixed": "with",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:106",
+   "ocr": "ona",
+   "fixed": "on a",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:106",
+   "ocr": "may.",
+   "fixed": "may",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:107",
+   "ocr": "-in",
+   "fixed": "in",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:108",
+   "ocr": "Upon.",
+   "fixed": "Upon",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:1",
+   "ocr": "druns",
+   "fixed": "drums",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:1",
+   "ocr": "8.",
+   "fixed": "8",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:6",
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:8",
+   "ocr": "‘a",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:14",
+   "ocr": "pins.of",
+   "fixed": "pins of",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:15",
+   "ocr": "‘drum",
+   "fixed": "drum",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:15",
+   "ocr": "18",
+   "fixed": "13",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:17",
+   "ocr": "The.",
+   "fixed": "The",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:21",
+   "ocr": "SIX.",
+   "fixed": "six.",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:34",
+   "ocr": "16.",
+   "fixed": "16",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:35",
+   "ocr": ".17",
+   "fixed": "17",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:41",
+   "ocr": "6-and",
+   "fixed": "6 and",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:46",
+   "ocr": "itis",
+   "fixed": "it is",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:46",
+   "ocr": "-drive",
+   "fixed": "drive",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:49",
+   "ocr": "for.example,",
+   "fixed": "for example,",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:57",
+   "ocr": "‘one",
+   "fixed": "one",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:57",
+   "ocr": "with:",
+   "fixed": "with",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:58",
+   "ocr": "‘lead",
+   "fixed": "lead",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:58",
+   "ocr": "‘The",
+   "fixed": "The",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:58",
+   "ocr": "ressed",
+   "fixed": "pressed",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:59",
+   "ocr": "927,",
+   "fixed": "27,",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:60",
+   "ocr": "brought’ in. contact.",
+   "fixed": "brought in contact",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:62",
+   "ocr": "action.",
+   "fixed": "action",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:76",
+   "ocr": "33'are",
+   "fixed": "33 are",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:80",
+   "ocr": "33.is",
+   "fixed": "33 is",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:82",
+   "ocr": "‘cillates",
+   "fixed": "cillates",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:83",
+   "ocr": "is. brought...",
+   "fixed": "is brought.",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:89",
+   "ocr": ".a",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:89",
+   "ocr": "~",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:91",
+   "ocr": "con:truction",
+   "fixed": "construction",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:94",
+   "ocr": "33.",
+   "fixed": "33",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:98",
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:100",
+   "ocr": "45-49.",
+   "fixed": "45—49.",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:103",
+   "ocr": "‘drawing",
+   "fixed": "drawing",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:103",
+   "ocr": "51,52)",
+   "fixed": "51, 52)",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:107",
+   "ocr": "44.",
+   "fixed": "44",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:115",
+   "ocr": "mezhing",
+   "fixed": "meshing",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:119",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:121",
+   "ocr": "lows :— ae",
+   "fixed": "lows:—",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:122",
+   "ocr": "',",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:127",
+   "ocr": "samé",
+   "fixed": "same",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:129",
+   "ocr": "25-is",
+   "fixed": "25 is",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:1",
+   "ocr": "so.",
+   "fixed": "so",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:13",
+   "ocr": "-perforator.",
+   "fixed": "perforator.",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:18",
+   "ocr": "mechanism.",
+   "fixed": "mechanism",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:19",
+   "ocr": "-tion",
+   "fixed": "tion",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:22",
+   "ocr": "yiew",
+   "fixed": "view",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:24",
+   "ocr": "the. current.",
+   "fixed": "the current",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:27",
+   "ocr": "‘Only",
+   "fixed": "Only",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:30",
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:30",
+   "ocr": "By.",
+   "fixed": "By",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:32",
+   "ocr": "oO '",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:36",
+   "ocr": "is. Ci-",
+   "fixed": "is ci-",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:41",
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:42",
+   "ocr": "typing:",
+   "fixed": "typing",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:42",
+   "ocr": "‘prevented.",
+   "fixed": "prevented.",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:43",
+   "ocr": "depression:",
+   "fixed": "depression",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:43",
+   "ocr": "97",
+   "fixed": "27",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:44",
+   "ocr": "39",
+   "fixed": "32",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:44",
+   "ocr": "-whereby",
+   "fixed": "whereby",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:45",
+   "ocr": "is.",
+   "fixed": "is",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:46",
+   "ocr": "lead:",
+   "fixed": "lead",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:51",
+   "ocr": "-as",
+   "fixed": "as",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:52",
+   "ocr": "‘mechanism",
+   "fixed": "mechanism",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:59",
+   "ocr": "98.",
+   "fixed": "28.",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:60",
+   "ocr": "83",
+   "fixed": "33",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:62",
+   "ocr": "face.",
+   "fixed": "face",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:63",
+   "ocr": "Ss",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:65",
+   "ocr": "jnitial",
+   "fixed": "initial",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:66",
+   "ocr": "‘the",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:67",
+   "ocr": "‘the:",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:67",
+   "ocr": "33°",
+   "fixed": "33",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:73",
+   "ocr": "89",
+   "fixed": "39",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:75",
+   "ocr": "first,",
+   "fixed": "first",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:76",
+   "ocr": "ot",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:77",
+   "ocr": "‘being",
+   "fixed": "being",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:79",
+   "ocr": "trans-_",
+   "fixed": "trans-",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:81",
+   "ocr": "contact.",
+   "fixed": "contact",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:86",
+   "ocr": "magnet,",
+   "fixed": "magnet",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:89",
+   "ocr": "38,",
+   "fixed": "38.",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:91",
+   "ocr": "in-",
+   "fixed": "in",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:93",
+   "ocr": "‘ture.",
+   "fixed": "ture.",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:96",
+   "ocr": "‘87.",
+   "fixed": "37",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:96",
+   "ocr": "releasea",
+   "fixed": "released",
+   "basis": "scan (final d printed with its ascender broken off)"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:97",
+   "ocr": "rest.",
+   "fixed": "rest",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:102",
+   "ocr": "‘be",
+   "fixed": "be",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:103",
+   "ocr": "‘grouping",
+   "fixed": "grouping",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:103",
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:104",
+   "ocr": "inserted.",
+   "fixed": "inserted",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:104",
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:110",
+   "ocr": "‘chine",
+   "fixed": "chine",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:113",
+   "ocr": "The. ‘eonnection",
+   "fixed": "The connection",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:116",
+   "ocr": "18",
+   "fixed": "13",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:118",
+   "ocr": "rating.",
+   "fixed": "rating",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:121",
+   "ocr": "| ,",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:121",
+   "ocr": "appata-",
+   "fixed": "appara-",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:124",
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:126",
+   "ocr": "8",
+   "fixed": "3",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:128",
+   "ocr": "multip‘e",
+   "fixed": "multiple",
+   "basis": "scan (l printed broken)"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:130",
+   "ocr": "he",
+   "fixed": "be",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:2",
+   "ocr": "14,",
+   "fixed": "14.",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:3",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:8",
+   "ocr": "to.",
+   "fixed": "to",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:12",
+   "ocr": ".ele- _Mments",
+   "fixed": "ele- ments",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:13",
+   "ocr": "by.",
+   "fixed": "by",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:14",
+   "ocr": "or)",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:20",
+   "ocr": "‘combination",
+   "fixed": "combination",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:23",
+   "ocr": "by.",
+   "fixed": "by",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:24",
+   "ocr": "connecting:",
+   "fixed": "connecting",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:30",
+   "ocr": "the:",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:31",
+   "ocr": "‘determined",
+   "fixed": "determined",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:33",
+   "ocr": "3.'A",
+   "fixed": "3. A",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:33",
+   "ocr": "comprising.",
+   "fixed": "comprising",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:35",
+   "ocr": "punctuation’",
+   "fixed": "punctuation",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:35",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:37",
+   "ocr": "‘stituted.",
+   "fixed": "stituted",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:37",
+   "ocr": "elenients,. leads’ _",
+   "fixed": "elements, leads",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:39",
+   "ocr": "‘serted ‘in",
+   "fixed": "serted in",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:41",
+   "ocr": "‘every",
+   "fixed": "every",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:42",
+   "ocr": "altering.",
+   "fixed": "altering",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:43",
+   "ocr": "“nism",
+   "fixed": "nism",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:45",
+   "ocr": "mnechanism",
+   "fixed": "mechanism",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:47",
+   "ocr": "‘counting",
+   "fixed": "counting",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:48",
+   "ocr": "ing: circuit.",
+   "fixed": "ing circuit",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:48",
+   "ocr": ").",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:50",
+   "ocr": "sélective",
+   "fixed": "selective",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:50",
+   "ocr": "of: -.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:54",
+   "ocr": "‘combination",
+   "fixed": "combination",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:55",
+   "ocr": "_",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:57",
+   "ocr": "con-'",
+   "fixed": "con-",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:58",
+   "ocr": "-another, contact’",
+   "fixed": "another, contact",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:66",
+   "ocr": "‘ments",
+   "fixed": "ments",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:70",
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:78",
+   "ocr": "said.",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:80",
+   "ocr": "‘said",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:85",
+   "ocr": "‘in ‘combination",
+   "fixed": "in combination",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:91",
+   "ocr": "dram",
+   "fixed": "drum",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:93",
+   "ocr": "drums.and",
+   "fixed": "drums and",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:103",
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:106",
+   "ocr": "‘at",
+   "fixed": "at",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:110",
+   "ocr": "said.",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:111",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:115",
+   "ocr": "‘the",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:118",
+   "ocr": "a",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:120",
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:123",
+   "ocr": "‘tacts",
+   "fixed": "tacts",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:127",
+   "ocr": "shaft.",
+   "fixed": "shaft",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:1",
+   "ocr": "",
+   "fixed": "ments, leads connecting said indicating ele- ments with the contacts of the one and with those of the other stationary contact drums, means for shifting the movable contact drum",
+   "basis": "scan (OCR lost the words under show-through from the reverse side of the sheet)"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:5",
+   "ocr": "tacts:",
+   "fixed": "in order to bring the contacts",
+   "basis": "scan (OCR lost the words under show-through from the reverse side of the sheet)"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:6",
+   "ocr": "tHe",
+   "fixed": "either in contact with the",
+   "basis": "scan (OCR lost the words under show-through from the reverse side of the sheet)"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:6",
+   "ocr": "ofthe",
+   "fixed": "of the",
+   "basis": "scan (OCR lost the words under show-through from the reverse side of the sheet)"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:7",
+   "ocr": "‘contact duis or.",
+   "fixed": "of the stationary contact drums or",
+   "basis": "scan (OCR lost the words under show-through from the reverse side of the sheet)"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:8",
+   "ocr": "nt reyoluble:contact",
+   "fixed": "those of the adjacent revoluble contact",
+   "basis": "scan (OCR lost the words under show-through from the reverse side of the sheet)"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:9",
+   "ocr": "ating “saiditevoluble:",
+   "fixed": "means for rotating said revoluble",
+   "basis": "scan (OCR lost the words under show-through from the reverse side of the sheet)"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:11",
+   "ocr": "*",
+   "fixed": "",
+   "basis": "scan (OCR lost the words under show-through from the reverse side of the sheet)"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:11",
+   "ocr": "“depression: ofsasending cle-",
+   "fixed": "depression of a sending ele-",
+   "basis": "scan (OCR lost the words under show-through from the reverse side of the sheet)"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:12",
+   "ocr": "a,",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:13",
+   "ocr": "‘gaid- ratchet;",
+   "fixed": "said ratchet,",
+   "basis": "scan (OCR lost the words under show-through from the reverse side of the sheet)"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:13",
+   "ocr": "figire-disks",
+   "fixed": "figure disks",
+   "basis": "scan (OCR lost the words under show-through from the reverse side of the sheet)"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:14",
+   "ocr": "said_ fioure",
+   "fixed": "said figure",
+   "basis": "scan (OCR lost the words under show-through from the reverse side of the sheet)"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:19",
+   "ocr": "200",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:20",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:22",
+   "ocr": ": ;",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:23",
+   "ocr": "_%.",
+   "fixed": "7.",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:23",
+   "ocr": "1n ‘eombination ‘a",
+   "fixed": "in combination a",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:25",
+   "ocr": "mounted.",
+   "fixed": "mounted",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:26",
+   "ocr": "cach",
+   "fixed": "each",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:27",
+   "ocr": "of-éach",
+   "fixed": "of each",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:30",
+   "ocr": "not.",
+   "fixed": "not",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:30",
+   "ocr": "mounted.",
+   "fixed": "mounted",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:35",
+   "ocr": "with.",
+   "fixed": "with",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:37",
+   "ocr": "for-",
+   "fixed": "for",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:38",
+   "ocr": "order’",
+   "fixed": "order",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:49",
+   "ocr": "sliding.on",
+   "fixed": "sliding on",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:50",
+   "ocr": "‘switches",
+   "fixed": "switches",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:54",
+   "ocr": "tus,.a",
+   "fixed": "tus, a",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:56",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:57",
+   "ocr": "c1phered",
+   "fixed": "ciphered",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:64",
+   "ocr": "3S",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:66",
+   "ocr": "‘nected",
+   "fixed": "nected",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:67",
+   "ocr": "‘keyed",
+   "fixed": "keyed",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:69",
+   "ocr": "said.",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:71",
+   "ocr": "several.",
+   "fixed": "several",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:75",
+   "ocr": "those.",
+   "fixed": "those",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:76",
+   "ocr": "shitting",
+   "fixed": "shifting",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:77",
+   "ocr": "drum:",
+   "fixed": "drum",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:84",
+   "ocr": "counting.",
+   "fixed": "counting",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:85",
+   "ocr": "‘disks ©",
+   "fixed": "disks",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:87",
+   "ocr": "_ments",
+   "fixed": "ments",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:90",
+   "ocr": "at-the",
+   "fixed": "at the",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:93",
+   "ocr": "‘cuiting",
+   "fixed": "cuiting",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:98",
+   "ocr": "distinguish,",
+   "fixed": "distinguish",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:99",
+   "ocr": "in-the",
+   "fixed": "in the",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:100",
+   "ocr": "~",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:102",
+   "ocr": "evolubly",
+   "fixed": "revolubly",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:104",
+   "ocr": "con--",
+   "fixed": "con-",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:105",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:105",
+   "ocr": "druins",
+   "fixed": "drums",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:106",
+   "ocr": "contact.",
+   "fixed": "contact",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:108",
+   "ocr": "shaft. between.",
+   "fixed": "shaft between",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:110",
+   "ocr": "said.",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:114",
+   "ocr": "those-of",
+   "fixed": "those of",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:123",
+   "ocr": "8",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:123",
+   "ocr": "controlled.",
+   "fixed": "controlled",
+   "basis": "scan"
+  },
+  {
+   "page": 5,
+   "cite": "p.5:129",
+   "ocr": "signs.",
+   "fixed": "signs",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:2",
+   "ocr": "oné",
+   "fixed": "one",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:3",
+   "ocr": "-contact",
+   "fixed": "contact",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:6",
+   "ocr": "contact.",
+   "fixed": "contact",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:10",
+   "ocr": "countin",
+   "fixed": "counting",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:11",
+   "ocr": "ratchet’",
+   "fixed": "ratchet",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:13",
+   "ocr": "contact’",
+   "fixed": "contact",
+   "basis": "scan"
+  },
+  {
+   "page": 6,
+   "cite": "p.6:19",
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan"
+  }
+ ]
+}

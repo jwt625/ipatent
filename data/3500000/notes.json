@@ -1,0 +1,52 @@
+{
+  "patent": "Filed 1966-10-31 and issued 1970-03-10 to John L. Kelly, Jr. and Benjamin F. Logan, Jr., assigned to Bell Telephone Laboratories. Kelly, known for the betting and information-rate result now called the Kelly criterion (J. L. Kelly, Jr., \"A New Interpretation of Information Rate,\" Bell System Technical Journal, 1956), died in 1965; the application was filed through his executrix. The patent describes an adaptive echo canceller: instead of breaking the return path as an echo suppressor does, a tapped delay line (transversal filter) fed with the incoming signal synthesizes a replica of the hybrid echo, which is subtracted from the outgoing signal. The residual, infinitely clipped, is multiplied by each tap signal and integrated to set that tap's gain, so the filter converges to the echo path and tracks it during a call; in modern terms a sign-error form of the least-mean-squares (LMS) adaptive filter (B. Widrow and M. E. Hoff, \"Adaptive Switching Circuits,\" IRE WESCON Convention Record, 1960). The motivating case is satellite circuits with round-trip delays of several hundred milliseconds. A contemporary Bell Labs account of the approach is M. M. Sondhi, \"An Adaptive Echo Canceller,\" Bell System Technical Journal, 1967. Adaptive echo cancellers of this kind later became standard in long-distance telephone networks.",
+  "figs": {
+    "1": "Drawn sideways on the sheet; shown upright with station W at left and station E at right. Each end joins a two-wire line (10, 20) to the two one-way paths through a hybrid with its balancing network N (14, 24). Top path: W's outgoing circuit 12 passes difference network 15 onto transmission circuit 16 (dashed segment: the long link) and reaches E's hybrid through amplifier 29 on circuit 23. Bottom path: E's outgoing circuit 22 passes difference network 25 onto 26 and reaches W's hybrid through amplifier 19 on circuit 13. At each end a processing network (17, 27) taps the incoming path and feeds the difference network; the difference output also feeds an error signal control box (18, 28) whose output adjusts that processing network. Dashed enclosure 30 marks the W-end canceller detailed in FIG. 2; the E end is its mirror image.",
+    "2": "Detail of enclosure 30. The incoming signal x(t) on 13 (bottom, flowing left) enters a delay line running up the left side, delay elements 100_{1} (bottom) to 100_{n} (top, terminated by resistor 101); ganged switch 140 can insert extra delay 102 ahead of the line. Each tap junction feeds a gain box g_{i} (110_{i}) and, via the loop that runs under it, the lower input of multiplier 112_{i}. The gain outputs go up the vertical bus to SUM 120, whose output (the echo estimate) enters combination network 130 from below; the outgoing signal y(t) on 12 enters from the left, and the difference e(t) leaves on 16. A branch of e(t) passes through infinite clipper 118 and down the right-hand vertical line to the upper input of every multiplier; each multiplier output is integrated in 113_{i}, and the integrator output sets g_{i}. The dashed gap between 100_{3} and 100_{n} and the dashed stubs at SUM stand for the omitted intermediate taps."
+  },
+  "parts": {
+    "18": "Box lettered ERROR SIGNAL CONTROL; the numeral is not used in the text. FIG. 2 details it as 118.",
+    "27": "East-end counterpart of processing network 17, lettered PROCESSING NETWORK; the numeral is not used in the text.",
+    "28": "East-end counterpart of 18, lettered ERROR SIGNAL CONTROL; the numeral is not used in the text.",
+    "103": "Not drawn; the switch shown in FIG. 2 is labeled 140.",
+    "140": "Ganged two-pole switch that inserts delay 102; the text calls it switch 103.",
+    "116": "Printed once in the text (\"control networks 116\"); no 116 appears in the drawings.",
+    "110": "The text once also writes \"delay elements 110\"; the delay elements in FIG. 2 are 100_{1}-100_{n}.",
+    "118": "Drawn as INFINITE CLIPPER, the preferred form; the text also allows a linear network here.",
+    "23": "The FIG. 2 passage \"replicas of the signal in circuit 23\" refers to the signal on the delay line, which FIG. 2 shows coming from circuit 13."
+  },
+  "glossary": [
+    {
+      "term": "hybrid",
+      "def": "Hybrid transformer or network joining a two-wire line, which carries both directions, to a four-wire circuit with separate one-way send and receive pairs. Imperfect balance leaks part of the received signal into the send path: the echo."
+    },
+    {
+      "term": "balancing network",
+      "def": "Impedance (box N) that terminates the hybrid to imitate the two-wire line; the closer the match, the smaller the echo."
+    },
+    {
+      "term": "four-wire circuit",
+      "def": "Long-distance circuit with one one-way path per direction, so each direction can be amplified separately."
+    },
+    {
+      "term": "echo suppressor",
+      "def": "Voice-operated device that attenuates or opens the return path while the far-end party is talking; it clips speech when both talk at once."
+    },
+    {
+      "term": "double talking",
+      "def": "Both parties talking at the same time."
+    },
+    {
+      "term": "transversal filter",
+      "def": "Tapped delay line whose tap outputs are weighted and summed; today an FIR (finite impulse response) filter. The tap gains approximate the echo path's impulse response."
+    },
+    {
+      "term": "infinite clipper",
+      "def": "Limiter with unbounded gain: its output is a constant-amplitude signal carrying only the polarity of its input."
+    },
+    {
+      "term": "LMS",
+      "def": "Least-mean-squares: adaptive rule that moves each tap gain in proportion to the product of the error and that tap's signal, descending the mean-squared error."
+    }
+  ]
+}

@@ -1,0 +1,560 @@
+{
+ "pn": "4448479",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    562,
+    349,
+    1891,
+    1093
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 1,
+   "page": 1,
+   "crop": [
+    382,
+    1297,
+    2019,
+    2690
+   ],
+   "rotate": 0,
+   "front_page": true
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    423,
+    333,
+    1916,
+    911
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    414,
+    955,
+    1688,
+    1571
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    424,
+    1642,
+    1723,
+    1955
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    410,
+    1979,
+    1721,
+    2284
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "FIG. 7",
+   "sheet": 2,
+   "page": 2,
+   "crop": [
+    406,
+    2374,
+    1631,
+    2805
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8",
+   "label": "FIG. 8",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    616,
+    325,
+    1832,
+    807
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9",
+   "label": "FIG. 9",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    539,
+    785,
+    2068,
+    1870
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10",
+   "label": "FIG. 10",
+   "sheet": 3,
+   "page": 3,
+   "crop": [
+    565,
+    1886,
+    2042,
+    2774
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11",
+   "label": "FIG. 11",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    539,
+    313,
+    2004,
+    1483
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12",
+   "label": "FIG. 12",
+   "sheet": 4,
+   "page": 4,
+   "crop": [
+    520,
+    1676,
+    1771,
+    2405
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "10",
+   "name": "optical directional coupler",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "dielectric waveguides",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "dielectric waveguides",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "electrooptic substrate",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "electrodes",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "electrodes",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "resistor",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "17",
+   "name": "signal source",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "coupled waveguides",
+   "figs": [
+    "2",
+    "5",
+    "6"
+   ],
+   "alt": [
+    "optical wavepaths",
+    "wavepath",
+    "waveguide"
+   ]
+  },
+  {
+   "ref": "21",
+   "name": "coupled waveguides",
+   "figs": [
+    "2",
+    "5",
+    "6"
+   ],
+   "alt": [
+    "optical wavepaths",
+    "wavepath",
+    "waveguide"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "substrate",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "conductive electrodes",
+   "figs": [
+    "2",
+    "5",
+    "6"
+   ],
+   "alt": [
+    "inner, meandering electrode",
+    "inner electrode"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "conductive electrodes",
+   "figs": [
+    "2",
+    "5",
+    "6"
+   ],
+   "alt": [
+    "outer finger electrodes",
+    "finger electrodes"
+   ]
+  },
+  {
+   "ref": "25",
+   "name": "conductive electrodes",
+   "figs": [
+    "2",
+    "5",
+    "6"
+   ],
+   "alt": [
+    "outer finger electrodes",
+    "finger electrodes"
+   ]
+  },
+  {
+   "ref": "24-1",
+   "name": "finger",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "25-1",
+   "name": "finger",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "30",
+   "name": "signal source",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "31",
+   "name": "impedance",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "impedance",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "40",
+   "name": "curves",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "41",
+   "name": "curves",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "42",
+   "name": "shifted vertical axis",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "43",
+   "name": "shifted vertical axis",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "44",
+   "name": "axis",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "50",
+   "name": "curve",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "51",
+   "name": "curve",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "60",
+   "name": "optical waveguiding strip",
+   "figs": [
+    "9"
+   ],
+   "alt": [
+    "strip"
+   ]
+  },
+  {
+   "ref": "61",
+   "name": "substrate",
+   "figs": [
+    "9",
+    "12"
+   ]
+  },
+  {
+   "ref": "62",
+   "name": "conductive finger electrodes",
+   "figs": [
+    "9",
+    "12"
+   ],
+   "alt": [
+    "meandering electrodes of uniform width"
+   ]
+  },
+  {
+   "ref": "63",
+   "name": "conductive finger electrodes",
+   "figs": [
+    "9",
+    "12"
+   ],
+   "alt": [
+    "meandering electrodes of uniform width"
+   ]
+  },
+  {
+   "ref": "62-1",
+   "name": "fingers",
+   "figs": [
+    "9",
+    "12"
+   ],
+   "alt": [
+    "cross hatched portions"
+   ]
+  },
+  {
+   "ref": "62-2",
+   "name": "fingers",
+   "figs": [
+    "9",
+    "12"
+   ],
+   "alt": [
+    "cross hatched portions"
+   ]
+  },
+  {
+   "ref": "63-1",
+   "name": "fingers",
+   "figs": [
+    "9",
+    "12"
+   ],
+   "alt": [
+    "cross hatched portions"
+   ]
+  },
+  {
+   "ref": "63-2",
+   "name": "fingers",
+   "figs": [
+    "9",
+    "12"
+   ],
+   "alt": [
+    "cross hatched portions"
+   ]
+  },
+  {
+   "ref": "64",
+   "name": "signal source",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "65",
+   "name": "impedance",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "70",
+   "name": "Δβ curve",
+   "figs": [
+    "10"
+   ],
+   "alt": [
+    "waveguiding strip"
+   ]
+  },
+  {
+   "ref": "71",
+   "name": "substrate",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "72",
+   "name": "electrodes",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "73",
+   "name": "electrodes",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "72-1",
+   "name": "additional space",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "73-1",
+   "name": "additional space",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "72-2",
+   "name": "additional space",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "73-2",
+   "name": "additional space",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "74",
+   "name": "modulation signal source",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "75",
+   "name": "matching terminating impedance",
+   "figs": [
+    "10"
+   ]
+  }
+ ]
+}

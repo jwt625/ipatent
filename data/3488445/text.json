@@ -1,0 +1,2536 @@
+{
+  "pn": "3488445",
+  "number": "3,488,445",
+  "title": "ORTHOGONAL FREQUENCY MULTIPLEX DATA TRANSMISSION SYSTEM",
+  "inventors": [
+    "Robert W. Chang"
+  ],
+  "assignee": "Bell Telephone Laboratories, Incorporated, Murray Hill, N.J., a corporation of New York",
+  "filed": "1966-11-14",
+  "issued": "1970-01-06",
+  "appl_no": "594,042",
+  "int_cl": "H04j 1/00; H04b 1/66",
+  "us_cl": "179—15",
+  "us_cl_xr": "179—15.55; 333—70",
+  "refs_patents": [
+    {
+      "no": "3,163,718",
+      "date": "12/1964",
+      "name": "Deman",
+      "cl": "179—15"
+    },
+    {
+      "no": "3,349,182",
+      "date": "10/1967",
+      "name": "Ito",
+      "cl": "179—15"
+    }
+  ],
+  "refs_other": [],
+  "examiners": "Primary Examiner--RALPH D. BLAKESLEE; Assistant Examiner--ALBERT B. KIMBALL, Jr.",
+  "claims_count": 10,
+  "drawing_figures": 6,
+  "abstract": "Apparatus and method for frequency multiplexing of a plurality of data signals simultaneously on a plurality of mutually orthogonal carrier waves such that overlapping, but band-limited, frequency spectra are produced without causing interchannel and intersymbol interference. Amplitude and phase characteristics of narrow-band filters are specified for each channel in terms of their symmetries alone. The same signal protection against channel noise is provided as though the signals in each channel were transmitted through an independent medium and intersymbol interference were eliminated by reducing the data rate. As the number of channels is increased, the overall data rate approaches the theoretrical maximum.",
+  "sections": [
+    {
+      "heading": "",
+      "paras": [
+        {
+          "col": 1,
+          "line": 30,
+          "text": "This invention relates to systems for transmitting multiple channels of information signals over band-limited transmission media."
+        },
+        {
+          "col": 1,
+          "line": 33,
+          "text": "Multiplex transmission systems employing sinusoidal carriers separated in frequency, or rectangular pulse carriers separated in time, or combinations thereof, are well known. These known systems have the common characteristic that in order to avoid mutual interference among the channels guard bands of frequency or time are provided between channels. These guard bands represent a waste of valuable and limited bandwidth."
+        },
+        {
+          "col": 1,
+          "line": 41,
+          "text": "In digital data transmission, for example, it is common practice to transmit a plurality of data channels through a single band-limited transmission medium. In view of the limtation of frequency bandwidth in practical transmission media, the problem of maximization of the overall data rate and the concomitant minimization of interchannel and intersymbol interference arises. The general solution has been to center the individual channels on equally spaced carrier frequencies and to provide a finite guard band between channels. This has meant limiting the usable bandwidth of each channel to somewhat less than the carrier wave spacing in order to avoid interchannel interference in the frequency domain. The overall data rate is therefore much less than that attainable if the guard space could be eliminated without causing interference."
+        },
+        {
+          "col": 1,
+          "line": 56,
+          "text": "In the time domain, on the other hand, because the impulse response of band-limited transmission media is spread out in time, the signalling rate is generally held below the theoretical maximum in order to avoid intersymbol interference."
+        },
+        {
+          "col": 1,
+          "line": 61,
+          "text": "It is one object of this invention to define a new class of band-limited signals capable of being transmitted in parallel channels at substantally the maximum possible data rate without incurring either interchannel or intersymbol interference."
+        },
+        {
+          "col": 1,
+          "line": 66,
+          "text": "It is another object of this invention to so shape the spectra of individual signaling channels that the spectra of adjacent channels by virute of their orthogonality can overlap without producing interchannel interference."
+        },
+        {
+          "col": 1,
+          "line": 70,
+          "text": "It is still another object of this invention to render the elimination of interchannel and intersymbol interference in frequency multiplexed parallel data signaling channels independent of the phase characteristic of the transmission medium."
+        },
+        {
+          "col": 2,
+          "line": 3,
+          "text": "It is yet another object of this invention to achieve an overall date rate in a band-limited transmission medium approaching the theoretical maximum rate with physically realizable filters having smooth amplitude rolloffs and arbitrary phase characteristics."
+        },
+        {
+          "col": 2,
+          "line": 8,
+          "text": "It is a further object of this invention to so shape the response functions of adjacent channels in a frequency multiplex transmission system that the distance between any two sets of received signals in the signal space available defined by vectors representing all possible signals present at one time and which must be individually distinguishable is the same as if the signals in each channel were transmitted through independent media and intersymbol interference were eliminated by reducing the signaling rate. The concept of signal space is discussed more fully by J. R. Davey in his paper “Digital Data Signal Space Diagrams” published in the Bell System Technical Journal (vol. XLIII, No. 6, November 1964) at p. 2973."
+        },
+        {
+          "col": 2,
+          "line": 22,
+          "text": "According to this invention, a plurality of data signal samples are orthogonally multiplexed on equally spaced carrier frequencies for transmission over a band-limited transmission medium in channels having overlapping frequency spectra. Because of the orthogonal relationships achieved within and between channels intersymbol and interchannel interferences are avoided and a theoretically maximum data transmission rate is attained in each channel."
+        },
+        {
+          "col": 2,
+          "line": 31,
+          "text": "Orthogonality is a mathematical concept derived from the vector representation of time-dependent waveforms. Any two vectors are orthogonal if the cosine of the angle between them is zero, i.e., they are perpendicular to each other. The test for orthogonality between vectors is that the product of their amplitudes (lengths) and the cosine of the angle formed between them when their points of beginning are brought to a common origin without changing their relative directions is zero. Periodic waveforms, such as sine and cosine waves, are commonly represented by vectors. More complex waveforms can by the well-known methods of Fourier analysis be represented by summations of sine and cosine terms. Both simple and complex waveforms can be tested for orthogonality by analogy with the vector multiplication mentioned above. If the periodic waveforms to be compared are laid out on the time axis and the average of the integral of the products of pairs of values for all instants of time extending over their common period is taken, and this average is found to be zero, then the waveforms are said to be orthogonal. Thus, orthogonality becomes a broader concept than perpendicularity. In general, two time-dependent waveforms S_{m}(t) and S_{n}(t) and deemed to be orthogonal if"
+        },
+        {
+          "col": 2,
+          "line": 55,
+          "text": "(1/2T)∫_{−T}^{T} S_{m}(t)S_{n}(t)dt=0"
+        },
+        {
+          "col": 2,
+          "line": 58,
+          "text": "for m≠n over the interval 2T, the common repetition period."
+        },
+        {
+          "col": 2,
+          "line": 60,
+          "text": "Closely allied with the orthogonality concept is that of symmetry. A function f(t), which can be represented graphically by a waveform and is defined on an interval centered at the origin (t=0), is said to be even if"
+        },
+        {
+          "col": 2,
+          "line": 64,
+          "text": "f(−t)=f(t)"
+        },
+        {
+          "col": 2,
+          "line": 66,
+          "text": "for all values of t in the assigned interval, and odd if"
+        },
+        {
+          "col": 2,
+          "line": 67,
+          "text": "f(−t)=−f(t)"
+        },
+        {
+          "col": 2,
+          "line": 68,
+          "text": "In graphic terms even functions are symmetric about vertical axis erected at the origin, i.e., the negative half is the mirror image of the positive half. Odd functions are symmetric about the origin itself, i.e., are skew symmetric. From this it follows that the product of two even functions is even whenever both functions are even or both are odd, and is odd whenever one of the functions is even and the other is odd. Summarizing,"
+        },
+        {
+          "col": 3,
+          "line": 5,
+          "text": "(Even)(Even)=(Odd)(Odd)=Even"
+        },
+        {
+          "col": 3,
+          "line": 6,
+          "text": "(Even)(Odd)=(Odd)(Even)=Odd"
+        },
+        {
+          "col": 3,
+          "line": 8,
+          "text": "It can therefore be further stated from the orthogonality integral above that whenever the function S_{m}(t) is of opposite parity to the function S_{n}(t) and both are centered in a common interval, they are mutually orthogonal. Since the interval is common to both functions and both functions are periodic with respect to this interval, the implication is that the two functions are synchronized."
+        },
+        {
+          "col": 3,
+          "line": 16,
+          "text": "The orthogonality concept is not limited to two functions. Any number of functions can be mutually orthogonal and mutually synchronized in a common interval."
+        },
+        {
+          "col": 3,
+          "line": 19,
+          "text": "Orthogonality with respect to time within each channel and with respect to frequency between channels is preserved by shaping the signals applied to each channel such that the integral of the mathematically transformed product of the squares of the shaping function applied to the individual channel and the channel transfer function and the integral of the transformed products of the shaping functions applied to adjacent channels and the square of the channel transfer function are each zero. These conditions are met in practical cases by shaping functions whose squares have even symmetry about the channel center frequencies and odd symmetry about frequencies located halfway between the channel center frequency and the channel band-edge frequencies. At the same time the phase characteristics of adjacent channels may be arbitrary, provided only that their phase characteristics differ by ninety electrical degrees plus an arbitrary phase function with odd symmetry about the frequency midway between the channel center frequencies."
+        },
+        {
+          "col": 3,
+          "line": 39,
+          "text": "The required symmetries are achievable in a half-cycle of the cosine wave whose square is the raised cosine shaping function as one readily definable illustrative example."
+        },
+        {
+          "col": 3,
+          "line": 43,
+          "text": "Preservation of orthogonality within each channel permits establishing individual channel data transmission rates equal to the channel bandwidth. This is half the ideal Nyqquist rate. However, due to the fact that adjacent channels are synchronized, they can be overlapped by 50 percent. The overall data transmission rate for the full channel bandwidth then becomes the ideal Nyquist rate times the ratio of the number of channels to the number of channels plus one."
+        },
+        {
+          "col": 3,
+          "line": 52,
+          "text": "Inasmuch as the amplitudes of the shaping functions are proportional to the amplitudes of the samples by which they are multiplied, transmission is in no way restricted to binary digits. Multilevel symbols and symbols of arbitrary height derived from analog samples are equally transmissible."
+        },
+        {
+          "col": 3,
+          "line": 58,
+          "text": "Orthogonal signals are readily detectable by correlation procedures using matched filter techniques."
+        },
+        {
+          "col": 3,
+          "line": 60,
+          "text": "A feature of this invention is that the band-limited shaping filters for each channel can be identical."
+        },
+        {
+          "col": 3,
+          "line": 62,
+          "text": "Another feature of this invention is that the amplitude and phase characteristics of the transmitting filters can be synthesized independently."
+        },
+        {
+          "col": 3,
+          "line": 65,
+          "text": "A particular advantage of the orthogonal multiplex transmission system of this invention is that received signals can be recovered by using adaptive correlators regardless of the phase distortion arising in the transmission medium. In addition, synchronization problems are minimized because stationary phase differences between modulating and demodulating carrier waves are taken into account by the adaptive correlators."
+        },
+        {
+          "col": 3,
+          "line": 73,
+          "text": "Other objects, features and advantages of this invention will be readily appreciated from a consideration of the following detailed description and the accompanying drawing in which;"
+        },
+        {
+          "col": 4,
+          "line": 1,
+          "text": "FIG. 1 is a block diagram of the basic orthogonal frequency-multiplex transmission system of this invention;"
+        },
+        {
+          "col": 4,
+          "line": 3,
+          "text": "FIG. 2 is a waveform diagram showing the development of a shaping filter characteristic satisfying the condition of orthogonality according to this invention;"
+        },
+        {
+          "col": 4,
+          "line": 6,
+          "text": "FIG. 3 is another waveform diagram showing the development of a shaping filter characteristic satisfying the condition of orthogonality according to this invention;"
+        },
+        {
+          "col": 4,
+          "line": 9,
+          "text": "FIG. 4 is a block diagram of a representative three-channel orthogonal frequency multiplex transmitter according to this invention using identical shaping filters for all channels;"
+        },
+        {
+          "col": 4,
+          "line": 13,
+          "text": "FIG. 5 is a series of waveform diagrams useful in explaining the operation of the system of FIG. 4; and"
+        },
+        {
+          "col": 4,
+          "line": 15,
+          "text": "FIG. 6 is a block diagram of a representative correlation detection system capable of recovering the data signals generated in the transmitting system of FIG. 4."
+        },
+        {
+          "col": 4,
+          "line": 18,
+          "text": "FIG. 1 is a generalized block diagram of an orthogonal multiplex data transmission system according to this invention. From data sources on the left (not shown) impulse samples are applied in synchronism on a plurality of lines such as those designated 10, 11 and 12. Each impulse is shaped in associated transmitting filters 15, 16, and 17 and others not shown for additional sources. Line 13 symbolically indicates such other signaling channels. The passbands of the several transmitting filters are centered at equally spaced frequencies with the spacing equal to half the data rate per channel. Their outputs are combined on line 14 and applied to common transmission medium 18, having an impulse response h(t) and a transfer function"
+        },
+        {
+          "col": 4,
+          "line": 33,
+          "text": "H(f)e^{Jη(f)}"
+        },
+        {
+          "col": 4,
+          "line": 35,
+          "text": "where H(f) and η(f) are respectively the amplitude and phase characteristics of medium 18, e is the base of natural logarithms and J is the imaginary number √−1. Noise is also added at various points in the system as indicated symbolically by adder 19. The several signaling channels are separately detected in receiver 20. It is assumed for the present that the channel with the lowest frequency is operating at baseband. Carrier modulation and demodulation at passband can be accomplished by standard techniques."
+        },
+        {
+          "col": 4,
+          "line": 45,
+          "text": "Channel shaping is the critical element here. Let b_{0}, b_{1}, b_{2} . . . be a sequence of m-ary signal digits (m≧2) or a sequence of analog samples to be transmitted over an arbitrary ith channel. Each of b_{0}, b_{1}, b_{2} . . . can be represented by an impulse with height proportional to that of the corresponding sample. These impulses are applied to the ith transmitting filter at the rate of one impulse every T seconds (data rate per channel equals 1/T bauds). Let a_{i}(t) be the impulse response of the associated ith transmitting filter. Then this filter transmits a sequence of signals as"
+        },
+        {
+          "col": 4,
+          "line": 57,
+          "text": "b_{0}a_{i}(t), b_{1}a_{i}(t−T), b_{2}a_{i}(t−2T) . . ."
+        },
+        {
+          "col": 4,
+          "line": 59,
+          "text": "The received signals at the output of transmission medium 18 are"
+        },
+        {
+          "col": 4,
+          "line": 61,
+          "text": "b_{0}u_{i}(t), b_{1}u_{i}(t−T), b_{2}u_{i}(t−2T) . . ."
+        },
+        {
+          "col": 4,
+          "line": 62,
+          "text": "where"
+        },
+        {
+          "col": 4,
+          "line": 64,
+          "text": "u_{i}(t)=∫_{−∞}^{∞} h(t−τ)a_{i}(τ)dτ"
+        },
+        {
+          "col": 4,
+          "line": 66,
+          "text": "(τ is a dummy variable of integration.)"
+        },
+        {
+          "col": 4,
+          "line": 67,
+          "text": "These received signals overlap in time, but they are orthogonal (noninterfering) if"
+        },
+        {
+          "col": 4,
+          "line": 71,
+          "text": "∫_{−∞}^{∞} u_{i}(t)u_{i}(t−kT)dt=0, k=±1, ±2 . . . (1)"
+        },
+        {
+          "col": 4,
+          "line": 73,
+          "text": "Intersymbol interference in the ith channel is eliminated if Equation 1 is satisfied."
+        },
+        {
+          "col": 4,
+          "line": 75,
+          "text": "Now let c_{0}, c_{1}, c_{2} . . . be the m-ary signal digits or analog samples transmitted over an adjacent jth channel which has a transmitting filter impulse response of a_{j}(t). Since all signaling channels are assumed to be synchronized, the jth transmitting filter transmits a sequence of signals"
+        },
+        {
+          "col": 5,
+          "line": 6,
+          "text": "c_{0}a_{j}(t), c_{1}a_{j}(t−T), c_{2}a_{j}(t−2T) . . ."
+        },
+        {
+          "col": 5,
+          "line": 7,
+          "text": "The received signals at the output of medium 18 are now"
+        },
+        {
+          "col": 5,
+          "line": 9,
+          "text": "c_{0}u_{j}(t), c_{1}u_{j}(t−T), c_{2}u_{j}(t−2T) . . ."
+        },
+        {
+          "col": 5,
+          "line": 10,
+          "text": "Although these signals overlap those of the ith channel in both time and frequency, they are nevertheless mutually orthogonal if"
+        },
+        {
+          "col": 5,
+          "line": 14,
+          "text": "∫_{−∞}^{∞} u_{i}(t)u_{j}(t−kT)dt=0, k=0, ±1, ±2 . . . (2)"
+        },
+        {
+          "col": 5,
+          "line": 16,
+          "text": "Intersymbol and interchannel interference can be simultaneously eliminated if Equation 1 is satisfied for all i and Equation 2, for all i and j (i≠j)."
+        },
+        {
+          "col": 5,
+          "line": 19,
+          "text": "By well known principles of Fourier transform analysis Equations 1 and 2 can be transformed into the frequency domain, such that Equation 1 becomes"
+        },
+        {
+          "col": 5,
+          "line": 23,
+          "text": "∫_{0}^{∞} A_{i}^{2}(f)H^{2}(f) cos 2πfkTdf=0 (3)"
+        },
+        {
+          "col": 5,
+          "line": 25,
+          "text": "for k=1, 2, 3 . . ., i=1, 2, 3 . . . N; and Equation 2 becomes"
+        },
+        {
+          "col": 5,
+          "line": 28,
+          "text": "∫_{0}^{∞} A_{i}(f)A_{j}(f)H^{2}(f) cos [α_{i}(f)−α_{j}(f)] cos 2πfkTdf=0 (real part) (4)"
+        },
+        {
+          "col": 5,
+          "line": 31,
+          "text": "and"
+        },
+        {
+          "col": 5,
+          "line": 33,
+          "text": "∫_{0}^{∞} A_{i}(f)A_{j}(f)H^{2}(f) sin [α_{i}(f)−α_{j}(f)] sin 2πfkTdf=0 (imaginary part) (5)"
+        },
+        {
+          "col": 5,
+          "line": 35,
+          "text": "for"
+        },
+        {
+          "col": 5,
+          "line": 37,
+          "text": "k=0, 1, 2 . . ."
+        },
+        {
+          "col": 5,
+          "line": 38,
+          "text": "i, j=1, 2 . . . N, i≠j"
+        },
+        {
+          "col": 5,
+          "line": 40,
+          "text": "In Equations 3, 4, and 5 A_{i}(f) is the amplitude characteristic and α_{i}(f) is the phase characteristic of the ith transmitting filter. A_{j}(f) and α_{j}(f) for the jth transmitting filter are similarly defined. H(f) is the amplitude characteristic of medium 18."
+        },
+        {
+          "col": 5,
+          "line": 45,
+          "text": "Let f_{i}(i=1, 2, 3 . . . N) denote the equally spaced center frequencies of the N independent signaling channels. Let the lowest channel center frequency be"
+        },
+        {
+          "col": 5,
+          "line": 49,
+          "text": "f_{1}=(h+1/2)f_{s} (6)"
+        },
+        {
+          "col": 5,
+          "line": 51,
+          "text": "where h is zero or any positive integer and f_{s} is the difference between the center frequencies of adjacent channels. Thus, the center frequency of the ith channel is"
+        },
+        {
+          "col": 5,
+          "line": 56,
+          "text": "f_{i}=f_{1}+(i−1)f_{s}=(h+i−1/2)f_{s} (7)"
+        },
+        {
+          "col": 5,
+          "line": 58,
+          "text": "Each amplitude-modulated data channel is assumed to transmit at 2f_{s} bauds (symbols per second). Hence"
+        },
+        {
+          "col": 5,
+          "line": 61,
+          "text": "T=1/(2f_{s}) (8)"
+        },
+        {
+          "col": 5,
+          "line": 63,
+          "text": "Since the bandwidth of each channel is 2f_{s}, there is no inherent difficulty in transmitting at 2f_{s} bauds for an arbitrary channel shaping."
+        },
+        {
+          "col": 5,
+          "line": 66,
+          "text": "For a given amplitude characteristic H(f) of transmission medium 18, band-limited transmitting filters (15, 16, 17) can be devised to satisfy Equations 3, 4, 5 and 8 simultaneously and thereby eliminate both intersymbol and interchannel interference for a data rate of 2f_{s} per channel. At the same time the objects of this invention will be met."
+        },
+        {
+          "col": 5,
+          "line": 73,
+          "text": "I propose a general method of designing the required transmitting filters in the form of a theorem."
+        },
+        {
+          "col": 5,
+          "line": 75,
+          "text": "For a given characteristic H(f) of a transmission medium, a channel amplitude characteristic A_{i}(f) (i=1, 2 . . . , N) exists such that"
+        },
+        {
+          "col": 6,
+          "line": 3,
+          "text": "A_{i}^{2}(f)H^{2}(f)=C_{i}+Q_{i}(f)"
+        },
+        {
+          "col": 6,
+          "line": 5,
+          "text": "C_{i}+Q_{i}(f) is greater than zero for all f in the range f_{i}±f_{s} and zero outside this range. C_{i} is an arbitrary constant and Q_{i}(f) is a shaping function having odd symmetries about f_{i}±f_{s}/2. Furthermore, the products of the shaping functions for adjacent channels [C_{i}+Q_{i} (f)][C_{i+1}+Q_{i+1}(f)] are even functions about the frequency (f_{i}+f_{s}/2) midway between adjacent channel center frequencies f_{i} and f_{i+1}."
+        },
+        {
+          "col": 6,
+          "line": 13,
+          "text": "As a further part of my theorem the channel phase characteristic α_{i}(f) (i=1, 2 . . . , N) can be shaped such that"
+        },
+        {
+          "col": 6,
+          "line": 17,
+          "text": "α_{i}(f)−α_{i+1}(f)=±π/2+γ_{i}(f) (9)"
+        },
+        {
+          "col": 6,
+          "line": 19,
+          "text": "in the frequency range between channel center frequencies. γ_{i}(f) is an arbitrary phase function having odd symmetry about the frequency (f_{i}+f_{s}/2) midway between adjacent channel center frequencies f_{i} and f_{i+1}."
+        },
+        {
+          "col": 6,
+          "line": 23,
+          "text": "If A_{i}(f) and α_{i}(f) are shaped in accordance with my theorem and f_{1} is chosen according to Equation 6, then Equations 3, 4, 5, and 8 are simultaneously satisfied. There is then no intersymbol and interchannel interference for a synchronous data rate of 2f_{s} bauds per channel. Furthermore, the transmitting filters have gradual rolloffs, the overall data rate is maximized, the transmitting filters are matched to the transmission medium, and for band-limited Gaussian noise the receiver receives each of the overlapping signals with the same probability of error as if only that signal were transmitted."
+        },
+        {
+          "col": 6,
+          "line": 34,
+          "text": "Detailed proofs of my theorem are omitted here, but its practical consequences will be dealt with hereinafter. These proofs are set forth in the appendices A and B of my paper “Synthesis of Band-Limited Orthogonal Signals for Multichannel Data Transmission” published in the Bell System Technical Journal (vol. XLV, No. 10, December 1966) on pp. 1790 to 1794."
+        },
+        {
+          "col": 6,
+          "line": 41,
+          "text": "The first part of my theorem can be readily satisfied by any number om symmetrical waveshapes. The second part, relating to the product of the shaping functions of adjacent channels, can be satisfied according to the following corollary 1 to my theorem."
+        },
+        {
+          "col": 6,
+          "line": 46,
+          "text": "Under the simplifying conditions that C_{i} is chosen the same (C_{o}) for all i and all Q_{i}(f) (i=1, 2 . . . , N) are identically shaped, the product function [C_{i}+Q_{i}(f)][C_{i+1}+Q_{i+1}(f)] is an even function about the frequency midway between adjacent channel center frequencies (f_{i}+f_{s}/2) provided Q_{i}(f) is an odd function about (f_{i}+f_{s}/2) and is an even function about the channel center frequency f_{i}. This corollary follows directly from the theorem and needs no proof. The product of two odd functions is always an even function."
+        },
+        {
+          "col": 6,
+          "line": 56,
+          "text": "Practical examples of representative shaping functions that satisfy the requirements of my theorem and corollary 1 are shown in FIGS. 2 and 3."
+        },
+        {
+          "col": 6,
+          "line": 59,
+          "text": "In FIG. 2(A) waveform 21 is"
+        },
+        {
+          "col": 6,
+          "line": 61,
+          "text": "Q_{i}(f)=(1/2) cos 2π(f−f_{i})/(2f_{s})"
+        },
+        {
+          "col": 6,
+          "line": 63,
+          "text": "where f lies between f_{i}−f_{s} and f_{i}+f_{s} and i is any positive integer."
+        },
+        {
+          "col": 6,
+          "line": 65,
+          "text": "Choose"
+        },
+        {
+          "col": 6,
+          "line": 66,
+          "text": "C_{i}=1/2"
+        },
+        {
+          "col": 6,
+          "line": 69,
+          "text": "and FIG. 2(B) is identical to FIG 2(A) with the zero intercept changed to coincide with the minimum value of the function. Then waveform 22 is the raised cosine function"
+        },
+        {
+          "col": 6,
+          "line": 74,
+          "text": "A_{i}^{2}(f)H^{2}(f)=C_{i}+Q_{i}(f)=1/2+(1/2) cos 2π(f−f_{i})/(2f_{s})"
+        },
+        {
+          "col": 7,
+          "line": 1,
+          "text": "From trigonometric identities the square root of this equation is"
+        },
+        {
+          "col": 7,
+          "line": 3,
+          "text": "A_{i}(f)H(f)=cos π(f−f_{i})/(2f_{s})"
+        },
+        {
+          "col": 7,
+          "line": 6,
+          "text": "Waveform 23 in FIG. 2(C) is seen to be the positive half-cycle of a cosine wave, having zero transmission beyond the band-edge frequencies f_{i}±f_{s} and maximum transmission at the center frequency f_{i}."
+        },
+        {
+          "col": 7,
+          "line": 10,
+          "text": "Waveforms 21 and 22 meet the symmetry properties about"
+        },
+        {
+          "col": 7,
+          "line": 14,
+          "text": "f_{i}, f_{i}+f_{s}/2 and f_{i}−f_{s}/2"
+        },
+        {
+          "col": 7,
+          "line": 17,
+          "text": "postulated above. Adjacent overlapping channels spaced by a frequency f_{s} and identically shaped in this manner are readily seen to satisfy corollary 1 also."
+        },
+        {
+          "col": 7,
+          "line": 20,
+          "text": "A second example of a shaping function satisfying Equation 3 is shown in FIG. 3. Waveforms 31 and 32 are identically shaped functions similar to that of a multiple tuned circuit. The waveforms of FIGS. 3(A) and 3(B) differ only in the value of the ordinate. Waveform 33 of FIG. 3(C) is the square root of waveform 32."
+        },
+        {
+          "col": 7,
+          "line": 26,
+          "text": "It may be observed from these waveforms that the center frequency need not be the frequency of maximum response. There are dual maxima symmetrical about the channel center frequency as shown. The waveforms of FIG. 3 are not as readily characterized mathematically as those of FIG. 2, but are nevertheless practically attainable."
+        },
+        {
+          "col": 7,
+          "line": 32,
+          "text": "Reference is made to such standard texts as E. A. Guillemin’s Synthesis of Passive Networks (John Wiley and Sons, Inc., New York, 1957) for filter design methods."
+        },
+        {
+          "col": 7,
+          "line": 35,
+          "text": "It can be seen from these two examples that a great deal of freedom is allowed in choosing the shaping function Q_{i}(f). Consequently A_{i}(f)H(f) can also assume various forms. If H(f) is flat over the narrow frequency band of the individual channel, A_{i}(f) may have the same shape as A_{i}(f)H(f). If H(f) is not flat in the individual channel band, A_{i}(f) can be obtained from a division of the product A_{i}(f)H(f) by H(f)."
+        },
+        {
+          "col": 7,
+          "line": 43,
+          "text": "My theorem also places constraints on the phase characteristic α_{i}(f) of the transmitting filters. It is only required that Equation 9 be satisfied in order to insure orthogonality between adjacent channels. However, if it is desired to have identically shaped transmitting filter characteristics for all channels, I propose the following corollary 2."
+        },
+        {
+          "col": 7,
+          "line": 50,
+          "text": "Under the simplifying condition that all transmitting filter phase characteristics α_{i}(f)(1=1, 2 . . . N) be identically shaped, Equation 9 holds if"
+        },
+        {
+          "col": 7,
+          "line": 55,
+          "text": "α_{i}(f)=h(π/2)(f−f_{i})/f_{s}+(1/2)φ_{0} +Σφ_{m} cos m2π(f−f_{i})/(2f_{s})+Σψ_{n} sin n2π(f−f_{i})/(2f_{s})"
+        },
+        {
+          "col": 7,
+          "line": 60,
+          "text": "for m=1, 2, 3 . . . and n=2, 4, 6 . . . in the range f_{i}±f_{s}, where h is an arbitrary odd integer and φ_{0}, φ_{m}, ψ_{n} are all arbitrarily chosen."
+        },
+        {
+          "col": 7,
+          "line": 63,
+          "text": "The first term of this equation is a linear term. The second term is an intercept term which may conveniently be zero. The last two terms are ripple terms having odd symmetry about the frequencies f_{i}±f_{s}/2. The only real constraint is that n be even. If n were allowed to assume odd as well as even values, the form of α_{i}(f) would be completely arbitrary."
+        },
+        {
+          "col": 7,
+          "line": 70,
+          "text": "In FIG. 4 to be discussed more fully later the phase function α_{i}(f) is sketched as identical curves 56, 58, and 60. For this particular choice h is set to −1, φ_{0}, and φ_{m} equal zero, m equals 1, n equals 2 and ψ_{2}=1. The linear term is thus −π/2 and a sine function with odd symmetry about f_{i}±f_{s}/2 is superimposed thereon."
+        },
+        {
+          "col": 8,
+          "line": 1,
+          "text": "It is readily appreciated that the phase characteristic α_{i}(f) is independent of the amplitude characteristic A_{i}(f). Further, the phase function of the channel is absent from both corollaries 1 and 2. Hence, the amplitude and phase characteristics of the transmitting filters can be synthesized independently of each other and of the phase characteristic of the transmission medium."
+        },
+        {
+          "col": 8,
+          "line": 8,
+          "text": "Variations in the amplitude characteristic H(f) can be taken into account for each individual channel. However, it may be more convenient to use a single compensating network for the entire bandwidth of the transmission medium. For convenience in implementation the amplitude offset C_{i} and shaping functions Q_{i}(f) can be chosen in an identical manner for all channels, according to my corollaries 1 and 2. Then A_{i}(f)H(f) will be identical (except for a shift in center frequencies) for all channels. This permits the use of identical shaping filters for all channels coupled with frequency translation to the equally spaced center channel frequencies."
+        },
+        {
+          "col": 8,
+          "line": 21,
+          "text": "FIG. 4 illustrates in block diagram form a three-channel system using identical channel shaping filters plus frequency translations. FIG. 5 is a waveform diagram useful in explaining the transmitter of FIG. 4."
+        },
+        {
+          "col": 8,
+          "line": 25,
+          "text": "In FIG. 4 data sources a, b, and c (not shown) deliver synchronized impulse samples to lines 41, 42, and 43 which in turn are connected to identical shaping filters 44 having an amplitude characteristic H_{1}(f) and a phase characteristic α_{1}(f) as shown in FIG. 5. Characteristics H_{1}(f) and α_{1}(f) have the properties described in corollaries 1 and 2. Filters 44 are bandpass filters of 2f_{s} bandwidth centered on a frequency lying outside the transmission band of the transmission medium. Here this center frequency is chosen for convenience as (k+0.5)f_{s}, k being an arbitrary odd integer."
+        },
+        {
+          "col": 8,
+          "line": 36,
+          "text": "The waveforms of FIG. 5 use frequency as the abscissa and amplitude and phase as the ordinate. In FIG. 5 line (D) vertical line 61 on the right side indicates the center frequency of filters 44 at the frequency (k+0.5)f_{s}. On lines (A), (B), and (C) of FIG. 5 the identical amplitude characteristics 55, 57, and 59, shown here as the half cycle of a cosine wave, are centered on the frequency (k+0.5)f_{s}. The phase characteristics α_{i}(f) in broken line form are superimposed on the amplitude characteristics as identical waveforms 56, 58, and 60. The average slope is linear and the difference in slope between channels is equal to −π/2. A sinusoidal phase ripple is also present. Since all three waveforms 55, 57 and 59 are derived from identical filters, their amplitude, as well as their phase, characteristics 56, 58 and 60, are also identical."
+        },
+        {
+          "col": 8,
+          "line": 52,
+          "text": "The shaped outputs of filters 44 are modulated by equally spaced frequencies f_{1}, f_{2}, and f_{3} in modulators 45. The frequency f_{1} is chosen equal to (k−1)f_{s} to form a lower sideband centered on a frequency of 1.5f_{s} as shown by waveform 51 on line (A) of FIG. 5. This waveform has a bandwidth extending from 0.5f_{s} to 2.5f_{s}. Similarly, frequencies f_{2} and f_{3} are chosen respectively to be (k−2)f_{s} and (k−3)f_{s} to form lower sidebands 52 and 53 on lines (B) and (C) of FIG. 5. The new center frequencies are 2.5f_{s} and 3.5f_{s}. The center frequency spacing is clearly f_{s}."
+        },
+        {
+          "col": 8,
+          "line": 63,
+          "text": "The translated outputs of modulators 45 are combined on line 46 and result in the overlapping spectra 51, 52, and 53 on line (D) of FIG. 5. In adder 47 connected to line 46 a component at the frequency f_{s} is inserted to facilitate demodulation at a receiver. To eliminate the upper sidebands in the outputs of modulators 45 and to confine the transmitted spectrum to the bandwidth of the transmission medium the signal from adder 47 is applied to low-pass filter 48 having the flat amplitude characteristic H_{2}(f) out to the frequency 4.5f_{s} shown in waveform 62 on line (D) of FIG. 5. The composite signal in the output of filter 48 is translated in modulator 50 on a carrier frequency f_{c} and then appears on line 49 for application to a connected transmission medium. The passband of the transmission medium is assumed to be centered on the frequency f_{c}."
+        },
+        {
+          "col": 9,
+          "line": 3,
+          "text": "Since the transmission rate in each channel is 2f_{s} bauds, the total transmission rate for three channels is 6f_{s} bauds in a transmission band of 4f_{s}. This is a rate of 1.5 bauds per cycle of bandwidth, 50 percent greater than that possible by use of conventional nonoverlapping frequency spectra. By extension of the principle of this invention it is apparent that the more channels used, the closer is the approach to the theoretical maximum of 2 bauds per cycle of bandwidth. In general"
+        },
+        {
+          "col": 9,
+          "line": 12,
+          "text": "N/(N+1)"
+        },
+        {
+          "col": 9,
+          "line": 15,
+          "text": "times 2 bauds per cycle of bandwidth is obtained, where N is the number of channels used."
+        },
+        {
+          "col": 9,
+          "line": 17,
+          "text": "The data in individual channels of a composite signal as shown on line (D) of FIG. 5 can be demodulated and detected by the use of adaptive correlation techniques as shown in the block diagram of FIG. 6. The composite signal arriving on line 65 after having traversed the transmission medium has the reference frequency f_{s} removed in pickoff device 70. Pickoff 70 may comprise a narrow-band filter and frequency multipliers by means of which the sampling frequency 2f_{s} and the several demodulating carriers are derived for application to conductor 66. Pickoff 70 can alternatively be placed to the right of upper modulator 74, if desired. The received signal is next applied to modulators 74, having demodulating frequencies chosen to translate the respective channel bandwidths to a common frequency range. This frequency range is defined by the characteristic H_{3}(f) of low-pass filters 76. The characteristics of filters 76 are identical as shown in waveform 75. The characteristic is flat to 2.5f_{s} cycles and falls off to zero beyond that frequency."
+        },
+        {
+          "col": 9,
+          "line": 36,
+          "text": "On the top line channel 1 is translated back to its baseband position centered on the frequency 1.5f_{s} by demodulation with a frequency f_{c}, the same carrier frequency used at the transmitter. In passing through filter 76 channel 3 is severely attenuated and channel 2 to a lesser extent as shown in waveform 83. Only channel 1 produces a full response, however. On the middle line channel 2 is translated to the baseband position centered on a frequency of 1.5f_{s} by demodulation with a frequency of f_{c}+f_{s}. Filter 76 has an output as shown in waveform 84. Finally on the bottom line channel 3 is translated to the baseband position centered on a frequency of 1.5f_{s} by demodulation with a frequency f_{c}+5f_{s}. The respective channels now appear in reverse order as shown in waveform 85. All three chanels have been translated into a position in the frequency spectrum which satisfies Equation 7. The signals in each individual channel remain orthogonal in time. The overlapping frequency spectra occur only between pairs of channels and the phase differences are unchanged. The signals in these channels thus remain mutually orthogonal in frequency. The remaining channel on each line does not overlap the desired channel in the baseband position and can therefore produce no interference."
+        },
+        {
+          "col": 9,
+          "line": 60,
+          "text": "The outputs of filters 76 are in turn applied to matched filters 78, which function as correlators. A matched filter is a linear system whose impulse response is the time inverse or complex conjugate of the waveform of the signal to which it is being matched. A matched filter is usually implemented by a tapped delay line with weighting resistors between each tap and a summing circuit. The weighting resistors are set according to samples at the corresponding taps when the waveform desired to be matched is transmitted through the system and exhibits its maximum response at a reference tap whose output is arbitrarily taken as the unity value. The taps are preferably equally spaced at the reciprocal of twice the bandwidth of the system being matched. In the present case the baseband width of interest is approximately 3f_{s} (waveform 75) and therefore the tap spacing is ⅙f_{s}. The weighting resistors are adjusted before data transmission by taking samples of the desired waveform after it has been transmitted through the channel. The output of the summing circuit is observed at a time τ when the peak response is noted at the reference tap. Thereafter, the response of the matched filter will be a maximum for the waveform for which the filter has been adjusted. The signal in the adjacent channel is orthogonal to that in the channel of interest and its contribution to the output of the summing circuit at time τ will be zero."
+        },
+        {
+          "col": 10,
+          "line": 11,
+          "text": "Reference is made to the paper of G. L. Turin entitled “An Introduction to Matched Filters” published in IRE Transactions on Information Theory of June 1960 for more details on the use of matched filters as correlators."
+        },
+        {
+          "col": 10,
+          "line": 15,
+          "text": "At the output of each matched filter 78 is a sampler 79 controlled by sampling pulses at the data rate 2f_{s} derived from pick-off 70. The sampling pulses are delayed by the time τ to coincide with the arrival of the peak response on the reference tap of the matched filter. On the basis of the summed sample the decision is made as to the nature of the data bit transmitted. The data output is made available on leads 80, 81, and 82 for the respective channels. Thus, the system of this invention operates in real time and no signal storage, other than a fixed delay, is needed."
+        },
+        {
+          "col": 10,
+          "line": 26,
+          "text": "Where larger numbers of channels than three are used, the three-channel method above may be extended in a straightforward manner. For example, the channels may be separated in groups of three using bandpass filters and each group of three may then be translated down to baseband in the manner previously described. The group of three passing through the bandpass filter is initially translated to baseband by using a demodulating signal of the form cos [2π(i-1)f_{s}tⒽ_{i}] where i is the center frequency of the center channel of the group of three and Ⓗ_{i} is an arbitrary phase angle accounting for carrier phase shift in the transmission medium."
+        },
+        {
+          "col": 10,
+          "line": 38,
+          "text": "The orthogonal multiplex system of this invention can also be operated without synchronization among channels if transmission is restricted to odd or even numbered channels. The overall data rate is then half the theoretical maximum or one baud per cycle of bandwidth. The system may also be operated with some adjacent channels synchronized and others unsynchronized, provided that an unused channel is left between synchronized groups."
+        },
+        {
+          "col": 10,
+          "line": 46,
+          "text": "While this invention has been described generally in theoretical terms and specifically by way of a three-channel example, its principles are susceptible of wide application by those skilled in the art within the spirit and scope of the appended claims."
+        }
+      ]
+    }
+  ],
+  "brief_drawings": [
+    {
+      "fig": "1",
+      "col": 4,
+      "line": 1,
+      "text": "FIG. 1 is a block diagram of the basic orthogonal frequency-multiplex transmission system of this invention;"
+    },
+    {
+      "fig": "2",
+      "col": 4,
+      "line": 3,
+      "text": "FIG. 2 is a waveform diagram showing the development of a shaping filter characteristic satisfying the condition of orthogonality according to this invention;"
+    },
+    {
+      "fig": "3",
+      "col": 4,
+      "line": 6,
+      "text": "FIG. 3 is another waveform diagram showing the development of a shaping filter characteristic satisfying the condition of orthogonality according to this invention;"
+    },
+    {
+      "fig": "4",
+      "col": 4,
+      "line": 9,
+      "text": "FIG. 4 is a block diagram of a representative three-channel orthogonal frequency multiplex transmitter according to this invention using identical shaping filters for all channels;"
+    },
+    {
+      "fig": "5",
+      "col": 4,
+      "line": 13,
+      "text": "FIG. 5 is a series of waveform diagrams useful in explaining the operation of the system of FIG. 4; and"
+    },
+    {
+      "fig": "6",
+      "col": 4,
+      "line": 15,
+      "text": "FIG. 6 is a block diagram of a representative correlation detection system capable of recovering the data signals generated in the transmitting system of FIG. 4."
+    }
+  ],
+  "claims": [
+    {
+      "n": 1,
+      "col": 10,
+      "line": 52,
+      "depends": null,
+      "text": "1. In a frequency-multiplex communications system:\na transmitting station for forming a plurality of equally spaced band-limited mutually orthogonal communication channels in said system;\na transmission medium having a substantially flat amplitude-frequency characteristic and connected to said transmitting station;\na plurality of input circuits for data signals;\nmeans synchronizing said input circuits at a common transmission rate equal to one data symbol per cycle of bandwidth; and\na transmitting bandpass filter for each of said input circuits, each of said filters having a center frequency equally spaced by half the synchronizing rate from that of an adjacent filter, a bandwidth equal to the synchronizing rate, even symmetry about the center frequencies for its amplitude response, odd symmetry about frequencies midway between the center frequencies and band-edge frequencies for the square of its amplitude response characteristic, and phase-frequency characteristics differing between adjacent communication channels by 90 electrical degrees plus an arbitrary phase function, with odd symmetry for said phase-frequency characteristic about a frequency midway between adjacent center frequencies."
+    },
+    {
+      "n": 2,
+      "col": 11,
+      "line": 3,
+      "depends": 1,
+      "text": "2. The frequency-multiplex system of claim 1 in which each of said transmitting filters has an amplitude-frequency characteristic proportional to the positive half cycle of the cosine function cos α, where α is π times said transmission rate and the ratio of the difference between the center frequency of any channel and every other frequency within the channel bandwidth."
+    },
+    {
+      "n": 3,
+      "col": 11,
+      "line": 10,
+      "depends": 1,
+      "text": "3. The frequency-multiplex system of claim 1 in which each of said transmitting filters has an amplitude-frequency response characteristic between band-edge frequencies whose square is proportional to C_{o}+Q_{i}(f), where C_{o} is an arbitrary constant and Q_{i}(f) is a response function having even symmetry about its center frequency and odd symmetry about frequencies midway between the center frequency and each band-edge frequency."
+    },
+    {
+      "n": 4,
+      "col": 11,
+      "line": 18,
+      "depends": 3,
+      "text": "4. The frequency-multiplex system of claim 3 in which\nC_{o} equals 1/2\nand Q_{i}(f) equals the raised cosine function\n(1/2) cos 2π(f−f_{i})/(2f_{s})\nwhere f is any frequency within the bandwidth of a given channel i, f_{i} is the center frequency of channel i, f_{s} is half the common data transmission rate, and i is any positive integer."
+    },
+    {
+      "n": 5,
+      "col": 11,
+      "line": 31,
+      "depends": null,
+      "text": "5. In a frequency-multiplex communication system:\na transmitting station for forming a plurality of equally spaced orthogonal communication channels in said system;\na transmission medium for said system having a substantially flat amplitude-frequency characteristic and an arbitrary phase-frequency characteristic over a given bandwidth;\na plurality of input circuits for data signals;\nmeans synchronizing said input circuits at a common transmission rate equal to one data symbol for each cycle of bandwidth;\na transmitting bandpass filter for each of said input circuits, each of said filters having a center frequency above the band limit of said transmission medium, a bandwidth equal to said transmission rate, even symmetry about the center frequency for its amplitude response, odd symmetry for the square of its amplitude response about frequencies midway between the center frequency and the band-edge frequencies, and an average phase-frequency response having a linear slope;\nmeans generating a plurality of carrier frequencies equally spaced by half said transmission rate;\na plurality of modulating means controlled by said generating means translating the responses of said transmitting filters to adjacent overlapping frequency bands within the passband of said transmission medium;\nmeans combining the outputs of said modulating means with a frequency component from said synchronizing means related to said transmission rate; and\nmeans connected to said combining means translating all frequency components to the given passband of said transmission medium."
+    },
+    {
+      "n": 6,
+      "col": 11,
+      "line": 66,
+      "depends": null,
+      "text": "6. An orthogonal multiplex data communications system comprising in combination:\na transmitting station and a remotely located receiving station with a transmission medium of limited passband therebetween;\na plurality of input circuits for data signals;\nmeans for synchronizing all said input circuits at a common transmission rate;\na plurality of bandpass filters associated one each with said input circuits shaping said data signals such that the square of the product of the amplitude characteristics of said filters and of said transmission medium is a response function having even symmetry about a frequency beyond the passband of said medium, a passband equal to said transmission rate, odd symmetry about frequencies midway between the center frequency and band-edge frequencies and a linear average phase-frequency characteristic;\nmodulating means translating waveforms from said filters to overlapping narrow frequency bands within the passband of said medium and centered on frequencies separated by half said transmission rate;\ncombining means for said translated waveforms;\nmeans inserting a transmission rate frequency component into said combined waveforms;\na low-pass filter confining said combined waveforms to the passband of said transmission medium;\nmeans at said receiving station deriving demodulating carrier waves and a sampling wave from the transmission rate frequency component in the received signal;\nmeans responsive to said derived carrier waves translating each narrow frequency band in the received signal to a baseband position in the frequency spectrum;\nfurther low-pass filter means for each of said narrow frequency bands;\nmatched filter means correlating the energy in said narrow frequency bands with the time inverse of the transfer function of said transmission medium;\nmeans sampling the correlation products from said matched filter at said derived transmission rate; and\na data output connected to each of said sampling means."
+    },
+    {
+      "n": 7,
+      "col": 12,
+      "line": 36,
+      "depends": 6,
+      "text": "7. The data communications system of claim 6 in which said translating means at said receiving station comprises\nmodulating means responsive to selected demodulating carrier wave frequencies translating the individual narrow-band channels in the received signal to the lowest baseband channel position."
+    },
+    {
+      "n": 8,
+      "col": 12,
+      "line": 42,
+      "depends": 6,
+      "text": "8. The data communications system of claim 6 in which said matched filter means comprise\na delay line with a plurality of taps spaced by the reciprocal of twice the bandwidth of each narrow band channel;\nan adjustable attenuator for each tap on said delay line;\na summing circuit for the attenuated tap outputs; and\nmeans adjusting the attenuators for each delay line tap according to samples of the impulse response of a test pulse transmitted through said system such that the adjusted response of said matched filter is a mirror image in time of said impulse response."
+    },
+    {
+      "n": 9,
+      "col": 12,
+      "line": 55,
+      "depends": null,
+      "text": "9. The method of orthogonal multiplex data transmission which comprises shaping a plurality of input data signals such that their individual frequency responses are confined to equally spaced channels having overlapping spectra, a bandwidth equal to the transmission rate per channel, even symmetry about the center frequency of each channel, odd symmetry for the square of said responses about frequencies midway between the center frequency and the band-edge frequencies of each channel and phase characteristics between adjacent channels differing by 90 electrical degrees; combining the several channels into a composite signal; and filtering the composite signal to confine it to the finite passband of a transmission medium."
+    },
+    {
+      "n": 10,
+      "col": 12,
+      "line": 69,
+      "depends": null,
+      "text": "10. The method of orthogonal multiplex data transmission which comprises shaping a plurality of input data signals to confine their response to an arbitrary narrow passband constrained such that even symmetry of frequency response exists about a center frequency of such response, odd symmetry of the square of the response exists about frequencies midway between the center frequency and frequencies at the edges of the narrow passband, and the average phase-frequency characteristic is linear; translating each of the shaped data signals to adjacent overlapping channels of a bandwidth equal to the common transmission rate of said data signals and centered on frequencies separated by half the data transmission rate; combining the shaped and translated data signals into a composite signal; inserting a data rate frequency component into said composite signal; and filtering said composite signal to conform to the restricted passband of a transmission medium."
+    }
+  ],
+  "ocr_fixes": [
+    {
+      "col": 1,
+      "line": 21,
+      "ocr": "<",
+      "fixed": "",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 27,
+      "ocr": "tate",
+      "fixed": "rate",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 30,
+      "ocr": ",",
+      "fixed": "",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 32,
+      "ocr": ",",
+      "fixed": "",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 35,
+      "ocr": ", wo wt known,",
+      "fixed": "known.",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 39,
+      "ocr": "channels,",
+      "fixed": "channels.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 48,
+      "ocr": "channels“on",
+      "fixed": "channels on",
+      "basis": "scan"
+    },
+    {
+      "col": 1,
+      "line": 52,
+      "ocr": "interchanne]",
+      "fixed": "interchannel",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 7,
+      "ocr": ".",
+      "fixed": "",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 19,
+      "ocr": "Beli",
+      "fixed": "Bell",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 20,
+      "ocr": "XLII,",
+      "fixed": "XLIII,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 44,
+      "ocr": "tested’",
+      "fixed": "tested",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 45,
+      "ocr": "by,",
+      "fixed": "by",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 53,
+      "ocr": "S,,(¢)",
+      "fixed": "S_{m}(t)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 53,
+      "ocr": "S,(t)",
+      "fixed": "S_{n}(t)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 55,
+      "ocr": "1 T",
+      "fixed": "(1/2T)∫_{−T}^{T} S_{m}(t)S_{n}(t)dt=0",
+      "basis": "scan (formula re-transcribed)"
+    },
+    {
+      "col": 2,
+      "line": 58,
+      "ocr": "for. m4n",
+      "fixed": "for m≠n",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 59,
+      "ocr": ";",
+      "fixed": "",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 61,
+      "ocr": "f(1),",
+      "fixed": "f(t),",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 61,
+      "ocr": "‘represented",
+      "fixed": "represented",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 64,
+      "ocr": "f(—-)=f()",
+      "fixed": "f(−t)=f(t)",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 66,
+      "ocr": "¢",
+      "fixed": "t",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 67,
+      "ocr": "—-H=—f()",
+      "fixed": "f(−t)=−f(t)",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 69,
+      "ocr": "i.c.,",
+      "fixed": "i.e.,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 71,
+      "ocr": "ie.,",
+      "fixed": "i.e.,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 5,
+      "ocr": "(Even) (Even) = (Odd) (Odd) =Even",
+      "fixed": "(Even)(Even)=(Odd)(Odd)=Even",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 6,
+      "ocr": "(Even) (Odd) = (Odd) (Even) =Odd",
+      "fixed": "(Even)(Odd)=(Odd)(Even)=Odd",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 8,
+      "ocr": "Tt",
+      "fixed": "It",
+      "basis": "scan"
+    },
+    {
+      "col": 3,
+      "line": 9,
+      "ocr": "S,(z)",
+      "fixed": "S_{m}(t)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 10,
+      "ocr": "S,(¢)",
+      "fixed": "S_{n}(t)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 75,
+      "ocr": "which:",
+      "fixed": "which;",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 33,
+      "ocr": "H(fyeme",
+      "fixed": "H(f)e^{Jη(f)}",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 35,
+      "ocr": "»(f)",
+      "fixed": "η(f)",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 36,
+      "ocr": "¢",
+      "fixed": "e",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 37,
+      "ocr": "\\/—1.",
+      "fixed": "√−1.",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 46,
+      "ocr": "bo, by, bg...",
+      "fixed": "b_{0}, b_{1}, b_{2} . . .",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 47,
+      "ocr": "(m=2)",
+      "fixed": "(m≧2)",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 48,
+      "ocr": "Jo, 1, ba...",
+      "fixed": "b_{0}, b_{1}, b_{2} . . .",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 53,
+      "ocr": "a(t)",
+      "fixed": "a_{i}(t)",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 57,
+      "ocr": "boa;(2), b,a,(t—T), boa\\(t—2T) oe",
+      "fixed": "b_{0}a_{i}(t), b_{1}a_{i}(t−T), b_{2}a_{i}(t−2T) . . .",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 61,
+      "ocr": "bots(t), bywy(t—T), bewy(t—2T) ...",
+      "fixed": "b_{0}u_{i}(t), b_{1}u_{i}(t−T), b_{2}u_{i}(t−2T) . . .",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 64,
+      "ocr": "wu) =f\" hG=rai(aar",
+      "fixed": "u_{i}(t)=∫_{−∞}^{∞} h(t−τ)a_{i}(τ)dτ",
+      "basis": "scan (formula re-transcribed)"
+    },
+    {
+      "col": 4,
+      "line": 66,
+      "ocr": "(7",
+      "fixed": "(τ",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 71,
+      "ocr": "[2 wOwG—br)di=0, k= E1, £2... (yy",
+      "fixed": "∫_{−∞}^{∞} u_{i}(t)u_{i}(t−kT)dt=0, k=±1, ±2 . . . (1)",
+      "basis": "scan (formula re-transcribed)"
+    },
+    {
+      "col": 4,
+      "line": 75,
+      "ocr": "cy, cy, Cg...",
+      "fixed": "c_{0}, c_{1}, c_{2} . . .",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 2,
+      "ocr": "a;(t).",
+      "fixed": "a_{j}(t).",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 6,
+      "ocr": "ca;(t), ea,(t—T), C9a;(t—2T) eee",
+      "fixed": "c_{0}a_{j}(t), c_{1}a_{j}(t−T), c_{2}a_{j}(t−2T) . . .",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 9,
+      "ocr": "Couj(t), cyuj(t—T), C2lt\\(t—-2T) sae",
+      "fixed": "c_{0}u_{j}(t), c_{1}u_{j}(t−T), c_{2}u_{j}(t−2T) . . .",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 14,
+      "ocr": "uiujt—kT)dt=0,",
+      "fixed": "∫_{−∞}^{∞} u_{i}(t)u_{j}(t−kT)dt=0,",
+      "basis": "scan (formula re-transcribed)"
+    },
+    {
+      "col": 5,
+      "line": 14,
+      "ocr": "+1, +2... i",
+      "fixed": "±1, ±2 . . .",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 18,
+      "ocr": "(i<j).",
+      "fixed": "(i≠j).",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 23,
+      "ocr": "frac",
+      "fixed": "∫_{0}^{∞} A_{i}^{2}(f)H^{2}(f)",
+      "basis": "scan (formula re-transcribed)"
+    },
+    {
+      "col": 5,
+      "line": 23,
+      "ocr": "QnfkT'df=0",
+      "fixed": "2πfkTdf=0",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 25,
+      "ocr": "2,3 ...,i=1,2,3...",
+      "fixed": "2, 3 . . ., i=1, 2, 3 . . .",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 25,
+      "ocr": "",
+      "fixed": "2",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 28,
+      "ocr": "i Ai(f)Ai(f)H?(f)",
+      "fixed": "∫_{0}^{∞} A_{i}(f)A_{j}(f)H^{2}(f)",
+      "basis": "scan (formula re-transcribed)"
+    },
+    {
+      "col": 5,
+      "line": 28,
+      "ocr": "[ai(f) —2;(f)]",
+      "fixed": "[α_{i}(f)−α_{j}(f)]",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 28,
+      "ocr": "2a fkTdf=0",
+      "fixed": "2πfkTdf=0",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 33,
+      "ocr": "fr Ai(f)A;(f) H?(f)",
+      "fixed": "∫_{0}^{∞} A_{i}(f)A_{j}(f)H^{2}(f)",
+      "basis": "scan (formula re-transcribed)"
+    },
+    {
+      "col": 5,
+      "line": 33,
+      "ocr": "[ei(f) a; (f)]",
+      "fixed": "[α_{i}(f)−α_{j}(f)]",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 33,
+      "ocr": "InfkTdf=0",
+      "fixed": "2πfkTdf=0",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 37,
+      "ocr": "1,2...",
+      "fixed": "1, 2 . . .",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 38,
+      "ocr": "j=l, 2...N, i4f",
+      "fixed": "j=1, 2 . . . N, i≠j",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 40,
+      "ocr": "A,(f)",
+      "fixed": "A_{i}(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 41,
+      "ocr": "«;(f)",
+      "fixed": "α_{i}(f)",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 42,
+      "ocr": "Aj(f)",
+      "fixed": "A_{j}(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 42,
+      "ocr": "a;(f)",
+      "fixed": "α_{j}(f)",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 43,
+      "ocr": "H(/)",
+      "fixed": "H(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 45,
+      "ocr": "fi(i=1,",
+      "fixed": "f_{i}(i=1,",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 45,
+      "ocr": "3...",
+      "fixed": "3 . . .",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 49,
+      "ocr": "n=(a+5)fo",
+      "fixed": "f_{1}=(h+1/2)f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 51,
+      "ocr": "fh",
+      "fixed": "h",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 51,
+      "ocr": "f,",
+      "fixed": "f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 55,
+      "ocr": "fh G—1f=(4i-F)",
+      "fixed": "f_{i}=f_{1}+(i−1)f_{s}=(h+i−1/2)f_{s}",
+      "basis": "scan (formula re-transcribed)"
+    },
+    {
+      "col": 5,
+      "line": 59,
+      "ocr": "2f,",
+      "fixed": "2f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 61,
+      "ocr": "P= 9,",
+      "fixed": "T=1/(2f_{s})",
+      "basis": "scan (formula re-transcribed)"
+    },
+    {
+      "col": 5,
+      "line": 63,
+      "ocr": "2f,,",
+      "fixed": "2f_{s},",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 64,
+      "ocr": "2f,",
+      "fixed": "2f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 68,
+      "ocr": "",
+      "fixed": "8",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 70,
+      "ocr": "2f,",
+      "fixed": "2f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 5,
+      "line": 75,
+      "ocr": "H({)",
+      "fixed": "H(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 1,
+      "ocr": "A,(f) (1,",
+      "fixed": "A_{i}(f) (i=1,",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 2,
+      "ocr": ".»., NV)",
+      "fixed": ". . . , N)",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 3,
+      "ocr": "AP (AEP (1) =CrtOi(f)",
+      "fixed": "A_{i}^{2}(f)H^{2}(f)=C_{i}+Q_{i}(f)",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 5,
+      "ocr": "C;+Qi(f)",
+      "fixed": "C_{i}+Q_{i}(f)",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 6,
+      "ocr": "fitfs",
+      "fixed": "f_{i}±f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 6,
+      "ocr": "C,",
+      "fixed": "C_{i}",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 7,
+      "ocr": "Q,(/)",
+      "fixed": "Q_{i}(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 8,
+      "ocr": "fit/,/2.",
+      "fixed": "f_{i}±f_{s}/2.",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 9,
+      "ocr": "[C\\+Q, (f)] [Ci414+Qi41(f)]",
+      "fixed": "[C_{i}+Q_{i} (f)][C_{i+1}+Q_{i+1}(f)]",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 11,
+      "ocr": "(fit+-f./2)",
+      "fixed": "(f_{i}+f_{s}/2)",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 12,
+      "ocr": "f;",
+      "fixed": "f_{i}",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 12,
+      "ocr": "fi,1.",
+      "fixed": "f_{i+1}.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 14,
+      "ocr": "o(f)",
+      "fixed": "α_{i}(f)",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 14,
+      "ocr": "2...,.N)",
+      "fixed": "2 . . . , N)",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 17,
+      "ocr": "ai(f)—anQ=+5+n(f)",
+      "fixed": "α_{i}(f)−α_{i+1}(f)=±π/2+γ_{i}(f)",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 20,
+      "ocr": "7;(f)",
+      "fixed": "γ_{i}(f)",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 21,
+      "ocr": "(/,+/,/2)",
+      "fixed": "(f_{i}+f_{s}/2)",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 22,
+      "ocr": "f,",
+      "fixed": "f_{i}",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 22,
+      "ocr": "fiat",
+      "fixed": "f_{i+1}.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 23,
+      "ocr": "Ay(f)",
+      "fixed": "A_{i}(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 23,
+      "ocr": "oj(f)",
+      "fixed": "α_{i}(f)",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 24,
+      "ocr": "jf,",
+      "fixed": "f_{1}",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 27,
+      "ocr": "2f,",
+      "fixed": "2f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 46,
+      "ocr": "C,",
+      "fixed": "C_{i}",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 47,
+      "ocr": "(C,)",
+      "fixed": "(C_{o})",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 47,
+      "ocr": "Qi(f) (i=1,2...,N)",
+      "fixed": "Q_{i}(f) (i=1, 2 . . . , N)",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 48,
+      "ocr": "{C;+0;(f)] [Ci41+0i41(f)]",
+      "fixed": "[C_{i}+Q_{i}(f)][C_{i+1}+Q_{i+1}(f)]",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 50,
+      "ocr": "center.",
+      "fixed": "center",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 51,
+      "ocr": "(fit+f./2)",
+      "fixed": "(f_{i}+f_{s}/2)",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 51,
+      "ocr": "Q,(f)",
+      "fixed": "Q_{i}(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 52,
+      "ocr": "(fitf,/2)",
+      "fixed": "(f_{i}+f_{s}/2)",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 52,
+      "ocr": "about.the",
+      "fixed": "about the",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 53,
+      "ocr": "f;.",
+      "fixed": "f_{i}.",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 57,
+      "ocr": "",
+      "fixed": "1",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 61,
+      "ocr": "QN=%",
+      "fixed": "Q_{i}(f)=(1/2)",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 61,
+      "ocr": "Int fi . 2fs",
+      "fixed": "2π(f−f_{i})/(2f_{s})",
+      "basis": "scan (formula re-transcribed)"
+    },
+    {
+      "col": 6,
+      "line": 63,
+      "ocr": "f,—f,",
+      "fixed": "f_{i}−f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 63,
+      "ocr": "f,-+f,",
+      "fixed": "f_{i}+f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 63,
+      "ocr": "i.is",
+      "fixed": "i is",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 66,
+      "ocr": "J",
+      "fixed": "C_{i}=1/2",
+      "basis": "scan"
+    },
+    {
+      "col": 6,
+      "line": 69,
+      "ocr": "FIG,",
+      "fixed": "FIG.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 74,
+      "ocr": "AM NEA =Cit O(N) =5+5 008 2",
+      "fixed": "A_{i}^{2}(f)H^{2}(f)=C_{i}+Q_{i}(f)=1/2+(1/2) cos 2π(f−f_{i})/(2f_{s})",
+      "basis": "scan (formula re-transcribed)"
+    },
+    {
+      "col": 7,
+      "line": 3,
+      "ocr": "=C0S wih Ai(f)H(f) fs ions",
+      "fixed": "A_{i}(f)H(f)=cos π(f−f_{i})/(2f_{s})",
+      "basis": "scan (formula re-transcribed)"
+    },
+    {
+      "col": 7,
+      "line": 8,
+      "ocr": "fj+f,",
+      "fixed": "f_{i}±f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 9,
+      "ocr": "/;.",
+      "fixed": "f_{i}.",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 14,
+      "ocr": "fy it ond p—-E",
+      "fixed": "f_{i}, f_{i}+f_{s}/2 and f_{i}−f_{s}/2",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 18,
+      "ocr": "f,",
+      "fixed": "f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 21,
+      "ocr": "FIG,",
+      "fixed": "FIG.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 21,
+      "ocr": "",
+      "fixed": "32",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 24,
+      "ocr": "",
+      "fixed": "33",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 37,
+      "ocr": "Q;(f).",
+      "fixed": "Q_{i}(f).",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 37,
+      "ocr": "A;(f)H({)",
+      "fixed": "A_{i}(f)H(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 39,
+      "ocr": "A;(f)",
+      "fixed": "A_{i}(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 40,
+      "ocr": "Ai(f)H(/).",
+      "fixed": "A_{i}(f)H(f).",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 40,
+      "ocr": "H(/)",
+      "fixed": "H(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 41,
+      "ocr": "Aj;(/)",
+      "fixed": "A_{i}(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 42,
+      "ocr": "A;(f)H(/)",
+      "fixed": "A_{i}(f)H(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 44,
+      "ocr": "a;(f)",
+      "fixed": "α_{i}(f)",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 49,
+      "ocr": "2,",
+      "fixed": "2.",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 51,
+      "ocr": "a(f)(1=1, 2...N)",
+      "fixed": "α_{i}(f)(1=1, 2 . . . N)",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 55,
+      "ocr": "s(n gE 4 + em Cos mrt + 2p,",
+      "fixed": "α_{i}(f)=h(π/2)(f−f_{i})/f_{s}+(1/2)φ_{0} +Σφ_{m} cos m2π(f−f_{i})/(2f_{s})+Σψ_{n}",
+      "basis": "scan (formula re-transcribed)"
+    },
+    {
+      "col": 7,
+      "line": 57,
+      "ocr": "noe",
+      "fixed": "n2π(f−f_{i})/(2f_{s})",
+      "basis": "scan (formula re-transcribed)"
+    },
+    {
+      "col": 7,
+      "line": 60,
+      "ocr": "2,3...",
+      "fixed": "2, 3 . . .",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 60,
+      "ocr": "4,6...",
+      "fixed": "4, 6 . . .",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 61,
+      "ocr": "fixzf,,",
+      "fixed": "f_{i}±f_{s},",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 61,
+      "ocr": "yo, om, Wn",
+      "fixed": "φ_{0}, φ_{m}, ψ_{n}",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 63,
+      "ocr": "term,",
+      "fixed": "term.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 7,
+      "line": 66,
+      "ocr": "f,+/,/2.",
+      "fixed": "f_{i}±f_{s}/2.",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 68,
+      "ocr": "«;(f)",
+      "fixed": "α_{i}(f)",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 71,
+      "ocr": "«;(f)",
+      "fixed": "α_{i}(f)",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 72,
+      "ocr": "—1, @o,",
+      "fixed": "−1, φ_{0},",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 72,
+      "ocr": "om",
+      "fixed": "φ_{m}",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 73,
+      "ocr": "7",
+      "fixed": "n",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 73,
+      "ocr": "yy—1.",
+      "fixed": "ψ_{2}=1.",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 74,
+      "ocr": "—7/2",
+      "fixed": "−π/2",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 75,
+      "ocr": "fj+f,/2",
+      "fixed": "f_{i}±f_{s}/2",
+      "basis": "scan"
+    },
+    {
+      "col": 7,
+      "line": 75,
+      "ocr": "thereon,",
+      "fixed": "thereon.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 2,
+      "ocr": "o;(f)",
+      "fixed": "α_{i}(f)",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 2,
+      "ocr": "A,(f).",
+      "fixed": "A_{i}(f).",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 13,
+      "ocr": "C,;",
+      "fixed": "C_{i}",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 13,
+      "ocr": "Q,(f)",
+      "fixed": "Q_{i}(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 15,
+      "ocr": "A;(f)H(f)",
+      "fixed": "A_{i}(f)H(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 25,
+      "ocr": "¢",
+      "fixed": "c",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 28,
+      "ocr": "H,(f)",
+      "fixed": "H_{1}(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 29,
+      "ocr": "«,(f)",
+      "fixed": "α_{1}(f)",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 30,
+      "ocr": "H,(f)",
+      "fixed": "H_{1}(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 30,
+      "ocr": "o,(f)",
+      "fixed": "α_{1}(f)",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 32,
+      "ocr": "2f,",
+      "fixed": "2f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 34,
+      "ocr": "(k-+-0.5)f,,",
+      "fixed": "(k+0.5)f_{s},",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 39,
+      "ocr": "(k+0.5)f,.",
+      "fixed": "(k+0.5)f_{s}.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 43,
+      "ocr": "(k+0.5)f,.",
+      "fixed": "(k+0.5)f_{s}.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 43,
+      "ocr": "o;(f)",
+      "fixed": "α_{i}(f)",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 45,
+      "ocr": "'56,",
+      "fixed": "56,",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 47,
+      "ocr": "—7/2.",
+      "fixed": "−π/2.",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 53,
+      "ocr": "f;, fz,",
+      "fixed": "f_{1}, f_{2},",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 53,
+      "ocr": "fz",
+      "fixed": "f_{3}",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 54,
+      "ocr": "f;",
+      "fixed": "f_{1}",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 54,
+      "ocr": "(k—1)f,",
+      "fixed": "(k−1)f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 55,
+      "ocr": "1.5f,",
+      "fixed": "1.5f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 57,
+      "ocr": "0.5f,",
+      "fixed": "0.5f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 57,
+      "ocr": "2.5f,.",
+      "fixed": "2.5f_{s}.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 58,
+      "ocr": "f,",
+      "fixed": "f_{2}",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 58,
+      "ocr": "fs",
+      "fixed": "f_{3}",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 59,
+      "ocr": "(k—2)f,",
+      "fixed": "(k−2)f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 59,
+      "ocr": "(k-—-3)f,",
+      "fixed": "(k−3)f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 60,
+      "ocr": "§2",
+      "fixed": "52",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 61,
+      "ocr": "2.5f,",
+      "fixed": "2.5f_{s}",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 61,
+      "ocr": "3.5f,.",
+      "fixed": "3.5f_{s}.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 62,
+      "ocr": "f,.",
+      "fixed": "f_{s}.",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 66,
+      "ocr": "f,",
+      "fixed": "f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 72,
+      "ocr": "H,(f)",
+      "fixed": "H_{2}(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 8,
+      "line": 72,
+      "ocr": "4.5f,",
+      "fixed": "4.5f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 8,
+      "line": 75,
+      "ocr": "f,",
+      "fixed": "f_{c}",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 2,
+      "ocr": "f,.",
+      "fixed": "f_{c}.",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 3,
+      "ocr": "2f,",
+      "fixed": "2f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 5,
+      "ocr": "6f;",
+      "fixed": "6f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 5,
+      "ocr": "4f,.",
+      "fixed": "4f_{s}.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 9,
+      "line": 12,
+      "ocr": "NV N+1",
+      "fixed": "N/(N+1)",
+      "basis": "scan (formula re-transcribed)"
+    },
+    {
+      "col": 9,
+      "line": 16,
+      "ocr": "used,",
+      "fixed": "used.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 9,
+      "line": 22,
+      "ocr": "f,",
+      "fixed": "f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 25,
+      "ocr": "2f,;",
+      "fixed": "2f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 27,
+      "ocr": "76",
+      "fixed": "70",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 32,
+      "ocr": "H,(f)",
+      "fixed": "H_{3}(f)",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 34,
+      "ocr": "2.5f,",
+      "fixed": "2.5f_{s}",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 9,
+      "line": 37,
+      "ocr": "1.5f,",
+      "fixed": "1.5f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 38,
+      "ocr": "f,,",
+      "fixed": "f_{c},",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 41,
+      "ocr": "",
+      "fixed": "1",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 44,
+      "ocr": "on-a",
+      "fixed": "on a",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 44,
+      "ocr": "1.5f;",
+      "fixed": "1.5f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 45,
+      "ocr": "f,+/,.",
+      "fixed": "f_{c}+f_{s}.",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 46,
+      "ocr": "84,",
+      "fixed": "84.",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 48,
+      "ocr": "1.5f/,",
+      "fixed": "1.5f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 48,
+      "ocr": "f,+-5f,.",
+      "fixed": "f_{c}+5f_{s}.",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 62,
+      "ocr": "is.a",
+      "fixed": "is a",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 70,
+      "ocr": "its:",
+      "fixed": "its",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 74,
+      "ocr": "3f,",
+      "fixed": "3f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 9,
+      "line": 75,
+      "ocr": "%f,.",
+      "fixed": "⅙f_{s}.",
+      "basis": "scan"
+    },
+    {
+      "col": 10,
+      "line": 4,
+      "ocr": "+",
+      "fixed": "τ",
+      "basis": "scan"
+    },
+    {
+      "col": 10,
+      "line": 10,
+      "ocr": "+",
+      "fixed": "τ",
+      "basis": "scan"
+    },
+    {
+      "col": 10,
+      "line": 16,
+      "ocr": "2f,",
+      "fixed": "2f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 10,
+      "line": 18,
+      "ocr": "",
+      "fixed": "τ",
+      "basis": "scan"
+    },
+    {
+      "col": 10,
+      "line": 22,
+      "ocr": "channels,",
+      "fixed": "channels.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 10,
+      "line": 25,
+      "ocr": "needed,",
+      "fixed": "needed.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 10,
+      "line": 34,
+      "ocr": "[2(i-1)f,¢@,;]",
+      "fixed": "[2π(i-1)f_{s}tⒽ_{i}]",
+      "basis": "scan"
+    },
+    {
+      "col": 10,
+      "line": 35,
+      "ocr": "@,",
+      "fixed": "Ⓗ_{i}",
+      "basis": "scan"
+    },
+    {
+      "col": 10,
+      "line": 68,
+      "ocr": "its.",
+      "fixed": "its",
+      "basis": "scan"
+    },
+    {
+      "col": 11,
+      "line": 3,
+      "ocr": "",
+      "fixed": "1",
+      "basis": "scan"
+    },
+    {
+      "col": 11,
+      "line": 6,
+      "ocr": "«,",
+      "fixed": "α,",
+      "basis": "scan"
+    },
+    {
+      "col": 11,
+      "line": 6,
+      "ocr": "«",
+      "fixed": "α",
+      "basis": "scan"
+    },
+    {
+      "col": 11,
+      "line": 6,
+      "ocr": "",
+      "fixed": "π",
+      "basis": "scan"
+    },
+    {
+      "col": 11,
+      "line": 10,
+      "ocr": "",
+      "fixed": "1",
+      "basis": "scan"
+    },
+    {
+      "col": 11,
+      "line": 13,
+      "ocr": "C.+Q;(/),",
+      "fixed": "C_{o}+Q_{i}(f),",
+      "basis": "scan"
+    },
+    {
+      "col": 11,
+      "line": 14,
+      "ocr": "C,",
+      "fixed": "C_{o}",
+      "basis": "scan"
+    },
+    {
+      "col": 11,
+      "line": 14,
+      "ocr": "Q,(/)",
+      "fixed": "Q_{i}(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 11,
+      "line": 18,
+      "ocr": "4,",
+      "fixed": "4.",
+      "basis": "scan"
+    },
+    {
+      "col": 11,
+      "line": 18,
+      "ocr": "",
+      "fixed": "3",
+      "basis": "scan"
+    },
+    {
+      "col": 11,
+      "line": 20,
+      "ocr": "C,",
+      "fixed": "C_{o}",
+      "basis": "scan"
+    },
+    {
+      "col": 11,
+      "line": 20,
+      "ocr": "5",
+      "fixed": "1/2",
+      "basis": "scan"
+    },
+    {
+      "col": 11,
+      "line": 22,
+      "ocr": "Q,(/)}",
+      "fixed": "Q_{i}(f)",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 11,
+      "line": 24,
+      "ocr": "i f—hi 5",
+      "fixed": "(1/2)",
+      "basis": "scan (formula re-transcribed)"
+    },
+    {
+      "col": 11,
+      "line": 25,
+      "ocr": "27 OTe",
+      "fixed": "2π(f−f_{i})/(2f_{s})",
+      "basis": "scan (formula re-transcribed)"
+    },
+    {
+      "col": 11,
+      "line": 28,
+      "ocr": "f;",
+      "fixed": "f_{i}",
+      "basis": "scan"
+    },
+    {
+      "col": 11,
+      "line": 28,
+      "ocr": "f,",
+      "fixed": "f_{s}",
+      "basis": "scan"
+    },
+    {
+      "col": 11,
+      "line": 69,
+      "ocr": "pass‘band",
+      "fixed": "passband",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 12,
+      "line": 9,
+      "ocr": ";",
+      "fixed": "",
+      "basis": "scan"
+    },
+    {
+      "col": 12,
+      "line": 35,
+      "ocr": "means,",
+      "fixed": "means.",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 12,
+      "line": 75,
+      "ocr": "frequencies.",
+      "fixed": "frequencies",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 13,
+      "line": 10,
+      "ocr": "medium,",
+      "fixed": "medium.",
+      "basis": "scan + Google Patents"
+    }
+  ]
+}

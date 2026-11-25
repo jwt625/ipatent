@@ -1,0 +1,571 @@
+{
+ "pn": "3488445",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    440,
+    572,
+    1775,
+    1392
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2A",
+   "label": "FIG. 2(A)",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    470,
+    1496,
+    978,
+    2105
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2B",
+   "label": "FIG. 2(B)",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    977,
+    1496,
+    1332,
+    2080
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2C",
+   "label": "FIG. 2(C)",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1332,
+    1510,
+    1700,
+    2095
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3A",
+   "label": "FIG. 3(A)",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    470,
+    2205,
+    979,
+    2808
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3B",
+   "label": "FIG. 3(B)",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    973,
+    2205,
+    1329,
+    2765
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3C",
+   "label": "FIG. 3(C)",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1329,
+    2218,
+    1705,
+    2750
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    430,
+    530,
+    1760,
+    1388
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    430,
+    1388,
+    1740,
+    2830
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    480,
+    610,
+    1780,
+    2960
+   ],
+   "rotate": 270,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "10",
+   "name": "lines",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "lines",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "lines",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "line",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "line",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "transmitting filters",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "transmitting filters",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "17",
+   "name": "transmitting filters",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "common transmission medium",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "transmission medium",
+    "medium"
+   ]
+  },
+  {
+   "ref": "19",
+   "name": "adder",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "receiver",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "21",
+   "name": "waveform",
+   "figs": [
+    "2A"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "waveform",
+   "figs": [
+    "2B"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "waveform",
+   "figs": [
+    "2C"
+   ]
+  },
+  {
+   "ref": "31",
+   "name": "waveforms",
+   "figs": [
+    "3A"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "waveforms",
+   "figs": [
+    "3B"
+   ]
+  },
+  {
+   "ref": "33",
+   "name": "waveform",
+   "figs": [
+    "3C"
+   ]
+  },
+  {
+   "ref": "41",
+   "name": "lines",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "42",
+   "name": "lines",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "43",
+   "name": "lines",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "44",
+   "name": "identical shaping filters",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "bandpass filters",
+    "filters"
+   ]
+  },
+  {
+   "ref": "45",
+   "name": "modulators",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "46",
+   "name": "line",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "47",
+   "name": "adder",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "48",
+   "name": "low-pass filter",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "filter"
+   ]
+  },
+  {
+   "ref": "49",
+   "name": "line",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "50",
+   "name": "modulator",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "51",
+   "name": "waveform",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "overlapping spectra"
+   ]
+  },
+  {
+   "ref": "52",
+   "name": "lower sidebands",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "overlapping spectra"
+   ]
+  },
+  {
+   "ref": "53",
+   "name": "lower sidebands",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "overlapping spectra"
+   ]
+  },
+  {
+   "ref": "55",
+   "name": "identical amplitude characteristics",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "waveforms"
+   ]
+  },
+  {
+   "ref": "56",
+   "name": "identical curves",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "identical waveforms",
+    "characteristics"
+   ]
+  },
+  {
+   "ref": "57",
+   "name": "identical amplitude characteristics",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "waveforms"
+   ]
+  },
+  {
+   "ref": "58",
+   "name": "identical curves",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "identical waveforms",
+    "characteristics"
+   ]
+  },
+  {
+   "ref": "59",
+   "name": "identical amplitude characteristics",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "waveforms"
+   ]
+  },
+  {
+   "ref": "60",
+   "name": "identical curves",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "identical waveforms",
+    "characteristics"
+   ]
+  },
+  {
+   "ref": "61",
+   "name": "vertical line",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "62",
+   "name": "waveform",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "65",
+   "name": "line",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "66",
+   "name": "conductor",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "70",
+   "name": "pickoff device",
+   "figs": [
+    "6"
+   ],
+   "alt": [
+    "Pickoff"
+   ]
+  },
+  {
+   "ref": "73",
+   "name": "",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "74",
+   "name": "modulators",
+   "figs": [
+    "6"
+   ],
+   "alt": [
+    "upper modulator"
+   ]
+  },
+  {
+   "ref": "75",
+   "name": "waveform",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "76",
+   "name": "low-pass filters",
+   "figs": [
+    "6"
+   ],
+   "alt": [
+    "filter"
+   ]
+  },
+  {
+   "ref": "78",
+   "name": "matched filters",
+   "figs": [
+    "6"
+   ],
+   "alt": [
+    "matched filter"
+   ]
+  },
+  {
+   "ref": "79",
+   "name": "sampler",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "80",
+   "name": "leads",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "81",
+   "name": "leads",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "82",
+   "name": "leads",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "83",
+   "name": "waveform",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "84",
+   "name": "waveform",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "85",
+   "name": "waveform",
+   "figs": [
+    "6"
+   ]
+  }
+ ]
+}

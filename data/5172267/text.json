@@ -1,0 +1,621 @@
+{
+ "pn": "5172267",
+ "number": "5,172,267",
+ "title": "OPTICAL REFLECTOR STRUCTURE, DEVICE, METHOD OF FABRICATION, AND COMMUNICATIONS METHOD",
+ "inventors": [
+  "Eli Yablonovitch"
+ ],
+ "assignee": "Bell Communications Research, Inc., Livingston, N.J.",
+ "filed": "1990-12-21",
+ "issued": "1992-12-15",
+ "appl_no": "633,405",
+ "int_cl": "G02B 5/12",
+ "us_cl": "359/515; 359/896; 359/838; 359/900",
+ "field_of_search": "359/515, 896, 350, 838, 359/116, 900, 263, 584, 572",
+ "refs_patents": [],
+ "refs_other": [
+  "E. Yablonovitch et al., “Photonic Band Structure: The Face-Centered-Cubic Case,” Physical Review Letters, Oct. 1989, vol. 63, pp. 1950–1953.",
+  "E. Yablonovitch, “Inhibited Spontaneous Emission in Solid-State Physics and Electronics,” Physical Review Letters, May 1987, vol. 58, pp. 2059–2062."
+ ],
+ "examiners": "Primary Examiner--Loha Ben; Attorney, Agent, or Firm--Leonard Charles Suchyta; Charles S. Guenzer",
+ "claims_count": 23,
+ "drawing_figures": 6,
+ "drawing_sheets": 3,
+ "abstract": "An omnidirectional optical reflector structure (41, 52, 61) is made by forming a plurality of holes in a solid body (11) so as to result in a face-centered cubic lattice. Conventiently, the desired structure can be made by three successive steps of microfabrication, e.g., in the presence of a mask layer (12). Preferred reflector structures can be used, e.g., as external mirrors as filters, and as cavity materials of communications lasers with improved signal-to-noise ratio.",
+ "sections": [
+  {
+   "heading": "TECHNICAL FIELD",
+   "paras": [
+    {
+     "col": 1,
+     "line": 7,
+     "text": "The invention is concerned with devices including a structure for reflecting electromagnetic radiation."
+    }
+   ]
+  },
+  {
+   "heading": "BACKGROUND OF THE INVENTION",
+   "paras": [
+    {
+     "col": 1,
+     "line": 12,
+     "text": "Optical reflector structures, e.g., mirrors, gratings, and layered structures are of obvious importance in the field of optics in general, and such structures are being developed further for optical communications and information processing applications. In particular, for example, reflector structures are used in lasers, e.g., fiber-optics and integrated-optics communications lasers. Preferably, such lasers are designed for maximized stimulated emission and minimized spontaneous emission, and reflector structures are sought which contribute to these goals."
+    },
+    {
+     "col": 1,
+     "line": 23,
+     "text": "It has been recognized that spontaneous emission is diminished in omnidirectional reflector structures which form a three-dimensionally periodic, face-centered cubic lattice. As disclosed by E. Yablonovitch, “Inhibited Spontaneous Emission in Solid-State Physics and Electronics”, Physical Review Letters 58 (1987), pp. 2059–2062, such a structure can be made by successive layer deposition on a corrugated surface having a checkerboard pattern, the resulting structure being composed of cube-shaped elements or “atoms”. Alternatively, as disclosed by E. Yablonovitch et al., “Photonic Band Structure: The Face-Centered-Cubic Case”, Physical Review Letters 63 (1989), pp. 1950–1953, such a structure may be composed of a face-centered-cubic lattice of spheres."
+    },
+    {
+     "col": 1,
+     "line": 38,
+     "text": "While, conceptually, face-centered cubic lattices of cubes or spheres may appear as the simplest, they have been found difficult to implement, and their performance has not met expectations. The invention described below is motivated by the desire for a face-centered-cubic structure which is more readily manufacturable and which is highly effective as an omnidirectional reflector."
+    }
+   ]
+  },
+  {
+   "heading": "SUMMARY OF THE INVENTION",
+   "paras": [
+    {
+     "col": 1,
+     "line": 49,
+     "text": "For electromagnetic radiation, e.g., visible, ultraviolet, or infrared light, a reflector structure is made by forming a plurality of holes, passages, or channels in a solid body. Preferred passages intersect by threes and impart face-centered cubic structure to the solid body."
+    },
+    {
+     "col": 1,
+     "line": 54,
+     "text": "Preferred reflector structures can be used as device elements, e.g., as external mirrors or to provide feedback in an optical cavity. When such a structure is used to make an optical communications laser, a transmitter with improved signal-to-noise ratio can be realized."
+    }
+   ]
+  },
+  {
+   "heading": "BRIEF DESCRIPTION OF THE DRAWING",
+   "paras": [
+    {
+     "col": 1,
+     "line": 61,
+     "text": "FIG. 1 is a schematic perspective representation of a material body processed in accordance with a preferred method in accordance with the invention;"
+    },
+    {
+     "col": 1,
+     "line": 64,
+     "text": "FIG. 2 is a perspective representation of a real-space unit cell (Wigner-Seitz primitive cell) of a preferred structure in accordance with the invention;"
+    },
+    {
+     "col": 1,
+     "line": 67,
+     "text": "FIG. 3 is a perspective geometric representation of face-centered cubic lattice sites;"
+    },
+    {
+     "col": 2,
+     "line": 1,
+     "text": "FIG. 4 is a schematic cross section of a preferred device embodiment of the invention;"
+    },
+    {
+     "col": 2,
+     "line": 3,
+     "text": "FIG. 5 is a schematic cross section of a preferred further device embodiment of the invention; and"
+    },
+    {
+     "col": 2,
+     "line": 5,
+     "text": "FIG. 6 is a schematic perspective representation of a laser structure, representing a preferred further device embodiment of the invention."
+    }
+   ]
+  },
+  {
+   "heading": "DETAILED DESCRIPTION",
+   "paras": [
+    {
+     "col": 2,
+     "line": 10,
+     "text": "FIG. 1 shows body 11 and, on a nominally planar surface of body 11, a patterned mask layer 12 which leaves uncovered a regularly triangular array of surface sites 13. For example, as shown, such sites may be circular. The material of mask layer 12 may be chosen to protect underlying surface portions of body 11 during microfabrication, e.g., by reactive-ion etching. Shown associated with one site 13 are lines 14, 15, and 16, each forming the same preferred polar angle with a line 17 perpendicular to mask layer 12. Nominally, such polar angle is the trigonometric inverse-tangent of 2^{-1/2}; thus, such angle is approximately equal to 35.26 degrees. Furthermore, azimuthal angles between lines 14 and 15, 15 and 16, and 16 and 14 are 120 degrees nominally. Also identified in FIG. 1 are sites 31–36 as further described below with reference to FIG. 3."
+    },
+    {
+     "col": 2,
+     "line": 26,
+     "text": "Preferred processing in accordance with an aspect of the invention involves forming, at each site 13, three intersecting holes, channels, or passages essentially straight into or through body 11, such three holes being formed in the directions defined by lines 14, 15, and 16. On a sufficiently large scale, holes can be formed by mechanical drilling or machining; more typically, in microfabrication, lithographic or direct-writing methods may be used, e.g., reactive ion etching or ion milling. In such fabrication, nominal preferred directions may be realized to within a fraction of a degree."
+    },
+    {
+     "col": 2,
+     "line": 37,
+     "text": "In accordance with an aspect of the invention, a structure made as described can be identified as a face-centered-cubic lattice, consisting of a close-packed plurality of unit cells or “atoms” as depicted in FIG. 2. As shown, a unit cell takes the form of a regular rhombic dodecahedron having pair-wise adjoining facets 21, 22, and 23 with holes 24, 25, and 26 perpendicular to respective facets 21, 22, and 23. Holes 24, 25, and 26 intersect at the center of the unit cell, and they exit perpendicularly through three unseen bottom facets of the unit cell."
+    },
+    {
+     "col": 2,
+     "line": 48,
+     "text": "For the sake of relating a preferred structure to an alternative representation, FIG. 3 shows selected lattice sites 30–39 of a face-centered cubic structure. Sites 31–36 are readily seen to lie in a plane and to form a regular triangular array as shown also in FIG. 1; sites 30, 38, and 39 lie in a parallel plane below. Unit cells in accordance with FIG. 2 are centered on such sites."
+    },
+    {
+     "col": 2,
+     "line": 55,
+     "text": "When suitably dimensioned, a preferred structure has a “forbidden band” of wavelengths at which it can serve as an omnidirectional reflector; also, within the structure, electromagnetic radiation at such wavelengths is inhibited. For example, for a material having a refractive index of 3.6, a triangular pattern with hole sites spaced apart 0.3062\" (0.7777 centimeter), and a hole diameter of 13/64\" (0.5159 centimeter), the forbidden frequency band extends from 13 to 16 gigahertz approximately, corresponding to wavelengths from 1.9 to 2.3 centimeters approximately."
+    },
+    {
+     "col": 2,
+     "line": 66,
+     "text": "Among parameters available for influencing the optical properties of a preferred structure are the refractive index of the material of body 11, the shape, spacing, and size of the holes, and the refractive index of the medium occupying the holes. For example, for maximized fractional width of the forbidden band, optimal hole size depends on the refractive index of the material of body 11."
+    },
+    {
+     "col": 3,
+     "line": 6,
+     "text": "The material of body 11 may be homogeneous or inhomogeneous; e.g., as illustrated by the laser device of FIG. 6 below, body 11 may include an “island layer” whose composition differs from the surrounding material. Also, body 11 may be compositionally layered or graded. Preferred materials are chosen to be essentially transparent or nonabsorbing for a wavelength in the forbidden band; suitable materials include semiconductor materials, e.g., silicon, gallium arsenide, and indium phosphide, and dielectric materials, e.g., diamond and titanium dioxide. In the interest of a large refractive-index difference relative to the structural material, holes may be left unfilled; alternatively, the average refractive index of the structure can be influenced, e.g., by filling the holes with a suitable resin."
+    },
+    {
+     "col": 3,
+     "line": 21,
+     "text": "With circular shape of sites 13, etched holes will have elliptical cross section. For round holes, suitably shaped elliptical sites can be used, separate masks being required for processing in each of the three directions. Holes may also have straight-edged shapes, e.g., hexagonal or six-sided star shape. Typical hole size is such as to result in removal of at least 10 percent of the volume of an initial body. On the other hand, hole size is limited by considerations of structural integrity of the processed structure, so that, preferably, volume removed constitutes not more than approximately 90 percent of initial volume."
+    },
+    {
+     "col": 3,
+     "line": 34,
+     "text": "FIG. 4 shows a preferred structure 41 on support body 42, e.g., for use as an omnidirectional external mirror. Support body 42 may serve as mounting and positioning means."
+    },
+    {
+     "col": 3,
+     "line": 38,
+     "text": "FIG. 5 shows a preferred structure 52 partially supported by support body 51 which may have been shaped by etching before or after formation of structure 52 as described above with reference to FIG. 1. The resulting assembly can be used as an optical filter: incident radiation 53 is transmitted (54) except for radiation 55 having wavelengths in the forbidden band of structure 52."
+    },
+    {
+     "col": 3,
+     "line": 46,
+     "text": "FIG. 6 shows optical gain medium 62 embedded in a preferred reflector structure 61—inclusion of gain medium 62 resulting in an allowed mode of electromagnetic radiation within an otherwise forbidden band of reflector structure 61. When suitably pumped, this assembly can operate as a laser and emit radiation 63 into optical communications fiber 64. Radiation 63 may be directly (electrically) modulated as in an optical communications transmitter; in accordance with an aspect of the invention, a resulting transmitter has an improved signal-to-noise ratio."
+    }
+   ]
+  },
+  {
+   "heading": "CERTIFICATE OF CORRECTION",
+   "paras": [
+    {
+     "col": null,
+     "line": null,
+     "page": 7,
+     "text": "UNITED STATES PATENT AND TRADEMARK OFFICE"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 7,
+     "text": "PATENT NO. : 5,172,267\nDATED : December 15, 1992\nINVENTOR(S) : Eli Yablonovitch"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 7,
+     "text": "It is certified that error appears in the above-identified patent and that said Letters Patent is hereby corrected as shown below:"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 7,
+     "text": "In the Abstract, line 4, change \"Conventiently\" to read --Conveniently--. Column 6, line 2, change \"arrange din\" to read --arranged in--."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 7,
+     "text": "Signed and Sealed this\nTwenty-sixth Day of October, 1993"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 7,
+     "text": "Attest:\nAttesting Officer"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 7,
+     "text": "BRUCE LEHMAN\nCommissioner of Patents and Trademarks"
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 1,
+   "line": 61,
+   "text": "FIG. 1 is a schematic perspective representation of a material body processed in accordance with a preferred method in accordance with the invention;"
+  },
+  {
+   "fig": "2",
+   "col": 1,
+   "line": 64,
+   "text": "FIG. 2 is a perspective representation of a real-space unit cell (Wigner-Seitz primitive cell) of a preferred structure in accordance with the invention;"
+  },
+  {
+   "fig": "3",
+   "col": 1,
+   "line": 67,
+   "text": "FIG. 3 is a perspective geometric representation of face-centered cubic lattice sites;"
+  },
+  {
+   "fig": "4",
+   "col": 2,
+   "line": 1,
+   "text": "FIG. 4 is a schematic cross section of a preferred device embodiment of the invention;"
+  },
+  {
+   "fig": "5",
+   "col": 2,
+   "line": 3,
+   "text": "FIG. 5 is a schematic cross section of a preferred further device embodiment of the invention; and"
+  },
+  {
+   "fig": "6",
+   "col": 2,
+   "line": 5,
+   "text": "FIG. 6 is a schematic perspective representation of a laser structure, representing a preferred further device embodiment of the invention."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 3,
+   "line": 58,
+   "depends": null,
+   "text": "1. A structure for reflecting electromagnetic radiation, comprising a solid body including a plurality of intersecting, essentially straight passages, wherein said passages intersect in a plurality of intersection regions, said intersection regions being respectively arranged on the three-edged corners of a cube and in centers of the faces of said cube, whereby said solid body has face-centered-cubic structure."
+  },
+  {
+   "n": 2,
+   "col": 3,
+   "line": 66,
+   "depends": 1,
+   "text": "2. The structure of claim 1, said plurality of passages consisting of first, second, and third sets of mutually parallel passages.\nsuch that, for a predetermined essentially planar, regularly triangular array of sites, each site is traversed by first, second, and third passages included in respective first, second, and third sets,\nsuch that first, second, and third passages form polar angles which are essentially equal to tan^{-1}2^{-1/2} with a direction perpendicular to the plane of said array, and\nsuch that, for passages passing through a site of said array, the azimuthal angles between first and second, second and third, and third and first passages are essentially equal to 120 degrees."
+  },
+  {
+   "n": 3,
+   "col": 4,
+   "line": 13,
+   "depends": 2,
+   "text": "3. The structure of claim 2 in which said polar angles are essentially equal to 35.26 degrees."
+  },
+  {
+   "n": 4,
+   "col": 4,
+   "line": 15,
+   "depends": 1,
+   "text": "4. The structure of claim 1, said passages having essentially elliptical cross section."
+  },
+  {
+   "n": 5,
+   "col": 4,
+   "line": 17,
+   "depends": 1,
+   "text": "5. The structure of claim 1, said passages having essentially hexagonal cross section."
+  },
+  {
+   "n": 6,
+   "col": 4,
+   "line": 19,
+   "depends": 1,
+   "text": "6. The structure of claim 1, said passages having essentially star-shaped cross section."
+  },
+  {
+   "n": 7,
+   "col": 4,
+   "line": 21,
+   "depends": 1,
+   "text": "7. The structure of claim 1, the combined volume of said passages in said solid body being greater than or equal to 10 percent by volume."
+  },
+  {
+   "n": 8,
+   "col": 4,
+   "line": 24,
+   "depends": 1,
+   "text": "8. The structure of claim 1, the combined volume of said passages in said solid body being less than or equal to 90 percent by volume."
+  },
+  {
+   "n": 9,
+   "col": 4,
+   "line": 27,
+   "depends": 1,
+   "text": "9. The structure of claim 1, said passages being essentially empty."
+  },
+  {
+   "n": 10,
+   "col": 4,
+   "line": 29,
+   "depends": 1,
+   "text": "10. The structure of claim 1, said passages comprising a resin."
+  },
+  {
+   "n": 11,
+   "col": 4,
+   "line": 31,
+   "depends": null,
+   "text": "11. A device comprising a reflector structure for reflecting electromagnetic radiation, and positioning means for positioning said structure,\nsaid reflector structure comprising a solid body including a plurality of intersecting, essentially straight passages, wherein said passages intersect in a plurality of intersection regions, said intersection regions being respectively arranged on the three-edged corners of a cube and in centers of the faces of said cube, whereby said solid body has face-centered-cubic structure."
+  },
+  {
+   "n": 12,
+   "col": 4,
+   "line": 42,
+   "depends": 11,
+   "text": "12. The device of claim 11 in which said positioning means supports said reflector structure at least in part."
+  },
+  {
+   "n": 13,
+   "col": 4,
+   "line": 44,
+   "depends": 12,
+   "text": "13. The device of claim 12 in which said positioning means fully supports said reflector structure."
+  },
+  {
+   "n": 14,
+   "col": 4,
+   "line": 46,
+   "depends": 11,
+   "text": "14. The device of claim 11, further comprising means for making electromagnetic radiation incident on said reflector structure."
+  },
+  {
+   "n": 15,
+   "col": 4,
+   "line": 49,
+   "depends": 11,
+   "text": "15. The device of claim 11, further comprising means for generating electromagnetic radiation within said reflector structure."
+  },
+  {
+   "n": 16,
+   "col": 4,
+   "line": 52,
+   "depends": null,
+   "text": "16. A method for making a face-centered-cubic structure, comprising forming a plurality of intersecting, essentially straight passages in a solid body,\nsaid plurality of passages consisting of first, second, and third sets of mutually parallel passages\nsuch that, for a predetermined essentially planar, regularly triangular array of sites, each site is traversed by first, second, and third passages included in respective first, second, and third sets,\nsuch that first, second, and third passages form polar angles which are essentially equal to tan^{-1}2^{-1/2} with a direction perpendicular to the plane of said array, and\nsuch that, for passages passing through a site of said array, the azimuthal angles between first and second, second and third, and third and first passages are essentially equal to 120 degrees."
+  },
+  {
+   "n": 17,
+   "col": 5,
+   "line": 1,
+   "depends": 16,
+   "text": "17. The method of claim 16, forming said passages comprising machining."
+  },
+  {
+   "n": 18,
+   "col": 5,
+   "line": 3,
+   "depends": 16,
+   "text": "18. The method of claim 16, forming said passages comprising microfabrication."
+  },
+  {
+   "n": 19,
+   "col": 5,
+   "line": 5,
+   "depends": 18,
+   "text": "19. The method of claim 18, microfabrication comprising processing in the presence of a mask."
+  },
+  {
+   "n": 20,
+   "col": 5,
+   "line": 7,
+   "depends": 18,
+   "text": "20. The method of claim 18, microfabrication comprising direct writing."
+  },
+  {
+   "n": 21,
+   "col": 5,
+   "line": 9,
+   "depends": null,
+   "text": "21. An optical communications method comprising modulating a laser with a signal to be transmitted, said laser comprising an optical gain medium and an optical reflector structure which is disposed adjacent to said optical gain medium and which comprises a solid body including a plurality of intersecting, essentially straight passages, wherein said passages intersect in a plurality of intersection regions, said intersection regions being respectively arranged on the three-edged corners of a cube and in centers of the faces of said cube, whereby said solid body has face-centered-cubic structure."
+  },
+  {
+   "n": 22,
+   "col": 5,
+   "line": 20,
+   "depends": 21,
+   "text": "22. The method of claim 21 in which said laser is modulated by modulation of pump energy."
+  },
+  {
+   "n": 23,
+   "col": 5,
+   "line": 22,
+   "depends": null,
+   "text": "23. An electromagnetic reflector, comprising:\na body;\na first set of passages passing throughout a region of said body, arrange din a planar triangular array when penetrating a plane, and extending in parallel to each other and at a first angle of substantially 35.26° from an axis;\na second set of passages passing throughout said region of said body, arranged in said planar triangular array when penetrating said plane, and extending in parallel to each other, at said first angle from said axis, and at a second angle from said first set of passages; and\na third set of passages passing throughout said region of said body, arranged in said planar triangular array when penetrating said plane, and extending in parallel to each other, at said first angle from said axis, and at said second angle from said first and said second sets of passages;\nwherein said first, second, and third sets of passages comprise a refractive index different from that of said body."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "page": 0,
+   "cite": "front page",
+   "col": null,
+   "line": null,
+   "ocr": "United States Patent 15)",
+   "fixed": "United States Patent [19]",
+   "basis": "scan"
+  },
+  {
+   "page": 0,
+   "cite": "front page",
+   "col": null,
+   "line": null,
+   "ocr": "{21] Appl. No.: 633,405",
+   "fixed": "[21] Appl. No.: 633,405",
+   "basis": "scan"
+  },
+  {
+   "page": 0,
+   "cite": "front page",
+   "col": null,
+   "line": null,
+   "ocr": "(22] Filed: Dec. 21, 1990",
+   "fixed": "[22] Filed: Dec. 21, 1990",
+   "basis": "scan"
+  },
+  {
+   "page": 0,
+   "cite": "front page",
+   "col": null,
+   "line": null,
+   "ocr": "[51] Tmt. CUS oe eecesesessecesessseesessssseeee G02B 5/12",
+   "fixed": "[51] Int. Cl.^{5} ... G02B 5/12",
+   "basis": "scan"
+  },
+  {
+   "page": 0,
+   "cite": "front page",
+   "col": null,
+   "line": null,
+   "ocr": "[52] ULS. C1. oc eeeccesesesteecesseeeeeeses 359/515; 359/896,",
+   "fixed": "[52] U.S. Cl. ... 359/515; 359/896;",
+   "basis": "scan"
+  },
+  {
+   "page": 0,
+   "cite": "front page",
+   "col": null,
+   "line": null,
+   "ocr": "359/838, 359/900",
+   "fixed": "359/838; 359/900",
+   "basis": "scan"
+  },
+  {
+   "page": 0,
+   "cite": "front page",
+   "col": null,
+   "line": null,
+   "ocr": ": 359/116, 900, 263, 584, 572",
+   "fixed": "359/116, 900, 263, 584, 572",
+   "basis": "scan"
+  },
+  {
+   "page": 0,
+   "cite": "front page",
+   "col": null,
+   "line": null,
+   "ocr": "Livingston, NJ.",
+   "fixed": "Livingston, N.J.",
+   "basis": "scan"
+  },
+  {
+   "page": 0,
+   "cite": "front page",
+   "col": null,
+   "line": null,
+   "ocr": "Attorney, Agent, or Firm—-Leonard Charles Suchyta;",
+   "fixed": "Attorney, Agent, or Firm—Leonard Charles Suchyta;",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 7,
+   "ocr": "' embodiment",
+   "fixed": "embodiment",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 20,
+   "ocr": "2-3;",
+   "fixed": "2^{-1/2};",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 40,
+   "ocr": "‘tatoms”",
+   "fixed": "“atoms”",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 53,
+   "ocr": "parallel. plane",
+   "fixed": "parallel plane",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 61,
+   "ocr": "0.3062”",
+   "fixed": "0.3062\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 65,
+   "ocr": "structure. :",
+   "fixed": "structure.",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 6,
+   "ocr": "tan—!2—}",
+   "fixed": "tan^{-1}2^{-1/2}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 62,
+   "ocr": "tan—!2~4",
+   "fixed": "tan^{-1}2^{-1/2}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 67,
+   "ocr": "- ond",
+   "fixed": "ond",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 6,
+   "ocr": "prising. processing",
+   "fixed": "prising processing",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 29,
+   "ocr": "2059-2062",
+   "fixed": "2059–2062",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 1,
+   "line": 35,
+   "ocr": "1950-1953",
+   "fixed": "1950–1953",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 2,
+   "line": 24,
+   "ocr": "31-36",
+   "fixed": "31–36",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 2,
+   "line": 50,
+   "ocr": "30-39",
+   "fixed": "30–39",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 2,
+   "line": 51,
+   "ocr": "31-36",
+   "fixed": "31–36",
+   "basis": "scan (en dash)"
+  },
+  {
+   "page": 7,
+   "cite": "certificate of correction",
+   "col": null,
+   "line": null,
+   "ocr": "\"“Conventiently\" to read --Conveniently--.",
+   "fixed": "In the Abstract, line 4, change \"Conventiently\" to read --Conveniently--.",
+   "basis": "scan (OCR split and reordered the lines)"
+  },
+  {
+   "page": 7,
+   "cite": "certificate of correction",
+   "col": null,
+   "line": null,
+   "ocr": "Column 6, line 2, change “arrange din",
+   "fixed": "Column 6, line 2, change \"arrange din\" to read --arranged in--.",
+   "basis": "scan (OCR split and reordered the lines)"
+  }
+ ]
+}

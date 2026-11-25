@@ -1,0 +1,1047 @@
+{
+ "pn": "3356858",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    354,
+    650,
+    1823,
+    1922
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "1A",
+   "label": "FIG. 1A",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    526,
+    2100,
+    1699,
+    2794
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    326,
+    625,
+    1823,
+    1882
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2A",
+   "label": "FIG. 2A",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    627,
+    2149,
+    1851,
+    2824
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    419,
+    661,
+    1004,
+    1365
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    1409,
+    664,
+    1995,
+    1390
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    675,
+    1418,
+    1574,
+    2255
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5A",
+   "label": "FIG. 5A",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    388,
+    2271,
+    1945,
+    2627
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5B",
+   "label": "FIG. 5B",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    440,
+    2610,
+    1945,
+    2985
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 4,
+   "page": 3,
+   "crop": [
+    467,
+    618,
+    1821,
+    1782
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "FIG. 7",
+   "sheet": 4,
+   "page": 3,
+   "crop": [
+    477,
+    1766,
+    1865,
+    3058
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8",
+   "label": "FIG. 8",
+   "sheet": 5,
+   "page": 4,
+   "crop": [
+    365,
+    627,
+    1925,
+    1280
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9",
+   "label": "FIG. 9",
+   "sheet": 5,
+   "page": 4,
+   "crop": [
+    409,
+    1232,
+    1851,
+    2033
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10",
+   "label": "FIG. 10",
+   "sheet": 5,
+   "page": 4,
+   "crop": [
+    387,
+    2036,
+    1835,
+    2860
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "10",
+   "name": "N-type external insulated gate field-effect semiconductor device",
+   "figs": [
+    "1",
+    "1A",
+    "3",
+    "5"
+   ],
+   "alt": [
+    "N-type field-effect semiconductor device"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "substrate or body",
+   "figs": [
+    "1",
+    "1A"
+   ],
+   "alt": [
+    "silicon body",
+    "P-type silicon wafer"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "N-type diffused region",
+   "figs": [
+    "1",
+    "1A"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "N-type diffused region",
+   "figs": [
+    "1",
+    "1A"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "upper surface",
+   "figs": [
+    "1",
+    "1A"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "drain contact",
+   "figs": [
+    "1",
+    "1A",
+    "3",
+    "5"
+   ],
+   "alt": [
+    "drain"
+   ]
+  },
+  {
+   "ref": "20'",
+   "name": "lead",
+   "figs": [
+    "1",
+    "1A",
+    "3"
+   ]
+  },
+  {
+   "ref": "21",
+   "name": "source contact",
+   "figs": [
+    "1",
+    "1A",
+    "3",
+    "5"
+   ],
+   "alt": [
+    "source electrode",
+    "source"
+   ]
+  },
+  {
+   "ref": "21'",
+   "name": "lead",
+   "figs": [
+    "1",
+    "1A",
+    "3"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "insulated layer",
+   "figs": [
+    "1",
+    "1A"
+   ]
+  },
+  {
+   "ref": "25",
+   "name": "metallic gate",
+   "figs": [
+    "1",
+    "1A",
+    "3",
+    "5"
+   ],
+   "alt": [
+    "gate"
+   ]
+  },
+  {
+   "ref": "25'",
+   "name": "lead",
+   "figs": [
+    "1",
+    "1A",
+    "3"
+   ]
+  },
+  {
+   "ref": "30",
+   "name": "P-type externally insulated gate field-effect semiconductor device",
+   "figs": [
+    "2",
+    "2A",
+    "4",
+    "5"
+   ],
+   "alt": [
+    "P-type insulated field-effect semiconductor device"
+   ]
+  },
+  {
+   "ref": "31",
+   "name": "body or wafer",
+   "figs": [
+    "2",
+    "2A"
+   ],
+   "alt": [
+    "silicon body or substrate",
+    "N-type silicon wafer"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "P-type diffused region",
+   "figs": [
+    "2",
+    "2A"
+   ]
+  },
+  {
+   "ref": "33",
+   "name": "P-type diffused region",
+   "figs": [
+    "2",
+    "2A"
+   ]
+  },
+  {
+   "ref": "35",
+   "name": "upper surface",
+   "figs": [
+    "2",
+    "2A"
+   ]
+  },
+  {
+   "ref": "36",
+   "name": "drain contact",
+   "figs": [
+    "2",
+    "2A",
+    "4",
+    "5"
+   ],
+   "alt": [
+    "drain"
+   ]
+  },
+  {
+   "ref": "36'",
+   "name": "lead",
+   "figs": [
+    "2",
+    "2A",
+    "4"
+   ]
+  },
+  {
+   "ref": "37",
+   "name": "source contact",
+   "figs": [
+    "2",
+    "2A",
+    "4",
+    "5"
+   ],
+   "alt": [
+    "source"
+   ]
+  },
+  {
+   "ref": "37'",
+   "name": "",
+   "figs": [
+    "2",
+    "2A",
+    "4"
+   ]
+  },
+  {
+   "ref": "40",
+   "name": "insulated layer",
+   "figs": [
+    "2",
+    "2A"
+   ]
+  },
+  {
+   "ref": "41",
+   "name": "metal gate",
+   "figs": [
+    "2",
+    "2A",
+    "4",
+    "5"
+   ],
+   "alt": [
+    "gate"
+   ]
+  },
+  {
+   "ref": "41'",
+   "name": "lead",
+   "figs": [
+    "2",
+    "2A",
+    "4"
+   ]
+  },
+  {
+   "ref": "50",
+   "name": "inverter circuit",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "51",
+   "name": "conductor",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "52",
+   "name": "conductor",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "53",
+   "name": "conductor",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "54",
+   "name": "conductor",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "55",
+   "name": "conductor",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "56",
+   "name": "conductor",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "60",
+   "name": "NAND logic or gate circuit",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "30a",
+   "name": "P-type insulated field-effect semiconductor device",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "37a",
+   "name": "source electrode",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "36a",
+   "name": "drain electrode",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "10a",
+   "name": "N-type insulated field-effect semiconductor device",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "30b",
+   "name": "P-type insulated field-effect semiconductor device",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "37b",
+   "name": "source electrode",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "36b",
+   "name": "drain electrode",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "10b",
+   "name": "N-type insulated field-effect semiconductor device",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "30c",
+   "name": "P-type insulated field-effect semiconductor device",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "37c",
+   "name": "source electrode",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "36c",
+   "name": "drain electrode",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "10c",
+   "name": "N-type insulated field-effect semiconductor device",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "41a",
+   "name": "gate",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "25a",
+   "name": "gate",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "41b",
+   "name": "gate",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "25b",
+   "name": "gate",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "41c",
+   "name": "",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "25c",
+   "name": "",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "20a",
+   "name": "",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "20b",
+   "name": "",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "20c",
+   "name": "",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "21a",
+   "name": "",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "21b",
+   "name": "",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "21c",
+   "name": "source contact",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "70",
+   "name": "NOR logic or gate circuit",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "10d",
+   "name": "N-type insulated field-effect semiconductor device",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "21d",
+   "name": "source electrode",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "30d",
+   "name": "P-type insulated field-effect semiconductor device",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "20d",
+   "name": "drain electrode",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "25d",
+   "name": "gate",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "41d",
+   "name": "gate",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "10e",
+   "name": "N-type insulated field-effect semiconductor device",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "21e",
+   "name": "source electrode",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "30e",
+   "name": "P-type insulated field-effect semiconductor device",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "20e",
+   "name": "drain electrode",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "25e",
+   "name": "gate",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "41e",
+   "name": "gate",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "10f",
+   "name": "N-type insulated field-effect semiconductor device",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "21f",
+   "name": "source electrode",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "30f",
+   "name": "P-type insulated field-effect semiconductor device",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "20f",
+   "name": "drain electrode",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "25f",
+   "name": "gate",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "41f",
+   "name": "gate",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "37f",
+   "name": "source electrode",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "37d",
+   "name": "",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "37e",
+   "name": "",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "36d",
+   "name": "",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "36e",
+   "name": "",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "36f",
+   "name": "",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "80",
+   "name": "semiconductor unitary structure",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "81",
+   "name": "N-type external insulated gate field-effect semiconductor device",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "81a",
+   "name": "inverter circuit",
+   "figs": [
+    "8"
+   ],
+   "alt": [
+    "inverter or switching circuit"
+   ]
+  },
+  {
+   "ref": "82",
+   "name": "P-type insulated gate field-effect semiconductor device",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "83",
+   "name": "single chip or slice",
+   "figs": [
+    "8"
+   ],
+   "alt": [
+    "chip or body",
+    "N-type silicon body"
+   ]
+  },
+  {
+   "ref": "84",
+   "name": "P-type diffused region",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "85",
+   "name": "P-type diffused region",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "86",
+   "name": "upper surface",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "87",
+   "name": "drain contact",
+   "figs": [
+    "8"
+   ],
+   "alt": [
+    "source electrode",
+    "drain"
+   ]
+  },
+  {
+   "ref": "87a",
+   "name": "lead",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "88",
+   "name": "source contact",
+   "figs": [
+    "8"
+   ],
+   "alt": [
+    "gate",
+    "source electrode"
+   ]
+  },
+  {
+   "ref": "90",
+   "name": "P-type region",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "91",
+   "name": "N-type diffused region",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "92",
+   "name": "N-type diffused region",
+   "figs": [
+    "8"
+   ],
+   "alt": [
+    "N-type region"
+   ]
+  },
+  {
+   "ref": "93",
+   "name": "drain contact",
+   "figs": [
+    "8"
+   ],
+   "alt": [
+    "source contact",
+    "source electrode",
+    "drain electrode",
+    "drain"
+   ]
+  },
+  {
+   "ref": "93a",
+   "name": "lead",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "94",
+   "name": "source contact",
+   "figs": [
+    "8"
+   ],
+   "alt": [
+    "source",
+    "source electrode"
+   ]
+  },
+  {
+   "ref": "95",
+   "name": "insulated layer",
+   "figs": [
+    "8"
+   ],
+   "alt": [
+    "metallic gate"
+   ]
+  },
+  {
+   "ref": "96",
+   "name": "gate",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "97",
+   "name": "metallic gate",
+   "figs": [
+    "8"
+   ],
+   "alt": [
+    "gate"
+   ]
+  },
+  {
+   "ref": "100",
+   "name": "conductor",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "101",
+   "name": "common conducting strip",
+   "figs": [
+    "8"
+   ],
+   "alt": [
+    "conducting strip"
+   ]
+  },
+  {
+   "ref": "102",
+   "name": "lead",
+   "figs": [
+    "8"
+   ]
+  }
+ ]
+}

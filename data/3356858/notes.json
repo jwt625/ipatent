@@ -1,0 +1,95 @@
+{
+ "patent": "Filed June 18, 1963 by Frank M. Wanlass and issued December 5, 1967, assigned to Fairchild Camera and Instrument Corporation, the parent of Fairchild Semiconductor, where Wanlass worked. It is the basic patent on complementary MOS (CMOS) logic: an n-channel and a p-channel insulated-gate field-effect transistor have their gates joined as the input and their drains joined as the output, and each transistor is the load of the other. In either logic state one of the two is off, so the circuit draws only leakage current except while switching; the patent quotes stand-by power below 10 nanowatts per node and switching in under 20 nanoseconds. Wanlass and C. T. Sah reported the scheme as \"Nanowatt logic using field-effect metal-oxide semiconductor triodes\" at the IEEE International Solid-State Circuits Conference in February 1963. The drawings cover the two transistor types (FIGS. 1-4), the inverter and its waveforms (FIGS. 5-5B), NAND and NOR gates (FIGS. 6-7), both transistors on one chip with the n-channel device in a P-type well (FIG. 8), and drain-current curves for each type (FIGS. 9-10). The patent names each device by the type of its diffused source and drain regions, so its \"N-type device\" is today's n-channel MOSFET and its \"P-type device\" the p-channel MOSFET. CMOS later became the standard technology for digital integrated circuits.",
+ "figs": {
+  "1": "Perspective of the n-channel transistor, with the front face cut away to show the two N regions 12 and 13 in the P body. The left pad is drain contact 20, the front pad is source contact 21, and the strip between them is gate 25, which lies on oxide 22 over the gap between 12 and 13 and runs back to a pad that carries lead 25'. Dashed lines are hidden edges of the N regions under the contacts. Source lead 21' branches to the source pad and to the contact plate under the body, tying source and substrate together. Arrows 1A mark the section plane of FIG. 1A.",
+  "1A": "Section along 1A-1A. Wide diagonal hatching is the P body 11; the blocks marked N are regions 12 and 13; the black band with white slashes is oxide 22; the hatched layer on top is metal. The drain and source contacts step down through windows in the oxide onto 12 and 13, and the gate 25 sits on the oxide between them, overlapping the inner edges of both regions. Lead 21' appears twice: at the source contact and at the contact plate on the back.",
+  "2": "The p-channel transistor, drawn with the same geometry as FIG. 1: P regions 32 and 33 in an N body 31, drain contact 36 on the left, source contact 37 at the front, gate 41 between them on oxide 40. Source lead 37' again branches to the plate under the body.",
+  "2A": "Section along 2A-2A, the counterpart of FIG. 1A with the doping types exchanged: P regions 32 and 33 in N body 31, oxide 40, contacts 36 and 37 and gate 41. The lead under the body is unlabeled here.",
+  "3": "Bias convention for the n-channel device 10: drain at +Vds through lead 20', source and lead 21' grounded, gate voltage Vgs applied at lead 25'. The vertical bar is the gate, set off from the channel line; the arrowhead on the drain branch points away from the channel. Ids flows down into the drain.",
+  "4": "Bias convention for the p-channel device 30, the mirror of FIG. 3: drain at -V'ds, source grounded, gate voltage V'gs. The arrowhead on the drain branch points into the channel, and I'ds is drawn flowing up, out of the drain.",
+  "5": "The CMOS inverter. P-type device 30 (top) has its source 37 at +V; N-type device 10 (bottom) has its source 21 at -V. Conductors 53 and 54 join the two gates to input 55 (Vi); conductors 51 and 52 join the two drains to output 56 (Vo). The ground symbols under Vi and Vo mark the reference for the input and output voltages. No resistor appears anywhere in the circuit.",
+  "5A": "Vi (dashed) ramped slowly from -V to +V; Vo (solid) stays at +V until Vi is partway through its swing, then falls to -V. The time axis is unscaled.",
+  "5B": "Vi (dashed) as a fast step from -V to +V. Vo shows a small bump above +V at the input edge, then decays smoothly to -V, lagging well behind the input step.",
+  "6": "NAND gate 60 for inputs A, B, C (dots mean more stages of the same kind). P-type devices 30a-30c are in parallel between the +V rail and the output line Y; N-type devices 10a-10c are in series from Y down to -V. Each input drives the gate of one P and one N device: A goes straight to 25a and up to 41a, while B and C reach 41b and 41c over long jogged wires. Y goes low only when all inputs are high; the formula at right reads Y = NOT(ABC...).",
+  "7": "NOR gate 70 for inputs D, E, F, the dual of FIG. 6. N-type devices 10d-10f are in parallel between the output line Y' and the lower rail; P-type devices 30d-30f are drawn in series from +V' down to Y' (the text calls them parallel connected, but the drawing shows them in series, as a NOR needs). Each input drives one P gate directly and one N gate in the bottom row over a wire running down. The formula reads Y' = NOT(D+E+F+...).",
+  "8": "Section of both transistors on one N-type chip 83, wired as inverter 81a. Left: the p-channel device 82, P regions 84 and 85 diffused straight into the N body, gate 96 on oxide 95. Right: the n-channel device 81, built inside the P-type region 90 (a P well) with N regions 91 and 92 and gate 97. Conductor 100 ties the gates to Vi; strip 101 ties the two inner contacts 88 and 94 to output lead 102 (Vo); the outer contacts 87 (+V) and 93 (-V) are the sources, as the drawing labels show. Contact 93 overlaps both N region 92 and P region 90, tying the well to -V. The text's numbering of these contacts is inconsistent (see the part notes).",
+  "9": "Drain current I_{DS} in milliamperes against gate voltage V_{GS} for the n-channel device at V_{DS} = 10 V. The current is zero up to the critical gate voltage Vgsc near +0.5 V and then rises along a curve to about 6.6 mA at +10 V.",
+  "10": "The same plot for the p-channel device at V_{DS} = -10 V. The current is zero for positive gate voltage and down to Vgsc, between -2 and -3 V, then grows in magnitude to -10 mA near -9.6 V."
+ },
+ "parts": {
+  "10": "The patent's \"N-type\" device: N source and drain regions in a P body, conducting through an N channel induced under the gate (an n-channel MOSFET).",
+  "30": "The \"P-type\" device: P source and drain regions in an N body (a p-channel MOSFET).",
+  "22": "Thermally grown silicon dioxide; under the gate it is the gate insulator. The text notes that its thickness regulates the critical gate voltage.",
+  "37'": "Source lead of device 30, not named in the text. The passage that should introduce it repeats \"The source electrode 21 has a lead 21'\" from the description of device 10.",
+  "36": "Called \"sources 36 and 20\" once in the description of FIG. 5; elsewhere, and in the drawings, 36 and 20 are the drains.",
+  "20a": "Drain of device 10a, not named in the text.",
+  "20b": "Drain of device 10b, not named in the text.",
+  "20c": "Drain of device 10c, not named in the text.",
+  "21a": "Source of device 10a, not named in the text.",
+  "21b": "Source of device 10b, not named in the text.",
+  "25c": "Gate of device 10c, driven by input C; the text refers to it only as \"the gates of the complementary semiconductor devices 10c and 30c\".",
+  "41c": "Gate of device 30c, driven by input C; not numbered in the text.",
+  "36d": "Drain of device 30d, which connects to output Y'; not named in the text.",
+  "36e": "Drain of device 30e, connected to source 37d; not named in the text.",
+  "36f": "Drain of device 30f, connected to source 37e; not named in the text.",
+  "37d": "Source of device 30d, not named in the text.",
+  "37e": "Source of device 30e, not named in the text.",
+  "90": "A P-type well diffused into the N chip to hold the n-channel device; the same arrangement is used in p-well CMOS processes.",
+  "87": "Introduced as one of the \"drain contacts 87 and 93\", then called \"source electrode 87\"; the drawing labels it SOURCE, at +V.",
+  "88": "Introduced as one of the \"source contacts 88 and 94\" and later called \"the gate 88\"; the drawing labels it DRAIN, joined to the output strip 101.",
+  "93": "Called drain contact, source contact, source electrode and drain electrode in turn; the drawing labels it SOURCE, at -V. It also connects N region 92 to P region 90.",
+  "94": "Introduced as a source contact; the drawing labels it DRAIN, joined to the output strip 101.",
+  "95": "The printed text also calls the gate of device 82 \"metallic gate 95\"; the drawing numbers that gate 96.",
+  "81": "The arrow points to the edge of P region 90, which contains the whole device."
+ },
+ "glossary": [
+  {
+   "term": "insulated gate field-effect semiconductor device",
+   "def": "The patent's name for what is now called a MOSFET (metal-oxide-semiconductor field-effect transistor): a metal gate on a thin oxide controls current between two diffused regions."
+  },
+  {
+   "term": "complementary",
+   "def": "Using an n-channel and a p-channel transistor together, driven by the same input, so that one turns on as the other turns off. The pairing is CMOS (complementary MOS)."
+  },
+  {
+   "term": "critical potential (Vgsc)",
+   "def": "The gate voltage at which a channel forms and the device starts to conduct; today called the threshold voltage."
+  },
+  {
+   "term": "inversion layer",
+   "def": "A thin surface layer whose carrier type is opposite to the bulk, induced by the gate field; it forms the conducting channel between source and drain."
+  },
+  {
+   "term": "active load",
+   "def": "A transistor used in place of a load resistor. Here the off transistor of the pair is the load of the on one."
+  },
+  {
+   "term": "passive load",
+   "def": "A resistor or similar fixed element that pulls the output to a supply rail; it draws current whenever the driving transistor is on."
+  },
+  {
+   "term": "stand-by power",
+   "def": "Power drawn while the circuit holds a logic state and is not switching."
+  },
+  {
+   "term": "majority carrier device",
+   "def": "A device whose current is carried by the majority carriers of the channel (electrons in an n channel, holes in a p channel), unlike a bipolar transistor, which relies on minority-carrier injection."
+  },
+  {
+   "term": "NAND, NOR",
+   "def": "Logic gates whose output is the inverse of AND and of OR. Either one alone suffices to build any logic function."
+  },
+  {
+   "term": "fan out",
+   "def": "The number of gate inputs one output can drive."
+  },
+  {
+   "term": "ma",
+   "def": "Milliamperes (mA)."
+  },
+  {
+   "term": "nanowatt, nanosecond",
+   "def": "10^{-9} watt and 10^{-9} second."
+  }
+ ]
+}

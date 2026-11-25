@@ -1,0 +1,1458 @@
+{
+ "pn": "4949350",
+ "number": "4,949,350",
+ "title": "SURFACE EMITTING SEMICONDUCTOR LASER",
+ "inventors": [
+  "Jack L. Jewell",
+  "Axel Scherer"
+ ],
+ "assignee": "Bell Communications Research, Inc., Livingston, N.J.",
+ "filed": "1989-07-17",
+ "issued": "1990-08-14",
+ "appl_no": "380,996",
+ "int_cl": "H01S 3/19",
+ "us_cl": "372/45; 372/46; 372/96; 357/4; 357/17",
+ "field_of_search": "372/45, 43, 96, 46; 357/4, 17",
+ "refs_patents": [],
+ "refs_foreign": [
+  {
+   "no": "0010685",
+   "date": "1/1985",
+   "country": "Japan",
+   "cl": "372/96"
+  },
+  {
+   "no": "0083389",
+   "date": "5/1985",
+   "country": "Japan",
+   "cl": "372/45"
+  },
+  {
+   "no": "0079280",
+   "date": "4/1986",
+   "country": "Japan",
+   "cl": "372/45"
+  },
+  {
+   "no": "0174687",
+   "date": "8/1986",
+   "country": "Japan",
+   "cl": "372/45"
+  },
+  {
+   "no": "0053989",
+   "date": "3/1988",
+   "country": "Japan",
+   "cl": "372/45"
+  },
+  {
+   "no": "0116483",
+   "date": "5/1988",
+   "country": "Japan",
+   "cl": "372/45"
+  }
+ ],
+ "refs_other": [
+  "Iga et al, “Surface Emitting Semiconductor Laser Array: Its Advantage and Future”, Journal of Vacuum Science Technology A, 1989, vol. 7, pp. 842–846.",
+  "Ogura et al, “Distributed Feed Back Structure Emitting Laser Diode with Multilayered Heterostructure,” Japanese Journal of Applied Physics, 1984, vol. 23, pp. L512–L514.",
+  "T. Sakaguchi et al, “Vertical Cavity Surface–Emitting Laser with an AlGaAs/AlAs Bragg Reflector,” Electronics Letters, 1988, vol. 24, pp. 928–929.",
+  "J. L. Jewell et al, “GaAs–AlAs Monolithic Microresonator Arrays,” Applied Physics Letters, 1987, vol. 51, pp. 94–96.",
+  "J. L. Jewell et al, “Lasing Characteristics of GaAs Microresonators,” Applied Physics Letters, 1989, vol. 54, pp. 1400–1402.",
+  "P. L. Gourley et al, “High-Efficiency TEM_{00} Continuous-Wave (Al,Ga)As Epitaxial Surface-Emitting Lasers and Effect of Half-Wave Periodic Gain,” Applied Physics Letters, 1989, vol. 54, pp. 1209–1211.",
+  "E. F. Schubert et al, “Delta-Doped Ohmic Contacts to n–GaAs,” Applied Physics Letters, 1986, vol. 49, pp. 292–294.",
+  "S. W. Pang et al, “Effects of Ion Species and Adsorbed Gas on Dry Etching Induced Damage in GaAs,” Journal of Vacuum Science Technology B, 1985, vol. 3, pp. 398–401.",
+  "C. K. Peng et al, “Extremely Low Resistance Nonalloyed Ohmic Contacts on GaAs Using InAs/InGaAs and InAs/GaAs Strained–Layer Superlattices,” Applied Physics Letters, 1988, vol. 53, pp. 900–901.",
+  "S. Kinoshita et al, “Reproducible Fabrication of AlGaAs/GaAs Circular Buried Heterostructure (CBH) Surface–Emitting Lasers with Low Thresholds,” Electronics Letters, 1988, vol. 24, pp. 699–700.",
+  "A. Scherer et al, “Electrical Damage Induced by Ion Beam Etching of GaAs,” Journal of Vacuum Science Technology B, 1988, vol. 6, pp. 277–279.",
+  "C. J. Sandroff et al, “Electronic Passivation of GaAs Surfaces Through the Formation of Arsenic—Sulfur Bonds,” Applied Physics Letters, 1989, vol. 54, pp. 362–364.",
+  "A. Ibaraki et al, “Buried Heterostructure GaAs/GaAlAs Distributed Bragg Reflector Surface Emitting Laser with Very Low Threshold (5.2 mA) under Room Temperature CW Conditions,” Japanese Journal of Applied Physics, 1989, vol. 28, pp. L667–L668."
+ ],
+ "examiners": "Primary Examiner--William L. Sikes; Assistant Examiner--Georgia Y. Epps; Attorney, Agent, or Firm--James W. Falk; Charles S. Guenzer",
+ "claims_count": 13,
+ "drawing_figures": 10,
+ "drawing_sheets": 6,
+ "abstract": "A vertical-cavity surface emitting laser and method of making in which a III-V heterostructure is epitaxially grown to include a quantum well active region between two interference mirrors separated by an emitting wavelength of the quantum well region. A small pillar of this heterostructure is etched by chemically assisted xenon ion beam itching. Prior to etching, a top metal contact is deposited on the epitaxial semiconductor. Light is emitted through the substrate having a bandgap larger than that of the quantum well region.",
+ "sections": [
+  {
+   "heading": "FIELD OF THE INVENTION",
+   "paras": [
+    {
+     "col": 1,
+     "line": 5,
+     "text": "The invention relates generally to semiconductor lasers. In particular, the invention relates to vertically arranged heterostructure lasers including quantum wells and interference mirrors and the method of making them."
+    }
+   ]
+  },
+  {
+   "heading": "BACKGROUND OF THE INVENTION",
+   "paras": [
+    {
+     "col": 1,
+     "line": 12,
+     "text": "Semiconductor lasers are well known and of great importance. One type, which has been explored recently, is a vertical-cavity, surface emitting laser. Such a laser relies on precisely controlled epitaxial growth of semiconducting material of varying composition. A vertical (planar) Fabry-Perot optical resonator is epitaxially formed on the substrate. Two semiconductor multilayer interference mirrors surround an active region. The lasing wavelength is determined by the bandgap of the active region and the distance between the mirrors is set to this wavelength or a multiple thereof. It has further been recognized that the active region can be formed of one or more quantum wells, to which the carriers are confined, thus increasing the lasing efficiency. A quantum well layer is a semiconductor layer of such thinness that its bandgap is determined by both its composition and it thickness. For the AlGaAs and InAlAsP families of III-V materials, these quantum effects occur at thicknesses of 100 nm or less."
+    },
+    {
+     "col": 1,
+     "line": 31,
+     "text": "However, known vertical-cavity, surface emitting lasers are not completely satisfactory. Much of the reported work has described optically pumped lasers. Optical pumping eliminates the need for metallic or at least highly conducting semiconducting contacts, which tend to absorb light. However, electrical pumping is much preferred for most applications."
+    },
+    {
+     "col": 1,
+     "line": 38,
+     "text": "Much of the reported work also involves relatively large laser areas. For many applications, only a small quantity of light is required and low power consumption is highly desirable. That is, it is desired that the vertical-cavity laser have a small cross-section. Furthermore, a small cross-sectional cavity provides better directionality and smaller linewidths. Sakaguchi et al have reported in an article entitled “Vertical cavity surface-emitting laser with an AlGaAs/AlAs Bragg reflector” appearing in Electronics Letters, volume 24, 1988 at pages 928 and 929 a laser having a single semiconductor interference mirror and a cavity defined by a surface ring electrode. However, the 20 μm diameter is considered too high."
+    },
+    {
+     "col": 1,
+     "line": 52,
+     "text": "We have previously reported in an article by Jewell et al entitled “GaAs-AlAs monolithic microresonator arrays” appearing in Applied Physics Letters, volume 51, 1987 at pages 94–96 1.5 μm diameter Fabry-Perot resonators. Recently, we disclosed the optically pumped lasing of such resonators in an article by Jewell et al entitled “Lasing characteristics of GaAs microresonators” appearing in Applied Physics Letters, volume 54, 1989 at pages 1400–1402. Gourley et al have disclosed a similar but laterally undefined lasing structure in a technical article entitled “High-efficiency TEM_{00} continuous-wave (AL,Ga)As epitaxial surface-emitting lasers and effect of half-wave periodic gain” appearing in Applied Physics Letters, volume 54, 1989 at pages 1209–1211. We consider the argon ion milling used for the devices disclosed in the two Jewell et al articles to produce excessive trapping at the sides of the pillars. In any case, this art does not disclose the electrical pumping of these narrow devices."
+    },
+    {
+     "col": 2,
+     "line": 3,
+     "text": "One of us, Jewell, has disclosed in U.S. patent application, Ser. No. 07/317,699, filed Mar. 1, 1989, a vertical-cavity laser structure having one or two quantum wells and two interference mirrors. No details of the procedure to horizontally define the vertical cavity were provided."
+    }
+   ]
+  },
+  {
+   "heading": "SUMMARY OF THE INVENTION",
+   "paras": [
+    {
+     "col": 2,
+     "line": 11,
+     "text": "Accordingly, an object of the invention is to provide a laser with a low threshold current."
+    },
+    {
+     "col": 2,
+     "line": 13,
+     "text": "A further object of the invention is to provide a vertical-cavity surface emitting laser."
+    },
+    {
+     "col": 2,
+     "line": 15,
+     "text": "A yet further object of the invention is to provide a method of making a surface emitting laser which minimizes junction barriers and carrier absorption."
+    },
+    {
+     "col": 2,
+     "line": 18,
+     "text": "The invention can be summarized as a vertical-cavity surface-emitting laser in which a vertical pillar of micrometer dimensions is formed with one or more quantum well layers having a bandgap smaller than that of the substrate. A cavity is defined within the pillar by alternating layers of material on each end forming interference mirrors. The quantum-well layers and spacers are formed between the mirrors to thicknesses such that a full wave exists between the mirrors. Electrical pumping of the laser is facilitated by heavily doping the bottom mirror and spacer and the substrate to one conductivity type and heavily doping the opposite conductivity type the upper spacer and mirror. A metallic surface contact is applied to the top mirror."
+    },
+    {
+     "col": 2,
+     "line": 33,
+     "text": "The electrical efficiency of the high aspect ratio pillar is obtained by using chemically assisted heavy ion beam etching to obtain the pillar structure and by depositing the surface contact to the semiconductor prior to etch-definition of the pillar."
+    }
+   ]
+  },
+  {
+   "heading": "BRIEF DESCRIPTION OF THE DRAWING",
+   "paras": [
+    {
+     "col": 2,
+     "line": 40,
+     "text": "FIG. 1 is a cross-section of the general configuration of the electrically pumped surface emitting laser of the invention."
+    },
+    {
+     "col": 2,
+     "line": 43,
+     "text": "FIG. 2 is a cross-section of the bottom portion of a specific embodiment of the surface emitting laser of FIG. 1."
+    },
+    {
+     "col": 2,
+     "line": 46,
+     "text": "FIGS. 3 and 4 are expanded cross-sections of portions of the cross-section of FIG. 2."
+    },
+    {
+     "col": 2,
+     "line": 48,
+     "text": "FIG. 5 is a cross-section of the middle portion of the embodiment of FIG. 2."
+    },
+    {
+     "col": 2,
+     "line": 50,
+     "text": "FIG. 6 is a cross-section of the top portion of the embodiment of FIG. 2."
+    },
+    {
+     "col": 2,
+     "line": 52,
+     "text": "FIGS. 7 and 8 are expanded cross-sections of portions of the cross-section of FIG. 6."
+    },
+    {
+     "col": 2,
+     "line": 54,
+     "text": "FIG. 9 is an illustration of the etching apparatus used in fabricating the embodiment of FIG. 2."
+    },
+    {
+     "col": 2,
+     "line": 56,
+     "text": "FIG. 10 is a graph of the output of a laser of the invention."
+    }
+   ]
+  },
+  {
+   "heading": "DETAILED DESCRIPTION",
+   "paras": [
+    {
+     "col": 2,
+     "line": 60,
+     "text": "The present invention provides a vertical cavity, surface-emitting laser of high efficiency and small cross-section so that the lasing current threshold can be made very small. The general structure is illustrated in cross-section in FIG. 1. A vertical structure is epitaxially grown on a substrate 10. After growth, the vertical structure is lithographically defined into a pillar 12 having a diameter on the order of a few micrometers. The pillar 12 contains a vertical-cavity laser. Specifically, there are formed over the substrate 10 a lower mirror 14, a lower spacer 16, a quantum well region 18, an upper spacer 20, an upper mirror 22 and a gold contact layer 24."
+    },
+    {
+     "col": 3,
+     "line": 5,
+     "text": "The lasing action occurs in the quantum well region 18 at a wavelength determined by both the composition and the thickness of the quantum well layers to be described more completely later. The ends of the optical cavity are defined by the mirrors 14 and 22, each of which is a interference filter having multiple periods of two alternating materials of different refractive index. The thickness of each layer in the mirrors is one-quarter of the optical wavelength in that material of the lasing frequency so that the lasing light is mostly reflected back into the cavity by the mirrors 14 and 22. The thicknesses of the spacers 16 and 20 are chosen so that the optical distance between the opposing faces of the mirrors 14 and 22 is equal to the lasing wavelength and so that the quantum well layers are optically centered within the so defined cavity."
+    },
+    {
+     "col": 3,
+     "line": 21,
+     "text": "The gold layer 24 performs two functions. It reflects back into the optical cavity whatever light has not been reflected by the upper mirror 22 and further provides an electrical contact 26 for electrical pumping of the laser. Another electrical contact 28 is made to the substrate 10. Electrical pumping is further facilitated by making the upper-spacer 20 and upper mirror 22 to be p^{+}-type and by making the lower spacer 16, the lower mirror 14 and the substrate 10 to be n^{+}-type."
+    },
+    {
+     "col": 3,
+     "line": 30,
+     "text": "The lower mirror 14 is not completely reflecting so that laser light is emitted through that mirror 14 and through the substrate 10. The composition of the lasing quantum well layers is chosen so that the remaining semiconductor regions 10, 14, 16, 20 and 22, even though heavily doped, are mostly transparent to the lasing wavelength."
+    },
+    {
+     "col": 3,
+     "line": 37,
+     "text": "The variety of electrical characteristics required of the epitaxial material grown in the pillar 12 is made possible by a family of multi-component semiconductor materials. The principal embodiment to be described below uses In_{0.2}Ga_{0.8}As for the quantum well layers determining the lasing wavelength and further uses GaAs,AlAs and their alloys for the remaining structure. All these materials can be heteroepitaxially grown. Nonetheless, the successful fabrication of these pillar-type lasers to have minimum threshold current presents several difficulties."
+    },
+    {
+     "col": 3,
+     "line": 48,
+     "text": "First, the threshold current is reduced as the cross-section of the pillar is reduced. However, the sidewalls of the pillar introduce electrical defects. The smaller the cross-section of the pillar, the more dominating are the sidewall defects. Secondly, the power dissipation of a laser depends not only on the threshold current but also on the applied voltage. The structure described so far has a large number of interfaces. Interfaces between semiconductor layers and the metal-semiconductor interface tend to introduce voltage barriers. For instance, charged interface defects will deplete a neighboring semiconductor region, introducing a voltage drop across the interface across which the threshold current must travel."
+    },
+    {
+     "col": 3,
+     "line": 62,
+     "text": "In order to reduce the interface and sidewall defects in the vertical-cavity laser of FIG. 1, the design and fabrication of the experimentally verified laser of the invention included additional structure and unusual processing."
+    },
+    {
+     "col": 3,
+     "line": 67,
+     "text": "The epitaxial growth was performed by molecular beam epitaxy (MBE) using a GEN-II MBE station commercially available from Varian. This MBE station was equipped with effusion cells for Ga, Al, As, Si and Be. An n-type (100)-oriented GaAs wafer doped n^{+} with Si to 3×10^{18} cm^{-3} was used for the substrate 10. The substrate 10 was cleaned by the standard MBE practice of oxidation and thermal oxide desorption in the growth chamber. After cleaning, the substrate 10 was placed in the MBE station and heated to 580° C. for epitaxial growth. First, a 0.5 μm GaAs buffer layer, not specifically illustrated, was grown with the same doping as the substrate 10. The lower mirror 14 and spacer 16 were then grown. As illustrated in FIG. 2, the lower mirror 14 consisted of twenty periods 28 of an AlAs layer 30 of 79.2 nm thickness and a GaAs layer 32 of 66.4 nm thickness. Between each pair of AlAs and GaAs layers 30 and 32 was formed a thin lower mirror superlattice 34. As shown in FIG. 3, the lower mirror superlattice layer 34 consisted of two GaAs layers 36 alternating with two AlAs layers 38. All these layers 36 and 38 were 1.7 nm thick. The superlattice 34 was used to reduce resistance, as has been reported by Peng et al in a technical article entitled “Extremely low resistance non-alloy ohmic contacts on GaAs using InAs/InGaAs and InAs/GaAs strained-layer superlattices”, appearing in Applied Physics Letters, volume 54, 1988 at pages 900–901. All the layers 30, 32, 36 and 38 in the lower mirror 14 were doped n^{+} with 3×10^{18} cm^{-3} of Si. The substrate 10 was spun during the deposition of the bottom eighteen of the twenty periods 28 of the lower mirror 14 in order to provide uniformity."
+    },
+    {
+     "col": 4,
+     "line": 31,
+     "text": "As further illustrated in FIG. 2, the lower spacer 16 consisted of an AlAs layer 40 of thickness 70.7 nm and an Al_{0.5}Ga_{0.5}As layer 42 of 85 nm thickness separated by a lower spacer superlattice 44. As illustrated in FIG. 4, the lower spacer superlattice 44 consisted of eight GaAs layers 50, 52 and 54 alternating with seven Al_{0.5}Ga_{0.5}As layers 56. All the AlGaAs layers 56 were of 1.7 nm thickness. However, the GaAs layer thickness decreased from the bottom toward the top. The bottom three layers 50 were of 1.7 nm thickness, the next three layers 52 were of 1.13 nm thickness while the top two layers 54 were of 0.56 nm thickness. All layers in the lower spacer 16 were similarly doped n^{+} with 3×10^{18} cm^{-3} of Si."
+    },
+    {
+     "col": 4,
+     "line": 45,
+     "text": "The quantum well region 18 consisted of three quantum wells with graded index regions on each side. One quantum well could have provided better efficiency. However, it was considered difficult to build. The quantum well structure is specifically illustrated in FIG. 5. Three active quantum well layers 60 of In_{0.2}Ga_{0.8}As of thickness 8 nm were sandwiched between four GaAs layers 62 of thickness 10 nm. The lasing wavelength was determined by both the composition and thickness of the InGaAs layers 60. In order to better confine the carriers to the quantum well, there was provided a lower graded index layer 64 of thickness 20 nm which was linearly graded from Al_{0.5}Ga_{0.5}As at the bottom to GaAs at the top. In growth, the composition was changed in 2 nm slices. Similarly, there was provided an upper graded index layer 66 of 20 nm thickness changing from GaAs to Al_{0.5}Ga_{0.5}As during growth. All layers 60, 62, 64 and 66 in the quantum well region 18 were nominally undoped. During the growth of the quantum well region 18, the substrate temperature was reduced to 540° C."
+    },
+    {
+     "col": 4,
+     "line": 66,
+     "text": "As illustrated in FIG. 6, the upper spacer 20 consisted of a layer of Al_{0.5}Ga_{0.5}As of thickness 93.9 nm doped p^{+} with 2.5×10^{18} cm^{-3} Be. Furthermore, for the deposition of the upper spacer 20 and mirror 22, the substrate temperature was raised again to 580° C."
+    },
+    {
+     "col": 5,
+     "line": 3,
+     "text": "Most of the upper mirror 22 was composed of twelve periods 70 of an AlAs layer 72 of 68 nm thickness and a GaAs layer 74 of 57 nm thickness. Additionally, each period 70 contained first and second upper mirror superlattices 76 and 78 in order to facilitate electron transport between the AlAs and GaAs layers 72 and 74. As illustrated in FIG. 7, each first upper mirror superlattice 76 consisted of two AlAs layers 80 and two GaAs layers 82, all of 1.13 nm thickness. The second upper mirror superlattice 78 was considerably more complex and changed from a GaAs-rich superlattice at the bottom to an AlAs-rich one at the top in order to match the adjacent AlAs and GaAs layers 72 and 74. Specifically, as illustrated in FIG. 8, the second upper mirror superlattice 78 consisted of a first two-period superlattice of two Al_{0.5}Ga_{0.5}As layers 84 of 0.56 nm thickness and two AlAs layers 86 of 1.13 nm thickness, a second superlattice of two more Al_{0.5}Ga_{0.5}As layers 88 of 1.13 nm thickness and two AlAs layers 90 of 1.13 nm thickness, a third superlattice of two GaAs layers 92 of 1.13 nm thickness and two AlAs layers 94 of 1.13 nm thickness, a fourth superlattice of two more GaAs layers 96 of 1.13 nm thickness and two more Al_{0.5}Ga_{0.5}As layers 98 of 1.13 nm thickness, and a fifth supperlattice of two GaAs layers 100 of 1.7 nm thickness and two yet further Al_{0.5}Ga_{0.5}As layers 102 of 1.13 nm thickness."
+    },
+    {
+     "col": 5,
+     "line": 30,
+     "text": "In the bottom three periods 70 of the upper mirror 22, all the layers 72, 74, 76 and 78 were doped p^{+} with a concentration of 2.5×10^{18} cm^{-3} of Be while the concentration was raised to 5×10^{18} cm^{-3} for the upper nine periods 70."
+    },
+    {
+     "col": 5,
+     "line": 35,
+     "text": "The upper mirror 22 was completed, as illustrated in FIG. 6, with another first upper mirror superlattice 76, an AlAs layer 104 of 27 nm thickness, another second upper mirror supperlattice 78 and a GaAs layer 106 of 3 nm thickness. The doping continued at 5×10^{18} cm^{-3} of Be. The GaAs layer 104 was delta-doped to a surface concentration of 10^{13} cm^{-2} of Be, which was less than a monolayer of Be. The delta-doping was accomplished by turning off the other sources. Schubert et al have reported a similar type of delta-doping in an article entitled “Delta-doped ohmic contacts to n-GaAs” appearing in Applied Physics Letters, volume 49, 1986 at pages 292–294. However, their multiple delta-doping planes were all evenly spaced away from the surface within the semiconductor. An alternative to delta-doping the GaAs would be to deposit an InAs layer, delta-doping it and then covering the delta-doped InAs with a 5 nm thick GaAs layer to achieve the surface contact while preventing the oxidation of the delta-doped area."
+    },
+    {
+     "col": 5,
+     "line": 54,
+     "text": "It is noted that a total of 504 layers were performed in the MBE growth cycle to grow a heterostructure of about 5.3 μm height."
+    },
+    {
+     "col": 5,
+     "line": 57,
+     "text": "At the completion of MBE growth, the sample was quickly moved to a thermal evaporation chamber to be coated with the gold layer 24 to a thickness of 150 nm. The minimum exposure to air reduces the surface oxidation of the semiconductor. Alternatively, the semiconductor structure could be capped with As in the MBE chamber. The As cap would then be desorbed in the thermal evaporator immediately preceeding the Au evaporation. Silver could be thermally deposited in place of the gold for better reflectivity. Indium or aluminum could be deposited by MBE to replace the gold layer 24 and thus avoid any possibility of oxidation."
+    },
+    {
+     "col": 6,
+     "line": 1,
+     "text": "At this stage, the wafer has a uniform planar structure and the pillar structure remains to be defined. An optical lithography process then was followed. Resist was spun onto the gold layer 24 and was contact exposed to an optical pattern and developed so as to leave the gold layer 24 exposed above the intended pillars 12. Nickel was then deposited to a thickness of approximately 0.15 μm. Chromium or titanium could replace the nickel. Any of these metals could alternatively be deposited by electrodeposition or sputter deposition. The sample was then washed in acetone so as to remove any remaining photoresist. That is, the nickel away from the pillar 12 was lifted off. A u-v stabilized photoresist, such as AZ-4110, could be used to eliminate the need for the nickel ion-milling mask."
+    },
+    {
+     "col": 6,
+     "line": 16,
+     "text": "Chemically assisted heavy-ion etching was used to reduce electrical damage to the sidewalls. Such reduction is required for lasers of small cross-section since a heavily damaged sidewall will dominate electronic effects as the cross-sectional area to sidewall area is decreased. Xenon was used for the ion species although other ions heavier than argon, such as krypton, should also reduce damage relative to argon. The reduction of surface damage on a planar surface by using xenon has been disclosed by Pang et al in a technical article entitled “Effects of ion species and adsorbed gas on dry etching induced damage in GaAs” appearing in Journal of Vacuum Science and Technology B, volume 3, 1985 at pages 398–401. The reduction of sidewall damage by use of Cl_{2} assisted Ar milling has been discussed by Scherer et al in a technical article entitled “Electrical damage induced by ion beam etching of GaAs” appearing in Journal of Vacuum Science and Technology B, volume 6, 1988 at pages 277–279."
+    },
+    {
+     "col": 6,
+     "line": 36,
+     "text": "As illustrated in FIG. 9, the chemically assisted heavy-ion etching was performed in a vacuum chamber 110. A pumping stack 114 maintained a base pressure within the chamber 110 of 1×10^{-7} Torr. A sample 116 was loaded into the pumped chamber 110 through a load-lock 118. The sample 116 was held on a sample holder 120 heated to 100° C. The Cl_{2} was supplied through a reactive gas supply tube 122 connected to two nozzles 124 flooding the face of the sample 116. The Cl_{2} gas flow was maintained at 10 sccm. A mass spectrometer 126 was used to analyze the reaction products during the etch. If desired, the Cl_{2} could be pre-ionized to Cl^{-}, which is more chemically active, in a microwave cavity or a hot (≈2000° C.) gas nozzle."
+    },
+    {
+     "col": 6,
+     "line": 50,
+     "text": "A Kaufmann ion source 128 was used to generate ion beams of Xe^{+} with a voltage of 1000 eV. Xenon was supplied to the ion source 128 through an inert gas supply tube 130, to which a mass flow controller maintained a Xe flow of 4.5 sccm. The Xe ion flux at the sample was monitored with a shutter and maintained at 75 μA/cm^{2}. Under these conditions, the etch rate of Xe^{+}/Cl_{2} was 1.2 μm/minute. The etching was continued to the full 5.5 μm height of the deposited structure. However, the etching could have been stopped just below the quantum well layer 18, which would provide better heat sinking."
+    },
+    {
+     "col": 6,
+     "line": 62,
+     "text": "The lower lead 28 was connected to the n^{+} substrate 10 by indium soldering although spot-welding is an alternative. It is noted that the substrate 10 could have been semiinsulating GaAs with an n^{+} epi-layer on its surface. The processing of the tested samples stopped at this point and the upper contact 26 was provided by a movable probe having a tip of radius ≈5 μm."
+    },
+    {
+     "col": 7,
+     "line": 1,
+     "text": "The lithographic mask provided a large number of lasers having 2, 3, 4, and 5 μm diameters on a 3×5 mm chip. The device density was about two million per square centimeter."
+    },
+    {
+     "col": 7,
+     "line": 5,
+     "text": "Individual lasers were driven by the lower contact 28 and the movable probe. Light was monitored through the substrate 10, which was polished on the back side. Shown in FIG. 10 is the lasing light output for a 3 μm laser at 958 nm taken with 50 ns voltage pulses at low duty cycle. At the current threshold of 1.3 mA the voltage was about 15 V rising to 20 V at 3.5 mA. The 5 μm lasers required 8 V and 2 mA for threshold. The 2 μm lasers were found to require about 20 V for threshold. The lasing wavelength varied by 1.5 nm over the chip."
+    },
+    {
+     "col": 7,
+     "line": 16,
+     "text": "Another embodiment was fabricated having a single quantum well but otherwise corresponding to the fully described embodiment. This sample showed a somewhat lower current threshold for lasing but also a lower differential quantum efficiency than the three quantum well principal embodiment."
+    },
+    {
+     "col": 7,
+     "line": 22,
+     "text": "The process described above could be improved in a number of respects. The chip with the pillar structure etched into the heterostructure could be planarized with polyimide. The polyimide would then be etched back with O_{2} in order to expose the top contacts. Spin glass could be substituted for polyimide. It is recommended that the etched heterostructure be surface passivated with sulfur or selenium, as has been described by Sandroff et al in a techincal article entitled “Electronic passivation of GaAs surfaces through the formation of arsenic-sulfur bonds”, appearing in Applied Physics Letters, volume 54, 1989 at pages 362–364. Selenium passivation has been shown to reduce the threshold current by 50% in these structures. Semiinsulating AlGaAs or AlAs or insulating SiO_{2} can then be regrown on the etched sidewalls to permanently passivate these surfaces. Then relatively thick gold deposited around the electrically insulated sidewalls can be used both for the upper contact and to heat sink the entire pillar laser. A mesa-like structure of non-circular shape could be substituted for the described circular mesas or pillars."
+    },
+    {
+     "col": 7,
+     "line": 43,
+     "text": "Although the above embodiment involved the AlGaAs family of semiconductors, there are advantages to using InP-based materials. In this case, the Cl_{2} chemically assisted etch would be changed to HBr or I_{2}. A mixture of CH_{4}:H_{2} has also been found useful for chemically assisted ion beam etching."
+    },
+    {
+     "col": 7,
+     "line": 49,
+     "text": "Low loss and small area lasers have been achieved in the described embodiments because of the strong waveguiding provided by the large refractive index difference Δn between the semiconductor pillar and the vacuum on the outside. It is well-known that cavities with low loss and small area cannot be made without incorporation of some waveguiding structure. For nonguiding structures, the following expression in terms of effective cavity length L, vacuum optical wavelength λ, refractive index n, total cavity losses per pass S, and minimum cavity cross-sectional area A_{min} is valid:"
+    },
+    {
+     "col": 7,
+     "line": 62,
+     "text": "(L · λ)/(n · S · A_{min}) = k",
+     "formula": true
+    },
+    {
+     "col": 7,
+     "line": 64,
+     "text": "That is, there is a minimum cross-sectional area A_{min} below which lasing does not occur. For small loss S, the finesse of the cavity is equal to π/S so that S can be calculated from measured values of finesse. The exact value of the constant k depends on exactly how the area is defined (e.g., bounded by where the intensity falls to 1/e or 1/e^{2} of the maximum intensity. This constant k has been determined in a separate experiment to be about 0.25."
+    },
+    {
+     "col": 8,
+     "line": 5,
+     "text": "By normalizing this expression, a waveguiding confinement factor W for a cross-sectional area A can be defined as:"
+    },
+    {
+     "col": 8,
+     "line": 9,
+     "text": "W = (L · λ)/(0.25 · n · S · A) = (4 · L · λ)/(n · S · A)",
+     "formula": true
+    },
+    {
+     "col": 8,
+     "line": 12,
+     "text": "The confinement factor W will be less than unity in the case of no waveguiding and greater than unity when guiding occurs. Ibaraki et al have disclosed in a technical article entitled “Buried Heterostructure GaAs/GaAlAs Distributed Bragg Reflector Surface Emitting Laser with Very Low Threshold (5.2 mA) under Room Temperature CW Conditions” appearing in Japanese Journal of Applied Physics, volume 28, 1989, at pages L667 and L668 a weakly waveguided surface emitting laser of diameter 5 μm, length about 3 μm and losses per pass of about 5%. These quantities yield W≈3.5. By comparison, the laser of the principal embodiment includes a 2 μm diameter, 1 μm long cavity with a conservatively estimated loss of 0.9% per pass. This yields W≈40, more than 10 times that of the previously disclosed structure. The corresponding values for W of the 3 and 5 μm lasers of the principal embodiment are 17.8 and 6.4. Thus the smaller 2 and 3 μm lasers of the principal embodiment are the first demonstrated strongly waveguiding vertical cavity lasers."
+    },
+    {
+     "col": 8,
+     "line": 33,
+     "text": "This strong confinement is made possible in the disclosed structure by having a very large refractive index difference Δn between the inside and outside of the waveguide. While both the structure described here and that of Ibaraki et al has n≈3.5 inside the guide, Ibaraki et al’s structure has n≈3.2 on the outside while the present device has n=1. Thus, the value of Δn for the disclosed embodiments is 2.5 versus 0.3 for Ibaraki et al. All known prior-art electrically pumped surface emitting lasers with a vertical cavity have structures similar to that of Ibaraki et al. Thus, it is highly unlikely that the prior technology can be extended to produce devices with a waveguide confinement factor much larger than 3.5."
+    },
+    {
+     "col": 8,
+     "line": 47,
+     "text": "It is not required that the laser-containing pillar be free standing in order to obtain the large refractive index difference Δn. As is shown in TABLE 1, the III-V semiconducting materials of interest have a refractive index n between 2.9 and 3.6. Alloys of these materials have similar values. Layers of these materials have an effective index intermediate between those of the constituent layers."
+    },
+    {
+     "col": 8,
+     "line": 55,
+     "text": "TABLE 1"
+    },
+    {
+     "col": 8,
+     "line": 56,
+     "table": [
+      [
+       "",
+       "n"
+      ],
+      [
+       "GaAs",
+       "3.5"
+      ],
+      [
+       "AlAs",
+       "2.9"
+      ],
+      [
+       "InGaAs",
+       "3.6"
+      ],
+      [
+       "ZnS",
+       "2.5"
+      ],
+      [
+       "air/vacuum",
+       "1.0"
+      ],
+      [
+       "glass",
+       "1.5"
+      ]
+     ]
+    },
+    {
+     "col": 8,
+     "line": 64,
+     "text": "On the other hand, most non-III-V materials that would be used in conjunction therewith have a refractive index n that is substantially less. Therefore, the III-V material in the pillar should be surrounded by non-III-V material. However, there are several considerations. The pillar may have its sidewalls passivated by a thin layer of AlGaAs. As long as the thickness of this passivating layer is considerably less than an optical wavelength, taking into account the local refractive index, it will have small effect on the effective refractive index difference Δn. Also, at a large optical distance from the pillar of approximately 10·λ or more, approximately 10 μm, the presence of a III-V material would have little effect. Based on these observations, a general rule for obtaining a large refractive index difference Δn is that the III-V pillar defining the resonant cavity between the mirrors be surrounded on its sides by a continuous region of material not containing any III-V semiconducting material. This continuous non-III-V region should be located within at least an optical distance of 10·λ of the pillar and have a thickness of at least λ/100."
+    },
+    {
+     "col": 9,
+     "line": 18,
+     "text": "By means of the novel structure and processing of the present invention, very small and efficient semiconductor lasers have been achieved. They have been built of materials amenable to electronic integrated circuits. Accordingly, such lasers can be incorporated into laser arrays in opto-electronic circuits."
+    }
+   ]
+  },
+  {
+   "heading": "CERTIFICATE OF CORRECTION",
+   "paras": [
+    {
+     "col": null,
+     "line": null,
+     "page": 13,
+     "text": "UNITED STATES PATENT AND TRADEMARK OFFICE"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 13,
+     "text": "PATENT NO. : 4,949,350\nDATED : August 14, 1990\nINVENTOR(S) : Jack L. Jewell and Axel Scherer"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 13,
+     "text": "It is certified that error appears in the above-identified patent and that said Letters Patent is hereby corrected as shown below:"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 13,
+     "text": "Title page, item [73], after \"Assignee:\" add --American Telephone and Telegraph Company, New York, New York;--.\nColumn 5, line 64, \"preceeding\" should read --preceding--.\nColumn 7, line 30, \"techincal\" should read --technical--;\nColumn 8, line 2, \"intensity.\" should read --intensity).--."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 13,
+     "text": "Signed and Sealed this\nTwenty-eighth Day of January, 1992"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 13,
+     "text": "Attest:\nHARRY F. MANBECK, JR.\nAttesting Officer\nCommissioner of Patents and Trademarks"
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 2,
+   "line": 40,
+   "text": "FIG. 1 is a cross-section of the general configuration of the electrically pumped surface emitting laser of the invention."
+  },
+  {
+   "fig": "2",
+   "col": 2,
+   "line": 43,
+   "text": "FIG. 2 is a cross-section of the bottom portion of a specific embodiment of the surface emitting laser of FIG. 1."
+  },
+  {
+   "fig": "3",
+   "col": 2,
+   "line": 46,
+   "text": "FIGS. 3 and 4 are expanded cross-sections of portions of the cross-section of FIG. 2."
+  },
+  {
+   "fig": "4",
+   "col": 2,
+   "line": 46,
+   "text": "FIGS. 3 and 4 are expanded cross-sections of portions of the cross-section of FIG. 2."
+  },
+  {
+   "fig": "5",
+   "col": 2,
+   "line": 48,
+   "text": "FIG. 5 is a cross-section of the middle portion of the embodiment of FIG. 2."
+  },
+  {
+   "fig": "6",
+   "col": 2,
+   "line": 50,
+   "text": "FIG. 6 is a cross-section of the top portion of the embodiment of FIG. 2."
+  },
+  {
+   "fig": "7",
+   "col": 2,
+   "line": 52,
+   "text": "FIGS. 7 and 8 are expanded cross-sections of portions of the cross-section of FIG. 6."
+  },
+  {
+   "fig": "8",
+   "col": 2,
+   "line": 52,
+   "text": "FIGS. 7 and 8 are expanded cross-sections of portions of the cross-section of FIG. 6."
+  },
+  {
+   "fig": "9",
+   "col": 2,
+   "line": 54,
+   "text": "FIG. 9 is an illustration of the etching apparatus used in fabricating the embodiment of FIG. 2."
+  },
+  {
+   "fig": "10",
+   "col": 2,
+   "line": 56,
+   "text": "FIG. 10 is a graph of the output of a laser of the invention."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 9,
+   "line": 25,
+   "depends": null,
+   "text": "1. A vertical-cavity, surface emitting laser, comprising:\na crystalline substrate;\na lower multiple layer interference mirror epitaxially formed on said substrate, said layers being arranged in a vertical direction;\nan active region comprising at least one quantum well layer epitaxially formed on said lower mirror and lasing a predetermined wavelength λ;\nan upper multiple layer interference mirror epitaxially formed on said active region;\na lower and an upper spacer region interposed between said active region and respective ones of said mirrors and epitaxial therewith to provide a vertical optical cavity between opposing faces of said mirrors separated by an optical distance L of a predetermined relationship to said wavelength λ; and\nwherein at least said active region, said upper spacer region and said upper mirror are formed into a vertical waveguiding region having a substantially constant cross-section area A and an effective dielectric constant n below said upper mirror;\nsaid laser further comprising:\na medium laterally substantially surrounding said waveguiding region and having a dielectric constant less than said effective dielectric constant n; and\ntwo electrical contact regions, one of said electrical contact regions being electrically connected to said waveguiding region above said active region, electrical power applied to said contact regions causing said laser to lase at said wavelength λ with a loss per pass of S;\nwherein a waveguiding confinement factor\nW = (4 · L · λ)/(n · S · A)\nhas a value approximately equal to or greater than 17."
+  },
+  {
+   "n": 2,
+   "col": 9,
+   "line": 66,
+   "depends": 1,
+   "text": "2. A laser as recited in claim 1, wherein said waveguiding confinement factor has a value approximately equal to or greater than 40."
+  },
+  {
+   "n": 3,
+   "col": 10,
+   "line": 1,
+   "depends": 1,
+   "text": "3. A laser as recited in claim 1, wherein a first one of said mirrors is doped p-type, wherein said multiple layers of said first mirror comprise alternating first and second layers having respective first and second refractive indices, said first and second layers being vertically arranged on an optical period of λ/2, said first mirror further comprising superlattices of different materials having refractive indices different therebetween and interposed between said first and second layers."
+  },
+  {
+   "n": 4,
+   "col": 10,
+   "line": 10,
+   "depends": 3,
+   "text": "4. A laser as recited in claim 3, wherein said mirror is said upper mirror and wherein said one electrical contact region comprises a metallic layer formed above said upper mirror."
+  },
+  {
+   "n": 5,
+   "col": 10,
+   "line": 14,
+   "depends": null,
+   "text": "5. A vertical-cavity, surface emitting laser, comprising:\na crystalline substrate;\na lower multiple layer interference mirror epitaxially formed on said substrate;\nan active region comprising at least one quantum well layer epitaxially formed on said lower mirror and lasing at a predetermined wavelength λ;\nan upper multiple layer interference mirror epitaxially formed on said active region;\na lower and an upper spacer region interposed between said active region and respective ones of said mirrors and epitaxial therewith to provide an optical cavity between opposing faces of said mirrors separated by an optical distance L of a predetermined relationship to said wavelength; and\nwherein said active region, said upper spacer region and said upper mirror are formed in a mesa structure rising above said substrate and having a cross-sectional area A, said mesa structure having an effective dielectric constant n below said upper mirror;\nsaid laser further comprising at least two electrical contacts, one of said electrical contacts being attached to said mesa structure above said active region, said contacts causing said laser to lase at said wavelength λ with a loss per pass of S;\nwherein a waveguiding confinement factor\nW = (4 · L · λ)/(n · S · A)\nhas a value approximately equal to or greater than 17."
+  },
+  {
+   "n": 6,
+   "col": 10,
+   "line": 49,
+   "depends": 5,
+   "text": "6. A laser as recited in claim 5, wherein said value of W is approximately equal to or greater than 40."
+  },
+  {
+   "n": 7,
+   "col": 10,
+   "line": 51,
+   "depends": 5,
+   "text": "7. A laser as recited in claim 5 wherein said mesa structure includes said lower mirror and said lower spacer region."
+  },
+  {
+   "n": 8,
+   "col": 10,
+   "line": 54,
+   "depends": 7,
+   "text": "8. A laser as recited in claim 7, wherein said mirrors, said active region and said spacer regions comprise III-V semiconductor materials."
+  },
+  {
+   "n": 9,
+   "col": 10,
+   "line": 57,
+   "depends": 8,
+   "text": "9. A laser as recited in claim 8, wherein said active region and said spacer regions of said mesa structure are bounded on all lateral sides thereof within an optical distance 10·λ by a medium of other than III-V semiconducting material."
+  },
+  {
+   "n": 10,
+   "col": 10,
+   "line": 62,
+   "depends": 5,
+   "text": "10. A laser as recited in claim 5, wherein said one of said electrical contacts comprises a metallic layer formed above said upper mirror and having a cross-section of at least A."
+  },
+  {
+   "n": 11,
+   "col": 10,
+   "line": 66,
+   "depends": 10,
+   "text": "11. A laser as recited in claim 10, wherein said at least one quantum well layer consists of one quantum well layer."
+  },
+  {
+   "n": 12,
+   "col": 11,
+   "line": 1,
+   "depends": 10,
+   "text": "12. A laser as recited in claim 10, wherein said at least one quantum well layer consists of three quantum well layers."
+  },
+  {
+   "n": 13,
+   "col": 11,
+   "line": 4,
+   "depends": null,
+   "text": "13. A vertical-cavity, surface emitting laser, comprising:\na crystalline substrate;\na lower multiple layer interference mirror epitaxially formed on said substrate;\nan active region comprising at least one quantum well layer epitaxially formed on said lower mirror and lasing at a predetermined wavelength λ;\nan upper multiple layer interference mirror epitaxially formed on said active region;\na lower and an upper spacer region interposed between said active region and respective ones of said mirrors and epitaxial therewith to provide an optical cavity between opposing faces of said mirrors separated by an optical distance of a predetermined relationship to said wavelength; and\nwherein said active region, said upper spacer region and said upper mirror are formed in a mesa structure rising above said substrate and having a substantially uniform cross-sectional area less than a cross-sectional area of said substrate;\nsaid laser further comprising at least two electrical contacts, one of said electrical contacts being attached to said mesa structure above said active region;\nwherein said mirrors, said active region and said spacer regions comprise III-V semiconductor materials; and\nwherein said active region and said spacer regions of said mesa structure are bounded on all lateral sides thereof within an optical distance 10·λ by a medium of other than III-V semiconducting material."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "col": 1,
+   "line": 50,
+   "ocr": "zm",
+   "fixed": "μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 55,
+   "ocr": "jum",
+   "fixed": "μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 63,
+   "ocr": "TEMoo",
+   "fixed": "TEM_{00}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 65,
+   "ocr": "34,",
+   "fixed": "54,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 55,
+   "ocr": "94-96",
+   "fixed": "94–96",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 1,
+   "line": 60,
+   "ocr": "1400-1402",
+   "fixed": "1400–1402",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 1,
+   "line": 66,
+   "ocr": "1209-1211",
+   "fixed": "1209–1211",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 4,
+   "line": 25,
+   "ocr": "900-901",
+   "fixed": "900–901",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 5,
+   "line": 47,
+   "ocr": "292-294",
+   "fixed": "292–294",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 6,
+   "line": 30,
+   "ocr": "398-401",
+   "fixed": "398–401",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 6,
+   "line": 35,
+   "ocr": "277-279",
+   "fixed": "277–279",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 7,
+   "line": 33,
+   "ocr": "362-364",
+   "fixed": "362–364",
+   "basis": "scan (en dash)"
+  },
+  {
+   "col": 2,
+   "line": 21,
+   "ocr": "well smaller than that quan- of / tum the substrate. layers A having a is bandgap defined within the pillar by / cavity of material each end forming inter- / alternating ference mirrors. layers The on and / quantum-well mirrors thicknesses layers such spacers that / are formed between the to / a full wave exists between the mirrors. Electrical pump- / ing of the laser is facilitated by heavily doping the bot- / tom mirror and spacer and the substrate to one conductiv- conduc- / tivity type and heavily doping mirror. the opposite A metallic surface / ity type the upper spacer and",
+   "fixed": "quantum well layers having a bandgap smaller than that of the substrate. A cavity is defined within the pillar by alternating layers of material on each end forming interference mirrors. The quantum-well layers and spacers are formed between the mirrors to thicknesses such that a full wave exists between the mirrors. Electrical pumping of the laser is facilitated by heavily doping the bottom mirror and spacer and the substrate to one conductivity type and heavily doping the opposite conductivity type the upper spacer and mirror. A metallic surface",
+   "basis": "scan (OCR word order scrambled) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 46,
+   "ocr": "cross-sections ~ of",
+   "fixed": "cross-sections of",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 3,
+   "line": 41,
+   "ocr": "Ino,2Gao.3As",
+   "fixed": "In_{0.2}Ga_{0.8}As",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 43,
+   "ocr": "GaAs, AlAs",
+   "fixed": "GaAs,AlAs",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 50,
+   "ocr": "the 350",
+   "fixed": "the",
+   "basis": "scan (gutter line number misread into text)"
+  },
+  {
+   "col": 4,
+   "line": 4,
+   "ocr": "3x 10!8 cm~3",
+   "fixed": "3×10^{18} cm^{-3}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 9,
+   "ocr": "4m",
+   "fixed": "μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 19,
+   "ocr": "AIAs",
+   "fixed": "AlAs",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 27,
+   "ocr": "3 x 1018 cm~3",
+   "fixed": "3×10^{18} cm^{-3}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 33,
+   "ocr": "Alo.sGaosAs",
+   "fixed": "Al_{0.5}Ga_{0.5}As",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 36,
+   "ocr": "Alo.. 5GaosAs",
+   "fixed": "Al_{0.5}Ga_{0.5}As",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 43,
+   "ocr": "3x 1018 cm—3",
+   "fixed": "3×10^{18} cm^{-3}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 50,
+   "ocr": "Ino.2Gao,gAs",
+   "fixed": "In_{0.2}Ga_{0.8}As",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 57,
+   "ocr": "Alo.sGao,sAs",
+   "fixed": "Al_{0.5}Ga_{0.5}As",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 61,
+   "ocr": "AlosGao,sAs",
+   "fixed": "Al_{0.5}Ga_{0.5}As",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 67,
+   "ocr": "AlosGao.sAs",
+   "fixed": "Al_{0.5}Ga_{0.5}As",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 68,
+   "ocr": "2.5 x 10!8cm—3",
+   "fixed": "2.5×10^{18} cm^{-3}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 18,
+   "ocr": "Alp,sGao.sAs",
+   "fixed": "Al_{0.5}Ga_{0.5}As",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 19,
+   "ocr": "thickness and two AIAs 86 of 1.13 thickness, / of layers nm / a 88 second of 1.13 superlattice thickness and two more AIAs Alo,sGao,sAs 90 of layers 1.13 / nm third two of two layers GaAs / nm of 1.13 thickness, thickness a and superlattice two AJAs 94 of layers 1.13 / nm fourth of layers GaAs nm / thickness, a superlattice two more lay-",
+   "fixed": "thickness and two AlAs layers 86 of 1.13 nm thickness, a second superlattice of two more Al_{0.5}Ga_{0.5}As layers 88 of 1.13 nm thickness and two AlAs layers 90 of 1.13 nm thickness, a third superlattice of two GaAs layers 92 of 1.13 nm thickness and two AlAs layers 94 of 1.13 nm thickness, a fourth superlattice of two more GaAs lay-",
+   "basis": "scan (OCR word order scrambled) + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 26,
+   "ocr": "Alp,5Gao,sAs",
+   "fixed": "Al_{0.5}Ga_{0.5}As",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 29,
+   "ocr": "Alo.sGao,sAs",
+   "fixed": "Al_{0.5}Ga_{0.5}As",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 31,
+   "ocr": "p+.",
+   "fixed": "p^{+}",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 32,
+   "ocr": "2.5X< 10!8 cm-3",
+   "fixed": "2.5×10^{18} cm^{-3}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 33,
+   "ocr": "51018 cm—3",
+   "fixed": "5×10^{18} cm^{-3}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 39,
+   "ocr": "5x 10!8cm—3",
+   "fixed": "5×10^{18} cm^{-3}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 41,
+   "ocr": "10!3 cm—2",
+   "fixed": "10^{13} cm^{-2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 47,
+   "ocr": "deita-doping",
+   "fixed": "delta-doping",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 56,
+   "ocr": "ym",
+   "fixed": "μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 8,
+   "ocr": "pm.",
+   "fixed": "μm.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 20,
+   "ocr": "fects the cross-sectional area to sidewall area is de- / creased. as Xenon used for the ion species although / other ions heavier was than such as krypton, should / also reduce damage relative argon, to The reduction of / surface surface argon. by using xenon has / disclosed damage on a planar al in technical article enti- / been by Pang et a / tled “Effects of ion species and adsorbed gas Journal on dry",
+   "fixed": "fects as the cross-sectional area to sidewall area is decreased. Xenon was used for the ion species although other ions heavier than argon, such as krypton, should also reduce damage relative to argon. The reduction of surface damage on a planar surface by using xenon has been disclosed by Pang et al in a technical article entitled “Effects of ion species and adsorbed gas on dry etching induced damage in GaAs” appearing in Journal",
+   "basis": "scan (OCR word order scrambled) + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 31,
+   "ocr": "Cl,",
+   "fixed": "Cl_{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 39,
+   "ocr": "1x 10—7",
+   "fixed": "1×10^{-7}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 42,
+   "ocr": "Clz",
+   "fixed": "Cl_{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 45,
+   "ocr": "Cl,",
+   "fixed": "Cl_{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 47,
+   "ocr": "C12",
+   "fixed": "Cl_{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 48,
+   "ocr": "Cl-",
+   "fixed": "Cl^{-}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 49,
+   "ocr": "(~2000°",
+   "fixed": "(≈2000°",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 50,
+   "ocr": "50. A Kaufmann",
+   "fixed": "A Kaufmann",
+   "basis": "scan (gutter line number read into text)"
+  },
+  {
+   "col": 6,
+   "line": 56,
+   "ocr": "pA/cm?.",
+   "fixed": "μA/cm^{2}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 57,
+   "ocr": "Xe+/Clz",
+   "fixed": "Xe^{+}/Cl_{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 57,
+   "ocr": "»m/minute.",
+   "fixed": "μm/minute.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 58,
+   "ocr": "zm",
+   "fixed": "μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 60,
+   "ocr": "weil",
+   "fixed": "well",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 68,
+   "ocr": "~5 pm.",
+   "fixed": "≈5 μm.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 2,
+   "ocr": "um",
+   "fixed": "μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 2,
+   "ocr": "3X5",
+   "fixed": "3×5",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 8,
+   "ocr": "um",
+   "fixed": "μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 11,
+   "ocr": "The §",
+   "fixed": "The 5",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 12,
+   "ocr": "pm",
+   "fixed": "μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 13,
+   "ocr": "pm",
+   "fixed": "μm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 35,
+   "ocr": "AJl-",
+   "fixed": "Al-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 36,
+   "ocr": "AIAs",
+   "fixed": "AlAs",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 36,
+   "ocr": "SiOz",
+   "fixed": "SiO_{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 45,
+   "ocr": "Clz",
+   "fixed": "Cl_{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 46,
+   "ocr": "HBr or In.",
+   "fixed": "HBr or I_{2}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 47,
+   "ocr": "CH4:H>",
+   "fixed": "CH_{4}:H_{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 52,
+   "ocr": "An",
+   "fixed": "Δn",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 58,
+   "ocr": "A,",
+   "fixed": "λ,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 59,
+   "ocr": "Amin",
+   "fixed": "A_{min}",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 61,
+   "ocr": "£-% mk / n-S+Amin",
+   "fixed": "(L · λ)/(n · S · A_{min}) = k",
+   "basis": "scan (display formula re-keyed as printed)"
+  },
+  {
+   "col": 7,
+   "line": 64,
+   "ocr": "Amin",
+   "fixed": "A_{min}",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 66,
+   "ocr": "7/S",
+   "fixed": "π/S",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 2,
+   "ocr": "1/e?",
+   "fixed": "1/e^{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 9,
+   "ocr": "Lud 4-L-r / Ww - 0.25-4-S5-A n- SA",
+   "fixed": "W = (L · λ)/(0.25 · n · S · A) = (4 · L · λ)/(n · S · A)",
+   "basis": "scan (display formula re-keyed as printed)"
+  },
+  {
+   "col": 8,
+   "line": 20,
+   "ocr": "L667 and L668 a weakly waveguided surface emitting pages / laser of diameter 5 length about 3 and losses / of about 5%. zm, These quantities yield 1m W~=3.5. per By / pass comparison, the laser of the principal embodiment in- / cludes a 2 diameter, | long cavity with / vatively estimated zm loss of zm 0.9% This a conser- / W 40, than 10 times that of per the pass. yields dis- / closed = structure. more The values previously for W of the / and 5 lasers of the corresponding embodiment 17.8 / and 6.4. pm Thus the smaller principal 2 and 3 lasers of the are / embodiment the first demonstrated j1m princi- / pal vertical are lasers. strongly / waveguiding cavity",
+   "fixed": "L667 and L668 a weakly waveguided surface emitting laser of diameter 5 μm, length about 3 μm and losses per pass of about 5%. These quantities yield W≈3.5. By comparison, the laser of the principal embodiment includes a 2 μm diameter, 1 μm long cavity with a conservatively estimated loss of 0.9% per pass. This yields W≈40, more than 10 times that of the previously disclosed structure. The corresponding values for W of the 3 and 5 μm lasers of the principal embodiment are 17.8 and 6.4. Thus the smaller 2 and 3 μm lasers of the principal embodiment are the first demonstrated strongly waveguiding vertical cavity lasers.",
+   "basis": "scan (OCR word order scrambled) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 34,
+   "ocr": "closed structure An by having a very large refractive index / difference While between the inside and outside of the / waveguide. both the structure described here and",
+   "fixed": "closed structure by having a very large refractive index difference Δn between the inside and outside of the waveguide. While both the structure described here and",
+   "basis": "scan (OCR word order scrambled) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 37,
+   "ocr": "n=3.5",
+   "fixed": "n≈3.5",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 38,
+   "ocr": "n=3.2",
+   "fixed": "n≈3.2",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 39,
+   "ocr": "An",
+   "fixed": "Δn",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 49,
+   "ocr": "An.",
+   "fixed": "Δn.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 58,
+   "ocr": "GaAs AlAs 3.5 2.9",
+   "fixed": "GaAs | 3.5; AlAs | 2.9",
+   "basis": "scan (table rows)"
+  },
+  {
+   "col": 8,
+   "line": 67,
+   "ocr": "IiI-V",
+   "fixed": "III-V",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 6,
+   "ocr": "An.",
+   "fixed": "Δn.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 7,
+   "ocr": "10-A",
+   "fixed": "10·λ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 8,
+   "ocr": "ym,",
+   "fixed": "μm,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 10,
+   "ocr": "tule",
+   "fixed": "rule",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 10,
+   "ocr": "An",
+   "fixed": "Δn",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 16,
+   "ocr": "10-A",
+   "fixed": "10·λ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 17,
+   "ocr": "4/100.",
+   "fixed": "λ/100.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 23,
+   "ocr": "attrays",
+   "fixed": "arrays",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 26,
+   "ocr": "ing: :",
+   "fixed": "ing:",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 9,
+   "line": 33,
+   "ocr": "A;",
+   "fixed": "λ;",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 41,
+   "ocr": "A;",
+   "fixed": "λ;",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 57,
+   "ocr": "»",
+   "fixed": "λ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 61,
+   "ocr": "4eL. » / We= _ a-S A",
+   "fixed": "W = (4 · L · λ)/(n · S · A)",
+   "basis": "scan (display formula re-keyed as printed)"
+  },
+  {
+   "col": 10,
+   "line": 6,
+   "ocr": "4/2,",
+   "fixed": "λ/2,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 21,
+   "ocr": "A;",
+   "fixed": "λ;",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 22,
+   "ocr": "multiple a layer interference mirror epitaxi- / an upper formed said active region; / lower ally and on region interposed be- / a said active an upper spacer and of said / tween region therewith respective ones / mirrors and epitaxial faces to provide of said an mirrors opti- / cal cavity between opposing distance L of / separated by an optical a and predeter- / mined relationship to said wavelength;",
+   "fixed": "an upper multiple layer interference mirror epitaxially formed on said active region; a lower and an upper spacer region interposed between said active region and respective ones of said mirrors and epitaxial therewith to provide an optical cavity between opposing faces of said mirrors separated by an optical distance L of a predetermined relationship to said wavelength; and",
+   "basis": "scan (OCR word order scrambled) + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 41,
+   "ocr": "\\",
+   "fixed": "λ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 44,
+   "ocr": "wae 4.L.",
+   "fixed": "W = (4 · L · λ)/(n · S · A)",
+   "basis": "scan (display formula re-keyed as printed)"
+  },
+  {
+   "col": 10,
+   "line": 60,
+   "ocr": "10-A",
+   "fixed": "10·λ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 60,
+   "ocr": "IIJ-V",
+   "fixed": "III-V",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 9,
+   "ocr": "substrate; <",
+   "fixed": "substrate;",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 11,
+   "line": 12,
+   "ocr": "A;",
+   "fixed": "λ;",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 13,
+   "ocr": "an multiple layer interference mirror epitaxi- / upper formed said active / ally on region;",
+   "fixed": "an upper multiple layer interference mirror epitaxially formed on said active region;",
+   "basis": "scan (OCR word order scrambled) + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 14,
+   "ocr": "and .",
+   "fixed": "and",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 12,
+   "line": 17,
+   "ocr": "10-A",
+   "fixed": "10·λ",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 18,
+   "ocr": "ITI-V",
+   "fixed": "III-V",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "Surface~Emitting",
+   "fixed": "Surface–Emitting",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "TEMoo",
+   "fixed": "TEM_{00}",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "[ST] Tint. C15 oe ... HO01S 3/19",
+   "fixed": "Int. Cl.^{5} H01S 3/19",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "Field of Searels",
+   "fixed": "Field of Search",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 13,
+   "ocr": "PATENTNGO.",
+   "fixed": "PATENT NO.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 13,
+   "ocr": "Letters Patent ts hereby",
+   "fixed": "Letters Patent is hereby",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 13,
+   "ocr": "--preceding-—.",
+   "fixed": "--preceding--.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 13,
+   "ocr": "HARRY F. MANBECK., JR.",
+   "fixed": "HARRY F. MANBECK, JR.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 13,
+   "ocr": "Cammissioner",
+   "fixed": "Commissioner",
+   "basis": "scan"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+  "patent": "Filed 1907-01-29 and issued 1908-02-18 to Lee de Forest, assigned to De Forest Radio Telephone Co. It covers the grid audion: a third electrode, a zigzag platinum-wire grid a, placed between the heated filament F and the plate b of the two-electrode audion of his earlier patents 824,637 and 836,070. This three-electrode tube is the forerunner of the triode. Here it is used only as a detector of wireless telegraph signals, with a condenser in the lead from the tuned circuit; the patent reports that the grid raises sensitivity but offers no explanation, and it relies on a conducting residual gas in the vessel. High-vacuum triodes and the use of the triode as an amplifier and oscillator came from about 1912 onward (Harold Arnold at Western Electric, Irving Langmuir at General Electric, Edwin Armstrong's regenerative circuit). In 1916 a federal court (Marconi Wireless Telegraph Co. of America v. De Forest Radio Telephone & Telegraph Co., S.D.N.Y.) held that the audion infringed John Ambrose Fleming's two-electrode valve patent, US 803,684, and that the Marconi company's three-electrode tubes infringed this patent.",
+  "figs": {
+    "1": "Receiver with the grid audion. Antenna V and earth E feed primary I_{1}; secondary I_{2} and condenser C form the tuned circuit, whose ends go to the filament at terminal 2 and, through condenser C', to the grid a at terminal 1. Battery A heats the filament (minus at 2, plus at 4). The local circuit runs from plate b through terminal 3, battery B (plus toward the plate) and telephone T back to the filament at point 4. The small arc where the grid lead passes the wire from point 4 is a crossover, not a connection.",
+    "2": "The same receiver with a modified tube: a second plate a' on the far side of the filament from plate b takes the place of the grid. The tuned circuit now joins a' (terminal 1) directly, and condenser C' sits in the lead to the filament at terminal 2. The local circuit through b, B and T is as in Fig. 1. In this figure the elevated conductor's label is drawn so it resembles a 1 and the primary is labeled I with no legible subscript; the text calls them V and I_{1}."
+  },
+  "parts": {
+    "a": "The control electrode that makes this tube a triode. The patent states only that its presence was found experimentally to raise sensitivity.",
+    "C'": "Per the text, it stops direct current from battery B flowing through the closed tuned circuit and keeps member a or a' from taking a charge from that battery; with it in place the sound in telephone T was much louder.",
+    "D": "Called evacuated, but the text and claims rely on a conducting gaseous medium between the electrodes: these early audions held residual gas.",
+    "V": "In Fig. 2 this label is drawn so it resembles the numeral 1.",
+    "I_{1}": "In Fig. 2 this label is drawn as I without a legible subscript."
+  },
+  "glossary": [
+    {"term": "space telegraphy", "def": "Wireless (radio) telegraphy: Morse signals sent by electromagnetic waves rather than over wires."},
+    {"term": "audion", "def": "De Forest's name for his gas-containing thermionic tube: a heated filament and a cold plate in a glass bulb, here with a grid between them."},
+    {"term": "oscillation detector", "def": "A device that turns the received high-frequency oscillations into a current a telephone receiver can make audible."},
+    {"term": "elevated conductor", "def": "The antenna wire."},
+    {"term": "condenser", "def": "A capacitor. Its armatures are its plates."},
+    {"term": "tuned receiving circuit", "def": "The secondary coil and condenser forming a resonant circuit that selects the frequency of the wanted station."},
+    {"term": "closed circuit", "def": "In this patent, a conducting loop through which direct current could flow; the inserted condenser C' interrupts it for direct current."},
+    {"term": "local circuit", "def": "The circuit at the receiver holding its own battery and indicating device, here plate b, battery B and telephone T."},
+    {"term": "grid", "def": "A perforated or zigzag wire electrode between filament and plate; a small voltage on it changes the current reaching the plate."},
+    {"term": "telephone receiver", "def": "An earphone."},
+    {"term": "incandescence", "def": "Glowing from heat; here the filament is heated by battery A so that it emits electrons."},
+    {"term": "by mesne assignments", "def": "Through one or more intermediate transfers of ownership."}
+  ]
+}

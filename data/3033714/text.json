@@ -1,0 +1,887 @@
+{
+ "pn": "3033714",
+ "number": "3,033,714",
+ "title": "DIODE TYPE SEMICONDUCTOR DEVICE",
+ "inventors": [
+  "Reona Ezaki",
+  "Yuriko Kurose"
+ ],
+ "assignee": "Sony Corporation, Tokyo, Japan, a corporation of Japan",
+ "filed": "1958-05-08",
+ "issued": "1962-05-08",
+ "appl_no": "733,994",
+ "priority": "Claims priority, application Japan Sept. 28, 1957",
+ "int_cl": null,
+ "us_cl": "148—33",
+ "refs_patents": [
+  {
+   "no": "2,505,633",
+   "date": "Apr. 25, 1950",
+   "name": "Whaley",
+   "cl": ""
+  },
+  {
+   "no": "2,524,035",
+   "date": "Oct. 3, 1950",
+   "name": "Bardeen et al.",
+   "cl": ""
+  },
+  {
+   "no": "2,567,970",
+   "date": "Sept. 18, 1951",
+   "name": "Scaff et al.",
+   "cl": ""
+  },
+  {
+   "no": "2,744,970",
+   "date": "May 8, 1956",
+   "name": "Shockley",
+   "cl": ""
+  },
+  {
+   "no": "2,754,431",
+   "date": "July 10, 1956",
+   "name": "Johnson",
+   "cl": ""
+  },
+  {
+   "no": "2,790,037",
+   "date": "Apr. 23, 1957",
+   "name": "Shockley",
+   "cl": ""
+  },
+  {
+   "no": "2,843,516",
+   "date": "July 15, 1958",
+   "name": "Herlet",
+   "cl": ""
+  },
+  {
+   "no": "2,870,052",
+   "date": "Jan. 20, 1959",
+   "name": "Rittmann",
+   "cl": ""
+  },
+  {
+   "no": "2,890,976",
+   "date": "June 16, 1959",
+   "name": "Lehovec",
+   "cl": ""
+  }
+ ],
+ "refs_foreign": [
+  {
+   "no": "707,008",
+   "date": "Apr. 17, 1954",
+   "country": "Great Britain",
+   "cl": ""
+  }
+ ],
+ "refs_other": [
+  "Johnson and McKay: Physical Review, vol. 93, No. 4, February 15, 1954, pages 668 to 672."
+ ],
+ "examiners": "",
+ "claims_count": 7,
+ "drawing_figures": 7,
+ "abstract": "",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "col": 1,
+     "line": 10,
+     "text": "This invention relates to a semiconductor device and more particularly to a diode type semiconductor device."
+    },
+    {
+     "col": 1,
+     "line": 12,
+     "text": "p-n Junctions of germanium, silicon or other semiconductor materials have superior rectification effect so that such a semiconductor device has been used as a rectifier. The rectification characteristics of such a diode has satisfactorily been explained by Shockley’s theory. That is, if the p-type region is maintained positive potential with respect to the n-type region, the minority carriers are injected so that the resistance of the diode becomes low. On the contrary, if the polarity of the electrodes is reversed, the resistance of the diode becomes very high to permit merely to pass the saturated current. Moreover, if the reverse voltage is increased, owing to a strong electric field in the space charge layer, electron multiplication or field emission of electrons occur to cause the so-called break-down, whereby the resistance in the reverse direction is appreciably decreased. The reverse breakdown voltage of the diode is mainly decided by the impurity concentration in the semiconductor. In most cases, diodes which have the impurity concentration of less than 10^{-7} cm.^{-3} in the high resistivity side or the reverse breakdown voltage of at least more than 1 volt have actually been used."
+    },
+    {
+     "col": 1,
+     "line": 34,
+     "text": "In accordance with this invention, the p-n junction contains the impurity concentration from 10^{18} cm.^{-3} to 10^{20} cm.^{-3} in the high resistivity side of which the reverse direction is more conductive than the forward."
+    },
+    {
+     "col": 1,
+     "line": 38,
+     "text": "The impurity aforesaid means doner type impurity in n-type region and accepter type impurity in p-type region. The reverse direction means the direction in which the plus potential is applied to the n-type region with respect to the p-type region. The forward direction, on the contrary, means the direction in which the plus potential is applied to the p-type region with respect to the n-type region."
+    },
+    {
+     "col": 1,
+     "line": 46,
+     "text": "One object of this invention is to provide a diode type semiconductor device in which characteristic in the reverse direction is substantially the same as that in the forward direction so as to be the symmetrical rectification characteristics."
+    },
+    {
+     "col": 1,
+     "line": 51,
+     "text": "Another object of this invention is to provide a diode type semiconductor device which has a negative resistance in the positive voltage of the range from about 0.03 volt to about 0.2 volt."
+    },
+    {
+     "col": 1,
+     "line": 55,
+     "text": "A further object of this invention is to provide a diode type semiconductor device which has no transit and no minority carrier storage time and is independent of ambient gas and light incident and is insensitive to temperature change."
+    },
+    {
+     "col": 1,
+     "line": 60,
+     "text": "A still further object of this invention is to provide a diode type semiconductor device which can be available without depending upon frequencies to be used."
+    },
+    {
+     "col": 1,
+     "line": 63,
+     "text": "Other objects, features and advantages of this invention will be more fully apparent from the following detailed description taken in connection with the accompanying drawings, in which:"
+    },
+    {
+     "col": 1,
+     "line": 67,
+     "text": "FIG. 1 is a diagrammatical sectional view of a diode type semiconductor device according to this invention."
+    },
+    {
+     "col": 1,
+     "line": 69,
+     "text": "FIGS. 2 to 4 illustrate various characteristic curves of a diode type semiconductor device according to this invention."
+    },
+    {
+     "col": 2,
+     "line": 1,
+     "text": "FIG. 5 shows curves illustrating the negative resistance characteristic of a diode according to this invention."
+    },
+    {
+     "col": 2,
+     "line": 3,
+     "text": "FIG. 6 shows a connection diagram of an oscillation circuit, by way of example, showing how to utilize a diode according to this invention, and"
+    },
+    {
+     "col": 2,
+     "line": 6,
+     "text": "FIG. 7 is the equivalent circuit of the oscillation circuit shown in FIG. 6."
+    },
+    {
+     "col": 2,
+     "line": 8,
+     "text": "A diode type semiconductor device according to this invention is made by the alloying technique so that the construction of the diode can be diagrammatically shown in FIG. 1. That is, the p-n junction of the diode is formed between a recrystalized germanium piece 3 and a p-type base germanium piece 1. 2 is an alloy metal containing a donor impurity and indium containing phosphorus was used as this metal in an experiment. 4 is the base metal; 5 is a lead wire for the p-type side and 6 a lead wire for the n-type side. It can be supposed that the impurity concentration in the n-type recrystalized germanium piece will be 10^{19} cm.^{-3} or more."
+    },
+    {
+     "col": 2,
+     "line": 20,
+     "text": "The heat treating temperature in the alloying techniques is usually 500° C. to 700° C. but the current voltage characteristic of the diode varies appreciably according to the treating temperature."
+    },
+    {
+     "col": 2,
+     "line": 24,
+     "text": "In FIGS. 2 to 5, abscissa shows the plus voltage which is applied to the p-type side with respect to the n-type side. This is corresponding to the so-called forward direction in an ordinary p-n junction."
+    },
+    {
+     "col": 2,
+     "line": 28,
+     "text": "In every specimen, it will be recognized at the voltage more than about 0.3 volt in this direction that the current coincides quantitatively with the ordinary rectification equation"
+    },
+    {
+     "col": 2,
+     "line": 33,
+     "text": "I=I_{s}(exp (qV/kT)-1) (1)"
+    },
+    {
+     "col": 2,
+     "line": 35,
+     "text": "where"
+    },
+    {
+     "col": 2,
+     "line": 36,
+     "text": "q=electronic charge"
+    },
+    {
+     "col": 2,
+     "line": 37,
+     "text": "k=Boltzmann’s constant"
+    },
+    {
+     "col": 2,
+     "line": 38,
+     "text": "T=temperature"
+    },
+    {
+     "col": 2,
+     "line": 40,
+     "text": "According to this invention a rectifier made by using germanium has particular advantages below about 0.2 volt in the forward direction and also in the reverse direction."
+    },
+    {
+     "col": 2,
+     "line": 44,
+     "text": "Some embodiments of germanium diodes according to this invention are as follows:"
+    },
+    {
+     "col": 2,
+     "line": 46,
+     "text": "p-Type germanium having the specific resistivity less than 0.01 ohm-cm. or the acceptor concentration more than 10^{18} cm.^{-3} is used and p-n junction is formed thereon by the alloying techniques."
+    },
+    {
+     "col": 2,
+     "line": 50,
+     "text": "The various current voltage characteristics as shown in FIGS. 2, 3 and 4 are obtained according to the impurity concentration."
+    },
+    {
+     "col": 2,
+     "line": 53,
+     "text": "Namely, FIG. 2 shows the characteristic curve of the diode type semiconductor device, the impurity concentration of the p-type region of which is about 1×10^{18} cm.^{-3}."
+    },
+    {
+     "col": 2,
+     "line": 56,
+     "text": "FIG. 3 shows the characteristic curve of the semiconductor device, the impurity concentration of the p-type region of which is about 2×10^{18} cm.^{-3}."
+    },
+    {
+     "col": 2,
+     "line": 59,
+     "text": "FIGS. 4 and 5 respectively show characteristic curve of a semiconductor device, the impurity concentration of the p-type region of which is 10^{19} cm.^{-3}."
+    },
+    {
+     "col": 2,
+     "line": 62,
+     "text": "From the above characteristic curve shown in the drawings the following advantages will be apparent:"
+    },
+    {
+     "col": 2,
+     "line": 64,
+     "text": "(1) The specimen shown in FIG. 2 has substantially the same characteristic in the reverse direction as that in the forward."
+    },
+    {
+     "col": 2,
+     "line": 67,
+     "text": "The current in the reverse direction is mainly based upon the internal field emission."
+    },
+    {
+     "col": 2,
+     "line": 69,
+     "text": "(2) The specimen shown in FIG. 3 has lower resistance in the reverse direction than that in the forward."
+    },
+    {
+     "col": 2,
+     "line": 71,
+     "text": "This is because of the fact that the increased impurity concentration is increased to reduce the width of the p-n junction, thereby urging larger amount of the internal field emission current."
+    },
+    {
+     "col": 3,
+     "line": 3,
+     "text": "(3) The specimen shown in FIGS. 4 and 5 has not only lower resistance in the reverse direction than that in the forward but also has the dynatrontype negative resistance, in the forward, over the voltage range from about 0.03 to about 0.2 volt. The curve 1 in FIG. 5 is plotted at the temperature of 25° C. and the curve 11 at the temperature of -75° C. Such a tendency of the negative resistance will be seen in the case that the junction is made by alloying technique using germanium of the impurity concentration of 5×10^{18} cm.^{-3} to 2×10^{18} cm.^{-3}. In this case, the transistion region width of the p-n junction decreases to the order of 2×10^{-6} cm. and it must be supposed that the built-in field will cause the internal field emission even in the case of no applied voltage. Accordingly, the internal field emission current will be seen not only in the reverse direction but also at a low voltage even in the forward."
+    },
+    {
+     "col": 3,
+     "line": 20,
+     "text": "Experiments show that a satisfactory p-n junction can not be obtained by the alloying technique of other techniques in the case of using the impurity concentration of more than 10^{20} cm.^{-3}. The similar semiconductor devices as shown in FIGS. 2 to 5 can be obtained, according to the impurity concentration, by the alloying technique using indium to n-type germanium containing the donor impurity than 10^{18} cm.^{-3}."
+    },
+    {
+     "col": 3,
+     "line": 28,
+     "text": "It will be understood that semiconductor devices having analogous characteristics can be obtained by using other semiconductors than germanium and silicon."
+    },
+    {
+     "col": 3,
+     "line": 31,
+     "text": "The operating mechanism of the diode type semiconductor device according to this invention is not made by diffusion or drift of the minority carrier as known heretofore so that the negative resistance of the diode according to this invention is fundamentarily different from the negative resistance device based upon the transistor action and therefore has various advantages. That is, the diode of this invention has no appreciable change in characteristics by the temperature change and light beam and also shows good frequency response in spite of having a comparatively large capacitance."
+    },
+    {
+     "col": 3,
+     "line": 42,
+     "text": "The diode type semiconductor device according to this invention has the characteristics as referred to in FIGS. 4 and 5 so that it will be understood that the diode can be used as an oscillator by connecting an oscillation circuit thereto and that the diode with an adequate connection can operate as a relaxation oscillator. It is also apparent that the diode of this invetnion is adapted as a switching element owing to the N-shape negative resistance."
+    },
+    {
+     "col": 3,
+     "line": 51,
+     "text": "Especially, it is one of the advantages of this diode that it can operate in the stable condition at a comparatively small electric power."
+    },
+    {
+     "col": 3,
+     "line": 55,
+     "text": "FIG. 6 shows a connection diagram of an oscillator, by way of example, using a diode type semiconductor device according to this invention. That is, parallel to the diode 7 according to this invention is connected a series circuit composing of an inductance coil 8 and a capacitor 9. 10 is a direct current source."
+    },
+    {
+     "col": 3,
+     "line": 61,
+     "text": "FIG. 7 shows an equivalent circuit of the oscillation circuit shown in FIG. 6. The diode 7 according to this invention is illustrated by the circuit in the dotted line. That is, the diode may be considered as a parallel circuit composing of the negative resistance 11 and the capacitor 12 surrounded by the dotted line."
+    },
+    {
+     "col": 3,
+     "line": 67,
+     "text": "The diode type semiconductor device according to this invention is concluded to have the following advantages:"
+    },
+    {
+     "col": 3,
+     "line": 70,
+     "text": "(1) The diode will operate at a very small electric power."
+    },
+    {
+     "col": 3,
+     "line": 72,
+     "text": "(2) The diode can be manufactured easily and cheaply."
+    },
+    {
+     "col": 3,
+     "line": 73,
+     "text": "(3) Oscillators using the diodes can easily oscillate at a comparatively higher frequency, for example as 20 mc./s."
+    },
+    {
+     "col": 4,
+     "line": 1,
+     "text": "(4) The diode does not depend upon the temperature in use as the minority carrier is not used."
+    },
+    {
+     "col": 4,
+     "line": 3,
+     "text": "While we have explained a particular embodiment of our invention, it will be understood, of course, that we do not wish to be limited thereto since many modifications may be made and we, therefore, contemplate by the appended claims to cover any such modifications as within the spirit and scope of our invention."
+    }
+   ]
+  },
+  {
+   "heading": "CERTIFICATE OF CORRECTION",
+   "paras": [
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "text": "UNITED STATES PATENT OFFICE"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "text": "Patent No. 3,033,714 May 8, 1962"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "text": "Reona Ezaki et al."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "text": "It is hereby certified that error appears in the above numbered patent requiring correction and that the said Letters Patent should read as corrected below."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "text": "Column 1, line 38, for \"doner\" read -- donor --; colum 3, line 27, after \"impurity\" insert -- of more --; line 48, for \"invetnion\" read -- invention --."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "text": "Signed and sealed this 2nd day of October 1962."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "text": "(SEAL) Attest:"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "text": "ERNEST W. SWIDER, Attesting Officer"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "text": "DAVID L. LADD, Commissioner of Patents"
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 1,
+   "line": 67,
+   "text": "FIG. 1 is a diagrammatical sectional view of a diode type semiconductor device according to this invention."
+  },
+  {
+   "fig": "2",
+   "col": 1,
+   "line": 69,
+   "text": "FIGS. 2 to 4 illustrate various characteristic curves of a diode type semiconductor device according to this invention."
+  },
+  {
+   "fig": "3",
+   "col": 1,
+   "line": 69,
+   "text": "FIGS. 2 to 4 illustrate various characteristic curves of a diode type semiconductor device according to this invention."
+  },
+  {
+   "fig": "4",
+   "col": 1,
+   "line": 69,
+   "text": "FIGS. 2 to 4 illustrate various characteristic curves of a diode type semiconductor device according to this invention."
+  },
+  {
+   "fig": "5",
+   "col": 2,
+   "line": 1,
+   "text": "FIG. 5 shows curves illustrating the negative resistance characteristic of a diode according to this invention."
+  },
+  {
+   "fig": "6",
+   "col": 2,
+   "line": 3,
+   "text": "FIG. 6 shows a connection diagram of an oscillation circuit, by way of example, showing how to utilize a diode according to this invention, and"
+  },
+  {
+   "fig": "7",
+   "col": 2,
+   "line": 6,
+   "text": "FIG. 7 is the equivalent circuit of the oscillation circuit shown in FIG. 6."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 4,
+   "line": 10,
+   "depends": null,
+   "text": "1. An electronic device including a highly doped p-n junction formed by adjacent portions of semi-conductor materials oppositely doped, one portion of which has an impurity concentration of 2×10^{18} to 10^{20} per cubic centimeter and the other oppositely doped portion of which has an impurity concentration in excess of 10^{19} per cubic centimeter and having a junction width of about 200 angstroms or less."
+  },
+  {
+   "n": 2,
+   "col": 4,
+   "line": 18,
+   "depends": null,
+   "text": "2. An electronic device comprising a p-n junction formed by adjacent semi-conductor portions oppositely doped to respective donor and acceptor type impurity concentrations in which one portion is doped in the range of 2×10^{18} to 10^{20} per cubic centimeter and the other portion is doped to an impurity concentration in excess of said one portion and having a junction width of about 200 angstroms or less."
+  },
+  {
+   "n": 3,
+   "col": 4,
+   "line": 26,
+   "depends": null,
+   "text": "3. An electronic device comprising a p-n junction formed by adjacent semi-conductor portions oppositely doped to respective donor and acceptor type impurity concentrations in which one portion is doped in the range of 10^{19} to 10^{20} per cubic centimeter and the other portion is doped to an impurity concentration at least as great as said one portion and having a junction width of about 200 angstroms or less."
+  },
+  {
+   "n": 4,
+   "col": 4,
+   "line": 34,
+   "depends": null,
+   "text": "4. An electronic device including a highly doped p-n junction formed of semi-conductor type material having one portion thereof of higher resistivity and lower impurity concentration than the remaining portion thereof, said one portion having a resistivity of about .01 ohm centimeter or less with an impurity concentration of 2×10^{18} to 10^{20} per cubic centimeter and having a transition region width of about 200 angstroms or less."
+  },
+  {
+   "n": 5,
+   "col": 4,
+   "line": 42,
+   "depends": null,
+   "text": "5. An alloyed p-n junction in semi-conductor material comprising a first body of semi-conductor material having an impurity concentration of about 2×10^{18} to 10^{20} per cubic centimeter and a second body of semi-conductor material having an impurity concentration in excess of 10^{19} per cubic centimeter with a resistivity lower than the resistivity of the first body and having a transition region width of about 200 angstroms or less."
+  },
+  {
+   "n": 6,
+   "col": 4,
+   "line": 50,
+   "depends": null,
+   "text": "6. An electronic device including a p-n junction having a transition region width of about 200 angstroms or less formed by adjacent semi-conductor portions oppositely doped and in which the semi-conductor portions on opposite sides of said p-n junction are doped to respective donor and acceptor type impurity concentrations in amounts of 2×10^{18} per cubic centimeter or greater."
+  },
+  {
+   "n": 7,
+   "col": 4,
+   "line": 58,
+   "depends": null,
+   "text": "7. An electronic device including a p-n junction having a transition region width of about 200 angstroms or less formed by adjacent semi-conductor portions oppositely doped and in which the side of the junction formed of the semi-conductor portion having the higher resistivity of the two sides has an impurity concentration in an amount in the range of 2×10^{18} to 10^{20} per cubic centimeter and the other side has a greater impurity concentration."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "col": 1,
+   "line": 14,
+   "ocr": "as a. rectifier",
+   "fixed": "as a rectifier",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 15,
+   "ocr": "such.a diode",
+   "fixed": "such a diode",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 31,
+   "ocr": "10-7 cm.-3",
+   "fixed": "10^{-7} cm.^{-3}",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 1,
+   "line": 35,
+   "ocr": "1018 cm.—3",
+   "fixed": "10^{18} cm.^{-3}",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 1,
+   "line": 36,
+   "ocr": "102° cm.—3",
+   "fixed": "10^{20} cm.^{-3}",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 1,
+   "line": 46,
+   "ocr": "a.diode",
+   "fixed": "a diode",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 55,
+   "ocr": "this Invention",
+   "fixed": "this invention",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 58,
+   "ocr": "insensitive to. temperature",
+   "fixed": "insensitive to temperature",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 69,
+   "ocr": "various- characteristic",
+   "fixed": "various characteristic",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 8,
+   "ocr": "semiconductor. device according to . this",
+   "fixed": "semiconductor device according to this",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 17,
+   "ocr": "for the. n-type side. It. can",
+   "fixed": "for the n-type side. It can",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 19,
+   "ocr": "1049 cm.-3",
+   "fixed": "10^{19} cm.^{-3}",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 2,
+   "line": 20,
+   "ocr": "_. The heat",
+   "fixed": "The heat",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 24,
+   "ocr": "Tn FIGS.",
+   "fixed": "In FIGS.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 29,
+   "ocr": "about 0:3 volt",
+   "fixed": "about 0.3 volt",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 33,
+   "ocr": "= qv _ T=Is(exp (fF) 1)",
+   "fixed": "I=I_{s}(exp (qV/kT)-1)",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 48,
+   "ocr": "10'8 cm.—3",
+   "fixed": "10^{18} cm.^{-3}",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 2,
+   "line": 49,
+   "ocr": "thereon'by",
+   "fixed": "thereon by",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 55,
+   "ocr": "‘is about 11018 cm.-3,",
+   "fixed": "is about 1×10^{18} cm.^{-3}.",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 2,
+   "line": 58,
+   "ocr": "2 1018 em.-3,",
+   "fixed": "2×10^{18} cm.^{-3}.",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 2,
+   "line": 59,
+   "ocr": "FIGS, 4 and 5",
+   "fixed": "FIGS. 4 and 5",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 60,
+   "ocr": "impurity-concentration",
+   "fixed": "impurity concentration",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 61,
+   "ocr": "1019 cm.—3,",
+   "fixed": "10^{19} cm.^{-3}.",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 2,
+   "line": 62,
+   "ocr": "‘From",
+   "fixed": "From",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 64,
+   "ocr": "FIG. 2 has. substantially",
+   "fixed": "FIG. 2 has substantially",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 66,
+   "ocr": "in. the. forward:",
+   "fixed": "in the forward.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 72,
+   "ocr": "pn",
+   "fixed": "p-n",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 6,
+   "ocr": "over the. voltage",
+   "fixed": "over the voltage",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 9,
+   "ocr": "temperature of 75° C.",
+   "fixed": "temperature of -75° C.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 12,
+   "ocr": "5x 10% cm.-3 to 2108 cm.-3.",
+   "fixed": "5×10^{18} cm.^{-3} to 2×10^{18} cm.^{-3}.",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 3,
+   "line": 14,
+   "ocr": "210-6 cm.",
+   "fixed": "2×10^{-6} cm.",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 3,
+   "line": 20,
+   "ocr": "that.a satisfactory",
+   "fixed": "that a satisfactory",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 23,
+   "ocr": "102° cm.—?.",
+   "fixed": "10^{20} cm.^{-3}.",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 3,
+   "line": 27,
+   "ocr": "1048 cm.-3. .",
+   "fixed": "10^{18} cm.^{-3}.",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 3,
+   "line": 28,
+   "ocr": "It. will",
+   "fixed": "It will",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 54,
+   "ocr": "small electric power. .",
+   "fixed": "small electric power.",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 59,
+   "ocr": "and.a capacitor",
+   "fixed": "and a capacitor",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 60,
+   "ocr": "direct current. source",
+   "fixed": "direct current source",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 61,
+   "ocr": "equivalent circuit: of",
+   "fixed": "equivalent circuit of",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 70,
+   "ocr": "at.a very",
+   "fixed": "at a very",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 74,
+   "ocr": "higher. frequency",
+   "fixed": "higher frequency",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 75,
+   "ocr": "20 mce./s.",
+   "fixed": "20 mc./s.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 6,
+   "ocr": "contemplate. by",
+   "fixed": "contemplate by",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 13,
+   "ocr": "’ impurity concentration of 21038 to 1070",
+   "fixed": "impurity concentration of 2×10^{18} to 10^{20}",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 4,
+   "line": 15,
+   "ocr": "10/9",
+   "fixed": "10^{19}",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 4,
+   "line": 21,
+   "ocr": "one-portion",
+   "fixed": "one portion",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 22,
+   "ocr": "2X 1018 to 1029",
+   "fixed": "2×10^{18} to 10^{20}",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 4,
+   "line": 28,
+   "ocr": "impurity. con-",
+   "fixed": "impurity con-",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 30,
+   "ocr": "1019 to 1029",
+   "fixed": "10^{19} to 10^{20}",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 4,
+   "line": 38,
+   "ocr": "about .01 obm",
+   "fixed": "about .01 ohm",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 40,
+   "ocr": "210-8 to 102°",
+   "fixed": "2×10^{18} to 10^{20}",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 4,
+   "line": 44,
+   "ocr": "210% to 10°",
+   "fixed": "2×10^{18} to 10^{20}",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 4,
+   "line": 47,
+   "ocr": "1019 per cubic",
+   "fixed": "10^{19} per cubic",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 4,
+   "line": 57,
+   "ocr": "21018 per cubic",
+   "fixed": "2×10^{18} per cubic",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  },
+  {
+   "col": 4,
+   "line": 60,
+   "ocr": "formed by. adjacent",
+   "fixed": "formed by adjacent",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 64,
+   "ocr": "21038 to 102°",
+   "fixed": "2×10^{18} to 10^{20}",
+   "basis": "scan (superscripts lost in OCR and Google Patents)"
+  }
+ ]
+}

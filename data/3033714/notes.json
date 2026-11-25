@@ -1,0 +1,78 @@
+{
+  "patent": "Filed 1958-05-08 (Japanese priority 1957-09-28) and issued 1962-05-08 to Leo Esaki, printed here as Reona Ezaki, and Yuriko Kurose, assigned to Sony Corporation. It covers the tunnel diode, also called the Esaki diode: a germanium p-n junction doped so heavily on both sides that the transition region is about 200 angstroms or less, so electrons tunnel through it (the patent's \"internal field emission\"). The result is a reverse direction that conducts better than the forward and, at the highest doping, an N-shaped forward characteristic with negative resistance between about 0.03 and 0.2 V (FIGS. 4-5). Esaki reported the effect in \"New Phenomenon in Narrow Germanium p-n Junctions\", Physical Review 109, 603 (1958), and shared the 1973 Nobel Prize in Physics with Ivar Giaever and Brian Josephson for discoveries on tunneling in solids. The claims define it by doping ranges and junction width, not by structure.",
+  "figs": {
+    "1": "Section of the alloyed diode, not to scale. The hatched slab 1 is the heavily doped p-type wafer. The hatched cap 2 is the alloyed pellet, and the thin lens-shaped layer 3 under it is n-type germanium regrown from the melt; the junction is the lower boundary of 3. Layer 4 on the back of the wafer and leads 5 and 6 are the contacts to the p and n sides.",
+    "2": "Current I in mA against voltage V applied to the p side; positive V is the conventional forward direction, negative V the reverse. Forward current stays near zero up to about 0.3 V, while reverse current starts near -0.1 V and reaches -5 mA near -0.4 V, so the curve is close to point-symmetric about the origin.",
+    "3": "Same axes as FIG. 2 for a more heavily doped p side. Reverse current now rises at a smaller voltage than in FIG. 2 and reaches -5 mA near -0.3 V, while the forward knee is still near 0.25-0.3 V: the reverse direction is the better conductor.",
+    "4": "Same axes with the current scale doubled to 10 mA. The reverse current is steep, about -10 mA at -0.1 V. In the forward direction the current rises to a small hump, falls to a shallow minimum near 0.15-0.2 V and then rises again; FIG. 5 shows this region enlarged.",
+    "5": "The forward characteristic of the FIG. 4 diode on an expanded scale (mA against V up to 0.3 V). Solid curve I is at 25 deg C and dashed curve II at -75 deg C; the zigzag leaders from I and II end on the solid and dashed curves. A and A' mark the current peaks (about 1.0 and 1.5 mA, near 0.03 V), B and B' the valleys (near 0.16 and 0.19 V); between peak and valley the slope is negative. As drawn, the curves start on the current axis at about 0.4 mA rather than at the origin.",
+    "6": "Oscillator: diode 7, the series branch of coil 8 and capacitor 9, and DC source 10 are all connected across the same two rails. Capacitor 9 blocks DC, so source 10 biases only the diode, which has to sit in the negative-resistance range of FIG. 5 for the circuit to oscillate; coil 8 and capacitor 9 set the frequency.",
+    "7": "FIG. 6 with diode 7 replaced by its small-signal model, drawn inside the dotted box: negative resistance 11 in parallel with capacitor 12. With the coil and capacitor outside the box, the circuit is a parallel resonant loop whose losses are cancelled by the negative resistance. Series resistance and lead inductance of a real diode are not drawn."
+  },
+  "parts": {
+    "2": "The text says indium containing phosphorus was used as this metal in an experiment; the phosphorus is the donor.",
+    "3": "\"recrystalized\" is the patent's spelling. It is the n side of the junction, with an impurity concentration supposed by the text to be 10^{19} cm^{-3} or more.",
+    "I": "Printed in the text as a bold \"1\" (\"the curve 1 in FIG. 5\"); in the drawing it is Roman I. Plotted at 25 deg C.",
+    "II": "Printed in the text as a bold \"11\"; in the drawing it is Roman II. Plotted at -75 deg C.",
+    "A": "Not named in the text; marks the current peak of curve I.",
+    "A'": "Not named in the text; marks the current peak of curve II.",
+    "B": "Not named in the text; marks the current minimum (valley) of curve I.",
+    "B'": "Not named in the text; marks the current minimum (valley) of curve II.",
+    "11": "The negative differential resistance of the diode between peak and valley in FIG. 5.",
+    "12": "In a real tunnel diode this is mainly the capacitance of the very thin junction; the text notes the diode has a comparatively large capacitance."
+  },
+  "glossary": [
+    {
+      "term": "tunnel diode (Esaki diode)",
+      "def": "A p-n junction with both sides degenerately doped, so thin that carriers cross it by quantum-mechanical tunneling rather than by diffusion over the barrier. Its forward current rises to a peak, falls to a valley and then rises again as in an ordinary diode."
+    },
+    {
+      "term": "internal field emission",
+      "def": "The patent's term for tunneling of electrons through the junction's energy barrier under the strong built-in or applied field; the same process as Zener breakdown."
+    },
+    {
+      "term": "negative resistance",
+      "def": "A region of a current-voltage curve where current falls as voltage rises (negative slope). Connected to a resonant circuit, it supplies energy and sustains oscillation."
+    },
+    {
+      "term": "dynatron-type negative resistance",
+      "def": "Negative resistance that appears as an N-shaped current-voltage curve, stable under voltage bias, named after the dynatron tetrode-tube oscillator, which has such a curve."
+    },
+    {
+      "term": "peak and valley",
+      "def": "The current maximum (here A, A') and the following minimum (B, B') that bound the negative-resistance region."
+    },
+    {
+      "term": "backward diode",
+      "def": "A diode, like that of FIG. 3, that conducts better in the reverse direction than in the forward at small voltages."
+    },
+    {
+      "term": "alloying technique",
+      "def": "Making a junction by melting a metal pellet containing the opposite dopant onto a semiconductor wafer; on cooling, a thin doped layer of the semiconductor regrows from the melt."
+    },
+    {
+      "term": "impurity concentration",
+      "def": "Dopant atoms per cubic centimetre: donors on the n side, acceptors on the p side. Germanium has about 4.4 x 10^{22} atoms per cm^{3}, so 10^{19} cm^{-3} is roughly one dopant per few thousand atoms."
+    },
+    {
+      "term": "transition region width",
+      "def": "Width of the depletion (space-charge) layer at the junction. The claims set it at about 200 angstroms (2 x 10^{-6} cm, 20 nm) or less."
+    },
+    {
+      "term": "minority carrier storage time",
+      "def": "Delay in switching an ordinary diode off while injected minority carriers recombine or are swept out. A tunnel diode's current does not rely on minority carriers, so it has no such delay."
+    },
+    {
+      "term": "Shockley's theory / rectification equation",
+      "def": "The ideal-diode law I = I_{s}(exp(qV/kT) - 1) for current carried by diffusion of injected minority carriers."
+    },
+    {
+      "term": "relaxation oscillator",
+      "def": "An oscillator that switches abruptly between two states as a capacitor or inductor charges and discharges, rather than ringing sinusoidally."
+    },
+    {
+      "term": "ma, mc./s.",
+      "def": "Milliampere; megacycles per second (MHz)."
+    }
+  ]
+}

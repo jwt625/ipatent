@@ -1,0 +1,27 @@
+{
+ "pn": "1860123",
+ "inventors": [
+  {
+   "name": "Hidetsugu Yagi",
+   "printed": "HIDETSUGU YAGI, OF SENDAI, JAPAN",
+   "city": "Sendai",
+   "region": null,
+   "country": "JP"
+  }
+ ],
+ "assignees": [
+  {
+   "name": "Radio Corporation of America",
+   "printed": "RADIO CORPORATION OF AMERICA, OF NEW YORK, N. Y., A CORPORATION OF DELAWARE",
+   "org": "RCA",
+   "kind": "company",
+   "city": "New York",
+   "region": "NY",
+   "country": "US"
+  }
+ ],
+ "source": {
+  "page": 1,
+  "where": "header of printed page 1 (inventor, assignor to)"
+ }
+}

@@ -1,6 +1,6 @@
 """Stage 6: build the gallery (index.html) and one self-contained viewer per patent (p/<pn>.html).
 
-Usage: python3 -I pipeline/build.py [--only <pn> ...]
+Usage: python3 -I pipeline/build.py [--only <pn> ...] [--complete]
 index.html holds light records (bibliography, counts, front-page trace) and links to p/<pn>.html;
 each patent page embeds its own scans, crops, traces and text, so every file works from file://.
 Reads data/<pn>/{meta,text,figures,notes}.json, data/<pn>/traces/fig-<id>.json,
@@ -234,7 +234,8 @@ def load_patent(pdir: Path) -> dict:
 
 GROUPS = ["Cray", "Impact and royalties", "Classic products", "Industry legends",
           "Robot wrists", "Mechanosynthesis and mechanical computing", "Aircraft structures",
-          "Bell Labs", "Lasers and integrated optics", "Chips and microdevices", "Forum favorites"]
+          "Bell Labs", "Lasers and integrated optics", "Chips and microdevices", "Radio and television",
+          "Computing and cryptography", "Science and medicine", "Electric light and power", "Forum favorites"]
 
 
 def place(e: dict) -> str:
@@ -277,6 +278,8 @@ def page_html(pats: list, site: dict, fonts: str = "fonts/") -> str:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", nargs="*", help="rebuild only these patent pages (index.html is always rebuilt)")
+    ap.add_argument("--complete", action="store_true",
+                    help="register only patents with every figure traced (keep part-finished batches out of the gallery)")
     a = ap.parse_args()
     dirs = [d for d in sorted((ROOT / "data").iterdir()) if (d / "text.json").exists() and (d / "figures.json").exists()]
     lights = []
@@ -287,6 +290,10 @@ def main() -> None:
         except Exception as e:  # a patent still in progress must not block the others
             print(f"{d.name}: SKIPPED ({type(e).__name__}: {e})")
             continue
+        nt = sum(1 for f in p["figures"] if f["trace"])
+        if a.complete and nt < len(p["figures"]):
+            print(f"{d.name}: SKIPPED (incomplete: {nt}/{len(p['figures'])} figures traced)")
+            continue
         lights.append(light(p))
         for f in p["figures"]:
             f.pop("card")  # gallery-only
@@ -294,7 +301,6 @@ def main() -> None:
             continue
         out = ROOT / "p" / f"{p['pn']}.html"
         out.write_text(page_html([p], {"home": "../index.html"}, "../fonts/"))
-        nt = sum(1 for f in p["figures"] if f["trace"])
         nm = sum(len(x["mentions"]) for x in p["parts"].values())
         print(f"{p['pn']}: {len(p['paras'])} paras, {len(p['claims'])} claims, {len(p['figures'])} figs ({nt} traced), "
               f"{len(p['parts'])} parts, {nm} part mentions -> {out.relative_to(ROOT)} {out.stat().st_size / 1e6:.1f} MB")

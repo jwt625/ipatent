@@ -1,0 +1,1703 @@
+{
+ "pn": "3149290",
+ "number": "3,149,290",
+ "title": "GAS OPTICAL MASER",
+ "inventors": [
+  "William R. Bennett, Jr.",
+  "Ali Javan"
+ ],
+ "assignee": "Bell Telephone Laboratories, Incorporated, New York, N.Y., a corporation of New York",
+ "filed": "1960-12-28",
+ "issued": "1964-09-15",
+ "appl_no": "79,062",
+ "int_cl": "",
+ "us_cl": "331—94.5",
+ "refs_patents": [
+  {
+   "no": "2,851,652",
+   "date": "Sept. 9, 1958",
+   "name": "Dicke",
+   "cl": ""
+  },
+  {
+   "no": "2,929,922",
+   "date": "Mar. 22, 1960",
+   "name": "Schawlow et al.",
+   "cl": ""
+  },
+  {
+   "no": "2,965,795",
+   "date": "Dec. 20, 1960",
+   "name": "Norton",
+   "cl": ""
+  },
+  {
+   "no": "3,059,117",
+   "date": "Oct. 16, 1962",
+   "name": "Boyle et al.",
+   "cl": ""
+  }
+ ],
+ "refs_other": [
+  "Bennett: “Applied Optics—Supplement on Optical Masers,” 1962, pages 24–61."
+ ],
+ "examiners": "",
+ "claims_count": 5,
+ "drawing_figures": 3,
+ "abstract": "",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "col": 1,
+     "line": 9,
+     "text": "This invention relates to an optical maser, in particular to an optical maser using a mixture of gases as the negative temperature medium."
+    },
+    {
+     "col": 1,
+     "line": 12,
+     "text": "This invention relates to optical masers utilizing a gaseous medium as the negative temperature medium of the kind described in copending application Serial No. 816,276, filed May 27, 1959, by Ali Javan, and now abandoned, in which a population inversion or negative temperature is established in a gaseous mixture by the transfer of energy from molecules of one gas to another by means of a collision mechanism. In particular, in the optical maser there described the gaseous mixture which serves as the active medium comprises two gases A and B. Gas A is chosen to have an energy level E_{1} above the ground state E_{0} which is metastable, i.e., an atom raised to state E_{1} tends to remain in that state a long time, seconds, rather than returning to the ground state or dropping to some intermediate state. Gas B is chosen to have a state E_{2}′ whose level is matched to that of state E_{1} of gas A and at least one state at a level E_{1}′ intermediate between level E_{2}′ and its ground state E_{0}′. When the mixture is placed in a radiation field so that partial ionization of gas A occurs, free electrons of relatively high energies are produced. These free electrons by collision processes excite to higher states un-ionized atoms predominantly of gas A but incidentally also of gas B. In particular, atoms of gas A tend to be excited predominantly to level E_{1}, either directly or by relaxation to that state from a higher state to which they were excited. As a consequence, state E_{1} becomes relatively heavily populated. Moreover, when atoms of gas A in state E_{1} collide with ground state atoms of gas B, some of the latter will be excited to level E_{2}′. Because such transfer excitation can occur only between colliding atoms whose energy levels are closely matched, as are levels E_{1} and E_{2}′, state E_{2}′ alone of the states of gas B will experience a significant increase in population by the collision process. By virtue of this selective excitation of level E_{2}′, there can be established a population inversion or negative temperature between this level E_{2}′ and level E_{1}′ so long as the partial decay rates of levels E_{1}′ and E_{2}′ are appropriate. This permits the stimulation of emission of radiation of frequency"
+    },
+    {
+     "col": 1,
+     "line": 53,
+     "text": "(E_{2}′—E_{1}′)/h",
+     "formula": true
+    },
+    {
+     "col": 1,
+     "line": 56,
+     "text": "where h is Planck’s constant. If this frequency is the optical range, as can be arranged by appropriate choice of the two gases, an optical maser results."
+    },
+    {
+     "col": 1,
+     "line": 59,
+     "text": "We have now found that there are various processes which can compete with the desired one and thereby result in a reduction in its efficiency."
+    },
+    {
+     "col": 1,
+     "line": 62,
+     "text": "The present invention in some respects is based on a recognition of these difficulties and on their elimination."
+    },
+    {
+     "col": 1,
+     "line": 64,
+     "text": "In particular, it has been found that the energetic electrons continuously being created by the ionization of gas A inhibit the efficient formation of the desired population inversion either by promoting reactions which increase the population of level E_{1}′ or by accelerating reactions which tend to restore the system to equilibrium. For example, the collision of such electrons with un-ionized atoms of gas B tends to excite some such atoms to state E_{1}′ and thereby to upset the population inversion desired."
+    },
+    {
+     "col": 2,
+     "line": 1,
+     "text": "It is a feature of the present invention that measures are utilized for reducing the influence of such electrons in affecting undesirably the efficiency of the population inversion process."
+    },
+    {
+     "col": 2,
+     "line": 5,
+     "text": "In a first embodiment to be described, the desired end is achieved by pulsing appropriately the radiation used to cause the ionization of gas A so that ionization of gas A and creation of high energy free electrons is periodic. This technique proves advantageous because by appropriate choice of gases the lifetime of atoms in metastable state E_{1} can be considerably longer than the lifetime of the free electrons."
+    },
+    {
+     "col": 2,
+     "line": 13,
+     "text": "In a second embodiment to be described, free electrons are removed from the region of un-ionized atoms by an electric field and the maser operation is achieved in a region free of energetic electrons."
+    },
+    {
+     "col": 2,
+     "line": 17,
+     "text": "The invention will be better understood from the following more detailed description, taken in conjunction with the accompanying drawing, in which:"
+    },
+    {
+     "col": 2,
+     "line": 20,
+     "text": "FIG. 1 shows schematically, partly in section, an embodiment of the invention involving periodic ionization as discussed;"
+    },
+    {
+     "col": 2,
+     "line": 23,
+     "text": "FIG. 2 shows schematically, partly in section, an embodiment involving separation of the free electrons from un-ionized atoms as discussed; and"
+    },
+    {
+     "col": 2,
+     "line": 26,
+     "text": "FIG. 3 is an energy level diagram illustrating energy relationships important to one embodiment of the invention."
+    },
+    {
+     "col": 2,
+     "line": 29,
+     "text": "With reference now more particularly to the drawing, in FIG. 1 the maser 10 comprises a cylindrical cavity 11 resonant at the radio frequency to be used for ionization of the gas. Typically, the cavity may be resonant in the circular TM_{01} mode, for example, at 2,000 megacycles. There extends coaxially through the cavity an elongated cylindrical envelope 12, typically of glass and of about one-half inch inner diameter and a foot long, transparent both to the microwave energy in the cavity and the light to be generated. The gas mixture of two gases which serves as the active medium is enclosed within the envelope. The concentration of each gas is made sufficiently large that the mean free paths of the gas molecules are short enough to encourage collisions between molecules in preference to collisions of the molecules with the envelope walls, or more particularly that the diffusion rates are small compared to the collision transfer rates. Advantageously, the concentrations are sufficiently high that the mean free path of each of the gases is no more than a small fraction, for example, one one-hundredth of the internal dimensions of the envelope. By way of example, in the preferred embodiment the envelope encloses helium and neon, the helium concentration corresponding to a pressure of about ten millimeters of mercury and the neon concentration to a pressure of about 0.1 millimeters of mercury."
+    },
+    {
+     "col": 2,
+     "line": 55,
+     "text": "It is characteristic of helium that it includes an energy state E_{1} corresponding to the 2^{3}S_{1} level (in the LS designation) that is metastable. In addition, there are included higher energy levels E_{2}, E_{3}, et cetera, that are not metastable but which instead exhibit a high rate of decay to level E_{1}."
+    },
+    {
+     "col": 2,
+     "line": 62,
+     "text": "Accordingly, by the application of sufficient radio frequency energy to the helium to produce ionization thereof, collision of free electrons produced by such ionization with un-ionized helium atoms tends to increase the population of helium atoms in level E_{1} to a relatively high value. The relevant portion of the energy diagram of helium is shown in FIG. 3."
+    },
+    {
+     "col": 2,
+     "line": 68,
+     "text": "Additionally, in FIG. 3 there is shown the relevant portion of the energy diagram of neon. In particular, neon includes a level E_{2}′ corresponding to the 2s_{5} state (in Paschen notation) whose separation from its ground state E_{0}′ substantially matches the separation between levels E_{0} and E_{1} of helium. Neon also includes level E_{1}′ corresponding to the 2p_{9} state (in Paschen notation) which is intermediate between levels E_{0}′ and E_{2}′ and whose separation from the latter level corresponds to a wavelength in the near infrared optical range."
+    },
+    {
+     "col": 3,
+     "line": 6,
+     "text": "It will be characteristic of the system described that the neon population of level E_{2}′ will tend to reach thermal equilibrium with the helium population of level E_{1} by inelastic collision processes because each corresponds to essentially the same energy. This means that the fraction of the neon population in state E_{2}′ will approach the fraction of the helium population in state E_{1}. The other neon levels, such as E_{1}′, will be little affected by the helium. As a consequence, the buildup of the helium population of level E_{1} can be used selectively to build up the neon population of level E_{2}′ whereby such latter population can be made to exceed the neon population of level E_{1}′ whereby a population inversion or negative temperature can be established between levels E_{2}′ and E_{1}′."
+    },
+    {
+     "col": 3,
+     "line": 20,
+     "text": "For the utilization of the negative temperature for maser action, it is important to provide for the stimulated, rather than spontaneous, emission of radiation of the wavelength corresponding to the negative temperature. To this end, it is important to set up standing waves at this wavelength in the gas chamber. Typically, such a standing wave pattern can be achieved by positioning reflective members 13, 14 at opposite ends of the envelope. Such reflective members serve a role analogous to the Fabry-Perot plates useful in interferometers. These members can be planar and parallel as described in the aforementioned copending Javan application, or they may be a pair of confocal spherical elements or one may be planar and the other spherical."
+    },
+    {
+     "col": 3,
+     "line": 34,
+     "text": "In particular, the elements are coated to be highly selectively reflective of energy of the wavelength of interest, although element 14 is made to transmit some, typically from one to five percent, of the energy of the desired wavelength for utilization, either by permitting some transmission through its coating or by providing an opening in the coating. Advantageously, to this end each of the elements is coated with a plurality of layers of a dielectric material of appropriate thickness that the element reflects energy of the wavelength of the stimulated emission and transmits energy of other wavelengths. In this way each element serves as a filter, confining only energy of appropriate wavelength whereby the buildup of undesired oscillations is restrained."
+    },
+    {
+     "col": 3,
+     "line": 48,
+     "text": "The reflective elements can be included either within the envelope as shown or without. Alternatively, the reflective elements can be made integral with the envelope."
+    },
+    {
+     "col": 3,
+     "line": 51,
+     "text": "If desired, a lens arrangement may be positioned in the path of the light transmitted through the partially transmitting element 14 for bringing such light to a focus at some desired point."
+    },
+    {
+     "col": 3,
+     "line": 55,
+     "text": "There have been omitted from the drawing details such as gas inlet, vacuum equipment, supports and spacers to maintain the elements shown fixed in their required position and cooling equipment for keeping the temperature of the envelope from increasing unduly."
+    },
+    {
+     "col": 3,
+     "line": 60,
+     "text": "As previously described, an improvement of the instant invention comprises pulsing the microwave energy supplied to the cavity for ionizing the medium. As a consequence, there is reduced the deleterious effect of the free electrons produced by such ionization. To this end, the microwave cavity is shown excited from a source of microwave pulses 15. Typically, microwave power of the order of a hundred watts should be supplied."
+    },
+    {
+     "col": 3,
+     "line": 68,
+     "text": "As radio frequency energy in supplied to the resonant cavity, ionization of the gases occurs within the chamber as each pulse is applied. The density of free electrons will then quickly become high and hence the concentrations of gas A metastables will increase. The reactions which inhibit maser action will also take place. However, when the pulse ends the radiation field is removed, so that free electrons are no longer produced. Once the continuous production of these high energy electrons is halted, the existing electrons quickly lose their high energies and become incapable of initiating excitation reactions. However, since the lifetime of the helium metastables in level E_{1} can be several orders of magnitude longer than that of the high energy electrons, the reaction which excites the neon atoms to level E_{2}′ can continue to occur, even after ionization of the helium and production of free electrons has stopped. As long, therefore, as there is an appreciable number of the helium metastables present in the envelope, the population of the upper state of the levels between which the negative temperature exists will continue to be greater than the population of the lower because of the continuous process of collision excitation by which energy is transferred from the metastable level of helium to the appropriate level of neon. After a time, however, of the order of milliseconds, in the absence of any application of added radio frequency energy, the number of helium metastables will be reduced to the point where the excitation of neon can no longer be maintained. In order that the emission of radiation from the gaseous medium be substantially continuous, the succeeding pulse should be timed to occur before the excitation of neon has ceased. Then, the rapid increase in the number of helium metastables, which arises from the high electron density stemming from ionization by the radio frequency field will, through the collision excitation process, maintain the population of the excited neon at a level such that radiation may be substantially continuously stimulated."
+    },
+    {
+     "col": 4,
+     "line": 31,
+     "text": "Alternatively, a maser capable of intermittent operation results when the pulses are applied at intervals long enough so that the number of helium metastables drops to the point where neon atoms of level E_{2}′ are no longer produced at a rate faster than they decay. In both cases, improved operation is achieved during the time the metastable atoms of helium exist in the absence of energetic electrons."
+    },
+    {
+     "col": 4,
+     "line": 39,
+     "text": "In another example, operation was achieved by supplying about one hundred watts at twenty-nine megacycles to a mixture in which the neon pressure was about 100 microns of mercury and the helium pressure about one millimeter of mercury."
+    },
+    {
+     "col": 4,
+     "line": 44,
+     "text": "FIG. 2 shows an alternative embodiment more conveniently operated on a continuous basis. As in the maser previously described, the envelope 20, typically of glass, houses a mixture of gases whose energy systems have characteristics of the kind shown in FIG. 3. Typically, such a mixture can comprise helium at between one and ten millimeters of mercury pressure and neon at between .01 and .5 millimeter of mercury pressure. The envelope also houses a pair of electrodes 21 and 22 which define between them an ionization space. As shown, electrode 21 comprises a wire and electrode 22 a plate, electrode 21 being positioned parallel and opposite the center of the plate. Typically, electrode 21 can be about six inches long and thirty mils diameter and electrode 22 six inches long and two inches wide. The spacing can be about one inch. Lead-in conductors are provided by means of which an ionizing potential difference can be established between the two electrodes. To this end, voltage source 24 is shown connected between the two electrodes. Typically, the voltage source is made to provide a D.C. voltage of about one hundred volts. A current limiting resistor 25 is also connected in the circuit."
+    },
+    {
+     "col": 4,
+     "line": 67,
+     "text": "To establish the standing wave pattern, the envelope also includes reflective elements 26 and 27 of the kind previously described at opposite ends of the ionization space, typically about eight inches apart."
+    },
+    {
+     "col": 4,
+     "line": 71,
+     "text": "In this embodiment, the voltage source serves to ionize some helium atoms in the mixture and the resultant energetic free electrons excite other un-ionized helium atoms to the metastable state. Such energetic electrons are largely confined by the electric field in the ionization space to the neighborhood of the positively charged electrode, which is preferably electrode 21. However, un-ionized atoms are uninfluenced by the electric fields and diffuse freely. As a consequence, there tends to be a buildup in that portion of the ionization space adjacent electrode 22 a concentration of un-ionized atoms of which a sufficient number are neon atoms in the excited E_{2}′ state and maser action occurs as previously described."
+    },
+    {
+     "col": 5,
+     "line": 9,
+     "text": "It can be appreciated that various electrode configurations are feasible. For example, each of the two electrodes can be a wire. The arrangement described has the advantage of providing a localized region of higher electric field. When such a configuration is employed, a D.-C. voltage source loses its advantage and A.-C. sources can be used provided the frequency is sufficiently low that a period of the oscillation is long compared to the relaxation time of the free electrons whereby spatial separation of the free electrons by the electric field becomes feasible."
+    },
+    {
+     "col": 5,
+     "line": 20,
+     "text": "There are various subsidiary problems for achieving efficient operation in masers of the kind shown in FIG. 1. In particular, when the reflecting elements used for establishing the standing wave pattern in the active medium are planar as shown, it is important to insure that they are positioned to be parallel to one another with a high degree of accuracy."
+    },
+    {
+     "col": 5,
+     "line": 27,
+     "text": "To this end, one convenient technique is as follows: First, the elements are adjusted to be parallel as accurately as possible by conventional methods, such as by the use of an autocollimating telescope. Then the elements are oscillated about orthogonal axes each at a different frequency at a very slow rate until maser action is detected as by the emission of a high intensity highly directional light beam. The oscillations can be achieved by driving the elements by magnetostrictive transducers. By applying voltages proportional to the positions of the elements to the vertical and horizontal plates of an oscilloscope and by modulating the intensity of the oscilloscope beam with the maser output, the positions of the two elements for optimum operation can be readily determined."
+    },
+    {
+     "col": 5,
+     "line": 42,
+     "text": "There are various other mechanisms by which metastable levels can be produced by collision processes. In particular, such levels can be formed by impact with high energy particles, such as alpha particles, from radioactive isotopes. In the embodiment of FIG. 2, for example, the electrode 21 may be coated with a layer of a radioactive material which emits alpha particles. In such a device, of course, the voltage of source 24 need not exceed the ionization potential of the gaseous medium. In fact, the production of high energy free electrons may be so far reduced that no voltage at all need be applied."
+    },
+    {
+     "col": 5,
+     "line": 53,
+     "text": "The formation of metastable atoms occurs largely through indirect processes, which are nevertheless highly efficient. In helium, direct excitation by the high energy particles is confined to the production of singlet excited states of helium, helium ions and free electrons of medium energy. Production of the triplet levels (either the triplet metastable or triplet states which radiate to the 2^{3}S) arises from excitation by the medium energy electrons, recombination of ions and electrons, exchange collisions between excited singlets and free electrons, and inelastic collision transfer between excited singlet states and ground state atoms. For example, a few Curies of polonium 210 will provide enough alpha particles to produce 10^{16} helium metastables per second."
+    },
+    {
+     "col": 5,
+     "line": 67,
+     "text": "The use of radioactivity has several advantages. There is no need for the application of voltages to the medium, and this makes possible a compact unit free of external equipment such as would prove advantageous in space communication systems. In addition, the absence of applied voltages in excess of the ionization potential eliminates the production of a relatively high density of energetic electrons which occurs when the plasma is heated by a discharge. Hence the use of radioactivity produces a condition similar to that present in the afterglow of the pulsed discharge technique described above. Hence the use of radioactivity may permit continuous wave operation."
+    },
+    {
+     "col": 6,
+     "line": 6,
+     "text": "As still another technique, use can be made of the fact that in the process of radiative recombination of an atomic ion with an electron, the electron is preferentially captured in highly excited states of the resultant atom, and the atom subsequently decays into its ground state by radiative cascade. In a medium where this effect is the predominant source of atomic excitation, a population inversion can occur between two energy levels lying below the initial one provided that the decay rate of the upper of these two levels is slower than that of the lower."
+    },
+    {
+     "col": 6,
+     "line": 16,
+     "text": "Such a result can be achieved with a mixture of helium and mercury. In such a mixture when ionized the mercury ion density is particularly large due to ionizing collisions between mercury atoms and helium atoms in the (2^{3}S) state. In particular, one pair of energy levels in atomic mercury suitable for the production of a population inversion consists of the (7^{1}S) state and the (6^{1}P) state with a separation of 10,180 Angstrom units. With such a medium, the use of a pulsed discharge is also particularly advantageous since the prompt thermalization of energetic electrons minimizes the direct excitation of low lying mercury levels by electron impact which upsets the population inversion. Moreover, recombination occurs more rapidly with thermalized electrons than with energetic ones. A helium-mercury mixture also permits operating conditions in which the impurity ions are dominantly atomic, rather than molecular, in nature. This is desirable because the dissociative recombination process occurring with molecular ions favors the production of undesirable lower lying atomic states."
+    },
+    {
+     "col": 6,
+     "line": 36,
+     "text": "Typically the cross section for desired nonradiative transfer in two-body collisions is largest when the energetic resonance discrepancies between the initial and final electronic states are smallest. Thus, the largest transfer probabilities occur when this energy difference is of the order of, or smaller than, the kinetic energy of the atoms at room temperature. In many cases, the advantage of these large transfer cross sections may be lost through the action of the inverse process and competing mechanisms for the destruction of the excited state of the initial carrier of energy. The adverse effect of the inverse process can be eliminated either by cooling the gas sufficiently to insure that the mean kinetic energy is substantially less than the energetic resonance discrepancy or by selecting transfer processes that are irreversible at the operating temperature."
+    },
+    {
+     "col": 6,
+     "line": 52,
+     "text": "Alternatively, operation with a single gas species is possible by choosing a gas whose energy system is characterized by a level of relatively high energy value and a set of close lying levels with low energy values such that the lower levels of the set provide a basis for depopulating a higher level within the set."
+    },
+    {
+     "col": 6,
+     "line": 58,
+     "text": "For example, neon is characterized by a set of close lying levels 1s_{2}, 1s_{3}, 1s_{4} and 1s_{5} of relatively low energies of which levels 1s_{5} and 1s_{3} are metastable and levels 1s_{4} and 1s_{2} are quasi-metastable becoming metastable at pressures above 100 microns. Accordingly, at such pressures each of the states is long-lived. Additionally, each can be heavily populated in a gas discharge."
+    },
+    {
+     "col": 6,
+     "line": 65,
+     "text": "Neon also includes a different set of close lying levels 2p_{10}, 2p_{9} . . . 2p_{1} which set has energy values higher than that of the set consisting of 1s_{5} . . . 1s_{2}."
+    },
+    {
+     "col": 6,
+     "line": 68,
+     "text": "In discharges of low electron densities, these levels have short radiative lifetimes and so these levels will not become heavily populated. However, by increasing the electron density to the point where the rate of inelastic collision of electrons with the set of 2p levels becomes comparable to their rate of radiative decay, these levels can be populated appreciably."
+    },
+    {
+     "col": 6,
+     "line": 75,
+     "text": "If the neon gas pressure also is increased to a point where the inelastic collision of the second kind between atoms leading to a transfer of excitation within closely spaced levels becomes important, the population distribution among closely spaced levels such as the 1s or 2p sets tends to pile up in the lowest levels, the higher levels within a set being depopulated. In particular, the 1s_{1} level will tend to be depopulated whereas the 2p_{10} level will tend to be populated whereby the population of the 2p_{10} level can be made to exceed that of the 1s_{1} level whereby an inverted population distribution results which is useful for maser action in the usual fashion."
+    },
+    {
+     "col": 7,
+     "line": 12,
+     "text": "In the light of the various mechanisms described, it is to be understood that the specific embodiments described are merely illustrative of the general principles of the invention, and modified versions may be devised without departing from the spirit and scope of the invention. In particular, other gas mixtures are possible which permit maser operation by one of the mechanisms discussed. For example, krypton may be employed as the exciting gas and mercury as the excited gas. Similarly, it is feasible to include for quenching purposes still another gas. For example, in the helium-neon system described, the addition of argon, typically at a pressure of about one percent that of the neon pressure, makes feasible high power operation."
+    }
+   ]
+  },
+  {
+   "heading": "Certificate",
+   "paras": [
+    {
+     "col": null,
+     "line": null,
+     "page": 5,
+     "text": "UNITED STATES PATENT OFFICE"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 5,
+     "text": "Certificate"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 5,
+     "text": "Patent No. 3,149,290 Patented September 15, 1964"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 5,
+     "text": "William R. Bennett, Jr., and Ali Javan"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 5,
+     "text": "Application having been made by William R. Bennett, Jr., and Ali Javan, the inventors named in the patent above identified, and Bell Telephone Laboratories, Incorporated, New York, N.Y., a corporation of New York, the assignee, for the issuance of a certificate under the provisions of Title 35, Section 256, of the United States Code, adding the name of Donald R. Herriott as a joint inventor, and a showing and proof of facts satisfying the requirements of the said section having been submitted, it is this 22nd day of December 1970, certified that the name of the said Donald R. Herriott is hereby added to the said patent as a joint inventor with the said William R. Bennett, Jr., and Ali Javan."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 5,
+     "text": "FRED W. SHERLING"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 5,
+     "text": "Associate Solicitor."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 2,
+   "line": 20,
+   "text": "FIG. 1 shows schematically, partly in section, an embodiment of the invention involving periodic ionization as discussed;"
+  },
+  {
+   "fig": "2",
+   "col": 2,
+   "line": 23,
+   "text": "FIG. 2 shows schematically, partly in section, an embodiment involving separation of the free electrons from un-ionized atoms as discussed; and"
+  },
+  {
+   "fig": "3",
+   "col": 2,
+   "line": 26,
+   "text": "FIG. 3 is an energy level diagram illustrating energy relationships important to one embodiment of the invention."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 7,
+   "line": 27,
+   "depends": null,
+   "text": "1. An optical maser comprising an active medium consisting of a first and a second gas, the first gas having a metastable energy level above its ground state and the second gas having at least two levels above the ground state, the separation of the higher of said two levels from the ground state substantially matching the separation of said metastable level from its ground state, means for housing said active medium, means for producing free electrons in said medium for colliding with and raising atoms of the first gas to the metastable state, said atoms in the metastable state being effective to transfer energy by inelastic collisions of the second kind to the matching energy level of the second gas, said energy transfer proceeding at a rate sufficient to produce a negative temperature state in said second gas, means for substantially lessening the interaction of free electrons with the active medium in which a negative temperature is produced by reducing the concentration of free electrons in a region wherein there exists a substantial concentration of metastable atoms of said first gas or of atoms of said second gas in the higher of said energy levels, means for establishing a standing wave of the frequency corresponding to the separation of said two levels above the ground state of the second gas and means for utilizing emitted radiation of said frequency."
+  },
+  {
+   "n": 2,
+   "col": 7,
+   "line": 52,
+   "depends": null,
+   "text": "2. An optical maser comprising a first and a second gas within an interaction space, the first gas possessing a metastable level above its ground state and the second gas possessing an energy level system with at least two levels above the ground state, the separation of the higher of said two levels from the ground state substantially matching the separation of said metastable level of the first gas from its ground state, metastable atoms of the first gas being effective to transfer energy by inelastic collisions of the second kind to the matching energy level of the second gas, means for producing a pulsed discharge through said interaction space, the intervals between the pulses being greater than the time in which the free electrons produced by a discharge lose excess energy and reach thermal equilibrium, the transfer of excitation energy by collision between the metastable atoms of the first gas and the atoms of the second gas proceeding without interference in said interval at a rate sufficient to produce a population inversion in said second gas and enabling the stimulation of coherent radiation of a frequency corresponding to the separation of the said two levels above the ground state, means for forming standing waves of the emitted coherent radiation comprising reflecting means positioned about the interaction space, and means for abstracting a portion of the emitted radiation from said space."
+  },
+  {
+   "n": 3,
+   "col": 8,
+   "line": 9,
+   "depends": 2,
+   "text": "3. The optical maser of claim 2 in which the first gas is helium and the second gas is neon."
+  },
+  {
+   "n": 4,
+   "col": 8,
+   "line": 11,
+   "depends": null,
+   "text": "4. An optical maser comprising a first and a second gas within an enclosed space, the first gas possessing a metastable level above its ground state and the second gas possessing an energy level system with at least two levels above the ground state, the separation of the higher of said two levels from the ground state substantially matching the separation of said metastable level of the first gas from its ground state, metastable atoms of the first gas being effective to transfer energy by inelastic collisions of the second kind to the matching energy level of the second gas, thereby creating a population inversion between a pair of levels and enabling the stimulation of coherent radiation of a frequency corresponding to the separation of the said two levels above the ground state, means for producing free electrons within the enclosed space so that ground state molecules of the first gas will be raised to the metastable state, means for confining said free electrons to a small region of the enclosed space, means for forming standing waves of said coherent radiation emitted from the region of the enclosed space from which free electrons are excluded, and means for extracting said coherent radiation for utilization."
+  },
+  {
+   "n": 5,
+   "col": 8,
+   "line": 33,
+   "depends": null,
+   "text": "5. An optical maser comprising a first and a second gas within an interaction space, the first gas possessing a metastable level above its ground state and the second gas possessing an energy level system with at least two levels above the ground state, the separation of the higher of said two levels from the ground state substantially matching the separation of said metastable level of the first gas from its ground state, molecules of the first gas which are in the metastable state being effective to transfer energy by inelastic collisions of the second kind to the matching energy level of the second gas, thereby creating a population inversion between a pair of levels and enabling the stimulation of coherent radiation of a frequency corresponding to the separation of the said two levels above the ground state, means for establishing within said space a strongly inhomogeneous electric field, free electrons produced by ionization of gas atoms colliding with unionized atoms of the first gas and exciting them to the metastable state, said electric field also serving to confine charged particles within a small region of said space and to allow uncharged particles to diffuse into the low field region of said space, means for producing standing waves in said region at the wavelength corresponding to the separation of said two levels above the ground state, and means for extracting the coherent radiation emitted from the said low field region."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "col": 1,
+   "line": 5,
+   "ocr": "N.J.,.",
+   "fixed": "N.J.,",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 5,
+   "ocr": "Jncor-porated",
+   "fixed": "Incorporated",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 6,
+   "ocr": "Dec. 38, 1960",
+   "fixed": "Dec. 28, 1960",
+   "basis": "scan + drawing sheet header"
+  },
+  {
+   "col": 1,
+   "line": 7,
+   "ocr": "(Ci. 331—94.5)",
+   "fixed": "(Cl. 331—94.5)",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 12,
+   "ocr": "relates:",
+   "fixed": "relates",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 14,
+   "ocr": "‘application",
+   "fixed": "application",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 15,
+   "ocr": "May.",
+   "fixed": "May",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 17,
+   "ocr": "gaseous.",
+   "fixed": "gaseous",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 18,
+   "ocr": "another.",
+   "fixed": "another",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 19,
+   "ocr": "In.",
+   "fixed": "In",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 20,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 21,
+   "ocr": "comprisés",
+   "fixed": "comprises",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 22,
+   "ocr": "‘A",
+   "fixed": "A",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 22,
+   "ocr": "Ey, ‘above",
+   "fixed": "E_{1} above",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 23,
+   "ocr": "E,",
+   "fixed": "E_{0}",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 23,
+   "ocr": "ie.,",
+   "fixed": "i.e.,",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 24,
+   "ocr": "E;.",
+   "fixed": "E_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 25,
+   "ocr": "returning:to",
+   "fixed": "returning to",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 27,
+   "ocr": "Ey’",
+   "fixed": "E_{2}′",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 28,
+   "ocr": "E,;",
+   "fixed": "E_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 28,
+   "ocr": "BE,’",
+   "fixed": "E_{1}′",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 29,
+   "ocr": "‘between",
+   "fixed": "between",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 29,
+   "ocr": "E,’",
+   "fixed": "E_{2}′",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 29,
+   "ocr": "Ey’.",
+   "fixed": "E_{0}′.",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 30,
+   "ocr": "is’ placed’in",
+   "fixed": "is placed in",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 30,
+   "ocr": "that,",
+   "fixed": "that",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 31,
+   "ocr": "rela-. tively",
+   "fixed": "relatively",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 36,
+   "ocr": "E;,",
+   "fixed": "E_{1},",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 36,
+   "ocr": "relaxation.",
+   "fixed": "relaxation",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 38,
+   "ocr": "excited,",
+   "fixed": "excited.",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 38,
+   "ocr": "E,;",
+   "fixed": "E_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 39,
+   "ocr": "‘heavily",
+   "fixed": "heavily",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 40,
+   "ocr": "E,",
+   "fixed": "E_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 41,
+   "ocr": "will-be",
+   "fixed": "will be",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 41,
+   "ocr": "E,’.",
+   "fixed": "E_{2}′.",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 43,
+   "ocr": "E,",
+   "fixed": "E_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 44,
+   "ocr": "E,’,",
+   "fixed": "E_{2}′,",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 44,
+   "ocr": "Ey’",
+   "fixed": "E_{2}′",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 44,
+   "ocr": "states.of",
+   "fixed": "states of",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 46,
+   "ocr": "virtué",
+   "fixed": "virtue",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 47,
+   "ocr": "E,’,",
+   "fixed": "E_{2}′,",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 48,
+   "ocr": "Ey’",
+   "fixed": "E_{2}′",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 49,
+   "ocr": "E;’",
+   "fixed": "E_{1}′",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 49,
+   "ocr": "E,’",
+   "fixed": "E_{1}′",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 49,
+   "ocr": "E,’",
+   "fixed": "E_{2}′",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 53,
+   "ocr": "E,!—Ey’",
+   "fixed": "E_{2}′—E_{1}′",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 56,
+   "ocr": ",",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 56,
+   "ocr": "ft",
+   "fixed": "h",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 60,
+   "ocr": "ny",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 60,
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 68,
+   "ocr": "E,’-or",
+   "fixed": "E_{1}′ or",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 73,
+   "ocr": "E,’",
+   "fixed": "E_{1}′",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 5,
+   "ocr": "In.a",
+   "fixed": "In a",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 8,
+   "ocr": "periodic.. This.",
+   "fixed": "periodic. This",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 11,
+   "ocr": "E;",
+   "fixed": "E_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 11,
+   "ocr": "considerably.",
+   "fixed": "considerably",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 11,
+   "ocr": "life-. time",
+   "fixed": "lifetime",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 13,
+   "ocr": "In‘a",
+   "fixed": "In a",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 15,
+   "ocr": "achieved.",
+   "fixed": "achieved",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 17,
+   "ocr": "The.",
+   "fixed": "The",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 17,
+   "ocr": "fol‘lowing",
+   "fixed": "following",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 30,
+   "ocr": "comprises.a",
+   "fixed": "comprises a",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 33,
+   "ocr": "may.",
+   "fixed": "may",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 33,
+   "ocr": "TM);",
+   "fixed": "TM_{01}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 38,
+   "ocr": "generated..",
+   "fixed": "generated.",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 38,
+   "ocr": "mixture.",
+   "fixed": "mixture",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 39,
+   "ocr": "enclosed:",
+   "fixed": "enclosed",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 44,
+   "ocr": "wails,",
+   "fixed": "walls,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 47,
+   "ocr": "frée",
+   "fixed": "free",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 51,
+   "ocr": "helium-and",
+   "fixed": "helium and",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 56,
+   "ocr": "23S,",
+   "fixed": "2^{3}S_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 57,
+   "ocr": "E,",
+   "fixed": "E_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 58,
+   "ocr": "meiastable but:",
+   "fixed": "metastable but",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 59,
+   "ocr": "Es, E3,",
+   "fixed": "E_{2}, E_{3},",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 60,
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 61,
+   "ocr": "Ey.",
+   "fixed": "E_{1}.",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 61,
+   "ocr": "fre; quency",
+   "fixed": "frequency",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 66,
+   "ocr": "E,",
+   "fixed": "E_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 71,
+   "ocr": "E,’",
+   "fixed": "E_{2}′",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 71,
+   "ocr": "2s;",
+   "fixed": "2s_{5}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 73,
+   "ocr": "_E,)’",
+   "fixed": "E_{0}′",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 1,
+   "ocr": "E,",
+   "fixed": "E_{0}",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 1,
+   "ocr": "E,",
+   "fixed": "E_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 1,
+   "ocr": "E,’",
+   "fixed": "E_{1}′",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 2,
+   "ocr": "2p,",
+   "fixed": "2p_{9}",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 3,
+   "ocr": "Ey’",
+   "fixed": "E_{0}′",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 3,
+   "ocr": "E,’",
+   "fixed": "E_{2}′",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 5,
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 3,
+   "line": 7,
+   "ocr": "E,’",
+   "fixed": "E_{2}′",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 8,
+   "ocr": "E,",
+   "fixed": "E_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 9,
+   "ocr": "¢ssentially",
+   "fixed": "essentially",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 11,
+   "ocr": "EZ,’",
+   "fixed": "E_{2}′",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 12,
+   "ocr": "E,.",
+   "fixed": "E_{1}.",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 13,
+   "ocr": "neon.",
+   "fixed": "neon",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 3,
+   "line": 13,
+   "ocr": "E,’,",
+   "fixed": "E_{1}′,",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 14,
+   "ocr": "helinm",
+   "fixed": "helium",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 15,
+   "ocr": "cf",
+   "fixed": "of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 15,
+   "ocr": "E,",
+   "fixed": "E_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 16,
+   "ocr": "E,’",
+   "fixed": "E_{2}′",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 18,
+   "ocr": "Ey’",
+   "fixed": "E_{1}′",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 19,
+   "ocr": "E,’",
+   "fixed": "E_{2}′",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 19,
+   "ocr": "Ey’.",
+   "fixed": "E_{1}′.",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 32,
+   "ocr": "confccal",
+   "fixed": "confocal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 56,
+   "ocr": "vacium",
+   "fixed": "vacuum",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 63,
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 4,
+   "line": 5,
+   "ocr": "E,",
+   "fixed": "E_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 6,
+   "ocr": "longer.",
+   "fixed": "longer",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 4,
+   "line": 7,
+   "ocr": "E,’",
+   "fixed": "E_{2}′",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 19,
+   "ocr": "wiil",
+   "fixed": "will",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 25,
+   "ocr": "metastables;",
+   "fixed": "metastables,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 34,
+   "ocr": "E,’",
+   "fixed": "E_{2}′",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 38,
+   "ocr": "electrons,",
+   "fixed": "electrons.",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 41,
+   "ocr": "fo",
+   "fixed": "to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 70,
+   "ocr": "typicaily",
+   "fixed": "typically",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 1,
+   "ocr": "‘the",
+   "fixed": "the",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 2,
+   "ocr": "preferably.",
+   "fixed": "preferably",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 2,
+   "ocr": "However;",
+   "fixed": "However,",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 7,
+   "ocr": "nimber",
+   "fixed": "number",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 7,
+   "ocr": "E,’",
+   "fixed": "E_{2}′",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 8,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 10,
+   "ocr": "two.",
+   "fixed": "two",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 12,
+   "ocr": ".a",
+   "fixed": "a",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 32,
+   "ocr": "ffequency",
+   "fixed": "frequency",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 33,
+   "ocr": "is.detected",
+   "fixed": "is detected",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 40,
+   "ocr": "readily.",
+   "fixed": "readily",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 43,
+   "ocr": "léevels.can",
+   "fixed": "levels can",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 43,
+   "ocr": "processes:",
+   "fixed": "processes.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 46,
+   "ocr": "isotopes..",
+   "fixed": "isotopes.",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 47,
+   "ocr": "coated.",
+   "fixed": "coated",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 49,
+   "ocr": "voliage",
+   "fixed": "voltage",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 50,
+   "ocr": "medium:",
+   "fixed": "medium.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 55,
+   "ocr": "efficient...",
+   "fixed": "efficient.",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 56,
+   "ocr": "particles.is",
+   "fixed": "particles is",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 56,
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 59,
+   "ocr": "‘states",
+   "fixed": "states",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 60,
+   "ocr": "238)",
+   "fixed": "2^{3}S)",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 62,
+   "ocr": "excited-singlets and”",
+   "fixed": "excited singlets and",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 63,
+   "ocr": "ae",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 63,
+   "ocr": "‘excited",
+   "fixed": "excited",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 65,
+   "ocr": "210-will provide-enough",
+   "fixed": "210 will provide enough",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 66,
+   "ocr": "pro- duce.10!°",
+   "fixed": "produce 10^{16}",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 68,
+   "ocr": "advantages..",
+   "fixed": "advantages.",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 70,
+   "ocr": "possible-a",
+   "fixed": "possible a",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 74,
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 6,
+   "line": 5,
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 6,
+   "line": 5,
+   "ocr": "an",
+   "fixed": "",
+   "basis": "scan (speck in gutter)"
+  },
+  {
+   "col": 6,
+   "line": 6,
+   "ocr": "can.",
+   "fixed": "can",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 6,
+   "line": 8,
+   "ocr": "prefer-~ entially",
+   "fixed": "preferentially",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 6,
+   "line": 9,
+   "ocr": "résultant",
+   "fixed": "resultant",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 19,
+   "ocr": "mercury.",
+   "fixed": "mercury",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 6,
+   "line": 20,
+   "ocr": "(23S)",
+   "fixed": "(2^{3}S)",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 21,
+   "ocr": "a-population",
+   "fixed": "a population",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 6,
+   "line": 22,
+   "ocr": "(71S).",
+   "fixed": "(7^{1}S)",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 22,
+   "ocr": "(6!P)",
+   "fixed": "(6^{1}P)",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 28,
+   "ocr": "oc-: curs",
+   "fixed": "occurs",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 6,
+   "line": 32,
+   "ocr": "dom- ‘jinantly",
+   "fixed": "dominantly",
+   "basis": "scan (OCR also moved this line out of order)"
+  },
+  {
+   "col": 6,
+   "line": 33,
+   "ocr": "process.",
+   "fixed": "process",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 6,
+   "line": 34,
+   "ocr": "favors:",
+   "fixed": "favors",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 6,
+   "line": 39,
+   "ocr": "states-are",
+   "fixed": "states are",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 6,
+   "line": 39,
+   "ocr": "‘Thus,",
+   "fixed": "Thus,",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 6,
+   "line": 44,
+   "ocr": "mechanisms:",
+   "fixed": "mechanisms",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 6,
+   "line": 59,
+   "ocr": "isa, 1s3, 1s, and 1s,",
+   "fixed": "1s_{2}, 1s_{3}, 1s_{4} and 1s_{5}",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 60,
+   "ocr": "1s, and 1s3",
+   "fixed": "1s_{5} and 1s_{3}",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 60,
+   "ocr": "1s,",
+   "fixed": "1s_{4}",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 61,
+   "ocr": "1s.",
+   "fixed": "1s_{2}",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 64,
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 6,
+   "line": 66,
+   "ocr": "2P19, 2P9",
+   "fixed": "2p_{10}, 2p_{9}",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 66,
+   "ocr": "2p;",
+   "fixed": "2p_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 67,
+   "ocr": "ls, . .. \" Is.",
+   "fixed": "1s_{5} . . . 1s_{2}.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 68,
+   "ocr": "- In.",
+   "fixed": "In",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 7,
+   "line": 4,
+   "ocr": "Is",
+   "fixed": "1s",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 6,
+   "ocr": "sét",
+   "fixed": "set",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 6,
+   "ocr": "1s,",
+   "fixed": "1s_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 7,
+   "ocr": "2p49",
+   "fixed": "2p_{10}",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 9,
+   "ocr": "2Pi9",
+   "fixed": "2p_{10}",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 9,
+   "ocr": "1s,",
+   "fixed": "1s_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 15,
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 7,
+   "line": 35,
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 7,
+   "line": 45,
+   "ocr": "meta- * stable",
+   "fixed": "metastable",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 8,
+   "line": 11,
+   "ocr": "4,",
+   "fixed": "4.",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 11,
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 8,
+   "line": 19,
+   "ocr": "by.",
+   "fixed": "by",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 8,
+   "line": 38,
+   "ocr": "leveis",
+   "fixed": "levels",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 58,
+   "ocr": "tadiation",
+   "fixed": "radiation",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 64,
+   "ocr": "Schawlow.et al.",
+   "fixed": "Schawlow et al.",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "ocr": "Wilham R. Bennett",
+   "fixed": "William R. Bennett",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "ocr": "Bennet t,",
+   "fixed": "Bennett,",
+   "basis": "scan"
+  }
+ ]
+}

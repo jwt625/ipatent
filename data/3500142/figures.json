@@ -1,0 +1,490 @@
+{
+ "pn": "3500142",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    425,
+    535,
+    1745,
+    1250
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2A",
+   "label": "FIG. 2A",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    445,
+    545,
+    1720,
+    1350
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2B",
+   "label": "FIG. 2B",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    490,
+    1350,
+    1725,
+    2206
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2C",
+   "label": "FIG. 2C",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    520,
+    2204,
+    1705,
+    2975
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    450,
+    1335,
+    1705,
+    1845
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    410,
+    1905,
+    1665,
+    2541
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    630,
+    2500,
+    1670,
+    2855
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "11",
+   "name": "bulk",
+   "figs": [
+    "1",
+    "2A"
+   ],
+   "alt": [
+    "semiconductive element",
+    "element"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "spaced, localized, p-type surface zones",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "p-type zones"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "spaced, localized, p-type surface zones",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "p-type zones"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "electrodes",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "source and drain electrodes",
+    "source electrode"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "electrodes",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "source and drain electrodes"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "relatively thin insulating layer",
+   "figs": [
+    "1",
+    "2A"
+   ]
+  },
+  {
+   "ref": "17",
+   "name": "inner metallic layer",
+   "figs": [
+    "1",
+    "2A"
+   ],
+   "alt": [
+    "floating gate",
+    "floating gate layer"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "relatively thick outer insulating layer",
+   "figs": [
+    "1",
+    "2A"
+   ]
+  },
+  {
+   "ref": "19",
+   "name": "outer metallic layer",
+   "figs": [
+    "1",
+    "2A"
+   ],
+   "alt": [
+    "terminal gate",
+    "terminal gate electrode"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "voltage source",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "21",
+   "name": "load",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "control voltage source",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "surface portion",
+   "figs": [
+    "1",
+    "2A",
+    "2C"
+   ],
+   "alt": [
+    "surface layer"
+   ]
+  },
+  {
+   "ref": "25",
+   "name": "solid line",
+   "figs": [
+    "2A",
+    "2B"
+   ]
+  },
+  {
+   "ref": "26",
+   "name": "solid line",
+   "figs": [
+    "2A",
+    "2B"
+   ]
+  },
+  {
+   "ref": "27",
+   "name": "broken line",
+   "figs": [
+    "2A",
+    "2B",
+    "2C"
+   ]
+  },
+  {
+   "ref": "30",
+   "name": "insulating substrate",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "31",
+   "name": "solid lines",
+   "figs": [
+    "2A",
+    "2B",
+    "2C",
+    "3"
+   ],
+   "alt": [
+    "Fermi-level",
+    "metallic film",
+    "terminal gate electrode"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "solid lines",
+   "figs": [
+    "2A",
+    "2B",
+    "2C",
+    "3"
+   ],
+   "alt": [
+    "relatively thick insulating film"
+   ]
+  },
+  {
+   "ref": "33",
+   "name": "metallic layer",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "floating gate"
+   ]
+  },
+  {
+   "ref": "34",
+   "name": "thinner insulating layer",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "35",
+   "name": "homogeneous semiconductive film",
+   "figs": [
+    "3"
+   ],
+   "alt": [
+    "semiconductive film"
+   ]
+  },
+  {
+   "ref": "36",
+   "name": "source and drain electrodes",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "37",
+   "name": "source and drain electrodes",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "40",
+   "name": "insulated gate field effect transistor",
+   "figs": []
+  },
+  {
+   "ref": "41",
+   "name": "bulk",
+   "figs": []
+  },
+  {
+   "ref": "42",
+   "name": "spaced p-type zones",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "43",
+   "name": "spaced p-type zones",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "44",
+   "name": "source and drain electrodes",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "source electrode"
+   ]
+  },
+  {
+   "ref": "45",
+   "name": "source and drain electrodes",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "46",
+   "name": "gate electrode",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "47",
+   "name": "insulating film",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "insulating layer"
+   ]
+  },
+  {
+   "ref": "48",
+   "name": "voltage source",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "49",
+   "name": "load",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "50",
+   "name": "metallic layer",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "metal layer"
+   ]
+  },
+  {
+   "ref": "51",
+   "name": "insulating layers",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "insulating layer"
+   ]
+  },
+  {
+   "ref": "52",
+   "name": "insulating layers",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "53",
+   "name": "plates",
+   "figs": [
+    "4"
+   ],
+   "alt": [
+    "electrode"
+   ]
+  },
+  {
+   "ref": "54",
+   "name": "plates",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "55",
+   "name": "control source",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "46A",
+   "name": "",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "50A",
+   "name": "",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "51A",
+   "name": "",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "53A",
+   "name": "",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "55A",
+   "name": "",
+   "figs": [
+    "5"
+   ]
+  }
+ ]
+}

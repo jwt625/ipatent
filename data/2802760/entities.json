@@ -1,0 +1,34 @@
+{
+  "pn": "2802760",
+  "inventors": [
+    {
+      "name": "Lincoln Derick",
+      "printed": "Lincoln Derick, Colonia, N. J.",
+      "city": "Colonia",
+      "region": "NJ",
+      "country": "US"
+    },
+    {
+      "name": "Carl J. Frosch",
+      "printed": "Carl J. Frosch, Summit, N. J.",
+      "city": "Summit",
+      "region": "NJ",
+      "country": "US"
+    }
+  ],
+  "assignees": [
+    {
+      "name": "Bell Telephone Laboratories, Incorporated",
+      "printed": "Bell Telephone Laboratories, Incorporated, New York, N. Y., a corporation of New York",
+      "org": "Bell Labs",
+      "kind": "company",
+      "city": "New York",
+      "region": "NY",
+      "country": "US"
+    }
+  ],
+  "source": {
+    "page": 1,
+    "where": "column 1 header (inventors, assignors to)"
+  }
+}

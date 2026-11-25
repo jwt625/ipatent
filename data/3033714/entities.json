@@ -1,0 +1,34 @@
+{
+  "pn": "3033714",
+  "inventors": [
+    {
+      "name": "Reona Ezaki",
+      "printed": "Reona Ezaki, Tokyo",
+      "city": "Tokyo",
+      "region": null,
+      "country": "JP"
+    },
+    {
+      "name": "Yuriko Kurose",
+      "printed": "Yuriko Kurose, Kamakura-shi, Japan",
+      "city": "Kamakura-shi",
+      "region": null,
+      "country": "JP"
+    }
+  ],
+  "assignees": [
+    {
+      "name": "Sony Corporation",
+      "printed": "Sony Corporation, Tokyo, Japan, a corporation of Japan",
+      "org": "Sony",
+      "kind": "company",
+      "city": "Tokyo",
+      "region": null,
+      "country": "JP"
+    }
+  ],
+  "source": {
+    "page": 1,
+    "where": "column 1 header (inventors, assignors to)"
+  }
+}

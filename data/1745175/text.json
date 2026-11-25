@@ -1,0 +1,415 @@
+{
+ "pn": "1745175",
+ "number": "1,745,175",
+ "title": "METHOD AND APPARATUS FOR CONTROLLING ELECTRIC CURRENTS",
+ "inventors": [
+  "Julius Edgar Lilienfeld"
+ ],
+ "assignee": null,
+ "filed": "1926-10-08",
+ "issued": "1930-01-28",
+ "appl_no": "140,363",
+ "int_cl": null,
+ "us_cl": null,
+ "refs_patents": [],
+ "refs_other": [],
+ "examiners": null,
+ "claims_count": 9,
+ "drawing_figures": 3,
+ "abstract": "",
+ "cite_scheme": "printed page:line",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "page": 1,
+     "cite": "p.1:1",
+     "col": null,
+     "line": null,
+     "text": "The invention relates to a method of and apparatus for controlling the flow of an electric current between two terminals of an electrically conducting solid by establishing a third potential between said terminals; and is particularly adaptable to the amplification of oscillating currents such as prevail, for example, in radio communication. Heretofore, thermionic tubes or valves have been generally employed for this purpose; and the present invention has for its object to dispense entirely with devices relying upon the transmission of electrons thru an evacuated space and especially to devices of this character wherein the electrons are given off from an incandescent filament. The invention has for a further object a simple, substantial and inexpensive relay or amplifier not involving the use of excessive voltages, and in which no filament or equivalent element is present. More particularly, the invention consists in affecting, as by suitable incoming oscillations, a current in an electrically conducting solid of such characteristics that said current will be affected by and respond to electrostatic changes. Means are associated with the aforesaid conducting solid whereby these electrostatic changes are set up conformably with the incoming oscillations which are thus reproduced greatly magnified in the circuit, suitable means being provided, also, to apply a potential to the said conducting solid portion of the amplifier circuit as well as to maintain the electrostatic producing means at a predetermined potential which is to be substantially in excess of a potential at an intermediate point of said circuit portion."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:39",
+     "col": null,
+     "line": null,
+     "text": "The nature of the invention, however, will best be understood when described in connection with the accompanying drawings, in which—"
+    },
+    {
+     "page": 1,
+     "cite": "p.1:43",
+     "col": null,
+     "line": null,
+     "text": "Fig. 1 is a perspective view, on a greatly enlarged scale and partly in section, of the novel apparatus as embodied by way of example in an amplifier."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:47",
+     "col": null,
+     "line": null,
+     "text": "Fig. 2 is a diagrammatic view illustrating the voltage characteristics of an amplifier as shown in Fig. 1."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:50",
+     "col": null,
+     "line": null,
+     "text": "Fig. 3 is a diagrammatic view of a radio receiving circuit in which the novel amplifier is employed for two stages of radio frequency and two of audio frequency amplification."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:55",
+     "col": null,
+     "line": null,
+     "text": "Referring to the drawings, 10 designates a base member of suitable insulating material, for example, glass; and upon the upper surface of which is secured transversely thereof and along each side a pair of conducting members 11 and 12 as a coating of platinum, gold, silver or copper which may be provided over the glass surface by well-known methods such as chemical reduction, etc. It is desirable that the juxtaposed edges of the two terminal members 11 and 12 be located as closely as possible to each other; and substantially midway of the same there is provided an electrode member 13, which is of minimum dimensions to reduce capacity effect. This member consists of a suitable metal foil, preferably aluminum foil, and may conveniently be secured in position by providing a transverse fracture 14 in the glass and then reassembling the two pieces to retain between the same the said piece of aluminum foil of a thickness approximating one ten-thousandth part of an inch. The upper edge of this foil is arranged to lie flush with the upper surface of the glass 10."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:81",
+     "col": null,
+     "line": null,
+     "text": "Over both of the coatings 11 and 12, the intermediate upper surface portion of the glass 10, and the edge of the foil 13 is provided a film or coating 15 of a compound having the property of acting in conjunction with said metal foil electrode as an element of uni-directional conductivity. That is to say, this coating is to be electrically conductive and possess also the property, when associated with other suitable conductors, of establishing at the surface of contact a considerable drop of potential. The thickness of the film, moreover, is minute and of such a degree that the electrical conductivity therethru would be influenced by applying thereto an electrostatic force. A suitable material for this film and especially suitable in conjunction with aluminum foil, is a compound of copper and sulphur. A convenient way of providing the film over the coatings 11 and 12 and the electrode 13 is to spatter metallic copper by heating copper wire within a vacuum, or by depositing copper from a colloidal suspension, over the entire upper surface and then sulphurizing the deposited copper in sulphur vapor, or by exposure to a suitable gas as hydrogen sulphide or a liquid containing sulphur, as sulphur dissolved in carbon bisulphide."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:10",
+     "col": null,
+     "line": null,
+     "text": "To produce the required flow of electrons through the film 15 a substantial potential is applied across the two terminal coatings 11 and 12 as by conductors 16 leading from a battery or like source 17 of direct current. As shown in the diagrammatic view, Fig. 2, the dimensional volt characteristics of the device indicate a substantially steady voltage of value a over the coating 11 and a corresponding steady voltage b of diminished value over the coating 12, while over the portion of the surface between said coatings the voltage in the film 15 will be according to the gradient c. As aforesaid, the electrode 13 is located substantially midway of the inner ends of the terminal coatings 11 and 12 and there is arranged to be supplied thereto a potential indicated by the value d, Fig. 2, and somewhat in excess of the voltage prevailing along the gradient c at this point. This potential may be applied by means of a battery or like source of potential 18, the negative pole of which is connected to the negative pole of the battery 17. In the circuit of the electrode 13 and source of potential 18 is also included some exterior source of oscillating or fluctuating current, which source is indicated, by way of example, in Fig. 3, as the antenna 20 of a radio communication circuit."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:39",
+     "col": null,
+     "line": null,
+     "text": "The effect of thus providing an excess positive potential in the electrode 13 is to prevent any potential in the oscillating circuit hereinbefore described from rendering said electrode of zero potential or of a negative potential, which would then permit a current to pass from the electrode edge to the film 15; as in the reverse direction where a positive voltage is maintained, the two members—namely electrode and connecting film—act as an electric valve to prevent the flow. Maintaining a positive potential at this point, however, insures that the flow of the electrons from the piece 11 to the piece 12 will be impeded in a predetermined degree, a variation therein being effected conformably to the changing amount of this potential under the influence of the oscillating or fluctuating current introduced. This effect will be repeated on a greatly magnified scale in the circuit of the conducting coatings 11 and 12 and may be reproduced in various circuits or for various purposes as thru a transformer 21, from the secondary of which leads 22 extend to any suitable device, which, as shown in Fig. 3, may be further amplifiers of this character as the radio frequency amplifiers 23 and audio frequency amplifiers 24, the last of which is shown connected to a loud speaker or similar device 25. A current rectifying member 26, however, is necessary where it is desired to convert the radio frequency into audio frequency oscillations. It will be observed that but two sources of potential 27 and 28—which may be combined into a single, properly tapped source—are required and of potentials approximately 30 and 15 volts respectively for the particular elements employed."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:77",
+     "col": null,
+     "line": null,
+     "text": "The basis of the invention resides apparently in the fact that the conducting layer at the particular point selected introduces a resistance varying with the electric field at this point; and in this connection it may be assumed that the atoms (or molecules) of a conductor are of the nature of bipoles. In order for an electron, therefore, to travel in the electric field, the bipoles are obliged to become organized in this field substantially with their axes parallel or lying in the field of flow. Any disturbance in this organization, as by heat movement, magnetic field, electrostatic cross-field, etc., will serve to increase the resistance of the conductor; and in the instant case, the conductivity of the layer is influenced by the electric field. Owing to the fact that this layer is extremely thin the field is permitted to penetrate the entire volume thereof and thus will change the conductivity throughout the entire cross-section of this conducting portion."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:82",
+     "col": null,
+     "line": null,
+     "text": "In testimony whereof I affix my signature."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:83",
+     "col": null,
+     "line": null,
+     "text": "JULIUS EDGAR LILIENFELD."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "page": 1,
+   "cite": "p.1:43",
+   "col": null,
+   "line": null,
+   "text": "Fig. 1 is a perspective view, on a greatly enlarged scale and partly in section, of the novel apparatus as embodied by way of example in an amplifier."
+  },
+  {
+   "fig": "2",
+   "page": 1,
+   "cite": "p.1:47",
+   "col": null,
+   "line": null,
+   "text": "Fig. 2 is a diagrammatic view illustrating the voltage characteristics of an amplifier as shown in Fig. 1."
+  },
+  {
+   "fig": "3",
+   "page": 1,
+   "cite": "p.1:50",
+   "col": null,
+   "line": null,
+   "text": "Fig. 3 is a diagrammatic view of a radio receiving circuit in which the novel amplifier is employed for two stages of radio frequency and two of audio frequency amplification."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "page": 2,
+   "cite": "p.2:100",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "1. The method of controlling the flow of an electric current in an electrically conducting medium of minute thickness, which comprises subjecting the same to an electrostatic influence to impede the flow of said current by maintaining at an intermediate point in proximity thereto a potential in excess of the particular potential prevailing at that point."
+  },
+  {
+   "n": 2,
+   "page": 2,
+   "cite": "p.2:108",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "2. The method of controlling the flow of an electric current in an electrically conducting solid of minute thickness, which comprises establishing an electrostatic influence in proximity to said flow in excess of the potential prevailing thereat, and varying the said electrostatic influence to correspondingly vary the said flow."
+  },
+  {
+   "n": 3,
+   "page": 2,
+   "cite": "p.2:116",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "3. The method of controlling the flow of an electric current in an electrically conducting medium of minute thickness, which comprises subjecting the same to an electrostatic influence to impede the flow of said current by maintaining at an intermediate point in proximity thereto a potential in excess of the particular potential prevailing at that point, and varying the degree of excess potential by an impressed oscillating current."
+  },
+  {
+   "n": 4,
+   "page": 2,
+   "cite": "p.2:126",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "4. An amplifier for oscillating current, comprising a film of conducting material and an output circuit including a source of potential connected across said film, an electrode associated with the said film for maintaining at the surface of contact a third potential, means to establish in said electrode a voltage substantially in excess of the voltage in the film at the coacting electrode portion, and means to vary the voltage of said electrode."
+  },
+  {
+   "n": 5,
+   "page": 3,
+   "cite": "p.3:6",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "5. An amplifier for oscillating current, comprising a film of conducting material and and an output circuit including a source of potential connected across said film, an electrode operating in conjunction with said film intermediate the point of application of the potential thereto to provide an element of uni-directional conductivity thereat, means to maintain said electrode at a voltage substantially in excess of the voltage prevailing at the coacting portion of said conducting film, and an input circuit connected with the said electrode and the negative end of the said film."
+  },
+  {
+   "n": 6,
+   "page": 3,
+   "cite": "p.3:19",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "6. An amplifier for oscillating current, comprising two insulating members, an intermediate strip of aluminum foil, conducting terminals carried by said insulation members upon either side of the said foil retained thereby, a film of copper sulphur compound extending over said conducting terminals and the edge of the said aluminum strip, output connections to said conducting terminals for applying a potential across the same, and a connection to the said aluminum strip to maintain the same at a higher potential than that prevailing in the film at its portion opposite the aluminum strip."
+  },
+  {
+   "n": 7,
+   "page": 3,
+   "cite": "p.3:33",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "7. An amplifier for oscillating current, comprising two insulating members, an intermediate strip of aluminum foil, conducting terminals carried by said insulation members upon either side of the said foil retained thereby and in close proximity thereto, a film of copper sulphur compound extending over said conducting terminals and the edge of the said aluminum strip, output connections to said conducting terminals for applying a potential across the same, and a connection to the said aluminum strip to maintain the same at a higher potential than that prevailing in the film at its portion opposite the aluminum strip."
+  },
+  {
+   "n": 8,
+   "page": 3,
+   "cite": "p.3:48",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "8. An amplifier for oscillating current, comprising a glass block fractured transversely, a strip of aluminum foil retained in the fracture of said block with an edge substantially flush with the corresponding surface of the block, copper terminal coatings carried by the glass block upon opposite sides of said foil and out of contact therewith, a film of copper sulphur compound extending over the surface of said copper terminals and the aluminum edge, output connections to the said copper terminals to apply a potential across the same, and a connection to the aluminum foil to maintain the same at a higher potential than that prevailing in the film at its portion opposite the aluminum strip."
+  },
+  {
+   "n": 9,
+   "page": 3,
+   "cite": "p.3:64",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "9. An amplifier for oscillating current, comprising a glass block fractured transversely, a strip of aluminum foil retained in the fracture of said block with an edge substantially flush with the corresponding surface of the block, copper terminal coatings carried by the glass block upon opposite sides of said foil and out of contact therewith, a film of copper sulphur compound extending over the surface of said copper terminals and the aluminum edge, output connections to the said copper terminals to apply a potential across the same, a connection to the aluminum foil to maintain the same at a higher potential than that prevailing in the film at its portion opposite the aluminum strip, and a source of fluctuating current in circuit with the aluminum foil."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "cite": "header",
+   "ocr": "NEW YORE",
+   "fixed": "NEW YORK",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "header",
+   "ocr": "Octeber",
+   "fixed": "October",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:12",
+   "ocr": "pénse",
+   "fixed": "pense",
+   "basis": "scan (speck over the e) + Google Patents"
+  },
+  {
+   "cite": "p.1:14",
+   "ocr": ". Space",
+   "fixed": "space",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:20",
+   "ocr": "element.is’",
+   "fixed": "element is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:34",
+   "ocr": "ag",
+   "fixed": "as",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:49",
+   "ocr": "Fig. 1,",
+   "fixed": "Fig. 1.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:59",
+   "ocr": "side.a",
+   "fixed": "side a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:79",
+   "ocr": "te flush",
+   "fixed": "lie flush",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:80",
+   "ocr": "",
+   "fixed": "10.",
+   "basis": "scan (line missed by OCR and by Google Patents)"
+  },
+  {
+   "cite": "p.1:83",
+   "ocr": "foil 18",
+   "fixed": "foil 13",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:98",
+   "ocr": "im conjunction",
+   "fixed": "in conjunction",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:5",
+   "ocr": "su/phurizing",
+   "fixed": "sulphurizing",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:19",
+   "ocr": "voltage 6",
+   "fixed": "voltage b",
+   "basis": "scan (italic b, as in Fig. 2)"
+  },
+  {
+   "cite": "p.2:29",
+   "ocr": "gradient ¢",
+   "fixed": "gradient c",
+   "basis": "scan (italic c, as in Fig. 2)"
+  },
+  {
+   "cite": "p.2:30",
+   "ocr": "of.a",
+   "fixed": "of a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:40",
+   "ocr": "electrode 18",
+   "fixed": "electrode 13",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:65",
+   "ocr": "amplifiers 28",
+   "fixed": "amplifiers 23",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:88",
+   "ocr": "flow. . Any",
+   "fixed": "flow. Any",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:96",
+   "ocr": "conductivity -",
+   "fixed": "conductivity",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:109",
+   "ocr": "electrica'ly",
+   "fixed": "electrically",
+   "basis": "scan (broken l) + Google Patents"
+  },
+  {
+   "cite": "p.2:118",
+   "ocr": "thickness,-which",
+   "fixed": "thickness, which",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:126",
+   "ocr": "4,",
+   "fixed": "4.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:6",
+   "ocr": "current, .",
+   "fixed": "current,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:20",
+   "ocr": "inter- .",
+   "fixed": "inter-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:24",
+   "ocr": "compound —",
+   "fixed": "compound",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:31",
+   "ocr": "at.its",
+   "fixed": "at its",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:39",
+   "ocr": "' of",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:46",
+   "ocr": "in the at",
+   "fixed": "in the film at",
+   "basis": "scan (Google Patents also drops \"film\")"
+  },
+  {
+   "cite": "p.3:46",
+   "ocr": "alumi-.",
+   "fixed": "alumi-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:80",
+   "ocr": "fluctuating.",
+   "fixed": "fluctuating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:82",
+   "ocr": "In.testimony",
+   "fixed": "In testimony",
+   "basis": "scan + Google Patents"
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "patent": "Filed 1905-04-19 and issued 1905-11-07 to John Ambrose Fleming of University College London, assigned to Marconi Wireless Telegraph Company of America. It covers the Fleming valve, the first vacuum-tube diode put to use: a heated carbon filament and an unheated metal cylinder in an evacuated lamp bulb conduct in one direction only, so the valve rectifies the high-frequency currents of a wireless receiver into a direct current that an ordinary galvanometer can read. It builds on the effect Thomas Edison had recorded in his lamp experiments, current flowing across the vacuum from a hot filament to a separate electrode (US 307,031, 1884); Fleming's corresponding British patent is GB 24,850 of 1904. The patent's 'negative electricity' passing from the hot to the cold conductor is what is now called thermionic emission of electrons. Lee de Forest added a grid between filament and plate to make the audion (US 879,532, 1908), the forerunner of the triode. In 1916 a federal court held that the audion infringed this patent (Marconi Wireless Telegraph Co. of America v. De Forest Radio Telephone & Telegraph Co., S.D.N.Y.); in 1943 the Supreme Court held this patent invalid because of an improper disclaimer (Marconi Wireless Telegraph Co. of America v. United States, 320 U.S. 1).",
+ "figs": {
+  "1": "The valve in section, with the receiving circuit drawn diagrammatically. The double dashed outline is the glass wall of bulb a in section. Cylinder c hangs from two platinum wires d sealed through the shoulders of the bulb and surrounds the loop filament b, whose ends pass through the hatched glass pinch to leads f and e below the lamp-style base. Battery h heats the filament (+ to f, - to e). Only the right-hand wire d is taken out: wire j runs from it through secondary k and galvanometer l back to lead e, so the rectified current flows from cylinder to filament through k and l. Primary m connects aerial wire n to earth o.",
+  "2": "Two valves, drawn on their sides in simplified form: oval bulb a, rectangular cylinder c, dashed filament b, and a base with the lead pair e, f; each has its own battery h. The left vertical wire joins the upper valve's filament circuit to the lower valve's cylinder wire d. The upper valve's wire d (marked with an arrowhead) goes to the upper coil p, and the lower coil p goes to the lower valve's filament circuit. The common terminal of the two coils, at the right, returns along the bottom through coil k to the left vertical. Needle q sits between the two coils.",
+  "3": "Three valves of the Fig. 1 kind in parallel, drawn in outline with the filaments b dashed inside the cylinders c. Wire j joins the three cylinder wires d at the top. The left-hand leads e join the battery's negative terminal along the upper of the two lower wires; the right-hand leads f join the positive terminal along the lowest wire, passing the negative wire at the small humps (crossings, not joints). The signal circuit runs from j down through coil k and galvanometer l to the negative terminal, so the currents rectified by the three valves add in l."
+ },
+ "parts": {
+  "b": "The hot electrode, later called the cathode. The text gives it a rating of six to eight volts and two to four amperes, like an incandescent-lamp filament.",
+  "c": "The cold electrode, later called the anode or plate.",
+  "k": "With primary m, the induction coil that couples the aerial circuit to the valve circuit.",
+  "p": "Wound so that the opposite currents through the two valves turn needle q the same way; the text says this uses the whole of the energy of the alternating current instead of discarding half of it."
+ },
+ "glossary": [
+  {
+   "term": "Hertzian-wave telegraphy",
+   "def": "Wireless telegraphy by radio waves, named after Heinrich Hertz, who demonstrated electromagnetic waves in the late 1880s."
+  },
+  {
+   "term": "rectify",
+   "def": "Convert alternating current into current flowing in one direction, by suppressing or reversing one half of each cycle."
+  },
+  {
+   "term": "electric valve / oscillation-valve",
+   "def": "The patent's names for a one-way conductor, now a diode; British usage kept 'valve' for vacuum tubes."
+  },
+  {
+   "term": "negative electricity",
+   "def": "Pre-electron term; the carriers flowing from the hot filament to the cold cylinder are electrons emitted thermionically by the hot filament."
+  },
+  {
+   "term": "vacuous vessel",
+   "def": "Evacuated envelope, here the glass bulb a."
+  },
+  {
+   "term": "aerial wire",
+   "def": "Antenna."
+  },
+  {
+   "term": "induction-coil",
+   "def": "Here a transformer of primary m and secondary k between the aerial circuit and the detector circuit."
+  },
+  {
+   "term": "mirror-galvanometer",
+   "def": "Sensitive current meter whose moving coil or needle carries a small mirror; deflection is read from a reflected light beam."
+  },
+  {
+   "term": "differential galvanometer",
+   "def": "Galvanometer with two separate coils acting on one needle; here connected so that the two valves' opposite currents deflect it the same way."
+  },
+  {
+   "term": "meerschaum",
+   "def": "A soft white mineral (sepiolite); suggested as a former for a helix of metal foil in place of the cylinder."
+  }
+ ]
+}

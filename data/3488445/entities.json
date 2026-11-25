@@ -1,0 +1,27 @@
+{
+  "pn": "3488445",
+  "inventors": [
+    {
+      "name": "Robert W. Chang",
+      "printed": "Robert W. Chang, Eatontown, N.J.",
+      "city": "Eatontown",
+      "region": "NJ",
+      "country": "US"
+    }
+  ],
+  "assignees": [
+    {
+      "name": "Bell Telephone Laboratories, Incorporated",
+      "printed": "Bell Telephone Laboratories, Incorporated, Murray Hill, N.J., a corporation of New York",
+      "org": "Bell Labs",
+      "kind": "company",
+      "city": "Murray Hill",
+      "region": "NJ",
+      "country": "US"
+    }
+  ],
+  "source": {
+    "page": 3,
+    "where": "column 1 header (inventor, assignor to)"
+  }
+}

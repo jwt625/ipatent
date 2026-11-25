@@ -1,0 +1,68 @@
+{
+  "patent": "Filed 1965-06-18 and issued 1968-09-10 to Lewis F. Miller and Richard K. Spielberger, assigned to IBM. It covers a fired thick-film conductor paste: noble-metal powder (gold, silver, platinum, palladium or their alloys) with a glass frit binder, to which a small amount (below 10 percent by weight, preferably below 5) of a finely divided high-melting oxide such as colloidal silica, indium oxide, titanium dioxide or alumina is added. After firing, lead-tin solder no longer wets the conductor, so a solder dip coats only separately applied solderable pads, where the chips are joined. The oxide is rated by oil absorption (above 10 lbs./100 lbs.) together with a low surface area, i.e. small particles that stay dispersed; the patent reports resistance increases under 50 percent. The setting is IBM's Solid Logic Technology, introduced with System/360 in 1964: half-inch-square ceramic substrates with screen-printed, fired conductors and small chips soldered face down (Davis et al., IBM Journal of Research and Development, 1964). Confining solder to defined pads so that the molten joints hold the chip up is the principle of the controlled-collapse chip connection (flip-chip) process (L. F. Miller, IBM Journal of Research and Development, 1969).",
+  "figs": {
+    "1": "Process flow, read top to bottom. The three boxes across the top are the dry powders; the solder-blocking oxide is simply a third powder in the paste, with no separate masking step. The powders are sifted (20) and blended dry (24), the liquid vehicle is added at 30, and the paste is milled (32), printed (34), dried (36) and fired (38).",
+    "2": "Oblique view of a module substrate 52. The double-line strips are the fired conductor runs 50; the raised discs around the edge are lands 54, and pins project from the underside. The small block 62, where two runs meet near the centre, is the chip.",
+    "3": "Section through the chip joints, thicknesses exaggerated. The large region hatched with solid and dashed diagonals is substrate 52; the thin layer on it is conductor 50 (hatched one way), which ends in pads 60 (hatched the other way) under the chip, with no conductor between the two pads. Solder 64 joins each pad to the face-down chip 62; it covers only the pads because the adjoining conductor 50 is not wetted. The broken right-hand edge means the substrate continues."
+  },
+  "parts": {
+    "30": "The text uses 30 both for one of the \"method steps 30 and 32\" that form the paste and for the \"mixing phase 30\".",
+    "50": "The fired noble-metal conductor containing the solder-inhibiting oxide; solder does not wet it.",
+    "54": "Not named in the text; the round lands around the edge of the substrate.",
+    "60": "Solderable pads applied as a separate pattern, by the method of copending application Ser. No. 465,034 filed the same day; the solder bath coats only these."
+  },
+  "glossary": [
+    {
+      "term": "noble metal",
+      "def": "A metal that resists oxidation in air when fired: here gold, silver, platinum and palladium, alone or alloyed."
+    },
+    {
+      "term": "thick film",
+      "def": "A conductor, resistor or dielectric made by screen printing a paste of powders onto a ceramic substrate and firing it; layers are typically several micrometres to tens of micrometres thick."
+    },
+    {
+      "term": "frit",
+      "def": "Powdered glass. Added to the paste, it melts during firing and bonds the metal particles to each other and to the substrate."
+    },
+    {
+      "term": "vehicle",
+      "def": "The liquid part of a printing paste: solvent plus resin binder (here also a vaporizable solid), which gives the paste its viscosity and burns or evaporates away before or during firing."
+    },
+    {
+      "term": "mesh",
+      "def": "Sieve size in openings per linear inch; a 200 mesh sieve passes particles under about 74 micrometres, a 400 mesh sieve under about 37 micrometres."
+    },
+    {
+      "term": "oil absorption",
+      "def": "The weight of linseed oil needed to turn 100 parts by weight of a powder into a stiff paste (ASTM D281); higher values indicate finer, more open particles."
+    },
+    {
+      "term": "B.E.T. method",
+      "def": "Measurement of a powder's specific surface area (square metres per gram) from the amount of gas adsorbed on it (Brunauer, Emmett and Teller, Journal of the American Chemical Society, 1938)."
+    },
+    {
+      "term": "colloidal silica",
+      "def": "Silicon dioxide in very fine particles, typically tens of nanometres or smaller."
+    },
+    {
+      "term": "wetting / tinning",
+      "def": "Molten solder wets a surface when it spreads on it and bonds to it; tinning is coating a conductor with solder in this way."
+    },
+    {
+      "term": "silk screening",
+      "def": "Screen printing: paste is pushed by a squeegee through the open areas of a patterned mesh screen onto the substrate."
+    },
+    {
+      "term": "soak, fire, cool",
+      "def": "The firing cycle: slow heating that drives off the vehicle, a hold at peak temperature that sinters the metal and melts the frit, then cooling."
+    },
+    {
+      "term": "face-down chip joining",
+      "def": "Attaching a chip with its contacts facing the substrate, joined by solder bumps rather than wires; now called flip-chip."
+    },
+    {
+      "term": "mil",
+      "def": "One thousandth of an inch, 25.4 micrometres."
+    }
+  ]
+}

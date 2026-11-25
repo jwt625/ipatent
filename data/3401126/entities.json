@@ -1,0 +1,34 @@
+{
+  "pn": "3401126",
+  "inventors": [
+    {
+      "name": "Lewis F. Miller",
+      "printed": "Lewis F. Miller, Wappingers Falls",
+      "city": "Wappingers Falls",
+      "region": "NY",
+      "country": "US"
+    },
+    {
+      "name": "Richard K. Spielberger",
+      "printed": "Richard K. Spielberger, Hopewell Junction, N.Y.",
+      "city": "Hopewell Junction",
+      "region": "NY",
+      "country": "US"
+    }
+  ],
+  "assignees": [
+    {
+      "name": "International Business Machines Corporation",
+      "printed": "International Business Machines Corporation, Armonk, N.Y., a corporation of New York",
+      "org": "IBM",
+      "kind": "company",
+      "city": "Armonk",
+      "region": "NY",
+      "country": "US"
+    }
+  ],
+  "source": {
+    "page": 1,
+    "where": "column 1 header (inventors, assignors to)"
+  }
+}

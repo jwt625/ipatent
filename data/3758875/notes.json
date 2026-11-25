@@ -1,0 +1,126 @@
+{
+  "patent": "Filed May 1, 1970 (continuation-in-part of applications filed October 11 and December 27, 1968) and issued September 11, 1973 to Izuo Hayashi of Bell Telephone Laboratories. It covers the single- and double-heterostructure injection laser in AlGaAs/GaAs: a thin narrow-gap intermediate (active) region bounded by heterojunctions whose band steps confine injected carriers to it, with claims to a double heterostructure whose active layer is between about half a wavelength and 1 micrometre thick. The Example describes the four-layer structure grown by liquid phase epitaxy (FIGS. 6A-6B). In 1970 Hayashi and Morton Panish reported continuous room-temperature operation of such a laser (Hayashi, Panish, Foy and Sumski, Applied Physics Letters, 1970); Zhores Alferov's group at the Ioffe Institute in Leningrad, whose earlier heterostructure papers are cited on the front page, reported the same result that year. The double-heterostructure concept had been proposed by Herbert Kroemer (Proceedings of the IEEE, 1963); Alferov and Kroemer shared the 2000 Nobel Prize in Physics for semiconductor heterostructures. A thin narrow-gap active layer between wider-gap cladding layers that confine both carriers and light remains the basic structure of semiconductor lasers. The patent also covers deep impurity levels and band tails for lowering the threshold (FIGS. 2B, 4A-4C) and a dome-shaped heterostructure light-emitting diode (FIG. 5).",
+  "figs": {
+    "1": "Perspective of the single-heterostructure chip on heat sink 16. The front face shows the p-type wide-gap layer 12 on top and the n-type narrow-gap layer 14 below; the thin band between them is intermediate region 24, bounded above by p-p heterojunction 23 and below by p-n homojunction 25. The raised strip on top is electrode 20; source 18 drives current from it down to electrode 22 under layer 14. End faces 28 and 30 are the cavity mirrors, and output 26 leaves face 30 in the plane of region 24; side faces 32 (back) and 34 (front) are roughened. Letters give the dimensions: a along the cavity, b the electrode width, b' the chip depth, c the height.",
+    "2A": "Band diagram under forward bias, position across the junctions from left to right, electron energy upward. The upper hatched band is the conduction band filled with electrons up to E_{Fc}; the lower hatched band is the valence band, with holes (circled plus) above it up to E_{Fv}. Electrons cross the homojunction from the n side into the p-type intermediate region of width t and are stopped by the STEP at the p-p heterojunction, so they recombine (double arrow) inside that region. Band gaps: E_{gn} on the n side, E_{gi} in the intermediate region, E_{gp} on the wide-gap p side.",
+    "2B": "Same structure as FIG. 2A with deep states: the dashed band of circled plus signs just above the valence band edge is the deep (acceptor or band-tail) states filled with holes. Holes are injected from the p side into these states on the n side (arrow at HOLE INJECTION), and radiative recombination runs from the conduction band to the deep states in the n-type narrow-gap region. The step at the p-p heterojunction is unchanged.",
+    "3A": "Energy (vertical) against density of states (horizontal) for a conventional diode at low temperature. Upper curve: conduction band; lower curve: valence band. Hatching is occupied electron states, circled minus marks electrons and circled plus empty states (holes). Electrons fill the conduction band sharply up to E_{Fc}, and holes empty the valence band sharply down to the valence-band Fermi level, printed F_{FV}.",
+    "3B": "The same conventional diode at high temperature and the same current. The electrons spread thinly to higher energies (narrow hatched sliver along the axis) and the conduction-band Fermi level E'_{Fc} drops to near the band edge; the valence-band occupation also blurs around E'_{Fv}. A major fraction of the electrons now lie more than 1 to 2 kT from the Fermi level, where they cannot contribute to lasing.",
+    "3C": "The confined heterostructure at high temperature and the same current as FIG. 3B. The higher electron density pushes the conduction-band Fermi level up to E''_{Fc} and fills a wider hatched region near it, so more electrons lie close to the Fermi level than in FIG. 3B.",
+    "4A": "Density of states at elevated temperature with a donor impurity level (small hatched lobe) below the conduction band; E_{D}, between the dashed lines, is its depth. If E_{D} is several kT, electrons on the level are not thermally lifted into the band.",
+    "4B": "As FIG. 4A with an acceptor impurity level (open lobe, i.e. states empty of electrons) above the valence band; E_{A}, between the dashed lines, is its depth. The hatched conduction-band region near E_{Fc} is the injected electrons; the valence band below is filled.",
+    "4C": "As FIGS. 4A-4B with heavy doping instead of a discrete level: both band edges extend as tails (the curves labeled DEEP BAND TAILS) into the forbidden gap. Hatching shows occupied states; E_{Fc} and E_{Fv} are marked by the dashed lines.",
+    "5": "Section of the heterostructure light-emitting diode. The narrow-gap layer 114 is a mesa-shaped substrate; the wide-gap p layer 112 is a dome on top. Intermediate region 124 lies between heterojunction 123 (solid line) and homojunction 125 (dashed line). Source 118 drives current between side contact 120 and bottom contact 122. Light 126 is generated in region 124 and leaves through the dome, which brings more rays to the surface near normal incidence; the wavy left and right edges of the substrate are break lines.",
+    "6A": "Double-heterostructure layer stack, thicknesses exaggerated, on heat sink 216. Bottom to top: contact 219 (hatched), substrate 214, n-type wide-gap layer 215, narrow-gap region 224 (bracket), p-type wide-gap layer 212, contact layer 217 and contact 218 (hatched). Inside 224 the dashed line is p-n homojunction 226; region 224 is bounded by n-n heterojunction 225 below and p-p heterojunction 223 above. d_{1} is the distance from 226 to 223, d_{2} from 226 to 225, and t the total thickness. The front page repeats this figure.",
+    "6B": "Variant of the active region of FIG. 6A in which the p-n junction coincides with the lower heterojunction: the whole of region 224 is p-type, and its lower boundary is p-n heterojunction 222 (d_{2} = 0, d_{1} = t). This is the layer sequence grown in the Example."
+  },
+  "parts": {
+    "24": "The text defines the intermediate region as the region between p-p heterojunction 23 and p-n homojunction 25; injected electrons are confined in it.",
+    "28": "Polished or cleaved flat and parallel with 30 to form a plane parallel optical resonator.",
+    "32": "With 34, the other pair of faces perpendicular to region 24, often roughened.",
+    "a": "Typical value given in the text: 14 mils, or 15 mils in the deep-states example.",
+    "b": "Typical value given in the text: 0.5 mil.",
+    "b'": "Typical value given in the text: 4 mils.",
+    "c": "Typical value given in the text: 6 mils.",
+    "d_{1}": "Distance between p-n homojunction 226 and p-p heterojunction 223; to be less than the electron diffusion length D_{E} (equation 1).",
+    "d_{2}": "Distance between p-n homojunction 226 and n-n heterojunction 225; to be less than the hole diffusion length D_{H} (equation 2).",
+    "t": "The text requires lambda/2 <= t (equation 3), lambda being the wavelength measured in the intermediate region; claim 1 bounds it above at about 1.0 micrometre.",
+    "F_{FV}": "Printed F_{FV} in FIG. 3A only; the text and the other figures call this level E_{Fv}, the Fermi level in the valence band.",
+    "E'_{Fv}": "Not named in the text; the valence-band Fermi level at high temperature.",
+    "E''_{Fv}": "Not named in the text; the valence-band Fermi level in the confined structure at high temperature.",
+    "E_{A}": "Not named in the text; the depth of the acceptor level above the valence band, which the text gives as 30 to 40 meV for hydrogen-like acceptors in GaAs.",
+    "224": "Introduced as the narrow band gap region; the text also calls it the intermediate region, and in the Example it is the second epitaxial layer, GaAs.",
+    "214": "In the Example, an n-type GaAs wafer.",
+    "217": "In the Example, p-type GaAs, which permits good electrical contact (claim 7)."
+  },
+  "glossary": [
+    {
+      "term": "heterojunction",
+      "def": "The interface between two semiconductors of different band gap, here AlGaAs and GaAs. The patent calls it p-p, n-n or p-n according to the conductivity type on each side; p-p and n-n are its common conductivity type heterojunctions."
+    },
+    {
+      "term": "homojunction",
+      "def": "A p-n junction within one material, with the same band gap on both sides."
+    },
+    {
+      "term": "single heterostructure (SH) / double heterostructure (DH)",
+      "def": "An injection laser with one heterojunction next to the p-n junction (SH), or with heterojunctions on both sides of the active region (DH), which confines both electrons and holes."
+    },
+    {
+      "term": "AlGaAs",
+      "def": "Aluminium gallium arsenide, Al_{x}Ga_{1-x}As, the patent's mixed crystal of AlAs and GaAs. Its band gap rises with the aluminium fraction x while its lattice constant stays close to that of GaAs, so it can be grown on GaAs without strain."
+    },
+    {
+      "term": "intermediate region",
+      "def": "The patent's term for what is now called the active region: the thin layer between the junctions where injected carriers recombine and gain occurs."
+    },
+    {
+      "term": "carrier confinement",
+      "def": "Holding injected electrons and holes in the active region by the band-edge steps at its heterojunctions, which raises their density for a given current."
+    },
+    {
+      "term": "optical confinement",
+      "def": "The wider-gap layers have a lower refractive index, so the active layer also acts as a waveguide that keeps the light where the gain is; the patent notes this as a secondary benefit."
+    },
+    {
+      "term": "diffusion length",
+      "def": "The mean distance a minority carrier travels before recombining, about 1 micrometre in the patent's materials; the junction spacings must be smaller than it for confinement to work."
+    },
+    {
+      "term": "minority carrier",
+      "def": "The carrier type that is scarce in a region: electrons in p-type material, holes in n-type. Forward bias injects minority carriers across the junction."
+    },
+    {
+      "term": "population inversion",
+      "def": "More electrons in the upper (conduction-band) states than in the lower states they can fall to, the condition for optical gain."
+    },
+    {
+      "term": "Fermi level (in the conduction or valence band)",
+      "def": "Under injection, electrons and holes each have their own Fermi level (now called quasi-Fermi levels), here E_{Fc} and E_{Fv}; states below E_{Fc} are mostly filled with electrons and states above E_{Fv} mostly emptied."
+    },
+    {
+      "term": "effective band gap",
+      "def": "The patent's measure of band gap in heavily doped material where band tails blur the edges: the separation of the levels near each band edge that split the impurity states equally."
+    },
+    {
+      "term": "deep level / band tail",
+      "def": "Impurity states, or a tail of band states created by heavy doping, lying several kT inside the forbidden gap, so that thermal excitation does not empty them."
+    },
+    {
+      "term": "kT",
+      "def": "Thermal energy, Boltzmann's constant times absolute temperature; about 26 meV at room temperature."
+    },
+    {
+      "term": "threshold current density",
+      "def": "The current per unit junction area at which lasing starts; for homojunction GaAs lasers it rose steeply with temperature."
+    },
+    {
+      "term": "CW",
+      "def": "Continuous wave: steady operation under direct current rather than short pulses."
+    },
+    {
+      "term": "optical cavity resonator",
+      "def": "Two parallel reflecting end faces, here cleaved or polished crystal faces, that feed light back through the gain region (a Fabry-Perot resonator)."
+    },
+    {
+      "term": "Q",
+      "def": "Quality factor of the resonator: higher Q means lower round-trip loss."
+    },
+    {
+      "term": "liquid phase epitaxy",
+      "def": "Growing crystal layers from a metal (here gallium) solution on a seed wafer while cooling; the Example slides the wafer under four solutions in turn."
+    },
+    {
+      "term": "electroluminescent diode",
+      "def": "A light-emitting diode: the same junction run without a resonator, emitting incoherent light."
+    },
+    {
+      "term": "heat sink",
+      "def": "A thermally conducting mount that removes heat from the diode."
+    },
+    {
+      "term": "mil",
+      "def": "One thousandth of an inch, 25.4 micrometres."
+    }
+  ]
+}

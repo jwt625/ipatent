@@ -1,0 +1,865 @@
+{
+ "pn": "3500000",
+ "number": "3,500,000",
+ "title": "SELF-ADAPTIVE ECHO CANCELLER",
+ "inventors": [
+  "John L. Kelly, Jr.",
+  "Benjamin F. Logan, Jr."
+ ],
+ "assignee": "Bell Telephone Laboratories, Incorporated, Murray Hill, N.J., a corporation of New York",
+ "filed": "1966-10-31",
+ "issued": "1970-03-10",
+ "appl_no": "591,382",
+ "int_cl": "H04b 3/20; H04m 9/08",
+ "us_cl": "179—170.2",
+ "refs_patents": [
+  {
+   "no": "2,825,764",
+   "date": "3/1958",
+   "name": "Edwards et al.",
+   "cl": "179—170.2"
+  }
+ ],
+ "refs_other": [],
+ "examiners": "Primary Examiner--KATHLEEN H. CLAFFY; Assistant Examiner--W. A. HELVESTINE",
+ "claims_count": 19,
+ "drawing_figures": 2,
+ "abstract": "Conventional echo suppressors generally combat echoes generated at hybrid junctions in long distance telephone connections by interrupting the return path according to some decision scheme based upon the relative levels of the outgoing and return signals. In contrast, the self-adaptive echo canceller described herein cancels the echo without interrupting the return path. A replica of the echo is synthesized and subtracted from the return signal. The replica is synthesized by means of a filter which, under control of a feedback loop, adapts to the transmission characteristic of the echo path and tracks variations of the path that may occur during a conversation.",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "col": 1,
+     "line": 28,
+     "text": "This invention relates to the suppression of echoes in communication channels and more particularly to the effective suppressing of echoes in a two-way telephone circuit of extremely long length such as, for example, a circuit completed by way of a satellite repeater in orbit about the earth. Its principal object is to afford improved protection against echoes irrespective of the length of the transmission circuits in use."
+    },
+    {
+     "col": 1,
+     "line": 36,
+     "text": "Echoes occur in telephone circuits when electrical signals meet imperfectly matched impedance junctions and are partially reflected back to the talker. Because such signals require a finite travel time, this reflected energy or echo, is heard some time after the speech is transmitted. As distances increase, the echo takes longer to reach the talker and becomes more and more annoying. An attempt is therefore generally made to control these reflections with voice-operated devices, known as echo suppressors, which function to attenuate or disable the voice path in one direction when a signal is detected on the path going in the other direction."
+    },
+    {
+     "col": 1,
+     "line": 48,
+     "text": "For circuits with moderate delays, such as transcontinental communication channels, the delay is of the order of several tens of milliseconds. This is sufficient to produce noticeable separation in the form of audible echoes which adversely affect the efficiency of verbal communication. Fortunately, suppressors have been developed which adequately cope with such echoes. For satellite communication circuits, on the other hand, the delay may be of the order of several hundred milliseconds, depending upon the height of the satellite, the number of satellites involved, and so on."
+    },
+    {
+     "col": 1,
+     "line": 60,
+     "text": "In a conversation carried on on a circuit with this order of delay, it has been found that there is a tendency for one talker to anticipate another talker’s response and break in on the conversation without his realizing that he is doing so. Typically, he breaks in to repeat the previously transmitted utterance or to question its receipt by the other party, and the does so during the time that the delayed answer is being transmitted. An echo introduced in the transmission loop compounds talker confusion, often to the point of a complete breakdown of conversation."
+    },
+    {
+     "col": 1,
+     "line": 71,
+     "text": "The adverse effects of eoches are thus greatly magnified with satellite circuits. Ordinary echo suppression devices are inadequate to cope with extensively delayed echoes. It is therefore preferable to eliminate echoes, for example, by complete cancellation, while at the same time permitting transmission in both directions. An echo-free circuit with suitable facility for double talking appreciably shortens talker delay between question and response, or comment and reaction, and thus gives both talkers a sense of conversational presence."
+    },
+    {
+     "col": 2,
+     "line": 9,
+     "text": "It is a specific object of this invention to improve the quality of speech or other communications signals transmitted over long distances by substantially eliminating echo returns without, however, impeding the free flow of conversation in both directions."
+    },
+    {
+     "col": 2,
+     "line": 14,
+     "text": "The objects of the invention are attained by continuously examining signals in the paths leading to and from a four-wire to two-wire telephone circuit junction, and by taking appropriate action to minimize signal correlation in the two one-way paths of the four-wire circuit. By eliminating correlated signals in the two one-way paths, incoming and outgoing signals are allowed to flow freely but incoming signal components which accompany outgoing signals, as echoes, e.g., incoming signals passed through an imperfectly terminated junction, are effectivey cancelled."
+    },
+    {
+     "col": 2,
+     "line": 25,
+     "text": "Stated in another way, the objects of the invention are attained by utilizing adjustable signal processing apparatus in the first of two one-way transmission paths of a communication system, together with an algebraic combining network connected in the second of the two one-way paths. Signals produced by the algebraic network are used for continuously adjusting the signal processing means connected in the first path, thus to minimize the presence of correlated signals in the output path."
+    },
+    {
+     "col": 2,
+     "line": 34,
+     "text": "In one embodiment of the invention, a signal-cancelling echo suppressor employs a self-adjusting transversal filter supplied with signals incoming to a four-wire to two-wire junction. Error signals, derived by processing signals in the outgoing path, continuously control the adjustment of the transversal filter so that the filter produces a replica of an undesired echo at its output. The replica signal is thereupon substracted from the outgoing signals and the differential is used as a new error signal for controlling the transversal filter."
+    },
+    {
+     "col": 2,
+     "line": 45,
+     "text": "Experience has shown that with such a system, convergence toward a status of low correlation is relatively rapid so that suppression may be substantial without, however, actually breaking either the incoming or the outgoing paths. Double talking may continue but both talkers are relieved of the confusion normal to a circuit contaminated by echo."
+    },
+    {
+     "col": 2,
+     "line": 52,
+     "text": "The invention will be fully apprehended from the following detail description of an illustrative embodiment thereof taken in connection with the appended drawings in which:"
+    },
+    {
+     "col": 2,
+     "line": 56,
+     "text": "FIG. 1 is a block schematic diagram showing a two-way signal transmission system which utilizes signal processing apparatus in accordance with the present invention; and"
+    },
+    {
+     "col": 2,
+     "line": 60,
+     "text": "FIG. 2 is a block schematic diagram showing the structural details of a portion of the system of FIG. 1."
+    },
+    {
+     "col": 2,
+     "line": 62,
+     "text": "FIG. 1 illustrates by way of a greatly simplified diagram, a signal transmission system interconnecting two terminal stations designated respectively E (east) and W (west). Two-way transmission is carried out in the following manner. A local circuit 10, which typically is a conventional two-wire telephone circuit connecting a subscriber to station W, is connected by hybrid network 11 to one end of a four-wire system that includes two separate two-wire circuits 12 and 13. In well-known fashion, the hybrid network provides a one-way path for voice currents from circuit 10 to outgoing circuit 12 and another one-way path for incoming currents from circuit 13 to local circuit 10. The impedance of the local circuit 10 is matched insofar as practical by a balancing network 14 associated with hybrid 11."
+    },
+    {
+     "col": 3,
+     "line": 5,
+     "text": "Outgoing currents in circuit 12 are passed by way of difference network 15 to the west-to-east transmission circuit 16. Circuit 16 typically includes both traditional telephone links, and circuit completed by way of one or more earth satellites. At the east station, currents from circuit 16 are delivered by way of isolating amplifier 29 to hybrid network 21. Hybrid 21, which is terminated by network 24, transfers incoming currents from circuit 23 to subscriber circuit 20 and routes locally generated currents from circuit 20 to outgoing circuit 22. Output currents are passed by way of difference network 25 to east-to-west transmission circuit 26, also generally including a satellite transmission link, to station W. Signal currents received at station W are delivered by way of circuit 13, which may include isolating amplifier 19, to hybrid 11."
+    },
+    {
+     "col": 3,
+     "line": 21,
+     "text": "Ideally, all incoming currents are passed to the subscriber line; none is transferred to the outgoing circuit. Unfortunately, the balancing networks generally provide only a partial match to the two-wire circuits (10 and 20), and a portion of the incoming signal reaches the outgoing circuit. In the absence of adequate suppression, this portion is returned to the remote station and is perceived as an echo. Accordingly, echo-suppressing apparatus is employed to eliminate the return signal without, however, interrupting either the incoming or the outgoing circuits. In accordance with the invention, echos are removed by developing a signal which constitutes as nearly as possible a replica of that portion of the incoming circuit which, due to hybrid inadequacies, reaches the outgoing circuit."
+    },
+    {
+     "col": 3,
+     "line": 36,
+     "text": "Considering the apparatus associated with station W (identical apparatus may be employed at station E), processing network 17 is supplied with signals incoming on circuit 13. It develops the requisite replica of the incoming signal to cancel that portion of the signal in circuit 12 which corresponds to a signal in circiut 13, i.e., an echo. The cho is thereupon cancelled by subtracting the replica signal from the contaminated signal in circuit 12 through the action of algebraic difference network 15."
+    },
+    {
+     "col": 3,
+     "line": 45,
+     "text": "Since the character of the “echo” signal continuously changes, it is necessary to adjust processing network 17 continuously in accordance with the change. This is done in accordance with the invention by examining the signal produced at the output of difference network 15 and determining the degree of echo present, and adjusting processing network 17 to achieve full cancellation of the echo present in circuit 12. Continuous adjustment assures rapid convergence of the match between echo and the processed cancellation signal. It has been found that excellent convergence can be achieved, for example in approximately 0.2 to 0.5 second, and that suppression on the order of 30 db is possible."
+    },
+    {
+     "col": 3,
+     "line": 58,
+     "text": "FIG. 2 illustrates apparatus suitable for processing incoming signals to derive the requisite replica signal and means for performing the desired cancellation. The apparatus of FIG. 2 corresponds generally to that included within dashed enclosure 30 in FIG. 1."
+    },
+    {
+     "col": 3,
+     "line": 63,
+     "text": "Signals incoming in circuit 13 are delivered to a transversal filter which includes delay elements 100_{1}–100_{n}. Transversal filter 100 may be suitably terminated by resistor 101 or the like. If desired, an additional fixed delay 102 may be inserted ahead of the transversal filter, for example by way of switch 103, to compensate for gross delays due to extremely long circuit. Each delay element of the filter, in a typical example in practice, imparts a one-tenth millisecond delay (τ) to an applied signal. Thus, exact replicas of the signal in circuit 23 are repeatedly available at one millisecond intervals."
+    },
+    {
+     "col": 3,
+     "line": 74,
+     "text": "Individual signals produced at the taps of the transversal filter are adjusted in gain by means of networks 110_{1} through 110_{n} through which they are directed, and are combined in summing network 120. The resultant composite signal is supplied to combining network 130 together with signals outgoing via circuit 12. Combining network 130 effectively supplies the algebraic difference and delivers an echo-free signal to outgoing circuit 16."
+    },
+    {
+     "col": 4,
+     "line": 7,
+     "text": "For a static situation—i.e., one in which a steady state signal is incoming on channel 13, ordinary techniques for adjusting the relative gains of control networks 110, the polarity of the signals issuing from gain control networks 110, and the number of taps employed in delay network 100 suffice to achieve a composite signal at the output of summing network 120 sufficient to approximate a selected portion of the signal appearing in circuit 12. However, the situation is not a static one. The signals incoming on circuit 13 are speech signals characterized by erratic signal levels interspersed with silent intervals. Similarly, the signals in outgoing circuit 12 comprise a combination of locally generated signals, which vary considerably in magnitude and which are characterized by frequent silent intervals, together with delayed and attenuated replicas of the signal incoming on circuit 13, i.e., echo components. Accordingly, the characteristics of the transversal network must be continuously adjusted to assure that the signal developed by summing amplifier 120 closely approximates only the echo component appearing in outgoing circuit 12."
+    },
+    {
+     "col": 4,
+     "line": 28,
+     "text": "In accordance with the invention, a closed error loop technique is employed. Thus, an initial replica signal produced by summing network 120 is subtracted via combination network 130 from the composite output signal in circuit 12. The resultant signal delivered to transmission network 16 thus represents the locally generated output signal plus any residue echo—i.e., that portion of the echo signal not removed through the subtraction process. This composite signal constitutes an error component which is processed by error signal control 118 and delivered in parallel to multiplier networks 112_{1}–112_{n}. However, the error signal is not by itself suitable for indicating the necessary adjustment of the respective gain control networks 110 to obtain full correction. Accordingly, the incoming signal which appears in variously delayed versions at the junctions of delay elements 110 are mixed—e.g., by multiplication with the error component, and the resultant signal is averaged—e.g., in integrating networks 113, to produce a signal whose polarity and magnitude indicate the appropriate correction for each gain control network. Thus, if the error signal indicates a substantial remanent of the echo in the outgoing transmission network, the gain control networks 110 are individually adjusted to pass a greater portion of the signal incoming in signal 13. Hence, the composite signal developed by network 120 and removed from the outgoing signal in network 130 tends to remove the disparity and reduce the magnitude of the error signal."
+    },
+    {
+     "col": 4,
+     "line": 56,
+     "text": "Following the adjustment outlined above, it may well be that an overshoot has occurred—i.e., the replica signal substracted from the outgoing signal was too great. This is immediately sensed by the error signal control network 118 and the gain control networks 110 are readjusted to close the gap. It has been found in practice that convergence toward essentially full echo removal can be achieved in an extremely short time by thus adjusting the gain coefficients for each tap signal of the transversal filter in accordance with the integral of the product of the error signal and the signal appearing at the several taps of the transversal filter delay."
+    },
+    {
+     "col": 4,
+     "line": 68,
+     "text": "That this is so may be determined from a mathematical appraisal of the adaptive control loop of the invention. Let g_{i}(t) be the gain coefficient established by networks 110 for the N tap signals of delay network 100. Let x(t) represent the signal incoming via circuit 13, and let y(t) represent the signal outgoing in circuit 12. The outgoing signal y(t) includes a portion of the x(t) signal, which we classify as echo, and may include a signal which originates at the local station—e.g., at station W in the apparatus of FIG. 1. The composite output of the transversal filter, available at the output of summing network 120, is represented by\nŷ(t)\nIn the absence of a locally originated signal, the signal developed at the output of combination network 130 may be represented as the error signal\ne(t)=y(t)−ŷ(t)\nAn equilibrium, echo free, condition (g_{i}(t)=0, i=1 . . . N) obtains if, and only if, e(t)=0. The system converges monotonically to this equilibrium condition if an input signal s(t) passed through the adjusted N-tap transversal filter constitutes an exact replacement for the echo component."
+    },
+    {
+     "col": 5,
+     "line": 17,
+     "text": "If y(t) consists of such an echo plus noise (which map include a speech signal) that is statistically independent of the echo, then the system will still converge to this equilibrium, although more slowly. If an exact replica of the echo component is not developed as s(t) passes through an N-tap transversal filter, then an uncancellable echo remains whose level depends on how closely the filter may be made to approximate the echo path. In the foregoing, g_{i} and x_{i} are functions of time, and x_{i}(t)=x(t+T−iT), i=1, 2 . . . N, where T is the delay due to each segment of the delay line."
+    },
+    {
+     "col": 5,
+     "line": 28,
+     "text": "The outgoing signal, y(t), will first be assumed to consist only of an echo of the transmitted signal. Further, it is assumed that the echo can be duplicated by the transverse filter. In that case,\ny(t)=H⃗·H⃗\nwhere H⃗ is the vector representing the echo “impulse response.”\nThen\nd/dt G⃗=−K(H(t)+G⃗·X⃗)X⃗   (1)\nwhere\nG⃗·X⃗=Σ_{i=1}^{n} g_{i}x_{i}\nAssuming that the echo path does not vary with time,\ndH/dt=0\nEquation 1 can be rewritten as\nd/dt (G⃗+H⃗)=−K((G⃗+H⃗)·X⃗)X⃗   (2)"
+    },
+    {
+     "col": 5,
+     "line": 53,
+     "text": "Taking the dot product of both sides with G⃗+H⃗ one obtains\nd/dt |G⃗+H⃗|^{2}=−2K((G⃗+H⃗)·X⃗)^{2}   (3)"
+    },
+    {
+     "col": 5,
+     "line": 58,
+     "text": "Thus the magnitude of the vector G⃗+H⃗ is nonincreasing and is strictly decreasing whenever there is an uncancelled zero. Eventually, therefore, the echo will be cancelled."
+    },
+    {
+     "col": 5,
+     "line": 63,
+     "text": "Further, integrating Equation 3 from O to τ gives\n|G⃗(O)+H⃗(O)|^{2}−|G⃗(τ)+H⃗(τ)|^{2}=2K ∫_{0}^{τ} ((G+H)·X)^{2}dt   (4)\nThe left hand side approaches\n|G⃗(O)+H⃗(O)|^{2}\nin the limit as τ becomes large. Therefore the echo power,\n((G⃗+H⃗)·X⃗)^{2}\nmonotonically goes to zero."
+    },
+    {
+     "col": 6,
+     "line": 1,
+     "text": "If y(t) consists of noise, and a speech signal originates at the far end (double talking) besides the echo then we can write\nd/dt (G⃗+H⃗)=−K((G⃗+H⃗)·X⃗)X⃗−Kn(t)X⃗   (5)\nwhere n(t) consists of all components of the received signal other than the echo. The analogous Equation 3 now becomes,\nd/dt |(G⃗+H⃗)|^{2}=−2K((G⃗+H⃗)·X⃗)^{2}−2Kn(t)(G⃗+H⃗)·X⃗   (6)\nThe second term on the right now tends to destroy the monotonic approach of |G⃗+H⃗| to zero. However, since n(t) and\n(G⃗+H⃗)·X⃗\nare uncorrelated, this term will be randomly +ve and −ve, giving a “monotonic” decrease of\n|G⃗+H⃗|^{2}\non an average."
+    },
+    {
+     "col": 6,
+     "line": 25,
+     "text": "The behavior of the system depends in large measure on the manner in which the error signal is processed in network 118. In the simplest case, network 118 may constitute a linear system whose essential function is to isolate the error loop network from the outgoing channel and deliver a wideband signal to multipliers 112. If this is done, gain control networks 110 must necessarily be wideband modulators capable of responding to a wideband control signal. Further, as the control loop tends to converge, the system may shunt about the optimum cancellation value."
+    },
+    {
+     "col": 6,
+     "line": 36,
+     "text": "In accordance with a preferred form of the invention, a nonlinear network is employed at 118 to process the error signal. A system which exhibits any one of a number of forms of nonlinearity may be used. Most afford some form of improvement. However, a judicious choice of the nonlinear characteristic considerably simplifies and improves the performance and implementation of the system. Preferably, an infinite clipper is used. Such a system has been found to yield excellent results. In essence, the applied error signal is severely clipped in order to produce a square-wave function indicative of positive error or negative error. As shown, for example, by J. C. R. Licklider and I. Pollack in the Journal of the Acoustical Society of America, vol. 20, 1948, pp. 42–51, infinite clipping produces a square wave of constant amplitude which denotes the polarity of the error. In any case, the processed error signal need only adjust the sign of the applied tap signal from delay line 100, i.e., in multipliers 112. The averaged signal may therefore be used simply to control a switch modulator to apply the tap signal to summing network 120. Gain control networks 110 can therefore be considerably simplified in construction."
+    },
+    {
+     "col": 6,
+     "line": 59,
+     "text": "The use of an infinite clipper in the error control network 118 has other advantages. Suppose that the system is near equilibrium and that echo has been reduced to a very low value. If there is now a sudden burst of noise, for example a spurt of double talking, then the rate at which a linear system moves away from equilibrium is proportional to the level of the noise. If an infinite clipper is used, however, the rate at which it moves away from equilibrium is essentially independent of noise level. Thus the system does not depart from equilibrium too rapidly upon the introduction of a large noise input."
+    },
+    {
+     "col": 6,
+     "line": 70,
+     "text": "Concomitantly, convergence or settling time is much less dependent on the input signal level. For example, if the signal level in the outgoing circuit drops in level by a factor of approximately ten, the time necessary for convergence with a linear error control network increases by a factor of about one hundred, whereas with a nonlinear clipper, convergence time is increased by a factor of only ten or so."
+    },
+    {
+     "col": 7,
+     "line": 3,
+     "text": "With the use of an infinite clipper, one may replace E(t) in the relations developed above, by\n(E(t))=1\nfor E(t)≥0, =−1 for E(t)≤0. Following the same derivation as before, Equation 3 becomes\nd/dt |(G⃗+H⃗)|^{2}=−2K|(G⃗+H⃗)·X⃗|"
+    },
+    {
+     "col": 7,
+     "line": 13,
+     "text": "This yields a monotonic convergence at a rate proportional to |X|."
+    },
+    {
+     "col": 7,
+     "line": 15,
+     "text": "It is seen in Equations 3 and 7 that in the absence of extraneous signals, the convergence can be made as rapid as desired by making the gain factor K sufficiently large. However, extraneous signals will be present in practice due to simultaneous talking of both parties, additive noise in the circuits, and departure of the echo from a form which can be duplicated by the transversal filter. These extraneous signals are represented as n(t) in Equation 6 and it is seen that these irreducible signals also are multiplied by K. This means that the coefficients g_{i} of the transversal filter will never settle down to a constant but will have a residual ripple which increases with K and the level of n(t). This residual ripple introduces its own noise in the circuit. Hence, there must be a compromise in the choice of K; K must be large enough to assure a reasonable convergence time but must not be so large as to introduce excessive ripple in the filter coefficients. In effect, the choice of K depends on the particular system with which the system is to be used. Since the settling time, and hence the choice of K, depends on the signal level, it may be desirable to maintain this level within tolerable limits, e.g., by use of a level control system."
+    },
+    {
+     "col": 7,
+     "line": 37,
+     "text": "The above-described arrangements are, of course, merely illustrative of the application of the principles of the invention. Thus, although the echo canceller apparatus of the invention has been shown in the figures and, for the most part, described for use in association with a hybrid junction terminal, it is to be understood that it may advantageously be used at any point in a two-way circuit. a first linear combination of selected tap signals may constitute complete communications networks, e.g., a number of terminal station links, some of which are interconnected by hybrid junctions. The cancellation apparatus may advantageously be used, therefore, at a ground station terminal which brings together a number of communications circuits for connection with a satellite communications circuit."
+    },
+    {
+     "col": 7,
+     "line": 52,
+     "text": "Similarly, the exact order in which the several signals available at the taps of the delay line system are combined may be altered to suit exact system needs. For example, a first linear combination of selected tap signals may be combined with a second linear combination of selected tap signals, and so on. The use of various linear combinations of the tap signals affords a great deal of design flexibility."
+    },
+    {
+     "col": 7,
+     "line": 60,
+     "text": "In the examples of the practice of the invention discussed above, it was assumed that the incoming and outgoing signals were of a standard level, i.e., that the signals never exceeded the signal handling capability of the circuit apparatus. Indeed, in most applications, this assumption is a valid one. However, if signal levels vary excessively, it may be desirable to employ some form of automatic gain control to restore incoming or outgoing signals to a usable level. Conventional cricuits are suitable."
+    },
+    {
+     "col": 7,
+     "line": 69,
+     "text": "In all events, it is apparent that numerous other arrangements may be devised by those skilled in the art without departing from the spirit and scope of the invention."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 2,
+   "line": 56,
+   "text": "FIG. 1 is a block schematic diagram showing a two-way signal transmission system which utilizes signal processing apparatus in accordance with the present invention; and"
+  },
+  {
+   "fig": "2",
+   "col": 2,
+   "line": 60,
+   "text": "FIG. 2 is a block schematic diagram showing the structural details of a portion of the system of FIG. 1."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 7,
+   "line": 74,
+   "depends": null,
+   "text": "1. An echo canceller which comprises:\nadjustable signal processing means connected in the first of two one-way transmission paths of a communication system,\nmeans connected in the second of said two one-way paths for algebraically combining speech signals in said second path with speech signals supplied from said processing means, and\nmeans responsive to said alegbraically combined speed signals for adjusting said signal processing means."
+  },
+  {
+   "n": 2,
+   "col": 8,
+   "line": 9,
+   "depends": 1,
+   "text": "2. An echo canceller as defined in claim 1 wherein:\nsaid adjustable signal processing means comprises a delay line tapped at Nyquist intervals,\nmeans responsive to applied signals for individually adjusting the gains of signals developed at said taps, and means for algebraically combining said adjusted signals."
+  },
+  {
+   "n": 3,
+   "col": 8,
+   "line": 16,
+   "depends": 1,
+   "text": "3. An echo canceller as defined in claim 1 wherein said means for adjusting said signal processing means includes means for developing a signal indicative of the algebraic sign of said combined speech signals."
+  },
+  {
+   "n": 4,
+   "col": 8,
+   "line": 20,
+   "depends": 1,
+   "text": "4. An echo canceller as defined in claim 1 wherein said means for adjusting said signal processing means includes a nonlinear signal transmission network."
+  },
+  {
+   "n": 5,
+   "col": 8,
+   "line": 23,
+   "depends": 1,
+   "text": "5. An echo canceller as defined in claim 1 wherein said means for adjusting said signal processing means includes an infinite clipper network."
+  },
+  {
+   "n": 6,
+   "col": 8,
+   "line": 26,
+   "depends": 2,
+   "text": "6. An echo canceller as defined in claim 2 wherein said means for adjusting the gain of said signals developed at said taps includes a plurality of linear modulators."
+  },
+  {
+   "n": 7,
+   "col": 8,
+   "line": 29,
+   "depends": 2,
+   "text": "7. An echo canceller as defined in claim 2 wherein said means for adjusting said signal processing means includes means for developing signals proportional, respectively, to the integral of the product of said algebraically combined speech signals and each of said signals developed at the taps of said delay line."
+  },
+  {
+   "n": 8,
+   "col": 8,
+   "line": 35,
+   "depends": null,
+   "text": "8. A closed loop echo cancellation system for use in a two-way communication signal circuit, which comprises:\nadjustable means supplied with signals incoming in said circuit for developing an approximation to signals outgoing in said circuit which are closely correlated to said incoming signals,\nmeans for algebraically combining said outgoing signals with said approximation signal to produce a differential signal, and\nmeans responsive to said differential signal for adjusting said signal approximating means."
+  },
+  {
+   "n": 9,
+   "col": 8,
+   "line": 47,
+   "depends": 8,
+   "text": "9. A closed loop echo cancellation system as defined in claim 8 wherein said adjustable means comprises:\na transversal filter system including a delay line tapped at Nyquist intervals,\nmeans responsive to applied control signals for respectively adjusting the gain of signals developed at said taps in proportion to the average product of said tap signals and said differential signal, and\nmeans for algebraically combining all of said adjusted signals."
+  },
+  {
+   "n": 10,
+   "col": 8,
+   "line": 57,
+   "depends": 8,
+   "text": "10. A closed loop echo cancellation system as defined in claim 8 wherein said means for adjusting said signal approximating means comprises:\na network exhibiting a nonlinear characteristic supplied with said differential signals for developing error control signals, and\nmeans for employing said error control signals for adjusting said means for developing said approximation to signals outgoing in said circuit."
+  },
+  {
+   "n": 11,
+   "col": 8,
+   "line": 66,
+   "depends": null,
+   "text": "11. In a two-way telephone circuit, an echo canceller in circuit connection with the incoming and outgoing speech signal paths of said telephone circuit which comprises:\nmeans for continuously determining the correlation between speech signals in said incoming and said outgoing signal paths, signal processing means in said outgoing signal path, and means responsive to said determination for continuously adjusting said signal processing means."
+  },
+  {
+   "n": 12,
+   "col": 9,
+   "line": 1,
+   "depends": null,
+   "text": "12. In a two-way telephone circuit, an echo canceller in circuit connection with the incoming and outgoing signal paths of said telephone circuit which comprises:\nmeans for continuously determining the correlation between speech signals in said incoming and said outgoing signal paths, signal processing means in said outgoing signal path, and means responsive to said determination for continuously adjusting said signal processing means to maintain minimum correlation between speech signals in said incoming and outgoing signal paths."
+  },
+  {
+   "n": 13,
+   "col": 9,
+   "line": 12,
+   "depends": null,
+   "text": "13. In a telephone circuit, an echo canceller in circuit connection with a two-wire to four-wire junction, which comprises:\nprocessing means for developing a signal proportional to the correlation between signals incoming in one circuit of said four-wire system and signals outgoing in the other circuit of said four-wire system,\ndifferential network means supplied with signals in said outgoing circuit of said four-wire system and with proportional signal for developing a signal continuously representative of the algebraic difference between said two signals, and\nmeans responsive to said representative signal for continuously adjusting said signal processing means."
+  },
+  {
+   "n": 14,
+   "col": 9,
+   "line": 26,
+   "depends": 13,
+   "text": "14. In a telephone circuit, an echo canceller as defined in claim 13 wherein said means for continuously adjusting said signal processing means includes a passive nonlinear network."
+  },
+  {
+   "n": 15,
+   "col": 9,
+   "line": 30,
+   "depends": 13,
+   "text": "15. In a telephone circuit, an echo canceller as defined in claim 13 wherein said means for continuously adjusting said signal processing means includes an infinite clipper."
+  },
+  {
+   "n": 16,
+   "col": 9,
+   "line": 34,
+   "depends": null,
+   "text": "16. In association with a telephone circuit junction interconnecting a one-way incoming signal circuit and a one-way outgoing signal circuit with a single two-way signal circuit,\nmeans for cancelling speech signals in said outgoing circuit which reach said outgoing circuit from said incoming circuit,\nsaid means comprising,\na control means supplied with speech signals from said incoming circuit for adjusting the gain of said incoming circuit signals,\nmeans for algebraically combining said gain adjusted input speech signals with speech signals in said outgoing circuit, and\nmeans responsive to the algebraic difference for adjusting said control means to minimize said algebraic difference."
+  },
+  {
+   "n": 17,
+   "col": 10,
+   "line": 9,
+   "depends": null,
+   "text": "17. An adaptive echo canceller which comprises, in combination:\na tapped delay line,\nmeans for supplying signals from a first of two interconnected communications circuits to said delay line,\nmeans for individually controlling the gains of signals developed at the taps of said delay line,\nmeans for algebraically combining all of said gain adjusted signals,\nmeans for differentially combining said combined signal with communications signals in the second of said interconnected communications circuits to produce an error signal,\nmeans for individually mixing each of said signals developed at the taps of said delay line with said error signal,\nmeans for individually averaging the signals produced by said mixing means, and\nmeans for utilizing said averaged signals individually for adjusting said gain controlling means."
+  },
+  {
+   "n": 18,
+   "col": 10,
+   "line": 29,
+   "depends": 17,
+   "text": "18. An adaptive echo canceller as defined in claim 17 wherein said delay line is tapped to develop signals at Nyquist intervals."
+  },
+  {
+   "n": 19,
+   "col": 10,
+   "line": 32,
+   "depends": 17,
+   "text": "19. An adaptive echo canceller as defined in claim 17 wherein said delay line is tapped to develop signals at approximately one-tenth millisecond intervals."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "col": 1,
+   "line": 33,
+   "ocr": "‘to",
+   "fixed": "to",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 55,
+   "ocr": "echoes,",
+   "fixed": "echoes.",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 2,
+   "ocr": "préferable",
+   "fixed": "preferable",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 11,
+   "ocr": "Initted",
+   "fixed": "mitted",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 24,
+   "ocr": "celled. ;",
+   "fixed": "celled.",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 30,
+   "ocr": "380 way",
+   "fixed": "way",
+   "basis": "scan (gutter line number 30 read into text)"
+  },
+  {
+   "col": 2,
+   "line": 46,
+   "ocr": "-is",
+   "fixed": "is",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 62,
+   "ocr": "FIG, 1",
+   "fixed": "FIG. 1",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 28,
+   "ocr": "echo,",
+   "fixed": "echo.",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 63,
+   "ocr": "trans:",
+   "fixed": "trans-",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 64,
+   "ocr": "100,-100,.",
+   "fixed": "100_{1}–100_{n}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 71,
+   "ocr": "(r+)",
+   "fixed": "(τ)",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 1,
+   "ocr": "110, through 110,",
+   "fixed": "110_{1} through 110_{n}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 5,
+   "ocr": "on network",
+   "fixed": "network",
+   "basis": "scan (stray from column 3)"
+  },
+  {
+   "col": 4,
+   "line": 9,
+   "ocr": "116,",
+   "fixed": "110,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 15,
+   "ocr": "the’",
+   "fixed": "the",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 4,
+   "line": 38,
+   "ocr": "112;-112,.",
+   "fixed": "112_{1}–112_{n}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 70,
+   "ocr": "g;(¢)",
+   "fixed": "g_{i}(t)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 72,
+   "ocr": "y(z)",
+   "fixed": "y(t)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 5,
+   "ocr": "g(t)",
+   "fixed": "ŷ(t)",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 5,
+   "line": 10,
+   "ocr": "e(t)=y(t) —9(2)",
+   "fixed": "e(t)=y(t)−ŷ(t)",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 5,
+   "line": 11,
+   "ocr": "(9,(t)=0, i=1...",
+   "fixed": "(g_{i}(t)=0, i=1 . . .",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 5,
+   "line": 12,
+   "ocr": "e(t)—0",
+   "fixed": "e(t)=0",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 5,
+   "line": 25,
+   "ocr": "g; and x,",
+   "fixed": "g_{i} and x_{i}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 26,
+   "ocr": "x(t) =x(t+T—iT), i=1,2 ... N,",
+   "fixed": "x_{i}(t)=x(t+T−iT), i=1, 2 . . . N,",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 33,
+   "ocr": "y(t) =H.H",
+   "fixed": "y(t)=H⃗·H⃗",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 5,
+   "line": 35,
+   "ocr": "H",
+   "fixed": "H⃗",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 5,
+   "line": 39,
+   "ocr": "wen —K(A(O+G.X)X (1)",
+   "fixed": "d/dt G⃗=−K(H(t)+G⃗·X⃗)X⃗   (1)",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 5,
+   "line": 43,
+   "ocr": "G.X= i=1 > 9:0;",
+   "fixed": "G⃗·X⃗=Σ_{i=1}^{n} g_{i}x_{i}",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 5,
+   "line": 46,
+   "ocr": "dH a?",
+   "fixed": "dH/dt=0",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 5,
+   "line": 51,
+   "ocr": "q (Gt M=—K(G+H)-X)X (2)",
+   "fixed": "d/dt (G⃗+H⃗)=−K((G⃗+H⃗)·X⃗)X⃗   (2)",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 5,
+   "line": 53,
+   "ocr": "G-+-H",
+   "fixed": "G⃗+H⃗",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 54,
+   "ocr": "obtains :",
+   "fixed": "obtains",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 5,
+   "line": 56,
+   "ocr": "ql +HP=—2K ((G+H)-X)! (3)",
+   "fixed": "d/dt |G⃗+H⃗|^{2}=−2K((G⃗+H⃗)·X⃗)^{2}   (3)",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 5,
+   "line": 58,
+   "ocr": "> G+H Ul",
+   "fixed": "G⃗+H⃗",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 63,
+   "ocr": "to 7",
+   "fixed": "to τ",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 65,
+   "ocr": "[@(0) +H (0)P—[G(2) +H (a) p= 2K [\" (G-+H)-X)¥dt",
+   "fixed": "|G⃗(O)+H⃗(O)|^{2}−|G⃗(τ)+H⃗(τ)|^{2}=2K ∫_{0}^{τ} ((G+H)·X)^{2}dt   (4)",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 5,
+   "line": 70,
+   "ocr": "(60) +H (0) 2",
+   "fixed": "|G⃗(O)+H⃗(O)|^{2}",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 5,
+   "line": 71,
+   "ocr": "as +",
+   "fixed": "as τ",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 74,
+   "ocr": "((G+H)-X)?",
+   "fixed": "((G⃗+H⃗)·X⃗)^{2}",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 6,
+   "line": 5,
+   "ocr": "qi (et =—K(G+H)-X)x Knox (5)",
+   "fixed": "d/dt (G⃗+H⃗)=−K((G⃗+H⃗)·X⃗)X⃗−Kn(t)X⃗   (5)",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 6,
+   "line": 7,
+   "ocr": "n(f)",
+   "fixed": "n(t)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 11,
+   "ocr": "# (G+Hyp=—2K (G+ i)-X)—2Kn)(G+H)-X",
+   "fixed": "d/dt |(G⃗+H⃗)|^{2}=−2K((G⃗+H⃗)·X⃗)^{2}−2Kn(t)(G⃗+H⃗)·X⃗   (6)",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 6,
+   "line": 14,
+   "ocr": "on the > right = now",
+   "fixed": "on the right now",
+   "basis": "scan (formula specks)"
+  },
+  {
+   "col": 6,
+   "line": 15,
+   "ocr": "|G+Hj",
+   "fixed": "|G⃗+H⃗|",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 18,
+   "ocr": "(G+H).X",
+   "fixed": "(G⃗+H⃗)·X⃗",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 6,
+   "line": 20,
+   "ocr": "-++ve",
+   "fixed": "+ve",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 21,
+   "ocr": "—ve",
+   "fixed": "−ve",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 23,
+   "ocr": "IG+H|2",
+   "fixed": "|G⃗+H⃗|^{2}",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 6,
+   "line": 49,
+   "ocr": "42-51",
+   "fixed": "42–51",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 53,
+   "ocr": "i.c.,",
+   "fixed": "i.e.,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 74,
+   "ocr": "contro]",
+   "fixed": "control",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 8,
+   "ocr": "E(t)=0, =—1 for E(t)<0.",
+   "fixed": "E(t)≥0, =−1 for E(t)≤0.",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 7,
+   "line": 11,
+   "ocr": "di \\(G+H)|?=—2K|(G4+H)-X|",
+   "fixed": "d/dt |(G⃗+H⃗)|^{2}=−2K|(G⃗+H⃗)·X⃗|",
+   "basis": "scan (formula)"
+  },
+  {
+   "col": 7,
+   "line": 14,
+   "ocr": "|X].",
+   "fixed": "|X|.",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 20,
+   "ocr": "‘in",
+   "fixed": "in",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 7,
+   "line": 22,
+   "ocr": "m(1)",
+   "fixed": "n(t)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 24,
+   "ocr": "9,",
+   "fixed": "g_{i}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 47,
+   "ocr": "‘by",
+   "fixed": "by",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 7,
+   "line": 62,
+   "ocr": "i-e.,",
+   "fixed": "i.e.,",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 67,
+   "ocr": "sig:",
+   "fixed": "sig-",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 47,
+   "ocr": "Joop",
+   "fixed": "loop",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 56,
+   "ocr": "signals,",
+   "fixed": "signals.",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 75,
+   "ocr": "means,",
+   "fixed": "means.",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 35,
+   "ocr": "tercomnecting",
+   "fixed": "terconnecting",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 5,
+   "ocr": "a going",
+   "fixed": "going",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 10,
+   "line": 26,
+   "ocr": "and ;",
+   "fixed": "and",
+   "basis": "scan (speck)"
+  }
+ ]
+}

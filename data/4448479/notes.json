@@ -1,0 +1,87 @@
+{
+ "patent": "Filed 1981-11-16 and issued 1984-05-15 to Rodney C. Alferness of Bell Telephone Laboratories. In a traveling-wave electrooptic device the electrical drive wave and the light travel at different speeds, so light slips through the drive waveform (walk-off) and the electrooptic effect it sees changes sign every coherence length l_{0}, cancelling itself. The patent reverses the electrode geometry at each l_{0} instead of matching the two velocities or routing the electrodes away from the guide over the out-of-phase stretches, which lengthens them (US 4,380,364, cited in the background): a meandering center electrode that swaps between the two guides of a directional coupler (FIGS. 2, 5-6), interleaved finger electrodes over a single guide for a TE-TM phase shifter (FIGS. 9, 12), and half-period gaps inserted in the finger electrodes of a TE-TM mode converter (FIG. 10). The electrode stays about as long as the optical path. The result is a bandpass response centred on the design frequency f_{0} rather than a low-pass one; more sections give a larger peak and a narrower band (FIG. 11). The patent names no substrate material; the z-cut crystal and the r_{13} and r_{33} coefficients of equation (5) fit lithium niobate, the usual substrate for such devices at the time. Periodic phase-reversal electrodes are one of the established schemes for compensating velocity mismatch in traveling-wave modulators; Alferness, Korotky and Marcatili compare such velocity-matching techniques in IEEE Journal of Quantum Electronics, 1984.",
+ "figs": {
+  "1": "Prior-art traveling-wave coupler, the reference for FIG. 2. Electrodes 14 and 15 lie over buried guides 11 and 12 and form a transmission line fed by source 17 at the input end and terminated by resistor 16 at the output end, so the drive wave travels with the light. Light P_{1} enters guide 11; P_{4} and P_{3} leave guides 11 and 12. L is the coupling length. The underlined 10 denotes the whole coupler.",
+  "2": "The meandering center electrode 23 crosses from one guide to the other at each interval boundary l_{1} ... l_{5}; outer electrodes 24 and 25 have fingers (24-1, 25-1) covering whichever guide 23 leaves free. Source 30 drives 23 against the outer electrodes, which are tied together and grounded; at the far end 31 and 32 terminate 23 to 24 and to 25. Gap d_{1} (center electrode to adjacent finger) is much smaller than d_{2} (center electrode to the other electrode's coextensive portion), which keeps the field on the guides. The broken-away inset at upper right is the output end, cut to show the substrate in section; P_{3} leaves guide 20 and P_{2} leaves guide 21.",
+  "3": "Δβ seen by a photon versus position along the coupler without compensation. Solid curve 40 is for a photon entering when the drive is zero; dashed curve 41 is for one entering at another phase. Both change sign at l and complete a cycle in 2l, where l is the coherence length l_{0}. The dashed vertical line 42 is the shifted origin that applies when the first interval is shorter than l_{0}.",
+  "4": "The drive waveform versus time. Solid curve 50 has a zero crossing at t = 0, the vertical axis; dashed curve 51 is the same signal shifted in phase, corresponding to curve 41 of FIG. 3. Because the light is faster, a photon entering at t = 0 overtakes drive that was launched earlier, the -t part of the curve.",
+  "5": "Cross section in the first interval: center electrode 23 (+) over guide 21, outer electrode 24 (-) over guide 20, 25 (-) at the right. The arrows show the field pointing down in guide 21 and up in guide 20.",
+  "6": "Cross section in the next interval, where the drive seen by the same photons has reversed: 23 is now negative and lies over guide 20, and 25 (+) covers guide 21. The field arrows still point down in 21 and up in 20, so Δβ keeps its sign.",
+  "7": "Δβ with the electrode reversals, for photons entering at a zero of the drive: the half-cycles are all positive, so the integral of Δβ along the device accumulates. Dashed lines 43 and 44 mark the start and end of the electrode when the first or last interval is shorter than l_{0}.",
+  "8": "Δβ with the electrode reversals for photons entering a quarter cycle later, at a drive maximum: each interval holds equal positive and negative parts and the jump at each l_{0} restarts the pattern, so the integral is zero. Photons entering between these two cases see intermediate values, which is the modulation.",
+  "9": "Phase shifter: a single guide 60 (stippled at the input face, dashed under the electrodes) in substrate 61, with interleaved finger electrodes 62 and 63. Fingers 62-1, 63-1, 62-2, 63-2, each l_{0} long, cover the guide in turn, so the field in the guide reverses at each boundary. Source 64 feeds the line at the input; the broken-away inset at upper right shows termination 65 at the far end. Axes x, y, z at the front corner give the crystal orientation.",
+  "10": "Mode converter in plan view: guide 70 runs between electrodes 72 and 73, whose fingers face each other at period Λ to phase-match the TE and TM modes. After intervals l_{1} and l_{2} an extra half period Λ/2 is inserted (72-1, 73-1 and 72-2, 73-2, between the dashed and solid lines), which reverses the sign of the phase-matched coupling coefficient to cancel the reversal of the drive caused by walk-off. Source 74 drives the left end; 75 terminates the right end. L is the electrode length.",
+  "11": "Calculated amplitude response versus modulation frequency normalised to the design frequency, f/f_{0}. The single-section curve, an electrode of length 2l_{0} without reversal, is low-pass and falls to zero at f/f_{0} = 1. With 2, 4 and 8 sections the response becomes bandpass about f/f_{0} = 1; the 8-section curve peaks near 5 with nulls at 0.25-step intervals around it. Open circles are calculated points; the curve styles (solid, long dash, short dash, dash-dot) distinguish the cases named by the leaders.",
+  "12": "Alternative to the finger electrodes of FIG. 9, in plan view on substrate 61. The stippled blocks 62-1, 62-2, 63-1 and 63-2 are the finger portions that are omitted, leaving electrodes 62 and 63 as two interlocking meanders of uniform width; the dashed pair is the guide. The text calls the omitted portions cross hatched; they are drawn stippled. The labels run in the opposite order to FIG. 9."
+ },
+ "parts": {
+  "10": "Underlined in the drawing, denoting the coupler as a whole.",
+  "31": "With 32, terminates the line at its characteristic impedance; the text gives them together as \"an impedance 31, 32\".",
+  "42": "Marks the effective start of the device when the first interval is shorter than l_{0}, equivalent to a phase shift of the drive.",
+  "70": "The text uses 70 twice: for the Δβ curve of FIG. 7, where the drawing carries no 70, and for the waveguiding strip of FIG. 10, the only place the numeral is drawn.",
+  "62-1": "In FIG. 9 a finger of electrode 62; in FIG. 12 the same portion shown stippled as omitted.",
+  "72-1": "Each of 72-1, 73-1, 72-2, 73-2 is a half spatial period Λ/2 added after an interval; the text notes a finger would be added instead if an interval ended in a finger."
+ },
+ "glossary": [
+  {
+   "term": "traveling-wave electrode",
+   "def": "An electrode pair built as a transmission line that runs along the optical guide, fed at the input end and terminated at the output end in its characteristic impedance, so the drive propagates along with the light rather than charging a lumped capacitor."
+  },
+  {
+   "term": "velocity mismatch / walk-off",
+   "def": "The drive wave and the optical wave travel at different speeds because the substrate's index at the drive frequency differs from its optical index; light therefore slips through the drive waveform as it propagates."
+  },
+  {
+   "term": "coherence length (l_{0})",
+   "def": "The distance over which light slips half a drive period relative to the drive wave; beyond it the field the light sees changes sign. Equation (3) gives l_{0} from the drive wavelength, the drive effective index and the two velocities."
+  },
+  {
+   "term": "phase reversal",
+   "def": "Swapping electrode positions or polarity so that the field in the guide keeps its sign even though the drive seen by the light has changed sign."
+  },
+  {
+   "term": "directional coupler",
+   "def": "Two parallel optical guides close enough that light transfers from one to the other over a coupling length; a mismatch Δβ between their propagation constants reduces the transfer."
+  },
+  {
+   "term": "Δβ",
+   "def": "Difference between the propagation constants of the two coupled guides, or of the TE and TM modes; the electrooptic effect changes it in proportion to the applied field."
+  },
+  {
+   "term": "alternating Δβ",
+   "def": "A coupler whose electrodes are split into sections driven with opposite signs, after Kogelnik and Schmidt, IEEE Journal of Quantum Electronics, July 1976 (cited in the patent)."
+  },
+  {
+   "term": "electrooptic effect",
+   "def": "Change of a crystal's refractive index in proportion to an applied electric field (Pockels effect)."
+  },
+  {
+   "term": "coplanar strip transmission line",
+   "def": "A transmission line formed by parallel metal strips on one surface of the substrate."
+  },
+  {
+   "term": "TE / TM modes",
+   "def": "Guided optical modes polarised with the electric field in the plane of the substrate (TE) or mainly normal to it (TM)."
+  },
+  {
+   "term": "TE-TM mode converter",
+   "def": "A device in which an applied field couples the TE and TM modes; periodic finger electrodes supply the phase matching that the two modes' different effective indices require."
+  },
+  {
+   "term": "z-cut",
+   "def": "A crystal cut with the optic (z) axis normal to the surface."
+  },
+  {
+   "term": "r_{13}, r_{33}",
+   "def": "Electrooptic tensor coefficients giving the index change for ordinary and extraordinary polarisation under a z-directed field."
+  },
+  {
+   "term": "characteristic impedance",
+   "def": "The ratio of voltage to current of a wave on a transmission line; terminating the line in it absorbs the wave without reflection."
+  },
+  {
+   "term": "bandpass response",
+   "def": "A response that peaks around a centre frequency and falls off on both sides, as opposed to a low-pass response that is largest at low frequency."
+  }
+ ]
+}

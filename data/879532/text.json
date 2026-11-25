@@ -1,0 +1,1783 @@
+{
+ "pn": "879532",
+ "number": "879,532",
+ "title": "SPACE TELEGRAPHY",
+ "inventors": [
+  "Lee de Forest"
+ ],
+ "assignee": "De Forest Radio Telephone Co., a corporation of New York (by mesne assignments)",
+ "filed": "1907-01-29",
+ "issued": "1908-02-18",
+ "appl_no": "354,662",
+ "int_cl": null,
+ "us_cl": null,
+ "refs_patents": [],
+ "refs_other": [],
+ "examiners": null,
+ "claims_count": 21,
+ "drawing_figures": 2,
+ "abstract": "",
+ "cite_scheme": "printed page:line",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "page": 1,
+     "cite": "p.1:1",
+     "col": null,
+     "line": null,
+     "text": "To all whom it may concern:"
+    },
+    {
+     "page": 1,
+     "cite": "p.1:2",
+     "col": null,
+     "line": null,
+     "text": "Be it known that I, Lee de Forest, a citizen of the United States, and a resident of New York, in the county of New York and State of New York, have invented a new and useful Improvement in Space Telegraphy, of which the following is a specification."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:8",
+     "col": null,
+     "line": null,
+     "text": "My invention relates to wireless telegraph receivers or oscillation detectors of a type heretofore described in my prior Letters Patent Nos. 824,637, June 26, 1906 and 836,070, November 13, 1906."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:13",
+     "col": null,
+     "line": null,
+     "text": "The objects of my invention are to increase the sensitiveness of oscillation detectors comprising in their construction a gaseous medium by means of the structural features and circuit arrangements which are hereinafter more fully described."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:19",
+     "col": null,
+     "line": null,
+     "text": "My invention will be described with reference to the drawings which accompany and form a part of the present specification, although it is to be understood that many modifications may be made in the apparatus and systems herein described without departing from the principles of my invention."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:26",
+     "col": null,
+     "line": null,
+     "text": "In the drawings, Figure 1 represents in diagram a wireless telegraph receiving system comprising an oscillation detector constructed and connected in accordance with the present invention and Fig. 2 represents a space telegraph receiving system having a modified form of oscillation detector connected therein in a manner which constitutes one of the subjects matter of said invention."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:35",
+     "col": null,
+     "line": null,
+     "text": "V I_{1} E is an elevated conductor system including the elevated conductor V, earth connection E, and primary I_{1} of the transformer M, the secondary I_{2} of which forms part of the tuned receiving circuit I_{2} C. It will be understood of course that the aforesaid tuned receiving circuit may be associated with the elevated conductor system in any suitable manner."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:44",
+     "col": null,
+     "line": null,
+     "text": "D represents an evacuated vessel, preferably of glass, having sealed therein three conducting members, F, a and b, in Fig. 1 and F, a′ and b in Fig. 2. The conducting member or electrode F is shown as consisting of a filament, preferably of metal, which is connected in series with the battery A or other source of electrical current of sufficient strength to heat said filament, preferably to incandescence. The conducting member b, which may be a plate of platinum, has one end brought out to the terminal 3. Interposed between the members F and b is a grid-shaped member a, which may be formed of platinum wire, and which has one end brought out to the terminal 1. The local receiving circuit, which includes the battery B, or other suitable source of electromotive force, and the signal indicating device T, which may be a telephone receiver, has its terminals connected to the plate b and filament F at the points 3 and 4 respectively. The means for conveying the oscillations to be detected to the oscillation-detector, are the conductors which connect the filament F and grid a to the tuned receiving circuit and, as shown, said conductors pass from the terminals 2 and 1 to the armatures of the condenser C."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:73",
+     "col": null,
+     "line": null,
+     "text": "I have determined experimentally that the presence of the conducting member a, which as before stated may be grid-shaped, increases the sensitiveness of the oscillation detector and, inasmuch as the explanation of this phenomenon is exceedingly complex and at best would be merely tentative, I do not deem it necessary herein to enter into a detailed statement of what I believe to be the probable explanation."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:83",
+     "col": null,
+     "line": null,
+     "text": "In associating an oscillation detector of the above mentioned type, said detector being now commonly known as the audion, with a closed tuned circuit, it will be noted by reference to Fig. 2, that the secondary I_{2} closes a circuit containing a battery shown at B through the electrode b, conducting member a′ and the conducting gaseous medium intervening between said electrode and member. Also by reference to Fig. 1, it will be seen that a similar closed circuit exists between said battery, and the electrode b and conducting member a. In order to close each of said circuits to the passage of direct current from the aforesaid battery therethrough, or to prevent the development of a difference of potential between the members a and b, or between a′ and b, or to prevent the members a or a′ from receiving an electrical charge from said battery, I insert the condenser C′ in said otherwise mechanically closed circuit and find that the presence of said condenser produces a great increase in the sensitiveness of the oscillation detector as determined by the very marked increase in the sound produced in the telephone T when said condenser is present over the sounds produced therein under the same conditions when said condenser is not employed."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:4",
+     "col": null,
+     "line": null,
+     "text": "It will be understood that the circuit arrangements herein described with reference to the particular forms of audion herein disclosed may with advantage also be employed with various other types of audion."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:79",
+     "col": null,
+     "line": null,
+     "text": "In testimony whereof, I have hereunto subscribed my name this 21st day of Dec, 1906."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:81",
+     "col": null,
+     "line": null,
+     "text": "LEE DE FOREST."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:82",
+     "col": null,
+     "line": null,
+     "text": "Witnesses: Thomas I. Gallagher, Hans W. Goetze."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "page": 1,
+   "cite": "p.1:26",
+   "col": null,
+   "line": null,
+   "text": "In the drawings, Figure 1 represents in diagram a wireless telegraph receiving system comprising an oscillation detector constructed and connected in accordance with the present invention"
+  },
+  {
+   "fig": "2",
+   "page": 1,
+   "cite": "p.1:30",
+   "col": null,
+   "line": null,
+   "text": "Fig. 2 represents a space telegraph receiving system having a modified form of oscillation detector connected therein in a manner which constitutes one of the subjects matter of said invention."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "page": 2,
+   "cite": "p.2:10",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "1. An oscillation detector comprising an evacuated vessel, an electrode inclosed therein, means for heating said electrode, a second electrode inclosed within said vessel, a local circuit having its terminals electrically connected to said electrodes, a conducting member inclosed within said vessel and located between said electrodes, and means for conveying the oscillations to be detected to the first mentioned electrode and said conducting member."
+  },
+  {
+   "n": 2,
+   "page": 2,
+   "cite": "p.2:21",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "2. An oscillation detector comprising an evacuated vessel, two electrodes inclosed within said vessel, means for heating one of said electrodes, and a conducting member inclosed within said vessel and interposed between said electrodes."
+  },
+  {
+   "n": 3,
+   "page": 2,
+   "cite": "p.2:27",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "3. An oscillation detector comprising an evacuated vessel, two electrodes inclosed within said vessel, means for heating one of said electrodes, and a grid-shaped member of conducting material inclosed within said vessel and interposed between said electrodes."
+  },
+  {
+   "n": 4,
+   "page": 2,
+   "cite": "p.2:34",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "4. An oscillation detector comprising an evacuated vessel, a filament sealed therein, a source of electrical energy connected in series with said filament, an electrode sealed in said vessel, a local circuit having its terminals connected to said filament and electrode, respectively, said local circuit including a source of electromotive force and a signal indicating device, a grid of conducting material sealed in said vessel and interposed between said filament and electrode, and means for conveying the oscillations to be detected to said filament and grid."
+  },
+  {
+   "n": 5,
+   "page": 2,
+   "cite": "p.2:47",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "5. An oscillation detector comprising an evacuated vessel, an electrode inclosed therein, means for heating said electrode, a second electrode inclosed within said vessel, a local circuit having its terminals connected to said electrodes, a conducting member inclosed within said vessel and located between said electrodes, a closed circuit for conveying the oscillations to be detected to said first mentioned electrode and conducting member, and a condenser in said closed circuit."
+  },
+  {
+   "n": 6,
+   "page": 2,
+   "cite": "p.2:58",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "6. An oscillation detector comprising an evacuated vessel, two electrodes inclosed therein, means for heating one of said electrodes, a conducting member inclosed within said vessel and interposed between said electrodes, means for establishing a difference of electrical potential between said electrodes and means for preventing said conducting member from becoming electrically charged."
+  },
+  {
+   "n": 7,
+   "page": 2,
+   "cite": "p.2:68",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "7. An oscillation detector comprising an evacuated vessel inclosing a sensitive conducting gaseous medium, three conducting members inclosed therein, a closed oscillation circuit, a circuit connecting an element of said oscillation circuit with two of said members, a condenser in said circuit, a signal-indicating device, and a circuit connecting said device with one of said two members and with the third member."
+  },
+  {
+   "n": 8,
+   "page": 2,
+   "cite": "p.2:78",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "8. An oscillation detector comprising an evacuated vessel, two electrodes inclosed therein, means for heating one of said electrodes, a conducting member inclosed within said vessel and interposed between said electrodes, means for establishing a difference of electrical potential between said electrodes and means for preventing the establishment of a difference of electrical potential between one of said electrodes and said conducting member."
+  },
+  {
+   "n": 9,
+   "page": 2,
+   "cite": "p.2:89",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "9. An oscillation detector comprising an evacuated vessel, two electrodes inclosed therein, means for heating one of said electrodes, a grid of conducting material inclosed within said vessel and interposed between said electrodes, means for establishing a difference of electrical potential between said electrodes and means for preventing said grid from becoming electrically charged."
+  },
+  {
+   "n": 10,
+   "page": 2,
+   "cite": "p.2:98",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "10. An oscillation detector comprising an evacuated vessel, two electrodes inclosed therein, means for heating one of said electrodes, a grid of conducting material inclosed within said vessel and interposed between said electrodes, means for establishing a difference of electrical potential between said electrodes and means for preventing the establishment of a difference of electrical potential between one of said electrodes and said grid."
+  },
+  {
+   "n": 11,
+   "page": 2,
+   "cite": "p.2:109",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "11. An oscillation detector comprising an evacuated vessel, an electrode inclosed therein, means for heating said electrode, a second electrode inclosed within said vessel, a local circuit having its terminals electrically connected to said electrodes, a grid of conducting material inclosed within said vessel and located between said electrodes, and means for conveying the oscillations to be detected to the heated electrode and grid."
+  },
+  {
+   "n": 12,
+   "page": 2,
+   "cite": "p.2:119",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "12. An oscillation detector comprising an evacuated vessel, an electrode inclosed therein, means for heating said electrode, a second electrode inclosed within said vessel, a local circuit having its terminals connected to said electrodes, a grid of conducting material inclosed within said vessel and located between said electrodes, a closed circuit for conveying the oscillations to be detected to the heated electrode and grid, and a condenser in said closed circuit."
+  },
+  {
+   "n": 13,
+   "page": 2,
+   "cite": "p.2:130",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "13. An oscillation detector comprising an evacuated vessel, an electrode inclosed therein, means for heating said electrode, a second electrode inclosed within said vessel, a local circuit having its terminals electrically connected to said electrodes, said local circuit including a source of electromotive force and a signal indicating device, a grid of conducting material inclosed within said vessel and located between said electrodes, and means for conveying the oscillations to be detected to the heated electrode and grid."
+  },
+  {
+   "n": 14,
+   "page": 3,
+   "cite": "p.3:13",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "14. An oscillation detector comprising an evacuated vessel, two electrodes, one of which is a filament, inclosed within said vessel, means for heating said filament, and a conducting member inclosed within said vessel and interposed between said electrodes."
+  },
+  {
+   "n": 15,
+   "page": 3,
+   "cite": "p.3:18",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "15. An oscillation detector comprising an evacuated vessel, two electrodes inclosed within said vessel, means for heating one of said electrodes, a grid of conducting material inclosed within said vessel and interposed between said electrodes, a local circuit connecting said electrodes, and a source of electromotive force and signal indicating device in said local circuit."
+  },
+  {
+   "n": 16,
+   "page": 3,
+   "cite": "p.3:27",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "16. An oscillation detector comprising an evacuated vessel, two electrodes, one of which is a filament, inclosed within said vessel, means for heating said filament, and a grid of conducting material inclosed within said vessel and interposed between said electrodes."
+  },
+  {
+   "n": 17,
+   "page": 3,
+   "cite": "p.3:34",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "17. An oscillation detector comprising an evacuated vessel, two electrodes inclosed within said vessel, means for heating one of said electrodes, a conducting member inclosed within said vessel and interposed between said electrodes, and a local circuit including a source of electromotive force connecting said electrodes."
+  },
+  {
+   "n": 18,
+   "page": 3,
+   "cite": "p.3:42",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "18. An oscillation detector comprising an evacuated vessel, two electrodes inclosed within said vessel, means for heating one of said electrodes, a grid of conducting material inclosed within said vessel and interposed between said electrodes, a local circuit including a source of electromotive force connecting said electrodes and a signal indicating device associated with said local circuit."
+  },
+  {
+   "n": 19,
+   "page": 3,
+   "cite": "p.3:51",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "19. An oscillation detector comprising an evacuated vessel, two electrodes, one of which is a filament, inclosed within said vessel, means for heating said filament, a grid of conducting material inclosed within said vessel and interposed between said electrodes and a local circuit including a source of electromotive force connecting said electrodes."
+  },
+  {
+   "n": 20,
+   "page": 3,
+   "cite": "p.3:59",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "20. An oscillation detector comprising an evacuated vessel, two electrodes inclosed therein, means for heating one of said electrodes, a conducting member inclosed within. said vessel, a closed oscillation circuit, a circuit connecting one element of said oscillation circuit with one of said electrodes and said conducting member, and a condenser in said circuit."
+  },
+  {
+   "n": 21,
+   "page": 3,
+   "cite": "p.3:68",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "21. An oscillation detector comprising an evacuated vessel, two electrodes inclosed therein, means for heating one of said electrodes, a conducting member inclosed within said vessel, a closed oscillation circuit, a circuit connecting one element of said oscillation circuit with one of said electrodes and said conducting member, a condenser in said circuit, a signal indicating device and a circuit connecting said device with the other of said electrodes and said conducting member."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "cite": "header",
+   "ocr": "No. 879,582.",
+   "fixed": "No. 879,532.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "header",
+   "ocr": "Serial No, 364,662,",
+   "fixed": "Serial No. 354,662.",
+   "basis": "scan + Google Patents application number"
+  },
+  {
+   "cite": "header",
+   "ocr": "Feb, 18, 1908.",
+   "fixed": "Feb. 18, 1908.",
+   "basis": "scan"
+  },
+  {
+   "cite": "header",
+   "ocr": "OFFICE,",
+   "fixed": "OFFICE.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:2",
+   "ocr": "Ler pe",
+   "fixed": "Lee de",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:7",
+   "ocr": "is-a",
+   "fixed": "is a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:7",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:9",
+   "ocr": "t pe",
+   "fixed": "type",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:15",
+   "ocr": "médium",
+   "fixed": "medium",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:18",
+   "ocr": "fully: desaribed.",
+   "fixed": "fully described.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:19",
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:20",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:22",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:23",
+   "ocr": "a paratus |",
+   "fixed": "apparatus",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:24",
+   "ocr": "de-| parting",
+   "fixed": "departing",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:25",
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:26",
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:27",
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:28",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:29",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:30",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:31",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:33",
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:35",
+   "ocr": "=V I,",
+   "fixed": "V I_{1}",
+   "basis": "scan (subscript)"
+  },
+  {
+   "cite": "p.1:35",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:36",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:37",
+   "ocr": "EK,",
+   "fixed": "E,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:37",
+   "ocr": "I,",
+   "fixed": "I_{1}",
+   "basis": "scan (subscript)"
+  },
+  {
+   "cite": "p.1:37",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:38",
+   "ocr": "I,",
+   "fixed": "I_{2}",
+   "basis": "scan (subscript)"
+  },
+  {
+   "cite": "p.1:38",
+   "ocr": "-part",
+   "fixed": "part",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:38",
+   "ocr": "| the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:39",
+   "ocr": "I,",
+   "fixed": "I_{2}",
+   "basis": "scan (subscript)"
+  },
+  {
+   "cite": "p.1:39",
+   "ocr": "| understood’of",
+   "fixed": "understood of",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:41",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:42",
+   "ocr": "‘system",
+   "fixed": "system",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:42",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:43",
+   "ocr": "Doe ~",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:45",
+   "ocr": "-of",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:45",
+   "ocr": "| '.",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:46",
+   "ocr": "6,",
+   "fixed": "b,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:46",
+   "ocr": "Fig.-1 |",
+   "fixed": "Fig. 1",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:47",
+   "ocr": "F,.a’",
+   "fixed": "F, a′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:47",
+   "ocr": "din Fig..2.",
+   "fixed": "b in Fig. 2.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:48",
+   "ocr": "is-shown",
+   "fixed": "is shown",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:48",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:50",
+   "ocr": "‘the",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:50",
+   "ocr": "‘A or.| : ‘> *",
+   "fixed": "A or",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:51",
+   "ocr": "sufficient: |",
+   "fixed": "sufficient",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:52",
+   "ocr": "preferably.to |",
+   "fixed": "preferably to",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:53",
+   "ocr": "member. d, | -.",
+   "fixed": "member b,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:54",
+   "ocr": "-be",
+   "fixed": "be",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:54",
+   "ocr": "‘tias oné | |",
+   "fixed": "has one",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:55",
+   "ocr": "Inter--5 | posed",
+   "fixed": "Interposed",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:56",
+   "ocr": "bis a.grid| shaped",
+   "fixed": "b is a grid-shaped",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:58",
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:59",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:59",
+   "ocr": "re: | ceiving",
+   "fixed": "receiving",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:60",
+   "ocr": "6: OF",
+   "fixed": "or",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:62",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:63",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:64",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:64",
+   "ocr": "6",
+   "fixed": "b",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:64",
+   "ocr": "fila, ment",
+   "fixed": "filament",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:65",
+   "ocr": "res ectively. 6 .The",
+   "fixed": "respectively. The",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:67",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:67",
+   "ocr": "osci ation-detector,",
+   "fixed": "oscillation-detector,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:68",
+   "ocr": ",",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:69",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:69",
+   "ocr": "receivi",
+   "fixed": "receiving",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:69",
+   "ocr": "©",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:70",
+   "ocr": "irom",
+   "fixed": "from",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:70",
+   "ocr": "ter| minals",
+   "fixed": "terminals",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:72",
+   "ocr": "me Lhave",
+   "fixed": "I have",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:75",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:78",
+   "ocr": "excéedingly",
+   "fixed": "exceedingly",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:79",
+   "ocr": "do-not",
+   "fixed": "do not",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:85",
+   "ocr": "commonly.",
+   "fixed": "commonly",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:86",
+   "ocr": "closed.",
+   "fixed": "closed",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:87",
+   "ocr": "I, tioses",
+   "fixed": "I_{2} closes",
+   "basis": "scan (subscript); secondary I_{2} as at p.1:38"
+  },
+  {
+   "cite": "p.1:89",
+   "ocr": "the*electrode b; con ucting mernber. a”",
+   "fixed": "the electrode b, conducting member a′",
+   "basis": "scan (faint undersized dot above the comma, like the specks elsewhere on the page; read as a comma, consistent with the parallel wording) (b, ; also drops a stray speck before electrode)"
+  },
+  {
+   "cite": "p.1:91",
+   "ocr": "Said",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:95",
+   "ocr": "close,",
+   "fixed": "close",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:96",
+   "ocr": "assage",
+   "fixed": "passage",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:96",
+   "ocr": "direct:",
+   "fixed": "direct",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:97",
+   "ocr": "there\\\"through,",
+   "fixed": "therethrough,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:98",
+   "ocr": "the-",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:99",
+   "ocr": "_",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:100",
+   "ocr": "6,",
+   "fixed": "b,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:100",
+   "ocr": "between-a’",
+   "fixed": "between a′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:100",
+   "ocr": "6,",
+   "fixed": "b,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:101",
+   "ocr": "a’",
+   "fixed": "a′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:101",
+   "ocr": "elec-. trical",
+   "fixed": "electrical",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:102",
+   "ocr": "said.",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:102",
+   "ocr": "msert",
+   "fixed": "insert",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:103",
+   "ocr": "C’ in. said,",
+   "fixed": "C′ in said",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:104",
+   "ocr": "-find ‘that’",
+   "fixed": "find that",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:104",
+   "ocr": "présence",
+   "fixed": "presence",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:105",
+   "ocr": "‘produces’a",
+   "fixed": "produces a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:105",
+   "ocr": "it",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:106",
+   "ocr": "sensitiveness.",
+   "fixed": "sensitiveness",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:107",
+   "ocr": "determined. by:",
+   "fixed": "determined by",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:108",
+   "ocr": "in. the. sound: produced:",
+   "fixed": "in the sound produced",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:1",
+   "ocr": "whe.",
+   "fixed": "when",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:3",
+   "ocr": "not‘employed.",
+   "fixed": "not employed.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:4",
+   "ocr": "eircuit",
+   "fixed": "circuit",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:10",
+   "ocr": "‘1.",
+   "fixed": "1.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:11",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:13",
+   "ocr": "local:",
+   "fixed": "local",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:15",
+   "ocr": "mem, ber",
+   "fixed": "member",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:16",
+   "ocr": "ocated",
+   "fixed": "located",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:17",
+   "ocr": "conoo véeying",
+   "fixed": "conveying",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:19",
+   "ocr": "conduct“20 ing",
+   "fixed": "conducting",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:20",
+   "ocr": "; -2,",
+   "fixed": "2.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:21",
+   "ocr": "oscillation.",
+   "fixed": "oscillation",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:21",
+   "ocr": "ai -",
+   "fixed": "an",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:22",
+   "ocr": "inclosed.",
+   "fixed": "inclosed",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:24",
+   "ocr": "‘Said",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:24",
+   "ocr": "and:",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:28",
+   "ocr": "‘ iaclosed",
+   "fixed": "inclosed",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:30",
+   "ocr": "grid-sha ed",
+   "fixed": "grid-shaped",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:31",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:31",
+   "ocr": "inclosed.",
+   "fixed": "inclosed",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:32",
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:33",
+   "ocr": "Oo -",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:36",
+   "ocr": "source’",
+   "fixed": "source",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:36",
+   "ocr": "connected,",
+   "fixed": "connected",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:38",
+   "ocr": "said’",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:38",
+   "ocr": "local.",
+   "fixed": "local",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:42",
+   "ocr": "-signal",
+   "fixed": "signal",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:43",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:43",
+   "ocr": "said-vessel",
+   "fixed": "said vessel",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:46",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:47",
+   "ocr": "5,",
+   "fixed": "5.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:47",
+   "ocr": "oscillation,",
+   "fixed": "oscillation",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:48",
+   "ocr": "eléctrode",
+   "fixed": "electrode",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:53",
+   "ocr": "said. .",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:54",
+   "ocr": "conv eying",
+   "fixed": "conveying",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:55",
+   "ocr": "first*mentioned",
+   "fixed": "first mentioned",
+   "basis": "scan (smudge between the words, no clear hyphen; claim 1 prints 'first mentioned') + Google Patents"
+  },
+  {
+   "cite": "p.2:56",
+   "ocr": "conducting:",
+   "fixed": "conducting",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:57",
+   "ocr": "aiid 2",
+   "fixed": "and a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:58",
+   "ocr": "(missing)",
+   "fixed": "an",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:59",
+   "ocr": "vessel;",
+   "fixed": "vessel,",
+   "basis": "scan (faint undersized dot above the comma, like the specks elsewhere on the page; read as a comma, consistent with the parallel wording)"
+  },
+  {
+   "cite": "p.2:61",
+   "ocr": "meinber",
+   "fixed": "member",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:62",
+   "ocr": "‘vessel",
+   "fixed": "vessel",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:62",
+   "ocr": "(missing)",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:63",
+   "ocr": "este lishing",
+   "fixed": "establishing",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:64",
+   "ocr": "said: electrodes:",
+   "fixed": "said electrodes",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:65",
+   "ocr": "for.",
+   "fixed": "for",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:65",
+   "ocr": "(con- missing)",
+   "fixed": "conducting",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:68",
+   "ocr": "‘An.",
+   "fixed": "An",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:69",
+   "ocr": "con£ ducting",
+   "fixed": "conducting",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:70",
+   "ocr": "conductin:",
+   "fixed": "conducting",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:72",
+   "ocr": "element,",
+   "fixed": "element",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:73",
+   "ocr": "‘of",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:74",
+   "ocr": "-in",
+   "fixed": "in",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:74",
+   "ocr": "a. sig-nal-indicating",
+   "fixed": "a signal-indicating",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:80",
+   "ocr": "elec-¢rodes,",
+   "fixed": "electrodes,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:86",
+   "ocr": "©",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:88",
+   "ocr": "s!",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:94",
+   "ocr": "‘said",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:96",
+   "ocr": "‘electrodes",
+   "fixed": "electrodes",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:99",
+   "ocr": "-evacuated",
+   "fixed": "evacuated",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:99",
+   "ocr": "‘electrodes",
+   "fixed": "electrodes",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:100",
+   "ocr": "elec‘trodes;",
+   "fixed": "electrodes,",
+   "basis": "scan (faint undersized dot above the comma, like the specks elsewhere on the page; read as a comma, consistent with the parallel wording)"
+  },
+  {
+   "cite": "p.2:104",
+   "ocr": "sald",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:105",
+   "ocr": "preventing” the\"",
+   "fixed": "preventing the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:107",
+   "ocr": "between.",
+   "fixed": "between",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:107",
+   "ocr": "anid",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:108",
+   "ocr": "oo",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:111",
+   "ocr": "gaid",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:112",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:112",
+   "ocr": "within.",
+   "fixed": "within",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:113",
+   "ocr": "con| nected",
+   "fixed": "connected",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:114",
+   "ocr": "conduct| ing",
+   "fixed": "conducting",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:116",
+   "ocr": "between:",
+   "fixed": "between",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:117",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:118",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:120",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:120",
+   "ocr": "there| in,",
+   "fixed": "therein,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:121",
+   "ocr": "gaid",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:123",
+   "ocr": "an",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:124",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:124",
+   "ocr": "&",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:124",
+   "ocr": "in| closed",
+   "fixed": "inclosed",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:126",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:126",
+   "ocr": "for.",
+   "fixed": "for",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:127",
+   "ocr": "said |",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:128",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:128",
+   "ocr": "and.a ‘condenser",
+   "fixed": "and a condenser",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:129",
+   "ocr": "circuit...",
+   "fixed": "circuit.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:3",
+   "ocr": "\"~",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:3",
+   "ocr": "local.",
+   "fixed": "local",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:6",
+   "ocr": "incliding ‘a",
+   "fixed": "including a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:6",
+   "ocr": "and’",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:7",
+   "ocr": "conduct‘ing",
+   "fixed": "conducting",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:8",
+   "ocr": "vessel’ and’",
+   "fixed": "vessel and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:10",
+   "ocr": "detected:",
+   "fixed": "detected",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:12",
+   "ocr": "_.14.",
+   "fixed": "14.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:13",
+   "ocr": "of:",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:14",
+   "ocr": "jis'a",
+   "fixed": "is a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:14",
+   "ocr": "vessel;",
+   "fixed": "vessel,",
+   "basis": "scan (faint undersized dot above the comma, like the specks elsewhere on the page; read as a comma, consistent with the parallel wording)"
+  },
+  {
+   "cite": "p.3:15",
+   "ocr": "anda -",
+   "fixed": "and a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:16",
+   "ocr": "vesSel",
+   "fixed": "vessel",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:17",
+   "ocr": "betwéen",
+   "fixed": "between",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:17",
+   "ocr": "electrodes, “15.",
+   "fixed": "electrodes. 15.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:22",
+   "ocr": "_",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:23",
+   "ocr": "a:local",
+   "fixed": "a local",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:23",
+   "ocr": "con-necting",
+   "fixed": "connecting",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:25",
+   "ocr": "aind",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:26",
+   "ocr": "in:said",
+   "fixed": "in said",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:26",
+   "ocr": "circuit, ,",
+   "fixed": "circuit.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:29",
+   "ocr": "within'said",
+   "fixed": "within said",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:32",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:34",
+   "ocr": "-» 17,",
+   "fixed": "17.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:35",
+   "ocr": "vessel; two-",
+   "fixed": "vessel, two",
+   "basis": "scan (faint undersized dot above the comma, like the specks elsewhere on the page; read as a comma, consistent with the parallel wording)"
+  },
+  {
+   "cite": "p.3:35",
+   "ocr": "inélosed ~",
+   "fixed": "inclosed",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:37",
+   "ocr": "“gaid",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:37",
+   "ocr": "2",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:37",
+   "ocr": "|.",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:38",
+   "ocr": "interposed-between",
+   "fixed": "interposed between",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:39",
+   "ocr": "inpluding",
+   "fixed": "including",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:40",
+   "ocr": "|:",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:41",
+   "ocr": "| '",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:42",
+   "ocr": "|\"",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:44",
+   "ocr": "vessél,",
+   "fixed": "vessel,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:44",
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:52",
+   "ocr": "two.electrodes, vne",
+   "fixed": "two electrodes, one",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:52",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:53",
+   "ocr": "véssel,",
+   "fixed": "vessel,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:61",
+   "ocr": "therein;",
+   "fixed": "therein,",
+   "basis": "scan (faint undersized dot above the comma, like the specks elsewhere on the page; read as a comma, consistent with the parallel wording)"
+  },
+  {
+   "cite": "p.3:65",
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:67",
+   "ocr": "circuit..’ — 21,",
+   "fixed": "circuit. 21.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:70",
+   "ocr": "said:",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:74",
+   "ocr": "of-said",
+   "fixed": "of said",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:79",
+   "ocr": "stibscribed",
+   "fixed": "subscribed",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:81",
+   "ocr": "oo .",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:81",
+   "ocr": "Dit",
+   "fixed": "DE",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:81",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:82",
+   "ocr": ": ‘Thomas I, GALLAGHER,",
+   "fixed": "Thomas I. Gallagher,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:84",
+   "ocr": "Gorrze. ;",
+   "fixed": "Goetze.",
+   "basis": "scan"
+  }
+ ]
+}

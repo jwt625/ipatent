@@ -1,0 +1,24 @@
+{"pn": "879532", "figures": [
+  {"id": "1", "label": "Fig. 1", "sheet": 1, "page": 0, "crop": [240, 680, 1490, 1740], "rotate": 0, "front_page": false},
+  {"id": "2", "label": "Fig. 2", "sheet": 1, "page": 0, "crop": [320, 1730, 1500, 2725], "rotate": 0, "front_page": false}
+], "parts": [
+  {"ref": "V", "name": "elevated conductor", "figs": ["1", "2"]},
+  {"ref": "I_{1}", "name": "primary", "figs": ["1", "2"]},
+  {"ref": "E", "name": "earth connection", "figs": ["1", "2"]},
+  {"ref": "M", "name": "transformer", "figs": ["1", "2"]},
+  {"ref": "I_{2}", "name": "secondary", "figs": ["1", "2"]},
+  {"ref": "C", "name": "condenser", "figs": ["1", "2"]},
+  {"ref": "D", "name": "evacuated vessel", "figs": ["1", "2"]},
+  {"ref": "F", "name": "conducting member or electrode", "figs": ["1", "2"], "alt": ["filament"]},
+  {"ref": "a", "name": "grid-shaped member", "figs": ["1"], "alt": ["conducting member", "grid"]},
+  {"ref": "b", "name": "conducting member", "figs": ["1", "2"], "alt": ["plate", "electrode"]},
+  {"ref": "a'", "name": "conducting member", "figs": ["2"]},
+  {"ref": "A", "name": "battery", "figs": ["1", "2"]},
+  {"ref": "3", "name": "terminal", "figs": ["1", "2"], "alt": ["point"]},
+  {"ref": "1", "name": "terminal", "figs": ["1", "2"]},
+  {"ref": "B", "name": "battery", "figs": ["1", "2"]},
+  {"ref": "T", "name": "signal indicating device", "figs": ["1", "2"], "alt": ["telephone receiver", "telephone"]},
+  {"ref": "4", "name": "point", "figs": ["1", "2"]},
+  {"ref": "2", "name": "terminal", "figs": ["1", "2"]},
+  {"ref": "C'", "name": "condenser", "figs": ["1", "2"]}
+]}

@@ -1,0 +1,96 @@
+{
+ "patent": "Filed 1965-06-18 and issued 1968-11-26 to Harvey C. Nathanson and Robert A. Wickstrom of Pittsburgh, assigned to Westinghouse Electric Corporation. It covers the resonant gate transistor: a conductive cantilever suspended a few microns over the channel of a field-effect transistor acts as a mechanically tuned gate, so that only signals near the beam's flexural resonance modulate the drain current. This put a high-Q tuning element on a silicon integrated circuit without an LC tank or quartz crystal. The device was published as H. C. Nathanson, W. E. Newell, R. A. Wickstrom and J. R. Davis, \"The resonant gate transistor,\" IEEE Transactions on Electron Devices, vol. ED-14, no. 3, 1967. The fabrication of FIGS. 7A-7G, an electroplated gold beam formed over a photoresist spacer that is then dissolved, is an early example of sacrificial-layer surface micromachining, and the device is often cited as one of the first MEMS (microelectromechanical systems) devices. The first test device (FIG. 4) used a hand-soldered 1 mil tungsten wire; the later beams were made by the FIG. 7 process.",
+ "figs": {
+  "1": "Perspective of the first embodiment. Rod 12 is anchored at end 13 on a round pad at the upper left and runs to a free end 14 over the transistor at the lower right. The long rectangle under most of the rod is force plate 16; the dashed rectangles 22 and 23 are the source and drain diffusions under the oxide, each with an ohmic contact 33 and a wire lead 35. Contact 24 at the right edge lies under the rod tip (the relay option). The thin band along the front edge is oxide layer 20 over silicon body 19. Arrows II-II and III-III mark the section planes of FIGS. 2 and 3.",
+  "2": "Section II-II across the rod over the force plate. The circle is rod 12 in cross section; the dashed arrows are field lines from rod to plate 16. Under the plate, the thin hatched band is the oxide and the heavy hatching is p-type body 19. AC source 15 drives the plate; battery 17 holds the rod at a DC polarization voltage.",
+  "3": "Section III-III across the rod over the transistor. N-type source 22 and drain 23 are diffused into p-type body 19; channel 21 is the p-type gap between them, directly under the (unlabeled) rod, whose field lines end on the channel. Contacts 33 pass through oxide 20. The source is grounded; the drain is fed from battery 30 through load resistor 31, and the output is taken through capacitor 32.",
+  "4": "Test setup for the first device, with the transistor drawn as a gate symbol: 12 is the rod acting as gate, 19 the channel, 22 the grounded source, 23 the drain. Here the sweep signal and the polarization voltage are both applied to the rod (no force plate). The drain signal across R_{L} is coupled through capacitor 32 to the demodulator and oscilloscope; the oscilloscope also takes the sweep signal, so the trace is output versus frequency.",
+  "5": "Flexural mode shapes of a cantilever clamped at the left (square) for modes m = 1 to 4, drawn against the undeflected axis (dashed). The numbers give node positions as fractions of rod length L measured from the free (right) end: one node in mode 2, two in mode 3, three in mode 4. These are the standard Euler-Bernoulli clamped-free beam values.",
+  "6": "Layout for second-mode operation, seen from the side: rod 12 in its second-mode shape with node N at 0.2261 L from the free end. Drain 23 is centred under the node, so drain voltage exerts no net drive on the rod; force plate 16 and the channel 19 (between drain 23 and source 22) lie off the node. The bars are schematic positions, not a section.",
+  "7A": "Start of the beam process: silicon 50, oxide 52, and photoresist spacer 54 with opening 55 where the beam will be anchored. Spacer thickness sets the final gap under the beam.",
+  "7B": "Thin continuous metal 56 (chromium then gold, per the text) evaporated over the spacer and down into opening 55 onto the oxide; it serves as the plating base.",
+  "7C": "Second photoresist 58 patterned with opening 59, which outlines the beam: the anchor in 55 plus the free span over spacer 54.",
+  "7D": "Gold 60 electroplated in opening 59 to the full beam thickness; it steps down into the anchor at 55.",
+  "7E": "Plating mask 58 stripped; plating base 56 is still continuous outside the beam.",
+  "7F": "Exposed plating base 56 etched away, leaving beam 60 on spacer 54.",
+  "7G": "Spacer 54 dissolved: beam 60 is anchored to oxide 52 at one end and free over the gap left by the spacer.",
+  "8": "Two rods of different diameter, 12 and 112, both over channel 19 between source 22 and drain 23, with force plate 16 on oxide 20. Each rod passes signals near its own resonance, giving a two-frequency selective device.",
+  "9": "Two nominally identical rods 12 and 112 joined by a weak mechanical coupler 40. Only rod 12 is driven by plate 16; rod 112 is driven through the coupler. The coupled pair splits the single resonance in two, giving a band-pass response (the text's \"notch\").",
+  "10": "Self-oscillator: no force plate; the rod sits over the drain side of the channel, closer to drain 23 than to source 22. Rod polarization (battery 17) is opposite in polarity to the drain supply, so the drain attracts the rod; rod motion changes the channel current and drain voltage, which feeds back on the rod. The sine-wave symbol at the right marks the oscillatory output.",
+  "11": "Modulator, with the resonant gate transistor 18 drawn as a gate symbol: 12 the rod, 16 the force plate (short heavy line beside the rod line), 22 source, 23 drain. Carrier source 15 drives the plate at resonance; low-frequency signal source 115 sits in series with polarization battery 17 on the rod, modulating the effective bias. Amplifiers 39 and 41 follow, and the dash-dot box 42 is the RC high-pass output filter (series capacitor, shunt resistor).",
+  "12A": "Pulse oscillator: switch 44 is in series between polarization battery 17 and rod 12; resistor 46 discharges the rod to ground the moment the switch opens. Output is taken from drain 23 through a capacitor.",
+  "12B": "Timing for FIG. 12A. Top trace: rod DC voltage, dropping to zero while the switch is open. Bottom trace: AC output, which is zero while the rod is unbiased and rings down at the beam's resonance after the switch recloses. The dashed lines align the switch instants.",
+  "13": "Frequency standard. Inside dash-dot box 60: the resonant gate transistor with drain load 62 (resistor and capacitor in parallel), and a feedback loop from drain 23 through network 64 (series capacitor, shunt resistor) and amplifier 63 back to force plate 16. The oscillator output feeds wave shaper 65, divider-counter 70, drive circuit 75 and display 80; the small symbols on the connecting lines show the sine wave becoming pulses.",
+  "14": "Variable reactance: rod 12 held at a fixed DC voltage by battery 17 against grounded force plate 16. Z is the impedance between drain 23 and source 22 presented to the external A.C. circuit; it is set by the channel away from resonance and changes near the beam's resonance."
+ },
+ "parts": {
+  "12": "In the first test device, a 1 mil (25 µm) diameter gold-plated tungsten wire soldered at one end; in the FIG. 7 process, an electroplated gold beam.",
+  "16": "Called the force plate: an electrode under the beam that drives it electrostatically.",
+  "19": "The description uses 19 both for the silicon body (FIGS. 1-3) and for the transistor channel (FIGS. 6, 8, 9).",
+  "44": "The text gives a push-button digit selector on a telephone as an example of this switch.",
+  "60": "Used for two things: the plated gold beam in FIGS. 7D-7G and the oscillator block in FIG. 13.",
+  "N": "In FIG. 6 only, N marks the vibration node. Elsewhere N and P are the conductivity types of the silicon regions."
+ },
+ "glossary": [
+  {
+   "term": "resonant gate transistor",
+   "def": "The patent's name for a field-effect transistor whose gate is a vibrating beam held above the channel; it responds strongly only near the beam's mechanical resonance."
+  },
+  {
+   "term": "surface potential controlled transistor",
+   "def": "A transistor whose current is set by the potential at the semiconductor surface; here an insulated-gate field-effect transistor (MOSFET without a metal gate on the oxide)."
+  },
+  {
+   "term": "polarization voltage",
+   "def": "DC bias on the beam. Electrostatic force goes as voltage squared, so the bias makes the force at the signal frequency linear in the signal and sets the transistor's operating point."
+  },
+  {
+   "term": "force plate",
+   "def": "Fixed electrode under the beam carrying the drive signal."
+  },
+  {
+   "term": "Q",
+   "def": "Quality factor: resonant frequency divided by bandwidth. 2.04 kc with about 12 c.p.s. bandwidth gives about 170."
+  },
+  {
+   "term": "mode, node",
+   "def": "A clamped-free beam has a series of flexural resonances (modes); a node is a point on the beam that does not move in a given mode."
+  },
+  {
+   "term": "depletion mode, accumulation mode, inversion layer",
+   "def": "Field-effect operating regimes: the gate field depletes carriers from the channel, accumulates majority carriers in it, or (inversion layer type) forms a channel of minority carriers at the surface."
+  },
+  {
+   "term": "pinch-off",
+   "def": "Bias at which the field-effect channel is just cut off; small gate changes near it give large current changes, hence voltage gain."
+  },
+  {
+   "term": "c.p.s., kc",
+   "def": "Cycles per second (Hz) and kilocycles per second (kHz)."
+  },
+  {
+   "term": "mil",
+   "def": "0.001 inch, 25.4 µm."
+  },
+  {
+   "term": "KMER",
+   "def": "Kodak Metal Etch Resist, a negative photoresist of the period; used here as the sacrificial spacer."
+  },
+  {
+   "term": "sacrificial layer",
+   "def": "Modern term for a temporary layer (here photoresist 54) under a structure, removed at the end to leave the structure free-standing."
+  },
+  {
+   "term": "notch characteristic",
+   "def": "As used in the text: a pass band over a range of frequencies, from mechanically coupled resonators. Today \"notch\" usually means a narrow stop band."
+  },
+  {
+   "term": "push button telephone frequencies",
+   "def": "The seven listed tones are the Bell Touch-Tone (dual-tone multi-frequency) set; the standard value printed as 851 c.p.s. is 852 Hz."
+  },
+  {
+   "term": "crossover",
+   "def": "A conductor bridging over another conductor through air, now called an air bridge."
+  }
+ ]
+}

@@ -1,0 +1,1609 @@
+{
+ "pn": "1624537",
+ "number": "1,624,537",
+ "title": "OSCILLATION GENERATOR",
+ "inventors": [
+  "Edwin H. Colpitts"
+ ],
+ "assignee": "Western Electric Company, Incorporated, of New York, N. Y., a corporation of New York",
+ "filed": "1918-02-01",
+ "issued": "1927-04-12",
+ "appl_no": "214,971",
+ "int_cl": null,
+ "us_cl": null,
+ "refs_patents": [],
+ "refs_other": [],
+ "examiners": null,
+ "claims_count": 23,
+ "drawing_figures": 3,
+ "abstract": "",
+ "cite_scheme": "printed page:line",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "page": 1,
+     "cite": "p.1:1",
+     "col": null,
+     "line": null,
+     "text": "It is known that a vacuum tube of the audion type may be employed as a generator of oscillations of any desired frequency by providing a tuned circuit suitably associated with the tube circuits, usually called input and output circuits. In previous generators the coupling between the input and output circuits has been electro-magnetic. In accordance with this invention, the couplings between the input circuit and the oscillation circuit and between the output circuit and the oscillation circuit are made electrostatic. Some of the advantages of this arrangement are herein enumerated. One advantage of this form of generator is that the generation of oscillations of a frequency not determined by the period of the tuned circuit is prevented. Another advantage is that it enables the generator to be connected to an antenna in a transmitting system without causing any part of the generator to be short-circuited. This and other novel advantages will be most readily understood by reference to the following detailed description taken in connection with the accompanying drawings, in which Fig. 1 represents one form of the generator of this invention; Fig. 2 is a modification of Fig. 1; and Fig. 3 illustrates how the generator may be associated with a transmitting antenna."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:31",
+     "col": null,
+     "line": null,
+     "text": "Referring to Fig. 1, 6 is an evacuated vessel of the audion type containing a filament 7, an anode 8, and a grid or impedance varying element 9. In the output circuit of the vessel is included a source of voltage 11, shunted by a condenser 13. This source of voltage, for the arrangement shown in this figure, should preferably be of such impedance for the frequencies generated that no appreciable short-circuiting of capacity 13 results therefrom. In the input circuit is included a capacity 16 and a high resistance 17 which in the arrangement shown is in shunt to the capacity. Suitably connected to the input and output circuits is an inductance 20, which cooperates with the condensers 13 and 16 to form an oscillatory circuit. A stopping condenser 21 of large capacity is placed in this circuit to prevent the flow of direct current. This oscillating circuit is coupled to both the output and input circuits of the vessel, whereby the vessel may function as a generator of oscillations of any frequency, depending upon the values of inductance and capacity in the oscillating circuit."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:57",
+     "col": null,
+     "line": null,
+     "text": "The operation of the system may be explained as follows:"
+    },
+    {
+     "page": 1,
+     "cite": "p.1:59",
+     "col": null,
+     "line": null,
+     "text": "Assume that a slight disturbance is impressed upon the grid 9. Corresponding changes but of greater amplitude will then occur in the output circuit current from the source of voltage 11. Due to the mutual capacity reactance 13 between the output circuit and the oscillating circuit, these current changes in the output circuit will set up oscillations in the oscillating circuit of a period determined by the amount of inductance and capacity in the circuit. The current in the oscillating circuit will create an alternating current voltage drop across the terminals of the condenser 16, and since this condenser is common to both the input circuit and the oscillating circuit, the alternating voltage will be impressed between the grid 9 and the filament 7. This voltage will then cause corresponding current variations in the output circuit as explained above, so that the cycle of operations will be repeated and the tube will be caused to generate oscillations of constant amplitude and of a frequency determined by the tuning of the oscillating circuit. These oscillations may be impressed in any suitable manner, as by a transformer 22, upon a work circuit 23, whereby the oscillations may be employed for any of the well-known uses of an alternating current."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:89",
+     "col": null,
+     "line": null,
+     "text": "A choke coil may be inserted in the output circuit in series with the battery 11 to prevent an excessive amount of alternating current from being shunted around the condenser 13. The high resistance 17 is provided between the grid and the filament to permit the leakage of any excess charge which may tend to accumulate on the grid and block the action of the tube."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:98",
+     "col": null,
+     "line": null,
+     "text": "It has been found that one of the disadvantages to the operation of oscillation generators, is that, due to the electrostatic relation between the grid and anode of a vacuum tube, there is a tendency of the tube to generate undesirable oscillations of a frequency determined by the tuning coil in the oscillating circuit and by the effective capacity between the grid and anode. Such undesirable oscillations are prevented in an oscillator of the type embodied in this invention, since oscillations that would tend to be set up by the circuit composed of the inductance 20 and of the electrostatic capacity between the anode 8 and grid 9 would be short-circuited by the capacities 13 and 16 which are very much larger in value than the effective capacity between the grid and anode."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:11",
+     "col": null,
+     "line": null,
+     "text": "Fig. 2 is a modification of Fig. 1 in which the circuit arrangement is such that the stopping condenser 21 and the resistance 17 may be omitted. This is accomplished by placing the battery 11 between the junction point of branches 24 and 25 and the anode. The presence of resistance 17 is unnecessary because there is a direct current path from the grid to the filament through inductance 20 and choke coil 12."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:21",
+     "col": null,
+     "line": null,
+     "text": "Fig. 3 illustrates how the capacity of a transmitting antenna may be substituted for one of the condensers of the oscillator system without in anywise interfering with the operation or efficiency of the oscillator by short-circuiting any part of the apparatus, as would be the case in oscillators of other types. Herein the antenna capacity, as shown, has been substituted for the condenser 13 of Fig. 1. This is accomplished by grounding filament 7 at the point 27 and by connecting the antenna 28 to the anode 8. The antenna is shown to be composed of a plurality of parts, 33, 34 and 35, either or all of which may be connected to the system by the switch 36, thereby providing means whereby the capacity of the antenna with respect to earth may be varied. Or the period of oscillation may be varied by varying the amount of effective inductance in coil 20, the other coil of transformer 30 being simultaneously varied if desired. The system oscillates in the same manner as described above and oscillations of a predetermined frequency are radiated by the antenna. The amplitude of the oscillations of the antenna may be varied in any well-known manner in accordance with signals that are to be transmitted. One way of accomplishing this is to employ the inductance 20 as the secondary of a transformer 30, the primary coil of which is associated with a transmitting device 32. With this arrangement the amplitude of the oscillations in the antenna will be varied in accordance with the movements of the diaphragm of transmitter 32. The system will then act as a radiating system for the signals it is desired to transmit."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:61",
+     "col": null,
+     "line": null,
+     "text": "This invention is not limited to use with any particular kind of discharge device, it merely being essential that a discharge device be used which has a cathode, an anode and some kind of an impedance-varying element for controlling the current between the electrodes. The circuit arrangements shown and described are merely by way of example and are not intended to limit the invention, which is defined in the claims, nor is the illustration of one form of signaling system intended to suggest any limitation as to the field of utility of the invention, which is capable of various applications."
+    },
+    {
+     "page": 4,
+     "cite": "p.4:64",
+     "col": null,
+     "line": null,
+     "text": "In witness whereof, I hereunto subscribe my name this 18th day of January, A. D. 1918."
+    },
+    {
+     "page": 4,
+     "cite": "p.4:68",
+     "col": null,
+     "line": null,
+     "text": "EDWIN H. COLPITTS."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "page": 1,
+   "cite": "p.1:26",
+   "col": null,
+   "line": null,
+   "text": "Fig. 1 represents one form of the generator of this invention;"
+  },
+  {
+   "fig": "2",
+   "page": 1,
+   "cite": "p.1:28",
+   "col": null,
+   "line": null,
+   "text": "Fig. 2 is a modification of Fig. 1;"
+  },
+  {
+   "fig": "3",
+   "page": 1,
+   "cite": "p.1:29",
+   "col": null,
+   "line": null,
+   "text": "Fig. 3 illustrates how the generator may be associated with a transmitting antenna."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "page": 2,
+   "cite": "p.2:76",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "1. Means for generating oscillations and transmitting them to a work circuit, comprising an evacuated vessel having an input circuit and an output circuit, and an oscillating circuit including separate means for associating said oscillating circuit electrostatically separately with said input and output circuits."
+  },
+  {
+   "n": 2,
+   "page": 2,
+   "cite": "p.2:84",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "2. In combination, a work circuit, means for generating oscillations and transmitting the generated oscillations to said work circuit, comprising an evacuated vessel having an input and an output circuit, and an oscillating circuit, said input and output circuits each having a capacity common thereto and to said oscillating circuit."
+  },
+  {
+   "n": 3,
+   "page": 2,
+   "cite": "p.2:92",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "3. A generating system comprising a discharge device having an input circuit, an output circuit and an oscillation circuit connected thereto, said oscillation circuit including separate means for connecting said oscillation circuit electrostatically separately with said input and output circuits."
+  },
+  {
+   "n": 4,
+   "page": 2,
+   "cite": "p.2:100",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "4. A system for converting electrical energy into the energy of oscillating currents comprising an oscillatory circuit in which oscillations are to be produced, an electron discharge device having input and output circuits, said input and output circuits each including in common with said oscillatory circuit a capacity external to said device."
+  },
+  {
+   "n": 5,
+   "page": 2,
+   "cite": "p.2:109",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "5. Means for generating oscillations, comprising an evacuated vessel containing a cathode, an anode and a third electrode, and an oscillating circuit having a capacitatively reactive path between said third electrode and said cathode and a separate capacitatively reactive path between said anode and said cathode."
+  },
+  {
+   "n": 6,
+   "page": 2,
+   "cite": "p.2:117",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "6. Means for generating oscillations, comprising an evacuated vessel containing a cathode, an anode and a third electrode; and an oscillating circuit containing a capacity between said third electrode and said cathode, and a capacity between said anode and said cathode, and a shunt around said capacities including an inductance."
+  },
+  {
+   "n": 7,
+   "page": 2,
+   "cite": "p.2:125",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "7. Means for generating oscillations, comprising a discharge device having a cathode, an anode and an impedance varying element; an oscillating circuit having the two said electrodes and the impedance varying element connected each to a different point thereof a source of voltage and a path from said cathode to said anode for the direct current therefrom, exclusive of said oscillatory circuit."
+  },
+  {
+   "n": 8,
+   "page": 3,
+   "cite": "p.3:5",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "8. Means for generating oscillations and transmitting them to a work circuit, comprising a discharge device having a cathode, an anode and an impedance varying element, and a path between said impedance varying element and said anode having two portions, the reactance of each portion of which decreases with increase in the frequency, each of said portions being included between the cathode and a different one of the other mentioned electrodes, said path as a whole, forming part of a closed oscillatory circuit."
+  },
+  {
+   "n": 9,
+   "page": 3,
+   "cite": "p.3:18",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "9. An oscillation generator comprising an evacuated vessel containing a cathode, an anode and a third electrode, a source of voltage, a path between said cathode and said anode for the direct current therefrom, a circuit composed substantially entirely of inductive reactance connected between said third electrode and said anode, and a capacitatively reactive path between said third electrode and said anode to which the cathode is connected at an intermediate point."
+  },
+  {
+   "n": 10,
+   "page": 3,
+   "cite": "p.3:29",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "10. An oscillation generator comprising a discharge device having a cathode, an anode and an impedance varying element, a source of voltage and a path between said cathode and said anode for the direct current therefrom, and an impedance path between said anode and said impedance varying element the impedance of which decreases with increase in frequency, said cathode being connected to an electrically intermediate point of said path, said path as a whole forming part of a series oscillating circuit."
+  },
+  {
+   "n": 11,
+   "page": 3,
+   "cite": "p.3:41",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "11. An oscillation generator comprising a discharge device having an input and an output circuit, an oscillating circuit comprising a capacity which is common thereto and to said input circuit, a capacity which is common thereto and to said output circuit, and an inductance shunting said capacities, one of said capacities consisting of the capacity of a radiating antenna."
+  },
+  {
+   "n": 12,
+   "page": 3,
+   "cite": "p.3:50",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "12. An oscillation generator comprising a discharge device having a cathode, an anode and an impedance varying element, a capacity between said cathode and anode comprising a radiating antenna, a capacity between said impedance varying element and said cathode, and an oscillatory circuit, said capacities constituting elements of said oscillating circuit."
+  },
+  {
+   "n": 13,
+   "page": 3,
+   "cite": "p.3:59",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "13. An oscillation generator comprising a discharge device having an anode, a cathode and an impedance varying element, a coupling reactance, a lead from said cathode to a point in said coupling reactance, a lead from said anode to said coupling reactance, a lead from said impedance varying element to said coupling reactance, a second reactance opposite in kind to said coupling reactance and in effective shunt to at least a portion of said coupling reactance, and a radiating element, said coupling reactance comprising the reactance of said radiating element."
+  },
+  {
+   "n": 14,
+   "page": 3,
+   "cite": "p.3:73",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "14. An oscillation generator comprising an oscillation circuit and a discharge device having an anode, a cathode and an impedance varying element; a path between said anode and said cathode, a capacity reactance common to said path and said circuit, a second path between said impedance varying element and said cathode, a second capacity reactance common to said second path and said circuit, a third path between said impedance varying element and said anode, and an inductive reactance common to said third path and said circuit."
+  },
+  {
+   "n": 15,
+   "page": 3,
+   "cite": "p.3:86",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "15. A system comprising an electron discharge device, an electron emitting cathode, an anode and an impedance varying means constituting elements of said device; a circuit in which oscillations are to be generated comprising an inductance and a plurality of condensers in series included in a circuit between two of said elements, and a separate connection from a point intermediate said condensers to the other of said elements."
+  },
+  {
+   "n": 16,
+   "page": 3,
+   "cite": "p.3:96",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "16. A signal transmission system comprising an antenna circuit having a thermionic discharge device connected thereto, an anode, an electron emitting cathode and a control element for said device; an inductance and a capacity in said antenna circuit; leads from said anode, cathode and control element respectively to said antenna circuit, at least a portion of said inductance being included between said anode and control element leads, and said capacity being included between said cathode and control element leads."
+  },
+  {
+   "n": 17,
+   "page": 3,
+   "cite": "p.3:109",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "17. A signal transmitting system comprising an antenna circuit having a thermionic discharge device connected thereto, an anode, a cathode and a control element for said device; an inductance and a capacity in said antenna circuit; leads from said anode, cathode and control element respectively to said antenna circuit, at least a portion of said inductance being included between said anode and control element leads, said capacity being included between said cathode and control element leads, and the capacity in said antenna being included between said anode and cathode leads."
+  },
+  {
+   "n": 18,
+   "page": 3,
+   "cite": "p.3:123",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "18. An oscillation generator comprising an oscillating circuit and a discharge device having a cathode, an anode and an impedance varying element, impedance paths between said impedance varying element and said cathode and between said cathode and said anode the reactance of each of which is capacitative at the frequency generated by said generator, each of said paths forming a different part of the same series oscillating circuit."
+  },
+  {
+   "n": 19,
+   "page": 4,
+   "cite": "p.4:4",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "19. An oscillation generator comprising a discharge device, elements of said device being an anode, a cathode, and an impedance varying means, a branched path between two of said elements, one branch of said path being inductively reactive at the generated frequency, another branch, and a connection between said third element and an intermediate point of said other branch, the portions of said other branch between said intermediate point and said two of said elements each being capacitatively reactive at the generated frequency."
+  },
+  {
+   "n": 20,
+   "page": 4,
+   "cite": "p.4:17",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "20. An oscillation generator comprising a discharge device, an anode, a cathode, and an impedance varying element for said device, a circuit comprising an inductance and a plurality of capacities, a connection from a point in said circuit between two of said capacities to said cathode, a connection from the opposite terminal of one of said capacities to said element, and a conductive connection from said anode to said cathode, said connection including a source of electromotive force."
+  },
+  {
+   "n": 21,
+   "page": 4,
+   "cite": "p.4:29",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "21. An oscillation generator comprising a discharge device, an anode, a cathode, and an impedance varying element for said device, and a circuit arrangement coupled to said device including a plurality of capacities wherein oscillations are generated by said device, one of said capacities being so connected to a circuit between said anode and cathode as to introduce capacitative reactance thereinto, and another of said capacities being so related to the circuit between said impedance varying element and said cathode so as to introduce capacitative reactance thereinto."
+  },
+  {
+   "n": 22,
+   "page": 4,
+   "cite": "p.4:43",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "22. An oscillation generator comprising a discharge device having an anode, a cathode and an impedance varying element, a circuit arrangement including a plurality of capacities coupled to said device for determining the frequency of oscillations and wherein oscillations are to be produced, one of said capacities being included in a circuit between said cathode and impedance varying element, and the other of said capacities being effectively in series with respect to the circuit between said anode and said cathode."
+  },
+  {
+   "n": 23,
+   "page": 4,
+   "cite": "p.4:55",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "23. In an electrical signaling system, an evacuated vessel containing two cold and one hot electrode; an oscillating circuit comprising an inductance and a plurality of condensers in series connected across the terminals thereof, connected across said cold electrodes, and a separate connection between all of said condensers and said hot electrode."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "page": 1,
+   "cite": "header",
+   "ocr": "N. ¥.,",
+   "fixed": "N. Y.,",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "header",
+   "ocr": "‘YORE.",
+   "fixed": "YORK.",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "header",
+   "ocr": "Lk Do OSCILLATION",
+   "fixed": "OSCILLATION",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "header",
+   "ocr": "“Application filed February 1, 1918, Serial No. 214,971,",
+   "fixed": "Application filed February 1, 1918. Serial No. 214,971.",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:1",
+   "ocr": "It.",
+   "fixed": "It",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:5",
+   "ocr": "5",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:7",
+   "ocr": "-the",
+   "fixed": "the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:9",
+   "ocr": "‘invention,",
+   "fixed": "invention,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:9",
+   "ocr": "couplings’",
+   "fixed": "couplings",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:11",
+   "ocr": "‘and",
+   "fixed": "and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:13",
+   "ocr": "'",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:15",
+   "ocr": "15",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:15",
+   "ocr": "genera. tion",
+   "fixed": "generation",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:16",
+   "ocr": "deter_ mined",
+   "fixed": "determined",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:18",
+   "ocr": "en_ ables",
+   "fixed": "enables",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:19",
+   "ocr": "‘be -connected",
+   "fixed": "be connected",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:20",
+   "ocr": "- 20",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:21",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:24",
+   "ocr": "de_ scription taken.",
+   "fixed": "description taken",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:25",
+   "ocr": "connection.",
+   "fixed": "connection",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:32",
+   "ocr": "fila‘ment",
+   "fixed": "filament",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:33",
+   "ocr": "anda",
+   "fixed": "and a",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:33",
+   "ocr": "im.... pedance",
+   "fixed": "impedance",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:37",
+   "ocr": "‘",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:38",
+   "ocr": "such.",
+   "fixed": "such",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:40",
+   "ocr": "40°",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:40",
+   "ocr": "capacity.",
+   "fixed": "capacity",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:43",
+   "ocr": "_",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:44",
+   "ocr": "Suitably.",
+   "fixed": "Suitably",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:46",
+   "ocr": "inductance.",
+   "fixed": "inductance",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:47",
+   "ocr": "oscillatory’",
+   "fixed": "oscillatory",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:48",
+   "ocr": "stoppirig",
+   "fixed": "stopping",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:50",
+   "ocr": "prevent.",
+   "fixed": "prevent",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:50",
+   "ocr": "This.",
+   "fixed": "This",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:51",
+   "ocr": "out_ put",
+   "fixed": "output",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:53",
+   "ocr": "’",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:53",
+   "ocr": "s generator. of.",
+   "fixed": "a generator of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:56",
+   "ocr": "-in",
+   "fixed": "in",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:56",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:57",
+   "ocr": "may,",
+   "fixed": "may",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:57",
+   "ocr": "ex. plained",
+   "fixed": "explained",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:58",
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:63",
+   "ocr": "to.",
+   "fixed": "to",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:74",
+   "ocr": "‘circuit,",
+   "fixed": "circuit,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:76",
+   "ocr": "grid’9",
+   "fixed": "grid 9",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:78",
+   "ocr": "explained.",
+   "fixed": "explained",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:79",
+   "ocr": ". ‘be",
+   "fixed": "be",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:83",
+   "ocr": "oscillating: circuit..",
+   "fixed": "oscillating circuit.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:87",
+   "ocr": "well-known.",
+   "fixed": "well-known",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:89",
+   "ocr": "in.",
+   "fixed": "in",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:89",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:92",
+   "ocr": "con‘denser 138.",
+   "fixed": "condenser 13.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:93",
+   "ocr": "vided",
+   "fixed": "provided",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:93",
+   "ocr": "TrO-|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:95",
+   "ocr": "which.",
+   "fixed": "which",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:96",
+   "ocr": "tend.",
+   "fixed": "tend",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:97",
+   "ocr": "bo Tt",
+   "fixed": "It",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:99",
+   "ocr": "oscillation:",
+   "fixed": "oscillation",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:100",
+   "ocr": "tothe",
+   "fixed": "to the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:101",
+   "ocr": "grid.",
+   "fixed": "grid",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:102",
+   "ocr": "is‘a",
+   "fixed": "is a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:102",
+   "ocr": "~",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:104",
+   "ocr": "determined.",
+   "fixed": "determined",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 1,
+   "cite": "p.1:105",
+   "ocr": "‘and",
+   "fixed": "and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:1",
+   "ocr": "an’",
+   "fixed": "an",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:10",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:14",
+   "ocr": "‘This",
+   "fixed": "This",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:16",
+   "ocr": ".of",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:21",
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:34",
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:36",
+   "ocr": "86,",
+   "fixed": "36,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:44",
+   "ocr": "a_prede45 termined",
+   "fixed": "a predetermined",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:47",
+   "ocr": "wellknown",
+   "fixed": "well-known",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:51",
+   "ocr": "’",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:54",
+   "ocr": "82.",
+   "fixed": "32.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:55",
+   "ocr": "im",
+   "fixed": "in",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:57",
+   "ocr": "‘the",
+   "fixed": "the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:58",
+   "ocr": "382. The.",
+   "fixed": "32. The",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:63",
+   "ocr": "de-. vice",
+   "fixed": "device",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:65",
+   "ocr": "ele- ment",
+   "fixed": "element",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:71",
+   "ocr": "system’",
+   "fixed": "system",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:75",
+   "ocr": "oe",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:80",
+   "ocr": "for.",
+   "fixed": "for",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:83",
+   "ocr": "ce",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:87",
+   "ocr": "an-",
+   "fixed": "an",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:96",
+   "ocr": "in-cludizig",
+   "fixed": "including",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:99",
+   "ocr": "said‘input and.",
+   "fixed": "said input and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:100",
+   "ocr": "4,",
+   "fixed": "4.",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:100",
+   "ocr": "system:",
+   "fixed": "system",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:104",
+   "ocr": "-electron",
+   "fixed": "electron",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:108",
+   "ocr": "- Bo",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:110",
+   "ocr": "a@",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:121",
+   "ocr": "cath-. ode,",
+   "fixed": "cathode,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:122",
+   "ocr": "anode.and ‘said",
+   "fixed": "anode and said",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:123",
+   "ocr": "said™ ca“pacities",
+   "fixed": "said capacities",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:127",
+   "ocr": "‘an",
+   "fixed": "an",
+   "basis": "scan"
+  },
+  {
+   "page": 2,
+   "cite": "p.2:127",
+   "ocr": "varying.",
+   "fixed": "varying",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:5",
+   "ocr": "- _8. Means.",
+   "fixed": "8. Means",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:9",
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:16",
+   "ocr": "part-of",
+   "fixed": "part of",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:16",
+   "ocr": "oscillatogy circuit, , 9..",
+   "fixed": "oscillatory circuit. 9.",
+   "basis": "scan (damaged or blotted type)"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:19",
+   "ocr": "an_",
+   "fixed": "an",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:20",
+   "ocr": "a,",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:22",
+   "ocr": "acircuit",
+   "fixed": "a circuit",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:30",
+   "ocr": "anode:",
+   "fixed": "anode",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:32",
+   "ocr": "cathode’",
+   "fixed": "cathode",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:38",
+   "ocr": "to-an",
+   "fixed": "to an",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:43",
+   "ocr": "cireuit,",
+   "fixed": "circuit,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:43",
+   "ocr": "‘comprising",
+   "fixed": "comprising",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:46",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:46",
+   "ocr": "and:",
+   "fixed": "and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:46",
+   "ocr": "sai",
+   "fixed": "said",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:52",
+   "ocr": "'",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:56",
+   "ocr": "_ .",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:56",
+   "ocr": "and‘",
+   "fixed": "and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:57",
+   "ocr": "; -",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:57",
+   "ocr": "oscil ating",
+   "fixed": "oscillating",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:58",
+   "ocr": ". Oe ;",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:59",
+   "ocr": "18. An‘oscillation",
+   "fixed": "13. An oscillation",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:59",
+   "ocr": "‘comprising",
+   "fixed": "comprising",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:60",
+   "ocr": "‘discharge",
+   "fixed": "discharge",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:60",
+   "ocr": "‘anode,",
+   "fixed": "anode,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:61",
+   "ocr": "“tand",
+   "fixed": "and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:61",
+   "ocr": "cou: . pling reaciance,",
+   "fixed": "coupling reactance,",
+   "basis": "scan (damaged or blotted type)"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:62",
+   "ocr": "from.",
+   "fixed": "from",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:63",
+   "ocr": "toa",
+   "fixed": "to a",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:63",
+   "ocr": "alead",
+   "fixed": "a lead",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:65",
+   "ocr": "- wlead",
+   "fixed": "a lead",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:66",
+   "ocr": "react. ance",
+   "fixed": "reactance",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:71",
+   "ocr": "ele-ments Co : ; os ”",
+   "fixed": "element.",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:74",
+   "ocr": "ofciliation",
+   "fixed": "oscillation",
+   "basis": "scan (damaged or blotted type)"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:75",
+   "ocr": "imped-. ‘ance",
+   "fixed": "impedance",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:79",
+   "ocr": "‘@",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:82",
+   "ocr": "‘third",
+   "fixed": "third",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:84",
+   "ocr": "common.",
+   "fixed": "common",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:85",
+   "ocr": "oo",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:89",
+   "ocr": "a-cir: cuit",
+   "fixed": "a circuit",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:95",
+   "ocr": "e’ements.",
+   "fixed": "elements.",
+   "basis": "scan (damaged or blotted type)"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:101",
+   "ocr": "-a",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:105",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:107",
+   "ocr": ".control",
+   "fixed": "control",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:108",
+   "ocr": "oe 1%.",
+   "fixed": "17.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:109",
+   "ocr": "compris‘ing",
+   "fixed": "comprising",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:111",
+   "ocr": "connected:",
+   "fixed": "connected",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:112",
+   "ocr": "‘a",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:116",
+   "ocr": "circnit,",
+   "fixed": "circuit,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:117",
+   "ocr": "included’",
+   "fixed": "included",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:118",
+   "ocr": "control:",
+   "fixed": "control",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:118",
+   "ocr": "ca_ pacity",
+   "fixed": "capacity",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:121",
+   "ocr": "ineluded",
+   "fixed": "included",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:121",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:123",
+   "ocr": "~",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:123",
+   "ocr": "‘g enerator",
+   "fixed": "generator",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:125",
+   "ocr": "imped“ance.",
+   "fixed": "impedance",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:127",
+   "ocr": "impedance.",
+   "fixed": "impedance",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:127",
+   "ocr": "element.",
+   "fixed": "element",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 3,
+   "cite": "p.3:128",
+   "ocr": "‘said",
+   "fixed": "said",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:1",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:3",
+   "ocr": "--",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:3",
+   "ocr": "An.",
+   "fixed": "An",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:5",
+   "ocr": "-a",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:9",
+   "ocr": "connection.",
+   "fixed": "connection",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:14",
+   "ocr": "ele1s ments éach",
+   "fixed": "elements each",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:19",
+   "ocr": "de~ vice,",
+   "fixed": "device,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:21",
+   "ocr": "-a",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:22",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:24",
+   "ocr": "ca% pacities",
+   "fixed": "capacities",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:26",
+   "ocr": "_— -",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:27",
+   "ocr": "connection:",
+   "fixed": "connection",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:28",
+   "ocr": "=) tt _",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:35",
+   "ocr": "‘said",
+   "fixed": "said",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:35",
+   "ocr": "#0 connected.to",
+   "fixed": "so connected to",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:36",
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:42",
+   "ocr": ". 92.",
+   "fixed": "22.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:46",
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:49",
+   "ocr": "-wherein",
+   "fixed": "wherein",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:50",
+   "ocr": "included-in",
+   "fixed": "included in",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:56",
+   "ocr": "ve-:sel",
+   "fixed": "vessel",
+   "basis": "scan (damaged or blotted type)"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:59",
+   "ocr": "across.",
+   "fixed": "across",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:63",
+   "ocr": "s",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "page": 4,
+   "cite": "p.4:66",
+   "ocr": "1918.\" : _",
+   "fixed": "1918.",
+   "basis": "scan + Google Patents"
+  }
+ ]
+}

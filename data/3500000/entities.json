@@ -1,0 +1,34 @@
+{
+  "pn": "3500000",
+  "inventors": [
+    {
+      "name": "John L. Kelly, Jr.",
+      "printed": "John L. Kelly, Jr., deceased, late of Berkeley Heights, N.J., by Myldred P. Kelly, executrix, Berkeley Heights",
+      "city": "Berkeley Heights",
+      "region": "NJ",
+      "country": "US"
+    },
+    {
+      "name": "Benjamin F. Logan, Jr.",
+      "printed": "Benjamin F. Logan, Jr., Madison, N.J.",
+      "city": "Madison",
+      "region": "NJ",
+      "country": "US"
+    }
+  ],
+  "assignees": [
+    {
+      "name": "Bell Telephone Laboratories, Incorporated",
+      "printed": "Bell Telephone Laboratories, Incorporated, Murray Hill, N.J., a corporation of New York",
+      "org": "Bell Labs",
+      "kind": "company",
+      "city": "Murray Hill",
+      "region": "NJ",
+      "country": "US"
+    }
+  ],
+  "source": {
+    "page": 2,
+    "where": "column 1 header (inventors, assignors to)"
+  }
+}

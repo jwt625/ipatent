@@ -1,0 +1,19 @@
+{"pn": "5374564", "figures": [
+  {"id": "1", "label": "FIG. 1", "sheet": 1, "page": 1, "crop": [553, 409, 1570, 1127], "rotate": 0, "front_page": false},
+  {"id": "2", "label": "FIG. 2", "sheet": 1, "page": 1, "crop": [396, 1177, 1917, 1734], "rotate": 0, "front_page": true},
+  {"id": "3", "label": "FIG. 3", "sheet": 1, "page": 1, "crop": [418, 1866, 1919, 2476], "rotate": 0, "front_page": false},
+  {"id": "4", "label": "FIG. 4", "sheet": 1, "page": 1, "crop": [421, 2635, 1927, 3256], "rotate": 0, "front_page": true}
+], "parts": [
+  {"ref": "1", "name": "wafer", "figs": ["2", "3"], "alt": ["semiconductor wafer"]},
+  {"ref": "2", "name": "bombardment", "figs": ["2"], "alt": ["ion bombardment"]},
+  {"ref": "3", "name": "layer of gaseous microbubbles", "figs": ["2", "3"], "alt": ["microbubble layer"]},
+  {"ref": "4", "name": "face", "figs": ["2"], "alt": ["planar face"]},
+  {"ref": "5", "name": "upper region", "figs": ["2", "3", "4"], "alt": ["thin film", "film"]},
+  {"ref": "6", "name": "lower region", "figs": ["2", "3", "4"], "alt": ["mass of the substrate", "semiconductor substrate"]},
+  {"ref": "7", "name": "stiffener", "figs": ["3", "4"]},
+  {"ref": "8", "name": "space", "figs": ["4"]},
+  {"ref": "10", "name": "encapsulating layer", "figs": ["2"]},
+  {"ref": "C", "name": "hydrogen concentration profile", "figs": ["1"]},
+  {"ref": "P", "name": "depth", "figs": ["1"]},
+  {"ref": "Rp", "name": "depth", "figs": ["1"], "alt": ["depth of the concentration maximum"]}
+]}

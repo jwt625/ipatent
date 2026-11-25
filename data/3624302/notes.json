@@ -1,0 +1,77 @@
+{
+  "patent": "Filed October 29, 1969 and issued November 30, 1971 to Bishnu S. Atal of Bell Telephone Laboratories. It describes a pitch-synchronous linear-prediction vocoder: for each pitch period the analyzer sends ten predictor coefficients a, the period length N and two excitation gains g_{1} (pulses) and g_{2} (noise), and the synthesizer rebuilds speech by driving a recursive filter set by a with a scaled pulse train and scaled noise. The coefficients come from a least-squares fit over the pitch period without windowing (the form later called the covariance method). The same analysis was published by Atal and Hanauer, \"Speech analysis and synthesis by linear prediction of the speech wave\", J. Acoust. Soc. Am. 50, 637-655 (1971); Itakura and Saito at NTT developed a closely related statistical approach in Japan in the same period. Linear predictive coding (LPC) became the basis of low-rate speech coders such as the US government LPC-10 vocoder (Federal Standard 1015) and, with an analysis-by-synthesis excitation search, of code-excited linear prediction (CELP; Schroeder and Atal, ICASSP 1985), the family behind most later mobile-telephone speech codecs.",
+  "figs": {
+    "1": "Analyzer on the left, synthesizer on the right; the dashed line between coder 17 and decoder 18 is the channel or store. Samples s_{n} fan out to computers 14, 15 and 16; the pitch marks N from 15 also feed 14 and 16, and the coefficients a from 14 feed 16. Only a, N, g_{1} and g_{2} cross the channel; b, f (formant bandwidths and frequencies from FIG. 2) are an optional extra output. At the receiver, pulses from 19 scaled by g_{1} at 20 and noise from 22 scaled by g_{2} at 23 enter combiner 21 together with the output of transversal filter 25. The combiner output x_{n} goes to filter 26 and speaker 27 and is also fed back into 25, so each output sample is the excitation plus a weighted sum of past output samples.",
+    "2": "The dash-dot frame is prediction parameter computer 14 (not numbered in this figure). Once per pitch period (pulser 141, timed by N) the samples held in 140 go to two banks of parallel units: 142 forms the matrix entries f_{i,j} (output F) and 145 the vector entries h_{j} (output H); 55 units suffice in 142 because f_{i,j} = f_{j,i} for a 10 x 10 matrix. Computer 144 solves F a = H for a_{1} ... a_{10}. Below the frame, the optional path through switch 147 turns a into formant data: 148 finds the ten roots z_{k}, 149 maps them to complex frequencies p_{k}, and 150 sorts them into five bandwidths b and five frequencies f. The slashed O in ROOT and COMPUTER is drafting lettering for the letter O.",
+    "3": "The dash-dot frame is parameter computer 16. Store 161 holds the current pitch period's samples u together with earlier samples; 164 computes the energy E and 165 the normalized correlation R between this period and the one before it. The three AU/storage rows run the predictor with coefficients a three ways: 163/162 continues the previous output with no new excitation (w), 166/167 gives the response to a single unit sample from zero state (y), and 168/169 the response to the noise r from generator 170 (v). Units d_{1} ... d_{6} in 172 form sums of products of these arrays, and 173 solves for the voiced and unvoiced gains g_{1}, g_{2}. Pulser 171, timed by N, steps the stores and units once per period; each paired arrow between an AU and its store carries new values in and stored past values back.",
+    "4": "The synthesis filter of FIG. 1 drawn as a tapped delay line. The signal from combiner 21 enters at the bottom left and, besides going on to filter 26, is carried up the right side to the top of the chain of unit sample delays 240_{1} ... 240_{10}; the tap after each delay drives one amplifier 241, whose gain is set by one coefficient of a (the bracket at upper left fans the bus a out to the amplifiers). Adder 242 sums the ten weighted past samples and returns the result to combiner 21. The broken lines stand for the omitted stages 3 to 8. The delay chain and amplifiers together are transversal filter 25, which is not numbered in this figure."
+  },
+  "parts": {
+    "14": "In FIG. 2 the whole figure is this unit; its frame carries the name but not the numeral.",
+    "15": "The text later refers to \"pitch pulse computer 14 (FIG. 1)\"; from FIG. 1 the pitch marks N come from unit 15.",
+    "20": "Drawn as an amplifier triangle; its gain is set by g_{1}.",
+    "23": "Drawn as an amplifier triangle; its gain is set by g_{2}.",
+    "25": "Its output and the excitation are summed in combiner 21, and the sum is fed back to its input, so the filter as a whole is recursive.",
+    "146n": "The text prints this numeral as 146m.",
+    "147": "Drawn open: the formant-extraction path below it is optional.",
+    "240_{1}": "The text prints the first delay element as 240 without the subscript."
+  },
+  "glossary": [
+    {
+      "term": "linear prediction",
+      "def": "Estimating each sample of a signal as a fixed weighted sum of the preceding p samples (here p = 10); the weights are chosen to minimize the mean-squared prediction error over an analysis interval."
+    },
+    {
+      "term": "predictor coefficients",
+      "def": "The weights a_{1} ... a_{p}. For speech they summarize the vocal-tract resonances, so ten of them stand in for the spectral envelope of a pitch period."
+    },
+    {
+      "term": "covariance method",
+      "def": "Least-squares solution for the predictor coefficients that sums products of samples over a fixed interval without windowing; it leads to a symmetric matrix equation, here F a = H."
+    },
+    {
+      "term": "formant",
+      "def": "A resonance of the vocal tract, seen as a peak in the speech spectrum; its frequency and bandwidth correspond to a complex-conjugate pair of roots of the predictor polynomial."
+    },
+    {
+      "term": "pitch period",
+      "def": "The interval between successive glottal pulses in voiced speech; its length N in samples is sent for every period."
+    },
+    {
+      "term": "glottal pulse",
+      "def": "The burst of airflow released each time the vocal folds open; the excitation of voiced sounds."
+    },
+    {
+      "term": "voiced / unvoiced",
+      "def": "Sounds excited by periodic glottal pulses (vowels) versus by turbulent noise (\"hiss\", as in s or f). The patent uses \"buzz\" for voiced excitation."
+    },
+    {
+      "term": "pitch-synchronous",
+      "def": "Analysis done once per pitch period over that period's samples, instead of over fixed-length frames."
+    },
+    {
+      "term": "vocoder",
+      "def": "A voice coder: it sends parameters of a speech-production model instead of the waveform, and resynthesizes speech from them at the receiver."
+    },
+    {
+      "term": "transversal filter",
+      "def": "A tapped delay line whose taps are weighted and summed; here the weights are the predictor coefficients and the delay line carries past output samples."
+    },
+    {
+      "term": "white noise",
+      "def": "A random sequence with a flat spectrum; here random numbers uniformly distributed between -1 and +1, one per sample."
+    },
+    {
+      "term": "sampling interval T",
+      "def": "0.0001 s, i.e. a 10 kHz sampling rate, which covers speech band-limited to about 5 kHz."
+    },
+    {
+      "term": "kilobit",
+      "def": "The patent's \"10-kilobit signal\" is a parameter stream of about 10,000 bits per second; it compares 5 to 10 kilobits with 50 kilobits for direct coding of the waveform."
+    },
+    {
+      "term": "multiplexing",
+      "def": "Combining several signals onto one channel, for example by interleaving them in time."
+    }
+  ]
+}

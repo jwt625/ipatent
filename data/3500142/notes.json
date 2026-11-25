@@ -1,0 +1,115 @@
+{
+  "patent": "Filed June 5, 1967 and issued March 10, 1970 to Dawon Kahng of Bell Telephone Laboratories. It claims a field-effect transistor whose gate stack holds an isolated metal layer, the floating gate, between a thin insulator next to the channel and a thicker, higher-permittivity insulator under the outer gate. A voltage pulse on the outer gate drives electrons through the thin insulator by tunneling; with the pulse removed they stay trapped, and their charge holds the channel inverted (or not) with no power applied: a non-volatile one-transistor memory cell. Kahng and Simon M. Sze published the same floating-gate concept in \"A floating gate and its application to memory devices\", Bell System Technical Journal, vol. 46, 1967. The floating gate became the storage element of later EPROM, EEPROM and flash memory. Embodiments: a silicon p-channel transistor with a SiO_{2} / zirconium / zirconium oxide / aluminum gate (FIGS. 1-2C), a thin-film transistor on glass (FIG. 3), and an ordinary transistor whose gate is wired to a separate tunnel sandwich structure (FIGS. 4-5).",
+  "figs": {
+    "1": "Section through the cell and its circuit. Stippled diagonal hatching is the n-type silicon 11 with p zones 12 and 13 at its surface; light diagonal hatching is metal (14, 15, 17, 19); bold black stripes are thick insulator (18, and an unnumbered layer under 14 and 15); the thin dashed black band 16 is the tunnel oxide over the channel. Control circuit 22 is wired between source 14 and terminal gate 19; battery 20 and load 21 are in series from source to drain. The short dashes along the surface between the p zones mark surface portion 23, the channel.",
+    "2A": "Energy against depth, before any pulse. The labels under the axis name the regions in order: bulk 11, surface 23, thin insulator 16, floating gate 17, thick insulator 18, terminal gate 19. In the silicon, 25 and 26 are the conduction and valence band edges; the two tall boxes are the wide gaps of insulators 16 and 18 (18 drawn wider, as it is thicker); 31 and 32 are the Fermi levels of the two metals, level with the silicon Fermi level 27.",
+    "2B": "Same diagram with positive V_{a} on the terminal gate. Level 32 drops by V_{a} below the silicon Fermi level (dash-dot line), so both insulator bands tilt, the thin insulator more steeply; the silicon bands bend down at the surface, and electrons cross the thin insulator into floating gate 17. The triple bars at the faces of 17 are the trapped electrons, drawn as negative signs.",
+    "2C": "Same diagram after the pulse. Level 32 is back at the silicon Fermi level 27, but floating-gate level 31 sits above it because of the trapped negative charge. The silicon bands now bend up at the surface so the valence band nears the Fermi level, and the + signs at 23 are the induced holes: the surface is p-type and the channel conducts. The insulator fields are too weak for the electrons to escape.",
+    "3": "Section of the thin-film version, built upside down relative to FIG. 1 on glass substrate 30: terminal gate film 31 at the bottom, thick insulator 32 (bold stripes), floating gate 33, thin insulator 34 (dashed black band), and the stippled semiconductor film 35 on top. Source 36 and drain 37 sit on the film where it runs down onto the substrate at each side. The connection to gate 31 is not drawn.",
+    "4": "An ordinary p-channel transistor (bulk marked N, p zones 42 and 43, gate 46 on insulator 47) with its gate wired to a separate stack at upper right. From the bottom the stack is plate 53, thin insulator 51, metal layer 50, thick insulator 52 and plate 54. Control 55 drives plate 54; plate 53 and the source circuit are grounded. Plate 53, insulator 51 and layer 50 form the tunnel diode; charge trapped on 50 is shared with gate 46. Transistor 40 and bulk 41 are not labelled in the drawing.",
+    "5": "Fragment of the series variant: the tunnel stack, drawn on edge, sits between control 55A and gate electrode 46A. Plates 50A and 53A (light hatching) sandwich thin insulator 51A (bold stripes). The transistor's own gate insulator takes the place of thick layer 52, and the charging polarity is the reverse of FIG. 4."
+  },
+  "parts": {
+    "14": "The source electrode; 15 is the drain.",
+    "15": "The drain electrode.",
+    "20": "The text also refers to it once as \"source 20'\".",
+    "22": "Labelled CONTROL CIRCUIT in the drawing.",
+    "23": "In FIG. 2A, 23 labels the semiconductor surface region on the distance axis; in FIG. 2C it points to the induced positive charges there.",
+    "25": "Bottom of the conduction band in the silicon.",
+    "26": "Top of the valence band in the silicon.",
+    "27": "The Fermi level.",
+    "31": "Used twice: in FIGS. 2A-2C the Fermi level of floating gate 17; in FIG. 3 the metallic film that serves as the terminal gate electrode.",
+    "32": "Used twice: in FIGS. 2A-2C the Fermi level of terminal gate 19; in FIG. 3 the thick insulating film between gate 31 and floating gate 33.",
+    "40": "Named in the text only; it is the whole transistor at the lower left of FIG. 4.",
+    "41": "Named in the text only; it is the region marked N in FIG. 4.",
+    "51": "Thinner and of lower dielectric constant than layers 52 and 47.",
+    "53": "With layers 50 and 51 it forms the tunnel sandwich diode.",
+    "46A": "Corresponds to gate electrode 46; the text says the suffix A marks elements corresponding to those of FIG. 4.",
+    "50A": "Corresponds to metallic layer 50.",
+    "51A": "Corresponds to thin insulating layer 51.",
+    "53A": "Corresponds to plate 53.",
+    "55A": "Corresponds to control source 55."
+  },
+  "glossary": [
+    {
+      "term": "insulated gate field effect transistor",
+      "def": "A transistor in which a voltage on a gate electrode, separated from the semiconductor by an insulator, controls the conductance of the surface channel between source and drain; the MOSFET."
+    },
+    {
+      "term": "floating gate",
+      "def": "A conductor buried in the gate insulator with no connection; charge put on it stays for a long time and shifts the transistor's threshold."
+    },
+    {
+      "term": "terminal gate",
+      "def": "The patent's name for the outer, connected gate electrode, as opposed to the floating gate."
+    },
+    {
+      "term": "tunnel sandwich diode",
+      "def": "Two conductors separated by an insulator thin enough (tens of angstroms) for electrons to tunnel through it under a strong field."
+    },
+    {
+      "term": "tunneling",
+      "def": "Quantum-mechanical passage of electrons through an energy barrier they could not cross classically; the current rises steeply with the field in the barrier."
+    },
+    {
+      "term": "inversion",
+      "def": "A gate field strong enough to make a thin surface layer of the semiconductor the opposite type to its bulk; here a p-type skin on n-type silicon, which joins the p source and drain."
+    },
+    {
+      "term": "energy level diagram",
+      "def": "A band diagram: electron energy plotted against position through the layers. Electron energy rises upward, so a negatively charged conductor sits higher."
+    },
+    {
+      "term": "conduction band / valence band",
+      "def": "The lowest empty and highest filled bands of allowed electron energies; the forbidden gap between them is small in silicon and large in an insulator."
+    },
+    {
+      "term": "Fermi level",
+      "def": "The energy at which a state is half likely to be occupied; at equilibrium it is the same throughout a connected system, and an applied voltage separates the Fermi levels of the two sides by that voltage."
+    },
+    {
+      "term": "dielectric constant",
+      "def": "Relative permittivity. In a series stack the field in each insulator is inversely proportional to its dielectric constant, so the low-permittivity thin oxide (about 4) carries a stronger field than the zirconium oxide (about 30)."
+    },
+    {
+      "term": "hot electron range",
+      "def": "The distance an energetic electron travels in a metal before losing its excess energy; a floating gate thicker than this brings tunneled electrons down to its Fermi level before they reach the far insulator."
+    },
+    {
+      "term": "dielectric relaxation time",
+      "def": "The permittivity-to-conductivity ratio of an insulator; the time scale on which charge leaks through it."
+    },
+    {
+      "term": "pinchoff",
+      "def": "Closure of the induced channel near the drain when the gate-to-drain voltage becomes too large, which limits current."
+    },
+    {
+      "term": "fanout",
+      "def": "The number of loads one output drives."
+    },
+    {
+      "term": "thin-film transistor",
+      "def": "A field-effect transistor built by depositing the semiconductor, insulator and metal layers on an insulating substrate such as glass, rather than in a crystal wafer."
+    },
+    {
+      "term": "accumulation / depletion layer",
+      "def": "A surface layer in which the gate field has raised (accumulation) or lowered (depletion) the density of the semiconductor's majority carriers."
+    },
+    {
+      "term": "photoconductive",
+      "def": "Conducting when illuminated; a cadmium sulphide layer lets light bleed trapped charge off the floating gate."
+    },
+    {
+      "term": "ferroelectric",
+      "def": "A material with a spontaneous electric polarization that an applied field can reverse; the remanent polarization was the earlier means of transistor memory the patent sets out to replace."
+    },
+    {
+      "term": "mil",
+      "def": "One thousandth of an inch, 25.4 micrometres."
+    },
+    {
+      "term": "angstrom",
+      "def": "10^{-10} m, 0.1 nm."
+    }
+  ]
+}

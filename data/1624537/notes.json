@@ -1,0 +1,67 @@
+{
+  "patent": "Filed 1918-02-01 and issued 1927-04-12 to Edwin H. Colpitts, assigned to Western Electric Company. It describes the circuit now called the Colpitts oscillator: a triode whose tuned circuit has its capacitance split into two capacitors in series (16 and 13), with their junction at the filament, so the grid circuit and the plate circuit each share one capacitor with the tank. The companion design from the same company, Ralph V. L. Hartley's US 1,356,763 (filed 1915-06-01, issued 1920-10-26), splits the inductance instead of the capacitance; the Hartley and Colpitts circuits are the two classic single-tube LC oscillators. The patent claims two practical gains of capacitive coupling: the large tank capacitors swamp the grid-plate capacitance, suppressing a parasitic oscillation at another frequency, and an antenna's capacity to earth can serve as one of the two capacitors (Fig. 3).",
+  "figs": {
+    "1": "Triode 6 at the top: filament 7 (heated by its own small unnumbered battery), grid 9 and anode 8. The grid wire runs to the left rail, the anode wire to the right rail, and the centre vertical is the filament. On the middle row, adjustable condensers 16 (grid to filament) and 13 (filament to anode) are in series; inductance 20 and stopping condenser 21 close the loop along the bottom from grid rail to anode rail. Grid leak 17 runs from the grid rail to the filament, and battery 11 sits directly between filament and anode rail, in parallel with 13. The two coils marked 22 are the transformer that feeds work circuit 23.",
+    "2": "Same tube and tank, rearranged so the stopping condenser and grid leak are not needed. Battery 11 is in the anode lead, between the right rail and the junction of branch 24 (choke coil 12 back to the filament) and branch 25 (the return wire from inductance 20). Anode current flows filament, choke 12, battery 11, anode; the grid returns to the filament through 20, 25 and 12. Condenser 13 runs from the filament to the 24/25 junction and so reaches the anode through the battery. The switch contacts at lower right (33, 34, 35) belong to Fig. 3.",
+    "3": "The tank is redrawn as the vertical column at the right: antenna 28 at the top (its sections 33, 34, 35 selected by switch 36), then coil 20, stopping condenser 21, condenser 16 and the earth connection at point 27. The anode joins the column at the top, so the antenna's capacity to earth takes the place of condenser 13; the grid joins between 21 and 16, and the filament goes to earth at 27. Choke 12 with battery 11 (anode supply) and grid leak 17 are on the left; the filament lead crosses the grid wire with a small jog and no dot, so they are not connected. Coil 20 is the secondary of transformer 30, whose primary is driven by telephone transmitter 32, so speech varies the antenna current. Ink at the top of the crop (20, 22, 23, 25) belongs to Fig. 2."
+  },
+  "parts": {
+    "13": "With 16, one of the two series tank capacitors; it couples the oscillating circuit to the plate (output) circuit.",
+    "16": "With 13, one of the two series tank capacitors; it couples the oscillating circuit to the grid (input) circuit.",
+    "17": "A grid leak: lets charge collected by the grid drain to the filament so the tube does not block.",
+    "21": "A large blocking capacitor that keeps the battery's direct current out of the tank while passing the oscillation.",
+    "24": "Branch from the filament node to the battery, containing choke coil 12.",
+    "25": "Return wire from inductance 20 to the battery junction.",
+    "32": "Drawn as a telephone transmitter (microphone); the text refers to the movements of its diaphragm."
+  },
+  "glossary": [
+    {
+      "term": "audion",
+      "def": "Lee de Forest's name for his three-electrode vacuum tube; here any triode: a heated filament (cathode), a grid and a plate (anode) in an evacuated bulb."
+    },
+    {
+      "term": "impedance varying element",
+      "def": "The patent's generic term for the control electrode, the grid of a triode."
+    },
+    {
+      "term": "capacity / condenser",
+      "def": "Capacitance / capacitor."
+    },
+    {
+      "term": "electrostatic coupling",
+      "def": "Capacitive coupling: energy passes between circuits through a shared capacitor rather than through a shared or coupled coil."
+    },
+    {
+      "term": "oscillating circuit",
+      "def": "The LC tank, here inductance 20 with condensers 16 and 13 in series. In modern terms it oscillates near f = 1/(2π√(L C)), with C the series combination C_{13}C_{16}/(C_{13}+C_{16})."
+    },
+    {
+      "term": "input and output circuits",
+      "def": "Grid-filament and plate-filament circuits of the tube."
+    },
+    {
+      "term": "stopping condenser",
+      "def": "DC blocking capacitor."
+    },
+    {
+      "term": "high resistance (grid leak)",
+      "def": "A resistor from grid to filament that sets the grid's DC level and drains accumulated charge."
+    },
+    {
+      "term": "choke coil",
+      "def": "An inductor that passes direct current but presents a high impedance at the oscillation frequency, keeping the supply from shorting the tank."
+    },
+    {
+      "term": "work circuit",
+      "def": "The load the generated oscillations are delivered to."
+    },
+    {
+      "term": "cold and hot electrodes",
+      "def": "Claim 23's wording for the grid and anode (unheated) and the filament (heated, electron emitting)."
+    },
+    {
+      "term": "transmitter",
+      "def": "In 1918 telephone usage, the microphone."
+    }
+  ]
+}

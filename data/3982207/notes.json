@@ -1,0 +1,97 @@
+{
+  "patent": "Filed 1975-03-07 and issued 1976-09-21 to Raymond Dingle and Charles H. Henry of Bell Telephone Laboratories. It claims a heterostructure laser whose active region is a stack of thin narrow-gap active layers separated by thin wider-gap passive layers, what is now called a multiple-quantum-well laser. The text argues two consequences of confinement: the emission energy is set by the layer thickness rather than the alloy composition (Eq. 1, Table I), and the density of states becomes a staircase that should lower the threshold (FIGS. 5-7). The worked example is optically pumped at about 15 K: fifty 80 Angstrom GaAs active layers and fifty 240 Angstrom Al_{0.2}Ga_{0.8}As passive layers grown by molecular beam epitaxy, lasing at 1.536 eV. The confined levels had been observed in optical absorption by Dingle, Wiegmann and Henry (Physical Review Letters, 1974), cited on the front page; the laser result was published by van der Ziel, Dingle, Miller, Wiegmann and Nordland (Applied Physics Letters, 1975). Quantum-well active regions later became the standard design for semiconductor diode lasers.",
+  "figs": {
+    "1": "Perspective of laser 10, thicknesses not to scale. The front face shows the layer stack from substrate 12 up to contacting layer 22, with active region 18 drawn as a single band. The right-hand face is the emitting end: the stippled blocks 23 and 27 are the proton-bombarded zones that flank the unbombarded core 25 and confine the current under contact 24 (the heavy top line); the dashed axis and arrow 32 mark the light leaving that face. Battery 28 forward-biases top contact 24 against bottom contact 26, which is grounded. The drawing labels layer 22 p-GaAs; the text gives p^{+}-GaAs.",
+    "2": "Section through active region 18 with the growth direction running left to right, from layer 16 to layer 20. The narrow strips 18a are the active layers and the wider strips between them the passive layers 18p; the wavy break lines mark omitted repeats, and the brace spans the whole active region. In the worked example there are fifty of each, 80 Angstrom active and 240 Angstrom passive.",
+    "3": "Band-edge diagram across the active region under pumping, read left to right as in FIG. 2. The upper trace is the conduction-band edge and the lower the valence-band edge; the narrow dips in the upper trace and the matching bumps in the lower are the active layers, and the raised segments between the dips are the barriers 30 formed by the passive layers. The dashed lines are the separate Fermi levels of electrons and holes under pumping (quasi-Fermi levels in modern terms); the dash-dot segment stands for omitted periods.",
+    "4": "One active layer drawn as a well in the conduction band (top) and a much shallower well in the valence band (bottom). Bound electron levels n = 1, 2, 3 are horizontal lines with their wavefunctions sketched on them; above the barrier, the free-state wave oscillates faster over the well. Arrow hν spans from the bound hole state to n = 1: the photon energy exceeds the bulk gap by the two confinement energies, which grow as the layer is made thinner.",
+    "5A": "Electron gas with three degrees of freedom (bulk): the density of states ρ rises as the square root of E from the band edge. No scale on either axis.",
+    "5B": "Two degrees of freedom, as for electrons held in one bound state of a thin layer: ρ is constant from the band edge up.",
+    "5C": "One degree of freedom: ρ is largest at the band edge and falls as 1/√E. The text does not use this case further.",
+    "6": "Density of states of electrons confined to a layer of width d. Each bound level E_{n} = n^{2}E_{1} adds one constant two-dimensional step, so the total is a staircase whose corners touch the bulk square-root curve (the smooth line) for the same slab. Dashed verticals mark the step energies; when E_{2} - E_{1} = 3E_{1} is large compared with the thermal energy, only the first step is occupied.",
+    "7": "Calculated curves for two slabs: solid, subscript 1, a wide slab (E_{F} = 80 meV, n = 2×10^{18} cm^{-3}); dashed, subscript 2, a 105 Angstrom slab (E_{F} = 49 meV, n = 1.4×10^{18} cm^{-3}, E_{1} = 50 meV). ρ is the density of states, n the electron distribution and GAIN the net gain; the short bars at 49 and 80 meV mark the two Fermi energies. ρ_{2} is flat from zero, so for the narrow slab the energy axis starts at the n = 1 level. GAIN 2 starts at about the peak height of GAIN 1, with 30 percent fewer electrons. Amplitudes are in arbitrary units."
+  },
+  "parts": {
+    "17": "The text says the bombarded zones reach at least down to this heterojunction between layers 16 and 18.",
+    "23": "Made highly resistive by proton bombardment, so current flows only through core 25.",
+    "24": "Printed as \"stripe of geometry contact\"; the usual term is stripe-geometry contact, a narrow contact that limits the pumped width.",
+    "30": "Each barrier is the conduction-band step formed by a passive layer 18p; carriers cross it by tunneling or by thermal hopping.",
+    "32": "Not numbered in the text; the arrow leaves the end face along the dashed axis, as the laser output.",
+    "18a": "Quantum wells in modern terms; the claims require them thin enough to separate the carriers' discrete energy levels.",
+    "18p": "Barriers in modern terms; the claims require them thin enough for carriers to tunnel through or hop over."
+  },
+  "glossary": [
+    {
+      "term": "double heterostructure (DH)",
+      "def": "A laser with a narrow-gap active layer between two wider-gap layers of opposite doping; the two heterojunctions confine both the carriers and the light."
+    },
+    {
+      "term": "heterojunction",
+      "def": "The interface between two different semiconductors, here GaAs and AlGaAs, which differ in band gap and refractive index."
+    },
+    {
+      "term": "quantum well",
+      "def": "Modern term for a layer thin enough (here tens of Angstroms) that motion across it is quantized into discrete levels; the patent calls these active layers or slabs."
+    },
+    {
+      "term": "bound state",
+      "def": "A discrete energy level of a carrier held inside a well; states above the barrier are free."
+    },
+    {
+      "term": "density of states",
+      "def": "Number of electron states per unit energy and volume; its shape depends on how many directions the electrons can move freely in."
+    },
+    {
+      "term": "degrees of freedom",
+      "def": "Directions of free translational motion: three in bulk, two in a thin layer, one in a thin wire."
+    },
+    {
+      "term": "Fermi level / Fermi function",
+      "def": "Under pumping, electrons and holes each have their own Fermi level (quasi-Fermi level); the Fermi function f gives the occupied fraction of states at each energy. Net gain needs f_{c} + f_{v} > 1."
+    },
+    {
+      "term": "population inversion",
+      "def": "More carriers in the upper than the lower states of an optical transition, so stimulated emission exceeds absorption; printed once as \"population invention\"."
+    },
+    {
+      "term": "threshold",
+      "def": "The pump level at which gain equals loss and laser oscillation starts; given here as an equivalent current density in kA/cm^{2}."
+    },
+    {
+      "term": "molecular beam epitaxy (MBE)",
+      "def": "Crystal growth from atomic or molecular beams in ultra-high vacuum, which allowed layers a few tens of Angstroms thick with abrupt interfaces."
+    },
+    {
+      "term": "optical pumping",
+      "def": "Exciting the carriers with light from another source instead of injecting current; here an optical parametric oscillator focused to a stripe."
+    },
+    {
+      "term": "proton bombardment",
+      "def": "Implanting hydrogen ions to damage the crystal and make it highly resistive, used to confine current to a stripe."
+    },
+    {
+      "term": "exciton",
+      "def": "A bound electron-hole pair; its absorption line marks the n = 1 transition in the measured spectra."
+    },
+    {
+      "term": "heavy hole",
+      "def": "The valence-band hole with the larger effective mass; its transitions give light polarized in the plane of the layers."
+    },
+    {
+      "term": "effective mass (m*)",
+      "def": "The mass that describes a carrier's motion in the crystal; about 0.067 of the free-electron mass for electrons in GaAs."
+    },
+    {
+      "term": "cleaved faces",
+      "def": "Natural crystal planes split to form the end mirrors of the laser cavity."
+    },
+    {
+      "term": "Angstrom",
+      "def": "10^{-10} m, 0.1 nm."
+    },
+    {
+      "term": "meV",
+      "def": "Millielectronvolt, 10^{-3} eV; room-temperature thermal energy kT is about 26 meV."
+    }
+  ]
+}

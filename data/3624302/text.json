@@ -1,0 +1,1333 @@
+{
+ "pn": "3624302",
+ "number": "3,624,302",
+ "title": "SPEECH ANALYSIS AND SYNTHESIS BY THE USE OF THE LINEAR PREDICTION OF A SPEECH WAVE",
+ "inventors": [
+  "Bishnu S. Atal"
+ ],
+ "assignee": "Bell Telephone Laboratories, Incorporated, Murray Hill, N.J.",
+ "filed": "1969-10-29",
+ "issued": "1971-11-30",
+ "appl_no": "872,051",
+ "int_cl": "G10l 1/00",
+ "us_cl": "179/1 SA",
+ "refs_patents": [
+  {
+   "no": "2,817,707",
+   "date": "12/1957",
+   "name": "Weibel",
+   "cl": "179/1 SA"
+  },
+  {
+   "no": "3,020,344",
+   "date": "2/1962",
+   "name": "Prestigiacomo",
+   "cl": "179/1 SA"
+  },
+  {
+   "no": "3,158,685",
+   "date": "11/1964",
+   "name": "Gerstman",
+   "cl": "179/1 SA"
+  },
+  {
+   "no": "3,328,525",
+   "date": "6/1967",
+   "name": "Kelly",
+   "cl": "179/1 SA"
+  }
+ ],
+ "refs_other": [],
+ "examiners": "Primary Examiner--Kathleen H. Claffy; Assistant Examiner--Jon Bradford Leaheey; Attorneys--R. J. Guenther and William L. Keefauver",
+ "claims_count": 10,
+ "drawing_figures": 4,
+ "abstract": "A short-time spectral analysis of a nonstationary signal, such as a speech signal, does not ordinarily yield control signal information sufficient for subsequent synthesis. However, more reliable control signals for a speech synthesizer can be obtained by making use of natural constraints, applicable to a speech wave, in the analysis procedure. For frequencies below 5 kHz., the human vocal tract can be modeled as an acoustic tube in which only plane waves propagate. Thus, for vowels and vowellike sounds, the speech output of the vocal tract at any instant of time can be assumed to be a weighted sum of its past values and the input to the vocal tract at that instant of time. In the described invention, a speech wave is represented by the output of a linear filter which simulates an acoustic tube and which is excited by a combination of a quasi-periodic pulse train and white noise. The parameters of this filter are derived from the speech wave such that the mean-squared error between the synthetic speech samples at the output of the filter and the input speech samples is minimum.",
+ "sections": [
+  {
+   "heading": "BACKGROUND OF THE INVENTION",
+   "paras": [
+    {
+     "col": 1,
+     "line": 5,
+     "text": "This invention relates to the artificial production of speech or similar complex waves from control signals, and particularly to the derivation of control signals from an original speech wave that can be accommodated by storage or transmission facilities with limited channel capacity."
+    },
+    {
+     "col": 1,
+     "line": 10,
+     "text": "The principal object of the invention is to reduce, as far as possible, the channel capacity, or bit rate in the case of a digital channel, required for the storage or transmission of speech control signals without, however, a sacrifice of intelligibility or the introduction of an objectionable unnatural quality into the reconstructed speech."
+    }
+   ]
+  },
+  {
+   "heading": "1. Field of the Invention",
+   "paras": [
+    {
+     "col": 1,
+     "line": 17,
+     "text": "Conventional speech communication systems, for example, commercial telephone systems typically convey human speech by transmitting an electrical facsimile of the acoustic waveform produced by a human speaker. Because of the redundance of human speech, however, facsimile transmission is a relatively inefficient way to transmit this information. Consequently, a number of arrangements for compressing or reducing the required channel capacity required for the transmission of speech information have been proposed. One of the best known of these arrangements is the so-called vocoder. More recently, techniques for removing inherent signal redundancy in the speech wave through the use of a linear predictor have been utilized."
+    }
+   ]
+  },
+  {
+   "heading": "2. Description of the Prior Art",
+   "paras": [
+    {
+     "col": 1,
+     "line": 32,
+     "text": "Production of good quality synthetic speech is a necessary corollary to limited channel capacity transmission systems of whatever sort. However, the quality of speech obtained from priorly known synthesizers generally lacks naturalness and exhibits and undesirable quality, even when the synthesizer control signals are derived from the original speech at closely spaced intervals. There are a number of reasons for the poor quality of such synthetic speech. Consider, for example, the case of a formant synthesizer, this being a part of another typical system for the narrow band transmission of speech. Most formant analyzers attempt to isolate peaks due to various formants in the speech spectra. This is a difficult task, even for low-pitched male voices, since formants do not always show up as distinct peaks in the spectra, and the spectral peaks do not always result from the formants. Such methods usually break down completely for female speech. Further, satisfactory operation of a formant synthesizer often depends upon the correct ordering of the various formants. This, too, is difficult to achieve."
+    }
+   ]
+  },
+  {
+   "heading": "SUMMARY OF THE INVENTION",
+   "paras": [
+    {
+     "col": 1,
+     "line": 54,
+     "text": "To avoid many of these problems, a different approach to speech analysis and synthesis is followed in the present invention. Speech parameter signals are continuously developed at a transmitter station using the constraint that the applied speech wave at any instant of time is a weighted sum of its past values, that is to say, speech parameter signals are developed which specify linearly predictable characteristics of an applied speech signal. To derive parameter control signals for the production of realistic synthesized speech, a suitable functional model of speech production is established and it is assumed that a close approximation to a speech wave can be produced at its output. Typically, the model includes a discrete, linear, time-varying filter which is excited by a suitable combination of a quasi-periodic pulse train (voiced excitation) and white noise (unvoiced excitation). The output of the linear filter at any sampling instant is a linear combination of past output samples and the input. In this analysis, the n^{th} speech sample, s_{n}, may be expressed as:"
+    },
+    {
+     "col": 1,
+     "line": 73,
+     "text": "s_{n}=Σ_{k=1}^{p} a_{k}s_{n−k}+Σ_{k=1}^{q} b_{k}x_{n−k}+x_{n}    (1)",
+     "formula": true
+    },
+    {
+     "col": 2,
+     "line": 1,
+     "text": "where a_{1}, a_{2}, ..., a_{p}; b_{1}, b_{2}, ..., b_{q} are parameters which specify the filter at any time, and x_{n} is the n^{th} input sample. For completely voiced sounds, the samples x_{n} represent a train of quasi-periodic pulses, whereas for completely unvoiced sounds, x_{n} represents the output of a white noise generator. For this model of speech production, it can be shown that in any pitch period the speech samples after the first q samples may be expressed as linear combination of the preceding p samples. The optimum linear combination, a_{1}, a_{2}, ..., a_{p}, is obtained by minimizing the mean-squared error between the actual values of the speech samples and their predicted values based on the past p samples. The values of p and q are determined by the bandwidth of the input speech signal and the length of the vocal tract. A 10th to 12th order linear predictor satisfactorily represents the speech signal band-limited to 5 kHz. with sufficient accuracy. A higher order predictor may be necessary for certain cases (some male speakers saying nasalized consonants). The parameter q is assumed to be equal to 10 in the analysis and zero in the synthesis."
+    },
+    {
+     "col": 2,
+     "line": 21,
+     "text": "Durations of individual pitch periods are determined by calculating the pitch-synchronous autocorrelation function of the third power of the input speech wave and selecting the delay for which the autocorrelation function is maximum."
+    },
+    {
+     "col": 2,
+     "line": 25,
+     "text": "A speech signal may be synthesized by a network continually adjusted by parameter signals derived in this fashion."
+    },
+    {
+     "col": 2,
+     "line": 27,
+     "text": "This invention will be more fully understood from the following detailed description taken together with the drawings."
+    }
+   ]
+  },
+  {
+   "heading": "BRIEF DESCRIPTION OF THE DRAWINGS",
+   "paras": [
+    {
+     "col": 2,
+     "line": 32,
+     "text": "FIG. 1 is a block schematic diagram of a speech transmission system, including an analyzer and a synthesizer which illustrates the principles of the invention;"
+    },
+    {
+     "col": 2,
+     "line": 35,
+     "text": "FIG. 2 is a block schematic diagram of a prediction parameter computer suitable for use in the analyzer of the speech transmission system illustrated in FIG. 1;"
+    },
+    {
+     "col": 2,
+     "line": 38,
+     "text": "FIG. 3 is a block schematic diagram of a network for developing parameters, representing the relative amplitudes of voiced and unvoiced signal components, suitable for use in the analyzer of the system illustrated in FIG. 1; and"
+    },
+    {
+     "col": 2,
+     "line": 42,
+     "text": "FIG. 4 is a block schematic diagram of a time-varying filter which may be used at the synthesizer of a transmission system embodying the principles of the invention."
+    }
+   ]
+  },
+  {
+   "heading": "DETAILED DESCRIPTION",
+   "paras": [
+    {
+     "col": 2,
+     "line": 47,
+     "text": "A complete limited channel capacity speech transmission system which illustrates the principles of the invention is shown in FIG. 1. Speech signals, which may originate, for example, in transducer 10, are passed through low pass filter 11 which has a cutoff frequency in the neighborhood of 5 kHz. and which exhibits a 3-db. cutoff frequency in the neighborhood of 4 kHz. The resultant signal is then sampled at a frequency of approximately 10 kHz. in sampler 12. Clock 13 is employed to energize the sampler and other units in the system. Speech samples, s_{n}, thus derived are supplied to prediction parameter computer 14, to pitch pulse position computer 15, and to parameter computer 16."
+    },
+    {
+     "col": 2,
+     "line": 60,
+     "text": "Prediction parameter computer 14 operates on applied speech samples s_{n} to develop a series of parameter signals a=a_{1}, a_{2}, ..., a_{n}, for each pitch period (as indicated by signal N, from computer 15). Parameters a uniquely specify the frequencies and bandwidths of speech formants in the input signal below about 5 kHz. Parameter signals a are developed from linearly predictable characteristics of the applied speech signals delivered by sampler 12. An extensive discussion of the relation of parameter signals a to the input signal, and their development, is contained in my copending patent application, Ser. No. 753,408, filed Aug. 19, 1968. Details of the construction of a prediction parameter computer specially adapted for the practice of this invention is given hereinafter with reference to FIG. 2."
+    },
+    {
+     "col": 2,
+     "line": 74,
+     "text": "Pitch pulse position computer 15 determines the location of the glottal pulses in the applied speech wave; the difference between the positions of successive glottal pulses specifies the duration of the pitch period. Any suitable pulse position analyzer may be employed to derive pitch period signals, N. For example, a suitable arrangement is described in Automatic Speaker Recognition Based on Pitch Contours by B. S. Atal, Polytechnic Institute of Brooklyn, June, 1968, pages 33–43."
+    },
+    {
+     "col": 3,
+     "line": 7,
+     "text": "Speech samples from unit 12 are also supplied to computer 16, which determines parameters g_{1}, and g_{2}. These parameters characterize the amplitudes of voiced and unvoiced signal excitation, i.e., parameter g_{1} specifies the amplitude of voiced (or buzz) excitation signals, and the parameter g_{2} specifies the amplitude of unvoiced (or hiss) excitation signals."
+    },
+    {
+     "col": 3,
+     "line": 13,
+     "text": "Parameter signals a, N, and g_{1}, g_{2}, thus derived uniquely determine formant frequencies and bandwidths of a speech signal, its spectrum, and the relative amplitudes of voiced and unvoiced components necessary for the synthesis of artificial speech. Since these parameters require considerably less channel capacity than the corresponding analog signal representation, they may be economically stored for future use, or transmitted to a distant station. All parameter signals may, for example, be combined for transmission, for example, by multiplexing, or the like, in transmission coder 17. At a receiver station, these signals are recovered and delivered individually through the action of transmission decoder 18. Transmission coders and decoders of any desired construction and form may be employed. Obviously, storage of the parameter signals may take place at any point in the indicated transmission arrangement; the transfer of parameter signals from one storage location to another, for example, may be considered to be a form of transmission."
+    },
+    {
+     "col": 3,
+     "line": 32,
+     "text": "At the synthesizer, voiced excitation is generated, for example, in pulse generator 19 of any desired construction, under control of pitch pulse parameter signal N. The amplitude of the voiced excitation signal is controlled continuously by parameter signal g_{1} acting upon modulator 20. Typically, generator 19 produces a pulse of unit amplitude at the beginning of every pitch period. Similarly, unvoiced excitation is produced in noise generator 22. Generator 22 typically produces a sequence of random numbers uniformly distributed between +1 and −1 at sampling instants. Noise signals are controlled in amplitude by parameter signal g_{2} acting on modulator 23."
+    },
+    {
+     "col": 3,
+     "line": 44,
+     "text": "The outputs of pulse generator 19 and noise generator 22, as scaled by controlled amplifiers 20 and 23, are added together with selected past signal values, available at the output of time-varying filter 24, in a combining network 21. The combined signal produced at the output of network 21 is thereupon delivered by way of low pass filter 26 to reproducer 27, for example, a loud speaker. Low pass filter 26 preferably has a cutoff frequency of about 5 kHz., its exact frequency range being commensurate with the range of filter 11 at the analyzer."
+    },
+    {
+     "col": 3,
+     "line": 55,
+     "text": "The combined signal is also delivered to the input of transversal filter 25, forming a part of filter network 24. Time-varying filter 24 serves to regenerate speech from the applied excitation and parameter signals a. Such a filter arrangement resembles the resonant filter system of the human vocal tract and typically exhibits certain natural resonances which may be tuned in accordance with formant parameter signals a. Resonant vocoder apparatus of this general form is well known in the art; a typical example is described in J. L. Kelly, Jr., U.S. Pat. No. 3,328,525, issued June 27, 1967. A transversal filter arrangement specifically adapted for use in the apparatus illustrated in FIG. 1 is described below with reference to FIG. 4."
+    },
+    {
+     "col": 3,
+     "line": 67,
+     "text": "FIG. 2 illustrates a prediction parameter computer 14 suitable for developing formant parameter signals a in accordance with the invention. For every pitch period of the applied speech wave, an array of signal values s_{n} from sampler 12 (FIG. 1) is transferred into storage unit 140 to replace the previous array of signal samples contained in the storage unit. Storage unit 140 thus stores an array of signal values u_{−10}, u_{−9}, ..., u_{−1}, u_{O}, ..., u_{N}, where N represents the duration of the current pitch period in samples. Every pitch period the values u_{−10}, u_{−9}, ..., u_{−1} are replaced by values u_{N−9}, u_{N−8}, ..., u_{N}. Incoming samples are placed in the vacated storage locations u_{O}, ..., u_{N}. Thus, signals u_{O}, ..., u_{N} are consecutively stored as they are received in storage unit 140. Every pitch period, under the influence of timing signals from pulser 141, synchronized by signals N from pitch pulse position computer 15 to indicate the positions of glottal pulses, an array of signal values is read out of storage unit 140 and transferred to arithmetic unit (AU) 142. This unit comprises a plurality of arithmetic units 143a, ..., 143n, designated individually f_{1,1}, f_{1,2}, ..., f_{1,10}; f_{2,2}, ..., f_{2,10}; f_{3,3}, ..., f_{10,10}, which operate in parallel. In a typical example of practice, n=55, i.e., 55 arithmetic units are employed. Each individual unit serves to compute one value of f according to the following equation:"
+    },
+    {
+     "col": 4,
+     "line": 17,
+     "text": "f_{i, j}=Σ_{n=10}^{N−10} u_{n−i}u_{n−j}    (2)\nindex i varies from 1, 10\nindex j varies from i, 10",
+     "formula": true
+    },
+    {
+     "col": 4,
+     "line": 22,
+     "text": "Computations of f_{i,j} are carried out simultaneously and output values, designated F, are periodically supplied to computer 144."
+    },
+    {
+     "col": 4,
+     "line": 25,
+     "text": "The array of signals u_{n} accumulated in storage unit 140 is also supplied to arithmetic unit 145 wherein an array of values is evaluated as follows:"
+    },
+    {
+     "col": 4,
+     "line": 29,
+     "text": "h_{j}=Σ_{n=10}^{N−10} u_{n}u_{n−j}    (3)\nindex j varies from 1, 10",
+     "formula": true
+    },
+    {
+     "col": 4,
+     "line": 33,
+     "text": "Arithmetic unit 145 preferably comprises an array of individual units, 146a, ..., 146m, operating in parallel to evaluate several values of h. Typically, 10 units are employed, i.e., j=10. The resultant array, h_{1}, h_{2}, ..., h_{10}, designated H, is delivered every pitch period to computer 144."
+    },
+    {
+     "col": 4,
+     "line": 38,
+     "text": "Computer 144 is programmed to solve the matrix equation"
+    },
+    {
+     "col": 4,
+     "line": 39,
+     "text": "F·a=−H,    (4)",
+     "formula": true
+    },
+    {
+     "col": 4,
+     "line": 40,
+     "text": "to yield values of a. Although a special purpose computer may be programmed for this evaluation, one suitable arrangement is described in copending patent application Ser. No. 753,408, filed Aug. 19, 1968."
+    },
+    {
+     "col": 4,
+     "line": 44,
+     "text": "Prediction parameters a_{1}, a_{2}, ..., a_{10}, uniquely determine the frequencies and bandwidths of all speech formants below 5 kHz. If desired, the bandwidths and frequencies of formants may be determined from values of a for use in the control of other synthesis apparatus. In accordance with the invention, this determination is made by supplying parameter values a from computer 144, by way of switch 147, to polynomial root computer 148. This unit determines the complex roots of a polynomial with real coefficients, i.e., the roots of a polynomial f(z), defined as:"
+    },
+    {
+     "col": 4,
+     "line": 55,
+     "text": "f(z)=z^{10}+a_{1}z^{9}+ ... a_{9}z+a_{10}.    (5)",
+     "formula": true
+    },
+    {
+     "col": 4,
+     "line": 56,
+     "text": "A polynomial root locater suitable for making the necessary evaluation is described in Mathematical Methods for Digital Computers, edited by Ralston and Wilf, John Wiley & Sons, Inc., 1967, in the section by E. R. Bareiss, at page 185. The output of the polynomial root locator 148 is 10 complex numbers (two sets of 10 real numbers) z_{1}, z_{2}, ..., z_{10}, which are then supplied to the arithmetic unit 149 which computes the numbers p_{1}, p_{2}, ..., p_{10} in accordance with equation (6) below."
+    },
+    {
+     "col": 4,
+     "line": 64,
+     "text": "p_{k}=(1/2π)(1/T) log (z_{k}).    (6)",
+     "formula": true
+    },
+    {
+     "col": 4,
+     "line": 65,
+     "text": "Arithmetic unit 149 is thus a device which takes the complex logarithm of numbers z_{k} and multiplies them with a number (1/2πT) where T=0.0001 sec., the interval of sampling unit 12 (FIG. 1). The complex numbers p_{k} can be separated into their real and imaginary parts, b_{k} and f_{k}, respectively, as follows:"
+    },
+    {
+     "col": 4,
+     "line": 70,
+     "text": "p_{k}=b_{k}+j f_{k},    (7)",
+     "formula": true
+    },
+    {
+     "col": 4,
+     "line": 71,
+     "text": "where index k varies from 1 to 10. Logical unit 150 orders the numbers p_{k} such that the first number has the lowest positive imaginary part, the second number the second lowest positive imaginary part, and so on. Consequently, the numbers f_{k} and b_{k} represent the frequencies and the bandwidths of the various formants of the speech signal for the pitch period under consideration. These representations may be used in any desired fashion, e.g., for controlling a formant synthesis."
+    },
+    {
+     "col": 5,
+     "line": 4,
+     "text": "Speech samples from sampling unit 12 (FIG. 1) are also supplied to parameter computer 16 which determines parameter values g_{1} and g_{2}. These parameters denote the relative amplitudes of voiced and unvoiced signal components in the applied speech signal. The operation of computer 16 is illustrated in FIG. 3. Every pitch period, an array of signal values s_{n} is transferred into storage unit 161 to replace the previous array of signal samples already in storage. Storage unit 161 thus stores an array of signal values u_{−m}, u_{−m+1}, ..., u_{O}, ..., u_{N}, where N denotes the duration of the current pitch period in samples and m represents the largest pitch period as measured in samples. A value of m=200 has been found to be sufficient in most cases. Every pitch period, the values u_{−N}, ..., u_{O}, are replaced by values u_{O}, ..., u_{N}. Incoming samples are placed in the vacated storage locations u_{O}, ..., u_{N}. Arithmetic units 164 and 165 operate on array u to evaluate the values of parameters E and R in accordance with equations (8) and (9) as follows:"
+    },
+    {
+     "col": 5,
+     "line": 24,
+     "text": "E=Σ_{n=0}^{N−1} u_{n}^{2}    (8)",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 27,
+     "text": "R=Σ_{n=0}^{N−1} u_{n}u_{n−N} \\ √(E Σ_{n=0}^{N−1} u_{n−N}^{2})    (9)",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 29,
+     "text": "Storage unit 162 contains an array of signal values w_{−m}, ..., w_{O}, ..., w_{N}. Every pitch period, the values w_{−N}, ..., w_{0} are replaced by values w_{O}, ..., w_{N}. New signal values are computed in arithmetical unit 163 according to equation (10) and stored consecutively in storage locations w_{O}, ..., w_{N}."
+    },
+    {
+     "col": 5,
+     "line": 36,
+     "text": "w_{n}=Σ_{k=1}^{10} a_{k}w_{n−k}    (10)\nn varies from O, N",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 39,
+     "text": "Arithmetic unit 166 computes an array of signal values y_{O}, ..., y_{N}, designated y, and stores them in storage unit 167 in locations designated y_{O}, ..., y_{N}. Storage unit 167 is equipped with 10 additional storage locations designated y_{−10}, ..., y_{−1}, which have a number 0 stored in them permanently. The array y is computed in arithmetic unit 166 according to the following relation:"
+    },
+    {
+     "col": 5,
+     "line": 47,
+     "text": "y_{n}=Σ_{k=1}^{10} a_{k}y_{n−k} if n is between 1 and N    (11)\n=1 if n=1",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 50,
+     "text": "Arithmetic unit 168 computes another array of signal values v and stores them in storage unit 169 in locations designated v_{O}, ..., v_{N}. Array v is computed in accordance with (12) below."
+    },
+    {
+     "col": 5,
+     "line": 55,
+     "text": "v_{n}=Σ_{k=1}^{10} a_{k}v_{n−k}+r_{n}    (12)\nn varies from O, N",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 58,
+     "text": "The array of numbers r designates the output of a white noise generator 170. Similar to storage unit 167, storage unit 169 also has 10 additional storage locations designated v_{−10}, ..., v_{−1} which have the number 0 stored in them permanently."
+    },
+    {
+     "col": 5,
+     "line": 62,
+     "text": "The arrays w, y, and v, and the numbers E and R are transferred periodically, under the influence of pitch synchronized clock pulses from pulser 171, to arithmetic unit 172 which comprises six arithmetic units designated d_{1}, d_{2}, d_{3}, ..., d_{6} which operate in parallel. These units of system 172 compute the numbers d_{1}, ..., d_{6} in accordance with equations (13) through (18) set forth below. The index n is summed from 0 to N in each of the equations."
+    },
+    {
+     "col": 5,
+     "line": 72,
+     "text": "d_{1}=Σ_{n} ŝ_{n}^{2}    (13)",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 74,
+     "text": "d_{2}=Σ_{n} y_{n}^{2}    (14)",
+     "formula": true
+    },
+    {
+     "col": 6,
+     "line": 2,
+     "text": "d_{3}=Σ_{n} v_{n}^{2}    (15)",
+     "formula": true
+    },
+    {
+     "col": 6,
+     "line": 4,
+     "text": "d_{4}=Σ_{n} ŝ_{n}y_{n}    (16)",
+     "formula": true
+    },
+    {
+     "col": 6,
+     "line": 6,
+     "text": "d_{5}=Σ_{n} ŝ_{n}ŝ_{n−N}    (17)",
+     "formula": true
+    },
+    {
+     "col": 6,
+     "line": 8,
+     "text": "d_{6}=Σ_{n} y_{n}ŝ_{n−N}    (18)",
+     "formula": true
+    },
+    {
+     "col": 6,
+     "line": 10,
+     "text": "The array of numbers d_{1}, ..., d_{6}, computed in the manner indicated above are delivered to arithmetic unit 173 which computes parameters g_{1} and g_{2} in accordance with the following relations:"
+    },
+    {
+     "col": 6,
+     "line": 15,
+     "text": "g_{1}=[−d_{y}+√(d_{y}^{2}−d_{2}(d_{1}−R^{2}E))]/d_{2}\n0≤d_{1}≤R^{2}E    (19)\ng_{2}=E(1−R^{2})/d_{3}",
+     "formula": true
+    },
+    {
+     "col": 6,
+     "line": 19,
+     "text": "g_{1}=0\nR^{2}E≤d_{1}≤E    (20)\ng_{2}=E(1−R^{2})/d_{3}",
+     "formula": true
+    },
+    {
+     "col": 6,
+     "line": 23,
+     "text": "g_{1}=0\nE≤d_{1}    (21)\ng_{2}=0",
+     "formula": true
+    },
+    {
+     "col": 6,
+     "line": 26,
+     "text": "Each of the operations indicated above is carried out sequentially every pitch period under the influence of clock signals (developed by pulser 171) synchronized with the positions of the glottal pulses from pitch pulse computer 14 (FIG. 1), as defined by signal N."
+    },
+    {
+     "col": 6,
+     "line": 31,
+     "text": "Arithmetic and storage units operative in a fashion similar to that described above are described in greater detail in the aforementioned copending application, Ser. No. 753,408."
+    },
+    {
+     "col": 6,
+     "line": 34,
+     "text": "Ordinarily, there are five resonances below the frequency of 5 kHz. in the human vocal tract. As discussed above, these resonances may be simulated by a transversal filter arrangement employing n-discrete delay elements. When n=10, the system can simulate n/2 resonances, i.e., the five resonances of the vocal tract. The synthesizer of this invention thus employs a discrete linear time-varying filter excited by a suitable combination of quasi-periodic pulses and white noise. A transversal filter arrangement is satisfactory for developing a linear combination of past output samples and the current input sample. Actual locations of resonances are determined in the transversal filter arrangement by the parameters a. Details of this form of resonance simulation is described in the above-mentioned Kelly U.S. Pat. No. 3,328,525. Transversal filter arrangements for use in speech synthesizers also have been described abundantly in the art. One suitable form is shown by way of a rudimentary block diagram in FIG. 4."
+    },
+    {
+     "col": 6,
+     "line": 52,
+     "text": "In the arrangement of FIG. 4 time-varying filter 24 (FIG. 1) includes a transversal filter network 25 composed of 10 unit delay elements 240, ..., 240_{10}, supplying applied signals to 10 adjustable gain amplifiers 241_{1}, ..., 241_{10}. Signals developed at the junctions of the several delay units thus represent past sample values of signals supplied from combiner 21 to filter 26 in the synthesizer of FIG. 1. The gains of the individual amplifiers 241 are adjusted by parameter values a to form a collection of weighted past sample values. The resultant signals are additively combined in adder network 242 and supplied to one input of combiner unit 21. As discussed above, the combined output of combiner network 21, which includes voiced and unvoiced excitation, and the combination of weighted past sample values constitute a replica of the applied speech signal. It is supplied by way of filter 26 to loud speaker 27."
+    },
+    {
+     "col": 6,
+     "line": 67,
+     "text": "Thus, in accordance with the invention an analog speech signal may be efficiently transmitted in the form of an array of numbers, viz., N; g_{1}, g_{2}; and a_{1}, ..., a_{10}. These parameters represent the necessary information concerning the speech wave in any given pitch period and are sufficient for reconstructing the speech wave. A saving of approximately 10 to 1 in transmission capacity may be achieved when using these parameters rather than the analog signal itself."
+    },
+    {
+     "col": 7,
+     "line": 1,
+     "text": "For example, a 10-kilobit signal used for representing the parameter has been found to yield excellent quality synthesized speech. A 5-kilobit signal still permits vary acceptable speech to be produced; this in contrast to the usual requirement of a 50-kilobit signal for direct coding of a speech wave."
+    },
+    {
+     "col": 7,
+     "line": 6,
+     "text": "Various other arrangements and modifications of the described arrangements will occur to those skilled in the art."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 2,
+   "line": 32,
+   "text": "FIG. 1 is a block schematic diagram of a speech transmission system, including an analyzer and a synthesizer which illustrates the principles of the invention;"
+  },
+  {
+   "fig": "2",
+   "col": 2,
+   "line": 35,
+   "text": "FIG. 2 is a block schematic diagram of a prediction parameter computer suitable for use in the analyzer of the speech transmission system illustrated in FIG. 1;"
+  },
+  {
+   "fig": "3",
+   "col": 2,
+   "line": 38,
+   "text": "FIG. 3 is a block schematic diagram of a network for developing parameters, representing the relative amplitudes of voiced and unvoiced signal components, suitable for use in the analyzer of the system illustrated in FIG. 1; and"
+  },
+  {
+   "fig": "4",
+   "col": 2,
+   "line": 42,
+   "text": "FIG. 4 is a block schematic diagram of a time-varying filter which may be used at the synthesizer of a transmission system embodying the principles of the invention."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 7,
+   "line": 9,
+   "depends": null,
+   "text": "1. Speech analysis apparatus, which comprises:\nmeans for developing a first set of signals which specify linearly predictable characteristics of an applied speech signal,\nmeans for developing a second set of signals representative of the duration of individual pitch periods of said applied speech signal,\nmeans for developing a third set of signals representative of the energy of a speech signal and of the voicing character of speech signals within each of said pitch periods, and\nmeans for utilizing all of said developed signals together as a representation of said applied speech signal."
+  },
+  {
+   "n": 2,
+   "col": 7,
+   "line": 21,
+   "depends": 1,
+   "text": "2. Speech signal analysis apparatus as defined in claim 1, wherein,\nsaid first set of signals which specify linearly predictable characteristics comprises a plurality of limited channel capacity parameter signals derived from past and current values of said applied speech signal for adjusting a resonant filter system, arranged to produce a replica of said applied speech signal when excited by voiced and unvoiced excitation signals."
+  },
+  {
+   "n": 3,
+   "col": 7,
+   "line": 31,
+   "depends": 1,
+   "text": "3. Speech signal analysis apparatus, as defined in claim 1, wherein,\nsaid first set of signals comprises a sequence of signals a=a_{1}, ..., a_{n}, for each pitch period of said applied signals, which uniquely determine the frequencies and bandwidths of formants of said applied signal below approximately 5 kHz."
+  },
+  {
+   "n": 4,
+   "col": 7,
+   "line": 38,
+   "depends": 3,
+   "text": "4. Speech signal analysis apparatus as defined in claim 3, in combination with,\nmeans supplied with said sequence of signals a for developing signals representative of the frequencies and bandwidths of formants of said applied speech signal during selected pitch periods."
+  },
+  {
+   "n": 5,
+   "col": 7,
+   "line": 44,
+   "depends": 1,
+   "text": "5. Speech signal analysis apparatus as defined in claim 1, wherein,\nsaid first set of signals is developed by minimizing the mean-squared error between the actual values of samples of said applied speech signal and predicted values thereof based on a selected number of past sample values."
+  },
+  {
+   "n": 6,
+   "col": 7,
+   "line": 50,
+   "depends": null,
+   "text": "6. Speech signal apparatus, which comprises:\nat a transmitter station;\nmeans for developing a first set of signals which specify linearly predictable characteristics of an applied speech signal,\nmeans for developing a second set of signals representative of the duration of individual pitch periods of said applied speech signal,\nmeans for developing a third set of signals representative of the energy of a speech signal in each of said pitch periods and of the voicing character of speech signals within said pitch periods, and\nmeans for combining all of said developed signals for transmission to a receiver station; and\nat said receiver station;\nmeans responsive to received signals of said first set for developing signals representative of predicted values of a speech signal,\nmeans responsive to received signals of said second set for developing a sequence of pitch period pulses,\nmeans for generating white noise signals,\nmeans responsive to received signals of said third set for individually adjusting the levels of said pitch period pulses and said white noise signals, and\nmeans for combining said adjusted pitch period pulses, said adjusted white noise signals, and said predicted value signals to form speech signal which is a replica of said applied speech signal."
+  },
+  {
+   "n": 7,
+   "col": 8,
+   "line": 20,
+   "depends": 6,
+   "text": "7. Speech signal apparatus as defined in claim 6, wherein,\nsaid means at said receiver station for developing signals representative of predicted values of said speech signal comprises,\na transversal filter supplied with a combination of adjusted pitch period pulses, adjusted noise signals, and signals selectively representative of past values of said applied signal."
+  },
+  {
+   "n": 8,
+   "col": 8,
+   "line": 28,
+   "depends": null,
+   "text": "8. Synthesis apparatus for developing artificial speech from signals representative of the pitch period, voicing character, and selected predictable characteristics of an applied speech signal, which comprises:\nmeans responsive to received signals representative of selected predictable characteristics of an applied speech signal for developing signals representative of selected predicted values of said speech signal,\nmeans responsive to received signals representative of the pitch period of said applied speech signal for developing a sequence of pitch period pulses,\nmeans for generating white noise signals,\nmeans responsive to received signals representative of the voicing character of said applied speech signal for individually adjusting the levels of said pitch period pulses and said white noise signals, and\nmeans for combining said adjusted pitch period pulses, said adjusted white noise signals, and said predicted value signals to form speech signal which is a replica of said applied speech signal."
+  },
+  {
+   "n": 9,
+   "col": 8,
+   "line": 48,
+   "depends": 8,
+   "text": "9. Synthesis apparatus as defined in claim 8, wherein\nsaid means for developing signals representative of predicted values of said speech signal comprises a transversal filter supplied with said combined replica signal and adjusted by said predictable characteristic signals."
+  },
+  {
+   "n": 10,
+   "col": 8,
+   "line": 53,
+   "depends": 8,
+   "text": "10. Synthesis apparatus as defined in claim 8, wherein,\nsaid predicted value signals are selected to represent a linear combination of preceding values of said replica of said applied speech signal."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "page": 0,
+   "cite": "front page [51]",
+   "ocr": "G1011/00",
+   "fixed": "G10l 1/00",
+   "basis": "scan"
+  },
+  {
+   "page": 0,
+   "cite": "front page [56]",
+   "ocr": "_TTS/LSA",
+   "fixed": "179/1 SA",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 68,
+   "ocr": "excitation}.",
+   "fixed": "excitation).",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 70,
+   "ocr": "n‘*",
+   "fixed": "n^{th}",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 71,
+   "ocr": "s,,",
+   "fixed": "s_{n},",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 73,
+   "ocr": "&= > OSp—1 + Dydn-k +n k=1 k=1 (1)",
+   "fixed": "s_{n}=Σ_{k=1}^{p} a_{k}s_{n−k}+Σ_{k=1}^{q} b_{k}x_{n−k}+x_{n}    (1)",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 2,
+   "line": 1,
+   "ocr": "a1, do, ..., ap; bi, be, ..., bg",
+   "fixed": "a_{1}, a_{2}, ..., a_{p}; b_{1}, b_{2}, ..., b_{q}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 2,
+   "ocr": "x,",
+   "fixed": "x_{n}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 2,
+   "ocr": "n'*",
+   "fixed": "n^{th}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 3,
+   "ocr": "x,",
+   "fixed": "x_{n}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 5,
+   "ocr": "x,",
+   "fixed": "x_{n}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 9,
+   "ocr": "aj, @ », ..., Gp,",
+   "fixed": "a_{1}, a_{2}, ..., a_{p},",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 19,
+   "ocr": "parameter g is",
+   "fixed": "parameter q is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 57,
+   "ocr": "s,,",
+   "fixed": "s_{n},",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 57,
+   "ocr": "- diction",
+   "fixed": "diction",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 61,
+   "ocr": "s, to",
+   "fixed": "s_{n} to",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 61,
+   "ocr": "a=a,",
+   "fixed": "a=a_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 62,
+   "ocr": "» Gg, ..., @n,",
+   "fixed": ", a_{2}, ..., a_{n},",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 1,
+   "ocr": "",
+   "fixed": "between the positions of successive glottal pulses specifies the",
+   "basis": "scan + Google Patents (line missed by OCR)"
+  },
+  {
+   "col": 3,
+   "line": 2,
+   "ocr": "",
+   "fixed": "duration of the pitch period. Any suitable pulse position",
+   "basis": "scan + Google Patents (line missed by OCR)"
+  },
+  {
+   "col": 3,
+   "line": 6,
+   "ocr": "33-43",
+   "fixed": "33–43",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 8,
+   "ocr": "g,, and g,.",
+   "fixed": "g_{1}, and g_{2}.",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 10,
+   "ocr": "g,",
+   "fixed": "g_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 11,
+   "ocr": "g,",
+   "fixed": "g_{2}",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 12,
+   "ocr": "hiss).excitation",
+   "fixed": "hiss) excitation",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 13,
+   "ocr": "g,, g2,",
+   "fixed": "g_{1}, g_{2},",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 36,
+   "ocr": "g,",
+   "fixed": "g_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 41,
+   "ocr": "—1",
+   "fixed": "−1",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 41,
+   "ocr": "signals -",
+   "fixed": "signals",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 42,
+   "ocr": "g.",
+   "fixed": "g_{2}",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 70,
+   "ocr": "s,",
+   "fixed": "s_{n}",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 73,
+   "ocr": "u_19, Us,",
+   "fixed": "u_{−10}, u_{−9},",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 74,
+   "ocr": "wasy Un) Ug, «+, Uy, Where",
+   "fixed": "..., u_{−1}, u_{O}, ..., u_{N}, where",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 1,
+   "ocr": "",
+   "fixed": "u_{−10}, u_{−9}, ..., u_{−1} are replaced by values u_{N−9}, u_{N−8}, ..., u_{N}. In-",
+   "basis": "scan + Google Patents (line missed by OCR)"
+  },
+  {
+   "col": 4,
+   "line": 2,
+   "ocr": "",
+   "fixed": "coming samples are placed in the vacated storage locations u_{O},",
+   "basis": "scan + Google Patents (line missed by OCR)"
+  },
+  {
+   "col": 4,
+   "line": 3,
+   "ocr": "wu) Uy. Thus, signals uo, ..., Uy are",
+   "fixed": "..., u_{N}. Thus, signals u_{O}, ..., u_{N} are",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 10,
+   "ocr": "Qo 143a, ..., 143n, designated individually fii, fies «+> Fia03 fa.as",
+   "fixed": "143a, ..., 143n, designated individually f_{1,1}, f_{1,2}, ..., f_{1,10}; f_{2,2}, ...,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 12,
+   "ocr": "faaos fa. «+s fio.10) Which",
+   "fixed": "f_{2,10}; f_{3,3}, ..., f_{10,10}, which",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 17,
+   "ocr": "fiic= Do Un-iUn-j N-10 n=10 (2) index 7 varies from 1, 10 index j varies from 7, 10",
+   "fixed": "f_{i, j}=Σ_{n=10}^{N−10} u_{n−i}u_{n−j}    (2) index i varies from 1, 10 index j varies from i, 10",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 4,
+   "line": 22,
+   "ocr": "f,;",
+   "fixed": "f_{i,j}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 23,
+   "ocr": "144,",
+   "fixed": "144.",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 25,
+   "ocr": "u,",
+   "fixed": "u_{n}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 29,
+   "ocr": "h= >> UpUn-j N—-10 n=10 (3) index j varies from 1, 16",
+   "fixed": "h_{j}=Σ_{n=10}^{N−10} u_{n}u_{n−j}    (3) index j varies from 1, 10",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 4,
+   "line": 35,
+   "ocr": "values of 4.",
+   "fixed": "values of h.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 36,
+   "ocr": "Ay, he, ..., Ai,",
+   "fixed": "h_{1}, h_{2}, ..., h_{10},",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 39,
+   "ocr": "Fa>-H, (4)",
+   "fixed": "F·a=−H,    (4)",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 4,
+   "line": 44,
+   "ocr": "4, da, ..-, 2j9,",
+   "fixed": "a_{1}, a_{2}, ..., a_{10},",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 55,
+   "ocr": "SUR 2 hay Z+ ... agzhayg. (5)",
+   "fixed": "f(z)=z^{10}+a_{1}z^{9}+ ... a_{9}z+a_{10}.    (5)",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 4,
+   "line": 61,
+   "ocr": "2;, 22, ..., Z10, Which",
+   "fixed": "z_{1}, z_{2}, ..., z_{10}, which",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 63,
+   "ocr": "pj, Po, .--, Po",
+   "fixed": "p_{1}, p_{2}, ..., p_{10}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 64,
+   "ocr": "pl /2ar)(1/T) log (zx). (6)",
+   "fixed": "p_{k}=(1/2π)(1/T) log (z_{k}).    (6)",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 4,
+   "line": 66,
+   "ocr": "z,",
+   "fixed": "z_{k}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 67,
+   "ocr": "(1/22T)",
+   "fixed": "(1/2πT)",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 68,
+   "ocr": "p,",
+   "fixed": "p_{k}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 69,
+   "ocr": "b, and f,,",
+   "fixed": "b_{k} and f_{k},",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 70,
+   "ocr": "Pmbicti Ley (7)",
+   "fixed": "p_{k}=b_{k}+j f_{k},    (7)",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 4,
+   "line": 71,
+   "ocr": "from | to",
+   "fixed": "from 1 to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 72,
+   "ocr": "p;",
+   "fixed": "p_{k}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 74,
+   "ocr": "f, and",
+   "fixed": "f_{k} and",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 75,
+   "ocr": "by represent",
+   "fixed": "b_{k} represent",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 6,
+   "ocr": "g, and g..",
+   "fixed": "g_{1} and g_{2}.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 10,
+   "ocr": "5, is",
+   "fixed": "s_{n} is",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 12,
+   "ocr": "Um) U—m+is +--+» Hos +» Uns",
+   "fixed": "u_{−m}, u_{−m+1}, ..., u_{O}, ..., u_{N},",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 16,
+   "ocr": "u_y, ..., Mo» are",
+   "fixed": "u_{−N}, ..., u_{O}, are",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 17,
+   "ocr": "up, ...» Uy-",
+   "fixed": "u_{O}, ..., u_{N}.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 18,
+   "ocr": "uy, .... Uy-",
+   "fixed": "u_{O}, ..., u_{N}.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 24,
+   "ocr": "E= Un? 23, (8)",
+   "fixed": "E=Σ_{n=0}^{N−1} u_{n}^{2}    (8)",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 5,
+   "line": 27,
+   "ocr": "R= > Uplla—N E >» wen n=0 n=0 (9)",
+   "fixed": "R=Σ_{n=0}^{N−1} u_{n}u_{n−N} \\ √(E Σ_{n=0}^{N−1} u_{n−N}^{2})    (9)",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 5,
+   "line": 29,
+   "ocr": "W_m, ---»",
+   "fixed": "w_{−m}, ...,",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 30,
+   "ocr": "Wo, «1 Wy. Every pitch period, the values wy, ..., Wo are",
+   "fixed": "w_{O}, ..., w_{N}. Every pitch period, the values w_{−N}, ..., w_{0} are",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 31,
+   "ocr": "wy, ..., Wx-",
+   "fixed": "w_{O}, ..., w_{N}.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 32,
+   "ocr": "( 10)",
+   "fixed": "(10)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 34,
+   "ocr": "wo, ---» Wn-",
+   "fixed": "w_{O}, ..., w_{N}.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 36,
+   "ocr": "Wa > ; Gy Wp-k (10)",
+   "fixed": "w_{n}=Σ_{k=1}^{10} a_{k}w_{n−k}    (10) n varies from O, N",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 5,
+   "line": 39,
+   "ocr": "yo,",
+   "fixed": "y_{O},",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 40,
+   "ocr": "wy Yx» designated",
+   "fixed": "..., y_{N}, designated",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 41,
+   "ocr": "yo, ..-, yx.",
+   "fixed": "y_{O}, ..., y_{N}.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 42,
+   "ocr": "y-10; ---» Y-1» which",
+   "fixed": "y_{−10}, ..., y_{−1}, which",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 47,
+   "ocr": ">) oxo if n is between land N Ya (11) =lifx=1",
+   "fixed": "y_{n}=Σ_{k=1}^{10} a_{k}y_{n−k} if n is between 1 and N    (11) =1 if n=1",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 5,
+   "line": 52,
+   "ocr": "Vo. oe Vy.",
+   "fixed": "v_{O}, ..., v_{N}.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 55,
+   "ocr": "v= O4Up-k tT no a (12)",
+   "fixed": "v_{n}=Σ_{k=1}^{10} a_{k}v_{n−k}+r_{n}    (12) n varies from O, N",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 5,
+   "line": 60,
+   "ocr": "v—1o, «+» V-1",
+   "fixed": "v_{−10}, ..., v_{−1}",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 65,
+   "ocr": "d,, dy, dy, -., dg",
+   "fixed": "d_{1}, d_{2}, d_{3}, ..., d_{6}",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 67,
+   "ocr": "dy, .... dg",
+   "fixed": "d_{1}, ..., d_{6}",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 68,
+   "ocr": "index 2 is",
+   "fixed": "index n is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 68,
+   "ocr": "Nin",
+   "fixed": "N in",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 72,
+   "ocr": "(13)",
+   "fixed": "d_{1}=Σ_{n} ŝ_{n}^{2}    (13)",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 5,
+   "line": 74,
+   "ocr": "n (14)",
+   "fixed": "d_{2}=Σ_{n} y_{n}^{2}    (14)",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 6,
+   "line": 2,
+   "ocr": "7 (15)",
+   "fixed": "d_{3}=Σ_{n} v_{n}^{2}    (15)",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 6,
+   "line": 4,
+   "ocr": "d= Dat (16)",
+   "fixed": "d_{4}=Σ_{n} ŝ_{n}y_{n}    (16)",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 6,
+   "line": 6,
+   "ocr": "ds= Zafefo-n (17)",
+   "fixed": "d_{5}=Σ_{n} ŝ_{n}ŝ_{n−N}    (17)",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 6,
+   "line": 8,
+   "ocr": "do= 2 taSa-n (18)",
+   "fixed": "d_{6}=Σ_{n} y_{n}ŝ_{n−N}    (18)",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 6,
+   "line": 10,
+   "ocr": "4), ..., d,,",
+   "fixed": "d_{1}, ..., d_{6},",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 12,
+   "ocr": "2) and gz",
+   "fixed": "g_{1} and g_{2}",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 15,
+   "ocr": "gi=[—dy+-Vdy?—da(d,— R?E)|/ds 0<d:< RE (19) g= EA R?) /ds",
+   "fixed": "g_{1}=[−d_{y}+√(d_{y}^{2}−d_{2}(d_{1}−R^{2}E))]/d_{2} 0≤d_{1}≤R^{2}E    (19) g_{2}=E(1−R^{2})/d_{3}",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 6,
+   "line": 19,
+   "ocr": "n= RE<d,<£ (20) ga= E(A— R*)/ds",
+   "fixed": "g_{1}=0 R^{2}E≤d_{1}≤E    (20) g_{2}=E(1−R^{2})/d_{3}",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 6,
+   "line": 23,
+   "ocr": "n=9 E<d, (21) g2=0",
+   "fixed": "g_{1}=0 E≤d_{1}    (21) g_{2}=0",
+   "basis": "scan (equation transcribed from the scan)"
+  },
+  {
+   "col": 6,
+   "line": 38,
+   "ocr": "i.€.,",
+   "fixed": "i.e.,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 53,
+   "ocr": "24010,",
+   "fixed": "240_{10},",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 54,
+   "ocr": "241), ..., 2419.",
+   "fixed": "241_{1}, ..., 241_{10}.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 69,
+   "ocr": "@:, 823 and aj, ..., ay.",
+   "fixed": "g_{1}, g_{2}; and a_{1}, ..., a_{10}.",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 1,
+   "ocr": "",
+   "fixed": "For example, a 10-kilobit signal used for representing the",
+   "basis": "scan + Google Patents (line missed by OCR)"
+  },
+  {
+   "col": 7,
+   "line": 2,
+   "ocr": "parameter has been found to yield",
+   "fixed": "parameter has been found to yield excellent quality synthes-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 3,
+   "ocr": "signa!",
+   "fixed": "signal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 34,
+   "ocr": "sy Gq,",
+   "fixed": "..., a_{n},",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 44,
+   "ocr": "§.",
+   "fixed": "5.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 57,
+   "ocr": "speech signal, :",
+   "fixed": "speech signal,",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 8,
+   "line": 1,
+   "ocr": "",
+   "fixed": "the energy of a speech signal in each of said pitch periods",
+   "basis": "scan + Google Patents (line missed by OCR)"
+  },
+  {
+   "col": 8,
+   "line": 2,
+   "ocr": "",
+   "fixed": "and of the voicing character of speech signals within said",
+   "basis": "scan + Google Patents (line missed by OCR)"
+  },
+  {
+   "col": 8,
+   "line": 8,
+   "ocr": "ofa",
+   "fixed": "of a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 15,
+   "ocr": "signals, and ;",
+   "fixed": "signals, and",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 8,
+   "line": 20,
+   "ocr": "7,",
+   "fixed": "7.",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 25,
+   "ocr": "and. signals",
+   "fixed": "and signals",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 35,
+   "ocr": "speech signal, .",
+   "fixed": "speech signal,",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 8,
+   "line": 39,
+   "ocr": "signals, ;",
+   "fixed": "signals,",
+   "basis": "scan (speck)"
+  }
+ ]
+}

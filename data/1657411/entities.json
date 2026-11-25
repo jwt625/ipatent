@@ -1,0 +1,27 @@
+{
+ "pn": "1657411",
+ "inventors": [
+  {
+   "name": "Arthur Scherbius",
+   "printed": "ARTHUR SCHERBIUS, OF BERLIN-WILMERSDORF, GERMANY",
+   "city": "Berlin-Wilmersdorf",
+   "region": null,
+   "country": "DE"
+  }
+ ],
+ "assignees": [
+  {
+   "name": "Chiffriermaschinen Aktiengesellschaft",
+   "printed": "BY MESNE ASSIGNMENTS, TO CHIFFRIERMASCHINEN AKTIENGESELLSCHAFT, OF BERLIN, GERMANY; A CORPORATION OF GERMANY",
+   "org": "Chiffriermaschinen AG",
+   "kind": "company",
+   "city": "Berlin",
+   "region": null,
+   "country": "DE"
+  }
+ ],
+ "source": {
+  "page": 1,
+  "where": "header of the first printed page (inventor, assignor by mesne assignments to)"
+ }
+}
