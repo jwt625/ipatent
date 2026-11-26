@@ -85,7 +85,7 @@ Answer to the one up-front question (2026-11-25): run the ingestion as a Workflo
   cancellation; p.1:103-104 printed twice as p.2:1-2, kept as printed). 34 figures traced: `coverage.py` 91-99.9 % except
   307031 FIG. 4 (69.8 % raw, 97.4 % net of the scan's torn border). `build.py --complete --only` the 8: gallery 120 patents (8.24 MB);
   `selftest.sh` PASS on index and the 8 pages; screenshots of 223898 FIG. 1 and 2939952 FIG. 1 checked.
-- 2026-11-26 02:45-03:35 PT: 8 audits (brief in the session scratchpad `audit-brief.md`), fixes in place; corrections below.
+- 2026-11-26 02:45-03:05 PT: 8 audits (brief in the session scratchpad `audit-brief.md`), fixes in place; corrections below.
   Rebuilt all 54 pages; `selftest.sh` PASS 55/55 (index + 54). README table: rows for the 87 patents added since the first 33
   (batch 004 had not added them), existing rows unchanged, new rows in group order then grant date, title-cased printed title
   and inventor surnames, figure count.
