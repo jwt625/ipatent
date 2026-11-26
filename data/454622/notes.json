@@ -1,0 +1,56 @@
+{
+  "patent": "Filed 1891-04-25 and issued 1891-06-23 to Nikola Tesla of New York. It claims lighting by currents of very high frequency and very high potential, and gives the means: an alternator G and a step-up induction coil charge a condenser, which discharges through an air-gap into the primary of a second induction coil whose long fine-wire secondary supplies the lamps. This condenser-and-spark-gap feed of a high-ratio transformer is the arrangement now called the Tesla coil, and this patent is the one usually cited for it. The lamps need only one wire: the other terminal may go to a conducting wall of the room, and a lamp may be coupled through a condenser formed across its glass neck (Fig. 2) instead of by a sealed-in lead (Fig. 3). Tesla demonstrated such lamps in his lecture \"Experiments with Alternate Currents of Very High Frequency and Their Application to Methods of Artificial Illumination\" to the American Institute of Electrical Engineers at Columbia College on 1891-05-20 (Transactions of the AIEE, 1891).",
+  "figs": {
+    "1": "Circuit diagram drawn in conventional symbols; the large rectangle is the conducting wall W of the room. Alternator G feeds primary P; secondary S (finer zigzag) charges condenser C, bridged across its leads. Below, the discharge circuit A runs from C through the ball air-gap a and primary P'. One end of secondary S' goes to the wall (dashed line, lower left); the other carries two lamps, drawn small, that appear to be the socketed type of Fig. 2 (left) and the ball-electrode type of Fig. 3 (right).",
+    "2": "Vertical section of the lamp coupled through a condenser. The inside of the glass neck holds the diagonally hatched insulating plug n, sheathed on its sides and upper end by the thin conducting sheet m; the lower edges of m touch the hatched plate o under the plug, from which the insulated stem k carries the straight carbon e. Outside the neck, the dark insulating socket p with lining s and head r (cross-hatched, with the lead entering at top) fits over the neck. Lining s and sheet m are the two plates of the condenser, with the glass of the neck between them; no conductor passes through the glass.",
+    "3": "Vertical section of the lamp for direct connection. Conductor f is sealed through the top of globe b and joined outside to wire g, which is covered by the stippled insulation h; inside, the supporting wire is sheathed by refractory tube k down to the carbon ball e. The black arc l over the upper part of the globe is the reflecting plate on the outside of the glass."
+  },
+  "parts": {
+    "A": "Labelled at the right-hand lead joining condenser C to primary P'; the circuit is the loop C, air-gap a and P'.",
+    "W": "Labelled twice, on the left and right sides of the rectangle that represents the walls of the room.",
+    "m": "Labelled twice in Fig. 2, near the top and near the bottom of the neck.",
+    "k": "In Fig. 2 it is the insulating coating of the wire joining plate o to carbon e; the text describes it as like that of Fig. 3."
+  },
+  "glossary": [
+    {
+      "term": "disruptive discharge",
+      "def": "A spark discharge across a gap. When a condenser discharges through a gap into a circuit with inductance, the current oscillates at a frequency set by the capacitance and inductance."
+    },
+    {
+      "term": "condenser",
+      "def": "Capacitor."
+    },
+    {
+      "term": "armatures",
+      "def": "The plates of a condenser."
+    },
+    {
+      "term": "induction-coil",
+      "def": "A transformer with primary and secondary windings; here used to step up voltage."
+    },
+    {
+      "term": "period",
+      "def": "Duration of one cycle of an alternating current; \"excessively small period\" means very high frequency."
+    },
+    {
+      "term": "electro-motive force",
+      "def": "Voltage of a source."
+    },
+    {
+      "term": "rarefied or exhausted receiver",
+      "def": "An evacuated glass vessel, as in an incandescent lamp bulb."
+    },
+    {
+      "term": "translating device",
+      "def": "Period term for a load that converts electrical energy into another form, such as a lamp or motor."
+    },
+    {
+      "term": "molecular bombardment",
+      "def": "Period explanation of the heating: residual gas molecules in the bulb, charged and repelled by the electrode at each alternation, strike it."
+    },
+    {
+      "term": "pipe-clay",
+      "def": "A fine white clay, used here as a refractory insulating coating."
+    }
+  ]
+}

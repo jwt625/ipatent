@@ -1,0 +1,77 @@
+{
+  "patent": "Filed 1972-03-17 and issued 1974-02-05 to Raymond V. Damadian, then a physician at the State University of New York Downstate Medical Center in Brooklyn. It claims detecting cancer by measuring the NMR relaxation times T_{1} and T_{2} of selected nuclei (in the examples, water protons) and comparing them with standards for normal and cancerous tissue. It follows his report that rat tumors show longer relaxation times than normal tissues (R. Damadian, \"Tumor detection by nuclear magnetic resonance\", Science 171, 1151-1153, 1971); Tables 1 and 2 give such data, measured on a commercial pulse spectrometer at 24 MHz. FIG. 1 is a pulsed NMR spectrometer for excised samples, with computers added to automate the T_{1} and T_{2} measurements and the comparison. FIG. 2 proposes examining a whole person: a body-sized magnet and focused transmitter and receiver probes moved along a helical track, the measured region being where the transmitted beam crosses the magnet axis, on which the field is greatest; position is not encoded by applied linear field gradients. Image formation with applied gradients, the basis of MRI scanners, was published by Paul C. Lauterbur (\"Image formation by induced local interactions: examples employing nuclear magnetic resonance\", Nature 242, 190-191, 1973). The 2003 Nobel Prize in Physiology or Medicine went to Lauterbur and Peter Mansfield \"for their discoveries concerning magnetic resonance imaging\"; Damadian, not included, contested the award in full-page advertisements in The New York Times and The Washington Post on 2003-10-09 (Diagnostic Imaging, 2003-10-29). A certificate of 1986-04-18, printed after the claims, extends the term by 382 days under 35 U.S.C. 156.",
+  "figs": {
+    "1": "Signal chain, left to right: programmer 41 gates R.F. unit 25 into pulses; power amplifier 28 drives transmitter coil 29 in the magnet gap. The magnet is drawn end-on as concentric rings with winding 23a at the top; sample 21 sits at the centre, with transmitter coil 29 (left) and receiver coil 30 (below) at right angles to each other and to the field. Receiver 32, phase detector 33 (reference taken from RF terminal 34) and low pass filter 37 recover the signal envelope for oscilloscope 40, synchronized from programmer terminal 47. Top branch: the pulse spacing τ set on selector 46 leaves at terminal 50, passes switch 52 to computer I (49), which outputs T_{1}. Bottom branch: sampler 62, clocked by the same τ line at 64, samples the filter output through switch 63 for computer II (67), which outputs T_{2}. Computer III (55) compares both with tables on storage unit 56, told which nucleus is selected by digital coder 58, and drives display unit 61.",
+    "2": "Left: the instrument console, labelled nuclear induction apparatus and display, cabled to the magnet. Right: electromagnet 23' as a hollow cylinder shown in section (hatched walls, cut away at the front) around a standing person. A flat helical track 72 winds around the bore; transmitter probe 70 with focusing mechanism 71 and receiver probe 73 ride on it near the shoulders. The text gives no mechanism for moving the probes along the track.",
+    "3": "Oscilloscope trace at filter terminal 38 for a Carr-Purcell train: a 90° pulse at 0 and 180° pulses at τ, 3τ, 5τ, 7τ and 9τ (vertical lines). Each 180° pulse refocuses the spins into an echo at 2τ, 4τ, 6τ and so on; the dashed curve through the echo peaks is the echo envelope, whose decay gives T_{2}. The sampler of FIG. 1 reads the signal at 0, 2τ, 4τ ... to land on this envelope."
+  },
+  "parts": {
+    "23": "In FIG. 1 the numeral 23 is written over a third small coil, right of the holder, that the text neither numbers nor describes; its short leader reaches the inner ring of the magnet drawing, which is also arrowed ELECTROMAGNET.",
+    "25": "The drawing labels the box R.F. UNIT; the text calls it oscillator, source, generator and unit.",
+    "35": "The description as printed calls the phase-detector input \"input terminal 25\"; the certificate of correction of 1974-05-14 changes that 25 to 35, as in the drawing.",
+    "44": "Per the text, connected to A pulse output 42. In the drawing the wire from 42 reaches the R.F. unit input lettered B, where 44 is placed.",
+    "45": "Per the text, connected to B pulse output 43. In the drawing the wire from 43 reaches the R.F. unit input lettered A, where 45 is placed.",
+    "49": "Would compute T_{1} = τ_{null}/ln 2, where τ_{null} is the 180°-to-90° pulse spacing that nulls the free induction decay.",
+    "50": "Carries a signal for the τ set on selector 46; in FIG. 1 it feeds both switch 52 (computer I) and sampler input 64.",
+    "67": "Would store the echo samples and find when they fall to 1/e of the first one, giving T_{2}.",
+    "23'": "The patent places the field maximum on the cylinder axis and selects the frequency to match it, so only the region where the beam meets the axis is in resonance."
+  },
+  "glossary": [
+    {
+      "term": "NMR (nuclear magnetic resonance)",
+      "def": "Nuclei with spin, placed in a static magnetic field, absorb and re-emit radio-frequency energy at a frequency proportional to the field; for protons about 42.58 MHz per tesla (so about 24 MHz at the patent's 5,610 gauss)."
+    },
+    {
+      "term": "nuclear induction",
+      "def": "Felix Bloch's term for detecting NMR by the voltage the precessing nuclear magnetization induces in a pickup coil; a nuclear induction apparatus is an NMR spectrometer."
+    },
+    {
+      "term": "nuclear Zeeman splitting",
+      "def": "The splitting of a nucleus's spin energy levels by the static magnetic field; transitions between the levels are what NMR excites."
+    },
+    {
+      "term": "spin-lattice relaxation time (T_{1})",
+      "def": "Time constant for the longitudinal magnetization to return to equilibrium along the static field, by giving energy to the surroundings."
+    },
+    {
+      "term": "spin-spin relaxation time (T_{2})",
+      "def": "Time constant for the decay of transverse magnetization as the nuclei lose phase coherence with one another; always no longer than T_{1}."
+    },
+    {
+      "term": "nutation; 90° and 180° pulses",
+      "def": "An RF pulse tips the magnetization by an angle set by its amplitude and length; a 90° pulse turns it into the transverse plane, a 180° pulse inverts it."
+    },
+    {
+      "term": "free induction decay",
+      "def": "The decaying signal induced in the receiver coil after a pulse leaves transverse magnetization."
+    },
+    {
+      "term": "null method for T_{1}",
+      "def": "A 180° pulse followed after τ by a 90° pulse; the signal after the 90° pulse vanishes when τ = T_{1} ln 2, which gives T_{1} from τ."
+    },
+    {
+      "term": "Carr-Purcell sequence",
+      "def": "A 90° pulse followed by 180° pulses at τ, 3τ, 5τ ...; each produces a spin echo midway between pulses, and the decay of the echo heights gives T_{2} with field-inhomogeneity effects removed (H. Y. Carr and E. M. Purcell, Physical Review 94, 630, 1954)."
+    },
+    {
+      "term": "spin echo",
+      "def": "Re-formation of the signal after a 180° pulse reverses the dephasing caused by an inhomogeneous field."
+    },
+    {
+      "term": "crossed-coil probe",
+      "def": "A probe with separate transmitter and receiver coils at right angles, so the receiver picks up the nuclear signal but little of the transmitted RF."
+    },
+    {
+      "term": "phase detector",
+      "def": "Mixes the received signal with a reference at the transmitter frequency, giving a low-frequency output proportional to the in-phase signal amplitude."
+    },
+    {
+      "term": "gauss",
+      "def": "CGS unit of magnetic flux density; 10,000 gauss = 1 tesla."
+    },
+    {
+      "term": "Walker sarcoma, Novikoff hepatoma",
+      "def": "Transplantable tumor lines used in laboratory rats: a sarcoma and a liver carcinoma."
+    }
+  ]
+}

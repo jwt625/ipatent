@@ -1,0 +1,1494 @@
+{
+ "pn": "3789832",
+ "number": "3,789,832",
+ "title": "APPARATUS AND METHOD FOR DETECTING CANCER IN TISSUE",
+ "inventors": [
+  "Raymond V. Damadian"
+ ],
+ "assignee": null,
+ "filed": "1972-03-17",
+ "issued": "1974-02-05",
+ "appl_no": "235,624",
+ "int_cl": "A61b 5/05",
+ "us_cl": "128/2 R, 128/2 A, 324/.5 R",
+ "field_of_search": "128/2 R, 2 A, 1.3; 324/.5 A, 324/.5 B",
+ "refs_patents": [
+  {
+   "no": "3,691,455",
+   "date": "9/1972",
+   "name": "Moisio et al.",
+   "cl": "324/.5 R"
+  },
+  {
+   "no": "3,557,777",
+   "date": "1/1971",
+   "name": "Cohen",
+   "cl": "128/2 R"
+  },
+  {
+   "no": "3,530,371",
+   "date": "9/1970",
+   "name": "Nelson et al.",
+   "cl": "324/.5 AC"
+  }
+ ],
+ "refs_other": [
+  "Singer, J. R., Journ. of Applied Physics, Vol. 31, No. 1, Jan., 1960, pp. 125-127,"
+ ],
+ "examiners": "Primary Examiner--Kyle L. Howell; Attorney, Agent, or Firm--Brumbaugh, Graves, Donohue & Raymond",
+ "claims_count": 16,
+ "drawing_figures": 3,
+ "abstract": "An apparatus and method in which a tissue sample is positioned in a nuclear induction apparatus whereby selected nuclei are energized from their equilibrium states to higher energy states through nuclear magnetic resonance. By measuring the spin-lattice relaxation time and the spin-spin relaxation time as the energized nuclei return to their equilibrium states, and then comparing these relaxation times with their respective values for known normal and malignant tissue, an indication of the presence and degree of malignancy of cancerous tissue can be obtained.",
+ "sections": [
+  {
+   "heading": "BACKGROUND OF THE INVENTION",
+   "paras": [
+    {
+     "col": 1,
+     "line": 6,
+     "text": "This invention relates to an apparatus and method of detecting cancer in tissue and, more particularly, to the use of nuclear magnetic resonance techniques to detect alterations in the organization and structure of selected nuclei in the tissue which alterations are believed to be caused by cancer."
+    },
+    {
+     "col": 1,
+     "line": 12,
+     "text": "At present, early detection of internal cncerous tumors is hampered by the relatively high permeability of the many tumors to X-rays. Detection in these cases depends mainly on the indirect evidence provided by the displacement of normal radiopaque structures pushed aside by the tumor. Therefore, the present methods are directed to a qualitative analysis only and lack a quantitized aspect such that a firm basis for decision does not exist as to whether cancer is present and if so how malignant it is."
+    }
+   ]
+  },
+  {
+   "heading": "SUMMARY OF THE INVENTION",
+   "paras": [
+    {
+     "col": 1,
+     "line": 24,
+     "text": "It is an object of this invention to provide apparatus and a method for the quantitative detection of cancer in tissue and in particular to provide apparatus for use by clinical and diagnostic laboratories and in the operating room for rapid screening of cancer in small samples of surgically removed tissue."
+    },
+    {
+     "col": 1,
+     "line": 30,
+     "text": "Furthermore, it is an object of this invention to provide criteria for determining the degree of malignancy of the cancerous tissue detected."
+    },
+    {
+     "col": 1,
+     "line": 33,
+     "text": "It is a further object of this invention to provide apparatus and method for the detection of cancer in humans which does not require tissue to be surgically removed and can be done with the probes entirely external to the body of the human who is being examined."
+    },
+    {
+     "col": 1,
+     "line": 38,
+     "text": "These and other objects are attained, in accordance with the invention, by measuring the degree of organization of selected nuclei in the tissue being analyzed."
+    },
+    {
+     "col": 1,
+     "line": 41,
+     "text": "It has now been found that certain molecules in cancerous cells are more disorganized and arranged with less structure than the same molecules in normal cells. It is known, for example, that the water molecules present in normal cells exist in multiple polarized layers absorbed onto cell protein chains. In cancerous tissue, however, the structure is broken down and the water molecules become disassociated from the protein chains, the result being that water molecules in cancerous tissue are not as compacted as they are in normal tissue."
+    },
+    {
+     "col": 1,
+     "line": 53,
+     "text": "It has now been found that, by measuring the degree of organization of these selected molecules in cells being studied and comparing this with the degree of organization in a known cancerous cell, cancer cells can be detected. Furthermore, it has now been found that the less the organization the greater the malignancy, therefore, a scale can be made to provide a standard for basing a decision on the degree of malignancy."
+    },
+    {
+     "col": 1,
+     "line": 61,
+     "text": "The present invention utilizes nuclear magnetic resonance (NMR) techniques to determine this degree of organization. Essentially, the tissue to be analyzed is placed in a tissue holder located in a nuclear induction apparatus and positioned to be exposed to two magnetic fields provided by two sources located in the induction apparatus. One source is an electromagnet in the preferred embodiment and provides a static magnetic field of known strength. The other source provides an oscillating magnetic field and is positioned so that the direction of its radiated field is orthogonal to the field provided by the electromagnet. The frequency of the oscillating magnetic field is adjusted to casue selected nuclei in the cells to be energized from their equilibrium states to higher energy states through NMR absorption. After a predetermined length of time, the oscillating source is turned off and measurements are made of the spin-lattice relaxation time and spin-spin relaxation time for the energized nuclei returning to their equilibrium states."
+    },
+    {
+     "col": 2,
+     "line": 13,
+     "text": "It is known that for any given nuclei, the relaxation times increase in proportion to the degree of motional freedom between the nuclei. For example, the relaxation times for hydrogen nuclei in distilled water is several orders of magnitude greater than the corresponding relaxation times for the hydrogen nuclei in ice."
+    },
+    {
+     "col": 2,
+     "line": 19,
+     "text": "In the present invention, the measurement of relaxation times for selected nuclei in the tissue cells being examined provide a way of measuring the degree of disorganization of the selected nuclei in these cells. By comparing the relaxation times for this tissue with relaxation times obtained for known normal tissue and known cancerous tissue, it can be determined whether cancer is present and if so the degree of malignancy."
+    },
+    {
+     "col": 2,
+     "line": 27,
+     "text": "In a second embodiment, apparatus is described which can be used to detect cancer in mammallian tissue and in particular humans without having to remove surgically a sample of the tissue to be analyzed. In this embodiment, the entire mammal or human being is placed in a magnetic field provided by an electromagnet sufficiently large to surround the mammal or human. The second magnetic field is directed to a unit which focuses the oscillating magnetic field radiation into a beam. Further apparatus is provided for scanning throughout the entire body during which time the relaxation times are measured for selected nuclei and compared with standards. In this way a determination can be made of the existence of cancer together with the location and degree of malignancy of the cancerous cells present."
+    },
+    {
+     "col": 2,
+     "line": 43,
+     "text": "For a better understanding of the invention, reference may be made to the following detailed description of the representative embodiments, taken in conjunction with the figures of the accompanying drawings in which:"
+    },
+    {
+     "col": 2,
+     "line": 48,
+     "text": "FIG. 1 is a schematic diagram of suitable apparatus for detecting cancerous tissue in accordance with the invention;"
+    },
+    {
+     "col": 2,
+     "line": 51,
+     "text": "FIG. 2 is a diagram of a particular application of this invention to the detection of cancer in humans; and"
+    },
+    {
+     "col": 2,
+     "line": 53,
+     "text": "FIG. 3 is a diagram showing the signal output of the low pass filter used in the determination of the spin-spin relaxation time."
+    }
+   ]
+  },
+  {
+   "heading": "DESCRIPTION OF A PREFERRED EMBODIMENT",
+   "paras": [
+    {
+     "col": 2,
+     "line": 59,
+     "text": "In the embodiment illustrated in FIG. 1, apparatus is shown for measuring the spin-lattice relaxation time and spin-spin relaxation time of a tissue sample 21 held by tissue holding means 22."
+    },
+    {
+     "col": 2,
+     "line": 63,
+     "text": "An electromagnet 23, having a wire coil 23a energized by a variable voltage supply 24, provides the necessary magnetic field for causing selected nuclei, generally protons, in the tissue sample 21 to separate into discrete energy levels. This separation is commonly known as nuclear Zeeman splitting."
+    },
+    {
+     "col": 3,
+     "line": 1,
+     "text": "Now if a second field is applied to the tissue sample in a direction orthogonal to the first with a frequency determined by inherent characteristics of the selected nuclei and the strength of the field provided by the electromagnet 23, the selected nuclei can be energized from their equilibrium states to higher energy states through nuclear magnetic resonance (NMR) absorption."
+    },
+    {
+     "col": 3,
+     "line": 9,
+     "text": "In the present invention this second magnetic field is generated by a radio-frequency oscillator 25 which provides a signal at its output terminal 26 having a frequency which can be adjusted manually by frequency selector 27."
+    },
+    {
+     "col": 3,
+     "line": 14,
+     "text": "The signal on output terminal 26 is directed to a power amplifier 28 whereby the amplitude of the signal generated by the oscillator 25 is increased. The amplified signal appearing at the output terminal 28a is then directed to a coil transmitter probe 29 which radiates magnetic energy into the magnetic field space formed by the electromagnet 23. The orientation of the transmitter probe 29, in the preferred embodiment, is adjusted to be orthogonal to the direction of the field formed by electromagnet 23."
+    },
+    {
+     "col": 3,
+     "line": 24,
+     "text": "In order to determine the spin-lattice relaxation time and the spin-spin relaxation time of the selected nuclei returning to their equilibrium states from the higher energy states, a coil receiver probe 30 is provided for detecting signals generated by the decaying nuclei. This probe is positioned essentially at right angles with the transmitter probe 29 and also the direction of the field provided by the electromagnet 23."
+    },
+    {
+     "col": 3,
+     "line": 32,
+     "text": "The signals detected by the receiver probe 30 are directed to the input terminal 31 of the receiver amplifier 32. The output of the receiver amplifier 32 is directed to a phase detector 33 which is commonly used in NMR applications to determine when the frequency of the radio frequency source 25 has been properly adjusted to supply the conditions necessary for NMR absorption. A signal having the frequency of the radio frequency source 25 is supplied to the output terminal 34 of unit 25 and then supplied to the input terminal 25 of the phase detector 33."
+    },
+    {
+     "col": 3,
+     "line": 43,
+     "text": "The signal output of the phase detector 33 is in turn directed to the input terminal 36 of a low pass filter 37. This filter filters out the resonance frequencies and allows the envelope responsive to the amplitude of the signal detected by the receiver probe 30 to appear at output terminal 38."
+    },
+    {
+     "col": 3,
+     "line": 49,
+     "text": "The signal appearing at 38 is directed to the vertical input 39 of oscilloscope 40 so that the signal can be displayed visually."
+    },
+    {
+     "col": 3,
+     "line": 53,
+     "text": "In the experiments described below, a programmer 41 (See FIG. 1) was used to provide a sequence of pulses necessary in NMR applications. By way of example, a Nuclear Magnetic Resonance Specialties, Model P-102A Pulse Programmer, can be used. This Programmer is part of the Nuclear Magnetic Resonance Specialties, PS-60A NMR Spectrometer."
+    },
+    {
+     "col": 3,
+     "line": 60,
+     "text": "In programmer 41, an A pulse output terminal 42 and a B pulse output terminal 43 are provided and they are connected with their respective input terminals 44 and 45 of radio frequency generator 25. Under operator control the programmer 41 through circuitry not shown signals the radio frequency generator 25 to produce pulse sequences necessary in measuring spin-lattice and spin-spin relaxation times. These pulse sequences corresponding to the Carr-Purcell sequences will be described in more detail below. The separation time between pulses is controlled manually by the pulse separation selector 46. The programmer 41 also provides a sync signal appearing on output terminal 47 which is directed to input terminal 48 of the oscilloscope 40 for synchronizing the oscilloscope with the pulse sequences."
+    }
+   ]
+  },
+  {
+   "heading": "Example I",
+   "paras": [
+    {
+     "col": 4,
+     "line": 10,
+     "text": "Several experiments were performed using Sprague-Dawley rats. Five of the rats were normal, five had previously been infected with Walker sarcoma, three had been infected with Novikoff hepatoma and two of the rats had Fibroadenoma (benign tumors). The rats ranged in weight from 150 to 500 grams and were selected at random to exclude variations in the age of the rat as a material consideration."
+    },
+    {
+     "col": 4,
+     "line": 18,
+     "text": "The animals were killed by cervical fracture. The infected rats were killed when tumor size reached approximately 1.5 ml in volume. This was 4 to 5 days after inoculation in the case of animals with Novikoff hepatoma and 10 days after inoculation in the case of animals with Walker sarcoma. The samples were excised and packaged in cellulose nitrate tubes. In all cases, NMR measurements were obtained within 5 minutes after the death of the animal."
+    },
+    {
+     "col": 4,
+     "line": 27,
+     "text": "NMR measurements were taken with an apparatus comprising a Varian electromagnet, 12 inches in diameter operating at approximately 5,610 gauss, a pulse spectrometer model PS-60 AW, made by Nuclear Magnetic Resonance Specialties Corporation, together with a probe of cross-coil design operation at 24 Mhz."
+    },
+    {
+     "col": 4,
+     "line": 33,
+     "text": "Two types of NMR measurements were taken for each tissue sample. The first measurement was the so-called spin-lattice relaxation time (T_{1}) and this was measured by the method of Carr and Purcell, Phys. Rev. 94, 630 (1954). In accordance with this method, a sequence of two pulses is used with pulse widths for the two pulses set to produce a 180° nutation followed by a 90° nutation."
+    },
+    {
+     "col": 4,
+     "line": 41,
+     "text": "With this sequence, one observes a free induction decay after the second pulse whose amplitude is given by"
+    },
+    {
+     "col": 4,
+     "line": 45,
+     "text": "M(τ) = M_{o}(1 − 2_{e}^{− τ/T}1)"
+    },
+    {
+     "col": 4,
+     "line": 46,
+     "text": "where M_{o} is the equilibrium value of the pulse amplitude and τ is the interval between pulses. This equation implies that, if T_{1} is multiplied by the natural logarithm of 2, the product is equal to the pulse interval that produces no free induction decay after the 90° pulse. In actual practice, once the two pulses were phased and pulse widths set for the proper nutation angle, an oscilloscope 40, Fairchild 766 H/F, 25 and 50 Mhz, was synchronized to trigger on the second pulse and the pulse interval was adjusted until the null free induction decay was obtained. The interval between the two pulses was obtained from a frequency counter, Computer Measurement Company 200 CN, interfaced with the output of the PS-60 spectrometer programmer 41."
+    },
+    {
+     "col": 4,
+     "line": 61,
+     "text": "The second NMR measurement taken was the so-called spin-spin relaxation time. This was accomplished by using a 90° to 180° pulse sequence, making use of the Carr-Purcell modification identified in the reference noted above to obtain the echo decay envelope."
+    },
+    {
+     "col": 4,
+     "line": 66,
+     "text": "This method for measuring T_{2} is free of diffusion effects and field inhomogeneities. Since the envelope height E is given by"
+    },
+    {
+     "col": 5,
+     "line": 1,
+     "text": "E(2nτ) = e^{−2nτ /T_{2}}"
+    },
+    {
+     "col": 5,
+     "line": 3,
+     "text": "where n represents integral multiples of the pulse separation τ, T_{2} was estimated from the oscilloscope trace as the time required for the envelope height to decay to 1/e."
+    },
+    {
+     "col": 5,
+     "line": 7,
+     "text": "Five normal rats were sacrificed, and various types of normal tissue were subject to NMR measurements. The results of these tests are summarized in Table 1 below."
+    },
+    {
+     "col": 5,
+     "line": 11,
+     "text": "TABLE 1"
+    },
+    {
+     "col": 5,
+     "line": 12,
+     "text": "Spin-lattice (T_{1}) and spin-spin (T_{2}) relaxation times (in seconds) of normal tissues"
+    },
+    {
+     "col": 5,
+     "line": 13,
+     "table": [
+      [
+       "",
+       "",
+       "Tissue"
+      ],
+      [
+       "",
+       "",
+       "Rectus muscle",
+       "",
+       "Liver",
+       "",
+       "Stomach",
+       "Small intestine",
+       "Kidney",
+       "Brain"
+      ],
+      [
+       "Rat No.",
+       "Weight (g.)",
+       "T_{1}",
+       "T_{2}",
+       "T_{1}",
+       "T_{2}",
+       "T_{1}",
+       "T_{1}",
+       "T_{1}",
+       "T_{1}"
+      ],
+      [
+       "1",
+       "156",
+       "0.493",
+       "0.050",
+       "0.286",
+       "0.050",
+       "0.272",
+       "0.280",
+       "0.444",
+       "0.573"
+      ],
+      [
+       "2",
+       "150",
+       ".548",
+       ".050",
+       ".322",
+       ".060",
+       ".214",
+       ".225",
+       ".503",
+       ".573"
+      ],
+      [
+       "3",
+       "495",
+       ".541",
+       ".050",
+       ".241",
+       ".050",
+       ".260",
+       ".316",
+       ".423",
+       ".596"
+      ],
+      [
+       "4",
+       "233",
+       ".576(*0.600)",
+       ".070",
+       ".306(*0.287)",
+       ".048",
+       ".247(*0.159)",
+       ".316(*0.280)",
+       ".541(*0.530)",
+       ".620(*0.614)"
+      ],
+      [
+       "5",
+       "255",
+       ".531",
+       "",
+       ".300",
+       "",
+       ".360",
+       ".150",
+       ".489",
+       ".612"
+      ],
+      [
+       "Mean and standard error"
+      ],
+      [
+       "",
+       "",
+       "0.538±0.015",
+       "0.055±0.005",
+       "0.293±0.010",
+       "0.052±0.003",
+       "0.270±0.016",
+       "0.257±0.030",
+       "0.480±0.026",
+       "0.595±0.007"
+      ]
+     ]
+    },
+    {
+     "col": 5,
+     "line": 23,
+     "text": "*Spin-lattice relaxation time after the specimen stood overnight at room temperature."
+    },
+    {
+     "col": 5,
+     "line": 24,
+     "text": "In addition, tumor tissue from a number of infected rats was subjected to NMR measurements and the results of these tests are given in Table 2. As a standard comparison the NMR T_{1} values for distilled water are also given."
+    },
+    {
+     "col": 5,
+     "line": 30,
+     "text": "TABLE 2"
+    },
+    {
+     "col": 5,
+     "line": 31,
+     "text": "Spin-lattice (T_{1}) and spin-spin (T_{2}) relaxation times (in seconds) in tumors"
+    },
+    {
+     "col": 5,
+     "line": 34,
+     "table": [
+      [
+       "Rat No.",
+       "Weight (g)",
+       "T_{1}",
+       "T_{2}"
+      ],
+      [
+       "",
+       "Walker sarcoma",
+       "",
+       ""
+      ],
+      [
+       "6",
+       "156",
+       "0.700",
+       "0.100"
+      ],
+      [
+       "7",
+       "150",
+       ".750",
+       "0.100"
+      ],
+      [
+       "8",
+       "495",
+       ".794(0.794)*",
+       "0.100"
+      ],
+      [
+       "9",
+       "233",
+       ".688",
+       ""
+      ],
+      [
+       "10",
+       "255",
+       ".750",
+       ""
+      ],
+      [
+       "",
+       "Mean and S.E.",
+       "0.736±0.022",
+       "0.100"
+      ],
+      [
+       "",
+       "P",
+       "<.01^{+}",
+       ""
+      ],
+      [
+       "",
+       "Novikoff hepatoma",
+       "",
+       ""
+      ],
+      [
+       "11",
+       "155",
+       "0.798",
+       "0.120"
+      ],
+      [
+       "12",
+       "160",
+       "0.852",
+       "0.120"
+      ],
+      [
+       "13",
+       "231",
+       "0.827",
+       "0.115"
+      ],
+      [
+       "",
+       "Mean and S.E.",
+       "0.826±0.013",
+       "0.118±0.002"
+      ],
+      [
+       "",
+       "P",
+       "<.01^{+}",
+       ""
+      ],
+      [
+       "",
+       "Fibroadenoma (benign)",
+       "",
+       ""
+      ],
+      [
+       "14",
+       "",
+       "0.448",
+       ""
+      ],
+      [
+       "15",
+       "",
+       ".537",
+       ""
+      ],
+      [
+       "",
+       "Mean",
+       ".492",
+       ""
+      ],
+      [
+       "",
+       "Distilled water",
+       "",
+       ""
+      ],
+      [
+       "",
+       "",
+       "2.691",
+       ""
+      ],
+      [
+       "",
+       "",
+       "2.690",
+       ""
+      ],
+      [
+       "",
+       "",
+       "2.640",
+       ""
+      ],
+      [
+       "",
+       "Mean and S.E.",
+       "2.677±0.021",
+       ""
+      ]
+     ]
+    },
+    {
+     "col": 5,
+     "line": 52,
+     "text": "*Spin-lattice relaxation time after the specimen stood overnight at room temperature."
+    },
+    {
+     "col": 5,
+     "line": 54,
+     "text": "^{+}The P values are the probability estimates of the significance of the difference in the means of T_{1} for the malignant tumor and for brain."
+    },
+    {
+     "col": 5,
+     "line": 57,
+     "text": "The contrast between the relaxation rates of malignant Novikoff hepatoma and normal liver illustrates the degree of perturbation of endosolvent structure that can accompany malignant transformation. The considerable increase in relaxation times for the hepatoma (T_{1}, 0.826 second; T_{2}, 0.118 second) relative to normal liver (T_{1}, 0.293 second; T_{2}, 0.050 second) suggests a significant decrease in the degree of ordering of intracellular water in malignant tissue. In addition, it is apparent from the prolonged relaxation times of the two malignant tumors reported in Table 2 that NMR values make it possible to one to detect the presence of metastatic infiltrates of the liver from either Walker sarcoma or Novikoff hepatoma."
+    },
+    {
+     "col": 6,
+     "line": 3,
+     "text": "The differences between the relaxation rates of malignant tumors and normal liver may be used to distinguish the two malignancies from all of the normal tissues studied [P values less than 0.01 (Table 2)]. The values of T_{1} in Walker sarcoma (0.736 second) and Novikoff hepatoma (0.826 second) were significantly greater than the values of T_{1} in any of the normal tissues (0.293 to 0.595 second). The values of T_{2} in the malignant tumors (0.100 and 0.118 second) were about twice the values of T_{2} in rectus muscle (0.055 second) and liver (0.052 second). Furthermore, replicate measurements of T_{1} in the malignant tissues were found to be highly reproducible (standard error of the mean, <0.02) and the normal tissues had a standard error of the mean of 0.03 or less despite deliberate scrambling of the ages and weights of the animals in the experimental colony."
+    },
+    {
+     "col": 6,
+     "line": 34,
+     "text": "The measurements were also unaffected by any change in the elevation of the sample position in the probe, packing and repacking of the specimen, or the stepwise rotation of the sample tube in the probe through 360°. In fact T_{1} proved to be even relatively unchanged after the specimens stood overnight at room temperature (Tables 1 and 2, parenthetical values for rats 4 and 8)."
+    },
+    {
+     "col": 6,
+     "line": 42,
+     "text": "The above experiments were conducted without the aid of equipment which could automatically compute T_{1} and T_{2} and automatically compare these values with their respective standards for the detection of cancerous tissue. However, a computer 49 could be provided to calculate T_{1} = τnull/1n2 where τ is the time interval between the 180° pulse and the 90° pulse in the Carr-Purcell method described above that produces no free induction decay after the 90° pulse. This value of τnull is the value τ selected manually on the pulse separation selector 46 to produce the above condition. An electrical signal responsive to the setting of τ on selector 46 is provided by the programmer 41 and appears at output terminal 50. The signal is directed to an input terminal 51 of computer 49 through a switch 52 which is closed when it is desired to compute and compare values of T_{1} with a standard."
+    },
+    {
+     "col": 6,
+     "line": 59,
+     "text": "The value of T_{1} appearing as a signal at an output 53 of computer 49 is directed to an input terminal 54 of a computer 55. This computer compares the value of T_{1} at input terminal 54 with a table of standard values for non-cancerous and cancerous tissues stored on a data storage unit 56. This comparison provides an indication whether cancer is present and if so its degree of malignancy. The comparison is made for the particular nuclei selected, each type of nuclei having a separate table of standards. For a given field strength provided by electromagnet 23 the frequency of the radio frequency generator 25 determines which nuclei are selected. Thus, the selected nuclei are known from the setting of the frequency selector 27. An electrical signal responsive to the setting of the frequency selector 27 appears at output terminal 57 of the radio frequency generator 25. This signal is converted into a digital code by a digital coder 58 and supplied to an input terminal 59 of computer 55."
+    },
+    {
+     "col": 7,
+     "line": 11,
+     "text": "After comparing the values of T_{1} for the sample 21 with the standards on a data storage unit 56, the computer 55 supplies a signal via line 60 to a display unit 61. This signal is converted by display unit 61 into a visual signal indicating whether cancer is present in tissue sample 21 and if so the degree of malignancy."
+    },
+    {
+     "col": 7,
+     "line": 17,
+     "text": "For automatically calculating values of T_{2} for comparing with a standard, a sampler 62 is provided for sampling the signal appearing at terminal 38 of the low pass filter when the switch 63 is closed. The sampler 62 samples the signal at terminal 38 at times 0, 2τ, 4τ, 6τ, etc., where τ is again the time interval between the 180° pulse and the 90° pulse generated by the programmer 41 for determining T_{2}. A signal responsive to the τ selected on selector 46 appears at output terminal 50 of programmer 41 and is supplied to input terminal 64 of sampler 62. To better understand the technique used to determine T_{2}, reference is made to FIG. 3 wherein a plot of the signal appearing at terminal 38 is shown. This plot shows the signal when the programmer 41 has been set to supply a 90° pulse and a train of 180° pulses pursuant to the Carr-Purcell method of measuring T_{2}. The 90° pulse is applied at time 0, and a 180° pulse is applied at times τ, 3τ, 5τ, 7τ, etc. The sampler 62 samples the signal at times 0, 2τ, 4τ, 6τ, etc., thus obtaining values of the signal which lie on the echo envelope."
+    },
+    {
+     "col": 7,
+     "line": 37,
+     "text": "The sampled values detected by sampler 62 appear on an output terminal 65 of sampler 62 and are directed to an input terminal 66 of computer 67. The sampled values appearing on input terminal 66 are stored on a real time basis in the computer 67 as is well known in the art."
+    },
+    {
+     "col": 7,
+     "line": 43,
+     "text": "A computer program could be designed according to the art to label the stored sampled values giving them the labels V(0), V(1), V(2) . . . V(I) where I is one less than the total number of samples stored (one less because the count started with zero). The computer could then be programmed to compute T_{2} by performing the following steps:"
+    },
+    {
+     "col": 7,
+     "line": 51,
+     "table": [
+      [
+       "",
+       "START"
+      ],
+      [
+       "",
+       "READ V(0)"
+      ],
+      [
+       "",
+       "COMPUTE A = 1/e V(0)"
+      ],
+      [
+       "",
+       "N = 1"
+      ],
+      [
+       "2",
+       ""
+      ],
+      [
+       "",
+       "READ V(N)"
+      ],
+      [
+       "",
+       "IF V(N) < A GO TO 3"
+      ],
+      [
+       "",
+       "N = N + 1"
+      ],
+      [
+       "",
+       "GO TO 2"
+      ],
+      [
+       "3",
+       ""
+      ],
+      [
+       "",
+       "T_{2} = V(N)"
+      ],
+      [
+       "",
+       "END"
+      ]
+     ]
+    },
+    {
+     "col": 7,
+     "line": 63,
+     "text": "In this manner an approximate value of T_{2} can be computed. Further refinements can be made by determining the best curve connecting the sampled values V(0), V(1), V(2), etc. and then determining the point at which the curve intersects the Y value of 1/e V(0) as is well known in the art. The program set forth above is only an example of a method for determining approximate values of T_{2}."
+    },
+    {
+     "col": 8,
+     "line": 3,
+     "text": "The output of computer 67 is T_{2} and appears on output terminal 68. This signal is directed to input terminal 69 of computer 55 where it is compared with a table of standards for the selected nuclei stored on data storage unit 56 in the same manner as T_{1} is compared with its respective standards. Again the computer 55 supplies a signal via line 60 to the display unit 61 where the signal is converted into a visual signal indicating whether cancer is present in tissue sample 21 and if so the degree of malignancy."
+    },
+    {
+     "col": 8,
+     "line": 13,
+     "text": "In another embodiment of this invention illustrated in FIG. 2, apparatus is shown for detecting cancerous cells in mammals and particularly human beings."
+    },
+    {
+     "col": 8,
+     "line": 16,
+     "text": "The only modification of the apparatus in FIG. 2 with the apparatus shown in FIG. 1 is the design of the electromagnet 23, the tissue holder 22 and the transmitter and receiver probes 29 and 30."
+    },
+    {
+     "col": 8,
+     "line": 20,
+     "text": "In FIG. 2 an electromagnet 23’ shown in cross-section is designed to have sufficiently large dimensions to hold a mammal or human being to be examined. A transmitter probe 70 is provided with a beam focusing mechanism 71 for focusing the radiated magnetic energy from the radio frequency generator 25 into a beam having a narrow cross-section. This probe is slidably mounted on a helical track 72 and positioned so that the radiated beam is orthogonal to the direction of the field provided by electromagnet 23. The transmitter probe 70 is moved on the track 72 by means not shown so that the probe 70 may scan the entire body to be examined. Also mounted on track 72 is a receiver probe 73 of the same design as transmitter probe 70 which detects a beam having the same cross-sectional width as the beam radiated by probe 70. The probe 73 is positioned to detect only beams which are orthogonal to both the direction of the field provided by electromagnet 23’ and the direction of the beam radiated by probe 70. As the probe 70 scans the body being examined, the probe 73 moves correspondingly by means not shown to maintain the orthogonal relationship during the scanning process."
+    },
+    {
+     "col": 8,
+     "line": 43,
+     "text": "In a preferred embodiment the electromagnet 23’ is cylindrically shaped so that the field generated has a maximum along the axis of the electromagnet 23’ and the transmitter probe 70 is focused to direct its radiated beam to intersect this axis. Further, the receiver probe 73 is focused to receive a beam emanating from the region of impingement of the transmitted beam with the axis of electromagnet 23’."
+    },
+    {
+     "col": 8,
+     "line": 51,
+     "text": "Since for a given field strength a particular frequency is required for NMR absorption of selected nuclei and since the maximum field strength of the field generated by electromagnet 23’ lies along its axis which is uniquely defined for the cylindrical space encompassed by the electromagnet 23’, it is possible to select a frequency determined by the maximum field strength provided by electromagnet 23’ and the nuclei selected so that a small area defined by the impingement of the beam radiated by transmitter probe 70 and the axis of the electromagnet 23’ can be examined. By moving probes 70 and 73 move along the track 72 the entire area of the body lying on the axis of the electromagnet 23’ is examined. By repositioning the body with respect to the axis of the electromagnet 23’ and rescanning the axis, the entire body can be examined."
+    },
+    {
+     "col": 8,
+     "line": 68,
+     "text": "The apparatus and method described above has many desirable features including the ability to detect internal cancer with an external probe. Thus by using this apparatus and method it is unnecessary to surgically remove a tissue sample for examination."
+    },
+    {
+     "col": 9,
+     "line": 5,
+     "text": "In determining relaxation times for tissue cells within the body being examined, it is necessary to have quite high magnetic field strengths to penetrate the body. There have been some recent studies by NASA on the effect of high strength magnetic fields on humans. A study of their conclusions indicates that the strength of the magnetic fields contemplated here would not be deleterious to the tissue under examination."
+    },
+    {
+     "col": 9,
+     "line": 13,
+     "text": "Since NMR analysis is directed to the atomic level, the operator of this system has available for study a wide range of nuclei in determining deviant chemical behavior. In the experiments noted above the hydrogen nuclei of water were selected for studying the organization of water molecules in tissue cells. It can be appreciated that there may be other nuclei which may be subjected to NMR analysis for cancer detection. For example, it is generally known that the cancerous change is uniformly associated with derangements in the cells chromosomes. Since DNA is the main constituent of chromosomes and further since phosphorus is a main element in the polymer backbone of DNA, chromosome derangements are reflected in the chemistry of the phosphorus nucleus and hence, in the NMR spectra of cellular phosphorus."
+    },
+    {
+     "col": 9,
+     "line": 30,
+     "text": "From the foregoing it will be seen that the present invention provides a much needed method and apparatus for detecting the presence of cancer and providing a quantitative analysis of the malignancy of any cancer cells detected. It will be understood that many modifications of the structure of the preferred embodiments will occur to those skilled in the art, and it is understood that this invention is to be limited only by the scope of the following claims."
+    }
+   ]
+  },
+  {
+   "heading": "CERTIFICATE OF CORRECTION",
+   "paras": [
+    {
+     "col": null,
+     "line": null,
+     "page": 9,
+     "text": "UNITED STATES PATENT OFFICE CERTIFICATE OF CORRECTION"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 9,
+     "text": "Patent No. 3,789,832 Dated February 5, 1974"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 9,
+     "text": "Inventor(s) Raymond V. Damadian"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 9,
+     "text": "It is certified that error appears in the above-identified patent and that said Letters Patent are hereby corrected as shown below:"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 9,
+     "text": "Column 1, line 12, correct the spelling of \"cancerous\". Column 3, line 41, \"25\", second occurrence, should read --35--. Column 5, line 1, that part of the formula reading \"e^{-2nτ /T_{2}}\" should read --e^{-2nτ/T_{2}}--. Column 7, line 67, \"Y\" should read --y--. Column 9, line 51, before \"values\" insert --measured--; line 66, \"transistors\" should read --transitions--. Column 10, line 7, before \"cancerous\" insert --for--."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 9,
+     "text": "Signed and sealed this 14th day of May 1974."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 9,
+     "text": "(SEAL) Attest:"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 9,
+     "text": "EDWARD M. FLETCHER, JR. Attesting Officer"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 9,
+     "text": "C. MARSHALL DANN Commissioner of Patents"
+    }
+   ]
+  },
+  {
+   "heading": "CERTIFICATE EXTENDING PATENT TERM",
+   "paras": [
+    {
+     "col": null,
+     "line": null,
+     "page": 10,
+     "text": "UNITED STATES PATENT AND TRADEMARK OFFICE"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 10,
+     "text": "CERTIFICATE EXTENDING PATENT TERM UNDER 35 U.S.C. 156"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 10,
+     "text": "Patent No. : 3,789,832"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 10,
+     "text": "Dated : Feb. 5, 1974"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 10,
+     "text": "Inventor(s) : Damadian"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 10,
+     "text": "Patent Owner : Raymond V. Damadian"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 10,
+     "text": "This is to certify that there has been presented to the COMMISSIONER OF PATENTS AND TRADEMARKS an application under 35 U.S.C. 156 for an extension of the patent term. Since it appears that the requirements of law have been met, this certificate extends the term of the patent for the period of"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 10,
+     "text": "382 DAYS"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 10,
+     "text": "with all rights pertaining thereto as provided by 35 USC 156(b)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 10,
+     "text": "I have caused the seal of the Patent and Trademark Office to be affixed this Eighteenth day of April, 1986."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 10,
+     "text": "Donald J. Quigg"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 10,
+     "text": "Assistant Secretary and Commissioner of Patents and Trademarks"
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 2,
+   "line": 48,
+   "text": "FIG. 1 is a schematic diagram of suitable apparatus for detecting cancerous tissue in accordance with the invention;"
+  },
+  {
+   "fig": "2",
+   "col": 2,
+   "line": 51,
+   "text": "FIG. 2 is a diagram of a particular application of this invention to the detection of cancer in humans; and"
+  },
+  {
+   "fig": "3",
+   "col": 2,
+   "line": 53,
+   "text": "FIG. 3 is a diagram showing the signal output of the low pass filter used in the determination of the spin-spin relaxation time."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 9,
+   "line": 40,
+   "depends": null,
+   "text": "1. A method for detecting cancer comprising:\na. measuring and establishing standard NMR spin-lattice relaxation times and spin-spin relaxation times for both normal and cancerous tissue of the type under analysis using as an indicator nuclei at least one nuclei which exhibits deviant behavior in cancerous tissue;\nb. measuring the NMR spin-lattice relaxation times and spin-spin relaxation times for the suspected tissue to determine the extent of deviant behavior of the indicator nuclei, and\nc. comparing the values obtained in (b) against the standards obtained in (a)."
+  },
+  {
+   "n": 2,
+   "col": 9,
+   "line": 53,
+   "depends": 1,
+   "text": "2. The method of claim 1, wherein the indicator nuclei are cell water protons."
+  },
+  {
+   "n": 3,
+   "col": 9,
+   "line": 55,
+   "depends": null,
+   "text": "3. A method for distinguishing cancerous tissue from normal, healthy tissue which comprises:\na. positioning a tissue sample in a nuclear induction apparatus having two sources of magnetic energy;\nb. actuating the first source to expose the sample to a magnetic field;\nc. actuating the second source to expose the sample to oscillating magnetic radiation having a frequency selected to permit the absorption by selected nuclei of energy from the oscillating field through nuclear magnetic resonance absorption, thereby inducing transistors between equilibrium states and higher energy states;\nd. terminating the radiation from the second source after a predetermined duration,\ne. measuring the spin-lattice relaxation time and spin-spin relaxation time as the energized nuclei return to their equilibrium states; and\nf. comparing the relaxation times with respective predetermined standards for normal and cancerous tissue, said comparisons indicating the presence and degree of malignancy of cancerous tissue."
+  },
+  {
+   "n": 4,
+   "col": 10,
+   "line": 10,
+   "depends": 3,
+   "text": "4. The method according to claim 3, wherein the first source of magnetic energy is actuated to provide a static magnetic field orthogonal to the second magnetic field."
+  },
+  {
+   "n": 5,
+   "col": 10,
+   "line": 14,
+   "depends": 4,
+   "text": "5. A method according to claim 4, wherein the selected nuclei comprise water protons."
+  },
+  {
+   "n": 6,
+   "col": 10,
+   "line": 16,
+   "depends": 2,
+   "text": "6. A method according to claim 2, wherein the selected nuclei are phosphorus."
+  },
+  {
+   "n": 7,
+   "col": 10,
+   "line": 18,
+   "depends": null,
+   "text": "7. A method of detecting cancerous mammalian tissue comprising:\na. providing a magnetic field space having a locus therein of equal field strength;\nb. positioning a mammal within said space;\nc. directing a beam of magnetic radiation having a predetermined frequency to impinge on said locus in a direction orthogonal to the direction of the magnetic field, the frequency being selected to permit absorption by selected nuclei in the region of impingement of energy from the beam through nuclear magnetic resonance absorption, thereby inducing transitions in the selected nuclei between equilibrium states and higher energy states;\nd. terminating the beam after a predetermined duration;\ne. measuring the spin-lattice relaxation time and the spin-spin relaxation time values as the energized nuclei return to their equilibrium states; and\nf. comparing the values obtained in (e) with predetermined like values for normal and for cancerous tissue, said comparison indicating the existence and degree of malignancy."
+  },
+  {
+   "n": 8,
+   "col": 10,
+   "line": 41,
+   "depends": 7,
+   "text": "8. A method according to claim 7 further comprising scanning the beam of magnetic radiation across the locus."
+  },
+  {
+   "n": 9,
+   "col": 10,
+   "line": 44,
+   "depends": 8,
+   "text": "9. A method according to claim 8, wherein the magnetic field is formed within a hollow, cylindrical superconducting solenoid, and the locus comprises the axis of the superconducting solenoid along which axis the field strength is a maximum."
+  },
+  {
+   "n": 10,
+   "col": 10,
+   "line": 49,
+   "depends": 7,
+   "text": "10. A method according to claim 7, wherein the selected nuclei comprise water protons."
+  },
+  {
+   "n": 11,
+   "col": 10,
+   "line": 51,
+   "depends": 7,
+   "text": "11. The method of claim 7, wherein the selected nuclei is phosphorus."
+  },
+  {
+   "n": 12,
+   "col": 10,
+   "line": 53,
+   "depends": null,
+   "text": "12. Apparatus for determining whether a tissue sample is cancerous comprising:\na. nuclear induction apparatus including a magnetic field source means for forming a magnetic field space of a predetermined field strength and an oscillator source means for selectively supplying oscillating magnetic energy to the magnetic field space together with means for adjusting the frequency of the oscillator to satisfy nuclear magnetic resonance conditions for selected nuclei in the tissue sample;\nb. a tissue holding means for holding the tissue sample in the magnetic field space;\nc. means for determining the spin-lattice relaxation time of the selected nuclei in the tissue sample;\nd. means for determining the spin-spin relaxation time of the selected nuclei in the tissue sample;\ne. means for storing reference tables comprising the standard spin-lattice relaxation times and spin-spin relaxation times for the selected nuclei;\nf. means for comparing the spin-lattice relaxation time and the spin-spin relaxation time of the selected nuclei in the tissue sample with the respective standards for normal tissue for the selected nuclei, and means for indicating that the tissue sample is cancerous if the relaxation times are greater than the respective standards."
+  },
+  {
+   "n": 13,
+   "col": 11,
+   "line": 13,
+   "depends": 12,
+   "text": "13. The apparatus according to claim 12, wherein the frequency adjusting means is adjusted so that the oscillator provides a magnetic field having a frequency which satisfies the nuclear magnetic resonance conditions of water protons."
+  },
+  {
+   "n": 14,
+   "col": 11,
+   "line": 18,
+   "depends": 12,
+   "text": "14. The apparatus according to claim 12, wherein the frequency adjusting means is adjusted so that the oscillator provides a magnetic field having a frequency which satisfies the nuclear magnetic resonance conditions of phosphorus nuclei."
+  },
+  {
+   "n": 15,
+   "col": 11,
+   "line": 23,
+   "depends": null,
+   "text": "15. Apparatus for detecting cancerous cells in mammalian tissue comprising:\na. nuclear induction apparatus including a magnetic field source means for forming a magnetic field space and an oscillator source means for selectively supplying oscillating magnetic energy to the magnetic field space together with means for adjusting the frequency of the oscillator to satisfy nuclear magnetic resonance conditions for selected nuclei;\nb. means for selecting a locus in the field space of equal field strength;\nc. means adapted for holding the mammal in the magnetic field space;\nd. means for focusing the oscillating magnetic energy into a beam;\ne. means for directing the beam to impinge on said locus in a direction orthogonal to the direction of the magnetic field;\nf. means for determining the spin-lattice relaxation time of the selected nuclei in tissue cells of the mammal when said mammal is located in the region of impingement,\ng. means for determining the spin-spin relaxation time of the selected nuclei in tissue cells of the mammal when said mammal is located in the region of impingement,\nh. means for storing reference tables comprising standard spin-lattice relaxation times and spin-spin relaxation times for the selected nuclei;\ni. means for comparing the spin-lattice relaxation time and the spin-spin relaxation time of the selected nuclei in the region of impingement with their respective standards for normal tissue for the selected nuclei, and means for indicating that said mammal contains cancerous cells in the region of impingement if the relaxation times are greater than the respective standards."
+  },
+  {
+   "n": 16,
+   "col": 12,
+   "line": 29,
+   "depends": 13,
+   "text": "16. Apparatus according to claim 13 further including means for scanning the beam across the locus."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "col": 1,
+   "line": 41,
+   "ocr": "-It has now",
+   "fixed": "It has now",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 1,
+   "line": 43,
+   "ocr": "normal cells. . It",
+   "fixed": "normal cells. It",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 28,
+   "ocr": "mammalian tissue and in particular",
+   "fixed": "mammallian tissue and in particular",
+   "basis": "scan (printed spelling) + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 40,
+   "ocr": "source 285 is",
+   "fixed": "source 25 is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 53,
+   "ocr": "described. below",
+   "fixed": "described below",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 4,
+   "line": 34,
+   "ocr": "so-called. spin-lattice",
+   "fixed": "so-called spin-lattice",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 4,
+   "line": 35,
+   "ocr": "time (T,) and",
+   "fixed": "time (T_{1}) and",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 4,
+   "line": 46,
+   "ocr": "where M, is",
+   "fixed": "where M_{o} is",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 4,
+   "line": 47,
+   "ocr": "and 7 is the interval",
+   "fixed": "and τ is the interval",
+   "basis": "scan (Greek tau)"
+  },
+  {
+   "col": 4,
+   "line": 48,
+   "ocr": "if T, is multiplied",
+   "fixed": "if T_{1} is multiplied",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 4,
+   "line": 64,
+   "ocr": "Carr-Purcell. modification",
+   "fixed": "Carr-Purcell modification",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 4,
+   "line": 66,
+   "ocr": "measuring T; is",
+   "fixed": "measuring T_{2} is",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 5,
+   "line": 3,
+   "ocr": "separation tT, T, was",
+   "fixed": "separation τ, T_{2} was",
+   "basis": "scan (Greek tau, subscript)"
+  },
+  {
+   "col": 5,
+   "line": 6,
+   "ocr": "to Le.",
+   "fixed": "to 1/e.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 9,
+   "ocr": "in Table I below",
+   "fixed": "in Table 1 below",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 27,
+   "ocr": "NMR Th values",
+   "fixed": "NMR T_{1} values",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 5,
+   "line": 62,
+   "ocr": "(T,, 0.826 second; T,, 0.118",
+   "fixed": "(T_{1}, 0.826 second; T_{2}, 0.118",
+   "basis": "scan (subscripts)"
+  },
+  {
+   "col": 5,
+   "line": 63,
+   "ocr": "(T,, 0.293 second; Tz, 0.050",
+   "fixed": "(T_{1}, 0.293 second; T_{2}, 0.050",
+   "basis": "scan (subscripts)"
+  },
+  {
+   "col": 6,
+   "line": 7,
+   "ocr": "values of T, in Walker",
+   "fixed": "values of T_{1} in Walker",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 6,
+   "line": 9,
+   "ocr": "values of T, in any. of",
+   "fixed": "values of T_{1} in any of",
+   "basis": "scan (subscript, speck)"
+  },
+  {
+   "col": 6,
+   "line": 24,
+   "ocr": "values of T, in the malignant",
+   "fixed": "values of T_{2} in the malignant",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 6,
+   "line": 26,
+   "ocr": "values of T, in rectus",
+   "fixed": "values of T_{2} in rectus",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 6,
+   "line": 28,
+   "ocr": "measurements of T, in the",
+   "fixed": "measurements of T_{1} in the",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 6,
+   "line": 38,
+   "ocr": "In fact T, proved",
+   "fixed": "In fact T_{1} proved",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 6,
+   "line": 43,
+   "ocr": "compute T, and T, and",
+   "fixed": "compute T_{1} and T_{2} and",
+   "basis": "scan (subscripts)"
+  },
+  {
+   "col": 6,
+   "line": 47,
+   "ocr": "calculate 7, = mnull/1n2 where 7 is",
+   "fixed": "calculate T_{1} = τnull/1n2 where τ is",
+   "basis": "scan (subscript, Greek tau)"
+  },
+  {
+   "col": 6,
+   "line": 50,
+   "ocr": "value of null is",
+   "fixed": "value of τnull is",
+   "basis": "scan (Greek tau)"
+  },
+  {
+   "col": 6,
+   "line": 51,
+   "ocr": "value 7 selected",
+   "fixed": "value τ selected",
+   "basis": "scan (Greek tau)"
+  },
+  {
+   "col": 6,
+   "line": 53,
+   "ocr": "setting of 7 on",
+   "fixed": "setting of τ on",
+   "basis": "scan (Greek tau)"
+  },
+  {
+   "col": 6,
+   "line": 56,
+   "ocr": "switch §2 which",
+   "fixed": "switch 52 which",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 57,
+   "ocr": "values of T, with",
+   "fixed": "values of T_{1} with",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 6,
+   "line": 59,
+   "ocr": "value of T, appearing",
+   "fixed": "value of T_{1} appearing",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 6,
+   "line": 61,
+   "ocr": "computer 55, This",
+   "fixed": "computer 55. This",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 61,
+   "ocr": "value of T, at input",
+   "fixed": "value of T_{1} at input",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 7,
+   "line": 9,
+   "ocr": "coder 58.and",
+   "fixed": "coder 58 and",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 11,
+   "ocr": "values of T, for the sample",
+   "fixed": "values of T_{1} for the sample",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 7,
+   "line": 17,
+   "ocr": "values of T, for comparing",
+   "fixed": "values of T_{2} for comparing",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 7,
+   "line": 21,
+   "ocr": "times 0, 27, 47, 67, etc., where 7 is",
+   "fixed": "times 0, 2τ, 4τ, 6τ, etc., where τ is",
+   "basis": "scan (Greek tau)"
+  },
+  {
+   "col": 7,
+   "line": 24,
+   "ocr": "determining T,. A signal",
+   "fixed": "determining T_{2}. A signal",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 7,
+   "line": 24,
+   "ocr": "the r selected",
+   "fixed": "the τ selected",
+   "basis": "scan (Greek tau)"
+  },
+  {
+   "col": 7,
+   "line": 28,
+   "ocr": "determine T,, reference",
+   "fixed": "determine T_{2}, reference",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 7,
+   "line": 32,
+   "ocr": "measuring T,. The 90°",
+   "fixed": "measuring T_{2}. The 90°",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 7,
+   "line": 34,
+   "ocr": "times 7, 37, 51, 77, etc.",
+   "fixed": "times τ, 3τ, 5τ, 7τ, etc.",
+   "basis": "scan (Greek tau)"
+  },
+  {
+   "col": 7,
+   "line": 35,
+   "ocr": "times 0, 27, 417, 67, etc.",
+   "fixed": "times 0, 2τ, 4τ, 6τ, etc.",
+   "basis": "scan (Greek tau)"
+  },
+  {
+   "col": 7,
+   "line": 40,
+   "ocr": "terminal. 66",
+   "fixed": "terminal 66",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 7,
+   "line": 45,
+   "ocr": "V(2) . .. VCD where",
+   "fixed": "V(2) . . . V(I) where",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 49,
+   "ocr": "compute T; by",
+   "fixed": "compute T_{2} by",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 7,
+   "line": 63,
+   "ocr": "value of T, can be",
+   "fixed": "value of T_{2} can be",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 8,
+   "line": 2,
+   "ocr": "values of Ty}.",
+   "fixed": "values of T_{2}.",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 8,
+   "line": 3,
+   "ocr": "computer 67 is T, and",
+   "fixed": "computer 67 is T_{2} and",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 8,
+   "line": 7,
+   "ocr": "manner as T, is",
+   "fixed": "manner as T_{1} is",
+   "basis": "scan (subscript)"
+  },
+  {
+   "col": 8,
+   "line": 68,
+   "ocr": "method. described",
+   "fixed": "method described",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 9,
+   "line": 18,
+   "ocr": "cells. [t can",
+   "fixed": "cells. It can",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 30,
+   "ocr": "present in- 3, vention",
+   "fixed": "present invention",
+   "basis": "scan (gutter number 30 read into text)"
+  },
+  {
+   "col": 10,
+   "line": 36,
+   "ocr": "their. equilibrium",
+   "fixed": "their equilibrium",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 11,
+   "line": 1,
+   "ocr": "means: for determining",
+   "fixed": "means for determining",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 11,
+   "line": 16,
+   "ocr": "condi_ tions",
+   "fixed": "conditions",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 11,
+   "line": 18,
+   "ocr": "14, The apparatus",
+   "fixed": "14. The apparatus",
+   "basis": "scan"
+  },
+  {
+   "col": 12,
+   "line": 2,
+   "ocr": "- ¢. means",
+   "fixed": "c. means",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "3,557,777 V/P971 Coenen",
+   "fixed": "3,557,777 1/1971 Cohen",
+   "basis": "scan (front page) + Google Patents"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "[52] U.S. Chow.",
+   "fixed": "[52] U.S. Cl.",
+   "basis": "scan (front page)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 0,
+   "ocr": "[SL] Unt. Chine",
+   "fixed": "[51] Int. Cl.",
+   "basis": "scan (front page)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 9,
+   "ocr": "Tt is certified that error appears in the above~identified patert",
+   "fixed": "It is certified that error appears in the above-identified patent",
+   "basis": "scan (certificate)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 9,
+   "ocr": "tg” 2nt /Taw should read --e72nt/T2__",
+   "fixed": "\"e^{-2nτ /T_{2}}\" should read --e^{-2nτ/T_{2}}--",
+   "basis": "scan (certificate)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 9,
+   "ocr": "-~-measured--",
+   "fixed": "--measured--",
+   "basis": "scan (certificate)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 9,
+   "ocr": "Signed and sealed this lth day of Hay 197.",
+   "fixed": "Signed and sealed this 14th day of May 1974.",
+   "basis": "scan (certificate)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 9,
+   "ocr": "(SAL)",
+   "fixed": "(SEAL)",
+   "basis": "scan (certificate)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 9,
+   "ocr": "EDWARD M.FPLETCHER,JR.",
+   "fixed": "EDWARD M. FLETCHER, JR.",
+   "basis": "scan (certificate)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 9,
+   "ocr": "CO. MARSHALL DAW",
+   "fixed": "C. MARSHALL DANN",
+   "basis": "scan (certificate)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 10,
+   "ocr": "Dated > Feb. 5, 1974",
+   "fixed": "Dated : Feb. 5, 1974",
+   "basis": "scan (certificate)"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 10,
+   "ocr": "Patent Owner Raymond V. Damadian",
+   "fixed": "Patent Owner : Raymond V. Damadian",
+   "basis": "scan (certificate)"
+  }
+ ]
+}

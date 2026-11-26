@@ -1,0 +1,54 @@
+{
+  "patent": "Filed 1885-10-23 and issued 1886-09-21 to William Stanley, Jr., of Great Barrington, Massachusetts, assigned to George Westinghouse, Jr. The induction-coil is a transformer for alternating-current lamp circuits: primary and secondary coils on one iron core shaped as a ring or rounded rectangle, forming an approximately closed magnetic circuit (claim 1), with a small gap whose width is set by a non-magnetic screw (Figs. 1 and 2) or bridged by a movable soft-iron piece (Fig. 3). Changing the gap changes the magnetic resistance of the core and, by the patent's account, the secondary electro-motive force, so lamp brightness can be set or evened out. Stanley, then working for Westinghouse, demonstrated an alternating-current lighting system with transformers at Great Barrington in March 1886. Closed-core transformers had been developed in 1885 by Zipernowsky, Bláthy and Déri at Ganz and Co., Budapest; the Gaulard and Gibbs secondary generator, whose rights Westinghouse acquired, used straight cores.",
+  "figs": {
+    "1": "Ring core A with the gap at the right between ends a' and a^{2}. The winding covers the left arc of the ring, its turns drawn radially in two layers: the primary b' inside, showing where the winding steps at its ends, and the secondary b^{2} outside, its turns ending in dots along the outer edge. Leads are drawn as coiled flexible wires: e' and e^{2} from the primary, e^{3} and e^{4} from the secondary. Projections f' and f^{2} stand off the two core ends; the knurled screw f runs up through both. The drawing prints the text's a', b' and e' as a^{1}, b^{1} and e^{1}.",
+    "2": "Rounded-rectangle core A with corners g' to g^{4}; the winding sits on the left limb and the gap is in the right limb. The cross-hatched block is the winding of alternating primary and secondary layers, with a pair of leads b', b^{2} leaving at the top and at the bottom. Pieces f^{4} (upper) and f^{3} (lower) stand off the core ends, each ending in a boss, c^{2} and c'; the screw enters from below through c' and bears on c^{2}, holding the gap open against the spring of the core. The drawing prints the text's b' and c' as b^{1} and c^{1}.",
+    "3": "Ring core alone, coils not drawn, with a gap at the right. The wedge-shaped soft-iron piece h sits partly in the gap; screw h' with a knurled head draws it out of or pushes it into the gap. The cylindrical block on the screw shank is not labelled or described."
+  },
+  "parts": {
+    "a'": "With a^{2}, the two confronting ends of the core either side of the gap.",
+    "e'": "Primary terminals are e' and e^{2}; secondary terminals are e^{3} and e^{4}.",
+    "f": "The Fig. 2 passage calls that figure's screw f as well, but the Fig. 2 drawing does not label it.",
+    "c'": "In Fig. 2, c' and c^{2} mark the bosses at the outer ends of pieces f^{3} and f^{4}; the screw passes through c' and bears on c^{2}.",
+    "c^{2}": "Named in the text only as \"the other\" piece, against which the screw bears.",
+    "h'": "The printed h' in Fig. 3 is easily misread as k."
+  },
+  "glossary": [
+    {
+      "term": "induction-coil / inductorium",
+      "def": "Here a transformer: two windings on a common iron core, the primary carrying alternating current and the secondary feeding the lamps."
+    },
+    {
+      "term": "electro-motive force",
+      "def": "Voltage induced or driven in a circuit."
+    },
+    {
+      "term": "magnetic resistance",
+      "def": "Reluctance: opposition of a magnetic circuit to magnetic flux. An air gap in an iron core adds most of it."
+    },
+    {
+      "term": "closed magnetic circuit",
+      "def": "A core that forms a loop, so the flux returns through iron rather than through air; here 'approximately' closed because of the adjustable gap."
+    },
+    {
+      "term": "soft iron",
+      "def": "Low-carbon iron that magnetizes and demagnetizes easily, with little retained magnetism."
+    },
+    {
+      "term": "bundle of separate wires or strips",
+      "def": "A core built of insulated wires or sheets instead of a solid piece, the usual way of limiting eddy currents in alternating-current cores."
+    },
+    {
+      "term": "intermittent or alternating currents",
+      "def": "Interrupted direct current or alternating current; a transformer works only with a changing current in the primary."
+    },
+    {
+      "term": "superposed",
+      "def": "Wound one over the other on the same part of the core."
+    },
+    {
+      "term": "poles",
+      "def": "In the Fig. 3 passage, the two confronting ends of the core at the gap."
+    }
+  ]
+}

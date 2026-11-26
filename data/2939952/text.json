@@ -1,0 +1,4919 @@
+{
+ "pn": "2939952",
+ "number": "2,939,952",
+ "title": "APPARATUS FOR SEPARATING CHARGED PARTICLES OF DIFFERENT SPECIFIC CHARGES",
+ "inventors": [
+  "Wolfgang Paul",
+  "Helmut Steinwedel"
+ ],
+ "assignee": "Wolfgang Paul, Bonn, Germany (said Steinwedel assignor to said Paul)",
+ "filed": "1954-12-21",
+ "issued": "1960-06-07",
+ "appl_no": "476,812",
+ "priority": "Claims priority, application Germany Dec. 23, 1953",
+ "int_cl": "",
+ "us_cl": "250—41.9",
+ "refs_patents": [
+  {
+   "no": "2,615,135",
+   "date": "Oct. 21, 1952",
+   "name": "Glenn",
+   "cl": ""
+  },
+  {
+   "no": "2,627,034",
+   "date": "Jan. 27, 1953",
+   "name": "Washburn et al.",
+   "cl": ""
+  },
+  {
+   "no": "2,769,910",
+   "date": "Nov. 6, 1956",
+   "name": "Elings",
+   "cl": ""
+  }
+ ],
+ "refs_other": [
+  "“A New Mass Spectrometer,” by Smythe et al., Physical Review, vol. 40, May 1, 1932, pages 429 to 433."
+ ],
+ "examiners": "",
+ "claims_count": 17,
+ "drawing_figures": 12,
+ "abstract": "",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "col": 1,
+     "line": 15,
+     "text": "The invention relates to methods of separating or separately detecting charged particles of different specific charges."
+    },
+    {
+     "col": 1,
+     "line": 18,
+     "text": "Such arrangements may be employed in the usual manner for mass-spectroscopy and isolation of isotopes, further as pressure-gauges for measuring partial pressure of the components of highly thinned gas mixtures, to determine leakes in vacuum apparatus, to analyze traces and to measure small vapor pressure, particularly in gas mixtures. In the past ion separating devices which offer both high accuracy and high intensity measurements have been extremely expensive and complex in view of the physical principles upon which their operation is based."
+    },
+    {
+     "col": 1,
+     "line": 29,
+     "text": "The method of the invention utilizes an electric field which is periodical in time but which does not serve for measuring a transit time or the velocity of the ions and is characterized in that the potential of the electric field is a quadratic function of the co-ordinates x, y, z. The most general such potential is defined by the equation:"
+    },
+    {
+     "col": 1,
+     "line": 35,
+     "text": "(1) φ(x,y,z,t)=f(t) (αx^{2}+βx^{2}−γz^{2})"
+    },
+    {
+     "col": 1,
+     "line": 37,
+     "text": "Here f(t) is an arbitrary periodic function of the time t. Because of the Laplacian Δφ=0 the constants α, β and γ have to satisfy the equation α+β=γ. When ions are brought into such a field, their equations of motion are differential equations with periodical coefficients, the equations being characterized by having ranges of stable and unstable solutions. Thus, there exist two different kinds of ion paths; either the ions perform oscillations around the centre of symmetry of the field, the amplitudes of the oscillations remaining smaller than a certain maximum value (stable paths), or the amplitudes of the oscillations increase extremely rapidly so that, within a very short time, the particles impinge on the field generating electrodes and are thus removed (unstable paths). When the field and the dependence on the time f(t) are given, the specific charge of a particular ion will determine whether it travels along a stable or unstable path. In particular, the stability or instability of the paths is independent of the point of origin and of the direction and magnitude of the initial velocity of the ion. If e/m of the ion lies in a stable range, then all its possible paths are stable and, conversely, if e/m of the ion lies in an unstable range, then all its possible paths are unstable. The positions and widths of the stable ranges of the specific charge can be varied within very wide limits solely by varying the amplitude, frequency and/or shape of the field creating voltages which determine the function f(t)."
+    },
+    {
+     "col": 1,
+     "line": 64,
+     "text": "The invention will be more clearly understood from the following description when taken in connection with the drawings, in which:"
+    },
+    {
+     "col": 1,
+     "line": 67,
+     "text": "Fig. 1 illustrates electrodes for use in carrying out the present invention;"
+    },
+    {
+     "col": 1,
+     "line": 69,
+     "text": "Fig. 2 diagrammatically illustrates a longitudinal cross section through a structure which operates in accordance with the present invention;"
+    },
+    {
+     "col": 2,
+     "line": 1,
+     "text": "Fig. 3 illustrates a section along the line III—III of Fig. 2;"
+    },
+    {
+     "col": 2,
+     "line": 3,
+     "text": "Fig. 4 is a similar cross-section to that of Figure 3 and illustrates differently shaped electrodes;"
+    },
+    {
+     "col": 2,
+     "line": 5,
+     "text": "Fig. 5 is a circuit diagram showing the external connections of the electrodes of Figures 3 and 4;"
+    },
+    {
+     "col": 2,
+     "line": 7,
+     "text": "Figs. 6, 7, 8 and 9 are diagrams showing the relationship between various parameters in the operation of the novel invention;"
+    },
+    {
+     "col": 2,
+     "line": 10,
+     "text": "Fig. 10 illustrates a modified electrode arrangement for use in accordance with the present invention;"
+    },
+    {
+     "col": 2,
+     "line": 12,
+     "text": "Fig. 11 illustrates still another such electrode arrangement; and"
+    },
+    {
+     "col": 2,
+     "line": 14,
+     "text": "Fig. 12 illustrates a longitudinal section through an arrangement employing electrodes similar to those of Fig. 11."
+    },
+    {
+     "col": 2,
+     "line": 17,
+     "text": "A table of symbols to be used in the foregoing is as follows:"
+    },
+    {
+     "col": 2,
+     "line": 19,
+     "text": "e=ionic charge\nm=ionic mass\nM=mass number\neV=Electron volt\nx,y,z=Coordinate axes of a rectangular system of coordinates\nφ=potential\nf(t)=periodic function of time\nr_{0}=distance of the electrodes from the center of the symmetry axis\nU_{B}=accelerating potential\nU_{0}=direct voltage\nV=amplitude of an alternating voltage\nf,ν=frequency\nW=2πf=cyclic frequency\nẋ=derivative of x with respect to time (velocity in x-direction)\nẍ=second derivative of x with respect to time (acceleration in x-direction)\nE_{x}=electric field strength\nZζ=variable in the Matthieu differential equation\na,q,A,B=constants in the solution of the Matthieu equation\nμ=magnitude resulting from a and q\nΣ_{−∞}^{+∞}n=sum of all n series elements, for n from minus infinity to plus infinity\nc_{n}=constants assigned to the individual series elements\ni=√−1, imaginary unit\ne=base of the natural log system\nL=length of electrodes\nν=ion speed\nτ=high frequency period\nδ=angular aperture\nΔ=difference\nΔ=LaPlace's operator"
+    },
+    {
+     "col": 2,
+     "line": 56,
+     "text": "In all the drawings the same reference numerals indicate corresponding parts."
+    },
+    {
+     "col": 2,
+     "line": 58,
+     "text": "The electrodes of Fig. 1 serve to create a cylindrically symmetrical electric field. The arrangement comprises four electrodes A, A, B, B of hyperboloidal shape, the electrodes being arranged at the distance r_{0} from the x-axis. The two electrodes A are electrically interconnected, and the electrodes B are electrically interconnected. A time-periodical voltage U=U_{0}+V cos ωt is applied on the pairs of electrodes A and B, whereby an electric field is created having a potential φ=(U/r_{0}^{2}) (y^{2}−z^{2}). This field is independent of x, its centre of symmetry being the x-axis. In this case α=0 in Equation 1."
+    },
+    {
+     "col": 2,
+     "line": 70,
+     "text": "Figs. 2 and 3 show an arrangement comprising a vessel 4, which can be evacuated and in which electrodes 1 are provided with facing surfaces which are of hyperboloidal shape similar to those of the electrodes of Fig. 1, but for ease of manufacture the electrodes are not hollow but solid. However, instead of the electrodes shown in Figs. 2 and 3, electrodes of the shape shown in Fig. 1 could alternatively be used. Furthermore, for manufacturing reasons it may be preferable to employ four circularly cylindrical electrodes as shown in Fig. 4 for creating the cylindrically symmetrical electric field with sufficient approximation, the radius of the electrodes of Fig. 4 equalling the radius of curvature of hyperboloidal electrode surfaces at the vertices. In any case, the electrodes are mounted by, and spaced from one another by discs 4′ of ceramic material. While the electrodes are shown as being fixed, it is to be understood that they could be adjustably mounted. A voltage U is placed between pairs of opposite electrodes by means of leads 2 passing through the wall of the vessel 4 in a vacuum-tight manner. A conventional ion source 5 (such as an electron impact source or a low-voltage arc discharge), is connected to the vessel 4 in a vacuum-tight manner by means of flanges to generate ions to be separated in the direction of the arrow 6 and into the space between the electrodes 1 with a kinetic energy eU_{B}. The ions are separated in accordance with their stability between the electrodes. The ions that have stable paths can travel through the electric field and are collected by a cup-shaped collecting electrode 3. An electrically insulated lead from the collecting electrode 3 passes in a vacuum-tight manner through the wall of the vessel 4 (for example, the lead may be taken through a sealing boss). The charge on the collecting electrode 3 flows through a resistor 7 to earth and the voltage thereby created across the resistor 7 is measured. Two circular diaphragms 8 respectively screen the source 5 of ions and the collecting electrode 3 against the high-frequency electric field between the electrodes 1."
+    },
+    {
+     "col": 3,
+     "line": 38,
+     "text": "Fig. 5 illustrates how voltage supply sources are coupled to the electrodes 1. An electric generator 9 creates a high-frequency voltage V cos ωt which is applied to the electrodes 1 through the two capacitors 14. Moreover, the high frequency voltage is rectified and smoothed by a rectifier 10. The direct voltage so created is divided by a potentiometer 15 and is also fed to the electrodes 1 through choke coils 13, the direct voltage being U=uV. Therefore, the ratio u of the direct voltage U to the alternating voltage V is substantially independent of alterations of the alternating voltage. Alternatively, a direct current voltage may be supplied to the electrodes 1 by an independent direct voltage source 11 and an electric two-way switch 11a."
+    },
+    {
+     "col": 3,
+     "line": 52,
+     "text": "The arrangement described operates as follows:"
+    },
+    {
+     "col": 3,
+     "line": 53,
+     "text": "In the electric field having the potential"
+    },
+    {
+     "col": 3,
+     "line": 54,
+     "text": "φ=(U(t)/r_{0}^{2}) (y^{2}−z^{2})",
+     "formula": true
+    },
+    {
+     "col": 3,
+     "line": 56,
+     "text": "the electric force is"
+    },
+    {
+     "col": 3,
+     "line": 57,
+     "text": "E_{x}=0; E_{y}=(2U/r_{0}^{2}) y; E_{z}=−(2U/r_{0}^{2}) z",
+     "formula": true
+    },
+    {
+     "col": 3,
+     "line": 58,
+     "text": "When U is an alternating voltage corresponding to the equation U=V cos ωt, the equations of motion of an ion are as follows:"
+    },
+    {
+     "col": 3,
+     "line": 61,
+     "text": "(2) mẍ=0,\nmÿ−(2eV/r_{0}^{2}) y cos ωt=0,\nmz̈+(2eV/r_{0}^{2}) z cos ωt=0.",
+     "formula": true
+    },
+    {
+     "col": 3,
+     "line": 65,
+     "text": "On integration, the first equation leads to ẍ=constant. That is to say, the ion travels in the x- direction with a constant speed. The other two equations are specific cases of the Matthieu differential equation which, in its general form, is as follows:"
+    },
+    {
+     "col": 3,
+     "line": 71,
+     "text": "(3) d^{2}z/dξ^{2}+(a−2q cos 2ξ)z=0",
+     "formula": true
+    },
+    {
+     "col": 3,
+     "line": 72,
+     "text": "The general solution of this equation is as follows:"
+    },
+    {
+     "col": 3,
+     "line": 74,
+     "text": "z=Ae^{μξ}Σ_{−∞}^{+∞}nc_{n}e^{+inξ}+Be^{−μξ}Σ_{−∞}^{+∞}nc_{n}e^{−inξ}",
+     "formula": true
+    },
+    {
+     "col": 4,
+     "line": 1,
+     "text": "From this it will be recognized that two different kinds of solutions exist. If the characteristic exponent μ, which can be computed from a and q, is imaginary, the solution remains finite for all values of ξ. If, however, μ is real or complex, the amplitude increases exponentially and the path is unstable. Whether the solution is stable or unstable depends only on the value of the parameters a and q, but is independent of the initial values z_{0} and ż_{0} of z. Fig. 6 illustrates the stable ranges in the a, q—plane, the stable ranges being shaded."
+    },
+    {
+     "col": 4,
+     "line": 11,
+     "text": "From a comparison of Equation 2 with Equation 3, it will be seen that in the present case"
+    },
+    {
+     "col": 4,
+     "line": 14,
+     "text": "(4) a=0; q=4eV/r_{0}^{2}mω^{2}; ξ=ωt/2",
+     "formula": true
+    },
+    {
+     "col": 4,
+     "line": 15,
+     "text": "Thus the ions may be located at any arbitrary point of the q-axis of the diagram of Fig. 6."
+    },
+    {
+     "col": 4,
+     "line": 17,
+     "text": "Fig. 7 illustrates the vicinity of the q-axis. For clarity, the higher ranges are shown exaggerated. From q=0 to q=0.92, the ion is in a stable range; from q=0.92 to q=7.50, it is in an unstable range; from q=7.50 to q=7.52, it is again in a stable range; and so on."
+    },
+    {
+     "col": 4,
+     "line": 22,
+     "text": "When the alternating voltage and the frequency are given, the value of e/m determines in which range the ion is located, as can be seen from Equation 4."
+    },
+    {
+     "col": 4,
+     "line": 25,
+     "text": "For an alternating voltage of 1000 volts, the first two stable ranges F_{1} and F_{2} are shown in a M, ν-diagram in Fig 8, the stable ranges being shaded (M being the mass number defined by m=m_{0}M and ν being the frequency). From this the following can be recognized: when an ion beam comprises ions of different masses, and when the alternating voltage and frequency are given, then in the first range the only ions that can pass through the field are those having masses which are greater than"
+    },
+    {
+     "col": 4,
+     "line": 35,
+     "text": "Mm_{0}=4eV/0.92r_{0}^{2}ω^{2}",
+     "formula": true
+    },
+    {
+     "col": 4,
+     "line": 36,
+     "text": "In the second range, only a finite mass interval"
+    },
+    {
+     "col": 4,
+     "line": 38,
+     "text": "Δm=mΔq/q",
+     "formula": true
+    },
+    {
+     "col": 4,
+     "line": 39,
+     "text": "can pass. Since for the second range Δq/q equals approximately 1%, isotopes of comparatively small masses can be separated. Here it is somewhat disturbing that a mass continuum of the first range is superimposed on the second range. From the third range onwards Δq is very small so that very good resolution can be expected. However, these ranges can hardly be used because the intensities are too small. As can be verified by computation, the initial energies of the ions in the y- and z-directions must not exceed the value 10^{−6}eV in the third range."
+    },
+    {
+     "col": 4,
+     "line": 50,
+     "text": "When a direct voltage is superimposed on the alternating voltage; that is to say when U=U_{0}+V cos ωt, only a small mass interval ΔM can pass in the first range. The equations of motion now read as follows:"
+    },
+    {
+     "col": 4,
+     "line": 55,
+     "text": "(5) ÿ−(2e/mr_{0}^{2})(U_{0}+V cos ωt)y=0\nz̈+(2e/mr_{0}^{2})(U_{0}+V cos ωt)z=0",
+     "formula": true
+    },
+    {
+     "col": 4,
+     "line": 57,
+     "text": "A comparison of Equation 5 with Equation 3 shows that"
+    },
+    {
+     "col": 4,
+     "line": 59,
+     "text": "a_{y}=−8eU_{0}/r*2mω^{2}; a_{z}=8eU_{0}/r_{0}^{2}mω^{2}",
+     "formula": true
+    },
+    {
+     "col": 4,
+     "line": 60,
+     "text": "while q=4eV/r^{2}mω^{2} holds for both directions of movement. The ratio a/q=±2U_{0}/V depends only on the direct voltage and the alternating voltage, but does not depend on the frequency and ion mass. In the a, q-diagram, the lines u=U_{0}/V=a/2q are rectilinear lines starting at the origin and lying symmetrically to the q-axis. In Fig. 9, a section of the first range of stability and a pair of rectiliner lines u=const., are shown. The half plane a<0 corresponds to the y-direction and the half plane a>0 corresponds to the z-direction."
+    },
+    {
+     "col": 4,
+     "line": 70,
+     "text": "Assuming that the amplitude and frequency of the alternating voltage are kept constant, all the masses will lie on the rectilinear lines u=const. The mass m_{1} corresponds to the value q_{1}, q_{2}≙m_{2} and q_{3}≙m_{3}. In the y-direction, only the masses from m_{1} to m_{3} fall into a stable range, and in the z-direction, only masses exceeding m_{2} fall in a stable range. Since an ion can pass through the electric field only if it is stable in the y-direction as well as in the z-direction, the result is that only a mass interval Δm=m_{1}−m_{2} can pass through the field. When the direct voltage is increased, the angle between the rectilinear lines and the q-axis is increased whereby the pass range is narrowed. For the ratio U_{0}/V=0.166, an infinitely small range results in the limiting case. Above this value no ion can pass through the field. In this case, q assumes the value q_{max}=0.706. The width of the stable range in dependence on the direct voltage is obtained from the points of intersection of the rectilinear lines u=const. with the limiting curves of the first range of stability. In the vicinity of the point q=q_{max} it is"
+    },
+    {
+     "col": 5,
+     "line": 16,
+     "text": "Δ≈4(0.236−1.410u)",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 18,
+     "text": "At constant field quantities, this corresponds to a mass range"
+    },
+    {
+     "col": 5,
+     "line": 20,
+     "text": "Δm=4mq^{−1}(0.236−1.410u)",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 21,
+     "text": "From this, the theoretical mass resolution can be computed as a function of the quantity u as"
+    },
+    {
+     "col": 5,
+     "line": 23,
+     "text": "m/Δm=(1/2)(ν/Δν)=0.75/(1−u/u_{max})",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 25,
+     "text": "In the foregoing, it has been assumed that the electric field is infinitely long in the x-direction since only for t→∞ the amplitudes of the unstable ion paths approximate ∞. In practice, however, it is sufficient to postulate that the ions are subjected to so many alternations of the electric field that the amplitudes of the unstable paths increase sufficiently for the ions to impinge on the electrodes creating the electric field. Thus, it is only necessary to make the length L of the electric field great enough that the time that the ions are within the field is large as compared to the duration of a single high-frequency period. This time is τ=L/ν when the velocity of the ions is"
+    },
+    {
+     "col": 5,
+     "line": 38,
+     "text": "ν=√(2eU_{B}/m)",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 40,
+     "text": "U_{B} being the accelerating voltage. This expression has to be great as compared with 1/ν. That is to say;"
+    },
+    {
+     "col": 5,
+     "line": 42,
+     "text": "L>r_{0}π√(2U_{B}q/V)",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 44,
+     "text": "For L=50 cm., r_{0}=0.5 cm. and V=1000 volts, the number of field alternations is n=850√U_{B}. 100 V-ions are therefore subjected to 85 field alternations, and 1000 V-ions to only 25, so that the amplitudes of the wrong masses will clearly increase to such an extent that they cannot reach the collecting electrode."
+    },
+    {
+     "col": 5,
+     "line": 50,
+     "text": "From the foregoing it will be seen that the cylindrically symmetrical arrangement can be used as a mass spectrometer having an adjustable pass range and as an isotope separator. The arrangement using circularly cylindrical electrodes allows a convenient, material-saving and energy-saving multiplication of the separating arrangement in order to obtain high intensities, wherein circularly cylindrical electrodes are effective in a plurality of individual arrangements. Fig. 10 illustrates electrodes forming such an assembly of circularly cylindrical electrodes A and B; all the electrodes A being electrically connected and all the electrodes B being electrically connected."
+    },
+    {
+     "col": 5,
+     "line": 62,
+     "text": "Fig. 11 shows another construction of the electrodes. In this case, the potential is"
+    },
+    {
+     "col": 5,
+     "line": 65,
+     "text": "φ=(U/r_{0}^{2}) (x^{2}+y^{2}−2_{0}^{2})",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 66,
+     "text": "thus, in Equation 1 it is for this case"
+    },
+    {
+     "col": 5,
+     "line": 68,
+     "text": "α=β=1/2γ",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 69,
+     "text": "Fig. 12 illustrates a section through an arrangement using the electrodes of Fig. 11. The electric field is created by three electrodes A, B, B, the adjacent surfaces of the three electrodes forming a one-part hyperboloid of revolution and a two-part hyperboloid of revolution, the assymptotic cones having an apex angle δ of 109.47° (tan (δ/2)=√2). The electrodes B are conductively interconnected and a time periodical voltage U is applied between the electrode A and the pair of electrodes B. The electrodes are arranged in a vessel 16, which can be evacuated through a tube 21, leads to the electrodes passing through the wall of the vessel 16 in a vacuum-tight manner in which the electrode A is held by an insulating support 22. For creating ions in the space between th electrodes, a gas to be tested is introduced into the arrangement at a low pressure. An incandescent cathode is indicated by reference numeral 17. Electrons emitted by the cathode 17 pass into the space between the electrodes through holes 18 in one of the electrodes B. An electrode 19 is provided for focusing the electrons, and is negatively biased relative to the cathode 17. The electrons ionize the gas in the ionization space 20 between the electrodes."
+    },
+    {
+     "col": 6,
+     "line": 17,
+     "text": "When, a potential U_{0}+V sin ωt is applied between the electrode A and the pair of electrodes B, ions of the stable e/m=range remain between the electrodes while ions of the unstable range impinge on the electrodes. The ions with unstable paths then represent an ohmic charge in the high frequency circuit while the ions with stable paths represents an inductive charge since they do not contribute to the flow of current. By well known means such as electronic power factor meters, the inductive load and hence the stable ions could be easily determined. It is also possible to increase the accuracy of measurement if a narrow unstable band is embedded in the stable band. This can be accomplished by superimposition of an addiitonal alternative current. The feeding of the auxiliary voltage is accomplished in any desired manner customary in high frequency technique for superimposition of two voltages. This rotationally symmetrical arrangement can be used as a mass spectrometer."
+    },
+    {
+     "col": 6,
+     "line": 36,
+     "text": "In connection with both field arrangements, namely the cylindrically symmetrical arrangement of Fig. 2 and the rotationally symmetrical arrangement of Fig. 12, the sinusoidal periodicity is only one possible form of oscillation. The method may alternatively be performed by using oscillations of different forms. The position of the stable and unstable ranges is hardly affected by the form of the oscillations."
+    },
+    {
+     "col": 6,
+     "line": 44,
+     "text": "The arrangements of the invention are distinguished from other arrangements using a high frequency electric field since in the present case this field is not utilized for measuring a transit time of the ions. Consequently, the present arrangements are independent of the phase at which the ions enter the electric field so that the arrangements of the invention do not require impulsing and the separation of ions of different specific charges may be effected continuously."
+    },
+    {
+     "col": 6,
+     "line": 53,
+     "text": "The arrangements of the invention are furthermore distinguished from the previously suggested arrangement by the feature that the static electric field (that is to say the time mean value of the time-periodical field) is only an auxiliary field for varying and narrowing the stable range, but is not required for causing the ions to oscillate harmonically as in the case with the previously suggested method. Consequently, in the method of the present invention the direct voltage is considerably lower than the peak value of the high frequency alternating voltage while conversely in the previous method the alternating voltage had to be considerably lower than the direct voltage. Moreover, no magnetic field for additionally focusing the ions is required since, averaging over the time, no de-focusing forces act on the ions in the stable range. The advantages of the invention as compared with the known methods are essentially the following:"
+    },
+    {
+     "col": 6,
+     "line": 71,
+     "text": "(1) A great simplification of the necessary apparatus is achieved. Since the method only requires an electric alternating field of moderate voltage and frequency, the required apparatus may be much simpler than the apparatus previously required."
+    },
+    {
+     "col": 7,
+     "line": 1,
+     "text": "(2) An independence from the initial condition is achieved. Since the operation of the arrangement is independent of the direction and the value of the initial velocity of the ions, ion sources may be used which create ions of highly different velocities without thereby impairing the resolution, that is to say the accuracy of separation. The resolution is defined for ions of known charge by the expression m/Δm, m being the mass of the ions to be detected and Δm the mass difference between other ions which can be separated from the ions to be detected. Since with most of the known methods only ions within narrow ranges of directions and velocities can be used for the measurement, a considerable gain of intensity results in comparison with those methods so that the requirements on the sensitivity of the detecting means may be considerably lowered. High intensities (that is to say high ion currents) are of especial advantage in arrangements for separating isotopes."
+    },
+    {
+     "col": 7,
+     "line": 20,
+     "text": "(3) A convenient control is achieved of the position and width of the stable and unstable ranges by only varying the frequency, amplitude and/or shape of the field-creating voltages. Thus, in an arrangement, after it has been set up, the measuring range and the accuracy may yet be varied within wide limits."
+    },
+    {
+     "col": 7,
+     "line": 26,
+     "text": "The advantages of the arrangement as compared with transit-time spectrometers are especially the following:"
+    },
+    {
+     "col": 7,
+     "line": 28,
+     "text": "(4) Since the present method is independent of the initial conditions (see paragraph 2 above) it is not necessary to use impulsing or to comply with phase conditions."
+    },
+    {
+     "col": 7,
+     "line": 32,
+     "text": "(5) It is easily achieved that of ions of a known charge only those of a well defined mass are recorded. Disturbances by masses which are multiplied or divided by 2, √2, or the like, can be avoided without difficulty."
+    },
+    {
+     "col": 7,
+     "line": 36,
+     "text": "(6) Ions in the stable range are not affected in any direction by defocusing forces when averaging over the time; thus additional magnetic fields for focusing the ions are not required."
+    },
+    {
+     "col": 7,
+     "line": 41,
+     "text": "The methods of the invention may find many applications such as:"
+    },
+    {
+     "col": 7,
+     "line": 42,
+     "text": "I. Use for mass analysis: Since, as indicated above, by means of the present methods ions of different specific charges can be separated or separately detected, the methods may be employed for constructing a mass spectrometer. Suitable for this purpose are the cylindrical symmetrical, as well as the rotationally symmetrical electric fields described hereinbefore."
+    },
+    {
+     "col": 7,
+     "line": 50,
+     "text": "II. Use for separating isotopes: Since, as explained above, the present procedure allows high intensities (that is to say high ion currents), it may be employed for constructing plants for separating isotopes. For this purpose the cylindrical symmetrical electric field is particularly suitable."
+    },
+    {
+     "col": 7,
+     "line": 56,
+     "text": "III. Use as a pressure gauge for measuring partial pressures of components of highly rarified gas mixtures: For example, the ionized gas mixture is introduced into the rotationally symmetrical field; individual components of the mixture are successively detected or quantitatively measured by correspondingly displacing the ranges of stability and instability. The advantages of such a pressure gauge as compared with hitherto usual pressure gauges are, amongst others, the compactnses of the arrangement (linear dimensions of a few centimeters are sufficient) and the possibility of easy heating (the arrangement consists essentially of three metal electrodes)."
+    },
+    {
+     "col": 7,
+     "line": 68,
+     "text": "IV. Use for finding leakages in vacuum devices: The vacuum device is introduced into an atmosphere which contains traces of gases usually not contained in the air. If such traces enter into the vacuum devices through a leakage it is easy to detect the same by means of a pressure gauge in the manner explained in the preceding paragraph III."
+    },
+    {
+     "col": 7,
+     "line": 75,
+     "text": "V. Separating gas mixtures as well as mixtures of liquids and solids in the vapour phase: The gas or vapour mixtures are ionized and separated by a cylindrically symmetrical field similarly as explained in paragraph II with respect to isotopes. An advantage of this method as compared with separation by distillation or sublimation resides in the feature that the mixture can be separted even if two or more components of the mixture have the same vapour pressure or the same boiling point."
+    },
+    {
+     "col": 8,
+     "line": 9,
+     "text": "VI. Use for analysing traces: The mass spectrometer described in paragraph I may also be employed for analysing traces."
+    },
+    {
+     "col": 8,
+     "line": 12,
+     "text": "VII. Use for measuring low vapour pressures especially of mixtures: The pressure gauge described in paragraph II may be employed also for measuring low vapour pressures."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 1,
+   "line": 67,
+   "text": "Fig. 1 illustrates electrodes for use in carrying out the present invention;"
+  },
+  {
+   "fig": "2",
+   "col": 1,
+   "line": 69,
+   "text": "Fig. 2 diagrammatically illustrates a longitudinal cross section through a structure which operates in accordance with the present invention;"
+  },
+  {
+   "fig": "3",
+   "col": 2,
+   "line": 1,
+   "text": "Fig. 3 illustrates a section along the line III—III of Fig. 2;"
+  },
+  {
+   "fig": "4",
+   "col": 2,
+   "line": 3,
+   "text": "Fig. 4 is a similar cross-section to that of Figure 3 and illustrates differently shaped electrodes;"
+  },
+  {
+   "fig": "5",
+   "col": 2,
+   "line": 5,
+   "text": "Fig. 5 is a circuit diagram showing the external connections of the electrodes of Figures 3 and 4;"
+  },
+  {
+   "fig": "6",
+   "col": 2,
+   "line": 7,
+   "text": "Figs. 6, 7, 8 and 9 are diagrams showing the relationship between various parameters in the operation of the novel invention;"
+  },
+  {
+   "fig": "7",
+   "col": 2,
+   "line": 7,
+   "text": "Figs. 6, 7, 8 and 9 are diagrams showing the relationship between various parameters in the operation of the novel invention;"
+  },
+  {
+   "fig": "8",
+   "col": 2,
+   "line": 7,
+   "text": "Figs. 6, 7, 8 and 9 are diagrams showing the relationship between various parameters in the operation of the novel invention;"
+  },
+  {
+   "fig": "9",
+   "col": 2,
+   "line": 7,
+   "text": "Figs. 6, 7, 8 and 9 are diagrams showing the relationship between various parameters in the operation of the novel invention;"
+  },
+  {
+   "fig": "10",
+   "col": 2,
+   "line": 10,
+   "text": "Fig. 10 illustrates a modified electrode arrangement for use in accordance with the present invention;"
+  },
+  {
+   "fig": "11",
+   "col": 2,
+   "line": 12,
+   "text": "Fig. 11 illustrates still another such electrode arrangement; and"
+  },
+  {
+   "fig": "12",
+   "col": 2,
+   "line": 14,
+   "text": "Fig. 12 illustrates a longitudinal section through an arrangement employing electrodes similar to those of Fig. 11."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 8,
+   "line": 17,
+   "depends": null,
+   "text": "1. An arrangement for separating ions having different specific charges, comprising an evacuated vessel, electrode means for creating an electric field in the space between them positioned in said vessel, adjacent surfaces of said electrode means having a hyperboloidal shape, means for holding said electrode means in spaced relation, means for generating a voltage having an arbitrary periodical function of time f(t), means for supplying said voltage to said electrode means and thereby creating a time-periodical field the potential of which is general quadratic function φ=f(t) (α.x^{2}+β.y^{2}−γ.z^{2}) of the rectangular coordinates x, y, z of the electrode arrangement, α, β and γ being constants satisfying the equation α+β=γ, means for creating charged ions in said evacuated vessel, the said ions being introduced into said field whereby, caused by the electrostatic forces of the field executed on the ions, certain ions perform oscillations of a limited amplitude, the others, oscillations of an increasing amplitude depending on their respective specific charges and therefore follow stable and instable paths, respectively, and are thereby separated."
+  },
+  {
+   "n": 2,
+   "col": 8,
+   "line": 40,
+   "depends": 1,
+   "text": "2. An arrangement as claimed in claim 1, wherein said means for generating a voltage having an arbitrary periodical function of time f(t) generates a substantially sinusoidal high frequency voltage."
+  },
+  {
+   "n": 3,
+   "col": 8,
+   "line": 44,
+   "depends": 1,
+   "text": "3. An arrangement as claimed in claim 1, additionally comprising means for deriving a first direct current voltage from said periodical voltage, means for generating a second direct current voltage, and means for alternatively switching one of said direct current voltages in parallel to said periodical voltage supplied to said electrode means."
+  },
+  {
+   "n": 4,
+   "col": 8,
+   "line": 51,
+   "depends": 3,
+   "text": "4. An arrangement as claimed in claim 3, comprising means for varying the ratio between the amplitude of said periodical voltage and said first direct current voltage and thereby varying the range of stable ion paths."
+  },
+  {
+   "n": 5,
+   "col": 8,
+   "line": 55,
+   "depends": null,
+   "text": "5. An arrangement for separating ions having different specific charges, comprising, in combination, an evacuated vessel, four parallel electrodes for creating a cylindrically symmetrical electric field in the space between them, the said electrodes being arranged in said vessel, adjacent surfaces of said electrodes having a hyperboloidal shape and pairs of said electrodes being conductively interconnected, means for holding said electrodes in spaced relation, means for generating a voltage being an arbitrary periodical function f(t) of time, means for supplying said voltage to said electrodes and thereby creating a time-periodical cylindrically symmetrical field the potential of which is a quadratic function ϕ=f(t)(y^{2}−z^{2})·1^{2}/r^{4} of the rectangular coordinates x, y, z of the electrode arrangement, the x-axis being laid into the axis of symmetry, and r_{0} being the distance of the electrode surfaces from the x-axis, a conventional ion source being arranged in said vessel, means for introducting ions delivered from the said ion source into the said cylindrically symmetrical time-periodical field in direction of said symmetry, means for collecting the ions having followed stable paths through said field between said electrodes, said collecting means being arranged in said vessel, means for screening the said ion source and the said collecting means with respect to the said vessel, and means for measuring a current resulting from the charged ions collected by the said collecting means by measuring the voltage drop created by the said current in a resistor."
+  },
+  {
+   "n": 6,
+   "col": 9,
+   "line": 11,
+   "depends": 5,
+   "text": "6. An arrangement as claimed in claim 5, wherein said four electrodes have adjacent surfaces of a cylindrical shape, the radius of said surfaces equalling the radius of curvature of the hyperboloidal surfaces at the vertices."
+  },
+  {
+   "n": 7,
+   "col": 9,
+   "line": 15,
+   "depends": 5,
+   "text": "7. An arrangement as claimed in claim 5, wherein said ion source and said collecting means are arranged in separate housing, said housing being connected with said vessel in a vacuum-tight manner."
+  },
+  {
+   "n": 8,
+   "col": 9,
+   "line": 19,
+   "depends": null,
+   "text": "8. An arrangement for separating ions having different specific charges comprising, in combination, an evacuated vessel, a plurality of parallel electrodes for creating cylindrically symmetrical electric fields between each four of them, the said electrodes being arranged in said vessel, adjacent surfaces of said electrodes having a cylindrical shape and pairs of said electrodes being conductively interconnected, means for holding said electrode means in spaced relation, means for generating a voltage being an arbitrary periodical function f(t) of time, means for supplying said voltage to said electrode means and thereby creating a plurality of time-periodical cylindrically symmetrical fields, the potentials of which are identical quadratic functions ϕk=f(t)(y_{k}^{2}−z_{k}^{2})1/r_{0k}^{2} k=1, 2, 3 of the rectangular coordinates x_{k}, y_{k}, z_{k} of each of the single four-electrode arrangements, the x_{k}-axes being laid into the respective axes of symmetry, and r_{0k} being the respective distances of the surfaces of the single electrode arrangements from the x-axes, an adequate plurality of ion sources being arranged in said vessel, means for introducing ions delivered from said ion sources into said vessel and into said cylindrically symmetrical time-periodical fields in direction of the respective axes of symmetry, means for collecting the ions having followed stable paths through the said fields between the said electrode means, said collecting means being arranged in said vessel, means for screening said ion sources and said collecting means with respect to said vessel and means for measuring the current resulting from the charged ions collected by said collecting means, by measuring the voltage created by said current in a resistor."
+  },
+  {
+   "n": 9,
+   "col": 9,
+   "line": 53,
+   "depends": 8,
+   "text": "9. An arrangement as claimed in claim 8, wherein said ion sources and said collecting means are arranged in separate housings, said housing being connected with said vessel in a vacuum-tight manner."
+  },
+  {
+   "n": 10,
+   "col": 9,
+   "line": 57,
+   "depends": null,
+   "text": "10. An arrangement for separately detecting ions having different specific charges comprising, in combination a vessel capable of being evacuated, three electrodes for creating a rotationally symmetrical electric field in the space between them, said electrodes being arranged in said vessel, adjacent surfaces of said electrodes having a hyperboloidal shape, one of the surfaces of said electrodes being a two-part hyperboloid and the two others each being a one-part hyperboloid, the latter parts being conductively interconnected, means for holding said electrodes in spaced relation, means for generating a voltage being an arbitrary periodical function f(t) of time, means for supplying said voltage to said electrodes and thereby creating a time-periodical, rotationally symmetrical electric field the potential of which is a general function ϕ=f(t)(x^{2}+y^{2}−2z^{2})1/r_{0}^{2} of the rectangular coordinates x, y, z of the electrode arrangement, the z-axis being laid into the axis of rotational symmetry, the center of symmetry coinciding with the origin of the coordinates, and r_{0} being the smallest radius of said two-part rotational hyperboloid, means for introducing a gas or vapor to be tested into said vessel at low pressure, incandescent cathode means for emitting electrons able to ionize the gas in the space between said electrodes, said cathode means being arranged in a housing ebing connected with the vessel in a vacuum-tight manner, the emitting surface of said cathode means being located in a hollow part of one of the one-part hyperboloidal electrodes, means for focusing the electrons and passing them into said space through holes in said electrode."
+  },
+  {
+   "n": 11,
+   "col": 10,
+   "line": 15,
+   "depends": 10,
+   "text": "11. An arrangement as claimed in claim 10, comprising means for generating an additional alternating voltage of an amplitude being small as compared with the amplitude of said periodical voltage and of half the frequency of this voltage, and means for superimposing said alternating voltage on the circuit of said periodic voltage, whereby a small range of unstable ion paths is embedded in a broad range of stable paths."
+  },
+  {
+   "n": 12,
+   "col": 10,
+   "line": 23,
+   "depends": null,
+   "text": "12. Means for separating charged particles having a first and a second specific charge; said means comprising an electrode means and voltage source therefor for creating an electric field within an evacuated vessel; the voltage of said voltage source being a periodic function of time; said electrode means having a configuration to create an electric field φ=f(t) (αx^{2}+βy^{2}−γz^{2}) said electric field being directed to force said charged particles having said first specific charge to execute an oscillation having a limited amplitude and to force said charged particles having said second specific charge to execute oscillations having an increasing amplitude."
+  },
+  {
+   "n": 13,
+   "col": 10,
+   "line": 37,
+   "depends": 1,
+   "text": "13. A mass spectrometer as defined in claim 1 for measuring the partial pressures of a highly rarified gas mixture including means for ionizing and introducing said highly rarified gas into said mass spectrometer, said partial pressure being determined by measuring the concentration of the individual components of said mixture."
+  },
+  {
+   "n": 14,
+   "col": 10,
+   "line": 43,
+   "depends": 1,
+   "text": "14. The apparatus of claim 1 for detecting a leak in a vacuum device, said apparatus being positioned to measure partial pressures within said vacuum device, said apparatus measuring the partial pressure of a predetermined gas entering said vacuum device through a leak."
+  },
+  {
+   "n": 15,
+   "col": 10,
+   "line": 49,
+   "depends": 1,
+   "text": "15. A mass spectrometer as defined in claim 1 for separating a gas mixture including means for ionizing and introducing said mixture into said mass spectrometer, the components of said mixture being separated in accordance with the specific charge of their respective ions."
+  },
+  {
+   "n": 16,
+   "col": 10,
+   "line": 54,
+   "depends": 1,
+   "text": "16. A mass spectrometer as defined in claim 1 for separating a gas mixture in the vapor phase including means for ionizing and introducing said mixture into said mass spectrometer, the components of said mixture being separated in accordance with the specific charge of their respective ions."
+  },
+  {
+   "n": 17,
+   "col": 10,
+   "line": 60,
+   "depends": 1,
+   "text": "17. A mass spectrometer as defined in claim 1 for analyzing traces of elements present in an atmosphere, said atmosphere being ionized and inserted into said mass spectrometer, said mass spectrometer separating the ions of said elements and measuring their respective quantities."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "col": 1,
+   "line": 17,
+   "ocr": "charges,",
+   "fixed": "charges.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 20,
+   "ocr": "for.",
+   "fixed": "for",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 23,
+   "ocr": "small’",
+   "fixed": "small",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 28,
+   "ocr": "based,",
+   "fixed": "based.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 30,
+   "ocr": "‘which",
+   "fixed": "which",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 35,
+   "ocr": "(x,y,2,t) = f@) (ax?-+-px2—-yz?)",
+   "fixed": "φ(x,y,z,t)=f(t) (αx^{2}+βx^{2}−γz^{2})",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 37,
+   "ocr": "7.",
+   "fixed": "t.",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 38,
+   "ocr": "Ag=0",
+   "fixed": "Δφ=0",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 38,
+   "ocr": "«, 6",
+   "fixed": "α, β",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 39,
+   "ocr": "y",
+   "fixed": "γ",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 39,
+   "ocr": "a-}f=y.",
+   "fixed": "α+β=γ.",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 45,
+   "ocr": "symmetry.",
+   "fixed": "symmetry",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 52,
+   "ocr": "deter- mine",
+   "fixed": "determine",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 64,
+   "ocr": "clearly.",
+   "fixed": "clearly",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 66,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 1,
+   "line": 69,
+   "ocr": "2.",
+   "fixed": "2",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 70,
+   "ocr": "‘operates",
+   "fixed": "operates",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 1,
+   "ocr": "Section",
+   "fixed": "section",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 1,
+   "ocr": "ITI—IEH",
+   "fixed": "III—III",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 3,
+   "ocr": "‘cross-section",
+   "fixed": "cross-section",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 18,
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 2,
+   "line": 21,
+   "ocr": "M=:mass",
+   "fixed": "M=mass",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 25,
+   "ocr": "y=potential f()==periodic",
+   "fixed": "φ=potential f(t)=periodic",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 27,
+   "ocr": "vp==distance",
+   "fixed": "r_{0}=distance",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 29,
+   "ocr": "Up==accelerating",
+   "fixed": "U_{B}=accelerating",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 30,
+   "ocr": "Up=direct",
+   "fixed": "U_{0}=direct",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 30,
+   "ocr": "; =-amplitude",
+   "fixed": "V=amplitude",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 32,
+   "ocr": "f,v==frequency W=2nrf=cyclic",
+   "fixed": "f,ν=frequency W=2πf=cyclic",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 34,
+   "ocr": "#=derivative",
+   "fixed": "ẋ=derivative",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 36,
+   "ocr": "x=second",
+   "fixed": "ẍ=second",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 38,
+   "ocr": "Ey=electric",
+   "fixed": "E_{x}=electric",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 39,
+   "ocr": "Zt=variable in-the",
+   "fixed": "Zζ=variable in the",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 39,
+   "ocr": "equation. ; a,q,4,B=-constants",
+   "fixed": "equation a,q,A,B=constants",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 42,
+   "ocr": "p==magnitude",
+   "fixed": "μ=magnitude",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 43,
+   "ocr": "+o 23%=sum",
+   "fixed": "Σ_{−∞}^{+∞}n=sum",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 46,
+   "ocr": "‘infinity",
+   "fixed": "infinity",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 47,
+   "ocr": "cy==constants",
+   "fixed": "c_{n}=constants",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 47,
+   "ocr": "‘elements i=n/—l,",
+   "fixed": "elements i=√−1,",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 48,
+   "ocr": "unit:",
+   "fixed": "unit",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 49,
+   "ocr": "s¢stem.",
+   "fixed": "system",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 51,
+   "ocr": "y==ion",
+   "fixed": "ν=ion",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 52,
+   "ocr": "thigh",
+   "fixed": "τ=high",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 53,
+   "ocr": "d=-angular",
+   "fixed": "δ=angular",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 54,
+   "ocr": "A=difference A='LaPlace’s",
+   "fixed": "Δ=difference Δ=LaPlace's",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 59,
+   "ocr": "‘The",
+   "fixed": "The",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 61,
+   "ocr": "rg",
+   "fixed": "r_{0}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 64,
+   "ocr": "U=Uy+V",
+   "fixed": "U=U_{0}+V",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 64,
+   "ocr": "wt",
+   "fixed": "ωt",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 66,
+   "ocr": "potential.p—(U/r)*) (y2—-z2),",
+   "fixed": "potential φ=(U/r_{0}^{2}) (y^{2}−z^{2}).",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 67,
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 68,
+   "ocr": "x-axis:",
+   "fixed": "x-axis.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 68,
+   "ocr": "a—0",
+   "fixed": "α=0",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 70,
+   "ocr": "Figs,",
+   "fixed": "Figs.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 1,
+   "ocr": "aré",
+   "fixed": "are",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 1,
+   "ocr": "“surfaces",
+   "fixed": "surfaces",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 1,
+   "ocr": "‘are",
+   "fixed": "are",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 1,
+   "ocr": "‘hyper- ‘poloidal",
+   "fixed": "hyperboloidal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 4,
+   "ocr": "However;.",
+   "fixed": "However,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 5,
+   "ocr": "'",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 3,
+   "line": 5,
+   "ocr": "Figs..2",
+   "fixed": "Figs. 2",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 6,
+   "ocr": "used..",
+   "fixed": "used.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 7,
+   "ocr": "may:",
+   "fixed": "may",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 7,
+   "ocr": "- four. circularly:",
+   "fixed": "four circularly",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 8,
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 3,
+   "line": 8,
+   "ocr": "as-shown-in",
+   "fixed": "as shown in",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 9,
+   "ocr": "_ for.-creating",
+   "fixed": "for creating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 9,
+   "ocr": "electric:",
+   "fixed": "electric",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 10,
+   "ocr": "sufficient:",
+   "fixed": "sufficient",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 11,
+   "ocr": "4.",
+   "fixed": "4",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 11,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 3,
+   "line": 11,
+   "ocr": "radius:",
+   "fixed": "radius",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 11,
+   "ocr": "curvature’",
+   "fixed": "curvature",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 11,
+   "ocr": "hyper- ‘boloidal:",
+   "fixed": "hyperboloidal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 12,
+   "ocr": "at.",
+   "fixed": "at",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 12,
+   "ocr": "any.",
+   "fixed": "any",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 13,
+   "ocr": "“the",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 13,
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 13,
+   "ocr": "an-. other: by.",
+   "fixed": "another by",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 14,
+   "ocr": "4’:",
+   "fixed": "4′",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 14,
+   "ocr": "ceramic: material..",
+   "fixed": "ceramic material.",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 14,
+   "ocr": "the-electrodes",
+   "fixed": "the electrodes",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 15,
+   "ocr": "- “shown. vas",
+   "fixed": "shown as",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 15,
+   "ocr": "it:",
+   "fixed": "it",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 16,
+   "ocr": "~ that:",
+   "fixed": "that",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 16,
+   "ocr": "“be ‘adjus tably .",
+   "fixed": "be adjustably",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 17,
+   "ocr": "‘placed ‘between",
+   "fixed": "placed between",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 18,
+   "ocr": "- Jeads",
+   "fixed": "leads",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 18,
+   "ocr": "passing:",
+   "fixed": "passing",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 18,
+   "ocr": "e:",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 18,
+   "ocr": "of:",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 18,
+   "ocr": "vessel: 4:.in",
+   "fixed": "vessel 4 in",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 19,
+   "ocr": "_ vacuum:tight.-manner. - conventional. ion:-source (such:",
+   "fixed": "vacuum-tight manner. A conventional ion source 5 (such",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 20,
+   "ocr": "‘electron",
+   "fixed": "electron",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 20,
+   "ocr": "source.or",
+   "fixed": "source or",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 21,
+   "ocr": "_",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 3,
+   "line": 21,
+   "ocr": "to-the vessel-4",
+   "fixed": "to the vessel 4",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 22,
+   "ocr": "_- manner. by.",
+   "fixed": "manner by",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 22,
+   "ocr": "getierate",
+   "fixed": "generate",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 22,
+   "ocr": "sepa- “fated",
+   "fixed": "separated",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 23,
+   "ocr": "diréction",
+   "fixed": "direction",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 23,
+   "ocr": "6.",
+   "fixed": "6",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 23,
+   "ocr": "into:",
+   "fixed": "into",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 24,
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 24,
+   "ocr": "1.",
+   "fixed": "1",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 24,
+   "ocr": "“energy Ug.",
+   "fixed": "energy eU_{B}.",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 25,
+   "ocr": "‘in",
+   "fixed": "in",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 25,
+   "ocr": "‘stability",
+   "fixed": "stability",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 26,
+   "ocr": "ha é",
+   "fixed": "have",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 26,
+   "ocr": "paths: cai",
+   "fixed": "paths can",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 27,
+   "ocr": "througli",
+   "fixed": "through",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 27,
+   "ocr": "‘electric",
+   "fixed": "electric",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 28,
+   "ocr": "by’a",
+   "fixed": "by a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 28,
+   "ocr": "“An electrically:",
+   "fixed": "An electrically",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 29,
+   "ocr": "ina",
+   "fixed": "in a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 30,
+   "ocr": "manner.",
+   "fixed": "manner",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 30,
+   "ocr": "“4",
+   "fixed": "4",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 31,
+   "ocr": "the.lead",
+   "fixed": "the lead",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 31,
+   "ocr": "-be”",
+   "fixed": "be",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 32,
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 3,
+   "line": 32,
+   "ocr": "electrode’ 3.",
+   "fixed": "electrode 3",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 33,
+   "ocr": ".and-",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 33,
+   "ocr": "voltage. thereby.",
+   "fixed": "voltage thereby",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 34,
+   "ocr": "7-is’ “measured: ‘Two circtlar",
+   "fixed": "7 is measured. Two circular",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 35,
+   "ocr": "5:of-ions",
+   "fixed": "5 of ions",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 36,
+   "ocr": "electrode.",
+   "fixed": "electrode",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 36,
+   "ocr": "- high- -frequenty.",
+   "fixed": "high-frequency",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 38,
+   "ocr": "5. illustrates,",
+   "fixed": "5 illustrates",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 38,
+   "ocr": "voltage. ‘supply “sources",
+   "fixed": "voltage supply sources",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 38,
+   "ocr": "- - coupled:",
+   "fixed": "coupled",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 39,
+   "ocr": "‘the",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 39,
+   "ocr": "1:",
+   "fixed": "1.",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 39,
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 3,
+   "line": 39,
+   "ocr": "‘generator.",
+   "fixed": "generator",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 40,
+   "ocr": "- <ereates",
+   "fixed": "creates",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 40,
+   "ocr": "cos. wt",
+   "fixed": "cos ωt",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 40,
+   "ocr": "‘is .ap-. 4 :~ plied “to",
+   "fixed": "is applied to",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 41,
+   "ocr": "electrodes: ¥ through.",
+   "fixed": "electrodes 1 through",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 41,
+   "ocr": "capacitors.",
+   "fixed": "capacitors",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 42,
+   "ocr": "- Moreover;",
+   "fixed": "Moreover,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 42,
+   "ocr": " voliage is“ rectified’",
+   "fixed": "voltage is rectified",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 43,
+   "ocr": "10, The-diréct’ voltage.",
+   "fixed": "10. The direct voltage",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 43,
+   "ocr": "© -",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 3,
+   "line": 44,
+   "ocr": "bya “potentiometer: 45",
+   "fixed": "by a potentiometer 15",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 44,
+   "ocr": "‘is",
+   "fixed": "is",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 44,
+   "ocr": "tothe: ~",
+   "fixed": "to the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 45,
+   "ocr": "‘1 through: choke:",
+   "fixed": "1 through choke",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 45,
+   "ocr": "“13, thé-",
+   "fixed": "13, the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 46,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 3,
+   "line": 46,
+   "ocr": "‘Therefore,",
+   "fixed": "Therefore,",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 46,
+   "ocr": "ratio.",
+   "fixed": "ratio u",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 46,
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 46,
+   "ocr": "volt--. age",
+   "fixed": "voltage",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 47,
+   "ocr": "alternating:",
+   "fixed": "alternating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 47,
+   "ocr": "Vis:",
+   "fixed": "V is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 47,
+   "ocr": "ia: dependent:",
+   "fixed": "independent",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 48,
+   "ocr": "Al: -ternatively,’a",
+   "fixed": "Alternatively, a",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 49,
+   "ocr": "current:",
+   "fixed": "current",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 50,
+   "ocr": "‘an independent. direct.",
+   "fixed": "an independent direct",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 50,
+   "ocr": "| : WW",
+   "fixed": "11",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 51,
+   "ocr": ".an electric.",
+   "fixed": "an electric",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 51,
+   "ocr": "Va. “The ‘arrangémenit “described operates.",
+   "fixed": "11a. The arrangement described operates",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 53,
+   "ocr": "Ta",
+   "fixed": "In",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 53,
+   "ocr": "Potential ; p=(U(8)/r4 ) Ot 2) 58 the: sieome",
+   "fixed": "potential φ=(U(t)/r_{0}^{2}) (y^{2}−z^{2}) the electric",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 56,
+   "ocr": "is: =0; Ey=(2U/r2 ) ys E,= —~(2U/»y) Zz",
+   "fixed": "is E_{x}=0; E_{y}=(2U/r_{0}^{2}) y; E_{z}=−(2U/r_{0}^{2}) z",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 58,
+   "ocr": "vi is.an",
+   "fixed": "U is an",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 59,
+   "ocr": "wt,",
+   "fixed": "ωt,",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 60,
+   "ocr": "saa -ik ¢) ees my— (2eV nt",
+   "fixed": "(2) mẍ=0, mÿ−(2eV/r_{0}^{2})",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 63,
+   "ocr": "fe 0, ne mE+ (2eV fre?) 2 Gos wit=0.",
+   "fixed": "ωt=0, mz̈+(2eV/r_{0}^{2}) z cos ωt=0.",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 65,
+   "ocr": "the:",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 65,
+   "ocr": "¥-<constant, That.",
+   "fixed": "ẍ=constant. That",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 66,
+   "ocr": "ion.",
+   "fixed": "ion",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 67,
+   "ocr": "a_constant speed...",
+   "fixed": "a constant speed.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 68,
+   "ocr": "equation,",
+   "fixed": "equation",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 68,
+   "ocr": "v",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 70,
+   "ocr": "“general,",
+   "fixed": "general",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 70,
+   "ocr": "is’ as.follows:.- -..-~-: , ong (3): ° --Be/d24(a—2q",
+   "fixed": "is as follows: (3) d^{2}z/dξ^{2}+(a−2q",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 71,
+   "ocr": "5 28)z=0 . The’ genstal.",
+   "fixed": "2ξ)z=0 The general",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 72,
+   "ocr": "‘this: “equation is: ‘as.",
+   "fixed": "this equation is as",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 74,
+   "ocr": "“eed ngs t Be mS ne int - - 2 me)",
+   "fixed": "z=Ae^{μξ}Σ_{−∞}^{+∞}nc_{n}e^{+inξ}+Be^{−μξ}Σ_{−∞}^{+∞}nc_{n}e^{−inξ}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 2,
+   "ocr": "-exist..",
+   "fixed": "exist.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 2,
+   "ocr": "exponent. x,",
+   "fixed": "exponent μ,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 3,
+   "ocr": "computed:",
+   "fixed": "computed",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 4,
+   "ocr": "£",
+   "fixed": "ξ.",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 5,
+   "ocr": "»",
+   "fixed": "μ",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 6,
+   "ocr": "unstable...",
+   "fixed": "unstable.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 8,
+   "ocr": "a-and gq,",
+   "fixed": "a and q,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 8,
+   "ocr": "independent.",
+   "fixed": "independent",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 9,
+   "ocr": "-~ -",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 4,
+   "line": 9,
+   "ocr": "zy",
+   "fixed": "z_{0}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 9,
+   "ocr": "4)",
+   "fixed": "ż_{0}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 9,
+   "ocr": "2.",
+   "fixed": "z.",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 9,
+   "ocr": "stable. Tanges",
+   "fixed": "stable ranges",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 10,
+   "ocr": "thé",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 10,
+   "ocr": "-g—plane,",
+   "fixed": "q—plane,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 11,
+   "ocr": "Frem",
+   "fixed": "From",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 11,
+   "ocr": "comparison.",
+   "fixed": "comparison",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 11,
+   "ocr": "Equation: 2.",
+   "fixed": "Equation 2",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 11,
+   "ocr": "‘Equation",
+   "fixed": "Equation",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 12,
+   "ocr": "be.",
+   "fixed": "be",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 12,
+   "ocr": "- —",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 4,
+   "line": 14,
+   "ocr": "a==0; g=4eV /remurt, “g=at/2",
+   "fixed": "a=0; q=4eV/r_{0}^{2}mω^{2}; ξ=ωt/2",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 15,
+   "ocr": "‘ions",
+   "fixed": "ions",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 15,
+   "ocr": "‘at",
+   "fixed": "at",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 16,
+   "ocr": "Fig..6.: ; For clarity,",
+   "fixed": "Fig. 6.",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 17,
+   "ocr": "q-axis.:",
+   "fixed": "q-axis. For clarity,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 18,
+   "ocr": "shown.",
+   "fixed": "shown",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 18,
+   "ocr": "g=0 :-",
+   "fixed": "q=0",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 19,
+   "ocr": "¢=30.92;",
+   "fixed": "q=0.92,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 19,
+   "ocr": "in.a‘stable",
+   "fixed": "in a stable",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 19,
+   "ocr": "q==0.92",
+   "fixed": "q=0.92",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 20,
+   "ocr": "g=7.50,",
+   "fixed": "q=7.50,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 20,
+   "ocr": "‘unstable range;: from: g=7:50 ‘to - ga. 52,",
+   "fixed": "unstable range; from q=7.50 to q=7.52,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 21,
+   "ocr": "in-a:stable",
+   "fixed": "in a stable",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 22,
+   "ocr": "--",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 4,
+   "line": 22,
+   "ocr": ".the",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 22,
+   "ocr": "*",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 4,
+   "line": 22,
+   "ocr": "‘and",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 22,
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 4,
+   "line": 23,
+   "ocr": "given,.",
+   "fixed": "given,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 23,
+   "ocr": "¢/m.",
+   "fixed": "e/m",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 23,
+   "ocr": "which.",
+   "fixed": "which",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 24,
+   "ocr": "as.",
+   "fixed": "as",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 25,
+   "ocr": "1000.",
+   "fixed": "1000",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 26,
+   "ocr": "ranges. F, and: F,",
+   "fixed": "ranges F_{1} and F_{2}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 26,
+   "ocr": "ina",
+   "fixed": "in a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 26,
+   "ocr": "-»-diagram",
+   "fixed": "ν-diagram",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 27,
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 4,
+   "line": 27,
+   "ocr": "8;.the",
+   "fixed": "8, the",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 28,
+   "ocr": "“number défined",
+   "fixed": "number defined",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 28,
+   "ocr": "m=m)M and.»",
+   "fixed": "m=m_{0}M and ν",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 28,
+   "ocr": ": From:",
+   "fixed": "From",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 29,
+   "ocr": "canbe",
+   "fixed": "can be",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 29,
+   "ocr": "an‘ion beam:",
+   "fixed": "an ion beam",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 30,
+   "ocr": "ions.",
+   "fixed": "ions",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 30,
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 30,
+   "ocr": "*the",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 31,
+   "ocr": "‘are",
+   "fixed": "are",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 32,
+   "ocr": "field.",
+   "fixed": "field",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 35,
+   "ocr": "~Mimgp=4eV/0: 9272? : In.",
+   "fixed": "Mm_{0}=4eV/0.92r_{0}^{2}ω^{2} In",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 38,
+   "ocr": "; . ~ Am=mAg/q i",
+   "fixed": "Δm=mΔq/q",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 39,
+   "ocr": "‘Since",
+   "fixed": "Since",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 39,
+   "ocr": "Aq/q",
+   "fixed": "Δq/q",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 39,
+   "ocr": "ap. proximately",
+   "fixed": "approximately",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 40,
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 4,
+   "line": 40,
+   "ocr": "massés",
+   "fixed": "masses",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 41,
+   "ocr": "Here-it. is’",
+   "fixed": "Here it is",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 42,
+   "ocr": "_a@",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 42,
+   "ocr": "‘of",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 42,
+   "ocr": "range.",
+   "fixed": "range",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 43,
+   "ocr": "range..",
+   "fixed": "range.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 43,
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 43,
+   "ocr": "Aq jis,",
+   "fixed": "Δq is",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 44,
+   "ocr": "‘so ‘that very.",
+   "fixed": "so that very",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 44,
+   "ocr": "‘be",
+   "fixed": "be",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 45,
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 4,
+   "line": 45,
+   "ocr": "-thése ‘ranges",
+   "fixed": "these ranges",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 45,
+   "ocr": "hardly. be.",
+   "fixed": "hardly be",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 47,
+   "ocr": "ions:in ‘the",
+   "fixed": "ions in the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 47,
+   "ocr": "z-directions.",
+   "fixed": "z-directions",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 48,
+   "ocr": "-10-8eV-",
+   "fixed": "10^{−6}eV",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 48,
+   "ocr": "the’",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 49,
+   "ocr": "- | \"When",
+   "fixed": "When",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 50,
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 4,
+   "line": 50,
+   "ocr": "i",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 50,
+   "ocr": "‘the: alternating’ ‘voltage;",
+   "fixed": "the alternating voltage;",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 51,
+   "ocr": "say.",
+   "fixed": "say",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 51,
+   "ocr": "U=Upt+V",
+   "fixed": "U=U_{0}+V",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 51,
+   "ocr": "of,",
+   "fixed": "ωt,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 52,
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 52,
+   "ocr": "‘mass",
+   "fixed": "mass",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 52,
+   "ocr": "AM’",
+   "fixed": "ΔM",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 52,
+   "ocr": "‘pass",
+   "fixed": "pass",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 53,
+   "ocr": "The. ‘equations",
+   "fixed": "The equations",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 53,
+   "ocr": "1",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 54,
+   "ocr": "(6). fh (2¢/mr?) (Us V",
+   "fixed": "(5) ÿ−(2e/mr_{0}^{2})(U_{0}+V",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 54,
+   "ocr": "wt)y= 0. a+ (2¢/mrg?) (Uo+ V",
+   "fixed": "ωt)y=0 z̈+(2e/mr_{0}^{2})(U_{0}+V",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 56,
+   "ocr": "wt)z=0",
+   "fixed": "ωt)z=0",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 57,
+   "ocr": "comparison: “of Equation, $5",
+   "fixed": "comparison of Equation 5",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 57,
+   "ocr": "| “Equation",
+   "fixed": "Equation",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 57,
+   "ocr": "‘shows’",
+   "fixed": "shows",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 59,
+   "ocr": ": gaz ~-8eUg/** Las aj=8eUp/reemi®",
+   "fixed": "a_{y}=−8eU_{0}/r*2mω^{2}; a_{z}=8eU_{0}/r_{0}^{2}mω^{2}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 60,
+   "ocr": "g=4eV /rrw? holds:",
+   "fixed": "q=4eV/r^{2}mω^{2} holds",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 61,
+   "ocr": "‘The",
+   "fixed": "The",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 61,
+   "ocr": "a/q==+2U,/V",
+   "fixed": "a/q=±2U_{0}/V",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 61,
+   "ocr": "‘only.",
+   "fixed": "only",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 61,
+   "ocr": "‘the direct:",
+   "fixed": "the direct",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 62,
+   "ocr": "‘but",
+   "fixed": "but",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 63,
+   "ocr": "the. frequency..and",
+   "fixed": "the frequency and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 63,
+   "ocr": "-mass..",
+   "fixed": "mass.",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 63,
+   "ocr": "-the--a,.",
+   "fixed": "the a,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 64,
+   "ocr": "w=U,/V=a/2q :ate",
+   "fixed": "u=U_{0}/V=a/2q are",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 65,
+   "ocr": "© at.",
+   "fixed": "at",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 65,
+   "ocr": "and:",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 65,
+   "ocr": "to. ‘the q-axis; -In‘Fig.",
+   "fixed": "to the q-axis. In Fig.",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 66,
+   "ocr": "a-section ofthe",
+   "fixed": "a section of the",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 67,
+   "ocr": "rectilinér",
+   "fixed": "rectiliner",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 67,
+   "ocr": "-u=-const:,",
+   "fixed": "u=const.,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 67,
+   "ocr": "shown,",
+   "fixed": "shown.",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 68,
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 4,
+   "line": 68,
+   "ocr": "2<0",
+   "fixed": "a<0",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 68,
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 4,
+   "line": 68,
+   "ocr": "the:",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 69,
+   "ocr": "to:the z-direction: ‘Assuming’",
+   "fixed": "to the z-direction. Assuming",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 70,
+   "ocr": "the-amplitude- and’",
+   "fixed": "the amplitude and",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 70,
+   "ocr": "of: the: altérnating",
+   "fixed": "of the alternating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 71,
+   "ocr": "constant; ‘all",
+   "fixed": "constant, all",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 71,
+   "ocr": "masses.",
+   "fixed": "masses",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 72,
+   "ocr": "‘lines u==const, -“The",
+   "fixed": "lines u=const. The",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 72,
+   "ocr": "my",
+   "fixed": "m_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 73,
+   "ocr": "q1, qgmz",
+   "fixed": "q_{1}, q_{2}≙m_{2}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 73,
+   "ocr": "gz,",
+   "fixed": "q_{3}≙m_{3}.",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 73,
+   "ocr": "-they-direction;",
+   "fixed": "the y-direction,",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 74,
+   "ocr": "masses-from m, tO. mg",
+   "fixed": "masses from m_{1} to m_{3}",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 74,
+   "ocr": "into-a_",
+   "fixed": "into a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 76,
+   "ocr": "‘in",
+   "fixed": "in",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 76,
+   "ocr": "only. masses: exceed: 7 ing mg fallin",
+   "fixed": "only masses exceeding m_{2} fall in",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 2,
+   "ocr": "inthe",
+   "fixed": "in the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 4,
+   "ocr": "Am=—n,—mg,",
+   "fixed": "Δm=m_{1}−m_{2}",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 6,
+   "ocr": "g-axis",
+   "fixed": "q-axis",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 7,
+   "ocr": "Up/V=0.166,",
+   "fixed": "U_{0}/V=0.166,",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 8,
+   "ocr": "‘limiting",
+   "fixed": "limiting",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 10,
+   "ocr": "dmax==0.706.",
+   "fixed": "q_{max}=0.706.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 13,
+   "ocr": "u—const.",
+   "fixed": "u=const.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 14,
+   "ocr": "g=dmaz",
+   "fixed": "q=q_{max}",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 16,
+   "ocr": "aw 4(0.236—1.410u)",
+   "fixed": "Δ≈4(0.236−1.410u)",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 20,
+   "ocr": "Am=4mq-?(0.236—-1.410x)",
+   "fixed": "Δm=4mq^{−1}(0.236−1.410u)",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 22,
+   "ocr": "uw",
+   "fixed": "u",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 24,
+   "ocr": "m/Am= (1/2) (p/Av) =0.75/ (1 ~U/ timex)",
+   "fixed": "m/Δm=(1/2)(ν/Δν)=0.75/(1−u/u_{max})",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 27,
+   "ocr": "too",
+   "fixed": "t→∞",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 28,
+   "ocr": "oo.",
+   "fixed": "∞.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 36,
+   "ocr": "s=Z/yv",
+   "fixed": "τ=L/ν",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 38,
+   "ocr": "p=V2eU p/m Up",
+   "fixed": "ν=√(2eU_{B}/m) U_{B}",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 41,
+   "ocr": "1/».",
+   "fixed": "1/ν.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 44,
+   "ocr": "",
+   "fixed": "L>r_{0}π√(2U_{B}q/V)",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 44,
+   "ocr": "£=50",
+   "fixed": "L=50",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 44,
+   "ocr": "rp>=0.5",
+   "fixed": "r_{0}=0.5",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 44,
+   "ocr": "V==1000",
+   "fixed": "V=1000",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 45,
+   "ocr": "n=850\\/Uy.",
+   "fixed": "n=850√U_{B}.",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 62,
+   "ocr": "ancther",
+   "fixed": "another",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 65,
+   "ocr": "p=(U/rge) (x2+-y2—22) od",
+   "fixed": "φ=(U/r_{0}^{2}) (x^{2}+y^{2}−2_{0}^{2})",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 68,
+   "ocr": "a=S=l/2+",
+   "fixed": "α=β=1/2γ",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 74,
+   "ocr": "&",
+   "fixed": "δ",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 75,
+   "ocr": "(3/2) =V/2).",
+   "fixed": "(δ/2)=√2).",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 1,
+   "ocr": "voltage. U-is",
+   "fixed": "voltage U is",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 5,
+   "ocr": "te",
+   "fixed": "to",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 11,
+   "ocr": "17,",
+   "fixed": "17.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 12,
+   "ocr": "‘between",
+   "fixed": "between",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 13,
+   "ocr": "B..",
+   "fixed": "B.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 17,
+   "ocr": "Ug+V",
+   "fixed": "U_{0}+V",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 17,
+   "ocr": "wt",
+   "fixed": "ωt",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 31,
+   "ocr": "in.",
+   "fixed": "in",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 39,
+   "ocr": "oscil- Jation.",
+   "fixed": "oscillation.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 42,
+   "ocr": "ranges:",
+   "fixed": "ranges",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 42,
+   "ocr": "‘by",
+   "fixed": "by",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 45,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 6,
+   "line": 47,
+   "ocr": "a-transit",
+   "fixed": "a transit",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 69,
+   "ocr": "essentially. ithe.",
+   "fixed": "essentially the",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 70,
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 6,
+   "line": 71,
+   "ocr": "apparatus,",
+   "fixed": "apparatus",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 72,
+   "ocr": "an.electric",
+   "fixed": "an electric",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 73,
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 74,
+   "ocr": "‘the",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 74,
+   "ocr": "Simpler",
+   "fixed": "simpler",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 1,
+   "ocr": "_.",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 7,
+   "line": 1,
+   "ocr": "independence.",
+   "fixed": "independence",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 1,
+   "ocr": "‘is",
+   "fixed": "is",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 2,
+   "ocr": "arrangément",
+   "fixed": "arrangement",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 2,
+   "ocr": "in- - dependent",
+   "fixed": "independent",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 3,
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 4,
+   "ocr": "‘the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 4,
+   "ocr": "ion.sources: may.",
+   "fixed": "ion sources may",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 4,
+   "ocr": "-used.",
+   "fixed": "used",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 5,
+   "ocr": "different.",
+   "fixed": "different",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 6,
+   "ocr": "that-is",
+   "fixed": "that is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 6,
+   "ocr": "accuracy.",
+   "fixed": "accuracy",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 6,
+   "ocr": "- separation.~",
+   "fixed": "separation.",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 7,
+   "ocr": "for.",
+   "fixed": "for",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 8,
+   "ocr": "; charge.",
+   "fixed": "charge",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 8,
+   "ocr": "the: expression. m/Ami,:",
+   "fixed": "the expression m/Δm,",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 8,
+   "ocr": "the. mass.",
+   "fixed": "the mass",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 9,
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 7,
+   "line": 9,
+   "ocr": "to.be detected.and Am:",
+   "fixed": "to be detected and Δm",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 9,
+   "ocr": "mass. difference. be-... tween. other:ions.",
+   "fixed": "mass difference between other ions",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 10,
+   "ocr": "‘separated",
+   "fixed": "separated",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 10,
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 11,
+   "ocr": "“to",
+   "fixed": "to",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 11,
+   "ocr": "methods.",
+   "fixed": "methods",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 12,
+   "ocr": "ranges. of.",
+   "fixed": "ranges of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 12,
+   "ocr": "veloci-. “ties",
+   "fixed": "velocities",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 13,
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 13,
+   "ocr": ".4.",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 14,
+   "ocr": "results.",
+   "fixed": "results",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 14,
+   "ocr": "comparison.",
+   "fixed": "comparison",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 14,
+   "ocr": "those.",
+   "fixed": "those",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 15,
+   "ocr": ".that:",
+   "fixed": "that",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 15,
+   "ocr": ".on the-sensitivity.",
+   "fixed": "on the sensitivity",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 16,
+   "ocr": "“means may.",
+   "fixed": "means may",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 17,
+   "ocr": "- intensities.",
+   "fixed": "intensities",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 17,
+   "ocr": "ion-.currents) .are",
+   "fixed": "ion currents) are",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 18,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 7,
+   "line": 18,
+   "ocr": "iso- ~ ‘topes. (3).",
+   "fixed": "isotopes. (3)",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 20,
+   "ocr": "control.",
+   "fixed": "control",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 20,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 7,
+   "line": 20,
+   "ocr": "‘the",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 21,
+   "ocr": "unstablé",
+   "fixed": "unstable",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 22,
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 22,
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 23,
+   "ocr": "field-creating.",
+   "fixed": "field-creating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 23,
+   "ocr": "in. an. arrangement; -",
+   "fixed": "in an arrangement,",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 24,
+   "ocr": "‘set",
+   "fixed": "set",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 24,
+   "ocr": "measuring:",
+   "fixed": "measuring",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 24,
+   "ocr": "the. accu- -Yacy-may",
+   "fixed": "the accuracy may",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 26,
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 7,
+   "line": 27,
+   "ocr": "spectrometers.",
+   "fixed": "spectrometers",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 27,
+   "ocr": "-following:.",
+   "fixed": "following:",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 28,
+   "ocr": "present.",
+   "fixed": "present",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 28,
+   "ocr": "the: ‘initial.",
+   "fixed": "the initial",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 30,
+   "ocr": "con- ~ ditions. -",
+   "fixed": "conditions.",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 32,
+   "ocr": "It:",
+   "fixed": "It",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 32,
+   "ocr": "easily. achieved. ‘that!",
+   "fixed": "easily achieved that",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 33,
+   "ocr": "~",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 7,
+   "line": 34,
+   "ocr": "Disturbances. by. masses.",
+   "fixed": "Disturbances by masses",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 35,
+   "ocr": "V2,",
+   "fixed": "√2,",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 35,
+   "ocr": "avoided.",
+   "fixed": "avoided",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 36,
+   "ocr": "Ions.",
+   "fixed": "Ions",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 36,
+   "ocr": "any.",
+   "fixed": "any",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 37,
+   "ocr": "‘by",
+   "fixed": "by",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 39,
+   "ocr": "additional.",
+   "fixed": "additional",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 40,
+   "ocr": "ions.",
+   "fixed": "ions",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 40,
+   "ocr": "‘not",
+   "fixed": "not",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 41,
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 7,
+   "line": 41,
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 7,
+   "line": 41,
+   "ocr": "amany:",
+   "fixed": "many",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 42,
+   "ocr": "such.-as:.",
+   "fixed": "such as:",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 42,
+   "ocr": "‘mass",
+   "fixed": "mass",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 42,
+   "ocr": "‘Since, as:",
+   "fixed": "Since, as",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 44,
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 7,
+   "line": 44,
+   "ocr": "spe- “gific:;charges",
+   "fixed": "specific charges",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 45,
+   "ocr": "separately.",
+   "fixed": "separately",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 46,
+   "ocr": "the:",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 46,
+   "ocr": "employed:",
+   "fixed": "employed",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 46,
+   "ocr": "constructing.a miass",
+   "fixed": "constructing a mass",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 47,
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 7,
+   "line": 47,
+   "ocr": "for-this",
+   "fixed": "for this",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 47,
+   "ocr": "are-the cylindrical: symmetrical,.as well, as.",
+   "fixed": "are the cylindrical symmetrical, as well as",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 49,
+   "ocr": "~",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 7,
+   "line": 49,
+   "ocr": "* i.",
+   "fixed": "II.",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 50,
+   "ocr": "-for: separating.",
+   "fixed": "for separating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 51,
+   "ocr": "procedure-allows high.",
+   "fixed": "procedure allows high",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 51,
+   "ocr": "- is:",
+   "fixed": "is",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 52,
+   "ocr": "say.-high-ion",
+   "fixed": "say high ion",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 52,
+   "ocr": "it-may",
+   "fixed": "it may",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 52,
+   "ocr": "employed’",
+   "fixed": "employed",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 53,
+   "ocr": "For.",
+   "fixed": "For",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 54,
+   "ocr": "-*",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 7,
+   "line": 54,
+   "ocr": "‘the",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 54,
+   "ocr": "par- ; ‘ticularly",
+   "fixed": "particularly",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 56,
+   "ocr": "TIL.:",
+   "fixed": "III.",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 56,
+   "ocr": "@",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 56,
+   "ocr": "“gauge",
+   "fixed": "gauge",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 57,
+   "ocr": "' ‘pressures",
+   "fixed": "pressures",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 57,
+   "ocr": "gas.",
+   "fixed": "gas",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 59,
+   "ocr": "-.",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 7,
+   "line": 59,
+   "ocr": "individual.",
+   "fixed": "individual",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 60,
+   "ocr": "mixture.",
+   "fixed": "mixture",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 60,
+   "ocr": "successively.",
+   "fixed": "successively",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 61,
+   "ocr": "Measured:",
+   "fixed": "measured",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 61,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 7,
+   "line": 62,
+   "ocr": "‘stability ‘and. instability... The.",
+   "fixed": "stability and instability. The",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 62,
+   "ocr": "pres- - sures",
+   "fixed": "pressure",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 63,
+   "ocr": "hitherto.",
+   "fixed": "hitherto",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 64,
+   "ocr": "gauges.",
+   "fixed": "gauges",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 64,
+   "ocr": "the-compactnses: of. the; -ar- ~- rangement",
+   "fixed": "the compactnses of the arrangement",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 65,
+   "ocr": "‘dimensions -of:a few.",
+   "fixed": "dimensions of a few",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 67,
+   "ocr": "metal.",
+   "fixed": "metal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 68,
+   "ocr": "IV: Use. for: finding. leakages-in:",
+   "fixed": "IV. Use for finding leakages in",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 69,
+   "ocr": ": ‘vacuum -device-is",
+   "fixed": "vacuum device is",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 69,
+   "ocr": "into.",
+   "fixed": "into",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 69,
+   "ocr": "‘which",
+   "fixed": "which",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 70,
+   "ocr": "contained’",
+   "fixed": "contained",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 70,
+   "ocr": "the. air:",
+   "fixed": "the air.",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 71,
+   "ocr": "devices: through.",
+   "fixed": "devices through",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 72,
+   "ocr": "‘Teakage_ it: Js:",
+   "fixed": "leakage it is",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 73,
+   "ocr": "\"",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 7,
+   "line": 73,
+   "ocr": "r",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 73,
+   "ocr": "i",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 75,
+   "ocr": "Ravage 1 5) So",
+   "fixed": "paragraph III.",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 76,
+   "ocr": "welll",
+   "fixed": "well",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 76,
+   "ocr": "Jiquids",
+   "fixed": "liquids",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 1,
+   "ocr": "4in.the",
+   "fixed": "in the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 1,
+   "ocr": "gas:",
+   "fixed": "gas",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 2,
+   "ocr": "mixtures. are. ionized.",
+   "fixed": "mixtures are ionized",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 3,
+   "ocr": "field..similarly .as-explained-in",
+   "fixed": "field similarly as explained in",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 4,
+   "ocr": "with.",
+   "fixed": "with",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 4,
+   "ocr": "to-isotopes..",
+   "fixed": "to isotopes.",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 5,
+   "ocr": "as: compared.",
+   "fixed": "as compared",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 5,
+   "ocr": "‘separation",
+   "fixed": "separation",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 5,
+   "ocr": "‘distillation",
+   "fixed": "distillation",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 5,
+   "ocr": "sublima- - tion",
+   "fixed": "sublimation",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 6,
+   "ocr": "that-the",
+   "fixed": "that the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 6,
+   "ocr": "be-separted",
+   "fixed": "be separted",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 7,
+   "ocr": "components.-of.",
+   "fixed": "components of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 8,
+   "ocr": "the.same",
+   "fixed": "the same",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 9,
+   "ocr": "- -",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 8,
+   "line": 9,
+   "ocr": "Use:",
+   "fixed": "Use",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 9,
+   "ocr": "analysing.traces:'",
+   "fixed": "analysing traces:",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 9,
+   "ocr": "mass.",
+   "fixed": "mass",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 10,
+   "ocr": "L amay _also.",
+   "fixed": "I may also",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 11,
+   "ocr": "_ traces... : - : VIE.. Use.",
+   "fixed": "traces. VII. Use",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 12,
+   "ocr": "low:v",
+   "fixed": "low",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 13,
+   "ocr": ".mixturés:",
+   "fixed": "mixtures:",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 13,
+   "ocr": "- “pressure.",
+   "fixed": "pressure",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 13,
+   "ocr": "‘in : para- _ graph_ I.may",
+   "fixed": "in paragraph II may",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 14,
+   "ocr": "va- 2 pour pressures... ; & - 1,",
+   "fixed": "vapour pressures. 1.",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 17,
+   "ocr": "‘separating",
+   "fixed": "separating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 17,
+   "ocr": "“having different:",
+   "fixed": "having different",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 19,
+   "ocr": "creating,",
+   "fixed": "creating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 20,
+   "ocr": ": between.them",
+   "fixed": "between them",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 21,
+   "ocr": "©",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 8,
+   "line": 21,
+   "ocr": "said.",
+   "fixed": "said",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 21,
+   "ocr": "means:",
+   "fixed": "means",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 22,
+   "ocr": "in’ spaced_tela- . tion, means-for",
+   "fixed": "in spaced relation, means for",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 26,
+   "ocr": "a.time-periodical",
+   "fixed": "a time-periodical",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 27,
+   "ocr": "_quadratic",
+   "fixed": "quadratic",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 27,
+   "ocr": ". - fo, “@=f(t) (a.x8+8. yen, 2) of. the.",
+   "fixed": "φ=f(t) (α.x^{2}+β.y^{2}−γ.z^{2}) of the",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 30,
+   "ocr": "y,-z",
+   "fixed": "y, z",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 31,
+   "ocr": "atrangement, 2, 8",
+   "fixed": "arrangement, α, β",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 31,
+   "ocr": "y",
+   "fixed": "γ",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 32,
+   "ocr": "a--S==,",
+   "fixed": "α+β=γ,",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 33,
+   "ocr": "vessel;",
+   "fixed": "vessel,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 33,
+   "ocr": "ions:",
+   "fixed": "ions",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 34,
+   "ocr": "_ field:",
+   "fixed": "field",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 34,
+   "ocr": "caused.",
+   "fixed": "caused",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 35,
+   "ocr": "perform.",
+   "fixed": "perform",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 36,
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 36,
+   "ocr": "‘limited",
+   "fixed": "limited",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 37,
+   "ocr": "respectivé",
+   "fixed": "respective",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 38,
+   "ocr": "instable’",
+   "fixed": "instable",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 39,
+   "ocr": "thereby.",
+   "fixed": "thereby",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 40,
+   "ocr": "- 2,.An",
+   "fixed": "2. An",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 40,
+   "ocr": "as.claimed",
+   "fixed": "as claimed",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 41,
+   "ocr": "for.",
+   "fixed": "for",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 41,
+   "ocr": "a-voltage",
+   "fixed": "a voltage",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 41,
+   "ocr": "arbitrary: -periodical.",
+   "fixed": "arbitrary periodical",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 42,
+   "ocr": ":time",
+   "fixed": "time",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 42,
+   "ocr": "generates’ a: Substantially",
+   "fixed": "generates a substantially",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 43,
+   "ocr": "frequency’",
+   "fixed": "frequency",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 43,
+   "ocr": ".~ 3.:An",
+   "fixed": "3. An",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 44,
+   "ocr": "‘in claim:",
+   "fixed": "in claim",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 44,
+   "ocr": "additional: ? -ly. comprising:",
+   "fixed": "additionally comprising",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 45,
+   "ocr": "deriving. a:",
+   "fixed": "deriving a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 47,
+   "ocr": "_ : Voltage from-said “periodical:",
+   "fixed": "voltage from said periodical",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 47,
+   "ocr": "direct:",
+   "fixed": "direct",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 47,
+   "ocr": "voltage,-and-theans: for--al- - ternatively switching.",
+   "fixed": "voltage, and means for alternatively switching",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 48,
+   "ocr": "said: direct:",
+   "fixed": "said direct",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 49,
+   "ocr": "supplied: to.",
+   "fixed": "supplied to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 50,
+   "ocr": "; 4..An arrangement.",
+   "fixed": "4. An arrangement",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 51,
+   "ocr": "‘claimed 4",
+   "fixed": "claimed",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 51,
+   "ocr": "‘claim",
+   "fixed": "claim",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 52,
+   "ocr": "means:",
+   "fixed": "means",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 52,
+   "ocr": "between.",
+   "fixed": "between",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 53,
+   "ocr": "first.",
+   "fixed": "first",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 53,
+   "ocr": "current,",
+   "fixed": "current",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 56,
+   "ocr": "~ 5..",
+   "fixed": "5.",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 55,
+   "ocr": "Separating",
+   "fixed": "separating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 56,
+   "ocr": "in‘",
+   "fixed": "in",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 57,
+   "ocr": "‘vessel,",
+   "fixed": "vessel,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 60,
+   "ocr": "electrodes.",
+   "fixed": "electrodes",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 60,
+   "ocr": "-a.",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 61,
+   "ocr": "cf",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 63,
+   "ocr": "voltage.",
+   "fixed": "voltage",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 63,
+   "ocr": "oof?",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 64,
+   "ocr": "pericdical",
+   "fixed": "periodical",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 64,
+   "ocr": "time;",
+   "fixed": "time,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 65,
+   "ocr": "electrodes:",
+   "fixed": "electrodes",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 67,
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 67,
+   "ocr": "i ‘a.",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 67,
+   "ocr": "© . of @, waaF 7m 70°.",
+   "fixed": "ϕ=f(t)(y^{2}−z^{2})·1^{2}/r^{4}",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 71,
+   "ocr": "X5-Yy.",
+   "fixed": "x, y,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 71,
+   "ocr": ",",
+   "fixed": "",
+   "basis": "scan (specks)"
+  },
+  {
+   "col": 8,
+   "line": 73,
+   "ocr": "the. x-axis.",
+   "fixed": "the x-axis",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 73,
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 74,
+   "ocr": "ry",
+   "fixed": "r_{0}",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 74,
+   "ocr": "surfaces:",
+   "fixed": "surfaces",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 75,
+   "ocr": "source:being",
+   "fixed": "source being",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 76,
+   "ocr": "Vessel,",
+   "fixed": "vessel,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 76,
+   "ocr": "i",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 1,
+   "ocr": "syrmetrical",
+   "fixed": "symmetrical",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 8,
+   "ocr": "@",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 13,
+   "ocr": "cf",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 28,
+   "ocr": "f(r)",
+   "fixed": "f(t)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 30,
+   "ocr": "time-pericdical",
+   "fixed": "time-periodical",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 34,
+   "ocr": "1 ok=f(t) (yr 22) —gh= 1, 2,3",
+   "fixed": "ϕk=f(t)(y_{k}^{2}−z_{k}^{2})1/r_{0k}^{2} k=1, 2, 3",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 36,
+   "ocr": "xy, Yu, 2,",
+   "fixed": "x_{k}, y_{k}, z_{k}",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 37,
+   "ocr": "x,-axes",
+   "fixed": "x_{k}-axes",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 38,
+   "ocr": "ry,",
+   "fixed": "r_{0k}",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 62,
+   "ocr": "a,",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 68,
+   "ocr": "f(7)",
+   "fixed": "f(t)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 73,
+   "ocr": "exp) t+ yD)",
+   "fixed": "ϕ=f(t)(x^{2}+y^{2}−2z^{2})1/r_{0}^{2}",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 3,
+   "ocr": "rp",
+   "fixed": "r_{0}",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 12,
+   "ocr": "hyperbeloidal",
+   "fixed": "hyperboloidal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 16,
+   "ocr": "voitage",
+   "fixed": "voltage",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 31,
+   "ocr": "p=f(t) (ax? py?—yz?)",
+   "fixed": "φ=f(t) (αx^{2}+βy^{2}−γz^{2})",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 47,
+   "ocr": "vacuum.",
+   "fixed": "vacuum",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 48,
+   "ocr": "leak, ; 15,",
+   "fixed": "leak. 15.",
+   "basis": "scan + Google Patents"
+  }
+ ]
+}

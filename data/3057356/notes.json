@@ -1,0 +1,64 @@
+{
+  "patent": "Filed 1960-07-22 and issued 1962-10-09 to Wilson Greatbatch of Clarence, N.Y., assigned to Wilson Greatbatch Inc. It covers the Chardack-Greatbatch implantable pacemaker: a battery-powered transistor pulse generator potted in epoxy, coated in silicone rubber and sealed in a wafer about 2 1/2 inches across, with a silicone-insulated lead to two stainless steel electrodes on the ventricle. Greatbatch developed it with the surgeon William Chardack; it was implanted in patients at the Veterans Administration hospital in Buffalo, N.Y. from 1960 (Chardack, Gage and Greatbatch, Surgery 48:643, 1960) and licensed to Medtronic, which manufactured it. Most pacemakers then in use were external units wired to the heart through the skin. The cited references include Lillehei and co-workers on a transistor pacemaker (JAMA, 1960) and Senning (Journal of Thoracic and Cardiovascular Surgery, 1959); Senning and the engineer Rune Elmqvist had implanted the first, short-lived, fully implanted pacemaker in Stockholm in 1958. FIG. 1 is the basic one-transistor pulse generator, FIG. 2 adds an output transistor and storage capacitor for higher current, FIG. 3 shows the implant.",
+  "figs": {
+    "1": "One-transistor blocking oscillator. Semicircular hops are wire crossings without a connection; dots are junctions; the bottom rail is ground. Battery 23 feeds collector 15 through primary 18 from the top rail. Secondary 20 runs from the ground rail through capacitor 21 to base 16, and resistor 22 runs from the top rail to the same base node. Output lead 24 is taken from the collector node and crosses the battery wire; lead 25 comes up from the ground rail; both enter wire 12, drawn here as a cable ending in the two electrodes 13.",
+    "2": "Same oscillator (primed numerals) with an output stage added. Emitter 17' of the timing transistor no longer goes to ground: it returns through emitter resistor 30, and the same node feeds base 28 of transistor 26 and, via the left-hand rail, the upper end of secondary 20'. Collector resistor 31 runs from the top rail to collector 27; storage capacitor 32 sits in series between collector 27 and output lead 24', which crosses the battery wire on a hop. Emitter 29, battery 23' and lead 25' all return to the ground rail.",
+    "3": "Perspective of the implant. Stippling shades the disc-shaped envelope 11; the denser band at its lower rim is the thickness of the wafer. Wire 12 leaves the edge of the disc; part of its run is drawn dashed, shortening a longer lead. The block at its end carries the two pins that are electrodes 13."
+  },
+  "parts": {
+    "25": "The scan prints \"An output lead 25 transmits a pulse from the collector 15\" (col. 2) and then \"a lead 25 connects a reference ground potential\" (col. 3); the drawing and the later text (\"output lead 24\") show that the first 25 should read 24.",
+    "16'": "Not named in the text; by position it is the base electrode of transistor 14', the counterpart of base 16 in FIG. 1.",
+    "20'": "Not named in the text; the secondary winding of transformer 19', counterpart of 20 in FIG. 1.",
+    "21'": "Not named in the text; the timing capacitor of FIG. 2, counterpart of 21 in FIG. 1.",
+    "22'": "Not named in the text; the timing resistor of FIG. 2, counterpart of resistor 22 in FIG. 1.",
+    "25'": "Not named in the text; the ground lead of FIG. 2, counterpart of lead 25 in FIG. 1.",
+    "31": "The text says resistor 31 is connected between source 23' and \"the collector 15' of the transistor 14'\"; in the drawing it runs from the supply rail to collector 27 of transistor 26, which matches the text's next clause (power furnished to collector 27).",
+    "32": "The description has capacitor 32 discharge into the tissue while transistor 26 is saturated and recharge through resistor 31 while it is cut off; claim 4 states the opposite (discharge at cutoff, charge when saturated)."
+  },
+  "glossary": [
+    {
+      "term": "blocking oscillator",
+      "def": "A one-transistor oscillator with transformer feedback that drives itself fully on for a short pulse and is then held off ('blocked') by the charge left on a capacitor in its base circuit until that charge leaks away through a resistor; the RC product sets the pulse rate."
+    },
+    {
+      "term": "heart block",
+      "def": "Failure of conduction from the atria to the ventricles. In complete heart block the ventricles beat at their own slow idioventricular rate; this is the condition the patent addresses."
+    },
+    {
+      "term": "sinus node",
+      "def": "The sino-atrial node, the heart's natural pacemaker in the wall of the right atrium."
+    },
+    {
+      "term": "auricle",
+      "def": "Older term for the atrium, the upper receiving chamber of the heart."
+    },
+    {
+      "term": "auricular-ventricular (AV) bundle",
+      "def": "The bundle of His: the conduction pathway that carries the beat from the atria through the septum to the ventricles."
+    },
+    {
+      "term": "idioventricular rhythm",
+      "def": "The slow intrinsic rhythm of the ventricles when no impulse arrives from the atria."
+    },
+    {
+      "term": "grounded emitter",
+      "def": "Common-emitter connection: the emitter is tied to the circuit reference, the base is the input and the collector the output."
+    },
+    {
+      "term": "saturation / cut-off",
+      "def": "The fully on state of a transistor switch (collector pulled close to the emitter voltage) and the fully off state (no collector current)."
+    },
+    {
+      "term": "unidirectional voltage source",
+      "def": "A DC source, here the battery."
+    },
+    {
+      "term": "potting compound",
+      "def": "A casting resin (here epoxy) poured around a circuit and cured to encapsulate it."
+    },
+    {
+      "term": "milli-ampere hour",
+      "def": "Battery charge capacity: 1 mA·h is one milliampere drawn for one hour (3.6 coulombs)."
+    }
+  ]
+}

@@ -34,7 +34,7 @@
      "cite": "p.1:2",
      "col": null,
      "line": null,
-     "text": "Be it known that I, Ralph Vinton Lyon Hartley, a citizen of the United States, residing at New York, in the county of New York and State of New York, have invented certain new and useful Improvements in Oscillation-Generators, of which the follow ing is a full, clear, concise, and exact description."
+     "text": "Be it known that I, Ralph Vinton Lyon Hartley, a citizen of the United States, residing at New York, in the county of New York and State of New York, have invented certain new and useful Improvements in Oscillation-Generators, of which the following is a full, clear, concise, and exact description."
     },
     {
      "page": 1,
@@ -322,6 +322,12 @@
    "ocr": "Harty,",
    "fixed": "Hartley,",
    "basis": "scan"
+  },
+  {
+   "cite": "p.1:7",
+   "ocr": "follow ing",
+   "fixed": "following",
+   "basis": "scan (word split at the line end with no printed hyphen; joined)"
   },
   {
    "cite": "p.1:6",

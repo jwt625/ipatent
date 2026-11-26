@@ -1,0 +1,83 @@
+{
+  "patent": "Filed in the US on 1954-12-21 (German priority 1953-12-23) and issued 1960-06-07 to Wolfgang Paul and Helmut Steinwedel of Bonn, with Steinwedel assigning his share to Paul. It is the US patent on two RF quadrupole devices that became standard instruments: the quadrupole mass filter, four parallel electrodes with an RF plus DC voltage that pass ions of only a narrow e/m band along the axis (FIGS. 1-5 and 10), and the three-electrode quadrupole ion trap, now called the Paul trap, which holds ions of the stable e/m range in a closed volume (FIGS. 11-12). Ion motion obeys the Mathieu equation, so whether an ion is passed or lost depends only on the parameters a and q, not on its starting position or velocity (FIGS. 6-9). Paul and Steinwedel first described the mass filter in \"Ein neues Massenspektrometer ohne Magnetfeld\", Zeitschrift für Naturforschung 8a, 448 (1953). Paul shared the 1989 Nobel Prize in Physics with Hans Dehmelt for the development of the ion trap technique, the other half going to Norman Ramsey (Nobel lecture: W. Paul, \"Electromagnetic traps for charged and neutral particles\", Reviews of Modern Physics 62, 531 (1990)). Quadrupole mass filters are used in residual-gas analyzers and analytical mass spectrometers; RF Paul traps hold single ions for optical clocks and trapped-ion quantum computing.",
+  "figs": {
+    "1": "Perspective of the ideal electrode set: four thin sheet electrodes with hyperbolic cross-sections, parallel to the x-axis, which is the axis of symmetry and the ion flight direction. The pair A lies on the y-axis and the pair B on the z-axis; r_{0} is the distance from the axis to each electrode vertex. Equal and opposite voltages on the two pairs give a potential that does not vary along x.",
+    "2": "Longitudinal section of the mass filter, broken in the middle (double vertical lines) to shorten the drawing. Ions from source 5 at the left enter along the axis (arrow 6) through diaphragm 8, and a second diaphragm 8 screens the collector end; ions on stable paths reach cup 3 at the right, and the current is read as a voltage across resistor 7 to ground. Only two of the four solid electrodes 1 are cut by the section; they sit in ceramic discs 4' inside vessel 4. One voltage lead 2 enters through the insulated fitting at the top. The bolted flanges with sealing rings join the source and collector housings to the vessel. III-III marks the section of FIG. 3.",
+    "3": "Cross-section III-III. The four solid electrodes 1 present hyperbolic faces to the axis. Thin wires join the top electrode to the bottom one and the left electrode to the right one, and each pair is fed by one lead 2; the leads pass through the wall of vessel 4 in insulated fittings with knurled nuts. The large circle with two nuts is the end flange.",
+    "4": "Same view as FIG. 3 with four round rods in place of the hyperbolic electrodes, wired the same way. The rod radius equals the radius of curvature of the hyperbolic faces at their vertices.",
+    "5": "Supply circuit for round-rod electrodes 1, whose opposite rods are joined in pairs by the wire loops at the upper right and lower left. Generator 9 drives the two pairs through capacitors 14 (RF path). Rectifier 10, fed from the same generator output, develops a DC voltage across potentiometer 15; its tap reaches the rod pairs through choke coils 13, which block the RF. Switch 11a, drawn as two ganged blades, chooses between this derived DC voltage and the separate source 11.",
+    "6": "Stability chart of the Mathieu equation in the a, q plane; shaded areas are stable. Horizontal grid lines sit at a = 0, ±1, ±4, ±9 (squares of integers). With RF only (a = 0) each ion lies on the q-axis at a point set by its e/m.",
+    "7": "Strip along the q-axis of FIG. 6 with only the stable regions drawn, the narrow ones widened for visibility. The first stable range runs from q = 0 to 0.92, the second from 7.50 to 7.52 and the third from 21.24 to 21.25. Since q is inversely proportional to mass at fixed voltage and frequency, each range is a mass window.",
+    "8": "Log-log chart of mass number M (vertical, 1 to above 200) against RF frequency in megacycles per second (horizontal, decreasing to the right from 30 to 0.5) for an RF amplitude of 1000 volts, RF only. F_{1} is the first stable range: at a given frequency all masses above its edge pass. F_{2} is the second range, a narrow band between the double lines. Both edges are straight because q is proportional to 1/(M f^{2}).",
+    "9": "Enlarged first stability region in the a, q plane. The descending line is the upper boundary, labelled b_{1} where it continues below the q-axis; the curve a_{0} from the origin is the lower boundary. Upper half plane: z-motion, lower half plane: y-motion. The dashed lines from the origin are operating lines u = U_{0}/V = const, drawn in pairs above and below the axis. For the inner pair, z-motion is stable up to q_{2} and y-motion between q_{1} and q_{3}, so only ions with q between q_{1} and q_{2} pass. The outer pair, u_{max} = 0.166, is the limit at which the pass band closes, at q_{max} = 0.706.",
+    "10": "Nine round rods in a 3 by 3 lattice, five labelled A (corners and centre) and four labelled B. Each of the four gaps between neighbouring rods is enclosed by two A rods facing each other and two B rods facing each other, so the bundle forms four parallel mass filters fed by one A and one B connection.",
+    "11": "The three electrodes of the rotationally symmetric field, axis of symmetry z. The hourglass-shaped ring A surrounds the z-axis; the two end caps B close it at either end. The field is quadratic in all three coordinates, so ions are confined in every direction rather than guided along an axis.",
+    "12": "Section of the ion trap along its axis, horizontal here. Ring A appears as the two hatched blocks above and below the centre, end caps B left and right; the white X between them is the gap along the asymptotic cones, with ionization space 20 at the centre. The right cap is a thin dished shell perforated at its centre (holes 18); behind it, cathode 17 sits on the axis in a tube fitted to the vessel, inside the cup-shaped focusing electrode 19. The ring rests on insulating support 22 and is wired out through the flange at the right; vessel 16 is pumped through tube 21 at the left."
+  },
+  "parts": {
+    "1": "In FIGS. 2 and 3 the electrodes are solid bars with hyperbolic faces; in FIG. 5 they are drawn as round rods as in FIG. 4.",
+    "4'": "Insulating spacers that hold the four electrodes in position inside the vessel.",
+    "8": "Grounded screens that keep the RF field between the electrodes from reaching the ion source and the collector.",
+    "11a": "Selects either the DC voltage derived from the RF through rectifier 10, which keeps the DC to RF ratio fixed when the RF amplitude drifts, or the independent source 11.",
+    "18": "Admit electrons from cathode 17 into the trap, where they ionize the gas being analysed.",
+    "19": "Biased negative relative to cathode 17 to focus the electrons onto the holes 18.",
+    "A": "In FIGS. 1 and 10 the A electrodes are joined to each other, as are the B electrodes. In FIGS. 11 and 12, A is the ring electrode.",
+    "B": "In FIGS. 11 and 12, B are the two end caps, joined to each other; the trap voltage is applied between them and ring A. Geometrically the ring's inner face is a one-sheet hyperboloid and the end-cap faces are the two sheets of a two-sheet hyperboloid; claim 10 calls the ring the two-part hyperboloid and the end caps one-part hyperboloids.",
+    "F_{1}": "First stable range, q from 0 to 0.92.",
+    "F_{2}": "Second stable range, q from 7.50 to 7.52."
+  },
+  "glossary": [
+    {
+      "term": "specific charge",
+      "def": "Charge-to-mass ratio e/m of an ion. Separating ions by specific charge is mass spectrometry; for singly charged ions it is separation by mass."
+    },
+    {
+      "term": "quadrupole field",
+      "def": "An electric field whose potential is a quadratic function of the coordinates, so the force on an ion grows linearly with its distance from the centre."
+    },
+    {
+      "term": "quadrupole mass filter",
+      "def": "Four parallel electrodes with an RF voltage plus a smaller DC voltage between the opposite pairs; only ions in a narrow e/m band have stable paths along the axis and reach the detector."
+    },
+    {
+      "term": "Paul trap",
+      "def": "Quadrupole ion trap: a ring electrode and two end caps with an RF voltage between them, which confines ions of a chosen e/m range in three dimensions without a magnetic field."
+    },
+    {
+      "term": "Mathieu equation",
+      "def": "The differential equation d^{2}z/dξ^{2} + (a - 2q cos 2ξ) z = 0, which describes motion in a sinusoidally varying linear force field; its solutions are bounded or grow exponentially depending only on a and q. The patent spells it \"Matthieu\"."
+    },
+    {
+      "term": "a, q",
+      "def": "The two Mathieu stability parameters: q scales with the RF amplitude V and a with the DC voltage U_{0}, both divided by m r_{0}^{2} ω^{2}. Their ratio depends only on U_{0}/V, so all masses lie on one straight line through the origin of the a, q plane."
+    },
+    {
+      "term": "stable / unstable path",
+      "def": "On a stable path an ion oscillates about the axis with bounded amplitude; on an unstable path the amplitude grows until the ion strikes an electrode and is removed."
+    },
+    {
+      "term": "hyperboloid of one sheet / two sheets",
+      "def": "Surfaces of revolution: one sheet is a connected hourglass shape (the trap's ring face); two sheets are a pair of separate bowls facing each other (the end-cap faces). The patent writes \"one-part\" and \"two-part\"."
+    },
+    {
+      "term": "mass number",
+      "def": "Ion mass in atomic mass units, M; the patent writes m = m_{0}M."
+    },
+    {
+      "term": "megacycles per second",
+      "def": "Megahertz (MHz)."
+    },
+    {
+      "term": "choke coil",
+      "def": "An inductor that passes DC but blocks the RF voltage, used here to feed the DC to the electrodes without shorting the RF."
+    },
+    {
+      "term": "electron impact source",
+      "def": "An ion source in which electrons accelerated from a hot filament ionize gas molecules by collision."
+    },
+    {
+      "term": "transit-time spectrometer",
+      "def": "A mass spectrometer that separates ions by their flight time or by their phase relative to an RF field, and so needs pulsed or phase-matched ion injection."
+    }
+  ]
+}

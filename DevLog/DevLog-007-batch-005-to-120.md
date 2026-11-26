@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Date | 2026-11-25 |
-| Status | Ingestion |
+| Status | Done (120 patents) |
 | Scope | Propose and ingest 54 new patents (expired preferred), reusing cached candidates from earlier rounds; commit and push |
 | Authors | Claude Code, at Wentao Jiang's request |
 
@@ -30,11 +30,11 @@ Answer to the one up-front question (2026-11-25): run the ingestion as a Workflo
 - [x] Fetch + inventory new picks (52 PDFs)
 - [x] Select 54 (list in `research/batch-005.md`, written at the end with the evidence)
 - [x] Stage 1 + meta + Google pages for all 54
-- [ ] Workflow: text + figure tables + traces (46 of 54 fully traced, 2026-11-25 23:10; paused for the usage window)
+- [x] Workflow: text + figure tables + traces (54 of 54; last 8 patents finished 2026-11-26 02:41)
 - [x] Build + self-test for 13 more (gallery 112), committed and pushed 2026-11-25
 - [x] Build + self-test + screenshots for the 33 finished patents (gallery 99; `--complete` keeps the 21 unfinished out)
-- [ ] Audits
-- [ ] Remaining 21 patents traced, README rows, final commit and push (the finished 33 committed and pushed 2026-11-25)
+- [x] Audits (8 fresh-context agents, one per group, 2026-11-26)
+- [x] Remaining patents traced, README rows (all 120), final commit and push 2026-11-26
 
 ## Progress
 - 2026-11-25: 3 of 4 research agents back: landmark lists 35 candidates, blog topics 29, industrial labs 29 (files in the session
@@ -75,7 +75,26 @@ Answer to the one up-front question (2026-11-25): run the ingestion as a Workflo
   `build.py --complete --only` the 13 + the 22 re-traced: gallery 112 patents (7.67 MB); `selftest.sh` PASS on index.html and
   all 35 pages. Left: 8 patents (2939952 10/12 figures, 3057356 2/3, 1203495, 223898, 307031, 349611, 3789832, 454622),
   223898 text, audits, README rows. Resume planned 2026-11-26 02:00 PT.
+- 2026-11-25 23:25 PT: committed and pushed aff8c69. Resume is a fresh workflow (session scratchpad `finish-batch-005.js`), not a
+  replay: 22 tracers for the 34 figures left (2939952 FIG. 1, 3-7, 10, 11 and 3057356 FIG. 1, 3 were interrupted mid-trace and are
+  redone from their partial generators; the other 6 patents in full) plus the 223898 text agent told to assemble text.json by
+  script from OCR line ranges instead of typing the text.
 
+- 2026-11-26 02:03 PT: finishing workflow (`finish-batch-005.js`, 23 agents, 0 errors, 38 min, 4.2M subagent tokens). US 223,898
+  text.json assembled by a script from OCR line ranges (308 OCR fixes; pages 3-4 are the 1883 R.S. 4887 certificate and its 1893
+  cancellation; p.1:103-104 printed twice as p.2:1-2, kept as printed). 34 figures traced: `coverage.py` 91-99.9 % except
+  307031 FIG. 4 (69.8 % raw, 97.4 % net of the scan's torn border). `build.py --complete --only` the 8: gallery 120 patents (8.24 MB);
+  `selftest.sh` PASS on index and the 8 pages; screenshots of 223898 FIG. 1 and 2939952 FIG. 1 checked.
+- 2026-11-26 02:45-03:35 PT: 8 audits (brief in the session scratchpad `audit-brief.md`), fixes in place; corrections below.
+  Rebuilt all 54 pages; `selftest.sh` PASS 55/55 (index + 54). README table: rows for the 87 patents added since the first 33
+  (batch 004 had not added them), existing rows unchanged, new rows in group order then grant date, title-cased printed title
+  and inventor surnames, figure count.
+- Open (not fixed here): letter refs other than lowercase `[a-z]\d?` never link from the text (capitals, primes `c′`, `a^{2}`):
+  `lettered()` stays off for 349,611 (0 part mentions), 879,532, 1,113,149, 395,782, 174,465, and capitals stay unlinked in
+  223,898, 307,031, 454,622; text uses U+2032 primes where part refs use ASCII `'`. Fix in `build.py` needs care with
+  sentence-initial "A". 3,149,290: a 1970 certificate adds Herriott as joint inventor; entities list the printed two.
+  2,787,564 prints Ohl's patent as 2,750,411 (a search suggests 2,750,541). 3,789,832 extension: certificate gives 1992-02-22,
+  Google 1992-02-24. README intro still says the gallery is about 2 MB (now 8.24 MB).
 ## Decisions
 - 54 patents: 32 reused from the cached pool (batch-004 reserves and other cached research hits), 22 new. All expired.
   Bell Labs 7, Lasers and integrated optics 9, Chips and microdevices 8, Radio and television 7, Computing and cryptography 6,
@@ -88,3 +107,11 @@ Answer to the one up-front question (2026-11-25): run the ingestion as a Workflo
 - Group names are working names; rename in `meta.json` + `build.py` GROUPS if wanted.
 
 ## Audit corrections
+- Radio and television (7): no text errors. Notes: 879,532 and 803,684 cite Marconi v. De Forest, 236 F. 942 (S.D.N.Y. 1916), aff'd 243 F. 560 (2d Cir. 1917); 803,684 1943 invalidity stated as improper disclaimer (filed 1915-11-17, printed on the scan) with unreasonable delay, 320 U.S. 1; 1,113,149 "ruled for de Forest" -> "upheld de Forest's priority" (RCA v. Radio Engineering Laboratories, 293 U.S. 1, 1934); 1,342,885 Levy priority sentence replaced by FR 493,660 (1917), Schottky (Proc. IRE 1926), US 1,734,938 (1929); FIG. 2 note "beside" -> "just below"; 1,941,066 FIG. 3 note adds that curve C levels off; Farnsworth dates to ISO. google_expiration filled for all 7 (equal to term_end).
+- Computing and cryptography (6): 2,525,352 term_end 1967-10-10 -> 1966-03-07 (printed "Patent expires March 7, 1966", Section 1, Public Law 690, 20 years from the Austrian filing; Google ignores it). 395,782 basis: British specification of 1889 exists (CHM B332.85), no earlier foreign patent found (orchestrator cut an unverified number and date taken from a search snippet). 2,612,994 "then at Drexel" -> "had begun the work at Drexel". 2,736,880 adds IBM paid MIT $13 million in 1964 (CHM). Dates to ISO.
+- Bell Labs (7): terms all correct. 1,356,763 text "follow ing" -> "following" (+ ocr_fixes entry). 3,500,000 part note and figures.json part 116 removed (scan prints 110; 116 exists only as an OCR misread). 3,500,142 misquoting part note 20 removed. 3,488,445 "first patent on OFDM" -> "Chang's patent on OFDM" (unverifiable first); FIG. 4 note "above the band" -> "outside the band" (col. 8:25). Dates to ISO.
+- Science and medicine (5): 3,789,832 term_end 1991-02-05 -> 1992-02-22: the scan's last page is a 35 U.S.C. 156 certificate (382 days, 1986-04-18); Google legal events give 1992-02-24, two days later, unexplained (noted in basis). Its MRI note rewritten: FIG. 2 localizes at the field maximum on the magnet axis, no applied gradients; Lauterbur, Nature 242, 190 (1973); 2003 Nobel to Lauterbur and Mansfield, Damadian's 2003-10-09 newspaper ads. Part 35 named "input terminal" from the certificate of correction (printed 25 corrected to 35). 1,948,384: Wideroe citation notes Archiv fur Elektrotechnik 21, 387 (1928) vs the patent's printed 1929; FIG. 5 note wall 13 is solid, not dashed; FIG. 6 radius 11.4 -> 11.5 cm (recomputed). 2,939,952: FIG. 12 "trapping space 20" -> "ionization space 20"; FIG. 2 two diaphragms 8. 3,057,356 FIG. 2 "lower end" -> "upper end" of secondary 20'. 1,203,495 Langmuir sentence reduced to what the closing paragraph says. Dates to ISO.
+- Forum favorites (8): no text errors. 6,469: filed 1849-03-10, a week after Lincoln's House term ended (note said "while serving"); no extension found, 14-year term kept (Google applies 17); FIG. 2 right-hand word unreadable, not invented. 748,626 FIG. 1 estate lettering as printed ("Lord Blue Blood, London England, Owner"); granted 1904, so no R.S. 4887 note. 207,559: "earliest patent drawing of QWERTY" removed (unsupported) -> what FIG. 3 prints (ASDFGHJKLM, ZCXVBN); Remington contract 1873, sold from 1874; Yasuoka citation completed. 1,219,881 FIG. 9 four -> five interlocked members. 1,219,881, 3,005,282 disclaimers and 1,061,206 division noted in basis (term unchanged). google_expiration filled for all.
+- Electric light and power (4): 223,898 term_end 1897-01-27 -> 1894-11-17: R.S. 4887 with Edison's Canadian patent No. 10,654 of 1879-11-17 (5 years + 10 by fee, one 15-year term): Edison Electric Light Co. v. Perkins, 42 F. 327 (1890); v. United States Electric Lighting Co., 52 F. 300 (2d Cir. 1892, which also held the 1883-12-18 certificate void; cancelled 1893-03-15); British No. 4,576 did not limit it (59 F. 358, 1894); Bate Refrigerating v. Sulzberger, 157 U.S. 1 (1895). Exact day uncertain (Katznelson and Howells 2012 give 1894-11-19 unsourced). Note sentence added. Printed doubling of p.1:103-104 as p.2:1-2 confirmed on the scan, kept. 349,611 FIG. 1 and 2 notes: drawing prints a^{1}, b^{1}, e^{1}, c^{1} for the text's primes. 307,031 and 454,622 no changes.
+- Chips and microdevices (8): terms all correct. 5,374,564: no fee lapse (4/8/12-year fees paid); Google "Ceased" because it was surrendered on reissue as RE39,484 (2007-02-06); basis rewritten; notes "R_{p}" -> "Rp" as printed. 3,033,714 FIG. 1 layer 3 is a flat-bottomed band, not lens-shaped; printed names (Reona Ezaki) confirmed. 3,356,858: false "metallic gate 95" part note and alt removed (scan: gate 96); FIG. 5 conductors 55/56 named as in the text. 3,413,573: gap "a few microns" -> "about 1/2 mil (13 um)"; wire "hand-soldered" -> as printed; IEEE Trans. Electron Devices ED-14 (1967) citation completed; FIG. 2 arrow direction; FIG. 5 node-position note made exact. 2,787,564: Ohl patent number attributed to the text (prints 2,750,411; a search suggests 2,750,541; unresolved). google_expiration filled; dates to ISO.
+- Lasers and integrated optics (9): 4,958,898 term_end 2009-03-15 -> 2002-09-25 (lapsed for non-payment of the 11.5-year fee; USPTO events on Google; Google's anticipated date ignores the lapse). 3,758,875 text col. 5:48 "E_{gp} > _{gi}" -> "E_{gp} > _{Egi}" (scan); Nobel 2000 "half" to Alferov and Kroemer. 3,149,290: 1970 certificate adding Herriott as joint inventor noted; unverifiable "strongest line" removed. 4,448,479 FIG. 3 and FIG. 11 notes corrected against the drawing; glossary "planar strip transmission line" per claim 7. 4,725,110 basis names the 1984-08-13 parent. 5,172,267 1989 fcc work was a measurement, not a proposal. 5,005,175 FIG. 5 note: 2.1 dB/mW is the text's ratio at 11.3 mW, not the initial slope; mode-size and gain-coefficient glossary made exact. 4,949,350 FIG. 2 three mirror periods drawn, FIG. 4 Al fraction computed from printed thicknesses. google_expiration filled; units and dates as printed / ISO.

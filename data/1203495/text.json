@@ -1,0 +1,2541 @@
+{
+ "pn": "1203495",
+ "number": "1,203,495",
+ "title": "VACUUM-TUBE",
+ "inventors": [
+  "William D. Coolidge"
+ ],
+ "assignee": "General Electric Company, a corporation of New York",
+ "filed": "1913-05-09",
+ "issued": "1916-10-31",
+ "appl_no": "766,549",
+ "int_cl": null,
+ "us_cl": null,
+ "refs_patents": [],
+ "refs_other": [],
+ "examiners": null,
+ "claims_count": 33,
+ "drawing_figures": 8,
+ "abstract": "",
+ "cite_scheme": "printed page:line",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "page": 1,
+     "cite": "p.1:1",
+     "col": null,
+     "line": null,
+     "text": "To all whom it may concern:"
+    },
+    {
+     "page": 1,
+     "cite": "p.1:2",
+     "col": null,
+     "line": null,
+     "text": "Be it known that I, William D. Coolidge, a citizen of the United States, residing at Schenectady, in the county of Schenectady and State of New York, have invented certain new and useful Improvements in Vacuum-Tubes, of which the following is a specification."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:9",
+     "col": null,
+     "line": null,
+     "text": "My invention relates to vacuum tubes and more especially to tubes operated for the purpose of producing Röntgen or X-rays. The tube which I have produced differs so radically from the tubes of the prior art used for producing Röntgen or X-rays as to amount not so much to an improvement on prior tubes as to an entirely new variety of tube differing both in its principles of operation and in its operating characteristics."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:20",
+     "col": null,
+     "line": null,
+     "text": "In the Röntgen tube of the prior art, it was necessary that there be at least some free gas in the tube, the reason for which may be explained as follows: The number of ions present in the tube was exceedingly small until a high potential was impressed upon its terminals. The effect of this high potential was to accelerate the motion of the small number of ions originally present, thus causing them, by their collision with gas molecules to produce more ions, and, further, to so attract the positive ions that they would bombard the cathode and so cause it to emit electrons. These electrons, directed by the electric forces in the tube, move toward the anti-cathode and in their movement constitute the so-called cathode rays. Upon colliding with the anti-cathode these undergo a sudden change in velocity and so give rise to the Röntgen or X-rays. As the emission of electrons from the cathode was due solely to bombardment by positive ions, and as these positive ions owed their existence to the presence of gas in the tube, it is seen at once that the X-ray tube of the prior art was absolutely dependent for operativeness upon a proper amount of gas. Without the presence of sufficient gas to permit a discharge to take place between the electrodes the cathode would not be bombarded by positive ions and so no resulting production of X-rays would occur. The presence of this gas, heretofore considered a necessity in the operation of such a tube, gave rise to certain features of operation of the tube which are obviously very disadvantageous but which have heretofore been accepted by workers in the art as unavoidable evils. I will not here attempt to point out all of the troubles which may be traced to the presence of this gas, but will mention a few of the attendant difficulties."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:62",
+     "col": null,
+     "line": null,
+     "text": "(a) The pressure of the gas in such a tube is exceedingly variable, and any change in gas pressure is accompanied by a corresponding change in the resistance of the tube and in the penetrating power of the Röntgen rays."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:68",
+     "col": null,
+     "line": null,
+     "text": "(b) A sufficiently exact adjustment of pressure, to give the desired penetrating power of the Röntgen rays, calls for a great deal of manipulative skill and long experience on the part of the operator."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:73",
+     "col": null,
+     "line": null,
+     "text": "(c) Besides the slow changes in gas pressure, which can be corrected by the operator, there are other very rapid pressure changes which go on even during a very short radiographic exposure. These cannot be corrected and, as a result, the exposure or fluoroscopic examination is made, not with Röntgen rays of the quality desired, but with whatever approximation to that is allowed by the idiosyncrasies of the particular tube in question, in other words, with a mixture of rays differing perhaps very widely in penetrating power."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:86",
+     "col": null,
+     "line": null,
+     "text": "(d) The tendency to undergo rapid changes in gas pressure increases with use, until finally the tubes of the prior art show such instability of vacuum that they are no longer useful, even though they may be otherwise in perfect condition."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:92",
+     "col": null,
+     "line": null,
+     "text": "(e) Many of the positive ions instead of striking the cathode, strike the glass constituting the tube wall around it, and, by their excessive local heating, cause disintegration and cracking of the envelop at this point. This imposes a limitation on the permissible energy input in such a tube."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:99",
+     "col": null,
+     "line": null,
+     "text": "(f) Many tubes of the prior art show variability in the location of the focal spot. As the focal spot is the source of the X-ray, its movement during a radiographic exposure, means a blurring of the picture. It is my belief that sudden changes in gas pressure lead to movements of the focal spot."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:107",
+     "col": null,
+     "line": null,
+     "text": "(g) Some of the electrons coming from the cathode are impeded in their passage to the target by impact with intervening gas molecules and so do not have, upon reaching the target, the same velocity as those electrons which have passed through the entire potential drop from cathode to target without meeting an obstruction. The higher the gas pressure in the tube the greater will be the influence of this effect and, consequently the greater will be the lack of uniformity in the penetrating power of the resulting Röntgen rays."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:12",
+     "col": null,
+     "line": null,
+     "text": "(h) There is a strong bombardment of the glass, constituting the entire anterior hemisphere, of such a tube, by secondary cathode rays emitted from the anticathode. This causes excessive local heating of the glass and a vigorous emission of secondary X-rays from the bombarded glass. These secondary rays, unless prevented by the use of a proper diaphragm, cause a blurring effect in the radiograph and on the fluorescent screen."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:23",
+     "col": null,
+     "line": null,
+     "text": "(i) Any electromotive force in the source of current supply for such a tube, in a direction which would make the target function as cathode, must be carefully suppressed, as it otherwise leads to changes in gas pressure."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:28",
+     "col": null,
+     "line": null,
+     "text": "In order to overcome these troubles met with in the X-ray tubes of the prior art, I remove the cause of the trouble, namely, the gas in the tube, and produce the electrons from the cathode necessary to the production of the X-rays, not by a bombardment of the cathode by positive ions due to ionization of the gas by the voltage impressed upon the tube, but by heating the cathode to incandescence by energy from a suitable source. In tubes made according to my invention I eliminate the action of positive ions as far as it is possible to do so by evacuating the tube to the highest vacuum which can possibly be attained and by thoroughly freeing the electrodes from gas. In the tube of the prior art the pressure of gas was quite appreciable and varied from say one to ten microns (0.001 to 0.010 millimeters) of mercury. With a tube made according to my invention, the tube proper and the electrodes being thoroughly freed from gas as hereinafter described, the pressure of gas may be say five hundredths of a micron (0.00005 millimeter) or lower and in any event lower than that at which the tube would operate as an ordinary Röntgen ray tube. The upper limit of pressure may therefore be placed roughly at say about 0.6 of a micron or thereabout. With such a vacuum in a tube of the prior art so far as I am aware no current whatever would pass in the tube and no X-rays would be produced."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:62",
+     "col": null,
+     "line": null,
+     "text": "As a cathode I ordinarily use a tungsten filament and this may be conveniently heated by current from a storage battery or transformer with suitable regulating devices so that the temperature of the cathode or filament may be adjusted at will. I have found that electrons will be emitted from such a cathode, which electrons will traverse the space between the cathode and the target under the influence of the electromotive force impressed upon the tube, and by bombardment of the target, will give rise to X-rays. In this new type of tube positive ions appear to play no rôle whatsoever. The excessively low gas pressure must make their number exceedingly small. The fact that they do not play an appreciable rôle at the cathode is experimentally shown by the fact that the temperature of the heated cathode is not measurably raised by passing heavy discharges through the tube. In the same tube, with gas pressures approximating those used in tubes of the prior art, the tungsten filament, functioning as cathode, is raised by these same discharges from room temperature to extreme incandescence, and may even be melted by the bombardment of the positive ions."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:90",
+     "col": null,
+     "line": null,
+     "text": "Gas pressure in the tube being thus eliminated to the highest possible degree, those features of instability in the tubes of the prior art which it can now be seen were due to the presence of the gas in the tube are likewise eliminated. Furthermore, by static or electromagnetic means I cause the cathode rays or electrons to be focused on the anode or target and this focusing effect is steady and unwavering."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:100",
+     "col": null,
+     "line": null,
+     "text": "A tube made in accordance with my invention differs from the tubes of the prior art in the possession of most remarkable characteristics. Thus there are no marked changes in the operation of the tube during a considerable length of time, with the result that X-rays may be constantly generated of a much more uniform degree of penetrating power and much more constant in volume and in the location of their source or focal spot. The penetrability or in other words the “hardness” or “softness” of the X-rays may be adjusted at will by adjusting the temperature of the cathode. There is practically no fluorescence of the glass of the tube and this is important because it indicates that the glass is not bombarded by secondary cathode rays emanating from the target or anode and is therefore not being locally heated thereby. There is only a more or less negligible production of the secondary X-rays from the glass which form such a useless and disturbing factor in the ordinary Röntgen tube. The voltage consumed by the tube may in certain forms of embodiment of my invention be made to remain more or less constant even though the voltage of the source of current supply varies. The focusing effect is steady and the sharpness of definition of the X-ray photographs is increased. These and other features and advantages of my invention will be better understood by reference to the following description taken in connection with the accompanying drawings. The features of novelty I have endeavored to point out in the appended claims."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:7",
+     "col": null,
+     "line": null,
+     "text": "In the accompanying drawings, Figure 1 is a sectional view of a complete tube equipped with one type of focusing device; Figs. 2 to 7 illustrate alternative forms of focusing devices, and Fig. 8 illustrates a modified tube having a constant voltage characteristic."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:14",
+     "col": null,
+     "line": null,
+     "text": "Referring to Fig. 1, showing one embodiment of my invention, the tube or envelop is indicated at 1, consisting as usual of glass, or other transparent material. In the tubular end 2 is sealed an anode 3 which in this case is plate-shaped. It is supported by a stem 4, both anode and stem consisting, preferably, of wrought tungsten. Opposite this anode, which serves also as target, is a cathode 5 adapted to be heated, in this case a filamentary spiral of tungsten, tantalum, carbon or other highly refractory material. In this case the filament is wound non-inductively, though this is not essential. It is connected to leading-in wires 6, 7, sealed into a glass support 8, the wires being insulated from each other by little glass tubes 8′ as clearly shown. The wires 6, 7 are connected to a source of current, such as a battery 9, or to a transformer, through a regulatable resistance 10. The battery, or transformer secondary, should be well insulated owing to the high potential used in operating the tube. Around the cathode proper is a hollow cylinder 11 consisting of tungsten, aluminum, iron, or other suitable conductive material held in position by springs 12, one of which engages with a little knob 13 on the glass. This cylinder or tube is preferably electrically connected to the cathode by means of wire 14, either inside the tube or brought outside of the tube as shown, and containing in circuit a switch 15. In normal operation the cylinder 11 performs the important function of modifying the static field to focus the cathode discharge, as will be explained."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:51",
+     "col": null,
+     "line": null,
+     "text": "Instead of being tubular the focusing device may assume various other shapes. It may be a perforated flat disk, as shown at 16, Fig. 2, or a perforated dished or concave disk 17, Fig. 3, or even a simple ring 18, Fig. 4. In fact, even a metallic deposit, such as a film of chemically deposited silver, on the walls of the globe, as shown in Fig. 5 at 19, will act as a static focusing means."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:60",
+     "col": null,
+     "line": null,
+     "text": "Magnetic focusing means may be used, instead of the static focusing devices, and as shown in Figs. 6 and 7. The magnetic focusing means may take the form of a solenoid, either inside the tube similarly to the static focusing ring, or outside the walls of the tube in the vicinity of the cathode, as diagrammatically indicated in Fig. 6, at 20, or the cathode itself is wound inductively, as shown by cathode 21 in Fig. 7."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:70",
+     "col": null,
+     "line": null,
+     "text": "In the preparation of the tube the glass is first freed from moisture and gas by heating and other approved methods and the electrodes preferably are freed from gas as by heating them to a high temperature in a vacuum. Exhaustion of the tube is preferably carried on by means of a pump which will remove vapors as well as gases, such as the Gaede molecular pump. For the removal of the last portions of gas from the electrodes and from the glass the tube is operated on the pump. The electrodes should be made of refractory metal such as tungsten so that they will withstand the very high temperatures attainable by operating the tube while connected to the pump, whereby gas may be effectively driven out. In case the usual constriction in the exhaust tube is employed, pumping is thereby greatly delayed. In some cases much time can be saved by omitting the constriction until the tube has been exhausted to the point where the operation is satisfactory. Carefully dried air can then be admitted and the constriction put in. Upon exhaustion of the dry air it will be found that the condition of the tube, even without further running on the pump, is essentially what it was before air was admitted."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:99",
+     "col": null,
+     "line": null,
+     "text": "When the electrodes have been sufficiently freed from gas particularly the anode which is of large mass relative to the cathode and the tube has been exhausted to a vacuum of about .05 microns (0.00005 millimeters of mercury) or lower it is sealed off from the pump. It may be operated, in accordance with my invention, by closing the battery circuit through the resistance 10 so as to heat the filament 5 to incandescence. When a sufficiently elevated temperature has been reached electrons are emitted by the filament. When a sufficient potential is applied across the tube by completing connection to a suitable source 22, through conductors 23 and 24, current is transmitted, provided the negative terminal of the source is connected to the filament. When the source 22 furnishes alternating current, as for example, a transformer or an induction coil, only half waves of current are transmitted by the device. The electrons soon charge the hollow cylinder 11 to a negative potential with respect to the cathode unless the cylinder and cathode are connected. Whether connected or not, the cylinder so modifies the nature of the static field within the tube that the electrons are directed upon a spot of small area upon the anode 3."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:128",
+     "col": null,
+     "line": null,
+     "text": "In my opinion the focusing action is caused by the electrons tending to move perpendicularly to the equipotential surfaces which may be drawn in the space between cathode and anode. This manner of focusing the cathode discharge is especially effective as the speed of the electrons is relatively low near the cathode and therefore their movement is easily directed by the focusing devices. The focal spot on the anode remains fixed during the normal operation of the tube. This is in sharp contrast to the operation of the ordinary Röntgen tube in which the focal spot often moved about so rapidly as to produce blurring of all lines not parallel to the direction of motion, even during very short radiographic exposures."
+    },
+    {
+     "page": 4,
+     "cite": "p.4:15",
+     "col": null,
+     "line": null,
+     "text": "The operation of X-ray devices made in accordance with my invention is markedly affected by the temperature to which the cathode is raised. If the temperature of the filament is low only a small number of electrons escape, and therefore the saturation current through the tube is relatively small. Increasing the impressed voltage on the tube will cause substantially no further increase in current. It will increase the velocity of the cathode rays and hence the penetrating power of the Röntgen rays. If the filament temperature on the other hand is very high, further increase of temperature produces no appreciable effect on the tube characteristics, more electrons being emitted by the filament than can be carried, by the voltages employed, from one electrode to the other. At higher filament temperatures, the space relations of the elements of the tube such as the distance between cathode and anode, the location of the focusing means relative to the cathode, the diameter of the opening in the focusing device, etc. constitutes a current limiting factor, as will be later explained. Except for these limiting cases, an increase in impressed voltage will in general cause an increase in discharge current and in the potential drop in the tube, thus increasing the penetrability of the X-ray. However, by giving the cathode its main extension in the direction of the axis of the tube, and also suitably proportioning and locating the focusing device, a most important new characteristic may be attained. Such a construction is shown in Fig. 8 in which a filament 25 extends nearly through the whole length of tube 26, being anchored at its tip by a support 27. With a low impressed voltage, only that part of the filament 25 nearest the anode will furnish the electrons necessary to carry the discharge current. With higher impressed voltages, a progressively greater part of the filament will contribute electrons. The increase in the number of electrons thus rendered available by the increase of impressed voltage and the accompanying change in distribution in the static field, tends to reduce the tube resistance and thus counteract the tendency of the higher impressed voltage to increase the potential drop through the tube. A tube thus constructed, therefore, exhibits within certain limits an important new characteristic of operating with a substantially constant potential drop over a range of variable impressed voltage. The advantages of this new characteristic of the tube are manifold. A most important advantage is gained in the homogeneity of the X-rays obtained when the tube is operated from a current source, in which the voltage varies periodically, as, for example, when a transformer, induction coil or a rectifying device such as a mechanical selector, are used which gives current impulses of variable voltage."
+    },
+    {
+     "page": 4,
+     "cite": "p.4:82",
+     "col": null,
+     "line": null,
+     "text": "My novel apparatus, therefore, has the following valuable and striking characteristics. First, the resistance of the tube, and, hence the penetrating power of the Röntgen rays produced in the tube, may be controlled with certainty, and may be instantly increased or decreased at will, by raising or lowering of the temperature of the cathode; second, a much more homogeneous bundle of X-rays can be produced even though a several-fold increase, or decrease of gas pressure takes place in the tube, providing the pressure remains within the limits above indicated; third, as the discharge can pass through the tube only when the heated electrode is made the cathode, the tube may be operated on alternating current almost equally as well as on direct current; fourth, if desired, a tube may be proportioned to give over a predetermined range of impressed voltage X-rays of substantially uniform penetration."
+    },
+    {
+     "page": 4,
+     "cite": "p.4:104",
+     "col": null,
+     "line": null,
+     "text": "The operator is thus enabled to determine, with a properly calibrated device, from a curve, or chart, just what current values and voltages he needs for a given purpose, and may be sure that when he has prepared his patient he can get exactly the service he requires from his tube without troublesome and dangerous experimentation."
+    },
+    {
+     "page": 4,
+     "cite": "p.4:112",
+     "col": null,
+     "line": null,
+     "text": "One of the main causes for the uniformity of the penetrability of the X-rays is to be ascribed to the fact that the operation of the tube is not dependent upon positive ion bombardment of the cathode. Another cause is its complete independence of vacuum changes within the permissible range of pressure. It will also be noted that with the high vacuum existing in the tube, the mean free path between gas molecules is much greater than the distance between anode and cathode and, therefore, very few electrons can collide with gas molecules in passing from cathode to anode, therefore, practically all of the electrons reach the target with uniform velocity. Because of the low gas pressure the number of positive ions is so small that the filament is not heated at all by bombardment. Even when a very heavy discharge current is sent through the tube, a voltmeter and ammeter in the filament circuit indicate no change in the resistance and hence the temperature of the filament. Another observation, which has a similar significance, is that at low filament temperatures, where the electrons emitted by the cathode are all used in carrying current, a several-fold increase in voltage brings substantially no accompanying increase in the discharge current. This could hardly pertain, in case positive ions played an appreciable rôle, for increased voltage would mean higher velocities, and hence, a greater emission of electrons which, in turn, would mean an increase in the discharge current."
+    },
+    {
+     "page": 5,
+     "cite": "p.5:18",
+     "col": null,
+     "line": null,
+     "text": "The wall of the tube exposed to the anode is not heated by secondary cathode rays from the anode, thereby removing the limitation formerly imposed by local tube heating. Tube fluorescence due to secondary cathode rays is likewise absent. Not only are current carrying limitations thus removed but it should also be noted that a marked gain of efficiency is secured in the tube. For example, in the former type of tube with a platinum target, about three-fourths as many electrons left the target as “secondary cathode rays” as were received by it in the form of primary cathode rays. The elimination of secondary cathode rays also greatly improves the tube as the secondary X-rays produced by the secondary cathode rays striking the tube were a serious disturbing factor as already mentioned."
+    },
+    {
+     "page": 5,
+     "cite": "p.5:38",
+     "col": null,
+     "line": null,
+     "text": "While I have described and illustrated specific forms of tubes embodying my invention, I wish it to be understood that various changes and modifications may be made in the tube within the scope of my invention. As already indicated the spacial relations of the elements of the tube affect its characteristics. For example, increasing the distance between the front of the focusing device and the incandescent cathode increases the resistance of the tube; decreasing the opening in the static focusing ring or tube increases the resistance of the tube. Decreasing the distance between cathode and anode lowers the resistance of the tube, but this effect is probably not to be ascribed to any considerable resistance change due to linear separation of the electrodes but to the fact that the glass walls of the tube are charged negatively during operation and thus act as though they represented an extension of the focusing device. Bringing the cathode nearer to the anode therefore, would have an effect similar to that caused by bringing it nearer to the front of the focusing tube or ring."
+    },
+    {
+     "page": 5,
+     "cite": "p.5:64",
+     "col": null,
+     "line": null,
+     "text": "Certain broad aspects of the apparatus and methods herein disclosed are not of my invention but are the invention of Irving Langmuir and are defined by the claims of his allowed application, Serial No. 84,242, renewed March 14, 1916, and his application, Serial No. 876,432, filed December 10, 1914."
+    },
+    {
+     "page": 8,
+     "cite": "p.8:32",
+     "col": null,
+     "line": null,
+     "text": "In witness whereof, I have hereunto set my hand this 8th day of May, 1913."
+    },
+    {
+     "page": 8,
+     "cite": "p.8:34",
+     "col": null,
+     "line": null,
+     "text": "WILLIAM D. COOLIDGE."
+    },
+    {
+     "page": 8,
+     "cite": "p.8:36",
+     "col": null,
+     "line": null,
+     "text": "Witnesses: Benjamin B. Hull, Helen Orford."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "page": 3,
+   "cite": "p.3:7",
+   "col": null,
+   "line": null,
+   "text": "In the accompanying drawings, Figure 1 is a sectional view of a complete tube equipped with one type of focusing device"
+  },
+  {
+   "fig": "2",
+   "page": 3,
+   "cite": "p.3:10",
+   "col": null,
+   "line": null,
+   "text": "Figs. 2 to 7 illustrate alternative forms of focusing devices"
+  },
+  {
+   "fig": "3",
+   "page": 3,
+   "cite": "p.3:10",
+   "col": null,
+   "line": null,
+   "text": "Figs. 2 to 7 illustrate alternative forms of focusing devices"
+  },
+  {
+   "fig": "4",
+   "page": 3,
+   "cite": "p.3:10",
+   "col": null,
+   "line": null,
+   "text": "Figs. 2 to 7 illustrate alternative forms of focusing devices"
+  },
+  {
+   "fig": "5",
+   "page": 3,
+   "cite": "p.3:10",
+   "col": null,
+   "line": null,
+   "text": "Figs. 2 to 7 illustrate alternative forms of focusing devices"
+  },
+  {
+   "fig": "6",
+   "page": 3,
+   "cite": "p.3:10",
+   "col": null,
+   "line": null,
+   "text": "Figs. 2 to 7 illustrate alternative forms of focusing devices"
+  },
+  {
+   "fig": "7",
+   "page": 3,
+   "cite": "p.3:10",
+   "col": null,
+   "line": null,
+   "text": "Figs. 2 to 7 illustrate alternative forms of focusing devices"
+  },
+  {
+   "fig": "8",
+   "page": 3,
+   "cite": "p.3:11",
+   "col": null,
+   "line": null,
+   "text": "Fig. 8 illustrates a modified tube having a constant voltage characteristic."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "page": 5,
+   "cite": "p.5:74",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "1. In a device for the production of X-rays, the combination of a tube provided with electrodes, the vacuum in the tube being so attenuated as practically to eliminate the production of positive ions, and means for generating electrons at the cathode or negative electrode substantially independently of the voltage impressed upon said electrodes."
+  },
+  {
+   "n": 2,
+   "page": 5,
+   "cite": "p.5:83",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "2. An X-ray device comprising a gas-tight envelop, the space within said envelop being exhausted to a pressure at which substantially no gas ionization occurs, a cathode, an anode, and means for generating electrons at the cathode, the current transmitted by said device with a given cathode temperature being independent of the voltage over a range of impressed voltage values."
+  },
+  {
+   "n": 3,
+   "page": 5,
+   "cite": "p.5:92",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "3. An electrical vacuum discharge tube, comprising an envelop, coöperating electrodes, at least part of one of which is adapted to be maintained at incandescence, the vacuum within said envelop being so high that evidences of positive ionization are substantially absent during operation and means for focusing the discharge."
+  },
+  {
+   "n": 4,
+   "page": 5,
+   "cite": "p.5:100",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "4. An electrical vacuum discharge tube, comprising an envelop, coöperating electrodes therein, one of which is adapted to be independently heated, and a conducting body surrounding said cathode, said body serving to modify electrostatic forces in the tube, to control the direction of the cathode rays, the residual gas in said envelop being insufficient to produce appreciable ionization by collision during the operation of the tube."
+  },
+  {
+   "n": 5,
+   "page": 5,
+   "cite": "p.5:111",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "5. An X-ray device comprising electrodes consisting of tungsten freed thoroughly from gas, the negative electrode being adapted to be independently heated, at least in part, and an inclosing envelop so highly evacuated that evidences of positive ionization are substantially absent during the operation of the device."
+  },
+  {
+   "n": 6,
+   "page": 5,
+   "cite": "p.5:119",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "6. An electrical discharge device comprising an envelop, the space within said envelop being evacuated to a pressure below the value at which appreciable positive ionization can occur, electrodes therefor, the cathode being adapted to be heated independently of energy transmitted by said device and conductive means in part at least surrounding the space between said electrodes to control electrostatic forces in the tube."
+  },
+  {
+   "n": 7,
+   "page": 5,
+   "cite": "p.5:130",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "7. An electrical discharge device comprising an evacuated envelop the residual gas in which is insufficient to conduct current between ordinary unheated electrodes, a cathode adapted to be independently heated, an anode from which gas is not disengageable during the operation of the device, and means near the cathode for maintaining a static field focusing a cathode discharge upon the anode."
+  },
+  {
+   "n": 8,
+   "page": 6,
+   "cite": "p.6:10",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "8. A Röntgen ray tube, comprising an envelop evacuated to a pressure of less than about .6 micron, a cathode therein adapted to be heated independently of the operating current, a coöperating anode and means for focusing the cathode discharge upon the anode."
+  },
+  {
+   "n": 9,
+   "page": 6,
+   "cite": "p.6:17",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "9. A Röntgen ray device comprising the combination of an envelop evacuated to a pressure at which positive ionization is substantially absent during the operation of the device, an electron-emitting cathode, an anode and a source of energy connected to said electrodes having a voltage in excess of the minimum value at which the current is substantially independent of the voltage."
+  },
+  {
+   "n": 10,
+   "page": 6,
+   "cite": "p.6:26",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "10. A Röntgen apparatus comprising an envelop evacuated to a pressure so low that evidences of positive ionization are substantially absent during the operation of the apparatus, electrodes therein, external means for independently heating the negative electrode, and means for modifying the static field in the neighborhood of the cathode to focus the cathode discharge upon a spot of small area on the anode."
+  },
+  {
+   "n": 11,
+   "page": 6,
+   "cite": "p.6:36",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "11. A Röntgen tube comprising an evacuated envelop, main working electrodes therefor, one of which is of filamentary character, means for heating said filamentary electrode, and an electrical conductor at least in part surrounding the space between said electrodes for concentrating a discharge from said cathode upon a spot of small area on the anode."
+  },
+  {
+   "n": 12,
+   "page": 6,
+   "cite": "p.6:45",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "12. A Röntgen ray tube comprising an evacuated envelop, electrodes therein, the cathode being arranged to be heated independently, and a focusing device surrounding and electrically connected with said independently heated cathode."
+  },
+  {
+   "n": 13,
+   "page": 6,
+   "cite": "p.6:51",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "13. The combination of a source of current alternating in potential, and a Röntgen-ray tube operatively connected therewith comprising coöperating electrodes at least part of one of which is adapted to independently generate electrons, and an envelop therefor evacuated to such high degree that manifestations of positive ions are absent."
+  },
+  {
+   "n": 14,
+   "page": 6,
+   "cite": "p.6:59",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "14. A Röntgen ray tube comprising an envelop, coöperating electrodes therein, at least part of one of which may be independently heated to emit electrons, the space in said envelop being so highly evacuated that manifestations of positive ions are absent, means for producing a cathode discharge in said tube and means for controlling the static field in said tube to prevent electrons from striking the envelop."
+  },
+  {
+   "n": 15,
+   "page": 6,
+   "cite": "p.6:69",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "15. The combination of an X-ray device comprising an envelop and main electrodes mounted therein, a cathode adapted to be independently heated, at least in part, the space within said envelop being evacuated to so low a pressure that manifestations of positive ions are absent, a source of high potential current, connections between said source and said main electrodes, an independent source of low potential current connected to and heating the cathode, and means for adjusting the heating current to control the resistance of the X-ray device."
+  },
+  {
+   "n": 16,
+   "page": 6,
+   "cite": "p.6:82",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "16. In a device for the production of Röntgen rays, the combination of a tube evacuated to such a degree that practically no current can pass due to ionizing action of the impressed voltage upon such gases as may remain in the tube, positive and negative electrodes in the tube provided with suitable leading-in conductors, and means for heating the cathode to a high temperature, said means being independent of the impressed voltage."
+  },
+  {
+   "n": 17,
+   "page": 6,
+   "cite": "p.6:93",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "17. An electrical vacuum tube, comprising an envelop the space in which is exhausted to below the pressure at which residual gas will conduct current, a cathode adapted to be heated to incandescence, a coöperating anode substantially deprived of gas evoluble by electron bombardment, and means disposed about an axis passing through cathode and anode for directing the cathode discharge."
+  },
+  {
+   "n": 18,
+   "page": 6,
+   "cite": "p.6:103",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "18. An electrical discharge device comprising an envelop evacuated to a pressure so low that evidences of positive ionization are substantially absent during the operation of the device, an anode, a cathode adapted to be heated independently of a discharge passing between the same and the anode, and conductive means surrounding, in part at least, the space between cathode and anode for modifying the static field to focus a cathode discharge."
+  },
+  {
+   "n": 19,
+   "page": 6,
+   "cite": "p.6:114",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "19. The method of producing Röntgen rays which consists in independently heating the cathode to incandescence, producing an electric discharge between the incandescent cathode and a coöperating anode in a vacuum so highly attenuated that evidences of positive ionization are substantially absent during the passage of current, and focusing the cathode rays by means of an electrical field."
+  },
+  {
+   "n": 20,
+   "page": 6,
+   "cite": "p.6:124",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "20. The method of regulating the penetrability of Röntgen rays produced by a discharge from an incandescent cathode in a vacuum so attenuated that electrical conductivity of the residual gas is substantially absent, which consists in adjusting the cathode temperature and impressed voltage."
+  },
+  {
+   "n": 21,
+   "page": 7,
+   "cite": "p.7:1",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "21. The process of producing Röntgen rays by current from a source alternating in potential which consists in emitting electrons at a negative electrode, transmitting thereby a ray-producing current wave of one polarity, while preventing at the same time the formation of positive ions, and suppressing the other half wave of the alternating current."
+  },
+  {
+   "n": 22,
+   "page": 7,
+   "cite": "p.7:10",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "22. The process of producing X-rays which consists in impressing an alternating electromotive force upon electrodes of an X-ray tube and causing electrons to be emitted from one electrode only while preventing any accompanying manifestations of positive ions, and projecting said electrons upon a target surface, whereby one-half wave of an alternating current is utilized and the opposite half wave suppressed."
+  },
+  {
+   "n": 23,
+   "page": 7,
+   "cite": "p.7:20",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "23. The method of operating a tube for the production of X-rays which consists in maintaining within the tube a vacuum so highly attenuated that practically no current can flow through the tube under the influence of the impressed voltage through the medium of ionization of gas molecules in the tube, and rendering the tube unilaterally conducting by generating electrons at the cathode independently of the voltage impressed upon the tube."
+  },
+  {
+   "n": 24,
+   "page": 7,
+   "cite": "p.7:31",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "24. The method of operating a tube for the production of X-rays which consists in maintaining within the tube a vacuum so highly attenuated that practically no current can flow under the influence of the voltage impressed upon the tube, through the medium of ionization of gas molecules in the tube, and rendering the tube unilaterally conducting by generating electrons at the cathode by current independent of the voltage impressed upon the tube."
+  },
+  {
+   "n": 25,
+   "page": 7,
+   "cite": "p.7:42",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "25. The method of depriving a metal body of occluded gas which consists in generating electrons constituting the origin of an electrical discharge, independently of the voltage producing the discharge, in an evacuated space, the residual gas in which is so attenuated that at the given voltage the gas will not conduct the discharge without the independent generation of electrons, subjecting the metal body to the electron discharge, and coincidentally removing gas evolved from said metal body to maintain the gas pressure so low that at the given voltage a discharge will not occur without the independent generation of electrons."
+  },
+  {
+   "n": 26,
+   "page": 7,
+   "cite": "p.7:57",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "26. The method of depriving a metal body of gas which consists in generating electrons constituting the origin of an electric discharge independently of a voltage producing the discharge, in an evacuated space in which the residual gas pressure is so low that at a given voltage the gas will not conduct the discharge without the independent generation of electrons, subjecting the metal body to the electron discharge, the energy of the discharge being sufficient to heat said metal body to incandescence, and coincidentally removing gas disengaged by said discharge to maintain the gas pressure so low that at the given voltage a discharge will not occur without the independent generation of electrons."
+  },
+  {
+   "n": 27,
+   "page": 7,
+   "cite": "p.7:74",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "27. The method of preparing a discharge device, comprising an envelop, an anode and a cathode which consists in generating electrons at the cathode independently of the voltage producing a discharge from said cathode, the space in the envelop being evacuated so completely that no energy can be passed at a given voltage between said electrodes without the independent generation of electrons at the cathode, removing gas liberated by said discharge and finally sealing the envelop when the residual gas pressure is so low that the device can be operated without appreciable evidence of positive ionization."
+  },
+  {
+   "n": 28,
+   "page": 7,
+   "cite": "p.7:89",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "28. The method of depriving a metal body of gas which consists in heating a cathode to incandescence to generate electrons, passing between said cathode and said body used as anode an electrical discharge in a vacuum so high that at the discharge voltage the residual gas will not conduct current without the independent generation of electrons at the cathode and coincidentally removing gas evolved from said metal body to maintain the gas pressure so low that at the given voltage a discharge will not occur without the independent generation of electrons."
+  },
+  {
+   "n": 29,
+   "page": 7,
+   "cite": "p.7:103",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "29. The method of preparing an X-ray device comprising an envelop, an anode and a cathode, both consisting of refractory material, which consists in heating the cathode to incandescence to generate electrons, passing between said cathode and anode a high voltage electrical discharge of sufficient energy to heat the anode in a vacuum so high that with the given voltage the discharge is not maintainable while the cathode is unheated, removing gas from the evacuated space liberated from the anode by said discharge and finally sealing the envelop when the residual gas pressure is so low that the device can be operated without appreciable evidence of positive ionization."
+  },
+  {
+   "n": 30,
+   "page": 7,
+   "cite": "p.7:119",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "30. The process of operating an X-ray device comprising a gas-tight evacuated envelop, a cathode and an anode, which consists in generating electrons at the cathode independently of current passed by said device while preventing any accompanying manifestations of positive ions, impressing on the electrodes a voltage at least as high as the value at which substantially all of the electrons are utilized, whereby the current becomes substantially independent of the impressed voltage, and increasing or decreasing the penetrating power of the X-rays by respectively increasing or decreasing the impressed voltage."
+  },
+  {
+   "n": 31,
+   "page": 8,
+   "cite": "p.8:4",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "31. An X-ray device comprising a gas-tight envelop, an electron emitting cathode, and an anode deprived of ionizable gas, the space in said envelop being evacuated to a pressure at least as low as five hundredths of a micron of mercury pressure, the current transmitted by said device with a given electron-emissivity of the cathode being substantially constant with an impressed voltage variable over a working range."
+  },
+  {
+   "n": 32,
+   "page": 8,
+   "cite": "p.8:14",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "32. A Röntgen ray device comprising a sealed envelop, the space within which is evacuated to a pressure so low that evidences of positive ionization are substantially absent during the operation of said device, a cathode of refractory metal adapted to be heated substantially independently of a voltage impressed upon said electrodes and a coöperating anode."
+  },
+  {
+   "n": 33,
+   "page": 8,
+   "cite": "p.8:23",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "33. An X-ray tube comprising a sealed envelop, a cathode adapted to be heated independently of a discharge transmitted by said device, an anode and a dished focusing member surrounding the cathode having its concave side facing the anode, said tube being exhausted of gas to a pressure so low that evidences of positive ionization are substantially absent during operation."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "cite": "header",
+   "ocr": "WILLIAM D, COOLIDGE,",
+   "fixed": "WILLIAM D. COOLIDGE,",
+   "basis": "scan"
+  },
+  {
+   "cite": "header",
+   "ocr": "VACUUM-TUBE,",
+   "fixed": "VACUUM-TUBE.",
+   "basis": "scan"
+  },
+  {
+   "cite": "header",
+   "ocr": "Application filed May 9, 1918,",
+   "fixed": "Application filed May 9, 1913.",
+   "basis": "scan + drawing sheet"
+  },
+  {
+   "cite": "p.1:2",
+   "ocr": "Wit11am",
+   "fixed": "William",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:2",
+   "ocr": "Cooraper,",
+   "fixed": "Coolidge,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:8",
+   "ocr": "tio:..",
+   "fixed": "tion.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:11",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:12",
+   "ocr": "tube.",
+   "fixed": "tube",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.1:14",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:15",
+   "ocr": "toe",
+   "fixed": "to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:20",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:27",
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.1:33",
+   "ocr": "toemit",
+   "fixed": "to emit",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:38",
+   "ocr": "-go.a",
+   "fixed": "go a",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.1:39",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:41",
+   "ocr": "by.",
+   "fixed": "by",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.1:43",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.1:49",
+   "ocr": "cathéde",
+   "fixed": "cathode",
+   "basis": "scan (mark over the o is a print blemish; plain \"cathode\" elsewhere)"
+  },
+  {
+   "cite": "p.1:49",
+   "ocr": "posi-.",
+   "fixed": "posi-",
+   "basis": "scan (mark over the o is a print blemish; plain \"cathode\" elsewhere)"
+  },
+  {
+   "cite": "p.1:51",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.1:54",
+   "ocr": "tain.",
+   "fixed": "tain",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.1:56",
+   "ocr": "which.",
+   "fixed": "which",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.1:56",
+   "ocr": "b",
+   "fixed": "by",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:57",
+   "ocr": "",
+   "fixed": "I",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:61",
+   "ocr": "\"",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.1:66",
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.1:67",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:68",
+   "ocr": "(6)",
+   "fixed": "(b)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:68",
+   "ocr": "exact.",
+   "fixed": "exact",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.1:70",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:73",
+   "ocr": "(¢)",
+   "fixed": "(c)",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:74",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.1:77",
+   "ocr": ".exposure..",
+   "fixed": "exposure.",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.1:77",
+   "ocr": "‘cor-",
+   "fixed": "cor-",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.1:80",
+   "ocr": "Roéntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:83",
+   "ocr": "‘lar",
+   "fixed": "lar",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.1:92",
+   "ocr": "‘(e)",
+   "fixed": "(e)",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.1:96",
+   "ocr": "and.cracking",
+   "fixed": "and cracking",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.1:99",
+   "ocr": "(D",
+   "fixed": "(f)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:6",
+   "ocr": ".The",
+   "fixed": "The",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:7",
+   "ocr": "_the pressure.",
+   "fixed": "the gas pressure",
+   "basis": "scan (OCR moved \"gas\" to the next line)"
+  },
+  {
+   "cite": "p.2:8",
+   "ocr": "gas",
+   "fixed": "",
+   "basis": "scan (OCR moved \"gas\" to the next line)"
+  },
+  {
+   "cite": "p.2:10",
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:10",
+   "ocr": "re--",
+   "fixed": "re-",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:11",
+   "ocr": "Roéntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:12",
+   "ocr": "(4)",
+   "fixed": "(h)",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:17",
+   "ocr": "lass",
+   "fixed": "glass",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:18",
+   "ocr": "-rays",
+   "fixed": "X-rays",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:20",
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:21",
+   "ocr": "‘In",
+   "fixed": "in",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:21",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:22",
+   "ocr": "- .",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:23",
+   "ocr": "(4)",
+   "fixed": "(i)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:23",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:25",
+   "ocr": "function.",
+   "fixed": "function",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:31",
+   "ocr": "as",
+   "fixed": "gas",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:32",
+   "ocr": "om",
+   "fixed": "from",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:42",
+   "ocr": "-which",
+   "fixed": "which",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:46",
+   "ocr": "mill-",
+   "fixed": "milli-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:47",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:50",
+   "ocr": "s",
+   "fixed": "gas",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:52",
+   "ocr": "micron.",
+   "fixed": "micron",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:53",
+   "ocr": "‘any",
+   "fixed": "any",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:53",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:54",
+   "ocr": "Rontgen ray.",
+   "fixed": "Röntgen ray",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:57",
+   "ocr": "-With",
+   "fixed": "With",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:58",
+   "ocr": "offthe",
+   "fixed": "of the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:60",
+   "ocr": "and.",
+   "fixed": "and",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:61",
+   "ocr": "",
+   "fixed": "duced.",
+   "basis": "scan (line missing from OCR) + Google Patents"
+  },
+  {
+   "cite": "p.2:62",
+   "ocr": "ecathodé",
+   "fixed": "cathode",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:62",
+   "ocr": "tung--",
+   "fixed": "tung-",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:63",
+   "ocr": "‘sten:",
+   "fixed": "sten",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:63",
+   "ocr": "this-may",
+   "fixed": "this may",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:69",
+   "ocr": "which:",
+   "fixed": "which",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:70",
+   "ocr": "between'the",
+   "fixed": "between the",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:75",
+   "ocr": "réle whatsoever..",
+   "fixed": "rôle whatsoever.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:77",
+   "ocr": "fact_",
+   "fixed": "fact",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:78",
+   "ocr": "réle",
+   "fixed": "rôle",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:82",
+   "ocr": "tube..",
+   "fixed": "tube.",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:89",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:90",
+   "ocr": "bein.",
+   "fixed": "being",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:91",
+   "ocr": "egree,",
+   "fixed": "degree,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:92",
+   "ocr": "of-",
+   "fixed": "of",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:92",
+   "ocr": "tu",
+   "fixed": "tubes",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:99",
+   "ocr": "_ ;",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:102",
+   "ocr": "of.most",
+   "fixed": "of most",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:107",
+   "ocr": "-ated.of",
+   "fixed": "ated of",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:109",
+   "ocr": "their.",
+   "fixed": "their",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:110",
+   "ocr": "in-other",
+   "fixed": "in other",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:113",
+   "ocr": "ere",
+   "fixed": "There",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:117",
+   "ocr": "‘secondary",
+   "fixed": "secondary",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:118",
+   "ocr": "anode.",
+   "fixed": "anode",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:120",
+   "ocr": "‘more",
+   "fixed": "more",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:121",
+   "ocr": "‘",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:123",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:125",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:125",
+   "ocr": "be-made",
+   "fixed": "be made",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:127",
+   "ocr": "supply.",
+   "fixed": "supply",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.2:129",
+   "ocr": "X-ra",
+   "fixed": "X-ray",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:130",
+   "ocr": "grape phs",
+   "fixed": "graphs",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:8",
+   "ocr": "-tube",
+   "fixed": "tube",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.3:12",
+   "ocr": "",
+   "fixed": "a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:18",
+   "ocr": "8",
+   "fixed": "3",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:23",
+   "ocr": "in-this",
+   "fixed": "in this",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.3:30",
+   "ocr": "8’",
+   "fixed": "8′",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.3:32",
+   "ocr": "as’a",
+   "fixed": "as a",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.3:34",
+   "ocr": "transformer.",
+   "fixed": "transformer",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.3:35",
+   "ocr": "insulated.",
+   "fixed": "insulated",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.3:37",
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.3:49",
+   "ocr": "fecus",
+   "fixed": "focus",
+   "basis": "scan (broken o type) + Google Patents"
+  },
+  {
+   "cite": "p.3:51",
+   "ocr": "fccusing",
+   "fixed": "focusing",
+   "basis": "scan (broken o type) + Google Patents"
+  },
+  {
+   "cite": "p.3:69",
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.3:85",
+   "ocr": "‘to",
+   "fixed": "to",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.3:86",
+   "ocr": "be,",
+   "fixed": "be",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.3:90",
+   "ocr": "omitting,the",
+   "fixed": "omitting the",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.3:107",
+   "ocr": "10.so",
+   "fixed": "10 so",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.3:112",
+   "ocr": "acress",
+   "fixed": "across",
+   "basis": "scan (broken o type)"
+  },
+  {
+   "cite": "p.3:121",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.3:123",
+   "ocr": "cathede",
+   "fixed": "cathode",
+   "basis": "scan (broken o type)"
+  },
+  {
+   "cite": "p.3:125",
+   "ocr": "128",
+   "fixed": "",
+   "basis": "scan (gutter line number)"
+  },
+  {
+   "cite": "p.3:126",
+   "ocr": "aré",
+   "fixed": "are",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:127",
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.3:128",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.3:129",
+   "ocr": "tending.",
+   "fixed": "tending",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.3:130",
+   "ocr": "130",
+   "fixed": "",
+   "basis": "scan (gutter line number)"
+  },
+  {
+   "cite": "p.4:3",
+   "ocr": "especially.",
+   "fixed": "especially",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:7",
+   "ocr": "devices:",
+   "fixed": "devices.",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:7",
+   "ocr": "spot.",
+   "fixed": "spot",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:9",
+   "ocr": "‘This",
+   "fixed": "This",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:10",
+   "ocr": "Réntgen.",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.4:11",
+   "ocr": "moved.",
+   "fixed": "moved",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:17",
+   "ocr": "affected.",
+   "fixed": "affected",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:19",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:20",
+   "ocr": "‘saturation",
+   "fixed": "saturation",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:24",
+   "ocr": "It:",
+   "fixed": "It",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:24",
+   "ocr": "increase:",
+   "fixed": "increase",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:26",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.4:30",
+   "ocr": "bemg",
+   "fixed": "being",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.4:31",
+   "ocr": "by.",
+   "fixed": "by",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:31",
+   "ocr": "carried,’",
+   "fixed": "carried,",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:33",
+   "ocr": "other...",
+   "fixed": "other.",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:36",
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:39",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:57",
+   "ocr": ".sary to‘carry",
+   "fixed": "sary to carry",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:57",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:59",
+   "ocr": "contribute:",
+   "fixed": "contribute",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:71",
+   "ocr": "variable:",
+   "fixed": "variable",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:72",
+   "ocr": "pressed.",
+   "fixed": "pressed",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:79",
+   "ocr": "Anduction coil:",
+   "fixed": "induction coil",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.4:79",
+   "ocr": "device.",
+   "fixed": "device",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:81",
+   "ocr": "gives.current",
+   "fixed": "gives current",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:82",
+   "ocr": "apparatus",
+   "fixed": "apparatus,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:83",
+   "ocr": "‘striking",
+   "fixed": "striking",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:85",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.4:86",
+   "ocr": "in.",
+   "fixed": "in",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:88",
+   "ocr": "raising:",
+   "fixed": "raising",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:89",
+   "ocr": "temperature.",
+   "fixed": "temperature",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:92",
+   "ocr": "décrease ‘of",
+   "fixed": "decrease of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.4:97",
+   "ocr": "is:",
+   "fixed": "is",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:98",
+   "ocr": "operated:",
+   "fixed": "operated",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:98",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:100",
+   "ocr": "if:",
+   "fixed": "if",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:100",
+   "ocr": ":a tube.",
+   "fixed": "a tube",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:101",
+   "ocr": "of:",
+   "fixed": "of",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:102",
+   "ocr": "pressed.",
+   "fixed": "pressed",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:106",
+   "ocr": "current:",
+   "fixed": "current",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:115",
+   "ocr": "upon.",
+   "fixed": "upon",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:116",
+   "ocr": "_",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:117",
+   "ocr": "vacuum:",
+   "fixed": "vacuum",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:120",
+   "ocr": "high.",
+   "fixed": "high",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:122",
+   "ocr": "‘much",
+   "fixed": "much",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:124",
+   "ocr": "in.",
+   "fixed": "in",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:126",
+   "ocr": "“practically",
+   "fixed": "practically",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.4:129",
+   "ocr": "is'so",
+   "fixed": "is so",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.5:1",
+   "ocr": "dischargé",
+   "fixed": "discharge",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.5:8",
+   "ocr": "all-used",
+   "fixed": "all used",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.5:11",
+   "ocr": "could:",
+   "fixed": "could",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.5:13",
+   "ocr": "réle,",
+   "fixed": "rôle,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.5:17",
+   "ocr": "eurrent.",
+   "fixed": "current.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.5:46",
+   "ocr": "focus-'",
+   "fixed": "focus-",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.5:51",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.5:60",
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.5:66",
+   "ocr": "Irvin.",
+   "fixed": "Irving",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:67",
+   "ocr": "o",
+   "fixed": "of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.5:69",
+   "ocr": "app ica-",
+   "fixed": "applica-",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.5:70",
+   "ocr": "10 778",
+   "fixed": "10,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.5:73",
+   "ocr": "is:—~",
+   "fixed": "is:—",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.5:77",
+   "ocr": "Ing",
+   "fixed": "ing",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.5:80",
+   "ocr": "imdepend-",
+   "fixed": "independ-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.5:82",
+   "ocr": "~",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.5:84",
+   "ocr": "envelop.",
+   "fixed": "envelop",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.5:90",
+   "ocr": ".of",
+   "fixed": "of",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.5:93",
+   "ocr": "codperating",
+   "fixed": "coöperating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.5:100",
+   "ocr": "4,",
+   "fixed": "4.",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.5:101",
+   "ocr": "codperating",
+   "fixed": "coöperating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.5:112",
+   "ocr": "Freed",
+   "fixed": "freed",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.5:118",
+   "ocr": "*",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.5:122",
+   "ocr": "at.",
+   "fixed": "at",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.5:129",
+   "ocr": "De",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:2",
+   "ocr": "conduct,",
+   "fixed": "conduct",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:6",
+   "ocr": "operation.",
+   "fixed": "operation",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:9",
+   "ocr": "sy a",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:10",
+   "ocr": "8",
+   "fixed": "8.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:10",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:13",
+   "ocr": "to.",
+   "fixed": "to",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:14",
+   "ocr": "codperating",
+   "fixed": "coöperating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:15",
+   "ocr": "18",
+   "fixed": "",
+   "basis": "scan (gutter line number)"
+  },
+  {
+   "cite": "p.6:16",
+   "ocr": "\"anode. , . Co.",
+   "fixed": "anode.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:17",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:20",
+   "ocr": "absent:",
+   "fixed": "absent",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:26",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:30",
+   "ocr": "-paratus,",
+   "fixed": "paratus,",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:31",
+   "ocr": "elec-.",
+   "fixed": "elec-",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:32",
+   "ocr": "trede, ‘and",
+   "fixed": "trode, and",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:33",
+   "ocr": "the-",
+   "fixed": "the",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:35",
+   "ocr": "the_anode. , ,",
+   "fixed": "the anode.",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:36",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:44",
+   "ocr": ".. 7 be oo.",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:45",
+   "ocr": "12, Ontgen",
+   "fixed": "12. A Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:45",
+   "ocr": "'",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:49",
+   "ocr": "in--",
+   "fixed": "in-",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:50",
+   "ocr": "_",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:51",
+   "ocr": ". 183.",
+   "fixed": "13.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:52",
+   "ocr": "Réntgen-",
+   "fixed": "Röntgen-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:54",
+   "ocr": "céoperating",
+   "fixed": "coöperating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:59",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:60",
+   "ocr": "codperating",
+   "fixed": "coöperating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:60",
+   "ocr": "therein,: at.",
+   "fixed": "therein, at",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:61",
+   "ocr": "least-part",
+   "fixed": "least part",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:61",
+   "ocr": "independ--",
+   "fixed": "independ-",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:64",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:68",
+   "ocr": "m,",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:83",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:84",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:87",
+   "ocr": "ne,",
+   "fixed": "nega-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:88",
+   "ocr": "pre -ided.",
+   "fixed": "provided",
+   "basis": "scan (type damaged in \"provided\"; letters o and v not inked) + context"
+  },
+  {
+   "cite": "p.6:92",
+   "ocr": "mo _",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:93",
+   "ocr": "17,",
+   "fixed": "17.",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:93",
+   "ocr": "comprisin",
+   "fixed": "comprising",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:94",
+   "ocr": "exhauste",
+   "fixed": "exhausted",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:97",
+   "ocr": "codperating",
+   "fixed": "coöperating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:102",
+   "ocr": ",",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:103",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:106",
+   "ocr": "‘substantially",
+   "fixed": "substantially",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:108",
+   "ocr": "dischar",
+   "fixed": "discharge",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:111",
+   "ocr": "‘at Jeast,",
+   "fixed": "at least,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:113",
+   "ocr": "° :",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:114",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:115",
+   "ocr": "—:",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:115",
+   "ocr": "I",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:115",
+   "ocr": "n",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.6:115",
+   "ocr": "independentl:",
+   "fixed": "independently",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:116",
+   "ocr": "p rodacing an.",
+   "fixed": "producing an",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:118",
+   "ocr": "codperating",
+   "fixed": "coöperating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:121",
+   "ocr": "focusin,",
+   "fixed": "focusing",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:122",
+   "ocr": "electrica",
+   "fixed": "electrical",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:123",
+   "ocr": "eld. .",
+   "fixed": "field.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:124",
+   "ocr": "the’",
+   "fixed": "the",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:125",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.6:127",
+   "ocr": "so.",
+   "fixed": "so",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:128",
+   "ocr": "ductivity.",
+   "fixed": "ductivity",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.6:129",
+   "ocr": "whiqh",
+   "fixed": "which",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.7:1",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.7:2",
+   "ocr": "a.",
+   "fixed": "a",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:8",
+   "ocr": "tae",
+   "fixed": "the",
+   "basis": "scan (damaged h)"
+  },
+  {
+   "cite": "p.7:9",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:10",
+   "ocr": "X-rays.",
+   "fixed": "X-rays",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:13",
+   "ocr": "emit-—",
+   "fixed": "emit-",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:15",
+   "ocr": "accompanying.",
+   "fixed": "accompanying",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:20",
+   "ocr": "23:",
+   "fixed": "23.",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:25",
+   "ocr": "fiuence",
+   "fixed": "fluence",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.7:30",
+   "ocr": "co",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.7:31",
+   "ocr": "24,",
+   "fixed": "24.",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:34",
+   "ocr": "cur-.",
+   "fixed": "cur-",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:38",
+   "ocr": "tube,‘and",
+   "fixed": "tube, and",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:41",
+   "ocr": "voltagé",
+   "fixed": "voltage",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.7:41",
+   "ocr": "—",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:46",
+   "ocr": "‘discharge,",
+   "fixed": "discharge,",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:50",
+   "ocr": "'",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:54",
+   "ocr": "low.",
+   "fixed": "low",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:57",
+   "ocr": ".The",
+   "fixed": "The",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:58",
+   "ocr": "gas.which",
+   "fixed": "gas which",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:59",
+   "ocr": "the-origin",
+   "fixed": "the origin",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:62",
+   "ocr": "gas.",
+   "fixed": "gas",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:63",
+   "ocr": "thé",
+   "fixed": "the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.7:67",
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:67",
+   "ocr": "discharge.",
+   "fixed": "discharge",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:68",
+   "ocr": "‘heat",
+   "fixed": "heat",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:69",
+   "ocr": "by.",
+   "fixed": "by",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:71",
+   "ocr": "so.",
+   "fixed": "so",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:73",
+   "ocr": "oo",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.7:76",
+   "ocr": "a,",
+   "fixed": "a",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:78",
+   "ocr": "from,",
+   "fixed": "from",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:79",
+   "ocr": "space.",
+   "fixed": "space",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:81",
+   "ocr": "be.",
+   "fixed": "be",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:83",
+   "ocr": "‘electrons at.",
+   "fixed": "electrons at",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:87",
+   "ocr": "‘erated",
+   "fixed": "erated",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:102",
+   "ocr": "an",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.7:109",
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:115",
+   "ocr": "‘sealing",
+   "fixed": "sealing",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:117",
+   "ocr": "‘device",
+   "fixed": "device",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:117",
+   "ocr": "appreciable-",
+   "fixed": "appreciable",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:120",
+   "ocr": "‘device",
+   "fixed": "device",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.7:127",
+   "ocr": "value.at",
+   "fixed": "value at",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.8:1",
+   "ocr": "‘of",
+   "fixed": "of",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.8:3",
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.8:7",
+   "ocr": "envelop.",
+   "fixed": "envelop",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.8:13",
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.8:14",
+   "ocr": "Réntgen",
+   "fixed": "Röntgen",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.8:18",
+   "ocr": "durin",
+   "fixed": "during",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.8:19",
+   "ocr": "metal.adapt-",
+   "fixed": "metal adapt-",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.8:22",
+   "ocr": "codperating.",
+   "fixed": "coöperating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.8:23",
+   "ocr": "33,",
+   "fixed": "33.",
+   "basis": "scan (speck)"
+  },
+  {
+   "cite": "p.8:34",
+   "ocr": "- ;",
+   "fixed": "WILLIAM",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.8:36",
+   "ocr": "",
+   "fixed": "Witnesses:",
+   "basis": "scan (line missing from OCR)"
+  },
+  {
+   "cite": "p.8:37",
+   "ocr": "’ - Benzamon",
+   "fixed": "Benjamin",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.8:37",
+   "ocr": "Hor, -",
+   "fixed": "Hull,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.8:38",
+   "ocr": "",
+   "fixed": "Helen Orford.",
+   "basis": "scan (line missing from OCR)"
+  }
+ ]
+}

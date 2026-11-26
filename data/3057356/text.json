@@ -1,0 +1,314 @@
+{
+  "pn": "3057356",
+  "number": "3,057,356",
+  "title": "MEDICAL CARDIAC PACEMAKER",
+  "inventors": [
+    "Wilson Greatbatch"
+  ],
+  "assignee": "Wilson Greatbatch Inc., Clarence, N.Y., a corporation of New York",
+  "filed": "1960-07-22",
+  "issued": "1962-10-09",
+  "appl_no": "44,796",
+  "int_cl": "",
+  "us_cl": "128—422",
+  "refs_patents": [
+    {
+      "no": "2,921,584",
+      "date": "Jan. 19, 1960",
+      "name": "Di Vette",
+      "cl": ""
+    },
+    {
+      "no": "2,925,814",
+      "date": "Feb. 23, 1960",
+      "name": "Vibber",
+      "cl": ""
+    }
+  ],
+  "refs_other": [
+    "Lillehei: “Transistor Pacemaker,” in JAMA April 30, 1960, pages 2006–2010.",
+    "Hunter: “Handbook of Semiconductor Electronics,” first edition 1956, pages 14–22 required. (Copy in Div. 44.)",
+    "“Time,” January 11, 1960, page 52 required.",
+    "Senning: “The Journal of Thoracic and Cardiovascular Surgery,” 38: 639, 1959. (Copy in 128–419.)"
+  ],
+  "examiners": "",
+  "claims_count": 4,
+  "drawing_figures": 3,
+  "abstract": "",
+  "sections": [
+    {
+      "heading": "",
+      "paras": [
+        {
+          "col": 1,
+          "line": 9,
+          "text": "This invention relates to medical prosthetic devices generally, and more particularly to an improved medical cardiac pacemaker."
+        },
+        {
+          "col": 1,
+          "line": 12,
+          "text": "Recent advances in modern medical science have made feasible the substitution of a mechanical or electrical element in place of a diseased or non-functional organ within the human body. In view of these medical advances, a demand has arisen for instruments capable of performing physiological functions previously performed by natural human organs. The prevalence of heart disease and the indispensible functions of the human heart as a life sustaining organ have made the development of instruments which are capable of affecting the function of the heart of paramount importance."
+        },
+        {
+          "col": 1,
+          "line": 23,
+          "text": "The beating of the heart is controlled by electrochemical nerve signals which originate at the sinus node, sometimes called the pacemaker. This node generates approximately 72 electrical pulses per minute which travel in an electrical-chemical manner over the nerve networks of the heart. One group of nerves distributes the pacemarker signal over the surface of the auricle, causing the contraction of the auricle and the filling of the ventricle. Another group of nerves, called the auricular-ventricular or AV bundle, carries the pacemaker signal down through the septum and, after about a 0.1 second delay, distributes it over the ventricle. This causes a slightly delayed contraction which then pumps blood into the arterial system of the body. If the auricular-ventricular bundle becomes incapacitated, the pacemaker signal no longer reaches the venticle, and the ventricle reverts to a beating rhythm of its own which is much slower than the pacemaker rate. If this idioventricular rhythm, or beating rhythm of the ventricle, drops below 40 beats per minute, the patient will usually suffer periodic fainting spells, while if the rate drops below 30 beats per minute, permanent brain damage or death may result. When damage or incapacitation of the auricular-ventricular bundle is incurred, it is desirable to provide an artificial electronic pacemaker which is capable of furnishing a signal directly to the surface of the ventricle."
+        },
+        {
+          "col": 1,
+          "line": 49,
+          "text": "Artificial cardiac pacemakers presently in use have required considerable power and have either been incapable of operating from a battery power source or have required frequent battery replacement. The size and power requirements of the presently existing cardiac pacemakers have precluded the implantation of the device within the human body, thus necessitating external mountings with transmission wires passing through the skin of the patient. These restrictions, inherent in prior artificial pacemaker devices, have contributed to patient discomfort and incapacitation, and additionally have given rise to the possibility of infections and other dangers which might accompany a permanent or semi-permanent penetration of the human body shell by a foreign object."
+        },
+        {
+          "col": 1,
+          "line": 63,
+          "text": "The primary object of this invention is to provide an improved artificial cardiac pacemaker for restoring satisfactory heart rhythm to a heart which is functioning inadequately due to conduction defects in the auricular-ventricular bundle."
+        },
+        {
+          "col": 1,
+          "line": 68,
+          "text": "Another object of this invention is to provide an artificial cardiac pacemaker requiring low power consumption, so that battery operation is feasible for long uninterrupted periods without battery replacement."
+        },
+        {
+          "col": 1,
+          "line": 72,
+          "text": "Another object of this invention is to provide an artificial cardiac pacemaker which may be directly connected to the surface of the ventricle of the heart."
+        },
+        {
+          "col": 2,
+          "line": 3,
+          "text": "A still further object of this invention is to provide an artificial cardiac pacemaker which is constructed from materials compatible to the body environment and is of such an electrical and mechanical configuration, that permanent implantation of the device within the human body is both feasible and practical."
+        },
+        {
+          "col": 2,
+          "line": 9,
+          "text": "With the foregoing and other objects in view, the invention resides in the following specification and appended claims, certain embodiments and details of construction of which are illustrated in the accompanying drawings in which:"
+        },
+        {
+          "col": 2,
+          "line": 14,
+          "text": "FIG. 1 illustrates a circuit diagram of the artificial cardiac pacemaker of the present invention;"
+        },
+        {
+          "col": 2,
+          "line": 16,
+          "text": "FIG. 2 shows a circuit diagram of an embodiment of the invention of FIGURE 1 which is capable of operation at higher powers; and"
+        },
+        {
+          "col": 2,
+          "line": 19,
+          "text": "FIG. 3 is a perspective view of the circuit enclosing envelope and pulse supplying electrodes of the present invention."
+        },
+        {
+          "col": 2,
+          "line": 22,
+          "text": "Basically, the cardiac pacemaker of the present invention includes a pulse forming oscillator circuit indicated generally at 10 in FIG. 1 which is cast into a hard epoxy compound and then covered with a thin coating of silicone rubber, which is compatible to the environment of the human body, to form an envelope 11 illustrated by FIGURE 3. A wire 12, also insulated with silicone rubber, transmits the pulses from the circuit 10 contained within the envelope 11, to stainless steel electrodes 13. It is obvious that the pacemaker of the subject invention need not be limited to construction from the aforementioned materials, but that any materials compatible so the environment of the human body might be utilized."
+        },
+        {
+          "col": 2,
+          "line": 35,
+          "text": "The physical configuration of the artificial pacemaker as illustrated by FIG. 3 provides inherent features of minimum size and weight to make feasible the complete implantation of the device within the human body. The envelope 11 is approximately 2½ inches in diameter and ½ inch thick, and is therefore a thin, wafer-like construction. The total weight of the pacemaker is approximately 4 ounces. In use, the electrodes 13 may be implanted in the ventricle of the heart, while the envelope 11 may be implanted outside the rib cage but under the skin, where it will be accessible for battery replacement as required."
+        },
+        {
+          "col": 2,
+          "line": 47,
+          "text": "The pacemaker circuit 10 of FIG. 1 generates a square pulse of approximately 10 volts amplitude and approximately one millisecond duration. The circuit is capable of delivering a pulse of over three milli-amperes into cardiac tissue."
+        },
+        {
+          "col": 2,
+          "line": 52,
+          "text": "Referring now to FIG. 1, the pacemaker circuit 10 consists of a timing transistor 14 having a collector electrode 15, base electrode 16, and a grounded emitter electrode 17. The collector electrode 15 of the transistor 14 is serially connected to the primary winding 18 of a feedback transformer 19. Feedback transformer 19 includes a secondary winding 20, which is electrically connected through a timing capacitor 21 to the base 16 of the transistor 14. The base electrode 16 of the transistor 14 is also connected to the primary winding 18 of the feedback transformer 19 by means of a resistor 22 which, acts in conjunction with the capacitor 21, to form a timing circuit. Thus, the feedback transformer 19 couples the output signal from the transistor 14 to the timing circuit formed by the capacitor 21 and the resistor 22. A unidirectional voltage source 23 provides voltage through the primary 18 of the feedback transformer 19 to the collector 15 of the transistor 14. An output lead 25 transmits a pulse from the collector 15 of the transistor 14 to a spot on the ventricular wall of the human heart, while a lead 25 connects a reference ground potential to an adjacent spot on the ventricular wall of the heart."
+        },
+        {
+          "col": 3,
+          "line": 3,
+          "text": "In the operation of the invention as illustrated by FIGURE 1, the reference potential at the collector 15 of the transistor 14 drops suddenly to reference ground potential when the transistor becomes conducting. This causes a positive pulse to be applied to the output lead 24 and also across the feedback transformer 19 to the capacitor 21 and the base electrodes 16 of the transistor 14. This voltage application to the base 16 of the transistor drives the transistor 14 to saturation and thus continues to hold the collector electrode 15 at ground potential. After a predetermined period of time, in this case approximately one millisecond, the capacitor 21 becomes completely charged, and simultaneously, the induced voltage at the secondary winding 20 of the transformer 19 begins to decay. This causes a reversal in the voltage at the base electrode 16 of the transistor 14, such reversal being amplified by the transistor and fed back through the transformer 19 and the capacitor 21 to the base electrode 16 of the transistor 14 to cause the flow of all collector current through the transistor to be cut off. The transistor is held in this cut-off state by the accumulated charge on the capacitor 21 until the capacitor charge is drained off by the resistor 22. This resultant time delay is proportional to the product of the resistance of the resistor 22 and the capacity of the capacitor 21, and in particular pacemaker circuits may be equal to about one-tenth of this product. Thus by utilizing specific values of capacitance and resistance, an R-C product of approximately 10 seconds may be obtained to produce a repetition rate of approximately one pulse per second. It is obvious that by varying the resistance and capacitance values of the resistor 22 and the capacitor 21, various pulse repetition rates might be obtained. It is also feasible to substitute a potentiometer for the resistor 22, so that the pulse repetition rate of the circuit 10 might be adjustably controlled in order to vary the rhythm of a defective human heart."
+        },
+        {
+          "col": 3,
+          "line": 40,
+          "text": "FIGURE 2 illustrates a pulse producing circuit indicated generally at 33 which is capable of generating pulses of considerably higher current value than the pacemaker illustrated by FIGURE 1. The pulse producing circuit 33 of FIGURE 2 includes all of the circuit components described in connection with FIGURE 1, and is additionally modified to provide a high power output. This modification includes a transistor amplifier 26 having a collector electrode 27, a base electrode 28, and a grounded emitter electrode 29. An emitter resistor 30 is inserted between the emitter electrode 17' of the transistor 14' and the source of ground potential, while the base electrode 28 of the transistor 26 is directly coupled to the emitter 17' of the transistor 14'. The source of unidirectional voltage 23' furnishes voltage to the collector 15' of the transistor 14' through the primary winding 18' of the transformer 19' in the manner described in connection with FIGURE 1. A collector resistor 31 is connected in the circuit between the unidirectional voltage source 23' and the collector 15' of the transistor 14', so that power is also furnished to the collector 27 of the transistor 26. The output lead 24' is connected from the collector 27 of the transistor 26 to a spot on the ventricular wall of a human heart, instead of being connected to the collector 15' of the transistor 14' as described in connection with FIGURE 1. A storage capacitor 32 is provided in the circuit between the collector 27 of the transistor 26 and a reception point on the ventricular wall of the diseased heart."
+        },
+        {
+          "col": 3,
+          "line": 69,
+          "text": "The pulse forming circuit 33 of FIGURE 2 operates in much the same manner as the circuit 10 of FIGURE 1, with the exception that the output pulse from the transistor 14' is amplified by the transistor 26 prior to its transmission to the diseased heart undergoing treatment. When a current pulse passes through the transistor 14' in the manner described in connection with FIGURE 1, current is caused to flow through the emitter resistor 30, thus causing a positive voltage pulse to appear at the emitter 17' of the transistor 14'. This positive pulse is applied to the base 28 of the transistor 26, causing it to saturate and provide a very low impedance path from the collector 27 through the transistor 26 to ground. This, in effect, connects the storage capacitor 32 directly across a section of cardiac tissue, and the storage capacitor discharges into the cardiac tissue initiating a ventricular contraction. When the current through the timing transistor 14' is cut-off in the manner described in connection with FIG. 1, the voltage at the emitter 17' drops to reference ground potential, causing the transistor 26 to go quickly from saturation to cut-off. This change of state of the transistor 26 produces a very high impedance between the collector electrode 27 and the emitter electrode 29 which effectively disconnects the capacitor 32 from the controlled section of cardiac tissue. The storage capacitor 32 will now recharge through the collector resistor 31 to the unidirectional reference potential of the potential source 23' in preparation for the next output pulse."
+        },
+        {
+          "col": 4,
+          "line": 23,
+          "text": "In actual use, the circuit 33 of FIGURE 2 produces a pulse amplitude of 10 milli-amperes, a pulse length of one millisecond, and a repetition rate of one pulse per second. The average battery drain under these conditions is approximately 10 micro amperes for the transistor 26 and 2 micro amperes for the timing transistor 14'. Thus over a period of one year or approximately 8750 hours, a total of 105 milli-ampere hours will be required. Thus a 600 milli-ampere hour battery pack will supply over five years of continuous operation, and such a battery pack, along with the circuits described in conjunction with FIGS. 1 and 2 and the envelope and heart connections illustrated in FIG. 3, has proved to be of sufficient size and weight so as to be suitable for permanent implantation in the human body."
+        },
+        {
+          "col": 4,
+          "line": 38,
+          "text": "It will be readily apparent to those skilled in the art that the present invention provides a novel electronic cardiac pacemaker which may be implanted within the human body in its entirety to effectively control the action of a diseased heart for a prolonged period without the necessity of external power supplies. The arrangement and types of components utilized within this invention may be subject to numerous modifications well within the purview of this inventor who intends only to be limited to a liberal interpretation of the specification and appended claims."
+        }
+      ]
+    }
+  ],
+  "brief_drawings": [
+    {
+      "fig": "1",
+      "col": 2,
+      "line": 14,
+      "text": "FIG. 1 illustrates a circuit diagram of the artificial cardiac pacemaker of the present invention;"
+    },
+    {
+      "fig": "2",
+      "col": 2,
+      "line": 16,
+      "text": "FIG. 2 shows a circuit diagram of an embodiment of the invention of FIGURE 1 which is capable of operation at higher powers; and"
+    },
+    {
+      "fig": "3",
+      "col": 2,
+      "line": 19,
+      "text": "FIG. 3 is a perspective view of the circuit enclosing envelope and pulse supplying electrodes of the present invention."
+    }
+  ],
+  "claims": [
+    {
+      "n": 1,
+      "col": 4,
+      "line": 50,
+      "depends": null,
+      "text": "1. An electronic cardiac pacemaker for performing heart control functions comprising, in combination, a battery powered, transistorized, pulse producing circuit cast in a potting compound, a thin, wafer-like envelope formed about said pulse producing circuit, a pair of spaced electrodes for contacting a section of cardiac tissue, and transmission means extending between said pulse producing circuit and said spaced electrodes, said envelope, electrodes, and transmission means being constructed from material compatible with the environment of the human body to permit their implantation therein."
+    },
+    {
+      "n": 2,
+      "col": 4,
+      "line": 61,
+      "depends": 1,
+      "text": "2. The invention of claim 1 wherein said thin, wafer-like envelope and transmission means are covered with material of the class comprising silicone rubber."
+    },
+    {
+      "n": 3,
+      "col": 4,
+      "line": 64,
+      "depends": null,
+      "text": "3. An electronic cardiac pacemaker for performing heart control functions comprising, in combination: a miniaturized pulse generating means cast in a potting compound, said pulse generating means including a transistor oscillator having emitter, base, and collector electrodes, a source of unidirectional potential connected to said collector electrode, a ground reference source connected to said emitter electrode, a timing circuit connected to said base electrode, and an inductive feedback coupling between said timing circuit and said collector electrode, said timing circuit initiating intermittent conduction of said transistor to provide timed output pulses at said collector electrode, output means electrically connected to said collector electrode and to said ground reference source to supply said timed output pulses to a section of cardiac tissue, said output means including a pair of spaced electrodes for contacting a section of cardiac tissue and transmission means extending from said collector electrode to one of said spaced electrodes and from said ground reference source to the remaining one of said spaced electrodes, and an envelope of thin, wafer-like construction to permit the complete implantation thereof between the skin and rib cage of the human body, said envelope encasing said pulse generating means and, with said spaced electrodes and transmission means, being constructed of a material compatible with the internal environment of the human body."
+    },
+    {
+      "n": 4,
+      "col": 5,
+      "line": 16,
+      "depends": null,
+      "text": "4. An electronic cardiac pacemaker for performing heart control functions comprising, in combination: a miniaturized pulse generating means cast in a potting compound, said pulse generating means including a transistor oscillator having emitter, base, and collector electrodes, a source of unidirectional potential connected to said collector electrode, a ground reference source connected to said emitter electrode, a timing circuit connected to said base electrode, and an inductive feedback coupling between said timing circuit and said collector electrode, said timing circuit initiating intermittent conduction of said transistor to provide timed output pulses at said emitter electrode, a transistor amplifier having a collector electrode connected to said source of unidirectional potential, an emitter electrode connected to said ground reference source, and a base electrode connected to receive the timed output pulses from the emitter electrode of said transistor oscillator, said timed output pulses driving said transistor amplifier between states of saturation and cutoff, a storage capacitor connected to the collector electrode of said transistor amplifier, said storage capacitor being controlled by said transistor amplifier to discharge a pulse potential when said amplifier is in a state of cutoff and to charge directly from said source of unidirectional potential when said amplifier is in a saturated state, output means electrically connected to said storage capacitor and said ground reference source to supply said pulse potential to a section of cardiac tissue, said output means including a pair of spaced electrodes for contacting a section of cardiac tissue and transmission means extending from said capacitor to one of said spaced electrodes and from said ground reference source to the remaining one of said spaced electrodes, and an envelope of thin, wafer-like construction to permit the complete implantation thereof between the skin and rib cage of the human body, said envelope encasing said pulse generating means and, with said spaced electrodes and transmission means, being constructed of a material compatible with the internal environment of the human body."
+    }
+  ],
+  "ocr_fixes": [
+    {
+      "col": 1,
+      "line": 6,
+      "ocr": "44,796 |",
+      "fixed": "44,796",
+      "basis": "scan (speck in header)"
+    },
+    {
+      "col": 1,
+      "line": 7,
+      "ocr": "128-—422",
+      "fixed": "128—422",
+      "basis": "scan (header class mark)"
+    },
+    {
+      "col": 1,
+      "line": 41,
+      "ocr": "beating. rhythm",
+      "fixed": "beating rhythm",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 39,
+      "ocr": "244 inches",
+      "fixed": "2½ inches",
+      "basis": "scan (fraction misread); Google Patents also misreads it"
+    },
+    {
+      "col": 2,
+      "line": 40,
+      "ocr": "\\ inch",
+      "fixed": "½ inch",
+      "basis": "scan (fraction misread); Google Patents also misreads it"
+    },
+    {
+      "col": 2,
+      "line": 51,
+      "ocr": "tissue. ‘",
+      "fixed": "tissue.",
+      "basis": "scan (speck)"
+    },
+    {
+      "col": 2,
+      "line": 62,
+      "ocr": "of.a",
+      "fixed": "of a",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 67,
+      "ocr": "unidirectional’",
+      "fixed": "unidirectional",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 7,
+      "ocr": "Jead",
+      "fixed": "lead",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 15,
+      "ocr": "the. in-",
+      "fixed": "the in-",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 72,
+      "ocr": "sistor 14 is",
+      "fixed": "sistor 14' is",
+      "basis": "scan (prime dropped) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 50,
+      "ocr": "1, An",
+      "fixed": "1. An",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 20,
+      "ocr": "sistor. oscillator",
+      "fixed": "sistor oscillator",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 5,
+      "line": 21,
+      "ocr": "unidirectional. potential",
+      "fixed": "unidirectional potential",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 6,
+      "ocr": "tated state",
+      "fixed": "rated state",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 6,
+      "line": 20,
+      "ocr": "body. —",
+      "fixed": "body.",
+      "basis": "scan (speck)"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "patent": "Filed 1883-11-15 and issued 1884-10-21 to Thomas A. Edison of Menlo Park, N.J. It is the patent on what became known as the Edison effect: a metal plate sealed inside the evacuated bulb of an incandescent lamp and wired outside the lamp to the filament's positive terminal carries a current that rises with the filament's brightness. Edison uses that current, read on a torsion galvanometer, as an indicator of the supply voltage in a lighting system, or to close circuits for an automatic regulator. The current is thermionic emission: electrons boiled off the hot carbon filament reach the plate only when it is positive with respect to the filament. The effect was reported to the Royal Society by William Preece (Proceedings of the Royal Society, 1885), explained by Owen Richardson's work on thermionic emission (Nobel Prize in Physics, 1928), and used by John Ambrose Fleming in his two-electrode valve for detecting radio signals (British patent 24,850, 1904). The patent is commonly cited as the first U.S. patent on an electronic device.",
+  "figs": {
+    "1": "Conductors 1 and 2 feed ordinary lamps a in parallel through branches 3 and 4. Lamp A, at the right, is connected the same way, with adjustable resistance C (drawn as a row of coils on spools) in its branch; its plate b sits between the limbs of the filament. The galvanometer on the base board hangs needle e inside coil d on torsion-wire f from the split cross-bar of frame B; stud i, clamped by screws h h and turned by thumb-nut j, sets the torsion, and spring k with nut l keeps the wire taut below. Pointer m, fixed to the needle, reads on curved scale n. The coil's spiral leads go to binding-posts c and c'. Wire 5 runs from post c to the plate of lamp A; the unnumbered wire 6 runs from post c' over the edge of the board down to branch 3, the lamp's positive side.",
+    "2": "Wiring diagram with the galvanometer reduced to coil d and needle e. Lamps A and A' each carry a plate. Branch 3 rises diagonally, picks up the lower coil lead, and continues over A to A'; wire 5 leaves the upper coil lead and runs over the top to the right-hand side of the lamps. At the bottom a key, pivoted on a post wired to branch 4, works between two contacts: the lead from A goes to a contact resting on top of the lever, the lead from A' to a contact under its free end. Pressing the knob moves the lever off the first and onto the second, putting A' in circuit in place of A.",
+    "3": "The galvanometer of Fig. 1 seen with arm o fixed to needle e in place of the pointer. The free end of the arm lies between two contacts p mounted on a cylindrical block; a deflection either way closes the arm on one contact and completes the circuit of the wire leading from it, for example to the two working magnets of the regulator of Patent No. 287,524.",
+    "4": "The indicating lamp A enlarged. The carbon filament is a narrow loop; plate b is the flat strip drawn between its two limbs. The plate's lead runs down beside the filament leads and is sealed through the same glass stem."
+  },
+  "parts": {
+    "b": "The plate that collects the thermionic current. The patent names platinum, as a thin plate or a wire.",
+    "6": "Named in the text but not numbered in the drawings; in Fig. 1 it is the wire from binding-post c' to branch 3.",
+    "B": "In the text's reference to Patent No. 287,524, \"pressure-magnet B\" belongs to that earlier patent, not to frame B here.",
+    "C": "In the text's reference to Patent No. 287,524, \"working-magnets C C'\" belong to that earlier patent, not to resistance C here.",
+    "g": "Marks the slot cut in the frame's upper cross-bar; the stud i is held in it by friction."
+  },
+  "glossary": [
+    {
+      "term": "electro-motive force",
+      "def": "The driving voltage of a source; here the supply voltage of the lighting system. The patent also calls it pressure."
+    },
+    {
+      "term": "candle-power",
+      "def": "Luminous intensity expressed in standard candles; for a carbon lamp it rises steeply with filament voltage."
+    },
+    {
+      "term": "multiple-arc",
+      "def": "Nineteenth-century term for a parallel connection: every lamp is bridged across the two main conductors."
+    },
+    {
+      "term": "incandescent conductor",
+      "def": "The lamp filament; in 1883 a loop of carbonized material in an evacuated glass globe."
+    },
+    {
+      "term": "vacuous space",
+      "def": "The evacuated interior of the lamp globe, through which the plate current passes."
+    },
+    {
+      "term": "Edison effect",
+      "def": "The current that flows across the vacuum from a hot filament to a separate electrode held positive with respect to it."
+    },
+    {
+      "term": "thermionic emission",
+      "def": "Release of electrons from a hot conductor. The emitted current grows roughly exponentially with temperature (Richardson's law), much faster than the lamp's light output."
+    },
+    {
+      "term": "torsion galvanometer",
+      "def": "A current meter whose needle is held by the twist of a fine wire; the twist is preset so the needle stands at mid-scale at normal current."
+    },
+    {
+      "term": "shunt",
+      "def": "A branch path connected across part of a circuit, carrying part of the current."
+    },
+    {
+      "term": "standard lamp",
+      "def": "A lamp kept as the reference whose brightness or current represents the normal supply voltage."
+    },
+    {
+      "term": "dynamo-electric machine",
+      "def": "An electric generator (dynamo)."
+    }
+  ]
+}

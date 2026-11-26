@@ -1,0 +1,209 @@
+{
+ "pn": "349611",
+ "figures": [
+  {
+   "id": "1",
+   "label": "Fig. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    800,
+    560,
+    1520,
+    1265
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "Fig. 2",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    745,
+    1320,
+    1560,
+    1875
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "Fig. 3",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    890,
+    2010,
+    1580,
+    2565
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "A",
+   "name": "annular core",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "a'",
+   "name": "ends",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "a^{2}",
+   "name": "ends",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "b'",
+   "name": "primary coil",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "e'",
+   "name": "terminals",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "e^{2}",
+   "name": "terminals",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "b^{2}",
+   "name": "secondary coil",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "e^{3}",
+   "name": "terminals",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "e^{4}",
+   "name": "terminals",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "f'",
+   "name": "non-magnetic projections",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "f^{2}",
+   "name": "non-magnetic projections",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "f",
+   "name": "two-way adjusting-screw",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "adjusting-screw"
+   ]
+  },
+  {
+   "ref": "g'",
+   "name": "curved angles",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "g^{2}",
+   "name": "curved angles",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "g^{3}",
+   "name": "curved angles",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "g^{4}",
+   "name": "curved angles",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "f^{3}",
+   "name": "non-magnetic pieces",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "f^{4}",
+   "name": "non-magnetic pieces",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "c'",
+   "name": "piece",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "c^{2}",
+   "name": "the other",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "h",
+   "name": "movable soft-iron piece",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "h'",
+   "name": "screw",
+   "figs": [
+    "3"
+   ]
+  }
+ ]
+}

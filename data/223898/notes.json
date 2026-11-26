@@ -1,0 +1,68 @@
+{
+  "patent": "Issued 1880-01-27 to Thomas A. Edison of Menlo Park, New Jersey; the specification is signed 1879-11-01. It is Edison's basic patent on the high-resistance carbon-filament incandescent lamp: a thin carbonized filament (cotton thread, paper, or rolled lamp-black and tar), joined to platinum lead-in wires by carbonizing the joint, inside an all-glass bulb pumped to a high vacuum. The high filament resistance is the point of the design: it lets many lamps run in parallel from mains of practical size, which the one-to-four-ohm carbon rods of earlier lamps did not. Joseph Swan in England was developing carbon-filament vacuum lamps at the same time, and Edison's commercial lamps of the 1880s used carbonized bamboo rather than the thread and paper named here (Friedel and Israel, Edison's Electric Light: Biography of an Invention, Rutgers University Press, 1986). The pages after the specification are Patent Office papers: a certificate dated 1883-12-18 limiting the term to expire with the shortest-running of Edison's British, Canadian, Belgian, Italian and French patents on the invention, and an order of 1893-03-15 cancelling that certificate. The Circuit Court of Appeals had already held the certificate void (Edison Electric Light Co. v. United States Electric Lighting Co., 52 F. 300, 1892); the statute itself still tied the U.S. term to the Canadian patent of 1879-11-17, and the patent expired in November 1894.",
+  "figs": {
+    "1": "Vertical section through the finished lamp. The heavy ring is the glass bulb wall, the curved strokes inside it are surface shading, and the hatched glass at the bottom is the bulb neck around a hollow stem, open below, on which the burner stands. The coiled filament a sits at the top; its thickened ends c, c' hold the platina wires d, d', which clamps h join to leading-wires x sealed through the top of the stem. Below the seal, outside the vacuum, the wires run down inside the open stem; the text joins x to copper wires e just outside the bulb, and e leave at the bottom. The dotted tube m at the top is the exhaustion tube, sealed off after pumping.",
+    "2": "The filament before coiling: one straight rolled length of the lamp-black and tar compound with its swollen ends c, c' molded around the platina wires d (top) and d' (bottom). The drawing is not stated to be to scale.",
+    "3": "The same mount as Fig. 1 without the bulb: the coiled filament carbonized and attached to its wires, standing on the glass holder ready for the bulb to be blown over it. Parts are lettered as in Fig. 1."
+  },
+  "parts": {
+    "a": "Drawn as a short dark coil; the text's spiral is a thread wound into a helix so that only its outer surface radiates.",
+    "h": "Only one h is lettered in each figure; the text names two clamps, one per wire.",
+    "m": "Drawn dotted because the text has it sealed off and the surplus removed after exhaustion.",
+    "e": "In Fig. 3 the letter on the right-hand wire prints like c; by its position and by Fig. 1 it is the second copper wire e."
+  },
+  "glossary": [
+    {
+      "term": "incandescence",
+      "def": "Light emitted by a body heated to a high temperature, here a filament heated by the current through it."
+    },
+    {
+      "term": "platina",
+      "def": "Platinum. The text chooses it for the wires sealed through the glass because its thermal expansion is close to that of glass, so the seal does not crack."
+    },
+    {
+      "term": "subdivision of the electric light",
+      "def": "Running many small lamps from one supply instead of a few bright arc lamps; it needs each lamp to draw little current, hence a high-resistance burner."
+    },
+    {
+      "term": "multiple arc",
+      "def": "Parallel connection: each lamp is connected across the two mains independently."
+    },
+    {
+      "term": "burner",
+      "def": "The light-giving element of the lamp, here the carbon filament."
+    },
+    {
+      "term": "receiver",
+      "def": "The evacuated glass vessel, here the bulb."
+    },
+    {
+      "term": "carbonize",
+      "def": "Heat an organic material in a closed chamber without air so that it decomposes to a carbon residue that keeps its shape."
+    },
+    {
+      "term": "lamp-black",
+      "def": "Fine soot from burning oil or tar, nearly pure carbon."
+    },
+    {
+      "term": "plumbago",
+      "def": "Graphite."
+    },
+    {
+      "term": "air-washing",
+      "def": "The text's term for erosion of the hot carbon by a gas flowing over its surface."
+    },
+    {
+      "term": "specific heat",
+      "def": "Used loosely here for the heat stored in the whole filament (thermal mass), which smooths the light against fluctuations of the current."
+    },
+    {
+      "term": "one-millionth of an atmosphere",
+      "def": "About 0.1 Pa."
+    },
+    {
+      "term": "mercury-pump",
+      "def": "A vacuum pump in which falling mercury carries off the gas, able to reach far lower pressures than mechanical pumps of the time."
+    }
+  ]
+}

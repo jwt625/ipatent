@@ -1,0 +1,2032 @@
+{
+ "fig": "8",
+ "w": 1049,
+ "h": 857,
+ "stroke": 2.5,
+ "elements": [
+  {
+   "id": "frame",
+   "kind": "outline",
+   "name": "chart frame",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       41.0,
+       141.9
+      ],
+      [
+       995.4,
+       116.0
+      ]
+     ],
+     "w": 4.5
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       994.4,
+       116.0
+      ],
+      [
+       997.8,
+       295.2
+      ],
+      [
+       1002.5,
+       438.5
+      ],
+      [
+       1006.5,
+       723.8
+      ],
+      [
+       1007.8,
+       733.9
+      ]
+     ],
+     "w": 4.2
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       53.6,
+       759.1
+      ],
+      [
+       1008.8,
+       732.8
+      ]
+     ],
+     "w": 3
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       42.0,
+       140.9
+      ],
+      [
+       53.6,
+       760.1
+      ]
+     ],
+     "w": 4
+    }
+   ]
+  },
+  {
+   "id": "grid-m-unlabelled",
+   "kind": "mark",
+   "name": "grid line, mass number unlabelled",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       42.6,
+       175.7
+      ],
+      [
+       52.5,
+       174.5
+      ],
+      [
+       195.9,
+       171.8
+      ],
+      [
+       995.1,
+       149.9
+      ]
+     ],
+     "w": 2.8
+    }
+   ]
+  },
+  {
+   "id": "grid-m-200",
+   "kind": "mark",
+   "name": "grid line, mass number 200",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       43.5,
+       220.8
+      ],
+      [
+       996.1,
+       194.6
+      ]
+     ],
+     "w": 2.8
+    }
+   ]
+  },
+  {
+   "id": "grid-m-100",
+   "kind": "mark",
+   "name": "grid line, mass number 100",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       44.8,
+       289.9
+      ],
+      [
+       997.6,
+       263.1
+      ]
+     ],
+     "w": 4.0
+    }
+   ]
+  },
+  {
+   "id": "grid-m-80",
+   "kind": "mark",
+   "name": "grid line, mass number 80",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       45.2,
+       312.5
+      ],
+      [
+       998.1,
+       286.0
+      ]
+     ],
+     "w": 2.8
+    }
+   ]
+  },
+  {
+   "id": "grid-m-50",
+   "kind": "mark",
+   "name": "grid line, mass number 50",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       46.1,
+       358.2
+      ],
+      [
+       999.1,
+       332.2
+      ]
+     ],
+     "w": 2.7
+    }
+   ]
+  },
+  {
+   "id": "grid-m-30",
+   "kind": "mark",
+   "name": "grid line, mass number 30",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       47.0,
+       409.0
+      ],
+      [
+       1000.2,
+       383.5
+      ]
+     ],
+     "w": 2.7
+    }
+   ]
+  },
+  {
+   "id": "grid-m-20",
+   "kind": "mark",
+   "name": "grid line, mass number 20",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       47.8,
+       452.7
+      ],
+      [
+       1001.1,
+       426.8
+      ]
+     ],
+     "w": 2.7
+    }
+   ]
+  },
+  {
+   "id": "grid-m-10",
+   "kind": "mark",
+   "name": "grid line, mass number 10",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       49.2,
+       523.5
+      ],
+      [
+       58.8,
+       522.0
+      ],
+      [
+       394.2,
+       514.2
+      ],
+      [
+       1002.6,
+       496.4
+      ]
+     ],
+     "w": 3.6
+    }
+   ]
+  },
+  {
+   "id": "grid-m-5",
+   "kind": "mark",
+   "name": "grid line, mass number 5",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       50.4,
+       591.4
+      ],
+      [
+       62.5,
+       589.8
+      ],
+      [
+       371.3,
+       582.8
+      ],
+      [
+       1004.1,
+       564.3
+      ]
+     ],
+     "w": 2.6
+    }
+   ]
+  },
+  {
+   "id": "grid-m-3",
+   "kind": "mark",
+   "name": "grid line, mass number 3",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       51.4,
+       641.7
+      ],
+      [
+       1005.2,
+       615.1
+      ]
+     ],
+     "w": 2.6
+    }
+   ]
+  },
+  {
+   "id": "grid-m-2",
+   "kind": "mark",
+   "name": "grid line, mass number 2",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       52.2,
+       682.6
+      ],
+      [
+       1006.1,
+       655.7
+      ]
+     ],
+     "w": 2.6
+    }
+   ]
+  },
+  {
+   "id": "grid-f-30",
+   "kind": "mark",
+   "name": "grid line, 30 megacycles per second",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       80.2,
+       140.9
+      ],
+      [
+       92.2,
+       758.0
+      ]
+     ],
+     "w": 2.4
+    }
+   ]
+  },
+  {
+   "id": "grid-f-20",
+   "kind": "mark",
+   "name": "grid line, 20 megacycles per second",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       164.0,
+       138.6
+      ],
+      [
+       175.7,
+       755.8
+      ]
+     ],
+     "w": 2.4
+    }
+   ]
+  },
+  {
+   "id": "grid-f-10",
+   "kind": "mark",
+   "name": "grid line, 10 megacycles per second",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       303.8,
+       134.8
+      ],
+      [
+       316.7,
+       751.9
+      ]
+     ],
+     "w": 3.2
+    }
+   ]
+  },
+  {
+   "id": "grid-f-9",
+   "kind": "mark",
+   "name": "grid line, 9 megacycles per second",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       323.0,
+       134.3
+      ],
+      [
+       333.1,
+       599.2
+      ],
+      [
+       334.5,
+       742.0
+      ],
+      [
+       335.7,
+       751.3
+      ]
+     ],
+     "w": 2.4
+    }
+   ]
+  },
+  {
+   "id": "grid-f-8",
+   "kind": "mark",
+   "name": "grid line, 8 megacycles per second",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       346.8,
+       133.6
+      ],
+      [
+       355.8,
+       528.7
+      ],
+      [
+       358.6,
+       740.8
+      ],
+      [
+       359.9,
+       750.7
+      ]
+     ],
+     "w": 2.4
+    }
+   ]
+  },
+  {
+   "id": "grid-f-7",
+   "kind": "mark",
+   "name": "grid line, 7 megacycles per second",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       372.9,
+       132.9
+      ],
+      [
+       380.5,
+       454.5
+      ],
+      [
+       384.8,
+       739.5
+      ],
+      [
+       386.1,
+       750.0
+      ]
+     ],
+     "w": 2.4
+    }
+   ]
+  },
+  {
+   "id": "grid-f-6",
+   "kind": "mark",
+   "name": "grid line, 6 megacycles per second",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       403.8,
+       132.1
+      ],
+      [
+       411.4,
+       454.6
+      ],
+      [
+       415.6,
+       738.4
+      ],
+      [
+       417.0,
+       749.1
+      ]
+     ],
+     "w": 2.4
+    }
+   ]
+  },
+  {
+   "id": "grid-f-5",
+   "kind": "mark",
+   "name": "grid line, 5 megacycles per second",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       439.7,
+       131.1
+      ],
+      [
+       453.4,
+       748.1
+      ]
+     ],
+     "w": 2.4
+    }
+   ]
+  },
+  {
+   "id": "grid-f-4",
+   "kind": "mark",
+   "name": "grid line, 4 megacycles per second",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       483.4,
+       129.9
+      ],
+      [
+       497.4,
+       746.9
+      ]
+     ],
+     "w": 2.4
+    }
+   ]
+  },
+  {
+   "id": "grid-f-3",
+   "kind": "mark",
+   "name": "grid line, 3 megacycles per second",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       538.2,
+       128.4
+      ],
+      [
+       549.2,
+       569.3
+      ],
+      [
+       551.5,
+       736.5
+      ],
+      [
+       552.7,
+       745.4
+      ]
+     ],
+     "w": 2.4
+    }
+   ]
+  },
+  {
+   "id": "grid-f-2",
+   "kind": "mark",
+   "name": "grid line, 2 megacycles per second",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       623.7,
+       126.1
+      ],
+      [
+       637.8,
+       743.0
+      ]
+     ],
+     "w": 2.5
+    }
+   ]
+  },
+  {
+   "id": "grid-f-1",
+   "kind": "mark",
+   "name": "grid line, 1 megacycles per second",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       762.6,
+       122.3
+      ],
+      [
+       776.0,
+       739.2
+      ]
+     ],
+     "w": 3.2
+    }
+   ]
+  },
+  {
+   "id": "grid-f-09",
+   "kind": "mark",
+   "name": "grid line, 0.9 megacycles per second",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       779.7,
+       121.8
+      ],
+      [
+       792.2,
+       738.8
+      ]
+     ],
+     "w": 2.4
+    }
+   ]
+  },
+  {
+   "id": "grid-f-08",
+   "kind": "mark",
+   "name": "grid line, 0.8 megacycles per second",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       803.7,
+       121.2
+      ],
+      [
+       816.6,
+       738.1
+      ]
+     ],
+     "w": 2.4
+    }
+   ]
+  },
+  {
+   "id": "grid-f-07",
+   "kind": "mark",
+   "name": "grid line, 0.7 megacycles per second",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       830.3,
+       120.5
+      ],
+      [
+       843.4,
+       737.4
+      ]
+     ],
+     "w": 2.4
+    }
+   ]
+  },
+  {
+   "id": "grid-f-06",
+   "kind": "mark",
+   "name": "grid line, 0.6 megacycles per second",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       859.5,
+       119.7
+      ],
+      [
+       872.4,
+       736.6
+      ]
+     ],
+     "w": 2.4
+    }
+   ]
+  },
+  {
+   "id": "grid-f-05",
+   "kind": "mark",
+   "name": "grid line, 0.5 megacycles per second",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       895.8,
+       118.7
+      ],
+      [
+       903.5,
+       440.5
+      ],
+      [
+       907.8,
+       724.9
+      ],
+      [
+       909.0,
+       735.6
+      ]
+     ],
+     "w": 2.4
+    }
+   ]
+  },
+  {
+   "id": "grid-f-04",
+   "kind": "mark",
+   "name": "grid line (unlabelled)",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       938.5,
+       117.5
+      ],
+      [
+       940.8,
+       247.7
+      ],
+      [
+       947.5,
+       486.3
+      ],
+      [
+       950.8,
+       723.5
+      ],
+      [
+       952.1,
+       734.4
+      ]
+     ],
+     "w": 2.4
+    }
+   ]
+  },
+  {
+   "id": "f1-region",
+   "kind": "block",
+   "ref": "F_{1}",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       759.4,
+       122.4
+      ],
+      [
+       736.4,
+       145.3
+      ],
+      [
+       551.7,
+       347.1
+      ],
+      [
+       435.9,
+       469.4
+      ],
+      [
+       169.2,
+       755.9
+      ]
+     ],
+     "w": 4.2
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       729.5,
+       125.0
+      ],
+      [
+       742.0,
+       138.0
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       702.0,
+       124.0
+      ],
+      [
+       731.7,
+       152.1
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       674.2,
+       124.7
+      ],
+      [
+       717.7,
+       167.2
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       645.1,
+       125.5
+      ],
+      [
+       704.4,
+       181.4
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       617.3,
+       126.3
+      ],
+      [
+       690.1,
+       196.8
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       589.4,
+       127.0
+      ],
+      [
+       677.5,
+       210.4
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       562.5,
+       127.7
+      ],
+      [
+       663.9,
+       224.9
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       533.6,
+       128.5
+      ],
+      [
+       649.2,
+       240.7
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       502.6,
+       129.4
+      ],
+      [
+       634.3,
+       256.7
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       471.5,
+       130.2
+      ],
+      [
+       618.8,
+       273.3
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       438.4,
+       131.1
+      ],
+      [
+       602.4,
+       291.0
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       404.0,
+       132.1
+      ],
+      [
+       586.3,
+       308.3
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       370.7,
+       133.0
+      ],
+      [
+       569.5,
+       326.3
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       337.7,
+       133.9
+      ],
+      [
+       554.1,
+       342.8
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       305.4,
+       134.7
+      ],
+      [
+       537.5,
+       360.7
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       272.3,
+       135.6
+      ],
+      [
+       521.6,
+       377.6
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       238.9,
+       136.5
+      ],
+      [
+       505.8,
+       394.6
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       203.5,
+       137.5
+      ],
+      [
+       488.2,
+       413.5
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       169.4,
+       138.4
+      ],
+      [
+       472.1,
+       430.8
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       136.3,
+       139.3
+      ],
+      [
+       455.8,
+       448.3
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       104.5,
+       140.2
+      ],
+      [
+       439.9,
+       465.4
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       71.1,
+       141.1
+      ],
+      [
+       424.4,
+       482.1
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       42.1,
+       147.7
+      ],
+      [
+       408.4,
+       499.2
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       42.8,
+       184.5
+      ],
+      [
+       390.7,
+       518.2
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       43.5,
+       222.2
+      ],
+      [
+       373.2,
+       537.0
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       44.1,
+       255.8
+      ],
+      [
+       357.2,
+       554.2
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       44.8,
+       292.1
+      ],
+      [
+       340.4,
+       572.2
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       45.4,
+       324.8
+      ],
+      [
+       323.2,
+       590.6
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       46.1,
+       360.4
+      ],
+      [
+       306.1,
+       609.0
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       46.7,
+       394.0
+      ],
+      [
+       289.0,
+       627.3
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       47.4,
+       430.3
+      ],
+      [
+       271.3,
+       646.4
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       48.1,
+       467.2
+      ],
+      [
+       254.0,
+       664.9
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       48.8,
+       503.4
+      ],
+      [
+       236.1,
+       684.1
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       49.5,
+       542.7
+      ],
+      [
+       218.2,
+       703.4
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       50.2,
+       578.8
+      ],
+      [
+       200.1,
+       722.8
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       50.9,
+       614.3
+      ],
+      [
+       182.1,
+       742.1
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       51.6,
+       651.6
+      ],
+      [
+       160.4,
+       756.2
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       52.2,
+       686.1
+      ],
+      [
+       125.8,
+       757.1
+      ]
+     ],
+     "w": 2.1
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       52.9,
+       719.7
+      ],
+      [
+       92.5,
+       758.0
+      ]
+     ],
+     "w": 2.1
+    }
+   ]
+  },
+  {
+   "id": "f2-band",
+   "kind": "block",
+   "ref": "F_{2}",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       967.1,
+       122.2
+      ],
+      [
+       873.7,
+       222.1
+      ],
+      [
+       761.2,
+       345.9
+      ],
+      [
+       613.3,
+       502.8
+      ],
+      [
+       537.8,
+       586.4
+      ],
+      [
+       383.9,
+       751.6
+      ]
+     ],
+     "w": 2.0
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       963.8,
+       119.2
+      ],
+      [
+       870.4,
+       219.0
+      ],
+      [
+       757.9,
+       342.8
+      ],
+      [
+       610.0,
+       499.7
+      ],
+      [
+       534.5,
+       583.3
+      ],
+      [
+       380.6,
+       748.5
+      ]
+     ],
+     "w": 2.0
+    }
+   ]
+  },
+  {
+   "id": "title",
+   "kind": "text",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "Fig.8",
+     "x": 429,
+     "y": 84,
+     "size": 56,
+     "anchor": "start",
+     "len": 116,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "axis-m",
+   "kind": "text",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "M",
+     "x": 49,
+     "y": 169,
+     "size": 27,
+     "anchor": "start",
+     "len": 24,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-m-200",
+   "kind": "text",
+   "name": "mass number 200",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "200",
+     "x": 48,
+     "y": 218,
+     "size": 22,
+     "anchor": "start",
+     "len": 31,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-m-100",
+   "kind": "text",
+   "name": "mass number 100",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "100",
+     "x": 49,
+     "y": 285,
+     "size": 21,
+     "anchor": "start",
+     "len": 30,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-m-80",
+   "kind": "text",
+   "name": "mass number 80",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "80",
+     "x": 52,
+     "y": 310,
+     "size": 21,
+     "anchor": "start",
+     "len": 26,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-m-50",
+   "kind": "text",
+   "name": "mass number 50",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "50",
+     "x": 53,
+     "y": 354,
+     "size": 21,
+     "anchor": "start",
+     "len": 25,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-m-30",
+   "kind": "text",
+   "name": "mass number 30",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "30",
+     "x": 56,
+     "y": 404,
+     "size": 22,
+     "anchor": "start",
+     "len": 21,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-m-20",
+   "kind": "text",
+   "name": "mass number 20",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "20",
+     "x": 54,
+     "y": 448,
+     "size": 22,
+     "anchor": "start",
+     "len": 23,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-m-10",
+   "kind": "text",
+   "name": "mass number 10",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "10",
+     "x": 57,
+     "y": 517,
+     "size": 21,
+     "anchor": "start",
+     "len": 22,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-m-5",
+   "kind": "text",
+   "name": "mass number 5",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "5",
+     "x": 61,
+     "y": 585,
+     "size": 25,
+     "anchor": "start",
+     "len": 14,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-m-3",
+   "kind": "text",
+   "name": "mass number 3",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "3",
+     "x": 63,
+     "y": 637,
+     "size": 25,
+     "anchor": "start",
+     "len": 14,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-m-2",
+   "kind": "text",
+   "name": "mass number 2",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "2",
+     "x": 63,
+     "y": 678,
+     "size": 24,
+     "anchor": "start",
+     "len": 14,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-m-1",
+   "kind": "text",
+   "name": "mass number 1",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "1",
+     "x": 63,
+     "y": 755,
+     "size": 19,
+     "anchor": "start",
+     "len": 12,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-f-30",
+   "kind": "text",
+   "name": "30 megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "30",
+     "x": 77,
+     "y": 783,
+     "size": 24,
+     "anchor": "start",
+     "len": 25,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-f-20",
+   "kind": "text",
+   "name": "20 megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "20",
+     "x": 161,
+     "y": 780,
+     "size": 24,
+     "anchor": "start",
+     "len": 26,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-f-10",
+   "kind": "text",
+   "name": "10 megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "10",
+     "x": 305,
+     "y": 776,
+     "size": 19,
+     "anchor": "start",
+     "len": 20,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-f-9",
+   "kind": "text",
+   "name": "9 megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "9",
+     "x": 328,
+     "y": 776,
+     "size": 22,
+     "anchor": "start",
+     "len": 12,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-f-8",
+   "kind": "text",
+   "name": "8 megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "8",
+     "x": 351,
+     "y": 775,
+     "size": 24,
+     "anchor": "start",
+     "len": 14,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-f-7",
+   "kind": "text",
+   "name": "7 megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "7",
+     "x": 382,
+     "y": 774,
+     "size": 24,
+     "anchor": "start",
+     "len": 14,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-f-6",
+   "kind": "text",
+   "name": "6 megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "6",
+     "x": 411,
+     "y": 773,
+     "size": 22,
+     "anchor": "start",
+     "len": 12,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-f-5",
+   "kind": "text",
+   "name": "5 megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "5",
+     "x": 446,
+     "y": 772,
+     "size": 24,
+     "anchor": "start",
+     "len": 16,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-f-4",
+   "kind": "text",
+   "name": "4 megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "4",
+     "x": 490,
+     "y": 770,
+     "size": 21,
+     "anchor": "start",
+     "len": 14,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-f-3",
+   "kind": "text",
+   "name": "3 megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "3",
+     "x": 544,
+     "y": 771,
+     "size": 24,
+     "anchor": "start",
+     "len": 12,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-f-2",
+   "kind": "text",
+   "name": "2 megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "2",
+     "x": 630,
+     "y": 769,
+     "size": 25,
+     "anchor": "start",
+     "len": 13,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-f-1",
+   "kind": "text",
+   "name": "1 megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "1",
+     "x": 766,
+     "y": 763,
+     "size": 22,
+     "anchor": "start",
+     "len": 11,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-f-09",
+   "kind": "text",
+   "name": "0.9 megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "0,9",
+     "x": 783,
+     "y": 763,
+     "size": 22,
+     "anchor": "start",
+     "len": 23,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-f-08",
+   "kind": "text",
+   "name": "0.8 megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "0,8",
+     "x": 811,
+     "y": 762,
+     "size": 22,
+     "anchor": "start",
+     "len": 24,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-f-07",
+   "kind": "text",
+   "name": "0.7 megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "0,7",
+     "x": 839,
+     "y": 762,
+     "size": 22,
+     "anchor": "start",
+     "len": 25,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-f-06",
+   "kind": "text",
+   "name": "0.6 megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "0,6",
+     "x": 866,
+     "y": 759,
+     "size": 22,
+     "anchor": "start",
+     "len": 25,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "tick-f-05",
+   "kind": "text",
+   "name": "0.5 megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "0,5",
+     "x": 898,
+     "y": 757,
+     "size": 22,
+     "anchor": "start",
+     "len": 29,
+     "italic": true
+    }
+   ]
+  },
+  {
+   "id": "caption",
+   "kind": "text",
+   "name": "frequency axis: megacycles per second",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "MEGACYCLES",
+     "x": 288,
+     "y": 810,
+     "size": 36,
+     "bold": true,
+     "len": 223,
+     "rot": -1.3
+    },
+    {
+     "t": "t",
+     "s": "PER",
+     "x": 550,
+     "y": 803,
+     "size": 36,
+     "bold": true,
+     "len": 62,
+     "rot": -1.3
+    },
+    {
+     "t": "t",
+     "s": "SECOND",
+     "x": 650,
+     "y": 801,
+     "size": 36,
+     "bold": true,
+     "len": 132,
+     "rot": -1.3
+    }
+   ]
+  },
+  {
+   "id": "f1-label",
+   "kind": "label",
+   "ref": "F_{1}",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "F_{1}",
+     "x": 199,
+     "y": 398,
+     "size": 46,
+     "italic": true,
+     "len": 40,
+     "sub": {
+      "scale": 0.55,
+      "drop": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "f2-label",
+   "kind": "label",
+   "ref": "F_{2}",
+   "shapes": [
+    {
+     "t": "t",
+     "s": "F_{2}",
+     "x": 680,
+     "y": 487,
+     "size": 42,
+     "italic": true,
+     "len": 42,
+     "sub": {
+      "scale": 0.68,
+      "drop": 5
+     }
+    }
+   ]
+  },
+  {
+   "id": "f2-leader",
+   "kind": "leader",
+   "ref": "F_{2}",
+   "shapes": [
+    {
+     "t": "l",
+     "d": [
+      [
+       650.5,
+       462.0
+      ],
+      [
+       668.0,
+       469.5
+      ],
+      [
+       677.5,
+       473.5
+      ]
+     ],
+     "w": 2.6
+    }
+   ]
+  }
+ ]
+}

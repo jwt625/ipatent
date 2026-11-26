@@ -1,0 +1,1324 @@
+{
+ "pn": "454622",
+ "number": "454,622",
+ "title": "SYSTEM OF ELECTRIC LIGHTING",
+ "inventors": [
+  "Nikola Tesla"
+ ],
+ "assignee": null,
+ "filed": "1891-04-25",
+ "issued": "1891-06-23",
+ "appl_no": "390,414",
+ "int_cl": null,
+ "us_cl": null,
+ "refs_patents": [],
+ "refs_other": [],
+ "examiners": null,
+ "claims_count": 7,
+ "drawing_figures": 3,
+ "abstract": "",
+ "cite_scheme": "printed page:line",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "page": 1,
+     "cite": "p.1:1",
+     "col": null,
+     "line": null,
+     "text": "To all whom it may concern:"
+    },
+    {
+     "page": 1,
+     "cite": "p.1:2",
+     "col": null,
+     "line": null,
+     "text": "Be it known that I, NIKOLA TESLA, a subject of the Emperor of Austria-Hungary, from Smiljan, Lika, border country of Austria-Hungary, and a resident of New York, in the county and State of New York, have invented certain new and useful Improvements in Methods of and Apparatus for Electric Lighting, of which the following is a specification, reference being had to the drawings accompanying and forming a part of the same:"
+    },
+    {
+     "page": 1,
+     "cite": "p.1:12",
+     "col": null,
+     "line": null,
+     "text": "This invention consists in a novel method of and apparatus for producing light by means of electricity."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:15",
+     "col": null,
+     "line": null,
+     "text": "For a better understanding of the invention it may be stated, first, that heretofore I have produced and employed currents of very high frequency for operating translating devices, such as electric lamps, and, second, that currents of high potential have also been produced and employed for obtaining luminous effects, and this, in a broad sense, may be regarded for purposes of this case as the prior state of the art; but I have discovered that results of the most useful character may be secured under entirely practicable conditions by means of electric currents in which both the above-described conditions of high frequency and great difference of potential are present. In other words, I have made the discovery that an electrical current of an excessively small period and very high potential may be utilized economically and practicably to great advantage for the production of light."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:36",
+     "col": null,
+     "line": null,
+     "text": "It is difficult for me to define the exact limits of frequency and potential within which my discovery is comprised, for the results obtained are due to both conjointly; but I would make it clear that as to the inferior limits of both, the lowest frequency and potential that I contemplate using are far above what have heretofore been regarded as practicable. As an instance of what I regard as the lowest practicable limits I would state that I have obtained fairly good results by a frequency as low as fifteen thousand to twenty thousand per second and a potential of about twenty thousand volts. Both frequency and potential may be enormously increased above these figures, the practical limits being determined by the character of the apparatus and its capability of standing the strain. I do not mean by the term “excessively small period” and similar expressions herein to imply that I contemplate any number of pulsations or vibrations per second approximating to the number of light-waves, and this will more fully appear from the description of the nature of invention which is hereinafter contained."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:62",
+     "col": null,
+     "line": null,
+     "text": "The carrying out of this invention and the full realization of the conditions necessary to the attainment of the desired results involve, first, a novel method of and apparatus for producing the currents or electrical effects of the character described; second, a novel method of utilizing and applying the same for the production of light, and, third, a new form of translating device or light-giving appliance. These I shall now describe."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:72",
+     "col": null,
+     "line": null,
+     "text": "To produce a current of very high frequency and very high potential, certain well-known devices may be employed. For instance, as the primary source of current or electrical energy a continuous-current generator may be used, the circuit of which may be interrupted with extreme rapidity by mechanical devices, or a magneto-electric machine specially constructed to yield alternating currents of very small period may be used, and in either case, should the potential be too low, an induction-coil may be employed to raise it; or, finally, in order to overcome the mechanical difficulties, which in such cases become practically insuperable before the best results are reached, the principle of the disruptive discharge may be utilized. By means of this latter plan I produce a much greater rate of change in the current than by the other means suggested, and in illustration of my invention I shall confine the description of the means or apparatus for producing the current to this plan, although I would not be understood as limiting myself to its use. The current of high frequency, therefore, that is necessary to the successful working of my invention I produce by the disruptive discharge of the accumulated energy of a condenser maintained by charging said condenser from a suitable source and discharging it into or through a circuit under proper relations of self-induction, capacity, resistance, and period in well-understood ways. Such a discharge is known to be, under proper conditions, intermittent or oscillating in character, and in this way a current varying in strength at an enormously rapid rate may be produced. Having produced in the above manner a current of excessive frequency, I obtain from it by means of an induction-coil enormously high potentials—that is to say, in the circuit through which or into which the disruptive discharge of the condenser takes place I include the primary of a suitable induction-coil, and by a secondary coil of much longer and finer wire I convert to currents of extremely high potential. The differences in the length of the primary and secondary coils in connection with the enormously rapid rate of change in the primary current yield a secondary of enormous frequency and excessively high potential. Such currents are not, so far as I am aware, available for use in the usual ways; but I have discovered that if I connect to either of the terminals of the secondary coil or source of current of high potential the leading-in wires of such a device, for example, as an ordinary incandescent lamp, the carbon may be brought to and maintained at incandescence, or, in general, that any body capable of conducting the high-tension current described and properly inclosed in a rarefied or exhausted receiver may be rendered luminous or incandescent, either when connected directly with one terminal of the secondary source of energy or placed in the vicinity of such terminals so as to be acted upon inductively."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:36",
+     "col": null,
+     "line": null,
+     "text": "Without attempting a detailed explanation of the causes to which this phenomenon may be ascribed, I deem it sufficient to state that, assuming the now generally accepted theories of scientists to be correct, the effects thus produced are attributable to molecular bombardment, condenser action, and electric or etheric disturbances. Whatever part each or any of these causes may play in producing the effects noted, it is, however, a fact that a strip of carbon or a mass of any other shape, either of carbon or any more or less conducting substance in a rarefied or exhausted receiver and connected directly or inductively to a source of electrical energy such as I have described, may be maintained at incandescence if the frequency and potential of the current be sufficiently high."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:54",
+     "col": null,
+     "line": null,
+     "text": "I would here state that by the terms “currents of high frequency and high potential” and similar expressions which I have used in this description I do not mean, necessarily, currents in the usual acceptance of the term, but, generally speaking, electrical disturbances or effects such as would be produced in the secondary source by the action of the primary disturbance or electrical effect."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:63",
+     "col": null,
+     "line": null,
+     "text": "It is necessary to observe in carrying out this invention that care must be taken to reduce to a minimum the opportunity for the dissipation of the energy from the conductors intermediate to the source of current and the light-giving body. For this purpose the conductors should be free from projections and points and well covered or coated with a good insulator."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:72",
+     "col": null,
+     "line": null,
+     "text": "The body to be rendered incandescent should be selected with a view to its capability of withstanding the action to which it is exposed without being rapidly destroyed, for some conductors will be much more speedily consumed than others,"
+    },
+    {
+     "page": 2,
+     "cite": "p.2:78",
+     "col": null,
+     "line": null,
+     "text": "I now refer to the accompanying drawings, in which—"
+    },
+    {
+     "page": 2,
+     "cite": "p.2:80",
+     "col": null,
+     "line": null,
+     "text": "Figure 1 is a diagram of one of the special arrangements that I have employed in carrying out my discovery, and Figs. 2 and 3 are vertical sectional views of modified forms of light-giving devices that I have devised for use with the system."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:86",
+     "col": null,
+     "line": null,
+     "text": "I would state that as all of the apparatus herein shown, with the exception of certain special forms of lamp invented by me, is or may be of well-known construction and in common use for other purposes, I have indicated such well-known parts therefor by conventional representations."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:93",
+     "col": null,
+     "line": null,
+     "text": "G is the primary source of current or electrical energy. I have explained above how various forms of generator might be used for this purpose; but in the present illustration I assume that G is an alternating-current generator of comparatively low electro-motive force. Under such circumstances I raise the potential of the current by means of an induction-coil having a primary P and a secondary S. Then by the current developed in this secondary I charge a condenser C, and this condenser I discharge through or into a circuit A, having an air-gap a, or, in general, means for maintaining a disruptive discharge. By the means above described a current of enormous frequency is produced. My object is next to convert this into a working-circuit of very high potential, for which purpose I connect up in the circuit A the primary P′ of an induction-coil having a long fine wire secondary S′. The current in the primary P′ develops in the secondary S′ a current or electrical effect of corresponding frequency, but of enormous difference of potential, and the secondary S′ thus becomes the source of the energy to be applied to the purpose of producing light."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:120",
+     "col": null,
+     "line": null,
+     "text": "The light-giving devices may be connected to either terminal of the secondary S′. If desired, one terminal may be connected to a conducting-wall W of a room or space to be lighted and the other arranged for connection of the lamps therewith. In such case the walls should be coated with some metallic or conducting substance in order that they may have sufficient conductivity."
+    },
+    {
+     "page": 2,
+     "cite": "p.2:129",
+     "col": null,
+     "line": null,
+     "text": "The lamps or light-giving devices may be an ordinary incandescent lamp; but I prefer to use specially-designed lamps, examples of which I have shown in detail in the drawings. This lamp consists of a rarefied or exhausted bulb or globe which incloses a refractory conducting body, as carbon, of comparatively small bulk and any desired shape. This body is to be connected to the secondary by one or more conductors sealed in the glass, as in ordinary lamps, or is arranged to be inductively connected thereto. For this last-named purpose the body is in electrical contact with a metallic sheet in the interior of the neck of the globe, and on the outside of said neck is a second sheet which is to be connected with the source of current. These two sheets form the armatures of a condenser, and by them the currents or potentials are developed in the light-giving body. As many lamps of this or other kinds may be connected to the terminal of S′ as the energy supplied is capable of maintaining at incandescence."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:21",
+     "col": null,
+     "line": null,
+     "text": "In Fig. 3, b is a rarefied or exhausted glass globe or receiver, in which is a body of carbon or other suitable conductor e. To this body is connected a metallic conductor f, which passes through and is sealed in the glass wall of the globe, outside of which it is united to a copper or other wire g, by means of which it is to be electrically connected to one pole or terminal of the source of current. Outside of the globe the conducting-wires are protected by a coating of insulation h, of any suitable kind, and inside the globe the supporting-wire is inclosed in and insulated by a tube or coating k of a refractory insulating substance, such as pipe-clay or the like. A reflecting-plate l is shown applied to the outside of the globe b. This form of lamp is a type of those designed for direct electrical connection with one terminal of the source of current; but, as above stated, there need not be a direct connection, for the carbon or other illuminating body may be rendered luminous by inductive action of the current thereon, and this may be brought about in several ways. The preferred form of lamp for this purpose, however, is shown in Fig. 2. In this figure the globe b is formed with a cylindrical neck, within which is a tube or sheet m of conducting material on the side and over the end of a cylinder or plug n of any suitable insulating material. The lower edges of this tube are in electrical contact with a metallic plate o, secured to the cylinder n, all the exposed surfaces of such plate and of the other conductors being carefully coated and protected by insulation. The light-giving body e, in this case a straight-stem of carbon, is electrically connected with the said plate by a wire or conductor similar to the wire f, Fig. 3, which is coated in like manner with a refractory insulating material k. The neck of the globe fits into a socket composed of an insulating tube or cylinder p, with a more or less complete metallic lining s, electrically connected by a metallic head or plate r with a conductor g, that is to be attached to one pole of the source of current. The metallic lining s and the sheet m thus compose the plates or armatures of a condenser."
+    },
+    {
+     "page": 3,
+     "cite": "p.3:70",
+     "col": null,
+     "line": null,
+     "text": "This invention is not limited to the special means described for producing the results hereinabove set forth, for it will be seen that various plans and means of producing currents of very high frequency are known, and also means for producing very high potentials; but I have only described herein certain ways in which I have practically carried out the invention."
+    },
+    {
+     "page": 4,
+     "cite": "p.4:13",
+     "col": null,
+     "line": null,
+     "text": "NIKOLA TESLA."
+    },
+    {
+     "page": 4,
+     "cite": "p.4:14",
+     "col": null,
+     "line": null,
+     "text": "Witnesses: PARKER W. PAGE, M. G. TRACY."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "page": 2,
+   "cite": "p.2:80",
+   "col": null,
+   "line": null,
+   "text": "Figure 1 is a diagram of one of the special arrangements that I have employed in carrying out my discovery, and Figs. 2 and 3 are vertical sectional views of modified forms of light-giving devices that I have devised for use with the system."
+  },
+  {
+   "fig": "2",
+   "page": 2,
+   "cite": "p.2:80",
+   "col": null,
+   "line": null,
+   "text": "Figure 1 is a diagram of one of the special arrangements that I have employed in carrying out my discovery, and Figs. 2 and 3 are vertical sectional views of modified forms of light-giving devices that I have devised for use with the system."
+  },
+  {
+   "fig": "3",
+   "page": 2,
+   "cite": "p.2:80",
+   "col": null,
+   "line": null,
+   "text": "Figure 1 is a diagram of one of the special arrangements that I have employed in carrying out my discovery, and Figs. 2 and 3 are vertical sectional views of modified forms of light-giving devices that I have devised for use with the system."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "page": 3,
+   "cite": "p.3:80",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "1. The improvement in the art of electric lighting herein described, which consists in generating or producing for the operation of the lighting devices currents of enormous frequency and excessively high potential, substantially as herein described."
+  },
+  {
+   "n": 2,
+   "page": 3,
+   "cite": "p.3:86",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "2. The method of producing an electric current for practical application, such as for electric lighting, which consists in generating or producing a current of enormous frequency and inducing by such current in a working circuit, or that to which the lighting devices are connected, a current of corresponding frequency and excessively high potential, as set forth."
+  },
+  {
+   "n": 3,
+   "page": 3,
+   "cite": "p.3:95",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "3. The method of producing an electric current for practical application, such as for electric lighting, which consists in charging a condenser by a given current, maintaining an intermittent or oscillatory discharge of said condenser through or into a primary circuit, and producing thereby in a secondary working-circuit in inductive relation to the primary very high potentials, as set forth."
+  },
+  {
+   "n": 4,
+   "page": 3,
+   "cite": "p.3:104",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "4. The method of producing electric light by incandescence by electrically or inductively connecting a conductor inclosed in a rarefied or exhausted receiver to one of the poles or terminals of a source of electric energy or current of a frequency and potential sufficiently high to render said body incandescent, as set forth."
+  },
+  {
+   "n": 5,
+   "page": 3,
+   "cite": "p.3:112",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "5. A system of electric lighting, consisting in the combination, with a source of electric energy or current of enormous frequency and excessively high potential, of an incandescent lamp or lamps consisting of a conducting body inclosed in a rarefied or exhausted receiver and connected directly or inductively to one pole or terminal of the source of energy, as set forth."
+  },
+  {
+   "n": 6,
+   "page": 3,
+   "cite": "p.3:121",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "6. In a system of electric lighting, the combination, with a source of currents of enormous frequency and excessively high potential, of incandescent lighting devices, each consisting of a conducting body inclosed in a rarefied or exhausted receiver, said conducting body being connected directly or inductively to one pole or terminal of the source of current, and a conducting body or bodies in the vicinity of said lighting devices connected to the other pole or terminal of said source, as set forth."
+  },
+  {
+   "n": 7,
+   "page": 4,
+   "cite": "p.4:1",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "7. In a system of electric lighting, the combination, with a source of currents of enormous frequency of excessively high potential, of lighting devices, each consisting of a conducting body inclosed in a rarefied or exhausted receiver and connected by conductors directly or inductively with one of the terminals of said source, all parts of the conductors intermediate to the said source and the light-giving body being insulated and protected to prevent the dissipation of the electric energy, as herein set forth."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "cite": "header",
+   "ocr": "WN. Y.",
+   "fixed": "N. Y.",
+   "basis": "scan"
+  },
+  {
+   "cite": "header",
+   "ocr": "April 25,1891.",
+   "fixed": "April 25, 1891.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "header",
+   "ocr": "(We model.)",
+   "fixed": "(No model.)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:1",
+   "ocr": "ali whonr",
+   "fixed": "all whom",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:2",
+   "ocr": "Nrkoua ‘Tes,",
+   "fixed": "NIKOLA TESLA,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:3",
+   "ocr": "Austria-Ilungary,",
+   "fixed": "Austria-Hungary,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:5",
+   "ocr": "aresident",
+   "fixed": "a resident",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:11",
+   "ocr": "ae",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:18",
+   "ocr": "de. vices,",
+   "fixed": "devices,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:19",
+   "ocr": "as’",
+   "fixed": "as",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:22",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:28",
+   "ocr": "condifions",
+   "fixed": "conditions",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:33",
+   "ocr": "economically-",
+   "fixed": "economically",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:33",
+   "ocr": "pvrac: ticably",
+   "fixed": "practicably",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:36",
+   "ocr": ". ss",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:36",
+   "ocr": "to-",
+   "fixed": "to",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:38",
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:43",
+   "ocr": "‘heretofore",
+   "fixed": "heretofore",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:44",
+   "ocr": "an.",
+   "fixed": "an",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:45",
+   "ocr": "yracticable",
+   "fixed": "practicable",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:45",
+   "ocr": "J",
+   "fixed": "I",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:45",
+   "ocr": "1 .",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:48",
+   "ocr": "’",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:53",
+   "ocr": "thestrain. Ido",
+   "fixed": "the strain. I do",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:54",
+   "ocr": "small.",
+   "fixed": "small",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:66",
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:71",
+   "ocr": "deseribe. ‘T'o",
+   "fixed": "describe. To",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:72",
+   "ocr": "acurrent",
+   "fixed": "a current",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:72",
+   "ocr": "frequeney",
+   "fixed": "frequency",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:75",
+   "ocr": "souree",
+   "fixed": "source",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:77",
+   "ocr": "cirewit",
+   "fixed": "circuit",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:80",
+   "ocr": "eurrents",
+   "fixed": "currents",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:83",
+   "ocr": "employed-to",
+   "fixed": "employed to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:84",
+   "ocr": "ordér",
+   "fixed": "order",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:84",
+   "ocr": "mechanieal:",
+   "fixed": "mechanical",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:92",
+   "ocr": "[shall",
+   "fixed": "I shall",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:93",
+   "ocr": "‘apparatus",
+   "fixed": "apparatus",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:97",
+   "ocr": "successfal",
+   "fixed": "successful",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:102",
+   "ocr": "cirenit",
+   "fixed": "circuit",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:104",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:104",
+   "ocr": "well-nderstood",
+   "fixed": "well-understood",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:1",
+   "ocr": "inter. Inittent",
+   "fixed": "intermittent",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:3",
+   "ocr": "8",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:3",
+   "ocr": "atan",
+   "fixed": "at an",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:4",
+   "ocr": "produeed,",
+   "fixed": "produced.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:6",
+   "ocr": "by,",
+   "fixed": "by",
+   "basis": "scan (speck beside the word, not a comma; Google Patents also reads a comma)"
+  },
+  {
+   "cite": "p.2:8",
+   "ocr": "cirevit",
+   "fixed": "circuit",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:9",
+   "ocr": "into.which",
+   "fixed": "into which",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:10",
+   "ocr": "tho",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:18",
+   "ocr": "potential,",
+   "fixed": "potential.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:19",
+   "ocr": "lam",
+   "fixed": "I am",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:24",
+   "ocr": "an-ordinary",
+   "fixed": "an ordinary",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:26",
+   "ocr": "incandescences,",
+   "fixed": "incandescence,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:28",
+   "ocr": "con. Gucting",
+   "fixed": "conducting",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:35",
+   "ocr": ":",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:41",
+   "ocr": "bom bardment,",
+   "fixed": "bombardment,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:46",
+   "ocr": "Strip",
+   "fixed": "strip",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:49",
+   "ocr": "re. ceiver",
+   "fixed": "receiver",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:50",
+   "ocr": "souree",
+   "fixed": "source",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:50",
+   "ocr": "T",
+   "fixed": "I",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:51",
+   "ocr": "incandescenceif",
+   "fixed": "incandescence if",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:53",
+   "ocr": "- ;",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:54",
+   "ocr": "“ eurrents",
+   "fixed": "“currents",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:57",
+   "ocr": "not.",
+   "fixed": "not",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:58",
+   "ocr": "acceptancé",
+   "fixed": "acceptance",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:61",
+   "ocr": "‘secondary",
+   "fixed": "secondary",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:63",
+   "ocr": "-",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:63",
+   "ocr": "‘in",
+   "fixed": "in",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:64",
+   "ocr": "-this",
+   "fixed": "this",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:64",
+   "ocr": "taken.",
+   "fixed": "taken",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:65",
+   "ocr": "re‘duce",
+   "fixed": "reduce",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:65",
+   "ocr": "aminimum",
+   "fixed": "a minimum",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:66",
+   "ocr": "the.",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:68",
+   "ocr": "or",
+   "fixed": "For",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:70",
+   "ocr": "witha",
+   "fixed": "with a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:73",
+   "ocr": "eapability",
+   "fixed": "capability",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:74",
+   "ocr": "whieh",
+   "fixed": "which",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:78",
+   "ocr": "dzawings, im",
+   "fixed": "drawings, in",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:81",
+   "ocr": "earrying",
+   "fixed": "carrying",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:84",
+   "ocr": "Ihave",
+   "fixed": "I have",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:86",
+   "ocr": "T",
+   "fixed": "I",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:86",
+   "ocr": "apparatas",
+   "fixed": "apparatus",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:92",
+   "ocr": "representations,",
+   "fixed": "representations.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:94",
+   "ocr": "ar elec. irieal",
+   "fixed": "or electrical",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:99",
+   "ocr": "foree.",
+   "fixed": "force.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:102",
+   "ocr": "seeondary 8.",
+   "fixed": "secondary S.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:103",
+   "ocr": "O,",
+   "fixed": "C,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:105",
+   "ocr": "cireuit",
+   "fixed": "circuit",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:109",
+   "ocr": "working-cireuit",
+   "fixed": "working-circuit",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:111",
+   "ocr": "P’",
+   "fixed": "P′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:112",
+   "ocr": "induction-cqil",
+   "fixed": "induction-coil",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:113",
+   "ocr": "8’,",
+   "fixed": "S′.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:113",
+   "ocr": "current.",
+   "fixed": "current",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:114",
+   "ocr": "Pr",
+   "fixed": "P′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:114",
+   "ocr": "8’ &currentorelectrical",
+   "fixed": "S′ a current or electrical",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:116",
+   "ocr": "petential,",
+   "fixed": "potential,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:117",
+   "ocr": "|",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:117",
+   "ocr": "8’",
+   "fixed": "S′",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:120",
+   "ocr": "— a",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:121",
+   "ocr": "connecteil.",
+   "fixed": "connected",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:121",
+   "ocr": "8’.",
+   "fixed": "S′.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:123",
+   "ocr": "condueting-wall",
+   "fixed": "conducting-wall",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:124",
+   "ocr": "spase",
+   "fixed": "space",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:125",
+   "ocr": "con nection",
+   "fixed": "connection",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:126",
+   "ocr": "-walls-should",
+   "fixed": "walls should",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:129",
+   "ocr": "_,",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:130",
+   "ocr": "ineandescent",
+   "fixed": "incandescent",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:131",
+   "ocr": "to.",
+   "fixed": "to",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:131",
+   "ocr": "‘lamps,",
+   "fixed": "lamps,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.2:132",
+   "ocr": "T",
+   "fixed": "I",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.2:132",
+   "ocr": "in-detail",
+   "fixed": "in detail",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:1",
+   "ocr": "‘his",
+   "fixed": "This",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:1",
+   "ocr": "‘or",
+   "fixed": "or",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:2",
+   "ocr": "ineloses",
+   "fixed": "incloses",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:9",
+   "ocr": "pody",
+   "fixed": "body",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:11",
+   "ocr": "and’",
+   "fixed": "and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:18",
+   "ocr": "8’ asthe",
+   "fixed": "S′ as the",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:25",
+   "ocr": "a_",
+   "fixed": "a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:31",
+   "ocr": "ofany",
+   "fixed": "of any",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:34",
+   "ocr": "&",
+   "fixed": "k",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:36",
+   "ocr": "veflecting-plate /",
+   "fixed": "reflecting-plate l",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:37",
+   "ocr": "0.",
+   "fixed": "b.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:43",
+   "ocr": "thecurrent",
+   "fixed": "the current",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:44",
+   "ocr": "seyeral",
+   "fixed": "several",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:47",
+   "ocr": "eylindrieal",
+   "fixed": "cylindrical",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:50",
+   "ocr": "”",
+   "fixed": "n",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:51",
+   "ocr": "suitableinsulating",
+   "fixed": "suitable insulating",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:53",
+   "ocr": "eylinder x,",
+   "fixed": "cylinder n,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:54",
+   "ocr": "'",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:54",
+   "ocr": "0,",
+   "fixed": "o,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:56",
+   "ocr": "by.",
+   "fixed": "by",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:57",
+   "ocr": "straightstem",
+   "fixed": "straight-stem",
+   "basis": "scan (worn hyphen visible as a dot) + Google Patents"
+  },
+  {
+   "cite": "p.3:59",
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:59",
+   "ocr": "a-wire",
+   "fixed": "a wire",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:60",
+   "ocr": "_.",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:60",
+   "ocr": "is.coated",
+   "fixed": "is coated",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:60",
+   "ocr": "witha",
+   "fixed": "with a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:61",
+   "ocr": "hk.",
+   "fixed": "k.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:62",
+   "ocr": "‘of",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:63",
+   "ocr": "7),",
+   "fixed": "p,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:64",
+   "ocr": "complete’",
+   "fixed": "complete",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:65",
+   "ocr": "+",
+   "fixed": "r",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:66",
+   "ocr": "2 conduetor",
+   "fixed": "a conductor",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:66",
+   "ocr": "ono",
+   "fixed": "one",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:67",
+   "ocr": "‘The",
+   "fixed": "The",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:68",
+   "ocr": "shect",
+   "fixed": "sheet",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:71",
+   "ocr": "\"",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:72",
+   "ocr": "that.",
+   "fixed": "that",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:73",
+   "ocr": "eurrents",
+   "fixed": "currents",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:76",
+   "ocr": "deseribed -herein",
+   "fixed": "described herein",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:86",
+   "ocr": "2,",
+   "fixed": "2.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:89",
+   "ocr": "encrmous",
+   "fixed": "enormous",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:95",
+   "ocr": ". 1 .",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:95",
+   "ocr": "cur|. rent",
+   "fixed": "current",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:96",
+   "ocr": "electriclighting,",
+   "fixed": "electric lighting,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:101",
+   "ocr": "working-cireuit",
+   "fixed": "working-circuit",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:103",
+   "ocr": ") 4,",
+   "fixed": "4.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:105",
+   "ocr": "ineandescence",
+   "fixed": "incandescence",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:112",
+   "ocr": "| .",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:113",
+   "ocr": "of.",
+   "fixed": "of",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.3:116",
+   "ocr": "aconducting",
+   "fixed": "a conducting",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:122",
+   "ocr": "sourceof",
+   "fixed": "source of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.3:125",
+   "ocr": "ina",
+   "fixed": "in a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:1",
+   "ocr": "7, in &",
+   "fixed": "7. In a",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:2",
+   "ocr": "asource",
+   "fixed": "a source",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.4:4",
+   "ocr": "cach",
+   "fixed": "each",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.4:4",
+   "ocr": "condusting",
+   "fixed": "conducting",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.4:6",
+   "ocr": "recoiver",
+   "fixed": "receiver",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.4:6",
+   "ocr": "conduct-' ors direcily",
+   "fixed": "conductors directly",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:8",
+   "ocr": "yorminals",
+   "fixed": "terminals",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.4:8",
+   "ocr": "soutee,",
+   "fixed": "source,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.4:9",
+   "ocr": "souree",
+   "fixed": "source",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.4:10",
+   "ocr": "body-being",
+   "fixed": "body being",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:13",
+   "ocr": "TESLA... -",
+   "fixed": "TESLA.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.4:15",
+   "ocr": "PaGs, Mi.",
+   "fixed": "PAGE, M.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.4:16",
+   "ocr": "TRacy.",
+   "fixed": "TRACY.",
+   "basis": "scan + Google Patents"
+  }
+ ]
+}

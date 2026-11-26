@@ -1,0 +1,330 @@
+{
+ "pn": "1203495",
+ "figures": [
+  {
+   "id": "1",
+   "label": "Fig. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    222,
+    707,
+    1888,
+    1432
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "Fig. 2",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    392,
+    1430,
+    981,
+    1862
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "Fig. 3",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    402,
+    1864,
+    988,
+    2292
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "Fig. 4",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    396,
+    2292,
+    980,
+    2716
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "Fig. 5",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1043,
+    1430,
+    1656,
+    1860
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "Fig. 6",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1102,
+    1860,
+    1658,
+    2290
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "Fig. 7",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1103,
+    2290,
+    1656,
+    2725
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8",
+   "label": "Fig. 8",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    680,
+    2630,
+    1162,
+    3012
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "1",
+   "name": "tube or envelop",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "2",
+   "name": "tubular end",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "3",
+   "name": "anode",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "target"
+   ]
+  },
+  {
+   "ref": "4",
+   "name": "stem",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "5",
+   "name": "cathode",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "filament"
+   ]
+  },
+  {
+   "ref": "6",
+   "name": "leading-in wires",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "7",
+   "name": "leading-in wires",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "8",
+   "name": "glass support",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "8'",
+   "name": "little glass tubes",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "9",
+   "name": "battery",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "10",
+   "name": "regulatable resistance",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "resistance"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "hollow cylinder",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "cylinder"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "springs",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "little knob",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "wire",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "switch",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "perforated flat disk",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "17",
+   "name": "perforated dished or concave disk",
+   "figs": [
+    "3"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "simple ring",
+   "figs": [
+    "4"
+   ]
+  },
+  {
+   "ref": "19",
+   "name": "metallic deposit",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "solenoid",
+   "figs": [
+    "6"
+   ]
+  },
+  {
+   "ref": "21",
+   "name": "cathode",
+   "figs": [
+    "7"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "suitable source",
+   "figs": [
+    "1"
+   ],
+   "alt": [
+    "source"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "conductors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "conductors",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "25",
+   "name": "filament",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "26",
+   "name": "tube",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "27",
+   "name": "support",
+   "figs": [
+    "8"
+   ]
+  }
+ ]
+}

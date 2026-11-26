@@ -1,0 +1,85 @@
+{
+  "patent": "Filed 1913-05-09 and issued 1916-10-31 to William D. Coolidge of the General Electric research laboratory in Schenectady, assigned to General Electric. This is the Coolidge X-ray tube: a heated tungsten filament supplies the electrons and the tube is exhausted so far that residual gas plays no part, in place of the earlier gas (cold-cathode) tubes in which positive-ion bombardment of the cathode released the electrons. Tube current is then set by the filament temperature and penetration by the applied voltage, independently and reproducibly, and the tube passes current only with the heated electrode negative, so it can run directly on alternating current. Coolidge described the tube in \"A powerful Röntgen ray tube with a pure electron discharge\", Physical Review 2, 409 (1913). The tungsten electrodes depended on his ductile (wrought) tungsten. The closing paragraph credits certain broad aspects of the apparatus and methods to Irving Langmuir, of the same laboratory, citing two of his pending applications. The heated-cathode, high-vacuum design became the basis of later medical and industrial X-ray tubes. Fig. 1 shows the complete tube and circuit; Figs. 2-7 vary the focusing device at the cathode end; Fig. 8 is the long-filament version meant to hold a nearly constant voltage drop.",
+  "figs": {
+    "1": "Longitudinal section. Bulb 1 with the anode arm 2 on the left and the cathode arm on the right. The inclined plate anode 3 on stem 4 faces cathode 5; the stem runs back into arm 2 and out through its end to conductor 24. The cathode spiral sits just inside the open front end of cylinder 11, which springs 12 hold against the arm wall; the cathode leads pass back through the glass support 8 and its small tubes 8'. Wire 14 leaves the cylinder through the wall to switch 15, which can tie it to the cathode lead. Upper right: filament circuit, battery 9 with resistance 10 and its sliding tap, feeding leads 6 and 7. Bottom: the high-voltage source 22, joined by 23 to the cathode side and by 24 to the anode end.",
+    "2": "Cathode end only; the wavy lines on the left are the break into the bulb, the ragged line on the right the break in the arm. Perforated flat disk 16 stands across the neck just in front of the cathode spiral. Heavy strips from the disk rim run back along the wall as springs, as in Fig. 1, and a thin lead leaves through the wall at the lower right.",
+    "3": "Same view as Fig. 2 with the flat disk replaced by dished disk 17, its concave face toward the cathode.",
+    "4": "Same view with simple ring 18; the two small hatched circles are the ring's wire cut in section, joined by its edge-on outline. Heavy spring strips again hold it against the wall.",
+    "5": "Same view with no electrode in front of the cathode: lead line 19 points to the inner glass surface where the bulb narrows into the neck, the site of the silver film. The thin vertical lines across the bulb and across the neck appear to bound the coated zone; the text gives no extent and does not say how the film is connected.",
+    "6": "Magnetic focusing: solenoid 20, drawn as three turns around the outside of the neck at the cathode, with their ends running off above and below. The glass is drawn in plain outline here, not sectioned.",
+    "7": "Magnetic focusing by the cathode itself: filament 21 is a straight helix along the tube axis, so its heating current produces an axial field. Compare the non-inductively wound spiral 5 of Fig. 1.",
+    "8": "Constant-voltage version. Filament 25 is a long, narrow loop running from the cathode stem forward along the axis, its tip held by support 27. The hatched lining inside the glass of the neck, held by springs at its right end, is the part the 26 leader points to. At low voltage only the tip of the filament nearest the anode supplies electrons; at higher voltage more of its length does."
+  },
+  "parts": {
+    "11": "The static focusing device: it charges negative, or is tied to the cathode by wire 14 and switch 15, and shapes the field so the electrons converge on a small focal spot on anode 3.",
+    "19": "The text describes it as a metallic deposit, such as a film of chemically deposited silver, on the walls of the globe.",
+    "26": "The text names it only as tube 26, the length the filament runs nearly through. In the drawing its leader ends on the hatched lining inside the neck glass, which corresponds to a focusing cylinder like 11 of Fig. 1.",
+    "27": "In the drawing a straight rod running inside the filament loop to its tip."
+  },
+  "glossary": [
+    {
+      "term": "Röntgen rays",
+      "def": "X-rays, after Wilhelm Conrad Röntgen, who reported them in 1895."
+    },
+    {
+      "term": "anti-cathode / target",
+      "def": "The electrode the electron beam strikes; the X-rays come from the small spot it hits. Here the anode serves as the target."
+    },
+    {
+      "term": "cathode rays",
+      "def": "The stream of electrons leaving the cathode."
+    },
+    {
+      "term": "secondary cathode rays",
+      "def": "Electrons scattered or knocked out of the target, which in gas tubes struck the glass, heated it and made it emit unwanted X-rays and fluorescence."
+    },
+    {
+      "term": "gas tube",
+      "def": "The earlier X-ray tube with a little residual gas: ions accelerated by the applied voltage struck the cold cathode and released the electrons, so tube behavior depended on a gas pressure that drifted during use."
+    },
+    {
+      "term": "focal spot",
+      "def": "The area on the target where the electrons land; the X-ray source size, which sets the sharpness of the image."
+    },
+    {
+      "term": "hardness / softness",
+      "def": "Period terms for X-ray penetrating power: hard rays (higher tube voltage) penetrate more."
+    },
+    {
+      "term": "saturation current",
+      "def": "The current at which every electron the hot filament emits is carried to the anode; raising the voltage further no longer raises the current. It is set by filament temperature."
+    },
+    {
+      "term": "micron (of mercury)",
+      "def": "Pressure unit, 0.001 mm of mercury, about 0.13 Pa. The patent's 0.05 micron is about 7 mPa."
+    },
+    {
+      "term": "wound non-inductively / inductively",
+      "def": "A filament wound so the magnetic fields of its turns cancel, or as a plain helix whose current produces a net axial field."
+    },
+    {
+      "term": "static / magnetic focusing",
+      "def": "Steering the electrons to the focal spot either with the electric field of a shaped conductor near the cathode or with a magnetic field from a coil."
+    },
+    {
+      "term": "Gaede molecular pump",
+      "def": "A rotary high-vacuum pump devised by Wolfgang Gaede that drags gas molecules along a fast-moving surface; the patent picks it because it removes vapors as well as gases."
+    },
+    {
+      "term": "constriction",
+      "def": "The narrowed neck in the glass exhaust tube where the tube is melted shut (sealed off) from the pump."
+    },
+    {
+      "term": "induction coil / mechanical selector",
+      "def": "Period high-voltage sources: an interrupted-current step-up coil, and a motor-driven rotating switch that rectifies transformer output; both give pulses of varying voltage."
+    },
+    {
+      "term": "envelop",
+      "def": "The patent's spelling of envelope: the glass vessel of the tube."
+    },
+    {
+      "term": "leading-in wires",
+      "def": "Wires sealed through the glass to carry current into the tube."
+    }
+  ]
+}
