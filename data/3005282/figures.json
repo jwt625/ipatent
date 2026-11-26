@@ -1,0 +1,405 @@
+{
+ "pn": "3005282",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    390,
+    631,
+    1109,
+    1216
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1166,
+    619,
+    1939,
+    1112
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1222,
+    1095,
+    1912,
+    1559
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    317,
+    1185,
+    1235,
+    2125
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    960,
+    1555,
+    1907,
+    2178
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    353,
+    2000,
+    1462,
+    2855
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "FIG. 7",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    340,
+    648,
+    1008,
+    1236
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8",
+   "label": "FIG. 8",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    1067,
+    645,
+    1834,
+    1205
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9",
+   "label": "FIG. 9",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    299,
+    1215,
+    1029,
+    1709
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10",
+   "label": "FIG. 10",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    1065,
+    1196,
+    1840,
+    1705
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11",
+   "label": "FIG. 11",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    293,
+    1686,
+    1055,
+    2219
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12",
+   "label": "FIG. 12",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    1129,
+    1692,
+    1742,
+    2240
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "1",
+   "name": "base plate",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "2",
+   "name": "coupled blocks",
+   "figs": [
+    "2",
+    "4",
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "ref": "2a",
+   "name": "coupled blocks",
+   "figs": [
+    "4",
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "ref": "3",
+   "name": "",
+   "figs": [
+    "8"
+   ]
+  },
+  {
+   "ref": "4",
+   "name": "",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "5",
+   "name": "",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "6",
+   "name": "",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "7",
+   "name": "",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "10",
+   "name": "base plate",
+   "figs": [
+    "1",
+    "3",
+    "5",
+    "7",
+    "12"
+   ]
+  },
+  {
+   "ref": "10a",
+   "name": "",
+   "figs": [
+    "5",
+    "7"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "side walls",
+   "figs": [
+    "2",
+    "3",
+    "4",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ]
+  },
+  {
+   "ref": "11a",
+   "name": "",
+   "figs": [
+    "4",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "end walls",
+   "figs": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ]
+  },
+  {
+   "ref": "12a",
+   "name": "",
+   "figs": [
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "cavity",
+   "figs": [
+    "2",
+    "3"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "longitudinal slits",
+   "figs": [
+    "8",
+    "10",
+    "11"
+   ]
+  },
+  {
+   "ref": "21",
+   "name": "primary projections",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ]
+  },
+  {
+   "ref": "21a",
+   "name": "",
+   "figs": [
+    "4",
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "secondary projections",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "12"
+   ]
+  },
+  {
+   "ref": "22a",
+   "name": "",
+   "figs": [
+    "4",
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "cross-shaped secondary projections",
+   "figs": [
+    "9"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "corresponding secondary projections",
+   "figs": [
+    "10"
+   ]
+  },
+  {
+   "ref": "25",
+   "name": "secondary projections",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "27",
+   "name": "opening",
+   "figs": [
+    "12"
+   ]
+  }
+ ]
+}

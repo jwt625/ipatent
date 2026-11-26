@@ -1,0 +1,1632 @@
+{
+ "pn": "2612994",
+ "figures": [
+  {
+   "id": "1",
+   "label": "FIG. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    745,
+    745,
+    1368,
+    1225
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "FIG. 2",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    225,
+    1345,
+    570,
+    1700
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "FIG. 3",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    627,
+    1345,
+    945,
+    1695
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "FIG. 4",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1015,
+    1340,
+    1330,
+    1695
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "FIG. 5",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1420,
+    1340,
+    1730,
+    1695
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "FIG. 6",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    230,
+    1735,
+    550,
+    2115
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "FIG. 7",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    635,
+    1735,
+    945,
+    2115
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8",
+   "label": "FIG. 8",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1025,
+    1730,
+    1340,
+    2115
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9",
+   "label": "FIG. 9",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1420,
+    1730,
+    1735,
+    2115
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10",
+   "label": "FIG. 10",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    160,
+    2130,
+    1223,
+    3060
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11",
+   "label": "Fig. 11",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    268,
+    913,
+    1890,
+    1855
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "12",
+   "label": "Fig. 12",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    275,
+    2240,
+    1302,
+    3060
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "13",
+   "label": "Fig. 13",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    543,
+    1862,
+    1885,
+    2478
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "14",
+   "label": "Fig. 14",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    210,
+    650,
+    1040,
+    1095
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "15",
+   "label": "Fig. 15",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    210,
+    670,
+    1905,
+    2566
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "16",
+   "label": "Fig. 16",
+   "sheet": 3,
+   "page": 2,
+   "crop": [
+    215,
+    2530,
+    1305,
+    3080
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "1",
+   "name": "white line",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "alt": [
+    "datum line"
+   ]
+  },
+  {
+   "ref": "2",
+   "name": "white line",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "alt": [
+    "information line"
+   ]
+  },
+  {
+   "ref": "3",
+   "name": "white line",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "6",
+    "7"
+   ],
+   "alt": [
+    "information line"
+   ]
+  },
+  {
+   "ref": "4",
+   "name": "white line",
+   "figs": [
+    "1",
+    "2",
+    "4",
+    "6",
+    "8"
+   ],
+   "alt": [
+    "information line"
+   ]
+  },
+  {
+   "ref": "5",
+   "name": "dark background",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "6",
+   "name": "line",
+   "figs": [
+    "10"
+   ],
+   "alt": [
+    "signal ring",
+    "starting ring"
+   ]
+  },
+  {
+   "ref": "7",
+   "name": "line",
+   "figs": [
+    "10"
+   ],
+   "alt": [
+    "information line"
+   ]
+  },
+  {
+   "ref": "8",
+   "name": "line",
+   "figs": [
+    "10"
+   ],
+   "alt": [
+    "information line"
+   ]
+  },
+  {
+   "ref": "9",
+   "name": "line",
+   "figs": [
+    "10"
+   ],
+   "alt": [
+    "information line"
+   ]
+  },
+  {
+   "ref": "10",
+   "name": "series of concentric circles",
+   "figs": [
+    "10"
+   ],
+   "alt": [
+    "central portion",
+    "recognizable lines",
+    "signal rings"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "cans and other packages",
+   "figs": [
+    "11"
+   ],
+   "alt": [
+    "package"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "sticker or stamped mark",
+   "figs": [
+    "10",
+    "11"
+   ],
+   "alt": [
+    "target",
+    "pattern"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "transparent conveyor",
+   "figs": [
+    "11"
+   ],
+   "alt": [
+    "conveyor"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "illuminating source",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "optical and scanning element",
+   "figs": [
+    "11"
+   ],
+   "alt": [
+    "scanning element",
+    "electric eye element"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "displacement device",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "17",
+   "name": "delivery chute",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "barricade",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "19",
+   "name": "return conveyor",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "lens or plurality of lenses",
+   "figs": [
+    "12"
+   ],
+   "alt": [
+    "lens"
+   ]
+  },
+  {
+   "ref": "21",
+   "name": "ground glass screen",
+   "figs": [
+    "12"
+   ],
+   "alt": [
+    "screen"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "synchronous motor",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "coupling",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "shaft",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "25",
+   "name": "right hand thread",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "26",
+   "name": "left hand thread",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "27",
+   "name": "carriage",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "28",
+   "name": "fixed bar",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "29",
+   "name": "pin",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "30",
+   "name": "light-tight box",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "31",
+   "name": "cover",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "aperture",
+   "figs": [
+    "12"
+   ]
+  },
+  {
+   "ref": "33",
+   "name": "photo-cell",
+   "figs": [
+    "12",
+    "14",
+    "15"
+   ],
+   "alt": [
+    "photo-emissive type tube",
+    "photo-tube",
+    "phototube",
+    "photocell"
+   ]
+  },
+  {
+   "ref": "34",
+   "name": "terminal",
+   "figs": [
+    "12",
+    "15"
+   ]
+  },
+  {
+   "ref": "35",
+   "name": "terminal",
+   "figs": [
+    "12",
+    "15"
+   ]
+  },
+  {
+   "ref": "36",
+   "name": "wide range amplifier",
+   "figs": [
+    "14",
+    "15"
+   ],
+   "alt": [
+    "wide band amplifier",
+    "amplifier"
+   ]
+  },
+  {
+   "ref": "37",
+   "name": "alerter",
+   "figs": [
+    "14",
+    "15"
+   ],
+   "alt": [
+    "counting circuit",
+    "alerter stage"
+   ]
+  },
+  {
+   "ref": "38",
+   "name": "limiter",
+   "figs": [
+    "14",
+    "15"
+   ]
+  },
+  {
+   "ref": "39",
+   "name": "starting stage",
+   "figs": [
+    "14",
+    "15"
+   ]
+  },
+  {
+   "ref": "40",
+   "name": "information stage",
+   "figs": [
+    "14",
+    "15"
+   ]
+  },
+  {
+   "ref": "41",
+   "name": "information stage",
+   "figs": [
+    "14",
+    "15"
+   ]
+  },
+  {
+   "ref": "42",
+   "name": "information stage",
+   "figs": [
+    "14",
+    "15"
+   ]
+  },
+  {
+   "ref": "43",
+   "name": "standard full-wave rectifier circuit",
+   "figs": [
+    "15"
+   ],
+   "alt": [
+    "power supply"
+   ]
+  },
+  {
+   "ref": "44",
+   "name": "two-stage pentode amplifier",
+   "figs": [
+    "15"
+   ],
+   "alt": [
+    "amplifier tube"
+   ]
+  },
+  {
+   "ref": "45",
+   "name": "two-stage pentode amplifier",
+   "figs": [
+    "15"
+   ],
+   "alt": [
+    "amplifier tube"
+   ]
+  },
+  {
+   "ref": "46",
+   "name": "thyratron",
+   "figs": [
+    "15"
+   ],
+   "alt": [
+    "tube"
+   ]
+  },
+  {
+   "ref": "47",
+   "name": "thyratron",
+   "figs": [
+    "15"
+   ],
+   "alt": [
+    "tube"
+   ]
+  },
+  {
+   "ref": "48",
+   "name": "thyratron",
+   "figs": [
+    "15"
+   ],
+   "alt": [
+    "tube"
+   ]
+  },
+  {
+   "ref": "49",
+   "name": "thyratron",
+   "figs": [
+    "15"
+   ],
+   "alt": [
+    "tube"
+   ]
+  },
+  {
+   "ref": "50",
+   "name": "starting tube",
+   "figs": [
+    "15"
+   ],
+   "alt": [
+    "shield-grid thyratron",
+    "starting stage shield grid thyratron"
+   ]
+  },
+  {
+   "ref": "51",
+   "name": "limiter tube",
+   "figs": [
+    "15"
+   ],
+   "alt": [
+    "grid triode tube"
+   ]
+  },
+  {
+   "ref": "52",
+   "name": "shield grid thyratron",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "53",
+   "name": "shield grid thyratron",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "54",
+   "name": "shield grid thyratron",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "55",
+   "name": "thyratron",
+   "figs": [
+    "15"
+   ],
+   "alt": [
+    "timing thyratron",
+    "alerting thyratron"
+   ]
+  },
+  {
+   "ref": "56",
+   "name": "thyratron",
+   "figs": [
+    "15"
+   ],
+   "alt": [
+    "timing thyratron",
+    "alerting thyratron"
+   ]
+  },
+  {
+   "ref": "57",
+   "name": "thyratron",
+   "figs": [
+    "15"
+   ],
+   "alt": [
+    "timing thyratron",
+    "alerting thyratron"
+   ]
+  },
+  {
+   "ref": "58",
+   "name": "thyratron",
+   "figs": [
+    "15"
+   ],
+   "alt": [
+    "timing thyratron",
+    "stopping thyratron"
+   ]
+  },
+  {
+   "ref": "59",
+   "name": "thyratron",
+   "figs": [
+    "15"
+   ],
+   "alt": [
+    "timing thyratron",
+    "stopping thyratron"
+   ]
+  },
+  {
+   "ref": "60",
+   "name": "thyratron",
+   "figs": [
+    "15"
+   ],
+   "alt": [
+    "timing thyratron",
+    "stopping thyratron"
+   ]
+  },
+  {
+   "ref": "61",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "62",
+   "name": "coupling condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "63",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "64",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "65",
+   "name": "condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "66",
+   "name": "series resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "67",
+   "name": "condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "68",
+   "name": "series resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "69",
+   "name": "associated circuit element",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "70",
+   "name": "associated circuit element",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "71",
+   "name": "associated circuit element",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "72",
+   "name": "associated circuit element",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "73",
+   "name": "associated circuit element",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "74",
+   "name": "associated circuit element",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "75",
+   "name": "associated circuit element",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "76",
+   "name": "condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "77",
+   "name": "condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "78",
+   "name": "condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "79",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "80",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "81",
+   "name": "bias cell",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "82",
+   "name": "relay",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "83",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "84",
+   "name": "armature",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "85",
+   "name": "condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "86",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "87",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "88",
+   "name": "condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "89",
+   "name": "condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "90",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "91",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "92",
+   "name": "bias cell",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "93",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "94",
+   "name": "condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "95",
+   "name": "relay",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "96",
+   "name": "armature",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "97",
+   "name": "relay",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "98",
+   "name": "normally closed contact",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "99",
+   "name": "armature",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "100",
+   "name": "armature",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "101",
+   "name": "normally open contact point",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "102",
+   "name": "terminal",
+   "figs": [
+    "13",
+    "15"
+   ],
+   "alt": [
+    "condenser"
+   ]
+  },
+  {
+   "ref": "103",
+   "name": "terminal",
+   "figs": [
+    "13",
+    "15"
+   ]
+  },
+  {
+   "ref": "104",
+   "name": "",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "105",
+   "name": "grid leak resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "106",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "107",
+   "name": "condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "108",
+   "name": "series resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "109",
+   "name": "condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "110",
+   "name": "relay",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "111",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "112",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "113",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "114",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "115",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "116",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "117",
+   "name": "relay",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "118",
+   "name": "relay",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "119",
+   "name": "relay",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "120",
+   "name": "condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "121",
+   "name": "condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "122",
+   "name": "condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "123",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "124",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "125",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "126",
+   "name": "terminal",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "127",
+   "name": "terminal",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "128",
+   "name": "terminal",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "129",
+   "name": "relay",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "130",
+   "name": "relay",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "131",
+   "name": "relay",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "132",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "133",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "134",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "135",
+   "name": "condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "136",
+   "name": "condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "137",
+   "name": "condenser",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "138",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "139",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "140",
+   "name": "resistor",
+   "figs": [
+    "15"
+   ]
+  },
+  {
+   "ref": "141",
+   "name": "pulse",
+   "figs": [
+    "16"
+   ]
+  },
+  {
+   "ref": "142",
+   "name": "pulse",
+   "figs": [
+    "16"
+   ]
+  },
+  {
+   "ref": "143",
+   "name": "pulse",
+   "figs": [
+    "16"
+   ]
+  },
+  {
+   "ref": "144",
+   "name": "pulse",
+   "figs": [
+    "16"
+   ]
+  },
+  {
+   "ref": "145",
+   "name": "pulse",
+   "figs": [
+    "16"
+   ]
+  },
+  {
+   "ref": "146",
+   "name": "pulse",
+   "figs": [
+    "16"
+   ]
+  },
+  {
+   "ref": "147",
+   "name": "pulse",
+   "figs": [
+    "16"
+   ]
+  },
+  {
+   "ref": "148",
+   "name": "pulse",
+   "figs": [
+    "16"
+   ]
+  },
+  {
+   "ref": "149",
+   "name": "pulse",
+   "figs": [
+    "16"
+   ]
+  },
+  {
+   "ref": "150",
+   "name": "pulse",
+   "figs": [
+    "16"
+   ]
+  },
+  {
+   "ref": "151",
+   "name": "pulse",
+   "figs": [
+    "16"
+   ]
+  },
+  {
+   "ref": "152",
+   "name": "pulse",
+   "figs": [
+    "16"
+   ]
+  },
+  {
+   "ref": "153",
+   "name": "pulse",
+   "figs": [
+    "16"
+   ]
+  },
+  {
+   "ref": "154",
+   "name": "pulse",
+   "figs": [
+    "16"
+   ]
+  },
+  {
+   "ref": "155",
+   "name": "pulse",
+   "figs": [
+    "16"
+   ]
+  },
+  {
+   "ref": "156",
+   "name": "pulse",
+   "figs": [
+    "16"
+   ]
+  },
+  {
+   "ref": "157",
+   "name": "relay",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "158",
+   "name": "cell",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "159",
+   "name": "limit switch",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "160",
+   "name": "set of normally open contacts",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "161",
+   "name": "contacts",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "162",
+   "name": "source of potential",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "163",
+   "name": "solenoid",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "164",
+   "name": "terminal",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "165",
+   "name": "terminal",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "166",
+   "name": "motor",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "167",
+   "name": "chain",
+   "figs": [
+    "11",
+    "13"
+   ]
+  },
+  {
+   "ref": "168",
+   "name": "shaft",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "169",
+   "name": "carriage",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "170",
+   "name": "pin",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "171",
+   "name": "fixed bar",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "172",
+   "name": "thread",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "173",
+   "name": "pusher",
+   "figs": [
+    "11",
+    "13"
+   ]
+  },
+  {
+   "ref": "174",
+   "name": "set screw",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "175",
+   "name": "screw",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "176",
+   "name": "spring loaded plunger",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "177",
+   "name": "hole",
+   "figs": [
+    "13"
+   ]
+  },
+  {
+   "ref": "178",
+   "name": "contact button",
+   "figs": [
+    "13"
+   ]
+  }
+ ]
+}

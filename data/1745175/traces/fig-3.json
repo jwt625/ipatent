@@ -3070,14 +3070,53 @@
   {
    "id": "title",
    "kind": "text",
+   "name": "Fig. 3.",
    "shapes": [
     {
      "t": "t",
-     "s": "Fig. 3.",
-     "x": 694.0,
+     "s": "F",
+     "x": 636.0,
+     "y": 152.0,
+     "size": 68.0,
+     "len": 42.0,
+     "italic": true,
+     "anchor": "middle"
+    },
+    {
+     "t": "t",
+     "s": "ig",
+     "x": 697.0,
+     "y": 150.0,
+     "size": 60.0,
+     "len": 58.0,
+     "italic": true,
+     "anchor": "middle"
+    },
+    {
+     "t": "t",
+     "s": ".",
+     "x": 727.0,
+     "y": 149.0,
+     "size": 60.0,
+     "italic": true,
+     "anchor": "middle"
+    },
+    {
+     "t": "t",
+     "s": "3",
+     "x": 760.0,
      "y": 151.0,
-     "size": 70.0,
-     "len": 176.0,
+     "size": 84.0,
+     "len": 44.0,
+     "italic": true,
+     "anchor": "middle"
+    },
+    {
+     "t": "t",
+     "s": ".",
+     "x": 779.0,
+     "y": 151.0,
+     "size": 60.0,
      "italic": true,
      "anchor": "middle"
     }

@@ -1,0 +1,960 @@
+{
+ "pn": "2525352",
+ "number": "2,525,352",
+ "title": "CALCULATING MACHINE",
+ "inventors": [
+  "Curt Herzstark"
+ ],
+ "assignee": null,
+ "filed": "1948-01-09",
+ "issued": "1950-10-10",
+ "appl_no": "1,456",
+ "int_cl": "",
+ "us_cl": "235—73",
+ "priority": "In Austria March 7, 1946",
+ "notice": "Section 1, Public Law 690, August 8, 1946. Patent expires March 7, 1966",
+ "refs_patents": [
+  {
+   "no": "703,785",
+   "date": "July 1, 1902",
+   "name": "Hamann (1)",
+   "cl": ""
+  },
+  {
+   "no": "832,666",
+   "date": "Oct. 9, 1906",
+   "name": "Hamann (2)",
+   "cl": ""
+  },
+  {
+   "no": "972,360",
+   "date": "Oct. 11, 1910",
+   "name": "Graber",
+   "cl": ""
+  },
+  {
+   "no": "1,520,438",
+   "date": "Dec. 23, 1924",
+   "name": "Pothig",
+   "cl": ""
+  }
+ ],
+ "refs_foreign": [
+  {
+   "no": "210,661",
+   "date": "June 7, 1909",
+   "country": "Germany",
+   "cl": ""
+  }
+ ],
+ "refs_other": [],
+ "examiners": "",
+ "claims_count": 5,
+ "drawing_figures": 11,
+ "drawing_sheets": 2,
+ "abstract": "",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "col": 1,
+     "line": 1,
+     "text": "The invention relates to a miniature calculating machine for all four types of calculations, such as addition, subtraction, multiplication and division, in which the figure drums and the associated transmission members of the result counting mechanism and of the revolution counting mechanism are arranged in a circle around a common driving member (for example an echelon drum)."
+    },
+    {
+     "col": 1,
+     "line": 10,
+     "text": "It is an object of the invention to house the members of the result- and revolution counting mechanisms in the machine space available in the miniature size (pocket size) of the present circular calculating machine in a manner to obtain completely separate figure patterns for both counting mechanisms with the use of structural components as simple as possible which are moreover space saving and permit an easy assembling of the calculating mechanism gears arranged on them."
+    },
+    {
+     "col": 1,
+     "line": 21,
+     "text": "In order to attain these objects, the figure drums and associated counting mechanism members of the result counting mechanism and of the revolution counting mechanism are arranged, according to the invention, on the same circle, which should be as small as structurally possible, in two groups entirely separated from one another by an angular interval, and moreover off-set in angular pitch, so that the two counting mechanisms yield figure patterns separated from one another, and the members of each counting mechanism group bridge the transmission members of the other group without engaging them as soon as they get into the zone of non-pertinent transmission members when performing a decade transfer of the total counting mechanism."
+    },
+    {
+     "col": 1,
+     "line": 37,
+     "text": "In the accompanying drawings a form of embodiment of the calculating machine according to the invention is shown on an enlarged scale by way of example, the figures showing only those components which are required for the understanding of the invention."
+    },
+    {
+     "col": 1,
+     "line": 43,
+     "text": "Fig. 1 shows a vertical section through a miniature size calculating machine, part of which only is represented, with the counting mechanisms engaged, whereas"
+    },
+    {
+     "col": 1,
+     "line": 47,
+     "text": "Fig. 2 shows the same with the counting mechanisms disengaged."
+    },
+    {
+     "col": 1,
+     "line": 49,
+     "text": "Figs. 3 and 4 show diagrammatic plan views of the result- and revolution counting mechanisms in their normal position, and in a position moved out of the normal position by several decades, respectively."
+    },
+    {
+     "col": 1,
+     "line": 54,
+     "text": "Fig. 5 shows a still more enlarged vertical section through the counting mechanism of a somewhat modified embodiment."
+    },
+    {
+     "col": 1,
+     "line": 57,
+     "text": "Fig. 6 shows the body of a counting mechanism according to Fig. 5 in plan view, and"
+    },
+    {
+     "col": 1,
+     "line": 59,
+     "text": "Fig. 7 is a part view of the counting mechanism as seen from outside."
+    },
+    {
+     "col": 2,
+     "line": 1,
+     "text": "Figs. 8, 9, 10 and 11 diagrammatically represent some details of the minimum size calculating machine, relevant to the invention."
+    },
+    {
+     "col": 2,
+     "line": 4,
+     "text": "On a vertical shaft 2 journalled in the machine body 1 a driving element is arranged which consists of an echelon drum W having two groups of teeth Z_{1}, Z_{2} on its circumference, off-set 180° with respect to one another (Fig. 11), of which the group Z_{1} acts on the transmission members 3 of the result counting mechanism R, and the group Z_{2} on the transmission members 4 of the revolution counting mechanism U. Both counting mechanisms R and U are equipped with an ordinary number of places and a through-going decade transfer."
+    },
+    {
+     "col": 2,
+     "line": 16,
+     "text": "The revolution counting mechanism U as shown in Figs. 3 and 4, is arranged in the body 5 of the counting mechanism on the sector left free by the result counting mechanism R and on the same circle as the latter. The body 5 of the counting mechanism rests with a bush 5' on a central sleeve shaped projection 6 of the machine body 1 so as to be capable both of being rotated and being shifted axially. It can be lifted against the bias of the compression spring 7 so far that the transmission pinions 8 for the figure drums 9 of the result counting mechanism and the transmission pinions 8' for the figure drums 9' of the revolution counting mechanism move out of engagement with the transmission pinions 10, 11 of the adjustment members 3, 4. As will be seen from Figs. 1 and 2, the spring 7 bears with its one end against a flange 5'' of the bush 5', and with its other end against a ring 27 held on the sleeve 6 by a circular spring 26."
+    },
+    {
+     "col": 2,
+     "line": 36,
+     "text": "On the shaft 2 there is moreover the operating crank 29 secured for rotation by a pin 28. By turning said crank, the shaft 2 and the echelon drum W connected therewith for rotation are set in rotary motion. In the elevated position of the body 5 of the counting mechanism as shown in Fig. 2 of the drawings, the total counting mechanism can undergo a decade transfer. The arresting of the body 5 of the counting mechanism after each decade transfer is effected for example by a pin 12 inserted into the machine body 1 and engaging a recess 13 of a ratchet ring 30 attached to the body 5 of the counting mechanism (Figs. 1, 2 and 10). The ratchet ring 30 has recesses 13 which serve for the housing of the axles 14 of the figure drums 9, 9' and of the transmission pinions 8, 8' of the result counting mechanism and of the revolution counting mechanism, respectively, and still leave a space free sufficient for the pin 12 to be capable to engage the recess for the purpose of arresting the body 5 of the counting mechanism. The radially projecting axles 14 may be screwed to the ratchet ring 30 by means of screws 31, as shown in Figs. 1 and 2, or alternatively cast into the body of the counting mechanism when the latter is made by injection moulding (Fig. 5)."
+    },
+    {
+     "col": 3,
+     "line": 3,
+     "text": "The figure drums 9, 9' and the transmission pinions 8, 8' integral with them are pushed over the axles 14 from outside, and are loosely rotatable on them."
+    },
+    {
+     "col": 3,
+     "line": 7,
+     "text": "The body 5 of the counting mechanism shows, in the embodiment according to Figs. 5, 6, a flange 15 projecting from the centre portion which flange terminates in an edge 16 directed upwards at a right angle. In the flange 15 there is provided a hole 17 over each axle 14 designed for housing a ball 18. The ball 18 is pressed into the interstices between the teeth of the transmission pinions 8, 8' respectively, under the action of leaf springs 19. Thereby the figure drums 9, 9' are always retained in a correct position when at rest. For the sake of simplicity, the springs 19 are combined into a spring spider punched out in one piece. The body 5 of the counting mechanism is covered by a cup shaped ring 20 made for example of sheet metal which is provided with display openings 21 for the figure drums 9, 9'. The display openings 21 are open towards the middle of the machine, and are covered in this region by the effacer 22 (not to be described in detail). The cover ring 20 is equipped at its upturned edge with an external thread and with recesses 23. With these recesses 23 the cover ring 20 embraces the free ends of the axles 14, and with the bases of these recesses 23 it rests on the ends of these axles."
+    },
+    {
+     "col": 3,
+     "line": 33,
+     "text": "The cover ring is screwed into a sleeve 24 having an internal thread 25 which sleeve serves as a grip for lifting the counting mechanism out of engagement when performing a decade transfer. When screwing the cover ring 20 and the sleeve 24 together, the former is centered by the recesses 23 according to the position of the axles 14 so that the axles 14 of the figure drums and the centre lines of the display openings 21 are in accurate juxtaposition. Moreover, the cover ring 20 and the axles 14 form together a mutually stiffened structure when tightening the sleeve 24. A further advantage of this device can be seen therein that, after unscrewing the components 20, 24, the figure drums 9, 9' with the transmission pinions 8, 8' can be easily removed sideways from the machine, and can be as easily refitted into the latter."
+    },
+    {
+     "col": 3,
+     "line": 51,
+     "text": "Because of the relatively very small diameter of the machine, very small intervals only remain between the result counting mechanism and the revolution counting mechanism, and moreover the angular distances between the members of the counting mechanisms have to be dimensioned very small. The transmission pinions 8 of the result counting mechanism R and the pinions 8' of the revolution counting mechanism U are arranged with their axes of rotation in the same plane which is positioned at right angles to the axis of rotation of the driving element. In similar manner the gears 10 which in the operation of the calculating machine are adapted to engage the pinions of the result counting mechanism and the gears 11 which are adapted to engage the pinions 8' of the revolution counting mechanism are arranged in a plane which is positioned at right angles to the axis of rotation of said driving member. Owing to this construction and arrangement of the transmission pinions and the associated gears it is possible to make the entire height of the total counting mechanism very low which is of advantage and reduces the size of the calculating machine to the desired miniature size. Upon a decade transfer it is necessary to shift the entire counting mechanism around the axis of rotation of the driving member and in order to accomplish this the sleeve 24 which is attached to the circumference of the rotatable body 5 which carries the members of the two counting mechanisms is axially moved against the action of the spring 7 so as to lift the pinions 8 and 8' out of engagement with their associated gears 10 and 11 respectively, and when this has been done the sleeve 24 and therewith the entire counting mechanism is rotated. The Figs. 3 and 8 illustrate the counting mechanism and their initial or normal position in which all of the pinions 8 mesh with all of their associated gears 10 while on the other hand, all of the pinions 8' are in mesh with their associated gears 11. When now, as just mentioned previously the counting mechanism is rotatably shifted some of the pinions 8 move into the range of the gears 11 and some of the pinions 8' move into the range of the gears 10. In order to prevent that any one of the pinions 8 engage any one of the gears 11 and in order to prevent also an engagement of any one of the pinions 8' with the non-associated gears 10 the present invention provides that the two counting mechanism R and U are separated from each other a larger angular distance as is provided between two adjacent figure drums 9' or between two adjacent figure drums 9. The angular distance between the figure drums of each of the two mentioned counting mechanism is the same and in the Fig. 3 this distance has been designated with t. Preferably the angular distance between the two counting mechanism R and U is now made 1½ of the angular distance between two adjacent figure drums in each group of said counting mechanism. Since now the angular distance between two adjacent figure drums in each group has been designated with t then it follows that the angular distance between the figure drum 9 at the end of the group of the result counting mechanism R and the figure drum 9' of the next following revolution counting mechanism U is equal to 1.5t. The same angular distance is also provided between the other two ends of the counting mechanism R and U. These two larger angular distances which are equal to 1.5t separate clearly the two groups of the gears 10 and 11 of which the gears 10 belong to the result counting mechanism while the other gears 11 belong to the revolution counting mechanism. Owing to this angular displacement of the two counting mechanism R and U and owing to the similar arrangement of the two groups of gears 10 and 11 the result is obtained that during the annular shifting of the counting mechanism the pinions 8 of the result counting mechanism R will be positioned between two gears 11 of the revolution counting mechanism. Correspondingly, some of the pinions 8' of the revolution counting mechanism U will be positioned between two gears 10 of the result counting mechanism R. These intermediately positioned pinions 8 and 8' will, therefore, remain out of engagement with the gears 11 and 10 respectively as is clearly illustrated in the Figs. 4 and 9."
+    },
+    {
+     "col": 6,
+     "line": 47,
+     "text": "CURT HERZSTARK."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 1,
+   "line": 43,
+   "text": "Fig. 1 shows a vertical section through a miniature size calculating machine, part of which only is represented, with the counting mechanisms engaged, whereas"
+  },
+  {
+   "fig": "2",
+   "col": 1,
+   "line": 47,
+   "text": "Fig. 2 shows the same with the counting mechanisms disengaged."
+  },
+  {
+   "fig": "3",
+   "col": 1,
+   "line": 49,
+   "text": "Figs. 3 and 4 show diagrammatic plan views of the result- and revolution counting mechanisms in their normal position, and in a position moved out of the normal position by several decades, respectively."
+  },
+  {
+   "fig": "4",
+   "col": 1,
+   "line": 49,
+   "text": "Figs. 3 and 4 show diagrammatic plan views of the result- and revolution counting mechanisms in their normal position, and in a position moved out of the normal position by several decades, respectively."
+  },
+  {
+   "fig": "5",
+   "col": 1,
+   "line": 54,
+   "text": "Fig. 5 shows a still more enlarged vertical section through the counting mechanism of a somewhat modified embodiment."
+  },
+  {
+   "fig": "6",
+   "col": 1,
+   "line": 57,
+   "text": "Fig. 6 shows the body of a counting mechanism according to Fig. 5 in plan view, and"
+  },
+  {
+   "fig": "7",
+   "col": 1,
+   "line": 59,
+   "text": "Fig. 7 is a part view of the counting mechanism as seen from outside."
+  },
+  {
+   "fig": "8",
+   "col": 2,
+   "line": 1,
+   "text": "Figs. 8, 9, 10 and 11 diagrammatically represent some details of the minimum size calculating machine, relevant to the invention."
+  },
+  {
+   "fig": "9",
+   "col": 2,
+   "line": 1,
+   "text": "Figs. 8, 9, 10 and 11 diagrammatically represent some details of the minimum size calculating machine, relevant to the invention."
+  },
+  {
+   "fig": "10",
+   "col": 2,
+   "line": 1,
+   "text": "Figs. 8, 9, 10 and 11 diagrammatically represent some details of the minimum size calculating machine, relevant to the invention."
+  },
+  {
+   "fig": "11",
+   "col": 2,
+   "line": 1,
+   "text": "Figs. 8, 9, 10 and 11 diagrammatically represent some details of the minimum size calculating machine, relevant to the invention."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 4,
+   "line": 71,
+   "depends": null,
+   "text": "1. In a calculating machine, a machine body having a driving element mounted therein for rotation about a central axis, a plurality of parallel transmission shafts mounted in a circle about said driving element and rotatably supported in said body to extend parallel to the axis of rotation of said driving element, gears mounted at one end of said transmission shafts and all arranged in a single plane at right angles to said central axis, said transmission shafts being arranged in two separate groups and along the same circular line, the angular distances between the parallel shafts in each group being uniform and the angular distances between the end shaft of one group and the next adjacent end shaft of the other group being one and a half times the angular distance between the shafts in each group, one of said groups forming the transmission shafts of a revolution counting mechanism and the other group forming the transmission shafts for a result counting mechanism, a rotatable body mounted for rotation and axial displacement on said driving element, said rotatable body having fixedly attached thereto a plurality of radially extending axles equal in number to the total number of said transmission shafts and spaced angularly from each other the same angular distances said transmission shafts are spaced from each other so that in one initial position of said radial axles they are arranged in juxtaposition with the ends of said transmission shafts having said gears thereon, all of said radial axles being arranged in a single plane at right angles to said central axis, one group of said radial axles having rotatably mounted thereon integrally formed figure drums and pinions which constitute said previously mentioned revolution counting mechanism, and another group of said radial axles having rotatably mounted thereon integrally formed figure drums and pinions which constitute said previously mentioned result counting mechanism, spring means for normally urging said rotatable and slidable body in an axial direction in which said pinions engage respective gears on said transmission shafts when said separate groups of shafts and radial axles are in juxtaposition, and manually operable means for axially displacing said rotatable body with the counting mechanisms thereon in a direction in which said pinions disengage said gears and for rotating said rotatable body to perform a decade transfer, whereby upon release of said manually operable means said rotatable body is shifted by said spring means in the opposite direction and any pinions of the revolution and result counting mechanisms which have been moved angularly into the region occupied by the other group of gears, to wit into the region of the gears belonging to the result and revolution counting mechanisms respectively, will be positioned so as to remain out of engagement with said gears."
+  },
+  {
+   "n": 2,
+   "col": 5,
+   "line": 58,
+   "depends": 1,
+   "text": "2. In a calculating machine as claimed in claim 1, in which said rotatable body is provided with recesses, the said axles being housed with their inner ends in said recesses, and clutch means on said stationary body adapted to engage the recesses of said rotatable body in the engaged position of the same and to clear said recesses in the extended, disengaged position thereof."
+  },
+  {
+   "n": 3,
+   "col": 6,
+   "line": 5,
+   "depends": 1,
+   "text": "3. In a calculating machine as claimed in claim 1, in which said rotatable body is provided with recesses, the said axles being housed with their inner ends in said recesses, and clutch means on said stationary body adapted to engage the recesses of said rotatable body in the engaged position of the same and to clear said recesses in the extended, disengaged position thereof, said body being also provided with a series of holes, one above each said axles, and a ball housed in each of said holes of said rotatable body, spring means adapted to bias the said balls through the said holes into engagement with the pinions associated with said figure drums so as to serve as the detents thereof in their rest positions."
+  },
+  {
+   "n": 4,
+   "col": 6,
+   "line": 21,
+   "depends": 3,
+   "text": "4. In a calculating machine as claimed in claim 3 a spring spider arranged concentrically with the said perforated counting mechanism body, the arms of the said spider forming spring means adapted to bias the said balls into their associated perforations."
+  },
+  {
+   "n": 5,
+   "col": 6,
+   "line": 27,
+   "depends": 1,
+   "text": "5. In a calculating machine as claimed in claim 1 a flanged cover ring recessed at its cylindrical flange portion and adapted to engage the free ends of the said radial axles with the said recesses, display openings in the flat portion of said cover ring adapted to display the instantaneously significant figures of the said figure drums, an external screw thread on the cylindrical flange portion of said cover ring, and an internally threaded sleeve adapted to serve as a grip for the relative axial and angular operation of the said counting mechanism body and stationary member, and to clamp the free ends of the said radial axles against the bottom of the recesses on the said cover ring when screwed on the said cover ring, the said sleeve and cover ring being adapted to clear, when unscrewed, the said figure drums and associated pinions and to allow their radial dismantling from, and radial fitting to, the said axles."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "col": 1,
+   "line": 11,
+   "ocr": "mernbers",
+   "fixed": "members",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 11,
+   "ocr": "result.",
+   "fixed": "result-",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 13,
+   "ocr": "present.",
+   "fixed": "present",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 14,
+   "ocr": "Jar",
+   "fixed": "lar",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 18,
+   "ocr": "permit.",
+   "fixed": "permit",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 19,
+   "ocr": "pling",
+   "fixed": "bling",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 20,
+   "ocr": "- ranged",
+   "fixed": "ranged",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 28,
+   "ocr": "interval;",
+   "fixed": "interval,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 35,
+   "ocr": "nerformins",
+   "fixed": "performing",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 38,
+   "ocr": "bodiment.",
+   "fixed": "bodiment",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 41,
+   "ocr": "- components",
+   "fixed": "components",
+   "basis": "scan"
+  },
+  {
+   "col": 1,
+   "line": 47,
+   "ocr": "2-shows",
+   "fixed": "2 shows",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 55,
+   "ocr": "tien.",
+   "fixed": "tion",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 55,
+   "ocr": "some-~ :",
+   "fixed": "some-",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 5,
+   "ocr": "body |",
+   "fixed": "body 1",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 7,
+   "ocr": "Zi, Ze",
+   "fixed": "Z_{1}, Z_{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 9,
+   "ocr": "Zi:",
+   "fixed": "Z_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 11,
+   "ocr": "Ze",
+   "fixed": "Z_{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 19,
+   "ocr": "R, and",
+   "fixed": "R and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 21,
+   "ocr": "rests.",
+   "fixed": "rests",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 23,
+   "ocr": "{ so",
+   "fixed": "1 so",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 30,
+   "ocr": "[1",
+   "fixed": "11",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 32,
+   "ocr": "spring 1",
+   "fixed": "spring 7",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 34,
+   "ocr": "held.on",
+   "fixed": "held on",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 46,
+   "ocr": "{2",
+   "fixed": "12",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 47,
+   "ocr": "body [",
+   "fixed": "body 1",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 47,
+   "ocr": "[3",
+   "fixed": "13",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 49,
+   "ocr": "1,.2",
+   "fixed": "1, 2",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 49,
+   "ocr": "ring 39",
+   "fixed": "ring 30",
+   "basis": "scan (damaged type)"
+  },
+  {
+   "col": 2,
+   "line": 50,
+   "ocr": "{3",
+   "fixed": "13",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 52,
+   "ocr": "result.",
+   "fixed": "result",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 10,
+   "ocr": "(§",
+   "fixed": "16",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 11,
+   "ocr": "i5",
+   "fixed": "15",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 12,
+   "ocr": "i7",
+   "fixed": "17",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 13,
+   "ocr": "{3",
+   "fixed": "18",
+   "basis": "scan (damaged type)"
+  },
+  {
+   "col": 3,
+   "line": 15,
+   "ocr": "&’",
+   "fixed": "8'",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 17,
+   "ocr": "§, 8’",
+   "fixed": "9, 9'",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 19,
+   "ocr": "springs 18",
+   "fixed": "springs 19",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 21,
+   "ocr": "by 2 cup",
+   "fixed": "by a cup",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 23,
+   "ocr": "2{",
+   "fixed": "21",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 24,
+   "ocr": "2{ are -",
+   "fixed": "21 are",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 27,
+   "ocr": "ring 26",
+   "fixed": "ring 20",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 29,
+   "ocr": "recesses 28.",
+   "fixed": "recesses 23.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 30,
+   "ocr": "ring 28",
+   "fixed": "ring 20",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 31,
+   "ocr": "axles 4,",
+   "fixed": "axles 14,",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 37,
+   "ocr": "ring 28",
+   "fixed": "ring 20",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 40,
+   "ocr": "{4",
+   "fixed": "14",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 41,
+   "ocr": "2{",
+   "fixed": "21",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 43,
+   "ocr": "ring 28",
+   "fixed": "ring 20",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 43,
+   "ocr": "{4",
+   "fixed": "14",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 47,
+   "ocr": "28, 24",
+   "fixed": "20, 24",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 47,
+   "ocr": "§’",
+   "fixed": "9'",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 57,
+   "ocr": "8&",
+   "fixed": "8",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 63,
+   "ocr": "element,",
+   "fixed": "element.",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 63,
+   "ocr": "{9",
+   "fixed": "10",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 66,
+   "ocr": "{{ wh'ch",
+   "fixed": "11 which",
+   "basis": "scan (damaged type)"
+  },
+  {
+   "col": 3,
+   "line": 70,
+   "ocr": "rember",
+   "fixed": "member",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 73,
+   "ocr": "the. total",
+   "fixed": "the total",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 75,
+   "ocr": "caiculating",
+   "fixed": "calculating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 11,
+   "ocr": "{{",
+   "fixed": "11",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 12,
+   "ocr": "Sleeve",
+   "fixed": "sleeve",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 16,
+   "ocr": "19 while",
+   "fixed": "10 while",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 18,
+   "ocr": "{{.",
+   "fixed": "11.",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 21,
+   "ocr": "{!",
+   "fixed": "11",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 24,
+   "ocr": "{1",
+   "fixed": "11",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 37,
+   "ocr": "1%",
+   "fixed": "1½",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 41,
+   "ocr": "¢",
+   "fixed": "t",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 42,
+   "ocr": "hbe-",
+   "fixed": "be-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 46,
+   "ocr": "1.5%,",
+   "fixed": "1.5t.",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 47,
+   "ocr": "Same",
+   "fixed": "same",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 49,
+   "ocr": "Rand U",
+   "fixed": "R and U",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 50,
+   "ocr": "1.5¢",
+   "fixed": "1.5t",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 51,
+   "ocr": "{0 and {1",
+   "fixed": "10 and 11",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 52,
+   "ocr": "18 belong",
+   "fixed": "10 belong",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 53,
+   "ocr": "fi belong",
+   "fixed": "11 belong",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 53,
+   "ocr": "couni-",
+   "fixed": "count-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 57,
+   "ocr": "{0 and {{",
+   "fixed": "10 and 11",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 57,
+   "ocr": "obtainea",
+   "fixed": "obtained",
+   "basis": "scan (damaged type)"
+  },
+  {
+   "col": 4,
+   "line": 58,
+   "ocr": "shift’ng",
+   "fixed": "shifting",
+   "basis": "scan (damaged type)"
+  },
+  {
+   "col": 4,
+   "line": 59,
+   "ocr": "result,",
+   "fixed": "result",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 61,
+   "ocr": "{i",
+   "fixed": "11",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 67,
+   "ocr": "If and 16",
+   "fixed": "11 and 10",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 68,
+   "ocr": "and y.",
+   "fixed": "and 9.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 71,
+   "ocr": "In .a",
+   "fixed": "In a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 73,
+   "ocr": "plurality ot",
+   "fixed": "plurality of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 5,
+   "ocr": "be~",
+   "fixed": "be-",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 26,
+   "ocr": "‘said",
+   "fixed": "said",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 46,
+   "ocr": "said:",
+   "fixed": "said",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 47,
+   "ocr": "transfer;",
+   "fixed": "transfer,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 13,
+   "ocr": "being.",
+   "fixed": "being",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 16,
+   "ocr": "bias.",
+   "fixed": "bias",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 17,
+   "ocr": "the:",
+   "fixed": "the",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 21,
+   "ocr": "4,",
+   "fixed": "4.",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 23,
+   "ocr": "perforated.",
+   "fixed": "perforated",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 28,
+   "ocr": "cylin~",
+   "fixed": "cylin-",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 34,
+   "ocr": "cylin-~",
+   "fixed": "cylin-",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 46,
+   "ocr": "axles. ;",
+   "fixed": "axles.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "cite": "header",
+   "ocr": "2, 525, 392",
+   "fixed": "2,525,352",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 55,
+   "cite": "references",
+   "ocr": "103,785",
+   "fixed": "703,785",
+   "basis": "scan"
+  }
+ ]
+}

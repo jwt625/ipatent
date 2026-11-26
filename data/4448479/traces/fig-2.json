@@ -2834,7 +2834,7 @@
   {
    "id": "text-d1",
    "kind": "text",
-   "name": "gap d_{1}",
+   "name": "space d_{1}",
    "shapes": [
     {
      "t": "t",
@@ -2857,7 +2857,7 @@
   {
    "id": "dim-d1",
    "kind": "mark",
-   "name": "gap d_{1}",
+   "name": "space d_{1}",
    "shapes": [
     {
      "t": "path",
@@ -2904,7 +2904,7 @@
   {
    "id": "text-d2",
    "kind": "text",
-   "name": "gap d_{2}",
+   "name": "space d_{2}",
    "shapes": [
     {
      "t": "t",
@@ -2927,7 +2927,7 @@
   {
    "id": "dim-d2",
    "kind": "mark",
-   "name": "gap d_{2}",
+   "name": "space d_{2}",
    "shapes": [
     {
      "t": "path",
@@ -3118,7 +3118,7 @@
   {
    "id": "text-P1",
    "kind": "text",
-   "name": "input light P_{1}",
+   "name": "optical signal P_{1}",
    "shapes": [
     {
      "t": "t",
@@ -3141,7 +3141,7 @@
   {
    "id": "arrow-P1",
    "kind": "mark",
-   "name": "input light P_{1}",
+   "name": "optical signal P_{1}",
    "shapes": [
     {
      "t": "l",
@@ -4412,7 +4412,7 @@
   {
    "id": "arrow-P3",
    "kind": "mark",
-   "name": "output light P_{3}",
+   "name": "output signal P_{3}",
    "shapes": [
     {
      "t": "path",
@@ -4459,7 +4459,7 @@
   {
    "id": "arrow-P2",
    "kind": "mark",
-   "name": "output light P_{2}",
+   "name": "output signal P_{2}",
    "shapes": [
     {
      "t": "l",
@@ -4515,7 +4515,7 @@
   {
    "id": "text-P3",
    "kind": "text",
-   "name": "output light P_{3}",
+   "name": "output signal P_{3}",
    "shapes": [
     {
      "t": "t",
@@ -4538,7 +4538,7 @@
   {
    "id": "text-P2",
    "kind": "text",
-   "name": "output light P_{2}",
+   "name": "output signal P_{2}",
    "shapes": [
     {
      "t": "t",

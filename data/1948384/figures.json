@@ -1,0 +1,551 @@
+{
+ "pn": "1948384",
+ "figures": [
+  {
+   "id": "1",
+   "label": "Fig. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    185,
+    555,
+    1266,
+    1482
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "Fig. 2",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1252,
+    555,
+    1850,
+    1500
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "Fig. 3",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    780,
+    1530,
+    1760,
+    2400
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "Fig. 4",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    200,
+    1458,
+    810,
+    2940
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "Fig. 5",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    215,
+    525,
+    1850,
+    2358
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "Fig. 6",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    255,
+    2360,
+    738,
+    2900
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "Fig. 7",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    712,
+    2360,
+    1233,
+    2900
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "1",
+   "name": "electrodes",
+   "figs": [
+    "1",
+    "2"
+   ],
+   "alt": [
+    "electrode members",
+    "hollow electrodes",
+    "electrode"
+   ]
+  },
+  {
+   "ref": "2",
+   "name": "electrodes",
+   "figs": [
+    "1",
+    "2"
+   ],
+   "alt": [
+    "electrode members",
+    "hollow electrodes",
+    "electrode"
+   ]
+  },
+  {
+   "ref": "3",
+   "name": "magnet means",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "4",
+   "name": "means indicated at 4 for maintaining the required alternating or oscillating electric potential difference",
+   "figs": [
+    "1"
+   ]
+  },
+  {
+   "ref": "6",
+   "name": "electrode",
+   "figs": [
+    "4",
+    "5"
+   ],
+   "alt": [
+    "hollow semicylindrical metal plate",
+    "electrode member",
+    "insulated electrode"
+   ]
+  },
+  {
+   "ref": "7",
+   "name": "electrode",
+   "figs": [
+    "4",
+    "5"
+   ],
+   "alt": [
+    "metal bars",
+    "electrode means",
+    "grounded electrode"
+   ]
+  },
+  {
+   "ref": "8",
+   "name": "air tight casing",
+   "figs": [
+    "3",
+    "4",
+    "5"
+   ],
+   "alt": [
+    "casing",
+    "grounded casing"
+   ]
+  },
+  {
+   "ref": "9",
+   "name": "pole pieces",
+   "figs": [
+    "3",
+    "4"
+   ]
+  },
+  {
+   "ref": "10",
+   "name": "pole pieces",
+   "figs": [
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "magnet",
+   "figs": [
+    "3",
+    "5"
+   ],
+   "alt": [
+    "electromagnet"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "rod",
+   "figs": [
+    "4",
+    "5"
+   ],
+   "alt": [
+    "supporting rod"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "semicylindrical peripheral wall",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "insulator",
+   "figs": [
+    "3",
+    "5"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "connection or conduit",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "connection",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "oscillation circuit",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "19",
+   "name": "oscillation tube",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "energizing circuit",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "wires",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "wires",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "service line",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "26",
+   "name": "connections",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "27",
+   "name": "connections",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "28",
+   "name": "ammeter",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "29",
+   "name": "variable resistance or current controlling means",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "30",
+   "name": "filament",
+   "figs": [
+    "4",
+    "5"
+   ],
+   "alt": [
+    "heated filament"
+   ]
+  },
+  {
+   "ref": "31",
+   "name": "conductors",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "32",
+   "name": "conductors",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "33",
+   "name": "battery",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "34",
+   "name": "adjustable resistance, or current controlling means",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "35",
+   "name": "ammeter",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "36",
+   "name": "battery",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "37",
+   "name": "grounded connection",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "40",
+   "name": "electrode means",
+   "figs": [
+    "4",
+    "5"
+   ],
+   "alt": [
+    "electrode",
+    "member",
+    "grounded electrode"
+   ]
+  },
+  {
+   "ref": "41",
+   "name": "electrode means",
+   "figs": [
+    "4",
+    "5"
+   ],
+   "alt": [
+    "electrode",
+    "metal strip"
+   ]
+  },
+  {
+   "ref": "42",
+   "name": "semicircular walls",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "43",
+   "name": "insulated post",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "supporting post"
+   ]
+  },
+  {
+   "ref": "44",
+   "name": "wire",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "45",
+   "name": "potentiometer",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "46",
+   "name": "electrostatic voltmeter",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "47",
+   "name": "channel",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "49",
+   "name": "inlet opening",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "50",
+   "name": "outlet opening",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "51",
+   "name": "insulated collector box",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "collector box"
+   ]
+  },
+  {
+   "ref": "52",
+   "name": "means for controlling the magnetic field",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "channel member of soft iron"
+   ]
+  },
+  {
+   "ref": "52'",
+   "name": "channel",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "53",
+   "name": "current measuring means",
+   "figs": [
+    "5"
+   ],
+   "alt": [
+    "electrometer"
+   ]
+  },
+  {
+   "ref": "55",
+   "name": "window",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "57",
+   "name": "housing",
+   "figs": [
+    "4",
+    "5"
+   ]
+  },
+  {
+   "ref": "a",
+   "name": "central plane",
+   "figs": [
+    "2"
+   ],
+   "alt": [
+    "medium plane"
+   ]
+  },
+  {
+   "ref": "e",
+   "name": "dotted lines",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "m",
+   "name": "dash lines",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "p",
+   "name": "dot and dash line",
+   "figs": [
+    "2"
+   ]
+  }
+ ]
+}

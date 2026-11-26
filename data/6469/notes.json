@@ -1,0 +1,48 @@
+{
+  "patent": "Filed 1849-03-10 and issued 1849-05-22 to Abraham Lincoln of Springfield, Illinois, while he was serving his single term in the U.S. House of Representatives (1847-1849). Collapsible air chambers of plank and india-rubber cloth hang beside the hull under the guards; turning a longitudinal main shaft drives vertical spars down through the chambers, which expand, take in air and lift the vessel so it can pass over a bar or shoal without unloading cargo, then fold back into boxes on the lower guards. Lincoln is the only U.S. president to have held a patent. The device was never manufactured. A patent model is held by the Smithsonian's National Museum of American History. Lincoln had worked on western river flatboats in his youth, including the 1831 trip on which his boat hung on the mill dam at New Salem on the Sangamon River.",
+  "figs": {
+    "1": "Side elevation of a steamboat, bow at the right, with two chamber sets expanded below the guards. Each box B sits on the lower guard; chamber A hangs below it, expanded. Main shaft C runs fore and aft under the upper deck; spars D rise from the chambers through the guards, with ropes f alongside. Check ropes e tie the box tops to the chamber tops.",
+    "2": "Transverse section through the hull with the chambers contracted. Main shaft C (hatched circle, centre) carries ropes f out over the upper guards, down the inner side of each spar D, and back up to the shaft from the box corners along the diagonals; the ropes are made fast to the spars at i. Each folded chamber lies inside box B on the lower guard, top g above bottom h. The short lines at the hull sides mark the water line (the left one is lettered Water).",
+    "3": "Longitudinal section through one expanded chamber and its box: the open rectangle at the top is box B, the upper hatched plank is chamber top g, and the lower hatched plank is bottom h; the wavy outlines are the chamber ends. Spars D pass freely through the top and end at the bottom. Check ropes e run from the box top to the chamber top and limit how far it drops. The thin double line k midway is the central stay frame; m marks the air openings in the top."
+  },
+  "parts": {
+    "A": "Expansible chambers: plank or metal top and bottom joined by flexible water-proof sides and ends.",
+    "D": "Fixed to the chamber bottom, so driving the spar down pushes the bottom into the water while the check ropes hold the top.",
+    "i": "Not named in the text; the points where ropes f are made fast to the spars D. The text cites Figs. 1 and 2, but the letter appears only in Fig. 2.",
+    "F": "Not in the text; a letter on the hull between the two chamber sets in Fig. 1."
+  },
+  "glossary": [
+    {
+      "term": "guard",
+      "def": "On a side-wheel or river steamboat, the deck that projects outward beyond the hull sides along much of its length."
+    },
+    {
+      "term": "bar / shoal",
+      "def": "A shallow ridge of sand or gravel in a river channel on which a loaded boat can ground."
+    },
+    {
+      "term": "draught",
+      "def": "Draft: the depth of the hull below the water line, which sets the minimum water depth the vessel can pass."
+    },
+    {
+      "term": "spar",
+      "def": "A stout wooden pole or shaft."
+    },
+    {
+      "term": "sheave",
+      "def": "The grooved wheel of a pulley block."
+    },
+    {
+      "term": "india-rubber cloth",
+      "def": "Fabric coated or impregnated with natural rubber to make it water-proof."
+    },
+    {
+      "term": "endless rope",
+      "def": "A rope whose ends are joined, or that runs in a closed loop round a drum, so turning the drum one way pulls one run and slacks the other."
+    },
+    {
+      "term": "check rope",
+      "def": "A rope that stops a moving part at a set distance."
+    }
+  ]
+}

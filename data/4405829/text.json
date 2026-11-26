@@ -1,0 +1,5777 @@
+{
+ "pn": "4405829",
+ "number": "4,405,829",
+ "title": "CRYPTOGRAPHIC COMMUNICATIONS SYSTEM AND METHOD",
+ "inventors": [
+  "Ronald L. Rivest",
+  "Adi Shamir",
+  "Leonard M. Adleman"
+ ],
+ "assignee": "Massachusetts Institute of Technology, Cambridge, Mass.",
+ "filed": "1977-12-14",
+ "issued": "1983-09-20",
+ "appl_no": "860,586",
+ "int_cl": "H04K 1/00; H04I 9/04",
+ "us_cl": "178/22.1; 178/22.11",
+ "field_of_search": "178/22, 22.1, 22.11, 22.14, 22.15",
+ "refs_patents": [
+  {
+   "no": "3,657,476",
+   "date": "4/1972",
+   "name": "Aiken",
+   "cl": "178/22"
+  }
+ ],
+ "refs_other": [
+  "“New Directions in Cryptography”, Diffie et al., IEEE Transactions on Information Theory, vol. IT-22, No. 6, Nov. 1976, pp. 644-654.",
+  "“Theory of Numbers” Stewart, MacMillan Co., 1952, pp. 133-135.",
+  "“Diffie et al., Multi-User Cryptographic Techniques”, AFIPS. Conference Proceedings, vol. 45, pp. 109-112, Jun. 8, 1976."
+ ],
+ "examiners": "Primary Examiner—Sal Cangialosi; Attorney, Agent, or Firm—Arthur A. Smith, Jr.; Robert J. Horn, Jr.",
+ "claims_count": 40,
+ "drawing_figures": 7,
+ "abstract": "A cryptographic communications system and method. The system includes a communications channel coupled to at least one terminal having an encoding device and to at least one terminal having a decoding device. A message-to-be-transferred is enciphered to ciphertext at the encoding terminal by first encoding the message as a number M in a predetermined set, and then raising that number to a first predetermined power (associated with the intended receiver) and finally computing the remainder, or residue, C, when the exponentiated number is divided by the product of two predetermined prime numbers (associated with the intended receiver). The residue C is the ciphertext. The ciphertext is deciphered to the original message at the decoding terminal in a similar manner by raising the ciphertext to a second predetermined power (associated with the intended receiver), and then computing the residue, M', when the exponentiated ciphertext is divided by the product of the two predetermined prime numbers associated with the intended receiver. The residue M' corresponds to the original encoded message M.",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "col": 1,
+     "line": 5,
+     "text": "The Government has rights in this invention pursuant to Contract No. N00014-67-A-0204, awarded by the Department of the Navy, and Grant No. MCS76-14249, awarded by the National Science Foundation."
+    }
+   ]
+  },
+  {
+   "heading": "BACKGROUND OF THE DISCLOSURE",
+   "paras": [
+    {
+     "col": 1,
+     "line": 11,
+     "text": "This invention relates to communications, and more particularly to cryptographic communications systems and methods."
+    },
+    {
+     "col": 1,
+     "line": 14,
+     "text": "With the development of computer technology, the transfer of information in digital form has rapidly increased. There are many applications, including electronic mail systems, bank systems and data processing systems, where the transferred information must pass over communications channels which may be monitored by electronic eavesdroppers. While the degree of security required may vary for various applications, it is generally important for all of these examples that the substance of particular communications pass directly from a sender to an intended receiver without intermediate parties being able to interpret the transferred message. In addition, there are further instances where information in computer memory banks must be protected from snoopers who have access to the memory through data processing networks."
+    },
+    {
+     "col": 1,
+     "line": 30,
+     "text": "In addition to these privacy requirements, authentication of the source of a message must often be insured along with the verification and security of the message content. For example, in banking applications, it is required that a signed document, such as a bank draft, be authenticated as being actually signed by the indicated signator. Furthermore, in many applications, it is desirable to further require safeguards against signature forgery by a message recipient."
+    },
+    {
+     "col": 1,
+     "line": 39,
+     "text": "In the prior art, a number of cryptographic encoding and decoding techniques are readily available to provide some degree of privacy and authentication for digital communications, for example, the data encryption standards adopted by the National Bureau of Standards, see Federal Register, Mar. 17, 1975, Volume 40, No. 52 and Aug. 1, 1975, Volume 40, No. 149."
+    },
+    {
+     "col": 1,
+     "line": 46,
+     "text": "In general, cryptographic systems are adapted to transfer a message between remote locations. Such systems include at least one encoding device at a first location and at least one decoding device at a second location, with the encoding and decoding devices all being coupled to a communication channel. For digital systems, the message is defined to be a digital message, M, that is, a sequence of symbols from some alphabet. In practice, the alphabet is generally chosen to be the binary alphabet consisting of the symbols 0 and 1."
+    },
+    {
+     "col": 1,
+     "line": 56,
+     "text": "Each encoding device is an apparatus which accepts two inputs: a message-to-be-encoded, M, and an encoding key or operator, E. Each encoding device transforms the message M in accordance with the encryption operator to produce an encoded version C of the message (which is denoted as the ciphertext) where C=E(M). The encoding key and the ciphertext are also digital sequences."
+    },
+    {
+     "col": 1,
+     "line": 64,
+     "text": "Each decoding device is an apparatus which accepts two inputs: a ciphertext-to-be-decoded C and a decoding key or operator, D. Each decoding device transforms the ciphertext in accordance with the decryption operator to produce a decoded version M' of the ciphertext where M'=D(C), or M'=D(E(M)). Like the encoding key, the decoding key and decoded message M' are also digital sequences. The encoding and decoding keys are selected so that M'=M for all messages M."
+    },
+    {
+     "col": 2,
+     "line": 5,
+     "text": "In operation, a message, once encoded into ciphertext, is transmitted over the channel to a recipient who decodes the received ciphertext to obtain the original message M. Thus, a recipient sees the original message M as the output of his decoding device."
+    },
+    {
+     "col": 2,
+     "line": 10,
+     "text": "To a large degree, the quality of performance of a cryptographic system depends on the complexity of the encoding and decoding devices. Regarding the problem of ensuring privacy of communications for a system where an eavesdropper can listen to every message transmitted on the communications channel (which might, for example, be a radio link), the effectiveness of the system depends upon the ability to ensure that the eavesdropper is unable to understand any such overheard messages. In the prior art systems, the sender and recipient arrange to have corresponding encoding and decoding keys which are kept secret from the eavesdropper, so that even if the eavesdropper knows the construction of the encoding and decoding devices, he would not be able to decode the messages he hears, even after hearing a large number of messages. In practice, however, this constraint results in extremely complex and correspodingly expensive equipment. A disadvantage of the prior art systems results from the general requirement that the pre-arranged encoding and decoding keys must be delivered in a secure fashion (often by courier) to the sender and receiver, respectively, to enable communication through the systems."
+    },
+    {
+     "col": 2,
+     "line": 33,
+     "text": "The “public-key cryptosystem” described by Diffie and Hellman, “New Directions In Cryptography”, IEEE Transactions on Information Theory (Nov. 1976), in principle, provides enciphered communication between arbitrary pairs of people, without the necessity of their agreeing on an enciphering key beforehand. The Diffie and Hellman system also provides a way of creating for a digitized document a recognizable, unforgeable, document-dependent, digitized signature whose authenticity the signer cannot later deny."
+    },
+    {
+     "col": 2,
+     "line": 43,
+     "text": "In a public-key cryptosystem, each user (e.g. user A) places in a public file an enciphering operator, or key, E_{A}. User A keeps to himself the details of the corresponding deciphering key D_{A} which satisfies the equation"
+    },
+    {
+     "col": 2,
+     "line": 49,
+     "text": "D_{A}(E_{A}(M))=M,",
+     "formula": true
+    },
+    {
+     "col": 2,
+     "line": 51,
+     "text": "for any message M. In order for the public key system to be practical, both E_{A} and D_{A} must be efficiently computable. Furthermore, user A must not compromise D_{A} when revealing E_{A}. That is, it should not be computationally feasible for an eavesdropper to find an efficient way of computing D_{A}, given only a specification of the enciphering key E_{A} (even though a very inefficient way exists: to compute D_{A}(C), just enumerate all possible messages M until one such that E_{A}(M)=C is found. Then D_{A}(C)=M.). In a public key system, a judicious selection of keys ensures that only user A is able to compute D_{A} efficiently."
+    },
+    {
+     "col": 2,
+     "line": 63,
+     "text": "Whenever another user (e.g. user B) wishes to send a message M to A, he looks up E_{A} in the public file and then sends the enciphered message E_{A}(M) to user A. User A deciphers the message by computing D_{A}(E_{A}(M))=M. Since D_{A} is not derivable from E_{A} in a practical way, only user A can decipher the message E_{A}(M) sent to him. If user A wants to send a response to user B, user A enciphers the message using user B’s encryption key E_{B}, also available in the public file. Therefore no transactions between users A and B, such as exchange of secret keys, are required to initiate private communication. The only “setup” required is that each user who wishes to receive private communication must place his enciphering key E in the public file."
+    },
+    {
+     "col": 3,
+     "line": 9,
+     "text": "The public key approach of Diffie and Hellman is also useful in principle to provide signed digital messages that are both message-dependent and signer-dependent. The recipient of a “signed” message not only knows the message substance, but also can provide that the message originated from the identified sender. A signed message precludes the possibility that a recipient could modify the received message by changing a few characters or that the recipient could attach the received signature to any message whatsoever. This is a particular problem for digital messages inasmuch as electronic “cutting and pasting” of sequences of characters are generally undetectable in the final product."
+    },
+    {
+     "col": 3,
+     "line": 23,
+     "text": "In order to implement signatures on messages transferred between two users, e.g. user A and user B, in accordance with the Diffie and Hellman system, each user has encoding keys E_{A} and E_{B}, respectively, on a public file and decoding keys D_{A} and D_{B}, respectively, privately held. Each user’s encoding and decoding keys must effect permutations of the same message space S, so that the following relation s hold:"
+    },
+    {
+     "col": 3,
+     "line": 32,
+     "text": "D_{A}(E_{A}(M))=M\nE_{A}(D_{A}(M))=M\nD_{B}(E_{B}(M))=M\nE_{B}(D_{B}(M))=M",
+     "formula": true
+    },
+    {
+     "col": 3,
+     "line": 39,
+     "text": "for any message M."
+    },
+    {
+     "col": 3,
+     "line": 40,
+     "text": "When user A wants to send user B a “signed” document M, user A first uses his own decryption key D_{A} to transform M into a signed message word M_{s}=D_{A}(M). User A then uses user B’s encryption key E_{B} (from the public file) to generate a signed ciphertext word C_{s}=E_{B}(M_{s})=E_{B}(D_{A}(M)), which is sent to user B. User B initially uses his secret decryption key D_{B} to reduce the signed ciphertext C_{s} to a signed message word in accordance with D_{B}(C_{s})=D_{B}(E_{B}(M_{s}))=M_{s}. Now using user A’s encoding key E_{A} (available from the public file), user B decodes the signed message word in accordance with E_{A}(M_{s})=E_{A})=M."
+    },
+    {
+     "col": 3,
+     "line": 53,
+     "text": "User A cannot deny having sent user B this message, since no one but A could have created M_{s}=D_{A}(M), provided that D_{A} is not computable from E_{A}. Furthermore, user B can show that the public key E_{A} is necessary to extract the message M so that user B has “proof” that user A has signed the document. User B cannot modify M to a different version M', since then user B would have to create the corresponding signature D_{A}(M') as well. Therefore user B must have received a document “signed” by A, which he can “prove” that A sent, but which B cannot modify in any detail."
+    },
+    {
+     "col": 3,
+     "line": 64,
+     "text": "While the public-key cryptosystem principles as described above, and their potential use as a means of implementing digital “signatures”, are known in the prior art, there are no practical implementations which are known, either with or without signature."
+    },
+    {
+     "col": 4,
+     "line": 1,
+     "text": "Accordingly, it is an object of this invention to provide a system and method for implementing a private communications system."
+    },
+    {
+     "col": 4,
+     "line": 4,
+     "text": "It is another object to provide a system and method for establishing a private communications system for transmission of signed messages."
+    },
+    {
+     "col": 4,
+     "line": 7,
+     "text": "It is still another object to provide a system and method for implementing a public key cryptographic communications system."
+    },
+    {
+     "col": 4,
+     "line": 10,
+     "text": "It is a further object to provide a system and method for encoding and decoding digital data."
+    }
+   ]
+  },
+  {
+   "heading": "SUMMARY OF THE INVENTION",
+   "paras": [
+    {
+     "col": 4,
+     "line": 14,
+     "text": "Briefly, the present invention includes at least one encoding device, at least one decoding device, and a communication channel, where the encoding and decoding devices are coupled to the channel. The encoding device is responsive to an applied message-to-be-transmitted M and an encoding key to provide a ciphertext word C for transmission to a particular decoding device. The encoding key E is a pair of positive integers e and n which are related to the particular decoding device. The message M is a number representative of a message-to-be-transmitted and wherein"
+    },
+    {
+     "col": 4,
+     "line": 27,
+     "text": "0≦M≦n−1",
+     "formula": true
+    },
+    {
+     "col": 4,
+     "line": 29,
+     "text": "where n is a composite number of the form"
+    },
+    {
+     "col": 4,
+     "line": 31,
+     "text": "n=p·q",
+     "formula": true
+    },
+    {
+     "col": 4,
+     "line": 32,
+     "text": "ps where p and q are prime numbers."
+    },
+    {
+     "col": 4,
+     "line": 33,
+     "text": "For messages represented by numbers outside the range 0 to n−1, a conventional blocking means is utilized to break the message into message block words before encoding, where each block word is representative of a number within the specified range. Following subsequent decoding, the recovered block words may be transformed back to the original message."
+    },
+    {
+     "col": 4,
+     "line": 40,
+     "text": "The presently described encoding device can distinctly encode each of the n possible messages. In alternative but equivalent embodiments, the numbers representative of the possible messages-to-be-transmitted need not be integers in the range 0 to n−1, but could be integers selected from each residue class modulo n. For example, where n=3, the numbers representative of the set of messages-to-be-transmitted might include 0(≡0 mod 3), 10(≡1 mod 3), and 8(≡2 mod 3). Accordingly, the range limitations for n expressed hereafter in this application are appropriate for the numbers in the modulo residue classes within the respective ranges, but it will be understood that numbers outside the range but selected from the appropriate residue classes are considered to be equivalent to those within the specified range and are intended to be embraced by the claims."
+    },
+    {
+     "col": 4,
+     "line": 56,
+     "text": "The transformation provided by the encoding device is described by the relation"
+    },
+    {
+     "col": 4,
+     "line": 59,
+     "text": "C≡M^{e}(mod n)",
+     "formula": true
+    },
+    {
+     "col": 4,
+     "line": 61,
+     "text": "where e is a number relatively prime to (p−1)·(q−1)."
+    },
+    {
+     "col": 4,
+     "line": 62,
+     "text": "The particular decoding device is also coupled to the channel and is adapted to receive the ciphertext C from the channel. The decoding device is responsive to the received ciphertext word C and a decoding key to transform that ciphertext to a received message word M'. The decoding key D is a pair of positive integers d and n. M' is a number representative of a deciphered form of C (i.e. reconstituted plaintext) and corresponds to the relation"
+    },
+    {
+     "col": 5,
+     "line": 4,
+     "text": "M'≡C^{d}(mod n)",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 6,
+     "text": "where d is a multiplicative inverse of e(mod(1 cm((p−1), (q−1)))) so that"
+    },
+    {
+     "col": 5,
+     "line": 9,
+     "text": "e·d≡1(mod(1 cm((p−1),(q−1))))",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 11,
+     "text": "where 1 cm((p−1),(q−1)) is the least common multiple of numbers p−1 and q−1."
+    },
+    {
+     "col": 5,
+     "line": 13,
+     "text": "With these encoding and decoding devices, a message sent from the encoding device to the decoding device is transformed from M to C by the encoding device, and then back from C to M' by the decoding device, where M'≡M'(mod n)."
+    },
+    {
+     "col": 5,
+     "line": 18,
+     "text": "In a communication system which is adapted to provide digital signatures, each transmitting and receiving terminal is provided with both an encoding and decoding device, each device being functionally equivalent to the devices described above but operating on a different set of input words with a different key. The transmitting terminal decoding device transforms a message M using its own decoding key to generate a signed message M_{s}. Then the encoding device transforms the resultant signed message M_{s} with the intended receiving terminal’s encoding key to generate signed ciphertext word C_{s}. The receiving terminal’s decoding device then transforms the received C_{s} with its own decoding key to obtain the signed message M_{s}, and then the encoding device transforms the resultant signed message with the transmitting terminal’s encoding key to obtain the original message. For example, in a system for transmitting signed messages from user A to user B, the terminal for user A includes at least one encoding device characterized by an encoding key E_{B}=(e_{B}, n_{B}) and at least one decoding device, characterized by a decoding key D_{A}=(d_{A}, n_{A}). Similarly, the terminal for user B includes an encoding device characterized by an encoding key E_{A}=(e_{A}, n_{A}) and a decoding device characterized by a decoding key D_{B}=(d_{B}, n_{B}). The encoding and decoding devices of terminals A and B are of the same form described above for the privacy system."
+    },
+    {
+     "col": 5,
+     "line": 46,
+     "text": "In operation, to provide a signed message, user A first generates a ciphertext signed message word M_{s}"
+    },
+    {
+     "col": 5,
+     "line": 49,
+     "text": "M_{s}≡M^{d_{A}}(mod n_{A})",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 50,
+     "text": "and then transforms that signed message word to a signed ciphertext word C_{s}:"
+    },
+    {
+     "col": 5,
+     "line": 53,
+     "text": "C_{s}≡M_{s}^{e_{B}}(mod n_{B})",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 55,
+     "text": "which is then transferred to user B. User A may readily use d_{A} and n_{A} from his own decoding key to reduce the signed ciphertext word to a signed message word, and then perform the encoding transformations using e_{B} and n_{B} from the publicly available file."
+    },
+    {
+     "col": 5,
+     "line": 60,
+     "text": "User B deciphers the received C_{s} into the signed message word M_{s} in accordance with"
+    },
+    {
+     "col": 5,
+     "line": 63,
+     "text": "M_{s}≡(C_{s})^{d_{B}}(mod n_{B}).",
+     "formula": true
+    },
+    {
+     "col": 5,
+     "line": 65,
+     "text": "User B then transforms M_{s} to M in accordance with"
+    },
+    {
+     "col": 5,
+     "line": 67,
+     "text": "M≡M_{s}^{e_{A}}(mod n_{A}).",
+     "formula": true
+    },
+    {
+     "col": 6,
+     "line": 1,
+     "text": "User B may readily perform his decoding transformations since d_{B} and n_{B} are part of his decoding key and e_{A} and n_{A} are readily available on the public file."
+    },
+    {
+     "col": 6,
+     "line": 4,
+     "text": "In any of the above operations, the underlying messages may be initially encoded using conventional encryption techiques, and the subsequently decoded messages may be decoded using a corresponding decryption technique. The present invention may be used with any length messages provided that the message is broken into suitable length blocks before encoding. For example, very long messages may readily be broken into blocks, with each block labelled with a “this is block t of R” notation and transmitted after signing each block separately. Any word to be tansformed, using either the encoding or decoding key for a terminal, must be broken into blocks, wherein each block is representative of a number in the range 0 ton-31 1 for the corresponding terminal. Following transmission over the channel and the second transformation, the resultant words may readily be “unblocked”."
+    },
+    {
+     "col": 6,
+     "line": 21,
+     "text": "The present invention provides a public key system for establishing private communications and also for providing private communications with the signature. A characteristic of this system is that the public revelation of the encryption key does not reveal the corresponding decryption key. As a result, couriers or other secure means are not required to transmit keys, since a message can be enciphered using an encryption key publicly revealed by the intended recipient. Only the intended recipient can decipher the message since only he knows the corresponding decryption key. Furthermore, the message can be “signed” by deciphering it with the privately held decryption key. Anyone can verify the signature using the corresponding publicly revealed encryption key corresponding to the originator. Signatures cannot be forged and the signer cannot later deny the validity of his signature."
+    },
+    {
+     "col": 6,
+     "line": 38,
+     "text": "In other forms, the present invention may be utilized with both the encoding and decoding keys secret. In such forms, if users A and B wish to communicate privately over an insecure channel, they may use the channel to transmit E_{A} and E_{B} to B and A, respectively. Then when A wishes to send B a message M, he first produces E_{B}(M)=C and sends this to B. B applies D_{B} to C to obtain M. An eavesdropper on the channel will have access to E_{B}, E_{A} and C but without access to D_{B} is unable to decode C."
+    },
+    {
+     "col": 6,
+     "line": 48,
+     "text": "In alternative forms, the present invention may be utilized with the encoding and decoding devices coupled by a data path to a memory so that encoded only, or encoded signed, data words may be stored in the memory, thereby ensuring file integrity. In such an embodiment, the data path and memory are considered to be a communications channel coupling the encoding and decoding devices (which devices may be at the same physical location). In addition, the present system is suitable for use in access control systems."
+    }
+   ]
+  },
+  {
+   "heading": "BRIEF DESCRIPTION OF THE DRAWINGS",
+   "paras": [
+    {
+     "col": 6,
+     "line": 60,
+     "text": "The foregoing and other objects of this invention, the various features thereof, as well as the invention itself, may be more fully understood from the following description, when read together with the accompanying drawings in which:"
+    },
+    {
+     "col": 6,
+     "line": 65,
+     "text": "FIG. 1 shows in block diagram form, a communications system in accordance with the present invention;"
+    },
+    {
+     "col": 6,
+     "line": 67,
+     "text": "FIG. 2 shows in block diagram form an embodiment of the system of FIG. 1 adapted to transfer enciphered digital messages in one direction between two terminals;"
+    },
+    {
+     "col": 7,
+     "line": 3,
+     "text": "FIG. 3 shows in detailed block diagram form, the encoding device in the system of FIG. 2;"
+    },
+    {
+     "col": 7,
+     "line": 5,
+     "text": "FIG. 4 shows in block diagram form an embodiment of the system of FIG. 1 adapted to transfer enciphered digital messages in two directions between two terminals;"
+    },
+    {
+     "col": 7,
+     "line": 9,
+     "text": "FIG. 5 shows in block diagram form, an embodiment of the system of FIG. 1 adapted to transfer signed, enciphered digital messages in one direction between two terminals;"
+    },
+    {
+     "col": 7,
+     "line": 13,
+     "text": "FIG. 6 shows in block diagram form, an embodiment of the system of FIG. 1 adapted to transfer signed, enciphered digital messages in two directions between two terminals; and"
+    },
+    {
+     "col": 7,
+     "line": 17,
+     "text": "FIG. 7 shows in block diagram form, an embodiment of the system of FIG. 1 adapted to transfer blocked messages in one direction between two terminals."
+    }
+   ]
+  },
+  {
+   "heading": "DESCRIPTION OF THE PREFERRED EMBODIMENT",
+   "paras": [
+    {
+     "col": 7,
+     "line": 23,
+     "text": "FIG. 1 shows an embodiment of the present invention in block diagram form. This system includes a communications channel 10 and two terminals A and B coupled to the channel, where each terminal has an associated encoding key E and decoding key D: E_{A}, D_{A}, respectively, for terminal A and E_{B}, D_{B}, respectively, for terminal B. The communications channel 10 may include, for example, a conventional broad-band cable with associated modulator and demodulator equipment at the various remote terminals to permit data transfer between teminals connected to the channel and the channel itself. The system of FIG. 1 is suitable for the two-way transfer of messages between terminal A and terminal B. Each of terminals A and B is adapted to transform a plaintext message to an encoded form and transfer the encoded message over channel 10 to the other terminal. When received at the other terminal, the encoded message is transformed back to its plaintext form. In the figures, the message, encoded form and reconstituted plaintext are represented by the symbols M, C, and M', respectively, with subscripts A or B being representative of the originating terminal."
+    },
+    {
+     "col": 7,
+     "line": 45,
+     "text": "In one embodiment (e.g. the system of FIG. 2 described below), the encoded form of the message is encrypted to ciphertext that may only be decoded by the intended receiver terminal. In a second embodiment, the encoded form is representative of a message combined with a digital signature indicative of the sending terminal. In a third embodiment (e.g. the system of FIG. 5 described below), the encoded form is both encrypted to a form intelligible only to the intended receiver and also signed by the sending terminal. Alternative form systems may include additional remote terminals (each having associated encoding and decoding keys) coupled to the channel 10, as well as associated terminal and channel equipment so that messages may be addressed to particular ones of the terminals in a conventional manner."
+    },
+    {
+     "col": 7,
+     "line": 61,
+     "text": "FIG. 2 shows a form of the invention wherein messages M_{A} may be transferred in encrypted form in one direction from terminal A to terminal B. In this embodiment, terminal A includes an encoding device 12 and terminal B includes a decoding device 14."
+    },
+    {
+     "col": 7,
+     "line": 66,
+     "text": "Encoding device 12 is adapted to receive an input message M_{A} to be transferred to the terminal B. Message M_{A} may be pre-coded by conventional encoding techniques to a digital form. In embodiments, where relatively large messages are being utilized, the pre-coded form may be in terms of short data blocks which may be individually encoded by the device 12 into corresponding words of ciphertext C_{A}. To establish communications with terminal B, the encoding device 12 performs the transformation from M_{A} to C_{A} utilizing the terminal B encoding key, E_{B} (defined more fully below). The decoding device 14 receives ciphertext words C_{A} from the channel 10 and transforms them into reconstituted plaintext from M_{A}' utilizing the terminal B decoding key, D_{B} (defined more fully below). The encoding and decoding keys are adapted so that the decoded message M_{A}' is the same as the message M_{A}. To establish communication with any other terminal, the encoding device 12 of the sending terminal utilizes the encoding key associated with the intended receiver terminal. The decoding device 14 of the receiving terminal utilizes its own decoding key to transform the received ciphertext to plaintext."
+    },
+    {
+     "col": 8,
+     "line": 22,
+     "text": "In accordance with the present invention, for the i^{th} terminal, the encoding key E_{i} is a pair of positive integers e_{i} and n_{i} specifically associated with that terminal, and the decoding key is a pair of positive integers d_{i} and n_{i} where d_{i} is also specifically associated with that terminal. In accordance with the invention, n_{i} is a composite number equal to the product of prime factors p_{i} and q_{i}, e_{i} is relatively prime to (p_{i}−1)·(q_{i}−1), and d_{i} is a multiplicative inverse of e_{i}(mod(1 cm((p_{i}−1), (q_{i}−1)))). By way of example, d_{i} can be a multiplicative inverse of e_{i}(mod(p_{i}−1)·(q_{i}−1))."
+    },
+    {
+     "col": 8,
+     "line": 33,
+     "text": "The encoding transformation performed by the i^{th} terminal encoding device for a message destined for the j^{th} terminal is in accordance with the relation:"
+    },
+    {
+     "col": 8,
+     "line": 37,
+     "text": "C_{i}≡M_{i}^{e_{j}}(mod n_{j}).",
+     "formula": true
+    },
+    {
+     "col": 8,
+     "line": 39,
+     "text": "The message M_{i} is a number in the range 0≦M_{i}≦n_{j}−1. This condition may be met by initially transforming, or pre-coding, the message-to-be-transmitted into blocks which are in that range at the i^{th} terminal, and then recombining the blocks at the j^{th} terminal. The decoding transformation performed by the j^{th} terminal decoding device for the ciphertext received from the i^{th} terminal is in accordance with the relation:"
+    },
+    {
+     "col": 8,
+     "line": 48,
+     "text": "M_{i}'≡C_{i}^{d_{j}}(mod n_{j}).",
+     "formula": true
+    },
+    {
+     "col": 8,
+     "line": 50,
+     "text": "Accordingly, the encoding device 12 and decoding device 14 perform substantially the same functional operation but with different message inputs (M or C) and different keys (E or D). In the present exemplary embodiment which transfers an encrypted message from terminal A to terminal B, i=A and j=B."
+    },
+    {
+     "col": 8,
+     "line": 56,
+     "text": "The FIG. 2 embodiment is also suitable for sending signed messages M_{As} (in lieu of C_{A}) from terminal A to terminal B. In this form, the system of FIG. 2 is substantially the same as that described above except that terminal A utilizes its own decoding key D_{A} as the “encoding key” for device 12, and terminal B utilizes terminal A’s encoding key for the “decoding key” for device 14. With this configuration, M_{A} is in the range 0≦M_{A}≦n_{A}−1 and terminal A transforms the message M_{A} to M_{As} in accordance with:"
+    },
+    {
+     "col": 8,
+     "line": 67,
+     "text": "M_{As}≡M_{A}^{d_{A}}(mod n_{A})",
+     "formula": true
+    },
+    {
+     "col": 9,
+     "line": 1,
+     "text": "and terminal B transforms the received signed message M_{As} back to M_{A} in accordance with:"
+    },
+    {
+     "col": 9,
+     "line": 4,
+     "text": "M_{A}≡M_{As}^{e_{A}}(mod n_{A}).",
+     "formula": true
+    },
+    {
+     "col": 9,
+     "line": 6,
+     "text": "An exemplary form for the encoding device 12 is shown in FIG. 3. The device 12 includes an M register 20 for receiving an applied digital message-to-be-transferred and e register 22 and n register 24 for receiving an applied encoding key consisting of binary signals representative of the numbers e and n for the intended receiver terminal (which, in a public key cryptographic system, are readily available from a public file for all terminals). Encoding device 12 further includes an e shift register 26, a multiplier selector 28, ciphertext register 30 and a modulo n multiplier 32. These blocks in the device 12 are conventionally arranged together with timing control circuitry to perform “exponentiation by repeated squaring and multiplication.” In alternative embodiments, other exponentiation procedures may readily be utilized in keeping with the present invention."
+    },
+    {
+     "col": 9,
+     "line": 23,
+     "text": "In the operation of device 12 after a message M is loaded into the message register 20, the ciphertext register 30 is preset to the number 1 and the e and n registers are loaded with binary words representative of the numbers e and n, respectively, for the intended receiver terminal. The shift register 26 is clocked to shift the bits of the e word so that one bit at a time starting with the most significant bit is applied to the control input of the multiplier selector 28. In response to each applied e word bit, the current contents of C register 30 are applied as a first input to multiplier 32. In addition, the selector 28 selects the contents of C register 30 as a second input to multiplier 32, and the multiplier 32 then is activated to provide an intermediate product (modulo n) of the signals at its first and second inputs, thereby effecting a squaring (modulo n) of the contents of C register 30. C register 30 is then updated with the intermediate product signal, which is in turn applied to the first input of multiplier 32. The selector 28 then selects either the contents of M register 20 (if the currently applied e word bit is 1) or binary 1 (if the currently applied e word bit is 0) as the second input of multiplier 32, and the multiplier 32 is activated to provide a final product (modulo n) of the signals at its first and second inputs. The C register 30 is then updated with the final product signal. The e shift register is then activated to shift the e word by one bit so that the next e word bit is applied to selector 28 and the above operation repeats. Following the completion of the above operation for the last bit of the e word, the contents of the C register 30 are representative of the ciphertext corresponding to the applied message M, and is ready for transmission over the communications channel 10. In alternative configurations, the transformation of the message M to the ciphertext C may be accomplished using a programmed digital computer rather than the hardware elements illustrated in FIG. 3."
+    },
+    {
+     "col": 9,
+     "line": 59,
+     "text": "The decoding device 14 is substantially the same as the illustrated encoding device illustrated in FIG. 3, except that the message applied to the register corresponding to register 20 is replaced by the ciphertext word received from the communication channel 10, and the encoding key (e, n) words applied to the registers corresponding to registers 22 and 24 are replaced by the decoding key (d, n) words for the terminal. In this configuration, the register corresponding to register 30 contains intermediate and final product signals corresponding to the deciphered message M', and the blocks corresponding to blocks 26, 28 and 32 perform the same functions in their corresponding elements in the encoding device 12, but for the numbers d and n. As in the encoding device 12, timing control circuitry is adapted to control the sequential operation of those elements in the manner described. The device of FIG. 3 is also suitable for the signed message mode of operation, with the substitution of the appropriate encoding and decoding keys."
+    },
+    {
+     "col": 10,
+     "line": 11,
+     "text": "The communications system illustrated in FIG. 2 is suitable for one-directional communicating messages from terminal A to terminal B. FIG. 4 illustrates a similar configuration which accommodates the two-way transmission of messages between terminals A and B. In a similar manner, additional terminals may be added to the network (with suitable selection of encoding keys for each desired communication) and coupled to the communications channel 10 by way of conventional modulator and demodulator networks and terminal addressing networks to control the appropriate flow of messages from originating terminal to a desired receiving terminal."
+    },
+    {
+     "col": 10,
+     "line": 25,
+     "text": "In the FIG. 4 configuration, separate encoding and decoding devices are shown for each terminal. However, as noted above, the encoding and decoding devices perform substantially the same functions but with different input message and key signals. Accordingly, each of the stations at remote locations A and B in the FIG. 4 configuration may be replaced by a single device which may be operated as either an encoding or a decoding device with appropriate switches to control the message input (M or C) and key input (E or D). In the configuration of FIG. 4, the origin for the message, reconstituted plaintext and ciphertext is denoted by subscripts representative of the respective originating terminal. In addition, the encoding and decoding keys are representative by the letters E and D with subscripts representative of the associated terminal. For example, since terminal A is communicating with terminal B, the encoding key is denoted E_{B} so that the decoding terminal B may apply its decoding key D_{B} to extract the message M' of A(=M_{A}). For cases where terminal A wishes to communicate with a third terminal, for example, terminal C, the encoding key for the terminal A encoding device 14A would be replaced with a corresponding encoding key E_{c} for terminal C."
+    },
+    {
+     "col": 10,
+     "line": 49,
+     "text": "FIG. 5 shows an embodiment of a communication system in accordance with the present invention for transmitting signed messages from terminal A to terminal B over the communication channel 10. In this configuration, the terminal A includes an encoding device 12A which corresponds to the encoding device 12 in the FIG. 2 configuration and which similarly transforms a message to ciphertext using the encoding key for the intended receiver terminal (i.e., terminal B in this case). In addition, terminal A includes a decoding device 40A which is similar in form to the decoding device 14 (FIG. 2), but which utilizes the decoding key D_{A} associated with terminal A as the key for that device 40A. The device 40 transforms the message to be transmitted M_{A} to a signed message M_{As}, which in turn is applied as the message word input to device 12A. Device 12A provides a signed ciphertext word C_{As} which is representative of the signed message word as enciphered for reception by terminal B. C_{As} is transferred to terminal B over channel 10."
+    },
+    {
+     "col": 11,
+     "line": 1,
+     "text": "Terminal B includes a decoding device 14B which corresponds to the decoding device 14 in the FIG. 2 configuration and which transforms received signed ciphertext word C_{As} to the signed message word M_{As} using terminal B’s decoding key D_{B}. In addition, terminal B includes an encoding device 42B which is similar in form to the encoding device 12A, but which utilizes the signed message word M_{AS} as its data input and the encoding key E_{A} associated with terminal A as the key for that device 42B. Device 42B transforms the signed message word M_{As} to the unsigned message word M_{A}', which corresponds to the original message M_{A}. Thus, all of the devices 12A, 14B, 40A, and 42B are substantially the same in function but they utilize the indicated encoding or decoding keys and data inputs."
+    },
+    {
+     "col": 11,
+     "line": 16,
+     "text": "In alternative embodiments, the order of the enciphering and signing operations may be switched, provided that the order of the corresponding deciphering and unsigning operations are similarly switched. Furthermore, additional levels of enciphering or signing may also be utilized so long as there is a corresponding deciphering or unsigning operation."
+    },
+    {
+     "col": 11,
+     "line": 24,
+     "text": "While the system in FIG. 5 is suitable for signal direction transmission of a message from terminal A to terminal B, terminal B may also include blocks corresponding to blocks 12A and 40A and terminal A may include blocks corresponding to blocks 14B and 42B with the respective keys E_{A}, D_{B}, D_{A} and E_{B}, as shown in FIG. 6. With the latter system, two-way signed digital communications may be accomplished. In alternative configurations, additional terminals may be utilized using the addition of similar blocks coupled to the channel 10, with the appropriate keys and modem and addressing networks."
+    },
+    {
+     "col": 11,
+     "line": 36,
+     "text": "The signature systems described above in conjunction with FIGS. 2, 4, 5, and 6 are suitable where the respective message and ciphertext words represent numbers less than the n_{i} for the particular transformations. As noted above, when the words to be transformed (either by encoding or decoding) are initially beyond the nominal range requirement, a blocking subsystem is used to break the word into blocks within that range before the transformation is performed. A corresponding unblocking subsystem is utilized following the inverse transformation at the receiving terminal to obtain the original message. FIG. 7 shows an exemplary configuration which is similar to the configuration of FIG. 5, but which also includes blocking and unblocking subsystems. Terminal A of the configuration of FIG. 7 includes a first blocking subsystem 61 which precodes the message to a blocked message M_{A}, which in turn is transformed by device 40A to a signed message M_{As}. A second blocking subsystem 63 transforms M_{As} to blocks M_{As}\" each block of which is then transformed by device 12A to a signed ciphertext word C_{As}. At terminal B, C_{As} is first transformed to signed message blocks M_{As}\" by device 14B, which are then transformed by a first unblocking subsystem 65 to the signed message word M_{As}. The word M_{As} is then transformed by device 42B to the blocked message M_{A}, which is in turn transformed by a second unblocking subsystem 67 to the original message. In embodiments where the message is enciphered before signing, the device that first provides C_{A} which is transformed to C_{A}\" and then to C_{As}. At the receiving terminal C_{As} is first transformed to C_{A}\" which is then transformed to C_{A} and then decoded to M_{A}."
+    },
+    {
+     "col": 12,
+     "line": 1,
+     "text": "The blocking and unblocking subsystems may be configured with any of the various forms of the present invention wherein the respective message and ciphertext words are outside the nominal ranges. Where the range requirements for a word transformation are met, the blocking and unblocking subsystems are not utilized."
+    },
+    {
+     "col": 12,
+     "line": 8,
+     "text": "The encoding operation for the present invention will now be illustrated for the case where p=47, q=59, n=p·q=47·59=2773, d=157 and e=17, to encode the message:"
+    },
+    {
+     "col": 12,
+     "line": 13,
+     "text": "ITS ALL GREEK TO ME",
+     "formula": true
+    },
+    {
+     "col": 12,
+     "line": 15,
+     "text": "Initially, the message is encoded with two English letters in a block, by substituting for each letter a two-digit number: blank=00, A=01, B=02, . . . , Z=26. In this form, the message is precoded to:"
+    },
+    {
+     "col": 12,
+     "line": 20,
+     "text": "M=0920190001121200071805051100201500130500",
+     "formula": true
+    },
+    {
+     "col": 12,
+     "line": 22,
+     "text": "Since this value for M is greater than n(=2773), M is broken into blocks M_{1}, . . . , M_{10} as follows:"
+    },
+    {
+     "col": 12,
+     "line": 25,
+     "table": [
+      [
+       "M =",
+       "M_{1}",
+       "M_{2}",
+       "M_{3}",
+       "M_{4}",
+       "M_{5}",
+       "M_{6}",
+       "M_{7}",
+       "M_{8}",
+       "M_{9}",
+       "M_{10}"
+      ],
+      [
+       "=",
+       "0920",
+       "1900",
+       "0112",
+       "1200",
+       "0718",
+       "0505",
+       "1100",
+       "2015",
+       "0013",
+       "0500"
+      ]
+     ]
+    },
+    {
+     "col": 12,
+     "line": 29,
+     "text": "Since e=10001 in binary, the first block (M_{1}=0920) is enciphered using the encoding key E=(17,2773) to a corresponding ciphertext block C_{1}:"
+    },
+    {
+     "col": 12,
+     "line": 33,
+     "text": "C_{1}≡M_{1}^{e}(mod n)\n≡M_{1}^{17} (mod 2773)\n≡((((((1)^{2}·M)^{2})^{2})^{2})^{2})·M (mod 2773)\n≡948 (mod 2773)",
+     "formula": true
+    },
+    {
+     "col": 12,
+     "line": 40,
+     "text": "The whole message is enciphered as:"
+    },
+    {
+     "col": 12,
+     "line": 42,
+     "table": [
+      [
+       "C =",
+       "C_{1}",
+       "C_{2}",
+       "C_{3}",
+       "C_{4}",
+       "C_{5}",
+       "C_{6}",
+       "C_{7}",
+       "C_{8}",
+       "C_{9}",
+       "C_{10}"
+      ],
+      [
+       "=",
+       "0948",
+       "2342",
+       "1084",
+       "1444",
+       "2663",
+       "2390",
+       "0778",
+       "0774",
+       "0219",
+       "1655"
+      ]
+     ]
+    },
+    {
+     "col": 12,
+     "line": 46,
+     "text": "The ciphertext can be deciphered in a similar manner using the decoding key D=(157, 2773). For the first block C_{1}:"
+    },
+    {
+     "col": 12,
+     "line": 50,
+     "text": "M'_{1}≡C_{1}^{d} (mod n)\n≡948^{157} (mod 2773)\n≡920 (mod 2773)",
+     "formula": true
+    },
+    {
+     "col": 12,
+     "line": 55,
+     "text": "The other blocks are similarly deciphered so that the various blocks may be put together to form M, and then be decoded (by reversing the letter-to-two-digit-number transformation) to the original message."
+    },
+    {
+     "col": 12,
+     "line": 59,
+     "text": "In a public key cryptosystem utilizing the present invention, each user has an associated encryption key E=(e,n) and decryption key D=(d,n), wherein the encryption keys for all users are available in a public file, while the decryption keys for the users are only known to the respective users."
+    },
+    {
+     "col": 12,
+     "line": 65,
+     "text": "In order to maintain a high level of security in such systems, a user’s decoding key is not determinable in a practical manner from that user’s encoding key. Since"
+    },
+    {
+     "col": 13,
+     "line": 1,
+     "text": "e·d≡1 (mod(1 cm((p−1), (q−1)))),",
+     "formula": true
+    },
+    {
+     "col": 13,
+     "line": 3,
+     "text": "d can be determined from e provided p and q are also known. Accordingly, the security of the system is dependent upon the ability to determine p and q which are the prime factors of n. By selecting p and q to be large primes, the resultant composite number n is also large, and correspondingly difficult to factor. For example, using known computer-implemented factorization methods, on the order of 10^{9} years is required to factor a 200 digit long number. Thus, as a practical matter, although a user’s encryption key E=(e,n) is public, the prime factors p and q of n are effectively hidden from anyone due to the enormous difficulty in factoring n. These aspects of the present invention are described more fully in the present inventors’ publication “On Digital Signatures and Public-Key Cryptosystems”, MIT/LCS/TM-82, NTIS No. ADA-039036, April 1977."
+    },
+    {
+     "col": 13,
+     "line": 20,
+     "text": "In general, the present invention provides secure communications as a practical matter because the operation of evaluating a polynomial modulo n, where n is a large composite number, may be easily inverted only with the knowledge of the factors of n. In the preferred embodiment described above, n=p·q, where p and q are prime, and the message M is transformed by evaluating the polynomial f(M)=M^{e} modulo n, where gcd(e,(p−1)·(q−1))=1."
+    },
+    {
+     "col": 13,
+     "line": 29,
+     "text": "In alternative embodiments, the present invention may use a modulus n which is a product of three or more primes (not necessarily distinct). Decoding may be performed modulo each of the prime factors of n and the results combined using “Chinese remaindering” or any equivalent method to obtain the result modulo n."
+    },
+    {
+     "col": 13,
+     "line": 35,
+     "text": "In still other embodiments, the message M may be encoded to ciphertext C by evaluating a polynomial a_{e}M^{e}+a_{e−1}M^{e−1}+. . . +a_{0} modulo n where e and a_{e}, a_{e−1}, . . . , a_{0} are numbers. In such embodiments, C may be decoded utilizing conventional root-finding techniques, choosing which of any roots is the proper decoded version, for example, by the internal redundancy of the message. Where e is relatively prime to the Euler totient function of n, Ø(n), and where a_{e}=1 and a_{e−1}, . . . , a_{0} equal zero, C may be decoded to M' in accordance with"
+    },
+    {
+     "col": 13,
+     "line": 47,
+     "text": "M'≡C^{d}(mod n)",
+     "formula": true
+    },
+    {
+     "col": 13,
+     "line": 49,
+     "text": "where d is the multiplicative inverse of e(mod(λ(n))) where λ(n) is the least positive integer such that"
+    },
+    {
+     "col": 13,
+     "line": 52,
+     "text": "S^{λ(n)}≡1(mod n)",
+     "formula": true
+    },
+    {
+     "col": 13,
+     "line": 54,
+     "text": "for all integers S relatively prime to n."
+    },
+    {
+     "col": 13,
+     "line": 55,
+     "text": "In yet other embodiments, the message M may be encoded to ciphertext C by the performance of an ordered succession of invertible operations (modulo n) on M, with the succession including at least exponentiation, and in various embodiments, such other invertible operations as adding, subtracting, multiplying or dividing by constants (positive or negative), and simple bit manipulations (e.g. complementing or permuting bits). Decoding is accomplished by applying a second succession of invertible operations on C, with each of the operations of the second succession corresponding to one of the operations in the encoding succession, where the operations of the second succession are in reverse order with respect to the corresponding inverse operations of the encoding succession. By way of example, M may be encoded to C as follows:"
+    },
+    {
+     "col": 14,
+     "line": 4,
+     "text": "C≡E(M)≡(M^{13}+2)^{17}·4(mod(11·7)).",
+     "formula": true
+    },
+    {
+     "col": 14,
+     "line": 6,
+     "text": "This ciphertext word C is decoded as"
+    },
+    {
+     "col": 14,
+     "line": 8,
+     "text": "M≡D(C)≡((C/4)^{23}−2)^{7}(mod(11·7))",
+     "formula": true
+    },
+    {
+     "col": 14,
+     "line": 10,
+     "text": "where 23 and 13 are the multiplicative inverses of 17, and 13, respectively, modulo 1 cm(11-1, 7-1)."
+    },
+    {
+     "col": 14,
+     "line": 12,
+     "text": "Similarly, the following variations on the use of the encoding/decoding devices are to be considered as obvious to one skilled in the prior art and therefore within the intended scope of the attached claims:"
+    },
+    {
+     "col": 14,
+     "line": 16,
+     "text": "(1) using the encoding/decoding devices in cipher-feedback mode instead of the simple block encoding method described here, or as a pseudo-random number generator for use to generate pads,"
+    },
+    {
+     "col": 14,
+     "line": 20,
+     "text": "(2) signatures may be effected by signing a transformed version of the message, where the transformation is publicly known and is not necessarily invertible. (It may, for example, compress the message to be signed into a shorter form, thus giving shorter signatures)."
+    },
+    {
+     "col": 14,
+     "line": 26,
+     "text": "(3) using the present invention to transmit keys to be used in another encryption method for encoding subsequent messages."
+    },
+    {
+     "col": 14,
+     "line": 29,
+     "text": "The invention may be embodied in other specific forms without departing from the spirit or essential characteristics thereof. The present embodiments are therefore to be considered in all respects as illustrative and not restrictive, the scope of the invention being indicated by the appended claims rather than by the foregoing description, and all changes which come within the meaning and range of equivalency of the claims are therefore intended to be embraced therein."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 6,
+   "line": 65,
+   "text": "FIG. 1 shows in block diagram form, a communications system in accordance with the present invention;"
+  },
+  {
+   "fig": "2",
+   "col": 6,
+   "line": 67,
+   "text": "FIG. 2 shows in block diagram form an embodiment of the system of FIG. 1 adapted to transfer enciphered digital messages in one direction between two terminals;"
+  },
+  {
+   "fig": "3",
+   "col": 7,
+   "line": 3,
+   "text": "FIG. 3 shows in detailed block diagram form, the encoding device in the system of FIG. 2;"
+  },
+  {
+   "fig": "4",
+   "col": 7,
+   "line": 5,
+   "text": "FIG. 4 shows in block diagram form an embodiment of the system of FIG. 1 adapted to transfer enciphered digital messages in two directions between two terminals;"
+  },
+  {
+   "fig": "5",
+   "col": 7,
+   "line": 9,
+   "text": "FIG. 5 shows in block diagram form, an embodiment of the system of FIG. 1 adapted to transfer signed, enciphered digital messages in one direction between two terminals;"
+  },
+  {
+   "fig": "6",
+   "col": 7,
+   "line": 13,
+   "text": "FIG. 6 shows in block diagram form, an embodiment of the system of FIG. 1 adapted to transfer signed, enciphered digital messages in two directions between two terminals; and"
+  },
+  {
+   "fig": "7",
+   "col": 7,
+   "line": 17,
+   "text": "FIG. 7 shows in block diagram form, an embodiment of the system of FIG. 1 adapted to transfer blocked messages in one direction between two terminals."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 14,
+   "line": 39,
+   "depends": null,
+   "text": "1. A cryptographic communications system comprising:\nA. a communications channel,\nB. an encoding means coupled to said channel and adapted for transforming a transmit message word signal M to a ciphertext word signal C and for transmitting C on said channel,\nwhere M corresponds to a number representative of a message and\n0≦M≦n−1\nwhere n is a composite number of the form\nn=p·q\nwhere p and q are prime numbers, and\nwhere C corresponds to a number representative of an enciphered form of said message and corresponds to\nC≡M^{e}(mod n)\nwhere e is a number relatively prime to 1 cm(p−1,q−1), and\nC. a decoding means coupled to said channel and adapted for receiving C from said channel and for transforming C to a receive message word signal M'\nwhere M' corresponds to a number representative of a deciphered form of C and corresponds to\nM'≡C^{d}(mod n)\nwhere d is a multiplicative inverse of e(mod(1 cm((p−1),(q−1))))."
+  },
+  {
+   "n": 2,
+   "col": 15,
+   "line": 6,
+   "depends": 1,
+   "text": "2. A system according to claim 1 wherein at least one of said transforming means comprises:\na first register means for receiving and storing a first digital signal representative of said signal-to-be-transformed,\na second register means for receiving and storing a second digital signal representative of the exponent of the equivalence relation defining said transformation,\na third register means for receiving and storing a third digital signal representative of the modulus of the equivalency relation defining said transformation, and\nan exponentiation by repeated squaring and multiplication network coupled to said first, second and third register means, said network including:\nA. an output register means for receiving and storing a first multiplier signal and for applying said first multiplier signal to a first multiplier input line,\nB. selector means for successively selecting each of the bits of said second digital signal as a multiplier selector signal,\nC. means operative for each of said multiplier selector signals for selecting as a second multiplier signal either the contents of said output register means or the contents of said first register means, and for said second applying multiplier signal to a second multiplier input line, said selection being dependent on the binary value of the successive bits of said second digital signal, and\nD. modulo multiplier means operative in step with said selector means and responsive to said first and second multiplier signals on said first and second multiplier input lines for successively generating first multiplier signals and for transferring said first multiplier signals to said output register means, said first multiplier signal initially being representative of binary 1, and thereafter being representative of the modulo product of said first and second multiplier signals, where the modulus of said modulo product corresponds to said third digital signal."
+  },
+  {
+   "n": 3,
+   "col": 15,
+   "line": 49,
+   "depends": null,
+   "text": "3. A communications system for transferring message signals M_{i}, comprising k terminals, wherein each terminal is characterized by an encoding key E_{i}=(e_{i}, n_{i}) and decoding key D_{i}=(e_{i}, n_{i}), where i=1,2, . . . ,k, and wherein\nMi corrresponds to a number representative of a message signal to be transmitted from the i^{th} terminal, and\n0≦M_{i}≦n_{i}−1,\nn_{i} is a composite number of the form\nn_{i}=p_{i}·q_{i}\np_{i} and q_{i} are prime numbers,\ne_{i} is relatively prime to 1 cm(p−1,q−1),\nd_{i} is a multiplicative inverse of\ne_{i}(mod(1 cm((p_{i}−1), (q_{i}−1))))\nwherein a first terminal includes means for encoding a digital message word signal M_{a} for transmission from said first terminal (i=A) to a second terminal (i=B), said first terminal including:\nmeans for transforming said message word signal M_{A} to a signed message word signal M_{As}, M_{As} corresponding to a number representative of an encoded form of said message word signal M_{A}, whereby:\nM_{As}≡M_{A}^{d_{A}}(mod n_{A})."
+  },
+  {
+   "n": 4,
+   "col": 16,
+   "line": 12,
+   "depends": 3,
+   "text": "4. A system according to claim 3 wherein at least one of said transforming means comprises:\na first register means for receiving and storing a first digital signal representative of said signal-to-be-transformed,\na second register means for receiving and storing a second digital signal representative of the exponent of the equivalence relation defining said transformation,\na third register means for receiving and storing a third digital signal representative of the modulus of the equivalency relation defining said transformation, and\nan exponentiation by repeated squaring and multiplication network coupled to said first, second and third register means, said network including:\nA. an output register means for receiving and storing a first multiplier signal and for applying said first multiplier signal to a first multiplier input line,\nB. selector means for successively selecting each of the bits of said second digital signal as a multiplier selector signal,\nC. means operative for each of said multiplier selector signals for selecting as a second multiplier signal either the contents of said output register means or the contents of said first register means, and for said second applying muliplier signal to a second multiplier input line, said selection being dependent on the binary value of the successive bits of said second digital signal, and\nD. modulo multiplier means operative in step with said selector means and responsive to said first and second multiplier signals on said first and second multiplier input lines for successively generating first multiplier signals and for transferring said first multiplier signals to said output register means, said first multiplier signal initially being representative of binary 1, and thereafter being representative of the modulo product of said first and second multiplier signals, where the modulus of said modulo product corresponds to said third digital signal."
+  },
+  {
+   "n": 5,
+   "col": 16,
+   "line": 55,
+   "depends": 3,
+   "text": "5. The system of claim 3 further comprising:\nmeans for transmitting said signal message word signal M_{As} from said first terminal to said second terminal, and\nwherein said second terminal includes means for decoding said signed message word signal M_{As} to said message word signal M_{A}, said second terminal including:\nmeans for transforming said ciphertext word signal C_{A} to said message word signal M_{A}, whereby\nM_{A}≡M_{As}^{e_{A}}(mod n_{A})."
+  },
+  {
+   "n": 6,
+   "col": 16,
+   "line": 67,
+   "depends": 3,
+   "text": "6. The system of claim 3 wherein said encoding means further comprises:\nmeans for transforming said sfgned message word signal M_{As} to one or more signed message block word signals M_{As}\", each block word signal M_{As}\" corresponding to a number representative of a portion of said signed message word signal M_{A} in the range 0≦M_{As}\"≦n_{B}−1, and\nmeans for transforming each of said signed message block word signals M_{As}\" to a signed ciphertext word signal C_{As}, C_{As} corresponding to a number representative of an encoded form of said signed message block word signal, whereby\nC_{As}≡M_{As}\"^{e_{B}}(mod n_{B})."
+  },
+  {
+   "n": 7,
+   "col": 17,
+   "line": 14,
+   "depends": 6,
+   "text": "7. The system of claim 6 comprising the further steps of:\nmeans for transmitting said signed ciphertext word signal C_{As} from said first terminal to said second terminal,\nwherein said second terminal includes means for decoding said signed ciphertext word signals to said message word signal M_{A}, said second terminal including:\nmeans for transforming each of said signed ciphertext word signal C_{As} to one of said signed message block word signals M_{As}\", whereby\nM_{As}\"≡C_{As}^{d_{B}}(mod n_{B})\nmeans for transforming said signed message block word signals to said signed message word signal M_{As}\nmeans for transforming said sfgned message word signal to safd message word signal M_{A}, whereby\nM_{A}≡M_{As}^{e_{A}}(mod n_{A})."
+  },
+  {
+   "n": 8,
+   "col": 17,
+   "line": 36,
+   "depends": null,
+   "text": "8. A communications system for transferring a message signal M_{i} comprising k terminals, wherein each terminal is characterized by an encoding key E_{i}=(e_{i}, n_{i}) and decoding key D_{i}=(e_{i}, n_{i}), where i=1,2, . . . ,k, and wherein\nM_{i} corresponds to a number representative of a message signal to be transmitted from the i^{th} terminal,\nn_{i} is a composite number of the form\nn_{i}=p_{i}·q_{i}\nP_{i} and q_{i} are prime numbers,\ne_{i} is relatively prime to 1 cm(p_{i}−1,q_{i}−1),\nd_{i} is a multiplicative inverse of\ne_{i}(mod(1 cm((p_{i}−1),(q_{i}−1))))\nwherein a first terminal includes means for encoding a digital message word signal M_{A} for transmission from said first terminal (i=A) to a second terminal (i=B), said first terminal including:\nmeans for transforming said message word signal M_{A} to one or more message block word signals M_{A}', each block word signal M_{A} being a number representative of a portion of said message word signal M_{A} in the range 0≦M_{A}≦n_{B}−1, means for transforming each of said message block word signals M_{A}\" to a ciphertext word signal C_{A}, C_{A} corresponding to a number representative of an encoded form of said message block word signal M_{A}\", whereby:\nC_{A}≡M_{A}\"^{e_{B}}(mod n_{B})."
+  },
+  {
+   "n": 9,
+   "col": 18,
+   "line": 1,
+   "depends": 8,
+   "text": "9. A system according to claim 8 wherein at least one of said transforming means comprises:\na first register means for receiving and storing a first digital signal representative of said signal-to-be-transformed,\na second register means for receiving and storing a second digital signal representative of the exponent of the equivalence relation defining said transformation,\na third register means for receiving and storing a third digital signal representative of the modulus of the equivalency relation defining said transformation, and\nan exponentiation by repeated squaring and multiplication network coupled to said first, second and third register means, said network including:\nA. an output register means for receiving and storing a first multiplier signal and for applying said first multiplier signal to a first multiplier input line,\nB. selector means for successively selecting each of the bits of said second digital signal as a multiplier selector signal,\nC. means operative for each of said multiplier selector signals for selecting as a second multiplier signal either the contents of said output register means or the contents of said first register means, and for said second applying multiplier signal to a second multiplier input line, said selection being dependent on the binary value of the successive bits of said second digital signal, and\nD. modulo multiplier means operative in step with said selector means and responsive to said first and second multiplier signals on said first and second multiplier input lines for successively generating first multiplier signals and for transferring said first multiplier signals to said output register means, said first multiplier signal initially being representaative of binary 1, and thereafter being representative of the modulo product of said first and second multiplier signals, where the modulus of said modulo product corresponds to said third digital signal."
+  },
+  {
+   "n": 10,
+   "col": 18,
+   "line": 45,
+   "depends": 8,
+   "text": "10. The system of claim 8 further comprising:\nmeans for transmitting said ciphertext word signals from said first terminal to said second terminal, and\nwherein said second terminal includes means for decoding said ciphertext word signals to said message word signal M_{A}, said second terminal including:\nmeans for transforming each of said ciphertext word signals C_{A} to one of said message block word signals M_{A}\", whereby\nM_{A}≡C_{A}^{d_{B}}(mod n_{B})\nmeans for transforming said message block word signals M_{A}\" to said message word signal M_{A}\"."
+  },
+  {
+   "n": 11,
+   "col": 18,
+   "line": 59,
+   "depends": 8,
+   "text": "11. The system of claim 8 wherein said encoding means further comprises:\nmeans for transforming said ciphertext word signal C_{A} to one or more ciphertext block word signals C_{A}\", each block word signal C_{A}\" being a number representative of a portion of said ciphertext word signal C_{A} in the range 0≦C_{A}\"≦n_{A}−1,\nmeans for transforming each of said ciphertext block word signals C_{A}\" to a signed ciphertext word signal C_{As} corresponding to a number representative of an encoded form of said ciphertext block word signal C_{A}\", whereby\nC_{As}≡C_{A}\"^{d_{A}}(mod n_{A})."
+  },
+  {
+   "n": 12,
+   "col": 19,
+   "line": 5,
+   "depends": 11,
+   "text": "12. The system of claim 11 further comprising:\nmeans for transmitting said signed ciphertext word signals from said first terminal to said second terminal,\nwherein said second terminal includes means for decoding said signed ciphertext word signals to said message word signal M_{A}, said second terminal including:\nmeans for transforming each of said signed ciphertext word signals C_{AS} to one of said ciphertext block word signals C_{A}\", whereby\nC_{A}\"≡C_{As}^{e_{A}}(mod n_{A})\nmeans for transforming said ciphertext block word signals to said message block word signals, whereby\nM_{A}\"≡C_{A}\"^{d_{B}}(mod n_{B})\nmeans for transforming said message block word signals to said message word signal M_{A}."
+  },
+  {
+   "n": 13,
+   "col": 19,
+   "line": 26,
+   "depends": null,
+   "text": "13. A communications system having a plurality of terminals coupled by a communications channel, including a first terminal characterized by an associated encoding key E_{A}=(e_{A}, n_{A}) and decoding key D_{A}=(d_{A}, n_{A}), and including a second terminal, wherein\nn_{A} is a composite number of the form\nn_{A}=p_{A}·q_{A}\np_{A} and q_{A} are prime numbers,\ne_{A} is relatively prime to 1 cm(p_{A}−1, q_{A}−1),\nd_{A} is a multiplicative inverse of\ne_{A}(mod(1 cm((p_{A}−1), (q_{A}−1)))).\nwherein said first terminal comprises:\nencoding means coupled to said channel and adapted for transforming a transmit message word signal M_{A} to a signed message word signal M_{As} and for transmitting M_{As} on said channel,\nwhere M_{A} corresponds to a number representative of a message and\n0≦M_{A}≦n_{A}−1\nwhere M_{As} corresponds to a number representative of a signed form of said message and corresponds to\nM_{As}≡M_{A}^{d_{A}}(mod n_{A})\nwherein said second terminal comprises:\ndecoding means coupled to said channel and adapted for receiving M_{As} from said channel and for transforming M_{As} to a receive message word signal M_{A}'\nwhere M_{A}' corresponds to a number representative of an unsigned form of M_{A} and corresponds to\nM_{A}'≡M_{As}^{e_{A}}(mod n_{A})."
+  },
+  {
+   "n": 14,
+   "col": 19,
+   "line": 62,
+   "depends": 13,
+   "text": "14. A system according to claim 13 wherein at least one of said transforming means comprises:\na first register means for receiving and storing a first digital signal representative of said signal-to-be-transformed,\na second register means for receiving and storing a second digital signal representative of the exponent of the equivalence relation defining said transformation,\na third register means for receiving and storing a third digital signal representative of the modulus of the equivalency relation defining said transformation, and\nan exponentiation by repeated squaring and multiplication network coupled to said first, second and third register means, said network including:\nA. an output register means for receiving and storing a first multiplier signal and for applying said first multiplier signal to a first multiplier input line,\nB. selector means for successively selecting each of the bits of said second digital signal as a multiplier selector signal,\nC. means operative for each of said multiplier selector signals for selecting as a second multiplier signal either the contents of said output register means or the contents of said first register means, and for said second applying multiplier signal to a second multiplier input line, said selection being dependent on the binary value of the successive bits of said second digital signal, and\nD. modulo multiplier means operative in step with said selector means and responsive to said first and second multiplier signals on said first and second multiplier input lines for successively generating first multiplier signals and for transferring said first multiplier signals to said output register means, said first multiplier signal initially being representative of binary 1, and thereafter being representative of the modulo product of said first and second multiplier signals, where the modulus of said modulo product corresponds to said third digital signal."
+  },
+  {
+   "n": 15,
+   "col": 20,
+   "line": 38,
+   "depends": 13,
+   "text": "15. The system according to claim 13 wherein said second terminal is characterized by an associated encoding key E_{B}=(e_{B}, n_{B}) and decoding key D_{B}=(d_{B}, n_{B}), where:\nn_{B} is a composite number of the form\nn_{B}=p_{B}·q_{B}\np_{B} and q_{B} are prime numbers,\ne_{B} is relatively prime to 1 cm(p_{B}−1,q_{B}−1),\nd_{B} is a multiplicative inverse of\ne_{B}(mod(1 cm((p_{B}−1),(q_{B}−1)))),\nwherein said second terminal comprises:\nencoding means coupled to said channel and adapted for transforming a transmit message word signal M_{B} to a signed message word signal M_{Bs} and for transmitting M_{Bs} on said channel,\nwhere M_{B} corresponds to a number representative of a message and\n0≦M_{B}≦n_{B}−1\nwhere M_{Bs} corresponds to a number representative of an enciphered form of said message signal M_{B} and corresponds to\nM_{Bs}≡M_{B}^{d_{B}}(mod n_{B})\nwherein said first terminal comprises:\ndecoding means coupled to said channel and adapted for receiving M_{Bs} from said channel and for transforming M_{Bs} to a receive message word signal M_{B}'\nwhere M' is a number representative of an unsigned form of C and corresponds to\nM_{B}'≡M_{Bs}^{e_{B}}(mod n_{B})."
+  },
+  {
+   "n": 16,
+   "col": 21,
+   "line": 8,
+   "depends": 13,
+   "text": "16. The system according to claim 13 wherein said second terminal is characterized by an associated encoding key E_{B}=(e_{B}, n_{B}) and decoding key D_{B}=(d_{B}, n_{B}), where:\nn_{B} is a composite number of the form\nn_{B}=p_{B}·q_{B}\np_{B} and q_{B} are prime numbers,\ne_{B} is relatively prime to 1 cm(p_{B}−1,q_{B}−1),\nd_{B} is a multiplicative inverse of e_{B}(mod(1 cm((p−1),(q−1)))),\nwherein said encoding means of said first terminal is adapted for transforming said message word signal M_{A} to a signed ciphertext word signal C_{As}, and for transmitting C_{As} on said channel in place of M_{As}\nwhereby C_{As} corresponds to a number representative of a signed enciphered form of said message and corresponds to:\nC_{As}≡M_{As}\"^{e_{B}}(mod n_{B})\nwhere M_{As}\" corresponds to a number representative of a block of said signed message word signal M_{As} in the range 0≦M_{As}\"≦n_{B}−1\nwherein said decoding means of said second terminal is adapted to first transform said signed enciphered form of said message C_{As} to M_{As} in accordance with:\nM_{As}'≡C_{As}^{d_{B}}(mod n_{B})\nthen to transform M_{As}\" to M_{As}, and then to transform M_{As} to said receive message word signal M_{A}', where M_{A}' is a number representative of a deciphered form of C_{As} and corresponds to\nM_{A}≡M_{As}^{e_{A}}(mod n_{A})."
+  },
+  {
+   "n": 17,
+   "col": 21,
+   "line": 44,
+   "depends": 15,
+   "text": "17. The system according to claim 15\nwherein said encoding means of said first terminal is adapted for transforming said message word signal M_{A} to a signed ciphertext word signal C_{As}, and for transmitting C_{As} on said channel in place of M_{As},\nwhereby C_{As} corresponds to a number representative of a signed enciphered form of said message and corresponds to:\nC_{As}≡M_{As}\"^{e_{B}}(mod n_{B})\nwherein said decoding means of said second terminal is adapted to first transform said signed enciphered form of said message C_{As} to M_{As}\" in accordance with:\nM_{As}\"≡C_{As}^{e_{B}}(mod n_{B})\nthen to transform M_{As} to M_{As}, and then to transform M_{As} to said receive message word signal M_{A}', where M_{A}' corresponds to a number representative of a deciphered form of C_{As} and corresponds to\nM_{A}'≡M_{As}^{e_{A}}(mod n_{A})\nwherein further said encoding means of said second terminal is adapted for transforming said message word signal M_{B} to a signed ciphertext word signal C_{Bs}, and for transmitting C_{Bs} on said channel in place of M_{Bs},\nwhereby C_{Bs} corresponds to a number representative of a signed enciphered form of said message and corresponds to:\nC_{Bs}≡M_{Bs}\"^{e_{A}}(mod n_{A})\nwhere M_{Bs} corresponds to a number representative of a block of said signed message word signal M_{Bs} in the range 0≦M_{Bs}≦n_{A}−1,\nwherein said decoding means of said first terminal is adapted to first transform said signed enciphered form of said message C_{As} to M_{Bs}\" in accordance with:\nM_{Bs}\"≡C_{Bs}^{e_{A}}(mod n_{A})\nthen to transform M_{Bs}\" to M_{Bs}, and then to transform M_{Bs} to said receive message word signal M_{B}', and corresponds to\nM_{B}'≡M_{Bs}^{e_{B}}(mod n_{B})."
+  },
+  {
+   "n": 18,
+   "col": 22,
+   "line": 27,
+   "depends": null,
+   "text": "18. A cryptographic communications system having a plurality of terminals coupled by a communications channel, including a first terminal characterized by an associated encoding key E_{A}=(e_{A},n_{A}) and decoding key D_{A}=(d_{A},n_{A}), and including a second terminal wherein\nn_{A} is a composite number of the form\nn_{A}=p_{A}·q_{A}\np_{A} and q_{A} are prime numbers,\ne_{A} is relatively prime to 1 cm(p_{A}−1,q_{A}−1),\nd_{A} is a multiplicative inverse of\ne_{A}(mod(1 cm((p_{A}−1),(q_{A}−1)))),\nwherein said second terminal comprises:\nblocking means for transforming a message-to-be-transmitted from said second terminal to said first terminal, to one or more transmit message word signals M_{B},\nwhere M_{B} corresponds to a number representative of said message in the range\n0≦M_{B}≦n_{A}−1\nencoding means coupled to said channel and adapted for transforming each transmit message word signal M_{B} to a ciphertext word signal C_{B} and for transmitting C_{B} on said channel,\nwhere C_{B} corresponds to a number representative of an enciphered form of said message and corresponds to\nC_{B}≡M_{B}^{e_{A}}(mod n_{A})\nwherein said first terminal comprises:\ndecoding means coupled to said channel and adapted for receiving said ciphertext word signals C_{B} from said channel and for transforming each of said ciphertext word signals to a receive message word signal M_{B}, and\nmeans for transforming said receive message word signals M_{B}' to said message,\nwhere M_{B}' is a number representative of a deciphered form of C_{B} and corresponds to\nM_{B}'≡C_{B}^{d_{A}}(mod n_{A})."
+  },
+  {
+   "n": 19,
+   "col": 23,
+   "line": 5,
+   "depends": 18,
+   "text": "19. A system according to claim 18 wherein at least one of said transforming means comprises:\na first register means for receiving and storing a first digital signal representative of said signal-to-be-transformed,\na second register means for receiving and storing a second digital signal representative of the exponent of the equivalence relation defining said transformation,\na third register means for receiving and storing a third digital signal representative of the modulus of the equivalency relation defining said transformation, and\nan exponentiation by repeated squaring and multiplication network coupled to said first, second and third register means, said network including:\nA. an output register means for receiving and storing a first multiplier signal and for applying said first multiplier signal to a first multiplier input line,\nB. selector means for successively selecting each of the bits of said second digital signal as a multiplier selector signal,\nC. means operative for each of said multiplier selector signals for selecting as a second multiplier signal either the contents of said output register means or the contents of said first register means, and for said second applying multiplier signal to a second multiplier input line, said selection being dependent on the binary value of the successive bits of said second digital signal, and\n(D. modulo multiplier means operative in step with said selector means and responsive to said first and second multiplier signals on said first and second multiplier input lines for successively generating first multiplier signals for transferring said first multiplier signals to said output register means, said first multiplier signal initially being representative of binary 1, and thereafter being representative of the modulo product of said first and second multiplier signals, where the modulus of said modulo product corresponds to said third digital signal."
+  },
+  {
+   "n": 20,
+   "col": 23,
+   "line": 48,
+   "depends": 18,
+   "text": "20. The system according to claim 18 wherein said second terminal is characterized by an associated encoding key E_{B}=(e_{B}, n_{B}) and decoding key D_{B}=(d_{B}, n_{B}), where:\nn_{B} is a composite number of the form\nn_{B}=p_{B}·q_{B}\nP_{B} and q_{B} are prime numbers,\ne_{B} is relatively prime to 1 cm(p_{B}−1,q_{B}−1),\nd_{B} is a multiplicative inverse of\ne_{B}(mod(1 cm((p_{B}−1),(q_{B}−1)))).\nwherein said first terminal comprises:\nblocking means for transforming a message-to-be-transmitted from said first terminal to said second terminal, to one or more transmit message word signals M_{A},\nwhere M_{A} corresponds to a number representative of said message in the range\n0≦M_{A}≦n_{B}−1\nencoding means coupled to said channel and adapted for transforming each transmit message word signal M_{A} to a ciphertext word signal C_{A} and for transmitting C_{A} on said channel,\nwhere C_{A} corresponds to a number representative of an enciphered form of said message and corresponds to\nC_{A}≡M_{A}^{e_{B}}(mod n_{B})\nwherein said second terminal comprises:\ndecoding means coupled to said channel and adapted for receiving said ciphertext word signals C_{A} from said channel and for transforming each of said ciphertext word signals to a receive message word signal M_{A}', and\nmeans for transforming said receive message word signals M_{A} to said message,\nwhere M' corresponds to a number representative of a deciphered form of C and corresponds to\nM_{A}'≡C_{A}^{d_{B}}(mod n_{B})."
+  },
+  {
+   "n": 21,
+   "col": 24,
+   "line": 25,
+   "depends": 18,
+   "text": "21. The system according to claim 18 wherein said second terminal is characterized by an associated encoding key E_{B}=(e_{B}, n_{B}) and decoding key D_{B}=(d_{B}, n_{B}), where:\nn_{B} is a composite number of the form\nn_{B}=p_{B}·q_{B}\np_{B} and q_{B} are prime numbers,\ne_{B} is relatively prime to 1 cm(p_{B}−1,q_{B}−1),\nd_{B} is a multiplicative inverse of\ne_{B}(mod(1 cm((p−1),(q−1)))).\nwherein said encoding means of said second terminal is adapted for transforming said message word signal M_{B} to a signed cipher-text word signal C_{Bs}, and for transmitting C_{Bs} on said channel in place of C_{B}, whereby C_{Bs} corresponds to a number representative of a signed enciphered form of said message and corresponds to:\nC_{Bs}≡C_{B}\"^{d_{B}}(mod n_{B})\nwhere C_{B}\" corresponds to a number representative of a block of said ciphertext word signal C_{B} in the range 0≦C_{B}\"≦n_{B}−1,\nwherein said decoding means of said first terminal is adapted to first transform said signed enciphered form of said message C_{Bs} to C_{B}\" in accordance with:\nC_{B}\"≡C_{Bs}^{e_{B}}(mod n_{B})\nthen to transform C_{B}\" to C_{B}, and then to transform C_{B} to said receive message word signal M_{B}', where M_{B}' corresponds to a number representative of a deciphered form of C_{Bs} and corresponds to:\nM_{B}'≡C_{B}^{d_{A}}(mod n_{A})."
+  },
+  {
+   "n": 22,
+   "col": 24,
+   "line": 62,
+   "depends": 20,
+   "text": "22. The system according to claim 20 wherein said encoding means of said second terminal is adapted for transforming said message word signal M_{B} to a signed ciphertext word signal C_{Bs}, and for transmitting C_{Bs} on said channel in place of C_{B}, whereby C_{Bs} corresponds to a number representative of a signed enciphered form of said message and corresponds to:\nC_{Bs}≡C_{B}\"^{d_{B}}(mod n_{B})\nwhere C_{B}\" corresponds to a number representative of a block of said ciphertext word signal C_{B} in the range 0≦C_{B}\"≦n_{B}−1,\nwherein said decoding means of said first terminal is adapted to first transform said signed enciphered form of said message C_{Bs} to C_{B}\" in accordance with:\nC_{B}\"≡C_{Bs}^{e_{B}}(mod n_{B})\nand then to transform C_{B} to C_{B}, and then to transform C_{B} to said receive message word signal M_{B}', where M_{B}' is a number representative of a deciphered form of C_{B} and corresponds to:\nM_{B}'≡C_{B}^{d_{A}}(mod n_{A})\nwherein further said encoding means of said first terminal is adapted to transform said message word signal M_{A} to a signal ciphertext word signal C_{As}, as for transmitting C_{As} on said channel in place of C_{B},\nwhereby C_{A} corresponds to a number representative of a signed enciphered form of said message and corresponds to:\nC_{A}≡C_{A}\"^{d_{A}}(mod n_{A})\nwhere C_{A}\" corresponds to a number representative of a block of said ciphertext word signal C_{A} in the range of 0≦C_{A}\"≦n_{A}−1,\nwherein said decoding means of said second terminal is adapted to first transform said signaled enciphered form of said message C_{As} to C_{A}\" in accordance with:\nC_{A}\"≡C_{As}^{e_{A}}(mod n_{A}),\nthen to transform C_{A}\" to C_{A}, and then to transform C_{A} to said receive message word signal M_{A}', where M_{A}' corresponds to a number representative of a deciphered form of C_{A} and corresponds to:\nM_{A}≡C_{A}^{d_{B}}(mod n_{B})"
+  },
+  {
+   "n": 23,
+   "col": 25,
+   "line": 47,
+   "depends": null,
+   "text": "23. A method for establishing cryptographic communications comprising the step of:\nencoding a digital message word signal M to a ciphertext word signal C, where M corresponds to a number representative of a message and\n0≦M≦n−1\nwhere n is a composite number of the form\nn=p·q\nwhere p and q are prime numbers, and\nwhere C is a number representative of an encoded form of message word M,\nwherein said encoding step comprises the step of:\ntransforming said message word signal M to said ciphertext word signal C whereby\nC≡M^{e}(mod n)\nwhere e is a number relatively prime to (p−1)·(q−1)."
+  },
+  {
+   "n": 24,
+   "col": 26,
+   "line": 1,
+   "depends": 23,
+   "text": "24. The method according to claim 23 comprising the further step of:\ndecoding said ciphertext word signal C to said message word signal M,\nwherein said decoding step comprises the step of:\ntransforming said ciphertext word signal C, whereby:\nM≡C^{d}(mod n)\nwhere d is a multiplicative inverse of e(mod(1 cm((p−1), (q−1))))."
+  },
+  {
+   "n": 25,
+   "col": 26,
+   "line": 12,
+   "depends": null,
+   "text": "25. A method for transferring a message signal M_{i} in a communications system having k terminals, wherein each terminal is characterized by an encoding key E_{i}=(e_{i}, n_{i}) and decoding key D_{i}=(e_{i}, n_{i}), where i=1,2, . . . ,k, and wherein\nM_{i} corresponds to a number representative of message-to-be-transmitted from the i^{th} terminal, and\n0≦M_{i}≦n_{i}−1,\nn_{i} is a composite number of the form\nn_{i}=p_{i}·q_{i}\np_{i} and q_{i} are prime numbers,\ne_{i} is relatively prime to 1 cm(p_{i}−1,q_{i}−1),\nd_{i} is a multiplicative inverse of\ne_{i}(mod(1 cm((p_{i}−1),(q_{i}−1))))\ncomprising the step of:\nencoding a digital message word signal M_{A} for transmission from a first terminal (i=A) to a second terminal (i=B), said encoding step including the sub-step of:\ntransforming said message word signal M_{A} to a signed message word signal M_{As}, M_{A} corresponding to a number representative of an encoded form of said message word signal M_{A}, whereby:\nM_{As}≡M_{A}^{d_{A}}(mod n_{A})."
+  },
+  {
+   "n": 26,
+   "col": 26,
+   "line": 42,
+   "depends": 25,
+   "text": "26. The method of claim 25 comprising the further steps of:\ntransmitting said signed message word signal M_{As} to said second terminal, and\ndecoding said signed message word signal M_{As} to said message word signal M_{A}, said decoding step including the sub-step of:\ntransforming said ciphertext word signal C_{A} to said message word signal M_{A}, whereby\nM_{A}≡M_{As}^{e_{A}}(mod n_{A})."
+  },
+  {
+   "n": 27,
+   "col": 26,
+   "line": 53,
+   "depends": 25,
+   "text": "27. The method of claim 25 wherein said encoding step comprises the further steps of:\ntransforming said signed message word signal M_{As}, one or more signed message block word signals M_{As},\neach block word signal M_{As}\" corresponding to a number representative of a portion of said signed message word signal M_{A} in the range 0≦M_{As}\"≦n_{B}−1, and\ntransforming each of said signed message block word signals M_{As} to a signed ciphertext word signal C_{As}, C_{As} corresponding to a number representative of an encoded form of said signed message block word signal, whereby\nC_{As}≡M_{As}^{e_{B}}(mod n_{B})."
+  },
+  {
+   "n": 28,
+   "col": 27,
+   "line": 1,
+   "depends": 26,
+   "text": "28. The method of claim 26 comprising the further steps of:\ntransmitting said signed ciphertext word signal C_{As} to said second terminal,\ndecoding said signed ciphertext words to said message word signal M_{A}, said decoding step including the sub-steps of:\ntransforming each of said signed ciphertext word signals C_{As} to one of said signed message block word signals M_{As}\", whereby\nM_{As}\"≡C_{As}^{d_{B}}(mod n_{B})\ntransforming said signed message block word signals to said signed message word signal M_{As},\ntransforming said signed message word signal to said message word signal M_{A}, whereby\nM_{A}≡M_{As}^{e_{A}}(mod n_{A})."
+  },
+  {
+   "n": 29,
+   "col": 27,
+   "line": 20,
+   "depends": null,
+   "text": "29. A method for transferring a message signal M_{i} in a communications system having k terminals, wherein each terminal is characterized by an encoding key E_{i}=(e_{i}, n_{i}) and decoding key D_{i}=(e_{i}, n_{i}), where i=1,2, . . . , k, and wherein\nM_{i} corresponds to a number representative of a message-to-be-transmitted from the i^{th} terminal,\nn_{i} is a composite number of the form\nn_{i}=p_{i}·q_{i}\np_{i} and q_{i} are prime numbers,\ne_{i} is relatively prime to 1 cm(p_{i}−1,q_{i}−1),\nd_{i} is a multiplicative inverse of\ne_{i}(mod(1 cm((p_{i}−1),(q_{i}−1)))\ncomprising the step of:\nencoding a digital message word signal M_{A} for transmission from a first terminal (i=A) to a second terminal (i=B), said encoding step including the sub-step of:\ntransforming said message word signal M_{A} to one or more message block word signals M_{A}\", each block word signal M_{A}\" corresponding to a number representative of a portion of said message word signal M_{A} in the range 0≦M_{A}\"≦n_{B}−1,\ntransforming each of said message block word signals M_{A}\" to a ciphertext word signal C_{A}, C_{A} corresponding to a number representative of an encoded form of said message block word signal M_{A}\", whereby:\nC_{A}≡M_{A}\"^{e_{B}}(mod n_{B})."
+  },
+  {
+   "n": 30,
+   "col": 27,
+   "line": 54,
+   "depends": 29,
+   "text": "30. The method of claim 29 comprising the further steps of:\ntransmitting said ciphertext word signals to said second terminal, and\ndecoding said ciphertext word signals to said message word signal M_{A}, said decoding step including the sub-steps of:\ntransforming each of said ciphertext word signals C_{A} to one or said message block word signals M_{A}\", whereby\nM_{A}\"≡C_{A}^{d_{B}}(mod n_{B})\ntransforming said message block word signals M_{A}\" to said message word signal M_{A}."
+  },
+  {
+   "n": 31,
+   "col": 28,
+   "line": 1,
+   "depends": 29,
+   "text": "31. The method of claim 29 wherein said encoding step comprises the further step of:\ntransforming said ciphertext word signal C_{A} to one or more ciphertext block word signals C_{A}, each block word signal C_{A}\" corresponding to a number representative of a portion of said ciphertext word signal C_{A} in the range 0≦C_{A}\"≦n_{A}−1,\ntransforming each of said ciphertext block word signals C_{A}\" to a signed ciphertext word signal C_{As}, C_{As} corresponding to a number representative of an encoded form of said ciphertext block word signal C_{A}\", whereby\nC_{As}≡C_{A}\"^{d_{A}}(mod n_{A})."
+  },
+  {
+   "n": 32,
+   "col": 28,
+   "line": 15,
+   "depends": 31,
+   "text": "32. The method of claim 31 comprising the further steps of:\ntransmitting said signed ciphertext word signals to said second terminal,\ndecoding said signed ciphertext word signals to said message word signal M_{A}, said decoding step including the sub-steps of:\ntransforming each of said signed ciphertext word signals C_{As} to one of said ciphertext block word signals C_{A}\", whereby\nC_{A}\"≡C_{As}^{e_{A}}(mod n_{A})\ntransforming said ciphertext block word signals to said message block word signals, whereby\nM_{A}\"≡C_{A}\"^{d_{B}}(mod n_{B})\ntransforming said message block word signals to said message word signal M_{A}."
+  },
+  {
+   "n": 33,
+   "col": 28,
+   "line": 35,
+   "depends": null,
+   "text": "33. In a communications system,\nan encoding means for transforming a transmit message word signal M to a ciphertext word signal C\nwhere M corresponds to a number representative of a message and\n0≦M≦n−1\nwhere n is a composite number, and\nwhere C corresponds to a number representative of an enciphered form of said message and corresponds to\nC≡a_{e}M^{e}+a_{e−1}M^{e−1}+ . . . +a_{0}(mod n)\nwhere e and a_{e}, a_{e−1}, . . . a_{0} are numbers."
+  },
+  {
+   "n": 34,
+   "col": 28,
+   "line": 51,
+   "depends": 28,
+   "text": "34. A system according to claim 28 wherein at least one of said transforming means comprises:\na first register means for receiving and storing a first digital signal representative of said signal-to-be-transformed,\na second register means for receiving and storing a second digital signal representative of the exponent of the equivalence relation defining said transformation,\na third register means for receiving and storing a third digital signal representative of the modulus of the equivalency relation defining said transformation, and\nan exponentiation by repeated squaring and multiplication network coupled to said first, second and third register means, said network including:\nA. an output register means for receiving and storing a first multiplier signal and for applying said first multiplier signal to a first multiplier input line,\nB. selector means for successively selecting each of the bits of said second digital signal as a multiplier selector signal,\nC. means operative for each of said multiplier selector signals for selecting as a second multiplier signal either the contents of said output register means or the contents of said first register means, and for said second applying multiplier signal to a second multiplier input line, said selection being dependent on the binary value of the successive bits of said second digital signal, and\nD. modulo multiplier means operative in step with said selector means and responsive to said first and second multiplier signals on said first and second multiplier input lines for successively generating first multiplier signals and for transferring said first multiplier signals to said output register means, said first multiplier signal initially being representative of binary 1, and thereafter being representative of the modulo product of said first and second multiplier signals, where the modulus of said modulo product corresponds to said third digital signal."
+  },
+  {
+   "n": 35,
+   "col": 29,
+   "line": 26,
+   "depends": 33,
+   "text": "35. In the communications system according to claim 33 where e is relatively prime to the Euler totient function of n, Ø(n), and where a_{e}=1 and a_{e−1}, . . . , a_{0} equal zero,\na decoding means adapted for receiving C and for transforming C to a receive message word signal M',\nwhere M' corresponds to a number representative of a deciphered form of C and corresponds to\nM'≡C^{d}(mod n)\nwhere d is a multiplicative inverse of e(mod(λ(n))) where λ(n) is the least positive integer such that\nS^{λ(n)}=1(mod n)\nfor all integers S relatively prime to n."
+  },
+  {
+   "n": 36,
+   "col": 29,
+   "line": 44,
+   "depends": 33,
+   "text": "36. In the communications system according to claim 33 where said encoding means is adapted to transform M to C by the performance of a first ordered succession of invertible operations on M, at least one of said operations being exponentiation, a decoding means adapted to transform C to M by the performance of a second ordered succession of invertible operations on C, wherein each of the invertible operations of said second succession is the inverse of a corresponding one of said first succession, and wherein the order of said operations in said second succession is reversed with respect to the order of corresponding operations in said first succession."
+  },
+  {
+   "n": 37,
+   "col": 29,
+   "line": 57,
+   "depends": null,
+   "text": "37. A method for establishing cryptographic communications comprising the step of:\nencoding a digital message word signal M to a ciphertext word signal C, where M corresponds to a number representative of a message and\n0≦M≦n−1\nwhere n is a composite number and\nwhere C corresponds to a number representative of an encoded form of message word M,\nwherein said encoding step comprises the step of:\ntransforming said message word signal M to said ciphertext word signal C whereby\nC≡a_{e}M^{e}+a_{e−1}M^{e−1}+ . . . +a_{0}(mod n)\nwhere e and a_{e}, a_{e−1}, . . . a_{0} are numbers."
+  },
+  {
+   "n": 38,
+   "col": 30,
+   "line": 7,
+   "depends": 37,
+   "text": "38. In the method according to claim 37 where e is relatively prime to the Euler totient function of n,Øn), and where a_{e}=1 and a_{e−1}, . . . , a_{0} equal zero, the further step of:\ndecoding said ciphertext word signal C to said message word signal M,\nwherein said decoding step comprises the step of:\ntransforming said ciphertext word signal C, whereby:\nM≡C^{d}(mod n)\nwhere d is a multiplicative inverse of e(mod(λ(n)) where λ(n) is the least positive integer such that\nS^{λ(n)}=1(mod n)\nfor all integers S relatively prime to n."
+  },
+  {
+   "n": 39,
+   "col": 30,
+   "line": 24,
+   "depends": 37,
+   "text": "39. In the method according to claim 37 where said encoding step includes the step of transforming M to C by the performance of a first ordered succession of invertible operations on M, the further step of:\ndecoding C to M by the performance of a second ordered succession of invertible operations on C, where each of the invertible operations of said second succession is the inverse of a corresponding one of said first succession, and wherein the order of said operations in said second succession is reversed with respect to the order of corresponding operations in said first succession."
+  },
+  {
+   "n": 40,
+   "col": 30,
+   "line": 36,
+   "depends": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    37,
+    38,
+    39
+   ],
+   "text": "40. A method according to claims 23 or 24 or 25 or 26 or 27 or 28 or 29 or 30 or 31 or 32 or 37 or 38 or 39 wherein at least one of said transforming means comprises the steps of:\nreceiving and storing a first digital signal in a first register, said first digital signal being representative of said word-to-be-transformed,\nreceiving and storing a second digital signal in a second register, said second digital signal being representative of the exponent of the equivalence relation defining said transformation,\nreceiving and storing a third digital signal in a third register, said third digital signal being representative of the modulus of the equivalency relation defining said transformation, and\nexponentiating said first digital signal by repeated squaring and multiplication using said second and third digital signals, said exponentiating step including the substeps of:\nA. receiving and storing a first multiplier signal in an output register, and applying said first multiplier signal to a first multiplier input line,\nB. successively selecting each of the bits of said second digital signal as a multiplier selector, and\nC. for each of said multiplier selectors, selecting as a second multiplier signal either the contents of said output register or the contents of said first register, and for applying said second multiplier signal to a second multiplier output line, said selection being dependent on the binary value of the successive bits of said second digital signal,\nD. for each of said multiplier selectors, generating said first multiplier signal in a modulo multiplier in response to the first and second multiplier signals on said first and second multiplier input lines, and for transferring said generated first multiplier signal to said output register, said first multiplier signal initially being representative of binary 1 and thereafter being representative of the modulo product of said first and second multipliers, where the modulus of said modulo product corresponds to said third digital signal."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "col": 1,
+   "line": 62,
+   "ocr": "C= E(M).",
+   "fixed": "C=E(M).",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 68,
+   "ocr": "M'’",
+   "fixed": "M'",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 7,
+   "ocr": "to. obtain",
+   "fixed": "to obtain",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 10,
+   "ocr": "of a-",
+   "fixed": "of a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 16,
+   "ocr": "effectiveness of -",
+   "fixed": "effectiveness of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 45,
+   "ocr": "Ey.",
+   "fixed": "E_{A}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 46,
+   "ocr": "D4",
+   "fixed": "D_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 49,
+   "ocr": "Da(E4(M))=M,",
+   "fixed": "D_{A}(E_{A}(M))=M,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 52,
+   "ocr": "E4",
+   "fixed": "E_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 52,
+   "ocr": "Dy",
+   "fixed": "D_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 54,
+   "ocr": "Dg",
+   "fixed": "D_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 54,
+   "ocr": "Ey.",
+   "fixed": "E_{A}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 56,
+   "ocr": "D4,",
+   "fixed": "D_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 57,
+   "ocr": "key E,",
+   "fixed": "key E_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 58,
+   "ocr": "D(C),",
+   "fixed": "D_{A}(C),",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 58,
+   "ocr": "all!",
+   "fixed": "all",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 59,
+   "ocr": "E4(M)=C",
+   "fixed": "E_{A}(M)=C",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 60,
+   "ocr": "D4(C)=M.).",
+   "fixed": "D_{A}(C)=M.).",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 62,
+   "ocr": "Dz,",
+   "fixed": "D_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 64,
+   "ocr": "Ey",
+   "fixed": "E_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 65,
+   "ocr": "E,4(M)",
+   "fixed": "E_{A}(M)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 66,
+   "ocr": "Dy.",
+   "fixed": "D_{A}-",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 67,
+   "ocr": "(E4(M))=M.",
+   "fixed": "(E_{A}(M))=M.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 67,
+   "ocr": "Dy",
+   "fixed": "D_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 67,
+   "ocr": "from E,",
+   "fixed": "from E_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 1,
+   "ocr": "E.4(M)",
+   "fixed": "E_{A}(M)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 3,
+   "ocr": "Eg,",
+   "fixed": "E_{B},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 26,
+   "ocr": "E, and",
+   "fixed": "E_{A} and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 26,
+   "ocr": "Eg,",
+   "fixed": "E_{B},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 27,
+   "ocr": "D4",
+   "fixed": "D_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 27,
+   "ocr": "Dag,",
+   "fixed": "D_{B},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 32,
+   "ocr": "Da(E4(M))=M",
+   "fixed": "D_{A}(E_{A}(M))=M",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 34,
+   "ocr": "E4(D.4(M))=M",
+   "fixed": "E_{A}(D_{A}(M))=M",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 36,
+   "ocr": "Df(Eg(M))=M",
+   "fixed": "D_{B}(E_{B}(M))=M",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 38,
+   "ocr": "EXDs(M)) = M",
+   "fixed": "E_{B}(D_{B}(M))=M",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 41,
+   "ocr": "Dy",
+   "fixed": "D_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 42,
+   "ocr": "Ms=Dy(M).",
+   "fixed": "M_{s}=D_{A}(M).",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 44,
+   "ocr": "Eg",
+   "fixed": "E_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 46,
+   "ocr": "Cy.= Eg(Ms)= Eg(D.4(M)),",
+   "fixed": "C_{s}=E_{B}(M_{s})=E_{B}(D_{A}(M)),",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 47,
+   "ocr": "Dg",
+   "fixed": "D_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 48,
+   "ocr": "C;",
+   "fixed": "C_{s}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 49,
+   "ocr": "Dg(C,)=Deg(Esa(Ms))=Ms.",
+   "fixed": "D_{B}(C_{s})=D_{B}(E_{B}(M_{s}))=M_{s}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 50,
+   "ocr": "Ey",
+   "fixed": "E_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 52,
+   "ocr": "E4(M,y)=E,4)=M.",
+   "fixed": "E_{A}(M_{s})=E_{A})=M.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 54,
+   "ocr": "Ms=D4,(M),",
+   "fixed": "M_{s}=D_{A}(M),",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 55,
+   "ocr": "Dy",
+   "fixed": "D_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 55,
+   "ocr": "E.4.",
+   "fixed": "E_{A}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 56,
+   "ocr": "key E,",
+   "fixed": "key E_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 61,
+   "ocr": "D,(M’)",
+   "fixed": "D_{A}(M')",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 6,
+   "ocr": "transmission- of",
+   "fixed": "transmission of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 11,
+   "ocr": "data. ‘",
+   "fixed": "data.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 27,
+   "ocr": "OSMeEn- 1!",
+   "fixed": "0≦M≦n−1",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 31,
+   "ocr": "n= pq",
+   "fixed": "n=p·q",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 34,
+   "ocr": "n—1,",
+   "fixed": "n−1,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 44,
+   "ocr": "n— 1,",
+   "fixed": "n−1,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 46,
+   "ocr": "n= 3,",
+   "fixed": "n=3,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 47,
+   "ocr": "0(=0",
+   "fixed": "0(≡0",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 48,
+   "ocr": "10(=1",
+   "fixed": "10(≡1",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 48,
+   "ocr": "8(==2",
+   "fixed": "8(≡2",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 59,
+   "ocr": "C22M“(mod n)",
+   "fixed": "C≡M^{e}(mod n)",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 61,
+   "ocr": "(p—1)-(q— 1).",
+   "fixed": "(p−1)·(q−1).",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 4,
+   "ocr": "M’=C4(mod n)",
+   "fixed": "M'≡C^{d}(mod n)",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 5,
+   "ocr": "B)",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 5,
+   "ocr": "B)",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 5,
+   "line": 6,
+   "ocr": "e(mad(1",
+   "fixed": "e(mod(1",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 7,
+   "ocr": "em((p— 1), (q—1))))",
+   "fixed": "cm((p−1), (q−1))))",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 9,
+   "ocr": "e-d=I(mod(1 cm((p— 1).(q— 1))))",
+   "fixed": "e·d≡1(mod(1 cm((p−1),(q−1))))",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 11,
+   "ocr": "| cm((p— 1),(q—1))",
+   "fixed": "1 cm((p−1),(q−1))",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 12,
+   "ocr": "p—1 and q—1.",
+   "fixed": "p−1 and q−1.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 17,
+   "ocr": "==M'‘(mod n).",
+   "fixed": "M'≡M'(mod n).",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 25,
+   "ocr": "Ms.",
+   "fixed": "M_{s}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 27,
+   "ocr": "M;",
+   "fixed": "M_{s}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 29,
+   "ocr": "C;.",
+   "fixed": "C_{s}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 30,
+   "ocr": "C,",
+   "fixed": "C_{s}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 31,
+   "ocr": "Ms,",
+   "fixed": "M_{s},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 38,
+   "ocr": "Eg=(ez, ng)-and",
+   "fixed": "E_{B}=(e_{B}, n_{B}) and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 40,
+   "ocr": "D4=(d,, na).",
+   "fixed": "D_{A}=(d_{A}, n_{A}).",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 42,
+   "ocr": "E4=(e,, na)",
+   "fixed": "E_{A}=(e_{A}, n_{A})",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 43,
+   "ocr": "Da=(dg, ng).",
+   "fixed": "D_{B}=(d_{B}, n_{B}).",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 45,
+   "ocr": "system. ,",
+   "fixed": "system.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 47,
+   "ocr": "word Ms",
+   "fixed": "word M_{s}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 49,
+   "ocr": "M,=M44(mod ny)",
+   "fixed": "M_{s}≡M^{d_{A}}(mod n_{A})",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 52,
+   "ocr": "C;:",
+   "fixed": "C_{s}:",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 53,
+   "ocr": "C\\=M,\"(mod ng)",
+   "fixed": "C_{s}≡M_{s}^{e_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 56,
+   "ocr": "d4",
+   "fixed": "d_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 56,
+   "ocr": "ny",
+   "fixed": "n_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 58,
+   "ocr": "eg",
+   "fixed": "e_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 59,
+   "ocr": "ng",
+   "fixed": "n_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 60,
+   "ocr": "C;",
+   "fixed": "C_{s}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 61,
+   "ocr": "M,",
+   "fixed": "M_{s}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 63,
+   "ocr": "My=(C,)@4(mad ng).",
+   "fixed": "M_{s}≡(C_{s})^{d_{B}}(mod n_{B}).",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 65,
+   "ocr": "Ms;",
+   "fixed": "M_{s}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 67,
+   "ocr": "M=M.oA(mod 1.4).",
+   "fixed": "M≡M_{s}^{e_{A}}(mod n_{A}).",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 2,
+   "ocr": "dg",
+   "fixed": "d_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 2,
+   "ocr": "and ng",
+   "fixed": "and n_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 3,
+   "ocr": "e4",
+   "fixed": "e_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 3,
+   "ocr": "ny",
+   "fixed": "n_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 5,
+   "ocr": "‘sages",
+   "fixed": "sages",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 11,
+   "ocr": "-example,",
+   "fixed": "example,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 12,
+   "ocr": "“‘this",
+   "fixed": "“this",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 13,
+   "ocr": "-block",
+   "fixed": "block",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 16,
+   "ocr": "block: is",
+   "fixed": "block is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 17,
+   "ocr": ":representative",
+   "fixed": "representative",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 17,
+   "ocr": "ton-3F'1",
+   "fixed": "ton-31 1",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 19,
+   "ocr": "‘transformation,",
+   "fixed": "transformation,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 32,
+   "ocr": "‘message",
+   "fixed": "message",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 33,
+   "ocr": "Anyone. can",
+   "fixed": "Anyone can",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 42,
+   "ocr": "E4",
+   "fixed": "E_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 42,
+   "ocr": "Eg",
+   "fixed": "E_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 44,
+   "ocr": "Eg(M)=C",
+   "fixed": "E_{B}(M)=C",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 44,
+   "ocr": "Dgto",
+   "fixed": "D_{B} to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 46,
+   "ocr": "Eg, E4",
+   "fixed": "E_{B}, E_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 46,
+   "ocr": "to Dg",
+   "fixed": "to D_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 63,
+   "ocr": "when-read",
+   "fixed": "when read",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 26,
+   "ocr": "termina!",
+   "fixed": "terminal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 27,
+   "ocr": "Ey, Da,",
+   "fixed": "E_{A}, D_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 28,
+   "ocr": "Eg, Dg,",
+   "fixed": "E_{B}, D_{B},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 62,
+   "ocr": "My",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 67,
+   "ocr": "M4",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 68,
+   "ocr": "M4",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 5,
+   "ocr": "C4.",
+   "fixed": "C_{A}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 7,
+   "ocr": "My",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 7,
+   "ocr": "Cy",
+   "fixed": "C_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 8,
+   "ocr": "Eg",
+   "fixed": "E_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 10,
+   "ocr": "C4",
+   "fixed": "C_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 11,
+   "ocr": "M4’",
+   "fixed": "M_{A}'",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 12,
+   "ocr": "Dg",
+   "fixed": "D_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 14,
+   "ocr": "M1’",
+   "fixed": "M_{A}'",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 14,
+   "ocr": "My.",
+   "fixed": "M_{A}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 22,
+   "ocr": "i”",
+   "fixed": "i^{th}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 23,
+   "ocr": "E;",
+   "fixed": "E_{i}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 24,
+   "ocr": "e;",
+   "fixed": "e_{i}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 24,
+   "ocr": "n;",
+   "fixed": "n_{i}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 25,
+   "ocr": "d;and",
+   "fixed": "d_{i} and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 26,
+   "ocr": "n; where dis",
+   "fixed": "n_{i} where d_{i} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 27,
+   "ocr": "n;is",
+   "fixed": "n_{i} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 28,
+   "ocr": "p; and qi,",
+   "fixed": "p_{i} and q_{i},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 29,
+   "ocr": "e; is",
+   "fixed": "e_{i} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 29,
+   "ocr": "(p;— 1)-(q;— 1),",
+   "fixed": "(p_{i}−1)·(q_{i}−1),",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 29,
+   "ocr": "d;is",
+   "fixed": "d_{i} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 30,
+   "ocr": "e{mod(1 cm((p;— 1), (q;—1))).",
+   "fixed": "e_{i}(mod(1 cm((p_{i}−1), (q_{i}−1)))).",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 31,
+   "ocr": "d;",
+   "fixed": "d_{i}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 32,
+   "ocr": "edmod(p;— 1)-(qi— 1).",
+   "fixed": "e_{i}(mod(p_{i}−1)·(q_{i}−1)).",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 33,
+   "ocr": "i/#",
+   "fixed": "i^{th}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 34,
+   "ocr": "termina]",
+   "fixed": "terminal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 35,
+   "ocr": "j terminal",
+   "fixed": "j^{th} terminal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 37,
+   "ocr": "Cy==M/(mod nj).",
+   "fixed": "C_{i}≡M_{i}^{e_{j}}(mod n_{j}).",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 39,
+   "ocr": "M;is",
+   "fixed": "M_{i} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 39,
+   "ocr": "OSM;3n,;— 1.",
+   "fixed": "0≦M_{i}≦n_{j}−1.",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 42,
+   "ocr": "i‘",
+   "fixed": "i^{th}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 43,
+   "ocr": "j terminal",
+   "fixed": "j^{th} terminal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 44,
+   "ocr": "j terminal",
+   "fixed": "j^{th} terminal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 45,
+   "ocr": "i‘",
+   "fixed": "i^{th}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 48,
+   "ocr": "M;=C mod nj).",
+   "fixed": "M_{i}'≡C_{i}^{d_{j}}(mod n_{j}).",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 57,
+   "ocr": "Mz;",
+   "fixed": "M_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 57,
+   "ocr": "C4)",
+   "fixed": "C_{A})",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 60,
+   "ocr": "Das",
+   "fixed": "D_{A} as",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 60,
+   "ocr": "“‘encod-",
+   "fixed": "“encod-",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 61,
+   "ocr": "terminal]",
+   "fixed": "terminal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 63,
+   "ocr": "My",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 63,
+   "ocr": "O2M,3-",
+   "fixed": "0≦M_{A}≦-",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 64,
+   "ocr": "n4—t!",
+   "fixed": "n_{A}−1",
+   "basis": "scan"
+  },
+  {
+   "col": 8,
+   "line": 64,
+   "ocr": "M4",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 65,
+   "ocr": "Mas",
+   "fixed": "M_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 67,
+   "ocr": "Mas==M.4%(mod n4)",
+   "fixed": "M_{As}≡M_{A}^{d_{A}}(mod n_{A})",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 2,
+   "ocr": "Mys",
+   "fixed": "M_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 2,
+   "ocr": "Mag",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 4,
+   "ocr": "M4=M45°A(mod ny).",
+   "fixed": "M_{A}≡M_{As}^{e_{A}}(mod n_{A}).",
+   "basis": "scan"
+  },
+  {
+   "col": 9,
+   "line": 25,
+   "ocr": "number |",
+   "fixed": "number 1",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 30,
+   "ocr": "applied. e",
+   "fixed": "applied e",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 42,
+   "ocr": "binary |",
+   "fixed": "binary 1",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 58,
+   "ocr": "iliustrated",
+   "fixed": "illustrated",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 12,
+   "ocr": "communicating.",
+   "fixed": "communicating",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 32,
+   "ocr": "operated.as",
+   "fixed": "operated as",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 42,
+   "ocr": "Eg",
+   "fixed": "E_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 43,
+   "ocr": "Dg",
+   "fixed": "D_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 44,
+   "ocr": "A(=M,).",
+   "fixed": "A(=M_{A}).",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 48,
+   "ocr": "key E,",
+   "fixed": "key E_{c}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 61,
+   "ocr": "Da",
+   "fixed": "D_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 63,
+   "ocr": "My",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 63,
+   "ocr": "Ms,",
+   "fixed": "M_{As},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 65,
+   "ocr": "C4;",
+   "fixed": "C_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 67,
+   "ocr": "C4;",
+   "fixed": "C_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 4,
+   "ocr": "Cys",
+   "fixed": "C_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 4,
+   "ocr": "M45",
+   "fixed": "M_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 5,
+   "ocr": "Dz.",
+   "fixed": "D_{B}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 8,
+   "ocr": "Mas",
+   "fixed": "M_{AS}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 9,
+   "ocr": "E,4",
+   "fixed": "E_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 11,
+   "ocr": "M4;",
+   "fixed": "M_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 11,
+   "ocr": "M1’,",
+   "fixed": "M_{A}',",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 12,
+   "ocr": "M4.",
+   "fixed": "M_{A}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 21,
+   "ocr": "signing:",
+   "fixed": "signing",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 29,
+   "ocr": "E4, Dg, D4 and Eg,",
+   "fixed": "E_{A}, D_{B}, D_{A} and E_{B},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 39,
+   "ocr": "n;",
+   "fixed": "n_{i}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 52,
+   "ocr": "Ma,",
+   "fixed": "M_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 54,
+   "ocr": "Mas.",
+   "fixed": "M_{As}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 55,
+   "ocr": "Mas to blocks Ms”",
+   "fixed": "M_{As} to blocks M_{As}\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 56,
+   "ocr": "Cys.",
+   "fixed": "C_{As}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 57,
+   "ocr": "Cis",
+   "fixed": "C_{As} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 58,
+   "ocr": "Mas”",
+   "fixed": "M_{As}\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 60,
+   "ocr": "Mus.",
+   "fixed": "M_{As}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 60,
+   "ocr": "Mzs",
+   "fixed": "M_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 61,
+   "ocr": "My,",
+   "fixed": "M_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 65,
+   "ocr": "C,4 which",
+   "fixed": "C_{A} which",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 65,
+   "ocr": "C,4\"’",
+   "fixed": "C_{A}\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 66,
+   "ocr": "Cas.",
+   "fixed": "C_{As}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 66,
+   "ocr": "C4;",
+   "fixed": "C_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 67,
+   "ocr": "C4\"",
+   "fixed": "C_{A}\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 67,
+   "ocr": "C4 and",
+   "fixed": "C_{A} and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 68,
+   "ocr": "M4.",
+   "fixed": "M_{A}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 4,
+   "ocr": "nominal’ranges.",
+   "fixed": "nominal ranges.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 7,
+   "ocr": "lized“ :",
+   "fixed": "lized.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 8,
+   "ocr": "‘the’",
+   "fixed": "the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 9,
+   "ocr": "q= 59,",
+   "fixed": "q=59,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 10,
+   "ocr": "n=p-q=47.- $9 =2773, d= 157",
+   "fixed": "n=p·q=47·59=2773, d=157",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 17,
+   "ocr": "blank =00,",
+   "fixed": "blank=00,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 17,
+   "ocr": "B=02,... ,",
+   "fixed": "B=02, . . . ,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 20,
+   "ocr": "M =0920190001 12120007 180505 1100201500130500",
+   "fixed": "M=0920190001121200071805051100201500130500",
+   "basis": "scan"
+  },
+  {
+   "col": 12,
+   "line": 22,
+   "ocr": "M_ is",
+   "fixed": "M is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 23,
+   "ocr": "Mj,°. .., Mio",
+   "fixed": "M_{1}, . . . , M_{10}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 29,
+   "ocr": "e= 10001",
+   "fixed": "e=10001",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 29,
+   "ocr": "(M1 =0920)",
+   "fixed": "(M_{1}=0920)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 30,
+   "ocr": ") enciphered",
+   "fixed": "enciphered",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 31,
+   "ocr": "C):",
+   "fixed": "C_{1}:",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 31,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 12,
+   "line": 33,
+   "ocr": "= My\" (mod ny",
+   "fixed": "C_{1}≡M_{1}^{e}(mod n)",
+   "basis": "scan"
+  },
+  {
+   "col": 12,
+   "line": 35,
+   "ocr": "= M,!7 (mod 2773)",
+   "fixed": "≡M_{1}^{17} (mod 2773)",
+   "basis": "scan"
+  },
+  {
+   "col": 12,
+   "line": 36,
+   "ocr": "= (C1)? - MP *)*)2) «Mf (mod 2773)",
+   "fixed": "≡((((((1)^{2}·M)^{2})^{2})^{2})^{2})·M (mod 2773)",
+   "basis": "scan"
+  },
+  {
+   "col": 12,
+   "line": 38,
+   "ocr": "= 948 (mod 2773)",
+   "fixed": "≡948 (mod 2773)",
+   "basis": "scan"
+  },
+  {
+   "col": 12,
+   "line": 48,
+   "ocr": "Cy:",
+   "fixed": "C_{1}:",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 50,
+   "ocr": "M', = Cy! (mod n)",
+   "fixed": "M'_{1}≡C_{1}^{d} (mod n)",
+   "basis": "scan"
+  },
+  {
+   "col": 12,
+   "line": 52,
+   "ocr": ":= 948!57 (mod 2773)",
+   "fixed": "≡948^{157} (mod 2773)",
+   "basis": "scan"
+  },
+  {
+   "col": 12,
+   "line": 53,
+   "ocr": "=: 920 (mod 2773)",
+   "fixed": "≡920 (mod 2773)",
+   "basis": "scan"
+  },
+  {
+   "col": 12,
+   "line": 55,
+   "ocr": "so, that,",
+   "fixed": "so that",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 56,
+   "ocr": "and.then",
+   "fixed": "and then",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 57,
+   "ocr": "letter-to-two-digitsnum-",
+   "fixed": "letter-to-two-digit-num-",
+   "basis": "scan"
+  },
+  {
+   "col": 12,
+   "line": 58,
+   "ocr": "message. , .",
+   "fixed": "message.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 64,
+   "ocr": "users. a Le",
+   "fixed": "users.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 65,
+   "ocr": "order.to",
+   "fixed": "order to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 66,
+   "ocr": "user's.",
+   "fixed": "user’s",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 13,
+   "line": 1,
+   "ocr": "ed=1 (mod(1 cm((p—1), (q—)))),",
+   "fixed": "e·d≡1 (mod(1 cm((p−1), (q−1)))),",
+   "basis": "scan"
+  },
+  {
+   "col": 13,
+   "line": 10,
+   "ocr": "10?",
+   "fixed": "10^{9}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 13,
+   "line": 25,
+   "ocr": "n=p-q,",
+   "fixed": "n=p·q,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 13,
+   "line": 27,
+   "ocr": "f(M)= M¢",
+   "fixed": "f(M)=M^{e}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 13,
+   "line": 27,
+   "ocr": "gced(e,(p —-",
+   "fixed": "gcd(e,(p−-",
+   "basis": "scan"
+  },
+  {
+   "col": 13,
+   "line": 28,
+   "ocr": "1)(q—1))=1.",
+   "fixed": "1)·(q−1))=1.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 13,
+   "line": 37,
+   "ocr": "agMé+ae..1M¢~-!+4... +a9",
+   "fixed": "a_{e}M^{e}+a_{e−1}M^{e−1}+. . . +a_{0}",
+   "basis": "scan"
+  },
+  {
+   "col": 13,
+   "line": 37,
+   "ocr": "ap,",
+   "fixed": "a_{e},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 13,
+   "line": 38,
+   "ocr": "ae—],..., agare",
+   "fixed": "a_{e−1}, . . . , a_{0} are",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 13,
+   "line": 43,
+   "ocr": "6(n),",
+   "fixed": "Ø(n),",
+   "basis": "scan"
+  },
+  {
+   "col": 13,
+   "line": 43,
+   "ocr": "ap=1.and ag_4,",
+   "fixed": "a_{e}=1 and a_{e−1}, .",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 13,
+   "line": 44,
+   "ocr": ". ag equal",
+   "fixed": ". . , a_{0} equal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 13,
+   "line": 47,
+   "ocr": "M’=C4(mod n)",
+   "fixed": "M'≡C^{d}(mod n)",
+   "basis": "scan"
+  },
+  {
+   "col": 13,
+   "line": 49,
+   "ocr": "e(mod(A(n)))",
+   "fixed": "e(mod(λ(n)))",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 13,
+   "line": 50,
+   "ocr": "A(n)",
+   "fixed": "λ(n)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 13,
+   "line": 52,
+   "ocr": "SAU) = t(mod n)",
+   "fixed": "S^{λ(n)}≡1(mod n)",
+   "basis": "scan"
+  },
+  {
+   "col": 13,
+   "line": 65,
+   "ocr": "Operations",
+   "fixed": "operations",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 14,
+   "line": 4,
+   "ocr": "C=E(M)=(M}34.2)!7.4(mod(11-7)).",
+   "fixed": "C≡E(M)≡(M^{13}+2)^{17}·4(mod(11·7)).",
+   "basis": "scan"
+  },
+  {
+   "col": 14,
+   "line": 8,
+   "ocr": "M=D(C)=((C/4)?3 --2)/(mod(11-7))",
+   "fixed": "M≡D(C)≡((C/4)^{23}−2)^{7}(mod(11·7))",
+   "basis": "scan"
+  },
+  {
+   "col": 14,
+   "line": 11,
+   "ocr": "| cm(I1-1, 7-1). ;",
+   "fixed": "1 cm(11-1, 7-1).",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 14,
+   "line": 13,
+   "ocr": "encdding/decoding",
+   "fixed": "encoding/decoding",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 14,
+   "line": 15,
+   "ocr": "claims: | ,",
+   "fixed": "claims:",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 14,
+   "line": 20,
+   "ocr": "bé",
+   "fixed": "be",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 14,
+   "line": 21,
+   "ocr": "the'transfor-",
+   "fixed": "the transfor-",
+   "basis": "scan"
+  },
+  {
+   "col": 14,
+   "line": 28,
+   "ocr": "messages. .",
+   "fixed": "messages.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 14,
+   "line": 31,
+   "ocr": "thereof..The",
+   "fixed": "thereof. The",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 14,
+   "line": 41,
+   "ocr": "channel, _",
+   "fixed": "channel,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 14,
+   "line": 48,
+   "ocr": "‘0SMSn-~1",
+   "fixed": "0≦M≦n−1",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 14,
+   "line": 52,
+   "ocr": "n=pq",
+   "fixed": "n=p·q",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 14,
+   "line": 59,
+   "ocr": "C=M“mod n)",
+   "fixed": "C≡M^{e}(mod n)",
+   "basis": "scan"
+  },
+  {
+   "col": 14,
+   "line": 61,
+   "ocr": "prime to 1.",
+   "fixed": "prime to 1",
+   "basis": "scan"
+  },
+  {
+   "col": 14,
+   "line": 62,
+   "ocr": "em(p—1,q—1), and",
+   "fixed": "cm(p−1,q−1), and",
+   "basis": "scan"
+  },
+  {
+   "col": 14,
+   "line": 65,
+   "ocr": "word signal",
+   "fixed": "word signal M'",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 14,
+   "line": 68,
+   "ocr": "corresponds to -",
+   "fixed": "corresponds to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 15,
+   "line": 2,
+   "ocr": "M’=C4(mod n)",
+   "fixed": "M'≡C^{d}(mod n)",
+   "basis": "scan"
+  },
+  {
+   "col": 15,
+   "line": 5,
+   "ocr": "cm((p — 1),(q — !)))).",
+   "fixed": "cm((p−1),(q−1)))).",
+   "basis": "scan"
+  },
+  {
+   "col": 15,
+   "line": 34,
+   "ocr": "line. said",
+   "fixed": "line, said",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 15,
+   "line": 47,
+   "ocr": "praduct",
+   "fixed": "product",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 15,
+   "line": 50,
+   "ocr": "signals Mj,",
+   "fixed": "signals M_{i},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 15,
+   "line": 51,
+   "ocr": "E;=(e;, n;)",
+   "fixed": "E_{i}=(e_{i}, n_{i})",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 15,
+   "line": 53,
+   "ocr": "D;=(e,, nj), where i=1,2, .. . ,k, and",
+   "fixed": "D_{i}=(e_{i}, n_{i}), where i=1,2, . . . ,k, and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 15,
+   "line": 55,
+   "ocr": "i! termi-",
+   "fixed": "i^{th} termi-",
+   "basis": "scan"
+  },
+  {
+   "col": 15,
+   "line": 58,
+   "ocr": "OSM;En,/-1,",
+   "fixed": "0≦M_{i}≦n_{i}−1,",
+   "basis": "scan"
+  },
+  {
+   "col": 15,
+   "line": 60,
+   "ocr": "nj; is",
+   "fixed": "n_{i} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 15,
+   "line": 62,
+   "ocr": "My = PPG",
+   "fixed": "n_{i}=p_{i}·q_{i}",
+   "basis": "scan"
+  },
+  {
+   "col": 15,
+   "line": 64,
+   "ocr": "piand q; are",
+   "fixed": "p_{i} and q_{i} are",
+   "basis": "scan"
+  },
+  {
+   "col": 15,
+   "line": 65,
+   "ocr": "e; is relatively prime to 1 cm(p—1,q—}),",
+   "fixed": "e_{i} is relatively prime to 1 cm(p−1,q−1),",
+   "basis": "scan"
+  },
+  {
+   "col": 15,
+   "line": 66,
+   "ocr": "d;is",
+   "fixed": "d_{i} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 15,
+   "line": 68,
+   "ocr": "edmod(t em((pj-- 1), qe 1)",
+   "fixed": "e_{i}(mod(1 cm((p_{i}−1), (q_{i}−1))))",
+   "basis": "scan"
+  },
+  {
+   "col": 16,
+   "line": 3,
+   "ocr": "Mg",
+   "fixed": "M_{a}",
+   "basis": "scan"
+  },
+  {
+   "col": 16,
+   "line": 4,
+   "ocr": "(1=A)",
+   "fixed": "(i=A)",
+   "basis": "scan"
+  },
+  {
+   "col": 16,
+   "line": 6,
+   "ocr": "M4",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 16,
+   "line": 7,
+   "ocr": "Mus, Mas corre-",
+   "fixed": "M_{As}, M_{As} corre-",
+   "basis": "scan"
+  },
+  {
+   "col": 16,
+   "line": 9,
+   "ocr": "M4,",
+   "fixed": "M_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 16,
+   "line": 11,
+   "ocr": "M.1:=M 47A(mod 114).",
+   "fixed": "M_{As}≡M_{A}^{d_{A}}(mod n_{A}).",
+   "basis": "scan"
+  },
+  {
+   "col": 16,
+   "line": 39,
+   "ocr": "applying multiplier signal",
+   "fixed": "applying muliplier signal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 16,
+   "line": 57,
+   "ocr": "My;",
+   "fixed": "M_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 16,
+   "line": 60,
+   "ocr": "Ms",
+   "fixed": "M_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 16,
+   "line": 61,
+   "ocr": "M4,",
+   "fixed": "M_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 16,
+   "line": 64,
+   "ocr": "C4 to said message word signal M4,",
+   "fixed": "C_{A} to said message word signal M_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 16,
+   "line": 66,
+   "ocr": "Ma Mas{mad 4).",
+   "fixed": "M_{A}≡M_{As}^{e_{A}}(mod n_{A}).",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 2,
+   "ocr": "Mas",
+   "fixed": "M_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 3,
+   "ocr": "signals: Mas\", each block word signal Mas\"",
+   "fixed": "signals M_{As}\", each block word signal M_{As}\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 5,
+   "ocr": "M4",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 6,
+   "ocr": "OS My,\" =ng—1,",
+   "fixed": "0≦M_{As}\"≦n_{B}−1,",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 8,
+   "ocr": "M4;”\"",
+   "fixed": "M_{As}\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 9,
+   "ocr": "Cys, C4s",
+   "fixed": "C_{As}, C_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 13,
+   "ocr": "Cas=Mas\"8(mod ng).",
+   "fixed": "C_{As}≡M_{As}\"^{e_{B}}(mod n_{B}).",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 17,
+   "ocr": "Cys",
+   "fixed": "C_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 21,
+   "ocr": "My,",
+   "fixed": "M_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 24,
+   "ocr": "C4;",
+   "fixed": "C_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 25,
+   "ocr": "M.4;\",",
+   "fixed": "M_{As}\",",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 27,
+   "ocr": "5 =C4s48(mod ng)",
+   "fixed": "M_{As}\"≡C_{As}^{d_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 31,
+   "ocr": "Mas",
+   "fixed": "M_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 33,
+   "ocr": "M4,",
+   "fixed": "M_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 35,
+   "ocr": "M4=MasA(mod 114).",
+   "fixed": "M_{A}≡M_{As}^{e_{A}}(mod n_{A}).",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 37,
+   "ocr": "M;",
+   "fixed": "M_{i}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 38,
+   "ocr": "E;=(e;, ni)",
+   "fixed": "E_{i}=(e_{i}, n_{i})",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 39,
+   "ocr": "D;=(e;, n,), where i= 1,2, ...,k,",
+   "fixed": "D_{i}=(e_{i}, n_{i}), where i=1,2, . . . ,k,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 41,
+   "ocr": "M, corresponds",
+   "fixed": "M_{i} corresponds",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 42,
+   "ocr": "i“",
+   "fixed": "i^{th}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 43,
+   "ocr": "n; is",
+   "fixed": "n_{i} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 45,
+   "ocr": "NE= PrQ",
+   "fixed": "n_{i}=p_{i}·q_{i}",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 47,
+   "ocr": "P; and q;",
+   "fixed": "P_{i} and q_{i}",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 48,
+   "ocr": "e; is relatively prime to 1 cm(p;—1.qi—1),",
+   "fixed": "e_{i} is relatively prime to 1 cm(p_{i}−1,q_{i}−1),",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 49,
+   "ocr": "d;is",
+   "fixed": "d_{i} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 51,
+   "ocr": "edmod(1 em((p;— 1),(qi— )))",
+   "fixed": "e_{i}(mod(1 cm((p_{i}−1),(q_{i}−1))))",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 54,
+   "ocr": "M4",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 57,
+   "ocr": "M4",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 58,
+   "ocr": "Mu’,",
+   "fixed": "M_{A}',",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 59,
+   "ocr": "My",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 61,
+   "ocr": "Mg in the range O=2M,4=ng—1,",
+   "fixed": "M_{A} in the range 0≦M_{A}≦n_{B}−1,",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 63,
+   "ocr": "M4\" to @ ciphertext word signal C4, C4 corre-",
+   "fixed": "M_{A}\" to a ciphertext word signal C_{A}, C_{A} corre-",
+   "basis": "scan"
+  },
+  {
+   "col": 17,
+   "line": 64,
+   "ocr": "encaded",
+   "fixed": "encoded",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 65,
+   "ocr": "M.’”’,",
+   "fixed": "M_{A}\",",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 17,
+   "line": 68,
+   "ocr": "C4=M4\"¢8(mod ng).",
+   "fixed": "C_{A}≡M_{A}\"^{e_{B}}(mod n_{B}).",
+   "basis": "scan"
+  },
+  {
+   "col": 18,
+   "line": 6,
+   "ocr": "storing a=",
+   "fixed": "storing a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 18,
+   "line": 29,
+   "ocr": "signal! to",
+   "fixed": "signal to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 18,
+   "line": 50,
+   "ocr": "M4,",
+   "fixed": "M_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 18,
+   "line": 52,
+   "ocr": "C4",
+   "fixed": "C_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 18,
+   "line": 53,
+   "ocr": "M4”,",
+   "fixed": "M_{A}\",",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 18,
+   "line": 55,
+   "ocr": "M4=C448(mod np)",
+   "fixed": "M_{A}≡C_{A}^{d_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 18,
+   "line": 58,
+   "ocr": "signals M4’ to said message word signal M4”.",
+   "fixed": "signals M_{A}\" to said message word signal M_{A}\".",
+   "basis": "scan"
+  },
+  {
+   "col": 18,
+   "line": 62,
+   "ocr": "C, to",
+   "fixed": "C_{A} to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 18,
+   "line": 63,
+   "ocr": "Cy\", each block word signal C4\"",
+   "fixed": "C_{A}\", each block word signal C_{A}\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 18,
+   "line": 65,
+   "ocr": "C4 in the range O2C4” Sny4—1,",
+   "fixed": "C_{A} in the range 0≦C_{A}\"≦n_{A}−1,",
+   "basis": "scan"
+  },
+  {
+   "col": 18,
+   "line": 67,
+   "ocr": "C4” to a signed ciphertext word sig- —",
+   "fixed": "C_{A}\" to a signed ciphertext word sig-",
+   "basis": "scan"
+  },
+  {
+   "col": 18,
+   "line": 68,
+   "ocr": "C4;",
+   "fixed": "C_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 19,
+   "line": 2,
+   "ocr": "C.4'\",",
+   "fixed": "C_{A}\",",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 19,
+   "line": 3,
+   "ocr": "C4s=C4\"44(mod nq).",
+   "fixed": "C_{As}≡C_{A}\"^{d_{A}}(mod n_{A}).",
+   "basis": "scan"
+  },
+  {
+   "col": 19,
+   "line": 11,
+   "ocr": "My,",
+   "fixed": "M_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 19,
+   "line": 14,
+   "ocr": "C45",
+   "fixed": "C_{AS}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 19,
+   "line": 15,
+   "ocr": "C4’’,",
+   "fixed": "C_{A}\",",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 19,
+   "line": 17,
+   "ocr": "Cy C4,°(mod 14)",
+   "fixed": "C_{A}\"≡C_{As}^{e_{A}}(mod n_{A})",
+   "basis": "scan"
+  },
+  {
+   "col": 19,
+   "line": 22,
+   "ocr": "M4\" =C4\"48(mod ng)",
+   "fixed": "M_{A}\"≡C_{A}\"^{d_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 19,
+   "line": 25,
+   "ocr": "My.",
+   "fixed": "M_{A}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 19,
+   "line": 29,
+   "ocr": "E4=(e4, n4) and decoding key D4=(d4,",
+   "fixed": "E_{A}=(e_{A}, n_{A}) and decoding key D_{A}=(d_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 19,
+   "line": 30,
+   "ocr": "na),",
+   "fixed": "n_{A}),",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 19,
+   "line": 31,
+   "ocr": "na is",
+   "fixed": "n_{A} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 19,
+   "line": 33,
+   "ocr": "NA=PAGA",
+   "fixed": "n_{A}=p_{A}·q_{A}",
+   "basis": "scan"
+  },
+  {
+   "col": 19,
+   "line": 35,
+   "ocr": "pa and q4 are",
+   "fixed": "p_{A} and q_{A} are",
+   "basis": "scan"
+  },
+  {
+   "col": 19,
+   "line": 36,
+   "ocr": "e4 is relatively prime to 1 cm(p4—",
+   "fixed": "e_{A} is relatively prime to 1 cm(p_{A}−1, q_{A}−1),",
+   "basis": "scan"
+  },
+  {
+   "col": 19,
+   "line": 36,
+   "ocr": "1, g4a— 1),",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 19,
+   "line": 37,
+   "ocr": "d, is",
+   "fixed": "d_{A} is",
+   "basis": "scan"
+  },
+  {
+   "col": 19,
+   "line": 38,
+   "ocr": "eq(mod(t em((p4— 1) (qi - D).",
+   "fixed": "e_{A}(mod(1 cm((p_{A}−1), (q_{A}−1)))).",
+   "basis": "scan"
+  },
+  {
+   "col": 19,
+   "line": 43,
+   "ocr": "M,4 to a signed message word signal M4; and for",
+   "fixed": "M_{A} to a signed message word signal M_{As} and for",
+   "basis": "scan"
+  },
+  {
+   "col": 19,
+   "line": 44,
+   "ocr": "M4;",
+   "fixed": "M_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 19,
+   "line": 45,
+   "ocr": "My",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 19,
+   "line": 48,
+   "ocr": "OSMyEng-1",
+   "fixed": "0≦M_{A}≦n_{A}−1",
+   "basis": "scan"
+  },
+  {
+   "col": 19,
+   "line": 50,
+   "ocr": "M.4;corresponds",
+   "fixed": "M_{As} corresponds",
+   "basis": "scan"
+  },
+  {
+   "col": 19,
+   "line": 52,
+   "ocr": "M..=M.4\"4(mod 14)",
+   "fixed": "M_{As}≡M_{A}^{d_{A}}(mod n_{A})",
+   "basis": "scan"
+  },
+  {
+   "col": 19,
+   "line": 56,
+   "ocr": "M4;",
+   "fixed": "M_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 19,
+   "line": 57,
+   "ocr": "M4; to a receive message word signal M4’",
+   "fixed": "M_{As} to a receive message word signal M_{A}'",
+   "basis": "scan"
+  },
+  {
+   "col": 19,
+   "line": 58,
+   "ocr": "My‘",
+   "fixed": "M_{A}'",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 19,
+   "line": 59,
+   "ocr": "My",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 19,
+   "line": 61,
+   "ocr": "M.4’=M4.°A(mod na).",
+   "fixed": "M_{A}'≡M_{As}^{e_{A}}(mod n_{A}).",
+   "basis": "scan"
+  },
+  {
+   "col": 20,
+   "line": 2,
+   "ocr": "i, Ma rr",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 20,
+   "line": 3,
+   "ocr": "register. means",
+   "fixed": "register means",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 20,
+   "line": 7,
+   "ocr": "an",
+   "fixed": "an exponentiation by repeated squaring and multipli-",
+   "basis": "scan"
+  },
+  {
+   "col": 20,
+   "line": 7,
+   "ocr": "exponentiation by repeated squaring and multipli-",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 20,
+   "line": 10,
+   "ocr": "output-register",
+   "fixed": "output register",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 20,
+   "line": 11,
+   "ocr": "nrultiplier",
+   "fixed": "multiplier",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 20,
+   "line": 16,
+   "ocr": "signal, :",
+   "fixed": "signal,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 20,
+   "line": 23,
+   "ocr": "said“",
+   "fixed": "said",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 20,
+   "line": 38,
+   "ocr": "to. claim",
+   "fixed": "to claim",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 20,
+   "line": 40,
+   "ocr": "Eg=(eg, ng) and decoding key Da=(da,",
+   "fixed": "E_{B}=(e_{B}, n_{B}) and decoding key D_{B}=(d_{B},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 20,
+   "line": 41,
+   "ocr": "ng),",
+   "fixed": "n_{B}), where:",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 20,
+   "line": 41,
+   "ocr": "where:",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 20,
+   "line": 42,
+   "ocr": "ng is",
+   "fixed": "n_{B} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 20,
+   "line": 44,
+   "ocr": "R= PBIB",
+   "fixed": "n_{B}=p_{B}·q_{B}",
+   "basis": "scan"
+  },
+  {
+   "col": 20,
+   "line": 46,
+   "ocr": "ps and qf are",
+   "fixed": "p_{B} and q_{B} are",
+   "basis": "scan"
+  },
+  {
+   "col": 20,
+   "line": 47,
+   "ocr": "ep is relatively prime to | cm(ps— I.qa—1),",
+   "fixed": "e_{B} is relatively prime to 1 cm(p_{B}−1,q_{B}−1),",
+   "basis": "scan"
+  },
+  {
+   "col": 20,
+   "line": 48,
+   "ocr": "dgis",
+   "fixed": "d_{B} is",
+   "basis": "scan"
+  },
+  {
+   "col": 20,
+   "line": 50,
+   "ocr": "eg(mod(t cm((pg— 1)(qa- 1)))),",
+   "fixed": "e_{B}(mod(1 cm((p_{B}−1),(q_{B}−1)))),",
+   "basis": "scan"
+  },
+  {
+   "col": 20,
+   "line": 51,
+   "ocr": "a,",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 20,
+   "line": 53,
+   "ocr": "coding means coupled to said channel and adapted:",
+   "fixed": "encoding means coupled to said channel and adapted",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 20,
+   "line": 53,
+   "ocr": "en",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 20,
+   "line": 55,
+   "ocr": "Mz to a signed message word signal Mg; and for",
+   "fixed": "M_{B} to a signed message word signal M_{Bs} and for",
+   "basis": "scan"
+  },
+  {
+   "col": 20,
+   "line": 56,
+   "ocr": "Ma,",
+   "fixed": "M_{Bs}",
+   "basis": "scan"
+  },
+  {
+   "col": 20,
+   "line": 57,
+   "ocr": "Magcorresponds",
+   "fixed": "M_{B} corresponds",
+   "basis": "scan"
+  },
+  {
+   "col": 20,
+   "line": 58,
+   "ocr": "wa message and .",
+   "fixed": "a message and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 20,
+   "line": 58,
+   "ocr": "4",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 20,
+   "line": 60,
+   "ocr": "OSMpg=ng-1",
+   "fixed": "0≦M_{B}≦n_{B}−1",
+   "basis": "scan"
+  },
+  {
+   "col": 20,
+   "line": 60,
+   "ocr": "E",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 20,
+   "line": 61,
+   "ocr": "qes",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 20,
+   "line": 62,
+   "ocr": "Mgs",
+   "fixed": "M_{Bs}",
+   "basis": "scan"
+  },
+  {
+   "col": 20,
+   "line": 63,
+   "ocr": "an enciphered, form. of said message signal Mz and",
+   "fixed": "an enciphered form of said message signal M_{B} and",
+   "basis": "scan"
+  },
+  {
+   "col": 20,
+   "line": 64,
+   "ocr": "ye",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 20,
+   "line": 66,
+   "ocr": "Mayv=Mp\"4(mod ng)",
+   "fixed": "M_{Bs}≡M_{B}^{d_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 2,
+   "ocr": "Ma;",
+   "fixed": "M_{Bs}",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 3,
+   "ocr": "Mg; to a receive.message word signal Mz’",
+   "fixed": "M_{Bs} to a receive message word signal M_{B}'",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 5,
+   "ocr": ".. form of C",
+   "fixed": "form of C",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 21,
+   "line": 7,
+   "ocr": "Mg’ =Mpg¢%(mod na).",
+   "fixed": "M_{B}'≡M_{Bs}^{e_{B}}(mod n_{B}).",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 10,
+   "ocr": "Eg=(eg, ng) and decoding key Dg=(da,",
+   "fixed": "E_{B}=(e_{B}, n_{B}) and decoding key D_{B}=(d_{B},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 21,
+   "line": 11,
+   "ocr": "ng), where:",
+   "fixed": "n_{B}), where:",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 21,
+   "line": 12,
+   "ocr": "ng is",
+   "fixed": "n_{B} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 21,
+   "line": 14,
+   "ocr": "\"B=PBIB",
+   "fixed": "n_{B}=p_{B}·q_{B}",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 15,
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 21,
+   "line": 16,
+   "ocr": "pg and qz are",
+   "fixed": "p_{B} and q_{B} are",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 17,
+   "ocr": "eg is relatively prime to 1 cm(pg—1,qa—1),",
+   "fixed": "e_{B} is relatively prime to 1 cm(p_{B}−1,q_{B}−1),",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 18,
+   "ocr": "de is a multiplicative inverse of eg(mod(l",
+   "fixed": "d_{B} is a multiplicative inverse of e_{B}(mod(1",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 19,
+   "ocr": "em(p—1),(q—1))),",
+   "fixed": "cm((p−1),(q−1)))),",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 21,
+   "ocr": "M4",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 21,
+   "line": 22,
+   "ocr": "Cys,",
+   "fixed": "C_{As},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 21,
+   "line": 23,
+   "ocr": "Cs on said channel in place of Mus",
+   "fixed": "C_{As} on said channel in place of M_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 21,
+   "line": 24,
+   "ocr": "C4,",
+   "fixed": "C_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 21,
+   "line": 28,
+   "ocr": "C4s=M4,\"¢8(mad ng)",
+   "fixed": "C_{As}≡M_{As}\"^{e_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 30,
+   "ocr": "Mys”",
+   "fixed": "M_{As}\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 21,
+   "line": 31,
+   "ocr": "Mas",
+   "fixed": "M_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 21,
+   "line": 32,
+   "ocr": "range O=My;\" =ng—1!",
+   "fixed": "range 0≦M_{As}\"≦n_{B}−1",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 35,
+   "ocr": "C4; to M4s",
+   "fixed": "C_{As} to M_{As}",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 37,
+   "ocr": "Mas =C4s48(mod ng)",
+   "fixed": "M_{As}'≡C_{As}^{d_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 39,
+   "ocr": "M4;\"’ to My;,",
+   "fixed": "M_{As}\" to M_{As},",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 40,
+   "ocr": "Mas to said receive message word signal My’,",
+   "fixed": "M_{As} to said receive message word signal M_{A}',",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 41,
+   "ocr": "M4’",
+   "fixed": "M_{A}'",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 21,
+   "line": 42,
+   "ocr": "Cas",
+   "fixed": "C_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 21,
+   "line": 43,
+   "ocr": "M14=M45°4(mod n4).",
+   "fixed": "M_{A}≡M_{As}^{e_{A}}(mod n_{A}).",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 47,
+   "ocr": "M. to a signed ciphertext word signal C4;,",
+   "fixed": "M_{A} to a signed ciphertext word signal C_{As},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 21,
+   "line": 48,
+   "ocr": "C4; on said channel in place of Mus,",
+   "fixed": "C_{As} on said channel in place of M_{As},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 21,
+   "line": 49,
+   "ocr": "C4,",
+   "fixed": "C_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 21,
+   "line": 53,
+   "ocr": "C4s=M45\"°4(mod ng)",
+   "fixed": "C_{As}≡M_{As}\"^{e_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 57,
+   "ocr": "C4; to Mas”",
+   "fixed": "C_{As} to M_{As}\"",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 60,
+   "ocr": "Mas\" =Cas\"8(mod ng)",
+   "fixed": "M_{As}\"≡C_{As}^{e_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 62,
+   "ocr": "My; to M45,",
+   "fixed": "M_{As} to M_{As},",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 63,
+   "ocr": "Mus to said receive message word signal M.’,",
+   "fixed": "M_{As} to said receive message word signal M_{A}',",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 64,
+   "ocr": "M4‘",
+   "fixed": "M_{A}'",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 21,
+   "line": 65,
+   "ocr": "C4sand",
+   "fixed": "C_{As} and",
+   "basis": "scan"
+  },
+  {
+   "col": 21,
+   "line": 67,
+   "ocr": "M4 =M4,°4(mod 14)",
+   "fixed": "M_{A}'≡M_{As}^{e_{A}}(mod n_{A})",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 3,
+   "ocr": "Mz",
+   "fixed": "M_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 22,
+   "line": 4,
+   "ocr": "Ca;, and for transmitting Cgs",
+   "fixed": "C_{Bs}, and for transmitting C_{Bs}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 22,
+   "line": 5,
+   "ocr": "Mas, ;",
+   "fixed": "M_{Bs},",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 6,
+   "ocr": "Cg;",
+   "fixed": "C_{Bs}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 22,
+   "line": 10,
+   "ocr": "Cas=Mps\"\"4(mod ng)",
+   "fixed": "C_{Bs}≡M_{Bs}\"^{e_{A}}(mod n_{A})",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 12,
+   "ocr": "Mz;",
+   "fixed": "M_{Bs}",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 13,
+   "ocr": "signa! Ma; in",
+   "fixed": "signal M_{Bs} in",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 14,
+   "ocr": "O=Ma;=ny4—1,",
+   "fixed": "0≦M_{Bs}≦n_{A}−1,",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 17,
+   "ocr": "C4; to Mags”",
+   "fixed": "C_{As} to M_{Bs}\"",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 20,
+   "ocr": "Mags\"=CaeA(mod n4)",
+   "fixed": "M_{Bs}\"≡C_{Bs}^{e_{A}}(mod n_{A})",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 20,
+   "ocr": "2",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 22,
+   "line": 22,
+   "ocr": "_ then to transform Ma;\" to Ma,,",
+   "fixed": "then to transform M_{Bs}\" to M_{Bs},",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 23,
+   "ocr": "Mas to said receive message word signal Ma’,",
+   "fixed": "M_{Bs} to said receive message word signal M_{B}',",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 24,
+   "ocr": "' corresponds to",
+   "fixed": "corresponds to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 22,
+   "line": 25,
+   "ocr": "” Mp'=Mp¢4(mod ng).",
+   "fixed": "M_{B}'≡M_{Bs}^{e_{B}}(mod n_{B}).",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 30,
+   "ocr": "E4=(e4,n,4)",
+   "fixed": "E_{A}=(e_{A},n_{A})",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 22,
+   "line": 31,
+   "ocr": "D4=(da,n4),",
+   "fixed": "D_{A}=(d_{A},n_{A}),",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 22,
+   "line": 32,
+   "ocr": "ng is",
+   "fixed": "n_{A} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 22,
+   "line": 34,
+   "ocr": "NA=PAWA",
+   "fixed": "n_{A}=p_{A}·q_{A}",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 36,
+   "ocr": "pa and qy4",
+   "fixed": "p_{A} and q_{A}",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 37,
+   "ocr": "eg is relatively prime to 1 cm(p4— Lqa— 1,",
+   "fixed": "e_{A} is relatively prime to 1 cm(p_{A}−1,q_{A}−1),",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 38,
+   "ocr": "dy is",
+   "fixed": "d_{A} is",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 39,
+   "ocr": "e4(mod(] cm((p4—1),q4— 1)))),",
+   "fixed": "e_{A}(mod(1 cm((p_{A}−1),(q_{A}−1)))),",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 45,
+   "ocr": "Ma,",
+   "fixed": "M_{B},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 22,
+   "line": 46,
+   "ocr": "Mg",
+   "fixed": "M_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 22,
+   "line": 49,
+   "ocr": "OSMp=nyg—1",
+   "fixed": "0≦M_{B}≦n_{A}−1",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 53,
+   "ocr": "Mato a ciphertext word signal Cgand",
+   "fixed": "M_{B} to a ciphertext word signal C_{B} and",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 54,
+   "ocr": "Cg",
+   "fixed": "C_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 22,
+   "line": 55,
+   "ocr": "Cg",
+   "fixed": "C_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 22,
+   "line": 59,
+   "ocr": "Ca=Ma\"4(mod n4)",
+   "fixed": "C_{B}≡M_{B}^{e_{A}}(mod n_{A})",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 63,
+   "ocr": "Cg",
+   "fixed": "C_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 22,
+   "line": 66,
+   "ocr": "Ma,. and ae",
+   "fixed": "M_{B}, and",
+   "basis": "scan"
+  },
+  {
+   "col": 22,
+   "line": 68,
+   "ocr": "Ma’",
+   "fixed": "M_{B}'",
+   "basis": "scan"
+  },
+  {
+   "col": 23,
+   "line": 1,
+   "ocr": "Ma’",
+   "fixed": "M_{B}'",
+   "basis": "scan"
+  },
+  {
+   "col": 23,
+   "line": 2,
+   "ocr": "Cg",
+   "fixed": "C_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 23,
+   "line": 4,
+   "ocr": "Mz’ =Cg44(mod ng).",
+   "fixed": "M_{B}'≡C_{B}^{d_{A}}(mod n_{A}).",
+   "basis": "scan"
+  },
+  {
+   "col": 23,
+   "line": 50,
+   "ocr": "Eg=(er, ng) and decoding key Dg=(da,",
+   "fixed": "E_{B}=(e_{B}, n_{B}) and decoding key D_{B}=(d_{B},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 23,
+   "line": 51,
+   "ocr": "ng),",
+   "fixed": "n_{B}),",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 23,
+   "line": 52,
+   "ocr": "ng is",
+   "fixed": "n_{B} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 23,
+   "line": 54,
+   "ocr": "NB=PBYB",
+   "fixed": "n_{B}=p_{B}·q_{B}",
+   "basis": "scan"
+  },
+  {
+   "col": 23,
+   "line": 56,
+   "ocr": "Pgand qa",
+   "fixed": "P_{B} and q_{B}",
+   "basis": "scan"
+  },
+  {
+   "col": 23,
+   "line": 57,
+   "ocr": "eg is relatively prime to 1 cm(pg— 1,qz—1),",
+   "fixed": "e_{B} is relatively prime to 1 cm(p_{B}−1,q_{B}−1),",
+   "basis": "scan"
+  },
+  {
+   "col": 23,
+   "line": 58,
+   "ocr": "dgis a multip icative",
+   "fixed": "d_{B} is a multiplicative",
+   "basis": "scan"
+  },
+  {
+   "col": 23,
+   "line": 60,
+   "ocr": "ep(mod(l cn((pa— 1).(qa— 1).",
+   "fixed": "e_{B}(mod(1 cm((p_{B}−1),(q_{B}−1)))).",
+   "basis": "scan"
+  },
+  {
+   "col": 23,
+   "line": 65,
+   "ocr": "Ma,",
+   "fixed": "M_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 23,
+   "line": 66,
+   "ocr": "M4",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 1,
+   "ocr": "0 SMy=ng-1",
+   "fixed": "0≦M_{A}≦n_{B}−1",
+   "basis": "scan"
+  },
+  {
+   "col": 24,
+   "line": 5,
+   "ocr": "M4 toa ciphertext word signal Cand",
+   "fixed": "M_{A} to a ciphertext word signal C_{A} and",
+   "basis": "scan"
+  },
+  {
+   "col": 24,
+   "line": 6,
+   "ocr": "C,4",
+   "fixed": "C_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 7,
+   "ocr": "C4",
+   "fixed": "C_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 11,
+   "ocr": "C4=M4¢4(mod na)",
+   "fixed": "C_{A}≡M_{A}^{e_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 24,
+   "line": 14,
+   "ocr": "channel!",
+   "fixed": "channel",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 15,
+   "ocr": "Cy",
+   "fixed": "C_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 18,
+   "ocr": "M4’,",
+   "fixed": "M_{A}',",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 20,
+   "ocr": "M.4",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 23,
+   "ocr": "M.4'=C.4/8(mod ng).",
+   "fixed": "M_{A}'≡C_{A}^{d_{B}}(mod n_{B}).",
+   "basis": "scan"
+  },
+  {
+   "col": 24,
+   "line": 26,
+   "ocr": "termjnal",
+   "fixed": "terminal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 27,
+   "ocr": "Eg=(eg, ng) and decoding key Dga=(da,",
+   "fixed": "E_{B}=(e_{B}, n_{B}) and decoding key D_{B}=(d_{B},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 28,
+   "ocr": "ng),",
+   "fixed": "n_{B}),",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 29,
+   "ocr": "ng is",
+   "fixed": "n_{B} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 31,
+   "ocr": "B= PRIB",
+   "fixed": "n_{B}=p_{B}·q_{B}",
+   "basis": "scan"
+  },
+  {
+   "col": 24,
+   "line": 33,
+   "ocr": "pg and qz",
+   "fixed": "p_{B} and q_{B}",
+   "basis": "scan"
+  },
+  {
+   "col": 24,
+   "line": 34,
+   "ocr": "eg is relatively prime to 1 cm(pa—1!,qa—),",
+   "fixed": "e_{B} is relatively prime to 1 cm(p_{B}−1,q_{B}−1),",
+   "basis": "scan"
+  },
+  {
+   "col": 24,
+   "line": 34,
+   "ocr": "dg is",
+   "fixed": "d_{B} is",
+   "basis": "scan"
+  },
+  {
+   "col": 24,
+   "line": 36,
+   "ocr": "ea(mod(! cm((p— 1),(q— 1),",
+   "fixed": "e_{B}(mod(1 cm((p−1),(q−1)))).",
+   "basis": "scan"
+  },
+  {
+   "col": 24,
+   "line": 39,
+   "ocr": "Mz",
+   "fixed": "M_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 40,
+   "ocr": "Cas,",
+   "fixed": "C_{Bs},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 41,
+   "ocr": "Cg;on said channel in place of Cz, whereby Cas",
+   "fixed": "C_{Bs} on said channel in place of C_{B}, whereby C_{Bs}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 45,
+   "ocr": "Cas=Cz\"48(mod np)",
+   "fixed": "C_{Bs}≡C_{B}\"^{d_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 24,
+   "line": 47,
+   "ocr": "Cg”",
+   "fixed": "C_{B}\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 48,
+   "ocr": "Cg",
+   "fixed": "C_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 49,
+   "ocr": "OSCz\" Znz-I,",
+   "fixed": "0≦C_{B}\"≦n_{B}−1,",
+   "basis": "scan"
+  },
+  {
+   "col": 24,
+   "line": 52,
+   "ocr": "Ca; to Cg”",
+   "fixed": "C_{Bs} to C_{B}\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 54,
+   "ocr": "Cg’ =Cas(mod ng)",
+   "fixed": "C_{B}\"≡C_{Bs}^{e_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 24,
+   "line": 56,
+   "ocr": "Cg” to Cz, and then to transform Cg",
+   "fixed": "C_{B}\" to C_{B}, and then to transform C_{B}",
+   "basis": "scan"
+  },
+  {
+   "col": 24,
+   "line": 57,
+   "ocr": "Mz’, where Mg’",
+   "fixed": "M_{B}', where M_{B}'",
+   "basis": "scan"
+  },
+  {
+   "col": 24,
+   "line": 59,
+   "ocr": "Cg,",
+   "fixed": "C_{Bs}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 61,
+   "ocr": "Ma’==Cp44(mod n4).",
+   "fixed": "M_{B}'≡C_{B}^{d_{A}}(mod n_{A}).",
+   "basis": "scan"
+  },
+  {
+   "col": 24,
+   "line": 64,
+   "ocr": "Mg",
+   "fixed": "M_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 65,
+   "ocr": "Ca;, and for transmitting Cason",
+   "fixed": "C_{Bs}, and for transmitting C_{Bs} on",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 24,
+   "line": 66,
+   "ocr": "Cg, whereby Cg;corresponds",
+   "fixed": "C_{B}, whereby C_{Bs} corresponds",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 25,
+   "line": 2,
+   "ocr": "Cas=Ca\"4\"(mod ng)",
+   "fixed": "C_{Bs}≡C_{B}\"^{d_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 25,
+   "line": 4,
+   "ocr": "Cg”",
+   "fixed": "C_{B}\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 25,
+   "line": 5,
+   "ocr": "Cg",
+   "fixed": "C_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 25,
+   "line": 6,
+   "ocr": "range O=C,” Sng—1,",
+   "fixed": "range 0≦C_{B}\"≦n_{B}−1,",
+   "basis": "scan"
+  },
+  {
+   "col": 25,
+   "line": 9,
+   "ocr": "Ca; to Cg”",
+   "fixed": "C_{Bs} to C_{B}\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 25,
+   "line": 12,
+   "ocr": "Cp” =Cape8(mod na)",
+   "fixed": "C_{B}\"≡C_{Bs}^{e_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 25,
+   "line": 14,
+   "ocr": "Cgto Cz,",
+   "fixed": "C_{B} to C_{B},",
+   "basis": "scan"
+  },
+  {
+   "col": 25,
+   "line": 15,
+   "ocr": "Cgto said receive message word signal Ma’,",
+   "fixed": "C_{B} to said receive message word signal M_{B}',",
+   "basis": "scan"
+  },
+  {
+   "col": 25,
+   "line": 16,
+   "ocr": "Mg,’",
+   "fixed": "M_{B}'",
+   "basis": "scan"
+  },
+  {
+   "col": 25,
+   "line": 17,
+   "ocr": "Cg",
+   "fixed": "C_{B}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 25,
+   "line": 19,
+   "ocr": "Mg'=CgA(mod n4)",
+   "fixed": "M_{B}'≡C_{B}^{d_{A}}(mod n_{A})",
+   "basis": "scan"
+  },
+  {
+   "col": 25,
+   "line": 20,
+   "ocr": ";",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 25,
+   "line": 23,
+   "ocr": "My to a signal ciphertext word signal Cs, as",
+   "fixed": "M_{A} to a signal ciphertext word signal C_{As}, as",
+   "basis": "scan"
+  },
+  {
+   "col": 25,
+   "line": 24,
+   "ocr": "C4; on said channel in place of Ca,",
+   "fixed": "C_{As} on said channel in place of C_{B},",
+   "basis": "scan"
+  },
+  {
+   "col": 25,
+   "line": 25,
+   "ocr": "C4",
+   "fixed": "C_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 25,
+   "line": 29,
+   "ocr": "Cy=C4\"44(mod 14)",
+   "fixed": "C_{A}≡C_{A}\"^{d_{A}}(mod n_{A})",
+   "basis": "scan"
+  },
+  {
+   "col": 25,
+   "line": 31,
+   "ocr": "C4”",
+   "fixed": "C_{A}\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 25,
+   "line": 32,
+   "ocr": "C4",
+   "fixed": "C_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 25,
+   "line": 33,
+   "ocr": "O£Cy4\" =n4—-I,",
+   "fixed": "0≦C_{A}\"≦n_{A}−1,",
+   "basis": "scan"
+  },
+  {
+   "col": 25,
+   "line": 36,
+   "ocr": "C4; to C4”",
+   "fixed": "C_{As} to C_{A}\"",
+   "basis": "scan"
+  },
+  {
+   "col": 25,
+   "line": 39,
+   "ocr": "C4\" SC 4A(mod ng),",
+   "fixed": "C_{A}\"≡C_{As}^{e_{A}}(mod n_{A}),",
+   "basis": "scan"
+  },
+  {
+   "col": 25,
+   "line": 40,
+   "ocr": ".",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 25,
+   "line": 41,
+   "ocr": "C4\" to C4,",
+   "fixed": "C_{A}\" to C_{A},",
+   "basis": "scan"
+  },
+  {
+   "col": 25,
+   "line": 42,
+   "ocr": "Ca to said receive message word signal M1’,",
+   "fixed": "C_{A} to said receive message word signal M_{A}',",
+   "basis": "scan"
+  },
+  {
+   "col": 25,
+   "line": 43,
+   "ocr": "M4’",
+   "fixed": "M_{A}'",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 25,
+   "line": 44,
+   "ocr": "C4",
+   "fixed": "C_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 25,
+   "line": 46,
+   "ocr": "M4=C478(mod ng) *",
+   "fixed": "M_{A}≡C_{A}^{d_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 25,
+   "line": 53,
+   "ocr": "0SMEn-i",
+   "fixed": "0≦M≦n−1",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 25,
+   "line": 57,
+   "ocr": "a=pq",
+   "fixed": "n=p·q",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 25,
+   "line": 64,
+   "ocr": "whereby 6s",
+   "fixed": "whereby",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 25,
+   "line": 66,
+   "ocr": "C=M“mod n)",
+   "fixed": "C≡M^{e}(mod n)",
+   "basis": "scan"
+  },
+  {
+   "col": 25,
+   "line": 68,
+   "ocr": "(p— 1)-(q— 1).",
+   "fixed": "(p−1)·(q−1).",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 8,
+   "ocr": "M=C“mod n)",
+   "fixed": "M≡C^{d}(mod n)",
+   "basis": "scan"
+  },
+  {
+   "col": 26,
+   "line": 11,
+   "ocr": "cm((p—1), (q—1)))).",
+   "fixed": "cm((p−1), (q−1)))).",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 12,
+   "ocr": "M; in",
+   "fixed": "M_{i} in",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 14,
+   "ocr": "E;=-",
+   "fixed": "E_{i}=-",
+   "basis": "scan"
+  },
+  {
+   "col": 26,
+   "line": 15,
+   "ocr": "(ej, nj) and decoding key D;=(e;, nj), where i=1,2,...",
+   "fixed": "(e_{i}, n_{i}) and decoding key D_{i}=(e_{i}, n_{i}), where i=1,2, . . .",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 16,
+   "ocr": "yk, and",
+   "fixed": ",k, and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 17,
+   "ocr": "M; corresponds",
+   "fixed": "M_{i} corresponds",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 18,
+   "ocr": "the i terminal",
+   "fixed": "the i^{th} terminal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 20,
+   "ocr": "OSM;=n;-1,",
+   "fixed": "0≦M_{i}≦n_{i}−1,",
+   "basis": "scan"
+  },
+  {
+   "col": 26,
+   "line": 22,
+   "ocr": "n; is",
+   "fixed": "n_{i} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 24,
+   "ocr": "y= pri",
+   "fixed": "n_{i}=p_{i}·q_{i}",
+   "basis": "scan"
+  },
+  {
+   "col": 26,
+   "line": 26,
+   "ocr": "pjand q; are",
+   "fixed": "p_{i} and q_{i} are",
+   "basis": "scan"
+  },
+  {
+   "col": 26,
+   "line": 27,
+   "ocr": "e; is relatively prime to 1 cm(p;—1,qr—1),",
+   "fixed": "e_{i} is relatively prime to 1 cm(p_{i}−1,q_{i}−1),",
+   "basis": "scan"
+  },
+  {
+   "col": 26,
+   "line": 28,
+   "ocr": "d;is",
+   "fixed": "d_{i} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 30,
+   "ocr": "edmod(1 cm((p;— 1),(qi— D))",
+   "fixed": "e_{i}(mod(1 cm((p_{i}−1),(q_{i}−1))))",
+   "basis": "scan"
+  },
+  {
+   "col": 26,
+   "line": 33,
+   "ocr": "M4",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 37,
+   "ocr": "M4",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 38,
+   "ocr": "M4;, My corresponding",
+   "fixed": "M_{As}, M_{A} corresponding",
+   "basis": "scan"
+  },
+  {
+   "col": 26,
+   "line": 40,
+   "ocr": "My,",
+   "fixed": "M_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 41,
+   "ocr": "M4s=M4?A(mod n4).",
+   "fixed": "M_{As}≡M_{A}^{d_{A}}(mod n_{A}).",
+   "basis": "scan"
+  },
+  {
+   "col": 26,
+   "line": 44,
+   "ocr": "M4; to",
+   "fixed": "M_{As} to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 46,
+   "ocr": "M,sto",
+   "fixed": "M_{As} to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 47,
+   "ocr": "My,",
+   "fixed": "M_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 49,
+   "ocr": "C4",
+   "fixed": "C_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 50,
+   "ocr": "Mu,",
+   "fixed": "M_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 52,
+   "ocr": "My=Ma;‘A(mod ng).",
+   "fixed": "M_{A}≡M_{As}^{e_{A}}(mod n_{A}).",
+   "basis": "scan"
+  },
+  {
+   "col": 26,
+   "line": 55,
+   "ocr": "Mas,",
+   "fixed": "M_{As},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 57,
+   "ocr": "Mas,",
+   "fixed": "M_{As},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 58,
+   "ocr": "Mz;",
+   "fixed": "M_{As}\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 60,
+   "ocr": "My, in",
+   "fixed": "M_{A} in",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 61,
+   "ocr": "O=3My,;\"=ng—1,",
+   "fixed": "0≦M_{As}\"≦n_{B}−1,",
+   "basis": "scan"
+  },
+  {
+   "col": 26,
+   "line": 63,
+   "ocr": "M4; to a signed ciphertext word signal Cys,",
+   "fixed": "M_{As} to a signed ciphertext word signal C_{As},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 64,
+   "ocr": "C4;",
+   "fixed": "C_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 26,
+   "line": 68,
+   "ocr": "Cas=Mys°2(mod ng).",
+   "fixed": "C_{As}≡M_{As}^{e_{B}}(mod n_{B}).",
+   "basis": "scan"
+  },
+  {
+   "col": 27,
+   "line": 3,
+   "ocr": "C4; to",
+   "fixed": "C_{As} to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 6,
+   "ocr": "M4,",
+   "fixed": "M_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 9,
+   "ocr": "C4, to",
+   "fixed": "C_{As} to",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 10,
+   "ocr": "M4,\",",
+   "fixed": "M_{As}\",",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 12,
+   "ocr": "M40 =C.4,72(mod ng)",
+   "fixed": "M_{As}\"≡C_{As}^{d_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 27,
+   "line": 15,
+   "ocr": "M4s,",
+   "fixed": "M_{As},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 17,
+   "ocr": "M4,",
+   "fixed": "M_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 19,
+   "ocr": "M 4=M4.°4mad 14).",
+   "fixed": "M_{A}≡M_{As}^{e_{A}}(mod n_{A}).",
+   "basis": "scan"
+  },
+  {
+   "col": 27,
+   "line": 20,
+   "ocr": "M; in",
+   "fixed": "M_{i} in",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 22,
+   "ocr": "E;=-",
+   "fixed": "E_{i}=-",
+   "basis": "scan"
+  },
+  {
+   "col": 27,
+   "line": 23,
+   "ocr": "(e, nj) and decoding key D;=(e;, nj), where i=1,2,...",
+   "fixed": "(e_{i}, n_{i}) and decoding key D_{i}=(e_{i}, n_{i}), where i=1,2, . . .",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 25,
+   "ocr": "M, corresponds",
+   "fixed": "M_{i} corresponds",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 25,
+   "ocr": "Ww",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 27,
+   "line": 26,
+   "ocr": "the i terminal",
+   "fixed": "the i^{th} terminal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 27,
+   "ocr": "n; is",
+   "fixed": "n_{i} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 29,
+   "ocr": "i= Prgi",
+   "fixed": "n_{i}=p_{i}·q_{i}",
+   "basis": "scan"
+  },
+  {
+   "col": 27,
+   "line": 31,
+   "ocr": "p;and q;are",
+   "fixed": "p_{i} and q_{i} are",
+   "basis": "scan"
+  },
+  {
+   "col": 27,
+   "line": 32,
+   "ocr": "e; is relatively prime to 1 cm(p;—1,q;— 1),",
+   "fixed": "e_{i} is relatively prime to 1 cm(p_{i}−1,q_{i}−1),",
+   "basis": "scan"
+  },
+  {
+   "col": 27,
+   "line": 33,
+   "ocr": "d; is",
+   "fixed": "d_{i} is",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 35,
+   "ocr": "edmod(] em((p; - 1).¢q;— 1)))",
+   "fixed": "e_{i}(mod(1 cm((p_{i}−1),(q_{i}−1)))",
+   "basis": "scan"
+  },
+  {
+   "col": 27,
+   "line": 38,
+   "ocr": "M4",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 42,
+   "ocr": "M4",
+   "fixed": "M_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 43,
+   "ocr": "M4”,",
+   "fixed": "M_{A}\",",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 44,
+   "ocr": "M4”",
+   "fixed": "M_{A}\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 46,
+   "ocr": "My in the range O=[ M4” =ng—I,",
+   "fixed": "M_{A} in the range 0≦M_{A}\"≦n_{B}−1,",
+   "basis": "scan"
+  },
+  {
+   "col": 27,
+   "line": 48,
+   "ocr": "M4” to a ciphertext word signal C4, C4",
+   "fixed": "M_{A}\" to a ciphertext word signal C_{A}, C_{A}",
+   "basis": "scan"
+  },
+  {
+   "col": 27,
+   "line": 51,
+   "ocr": "Ma”,",
+   "fixed": "M_{A}\",",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 53,
+   "ocr": "C4=M4'4(mod ng).",
+   "fixed": "C_{A}≡M_{A}\"^{e_{B}}(mod n_{B}).",
+   "basis": "scan"
+  },
+  {
+   "col": 27,
+   "line": 59,
+   "ocr": "M4,",
+   "fixed": "M_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 62,
+   "ocr": "C4",
+   "fixed": "C_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 63,
+   "ocr": "Ma”,",
+   "fixed": "M_{A}\",",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 65,
+   "ocr": "M1\" =C4?8(mod ng)",
+   "fixed": "M_{A}\"≡C_{A}^{d_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 27,
+   "line": 67,
+   "ocr": "M4”",
+   "fixed": "M_{A}\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 27,
+   "line": 68,
+   "ocr": "M4.",
+   "fixed": "M_{A}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 28,
+   "line": 3,
+   "ocr": "C4",
+   "fixed": "C_{A}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 28,
+   "line": 4,
+   "ocr": "block.word. signals C4,",
+   "fixed": "block word signals C_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 28,
+   "line": 5,
+   "ocr": "Cy\"",
+   "fixed": "C_{A}\"",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 28,
+   "line": 7,
+   "ocr": "Cy in the range OS Cy\" Sny—1,",
+   "fixed": "C_{A} in the range 0≦C_{A}\"≦n_{A}−1,",
+   "basis": "scan"
+  },
+  {
+   "col": 28,
+   "line": 8,
+   "ocr": "said, ciphertext",
+   "fixed": "said ciphertext",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 28,
+   "line": 9,
+   "ocr": "C4” to a signed ciphertext word signal Cy,",
+   "fixed": "C_{A}\" to a signed ciphertext word signal C_{As},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 28,
+   "line": 10,
+   "ocr": "Cas",
+   "fixed": "C_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 28,
+   "line": 12,
+   "ocr": "C4\",",
+   "fixed": "C_{A}\",",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 28,
+   "line": 14,
+   "ocr": "Cs=C.4\"4A(mod 1.4).",
+   "fixed": "C_{As}≡C_{A}\"^{d_{A}}(mod n_{A}).",
+   "basis": "scan"
+  },
+  {
+   "col": 28,
+   "line": 20,
+   "ocr": "My,",
+   "fixed": "M_{A},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 28,
+   "line": 23,
+   "ocr": "C4;",
+   "fixed": "C_{As}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 28,
+   "line": 24,
+   "ocr": "C4\",",
+   "fixed": "C_{A}\",",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 28,
+   "line": 25,
+   "ocr": "mi)",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 28,
+   "line": 26,
+   "ocr": "C=C 4A(mad na)",
+   "fixed": "C_{A}\"≡C_{As}^{e_{A}}(mod n_{A})",
+   "basis": "scan"
+  },
+  {
+   "col": 28,
+   "line": 31,
+   "ocr": "M4\"=C4\"¢8(mod ng)",
+   "fixed": "M_{A}\"≡C_{A}\"^{d_{B}}(mod n_{B})",
+   "basis": "scan"
+  },
+  {
+   "col": 28,
+   "line": 34,
+   "ocr": "My.",
+   "fixed": "M_{A}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 28,
+   "line": 41,
+   "ocr": "OZMSEh-1",
+   "fixed": "0≦M≦n−1",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 28,
+   "line": 48,
+   "ocr": "CzzaeM’ tae. Meo\" +... +a0(mod n)",
+   "fixed": "C≡a_{e}M^{e}+a_{e−1}M^{e−1}+ . . . +a_{0}(mod n)",
+   "basis": "scan"
+  },
+  {
+   "col": 28,
+   "line": 50,
+   "ocr": "ag, ae—1, . . - ag are",
+   "fixed": "a_{e}, a_{e−1}, . . . a_{0} are",
+   "basis": "scan"
+  },
+  {
+   "col": 28,
+   "line": 56,
+   "ocr": "register’means",
+   "fixed": "register means",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 28,
+   "line": 59,
+   "ocr": "mation, ;",
+   "fixed": "mation,",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 28,
+   "line": 60,
+   "ocr": "third register, means",
+   "fixed": "a third register means",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 28,
+   "line": 60,
+   "ocr": "a",
+   "fixed": "",
+   "basis": "scan (stray mark or duplicated OCR line; text not printed there)"
+  },
+  {
+   "col": 28,
+   "line": 63,
+   "ocr": "tion, and -",
+   "fixed": "tion, and",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 29,
+   "line": 28,
+   "ocr": "O(n), and where ag=1 and ae_1,..., ag equal",
+   "fixed": "Ø(n), and where a_{e}=1 and a_{e−1}, . . . , a_{0} equal",
+   "basis": "scan"
+  },
+  {
+   "col": 29,
+   "line": 36,
+   "ocr": "M’=C%mod n)",
+   "fixed": "M'≡C^{d}(mod n)",
+   "basis": "scan"
+  },
+  {
+   "col": 29,
+   "line": 38,
+   "ocr": "e(mod(A(n)))",
+   "fixed": "e(mod(λ(n)))",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 29,
+   "line": 39,
+   "ocr": "A(n)",
+   "fixed": "λ(n)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 29,
+   "line": 41,
+   "ocr": "SAC) i(mod n)",
+   "fixed": "S^{λ(n)}=1(mod n)",
+   "basis": "scan"
+  },
+  {
+   "col": 29,
+   "line": 63,
+   "ocr": "OSMSEn-1",
+   "fixed": "0≦M≦n−1",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 30,
+   "line": 4,
+   "ocr": "C=apMe+ae_1Me—! 4... +ag(mod n)",
+   "fixed": "C≡a_{e}M^{e}+a_{e−1}M^{e−1}+ . . . +a_{0}(mod n)",
+   "basis": "scan"
+  },
+  {
+   "col": 30,
+   "line": 6,
+   "ocr": "ag, ae—j, .. . a9 are",
+   "fixed": "a_{e}, a_{e−1}, . . . a_{0} are",
+   "basis": "scan"
+  },
+  {
+   "col": 30,
+   "line": 8,
+   "ocr": "n,@n),",
+   "fixed": "n,Øn),",
+   "basis": "scan"
+  },
+  {
+   "col": 30,
+   "line": 9,
+   "ocr": "ae= 1 and ag_1,..., agequal",
+   "fixed": "a_{e}=1 and a_{e−1}, . . . , a_{0} equal",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 30,
+   "line": 16,
+   "ocr": "M=C4mod n)",
+   "fixed": "M≡C^{d}(mod n)",
+   "basis": "scan"
+  },
+  {
+   "col": 30,
+   "line": 18,
+   "ocr": "e(mod(A(n))",
+   "fixed": "e(mod(λ(n))",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 30,
+   "line": 19,
+   "ocr": "A(n)",
+   "fixed": "λ(n)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 30,
+   "line": 21,
+   "ocr": "SM)= \\(mod n)",
+   "fixed": "S^{λ(n)}=1(mod n)",
+   "basis": "scan"
+  },
+  {
+   "col": 32,
+   "line": 3,
+   "ocr": "modulus. of said modulo pred-",
+   "fixed": "modulus of said modulo prod-",
+   "basis": "scan"
+  }
+ ]
+}

@@ -1,0 +1,578 @@
+{
+ "pn": "2525352",
+ "figures": [
+  {
+   "id": "1",
+   "label": "Fig. 1",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    240,
+    670,
+    1088,
+    1450
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "2",
+   "label": "Fig. 2",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    240,
+    1449,
+    1088,
+    2048
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "3",
+   "label": "Fig. 3",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    240,
+    2048,
+    990,
+    2815
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "4",
+   "label": "Fig. 4",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    991,
+    2028,
+    1705,
+    2780
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "5",
+   "label": "Fig. 5",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    280,
+    655,
+    1700,
+    1480
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "6",
+   "label": "Fig. 6",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    300,
+    1640,
+    1650,
+    2905
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "7",
+   "label": "Fig. 7",
+   "sheet": 2,
+   "page": 1,
+   "crop": [
+    1045,
+    1470,
+    1670,
+    1752
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "8",
+   "label": "Fig. 8",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1150,
+    1570,
+    1470,
+    1822
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "9",
+   "label": "Fig. 9",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1055,
+    1822,
+    1470,
+    2025
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "10",
+   "label": "Fig. 10",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1163,
+    790,
+    1376,
+    1138
+   ],
+   "rotate": 0,
+   "front_page": false
+  },
+  {
+   "id": "11",
+   "label": "Fig. 11",
+   "sheet": 1,
+   "page": 0,
+   "crop": [
+    1085,
+    1112,
+    1580,
+    1560
+   ],
+   "rotate": 0,
+   "front_page": false
+  }
+ ],
+ "parts": [
+  {
+   "ref": "1",
+   "name": "machine body",
+   "figs": [
+    "1",
+    "2",
+    "5"
+   ]
+  },
+  {
+   "ref": "2",
+   "name": "vertical shaft",
+   "figs": [
+    "1",
+    "2",
+    "11"
+   ],
+   "alt": [
+    "shaft"
+   ]
+  },
+  {
+   "ref": "3",
+   "name": "transmission members",
+   "figs": [
+    "1",
+    "2",
+    "5",
+    "11"
+   ],
+   "alt": [
+    "adjustment members"
+   ]
+  },
+  {
+   "ref": "4",
+   "name": "transmission members",
+   "figs": [
+    "1",
+    "2",
+    "5",
+    "11"
+   ],
+   "alt": [
+    "adjustment members"
+   ]
+  },
+  {
+   "ref": "5",
+   "name": "body of the counting mechanism",
+   "figs": [
+    "1",
+    "2",
+    "5",
+    "10"
+   ],
+   "alt": [
+    "rotatable body"
+   ]
+  },
+  {
+   "ref": "5'",
+   "name": "bush",
+   "figs": [
+    "1",
+    "2",
+    "5"
+   ]
+  },
+  {
+   "ref": "5''",
+   "name": "flange",
+   "figs": [
+    "2"
+   ]
+  },
+  {
+   "ref": "6",
+   "name": "central sleeve shaped projection",
+   "figs": [
+    "1",
+    "5"
+   ],
+   "alt": [
+    "sleeve"
+   ]
+  },
+  {
+   "ref": "7",
+   "name": "compression spring",
+   "figs": [
+    "1",
+    "2",
+    "5"
+   ],
+   "alt": [
+    "spring"
+   ]
+  },
+  {
+   "ref": "8",
+   "name": "transmission pinions",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "9"
+   ],
+   "alt": [
+    "pinions"
+   ]
+  },
+  {
+   "ref": "8'",
+   "name": "transmission pinions",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "8"
+   ],
+   "alt": [
+    "pinions"
+   ]
+  },
+  {
+   "ref": "9",
+   "name": "figure drums",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "5"
+   ]
+  },
+  {
+   "ref": "9'",
+   "name": "figure drums",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "5"
+   ]
+  },
+  {
+   "ref": "10",
+   "name": "transmission pinions",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "alt": [
+    "gears"
+   ]
+  },
+  {
+   "ref": "11",
+   "name": "transmission pinions",
+   "figs": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "8",
+    "9"
+   ],
+   "alt": [
+    "gears"
+   ]
+  },
+  {
+   "ref": "12",
+   "name": "pin",
+   "figs": [
+    "1",
+    "2",
+    "10"
+   ]
+  },
+  {
+   "ref": "13",
+   "name": "recess",
+   "figs": [
+    "1",
+    "2",
+    "5",
+    "10"
+   ],
+   "alt": [
+    "recesses"
+   ]
+  },
+  {
+   "ref": "14",
+   "name": "axles",
+   "figs": [
+    "1",
+    "2",
+    "5",
+    "6",
+    "7",
+    "8",
+    "10"
+   ]
+  },
+  {
+   "ref": "15",
+   "name": "flange",
+   "figs": [
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "16",
+   "name": "edge",
+   "figs": [
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "17",
+   "name": "hole",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "18",
+   "name": "ball",
+   "figs": [
+    "2",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "ref": "19",
+   "name": "leaf springs",
+   "figs": [
+    "2",
+    "5",
+    "6"
+   ],
+   "alt": [
+    "springs"
+   ]
+  },
+  {
+   "ref": "20",
+   "name": "cup shaped ring",
+   "figs": [
+    "1",
+    "2",
+    "5",
+    "6",
+    "7"
+   ],
+   "alt": [
+    "cover ring"
+   ]
+  },
+  {
+   "ref": "21",
+   "name": "display openings",
+   "figs": [
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "ref": "22",
+   "name": "effacer",
+   "figs": [
+    "1",
+    "2",
+    "5"
+   ]
+  },
+  {
+   "ref": "23",
+   "name": "recesses",
+   "figs": [
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "ref": "24",
+   "name": "sleeve",
+   "figs": [
+    "1",
+    "2",
+    "5"
+   ]
+  },
+  {
+   "ref": "25",
+   "name": "internal thread",
+   "figs": [
+    "5"
+   ]
+  },
+  {
+   "ref": "26",
+   "name": "circular spring",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "27",
+   "name": "ring",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "28",
+   "name": "pin",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "29",
+   "name": "operating crank",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "30",
+   "name": "ratchet ring",
+   "figs": [
+    "1",
+    "2",
+    "5"
+   ]
+  },
+  {
+   "ref": "31",
+   "name": "screws",
+   "figs": [
+    "1",
+    "2"
+   ]
+  },
+  {
+   "ref": "R",
+   "name": "result counting mechanism",
+   "figs": [
+    "3",
+    "4",
+    "6"
+   ]
+  },
+  {
+   "ref": "U",
+   "name": "revolution counting mechanism",
+   "figs": [
+    "3",
+    "4",
+    "6"
+   ]
+  },
+  {
+   "ref": "W",
+   "name": "echelon drum",
+   "figs": [
+    "11"
+   ]
+  },
+  {
+   "ref": "Z_{1}",
+   "name": "groups of teeth",
+   "figs": [
+    "11"
+   ],
+   "alt": [
+    "group"
+   ]
+  },
+  {
+   "ref": "Z_{2}",
+   "name": "groups of teeth",
+   "figs": [
+    "11"
+   ],
+   "alt": [
+    "group"
+   ]
+  },
+  {
+   "ref": "t",
+   "name": "angular distance between the figure drums",
+   "figs": [
+    "3",
+    "6"
+   ]
+  }
+ ]
+}

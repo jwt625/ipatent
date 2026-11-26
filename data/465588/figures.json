@@ -1,0 +1,18 @@
+{
+  "pn": "465588",
+  "figures": [
+    {"id": "1", "label": "Fig. 1", "sheet": 1, "page": 0, "crop": [490, 650, 1560, 2190], "rotate": 0, "front_page": false},
+    {"id": "2", "label": "Fig. 2", "sheet": 1, "page": 0, "crop": [425, 2170, 1355, 3030], "rotate": 0, "front_page": false}
+  ],
+  "parts": [
+    {"ref": "a", "name": "roll", "figs": ["1"]},
+    {"ref": "b", "name": "sheets", "figs": ["1", "2"]},
+    {"ref": "c", "name": "arched serrated incisions", "figs": ["1"]},
+    {"ref": "c'", "name": "arched serrated incisions", "figs": ["1", "2"]},
+    {"ref": "c''", "name": "arched serrated incisions", "figs": ["1", "2"]},
+    {"ref": "c'''", "name": "arched serrated incisions", "figs": ["1", "2"]},
+    {"ref": "d", "name": "slight connection", "figs": ["1", "2"], "alt": ["connection"]},
+    {"ref": "e", "name": "", "figs": ["1"]},
+    {"ref": "f", "name": "", "figs": ["1"]}
+  ]
+}

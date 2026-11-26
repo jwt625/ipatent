@@ -1,0 +1,2279 @@
+{
+ "pn": "1948384",
+ "number": "1,948,384",
+ "cite_scheme": "printed page:line",
+ "title": "METHOD AND APPARATUS FOR THE ACCELERATION OF IONS",
+ "inventors": [
+  "Ernest O. Lawrence"
+ ],
+ "assignee": "Research Corporation, New York, N. Y., a corporation of New York",
+ "filed": "1932-01-26",
+ "issued": "1934-02-20",
+ "appl_no": "589,033",
+ "int_cl": null,
+ "us_cl": "250—27",
+ "refs_patents": [],
+ "refs_other": [],
+ "examiners": null,
+ "claims_count": 17,
+ "drawing_figures": 7,
+ "abstract": null,
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:1",
+     "text": "This invention relates to a method and apparatus for the multiple acceleration of ions. The invention is based primarily upon the cumulative action of a succession of accelerating impulses each requiring only a moderate voltage but eventually resulting in an ion speed corresponding to a much higher voltage."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:8",
+     "text": "In order to effect this cumulative action it is necessary to cause ions or electrically charged particles to pass repeatedly through accelerating electric fields in such manner that the motion of the ion or charged particle is in resonance or synchronism with oscillations in the electric accelerating field or fields. It has been proposed to produce high speed ions in this manner by causing the ions to pass successively in a rectilinear path through a plurality of electric fields, such a method having been disclosed by R. Wideroe—Archives fur Elektrot., 21, 387 (1929)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:20",
+     "text": "The method disclosed by Wideroe is to accelerate a beam of ions through a series of metal tubes arranged in a line and attached alternately to the two ends of the inductance of a high frequency oscillatory circuit. The tubes are made successively longer (proportional to the square roots of integers) so that the time of passage through each tube is a constant equal to the half period of the oscillating circuit. In this way it is arranged that during the time of passage of the particle through one of the tubes the electric field between successive tubes undergoes a half cycle, that is a reversal of direction, so that the particle experiences a force in the same direction each time it passes from one tube to the next. Thereby an ion arrives at the end of the series of tubes with an energy which is equivalent to the sum of the potential drops through which it has passed."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:39",
+     "text": "The method developed by Wideroe as above referred to has been successfully demonstrated for heavy ions, for example he succeeded in producing potassium ions having equivalent voltages double the maximum voltage applied to the vacuum tube, and at the University of California this method of rectilinear acceleration has been further developed so that ions have been produced having energies corresponding to 30 times the voltage applied to the tube. This method is conveniently applicable in practice only to fairly heavy ions: for relatively light ions, say up to an atomic weight of 25 or 30. the necessary length of the tubes, because of the high speeds of the ions, would be so great as to make it impractical."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:54",
+     "text": "The main object of the present invention is to provide a method and apparatus which will enable the production of high speed ions by successive accelerating impulses without necessitating the use of an extremely long apparatus such as would be required by the Wideroe method and to enable the operation to be performed in a compact or relatively small sized apparatus even for the production of very high speeds with relatively light ions."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:64",
+     "text": "This stated object is attained according to the present invention, by causing the ions to travel in curved paths back and forth between a single pair of electrodes instead of through a series of electrodes in rectilinear arrangement."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:69",
+     "text": "The movement of the ions or charged particles in such paths, according to the present invention, is effected by the action of a magnetic field, by means of which the moving ions or charged particles are deflected in such manner that their motion is repeatedly reversed with reference to the electric field between the electrodes and the voltage of such electrodes alternates or oscillates in synchronism or resonance with the reversal of the path of the motion of the particle. The present invention therefore utilizes the principle of resonance of the ions with an oscillating electric field but overcomes the difficulties inherent in the use of a long series of tubes by spinning the ions by means of a magnetic field so that the ions move successively in opposite directions in an oscillating electric field, in curved paths and in resonance with the oscillations of the field, whereby an extremely large number of accelerating impulses can be produced in a comparatively limited space."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:89",
+     "text": "The accompanying drawings illustrate an apparatus suitable for carrying out my invention and referring thereto:"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:92",
+     "text": "Fig. 1 is a diagrammatic elevation, and"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:93",
+     "text": "Fig. 2 is a diagrammatic section, of a means for producing electrostatic and magnetic fields for effecting the successive repeated accelerations according to the present invention;"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:97",
+     "text": "Fig. 3 is a side elevation of an apparatus embodying the invention;"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:99",
+     "text": "Fig. 4 is a vertical section of such apparatus;"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:100",
+     "text": "Fig. 5 is a section on line 5—5 in Fig. 4, said figure also showing diagrammatically the electrical circuits energizing and controlling the apparatus;"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:104",
+     "text": "Figs. 6 and 7 are graphs illustrating the results of the operation of my invention."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 2,
+     "cite": "p.1:106",
+     "text": "The general principle or mode of operation of the invention will be described with reference to Figs. 1 and 2, wherein is shown the essential apparatus for carrying out such mode of operation, said apparatus comprising a pair of electrodes 1 and 2 for establishing the required electric field and magnet means 3 for establishing a magnetic field for reversing the motion of the ions."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:4",
+     "text": "Electrodes 1 and 2 are shown as consisting of approximately semicylindrical hollow metal plates or members closed at each side and at their peripheral portions but with their diametral portions open and facing one another. The respective electrode members 1 and 2 are connected to means indicated at 4 for maintaining the required alternating or oscillating electric potential difference between said members."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:13",
+     "text": "The magnet means 3 may consist of any suitable magnet having two pole pieces arranged on opposite sides of the members 1 and 2 so as to produce a uniform magnetic field, the lines of force of such field extending transversely to the electrodes 1 and 2 and normal to the plane of the electric field between the electrodes."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:20",
+     "text": "Suitable means are assumed to be provided for supplying ions or electrically charged particles to the space between the electrodes 1 and 2, for example near the center of the electric field. It will be understood that the effective electric field is substantially confined to the space between the diametral faces of the two electrodes, the space within each hollow electrode being of approximately uniform potential and therefore of zero electric field, it being further understood however, that some electric lines of force may be considered as extending into such hollow spaces within the electrodes to a limited extent, as hereinafter explained."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:34",
+     "text": "If an ion is present in the diametral region between the two electrodes it will be attracted to the interior of the electrode having the opposite charge. For instance, consider a hydrogen molecule ion, H_{2}^{+}. If electrode 1 is negatively charged the ion will be attracted to it, gaining a velocity from the field and passing into the field free space inside electrode 1. Under the influence of the strong magnetic field at right angles to its path the ion will travel in a circular path inside electrode 1 eventually arriving again in the region between the pair of electrodes. Now it is evident that if the initial impulse is imparted at time t_{1} and the particle arrives back between 1 and 2 a time t_{2} exactly a half cycle later, it will find the field between 1 and 2 reversed and will experience an acceleration toward 2. The time required for the particle to traverse a semi-circular path inside the electrodes is the same for all velocities. This becomes clear when it is recalled that the radius of a circular path on which a charged particle travels is proportional to its velocity. If then the particle arrives from electrode 1 into the region between 1 and 2 a half cycle later it will experience a second increment of velocity on passing into electrode 2 where again it will traverse a semicircular path of larger radius arriving between 2 and 1 again another half cycle later, and again receives another acceleration into electrode 1. Thus for this resonance condition the process continues, the particle gaining velocity with each passage through the region between the electrodes until it arrives at a collector placed at the outer edge of the magnetic field. The effect of the above-described operation is to cause the particle or ion to move in a curved path in a plurality of revolutions in an alternating or oscillating electric field within the space enclosed by the hollow electrodes 1 and 2, in such manner that its path forms approximately a spiral of increasing radius, the particle being continually deflected by the action of the magnetic field thereon so as to revolve around the axis or center of the field, and the period of half revolution as determined by the strength of the magnetic field coincides or is synchronous with the period of alternation or oscillation of the electric field so that the particle or ion is repeatedly accelerated at successive half revolutions by the action of the electric field."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:86",
+     "text": "It will be understood that in order for the ion or charged particle to be accelerated in the manner above described it is necessary that the space traversed by the particle shall be sufficiently free of other particles to prevent any substantial diminution in its velocity by reason of collision with such other particles. For this purpose it is necessary that the electrodes between which the electric field is maintained shall be inclosed in a suitable means within which a high degree of evacuation is maintained. It is also necessary to provide suitable means for establishing resonance or synchronism between the alternating electric field and the reversal of motion by the magnetic means. In operating upon light ions the frequency of alternation required is such that it may be conveniently supplied by a high frequency oscillatory circuit."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:104",
+     "text": "Figs. 3 to 5 of the drawings illustrate an apparatus which has been successfully used in carrying out the invention and which embodies the principle of operation above described."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:108",
+     "text": "In said apparatus two electrodes 6 and 7 are provided, electrode 6 being in the shape of a hollow semicylindrical metal plate as above described and electrode 7 being shown as consisting of metal bars spaced apart a distance equal to the distance between the two side walls of member 6. Both of said electrodes are inclosed within an air tight casing 8 which may be of metal and is mounted in any suitable manner between the pole pieces 9 and 10 of the magnet 11."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:119",
+     "text": "The electrode member 6 is insulated from the casing 8, being for example supported by a rod 12 connected to the semicylindrical peripheral wall 13 of the member 6 and mounted at its outer end on an insulator 14 which is supported on the casing 8. The casing 8 may be supported on the pole pieces of the magnet or in any other suitable manner."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:127",
+     "text": "The electrode means 7 is supported at its ends on the casing 8 and is preferably grounded through said casing."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:130",
+     "text": "A connection or conduit 15 leads from the interior of casing 8 to a suitable vacuum pump for maintaining the necessary high vacuum within the casing and a connection 16 may be provided for introducing into the casing a regulated amount of a gas, such as hydrogen for example."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:136",
+     "text": "In this form of the invention the high frequency oscillating electrical field is maintained between electrodes 6 and 7 by applying to the insulated electrode 6 a high frequency oscillating potential for example by means of an oscillatory electrical circuit such as illustrated in Fig 5, the grounded electrode 7 being connected through the casing to one side of said oscillation circuit."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 3,
+     "cite": "p.2:145",
+     "text": "The oscillation circuit 18 may be of any suitable type, comprising an oscillation tube 19, and suitable capacity and inductance means, constituting an oscillator having a definite frequency, the input of said oscillator being connected to an energizing circuit 20 and the output of the oscillator being connected by wires 22 and 23, respectively to supporting rod 12 for electrode 6 and to electrode 7 through grounded casing 8."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "cite": "p.3:4",
+     "text": "The energizing circuit for the oscillator may be of any suitable type, comprising for example means including thermionic tubes, for rectifying alternating current and supplied from a service line 24, and adapted to apply unidirectional current to the oscillator for energizing the latter. The oscillator and energizing circuits shown are of well known type, the connections for energizing the filaments in the thermionic tubes being omitted."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "cite": "p.3:14",
+     "text": "The magnet 11 is preferably an electromagnet energized by connections 26 and 27 from a direct current circuit, said connections including an ammeter 28 and a variable resistance or current controlling means 29 whereby the energization of the magnet may be variably controlled so as to bring the period of reversal of motion of the charged particles into resonance with the frequency of the oscillating electrical field."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "cite": "p.3:23",
+     "text": "Ions may be supplied to the apparatus described by any suitable means. For example, as shown in the drawings, a filament 30 may be mounted within the casing 8 adjacent the space between the electrodes 6 and 7, said filament being connected by conductors 31 and 32 to an energizing circuit including battery 33, adjustable resistance, or current controlling means, 34 and ammeter 35. The filament circuit, as a whole, is preferably insulated and maintained at a suitable negative potential, for example by means of a battery 36, of say 200 volts, connected between said circuit and the grounded connection 37."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "cite": "p.3:36",
+     "text": "Means are provided for withdrawing the ions from the magnetic field at a definite point in the circulatory motion thereof. For this purpose I have shown electrode means 40 and 41 defining an electric field adapted to receive the ions and to deflect same outwardly from the magnetic field. Electrode 40 is shown as a metal member mounted within casing 8 and grounded by connection to said casing and extending in a curve which is tangent to the curved path of the ions in the magnetic field but deviates outwardly therefrom. Said member 40 is shown as formed with semicircular walls 42 extending therefrom, substantially in the planes of the respective side members of electrodes 6 and 7, so that the ions may circulate in spiral paths within the space defined by members 6, 7 and 42 such spiral paths increasing in distance from the center of circulation until they pass to the outside of the member 40. Electrode 41 is formed as a metal strip curved in parallelism with electrode 40 and mounted on an insulated post 43. In case positive ions are being operated upon, the electrode 41 is maintained at suitable negative potential to draw the ions outwardly from the magnetic field. The supporting post 43 for electrode 41 is shown as connected by wire 44 to a potentiometer 45 connected to a unidirectional source of suitable voltage, for example, 1,000 volts, an electrostatic voltmeter 46 being provided for measuring the voltage applied between electrode 41 and the grounded electrode 40."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "cite": "p.3:68",
+     "text": "The electric field producing means described may also be used for measuring the speed of the ions as they traverse the channel 47 between electrodes 40 and 41, by measuring the potential difference between electrodes 40 and 41 required to deflect the ions in a definite path between inlet opening 49 and outlet opening 50 of said channel, suitable means such as an insulated collector box 51 being provided for receiving the ions only when they follow such definite path. Insulated collector box 51 is connected to a current measuring means 53 shown as an electrometer with high resistance shunt and having ground connections so as to measure the current drawn from the collector box, such current being proportional to the number of ions collected. The electric field strength required for deflecting the ions the required amount, in passing through the channel between electrodes 40 and 41 is proportional to the kinetic energy due to the speed of the ions, and by adjusting the voltage between electrodes 40 and 41 for maximum current from the collector box, it is possible to determine from measurement of such voltage, the speed of the ions as they leave the magnetic field."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "cite": "p.3:94",
+     "text": "I have also shown at 52 means for controlling the magnetic field at a definite part of the path of the ions to assist in withdrawing the ions from such field, the means 52 consisting of a channel member of soft iron, whose channel 52′ is located in line with the path of the ions issuing from the channel between electrodes 40 and 41 and serves to reduce the magnetic field intensity at such point, so that the ions deviate outwardly from the magnetic field by reason of their own momentum. The means 52 may be used either in conjunction with, or instead of, the deflecting electric field means 40 and 41."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "cite": "p.3:107",
+     "text": "The high speed ions produced by the operation of the above described apparatus may be utilized in any suitable manner, for example for application to the disintegration or synthesis of atoms, or for general investigations of atomic structure, or for therapeutic investigations or applications. For such purposes the high speed ions may be delivered from the apparatus, for example by passing through a window 55 of mica or other suitable material, in the wall of casing 8, it being understood that the collector box 51 may be removed or omitted in that case, so that the ions pass unobstructedly to the window 55 and thence to any suitable means for utilization of same. Window 55 or other equivalent means serves as a means for withdrawing and receiving the accelerated ions while permitting the ions to maintain substantially the high speed produced by the repeated accelerations."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "cite": "p.3:126",
+     "text": "The apparatus shown in Figs. 3, 4 and 5 operates upon the principle above described in connection with Figs. 1 and 2 it being understood that the electric field in this case is maintained between the grounded electrode 7 and the insulated electrode 6 and that the reversal of the oscillatory electric field is effected each time the ions pass through the space between said electrodes. It will be understood that instead of the grounded electrode 7 another insulated electrode opposite electrode 6 and similar in construction thereto may be employed as illustrated in Figs. 1 and 2 and in that case the energy of acceleration would be double that which can be obtained with a single insulated electrode as shown in Fig. 5."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 4,
+     "cite": "p.3:142",
+     "text": "In the operation of the apparatus shown in Figs. 3 to 5 the ions are generated in situ in the space between the electrodes 6 and 7 by the operation of electrons emitted from the heated filament 30, said filament being preferably maintained at a moderate negative potential, say about 200 volts, and being preferably, partly inclosed by a housing 57 in electrical connection therewith and open on the side toward the space between electrodes 6 and 7 so that electrons are subject to the action of an electric field tending to force the electrons through the opening into the space between electrodes 6 and 7. The space within the casing 8 is evacuated to a suitable degree, for example, to a pressure less than 10^{−8} atmosphere and a gas, for example hydrogen is admitted to said space in regulated manner so as to maintain the desired degree of vacuum and at the same time supply a sufficient number of molecules for production of the ions in the desired amount. The electrons emitted from the filament operate by impact upon such molecules to produce ions and the results obtained indicate that both molecular ions and protons are produced. It has also been found that the effect of the magnetic field is to concentrate the beam of electrons from the filament into a relatively limited zone extending from the hottest portion of the filament normally to the plane of the electric field so that the zone of production of the ions is rather sharply defined. The ions produced in this manner are then subjected to the multiple acceleration as above described by the successive operation of the electrical field thereon the magnetic field serving to maintain the curved path of the ions necessary for such successive operation of the electrical field."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 5,
+     "cite": "p.4:29",
+     "text": "When one considers the spiraling of the ions back and forth from one hollow electrode to another on ever widening paths and estimates the distance the ions travel in their course, it may appear at first sight that only an exceedingly small fraction of the ions starting will arrive at the periphery of the apparatus. A superficial view of the matter would suggest that the electric field between the pairs of plates and the magnetic field would have to be very precisely perpendicular to each other and that the interior of the plates would have to be field free to a high order of magnitude so that the ions would experience forces only tending to keep them in a plane in the interior of the plates. In fact consideration of this matter might lead one to believe that it is a requirement that is practically impossible to achieve. It is therefore to be emphasized particularly that this requirement has been so obviated that in the experimental tests of this method it was found that a very satisfactory portion of the ions starting the spiral paths reach their ultimate goal."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 5,
+     "cite": "p.4:52",
+     "text": "Consideration of Fig. 2 shows the important feature of the experimental arrangement which gives a focusing action of the ions, keeping them approximately in a plane central and parallel to the plates. In this figure dotted lines e show qualitatively the way the lines of force of the electric field extend between the electrodes in the part of the field under consideration, other lines of force being omitted, the shape and position of the electrodes being such that the lines of electric force converge from within each electrode toward the central part of the other electrode. A dot and dash line p shows in a qualitative manner also the effect of the electric field on an ion traveling in a plane which is near the side walls of the electrodes, that is away from the central plane a—a. As the ion approaches electrode 1 it not only experiences an acceleration towards 1, but an acceleration at right angles towards the center plane. An electric field of this form thus produces a focusing action which keeps the ions traveling approximately in the central part of the region of the interior of the plates. This focusing action is a very strong one and overcomes the effects of stray fields and space charge and the like, which would tend to cause a divergence of a beam of ions spiraling around. Of course, this type of an electric field between the plates also tends to prevent the spreading of the ion beam in the plane of the plates at right angles to the magnetic field as well, but this is not so important because a slight tendency of the ions to move in a direction which is not exactly perpendicular to the diametral plane is not quite so important. This focusing action is a feature of the process which makes it so effective, and indeed makes it possible in this way to speed up a large proportion of the ions generated in the diametral region between the pair of plates."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 5,
+     "cite": "p.4:91",
+     "text": "In addition to the focusing by the electric field as above pointed out there is a focusing action due to curvature of the magnetic field adjacent the peripheral portion of such field, such curvature being shown in Fig. 2, where the magnetic lines of force are indicated by the dash lines m, and resulting in deflection of the circumferentially moving ions so as to impart a radial inward component of motion as shown by the heavy arrows, the effect of which is to concentrate the paths of the ions toward the medium plane a—a of the electrode system."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 5,
+     "cite": "p.4:103",
+     "text": "The production of the ions required for the above described operation may be effected in any suitable manner and in the form of the apparatus above described this has been effected by maintaining the electrodes in an atmosphere of the gas at such a pressure that the ions are able to traverse the course of their spiral paths without too great scattering and to cause a beam of electrons to pass down between the pairs of plates ionizing the gas and thereby forming the ions in situ. In the laboratory at the University of California using this method approximately 1/10 of one micro-ampere of protons were caused to spiral around approximately 50 times, gaining an energy corresponding to ¾ of a million volts in this way. That is to say, 1/10 a micro-ampere of protons were produced having energies 200 times that corresponding to the maximum voltage applied across the electrodes."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 5,
+     "cite": "p.4:122",
+     "text": "Another method of producing ions would be, of course, the well known discharge tube method wherein a hot cathode discharge would be maintained in the gas at fairly high pressure and the ions let out into the region between the pairs of plates through a suitable canal; and with a suitable pumping arrangement, pressure difference between the discharge tube and the region of the pair of plates could be made as great as desired."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 5,
+     "cite": "p.4:131",
+     "text": "A third method for the producing of protons and H molecule ions is that of Dempster, who has found that protons are emitted when lithium metal is bombarded by electrons. In this instance the lithium could be placed in the region between the plates and suitably bombarded with electrons. There is also available the method of Kunsman for the production of alkali ions."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 5,
+     "cite": "p.4:139",
+     "text": "By means of apparatus constructed and operated as above described it has been possible to obtain high speed ions of a voltage of 1 million. The following mathematical analysis is given as explaining the fact that the frequency of reversal by operation of the magnetic field is constant throughout the circulation of the ion in said field and therefore can be maintained in resonance with a definite frequency of oscillation of the accelerating electric field. It may be stated that the results of actual operation of the apparatus agree with the estimated velocities derived from this analysis."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:3",
+     "text": "The two forces acting to keep the ion in equilibrium while traversing this path are the centrifugal force due to its circular motion and the force due to the magnetic field. A charged particle moving with a velocity v in a magnetic field H experiences a force at right angles to the direction of its motion and to the magnetic field, given by the relation"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:11",
+     "text": "F=Hev/c    (1)",
+     "formula": true
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:13",
+     "text": "where c is the velocity of light and e the charge of the particle. The centrifugal force due to the motion of a particle of mass m in a circle of radius r is"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:18",
+     "text": "F=mv^{2}/r    (2)",
+     "formula": true
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:20",
+     "text": "Equating, we obtain"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:22",
+     "text": "mv/r=He/c    (3)",
+     "formula": true
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:24",
+     "text": "The frequency relations are"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:25",
+     "text": "f=c/λ=v2πr    (4)",
+     "formula": true
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:27",
+     "text": "where λ is the wave length and f the frequency. Substituting Equation (3) in a modified form of Equation (4) we obtain"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:31",
+     "text": "f=v/(2πr)=(mv/r)(1/(2πm))=(He/c)(1/(2πm))    (5)",
+     "formula": true
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:33",
+     "text": "Thus we get for the fundamental equation"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:35",
+     "text": "f=(H/(2πc))(e/m)    (6)",
+     "formula": true
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:36",
+     "text": "This relation, Equation (6), is seen to be independent of the radius of path r and of the velocity of the particle v. The energy received by a particle of charge e and mass m in falling through an electric field V (in volts) is"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:42",
+     "text": "(1/2)mv^{2}=Ve/300\nor\nv=√((2V/300)(e/m))    (7)",
+     "formula": true
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:48",
+     "text": "Using Equation (5) we get"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:50",
+     "text": "v/(2πr)=He/(2πmc)\nor\nr=(cm/He)v\nor\nr=(c/H)√((2V/300)(m/e))    (8)",
+     "formula": true
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:58",
+     "text": "Inverting this, we find the voltage equivalent to a radius r and a magnetic field H to be:"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:61",
+     "text": "V=(H^{2}r^{2}/c^{3})(300/2)(e/m)    (9)",
+     "formula": true
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:63",
+     "text": "This expression gives the value of the total voltage acquired by the ion when it arrives at the collector, if we take r to be the distance from the center of the tube out to the collector. For a particle of given mass and charge this final value of the voltage is proportional to the square of the magnetic field and the square of the radius of the tube and therefore is directly determined by the dimensions and strength of the magnetic field."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:73",
+     "text": "The constants used in solving these equations are*:"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:75",
+     "text": "*R. T. Birge “Probable values of the physical constants”—Phys. Rev. Suppl., 1, 1 (1920)."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:76",
+     "text": "m (proton)=1.6608×10^{−24} gm.\ne (electron)=4.770×10^{−10} ab. esu.\nc (vel. light)=2,99796×10^{10} cm/sec.\ne/m (electron)=5.303×10^{17} ab. esu.\ne/m (proton)=2,875×10^{14} ab. esu.\ne/m (H_{2}^{+} ion)=1.4375×10^{14} ab. esu (calc.).\ne/m (He^{+} ion)=0.7187×10^{14} ab. esu (calc.).\nr (radius of the tube to collector)=4.50 cm.",
+     "formula": true
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:84",
+     "text": "On substituting the proper values in Equation (5) we get the numerical relations"
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:87",
+     "text": "protons:Hλ=1.966×10^{7}\nH_{2}^{+} ions:Hλ=3.932×10^{7}\nHe^{+} ions:Hλ=7.864×10^{7}",
+     "formula": true
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:91",
+     "text": "These curves are hyperbolas and are the theoretical curves for tne fundamental resonance conditions of the ions named."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:94",
+     "text": "It has been mentioned before (referring to Fig. 5) that a deflecting system is used to draw the beam of ions from the circular paths in the magnetic field. With the system shown in Fig. 5 there is an optimum voltage applied to the deflecting plates which causes the largest number of the circulating ions to enter the collector. As an exampie, there is plotted in Fig. 6 the current to the collector as ordinates corresponding to various deflecting fields as abscissas. There are two curves shown; both were obtained with 37½ meter oscillations applied to the tube and the curve labeled H^{+} was obtained with a magnetic field of 5250 gauss. It is seen that this curve has a maximum for a deflecting field of 1700 volts/cm. With this magnetic field it is expected from the theory that 175,000 volt H^{+} ions would arrive at the collector; also the theoretical deflecting field required to bend the beam of 175,000 volt protons into the collector agrees with this experimentally observed optimum value, that is, 1700 volts per centimeter. The second curve labeled 350,000 volts H_{2}^{+} represents the current to the collector when a magnetic field of 10,500 gauss was used. For this magnetic field it is expected that H_{2}^{+} ions will resonate with the electric oscillations of wave length 37½ meters and moreover it is expected that the ions arriving at the collector system would have twice the kinetic energy that the protons had in the former case and therefore would require twice the deflecting field to bend them into the collector. It is seen that such is found experimentally to be the case; the deflecting field giving the maximum current being 3400 volts per centimeter, as compared to 1700 volts per centimeter for protons."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 6,
+     "cite": "p.5:130",
+     "text": "It is seen that for a deflecting field between 1700 and 3400 volts/cm. it is possible for both protons and hydrogen molecular ions to arrive at the collector system when in each instance the magnetic field is properly adjusted. Fig. 7 shows an example of this; ordinates representing currents to the collector corresponding to various magnetic fields given by the abscissas with a deflecting field of about 2500 volts per centimeter. It is seen that collector currents are obtained for magnetic fields in two very restricted regions only, that of 5250 and 10,500 gauss. These magnetic fields are those calculated from the theory to cause protons and H_{2}^{+} ions respectively to resonate with the oscillating electric field of 37.5 meters wave length. The range of magnetic field over which ions are accelerated enough to reach the collector system depends on the magnitude of the high frequency oscillations applied to the tube; increasing with the applied high frequency voltage. In some of the experiments already carried through, such low voltages have been used, that a variation of the magnetic field of .2 of a percent from the resonant value has caused the ion beam arriving at the collector to diminish practically to zero."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 7,
+     "cite": "p.6:6",
+     "text": "It is obvious that resonance between the period of reversal of motion of the ions and the frequency of oscillation of the electric field can be effected either by adjustment of the strength of the magnetic field, as above set forth, or by adjustment of the frequency of oscillation of the oscillation circuit which energizes the electric field."
+    },
+    {
+     "col": null,
+     "line": null,
+     "page": 8,
+     "cite": "p.7:95",
+     "text": "ERNEST O. LAWRENCE."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:92",
+   "text": "Fig. 1 is a diagrammatic elevation, and"
+  },
+  {
+   "fig": "2",
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:93",
+   "text": "Fig. 2 is a diagrammatic section, of a means for producing electrostatic and magnetic fields for effecting the successive repeated accelerations according to the present invention;"
+  },
+  {
+   "fig": "3",
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:97",
+   "text": "Fig. 3 is a side elevation of an apparatus embodying the invention;"
+  },
+  {
+   "fig": "4",
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:99",
+   "text": "Fig. 4 is a vertical section of such apparatus;"
+  },
+  {
+   "fig": "5",
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:100",
+   "text": "Fig. 5 is a section on line 5—5 in Fig. 4, said figure also showing diagrammatically the electrical circuits energizing and controlling the apparatus;"
+  },
+  {
+   "fig": "6",
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:104",
+   "text": "Figs. 6 and 7 are graphs illustrating the results of the operation of my invention."
+  },
+  {
+   "fig": "7",
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:104",
+   "text": "Figs. 6 and 7 are graphs illustrating the results of the operation of my invention."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:15",
+   "depends": null,
+   "text": "1. The method of accelerating ions which comprises subjecting the ions to the accelerating action of an oscillating electric field and causing the ions to travel in a plurality of revolutions in curved paths by the action of a magnetic field thereon, said magnetic field being of such strength that the period of one-half revolution of the ions in the electric field synchronizes with the period of oscillation of the electric field and the ions are thereby caused to repeatedly traverse the oscillating field in the direction of acceleration by such field and are thus subjected to repeated acceleration."
+  },
+  {
+   "n": 2,
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:28",
+   "depends": null,
+   "text": "2. The method of multiple acceleration of ions which comprises subjecting ions to repeated accelerating action of an oscillatory electric field, and deflecting the motion of the ions by the action of a magnetic field to cause the ions to revolve in curved paths in the electric field, the revolutions of the ions being in resonance with the oscillatory electric field, to effect cumulative acceleration of the ions."
+  },
+  {
+   "n": 3,
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:37",
+   "depends": null,
+   "text": "3. Apparatus for multiple acceleration of ions comprising electrode means, means for applying oscillatory potential difference between said electrode means to maintain an oscillatory electrical field for accelerating ions traversing such field, means for supplying ions to the oscillatory electric field, magnetic means for maintaining a magnetic field adapted to deflect such ions to cause the ions to repeatedly revolve in curved paths in the electric field, and means for controlling the relation of the magnetic field strength and the frequency of oscillation of the electric field to maintain a condition of resonance between the period of revolutions of the ions and the oscillation of the electric field to repeatedly increase the speed of the ions by successive operations of the electric field thereon."
+  },
+  {
+   "n": 4,
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:54",
+   "depends": 3,
+   "text": "4. Apparatus as set forth in claim 3 and comprising, in addition, means for drawing off and delivering from the electric field high-speed ions accelerated by the operation of such field and means independent of the electrode means for receiving the ions so delivered, said receiving means being adapted to permit the ions to maintain the high speed produced in the electric field."
+  },
+  {
+   "n": 5,
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:62",
+   "depends": 3,
+   "text": "5. An apparatus as set forth in claim 3 and comprising, in addition, means for producing an electric deflecting field located in the path of the accelerated ions, to deflect and withdraw the same from the magnetic field."
+  },
+  {
+   "n": 6,
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:67",
+   "depends": 3,
+   "text": "6. An apparatus as set forth in claim 3 and comprising, in addition, means for reducing the magnetic field strength at a definite point in the path of the accelerated ions to permit withdrawal of the ions from the magnetic field."
+  },
+  {
+   "n": 7,
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:72",
+   "depends": null,
+   "text": "7. Apparatus for accelerating ions comprising opposing hollow electrodes having their hollow portions facing each other, means for supplying ions in the space between the electrodes, means for maintaining an electric field between said electrodes so as to cause such ions to move in said field and into the hollow portions of the electrodes; magnetizing means for producing a magnetic field in the paths of the ions acting to deflect the ions so as to cause them to revolve in curved paths between and within the electrodes and to cause the ions to repeatedly traverse the electric field, means for causing oscillations of the electric field in resonance with the revolutions of the ions between the electrodes to cause repeated acceleration of the ions in successive revolutions thereof and means for withdrawing and receiving the ions from the electric field while maintaining the high velocity thereof."
+  },
+  {
+   "n": 8,
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:91",
+   "depends": 7,
+   "text": "8. Apparatus as set forth in claim 7 in which the shape and position of the electrodes is such as to produce lines of electric force converging from within each hollow electrode toward the central portion of the other electrode, to cause the ions to become focussed toward the central part of the region between the electrodes, the ion withdrawing and receiving means being located in the path of the ions so focussed."
+  },
+  {
+   "n": 9,
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:100",
+   "depends": null,
+   "text": "9. The method of retaining ions within an oscillating electric field to subject the same to repeated accelerations by said field which comprises superposing upon said electric field a magnetic field of a magnitude effective to cause ions subjected to the alternating accelerations in reverse directions by said electric field to travel in an approximately spiral path."
+  },
+  {
+   "n": 10,
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:108",
+   "depends": null,
+   "text": "10. The method of multiple acceleration of ions within a magnetic field which comprises superposing upon said magnetic field an oscillating electric field of a frequency effective to cause ions to move in an approximately spiral path under the joint influence of said magnetic and electric fields."
+  },
+  {
+   "n": 11,
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:115",
+   "depends": null,
+   "text": "11. In the acceleration of ions by apparatus including a pair of spaced electrodes, a source of oscillating electric potential, and means for establishing a magnetic field, the method which comprises producing ions at approximately the center of the space between said electrodes, impressing oscillating electric potentials upon the said electrodes to establish an electric field of a magnitude which would result in an oscillatory motion of the ions along an approximately linear path between said electrodes, and deflecting the moving ions from a linear path into an approximately spiral path by a magnetically-produced deflecting force."
+  },
+  {
+   "n": 12,
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:129",
+   "depends": null,
+   "text": "12. The method of repeatedly accelerating ions which comprises subjecting the same to the accelerating action of an oscillating electric field, simultaneously subjecting said ions to a magnetic field to impress thereon a deflecting force acting normal to the velocity imparted to the ions, and maintaining the magnetic field at that magnitude which establishes a ratio between the instantaneous velocity and deflecting force which constrains the ions to move in an approximately spiral path within the zone of the oscillating electric field."
+  },
+  {
+   "n": 13,
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:141",
+   "depends": null,
+   "text": "13. The method of repeatedly accelerating ions which comprises repeatedly subjecting said ions to the alternately recurring forces of an oscillating electric field which tend to move said ions back and forth along a linear path, and conserving the velocity increment imparted to the ions by each of such recurrent accelerations by deflecting the ions laterally of said linear path by forces created by a magnetic field superposed upon said electric field."
+  },
+  {
+   "n": 14,
+   "col": null,
+   "line": null,
+   "page": 8,
+   "cite": "p.7:1",
+   "depends": 13,
+   "text": "14. The method of repeatedly accelerating ions as set forth in claim 13, wherein the magnetic field is of a magnitude effective to reduce the velocity component of the ions along the said linear path to zero synchronously with reversals of phase of the said oscillating electric field."
+  },
+  {
+   "n": 15,
+   "col": null,
+   "line": null,
+   "page": 8,
+   "cite": "p.7:7",
+   "depends": null,
+   "text": "15. In apparatus for the multiple acceleration of ions by an oscillating electric field, the combination with means for generating ions, of means for constraining said ions to move in a spiral path of increasing diameter in an electric field; said means comprising a pair of electrodes, means for impressing oscillating voltages between said electrodes, and means for establishing a magnetic field in the space between said electrodes."
+  },
+  {
+   "n": 16,
+   "col": null,
+   "line": null,
+   "page": 8,
+   "cite": "p.7:17",
+   "depends": null,
+   "text": "16. In apparatus for the multiple acceleration of ions in an oscillating electric field, the combination with means for producing ions, and electrode means for repeatedly accelerating said ions in alternate directions along a linear path between said electrode means, of magnetic means for altering the direction of movement of said ions without decrease in the velocity or kinetic energy thereof."
+  },
+  {
+   "n": 17,
+   "col": null,
+   "line": null,
+   "page": 8,
+   "cite": "p.7:81",
+   "depends": null,
+   "text": "17. In apparatus for the multiple acceleration of ions in an oscillating electric field, the combination with means for producing ions, and electrode means for establishing an oscillating electric field tending to produce oscillation of said ions along a linear path between said electrodes, of magnetic means for imposing upon said accelerated ions deflecting force operative at right angles to the velocity imparted to the ions by said electric field, whereby under the joint influence of said electric field and magnetic field forces the said ions are constrained to move in an approximately spiral path of increasing diameter between said electrode means."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "header",
+   "ocr": ". .Ernest O. Lawrence",
+   "fixed": "Ernest O. Lawrence",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "header",
+   "ocr": "N. ¥.,.& cor-",
+   "fixed": "N. Y., a cor-",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "header",
+   "ocr": "Serial-No.",
+   "fixed": "Serial No.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:1",
+   "ocr": "appa-_ yatus",
+   "fixed": "apparatus",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:3",
+   "ocr": "The _invention",
+   "fixed": "The invention",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:7",
+   "ocr": "higher. voltage",
+   "fixed": "higher voltage",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:18",
+   "ocr": "having. been",
+   "fixed": "having been",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:32",
+   "ocr": "the.same",
+   "fixed": "the same",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:39",
+   "ocr": "method:developed",
+   "fixed": "method developed",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:45",
+   "ocr": "de-~ veloped",
+   "fixed": "developed",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:47",
+   "ocr": "to.30",
+   "fixed": "to 30",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:56",
+   "ocr": "enable ‘the",
+   "fixed": "enable the",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:60",
+   "ocr": "compact : or",
+   "fixed": "compact or",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:63",
+   "ocr": "light ions. .",
+   "fixed": "light ions.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:75",
+   "ocr": "volt- 7 age",
+   "fixed": "voltage",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:82",
+   "ocr": "use of 2 long",
+   "fixed": "use of a long",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:93",
+   "ocr": "Fig, 2",
+   "fixed": "Fig. 2",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:98",
+   "ocr": "empodying",
+   "fixed": "embodying",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:108",
+   "ocr": "and.2",
+   "fixed": "and 2",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 2,
+   "cite": "p.1:109",
+   "ocr": "mode. of",
+   "fixed": "mode of",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:8",
+   "ocr": "another, ‘The",
+   "fixed": "another. The",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:10",
+   "ocr": "the. required",
+   "fixed": "the required",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:19",
+   "ocr": "—.",
+   "fixed": "",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:23",
+   "ocr": "field. - It",
+   "fixed": "field. It",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:27",
+   "ocr": "electrode, being. of",
+   "fixed": "electrode being of",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:38",
+   "ocr": "ion, Het. If. electrode",
+   "fixed": "ion, H_{2}^{+}. If electrode",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:40",
+   "ocr": "gaining. a",
+   "fixed": "gaining a",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:46",
+   "ocr": "if. the",
+   "fixed": "if the",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:47",
+   "ocr": "time fi and. the Particle",
+   "fixed": "time t_{1} and the particle",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:48",
+   "ocr": "time te exactly",
+   "fixed": "time t_{2} exactly",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:53",
+   "ocr": "inSide the electrodes. is",
+   "fixed": "inside the electrodes is",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:53",
+   "ocr": "velocities, . This",
+   "fixed": "velocities. This",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:61",
+   "ocr": "arviving",
+   "fixed": "arriving",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:66",
+   "ocr": "each Passage",
+   "fixed": "each passage",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:74",
+   "ocr": "electrodes 1 ‘and 2",
+   "fixed": "electrodes 1 and 2",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:81",
+   "ocr": "synchronous :with",
+   "fixed": "synchronous with",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:83",
+   "ocr": "succesSive",
+   "fixed": "successive",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:90",
+   "ocr": "free _of",
+   "fixed": "free of",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:95",
+   "ocr": "in @ suitable",
+   "fixed": "in a suitable",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:103",
+   "ocr": "oscillatory. circuit",
+   "fixed": "oscillatory circuit",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:105",
+   "ocr": "ap~ paratus",
+   "fixed": "apparatus",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:109",
+   "ocr": "shape of. a",
+   "fixed": "shape of a",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:118",
+   "ocr": "magnet 11. ;",
+   "fixed": "magnet 11.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:119",
+   "ocr": "insulated. from the _ for rod casing 8, being example supported by a 12 connected",
+   "fixed": "insulated from the casing 8, being for example supported by a rod 12 connected",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:122",
+   "ocr": "peripheral Wall",
+   "fixed": "peripheral wall",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:126",
+   "ocr": "suitable manner, a",
+   "fixed": "suitable manner.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:127",
+   "ocr": "supperted",
+   "fixed": "supported",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:129",
+   "ocr": "through said ‘",
+   "fixed": "through said",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:129",
+   "ocr": "casing,",
+   "fixed": "casing.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:133",
+   "ocr": "casing and 2, connection",
+   "fixed": "casing and a connection",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:133",
+   "ocr": "may he provided",
+   "fixed": "may be provided",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 3,
+   "cite": "p.2:145",
+   "ocr": "suitable i sh on type",
+   "fixed": "suitable type",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:39",
+   "ocr": "purpose T have",
+   "fixed": "purpose I have",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:41",
+   "ocr": "defiect same..outwardly",
+   "fixed": "deflect same outwardly",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:50",
+   "ocr": "side BG members",
+   "fixed": "side members",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:55",
+   "ocr": "the memay ber 40",
+   "fixed": "the member 40",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:57",
+   "ocr": "In. case",
+   "fixed": "In case",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:59",
+   "ocr": "electrode: 41",
+   "fixed": "electrode 41",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:73",
+   "ocr": "in 2 definite",
+   "fixed": "in a definite",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:74",
+   "ocr": "inJet",
+   "fixed": "inlet",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:81",
+   "ocr": "so as to. measure",
+   "fixed": "so as to measure",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:87",
+   "ocr": "enerey",
+   "fixed": "energy",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:92",
+   "ocr": "speedof",
+   "fixed": "speed of",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:98",
+   "ocr": "soft iron;",
+   "fixed": "soft iron,",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:98",
+   "ocr": "52’",
+   "fixed": "52′",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:100",
+   "ocr": "40 and and serves",
+   "fixed": "40 and 41 and serves",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:103",
+   "ocr": "by .reason",
+   "fixed": "by reason",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:108",
+   "ocr": "may he utilized",
+   "fixed": "may be utilized",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:113",
+   "ocr": "applications. _For",
+   "fixed": "applications. For",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:115",
+   "ocr": "55.of",
+   "fixed": "55 of",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:121",
+   "ocr": "same. - Window",
+   "fixed": "same. Window",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:124",
+   "ocr": "produced -by",
+   "fixed": "produced by",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:135",
+   "ocr": "another. insulated",
+   "fixed": "another insulated",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:145",
+   "ocr": "heated 2 filament",
+   "fixed": "heated filament",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 4,
+   "cite": "p.3:150",
+   "ocr": "therewith‘and",
+   "fixed": "therewith and",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:2",
+   "ocr": "tending éo force",
+   "fixed": "tending to force",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:6",
+   "ocr": "10-%",
+   "fixed": "10^{−8}",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:35",
+   "ocr": "view of . the",
+   "fixed": "view of the",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:36",
+   "ocr": "suggest. that",
+   "fixed": "suggest that",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:40",
+   "ocr": "field: free",
+   "fixed": "field free",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:47",
+   "ocr": "so. obviated",
+   "fixed": "so obviated",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:52",
+   "ocr": "of. Fig.",
+   "fixed": "of Fig.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:56",
+   "ocr": "this. figure",
+   "fixed": "this figure",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:69",
+   "ocr": "acceleration ri) towards",
+   "fixed": "acceleration towards",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:73",
+   "ocr": "the. central",
+   "fixed": "the central",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:74",
+   "ocr": "plates, This",
+   "fixed": "plates. This",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:102",
+   "ocr": "system. ,",
+   "fixed": "system.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:107",
+   "ocr": "main~ ‘taining",
+   "fixed": "maintaining",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:114",
+   "ocr": "approximately ts of",
+   "fixed": "approximately 1/10 of",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:117",
+   "ocr": "to % of",
+   "fixed": "to ¾ of",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:118",
+   "ocr": "say, tj; a",
+   "fixed": "say, 1/10 a",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:124",
+   "ocr": "main~ tained",
+   "fixed": "maintained",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:127",
+   "ocr": "canal:",
+   "fixed": "canal;",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:130",
+   "ocr": "desired,",
+   "fixed": "desired.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:133",
+   "ocr": "protons. are",
+   "fixed": "protons are",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:134",
+   "ocr": "bombarded. by",
+   "fixed": "bombarded by",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 5,
+   "cite": "p.4:137",
+   "ocr": "electrons. .'There",
+   "fixed": "electrons. There",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:1",
+   "ocr": "Gerived",
+   "fixed": "derived",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:11",
+   "ocr": "Hev / a a)",
+   "fixed": "F=Hev/c    (1)",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:16",
+   "ocr": "radius r is :",
+   "fixed": "radius r is",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:18",
+   "ocr": "mv? (2) / r=\"",
+   "fixed": "F=mv^{2}/r    (2)",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:22",
+   "ocr": "mv_He / “yc (3)",
+   "fixed": "mv/r=He/c    (3)",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:25",
+   "ocr": "f=c/A=v2ar (4)",
+   "fixed": "f=c/λ=v2πr    (4)",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:27",
+   "ocr": "where \\ is",
+   "fixed": "where λ is",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:31",
+   "ocr": "—v mv 1 He 1 / for r atm coc 2xm (5)",
+   "fixed": "f=v/(2πr)=(mv/r)(1/(2πm))=(He/c)(1/(2πm))    (5)",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:35",
+   "ocr": "He / t= 770m (6)",
+   "fixed": "f=(H/(2πc))(e/m)    (6)",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:39",
+   "ocr": "mass ™",
+   "fixed": "mass m",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:42",
+   "ocr": "1 pte YO / 2m =300",
+   "fixed": "(1/2)mv^{2}=Ve/300",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:46",
+   "ocr": "2V e / v= m (7) / 300",
+   "fixed": "v=√((2V/300)(e/m))    (7)",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:50",
+   "ocr": "Vv He / Qar 2eme",
+   "fixed": "v/(2πr)=He/(2πmc)",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:53",
+   "ocr": "(line not read)",
+   "fixed": "r=(cm/He)v",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:56",
+   "ocr": "(8)",
+   "fixed": "r=(c/H)√((2V/300)(m/e))    (8)",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:59",
+   "ocr": "radius 7",
+   "fixed": "radius r",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:61",
+   "ocr": "Hr? 300 e / V=-—— “@ > (9) / 2m",
+   "fixed": "V=(H^{2}r^{2}/c^{3})(300/2)(e/m)    (9)",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:65",
+   "ocr": "take 7 to",
+   "fixed": "take r to",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:71",
+   "ocr": "by the . dimensions",
+   "fixed": "by the dimensions",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:75",
+   "ocr": "*R, T. Birge",
+   "fixed": "*R. T. Birge",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:76",
+   "ocr": "m (proton) 1.6608 x 10-4 gm.",
+   "fixed": "m (proton)=1.6608×10^{−24} gm.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:77",
+   "ocr": "=4.770 X10-!°",
+   "fixed": "=4.770×10^{−10}",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:78",
+   "ocr": "e (vel. light) =2,99796 x 101°",
+   "fixed": "c (vel. light)=2,99796×10^{10}",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:79",
+   "ocr": "e/m. (electron) =5.303 x 1017",
+   "fixed": "e/m (electron)=5.303×10^{17}",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:80",
+   "ocr": "=2,875 X10\"4",
+   "fixed": "=2,875×10^{14}",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:81",
+   "ocr": "(H2t ion) =1.4375 x 10!* ab. esu (cale.)",
+   "fixed": "(H_{2}^{+} ion)=1.4375×10^{14} ab. esu (calc.)",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:82",
+   "ocr": "(Het ion) =0.7187X10'4 ab. esu (cale.)",
+   "fixed": "(He^{+} ion)=0.7187×10^{14} ab. esu (calc.)",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:87",
+   "ocr": "protons: HA=1.966 x 107",
+   "fixed": "protons:Hλ=1.966×10^{7}",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:88",
+   "ocr": "Het ions:HA=3.932X107 -",
+   "fixed": "H_{2}^{+} ions:Hλ=3.932×10^{7}",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:89",
+   "ocr": "Het ions: HA=1.864X 107",
+   "fixed": "He^{+} ions:Hλ=7.864×10^{7}",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:91",
+   "ocr": "are. hyperbolas",
+   "fixed": "are hyperbolas",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:94",
+   "ocr": "peen",
+   "fixed": "been",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:94",
+   "ocr": "Fig. . 5)",
+   "fixed": "Fig. 5)",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:101",
+   "ocr": "AS an",
+   "fixed": "As an",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:104",
+   "ocr": "37 % meter",
+   "fixed": "37½ meter",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:106",
+   "ocr": "labeled H+",
+   "fixed": "labeled H^{+}",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:109",
+   "ocr": "volts/em.",
+   "fixed": "volts/cm.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:110",
+   "ocr": "volt H+ ions",
+   "fixed": "volt H^{+} ions",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:112",
+   "ocr": "defiecting",
+   "fixed": "deflecting",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:116",
+   "ocr": "volts Het",
+   "fixed": "volts H_{2}^{+}",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:119",
+   "ocr": "that Het ions",
+   "fixed": "that H_{2}^{+} ions",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:120",
+   "ocr": "3714 meters",
+   "fixed": "37½ meters",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:121",
+   "ocr": "moreover it is that the ions at the ;",
+   "fixed": "moreover it is expected that the ions arriving at the collector system would have twice the kinetic energy that the protons had in the former case and therefore would require twice the deflecting field to bend them into the collector. It is seen that such is found experimentally to be the case; the deflecting field giving the maximum current being 3400 volts per centimeter, as compared to 1700 volts per centimeter for protons.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:138",
+   "ocr": "defiecting",
+   "fixed": "deflecting",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:140",
+   "ocr": "regions gy only",
+   "fixed": "regions only",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:141",
+   "ocr": "‘These",
+   "fixed": "These",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 6,
+   "cite": "p.5:143",
+   "ocr": "and Het ions",
+   "fixed": "and H_{2}^{+} ions",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:12",
+   "ocr": "oscillation, circuit",
+   "fixed": "oscillation circuit",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:15",
+   "ocr": "1, The",
+   "fixed": "1. The",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:24",
+   "ocr": "fons",
+   "fixed": "ions",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:25",
+   "ocr": "oscillating field. in",
+   "fixed": "oscillating field in",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:27",
+   "ocr": "repeated acceleration,",
+   "fixed": "repeated acceleration.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:54",
+   "ocr": "4, Apparatus",
+   "fixed": "4. Apparatus",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:72",
+   "ocr": "%. Apparatus",
+   "fixed": "7. Apparatus",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:73",
+   "ocr": "hollow ‘electrodes",
+   "fixed": "hollow electrodes",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:77",
+   "ocr": "hollow. portions",
+   "fixed": "hollow portions",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:79",
+   "ocr": "field.in",
+   "fixed": "field in",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:80",
+   "ocr": "to defiect",
+   "fixed": "to deflect",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:85",
+   "ocr": "of ~ the",
+   "fixed": "of the",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:86",
+   "ocr": "re« peated",
+   "fixed": "repeated",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:90",
+   "ocr": "thereof. oo",
+   "fixed": "thereof.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:91",
+   "ocr": "set. forth",
+   "fixed": "set forth",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:99",
+   "ocr": "focussed,",
+   "fixed": "focussed.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:101",
+   "ocr": "to-subject",
+   "fixed": "to subject",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:104",
+   "ocr": "fleld",
+   "fixed": "field",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:116",
+   "ocr": "spaced: electrodes",
+   "fixed": "spaced electrodes",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:125",
+   "ocr": "defiecting",
+   "fixed": "deflecting",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 7,
+   "cite": "p.6:131",
+   "ocr": "fleld",
+   "fixed": "field",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 8,
+   "cite": "p.7:1",
+   "ocr": "14, The",
+   "fixed": "14. The",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 8,
+   "cite": "p.7:16",
+   "ocr": "electrodes. .",
+   "fixed": "electrodes.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 8,
+   "cite": "p.7:80",
+   "ocr": "thereof, , .",
+   "fixed": "thereof.",
+   "basis": "scan"
+  },
+  {
+   "col": null,
+   "line": null,
+   "page": 8,
+   "cite": "p.7:90",
+   "ocr": "field; whereby",
+   "fixed": "field, whereby",
+   "basis": "scan"
+  }
+ ]
+}

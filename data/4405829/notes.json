@@ -1,0 +1,63 @@
+{
+  "patent": "Filed 1977-12-14 and issued 1983-09-20 to Ronald L. Rivest, Adi Shamir and Leonard M. Adleman, assigned to the Massachusetts Institute of Technology. It is the patent on the RSA public-key cryptosystem, named from the inventors' initials and published as \"A Method for Obtaining Digital Signatures and Public-Key Cryptosystems\" (Communications of the ACM, vol. 21, no. 2, 1978, pp. 120-126). It realizes the public-key idea proposed by Diffie and Hellman (IEEE Transactions on Information Theory, 1976), cited on the front page: each terminal publishes an encoding key (e, n), where n is the product of two secret primes p and q, and keeps the decoding exponent d; a message number M is enciphered as C = M^{e} mod n and recovered as M = C^{d} mod n. Applying the private key first gives a digital signature that anyone can check with the public key. Security rests on the difficulty of factoring n. The worked example uses p = 47, q = 59, n = 2773, e = 17, d = 157. FIGS. 1-2 and 4 show encrypted links, FIG. 3 the modular-exponentiation hardware, FIGS. 5-6 signed and enciphered links, and FIG. 7 adds blocking. Because the method was published before the US filing date, the absolute-novelty rule in most other countries barred foreign patents. The patent was licensed to RSA Data Security, founded by the inventors in 1982; that company's successor, RSA Security, released the algorithm into the public domain on 2000-09-06, two weeks before the patent expired. An equivalent scheme devised by Clifford Cocks at the British GCHQ in 1973 stayed classified until 1997. Rivest, Shamir and Adleman received the 2002 ACM Turing Award for this work.",
+  "figs": {
+    "1": "Two terminals, each holding its own key pair (E_{A}, D_{A}) and (E_{B}, D_{B}), share channel 10. A's plaintext M_{A} leaves as ciphertext C_{A} and B outputs the recovered M'_{A}; C_{B} and M'_{B} run the other way. Which key is applied where is shown in FIGS. 2 and 4.",
+    "2": "One-way encrypted link; dashed boxes are the terminal boundaries. Encoding device 12 at terminal A takes M_{A} and the encoding key, per the text B's public key E_{B}, and puts C_{A} on channel 10; decoding device 14 at terminal B applies B's own decoding key D_{B} and outputs M'_{A} = M_{A}. Keyed instead with D_{A} at device 12 and E_{A} at device 14, the same layout sends a signed message.",
+    "3": "Hardware for C = M^{e} mod n by repeated squaring and multiplication. Underlined 12 marks the whole figure as encoding device 12. C register 30 is preset to 1; e shift register 26 feeds the bits of e, most significant first, to the control input of selector 28. For each bit the multiplier first squares the contents of register 30, then multiplies them by M (bit 1) or by 1 (bit 0); each product returns to register 30 over the feedback line marked 32a. After the last bit, register 30 holds the ciphertext, tapped at the bottom as CIPHER TEXT C. The multiplier, numbered 32 in the text, carries 22 in the drawing, and no source for the constant 1 is drawn. Decoding device 14 is the same circuit loaded with C and the key (d, n).",
+    "4": "FIG. 2 doubled for two-way traffic: each terminal has an encoding device (12A, 12B) and a decoding device (14A, 14B). Each encoding device is keyed with the other terminal's public key (E_{B} at A, E_{A} at B) and each decoding device with its own terminal's secret key (D_{A} at A, D_{B} at B), so C_{A} can be read only at B and C_{B} only at A.",
+    "5": "Signed and enciphered, one way. At terminal A, decoding device 40A applies A's secret D_{A} to M_{A}, giving the signed word M_{As}; encoding device 12A enciphers that with B's public E_{B} into C_{As}. Terminal B undoes the steps in reverse order: 14B with D_{B} recovers M_{As}, then encoding device 42B with A's public E_{A} recovers M'_{A}. Only the holder of D_{A} can produce an M_{As} that E_{A} maps back to the message, which is what makes it a signature.",
+    "6": "FIG. 5 in both directions. Terminal A keeps the sending chain 40A (D_{A}) then 12A (E_{B}) and adds a receiving chain, 14A (D_{A}) then 42A (E_{B}), that turns C_{Bs} back into M'_{B}. Terminal B mirrors it: 14B (D_{B}) and 42B (E_{A}) receive, 40B (D_{B}) and 12B (E_{A}) send. Sending chains run bottom to top, receiving chains top to bottom.",
+    "7": "FIG. 5 with blocking. At terminal A, blocking subsystem 61 cuts the message into numbers M_{A} small enough for signing with D_{A}; after signing, blocking subsystem 63 recuts M_{As} into blocks M''_{As} small enough for enciphering with E_{B}. Terminal B undoes both in reverse: unblocking subsystem 65 after deciphering, unblocking subsystem 67 after the signature check. The front page repeats this figure."
+  },
+  "parts": {
+    "12": "In FIG. 3 the underlined 12 labels the whole drawing as the encoding device, not one block.",
+    "22": "The e register. FIG. 3 also prints 22 beside the multiplier block, which the text numbers 32.",
+    "28": "Drawn as SELECTOR. Per the text it chooses the second multiplier input: the C register contents for squaring, then the M register contents or the constant 1 according to the current bit of e.",
+    "30": "Preset to 1 before exponentiation; holds each intermediate product and, at the end, the ciphertext.",
+    "32": "Not labeled 32 in the drawing: the multiplier block in FIG. 3 carries the numeral 22.",
+    "32a": "Not named in the text; in FIG. 3 it labels the line carrying the multiplier output back to C register 30.",
+    "14A": "The only text mention calls 14A the terminal A encoding device; in FIGS. 4 and 6 it labels terminal A's decoding device. The sentence concerns terminal A's encoding key, so 12A is likely meant.",
+    "40": "Appears once in the text (\"The device 40 transforms...\") in the FIG. 5 description, referring to decoding device 40A.",
+    "12B": "Not numbered in the text; terminal B's encoding device, keyed with E_{A}.",
+    "40B": "Not numbered in the text; terminal B's signing (decoding) device, keyed with D_{B}.",
+    "42A": "Not numbered in the text; terminal A's signature-checking (encoding) device, keyed with E_{B}."
+  },
+  "glossary": [
+    {
+      "term": "public-key cryptosystem",
+      "def": "A scheme in which the encryption key can be published without revealing the decryption key, so no secret key has to be delivered in advance. Proposed by Diffie and Hellman in 1976; this patent gives a working construction."
+    },
+    {
+      "term": "plaintext / ciphertext",
+      "def": "The message before enciphering and the enciphered form sent over the channel."
+    },
+    {
+      "term": "residue (mod n)",
+      "def": "The remainder after division by n. a ≡ b (mod n) means a and b leave the same remainder."
+    },
+    {
+      "term": "relatively prime",
+      "def": "Having no common factor other than 1."
+    },
+    {
+      "term": "multiplicative inverse",
+      "def": "d is the inverse of e modulo m when e·d leaves remainder 1 on division by m; here it makes C^{d} undo M^{e}."
+    },
+    {
+      "term": "digital signature",
+      "def": "A transformation only the sender can produce (here, applying the sender's secret decoding key) but anyone can check (applying the sender's public encoding key)."
+    },
+    {
+      "term": "exponentiation by repeated squaring and multiplication",
+      "def": "Computing M^{e} mod n by scanning the bits of e, squaring the running result at each bit and multiplying by M where the bit is 1; it needs about two multiplications per bit of e instead of e - 1."
+    },
+    {
+      "term": "blocking",
+      "def": "Splitting a long message into pieces whose numeric value is below the modulus n of the key about to be applied, since only numbers 0 to n-1 are transformed one-to-one."
+    },
+    {
+      "term": "modem",
+      "def": "Modulator-demodulator: equipment that converts digital data to signals suited to the transmission line and back."
+    }
+  ]
+}

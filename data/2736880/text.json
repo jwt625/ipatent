@@ -1,0 +1,1432 @@
+{
+ "pn": "2736880",
+ "number": "2,736,880",
+ "title": "MULTICOORDINATE DIGITAL INFORMATION STORAGE DEVICE",
+ "inventors": [
+  "Jay W. Forrester"
+ ],
+ "assignee": "Research Corporation, New York, N. Y., a corporation of New York",
+ "filed": "1951-05-11",
+ "issued": "1956-02-28",
+ "appl_no": "225,714",
+ "int_cl": "",
+ "us_cl": "340—174",
+ "refs_patents": [
+  {
+   "no": "1,504,882",
+   "date": "Aug. 12, 1924",
+   "name": "Elmen",
+   "cl": ""
+  },
+  {
+   "no": "2,053,156",
+   "date": "Sept. 1, 1936",
+   "name": "Livingston",
+   "cl": ""
+  },
+  {
+   "no": "2,430,457",
+   "date": "Nov. 11, 1947",
+   "name": "Dimond",
+   "cl": ""
+  },
+  {
+   "no": "2,518,022",
+   "date": "Aug. 8, 1950",
+   "name": "Keister",
+   "cl": ""
+  },
+  {
+   "no": "2,519,513",
+   "date": "Aug. 22, 1950",
+   "name": "Thompson",
+   "cl": ""
+  },
+  {
+   "no": "2,524,154",
+   "date": "Oct. 3, 1950",
+   "name": "Wood",
+   "cl": ""
+  },
+  {
+   "no": "2,574,438",
+   "date": "Nov. 6, 1951",
+   "name": "Rossi et al.",
+   "cl": ""
+  },
+  {
+   "no": "2,696,600",
+   "date": "Dec. 7, 1954",
+   "name": "Serrel",
+   "cl": ""
+  }
+ ],
+ "refs_other": [
+  "Publication: Proc. of IRE, April, 1952, pp. 475–478.",
+  "Publication: Progress Report (2) on the EDVAV; vol. II, published June 30, 1946, Moore School of Electrical Engineering, U. of Pa., Phila., Pa., (especially paragraph 4.2.12 etc., and Figs. 17a, b and c).",
+  "Thesis by M. K. Haynes, published Dec. 28, 1950, pp. 24–28."
+ ],
+ "examiners": "",
+ "claims_count": 29,
+ "drawing_figures": 10,
+ "abstract": "",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "col": 1,
+     "line": 15,
+     "text": "This invention concerns a storage and selection system for digital information involving the use as a coincidence device of a group of materials having certain specific hysteresis characteristics and arranged in multi-coordinate groupings."
+    },
+    {
+     "col": 1,
+     "line": 20,
+     "text": "Existing devices for the storage of digital information involve the use of acoustic delay lines, magnetic drums, electrostatic storage tubes and the like. These systems may be classified as using two space coordinates or one time and one space coordinate in selecting any given piece of digital information. This results in relatively slow access time for any given piece of information as well as bulky construction."
+    },
+    {
+     "col": 1,
+     "line": 28,
+     "text": "The object of this invention is to store electrical information in a multi-dimensional array of coincidence devices, any one of which can be located by a relatively simple system of coordinate wires."
+    },
+    {
+     "col": 1,
+     "line": 32,
+     "text": "A further object of the invention is to provide a method for using as such coincidence devices materials having high hysteresis characteristics, such as magnetic cores or ferroelectric slabs forming non-linear condensers."
+    },
+    {
+     "col": 1,
+     "line": 36,
+     "text": "A further object is to provide a simpler, more compact, and more reliable information storage system than any now in operation."
+    },
+    {
+     "col": 1,
+     "line": 39,
+     "text": "With these objects in view, the present invention makes use of storage elements in the form of materials having an almost rectangular hysteresis loop. One form of the invention uses the high magnetic hysteresis properties of certain materials, while another form of the invention makes use of non-linear ferroelectric condensers whose charge-voltage diagrams resemble the B—H curve for the magnetic materials."
+    },
+    {
+     "col": 1,
+     "line": 47,
+     "text": "The use of magnetic cores is not in itself new, but in the past they have either been used to store isolated digits where selection is not difficult or arranged in the form of delay lines where time is one of the selecting dimensions. The present system, however, uses these cores as coincidence current devices which are unresponsive to a current of a given magnitude while responding to the simultaneous (i. e. coincidental) application of two or more such currents."
+    },
+    {
+     "col": 1,
+     "line": 56,
+     "text": "In the accompanying drawings Figure 1 shows an approximate hysteresis curve for a suitable magnetic material. Figure 2 shows a simple two dimensional storage system using toroidal shaped magnetic cores. Figure 3 represents a set of eight storage cubes arranged for three coordinate switching showing in detail the coordinate wiring (see also Fig. 8). Figure 4 shows a larger array of cores arranged in a block with the type of circuiting shown in Fig. 3, but with many of the leads omitted and with part of the sensing circuit shown. Fig. 4a shows an individual element in the array. Figure 5 illustrates the charge voltage diagram of an ideal ferroelectric material. Figure 6 is a circuit diagram for the use of ferroelectric slabs as storage units which can be located by the simultaneous selection of two leads. Figure 7 shows one possible arrangement for controlling a given slab by the coordinate use of three leads. Figure 8 illustrates in two dimensions the wiring network used with the eight cores in Fig. 3. Figure 9 shows eight of the three coordinate ferroelectric storage units with their accompanying circuits arranged in a manner similar to the cores in Figures 3 and 8."
+    },
+    {
+     "col": 2,
+     "line": 6,
+     "text": "Before describing the preferred forms of the invention, certain properties of so-called rectangular hysteresis material will be explained. Fig. 1 is a B—H curve of a high hysteresis magnetic material with its rectangular properties emphasized for purposes of explanation. The points A and D represent conditions of zero applied magnetomotive force wherein the core acts as a permanent magnet after excitation by a current flowing in one direction or the other through windings around the core. For example, at point A the flux is as indicated, namely, in a “positive” direction after a positive magnetomotive force of sufficient magnitude has been applied and removed. Point D represents the permanent magnet condition with the flux in the opposite direction after a sufficient negative magnetomotive force, the result of a current in the opposite direction, has been applied and removed. Referring now to the point D, it will be evident that a magnetizing force H_{1}, no matter how often applied and removed, will not materially affect the core, since the only result will be to carry the material through the minor hysteresis loop L. Application of a magnetizing force sufficiently greater than H_{c} will result in reversal of the field. Thus if, instead of a magnetizing force H_{1}, a force of 2H_{1} is applied and then removed the state will go from D to A, that is, there will be a complete reversal of flux in the core. In the same manner a force of −2H produced by the application and removal of the same current in the opposite direction will change the core from state A to state D."
+    },
+    {
+     "col": 2,
+     "line": 35,
+     "text": "The material chosen must show a curve of sufficient breadth to make practicable the use of two such currents, and the transition part of the curve must take place primarily between the values H_{1} and 2H_{1} and thus must be relatively steep. This results in a “rectangular” hysteresis material. Of major importance is the fact that repeated applications of a current producing a force less than H_{c} (for example H_{1}) will not materially affect the state of the core."
+    },
+    {
+     "col": 2,
+     "line": 44,
+     "text": "Materials having an almost rectangular hysteresis loop have been used to store electrical information. In these applications, as in the present invention, the existence of the core at states A and D is said to correspond to the storage of the binary digits 0 and 1 (or 1 and 0). The digit is placed in the core by passing a current of intensity sufficiently greater than H_{c} in the proper direction through the coil. To read the information stored in a given coil a current sufficiently greater than H_{c} is again applied either in the direction designated as positive or in the direction chosen as negative. If the reading force (i. e. current) is “positive” and the core was at state A to begin with, there will be little change in flux density or direction due to the applied current and only a small current in the output circuit. Conversely, if the core was at state D and a strong positive H, exceeding H_{c}, is applied, the field will reverse to state A with an attendant strong output. The output will thus depend on whether the core stored a 0 or a 1. Since reading is exactly the same as writing, the reading will erase whatever was written and will leave the core in that state which corresponds to the direction of the reading current. However, if desired, the previously stored information can be rewritten."
+    },
+    {
+     "col": 2,
+     "line": 68,
+     "text": "The above use of magnetic cores with a single exciting and reading current exceeding H_{c} is not fundamentally different from the use of other existing memory devices in that each core is located separately or is part of a delay line, as mentioned. The present invention, however, contemplate the use of these cores as part of a matrix of cores any one of which may be located by coordinate wires in a way similar to that by which a point on graph paper is located by reference to the axes running through it."
+    },
+    {
+     "col": 3,
+     "line": 6,
+     "text": "Fig. 2 shows a simplified two-coordinate form of the present invention. It has four cores shown as being of toroidal form, the cores being indicated at 6. They are of material having the characteristics indicated in Fig. 1. The cores are arranged in two rows of two each."
+    },
+    {
+     "col": 3,
+     "line": 11,
+     "text": "Each core is provided with three coils. Two of the coils are energizing devices, which may be designated an x-coordinate coil and a y-coordinate coil. Each core has a sensing or output coil. For the core in the upper left corner, the x-coordinate coil is designated 8, the y-coordinate coil 10 and the sensing coil 12. The other three cores have coils similarly arranged. For convenience of designation the four cores are designated by dual notation C_{11}, C_{12}, C_{21} and C_{22}."
+    },
+    {
+     "col": 3,
+     "line": 20,
+     "text": "The x-coordinate coil 8 of the core C_{11} and the corresponding x coil of C_{12} in the upper row are connected in series to an input lead 16 while corresponding coils of the second row are connected to an input connection 18. The y-coordinate coils of the first column, C_{11} and C_{21}, are connected in series to a y-input lead 20, while the y-coordinate coils of the second column are connected in series to an input lead 22. Each of the leads 16, 18, 20, and 22 can be switched independently to either a positive or negative current source while at the same time the opposite terminal is switched to a negative or positive source, thus allowing the passage of current in either direction through each wire. One direction of the current is arbitrarily said to produce a positive force."
+    },
+    {
+     "col": 3,
+     "line": 34,
+     "text": "In order to record information in core C_{11} it is necessary to place a current sufficient to produce the force +H_{1} simultaneously in the X_{1} and Y_{1} wires (16 and 20). If this is done the force 2H_{1} will have been impressed on core C_{11} only. If core C_{11} was at state D it will be switched to state A. Cores C_{12} and C_{21} on the other hand will have received only a single H_{1} current, which is insufficient to change their magnetic state, and core C_{22} will have received no current at all."
+    },
+    {
+     "col": 3,
+     "line": 43,
+     "text": "Therefore if all of the cores are originally at state D the effect of putting in simultaneous positive impulses at 16 and 20 will be to convert core C_{11} to state A while leaving all remaining cores unaffected."
+    },
+    {
+     "col": 3,
+     "line": 47,
+     "text": "In the storage of information the states D and A may be designated as corresponding to the storage of the binary digits 0 and 1. Once they have been magnetized the cores always exist in ether state A or D, and once a core state is determined by the simultaneous application of currents totaling sufficiently more than H_{c} (e. g. 2H) it will remain in that condition through repeated currents of less than H_{c} (e. g. H_{1}). A group of cores may thus be used in a variety of ways to store binary information. One method is as illustrated by the use of a group of four cores such as that in Fig. 2 to store numbers in the binary system from 0 to 16, the switching being arranged so that the 0’s and 1’s are recorded in the various cores in an orderly succession and read out in the same order. In what is considered its most useful application, however, a number of such core arrays are used, and a group of digits is recorded by putting one digit of the group in the corresponding core of each array. This application would be used by the parallel type of computing machine and is made possible by the fact that information can be placed in and read out of a single core at any part of the array without disturbing the other cores."
+    },
+    {
+     "col": 3,
+     "line": 69,
+     "text": "In order to “read” the stored information as mentioned above, the sensing windings 12 are used. As shown in Fig. 2 all of the windings 12 of the first row are connected in series between ground and a rectifier 24 which is connected to an output circuit 26. Similarly the sensing windings of the second row are connected in series through a rectifier 28 with the same output circuit 26. Reading of the stored information is carried out by a procedure similar to storage and depends on the fact that whenever there is a complete reversal of flux in any core, there will be an output voltage induced in the sensing coil 12. To illustrate the method used consider the previous example where the core C_{11} is in state A while the other cores remain in state D. Let us assume that in order to read the contents of a core the same simultaneous coincidental currents are used that result in placing the core in state D. In the case of core C_{11} this would be done by attaching leads 16 and 20 to a negative source and causing the current to pass in the opposite direction from that already used to record. In the case of core C_{11} this reading pulse will return the core to state D and this change will result in an induced voltage in the output coil 12 which causes a current to pass that can be detected in the output circuit 26. If the same simultaneous negative pulses were passed through any of the other coils, which were in state D already, there will be little or no change and negligible output. Any core may be read at will, and the existence of an appreciable output may be said to correspond to the storage of a binary digit 1 while relatively little output may be designated as the digit 0. The cores may also be read out in succession, the output then being a series of binary digits corresponding to a binary number."
+    },
+    {
+     "col": 4,
+     "line": 27,
+     "text": "The two-coordinate arrangement may be extended to any desired size. Thus, in Fig. 2, the windings or energizing devices of the four magnetic elements or cores are arranged in two main groups, which may be termed the X-group and the Y-group. Each group is divided into two sub-groups; the X-group is divided into the sub-groups X_{1} and X_{2} while the Y-group is divided into the sub-groups Y_{1} and Y_{2}, as indicated by the lead designations of Fig. 2. There are an X-winding and a Y-winding on each core, as well as a sensing winding. The same principles apply to a larger system. For example, 64 cores may be arranged in eight rows of eight cores each. There will be 64 windings in the X-group and 64 in the Y-group, and each of these main groups will be divided into 8 sub-groups. The total number of connections will then be eight for the x-coordinate and eight for the y-coordinate, a total of sixteen. The minimum number of input leads required to locate a given core in the above manner may be seen to be 2√number of cores. In order to achieve greater simplicity and efficiency the same coincident current principle is used to locate a storage unit in a three-dimensional grouping."
+    },
+    {
+     "col": 4,
+     "line": 49,
+     "text": "The coincident current approach using three coordinates can be most easily explained by assuming the use of three positive currents H_{m}/3 of such a value that if two of these currents are simultaneously applied to the core they will not materially change its condition whereas the application of three similar currents at once will control the state of the core. This possibility is illustrated on the negative axis of Fig. 1, and Figs. 3 and 4 show a circuit arrangement making possible the easier location of any one of a large group of cores. Figure 3 is intended to make clear the coordinate analogy used to describe the location of a core. However, the same connections may be made on eight cores arranged in two dimensions as Fig. 8 illustrates."
+    },
+    {
+     "col": 4,
+     "line": 66,
+     "text": "The preferred circuit arrangement is based on the geometric fact that three planes can intersect at only one point, though it should be remembered that this analogy is only an aid to easier understanding. Fig. 4 represents an array of cores placed closely together in a rectangular formation, each core being wound by three exciting wires similar to the two depicted in Fig. 2, and also by a fourth coil for sensing purposes. In practice a single turn, which by definition is merely a straight wire passing through the core, suffices for each winding. Figure 3 shows the actual circuit arrangement of Fig. 4 in greater detail using a grouping of only eight cores. While the number of coordinates in Fig. 3 is smaller, the following explanation applies to both figures."
+    },
+    {
+     "col": 5,
+     "line": 5,
+     "text": "Lead X_{1} connects to all of the cores in the top plane of cores depicted in the array, the connection being either in parallel or series. When X_{1} is connected to a positive voltage source all the cores on the top of the cube receive a +H_{m}/3 current. Lead X_{2} connects in the same manner as lead X_{1} to all the cores in the layer next to the top, and in the same way X_{3} and X_{4} connect with their respective horizontal planes of cores. The leads themselves are omitted for clarity, but the small cubes, each of which represents a core, are labeled with the leads which connect to them."
+    },
+    {
+     "col": 5,
+     "line": 19,
+     "text": "Lead Z_{1} connects in series or parallel to all the cores which form the right front face of the array. These cores together form a vertical plane of cores, the front members of which are shown as connecting to Z_{1}. Leads Z_{2}, Z_{3}, and Z_{4} connect to their respective parallel groups of cores."
+    },
+    {
+     "col": 5,
+     "line": 25,
+     "text": "Lead Y_{1} connects in the same way to all the cores which form the front face of the array. Leads Y_{2}, Y_{3} and Y_{4} connect in turn to those cores which form vertical planes parallel to Y. The cores themselves are numbered with the coordinates passing through them, the x coordinate being given first, y second, and z third."
+    },
+    {
+     "col": 5,
+     "line": 31,
+     "text": "In order to control the state of a given core, for example to change it from state D to state A, it is necessary to place a +H/3 in all three circuits passing around that core. Two of these currents coinciding will not be sufficient to materially affect the core. To place information in the upper right hand front core a current of +H_{m}/3 is placed in the X_{1}Y_{1} and Z_{1} planes of cores by switching each of those terminals to the proper source. Only core (111) which is shared in common by the three circuits referred to will receive 3 H_{m}/3 currents and thus be controlled by the recording impulses. The top front and right hand front rows of cores (112, 113, 114, 211, 311, 411) will have received 2 H_{m}/3 currents simultaneously, the rest of the visible cores will have received an H_{m}/3 current, while the rest of the array, which is not visible, will not have received any current. Any core in the array could have as easily been controlled by choosing those coordinates which pass through it."
+    },
+    {
+     "col": 5,
+     "line": 67,
+     "text": "It can be demonstrated that the minimum number of leads required to locate a core in this manner is achieved in a cube, and this number is 3∛number of cores. For example with a block of 64 cores any core can be located by the use of only 12 leads as against 16 for a two coordinate arrangement, and the simplification is even more evident where greater numbers of cores are used. As in the previous case, the sensing circuit S_{1} shows an output whenever a core changes its flux direction, and if three −H_{m}/3 pulses were applied to X_{1}Y_{1}Z_{1} for a reading operation it would return to state D and the output circuit would indicate that it had been in state A, storing a binary 1. The output circuit as shown is connected in parallel to the same group of cores as the Y circuits, one end of each plane being grounded and the other end leading through rectifiers to the output circuit for the matrix."
+    },
+    {
+     "col": 6,
+     "line": 11,
+     "text": "While this arrangement provides easy visualization of the method of locating a core using three positive H circuits, the principle being developed here could also apply to the use of four or more coincident currents, and the circuits may be laid out in the manner of those in Fig. 8. In general, it will be seen by reference to Figs. 2, 4 and 8 that if n=the humber of “coordinates,” and A=the number of sub-groups within each coordinate (also equal to the number of input leads per coordinate), the total number C of cores is C=A^{n} The quantity n also represents the number of windings (or other excitation devices) per core, and is also equal to the number of coincident excitations to change any core from one stable state to the other. The quantity C is the capacity of the system, that is, C units of information may be stored. The total number of input leals required is nA, which is equal to n ^{n}√C"
+    },
+    {
+     "col": 6,
+     "line": 32,
+     "text": "In systems of two or three coordinates, it is possible to assign a dimension to each coordinate, as in Figs. 2 and 4, but a circuit layout of the type shown in Fig. 8 may be used for any number of coordinates. It will be understood that since n represents the number of coincident excitations to change state, each core must be capable of distinguishing between n−1 and n excitations."
+    },
+    {
+     "col": 6,
+     "line": 39,
+     "text": "The present state of the art, however, is such that greater certainty is obtainable by requiring the core to differentiate only between H_{1} and 2H_{1} currents. In order to make it possible to locate one core in a three dimensional matrix like that described in connection with Fig. 4 using the same reduced number of leads described above, the following procedure is preferred:"
+    },
+    {
+     "col": 6,
+     "line": 46,
+     "text": "In order to record (or read) in core X_{1}Y_{1}Z_{1} again, using the same H_{1} and 2H_{1} intensities used in the two coordinate arrangement, currents of +H_{1} strength are passed through lead Y_{1} and lead X_{1} into all the cores connected to those leads. In this case the cores receiving the current will be all the front cores (through Y_{1}) and all those in the top layer of the array (X_{1}). Since the top front row of cores is shared in common by these two layers each of which received a separate H_{1} current, all these top front cores will have received 2H_{1} currents and will be changed from state D to state A. In order to prevent this and achieve recording in core 111 only, one of the H_{1} currents in the remaining cores in the top front row must somehow be cancelled. This may be done by passing a −H_{1} current through the Z_{2}, Z_{3}, and Z_{4} leads into all the cores connected to these leads. The result will be that only core X_{1}Y_{1}Z_{1} will have received a 2H_{1} recording pulse."
+    },
+    {
+     "col": 6,
+     "line": 64,
+     "text": "To read the information in core 111 the analogy to previous methods would involve reversing the core again from A to D by putting −H currents in the X_{1} and Y_{1} leads and +H in leads Z_{2}, Z_{3}, and Z_{4}. As in the two coordinate illustration it would be perfectly possible to use the same pulses to read as to record a 1, the choice being an arbitrary one which was made in order to get an output when a binary 1 had been stored."
+    },
+    {
+     "col": 6,
+     "line": 72,
+     "text": "The number of leads required to locate a given core in a large group by the above three-coordinate systems is well within the capacity of present matrix switching devices and would allow the use, for example, of only 96 terminals to locate any one of 32768 units of information (a cube of 32 units to the side)."
+    },
+    {
+     "col": 7,
+     "line": 3,
+     "text": "While the invention as so far described is directed to magnetic cores used as coincidence current devices, it may also take the form of coincidence voltage devices such as non-linear condensers made by placing a ferroelectric material between two conducting plates."
+    },
+    {
+     "col": 7,
+     "line": 8,
+     "text": "A ferroelectric is a dielectric which will maintain a charge after the removal of an impressed voltage, as Fig. 5 illustrates. When a slab of this material is placed between two metal plates a non-linear condenser is formed which may be used as a storage unit. The material is so constituted that it will not materially change its existing charge condition under repeated applications of the voltage +V_{m}/2 or −V_{m}/2 whereas the voltage −V_{m} will change a +Q state to −Q and the voltage +V_{m} will change a −Q state to +Q. The designation +Q or −Q indicates merely charged states equal in degree but having the predominance of electrons on opposite sides of the slab. This polarity and charge (+Q and −Q) may be used to designate the binary digits 1 and 0. For use as storage devices a group of these slabs, each between two metal plates, may be arranged as shown in Figure 6."
+    },
+    {
+     "col": 7,
+     "line": 28,
+     "text": "Each of the four slabs, designated S_{11}, S_{21}, S_{12}, and S_{22}, has one face connected in parallel with one of the other plates to an X (X_{1} or X_{2}) terminal while the other plate is connected also in parallel to a Y (Y_{1} or Y_{2}) terminal through a sensing resistor (designated 51 and 55) which is placed in series in the line. Across each of the resistors are located the leads from a voltage-sensitive isolating device such as an ordinary vacuum tube or transformer, the output of which goes to a mixing circuit which produces the final output for the group. Each terminal may be switched to a +V_{m}/2 source, a −V_{m}/2 source, or to ground. To select for storage a given slab, for example slab S_{21}, line X_{2} is switched to a −V_{m}/2 source while y_{1} is switched to a +V_{m}/2 source. These two voltages will produce across the slab a potential difference of V_{m} which will control the charge on the condenser S_{21}; however, S_{22} will have only one voltage of −V_{m}/2 on one side while the other is grounded and this will not be enough to overcome the existing charge state (+Q or −Q) of that slab. The same is true of S_{11}, while S_{12} is not affected at all by the lines chosen. It should be noted that the terminal of each line is always grounded except when it is switched to a positive or negative voltage source. Each time there is a change in the ferroelectric material from the polarity designated +Q to −Q (or vice versa) there will be a current flow in the wires connecting to the faces of the plates. This current will generate a voltage in the resistors which are in series with the wires and these voltages when properly mixed using an isolating network, will form the output. This output, or the lack of it, when the +V_{m}/2 and −V_{m}/2 voltages are impressed on the slab simultaneously will indicate what the dipole alignment of the slab was before the voltage was impressed, and thus will indicate whether it was at state +Q_{r} or −Q_{r} (i. e. 1 or 0). It will be seen that the operations of “writing” information and “reading” it are exactly the same, and at all times the slab is in one state or the other (+Q or −Q)."
+    },
+    {
+     "col": 8,
+     "line": 11,
+     "text": "To carry out the example already commenced, assume that the alignment obtained by switching the X terminal to a negative V_{m}/2 source and the Y lines to an equal positive source is designated as forming the condition −Q in each slab and constitutes the storage of the binary 0. If it is then desired to store a binary 0 in slab S_{11} the individual terminals X_{1} and Y_{1} can be respectively made negative and positive by the desired amount. A binary 1 could be stored in S_{11} by reversing the polarity and switching Y_{1} to a negative V_{m}/2 source and X_{1} to a positive V_{m}/2 source. As explained above this will reverse the polarity of the S_{11} slab only."
+    },
+    {
+     "col": 8,
+     "line": 33,
+     "text": "Each time a condenser changes polarity there will be a current flow in both wires attached to that slab, since there will be a flow of electrons off of one plate and onto the other. The resultant voltage across the resistance which is in series with one set of the wires may then be sensed and fed through an isolating device (a transformer or a vacuum tube for example) into the mixer for the output signal. If we select for the operation of reading the same arrangement of the switches which results in recording a binary 0, then there will be no output if the slab stored a 0 and there will be an output (i. e. a current) if the slab stored a 1, for in the latter case the slab will reverse back to the 0 (−Q) state with the current flow which attends a reversal."
+    },
+    {
+     "col": 8,
+     "line": 47,
+     "text": "The above described method of storage is useful for a two-coordinate system. However, as in the case of the magnetic cores, it is desirable to be able to control the state of a slab by the use of three or more coordinates in order to reduce the required number of leads. While various connections may be used for “three-dimensional” arrays, the following is preferred, since it requires differentiation only between two well separated voltage values."
+    },
+    {
+     "col": 8,
+     "line": 55,
+     "text": "The preferred system is shown in Fig. 7. This arrangement uses a voltage-dividing network of two approximately equal resistors to achieve coincidence voltage selection on one plate while the other plate is switched directly to the positive or negative voltages discussed in the coordinate system, or to ground. The X and Y leads, having resistors R_{x} and R_{y}, respectively, in series, both connect to one plate of the condenser. As indicated in the diagram the X and Y terminals can be switched to positive or negative full V_{m} voltages or to ground, while the Z terminal can be switched directly to +V_{m}/2, −V_{m}/2 or 0. It will be seen that a voltage of +V_{m}/2 on the XY plate is obtained by having one terminal switched to a +V_{m} source while the other remains at zero, while a −V_{m}/2 voltage on plate XY is obtained by having one terminal at a −V_{m} potential while the other remains at zero. If one of the X or Y terminals is switched to a positive source while the other is switched to a negative source, the XY plate remains at zero potential. In order to control the charge state on the slab it will be necessary not only to switch one of the X (or Y) terminals to a V_{m} source while the corresponding Y is at ground, but also at the same time to switch the Z terminal to a V_{m}/2 source having the opposite polarity producing a total of V_{m} on that slab. As in the example with magnetic cores, the unselected Y terminals must at the same time be switched to a V_{m} source of the same polarity as the Z terminal to prevent selection of several slabs when a group of slabs is involved."
+    },
+    {
+     "col": 9,
+     "line": 22,
+     "text": "In use these storage units, each consisting of a non-linear condenser and two resistors, may be connected as shown in Fig. 9. This connecting network is schematically identical with that shown in Fig. 8 for the magnetic cores. Each X, Y, or Z lead connects with four of the eight storage units involved, the choice of units being systematically staggered. This network can be expanded to a large block of storage units in the same way that Fig. 3 was expanded into the block shown in Fig. 4. The selection procedure is similar to the preferred magnetic three-coordinate system which required the core to distinguish between only two values of H. Assume that the group of slabs is preset at the storage of binary 0 (−Q or +Q) by switching the Z terminals to a negative V_{m}/2 and all the X (or Y) terminals to +V_{m} sources. Then to record a binary 1 in slab S_{111}, X_{1} is switched to a −V_{m} source, Y_{2} (i. e. all Y terminals except Y_{1}) is switched to a +V_{m} source, and Z_{1} is switched to a +V_{m}/2 source, thereby reversing the polarity of S_{111} only and leaving the other slabs in their existing state. As before all terminals not in use are grounded. To discover the state of S_{111}, X_{1} is switched to a +V_{m} source, Y_{2} to a −V_{m} source and Z_{1} to a −V_{m}/2 with the attendant current and voltage output if a 1 was stored (i. e. the slab changed) and none if a zero was stored (i. e. there was no change in the slab)."
+    },
+    {
+     "col": 9,
+     "line": 57,
+     "text": "The number of terminals which would be necessary is again as low as 3∛number of condensers and this number of leads is well within the capacity of present matrix switching devices. The ferroelectric system has the additional advantage of permitting the relatively simple production of large-capacity storage arrays by the use of printed circuits on sheets of ferroelectric material."
+    },
+    {
+     "col": 9,
+     "line": 67,
+     "text": "Having thus described the invention, I claim:"
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "col": 1,
+   "line": 56,
+   "text": "In the accompanying drawings Figure 1 shows an approximate hysteresis curve for a suitable magnetic material."
+  },
+  {
+   "fig": "2",
+   "col": 1,
+   "line": 58,
+   "text": "Figure 2 shows a simple two dimensional storage system using toroidal shaped magnetic cores."
+  },
+  {
+   "fig": "3",
+   "col": 1,
+   "line": 59,
+   "text": "Figure 3 represents a set of eight storage cubes arranged for three coordinate switching showing in detail the coordinate wiring (see also Fig. 8)."
+  },
+  {
+   "fig": "4",
+   "col": 1,
+   "line": 62,
+   "text": "Figure 4 shows a larger array of cores arranged in a block with the type of circuiting shown in Fig. 3, but with many of the leads omitted and with part of the sensing circuit shown."
+  },
+  {
+   "fig": "4a",
+   "col": 1,
+   "line": 65,
+   "text": "Fig. 4a shows an individual element in the array."
+  },
+  {
+   "fig": "5",
+   "col": 1,
+   "line": 66,
+   "text": "Figure 5 illustrates the charge voltage diagram of an ideal ferroelectric material."
+  },
+  {
+   "fig": "6",
+   "col": 1,
+   "line": 68,
+   "text": "Figure 6 is a circuit diagram for the use of ferroelectric slabs as storage units which can be located by the simultaneous selection of two leads."
+  },
+  {
+   "fig": "7",
+   "col": 1,
+   "line": 70,
+   "text": "Figure 7 shows one possible arrangement for controlling a given slab by the coordinate use of three leads."
+  },
+  {
+   "fig": "8",
+   "col": 1,
+   "line": 72,
+   "text": "Figure 8 illustrates in two dimensions the wiring network used with the eight cores in Fig. 3."
+  },
+  {
+   "fig": "9",
+   "col": 2,
+   "line": 2,
+   "text": "Figure 9 shows eight of the three coordinate ferroelectric storage units with their accompanying circuits arranged in a manner similar to the cores in Figures 3 and 8."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "col": 9,
+   "line": 68,
+   "depends": null,
+   "text": "1. An information storage device comprising a plurality of individual elements, each element having two stable states and having a response-excitation characteristic of a substantially rectangular hysteresis-loop type, a plurality of energizing means for each element, said energizing means being designated by coordinates for each element, connections for effecting simultaneous energization of all corresponding energizing means of a group of elements having the same coordinate designation, whereby each of said elements receives an excitation sufficient to effect a partial change of state, and switching means for effecting coincidental energization of more than one energizing means for selected elements."
+  },
+  {
+   "n": 2,
+   "col": 10,
+   "line": 6,
+   "depends": 1,
+   "text": "2. The apparatus of claim 1, together with sensing means for each element responsive to a change of state thereof."
+  },
+  {
+   "n": 3,
+   "col": 10,
+   "line": 9,
+   "depends": null,
+   "text": "3. An information storage apparatus comprising a plurality of individual storage elements, each consisting of a magnetic core having nearly rectangular hysteresis properties, a plurality of separate independent and unconnected energizing conductors for each core, each conductor being common to a group of cores and energizing all the cores in that group sufficiently to effect a partial change of state, the conductors being arranged in coordinate groups, and means for controlling the coincidental excitation of the unique coordinate combination of energizing conductors of a selected core to effect a change of state thereof without changing the state of the other energized cores in the energized coordinate groups."
+  },
+  {
+   "n": 4,
+   "col": 10,
+   "line": 22,
+   "depends": 3,
+   "text": "4. The apparatus of claim 3 in which each element is a ring of magnetic material, and each energizing conductor comprises a single wire threaded through a plurality of several rings in series."
+  },
+  {
+   "n": 5,
+   "col": 10,
+   "line": 26,
+   "depends": 3,
+   "text": "5. Apparatus according to claim 3 having in addition an output winding for each magnetic element, means interconnecting the output windings of a plurality of elements whereby an output pulse of significant magnitude is produced upon a change of state of any magnetic element."
+  },
+  {
+   "n": 6,
+   "col": 10,
+   "line": 32,
+   "depends": null,
+   "text": "6. An information storage device comprising a plurality of individual elements, each element having two stable states and having a response-excitation characteristic of a substantially rectangular hysteresis-loop type, a plurality of energizing means for each element, said energizing means being designated by coordinates for each element, means for applying to the energizing means in some of the coordinates sufficient excitation to effect a change of state of a number of element, and means for applying to the energizing means of other coordinates a counteracting excitation to prevent a change of state in any but a selected storage element."
+  },
+  {
+   "n": 7,
+   "col": 10,
+   "line": 44,
+   "depends": 6,
+   "text": "7. Apparatus according to claim 6 in which the energizing means are arranged in three coordinates and the counteracting excitations are applied in one of the coordinates."
+  },
+  {
+   "n": 8,
+   "col": 10,
+   "line": 48,
+   "depends": 6,
+   "text": "8. Apparatus according to claim 6 in which the storage elements are high-hysteresis magnetic cores, and the energizing means are conductors threaded through the cores."
+  },
+  {
+   "n": 9,
+   "col": 10,
+   "line": 51,
+   "depends": null,
+   "text": "9. Apparatus for the storage of units of information comprising a plurality of similar elements responsive to electrical excitation, each having two stable states and having a response-excitation characteristic of a substantially rectangular hysteresis loop type whereby at least a threshold excitation is required to change from one state to the other, means for generating a plurality of excitations, and means for applying to each of the elements separate and coincident excitations each of which is alone capable of effecting a partial change of state which are additively effective to apply a net total excitation greater than the threshold to any chosen element."
+  },
+  {
+   "n": 10,
+   "col": 10,
+   "line": 63,
+   "depends": null,
+   "text": "10. Apparatus for the storage of A^{n} units of information comprising A^{n} similar elements responsive to electrical excitation, each having two distinguishably different zero-excitation states, and two threshold amounts of electrical excitation each of which causes a shift from one stable state to the other, and below which excitation has substantially no effect after being removed, means for applying to each element separate and coincident excitations which are additively effective in the total of n excitations to cause a total excitation greater than threshold, means connecting said applying means to form n coordinates, and input leads to A sub-groups within each coordinate, whereby n coincident excitations of any element are necessary to effect a change of state thereof, sensing means on each of the A^{n} elements to generate electric outputs responsive to a change in state of the element, and unidirectional means connecting in parallel all of the A^{n} sensing means to form one output terminal, with an output for only one direction of change of state."
+  },
+  {
+   "n": 11,
+   "col": 11,
+   "line": 7,
+   "depends": null,
+   "text": "11. Information storage apparatus comprising a plurality of storage elements, each element having two stable states and having a response-excitation characteristic with substantial hysteresis properties, a plurality of energizing devices for each element, said energizing devices for the several elements being arranged in main groups, each element having an energizing device of each of the several main groups, said main groups being divided into sub-groups, connections to connect all of the energizing devices of each sub-group to provide equal and simultaneous excitation to all of the energizing devices of said sub-group, whereby each element corresponds to a unique combination of sub-groups, and operating means for effecting simultaneous excitation of one or more selected sub-groups from each main group, to cause the combined energizing effect to be above the level necessary to change the stable state of any selected element represented by a unique combination of sub-groups, but below said level for unselected elements of said sub-groups."
+  },
+  {
+   "n": 12,
+   "col": 11,
+   "line": 26,
+   "depends": null,
+   "text": "12. Information storage apparatus comprising a plurality of magnetic storage elements, each element having two stable states and having a response-excitation characteristic with substantial hysteresis properties, a plurality of energizing windings for each element, said energizing windings for the several elements being arranged in main groups, each element having an energizing device of each of the several main groups, said main groups being divided into sub-groups, connections to connect all of the energizing windings of each sub-group to provide equal and simultaneous excitation to all of the energizing windings of said sub-group, whereby each element corresponds to a unique combination of sub-groups, and operating means for effecting simultaneous excitation of one or more selected sub-groups from each main group, to cause the combined energizing effect to be above the level necessary to change the stable state of any selected element represented by a unique combination of sub-groups, but below said level for unselected elements of said sub-groups."
+  },
+  {
+   "n": 13,
+   "col": 11,
+   "line": 46,
+   "depends": 12,
+   "text": "13. Information storage apparatus as described in claim 12 having in addition at least one output winding for each magnetic element, means for connecting output windings for a plurality of elements in a group whereby an output pulse of significant magnitude will be produced if any magnetic element of the group undergoes a change of state."
+  },
+  {
+   "n": 14,
+   "col": 11,
+   "line": 53,
+   "depends": 12,
+   "text": "14. Apparatus according to claim 12 in which the magnetic elements form a three-dimensional array, and the sub-groups of energizing windings are arranged in planes, whereby any element is uniquely associated with the intersection of three sub-groups of the several main groups."
+  },
+  {
+   "n": 15,
+   "col": 11,
+   "line": 59,
+   "depends": 14,
+   "text": "15. Apparatus according to claim 14 in which the magnetic elements are cores of toroidal form, and the energizing windings comprise wires threaded straight through the cores."
+  },
+  {
+   "n": 16,
+   "col": 11,
+   "line": 63,
+   "depends": null,
+   "text": "16. Information storage apparatus comprising a plurality of magnetic storage elements, each element having two stable states and having a response-excitation characteristic with substantial hysteresis properties, a plurality of energizing windings for each element, said energizing windings for the several elements being arranged in main groups, each element having an energizing winding of each of the several main groups, said main groups being divided into sub-groups, series connections for the energizing windings of each sub-group, each element corresponding to a unique combination of sub-groups, and operating means for effecting simultaneous excitation of one or more selected sub-groups from each main group, to cause the combined energizing effect to be above the level necessary to change the stable state of any selected element represented by a unique combination of sub-groups, but below said level for unselected elements of said sub-groups."
+  },
+  {
+   "n": 17,
+   "col": 12,
+   "line": 6,
+   "depends": 16,
+   "text": "17. Apparatus according to claim 16, in which each magnetic storage element comprises a toroidal core of magnetic material and a single wire is passed through several cores in series to form the energizing windings of a sub-group."
+  },
+  {
+   "n": 18,
+   "col": 12,
+   "line": 11,
+   "depends": null,
+   "text": "18. Information storage apparatus comprising a plurality of storage elements, each element having two stable states and having a responsive-excitation characteristic with substantial hysteresis properties, a plurality of energizing devices for each element, said energizing devices for the several elements being arranged in main groups, each element having an energizing device of each of the several main groups, said main groups being divided into sub-groups, connections to connect all of the energizing devices of each sub-group to provide equal and simultaneous excitation to all of the energizing devices of said sub-group, whereby each element corresponds to a unique combination of sub-groups, and operating means for effecting simultaneous excitation of one or more selected sub-groups from each of certain of the main groups to cause the combined energizing effect thereof to be above the level necessary to change the stable state of a selected element and other elements, and operating means for effecting counteracting excitation of sub-groups from at least one other main group to restrict the total effective change-of-state excitation to any selected element represented by a unique combination of sub-groups."
+  },
+  {
+   "n": 19,
+   "col": 12,
+   "line": 34,
+   "depends": null,
+   "text": "19. Information storage apparatus comprising a plurality of magnetic storage elements, each element having two stable states and having a response-excitation characteristic with substantial hysteresis properties, a plurality of energizing windings for each element, said energizing windings for the several elements being arranged in main groups, each element having an energizing winding of each of the several main groups, said main groups being divided into sub-groups, connections to connect all of the energizing windings of each sub-group to provide equal and simultaneous excitation to all of the energizing windings of said sub-group, whereby each element corresponds to a unique combination of sub-groups, and operating means for effecting simultaneous excitation of one or more selected sub-groups from each of certain of the main groups to cause the combined energizing effect thereof to be above the level necessary to change the stable state of a selected element and other elements, and operating means for effecting counteracting excitation of sub-groups from at least one other main group to restrict the total effective change-of-state excitation to any selected element represented by a unique combination of sub-groups."
+  },
+  {
+   "n": 20,
+   "col": 12,
+   "line": 57,
+   "depends": 19,
+   "text": "20. Apparatus according to claim 19 in which the magnetic elements form a three-dimensional array, and the sub-groups of energizing windings are arranged in planes, whereby any element is uniquely associated with the intersection of three sub-groups of the several main groups."
+  },
+  {
+   "n": 21,
+   "col": 12,
+   "line": 62,
+   "depends": 20,
+   "text": "21. Apparatus according to claim 20 in which the magnetic elements are cores of toroidal form, and the energizing windings comprise wires threaded straight through the cores."
+  },
+  {
+   "n": 22,
+   "col": 12,
+   "line": 66,
+   "depends": null,
+   "text": "22. An information storage apparatus comprising a plurality of individual storage elements, each element having two stable states and having a response-excitation characteristic of a substantially rectangular hysteresis-loop type, whereby any element will remain unchanged during one degree of excitation but is capable of changing upon a multiple of said excitation, the elements being arranged in groups according to two or more independent coordinates, whereby an element is uniquely designated by its coordinates, a plurality of energizing means for each element each capable of temporarily effecting a partial change of state and each being energized independently by one coordinate of that element, and circuit means to effect coincidental excitation of the energizing means of selected elements by energizing the coordinate groups including that element to control the transfer thereof from one stable state to the other."
+  },
+  {
+   "n": 23,
+   "col": 13,
+   "line": 8,
+   "depends": null,
+   "text": "23. A magnetic core array comprising a plurality of rings of magnetic material, each having substantially rectangular hysteresis properties and capable of assuming either of two stable states in which the flux exists in opposite directions in the ring, the several rings being arranged in rows and columns, a set of separate wires, each passing through all of the rings of a row, a second set of wires, each single wire of which passes through all of the rings of a column, whereby each ring is threaded by two wires, means for exciting any wire of a set to effect a partial change of state of the rings through which it passes, and means for simultaneously exciting one wire of each set to excite the core at their intersection sufficiently to effect a change from one stable state to the other."
+  },
+  {
+   "n": 24,
+   "col": 13,
+   "line": 23,
+   "depends": 23,
+   "text": "24. An array as defined in claim 23 in which each single wire is threaded straight through all of the rings of a row or column."
+  },
+  {
+   "n": 25,
+   "col": 13,
+   "line": 26,
+   "depends": null,
+   "text": "25. Apparatus for controlling an array of bistable elements comprising a plurality of elements, each having two stable states and having a response-excitation characteristic of a substantially rectangular hysteresis-loop type, the elements being arranged in groups according to two or more independent coordinates, whereby an element is designated by its coordinates, energizing means for each coordinate of each element, each energizing means being capable of effecting a partial change of state, and circuit means to control the coincidental excitation of the energizing means of any selected element to control the transfer thereof from one stable state to the other."
+  },
+  {
+   "n": 26,
+   "col": 13,
+   "line": 38,
+   "depends": null,
+   "text": "26. In an array of bistable magnetic elements each having substantially rectangular hysteresis properties and capable of assuming either of two stable states and requiring excitation above a critical level to effect a change of state, apparatus to set the state of any selected element in the array to either of the two stable states, which comprises a plurality of magnetizing leads for each element, each lead energizing a unique group of elements whereby each element may be separately energized by a unique combination of leads, means for energizing each lead to effect a partial change of state of each element of its group, and control means for selectively energizing the leads to effect a net total energization above the critical level for a selected element corresponding to one combination of leads, while maintaining the excitation of unselected elements below the critical level."
+  },
+  {
+   "n": 27,
+   "col": 14,
+   "line": 6,
+   "depends": null,
+   "text": "27. A magnetic core array comprising a plurality of rings of magnetic material, each having substantial rectangular hysteresis properties and capable of assuming either of two stable states in which the flux exists in opposite directions in the ring, the rings being arranged in a two-dimensional array of rows and columns, a set of coordinate energizing wires each of which passes through all of the rings of a row, a second set of coordinate energizing wires each of which passes through all of the rings of a column, whereby any ring is uniquely designated by the intersection of two coordinate energizing wires, and sense winding means coupled with all of the cores of the array."
+  },
+  {
+   "n": 28,
+   "col": 14,
+   "line": 19,
+   "depends": 27,
+   "text": "28. A three-dimensional magnetic core array comprising a plurality of arrays as defined in claim 27, and a third set of energizing wires, each of which passes through a group of rings."
+  },
+  {
+   "n": 29,
+   "col": 14,
+   "line": 23,
+   "depends": 27,
+   "text": "29. A three-dimensional magnetic core array comprising a plurality of arrays as defined in claim 27, a third set of energizing wires, each of which passes through a group of rings, and connections for the several sets of wires to arrange said wires in three intersecting coordinate planes."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "col": 1,
+   "line": 25,
+   "ocr": "reiatively",
+   "fixed": "relatively",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 1,
+   "line": 27,
+   "ocr": "construction. ,",
+   "fixed": "construction.",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 2,
+   "line": 23,
+   "ocr": "Hi",
+   "fixed": "H_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 27,
+   "ocr": "He",
+   "fixed": "H_{c}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 28,
+   "ocr": "Hi, a force of 2H:",
+   "fixed": "H_{1}, a force of 2H_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 31,
+   "ocr": "—-2H",
+   "fixed": "−2H",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 38,
+   "ocr": "Hi and 2H:",
+   "fixed": "H_{1} and 2H_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 41,
+   "ocr": "He",
+   "fixed": "H_{c}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 42,
+   "ocr": "H:)",
+   "fixed": "H_{1})",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 52,
+   "ocr": "He",
+   "fixed": "H_{c}",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 59,
+   "ocr": "He,",
+   "fixed": "H_{c},",
+   "basis": "scan"
+  },
+  {
+   "col": 2,
+   "line": 62,
+   "ocr": "ora",
+   "fixed": "or a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 2,
+   "line": 69,
+   "ocr": "He",
+   "fixed": "H_{c}",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 19,
+   "ocr": "Cur, Ciz, C2i and Caz.",
+   "fixed": "C_{11}, C_{12}, C_{21} and C_{22}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 20,
+   "ocr": "C1:",
+   "fixed": "C_{11}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 21,
+   "ocr": "Ciz",
+   "fixed": "C_{12}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 24,
+   "ocr": "Cu and Cai,",
+   "fixed": "C_{11} and C_{21},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 34,
+   "ocr": "C1",
+   "fixed": "C_{11}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 36,
+   "ocr": "4-Hi",
+   "fixed": "+H_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 37,
+   "ocr": "2H:",
+   "fixed": "2H_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 38,
+   "ocr": "Cu ... Cu",
+   "fixed": "C_{11} ... C_{11}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 39,
+   "ocr": "Cig and Ca:",
+   "fixed": "C_{12} and C_{21}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 42,
+   "ocr": "Cez",
+   "fixed": "C_{22}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 3,
+   "line": 52,
+   "ocr": "He",
+   "fixed": "H_{c}",
+   "basis": "scan"
+  },
+  {
+   "col": 3,
+   "line": 53,
+   "ocr": "Jess than He (e. g. Hi)",
+   "fixed": "less than H_{c} (e. g. H_{1})",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 5,
+   "ocr": "sens- or ing",
+   "fixed": "sensing",
+   "basis": "scan (gutter line number 5 read as \"or\")"
+  },
+  {
+   "col": 4,
+   "line": 6,
+   "ocr": "Ci1",
+   "fixed": "C_{11}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 10,
+   "ocr": "C1",
+   "fixed": "C_{11}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 33,
+   "ocr": "Xz",
+   "fixed": "X_{2}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 37,
+   "ocr": "larger.",
+   "fixed": "larger",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 45,
+   "ocr": "2\\/number",
+   "fixed": "2√number",
+   "basis": "scan"
+  },
+  {
+   "col": 4,
+   "line": 52,
+   "ocr": "Hn 3",
+   "fixed": "H_{m}/3",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 4,
+   "line": 58,
+   "ocr": "simi-Jar",
+   "fixed": "simi-lar",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 4,
+   "line": 61,
+   "ocr": "Jocation",
+   "fixed": "location",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 5,
+   "ocr": "Xi",
+   "fixed": "X_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 10,
+   "ocr": "+Hm 3",
+   "fixed": "+H_{m}/3",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 5,
+   "line": 14,
+   "ocr": "fop",
+   "fixed": "top",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 15,
+   "ocr": "X«",
+   "fixed": "X_{4}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 19,
+   "ocr": "Z:",
+   "fixed": "Z_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 22,
+   "ocr": "Zi. Leads Za,",
+   "fixed": "Z_{1}. Leads Z_{2},",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 23,
+   "ocr": "Za",
+   "fixed": "Z_{4}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 25,
+   "ocr": "Yi",
+   "fixed": "Y_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 34,
+   "ocr": "+H 3",
+   "fixed": "+H/3",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 5,
+   "line": 39,
+   "ocr": "of . +Hm 3",
+   "fixed": "of +H_{m}/3",
+   "basis": "scan (speck; display formula)"
+  },
+  {
+   "col": 5,
+   "line": 44,
+   "ocr": "Z:",
+   "fixed": "Z_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 5,
+   "line": 48,
+   "ocr": "Hin 3 -—— 3",
+   "fixed": "3 H_{m}/3",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 5,
+   "line": 55,
+   "ocr": "Hm 2",
+   "fixed": "2 H_{m}/3",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 5,
+   "line": 60,
+   "ocr": "An 3",
+   "fixed": "H_{m}/3",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 5,
+   "line": 69,
+   "ocr": "35/number",
+   "fixed": "3∛number",
+   "basis": "scan"
+  },
+  {
+   "col": 5,
+   "line": 74,
+   "ocr": "Si",
+   "fixed": "S_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 1,
+   "ocr": "—Ha 3",
+   "fixed": "−H_{m}/3",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 6,
+   "line": 4,
+   "ocr": "X1Y1Z:",
+   "fixed": "X_{1}Y_{1}Z_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 9,
+   "ocr": "Output",
+   "fixed": "output",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 16,
+   "ocr": "w=:the",
+   "fixed": "n=the",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 18,
+   "ocr": "Jeads",
+   "fixed": "leads",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 21,
+   "ocr": "C=A\"™ The quantity also",
+   "fixed": "C=A^{n} The quantity n also",
+   "basis": "scan (display formula; italic n dropped by OCR)"
+  },
+  {
+   "col": 6,
+   "line": 30,
+   "ocr": "n¥C",
+   "fixed": "n ^{n}√C",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 6,
+   "line": 41,
+   "ocr": "Hi and 2H:",
+   "fixed": "H_{1} and 2H_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 46,
+   "ocr": "X1¥1Z1",
+   "fixed": "X_{1}Y_{1}Z_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 47,
+   "ocr": "Hi and 2H:",
+   "fixed": "H_{1} and 2H_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 48,
+   "ocr": "-+Hi",
+   "fixed": "+H_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 49,
+   "ocr": "Yi",
+   "fixed": "Y_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 51,
+   "ocr": "Y1)}",
+   "fixed": "Y_{1})",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 54,
+   "ocr": "Hi",
+   "fixed": "H_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 55,
+   "ocr": "2H",
+   "fixed": "2H_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 58,
+   "ocr": "Hi",
+   "fixed": "H_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 60,
+   "ocr": "—Hi ... Ze, Zs, and Zs",
+   "fixed": "−H_{1} ... Z_{2}, Z_{3}, and Z_{4}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 64,
+   "ocr": "I11",
+   "fixed": "111",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 66,
+   "ocr": "Xi",
+   "fixed": "X_{1}",
+   "basis": "scan"
+  },
+  {
+   "col": 6,
+   "line": 67,
+   "ocr": "-+H ... Zs.",
+   "fixed": "+H ... Z_{4}.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 6,
+   "line": 68,
+   "ocr": "ilJustration",
+   "fixed": "illustration",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 16,
+   "ocr": "Vn Vin _ yor 2",
+   "fixed": "+V_{m}/2 or −V_{m}/2",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 7,
+   "line": 19,
+   "ocr": "+ Vm",
+   "fixed": "+V_{m}",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 20,
+   "ocr": "+-Q",
+   "fixed": "+Q",
+   "basis": "scan"
+  },
+  {
+   "col": 7,
+   "line": 27,
+   "ocr": "Sez",
+   "fixed": "S_{22}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 29,
+   "ocr": "Xi",
+   "fixed": "X_{1}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 39,
+   "ocr": "Van Te source, @ Vin 2 source",
+   "fixed": "+V_{m}/2 source, a −V_{m}/2 source",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 7,
+   "line": 46,
+   "ocr": "Sai, line Xe ... Vin 2",
+   "fixed": "S_{21}, line X_{2} ... −V_{m}/2",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 51,
+   "ocr": "toa Vin tye",
+   "fixed": "to a +V_{m}/2",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 7,
+   "line": 59,
+   "ocr": "Vin 2",
+   "fixed": "−V_{m}/2",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 7,
+   "line": 64,
+   "ocr": "Si, while Siz",
+   "fixed": "S_{11}, while S_{12}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 69,
+   "ocr": "4+-Q ... versa}",
+   "fixed": "+Q ... versa)",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 7,
+   "line": 74,
+   "ocr": "Jack",
+   "fixed": "lack",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 1,
+   "ocr": "Vn Vm Fg and —-5~",
+   "fixed": "+V_{m}/2 and −V_{m}/2",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 8,
+   "line": 6,
+   "ocr": "-+-Qr",
+   "fixed": "+Q_{r}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 9,
+   "ocr": "-++Q",
+   "fixed": "+Q",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 13,
+   "ocr": "Vin 2",
+   "fixed": "V_{m}/2",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 8,
+   "line": 19,
+   "ocr": "Sy,",
+   "fixed": "S_{11}",
+   "basis": "scan (no comma printed)"
+  },
+  {
+   "col": 8,
+   "line": 22,
+   "ocr": "Si:",
+   "fixed": "S_{11}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 24,
+   "ocr": "Vm 2 source and Xi ... Vin 2",
+   "fixed": "V_{m}/2 source and X_{1} ... V_{m}/2",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 8,
+   "line": 31,
+   "ocr": "Si1",
+   "fixed": "S_{11}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 42,
+   "ocr": "slab -",
+   "fixed": "slab",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 8,
+   "line": 45,
+   "ocr": "-a",
+   "fixed": "a",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 8,
+   "line": 55,
+   "ocr": "arrange- i ment",
+   "fixed": "arrangement",
+   "basis": "scan (gutter line number 55 read as \"i\")"
+  },
+  {
+   "col": 8,
+   "line": 59,
+   "ocr": "Jeads",
+   "fixed": "leads",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 8,
+   "line": 66,
+   "ocr": "Vin Vin tee",
+   "fixed": "+V_{m}/2, −V_{m}/2",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 8,
+   "line": 71,
+   "ocr": "Vin +e",
+   "fixed": "+V_{m}/2",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 8,
+   "line": 74,
+   "ocr": "--Wm",
+   "fixed": "+V_{m}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 1,
+   "ocr": "Vm 2",
+   "fixed": "−V_{m}/2",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 9,
+   "line": 11,
+   "ocr": "toa Vin 2",
+   "fixed": "to a V_{m}/2",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 9,
+   "line": 35,
+   "ocr": "-+Q",
+   "fixed": "+Q",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 36,
+   "ocr": "Van 2",
+   "fixed": "V_{m}/2",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 9,
+   "line": 42,
+   "ocr": "a+-Vm ... toa Vim re",
+   "fixed": "a +V_{m} ... to a +V_{m}/2",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 9,
+   "line": 46,
+   "ocr": "Si",
+   "fixed": "S_{111}",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 9,
+   "line": 49,
+   "ocr": "-+-Vm ... —Vnm ... Zi toa Vin 2",
+   "fixed": "+V_{m} ... −V_{m} ... Z_{1} to a −V_{m}/2",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 9,
+   "line": 57,
+   "ocr": "as low as .",
+   "fixed": "as low as",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 9,
+   "line": 59,
+   "ocr": "gp 34/number",
+   "fixed": "3∛number",
+   "basis": "scan (display formula)"
+  },
+  {
+   "col": 10,
+   "line": 16,
+   "ocr": "thé",
+   "fixed": "the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 10,
+   "line": 43,
+   "ocr": "element. .",
+   "fixed": "element.",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 10,
+   "line": 62,
+   "ocr": "A”",
+   "fixed": "A^{n}",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 63,
+   "ocr": "A®",
+   "fixed": "A^{n}",
+   "basis": "scan"
+  },
+  {
+   "col": 10,
+   "line": 73,
+   "ocr": "”",
+   "fixed": "n",
+   "basis": "scan"
+  },
+  {
+   "col": 11,
+   "line": 2,
+   "ocr": "A®",
+   "fixed": "A^{n}",
+   "basis": "scan"
+  },
+  {
+   "col": 11,
+   "line": 3,
+   "ocr": "to.a ... clement",
+   "fixed": "to a ... element",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 4,
+   "ocr": "A™",
+   "fixed": "A^{n}",
+   "basis": "scan"
+  },
+  {
+   "col": 11,
+   "line": 28,
+   "ocr": "and’",
+   "fixed": "and",
+   "basis": "scan (speck) + Google Patents"
+  },
+  {
+   "col": 11,
+   "line": 44,
+   "ocr": "clements",
+   "fixed": "elements",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 12,
+   "line": 5,
+   "ocr": "a said",
+   "fixed": "said",
+   "basis": "scan (gutter line number 5 read as \"a\")"
+  },
+  {
+   "col": 12,
+   "line": 25,
+   "ocr": "of ae one",
+   "fixed": "of one",
+   "basis": "scan (gutter line number 25 read as \"ae\")"
+  },
+  {
+   "col": 13,
+   "line": 23,
+   "ocr": "24,",
+   "fixed": "24.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 13,
+   "line": 28,
+   "ocr": "respouse",
+   "fixed": "response",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 13,
+   "line": 29,
+   "ocr": "2",
+   "fixed": "a",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "col": 13,
+   "line": 30,
+   "ocr": "_type",
+   "fixed": "type",
+   "basis": "scan (speck)"
+  },
+  {
+   "col": 14,
+   "line": 23,
+   "ocr": "99.",
+   "fixed": "29.",
+   "basis": "scan + Google Patents"
+  }
+ ]
+}

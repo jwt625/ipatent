@@ -1,0 +1,27 @@
+{
+  "pn": "3005282",
+  "inventors": [
+    {
+      "name": "Godtfred Kirk Christiansen",
+      "printed": "Godtfred Kirk Christiansen, Billund, Denmark",
+      "city": "Billund",
+      "region": null,
+      "country": "DK"
+    }
+  ],
+  "assignees": [
+    {
+      "name": "Interlego A.G.",
+      "printed": "Interlego A.G., Zug, Switzerland, a corporation of Switzerland",
+      "org": "Interlego",
+      "kind": "company",
+      "city": "Zug",
+      "region": null,
+      "country": "CH"
+    }
+  ],
+  "source": {
+    "page": 2,
+    "where": "column 1 header (inventor, assignor to)"
+  }
+}

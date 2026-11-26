@@ -10,12 +10,160 @@
    "shapes": [
     {
      "t": "t",
-     "s": "Fig.12",
-     "x": 12,
+     "italic": true,
+     "s": "F",
+     "x": 30,
+     "y": 119,
+     "size": 46,
+     "len": 58
+    },
+    {
+     "t": "t",
+     "italic": true,
+     "s": "i",
+     "x": 92,
+     "y": 118,
+     "size": 46,
+     "len": 18
+    },
+    {
+     "t": "t",
+     "italic": true,
+     "s": "g",
+     "x": 118,
+     "y": 118,
+     "size": 46,
+     "len": 40
+    },
+    {
+     "t": "t",
+     "italic": true,
+     "s": ".",
+     "x": 168,
+     "y": 123,
+     "size": 46,
+     "len": 10
+    },
+    {
+     "t": "t",
+     "italic": true,
+     "s": "12",
+     "x": 178,
      "y": 116,
-     "size": 44,
-     "len": 214,
-     "italic": true
+     "size": 48,
+     "len": 50
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       10.0,
+       120.0
+      ],
+      [
+       15.0,
+       119.0
+      ],
+      [
+       57.0,
+       118.0
+      ],
+      [
+       63.0,
+       117.0
+      ]
+     ],
+     "w": 2.0
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       27.0,
+       88.0
+      ],
+      [
+       56.0,
+       88.0
+      ],
+      [
+       77.0,
+       85.0
+      ],
+      [
+       91.0,
+       85.0
+      ]
+     ],
+     "w": 2.0
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       43.0,
+       130.0
+      ],
+      [
+       51.0,
+       129.2
+      ],
+      [
+       67.0,
+       123.8
+      ],
+      [
+       90.0,
+       110.8
+      ],
+      [
+       92.0,
+       110.8
+      ],
+      [
+       98.0,
+       114.0
+      ]
+     ],
+     "w": 2.0
+    },
+    {
+     "t": "l",
+     "d": [
+      [
+       105.0,
+       145.0
+      ],
+      [
+       103.2,
+       142.6
+      ],
+      [
+       103.8,
+       137.2
+      ],
+      [
+       105.0,
+       136.0
+      ],
+      [
+       132.0,
+       129.2
+      ],
+      [
+       140.0,
+       125.8
+      ],
+      [
+       145.8,
+       121.0
+      ],
+      [
+       149.0,
+       113.0
+      ]
+     ],
+     "w": 2.0
     }
    ]
   },
@@ -816,7 +964,7 @@
   {
    "id": "burst-1",
    "kind": "mark",
-   "name": "burst of the second oscillator (tube 32), one per cycle of FIG. 11",
+   "name": "wave train of the second oscillator (tube 32), one per positive cycle of the first oscillator (FIG. 11)",
    "shapes": [
     {
      "t": "l",
@@ -1317,7 +1465,7 @@
   {
    "id": "burst-2",
    "kind": "mark",
-   "name": "burst of the second oscillator (tube 32), one per cycle of FIG. 11",
+   "name": "wave train of the second oscillator (tube 32), one per positive cycle of the first oscillator (FIG. 11)",
    "shapes": [
     {
      "t": "l",
@@ -1850,7 +1998,7 @@
   {
    "id": "burst-3",
    "kind": "mark",
-   "name": "burst of the second oscillator (tube 32), one per cycle of FIG. 11",
+   "name": "wave train of the second oscillator (tube 32), one per positive cycle of the first oscillator (FIG. 11)",
    "shapes": [
     {
      "t": "l",

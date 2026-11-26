@@ -1,0 +1,72 @@
+{
+  "patent": "Filed January 9, 1948 (Austrian priority March 7, 1946) and issued October 10, 1950 to Curt Herzstark of Mauren, Liechtenstein. It covers the counter carriage of Herzstark's cylindrical, hand-cranked pocket calculator, made from 1948 by Contina AG in Mauren as the Curta; Herzstark had worked out the design while a prisoner at Buchenwald (C. Stoll, \"The Curious History of the First Pocket Calculator\", Scientific American, January 2004). A single central stepped (echelon) drum W, turned by crank 29, drives a ring of transmission members around it. The result-counter and revolution-counter drums sit on one circle, on one rotatable body 5 that is lifted and turned to shift decimal places. The claimed point is the layout: the two groups are separated by gaps of one and a half drum pitches, so after a shift any pinion that has moved over the other group's gears comes to rest between two of them and does not mesh. Drawn are 11 result drums and 6 revolution drums (Figs. 3 and 6), the register lengths of the Curta Type I.",
+  "figs": {
+    "1": "Axial section, carriage down and engaged. Right half: a result drum 9 with pinion 8 meshing gear 10 on transmission member 3; left half: a revolution drum 9' with pinion 8' on gear 11 of member 4. Axles 14 are screwed by screws 31 to ratchet ring 30; spring 7 between bush 5' and ring 27 holds body 5 down, and pin 12 sits in a recess 13. Crank 29 is pinned to shaft 2 by pin 28. Below the break line the lower housing is drawn in outside view.",
+    "2": "The same section with body 5 lifted by sleeve 24 against spring 7. Pinions 8 and 8' now stand clear above gears 10 and 11 and the ratchet ring is lifted off pin 12, so the carriage can be turned. Flange 5'' on bush 5' and the detent balls 18 and springs 19 are also labelled here.",
+    "3": "Plan view in the normal position, cover removed: 17 radial drums with their pinions, each over its gear (dashed circles are gears 10 and 11 under the pinions; dash-dot radials are axes). Arc U spans the 6 revolution-counter drums 9', arc R the 11 result drums 9. Pitch t is marked at left; the two gaps between the groups are 1½t.",
+    "4": "Plan view after a shift of several places, drums drawn in the same places as in Fig. 3. The dash-dot radials with the inner labels 10 and 11, and the arcs R and U, mark where the two gear groups now lie relative to the drums. Pinions 8 and 8' that have come over the other group's gears sit between two of them (dashed circles) instead of over one.",
+    "5": "Enlarged axial section of the modified carriage, in which axles 14 are cast into body 5 rather than screwed. Each pinion is held by a detent: ball 18 in hole 17 of flange 15 is pressed into the pinion teeth by leaf spring 19. Cup ring 20 with display openings 21 covers the drums and seats on the axle ends in its recesses 23; the ring's threaded rim is screwed into sleeve 24 (internal thread 25), which clamps the axle ends. Left half revolution counter, right half result counter, as in Fig. 1.",
+    "6": "Plan view of body 5 of Fig. 5 with 17 radial axles 14 at pitch t, the two 1½t gaps at upper left and at right; U marks the 6 revolution axles at the top, R the 11 result axles. A ball 18 sits over each axle on flange 15, whose outer rim is edge 16; 19 marks the one-piece spring spider whose arms bear on the balls. A fragment of cover ring 20 at upper left shows a display opening 21 and a recess 23 over an axle end.",
+    "7": "Part of the cover ring rim seen from outside: display openings 21 (dashed) in the flat top, and recesses 23 in the threaded rim seating on the ends of axles 14.",
+    "8": "View along the axles of two neighbouring places in the normal position: pinion 8' stands directly over its gear 11, and at the next place the pinion on axle 14 (drawn only as a chain-dotted circle) likewise stands over its gear.",
+    "9": "The same view after a shift: result pinions 8 (dashed circles) have come over the revolution-counter gears 11 but lie between them, out of mesh.",
+    "10": "Locking of the carriage, schematic: two recesses 13 in the ratchet ring under body 5, each holding the inner end of an axle 14 (circles). Pin 12, fixed in the machine body (hatched), rises into the right-hand recess below its axle; the recess is deep enough for both.",
+    "11": "Echelon drum W on shaft 2. The stepped teeth Z_{1}, nine of increasing length, drive transmission member 3 of the result counter; the single tooth Z_{2} at the top drives member 4 of the revolution counter, one count per crank turn. The text puts the two groups 180° apart, which is why members 3 and 4 are drawn on opposite sides."
+  },
+  "parts": {
+    "5": "The carriage: carries all drums, pinions and axles of both counters, and is lifted and turned as one piece for a shift.",
+    "5''": "Not the same part as flange 15 of Figs. 5-6; it is the collar on bush 5' that spring 7 presses against.",
+    "10": "Called transmission pinions where introduced and gears thereafter; these sit on top of result transmission members 3.",
+    "11": "Called transmission pinions where introduced and gears thereafter; these sit on top of revolution transmission members 4.",
+    "19": "The text says the springs are combined into a spring spider punched out in one piece (claim 4).",
+    "22": "Covers the inner ends of the display openings; the patent does not describe it further.",
+    "t": "Angular pitch between neighbouring drums of one group; the drawing gives 15t + 2 × 1½t = 18t around the circle, i.e. t = 20°.",
+    "Z_{2}": "A single tooth, so the revolution counter advances one unit per crank turn."
+  },
+  "glossary": [
+    {
+      "term": "echelon drum",
+      "def": "A stepped drum (Leibniz drum): a cylinder with teeth of graded length, so that a gear set at a chosen height along it is turned by 0 to 9 teeth per revolution."
+    },
+    {
+      "term": "result counting mechanism",
+      "def": "The accumulator register that shows the running total, product or dividend remainder."
+    },
+    {
+      "term": "revolution counting mechanism",
+      "def": "The register that counts crank turns at each place, giving the multiplier or quotient."
+    },
+    {
+      "term": "figure drum",
+      "def": "A small number wheel carrying the digits 0 to 9 around its rim, read through a display opening."
+    },
+    {
+      "term": "decade transfer",
+      "def": "The patent's term for shifting the whole counting mechanism by one or more decimal places relative to the setting mechanism: the body is lifted out of mesh, turned and set down."
+    },
+    {
+      "term": "transmission members",
+      "def": "The vertical shafts around the echelon drum that carry each place's count up to the counter pinions (claim 1 calls them transmission shafts)."
+    },
+    {
+      "term": "detent",
+      "def": "A spring-loaded catch, here a ball, that holds a wheel in one of its rest positions."
+    },
+    {
+      "term": "spring spider",
+      "def": "A single stamped spring with a ring and radial arms, each arm acting as one leaf spring."
+    },
+    {
+      "term": "effacer",
+      "def": "Clearing device that resets the counters to zero."
+    },
+    {
+      "term": "bush",
+      "def": "Bushing: a sleeve that guides a part on a shaft."
+    },
+    {
+      "term": "journalled",
+      "def": "Supported in a bearing so as to turn."
+    }
+  ]
+}

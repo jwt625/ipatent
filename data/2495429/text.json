@@ -1,0 +1,435 @@
+{
+  "pn": "2495429",
+  "number": "2,495,429",
+  "title": "METHOD OF TREATING FOODSTUFFS",
+  "inventors": [
+    "Percy L. Spencer"
+  ],
+  "assignee": "Raytheon Manufacturing Company, Newton, Mass., a corporation of Delaware",
+  "filed": "1945-10-08",
+  "issued": "1950-01-24",
+  "appl_no": "620,919",
+  "int_cl": null,
+  "us_cl": "99—217",
+  "refs_patents": [
+    {
+      "no": "1,181,219",
+      "date": "May 2, 1916",
+      "name": "Goucher",
+      "cl": ""
+    },
+    {
+      "no": "1,863,222",
+      "date": "June 14, 1932",
+      "name": "Hoermann",
+      "cl": ""
+    },
+    {
+      "no": "1,900,573",
+      "date": "Mar. 7, 1933",
+      "name": "McArthur",
+      "cl": ""
+    },
+    {
+      "no": "1,945,867",
+      "date": "Feb. 6, 1934",
+      "name": "Rawls",
+      "cl": ""
+    },
+    {
+      "no": "1,981,583",
+      "date": "Nov. 20, 1934",
+      "name": "Craig",
+      "cl": ""
+    },
+    {
+      "no": "1,992,515",
+      "date": "Feb. 26, 1935",
+      "name": "Uhlmann",
+      "cl": ""
+    },
+    {
+      "no": "2,052,919",
+      "date": "Sept. 1, 1936",
+      "name": "Brogdon",
+      "cl": ""
+    },
+    {
+      "no": "2,094,602",
+      "date": "Oct. 5, 1937",
+      "name": "Kassner",
+      "cl": ""
+    },
+    {
+      "no": "2,382,033",
+      "date": "Aug. 14, 1945",
+      "name": "Supplee et al.",
+      "cl": ""
+    }
+  ],
+  "refs_other": [],
+  "examiners": null,
+  "claims_count": 6,
+  "drawing_figures": 1,
+  "abstract": "",
+  "sections": [
+    {
+      "heading": "",
+      "paras": [
+        {
+          "col": 1,
+          "line": 1,
+          "text": "My present invention relates to the treatment of foodstuffs, and more particularly to the cooking thereof through the use of electromagnetic energy."
+        },
+        {
+          "col": 1,
+          "line": 5,
+          "text": "Such energy has been used before for this purpose, but the frequencies employed have been relatively low, for example, not over 50 megacycles. I have found that at frequencies of this order of magnitude, the energy necessarily expended in order to generate sufficient heat to satisfactorily cook the foodstuff is much too high to permit the practical use of the process. I have further found, however, that this disadvantage may be eliminated by employing wave lengths falling in the microwave region of the electromagnetic spectrum, for example, wave lengths of the order of 10 centimeters or less. By so doing, the wave length of the energy becomes comparable to the average dimension of the foodstuff to be cooked, and as a result, the heat generated in the foodstuff becomes intense, the energy expended becomes a minimum, and the entire process becomes efficient and commercially feasible."
+        },
+        {
+          "col": 1,
+          "line": 25,
+          "text": "It is, therefore, one of the objects of my present invention to provide an efficient method of employing electromagnetic energy for the cooking of foodstuffs."
+        },
+        {
+          "col": 1,
+          "line": 29,
+          "text": "In the accompanying specification I shall describe, and in the annexed drawing show, an illustrative embodiment of the method and means for treating foodstuff of my present invention. It is, however, to be clearly understood that I do not wish to be limited to the details herein shown and described for purposes of illustration only, inasmuch as changes therein may be made without the exercise of invention and within the true spirit and scope of the claims hereto appended."
+        },
+        {
+          "col": 1,
+          "line": 40,
+          "text": "In said drawing, the single figure is a schematic arrangement of apparatus which may be utilized to carry out the method of my present invention."
+        },
+        {
+          "col": 1,
+          "line": 44,
+          "text": "Referring now more in detail to the aforesaid illustrative embodiment of my present invention, with particular reference to the drawing illustrating the same, the numerals 10 and 11 generally designate electron-discharge devices of the magnetron type, each including, for example, an evacuated envelope 12, made of highly conductive material, such as copper, and provided with a plurality of inwardly-directed, radially-disposed anode vanes 13. The arrangement is such that each pair of adjacent anode vanes 13 forms, together with that portion of the envelope 12 lying therebetween, a cavity resonator whose natural resonant frequency is, as is well known to those skilled in the art, a function of the geometry of the physical elements making up the same. For the purposes of my present invention it is desirable that the dimensions of each such cavity resonator be such that the wave length of the electrical oscillations adapted to be generated therein is comparable to the average dimension of the foodstuff to be cooked, for example, of the order of 10 centimeters or less."
+        },
+        {
+          "col": 2,
+          "line": 12,
+          "text": "Centrally located in each envelope 12 is a highly electron-emissive cathode member 14, for example, of the well-known alkaline-earth metal oxide type, said cathode member being provided with conventional means (not shown) for raising the temperature thereof to a level sufficient for thermionic emission."
+        },
+        {
+          "col": 2,
+          "line": 19,
+          "text": "Each electron-discharge device 10 is completed by magnetic means (not shown) for establishing a magnetic field in a direction transversely of the electron path between the cathode and anode members thereof."
+        },
+        {
+          "col": 2,
+          "line": 24,
+          "text": "The conductive envelopes 12 of the electron-discharge devices 10 and 11 are connected, respectively, by conductors 15 and 16, to the opposite terminals of the secondary winding 17 of a transformer 18, the primary winding 19 of said transformer being connected to a source of raw A.-C., for example, the conventional 60-cycle power lines. The cathodes 14 of said electron-discharge devices 10 and 11 are tied together by conductors 20 and 21, which are, in turn, connected, by a conductor 22, to a center tap on the secondary winding 17 of the transformer 18."
+        },
+        {
+          "col": 2,
+          "line": 37,
+          "text": "Thus, the electron-discharge devices 10 and 11 are connected for push-pull operation, whereby said devices alternately deliver hyper-frequency energy to a common, hollow wave guide 23 through coaxial transmission lines 24 and 25 which are coupled to their respective oscillators, for example, by loops 26 and 27."
+        },
+        {
+          "col": 2,
+          "line": 44,
+          "text": "Adjacent the outlet end of the wave guide 23 I provide an appropriate, transversely-moving conveyor system 28 for carrying the foodstuff to be cooked into a region where it will be exposed to the energy emanating from said wave guide, the speed at which said conveyor system is operated being determined by the nature of the particular foodstuff to be cooked, and the time required for cooking the same."
+        },
+        {
+          "col": 2,
+          "line": 53,
+          "text": "With the system described, I have found that an egg may be rendered hardboiled with the expenditure of 2 kw.-sec. This compares with an expenditure of 36 kw.-sec. to conventionally cook the same. I have also found that with my system a potato requires the expenditure of about 240 kw.-sec., which compares with 72,000 kw.-sec. necessary to bake the same in an electric oven. These examples are, it is to be clearly understood, merely illustrative. I have observed similar results with other foodstuffs. In each instance, where the wave length of the energy is of the order of the average dimension of the foodstuff to be cooked, the process is very efficient, requiring the expenditure of a minimum amount of energy for a minimum amount of time."
+        },
+        {
+          "col": 3,
+          "line": 14,
+          "text": "This completes the description of the aforesaid illustrative embodiment of my present invention. It will be noted from all of the foregoing that my process is simple and easily practiced; it is economical; and it requires relatively simple and inexpensive equipment."
+        },
+        {
+          "col": 3,
+          "line": 20,
+          "text": "Other objects and advantages of my present invention will readily occur to those skilled in the art to which the same relates."
+        },
+        {
+          "col": 4,
+          "line": 33,
+          "text": "PERCY L. SPENCER."
+        }
+      ]
+    }
+  ],
+  "brief_drawings": [
+    {
+      "fig": "1",
+      "col": 1,
+      "line": 40,
+      "text": "In said drawing, the single figure is a schematic arrangement of apparatus which may be utilized to carry out the method of my present invention."
+    }
+  ],
+  "claims": [
+    {
+      "n": 1,
+      "col": 3,
+      "line": 24,
+      "depends": null,
+      "text": "1. In the method of treating foodstuffs, those steps which include: generating electromagnetic wave energy of a wavelength falling in the microwave region of the electromagnetic spectrum; concentrating and guiding said wave energy within a restricted region of space and exposing the foodstuff to be treated to the energy so generated for a period of time sufficient to cook the same to a predetermined degree."
+    },
+    {
+      "n": 2,
+      "col": 3,
+      "line": 33,
+      "depends": null,
+      "text": "2. In the method of treating foodstuffs, those steps which include: generating electromagnetic wave energy of a wavelength falling in the microwave region of the electromagnetic spectrum; concentrating and guiding said energy within a restricted region of space; and conveying the foodstuff to be treated through said region of space at such a rate of speed as to expose the same to said energy for an interval of time sufficient to cook the same to a predetermined degree."
+    },
+    {
+      "n": 3,
+      "col": 3,
+      "line": 43,
+      "depends": null,
+      "text": "3. In the method of treating foodstuffs, those steps which include: generating electromagnetic wave energy of a wavelength falling in the microwave region of the electromagnetic spectrum; concentrating and guiding said energy within a restricted region of space to establish an electromagnetic field therein; exposing the foodstuff to be treated to said field for a period of time sufficient to cook the same to a predetermined degree; and moving said foodstuff relative to said field while said foodstuff is so exposed."
+    },
+    {
+      "n": 4,
+      "col": 4,
+      "line": 5,
+      "depends": null,
+      "text": "4. In the method of treating foodstuffs, those steps which include: generating electromagnetic wave energy of a wave length of substantially ten centimeters; concentrating and guiding said wave energy within a restricted region of space and exposing the foodstuff to be treated to the energy so generated for a period of time sufficient to cook the same to a predetermined degree."
+    },
+    {
+      "n": 5,
+      "col": 4,
+      "line": 13,
+      "depends": null,
+      "text": "5. In the method of treating foodstuffs, those steps which include: generating electromagnetic wave energy of a wave length of substantially ten centimeters; concentrating and guiding said energy within a restricted region of space; and conveying the foodstuff to be treated through said region of space at such a rate of speed as to expose the same to said energy for an interval of time sufficient to cook the same to a predetermined degree."
+    },
+    {
+      "n": 6,
+      "col": 4,
+      "line": 23,
+      "depends": null,
+      "text": "6. In the method of treating foodstuffs, those steps which include: generating electromagnetic wave energy of a wave length of substantially ten centimeters; concentrating and guiding said energy within a restricted region of space to establish an electromagnetic field therein; exposing the foodstuff to be treated to said field for a period of time sufficient to cook the same to a predetermined degree; and moving said foodstuff relative to said field while said foodstuff is so exposed."
+    }
+  ],
+  "ocr_fixes": [
+    {
+      "col": 1,
+      "line": 13,
+      "ocr": "found:",
+      "fixed": "found,",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 17,
+      "ocr": "10°",
+      "fixed": "10",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 18,
+      "ocr": "he-",
+      "fixed": "be-",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 39,
+      "ocr": "pended. .",
+      "fixed": "pended.",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 46,
+      "ocr": "Ii",
+      "fixed": "11",
+      "basis": "scan (bold numeral)"
+    },
+    {
+      "col": 1,
+      "line": 48,
+      "ocr": "each.",
+      "fixed": "each",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 1,
+      "line": 49,
+      "ocr": "conduc- ;",
+      "fixed": "conduc-",
+      "basis": "scan (speck)"
+    },
+    {
+      "col": 1,
+      "line": 54,
+      "ocr": "{3",
+      "fixed": "13",
+      "basis": "scan (bold numeral)"
+    },
+    {
+      "col": 1,
+      "line": 55,
+      "ocr": "[2",
+      "fixed": "12",
+      "basis": "scan (bold numeral)"
+    },
+    {
+      "col": 2,
+      "line": 1,
+      "ocr": "cavity, resonator",
+      "fixed": "cavity resonator",
+      "basis": "scan (two specks between the words; Google Patents reads \"cavity .resonator\")"
+    },
+    {
+      "col": 2,
+      "line": 12,
+      "ocr": "(2",
+      "fixed": "12",
+      "basis": "scan (bold numeral)"
+    },
+    {
+      "col": 2,
+      "line": 13,
+      "ocr": "(4",
+      "fixed": "14",
+      "basis": "scan (bold numeral)"
+    },
+    {
+      "col": 2,
+      "line": 17,
+      "ocr": "a-level",
+      "fixed": "a level",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 23,
+      "ocr": "‘members",
+      "fixed": "members",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 24,
+      "ocr": "{2",
+      "fixed": "12",
+      "basis": "scan (bold numeral)"
+    },
+    {
+      "col": 2,
+      "line": 25,
+      "ocr": "{!",
+      "fixed": "11",
+      "basis": "scan (bold numeral)"
+    },
+    {
+      "col": 2,
+      "line": 26,
+      "ocr": "[5",
+      "fixed": "15",
+      "basis": "scan (bold numeral)"
+    },
+    {
+      "col": 2,
+      "line": 28,
+      "ocr": "{8",
+      "fixed": "18",
+      "basis": "scan (bold numeral)"
+    },
+    {
+      "col": 2,
+      "line": 31,
+      "ocr": "{4",
+      "fixed": "14",
+      "basis": "scan (bold numeral)"
+    },
+    {
+      "col": 2,
+      "line": 32,
+      "ocr": "{ff",
+      "fixed": "11",
+      "basis": "scan (bold numeral)"
+    },
+    {
+      "col": 2,
+      "line": 33,
+      "ocr": "2!",
+      "fixed": "21",
+      "basis": "scan (bold numeral)"
+    },
+    {
+      "col": 2,
+      "line": 35,
+      "ocr": "i7",
+      "fixed": "17",
+      "basis": "scan (bold numeral)"
+    },
+    {
+      "col": 2,
+      "line": 37,
+      "ocr": "[0",
+      "fixed": "10",
+      "basis": "scan (bold numeral)"
+    },
+    {
+      "col": 2,
+      "line": 40,
+      "ocr": "to’a",
+      "fixed": "to a",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 42,
+      "ocr": "their:",
+      "fixed": "their",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 2,
+      "line": 47,
+      "ocr": "ex~",
+      "fixed": "ex-",
+      "basis": "scan"
+    },
+    {
+      "col": 2,
+      "line": 53,
+      "ocr": "that-",
+      "fixed": "that",
+      "basis": "scan (speck)"
+    },
+    {
+      "col": 3,
+      "line": 40,
+      "ocr": "q rate",
+      "fixed": "a rate",
+      "basis": "scan + Google Patents"
+    },
+    {
+      "col": 3,
+      "line": 46,
+      "ocr": "“wave",
+      "fixed": "wave",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 26,
+      "ocr": "en-~",
+      "fixed": "en-",
+      "basis": "scan"
+    },
+    {
+      "col": 4,
+      "line": 28,
+      "ocr": "field.",
+      "fixed": "field",
+      "basis": "scan (speck) + Google Patents"
+    },
+    {
+      "col": 4,
+      "line": 46,
+      "ocr": "UhlImann",
+      "fixed": "Uhlmann",
+      "basis": "scan + Google Patents"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "patent": "Filed October 20, 1949 and issued October 7, 1952 to Norman J. Woodland and Bernard Silver, then at the Drexel Institute of Technology in Philadelphia. It is generally regarded as the first bar code patent. The code is binary by line position: a datum line plus three optional lines give seven classes (FIGS. 1-9). Bent into concentric rings (FIG. 10, the 'bull's-eye'), the pattern reads the same along any diameter, so a package can sit on the belt in any orientation. A photocell shuttling across an image of the package bottom (FIG. 12) yields a pulse train (FIG. 16); a thyratron counter recognizes the target from eight bright pulses off its central rings, timed thyratron gates then sample the information-line positions (FIGS. 14-15), and a pusher removes recognized packages (FIGS. 11, 13). The patent was sold to Philco and later passed to RCA, which tested a bull's-eye checkout system in a Kroger store in Cincinnati in 1972. It expired in 1969; supermarket scanning arrived with the linear Universal Product Code (UPC), chosen by the U.S. grocery industry in 1973 from a design developed at IBM, where Woodland then worked. The first UPC checkout scan was made on June 26, 1974 at a Marsh supermarket in Troy, Ohio.",
+  "figs": {
+    "1": "The white lines are the narrow unstippled gaps; the stippled blocks are background 5. Datum line 1 is at the left; positions 2, 3 and 4 carry the binary weights 2^{2}, 2^{1} and 2^{0}. All three positions are drawn occupied, the general pattern from which FIGS. 2-9 are taken.",
+    "2": "All three information positions occupied: code 111, classification 7.",
+    "3": "Lines 2 and 3 present, position 4 vacant (the last block is wider where the gap is missing): code 110, classification 6, the example worked in the text.",
+    "4": "Lines 2 and 4 present, position 3 vacant: code 101, classification 5, the second worked example.",
+    "5": "Only line 2 present: code 100, classification 4.",
+    "6": "Lines 3 and 4 present, position 2 vacant: code 011, classification 3.",
+    "7": "Only line 3 present: code 010, classification 2.",
+    "8": "Only line 4 present: code 001, classification 1.",
+    "9": "Only datum line 1, no information line: code 000. The text counts seven classifications from FIGS. 2-8 and does not assign one to this pattern.",
+    "10": "The FIG. 1 pattern wrapped into rings so any diameter crosses every line twice. Inside out: the tightly spaced rings 10 at the centre (highly reflective, used only to recognize the target), then ring 6 (datum), then 7, 8 and 9 (information). Per the note on the sheet, 6-9 are less reflective than 10, so they give smaller pulses (FIG. 16). Numeral 12 over its bracket denotes the target as a whole.",
+    "11": "Side view of the checkout conveyor, belt moving left to right. A package 11 is set target-down on transparent belt 13 and lit from below by lamps 14; scanning element 15 sits under the belt at section line A-A. Pusher 173 on displacement device 16, driven by motor 166 through chain 167, sweeps a recognized package across the belt onto chute 17 and out through barricade 18. An unrecognized package rides off the end onto return conveyor 19, the twisted band leading back toward the loading end. The motor at the right driving the belt pulley is not numbered.",
+    "12": "Section at A-A through scanning element 15; diagonal hatching is the cut housing. Lens 20 at the top images the package bottom onto ground glass 21. Below it, carriage 27 carries light-tight box 30 whose cover 31 has aperture 32 over photocell 33. Motor 22 turns shaft 24 through coupling 23; pin 29 rides in the crossed endless thread 25-26, so the carriage shuttles back and forth at constant speed while bar 28 keeps it from turning. The circuit at the top edge belongs to FIG. 13.",
+    "13": "The pusher drive seen from the right, with its control circuit. It repeats the FIG. 12 shuttle: shaft 168 with endless thread 172, carriage 169 with pin 170, guide bar 171, driven through chain 167; pusher 173 is clamped to the carriage by set screw 174. A pulse on terminals 102-103 closes relay 157, which holds itself in through contacts 160, cell 158 and limit switch 159, and through contacts 161 sends current from source 162 through solenoid 163 to motor terminals 164-165; the solenoid withdraws plunger 176 from hole 177. At the end of one stroke screw 175 opens limit switch 159 at button 178, relay 157 drops out, and the spring-loaded plunger 176 drops back into hole 177 to stop the shaft at the end of its turn. The hatched shape at the lower left is the FIG. 12 housing.",
+    "14": "Signal flow of FIG. 15: photo-cell 33 feeds amplifier 36, which drives both alerter 37 (target recognition) and limiter 38. The limiter feeds starting stage 39 and the three information stages 40-42, one per line position; the alerter enables the starting stage. The B+ lead at the lower right belongs to FIG. 15.",
+    "15": "Underlined numerals name the blocks of FIG. 14. Top left: two-pentode amplifier 36. Top centre: alerter 37, a scale-of-eight counter of thyratrons 46-49; time-delay relay 82 clears it if pulses stop arriving. Top right: relays 95 and 97 driven by the last counter stage, and power supply 43. Right: limiter triode 51 (38) and starting thyratron 50 (39) with six-contact relay 110 (A_{1}-A_{6}). Bottom: three identical rows 40-42, each with a detecting thyratron 52/53/54 and output relay 117/118/119, plus a thyratron 55/56/57 that opens its time window and one 58/59/60 that closes it, each timed by its own R-C grid circuit. A dot inside a tube envelope marks a gas-filled tube. B+ is the plate supply; V_{1}, V_{2}, V_{3} are supply taps.",
+    "16": "Photocell output for one left-to-right sweep across the target. Small pulses (height V_{a}) come from the dull rings: 141-143 from information lines, 144 from ring 6; the eight tall pulses 145-152 (height V_{b}) come from the bright central rings 10, which the counter needs to recognize the target. Then ring 6 again (153, in interval c) starts the timing, and the information lines, if present, fall in windows d, e and f bounded by t_{1}-t_{4} (pulses 154-156). a is the longest time tube 46 stays fired during a valid count (relay 82 resets the counter after longer); b is the time allowed to scan the whole target. Missing peaks in d, e or f read as zeros."
+  },
+  "parts": {
+    "6": "Called both 'signal ring' and 'starting ring' in the text; its second pulse (153) starts the timing of the information windows.",
+    "37": "Also called the counting circuit: a thyratron scale-of-eight counter that responds only to the tall pulses from the central rings.",
+    "102": "Elsewhere a Fig. 13 terminal; the text also says the limiter is coupled 'by condenser 102', which the drawing numbers 104.",
+    "104": "Drawn as the capacitor coupling amplifier 36 to limiter tube 51; the text calls this coupling condenser 102."
+  },
+  "glossary": [
+    {
+      "term": "condenser",
+      "def": "Period term for capacitor."
+    },
+    {
+      "term": "thyratron",
+      "def": "Gas-filled triode or tetrode used as a switch: a grid pulse fires it, after which the grid loses control and it conducts until the plate voltage is removed. Used here as counter stages, timers and latches."
+    },
+    {
+      "term": "shield-grid thyratron",
+      "def": "Thyratron with a second (shield) grid; holding the shield grid strongly negative disarms the tube, so it fires only when both grids are allowed to. This gives the AND gating of the starting and information stages."
+    },
+    {
+      "term": "scale-of-eight counter",
+      "def": "Chain of bistable stages that produces one output after eight input pulses (a three-stage binary divider)."
+    },
+    {
+      "term": "pentode",
+      "def": "Vacuum tube with cathode, control grid, screen grid, suppressor grid and plate; used here as voltage amplifier."
+    },
+    {
+      "term": "B plus (B+)",
+      "def": "Positive high-voltage plate supply of a tube circuit."
+    },
+    {
+      "term": "time delay relay",
+      "def": "Relay that operates only after its coil has been energized for a set time."
+    },
+    {
+      "term": "limiter",
+      "def": "Stage that clips pulses to a fixed maximum amplitude, so the information stages see bright and dull lines alike."
+    },
+    {
+      "term": "R-C circuit",
+      "def": "Resistor-capacitor network; its time constant sets when each timing thyratron fires."
+    },
+    {
+      "term": "ground glass screen",
+      "def": "Translucent screen on which the lens forms a real image that the photocell scans."
+    },
+    {
+      "term": "photo-emissive tube",
+      "def": "Vacuum phototube in which light frees electrons from a photocathode, giving a current proportional to light."
+    }
+  ]
+}

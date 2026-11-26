@@ -30,7 +30,8 @@ Answer to the one up-front question (2026-11-25): run the ingestion as a Workflo
 - [x] Fetch + inventory new picks (52 PDFs)
 - [x] Select 54 (list in `research/batch-005.md`, written at the end with the evidence)
 - [x] Stage 1 + meta + Google pages for all 54
-- [ ] Workflow: text + figure tables + traces (33 of 54 fully traced, 220 of 350 figures; stopped by the weekly limit)
+- [ ] Workflow: text + figure tables + traces (46 of 54 fully traced, 2026-11-25 23:10; paused for the usage window)
+- [x] Build + self-test for 13 more (gallery 112), committed and pushed 2026-11-25
 - [x] Build + self-test + screenshots for the 33 finished patents (gallery 99; `--complete` keeps the 21 unfinished out)
 - [ ] Audits
 - [ ] Remaining 21 patents traced, README rows, final commit and push (the finished 33 committed and pushed 2026-11-25)
@@ -60,6 +61,20 @@ Answer to the one up-front question (2026-11-25): run the ingestion as a Workflo
   (desktop, figures/hover/parts tour, plot export, description/claims/about); screenshots of 3413573 FIG. 1, 1773980 FIG. 2 and
   1113149 FIG. 1 checked. Open issues: 1113149 and 395782 print uppercase lettered parts (A, C^{2}), so their description has no
   linked refs (`lettered()` only matches lowercase; same as 174,465) and the parts panel shows `C^{2}` literally (`esc`, not `subsup`).
+- 2026-11-25 20:35 PT: limit reset; same run resumed (`resumeFromRunId`), finished agents replay from cache, the 88 refused tracers
+  and the content-filtered text agent run again for the remaining 21 patents.
+- 2026-11-25 23:10 PT: paused at the user's request (5 h usage window); workflow stopped at 22:55. The resume cache is positional,
+  so the replay re-ran 189 tracers, including those of the 33 committed patents: 76 of their traces rewritten by finished tracers.
+  Old vs new `coverage.py` (net covered minus off-scan): 34 better, 41 same, 1 worse (1860123 FIG. 4, 99.6 / 0.0 -> 97.5 / 1.2 %):
+  committed version kept, re-trace saved aside; the other 75 taken. US 223,898 text agent blocked by the content filter again
+  (20:33-20:37), likely the recitation filter on a famous verbatim text: next try builds paragraphs by script from OCR line ranges.
+- 2026-11-25 23:10 PT: 13 more patents complete (1061206, 1219881, 207559, 2495429, 2525352, 2612994, 2736880, 3005282, 4405829,
+  465588, 6469, 748626, 1948384; 99 figures). 1948384 FIG. 5 was written by a tracer still running at the stop: 99.0 % covered,
+  0.5 % off-scan, every ref in parts and labeled, page screenshot checked; included. Raw coverage under 88 % on 16 of the
+  92 figures is neighbour-figure ink inside shared-sheet crops (diff images of 207559 FIG. 12 and 748626 FIG. 2 checked).
+  `build.py --complete --only` the 13 + the 22 re-traced: gallery 112 patents (7.67 MB); `selftest.sh` PASS on index.html and
+  all 35 pages. Left: 8 patents (2939952 10/12 figures, 3057356 2/3, 1203495, 223898, 307031, 349611, 3789832, 454622),
+  223898 text, audits, README rows. Resume planned 2026-11-26 02:00 PT.
 
 ## Decisions
 - 54 patents: 32 reused from the cached pool (batch-004 reserves and other cached research hits), 22 new. All expired.

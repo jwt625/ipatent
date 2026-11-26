@@ -1,0 +1,61 @@
+{
+  "patent": "Filed January 17, 1911 and issued May 6, 1913 to Nikola Tesla. It covers the bladeless disk machine now called the Tesla turbine (also boundary-layer or friction turbine). Instead of blades or vanes, the runner is a stack of flat, closely spaced disks on a shaft; fluid enters at the rim through a tangential nozzle, spirals inward between the disks and leaves through openings near the shaft, driving the disks by viscous drag on their faces. The application is a division of Tesla's 1909 application on the same principle applied to pumps and blowers, which issued the same day as US 1,061,142 (Fluid Propulsion); this one claims the machine as a motor, chiefly a steam or gas engine. The design did not displace bladed steam turbines in commercial power generation, but the disk principle is still used in some pumps and small turbines.",
+  "figs": {
+    "1": "End view with the near end casting cut away inside its bolted flange 19, so the central ring 22 is seen in section (hatched) and the outermost disk 13 face-on, with its three spokes 15 and openings 14 around shaft 16. Two supply pipes 28 with valves 29 feed nozzles 25 set in inlets 24, both aimed tangentially into the narrow clearance around the disks. Fluid from the right-hand inlet drives the runner clockwise (solid arrow); the left-hand inlet, normally shut, reverses it (dashed arrow). The dashed U-shaped outline around the hub corresponds to the exhaust cavity of the end casting shown in Fig. 2; the text does not identify it.",
+    "2": "Section through the axis, drawn with an inlet pipe 28 at the top and the base at the bottom. The disks 13 are the vertical lines between the walls of the central ring; at the hub they alternate with washers 17 (the densely hatched block) on shaft 16. Fluid enters at the top, spirals inward between the disks, passes through the disk openings into the hollow end castings 19 and leaves through outlets 20 at the base. Circular grooves 26 and labyrinth packing 27 are cut in the casing walls beside the outer disks; the text gives no purpose for them, but labyrinth packing is a leakage seal, here between the rim chamber and the exhaust. The text says only a few disks with wide spacing are drawn, for clarity."
+  },
+  "parts": {
+    "11": "Named in the text but not labelled in either figure.",
+    "12": "Named in the text but not labelled in either figure.",
+    "17": "In Fig. 1 the leader goes to the rounded boss at a spoke tip; in Fig. 2 to the spacers between the disks at the hub.",
+    "18": "Not named in the text. In Fig. 1 the leaders go to small holes in the spokes, one at a spoke tip and one near the shaft; in Fig. 2 they go into the disk stack beside the hub.",
+    "20": "Named outlets for the motor; the text also calls them inlets when describing the machine run as a pump, and orifices (with 14) where the spent fluid is discharged.",
+    "25": "Per the text, a plain port makes the machine work as an expanding rotary engine, a diverging nozzle more like an impulse turbine."
+  },
+  "glossary": [
+    {
+      "term": "runner",
+      "def": "The rotating part of the machine; here the stack of disks 13 on shaft 16."
+    },
+    {
+      "term": "adhesion and viscosity",
+      "def": "The properties the patent relies on: fluid clings to the disk faces and resists shearing, so moving fluid drags the disks along (the effect now described as boundary-layer or skin-friction drag)."
+    },
+    {
+      "term": "skin resistance",
+      "def": "Frictional drag between a fluid and the surface it flows over."
+    },
+    {
+      "term": "stuffing box",
+      "def": "A seal where a shaft passes through a casing wall, packed with compressible material held by a gland."
+    },
+    {
+      "term": "labyrinth packing",
+      "def": "A non-contacting seal of interleaved ridges and grooves that forces leaking fluid through a series of narrow gaps and expansions, reducing leakage."
+    },
+    {
+      "term": "diverging nozzle",
+      "def": "A nozzle that widens toward its exit, converting pressure (expansive energy) into flow velocity."
+    },
+    {
+      "term": "rotary engine",
+      "def": "Here, a machine in which the fluid expands as it works on the runner, as opposed to a turbine driven mainly by the momentum of a high-velocity jet."
+    },
+    {
+      "term": "slip",
+      "def": "The difference between the speed of the fluid and the speed of the disks; torque requires slip, while efficiency improves as it shrinks."
+    },
+    {
+      "term": "thermo-dynamic converter",
+      "def": "The claims' term for a heat engine, here driven by steam or hot gas."
+    },
+    {
+      "term": "compounding",
+      "def": "Splitting the expansion over several stages or machines in series."
+    },
+    {
+      "term": "volute",
+      "def": "A spiral casing passage whose area grows around the rotor, collecting or distributing fluid at the periphery."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "patent": "Filed August 27, 1914 and issued March 20, 1917 to Gideon Sundback, a Swedish-born engineer in Meadville, Pennsylvania, assigned to the Hookless Fastener Company (later Talon, Inc.). It is the patent for the slide fastener in the form still made today as the metal zipper. Every locking member on both tapes is the same small stamping: a pair of jaws clamped over a corded tape edge and a cup-shaped head with a projection on one face and a matching recess on the other. Members on the two tapes are staggered, so when the Y-channelled slider brings them together each projection nests in the recess of the next member. Earlier slide fasteners, starting with Whitcomb L. Judson's clasp locker patents of 1893, used hooks and eyes or different members on each side. The word \"zipper\" came later, as a B. F. Goodrich trade name for rubber boots fitted with these fasteners (1920s).",
+  "figs": {
+    "1": "The whole fastener in perspective with the slider part-way along. Above the slider the two stringers diverge through the arms of the Y and their members stand apart; below it the members interleave. The pull is the tape or bow 16 tied through ring 15, which hangs from cap 8 held by rivet 14. Stop members 5 sit on the free ends of the stringers; at the bottom, link 4 joins both stringers. The wavy break line shortens the drawing; the dot-dash line 3-3 marks the section of Fig. 3.",
+    "2": "The slider with its near side removed: the dashed line is the outline of the Y-shaped channel, the hatched band at the top and the hatched circle are cap 8 and rivet 14 in section. Members enter the two arms tilted and are turned into the interleaved, flat stack in the stem below the point of the cap, which divides the arms.",
+    "3": "Section on 3-3 of Fig. 1 through one closed pair, looking toward the slider, whose rounded end outline (sides 7) appears beyond. The tapes 1 run in from both sides; each corded edge 2, stitched at 3 and shown hatched, is squeezed into the jaws 17 of a member, and the recess 11 of the head sits in the middle.",
+    "4": "One locking member as stamped, seen face-on: base 9 with the recess 11 (shaded oval) at the left, the U-shaped jaws 17 opening to the right. The dashed outline shows the jaws spread to pass over the corded edge before they are pressed shut. The dot-dash line 5-5 marks the section of Fig. 5.",
+    "5": "Section on 5-5 of Fig. 4: the hatched head of base 9 is raised on top into projection 10 and hollowed underneath into recess 11, with the flat jaw 17 extending to the right.",
+    "6": "A length of one stringer: the woven tape 1 (cross-hatched patches indicate the fabric) with cord 2 along its edge and the dashed line of stitching 3. The dot-dash line 7-7 marks the section of Fig. 7.",
+    "7": "Section on 7-7 of Fig. 6: the thin tape 1 with a cord 2 on each face at its edge, stitched through at 3, forming the beaded edge the jaws grip.",
+    "8": "Section of the slider: the two hatched stamped sides 7 form the wide channel at the bottom and close up into a narrow neck at the top, where they are pinned to the folded cap 8 by rivet 14; ring 15 rises from the cap.",
+    "9": "Four interlocked members in section, enlarged, taken alternately from the left and right stringers (jaws 17 pointing out to each tape). Each hatched head carries projection 10 on top and recess 11 underneath, so every projection sits in the recess of the member above it. The upper two members are drawn tilted against the lower ones, the rocking the description says the members allow without coming apart."
+  },
+  "parts": {
+    "4": "Called \"fastening links\", \"locking members\" and \"connecting members\" in the description. It is the member joining both stringers at the closed end; per the description it may have jaws on each end.",
+    "5": "Printed once as \"stamp members 5\" (column 2). One on each stringer at the free end; together they are too wide to pass the bottom of the slider channel, which stops the slider.",
+    "17": "The numeral marks the jaws, and the description also uses it for the whole locking members (\"the members 17 on one stringer\")."
+  },
+  "glossary": [
+    {"term": "stringer", "def": "One of the two tapes carrying a row of locking members; called the tape or chain in modern zipper terms."},
+    {"term": "locking member", "def": "One interlocking element (a tooth or scoop in modern terms), here a single shape used on both stringers."},
+    {"term": "sliding cam operating device", "def": "The slider: it brings the members together when moved one way and pries them apart, by its central point, when moved the other."},
+    {"term": "beaded or corded edge", "def": "The thickened tape edge, here cords sewn on both faces, that the jaws of the members clamp onto."},
+    {"term": "bow", "def": "A loop of tape or cord used as the pull, tied through the ring on the slider."},
+    {"term": "staggered relation", "def": "Members on one stringer sit midway between those on the other, so they alternate when closed."}
+  ]
+}

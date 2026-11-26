@@ -1,0 +1,66 @@
+{
+ "patent": "Filed 1875-03-08 and issued 1878-08-27 to Christopher Latham Sholes of Milwaukee, assigned to The Type Writer Company of New York, and its drawings are signed for him by James Densmore as attorney. Sholes, with Carlos Glidden and Samuel W. Soule, had patented a type-writing machine in 1868 (US 79,265 and US 79,868); the resulting Sholes and Glidden Type-Writer was built by E. Remington and Sons from 1873. This patent claims improvements on that machine: a carriage that slides on a rear hinge-rail and can be turned up to show the writing, an adjustable trip-stop that rings a bell near the end of the line and stops the carriage, a ratchet line-space mechanism, carrying-bands that hold the paper to the platen, carriage return by hand-lever or treadle through a cone-pulley, and a spring-driven ribbon feed with a sideways ribbon regulator. The typebars hang in a circle and strike up against the underside of the platen, so the line being typed is out of sight. Fig. 3 shows letter rows beginning QWERTY, ASDF and ZCXV, and the patent is often cited as the earliest patent drawing of that layout. Its earlier development is traced in K. Yasuoka and M. Yasuoka, \"On the Prehistory of QWERTY\", ZINBUN 42 (2011).",
+ "figs": {
+  "1": "Front elevation of the machine on its stand J. The typebars K hang in a circle under top plate A^{2} and swing up to one point under platen C; the stepped rows of keys at the bottom sit on the front ends of the key-levers. The large circle behind the typebars at the left is the spring-wheel, the smaller one at the right the bell. Cone-pulley H is mounted outside the right side plate; cord J^{4} runs from it down to arm J^{3} of treadle J^{2} at the foot of the stand. Fig. 14 is drawn in the empty space between the legs and is a separate view.",
+  "2": "Side elevation with the keyboard at the left (front). Each key-lever K^{2} runs back to a pivot near the right; connecting-wires K^{4} lead up from the levers to the typebars K. The broken-line lever from key H^{6} at the front is hand-lever H^{5}, on the outer side of the frame. At the right, the spring-wheel drive (axle G^{2}, ratchet-wheel G^{5}) and driving-pulley L^{3} with cord M^{3} feed the ribbon. Hatched blocks are parts cut in section, such as cross-bar A^{3} at the right. Fig. 3 is drawn between the legs.",
+  "3": "The keyboard. Four rows of round key tops K^{3}; above them in the drawing are the key-levers K^{2}. Top row: figures 2 to 9 and punctuation; the letter rows read QWERTYUIOP, ASDFGHJKLM and ZCXVBN, with punctuation at the row ends. There are no 1 or 0 keys, and the letter keys show capitals only.",
+  "4": "Perspective of the carriage. Side bars B hinge and slide on rail A^{5}; journal-lugs B^{7} at their hind ends also carry vibratory frame E; paper-roll R^{2} on reel B^{6} lies above paper-table B^{4}. At the left end are the line-space parts: ratchet-wheel C^{2} on the platen, lever C^{3}, and guide-rack C^{7} with spring-rack C^{9} (shown alone in Fig. 11). Along the bottom, frame E carries toothed ratchet-bar E^{2} and trip-stop E^{3}, clamped at any point by set-screw E^{4}.",
+  "5": "The two ribbon spools N^{2}, each on a side axle N with grooved pulley N^{3} above and transmitting pulley N^{4} at the lower end. Rocking bar P runs between them; its arms P^{2} carry fingers P^{3} that sit in the pulley grooves, so rocking P slides both spools along their axles together and shifts the ribbon sideways.",
+  "6": "Another elevation of the carriage, platen C in the middle. Carrying-bands D^{4} pass round band-pulleys D^{3} on front axle D^{2} and pressure-roller D below, holding the paper against the platen. The bar across the bottom is rail A^{5}, with ratchet-bar E^{2} under it and arm E^{5} at the right.",
+  "7": "The letter-space rocking frame. Cross-bar S^{3} lies under all the key-levers; connecting-wires S^{4} join it to arms S^{2} on upper rocking bar S, so any key rocks S. Ratchet T is fixed to S and ratchet T^{2} is pivoted to it, pressed by spring T^{3}; both rise through top plate A^{2} (hatched, cut in section) into the carriage ratchet-bar. S^{5} and S^{6} are the threaded upper ends of the wires and their set-screws at arms S^{2}; spring S^{7} returns the frame.",
+  "8": "The main frame seen from the rear, without typebars and keys; cone-pulley H, outside the right side plate in Fig. 1, appears at the left. Above the top plate A^{2} are rail A^{5} on lugs A^{4} and ratchet-bar E^{2} with trip-stop E^{3}. Inside: bell F at lower left, its hammer F^{2} connected by a wire to handle F^{3} under the ratchet-bar; spring-wheel G^{3} at lower right, its cord G^{7} rising over bearing-wheel A^{7} to the carriage; cords from the spring-wheel drive to axle M and from M to spool pulley N^{4} (N^{5}).",
+  "9": "The spring-wheel from one side: frame G with wheel G^{3} on axle G^{2}, the coiled spring inside the wheel, and ratchet-wheel G^{5} on the axle.",
+  "10": "The spring-wheel from the other side: loose ratchet-wheel L on the same axle, driving-ratchet L^{2} pivoted on the spring-wheel, the grooved driving pulley in front, and holding-ratchet L^{4} on frame G. The spring-wheel turns L forward while the carriage advances; when the carriage is drawn back, L^{2} slips and L^{4} holds the ribbon drive still.",
+  "11": "Line-space lever and guide on carriage side bar B. Lever C^{3} carries driving-ratchet C^{4} at the platen ratchet-wheel; spring C^{6} returns it. The pin C^{8} on its fore end works in guide-rack C^{7}, and the setting of C^{7} in spring-rack C^{9} (pin C^{10}) limits the lever stroke, so it sets the line spacing.",
+  "12": "Alternative carriage drive: weight U on cord G^{7}, over pulley A^{7}, in place of the spring-wheel.",
+  "13": "Coiled spring G^{4} inside the spring-wheel, seen from the side.",
+  "14": "The carriage with paper on it. Rectangles R are the writing sheets; the cross-hatched patches Q^{2} are the inking papers laid between them. Q^{2} is not named in the description.",
+  "15": "The ribbon-spool regulator alone: rocking bar P, arms P^{2}, hooked fingers P^{3} and spring-ratchet P^{5} extending from the lower arm.",
+  "16": "Detail at the slot in the top plate: spring-ratchet P^{5} catches in rack P^{4}, which holds the regulator, and with it the course of inking-ribbon Q, where it is set."
+ },
+ "parts": {
+  "C^{5}": "No label for C^{5} could be read in the drawings.",
+  "G^{6}": "No label for G^{6} could be read in the drawings.",
+  "G'": "Printed in Fig. 9 as G with a short mark; the description lists no such letter. It points to a pawl on frame G next to ratchet-wheel G^{5}, where the description places holding-ratchet G^{6}.",
+  "Q^{2}": "Not in the description; marks the inking papers in Fig. 14.",
+  "T": "The description calls T and T^{2} together the combined vibratory ratchets or letter-space ratchets: they hold the carriage while the type strikes and let it advance one type-space after each key."
+ },
+ "glossary": [
+  {
+   "term": "ratchet",
+   "def": "In this patent, the pawl or catch that engages teeth; the toothed wheel or bar is the ratchet-wheel or ratchet-bar."
+  },
+  {
+   "term": "platen",
+   "def": "The roller the paper wraps round and the types strike against."
+  },
+  {
+   "term": "paper-carriage",
+   "def": "The frame that carries the platen and paper across the printing point, one type-space per key."
+  },
+  {
+   "term": "letter-space / line-space",
+   "def": "The step of the carriage along the line after each character, and the turn of the platen that feeds the paper to the next line."
+  },
+  {
+   "term": "upstrike",
+   "def": "A typebar arrangement in which the types swing up against the underside of the platen; the typist cannot see the line being written without lifting the carriage."
+  },
+  {
+   "term": "cone-pulley",
+   "def": "Two grooved wheels (sheaves) of different diameter fixed together; a short pull on the small sheave winds a long length of cord on the large one."
+  },
+  {
+   "term": "sheave",
+   "def": "A grooved wheel for a cord."
+  },
+  {
+   "term": "inking-ribbon",
+   "def": "An ink-soaked band between the types and the paper."
+  },
+  {
+   "term": "substantially as described",
+   "def": "Standard 19th-century claim ending that ties the claimed combination to the embodiment in the description."
+  }
+ ]
+}

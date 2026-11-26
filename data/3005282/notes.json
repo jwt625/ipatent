@@ -1,0 +1,74 @@
+{
+  "patent": "The LEGO brick coupling. Filed in the US on July 28, 1958 (Danish priority application January 28, 1958), issued October 24, 1961 to Godtfred Kirk Christiansen, son of LEGO founder Ole Kirk Christiansen, and assigned to Interlego A.G. of Switzerland. LEGO had sold hollow plastic bricks with studs on top since 1949; the patent itself says studs in two rows, and hollow bricks with internal projections coaxial with the studs, were already known. What it claims is the placement of the underside projections: each tube sits on the centre of a square of four studs, sized so that the outlines of those four studs, projected onto the bottom, touch it, and each stud outline also touches a side or end wall. A stud of one brick is then gripped between a tube and a wall (or between tubes) of the brick below, at any offset that keeps the stud grid aligned. The 2 x 4 brick of FIGS. 2-7, with eight studs and three tubes (claim 5), is the geometry LEGO still uses. The owner disclaimed claims 1-3 in 1978 (disclaimer filed March 31, 1978, Official Gazette May 23, 1978, printed with the patent); the patent expired the same year. Later attempts to protect the brick shape as a trade mark failed on the ground that its features are functional: Kirkbi AG v. Ritvik Holdings Inc., Supreme Court of Canada, 2005 SCC 65; Lego Juris v. OHIM, Court of Justice of the European Union, case C-48/09 P, 2010.",
+  "figs": {
+    "1": "The basic element with no walls: a flat plate 10 with eight studs 21 on top and three projections 22 hanging below, each centred among four studs. Short horizontal strokes on the top face are shading. Numeral 1 points to the whole element.",
+    "2": "Looking into the open underside of the 2 x 4 block. The heavy inner rectangle is the inside face of side walls 11 and end walls 12. The eight broken circles are the studs on the far (outer) face, projected through the bottom; each of the three tubes 22 touches four of them, and each outer circle also touches the wall. The 3-3 arrows mark the section of FIG. 3, through the tube axes.",
+    "3": "Section along 3-3. Diagonal hatching is cut plastic: end walls 12, bottom 10 and the three tube walls 22. The tubes rise to the rim, so their height equals the depth of cavity 15. Vertical line shading is the curved inside surfaces seen beyond the cut; the studs 21 below are not cut and are drawn in elevation.",
+    "4": "Upper block 2 pressed onto lower block 2a, shifted lengthwise by two stud spacings, so only half of each block overlaps the other. Vertical line shading marks the faces in shadow. The 5-5 arrows mark the section of FIG. 5, along the long centre line of both blocks.",
+    "5": "Section along 5-5. The left half of block 2 sits in the right half of block 2a: studs 21 of the upper block enter the cavity of 2a and bear against tubes 22a and end wall 12a. Because the cut runs along the centre line between the two stud rows, the studs themselves are behind the plane and drawn in elevation.",
+    "6": "Block 2 on block 2a shifted sideways by one stud row, so one row of the upper block's studs is in the lower block's cavity and the other overhangs. The 7-7 arrows mark the section of FIG. 7, across the width.",
+    "7": "Section along 7-7, across both blocks. The stud row of block 2 that lies over block 2a is gripped between side wall 11a and tube 22a; the other stud row hangs outside. Hatching as in FIG. 3.",
+    "8": "Same 2 x 4 plan as FIG. 2 but with tubes only at the first and third of the three possible centres; the middle position is empty. Each tube has four slits 18 through its wall, at 90-degree spacing, so it can flex when clamped.",
+    "9": "Same plan with two solid cross-shaped projections 23 instead of tubes. Each arm points diagonally at one of the four surrounding studs (broken circles) and ends in a concave arc that fits that stud's outline.",
+    "10": "Same plan with two hollow, roughly cross-shaped projections 24. Each is a closed wall with four concave arcs, one against each surrounding stud outline, joined by four short flat faces; each flat face carries one of the slits 18.",
+    "11": "Same plan with ten small slotted bars 25 in place of tubes: three in each stud row between neighbouring studs, and four between the two rows, one under each column. Each bar is split by slits 18. Broken circles are the studs 21.",
+    "12": "A 2 x 2 block with one corner cut away; the hatched faces are the cut. One central tube 22 is coaxial with opening 27 through base 10, so a round rod can pass through the block. The cutaway removes the fourth stud; three studs 21 remain visible."
+  },
+  "parts": {
+    "1": "Points to the whole stud-and-tube plate of FIG. 1; the plate itself is also numbered 10.",
+    "2": "The 2 x 4 block of FIGS. 2-7. In FIGS. 4-7 it is the upper of the two coupled blocks.",
+    "2a": "The lower of the two coupled blocks; identical to block 2. Parts of this block carry the same numerals with suffix a.",
+    "3": "Not numbered in the text; designates the two-tube block of FIG. 8.",
+    "4": "Not numbered in the text; designates the block of FIG. 9. Not to be confused with the section line of FIG. 2.",
+    "5": "Not numbered in the text; designates the block of FIG. 10. The 5-5 arrows in FIG. 4 are a section line, not this part.",
+    "6": "Not numbered in the text; designates the block of FIG. 11.",
+    "7": "Not numbered in the text; designates the square block of FIG. 12. The 7-7 arrows in FIG. 6 are a section line, not this part.",
+    "10a": "Not numbered in the text; the base plate (bottom) of block 2a.",
+    "11a": "Not numbered in the text; a side wall of block 2a.",
+    "12a": "Not numbered in the text; an end wall of block 2a.",
+    "15": "The open interior of the block; the text gives the tube height as equal to its depth.",
+    "21": "The studs on the outer face of the bottom. In the plan views they are the smaller broken circles.",
+    "21a": "Not numbered in the text; the studs of block 2a.",
+    "22": "The tubes inside the cavity, each centred on a square of four studs.",
+    "22a": "Not numbered in the text; the tubes of block 2a.",
+    "25": "The text gives no shape for these beyond their contact with the studs; the drawing shows short slotted bars."
+  },
+  "glossary": [
+    {
+      "term": "primary projections",
+      "def": "The patent's name for the studs on the outer face of the bottom."
+    },
+    {
+      "term": "secondary projections",
+      "def": "The patent's name for the projections inside the cavity; in the main embodiment, the tubes."
+    },
+    {
+      "term": "geometrically projected",
+      "def": "Outlines carried straight through the bottom, perpendicular to it, so that the studs on one face and the tubes on the other can be compared in one plan view."
+    },
+    {
+      "term": "clamping",
+      "def": "Holding by elastic interference: a stud is slightly squeezed between a tube and a wall, or between tubes, and friction keeps the bricks together until pulled apart."
+    },
+    {
+      "term": "parallelopiped",
+      "def": "The patent's spelling of parallelepiped; here a rectangular box."
+    },
+    {
+      "term": "co-axially with the centre of a square",
+      "def": "The tube axis passes through the centre of the square whose corners are the axes of four neighbouring studs."
+    },
+    {
+      "term": "longitudinal slit",
+      "def": "A cut along the length of a tube wall that lets the wall flex, increasing grip without needing tighter tolerances."
+    },
+    {
+      "term": "section line",
+      "def": "Paired arrows with a number (3-3, 5-5, 7-7) showing where a sectional view is cut and the direction it is viewed from."
+    },
+    {
+      "term": "disclaimer",
+      "def": "A statement filed by the patent owner giving up one or more claims of an issued patent."
+    }
+  ]
+}

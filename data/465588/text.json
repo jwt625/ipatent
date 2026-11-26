@@ -1,0 +1,259 @@
+{
+ "pn": "465588",
+ "number": "465,588",
+ "title": "TOILET-PAPER ROLL",
+ "inventors": [
+  "Seth Wheeler"
+ ],
+ "assignee": null,
+ "filed": "1891-06-08",
+ "issued": "1891-12-22",
+ "appl_no": "395,473",
+ "int_cl": null,
+ "us_cl": null,
+ "refs_patents": [],
+ "refs_other": [],
+ "examiners": null,
+ "claims_count": 1,
+ "drawing_figures": 2,
+ "abstract": "",
+ "cite_scheme": "printed page:line",
+ "sections": [
+  {
+   "heading": "",
+   "paras": [
+    {
+     "page": 1,
+     "cite": "p.1:1",
+     "col": null,
+     "line": null,
+     "text": "To all whom it may concern:"
+    },
+    {
+     "page": 1,
+     "cite": "p.1:2",
+     "col": null,
+     "line": null,
+     "text": "Be it known that I, SETH WHEELER, of the city and county of Albany, and State of New York, have invented certain new and useful Improvements in Toilet-Paper Rolls; and I do hereby declare that the following is a full, clear, and exact description thereof, reference being had to the accompanying drawings, forming a part of this specification."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:10",
+     "col": null,
+     "line": null,
+     "text": "My invention consists of a roll of connected sheets of paper for toilet use, said roll having incisions at intervals extending from the side of the web toward the center, but not meeting, and terminating in an angular cut, whereby the slight connection left may be separated without injury to the connected sheets. A difficulty with rolls of this character as heretofore manufactured has been due to the width of the bond uniting the sheets, which it has been necessary to make of considerable strength to withstand the tension of winding, but which it is desirable should be as frail as may be when the roll is unwound, otherwise the sheets do not separate with certainty and many of them are torn. Attempts have been made to remedy this by incisions in the bond that should not weaken it longitudinally; but such incisions avail little unless the sheets are pulled in a certain direction—a condition the user seldom considers or is aware of. In my improved roll I overcome this wholly by reducing the bond and terminating the lateral incisions in an angular cut, removing all liability of injury to the sheets in separating them. With this construction one sheet may be separated from the next without liability of the incisions turning in a direction parallel with the web and tearing off a considerable part of the contiguous sheet. At the same time I wind rolls containing any desired number of sheets."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:42",
+     "col": null,
+     "line": null,
+     "text": "In the drawings, Figure 1 is a view of my roll of paper having arched and serrated incisions with a sheet hanging therefrom. Fig. 2 represents a detached sheet of paper."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:46",
+     "col": null,
+     "line": null,
+     "text": "The roll a is composed of many sheets like b, Fig. 2, of soft paper suitable for toilet use. These sheets are produced by arched serrated incisions, as shown at c c′ c″ c‴ in Fig. 1, which extend from the edge of each sheet almost to the center, where the incisions terminate in an angular cut in the direction of the roll and the center line of the series of sheets, leaving a slight connection d, which serves to hold the sheets together. The purpose of this angular cut is to give the final tear, when the sheet is separated, a direction toward the center line of the series of sheets and prevent it taking a course parallel with it. The incisions are made sufficiently far apart to give a suitable sheet of paper for use. Such sheet is shown in Fig. 2."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:63",
+     "col": null,
+     "line": null,
+     "text": "The connection d, as shown in Fig. 1, permits of the easy severance of a sheet of paper from a roll, which will be intact and no litter is occasioned by such severance. The curved mode of dividing the sheets permits the end of a sheet to be found more readily, and the serrations aid materially in grasping the end of a sheet when not hanging from a roll; but I do not confine myself to this construction, as it is obvious that an angular termination may be given to incisions that are neither curved nor serrated."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:81",
+     "col": null,
+     "line": null,
+     "text": "SETH WHEELER."
+    },
+    {
+     "page": 1,
+     "cite": "p.1:82",
+     "col": null,
+     "line": null,
+     "text": "Witnesses: E. J. WHEELER, WM. A. WHEELER."
+    }
+   ]
+  }
+ ],
+ "brief_drawings": [
+  {
+   "fig": "1",
+   "page": 1,
+   "cite": "p.1:42",
+   "col": null,
+   "line": null,
+   "text": "In the drawings, Figure 1 is a view of my roll of paper having arched and serrated incisions with a sheet hanging therefrom."
+  },
+  {
+   "fig": "2",
+   "page": 1,
+   "cite": "p.1:44",
+   "col": null,
+   "line": null,
+   "text": "Fig. 2 represents a detached sheet of paper."
+  }
+ ],
+ "claims": [
+  {
+   "n": 1,
+   "page": 1,
+   "cite": "p.1:76",
+   "col": null,
+   "line": null,
+   "depends": null,
+   "text": "A roll of paper partially divided into sheets by lateral incisions extending from the sides of the web toward the center of the sheets, each sheet being connected to the next one by a Λ-shaped tongue, substantially as described."
+  }
+ ],
+ "ocr_fixes": [
+  {
+   "cite": "header",
+   "ocr": "Unrrep STATES",
+   "fixed": "UNITED STATES",
+   "basis": "scan"
+  },
+  {
+   "cite": "header",
+   "ocr": "Serial No, 396.473,",
+   "fixed": "Serial No. 395,473.",
+   "basis": "scan; Google Patents reads 395.473"
+  },
+  {
+   "cite": "header",
+   "ocr": "December 22,1891.",
+   "fixed": "December 22, 1891.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:1",
+   "ocr": "To ail whom",
+   "fixed": "To all whom",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:5",
+   "ocr": "Ido",
+   "fixed": "I do",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:18",
+   "ocr": "tothe",
+   "fixed": "to the",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:19",
+   "ocr": "-width",
+   "fixed": "width",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:22",
+   "ocr": "beas frailas",
+   "fixed": "be as frail as",
+   "basis": "scan (Google Patents reads 'trail')"
+  },
+  {
+   "cite": "p.1:25",
+   "ocr": "aretorn..",
+   "fixed": "are torn.",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:40",
+   "ocr": "roliscontaining",
+   "fixed": "rolls containing",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:41",
+   "ocr": "sheets. ,",
+   "fixed": "sheets.",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:48",
+   "ocr": "serrated.",
+   "fixed": "serrated",
+   "basis": "scan (the mark after the word is a speck smaller than the printed periods; Google Patents also reads 'serrated.')"
+  },
+  {
+   "cite": "p.1:49",
+   "ocr": "¢ c’ ec’ c’’",
+   "fixed": "c c′ c″ c‴",
+   "basis": "scan (italic c with one, two and three primes, as on the drawing)"
+  },
+  {
+   "cite": "p.1:49",
+   "ocr": "Fig. J,",
+   "fixed": "Fig. 1,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:50",
+   "ocr": "-which",
+   "fixed": "which",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:53",
+   "ocr": "sheets, .",
+   "fixed": "sheets,",
+   "basis": "scan"
+  },
+  {
+   "cite": "p.1:55",
+   "ocr": "hold thesheets together.",
+   "fixed": "hold the sheets together. The purpose of this",
+   "basis": "scan (OCR moved 'The purpose of this' to the end of the page)"
+  },
+  {
+   "cite": "p.1:59",
+   "ocr": "Theincisions",
+   "fixed": "The incisions",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:60",
+   "ocr": "asuit-",
+   "fixed": "a suit-",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:61",
+   "ocr": "able sheet of paper for use.",
+   "fixed": "able sheet of paper for use. Such sheet is",
+   "basis": "scan (OCR moved 'Such sheet is:' to the end of the page)"
+  },
+  {
+   "cite": "p.1:68",
+   "ocr": "asheet",
+   "fixed": "a sheet",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:76",
+   "ocr": "rollof",
+   "fixed": "roll of",
+   "basis": "scan + Google Patents"
+  },
+  {
+   "cite": "p.1:80",
+   "ocr": "a/-shaped",
+   "fixed": "a Λ-shaped",
+   "basis": "scan (bold inverted-V sign without crossbar; Google Patents reads '/\\')"
+  },
+  {
+   "cite": "p.1:84",
+   "ocr": "Wa.",
+   "fixed": "WM.",
+   "basis": "scan + Google Patents"
+  }
+ ]
+}

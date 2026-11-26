@@ -1,0 +1,19 @@
+{"pn": "748626", "figures": [
+ {"id": "1", "label": "Fig. 1", "sheet": 1, "page": 0, "crop": [247, 958, 1783, 2857], "rotate": 270, "front_page": false},
+ {"id": "2", "label": "Fig. 2", "sheet": 2, "page": 1, "crop": [319, 692, 1608, 2533], "rotate": 0, "front_page": false},
+ {"id": "3", "label": "Fig. 3", "sheet": 2, "page": 1, "crop": [326, 1938, 1070, 2603], "rotate": 0, "front_page": false}
+], "parts": [
+ {"ref": "24", "name": "boxes", "figs": ["3"], "alt": ["bank"]},
+ {"ref": "25", "name": "lot tickets", "figs": ["2"]},
+ {"ref": "26", "name": "dice", "figs": ["2"]},
+ {"ref": "27", "name": "shaking-boxes", "figs": ["2"]},
+ {"ref": "28", "name": "deeds", "figs": ["2"]},
+ {"ref": "29", "name": "notes", "figs": ["2"]},
+ {"ref": "30", "name": "individual mortgages", "figs": ["2"]},
+ {"ref": "31", "name": "bank mortgages", "figs": ["2"]},
+ {"ref": "32", "name": "charters", "figs": ["2"]},
+ {"ref": "33", "name": "luxuries", "figs": ["2"]},
+ {"ref": "34", "name": "legacies", "figs": ["2"]},
+ {"ref": "35", "name": "money", "figs": ["2"]},
+ {"ref": "36", "name": "checkers", "figs": ["2"]}
+]}

@@ -1,0 +1,24 @@
+{"pn": "1061206", "figures": [
+ {"id": "1", "label": "Fig. 1", "sheet": 1, "page": 0, "crop": [425, 1516, 1700, 2736], "rotate": 270, "front_page": false},
+ {"id": "2", "label": "Fig. 2", "sheet": 1, "page": 0, "crop": [440, 760, 1700, 1460], "rotate": 270, "front_page": false}
+], "parts": [
+ {"ref": "11", "name": "threaded nut", "figs": []},
+ {"ref": "12", "name": "shoulder", "figs": []},
+ {"ref": "13", "name": "flat rigid disks", "figs": ["1", "2"]},
+ {"ref": "14", "name": "openings", "figs": ["1"], "alt": ["orifices"]},
+ {"ref": "15", "name": "spokes", "figs": ["1"]},
+ {"ref": "16", "name": "shaft", "figs": ["1", "2"]},
+ {"ref": "17", "name": "intermediate washers", "figs": ["1", "2"]},
+ {"ref": "18", "name": "", "figs": ["1", "2"]},
+ {"ref": "19", "name": "end castings", "figs": ["1", "2"]},
+ {"ref": "20", "name": "outlets", "figs": ["2"], "alt": ["inlets", "orifices"]},
+ {"ref": "21", "name": "stuffing boxes", "figs": ["2"]},
+ {"ref": "22", "name": "central ring", "figs": ["1", "2"]},
+ {"ref": "23", "name": "flanged extensions", "figs": ["1"]},
+ {"ref": "24", "name": "inlets", "figs": ["1"]},
+ {"ref": "25", "name": "finished ports or nozzles", "figs": ["1"]},
+ {"ref": "26", "name": "circular grooves", "figs": ["2"]},
+ {"ref": "27", "name": "labyrinth packing", "figs": ["2"]},
+ {"ref": "28", "name": "supply pipes", "figs": ["1", "2"]},
+ {"ref": "29", "name": "valves", "figs": ["1", "2"]}
+]}

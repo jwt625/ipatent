@@ -1,0 +1,27 @@
+{
+  "pn": "2495429",
+  "inventors": [
+    {
+      "name": "Percy L. Spencer",
+      "printed": "Percy L. Spencer, West Newton, Mass.",
+      "city": "West Newton",
+      "region": "MA",
+      "country": "US"
+    }
+  ],
+  "assignees": [
+    {
+      "name": "Raytheon Manufacturing Company",
+      "printed": "Raytheon Manufacturing Company, Newton, Mass., a corporation of Delaware",
+      "org": "Raytheon",
+      "kind": "company",
+      "city": "Newton",
+      "region": "MA",
+      "country": "US"
+    }
+  ],
+  "source": {
+    "page": 1,
+    "where": "column 1 header (inventor, assignor to)"
+  }
+}

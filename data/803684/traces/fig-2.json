@@ -10,12 +10,23 @@
    "shapes": [
     {
      "t": "t",
-     "s": "Fig.2.",
-     "x": 200.0,
+     "s": "Fig.",
+     "x": 252.0,
      "y": 92.0,
-     "size": 72.0,
-     "len": 150.0,
-     "italic": true
+     "size": 70.0,
+     "len": 99.0,
+     "italic": true,
+     "anchor": "middle"
+    },
+    {
+     "t": "t",
+     "s": "2.",
+     "x": 329.0,
+     "y": 93.0,
+     "size": 70.0,
+     "len": 42.0,
+     "italic": true,
+     "anchor": "middle"
     }
    ]
   },
